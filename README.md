@@ -4,6 +4,10 @@
 
 > ✨ **项目状态:** 开发中 (In Development)
 
+> 📱 **iOS 移动端:** 本仓库现已包含基于 Expo (React Native + TypeScript) 的 **iOS 移动端重构版本**，
+> 位于 [`mobile/`](./mobile) 目录，并已实现原 Web 端"计划中"的**文本转语音 (TTS) 播放**功能。
+> 详见 [`mobile/README.md`](./mobile/README.md)。下文为原 Next.js Web 端文档。
+
 ## 核心目标
 
 "轻听" 的核心目标是成为一个**个人有声书转换和播放平台**。用户可以上传自己的电子书文件（如 PDF、EPUB、TXT、DOCX），系统会自动将这些文件内容提取成纯文本，并为未来的文本转语音（TTS）功能做好准备，最终实现"让阅读变得轻松"。
