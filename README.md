@@ -67,5 +67,6 @@ src/
 └── lib/
     ├── content.ts              # 频道与文章模型
     ├── pieces.ts               # 文章内容
-    └── tts.ts                  # 可插拔朗读引擎(SpeechEngine)
+    ├── tts.ts                  # 可插拔朗读引擎(SpeechEngine)
+    └── utils.ts                # 类名拼接等通用工具
 ```

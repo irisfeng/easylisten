@@ -78,21 +78,25 @@ export default function Reader({ piece }: { piece: Piece }) {
     engineRef.current?.setRate(next);
   };
 
-  // 空格键播放/暂停,方向键跳句。
+  // 空格键播放/暂停,方向键跳句。监听器只装一次,经 ref 调到最新的处理函数。
+  const toggleRef = useRef(toggle);
+  const skipRef = useRef(skip);
+  toggleRef.current = toggle;
+  skipRef.current = skip;
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.code === "Space") {
         e.preventDefault();
-        toggle();
+        toggleRef.current();
       } else if (e.code === "ArrowRight") {
-        skip(1);
+        skipRef.current(1);
       } else if (e.code === "ArrowLeft") {
-        skip(-1);
+        skipRef.current(-1);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  });
+  }, []);
 
   const progress =
     sentences.length > 0 && current >= 0
@@ -188,6 +192,11 @@ function PlayerBar({
   return (
     <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/90 backdrop-blur">
       <div
+        role="progressbar"
+        aria-label="朗读进度"
+        aria-valuenow={Math.round(progress)}
+        aria-valuemin={0}
+        aria-valuemax={100}
         className="h-0.5 bg-ink transition-[width] duration-300 ease-out"
         style={{ width: `${progress}%` }}
       />

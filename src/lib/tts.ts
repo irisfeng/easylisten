@@ -49,6 +49,9 @@ class WebSpeechEngine implements SpeechEngine {
   private sentenceCb: (i: number) => void = () => {};
   private doneCb: () => void = () => {};
   private stopped = false;
+  // cancel() 会异步触发被取消那句的 onend;代数不匹配的回调一律忽略,
+  // 防止变速/跳句时旧回调把重复的句子排进队列。
+  private generation = 0;
 
   isAvailable() {
     return typeof window !== "undefined" && "speechSynthesis" in window;
@@ -71,12 +74,13 @@ class WebSpeechEngine implements SpeechEngine {
     }
     this.index = i;
     this.sentenceCb(i);
+    const gen = this.generation;
     const u = new SpeechSynthesisUtterance(this.sentences[i]);
     const voice = this.pickVoice();
     if (voice) u.voice = voice;
     u.rate = this.rate;
     u.onend = () => {
-      if (!this.stopped) this.speakFrom(i + 1);
+      if (!this.stopped && gen === this.generation) this.speakFrom(i + 1);
     };
     window.speechSynthesis.speak(u);
   }
@@ -84,6 +88,7 @@ class WebSpeechEngine implements SpeechEngine {
   speak(sentences: string[], startIndex: number) {
     this.stop();
     this.stopped = false;
+    this.generation++;
     this.sentences = sentences;
     this.speakFrom(startIndex);
   }
@@ -105,6 +110,7 @@ class WebSpeechEngine implements SpeechEngine {
     this.rate = rate;
     // 变速对下一句生效;若正在朗读,从当前句重新起朗读以立即应用。
     if (!this.stopped && this.sentences.length) {
+      this.generation++;
       window.speechSynthesis.cancel();
       this.speakFrom(this.index);
     }

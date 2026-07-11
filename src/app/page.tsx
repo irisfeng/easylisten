@@ -98,6 +98,7 @@ function FilterChip({
   return (
     <button
       onClick={onClick}
+      aria-pressed={activeState}
       className={cn(
         "rounded-md px-3.5 py-1.5 text-sm transition-colors",
         activeState
