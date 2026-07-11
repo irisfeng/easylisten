@@ -1,0 +1,40 @@
+name: 每日精选
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间早 6:00,日刊在早高峰前就绪
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 召回候选
+        run: node scripts/ingest.mjs
+
+      - name: 评分与听稿改写
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/curate.mjs
+
+      - name: 提交今日日刊
+        run: |
+          git config user.name "easylisten-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content/daily.json content/candidates.json
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore: 每日精选 $(date -u +%F)"
+          git push

@@ -51,7 +51,27 @@ export interface Piece {
   publishedAt: string;
   intro: string;
   paragraphs: string[];
+  /** 细分兴趣标签,用于个性化排序。 */
+  topics?: string[];
+  /** 听稿的原文出处(管线产出的内容都有)。 */
+  source?: { name: string; url: string; originalTitle?: string };
 }
+
+/** 兴趣标签全集。首次进入时供用户勾选,也约束管线的 topics 输出。 */
+export const TOPICS = [
+  "航天与宇宙",
+  "脑与认知",
+  "气候与能源",
+  "AI 与技术",
+  "城市与生活",
+  "交通与出行",
+  "阅读与写作",
+  "思维方法",
+  "音乐",
+  "历史与艺术",
+  "科学史",
+  "社会观察",
+] as const;
 
 /** 按 260 字/分钟的朗读速度估算时长。 */
 export function listenMinutes(piece: Piece): number {

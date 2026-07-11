@@ -1,0 +1,23 @@
+{
+  "$comment": "轻听源库。管线只从这里召回内容;挑剔的源库本身就是编辑判断的一部分。weight 影响同分时的优先级。",
+  "sources": [
+    { "name": "Hacker News 首页", "feed": "https://hnrss.org/frontpage?points=150", "category": "science", "lang": "en", "weight": 0.8 },
+    { "name": "Ars Technica Science", "feed": "https://feeds.arstechnica.com/arstechnica/science", "category": "science", "lang": "en", "weight": 1.0 },
+    { "name": "Quanta Magazine", "feed": "https://api.quantamagazine.org/feed/", "category": "science", "lang": "en", "weight": 1.2 },
+    { "name": "Nature News", "feed": "https://www.nature.com/nature.rss", "category": "science", "lang": "en", "weight": 1.1 },
+    { "name": "NASA News", "feed": "https://www.nasa.gov/news-release/feed/", "category": "science", "lang": "en", "weight": 0.9 },
+    { "name": "Solidot 奇客", "feed": "https://www.solidot.org/index.rss", "category": "news", "lang": "zh", "weight": 1.0 },
+    { "name": "Reuters World", "feed": "https://feeds.reuters.com/Reuters/worldNews", "category": "news", "lang": "en", "weight": 1.1 },
+    { "name": "BBC World", "feed": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "news", "lang": "en", "weight": 1.0 },
+    { "name": "The Verge", "feed": "https://www.theverge.com/rss/index.xml", "category": "news", "lang": "en", "weight": 0.8 },
+    { "name": "阮一峰的网络日志", "feed": "https://www.ruanyifeng.com/blog/atom.xml", "category": "essay", "lang": "zh", "weight": 1.2 },
+    { "name": "Paul Graham Essays", "feed": "http://www.aaronsw.com/2002/feeds/pgessays.rss", "category": "essay", "lang": "en", "weight": 1.2 },
+    { "name": "Aeon Essays", "feed": "https://aeon.co/feed.rss", "category": "essay", "lang": "en", "weight": 1.1 },
+    { "name": "The Marginalian", "feed": "https://www.themarginalian.org/feed/", "category": "essay", "lang": "en", "weight": 1.0 },
+    { "name": "Longreads", "feed": "https://longreads.com/feed/", "category": "essay", "lang": "en", "weight": 0.9 },
+    { "name": "Pitchfork Best New Music", "feed": "https://pitchfork.com/feed/feed-album-reviews/rss", "category": "culture", "lang": "en", "weight": 0.9 },
+    { "name": "Open Culture", "feed": "https://www.openculture.com/feed", "category": "culture", "lang": "en", "weight": 1.0 },
+    { "name": "The Public Domain Review", "feed": "https://publicdomainreview.org/rss.xml", "category": "culture", "lang": "en", "weight": 1.1 },
+    { "name": "NPR Music", "feed": "https://feeds.npr.org/1039/rss.xml", "category": "culture", "lang": "en", "weight": 0.8 }
+  ]
+}

@@ -1,8 +1,14 @@
 import type { Piece } from "./content";
+import daily from "../../content/daily.json";
 
-export const PIECES: Piece[] = [
+/** 管线每日产出的听稿(content/daily.json,由 GitHub Actions 追加)。 */
+const DAILY_PIECES = daily as Piece[];
+
+/** 手写的长青选文,作为日刊之外的常驻内容。 */
+const SEED_PIECES: Piece[] = [
   {
     slug: "webb-and-the-first-light",
+    topics: ["航天与宇宙", "科学史"],
     title: "第一缕光",
     category: "science",
     author: "深空观测",
@@ -17,6 +23,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "why-we-sleep",
+    topics: ["脑与认知"],
     title: "我们为什么必须睡觉",
     category: "science",
     author: "神经科学笔记",
@@ -31,6 +38,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "quiet-return-of-rail",
+    topics: ["交通与出行", "气候与能源"],
     title: "夜行列车的回归",
     category: "news",
     author: "环球观察",
@@ -45,6 +53,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "cities-cooling-themselves",
+    topics: ["城市与生活", "气候与能源"],
     title: "会给自己降温的城市",
     category: "news",
     author: "环球观察",
@@ -59,6 +68,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "in-praise-of-slow-reading",
+    topics: ["阅读与写作"],
     title: "为慢读辩护",
     category: "essay",
     author: "林深",
@@ -73,6 +83,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "the-shape-of-a-good-question",
+    topics: ["思维方法"],
     title: "一个好问题的形状",
     category: "essay",
     author: "林深",
@@ -87,6 +98,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "why-a-song-gets-stuck",
+    topics: ["音乐", "脑与认知"],
     title: "为什么一首歌会卡在脑子里",
     category: "culture",
     author: "声音观察局",
@@ -101,6 +113,7 @@ export const PIECES: Piece[] = [
   },
   {
     slug: "the-color-that-almost-wasnt",
+    topics: ["历史与艺术", "科学史"],
     title: "差点不存在的颜色",
     category: "culture",
     author: "声音观察局",
@@ -114,6 +127,8 @@ export const PIECES: Piece[] = [
     ],
   },
 ];
+
+export const PIECES: Piece[] = [...DAILY_PIECES, ...SEED_PIECES];
 
 export function pieceBySlug(slug: string): Piece | undefined {
   return PIECES.find((p) => p.slug === slug);
