@@ -16,6 +16,8 @@ export interface Prefs {
   /** slug → 最高完听比例(0~1)。 */
   listened: Record<string, number>;
   favorites: string[];
+  /** 手动选择的浏览器朗读音色(仅无预生成音频时使用)。 */
+  voiceURI?: string;
 }
 
 const EMPTY: Prefs = {
@@ -46,6 +48,10 @@ export function savePrefs(prefs: Prefs) {
 
 export function setInterests(interests: string[]) {
   savePrefs({ ...loadPrefs(), interests, onboarded: true });
+}
+
+export function setVoiceURI(voiceURI: string) {
+  savePrefs({ ...loadPrefs(), voiceURI });
 }
 
 /** 记录一次收听:更新完听记录与频道亲和度。 */

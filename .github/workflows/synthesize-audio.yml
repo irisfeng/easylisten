@@ -1,16 +1,14 @@
-name: 每日精选
+name: 补生成语音
 
+# 手动触发:为所有还没有音频的听稿预生成神经语音(无需任何 secret)。
 on:
-  schedule:
-    # UTC 22:00 = 北京时间早 6:00,日刊在早高峰前就绪
-    - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
-  curate:
+  synthesize:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,22 +20,14 @@ jobs:
 
       - run: npm ci
 
-      - name: 召回候选
-        run: node scripts/ingest.mjs
-
-      - name: 评分与听稿改写
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/curate.mjs
-
       - name: 预生成神经语音
         run: node scripts/synthesize.mjs
 
-      - name: 提交今日日刊
+      - name: 提交音频
         run: |
           git config user.name "easylisten-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add content/daily.json content/candidates.json public/audio
+          git add public/audio
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "chore: 每日精选 $(date -u +%F)"
+          git commit -m "chore: 补生成听稿语音"
           git push
