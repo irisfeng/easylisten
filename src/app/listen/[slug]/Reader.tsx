@@ -4,8 +4,15 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Piece } from "@/lib/content";
 import { categoryOf, listenMinutes } from "@/lib/content";
-import { createSpeechEngine, splitSentences, type SpeechEngine } from "@/lib/tts";
+import { loadPrefs, recordListen, setVoiceURI, toggleFavorite } from "@/lib/prefs";
+import {
+  createSpeechEngine,
+  listVoices,
+  splitSentences,
+  type SpeechEngine,
+} from "@/lib/tts";
 import { cn } from "@/lib/utils";
+import audioManifest from "../../../../public/audio/manifest.json";
 
 const RATES = [0.8, 1, 1.25, 1.5];
 
@@ -30,18 +37,53 @@ export default function Reader({ piece }: { piece: Piece }) {
   const [state, setState] = useState<PlayState>("idle");
   const [current, setCurrent] = useState(-1);
   const [rate, setRate] = useState(1);
+  const [favorite, setFavorite] = useState(false);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const hasAudio = (audioManifest.slugs as string[]).includes(piece.slug);
+
+  // 完听率是个性化排序的核心信号:记录本次会话听到的最远句子。
+  const maxHeardRef = useRef(-1);
+  useEffect(() => {
+    if (current > maxHeardRef.current) maxHeardRef.current = current;
+  }, [current]);
+
+  // 浏览器语音列表异步加载;仅在走 WebSpeech 兜底时展示音色切换。
+  useEffect(() => {
+    if (hasAudio || typeof window === "undefined" || !("speechSynthesis" in window))
+      return;
+    const refresh = () => setVoices(listVoices());
+    refresh();
+    window.speechSynthesis.addEventListener("voiceschanged", refresh);
+    return () =>
+      window.speechSynthesis.removeEventListener("voiceschanged", refresh);
+  }, [hasAudio]);
 
   useEffect(() => {
-    const engine = createSpeechEngine();
+    // 切换文章时清零播放状态,避免复用组件把上一篇的进度记到新文章上
+    maxHeardRef.current = -1;
+    setCurrent(-1);
+    setState("idle");
+    setFavorite(loadPrefs().favorites.includes(piece.slug));
+    const engine = createSpeechEngine({
+      slug: piece.slug,
+      hasAudio,
+      voiceURI: loadPrefs().voiceURI,
+    });
     engineRef.current = engine;
     setAvailable(engine.isAvailable());
     engine.onSentence((i) => setCurrent(i));
     engine.onDone(() => {
+      maxHeardRef.current = sentences.length - 1;
       setState("idle");
       setCurrent(-1);
     });
-    return () => engine.stop();
-  }, []);
+    return () => {
+      engine.stop();
+      if (maxHeardRef.current >= 0) {
+        recordListen(piece, (maxHeardRef.current + 1) / sentences.length);
+      }
+    };
+  }, [piece, sentences.length, hasAudio]);
 
   const startFrom = (i: number) => {
     const engine = engineRef.current;
@@ -157,6 +199,21 @@ export default function Reader({ piece }: { piece: Piece }) {
             </p>
           ))}
         </div>
+
+        {piece.source && (
+          <p className="mt-10 border-t border-line pt-4 font-mono text-xs leading-relaxed text-ink-faint">
+            本文为轻听编辑部撰写的听稿,基于{" "}
+            <a
+              href={piece.source.url}
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-line underline-offset-2 transition-colors hover:text-ink"
+            >
+              {piece.source.name}
+            </a>{" "}
+            的报道{piece.source.originalTitle ? `《${piece.source.originalTitle}》` : ""}转述。
+          </p>
+        )}
       </article>
 
       <PlayerBar
@@ -164,9 +221,16 @@ export default function Reader({ piece }: { piece: Piece }) {
         state={state}
         rate={rate}
         progress={progress}
+        favorite={favorite}
+        voices={voices}
         onToggle={toggle}
         onSkip={skip}
         onRate={cycleRate}
+        onFavorite={() => setFavorite(toggleFavorite(piece.slug))}
+        onVoice={(uri) => {
+          setVoiceURI(uri);
+          engineRef.current?.setVoice?.(uri);
+        }}
       />
     </main>
   );
@@ -177,17 +241,25 @@ function PlayerBar({
   state,
   rate,
   progress,
+  favorite,
+  voices,
   onToggle,
   onSkip,
   onRate,
+  onFavorite,
+  onVoice,
 }: {
   available: boolean;
   state: PlayState;
   rate: number;
   progress: number;
+  favorite: boolean;
+  voices: SpeechSynthesisVoice[];
   onToggle: () => void;
   onSkip: (d: number) => void;
   onRate: () => void;
+  onFavorite: () => void;
+  onVoice: (uri: string) => void;
 }) {
   return (
     <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/90 backdrop-blur">
@@ -220,6 +292,36 @@ function PlayerBar({
             </IconButton>
 
             <div className="ml-auto flex items-center gap-3">
+              {voices.length > 1 && (
+                <select
+                  aria-label="切换朗读音色"
+                  defaultValue=""
+                  onChange={(e) => e.target.value && onVoice(e.target.value)}
+                  className="max-w-28 rounded-md border border-line bg-transparent px-2 py-1 font-mono text-xs text-ink-soft outline-none transition-colors hover:text-ink"
+                >
+                  <option value="" disabled>
+                    音色
+                  </option>
+                  {voices.map((v) => (
+                    <option key={v.voiceURI} value={v.voiceURI}>
+                      {v.name}
+                    </option>
+                  ))}
+                </select>
+              )}
+              <button
+                onClick={onFavorite}
+                aria-label={favorite ? "取消收藏" : "收藏"}
+                aria-pressed={favorite}
+                className={cn(
+                  "flex h-9 w-9 items-center justify-center rounded-full transition-colors",
+                  favorite
+                    ? "text-rose-deep"
+                    : "text-ink-soft hover:bg-black/[0.04] hover:text-ink",
+                )}
+              >
+                <Heart filled={favorite} />
+              </button>
               <button
                 onClick={onRate}
                 className="rounded-md px-2.5 py-1 font-mono text-xs text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
@@ -301,6 +403,13 @@ function SkipForward() {
     <svg {...S}>
       <path d="M6 7v10l8-5z" />
       <line x1="17" y1="6.5" x2="17" y2="17.5" />
+    </svg>
+  );
+}
+function Heart({ filled }: { filled: boolean }) {
+  return (
+    <svg {...S} fill={filled ? "currentColor" : "none"}>
+      <path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.7-6 1.9 0 3.5 1.1 4.3 2.7C11.8 6.1 13.4 5 15.3 5c3.1 0 4.9 3.2 3.7 6-2 4.5-9 9-9 9z" />
     </svg>
   );
 }

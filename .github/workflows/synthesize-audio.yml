@@ -1,0 +1,34 @@
+name: 补生成语音
+
+# 手动触发:为所有还没有音频的听稿预生成神经语音(无需任何 secret)。
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 预生成神经语音
+        run: node scripts/synthesize.mjs
+
+      - name: 提交音频
+        run: |
+          git config user.name "easylisten-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/audio
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore: 补生成听稿语音"
+          git push
