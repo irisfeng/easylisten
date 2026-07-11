@@ -73,7 +73,7 @@
     },
     {
       "name": "Paul Graham Essays",
-      "feed": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "feed": "https://www.aaronsw.com/2002/feeds/pgessays.rss",
       "category": "tech",
       "lang": "en",
       "weight": 1.2
@@ -126,6 +126,20 @@
       "category": "culture",
       "lang": "en",
       "weight": 0.8
+    },
+    {
+      "name": "NPR Health",
+      "feed": "https://feeds.npr.org/1128/rss.xml",
+      "category": "living",
+      "lang": "en",
+      "weight": 1.0
+    },
+    {
+      "name": "Atlas Obscura",
+      "feed": "https://www.atlasobscura.com/feeds/latest",
+      "category": "living",
+      "lang": "en",
+      "weight": 0.9
     }
   ]
 }

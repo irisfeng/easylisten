@@ -25,11 +25,15 @@
 
 ## 朗读引擎(可插拔)
 
-朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),播放器只依赖该接口:
+朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),按有无预生成音频自动选择:
 
-- **当前实现**:浏览器内置 **Web Speech API**——零成本、离线可用,先跑通完整体验。
-- **推荐目标**:接入 **[VoxCPM](https://github.com/OpenBMB/VoxCPM)**(48kHz、可克隆音色、
-  OpenAI 兼容接口),只需新增一个实现同一接口的引擎,页面代码无需改动。
+- **预生成神经语音(默认)**:`scripts/synthesize.mjs` 在 GitHub Actions 用
+  Edge 神经语音逐句合成 MP3(`public/audio/<slug>/<句序>.mp3`),经 CDN 分发,
+  音质与设备无关;按句分文件与播放器句级模型天然对齐,变速即时生效。
+- **Web Speech 兜底**:无音频的文章走浏览器内置语音,按质量启发式自动挑选
+  设备上最好的中文音色,播放器内可手动切换并记住选择。
+- **升级路径**:接入 **[VoxCPM](https://github.com/OpenBMB/VoxCPM)**(48kHz、
+  可克隆音色)时只需让管线换用它合成,播放器无需改动。
 
 选型细节见 [`docs/tts-evaluation.md`](./docs/tts-evaluation.md)。
 

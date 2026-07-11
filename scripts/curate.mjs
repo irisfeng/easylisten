@@ -20,6 +20,31 @@ const MODEL = "claude-opus-4-8";
 
 const client = new Anthropic();
 
+// 日刊按北京日历日期落款(定时任务在 UTC 22:00 = 北京次日早 6 点运行)
+const today =
+  process.env.ISSUE_DATE ||
+  new Date().toLocaleDateString("sv", { timeZone: "Asia/Shanghai" });
+
+// 结构化输出也可能因 refusal / max_tokens 终止,解析前先核验
+function extractJson(msg, label) {
+  if (msg.stop_reason !== "end_turn") {
+    throw new Error(`${label}: 非正常结束 stop_reason=${msg.stop_reason},本次不出刊`);
+  }
+  const text = msg.content.find((b) => b.type === "text")?.text;
+  if (!text) throw new Error(`${label}: 响应中没有文本块`);
+  return JSON.parse(text);
+}
+
+// 编排规则:连续 3 天缺席的领域提权,先从近三期日刊统计覆盖情况
+const existing = existsSync(DAILY) ? JSON.parse(readFileSync(DAILY, "utf8")) : [];
+const recentCats = new Set(
+  existing
+    .filter((p) => Date.now() - Date.parse(p.publishedAt) < 3 * 24 * 3600 * 1000)
+    .map((p) => p.category),
+);
+const ALL_CATS = ["science", "tech", "society", "humanities", "living", "culture"];
+const starved = ALL_CATS.filter((c) => !recentCats.has(c));
+
 // 第一步:全量评分,选出今日入选名单(结构化输出保证可解析)。
 const menu = CANDIDATES.map(
   (c, i) =>
@@ -34,7 +59,7 @@ const scoring = await client.messages.create({
   messages: [
     {
       role: "user",
-      content: `以下是今天的候选池。为每篇打分,并按编排规则选出今天的 ${PICKS_PER_DAY} 篇节目单(同一领域最多 2 篇,质量优先)。topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。\n\n${menu}`,
+      content: `以下是今天的候选池。为每篇打分,并按编排规则选出今天的 ${PICKS_PER_DAY} 篇节目单(同一领域最多 2 篇,质量优先)。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。\n\n${menu}`,
     },
   ],
   output_config: {
@@ -69,11 +94,10 @@ const scoring = await client.messages.create({
   },
 });
 
-const { picks } = JSON.parse(scoring.content.find((b) => b.type === "text").text);
+const { picks } = extractJson(scoring, "评分");
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
 
 // 第二步:逐篇改写为听稿。
-const today = new Date().toISOString().slice(0, 10);
 const pieces = [];
 
 for (const pick of picks.slice(0, PICKS_PER_DAY)) {
@@ -106,7 +130,7 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
     },
   });
   const msg = await stream.finalMessage();
-  const script = JSON.parse(msg.content.find((b) => b.type === "text").text);
+  const script = extractJson(msg, `听稿(${c.title})`);
 
   pieces.push({
     slug: `${today}-${slugify(c.title)}`,
@@ -128,7 +152,6 @@ function slugify(s) {
   return ascii || Math.random().toString(36).slice(2, 8);
 }
 
-const existing = existsSync(DAILY) ? JSON.parse(readFileSync(DAILY, "utf8")) : [];
 // 最新的排前面;保留最近 60 篇
 const merged = [...pieces, ...existing].slice(0, 60);
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));

@@ -59,6 +59,10 @@ export default function Reader({ piece }: { piece: Piece }) {
   }, [hasAudio]);
 
   useEffect(() => {
+    // 切换文章时清零播放状态,避免复用组件把上一篇的进度记到新文章上
+    maxHeardRef.current = -1;
+    setCurrent(-1);
+    setState("idle");
     setFavorite(loadPrefs().favorites.includes(piece.slug));
     const engine = createSpeechEngine({
       slug: piece.slug,

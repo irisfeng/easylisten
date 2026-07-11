@@ -12,8 +12,12 @@ permissions:
 jobs:
   curate:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
+      - name: 设定北京日期
+        run: echo "ISSUE_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
 
       - uses: actions/setup-node@v4
         with:
@@ -28,6 +32,7 @@ jobs:
       - name: 评分与听稿改写
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ISSUE_DATE: ${{ env.ISSUE_DATE }}
         run: node scripts/curate.mjs
 
       - name: 预生成神经语音
@@ -39,5 +44,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add content/daily.json content/candidates.json public/audio
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "chore: 每日精选 $(date -u +%F)"
+          git commit -m "chore: 每日精选 ${ISSUE_DATE}"
           git push

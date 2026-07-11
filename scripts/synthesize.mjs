@@ -47,12 +47,15 @@ const manifest = existsSync(MANIFEST)
 
 async function synthesize(text) {
   const tts = new MsEdgeTTS();
-  await tts.setMetadata(VOICE, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
-  const { audioStream } = await tts.toStream(text);
-  const chunks = [];
-  for await (const chunk of audioStream) chunks.push(chunk);
-  tts.close();
-  return Buffer.concat(chunks);
+  try {
+    await tts.setMetadata(VOICE, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
+    const { audioStream } = await tts.toStream(text);
+    const chunks = [];
+    for await (const chunk of audioStream) chunks.push(chunk);
+    return Buffer.concat(chunks);
+  } finally {
+    tts.close();
+  }
 }
 
 for (const piece of pieces) {

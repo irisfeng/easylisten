@@ -65,7 +65,9 @@ export const CATEGORIES: Category[] = [
 ];
 
 export function categoryOf(id: CategoryId): Category {
-  return CATEGORIES.find((c) => c.id === id)!;
+  // 内容 JSON 由管线产出,理论上总是合法;万一出现未知领域,退回第一个
+  // 领域渲染而不是让页面崩溃
+  return CATEGORIES.find((c) => c.id === id) ?? CATEGORIES[0];
 }
 
 /** 形态:简报(1-2 分钟快讯)/ 精选(3-6 分钟日刊主体)/ 长听(10 分钟+)。 */

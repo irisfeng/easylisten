@@ -167,6 +167,7 @@ class WebSpeechEngine implements SpeechEngine {
   private sentenceCb: (i: number) => void = () => {};
   private doneCb: () => void = () => {};
   private stopped = false;
+  private paused = false;
   // cancel() 会异步触发被取消那句的 onend;代数不匹配的回调一律忽略,
   // 防止变速/跳句时旧回调把重复的句子排进队列。
   private generation = 0;
@@ -211,21 +212,25 @@ class WebSpeechEngine implements SpeechEngine {
   speak(sentences: string[], startIndex: number) {
     this.stop();
     this.stopped = false;
+    this.paused = false;
     this.generation++;
     this.sentences = sentences;
     this.speakFrom(startIndex);
   }
 
   pause() {
+    this.paused = true;
     window.speechSynthesis.pause();
   }
 
   resume() {
+    this.paused = false;
     window.speechSynthesis.resume();
   }
 
   stop() {
     this.stopped = true;
+    this.paused = false;
     if (this.isAvailable()) window.speechSynthesis.cancel();
   }
 
@@ -241,7 +246,8 @@ class WebSpeechEngine implements SpeechEngine {
   }
 
   private restartIfPlaying() {
-    if (!this.stopped && this.sentences.length) {
+    // 暂停中改变速/音色只记下参数,不能悄悄恢复播放
+    if (!this.stopped && !this.paused && this.sentences.length) {
       this.generation++;
       window.speechSynthesis.cancel();
       this.speakFrom(this.index);

@@ -20,21 +20,24 @@ export interface Prefs {
   voiceURI?: string;
 }
 
-const EMPTY: Prefs = {
-  onboarded: false,
-  interests: [],
-  affinity: {},
-  listened: {},
-  favorites: [],
-};
+// recordListen 会就地修改嵌套对象,默认值必须每次新建,不能共享单例
+function emptyPrefs(): Prefs {
+  return {
+    onboarded: false,
+    interests: [],
+    affinity: {},
+    listened: {},
+    favorites: [],
+  };
+}
 
 export function loadPrefs(): Prefs {
-  if (typeof window === "undefined") return EMPTY;
+  if (typeof window === "undefined") return emptyPrefs();
   try {
     const raw = window.localStorage.getItem(KEY);
-    return raw ? { ...EMPTY, ...JSON.parse(raw) } : EMPTY;
+    return raw ? { ...emptyPrefs(), ...JSON.parse(raw) } : emptyPrefs();
   } catch {
-    return EMPTY;
+    return emptyPrefs();
   }
 }
 
