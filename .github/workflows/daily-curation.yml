@@ -50,9 +50,11 @@ jobs:
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: 每日精选 ${ISSUE_DATE}"
           REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          pushed=""
           for i in 1 2 3; do
-            git push "$REMOTE" "HEAD:${GITHUB_REF_NAME}" && break
+            git push "$REMOTE" "HEAD:${GITHUB_REF_NAME}" && { pushed=1; break; }
             echo "push 失败,变基重试 ($i/3)"
             git pull --rebase "$REMOTE" "${GITHUB_REF_NAME}"
             sleep 5
           done
+          [ -n "$pushed" ] || { echo "三次推送均失败"; exit 1; }
