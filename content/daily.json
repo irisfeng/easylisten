@@ -13,17 +13,21 @@
       "这听起来抽象,但它触碰的是一个很根本的边界:信息用什么形态存在,决定了它能说服谁。有些知识可以被写下来、打印出来、贴在墙上;而现在我们知道,至少在理论世界里,存在另一类知识,它只能以量子态的形式被递交和确认。",
       "对普通人来说,这不会改变明天的生活。但它划出了经典世界与量子世界之间又一道清晰的分界线——而每一次这样的分界被划清,我们对'计算到底能做什么'的理解,就又深了一层。"
     ],
-    "topics": ["AI 与技术", "思维方法"],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
     "source": {
       "name": "Quanta Magazine",
       "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
       "originalTitle": "Researchers Reveal the Power of 'Quantum Proofs'"
-    }
+    },
+    "form": "pick"
   },
   {
     "slug": "2026-07-11-night-train-map",
     "title": "一张地图上的欧洲夜车复兴",
-    "category": "news",
+    "category": "society",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-11",
     "intro": "2026 年的欧洲卧铺网络第一次被完整画在了一张地图上:有五条新线开通,也有十条线悄悄消失。",
@@ -34,17 +38,21 @@
       "把新增和消失放在一起看,你会得到一个更真实的图景:夜车的回归不是浪漫叙事的全面胜利,而是一场路线级别的精打细算。哪里的需求撑得起一列每天满员的卧铺车,哪里的夜车就活下来;撑不起的,再有情怀也会停运。",
       "这也许正是这张地图的价值:它让'绿色出行'从口号变成了可以逐条核对的时刻表。下一次规划欧洲旅行时,值得先打开它看一眼——你和目的地之间,可能正好有一张床。"
     ],
-    "topics": ["交通与出行", "气候与能源"],
+    "topics": [
+      "出行与旅行",
+      "气候与能源"
+    ],
     "source": {
       "name": "Euronews",
       "url": "https://www.euronews.com/travel/2026/06/04/love-night-trains-this-new-map-shows-all-the-sleeper-services-running-across-europe-in-202",
       "originalTitle": "This new map shows all the sleeper services running across Europe in 2026"
-    }
+    },
+    "form": "pick"
   },
   {
     "slug": "2026-07-11-little-red-dots",
     "title": "宇宙深处的小红点",
-    "category": "essay",
+    "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-11",
     "intro": "韦布望远镜看见了数百个此前从未见过的天体。它们很小,很红,出现得太早——而天文学家还不知道它们是什么。",
@@ -55,17 +63,20 @@
       "值得慢下来体会的,是这种悬而未决本身。韦布升空前,人们期待它'确认'我们对宇宙童年的想象;结果它带回的第一批重要发现之一,却是一群没人预订过的陌生访客。仪器越好,看见的不是越多的答案,而是越多的好问题。",
       "小红点最终会被归类、被解释、被写进教科书。但在那之前,它们提醒着我们:宇宙从不承诺符合预期。这大概就是把一台机器送到一百五十万公里之外,最值得的回报。"
     ],
-    "topics": ["航天与宇宙", "科学史"],
+    "topics": [
+      "航天与宇宙"
+    ],
     "source": {
       "name": "Quanta Magazine",
       "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
       "originalTitle": "Astrophysicists Puzzle Over Webb's New Universe"
-    }
+    },
+    "form": "pick"
   },
   {
     "slug": "2026-07-11-renaissance-pedant",
     "title": "文艺复兴舞台上的书呆子",
-    "category": "culture",
+    "category": "humanities",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-11",
     "intro": "五百年前的观众也爱看'知识分子出洋相'。舞台上的迂腐学究,是那个时代最锋利的讽刺。",
@@ -76,11 +87,15 @@
       "这面镜子照到今天依然清晰。术语的堆砌、引用的轰炸、'你连这个都没读过'的优越感——迂腐学究从未退场,只是换了舞台。而五百年前的观众已经用笑声投过票了:他们分得清博学和智慧的区别。",
       "所以这个老角色真正的遗产,也许是一个朴素的提醒:学问的意义在于让人更明白,而不是让人显得更高级。谁忘了这一点,谁就会成为下一个被写进喜剧的人。"
     ],
-    "topics": ["历史与艺术", "阅读与写作"],
+    "topics": [
+      "历史",
+      "阅读与写作"
+    ],
     "source": {
       "name": "The Public Domain Review",
       "url": "https://publicdomainreview.org/essays/",
       "originalTitle": "\"Worthless Idiot, Donkey Head\": Parodies of Pedantry on the Renaissance Stage"
-    }
+    },
+    "form": "pick"
   }
 ]

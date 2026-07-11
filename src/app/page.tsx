@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   CATEGORIES,
-  TOPICS,
+  TOPIC_GROUPS,
   categoryOf,
   listenMinutes,
   type CategoryId,
@@ -169,21 +169,33 @@ function Onboarding({ onDone }: { onDone: (interests: string[]) => void }) {
       <p className="mt-1 mb-4 text-sm text-ink-soft">
         选几个感兴趣的方向,首页会替你排好序。随时可以跳过,听着听着我们也会懂你。
       </p>
-      <div className="flex flex-wrap gap-2">
-        {TOPICS.map((t) => (
-          <button
-            key={t}
-            onClick={() => toggle(t)}
-            aria-pressed={selected.includes(t)}
-            className={cn(
-              "rounded-full border px-3.5 py-1.5 text-sm transition-colors",
-              selected.includes(t)
-                ? "border-ink bg-ink text-surface"
-                : "border-line text-ink-soft hover:border-ink-faint hover:text-ink",
-            )}
-          >
-            {t}
-          </button>
+      <div className="space-y-3">
+        {CATEGORIES.map((c) => (
+          <div key={c.id} className="flex flex-wrap items-center gap-2">
+            <span
+              className={cn(
+                "w-10 shrink-0 font-mono text-[0.65rem] uppercase tracking-[0.08em]",
+                c.deepClass,
+              )}
+            >
+              {c.name}
+            </span>
+            {TOPIC_GROUPS[c.id].map((t) => (
+              <button
+                key={t}
+                onClick={() => toggle(t)}
+                aria-pressed={selected.includes(t)}
+                className={cn(
+                  "rounded-full border px-3 py-1 text-sm transition-colors",
+                  selected.includes(t)
+                    ? "border-ink bg-ink text-surface"
+                    : "border-line text-ink-soft hover:border-ink-faint hover:text-ink",
+                )}
+              >
+                {t}
+              </button>
+            ))}
+          </div>
         ))}
       </div>
       <div className="mt-5 flex items-center gap-3">

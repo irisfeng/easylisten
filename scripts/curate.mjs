@@ -30,11 +30,11 @@ const scoring = await client.messages.create({
   model: MODEL,
   max_tokens: 8000,
   thinking: { type: "adaptive" },
-  system: `你是"轻听"的主编。严格按下面的评分标准挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
+  system: `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
   messages: [
     {
       role: "user",
-      content: `以下是今天的候选池。为每篇打分,并选出最值得听的 ${PICKS_PER_DAY} 篇(四个频道尽量各有覆盖,但质量优先)。\n\n${menu}`,
+      content: `以下是今天的候选池。为每篇打分,并按编排规则选出今天的 ${PICKS_PER_DAY} 篇节目单(同一领域最多 2 篇,质量优先)。topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。\n\n${menu}`,
     },
   ],
   output_config: {
@@ -50,7 +50,10 @@ const scoring = await client.messages.create({
               properties: {
                 index: { type: "integer" },
                 score: { type: "integer" },
-                category: { type: "string", enum: ["science", "news", "essay", "culture"] },
+                category: {
+                  type: "string",
+                  enum: ["science", "tech", "society", "humanities", "living", "culture"],
+                },
                 topics: { type: "array", items: { type: "string" } },
                 reason: { type: "string" },
               },
@@ -114,6 +117,7 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
     intro: script.intro,
     paragraphs: script.paragraphs,
     topics: pick.topics,
+    form: "pick",
     source: { name: c.sourceName, url: c.link, originalTitle: c.title },
   });
   console.log(`wrote 听稿: ${script.title}`);
