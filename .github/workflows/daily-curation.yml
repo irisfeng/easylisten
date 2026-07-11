@@ -15,6 +15,8 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: 设定北京日期
         run: echo "ISSUE_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
@@ -39,10 +41,18 @@ jobs:
         run: node scripts/synthesize.mjs
 
       - name: 提交今日日刊
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "easylisten-bot"
           git config user.email "bot@users.noreply.github.com"
           git add content/daily.json content/candidates.json public/audio
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: 每日精选 ${ISSUE_DATE}"
-          git push
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          for i in 1 2 3; do
+            git push "$REMOTE" "HEAD:${GITHUB_REF_NAME}" && break
+            echo "push 失败,变基重试 ($i/3)"
+            git pull --rebase "$REMOTE" "${GITHUB_REF_NAME}"
+            sleep 5
+          done

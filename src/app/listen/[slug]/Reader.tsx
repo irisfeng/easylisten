@@ -58,9 +58,13 @@ export default function Reader({ piece }: { piece: Piece }) {
       window.speechSynthesis.removeEventListener("voiceschanged", refresh);
   }, [hasAudio]);
 
+  // 已记录到的最远句子;只有超过它才再次记录,防止 pagehide/卸载重复回灌亲和度
+  const lastRecordedRef = useRef(-1);
+
   useEffect(() => {
     // 切换文章时清零播放状态,避免复用组件把上一篇的进度记到新文章上
     maxHeardRef.current = -1;
+    lastRecordedRef.current = -1;
     setCurrent(-1);
     setState("idle");
     setFavorite(loadPrefs().favorites.includes(piece.slug));
@@ -72,16 +76,30 @@ export default function Reader({ piece }: { piece: Piece }) {
     engineRef.current = engine;
     setAvailable(engine.isAvailable());
     engine.onSentence((i) => setCurrent(i));
+
+    // 手机上切后台/杀标签页不会触发组件卸载,进度必须在这些时刻落盘
+    const flush = () => {
+      if (maxHeardRef.current > lastRecordedRef.current) {
+        lastRecordedRef.current = maxHeardRef.current;
+        recordListen(piece, (maxHeardRef.current + 1) / sentences.length);
+      }
+    };
     engine.onDone(() => {
       maxHeardRef.current = sentences.length - 1;
       setState("idle");
       setCurrent(-1);
+      flush();
     });
+    const onHidden = () => {
+      if (document.visibilityState === "hidden") flush();
+    };
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", onHidden);
     return () => {
+      window.removeEventListener("pagehide", flush);
+      document.removeEventListener("visibilitychange", onHidden);
       engine.stop();
-      if (maxHeardRef.current >= 0) {
-        recordListen(piece, (maxHeardRef.current + 1) / sentences.length);
-      }
+      flush();
     };
   }, [piece, sentences.length, hasAudio]);
 
