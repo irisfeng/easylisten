@@ -97,11 +97,43 @@ const scoring = await client.messages.create({
 const { picks } = extractJson(scoring, "评分");
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
 
+/**
+ * 用 Firecrawl Keyless 抓取入选文章全文(Markdown)。
+ * 免费额度每月 1000 次、无需 API key,每日只抓入选的几篇,绰绰有余。
+ * 任何失败都返回 null,听稿回落到"仅基于 RSS 摘要"的原有模式。
+ */
+async function fetchFullText(url) {
+  try {
+    const res = await fetch("https://api.firecrawl.dev/v2/scrape", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ url, formats: ["markdown"] }),
+      signal: AbortSignal.timeout(45000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    // 兼容 {data:{markdown}} 与 {markdown} 两种响应形态
+    const md = json?.data?.markdown ?? json?.markdown;
+    return typeof md === "string" && md.trim().length > 200 ? md : null;
+  } catch (e) {
+    console.log(`firecrawl 抓取失败(${url}): ${e.message}`);
+    return null;
+  }
+}
+
+// 全文再长也只取前 12000 字,足够写 3-6 段听稿
+const FULLTEXT_LIMIT = 12000;
+
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
 for (const pick of picks.slice(0, PICKS_PER_DAY)) {
   const c = CANDIDATES[pick.index];
+  const fullText = await fetchFullText(c.link);
+  const material = fullText
+    ? `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`
+    : `摘要:${c.summary}\n\n注意:你只有摘要。只转述摘要中明确的信息,可以补充公认的背景知识,但不得虚构原文细节。`;
+  console.log(`素材: ${c.title} → ${fullText ? `全文 ${fullText.length} 字` : "仅摘要"}`);
   const stream = client.messages.stream({
     model: MODEL,
     max_tokens: 16000,
@@ -110,7 +142,7 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
     messages: [
       {
         role: "user",
-        content: `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n摘要:${c.summary}\n\n注意:你只有摘要。只转述摘要中明确的信息,可以补充公认的背景知识,但不得虚构原文细节。`,
+        content: `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}`,
       },
     ],
     output_config: {
