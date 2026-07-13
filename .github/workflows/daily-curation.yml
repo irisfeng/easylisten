@@ -32,8 +32,13 @@ jobs:
         run: node scripts/ingest.mjs
 
       - name: 评分与听稿改写
+        # 三个模型 key 任配其一即可(DeepSeek 或阿里百炼);未配的留空,脚本自动挑选
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           ISSUE_DATE: ${{ env.ISSUE_DATE }}
         run: node scripts/curate.mjs
 
