@@ -25,7 +25,8 @@ const PICKS_PER_DAY = 4;
 const PROVIDERS = [
   { env: "DEEPSEEK_API_KEY", base: "https://api.deepseek.com/v1", model: "deepseek-chat" },
   { env: "DASHSCOPE_API_KEY", base: "https://dashscope.aliyuncs.com/compatible-mode/v1", model: "qwen-plus" },
-  { env: "OPENAI_API_KEY", base: "https://api.openai.com/v1", model: "gpt-4o-mini" },
+  // 通用 OpenAI 兼容服务:base 由 LLM_BASE_URL 显式给定
+  { env: "OPENAI_API_KEY", base: process.env.LLM_BASE_URL || "https://api.openai.com/v1", model: "gpt-4o-mini" },
 ];
 const provider = PROVIDERS.find((p) => process.env[p.env]);
 if (!provider) {
@@ -34,7 +35,9 @@ if (!provider) {
   );
 }
 const LLM_KEY = process.env[provider.env];
-const LLM_BASE = process.env.LLM_BASE_URL || provider.base;
+// base 始终绑定到选中的服务商,杜绝把某家的 key 发到另一家的端点;
+// LLM_MODEL 覆盖只换模型名(同一端点),不改地址
+const LLM_BASE = provider.base;
 const MODEL = process.env.LLM_MODEL || provider.model;
 console.log(`模型服务: ${provider.env} → ${MODEL} @ ${LLM_BASE}`);
 
@@ -107,7 +110,12 @@ ${menu}`,
   "评分",
 );
 const picks = scoreResult.picks;
-if (!Array.isArray(picks) || picks.length === 0) throw new Error("评分:未返回有效 picks");
+const indexes = Array.isArray(picks) ? picks.map((p) => p.index) : [];
+const validPicks =
+  indexes.length === PICKS_PER_DAY &&
+  indexes.every((i) => Number.isInteger(i) && i >= 0 && i < CANDIDATES.length) &&
+  new Set(indexes).size === indexes.length;
+if (!validPicks) throw new Error("评分:未返回有效且唯一的 picks");
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
 
 /**
@@ -154,7 +162,15 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
 以 JSON 返回,格式为 {"title": "中文标题,凝练有余味,不用冒号堆砌", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"]}。`,
     `听稿(${c.title})`,
   );
-  if (!script.title || !Array.isArray(script.paragraphs) || script.paragraphs.length === 0) {
+  const validScript =
+    typeof script.title === "string" &&
+    script.title.trim() &&
+    typeof script.intro === "string" &&
+    script.intro.trim() &&
+    Array.isArray(script.paragraphs) &&
+    script.paragraphs.length >= 3 &&
+    script.paragraphs.every((p) => typeof p === "string" && p.trim());
+  if (!validScript) {
     console.log(`跳过(听稿格式不合格): ${c.title}`);
     continue;
   }
