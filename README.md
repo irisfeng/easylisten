@@ -37,6 +37,34 @@
 
 选型细节见 [`docs/tts-evaluation.md`](./docs/tts-evaluation.md)。
 
+## 自动精选管线
+
+每天北京时间早 6 点(GitHub Actions),从大量互联网内容中精挑细选并自动出刊:
+
+1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 20 个精选源,
+   去重、时效过滤、多源共振检测(热点信号)
+2. **精选** `scripts/curate.mjs`:大模型按 `content/rubric.md` 的评分标准与
+   编排规则选出每日 4 篇
+3. **取全文**:用 [Firecrawl Keyless](https://www.firecrawl.dev/blog/firecrawl-keyless-launch)
+   免费抓取入选文章原文(无需 API key),听稿严格基于原文转述;抓取失败
+   回落 RSS 摘要
+4. **听稿改写**:转述而非照读,注明出处;**合成语音** `scripts/synthesize.mjs`
+   逐句生成 MP3;自动提交,Vercel 自动发布
+
+### 启用自动出刊
+
+模型走 **OpenAI 兼容接口**,在仓库 **Settings → Secrets and variables → Actions**
+配置以下任一 secret 即可(脚本自动识别):
+
+| Secret 名 | 服务 | 默认模型 |
+|---|---|---|
+| `DEEPSEEK_API_KEY` | [DeepSeek](https://platform.deepseek.com) | `deepseek-chat` |
+| `DASHSCOPE_API_KEY` | 阿里百炼(DashScope) | `qwen-plus` |
+| `OPENAI_API_KEY` | OpenAI 兼容服务 | 需另配 `LLM_BASE_URL` |
+
+可选变量(Variables)`LLM_MODEL` / `LLM_BASE_URL` 覆盖默认模型与地址。
+Firecrawl 与语音合成均免费,无需任何配置。
+
 ## 技术栈
 
 - [Next.js 15](https://nextjs.org/)(App Router)
