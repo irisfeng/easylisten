@@ -74,7 +74,12 @@ async function chatJson(system, user, label) {
   const text = choice?.message?.content;
   if (!text) throw new Error(`${label}: 响应中没有内容`);
   // 个别模型会用 ```json 包裹,去壳后再解析
-  return JSON.parse(text.replace(/^```json\s*|\s*```$/g, "").trim());
+  const cleaned = text.replace(/^```json\s*|\s*```$/g, "").trim();
+  // 有的模型会在字符串里塞入未转义的裸控制字符(如换行),JSON.parse 会拒绝。
+  // 合法 JSON 里控制字符只作为词法记号间的空白出现,或以 \n 形式转义(两个字符);
+  // 因此把裸控制字符统一替换为空格,既修复串内非法字符,又不影响结构与已转义序列。
+  const safe = Array.from(cleaned, (ch) => (ch.charCodeAt(0) < 0x20 ? " " : ch)).join("");
+  return JSON.parse(safe);
 }
 
 // 日刊按北京日历日期落款(定时任务在 UTC 22:00 = 北京次日早 6 点运行)
@@ -150,6 +155,7 @@ const pieces = [];
 
 for (const pick of picks.slice(0, PICKS_PER_DAY)) {
   const c = CANDIDATES[pick.index];
+  try {
   const fullText = await fetchFullText(c.link);
   const material = fullText
     ? `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`
@@ -188,6 +194,9 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
     source: { name: c.sourceName, url: c.link, originalTitle: c.title },
   });
   console.log(`wrote 听稿: ${script.title}`);
+  } catch (e) {
+    console.log(`跳过(改写失败): ${c.title} — ${e.message}`);
+  }
 }
 
 function slugify(s) {
