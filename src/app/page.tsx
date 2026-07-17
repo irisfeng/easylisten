@@ -113,6 +113,15 @@ export default function Home() {
           </Reveal>
         ))}
       </ul>
+
+      <footer className="mt-20 border-t border-line pt-8">
+        <p className="font-serif text-lg italic leading-relaxed text-ink-soft">
+          眼睛太忙了,把阅读交给耳朵。
+        </p>
+        <p className="mt-2 font-mono text-xs tracking-[0.08em] text-ink-faint">
+          每天几篇 · 宁缺毋滥 · 轻听 EasyListen
+        </p>
+      </footer>
     </main>
   );
 }
