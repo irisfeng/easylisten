@@ -9,7 +9,13 @@ import editorialJson from "../../content/editorial.json";
  * - seeds.json:手写的长青选文
  * - editorial.json:每期的"主编的话"(管线随日刊生成)
  */
-export const PIECES: Piece[] = [...daily, ...seeds] as Piece[];
+/** 日刊(管线每日产出),首页按"期"分组展示。 */
+export const ISSUE_PIECES: Piece[] = daily as Piece[];
+
+/** 长青选文(手写),不属于任何一期,首页单列一节。 */
+export const EVERGREEN_PIECES: Piece[] = seeds as Piece[];
+
+export const PIECES: Piece[] = [...ISSUE_PIECES, ...EVERGREEN_PIECES];
 
 export interface EditorialNote {
   date: string;

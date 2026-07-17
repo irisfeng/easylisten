@@ -10,7 +10,12 @@ import {
   type CategoryId,
   type Piece,
 } from "@/lib/content";
-import { LATEST_NOTE, PIECES } from "@/lib/pieces";
+import {
+  EVERGREEN_PIECES,
+  ISSUE_PIECES,
+  LATEST_NOTE,
+  PIECES,
+} from "@/lib/pieces";
 import {
   hasSignal,
   loadPrefs,
@@ -30,8 +35,34 @@ export default function Home() {
     setPrefs(loadPrefs());
   }, []);
 
-  const pieces = useMemo(
-    () => (active === "all" ? PIECES : PIECES.filter((p) => p.category === active)),
+  // "今日"标记依赖当前日期,放到挂载后再算,避免与预渲染的 HTML 不一致
+  const [todayStr, setTodayStr] = useState("");
+  useEffect(() => {
+    setTodayStr(
+      new Date().toLocaleDateString("sv", { timeZone: "Asia/Shanghai" }),
+    );
+  }, []);
+
+  // 日刊按"期"分组(日期倒序);筛选后为空的期整组隐藏
+  const issueGroups = useMemo(() => {
+    const filtered =
+      active === "all"
+        ? ISSUE_PIECES
+        : ISSUE_PIECES.filter((p) => p.category === active);
+    const byDate = new Map<string, Piece[]>();
+    for (const p of filtered) {
+      const arr = byDate.get(p.publishedAt) ?? [];
+      arr.push(p);
+      byDate.set(p.publishedAt, arr);
+    }
+    return [...byDate.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+  }, [active]);
+
+  const evergreen = useMemo(
+    () =>
+      active === "all"
+        ? EVERGREEN_PIECES
+        : EVERGREEN_PIECES.filter((p) => p.category === active),
     [active],
   );
 
@@ -106,13 +137,35 @@ export default function Home() {
         </div>
       </nav>
 
-      <ul className="flex flex-col">
-        {pieces.map((p, i) => (
-          <Reveal as="li" key={p.slug} index={i}>
-            <PieceRow piece={p} index={i} />
-          </Reveal>
-        ))}
-      </ul>
+      {issueGroups.map(([date, list]) => (
+        <section key={date} className="mb-12">
+          <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
+            {dateLabel(date, todayStr)}
+          </h2>
+          <ul className="flex flex-col">
+            {list.map((p, i) => (
+              <Reveal as="li" key={p.slug} index={i}>
+                <PieceRow piece={p} index={i} />
+              </Reveal>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {evergreen.length > 0 && (
+        <section className="mb-12">
+          <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
+            长青 · 不过时的选文
+          </h2>
+          <ul className="flex flex-col">
+            {evergreen.map((p, i) => (
+              <Reveal as="li" key={p.slug} index={i}>
+                <PieceRow piece={p} index={i} />
+              </Reveal>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <footer className="mt-20 border-t border-line pt-8">
         <p className="font-serif text-lg italic leading-relaxed text-ink-soft">
@@ -124,6 +177,14 @@ export default function Home() {
       </footer>
     </main>
   );
+}
+
+/** 期眉标:今日刊 · 7 月 18 日 · 周六;非当日只显示日期。 */
+function dateLabel(iso: string, today: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const week = "日一二三四五六"[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
+  const base = `${m} 月 ${d} 日 · 周${week}`;
+  return iso === today ? `今日刊 · ${base}` : base;
 }
 
 function PieceRow({
