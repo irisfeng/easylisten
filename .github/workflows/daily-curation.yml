@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   curate:
@@ -63,3 +64,14 @@ jobs:
             sleep 5
           done
           [ -n "$pushed" ] || { echo "三次推送均失败"; exit 1; }
+
+      # 任何一步失败都自动开 issue 告警,仓库所有者会收到 GitHub 通知,
+      # 避免定时任务失败无人知晓、日刊静默断更
+      - name: 失败告警
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create -R "$GITHUB_REPOSITORY" \
+            --title "⚠️ 每日精选 ${ISSUE_DATE:-未知日期} 出刊失败" \
+            --body "定时出刊任务失败,今天的日刊没有发出。运行日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
