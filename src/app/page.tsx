@@ -10,7 +10,7 @@ import {
   type CategoryId,
   type Piece,
 } from "@/lib/content";
-import { PIECES } from "@/lib/pieces";
+import { LATEST_NOTE, PIECES } from "@/lib/pieces";
 import {
   hasSignal,
   loadPrefs,
@@ -53,6 +53,16 @@ export default function Home() {
           一个可以听的阅读空间。从科学到新闻,从深度长文到流行文化,
           每天从大量来源里替你挑出值得听的几篇。
         </p>
+        {LATEST_NOTE && (
+          <div className="mt-8 max-w-xl border-l-2 border-line pl-4">
+            <p className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
+              主编的话 · {LATEST_NOTE.date}
+            </p>
+            <p className="mt-2 text-[0.95rem] leading-relaxed text-ink-soft">
+              {LATEST_NOTE.note}
+            </p>
+          </div>
+        )}
       </header>
 
       {prefs && !prefs.onboarded && (
@@ -134,6 +144,11 @@ function PieceRow({
         >
           {cat.name}
         </span>
+        {piece.form === "long" && (
+          <span className="rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft">
+            深读
+          </span>
+        )}
         <span className="font-mono text-xs text-ink-faint">
           {listenMinutes(piece)} 分钟 · {piece.author}
         </span>
