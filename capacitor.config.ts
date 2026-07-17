@@ -10,7 +10,8 @@ const config: CapacitorConfig = {
   appName: "轻听",
   webDir: "out",
   server: {
-    url: "https://easylisten.vercel.app",
+    // 自有域名经 Cloudflare 解析,国内可访问;vercel.app 在国内被墙
+    url: "https://easylisten.shddai.net",
   },
   ios: {
     contentInset: "automatic",
