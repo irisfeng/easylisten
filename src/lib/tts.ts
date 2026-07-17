@@ -50,7 +50,11 @@ export function splitSentences(paragraphs: string[]): string[] {
 /* ------------------------------------------------------------------ */
 
 class AudioEngine implements SpeechEngine {
+  // 关键:全程复用同一个 audio 元素。iOS 在后台/锁屏时会拒绝"没有用户
+  // 手势加持的新元素"调 play(),但允许已被点击播放过的元素在 ended 回调里
+  // 换 src 续播——每句新建元素会导致锁屏后播完当前句就停。
   private audio: HTMLAudioElement | null = null;
+  private preloader: HTMLAudioElement | null = null;
   private total = 0;
   private rate = 1;
   private stopped = false;
@@ -67,6 +71,16 @@ class AudioEngine implements SpeechEngine {
     return `/audio/${this.slug}/${i}.mp3`;
   }
 
+  private ensureElement(): HTMLAudioElement {
+    if (!this.audio) {
+      this.audio = new Audio();
+      this.audio.preload = "auto";
+      // iOS 上避免劫持成全屏播放
+      this.audio.setAttribute("playsinline", "");
+    }
+    return this.audio;
+  }
+
   private playFrom(i: number) {
     if (this.stopped) return;
     if (i >= this.total) {
@@ -74,10 +88,7 @@ class AudioEngine implements SpeechEngine {
       return;
     }
     this.sentenceCb(i);
-    this.detach();
-    const audio = new Audio(this.url(i));
-    this.audio = audio;
-    audio.playbackRate = this.rate;
+    const audio = this.ensureElement();
     audio.onended = () => {
       if (!this.stopped) this.playFrom(i + 1);
     };
@@ -85,26 +96,26 @@ class AudioEngine implements SpeechEngine {
     audio.onerror = () => {
       if (!this.stopped) this.playFrom(i + 1);
     };
+    // 部分浏览器换 src 后会重置播放速率,载入元数据后再钉一次
+    audio.onloadedmetadata = () => {
+      audio.playbackRate = this.rate;
+    };
+    audio.src = this.url(i);
+    audio.playbackRate = this.rate;
     void audio.play().catch(() => {});
-    // 预取下一句,消除句间加载间隙
+    // 预取下一句,消除句间加载间隙(只热 HTTP 缓存,不参与播放)
     if (i + 1 < this.total) {
-      const next = new Audio();
-      next.preload = "auto";
-      next.src = this.url(i + 1);
-    }
-  }
-
-  private detach() {
-    if (this.audio) {
-      this.audio.onended = null;
-      this.audio.onerror = null;
-      this.audio.pause();
-      this.audio = null;
+      if (!this.preloader) {
+        this.preloader = new Audio();
+        this.preloader.preload = "auto";
+      }
+      this.preloader.src = this.url(i + 1);
     }
   }
 
   speak(sentences: string[], startIndex: number) {
-    this.stop();
+    this.stopped = true;
+    this.audio?.pause();
     this.stopped = false;
     this.total = sentences.length;
     this.playFrom(startIndex);
@@ -120,7 +131,14 @@ class AudioEngine implements SpeechEngine {
 
   stop() {
     this.stopped = true;
-    this.detach();
+    if (this.audio) {
+      this.audio.onended = null;
+      this.audio.onerror = null;
+      this.audio.onloadedmetadata = null;
+      this.audio.pause();
+      this.audio.removeAttribute("src");
+      this.audio = null;
+    }
   }
 
   setRate(rate: number) {
