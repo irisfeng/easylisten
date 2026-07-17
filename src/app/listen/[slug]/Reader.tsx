@@ -143,6 +143,38 @@ export default function Reader({ piece }: { piece: Piece }) {
   const skipRef = useRef(skip);
   toggleRef.current = toggle;
   skipRef.current = skip;
+
+  // Media Session:锁屏/控制中心显示曲目信息并接管播放控制
+  // (系统的播放/暂停、上一曲/下一曲映射到播放器的暂停与跳句)。
+  useEffect(() => {
+    if (typeof navigator === "undefined" || !("mediaSession" in navigator)) return;
+    const ms = navigator.mediaSession;
+    ms.metadata = new MediaMetadata({
+      title: piece.title,
+      artist: "轻听 · EasyListen",
+      album: cat.name,
+      artwork: [
+        { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+        { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      ],
+    });
+    ms.setActionHandler("play", () => toggleRef.current());
+    ms.setActionHandler("pause", () => toggleRef.current());
+    ms.setActionHandler("previoustrack", () => skipRef.current(-1));
+    ms.setActionHandler("nexttrack", () => skipRef.current(1));
+    return () => {
+      ms.setActionHandler("play", null);
+      ms.setActionHandler("pause", null);
+      ms.setActionHandler("previoustrack", null);
+      ms.setActionHandler("nexttrack", null);
+    };
+  }, [piece, cat.name]);
+
+  useEffect(() => {
+    if (typeof navigator === "undefined" || !("mediaSession" in navigator)) return;
+    navigator.mediaSession.playbackState =
+      state === "playing" ? "playing" : state === "paused" ? "paused" : "none";
+  }, [state]);
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.code === "Space") {
