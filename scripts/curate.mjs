@@ -19,7 +19,10 @@ const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
 const CANDIDATES = JSON.parse(readFileSync(resolve(ROOT, "content/candidates.json"), "utf8"));
 const DAILY = resolve(ROOT, "content/daily.json");
 
-const PICKS_PER_DAY = 4;
+// 编排:每期 2–5 篇浮动,只收达到质量门槛的;宁缺毋滥
+const MIN_PICKS = 2;
+const MAX_PICKS = 5;
+const QUALITY_BAR = 80;
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
 const PROVIDERS = [
@@ -97,6 +100,14 @@ const recentCats = new Set(
 const ALL_CATS = ["science", "tech", "society", "humanities", "living", "culture"];
 const starved = ALL_CATS.filter((c) => !recentCats.has(c));
 
+// 跨天去重:近七天已出刊的选题,提示模型避开同一事件与同质题材
+const recentTitles = existing
+  .filter((p) => Date.now() - Date.parse(p.publishedAt) < 7 * 24 * 3600 * 1000)
+  .map((p) => p.source?.originalTitle || p.title);
+
+// 周六(以北京日期计)额外出一篇"周末深读"
+const isSaturday = new Date(`${today}T00:00:00Z`).getUTCDay() === 6;
+
 // 第一步:全量评分,选出今日入选名单(结构化输出保证可解析)。
 const menu = CANDIDATES.map(
   (c, i) =>
@@ -105,23 +116,44 @@ const menu = CANDIDATES.map(
 
 const scoreResult = await chatJson(
   `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
-  `以下是今天的候选池。为每篇打分,并按编排规则选出今天的 ${PICKS_PER_DAY} 篇节目单(同一领域最多 2 篇,质量优先)。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}
+  `以下是今天的候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
+近七天已讲过这些内容,除非有重大新进展,不要再选同一事件或高度同质的选题:${recentTitles.slice(0, 40).join(" / ")}。` : ""}
 category 从这六个里选:science、tech、society、humanities、living、culture。
-topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。
+topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。${isSaturday ? `
+今天是周六,请额外挑一篇最适合"周末深读"的候选填进 deep 字段:优先叙事有纵深、论证完整的非热点长文(essays、深度报道),它不占节目单名额,且不得与 picks 重复。` : ""}
 
-以 JSON 返回,格式为 {"picks": [{"index": 候选序号(整数), "score": 分数(整数), "category": 领域, "topics": [话题], "reason": "一句话理由"}]}。
+以 JSON 返回,格式为 {"picks": [{"index": 候选序号(整数), "score": 分数(整数), "category": 领域, "topics": [话题], "reason": "一句话理由"}]${isSaturday ? `, "deep": {"index": 候选序号(整数), "category": 领域, "topics": [话题]}` : ""}}。
 
 ${menu}`,
   "评分",
 );
-const picks = scoreResult.picks;
-const indexes = Array.isArray(picks) ? picks.map((p) => p.index) : [];
-const validPicks =
-  indexes.length === PICKS_PER_DAY &&
+const rawPicks = Array.isArray(scoreResult.picks) ? scoreResult.picks : [];
+const indexes = rawPicks.map((p) => p.index);
+const structValid =
+  indexes.length >= 1 &&
+  indexes.length <= MAX_PICKS &&
   indexes.every((i) => Number.isInteger(i) && i >= 0 && i < CANDIDATES.length) &&
   new Set(indexes).size === indexes.length;
-if (!validPicks) throw new Error("评分:未返回有效且唯一的 picks");
+if (!structValid) throw new Error("评分:未返回有效且唯一的 picks");
+// 质量门槛在代码里再执行一次,不全信模型的自觉
+const picks = rawPicks.filter((p) => Number.isInteger(p.score) && p.score >= QUALITY_BAR);
+if (picks.length === 0) {
+  console.log(`今日候选均未达 ${QUALITY_BAR} 分,宁缺毋滥,本期不出刊`);
+  process.exit(0);
+}
+if (picks.length < MIN_PICKS) {
+  console.log(`达标仅 ${picks.length} 篇,少而精照常出刊`);
+}
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
+
+// 周末深读候选:结构合法且不与 picks 重复才有效
+const deep = isSaturday ? scoreResult.deep : null;
+const deepValid =
+  deep &&
+  Number.isInteger(deep.index) &&
+  deep.index >= 0 &&
+  deep.index < CANDIDATES.length &&
+  !picks.some((p) => p.index === deep.index);
 
 /**
  * 用 Firecrawl Keyless 抓取入选文章全文(Markdown)。
@@ -147,13 +179,14 @@ async function fetchFullText(url) {
   }
 }
 
-// 全文再长也只取前 12000 字,足够写 3-6 段听稿
+// 全文再长也只取前 12000 字,足够写 3-6 段听稿;深读需要更足的素材
 const FULLTEXT_LIMIT = 12000;
+const DEEP_FULLTEXT_LIMIT = 24000;
 
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
-for (const pick of picks.slice(0, PICKS_PER_DAY)) {
+for (const pick of picks) {
   const c = CANDIDATES[pick.index];
   try {
   const fullText = await fetchFullText(c.link);
@@ -199,6 +232,53 @@ for (const pick of picks.slice(0, PICKS_PER_DAY)) {
   }
 }
 
+// 周末深读:基于足量原文精写十分钟长稿;素材不足或改写失败则放弃,不硬写
+if (deepValid) {
+  const c = CANDIDATES[deep.index];
+  try {
+    const fullText = await fetchFullText(c.link);
+    if (!fullText || fullText.length < 3000) {
+      console.log(`深读放弃(原文不足以支撑长稿): ${c.title}`);
+    } else {
+      console.log(`深读素材: ${c.title} → 全文 ${fullText.length} 字`);
+      const script = await chatJson(
+        `你是"轻听"的撰稿人。按评分标准里的"周末深读改写要求"工作。\n\n${RUBRIC}`,
+        `把下面这篇长文改写成"周末深读"中文听稿:2200–3500 字、7–12 段。不是把短稿拉长,而是保留原文的论证层次、关键细节与转折;开头一段交代为什么值得花十分钟听它。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n原文全文(Markdown,可能截断):\n${fullText.slice(0, DEEP_FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。\n\n以 JSON 返回,格式为 {"title": "中文标题,凝练有余味", "intro": "一句话导语", "paragraphs": ["每段一个字符串"]}。`,
+        `深读(${c.title})`,
+      );
+      const validDeep =
+        typeof script.title === "string" &&
+        script.title.trim() &&
+        typeof script.intro === "string" &&
+        script.intro.trim() &&
+        Array.isArray(script.paragraphs) &&
+        script.paragraphs.length >= 6 &&
+        script.paragraphs.every((p) => typeof p === "string" && p.trim()) &&
+        script.paragraphs.join("").length >= 1600;
+      if (!validDeep) {
+        console.log(`深读放弃(听稿不合格): ${c.title}`);
+      } else {
+        pieces.push({
+          slug: `${today}-${slugify(c.title)}`,
+          title: script.title,
+          category: ALL_CATS.includes(deep.category) ? deep.category : "humanities",
+          author: "轻听编辑部",
+          publishedAt: today,
+          intro: script.intro,
+          paragraphs: script.paragraphs,
+          topics: Array.isArray(deep.topics) ? deep.topics : [],
+          form: "long",
+          shelf: "evergreen",
+          source: { name: c.sourceName, url: c.link, originalTitle: c.title },
+        });
+        console.log(`wrote 深读: ${script.title}`);
+      }
+    }
+  } catch (e) {
+    console.log(`深读放弃(失败): ${c.title} — ${e.message}`);
+  }
+}
+
 function slugify(s) {
   const ascii = s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
   return ascii || Math.random().toString(36).slice(2, 8);
@@ -208,3 +288,26 @@ function slugify(s) {
 const merged = [...pieces, ...existing].slice(0, 60);
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
+
+// 主编的话:点出今天几篇之间的隐线。生成失败只跳过,不影响出刊。
+if (pieces.length > 0) {
+  const EDITORIAL = resolve(ROOT, "content/editorial.json");
+  try {
+    const r = await chatJson(
+      `你是"轻听"的主编。按评分标准里的"主编的话"要求工作:语气克制、有判断,不逐篇罗列,不喊口号,不用感叹号。\n\n${RUBRIC}`,
+      `今天的节目单如下,请写一段 60–100 字的"主编的话"。\n\n${pieces.map((p) => `《${p.title}》——${p.intro}`).join("\n")}\n\n以 JSON 返回:{"note": "主编的话"}。`,
+      "主编导语",
+    );
+    if (typeof r.note === "string" && r.note.trim()) {
+      const prev = existsSync(EDITORIAL) ? JSON.parse(readFileSync(EDITORIAL, "utf8")) : [];
+      const next = [
+        { date: today, note: r.note.trim() },
+        ...prev.filter((e) => e.date !== today),
+      ].slice(0, 60);
+      writeFileSync(EDITORIAL, JSON.stringify(next, null, 2));
+      console.log(`wrote 主编导语: ${r.note.trim().slice(0, 24)}…`);
+    }
+  } catch (e) {
+    console.log(`主编导语生成失败(跳过): ${e.message}`);
+  }
+}
