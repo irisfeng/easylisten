@@ -11,7 +11,15 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "轻听 · EasyListen",
   description:
-    "从科学到新闻,从深度长文到流行文化——一个可以听的阅读空间。极简的界面,顺手的操作。",
+    "眼睛太忙了,把阅读交给耳朵。每天几篇,宁缺毋滥——一个可以听的阅读空间。",
+  openGraph: {
+    title: "轻听 · EasyListen",
+    description: "眼睛太忙了,把阅读交给耳朵。每天几篇,宁缺毋滥。",
+    url: "https://easylisten.shddai.net",
+    siteName: "轻听",
+    locale: "zh_CN",
+    type: "website",
+  },
   manifest: "/manifest.webmanifest",
   icons: {
     icon: "/icons/icon-192.png",
