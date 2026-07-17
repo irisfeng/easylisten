@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Newsreader } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const newsreader = Newsreader({
@@ -41,7 +42,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="zh-CN" className={newsreader.variable}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

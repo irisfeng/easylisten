@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Piece } from "@/lib/content";
 import { categoryOf, listenMinutes } from "@/lib/content";
+import { track } from "@vercel/analytics";
 import { loadPrefs, recordListen, setVoiceURI, toggleFavorite } from "@/lib/prefs";
 import {
   createSpeechEngine,
@@ -89,6 +90,8 @@ export default function Reader({ piece }: { piece: Piece }) {
       setState("idle");
       setCurrent(-1);
       flush();
+      // 完听事件:与 listen_start 相除即得每篇完听率
+      track("listen_done", { slug: piece.slug });
     });
     const onHidden = () => {
       if (document.visibilityState === "hidden") flush();
@@ -103,9 +106,16 @@ export default function Reader({ piece }: { piece: Piece }) {
     };
   }, [piece, sentences.length, hasAudio]);
 
+  // 每篇每次访问只报一次"开始听",作完听率的分母
+  const startTrackedRef = useRef(false);
+
   const startFrom = (i: number) => {
     const engine = engineRef.current;
     if (!engine) return;
+    if (!startTrackedRef.current) {
+      startTrackedRef.current = true;
+      track("listen_start", { slug: piece.slug });
+    }
     engine.speak(sentences, i);
     setState("playing");
   };

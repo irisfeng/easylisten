@@ -21,7 +21,8 @@ const DAILY = resolve(ROOT, "content/daily.json");
 
 // 编排:每期 2–5 篇浮动,只收达到质量门槛的;宁缺毋滥
 const MIN_PICKS = 2;
-const MAX_PICKS = 5;
+// 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
+const MAX_PICKS = 6;
 const QUALITY_BAR = 80;
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
