@@ -201,7 +201,7 @@ const html = `<meta charset="utf-8"><meta name="viewport" content="width=device-
 </style>
 <h1>音色盲选</h1>
 <p>同一段今日听稿,不同的声音。别管是哪家的——只选你愿意每天听的那一个,把编号告诉我。</p>
-${items.map((it) => `<div class="s"><span class="n">样品 ${it.n}</span><audio controls preload="none" src="./${it.file}"></audio></div>`).join("\n")}
+${items.map((it) => `<div class="s"><span class="n">样品 ${it.n}</span><audio controls preload="none" src="/tts-samples/${it.file}"></audio></div>`).join("\n")}
 `;
 writeFileSync(resolve(OUT, "index.html"), html);
 console.log(`\n${items.length} 个样品 → public/tts-samples/`);
