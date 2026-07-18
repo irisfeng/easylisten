@@ -197,6 +197,9 @@ const DEEP_FULLTEXT_LIMIT = 24000;
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
+// 双语实验:记住得分最高且改写成功的那篇及其素材,稍后追加英文转述稿
+let bestEn = null;
+
 for (const pick of regularPicks) {
   const c = CANDIDATES[pick.index];
   try {
@@ -238,6 +241,9 @@ for (const pick of regularPicks) {
     source: { name: c.sourceName, url: c.link, originalTitle: c.title },
   });
   console.log(`wrote 听稿: ${script.title}`);
+  if (!bestEn || pick.score > bestEn.score) {
+    bestEn = { piece: pieces[pieces.length - 1], material, c, score: pick.score };
+  }
   } catch (e) {
     console.log(`跳过(改写失败): ${c.title} — ${e.message}`);
   }
@@ -293,6 +299,34 @@ if (deepValid) {
 function slugify(s) {
   const ascii = s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
   return ascii || Math.random().toString(36).slice(2, 8);
+}
+
+// 双语实验:给当日最高分的一篇追加英文转述稿(不是照读原文——那是版权红线;
+// 是我们自己的英文改写)。失败只跳过,不影响出刊。
+if (bestEn) {
+  try {
+    const en = await chatJson(
+      `You are a writer for "EasyListen", a daily listening digest. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.`,
+      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bestEn.c.title}\nSource: ${bestEn.c.sourceName}\n${bestEn.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
+      `英文稿(${bestEn.c.title})`,
+    );
+    const validEn =
+      typeof en.title === "string" &&
+      en.title.trim() &&
+      typeof en.intro === "string" &&
+      en.intro.trim() &&
+      Array.isArray(en.paragraphs) &&
+      en.paragraphs.length >= 3 &&
+      en.paragraphs.every((p) => typeof p === "string" && p.trim());
+    if (validEn) {
+      bestEn.piece.en = { title: en.title, intro: en.intro, paragraphs: en.paragraphs };
+      console.log(`wrote 英文稿: ${en.title}`);
+    } else {
+      console.log(`英文稿格式不合格,跳过: ${bestEn.c.title}`);
+    }
+  } catch (e) {
+    console.log(`英文稿生成失败(跳过): ${e.message}`);
+  }
 }
 
 // 最新的排前面;保留最近 60 篇

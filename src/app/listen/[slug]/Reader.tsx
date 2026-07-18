@@ -22,16 +22,20 @@ type PlayState = "idle" | "playing" | "paused";
 export default function Reader({ piece }: { piece: Piece }) {
   const cat = categoryOf(piece.category);
 
+  // 双语实验:携带英文稿的篇目可切换中/英,音频走 <slug>-en
+  const [lang, setLang] = useState<"zh" | "en">("zh");
+  const script = lang === "en" && piece.en ? piece.en : piece;
+
   // 把每段切成句子,并给每句分配一个全篇唯一的下标,
   // 这样朗读进度和文中高亮能对上号。
   const { paragraphs, sentences } = useMemo(() => {
     let counter = 0;
-    const paras = piece.paragraphs.map((p) => {
+    const paras = script.paragraphs.map((p) => {
       const parts = splitSentences([p]);
       return parts.map((text) => ({ text, index: counter++ }));
     });
-    return { paragraphs: paras, sentences: splitSentences(piece.paragraphs) };
-  }, [piece]);
+    return { paragraphs: paras, sentences: splitSentences(script.paragraphs) };
+  }, [script]);
 
   const engineRef = useRef<SpeechEngine | null>(null);
   const [available, setAvailable] = useState(true);
@@ -40,7 +44,8 @@ export default function Reader({ piece }: { piece: Piece }) {
   const [rate, setRate] = useState(1);
   const [favorite, setFavorite] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-  const hasAudio = (audioManifest.slugs as string[]).includes(piece.slug);
+  const audioSlug = lang === "en" ? `${piece.slug}-en` : piece.slug;
+  const hasAudio = (audioManifest.slugs as string[]).includes(audioSlug);
 
   // 完听率是个性化排序的核心信号:记录本次会话听到的最远句子。
   const maxHeardRef = useRef(-1);
@@ -70,7 +75,7 @@ export default function Reader({ piece }: { piece: Piece }) {
     setState("idle");
     setFavorite(loadPrefs().favorites.includes(piece.slug));
     const engine = createSpeechEngine({
-      slug: piece.slug,
+      slug: audioSlug,
       hasAudio,
       voiceURI: loadPrefs().voiceURI,
     });
@@ -104,7 +109,7 @@ export default function Reader({ piece }: { piece: Piece }) {
       engine.stop();
       flush();
     };
-  }, [piece, sentences.length, hasAudio]);
+  }, [piece, audioSlug, sentences.length, hasAudio]);
 
   // 每篇每次访问只报一次"开始听",作完听率的分母
   const startTrackedRef = useRef(false);
@@ -230,14 +235,27 @@ export default function Reader({ piece }: { piece: Piece }) {
           <span className="font-mono text-xs text-ink-faint">
             {listenMinutes(piece)} 分钟 · {piece.author} · {piece.publishedAt}
           </span>
+          {piece.en && (
+            <button
+              onClick={() => {
+                const next = lang === "zh" ? "en" : "zh";
+                setLang(next);
+                if (next === "en") track("listen_en", { slug: piece.slug });
+              }}
+              aria-pressed={lang === "en"}
+              className="ml-auto rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink"
+            >
+              {lang === "zh" ? "EN" : "中"}
+            </button>
+          )}
         </div>
 
         <h1 className="font-serif text-4xl leading-tight tracking-tight sm:text-5xl">
-          {piece.title}
+          {script.title}
         </h1>
 
         <p className="mt-6 border-l-2 border-line pl-4 font-serif text-xl italic leading-relaxed text-ink-soft">
-          {piece.intro}
+          {script.intro}
         </p>
 
         <div className="mt-8 space-y-6 text-[1.075rem] leading-[1.85] text-ink">
