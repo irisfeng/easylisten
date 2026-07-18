@@ -18,6 +18,8 @@ export interface Prefs {
   favorites: string[];
   /** 手动选择的浏览器朗读音色(仅无预生成音频时使用)。 */
   voiceURI?: string;
+  /** 预生成音频的男/女声偏好(仅双声篇目生效)。 */
+  voiceGender?: "f" | "m";
 }
 
 // recordListen 会就地修改嵌套对象,默认值必须每次新建,不能共享单例
@@ -55,6 +57,10 @@ export function setInterests(interests: string[]) {
 
 export function setVoiceURI(voiceURI: string) {
   savePrefs({ ...loadPrefs(), voiceURI });
+}
+
+export function setVoiceGender(voiceGender: "f" | "m") {
+  savePrefs({ ...loadPrefs(), voiceGender });
 }
 
 /** 记录一次收听:更新完听记录与频道亲和度。 */

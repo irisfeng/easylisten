@@ -5,7 +5,13 @@ import Link from "next/link";
 import type { Piece } from "@/lib/content";
 import { categoryOf, listenMinutes } from "@/lib/content";
 import { track } from "@vercel/analytics";
-import { loadPrefs, recordListen, setVoiceURI, toggleFavorite } from "@/lib/prefs";
+import {
+  loadPrefs,
+  recordListen,
+  setVoiceGender,
+  setVoiceURI,
+  toggleFavorite,
+} from "@/lib/prefs";
 import {
   createSpeechEngine,
   listVoices,
@@ -44,7 +50,19 @@ export default function Reader({ piece }: { piece: Piece }) {
   const [rate, setRate] = useState(1);
   const [favorite, setFavorite] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-  const audioSlug = lang === "en" ? `${piece.slug}-en` : piece.slug;
+  // 双声篇目(有 -m 变体)可切男/女声,偏好记在本地
+  const [gender, setGender] = useState<"f" | "m">("f");
+  useEffect(() => {
+    setGender(loadPrefs().voiceGender ?? "f");
+  }, []);
+  const hasMale = (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
+
+  const audioSlug =
+    lang === "en"
+      ? `${piece.slug}-en`
+      : gender === "m" && hasMale
+        ? `${piece.slug}-m`
+        : piece.slug;
   const hasAudio = (audioManifest.slugs as string[]).includes(audioSlug);
   // 整篇时间轴(有则播放器走单文件零停顿模式)
   const timings = (
@@ -240,6 +258,19 @@ export default function Reader({ piece }: { piece: Piece }) {
           <span className="font-mono text-xs text-ink-faint">
             {listenMinutes(piece)} 分钟 · {piece.author} · {piece.publishedAt}
           </span>
+          {hasMale && lang === "zh" && (
+            <button
+              onClick={() => {
+                const g = gender === "f" ? "m" : "f";
+                setGender(g);
+                setVoiceGender(g);
+              }}
+              aria-pressed={gender === "m"}
+              className="ml-auto rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink"
+            >
+              {gender === "f" ? "女声" : "男声"}
+            </button>
+          )}
           {piece.en && (
             <button
               onClick={() => {
@@ -248,7 +279,10 @@ export default function Reader({ piece }: { piece: Piece }) {
                 if (next === "en") track("listen_en", { slug: piece.slug });
               }}
               aria-pressed={lang === "en"}
-              className="ml-auto rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink"
+              className={cn(
+                !(hasMale && lang === "zh") && "ml-auto",
+                "rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink",
+              )}
             >
               {lang === "zh" ? "EN" : "中"}
             </button>
