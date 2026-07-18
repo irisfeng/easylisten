@@ -19,6 +19,7 @@ import {
   type SpeechEngine,
 } from "@/lib/tts";
 import { cn } from "@/lib/utils";
+import { SharePanel } from "./Share";
 import audioManifest from "../../../../public/audio/manifest.json";
 
 const RATES = [0.8, 1, 1.25, 1.5];
@@ -49,6 +50,7 @@ export default function Reader({ piece }: { piece: Piece }) {
   const [current, setCurrent] = useState(-1);
   const [rate, setRate] = useState(1);
   const [favorite, setFavorite] = useState(false);
+  const [sharing, setSharing] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   // 双声篇目(有 -m 变体)可切男/女声,偏好记在本地
   const [gender, setGender] = useState<"f" | "m">("f");
@@ -344,11 +346,17 @@ export default function Reader({ piece }: { piece: Piece }) {
         onSkip={skip}
         onRate={cycleRate}
         onFavorite={() => setFavorite(toggleFavorite(piece.slug))}
+        onShare={() => {
+          setSharing(true);
+          track("share_card", { slug: piece.slug });
+        }}
         onVoice={(uri) => {
           setVoiceURI(uri);
           engineRef.current?.setVoice?.(uri);
         }}
       />
+
+      {sharing && <SharePanel piece={piece} onClose={() => setSharing(false)} />}
     </main>
   );
 }
@@ -364,6 +372,7 @@ function PlayerBar({
   onSkip,
   onRate,
   onFavorite,
+  onShare,
   onVoice,
 }: {
   available: boolean;
@@ -376,6 +385,7 @@ function PlayerBar({
   onSkip: (d: number) => void;
   onRate: () => void;
   onFavorite: () => void;
+  onShare: () => void;
   onVoice: (uri: string) => void;
 }) {
   return (
@@ -426,6 +436,13 @@ function PlayerBar({
                   ))}
                 </select>
               )}
+              <button
+                onClick={onShare}
+                aria-label="分享卡片"
+                className="flex h-9 w-9 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
+              >
+                <ShareIcon />
+              </button>
               <button
                 onClick={onFavorite}
                 aria-label={favorite ? "取消收藏" : "收藏"}
@@ -523,6 +540,16 @@ function SkipForward() {
     </svg>
   );
 }
+function ShareIcon() {
+  return (
+    <svg {...S}>
+      <path d="M12 14V4.5" />
+      <path d="M8.5 7.5L12 4l3.5 3.5" />
+      <path d="M6 11v7.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5V11" />
+    </svg>
+  );
+}
+
 function Heart({ filled }: { filled: boolean }) {
   return (
     <svg {...S} fill={filled ? "currentColor" : "none"}>
