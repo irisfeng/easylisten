@@ -24,12 +24,15 @@ const LINE = "#eaeaea";
 const SERIF = 'Georgia, "Songti SC", "STSong", "Noto Serif SC", serif';
 const MONO = 'ui-monospace, "SF Mono", Menlo, monospace';
 
+// 不允许悬于行首的标点:宁可本行微溢出,不让下一行以它开头
+const NO_LEAD = "、。,,.;;::??!!」』"”'…—)》%℃";
+
 /** 中文按字符折行;返回各行文本。 */
 function wrap(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
   const lines: string[] = [];
   let line = "";
   for (const ch of text) {
-    if (ctx.measureText(line + ch).width > maxWidth && line) {
+    if (ctx.measureText(line + ch).width > maxWidth && line && !NO_LEAD.includes(ch)) {
       lines.push(line);
       line = ch;
     } else {
@@ -55,27 +58,35 @@ async function drawCard(piece: Piece): Promise<string> {
   ctx.strokeRect(1, 1, W - 2, H - 2);
 
   const M = 72; // 页边距
-  let y = 120;
+  const headerY = 120; // 眉标基线
+  const brandTop = H - 168; // 品牌区上缘
+
+  // 先量文,再定位:短文章把正文块在可用空间里垂直居中,避免中段大片留白
+  ctx.font = `600 56px ${SERIF}`;
+  const titleLines = wrap(ctx, piece.title, W - M * 2).slice(0, 4);
+  ctx.font = `italic 32px ${SERIF}`;
+  const introLines = wrap(ctx, piece.intro, W - M * 2 - 36).slice(0, 5);
+  const contentH = titleLines.length * 78 + 28 + introLines.length * 52;
+  const areaTop = headerY + 84;
+  const areaBottom = brandTop - 48;
+  let y = areaTop + Math.max(0, (areaBottom - areaTop - contentH) / 2);
 
   // 眉标:领域 · 日期
   ctx.fillStyle = INK_FAINT;
   ctx.font = `24px ${MONO}`;
-  ctx.fillText(`${cat.name} · ${piece.publishedAt}`, M, y);
-  y += 84;
+  ctx.fillText(`${cat.name} · ${piece.publishedAt}`, M, headerY);
 
-  // 标题(衬线大字,最多 4 行)
+  // 标题(衬线大字)
   ctx.fillStyle = INK;
   ctx.font = `600 56px ${SERIF}`;
-  const titleLines = wrap(ctx, piece.title, W - M * 2).slice(0, 4);
   for (const l of titleLines) {
     ctx.fillText(l, M, y);
     y += 78;
   }
   y += 28;
 
-  // 导语引文(左细线 + 衬线灰字,最多 5 行)
+  // 导语引文(左细线 + 衬线灰字)
   ctx.font = `italic 32px ${SERIF}`;
-  const introLines = wrap(ctx, piece.intro, W - M * 2 - 36).slice(0, 5);
   const introTop = y - 40;
   ctx.fillStyle = INK_SOFT;
   for (const l of introLines) {
@@ -85,9 +96,8 @@ async function drawCard(piece: Piece): Promise<string> {
   ctx.fillStyle = LINE;
   ctx.fillRect(M, introTop, 4, y - introTop - 12);
 
-  // 底部品牌区
-  const by = H - 120;
-  // 声波三柱 logo
+  // 底部品牌区:左列三行文字,右下角二维码,互不越界
+  const by = brandTop + 28;
   ctx.fillStyle = INK;
   const bars: Array<[number, number]> = [
     [by - 20, 40],
@@ -103,9 +113,10 @@ async function drawCard(piece: Piece): Promise<string> {
   ctx.fillText("轻听 EasyListen", M + 84, by + 4);
   ctx.fillStyle = INK_FAINT;
   ctx.font = `22px ${MONO}`;
-  ctx.fillText("每天几篇 · 宁缺毋滥 · easylisten.shddai.net", M + 84, by + 44);
+  ctx.fillText("每天几篇 · 宁缺毋滥", M + 84, by + 42);
+  ctx.fillText("easylisten.shddai.net", M + 84, by + 76);
 
-  // 角落小二维码(直达本文)
+  // 角落小二维码(直达本文),与左列文字保持安全间距
   const qr = await QRCode.toDataURL(`https://easylisten.shddai.net/listen/${piece.slug}`, {
     width: 108,
     margin: 1,
@@ -117,7 +128,7 @@ async function drawCard(piece: Piece): Promise<string> {
     img.onerror = rej;
     img.src = qr;
   });
-  ctx.drawImage(img, W - M - 108, by - 64, 108, 108);
+  ctx.drawImage(img, W - M - 108, by - 32, 108, 108);
 
   return canvas.toDataURL("image/png");
 }
