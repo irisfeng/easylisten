@@ -25,15 +25,16 @@
 
 ## 朗读引擎(可插拔)
 
-朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),按有无预生成音频自动选择:
+朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),层层回落:
 
-- **预生成神经语音(默认)**:`scripts/synthesize.mjs` 在 GitHub Actions 用
-  Edge 神经语音逐句合成 MP3(`public/audio/<slug>/<句序>.mp3`),经 CDN 分发,
-  音质与设备无关;按句分文件与播放器句级模型天然对齐,变速即时生效。
-- **Web Speech 兜底**:无音频的文章走浏览器内置语音,按质量启发式自动挑选
-  设备上最好的中文音色,播放器内可手动切换并记住选择。
-- **升级路径**:接入 **[VoxCPM](https://github.com/OpenBMB/VoxCPM)**(48kHz、
-  可克隆音色)时只需让管线换用它合成,播放器无需改动。
+- **超拟人双声(默认)**:`scripts/synthesize.mjs` 用 MiniMax `speech-2.8-hd`
+  (账号不可用时自动降级 `speech-02-hd`)合成**女主持(默认)与男声**两套音频,
+  文章页一键切换,选择记在本地;缺 `MINIMAX_API_KEY` 时回落免费 Edge 晓晓,
+  出刊永不断更。音色经三轮真人盲选定妆。
+- **整篇零停顿**:逐句 MP3 拼成 `full.mp3` + 句级时间轴(`manifest.timings`),
+  播放器单文件连续播放,句间无停顿;高亮/点句跳转/变速靠时间轴反查,
+  锁屏与后台是一条系统级音频流。
+- **Web Speech 兜底**:无预生成音频的文章走浏览器内置语音。
 
 选型细节见 [`docs/tts-evaluation.md`](./docs/tts-evaluation.md)。
 
@@ -44,7 +45,9 @@
 1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 20 个精选源,
    去重、时效过滤、多源共振检测(热点信号)
 2. **精选** `scripts/curate.mjs`:大模型按 `content/rubric.md` 的评分标准与
-   编排规则选出每日 4 篇
+   编排规则选出每日 2–6 篇(80 分门槛,宁缺毋滥);每期配"主编的话",
+   每周六额外产出一篇 10 分钟"周末深读";当日最高分篇目附英文转述稿
+   (文章页 EN 切换)
 3. **取全文**:用 [Firecrawl Keyless](https://www.firecrawl.dev/blog/firecrawl-keyless-launch)
    免费抓取入选文章原文(无需 API key),听稿严格基于原文转述;抓取失败
    回落 RSS 摘要

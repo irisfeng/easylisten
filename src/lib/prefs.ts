@@ -49,6 +49,8 @@ export function savePrefs(prefs: Prefs) {
   } catch {
     // 隐私模式等场景下静默降级为无记忆
   }
+  // 云备份(未配置 Supabase 时为空操作);动态引入避免循环依赖成环
+  void import("./sync").then((m) => m.schedulePush(prefs));
 }
 
 export function setInterests(interests: string[]) {
