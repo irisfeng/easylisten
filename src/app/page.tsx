@@ -20,6 +20,7 @@ import {
   hasSignal,
   loadPrefs,
   pickForYou,
+  savePrefs,
   setInterests,
   type Prefs,
 } from "@/lib/prefs";
@@ -32,7 +33,16 @@ export default function Home() {
   const [prefs, setPrefs] = useState<Prefs | null>(null);
 
   useEffect(() => {
-    setPrefs(loadPrefs());
+    const local = loadPrefs();
+    setPrefs(local);
+    // 云备份恢复:iOS 清掉 localStorage 后,回访时把偏好拉回来
+    void import("@/lib/sync").then((m) =>
+      m
+        .restorePrefs(local.onboarded, (remote) => savePrefs(remote))
+        .then((restored) => {
+          if (restored) setPrefs(loadPrefs());
+        }),
+    );
   }, []);
 
   // "今日"标记依赖当前日期,放到挂载后再算,避免与预渲染的 HTML 不一致
