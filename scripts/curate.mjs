@@ -16,7 +16,19 @@ import { resolve } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
-const CANDIDATES = JSON.parse(readFileSync(resolve(ROOT, "content/candidates.json"), "utf8"));
+// 源库扩容后候选可达 200+,评分前预筛:多源共振优先、源权重次之、时效再次,
+// 上限 120 条——控制评分 prompt 规模,也先替模型挡掉一层长尾
+const RAW_CANDIDATES = JSON.parse(
+  readFileSync(resolve(ROOT, "content/candidates.json"), "utf8"),
+);
+const CANDIDATES = [...RAW_CANDIDATES]
+  .sort(
+    (a, b) =>
+      (b.resonance ?? 1) - (a.resonance ?? 1) ||
+      (b.weight ?? 1) - (a.weight ?? 1) ||
+      (Date.parse(b.publishedAt) || 0) - (Date.parse(a.publishedAt) || 0),
+  )
+  .slice(0, 120);
 const DAILY = resolve(ROOT, "content/daily.json");
 
 // 编排:每期 2–5 篇浮动,只收达到质量门槛的;宁缺毋滥
@@ -112,7 +124,7 @@ const isSaturday = new Date(`${today}T00:00:00Z`).getUTCDay() === 6;
 // 第一步:全量评分,选出今日入选名单(结构化输出保证可解析)。
 const menu = CANDIDATES.map(
   (c, i) =>
-    `[${i}] (${c.category}/${c.sourceName}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 400)}`,
+    `[${i}] (${c.category}/${c.sourceName}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
 ).join("\n\n");
 
 const scoreResult = await chatJson(

@@ -219,6 +219,11 @@ function PieceRow({
             深读
           </span>
         )}
+        {piece.en && (
+          <span className="rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft">
+            EN
+          </span>
+        )}
         <span className="font-mono text-xs text-ink-faint">
           {listenMinutes(piece)} 分钟 · {piece.author}
         </span>
