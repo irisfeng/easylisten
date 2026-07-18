@@ -224,6 +224,14 @@
       "category": "humanities",
       "lang": "en",
       "weight": 1.1
+    },
+    {
+      "$comment": "经公共 RSSHub 实例转出的豆瓣长文/日记精选;实例限流或豆瓣反爬失败时 ingest 只记日志,连续失活再考虑自建 RSSHub",
+      "name": "豆瓣·发现",
+      "feed": "https://rsshub.app/douban/explore",
+      "category": "humanities",
+      "lang": "zh",
+      "weight": 1.0
     }
   ]
 }
