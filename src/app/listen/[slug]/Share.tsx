@@ -25,7 +25,7 @@ const SERIF = 'Georgia, "Songti SC", "STSong", "Noto Serif SC", serif';
 const MONO = 'ui-monospace, "SF Mono", Menlo, monospace';
 
 // 不允许悬于行首的标点:宁可本行微溢出,不让下一行以它开头
-const NO_LEAD = "、。,,.;;::??!!」』"”'…—)》%℃";
+const NO_LEAD = "\u3001\u3002\uFF0C,.\uFF1B;\uFF1A:\uFF1F?\uFF01!\u300D\u300F\u201D\u2019\u2026\u2014\uFF09)\u300B%\u2103";
 
 /** 中文按字符折行;返回各行文本。 */
 function wrap(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
