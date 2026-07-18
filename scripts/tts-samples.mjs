@@ -39,22 +39,23 @@ if (MM) {
       return "";
     }
   })();
-  // 第二轮:男声已定(male-qn-jingying),专场盲选女声;与男声同厂保证质感一致
-  for (const voice of [
-    "female-yujie",
-    "female-tianmei",
-    "female-shaonv",
-    "presenter_female",
-    "audiobook_female_2",
-  ]) {
-    await attempt(`minimax/${voice}`, async () => {
+  // 第三轮:音色已定妆(女主持/精英青年),盲测当前旗舰 speech-2.8-hd
+  // 与盲选时所用 speech-02-hd 的差异,确认升级不换味
+  const pairs = [];
+  for (const model of ["speech-2.8-hd", "speech-02-hd"]) {
+    for (const voice of ["presenter_female", "male-qn-jingying"]) {
+      pairs.push({ model, voice });
+    }
+  }
+  for (const { model, voice } of pairs) {
+    await attempt(`minimax/${model}/${voice}`, async () => {
       const res = await fetch(
         `https://api.minimaxi.com/v1/t2a_v2${gid ? `?GroupId=${gid}` : ""}`,
         {
           method: "POST",
           headers: { "content-type": "application/json", authorization: `Bearer ${MM}` },
           body: JSON.stringify({
-            model: "speech-02-hd",
+            model,
             text: TEXT,
             stream: false,
             voice_setting: { voice_id: voice, speed: 1, vol: 1, pitch: 0 },
@@ -68,7 +69,7 @@ if (MM) {
       if (!hex) {
         throw new Error(`HTTP ${res.status} ${JSON.stringify(json?.base_resp ?? json).slice(0, 200)}`);
       }
-      results.push({ provider: "minimax", voice, ext: "mp3", buf: Buffer.from(hex, "hex") });
+      results.push({ provider: `minimax/${model}`, voice, ext: "mp3", buf: Buffer.from(hex, "hex") });
     });
   }
 }
