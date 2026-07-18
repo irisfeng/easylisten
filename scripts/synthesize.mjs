@@ -10,7 +10,14 @@
  * 或官方云 TTS,见 docs/tts-evaluation.md。
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
+import {
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  existsSync,
+  readdirSync,
+  statSync,
+} from "node:fs";
 import { resolve } from "node:path";
 import { execFileSync } from "node:child_process";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
@@ -71,7 +78,8 @@ async function synthesizeUnit(unit, paragraphs, voice) {
   try {
     for (let i = 0; i < bodySentences.length; i++) {
       const file = resolve(dir, `${i}.mp3`);
-      if (existsSync(file)) continue;
+      // 零字节视同缺失:合成偶发静默失败留下的空文件要重新合成
+      if (existsSync(file) && statSync(file).size > 0) continue;
       writeFileSync(file, await synthesize(bodySentences[i], voice));
     }
     manifest.slugs.push(unit);
@@ -125,8 +133,11 @@ function buildFull(unit) {
     const p = resolve(dir, f);
     starts.push(Number(acc.toFixed(3)));
     const buf = readFileSync(p);
-    bufs.push(buf);
-    acc += probeDuration(p, buf.length);
+    // 修复失败仍残留的空文件按 0 时长跳过字节,句序与阅读页保持对齐
+    if (buf.length > 0) {
+      bufs.push(buf);
+      acc += probeDuration(p, buf.length);
+    }
   }
   starts.push(Number(acc.toFixed(3)));
   writeFileSync(resolve(dir, "full.mp3"), Buffer.concat(bufs));
@@ -142,10 +153,37 @@ for (const piece of pieces) {
   }
 }
 
-// 为所有还没有时间轴的既有篇目回填 full.mp3(无需重新合成,拼现有文件)
+// 修复用:按音频目录名(slug 或 slug-en)找回句子文本
+const textByUnit = new Map();
+for (const piece of pieces) {
+  textByUnit.set(piece.slug, piece.paragraphs);
+  if (piece.en) textByUnit.set(`${piece.slug}-en`, piece.en.paragraphs);
+}
+
+/** 重合成单元里缺失/零字节的句子文件(空文件是偶发合成失败的残留)。 */
+async function repairUnit(unit) {
+  const paras = textByUnit.get(unit);
+  const dir = resolve(AUDIO_DIR, unit);
+  if (!paras || !existsSync(dir)) return;
+  const sentences = splitSentences(paras);
+  const voice = unit.endsWith("-en") ? EN_VOICE : VOICE;
+  for (let i = 0; i < sentences.length; i++) {
+    const file = resolve(dir, `${i}.mp3`);
+    if (existsSync(file) && statSync(file).size > 0) continue;
+    try {
+      writeFileSync(file, await synthesize(sentences[i], voice));
+      console.log(`repair ${unit}/${i}`);
+    } catch (e) {
+      console.log(`repair fail ${unit}/${i}: ${e.message}`);
+    }
+  }
+}
+
+// 为所有还没有时间轴的既有篇目回填 full.mp3(先修空文件,再拼现有文件)
 for (const unit of manifest.slugs) {
   if (manifest.timings?.[unit]) continue;
   try {
+    await repairUnit(unit);
     buildFull(unit);
   } catch (e) {
     console.log(`full fail ${unit}: ${e.message}`);

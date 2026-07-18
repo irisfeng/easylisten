@@ -39,7 +39,14 @@ if (MM) {
       return "";
     }
   })();
-  for (const voice of ["audiobook_female_1", "female-chengshu", "male-qn-jingying"]) {
+  // 第二轮:男声已定(male-qn-jingying),专场盲选女声;与男声同厂保证质感一致
+  for (const voice of [
+    "female-yujie",
+    "female-tianmei",
+    "female-shaonv",
+    "presenter_female",
+    "audiobook_female_2",
+  ]) {
     await attempt(`minimax/${voice}`, async () => {
       const res = await fetch(
         `https://api.minimaxi.com/v1/t2a_v2${gid ? `?GroupId=${gid}` : ""}`,
@@ -67,7 +74,7 @@ if (MM) {
 }
 
 /* —— 阿里百炼 qwen-tts(HTTP 直连,CosyVoice 需 WebSocket,小样阶段先用它) —— */
-const DS = process.env.DASHSCOPE_API_KEY;
+const DS = process.env.SAMPLE_ALL ? process.env.DASHSCOPE_API_KEY : "";
 if (DS) {
   for (const voice of ["Cherry", "Serena", "Dylan"]) {
     await attempt(`qwen-tts/${voice}`, async () => {
@@ -95,7 +102,7 @@ if (DS) {
 }
 
 /* —— 阶跃星辰(OpenAI 兼容 audio/speech 接口) —— */
-const SF = process.env.STEPFUN_API_KEYS || process.env.STEPFUN_API_KEY;
+const SF = process.env.SAMPLE_ALL ? (process.env.STEPFUN_API_KEYS || process.env.STEPFUN_API_KEY) : "";
 if (SF) {
   for (const voice of ["cixingnansheng", "wenrounvsheng", "qingchunshaonv"]) {
     await attempt(`stepfun/${voice}`, async () => {
@@ -117,7 +124,7 @@ if (SF) {
 }
 
 /* —— 火山引擎豆包(大模型语音合成 v3,流式 JSON 行,音频为 base64 分片) —— */
-const VK = process.env.VOLC_API_KEY;
+const VK = process.env.SAMPLE_ALL ? process.env.VOLC_API_KEY : "";
 if (VK) {
   for (const speaker of ["zh_female_shuangkuaisisi_moon_bigtts", "zh_male_yunzhou_jupiter_bigtts"]) {
     await attempt(`volcano/${speaker}`, async () => {
@@ -157,7 +164,7 @@ if (VK) {
 }
 
 /* —— 现状对照组:Edge 晓晓(免费,当前线上音色) —— */
-await attempt("edge/xiaoxiao", async () => {
+if (process.env.SAMPLE_ALL) await attempt("edge/xiaoxiao", async () => {
   const tts = new MsEdgeTTS();
   try {
     await tts.setMetadata("zh-CN-XiaoxiaoNeural", OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
