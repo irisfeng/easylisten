@@ -34,6 +34,10 @@ const EN_VOICE = "en-US-AriaNeural";
 const MM_KEY = process.env.MINIMAX_API_KEY;
 const MM_FEMALE = "presenter_female";
 const MM_MALE = "male-qn-jingying";
+// 型号按新旧排序逐个尝试:2.8 为当前旗舰;若账号/地域暂不可用,
+// 自动降级到盲选时实测可用的 speech-02-hd,并全程记住可用型号
+const MM_MODELS = [process.env.MINIMAX_TTS_MODEL || "speech-2.8-hd", "speech-02-hd"];
+let mmModelIdx = 0;
 const MM_GROUP_ID = (() => {
   try {
     const payload = JSON.parse(Buffer.from(MM_KEY.split(".")[1], "base64").toString());
@@ -43,14 +47,14 @@ const MM_GROUP_ID = (() => {
   }
 })();
 
-async function synthesizeMiniMax(text, voiceId) {
+async function synthesizeMiniMaxWith(text, voiceId, model) {
   const res = await fetch(
     `https://api.minimaxi.com/v1/t2a_v2${MM_GROUP_ID ? `?GroupId=${MM_GROUP_ID}` : ""}`,
     {
       method: "POST",
       headers: { "content-type": "application/json", authorization: `Bearer ${MM_KEY}` },
       body: JSON.stringify({
-        model: "speech-02-hd",
+        model,
         text,
         stream: false,
         voice_setting: { voice_id: voiceId, speed: 1, vol: 1, pitch: 0 },
@@ -63,10 +67,22 @@ async function synthesizeMiniMax(text, voiceId) {
   const hex = json?.data?.audio;
   if (!hex) {
     throw new Error(
-      `minimax HTTP ${res.status} ${JSON.stringify(json?.base_resp ?? json).slice(0, 160)}`,
+      `minimax(${model}) HTTP ${res.status} ${JSON.stringify(json?.base_resp ?? json).slice(0, 160)}`,
     );
   }
   return Buffer.from(hex, "hex");
+}
+
+async function synthesizeMiniMax(text, voiceId) {
+  for (; mmModelIdx < MM_MODELS.length; mmModelIdx++) {
+    try {
+      return await synthesizeMiniMaxWith(text, voiceId, MM_MODELS[mmModelIdx]);
+    } catch (e) {
+      // 最后一个型号也失败则抛出;否则降级到下一个型号继续
+      if (mmModelIdx === MM_MODELS.length - 1) throw e;
+      console.log(`minimax 型号降级 ${MM_MODELS[mmModelIdx]} → ${MM_MODELS[mmModelIdx + 1]}: ${e.message}`);
+    }
+  }
 }
 
 /** 统一发声入口:v = { engine: "edge" | "minimax", voice }。 */
