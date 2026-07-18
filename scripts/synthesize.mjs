@@ -18,6 +18,8 @@ const ROOT = resolve(import.meta.dirname, "..");
 const AUDIO_DIR = resolve(ROOT, "public/audio");
 const MANIFEST = resolve(AUDIO_DIR, "manifest.json");
 const VOICE = "zh-CN-XiaoxiaoNeural";
+// 双语实验:带英文稿的篇目额外合成英文音频(目录 <slug>-en)
+const EN_VOICE = "en-US-AriaNeural";
 
 /** 与 src/lib/tts.ts 的 splitSentences 保持一致。 */
 function splitSentences(paragraphs) {
@@ -45,10 +47,10 @@ const manifest = existsSync(MANIFEST)
   ? JSON.parse(readFileSync(MANIFEST, "utf8"))
   : { voice: VOICE, slugs: [] };
 
-async function synthesize(text) {
+async function synthesize(text, voice = VOICE) {
   const tts = new MsEdgeTTS();
   try {
-    await tts.setMetadata(VOICE, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
+    await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
     const { audioStream } = await tts.toStream(text);
     const chunks = [];
     for await (const chunk of audioStream) chunks.push(chunk);
@@ -58,22 +60,30 @@ async function synthesize(text) {
   }
 }
 
-for (const piece of pieces) {
-  if (manifest.slugs.includes(piece.slug)) continue;
+/** 为一组段落逐句合成到 public/audio/<unit>/,成功后登记进 manifest。 */
+async function synthesizeUnit(unit, paragraphs, voice) {
+  if (manifest.slugs.includes(unit)) return;
   // 句序与播放器一致:0 = 第一句正文(intro 不进入朗读)
-  const bodySentences = splitSentences(piece.paragraphs);
-  const dir = resolve(AUDIO_DIR, piece.slug);
+  const bodySentences = splitSentences(paragraphs);
+  const dir = resolve(AUDIO_DIR, unit);
   mkdirSync(dir, { recursive: true });
   try {
     for (let i = 0; i < bodySentences.length; i++) {
       const file = resolve(dir, `${i}.mp3`);
       if (existsSync(file)) continue;
-      writeFileSync(file, await synthesize(bodySentences[i]));
+      writeFileSync(file, await synthesize(bodySentences[i], voice));
     }
-    manifest.slugs.push(piece.slug);
-    console.log(`ok   ${piece.slug}: ${bodySentences.length} 句`);
+    manifest.slugs.push(unit);
+    console.log(`ok   ${unit}: ${bodySentences.length} 句`);
   } catch (e) {
-    console.log(`fail ${piece.slug}: ${e.message}`);
+    console.log(`fail ${unit}: ${e.message}`);
+  }
+}
+
+for (const piece of pieces) {
+  await synthesizeUnit(piece.slug, piece.paragraphs, VOICE);
+  if (piece.en) {
+    await synthesizeUnit(`${piece.slug}-en`, piece.en.paragraphs, EN_VOICE);
   }
 }
 

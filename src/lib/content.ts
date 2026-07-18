@@ -92,6 +92,8 @@ export interface Piece {
   shelf?: Shelf;
   /** 听稿的原文出处(管线产出的内容都有)。 */
   source?: { name: string; url: string; originalTitle?: string };
+  /** 双语实验:英文转述稿(每日最高分一篇携带),音频在 <slug>-en/。 */
+  en?: { title: string; intro: string; paragraphs: string[] };
 }
 
 /** 话题全集,按领域分组。服务兴趣勾选、管线打标与个性化匹配。 */
