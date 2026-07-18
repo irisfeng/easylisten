@@ -10,8 +10,9 @@
  * 或官方云 TTS,见 docs/tts-evaluation.md。
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
+import { execFileSync } from "node:child_process";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -80,10 +81,60 @@ async function synthesizeUnit(unit, paragraphs, voice) {
   }
 }
 
+/**
+ * 整篇拼接:把 <unit>/ 下的逐句 MP3 按序拼成 full.mp3,并用 ffprobe 量出
+ * 每句时长写入 manifest.timings(累计起点秒,末位为总时长)。
+ * 播放器据此单文件连续播放——句间零停顿,高亮与点句跳转靠时间轴反查。
+ * 同码率同参数的 MP3 帧直接拼接即可正常播放。
+ */
+function probeDuration(file) {
+  const out = execFileSync(
+    "ffprobe",
+    ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file],
+    { encoding: "utf8" },
+  );
+  const d = parseFloat(out.trim());
+  if (!Number.isFinite(d) || d <= 0) throw new Error(`时长异常: ${file}`);
+  return d;
+}
+
+function buildFull(unit) {
+  const dir = resolve(AUDIO_DIR, unit);
+  if (!existsSync(dir)) return;
+  const files = readdirSync(dir)
+    .filter((f) => /^\d+\.mp3$/.test(f))
+    .sort((a, b) => parseInt(a) - parseInt(b));
+  if (!files.length) return;
+  const starts = [];
+  const bufs = [];
+  let acc = 0;
+  for (const f of files) {
+    const p = resolve(dir, f);
+    starts.push(Number(acc.toFixed(3)));
+    bufs.push(readFileSync(p));
+    acc += probeDuration(p);
+  }
+  starts.push(Number(acc.toFixed(3)));
+  writeFileSync(resolve(dir, "full.mp3"), Buffer.concat(bufs));
+  manifest.timings ??= {};
+  manifest.timings[unit] = starts;
+  console.log(`full ${unit}: ${files.length} 句 / ${acc.toFixed(1)}s`);
+}
+
 for (const piece of pieces) {
   await synthesizeUnit(piece.slug, piece.paragraphs, VOICE);
   if (piece.en) {
     await synthesizeUnit(`${piece.slug}-en`, piece.en.paragraphs, EN_VOICE);
+  }
+}
+
+// 为所有还没有时间轴的既有篇目回填 full.mp3(无需重新合成,拼现有文件)
+for (const unit of manifest.slugs) {
+  if (manifest.timings?.[unit]) continue;
+  try {
+    buildFull(unit);
+  } catch (e) {
+    console.log(`full fail ${unit}: ${e.message}`);
   }
 }
 
