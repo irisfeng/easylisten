@@ -147,14 +147,24 @@ if (picks.length < MIN_PICKS) {
 }
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
 
-// 周末深读候选:结构合法且不与 picks 重复才有效
+// 周末深读候选:结构合法即有效;若与常规名单重复,让常规名单让位——
+// 被双重提名的恰恰是最好的深读素材,降级成短稿才是浪费(07-18 首个周六
+// 就因旧的"重复即弃深读"逻辑静默丢了深读)
 const deep = isSaturday ? scoreResult.deep : null;
 const deepValid =
   deep &&
   Number.isInteger(deep.index) &&
   deep.index >= 0 &&
-  deep.index < CANDIDATES.length &&
-  !picks.some((p) => p.index === deep.index);
+  deep.index < CANDIDATES.length;
+if (isSaturday && !deepValid) {
+  console.log("深读:模型未提名有效候选,本周跳过");
+}
+const regularPicks = deepValid
+  ? picks.filter((p) => p.index !== deep.index)
+  : picks;
+if (regularPicks.length !== picks.length) {
+  console.log(`深读与常规入选重复,让位给深读: [${deep.index}]`);
+}
 
 /**
  * 用 Firecrawl Keyless 抓取入选文章全文(Markdown)。
@@ -187,7 +197,7 @@ const DEEP_FULLTEXT_LIMIT = 24000;
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
-for (const pick of picks) {
+for (const pick of regularPicks) {
   const c = CANDIDATES[pick.index];
   try {
   const fullText = await fetchFullText(c.link);
