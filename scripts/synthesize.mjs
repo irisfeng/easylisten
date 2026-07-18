@@ -87,15 +87,28 @@ async function synthesizeUnit(unit, paragraphs, voice) {
  * 播放器据此单文件连续播放——句间零停顿,高亮与点句跳转靠时间轴反查。
  * 同码率同参数的 MP3 帧直接拼接即可正常播放。
  */
-function probeDuration(file) {
-  const out = execFileSync(
-    "ffprobe",
-    ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file],
-    { encoding: "utf8" },
-  );
-  const d = parseFloat(out.trim());
-  if (!Number.isFinite(d) || d <= 0) throw new Error(`时长异常: ${file}`);
-  return d;
+// ffprobe 最准;环境没有它时退回 CBR 估算——合成参数固定 48kbps,
+// 时长 = 字节数 × 8 / 48000,对恒定码率 MP3 误差在毫秒级
+let hasFfprobe = true;
+try {
+  execFileSync("ffprobe", ["-version"], { stdio: "ignore" });
+} catch {
+  hasFfprobe = false;
+  console.log("ffprobe 不可用,时长改用 CBR 估算");
+}
+
+function probeDuration(file, size) {
+  if (hasFfprobe) {
+    const out = execFileSync(
+      "ffprobe",
+      ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file],
+      { encoding: "utf8" },
+    );
+    const d = parseFloat(out.trim());
+    if (!Number.isFinite(d) || d <= 0) throw new Error(`时长异常: ${file}`);
+    return d;
+  }
+  return (size * 8) / 48000;
 }
 
 function buildFull(unit) {
@@ -111,8 +124,9 @@ function buildFull(unit) {
   for (const f of files) {
     const p = resolve(dir, f);
     starts.push(Number(acc.toFixed(3)));
-    bufs.push(readFileSync(p));
-    acc += probeDuration(p);
+    const buf = readFileSync(p);
+    bufs.push(buf);
+    acc += probeDuration(p, buf.length);
   }
   starts.push(Number(acc.toFixed(3)));
   writeFileSync(resolve(dir, "full.mp3"), Buffer.concat(bufs));

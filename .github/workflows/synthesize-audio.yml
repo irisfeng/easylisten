@@ -23,6 +23,10 @@ jobs:
 
       - run: npm ci
 
+      # 整篇拼接的句级时间轴用 ffprobe 量时长(跑机不自带)
+      - name: 安装 ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
       - name: 预生成神经语音
         run: node scripts/synthesize.mjs
 
