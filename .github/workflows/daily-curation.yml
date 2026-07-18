@@ -48,6 +48,8 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: 预生成神经语音
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: node scripts/synthesize.mjs
 
       - name: 提交今日日刊
