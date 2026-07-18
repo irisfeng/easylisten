@@ -44,11 +44,11 @@
       "weight": 1.0
     },
     {
-      "name": "Reuters World",
-      "feed": "https://feeds.reuters.com/Reuters/worldNews",
+      "name": "The Guardian World",
+      "feed": "https://www.theguardian.com/world/rss",
       "category": "society",
       "lang": "en",
-      "weight": 1.1
+      "weight": 1.0
     },
     {
       "name": "BBC World",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Paul Graham Essays",
-      "feed": "https://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "feed": "http://www.paulgraham.com/rss.html",
       "category": "tech",
       "lang": "en",
       "weight": 1.2
@@ -140,6 +140,90 @@
       "category": "living",
       "lang": "en",
       "weight": 0.9
+    },
+    {
+      "name": "少数派",
+      "feed": "https://sspai.com/feed",
+      "category": "tech",
+      "lang": "zh",
+      "weight": 1.1
+    },
+    {
+      "name": "机核 GCores",
+      "feed": "https://www.gcores.com/rss",
+      "category": "culture",
+      "lang": "zh",
+      "weight": 1.1
+    },
+    {
+      "name": "36氪",
+      "feed": "https://36kr.com/feed",
+      "category": "society",
+      "lang": "zh",
+      "weight": 0.9
+    },
+    {
+      "name": "虎嗅",
+      "feed": "https://www.huxiu.com/rss/0.xml",
+      "category": "society",
+      "lang": "zh",
+      "weight": 0.9
+    },
+    {
+      "name": "阳志平的网志",
+      "feed": "https://www.yangzhiping.com/feed.xml",
+      "category": "living",
+      "lang": "zh",
+      "weight": 1.2
+    },
+    {
+      "name": "Guardian Long Read",
+      "feed": "https://www.theguardian.com/news/series/the-long-read/rss",
+      "category": "society",
+      "lang": "en",
+      "weight": 1.2
+    },
+    {
+      "name": "Nautilus",
+      "feed": "https://nautil.us/feed/",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1
+    },
+    {
+      "name": "Knowable Magazine",
+      "feed": "https://knowablemagazine.org/rss",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1
+    },
+    {
+      "name": "JSTOR Daily",
+      "feed": "https://daily.jstor.org/feed/",
+      "category": "humanities",
+      "lang": "en",
+      "weight": 1.1
+    },
+    {
+      "name": "3 Quarks Daily",
+      "feed": "https://3quarksdaily.com/feed",
+      "category": "humanities",
+      "lang": "en",
+      "weight": 1.0
+    },
+    {
+      "name": "Marginal Revolution",
+      "feed": "https://marginalrevolution.com/feed",
+      "category": "society",
+      "lang": "en",
+      "weight": 1.0
+    },
+    {
+      "name": "Damn Interesting",
+      "feed": "https://www.damninteresting.com/feed/",
+      "category": "humanities",
+      "lang": "en",
+      "weight": 1.1
     }
   ]
 }
