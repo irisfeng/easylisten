@@ -1,7 +1,16 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  CaretDown,
+  CaretRight,
+  Compass,
+  Headphones,
+  Pause,
+  Play,
+} from "@phosphor-icons/react";
 import {
   CATEGORIES,
   TOPIC_GROUPS,
@@ -10,6 +19,7 @@ import {
   type CategoryId,
   type Piece,
 } from "@/lib/content";
+import { editorialImageFor } from "@/lib/editorial-images";
 import {
   EVERGREEN_PIECES,
   ISSUE_PIECES,
@@ -24,378 +34,375 @@ import {
   setInterests,
   type Prefs,
 } from "@/lib/prefs";
-import { Reveal } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
+
+type AgeBand = "6-9" | "10-12" | "13-16";
+type Playing = { slug: string; language: "zh" | "en" } | null;
+
+const AGE_KEY = "easylisten.age-band.v1";
+const AGE_BANDS: { value: AgeBand; label: string }[] = [
+  { value: "6-9", label: "6-9 岁" },
+  { value: "10-12", label: "10-12 岁" },
+  { value: "13-16", label: "13-16 岁" },
+];
 
 export default function Home() {
   const [active, setActive] = useState<CategoryId | "all">("all");
-  // prefs 在客户端挂载后读取,避免与服务端渲染不一致
   const [prefs, setPrefs] = useState<Prefs | null>(null);
+  const [ageBand, setAgeBand] = useState<AgeBand>("13-16");
+  const [signedIn, setSignedIn] = useState(false);
+  const [playing, setPlaying] = useState<Playing>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const local = loadPrefs();
     setPrefs(local);
-    // 已登录时合并本机与账号记录；未登录保持纯本地使用
-    void import("@/lib/sync").then((m) =>
-      m
-        .syncAccountPrefs(local)
-        .then((merged) => {
-          if (merged) {
-            savePrefs(merged);
-            setPrefs(merged);
-          }
-        }),
-    );
+    const savedAge = window.localStorage.getItem(AGE_KEY);
+    if (savedAge && AGE_BANDS.some((band) => band.value === savedAge)) {
+      setAgeBand(savedAge as AgeBand);
+    }
+    // 公开资料读取对匿名访客返回空状态，不让“不登录也能听”产生报错噪音。
+    void fetch("/api/account/profile", { cache: "no-store" })
+      .then((response) => response.json())
+      .then(async (profile) => {
+        if (!profile?.authenticated) return;
+        setSignedIn(true);
+        const syncModule = await import("@/lib/sync");
+        const merged = await syncModule.syncAccountPrefs(local);
+        if (merged) {
+          savePrefs(merged);
+          setPrefs(merged);
+        }
+        if (!profile?.ageBand) return;
+        setAgeBand(profile.ageBand);
+        window.localStorage.setItem(AGE_KEY, profile.ageBand);
+      })
+      .catch(() => {});
+
+    return () => audioRef.current?.pause();
   }, []);
 
-  // "今日"标记依赖当前日期,放到挂载后再算,避免与预渲染的 HTML 不一致
-  const [todayStr, setTodayStr] = useState("");
-  useEffect(() => {
-    setTodayStr(
-      new Date().toLocaleDateString("sv", { timeZone: "Asia/Shanghai" }),
-    );
-  }, []);
-
-  // 日刊按"期"分组(日期倒序);筛选后为空的期整组隐藏
   const issueGroups = useMemo(() => {
-    const filtered =
-      active === "all"
-        ? ISSUE_PIECES
-        : ISSUE_PIECES.filter((p) => p.category === active);
     const byDate = new Map<string, Piece[]>();
-    for (const p of filtered) {
-      const arr = byDate.get(p.publishedAt) ?? [];
-      arr.push(p);
-      byDate.set(p.publishedAt, arr);
+    for (const piece of ISSUE_PIECES) {
+      const current = byDate.get(piece.publishedAt) ?? [];
+      current.push(piece);
+      byDate.set(piece.publishedAt, current);
     }
     return [...byDate.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
-  }, [active]);
+  }, []);
 
-  const evergreen = useMemo(
-    () =>
-      active === "all"
-        ? EVERGREEN_PIECES
-        : EVERGREEN_PIECES.filter((p) => p.category === active),
-    [active],
-  );
-
+  const [latestIssue, ...earlierIssues] = issueGroups;
+  const latestPieces = latestIssue?.[1] ?? [];
+  const alternate = latestPieces.find((piece) => piece.en);
+  const filteredArchive = useMemo(() => {
+    const pieces = [...earlierIssues.flatMap(([, list]) => list), ...EVERGREEN_PIECES];
+    return active === "all"
+      ? pieces
+      : pieces.filter((piece) => piece.category === active);
+  }, [active, earlierIssues]);
   const forYou = useMemo(
     () => (prefs && hasSignal(prefs) ? pickForYou(PIECES, prefs, 3) : []),
     [prefs],
   );
 
-  // 首屏优先展示最新一期，让新音色和新功能先被体验；个性化精选随后展示。
-  const [latestIssue, ...earlierIssueGroups] = issueGroups;
-  const latestMinutes = latestIssue?.[1].reduce(
-    (total, piece) => total + listenMinutes(piece),
-    0,
-  );
+  function chooseAge(value: AgeBand) {
+    setAgeBand(value);
+    window.localStorage.setItem(AGE_KEY, value);
+    if (!signedIn) return;
+    void fetch("/api/account/profile", {
+      method: "PUT",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ ageBand: value }),
+    }).catch(() => {});
+  }
+
+  function toggleAudio(piece: Piece, language: "zh" | "en" = "zh") {
+    const same = playing?.slug === piece.slug && playing.language === language;
+    if (same && audioRef.current) {
+      audioRef.current.pause();
+      setPlaying(null);
+      return;
+    }
+
+    audioRef.current?.pause();
+    const folder = language === "en" ? `${piece.slug}-en` : piece.slug;
+    const audio = new Audio(`/audio/${folder}/full.mp3`);
+    audioRef.current = audio;
+    audio.addEventListener("ended", () => setPlaying(null), { once: true });
+    audio.addEventListener("error", () => setPlaying(null), { once: true });
+    void audio.play().then(() => setPlaying({ slug: piece.slug, language })).catch(() => {
+      setPlaying(null);
+    });
+  }
+
+  if (!latestIssue) return null;
 
   return (
-    <main className="mx-auto max-w-3xl px-6 pb-32">
-      <header className="pt-5 pb-10 sm:pt-8 sm:pb-12">
-        <div className="flex min-h-14 items-center justify-between gap-4 border-b border-line">
-          <Link href="/" className="flex items-baseline gap-2 text-ink">
-            <span className="font-serif text-xl tracking-tight">轻听</span>
-            <span className="text-xs text-ink-faint">EasyListen</span>
-          </Link>
-          <Link
-            href="/account"
-            className="inline-flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-sm text-ink-soft transition hover:border-accent hover:text-ink active:scale-[0.98]"
-          >
-            家长账号 · 可选
-          </Link>
+    <main className="mx-auto min-h-dvh max-w-[52rem] px-5 pb-24 sm:px-10 lg:px-12">
+      <header className="pt-6 sm:pt-9">
+        <div className="flex items-center justify-between gap-5">
+          <label className="relative inline-flex min-h-11 items-center rounded-full border border-line bg-surface/60 pl-4 pr-10 text-sm text-ink">
+            <span className="sr-only">选择主要收听年龄段</span>
+            <select
+              value={ageBand}
+              onChange={(event) => chooseAge(event.target.value as AgeBand)}
+              className="appearance-none bg-transparent pr-1 outline-none"
+            >
+              {AGE_BANDS.map((band) => (
+                <option key={band.value} value={band.value}>{band.label}</option>
+              ))}
+            </select>
+            <CaretDown aria-hidden size={15} className="pointer-events-none absolute right-4" />
+          </label>
+          <a href="#sources" className="group inline-flex min-h-11 items-center gap-1 text-sm text-ink-soft hover:text-ink">
+            本期选题与来源
+            <CaretRight aria-hidden size={16} className="transition-transform group-hover:translate-x-0.5" />
+          </a>
         </div>
-        <div className="grid gap-8 pt-10 sm:grid-cols-[minmax(0,1fr)_15rem] sm:items-end sm:pt-14">
-          <div>
-            <h1 className="max-w-2xl font-serif text-[2.75rem] leading-[1.08] tracking-[-0.035em] sm:text-5xl">
-              <span className="block">接送路上，给孩子</span>
-              <span className="block">听见更大的世界</span>
-            </h1>
-            <p className="mt-5 max-w-xl text-base leading-8 text-ink-soft sm:text-lg">
-              每天替你挑好几篇。中英双语，新闻、科学、人文都讲得明白。
-            </p>
-          </div>
-          {latestIssue && (
-            <aside className="rounded-2xl border border-line bg-surface p-5 shadow-[0_16px_44px_rgba(27,48,38,0.06)]" aria-label="今日收听概览">
-              <p className="text-sm text-ink-soft">今天已经替你选好</p>
-              <p className="mt-2 font-serif text-4xl tracking-tight text-ink">
-                {latestIssue[1].length} <span className="text-lg text-ink-soft">篇</span>
-              </p>
-              <p className="mt-1 text-sm text-ink-soft">约 {latestMinutes} 分钟，适合一段接送路程</p>
-            </aside>
-          )}
+
+        <div className="pb-16 pt-20 sm:pb-20 sm:pt-24">
+          <p className="font-mono text-[0.68rem] tracking-[0.26em] text-ink-soft">EASYLISTEN</p>
+          <h1 className="mt-4 font-serif text-[3.35rem] leading-[0.98] tracking-[-0.055em] text-ink sm:text-[5.25rem]">
+            轻听 · 少年刊
+          </h1>
+          <p className="mt-5 font-serif text-xl tracking-wide text-ink-soft sm:text-2xl">
+            世界很大，不急着有标准答案
+          </p>
+          <p className="mt-10 font-mono text-[0.68rem] uppercase tracking-[0.22em] text-ink-faint">
+            {displayDate(latestIssue[0])}
+          </p>
         </div>
       </header>
 
-      {LATEST_NOTE && (
-        <aside className="mb-10 rounded-2xl bg-surface-strong px-5 py-5 sm:px-6" aria-label="主编的话">
-          <div className="flex flex-wrap items-baseline justify-between gap-2">
-            <h2 className="font-serif text-lg tracking-tight">主编的话</h2>
-            <time className="text-xs text-ink-faint">{LATEST_NOTE.date}</time>
-          </div>
-          <p className="mt-2 text-[0.95rem] leading-7 text-ink-soft">{LATEST_NOTE.note}</p>
-        </aside>
-      )}
+      <section aria-labelledby="latest-heading" className="border-t border-line pt-10 sm:pt-12">
+        <div className="mb-7 flex items-end justify-between gap-4">
+          <h2 id="latest-heading" className="font-serif text-xl tracking-wide sm:text-2xl">
+            今天，编辑部为你选了 {latestPieces.length} 篇
+          </h2>
+          <p className="hidden shrink-0 text-xs text-ink-faint sm:block">
+            约 {latestPieces.reduce((sum, piece) => sum + listenMinutes(piece), 0)} 分钟
+          </p>
+        </div>
 
-      {prefs && !prefs.onboarded && (
-        <Onboarding
-          onDone={(interests) => {
-            setInterests(interests);
-            setPrefs(loadPrefs());
-          }}
-        />
-      )}
-
-      <nav aria-label="按内容领域筛选" className="sticky top-0 z-10 -mx-6 mb-10 border-y border-line bg-paper/90 px-6 py-2 backdrop-blur-xl">
-        <div className="hide-scrollbar flex gap-1 overflow-x-auto overscroll-x-contain">
-          <FilterChip
-            label="全部"
-            activeState={active === "all"}
-            onClick={() => setActive("all")}
-          />
-          {CATEGORIES.map((c) => (
-            <FilterChip
-              key={c.id}
-              label={c.name}
-              activeState={active === c.id}
-              onClick={() => setActive(c.id)}
+        <ol>
+          {latestPieces.map((piece, index) => (
+            <IssueRow
+              key={piece.slug}
+              piece={piece}
+              index={index}
+              playing={playing?.slug === piece.slug && playing.language === "zh"}
+              onPlay={() => toggleAudio(piece)}
             />
           ))}
+        </ol>
+      </section>
+
+      {alternate?.en && (
+        <section className="mt-11 border-t border-line pt-8" aria-labelledby="alternate-heading">
+          <div className="flex items-center gap-3">
+            <Compass aria-hidden size={22} className="text-ink-soft" />
+            <h2 id="alternate-heading" className="font-serif text-xl text-ink-soft">换个角度听</h2>
+            <span className="h-px flex-1 bg-line" />
+          </div>
+          <div className="mt-7 grid grid-cols-[6.25rem_minmax(0,1fr)_3.5rem] items-center gap-4 sm:grid-cols-[9rem_minmax(0,1fr)_4rem] sm:gap-7">
+            {editorialImageFor(alternate) && (
+              <Link href={`/listen/${alternate.slug}`} className="relative aspect-square overflow-hidden bg-surface">
+                <Image
+                  src={editorialImageFor(alternate)!.src}
+                  alt={editorialImageFor(alternate)!.alt}
+                  fill
+                  sizes="(max-width: 640px) 100px, 144px"
+                  className="object-cover grayscale-[0.75] saturate-[0.7]"
+                  style={{ objectPosition: editorialImageFor(alternate)!.position }}
+                />
+              </Link>
+            )}
+            <Link href={`/listen/${alternate.slug}`} className="min-w-0 group">
+              <p className="text-[0.68rem] uppercase tracking-[0.16em] text-accent">EN　真实语速 / 可看中文稿</p>
+              <h3 className="mt-2 line-clamp-2 font-serif text-xl leading-tight tracking-tight group-hover:text-accent sm:text-2xl">
+                {alternate.en.title}
+              </h3>
+              <p className="mt-2 hidden text-sm leading-6 text-ink-soft sm:line-clamp-1">{alternate.en.intro}</p>
+              <p className="mt-2 text-xs text-ink-faint">{englishMinutes(alternate)} 分钟　{categoryOf(alternate.category).name}</p>
+            </Link>
+            <PlayButton
+              label={`播放英文稿：${alternate.en.title}`}
+              playing={playing?.slug === alternate.slug && playing.language === "en"}
+              onClick={() => toggleAudio(alternate, "en")}
+            />
+          </div>
+        </section>
+      )}
+
+      <section id="sources" className="mt-16 scroll-mt-6 border-t border-line pt-8" aria-labelledby="sources-heading">
+        <details className="group">
+          <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between gap-4">
+            <span>
+              <span id="sources-heading" className="block font-serif text-xl">本期选题与来源</span>
+              <span className="mt-1 block text-xs text-ink-faint">每篇均标明发布者、原文标题与直达链接</span>
+            </span>
+            <CaretDown aria-hidden size={18} className="shrink-0 transition-transform group-open:rotate-180" />
+          </summary>
+          <ol className="mt-5 border-t border-line">
+            {latestPieces.map((piece, index) => (
+              <li key={piece.slug} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-3 border-b border-line py-5">
+                <span className="font-mono text-xs text-ink-faint">{String(index + 1).padStart(2, "0")}</span>
+                <div>
+                  <p className="text-sm font-medium text-ink">{piece.source?.name ?? "轻听编辑部"}</p>
+                  <p className="mt-1 text-sm leading-6 text-ink-soft">{piece.source?.originalTitle ?? piece.title}</p>
+                  {piece.source?.url && (
+                    <a href={piece.source.url} target="_blank" rel="noreferrer" className="mt-2 inline-flex min-h-10 items-center gap-1 text-sm text-accent hover:underline">
+                      查看原文 <CaretRight aria-hidden size={14} />
+                    </a>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+          {LATEST_NOTE && <p className="mt-5 text-sm leading-7 text-ink-soft">编辑手记：{LATEST_NOTE.note}</p>}
+        </details>
+      </section>
+
+      {prefs && !prefs.onboarded && (
+        <Onboarding onDone={(interests) => {
+          setInterests(interests);
+          setPrefs(loadPrefs());
+        }} />
+      )}
+
+      {(forYou.length > 0 || filteredArchive.length > 0) && (
+        <section className="mt-16 border-t border-line pt-8">
+          <details>
+            <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between">
+              <span className="font-serif text-xl">往期少年刊</span>
+              <CaretDown aria-hidden size={18} />
+            </summary>
+            <div className="mt-5 flex gap-1 overflow-x-auto border-y border-line py-2">
+              <FilterChip label="全部" activeState={active === "all"} onClick={() => setActive("all")} />
+              {CATEGORIES.map((category) => (
+                <FilterChip key={category.id} label={category.name} activeState={active === category.id} onClick={() => setActive(category.id)} />
+              ))}
+            </div>
+            <ul>
+              {filteredArchive.map((piece) => (
+                <li key={piece.slug} className="border-b border-line py-5">
+                  <Link href={`/listen/${piece.slug}`} className="group block">
+                    <p className="text-xs text-ink-faint">{piece.publishedAt}　{categoryOf(piece.category).name}</p>
+                    <h3 className="mt-1 font-serif text-xl leading-snug group-hover:text-accent">{piece.title}</h3>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+        </section>
+      )}
+
+      <footer className="mt-20 border-t border-line pb-8 pt-9 text-center">
+        <p className="font-serif text-base tracking-wide text-ink-soft">轻听，给你留一点思考的空间</p>
+        <div className="mt-5 flex items-center justify-center gap-5 text-xs text-ink-faint">
+          <Link href="/account" className="min-h-11 content-center hover:text-ink">家长账号，可选</Link>
+          <span aria-hidden className="h-3 w-px bg-line" />
+          <span>每天几篇，宁缺毋滥</span>
         </div>
-      </nav>
-
-      {latestIssue && (
-        <IssueSection
-          date={latestIssue[0]}
-          list={latestIssue[1]}
-          today={todayStr}
-        />
-      )}
-
-      {forYou.length > 0 && (
-        <section className="mb-12">
-          <h2 className="mb-2 font-serif text-2xl tracking-tight">为你精选</h2>
-          <p className="mb-4 text-sm text-ink-soft">
-            根据你的兴趣与收听习惯排序,也会留一些惊喜。
-          </p>
-          <ul className="flex flex-col">
-            {forYou.map((p, i) => (
-              <PieceRow key={p.slug} piece={p} index={i} compact />
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {earlierIssueGroups.map(([date, list]) => (
-        <IssueSection key={date} date={date} list={list} today={todayStr} />
-      ))}
-
-      {evergreen.length > 0 && (
-        <section className="mb-12">
-          <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
-            长青 · 不过时的选文
-          </h2>
-          <ul className="flex flex-col">
-            {evergreen.map((p, i) => (
-              <Reveal as="li" key={p.slug} index={i}>
-                <PieceRow piece={p} index={i} />
-              </Reveal>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <footer className="mt-20 border-t border-line pt-8">
-        <p className="font-serif text-lg italic leading-relaxed text-ink-soft">
-          眼睛太忙了，把阅读交给耳朵。
-        </p>
-        <p className="mt-2 text-xs text-ink-faint">每天几篇。宁缺毋滥。</p>
-        <p className="mt-1 text-xs text-ink-faint">轻听 EasyListen</p>
       </footer>
     </main>
   );
 }
 
-function IssueSection({
-  date,
-  list,
-  today,
-}: {
-  date: string;
-  list: Piece[];
-  today: string;
-}) {
-  return (
-    <section className="mb-12">
-      <h2 className="border-b border-line pb-3 text-sm font-medium text-ink-soft">
-        {dateLabel(date, today)}
-      </h2>
-      <ul className="flex flex-col">
-        {list.map((p, i) => (
-          <Reveal as="li" key={p.slug} index={i}>
-            <PieceRow piece={p} index={i} />
-          </Reveal>
-        ))}
-      </ul>
-    </section>
-  );
-}
-
-/** 期眉标：今日刊 · 7 月 18 日 周六；非当日只显示日期。 */
-function dateLabel(iso: string, today: string): string {
-  const [y, m, d] = iso.split("-").map(Number);
-  const week = "日一二三四五六"[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
-  const base = `${m} 月 ${d} 日 周${week}`;
-  return iso === today ? `今日刊 · ${base}` : base;
-}
-
-function PieceRow({
+function IssueRow({
   piece,
-  compact = false,
+  index,
+  playing,
+  onPlay,
 }: {
   piece: Piece;
   index: number;
-  compact?: boolean;
+  playing: boolean;
+  onPlay: () => void;
 }) {
-  const cat = categoryOf(piece.category);
+  const image = editorialImageFor(piece);
+  const compactImage = image && index > 0;
   return (
-    <Link
-      href={`/listen/${piece.slug}`}
-      className={cn(
-        "group -mx-3 block rounded-2xl border-b border-line px-3 transition hover:bg-surface active:scale-[0.995]",
-        compact ? "py-4" : "py-6 sm:py-7",
-      )}
-    >
-      <div className="mb-2 flex flex-wrap items-center gap-x-2.5 gap-y-2">
-        <span
-          className={cn(
-            "rounded-full px-2.5 py-1 text-xs font-medium",
-            cat.washClass,
-            cat.deepClass,
-          )}
-        >
-          {cat.name}
-        </span>
-        {piece.form === "long" && (
-          <span className="text-xs text-ink-soft">
-            深读
-          </span>
+    <li className="grid grid-cols-[2.75rem_minmax(0,1fr)_3.5rem] gap-3 border-b border-line py-7 sm:grid-cols-[3.25rem_minmax(0,1fr)_4rem] sm:gap-5 sm:py-8">
+      <span className="pt-1 font-serif text-2xl text-ink-faint sm:text-3xl">{String(index + 1).padStart(2, "0")}</span>
+      <div className="min-w-0 border-l-2 border-accent pl-4 sm:pl-6">
+        {compactImage && (
+          <Link href={`/listen/${piece.slug}`} className="mb-5 block overflow-hidden bg-surface">
+            <figure>
+              <div className="relative aspect-[16/7]">
+                <Image src={image.src} alt={image.alt} fill sizes="(max-width: 768px) 65vw, 560px" className="object-cover grayscale-[0.7] saturate-[0.65]" style={{ objectPosition: image.position }} />
+              </div>
+              <figcaption className="mt-2 text-[0.68rem] leading-5 text-ink-faint">编辑插图　{image.caption}</figcaption>
+            </figure>
+          </Link>
         )}
-        {piece.en && (
-          <span className="text-xs text-ink-soft">
-            中英双语
-          </span>
-        )}
-        <span className="text-xs text-ink-faint">
-          {listenMinutes(piece)} 分钟
-        </span>
+        <Link href={`/listen/${piece.slug}`} className="group block">
+          <h3 className="font-serif text-[1.42rem] leading-[1.2] tracking-[-0.02em] group-hover:text-accent sm:text-[1.72rem]">{piece.title}</h3>
+          <p className="mt-2 line-clamp-2 text-sm leading-6 text-ink-soft sm:text-[0.95rem]">{piece.intro}</p>
+          <p className="mt-3 text-xs text-ink-faint">
+            {listenMinutes(piece)} 分钟　<span className="text-accent">{categoryOf(piece.category).name}</span>
+            {piece.en ? "　中英双语" : ""}
+          </p>
+        </Link>
       </div>
-      <h2
-        className={cn(
-          "font-serif leading-snug tracking-tight text-ink",
-          compact ? "text-xl" : "text-[1.45rem] sm:text-[1.65rem]",
-        )}
-      >
-        {piece.title}
-      </h2>
-      {!compact && (
-        <p className="mt-1.5 line-clamp-2 text-[0.95rem] leading-relaxed text-ink-soft">
-          {piece.intro}
-        </p>
-      )}
-      {piece.source && (
-        <p className="mt-2 text-xs font-medium text-accent">
-          来源：{piece.source.name}{piece.source.basis === "full-text" ? "，原文可查" : ""}
-        </p>
-      )}
-    </Link>
+      <PlayButton label={`${playing ? "暂停" : "播放"}：${piece.title}`} playing={playing} onClick={onPlay} />
+    </li>
+  );
+}
+
+function PlayButton({ label, playing, onClick }: { label: string; playing: boolean; onClick: () => void }) {
+  return (
+    <button type="button" aria-label={label} onClick={onClick} className="mt-0.5 flex size-12 shrink-0 items-center justify-center self-start rounded-full border border-ink-faint text-ink transition hover:border-accent hover:text-accent active:scale-95 sm:size-14">
+      {playing ? <Pause aria-hidden size={18} weight="fill" /> : <Play aria-hidden size={18} weight="fill" className="translate-x-px" />}
+    </button>
   );
 }
 
 function Onboarding({ onDone }: { onDone: (interests: string[]) => void }) {
   const [selected, setSelected] = useState<string[]>([]);
-
-  const toggle = (t: string) =>
-    setSelected((prev) =>
-      prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t],
-    );
-
+  function toggle(topic: string) {
+    setSelected((current) => current.includes(topic) ? current.filter((item) => item !== topic) : [...current, topic]);
+  }
   return (
-    <section className="mb-12 rounded-2xl border border-line bg-surface p-5 sm:p-6">
-      <h2 className="font-serif text-2xl tracking-tight">孩子更想听什么？</h2>
-      <p className="mt-1 mb-4 text-sm text-ink-soft">
-        选几个方向，首页会替你排好顺序。不确定也可以先随便听听。
-      </p>
-      <div className="space-y-3">
-        {CATEGORIES.map((c) => (
-          <div key={c.id} className="flex flex-wrap items-center gap-2">
-            <span
-              className={cn(
-                "w-10 shrink-0 font-mono text-[0.65rem] uppercase tracking-[0.08em]",
-                c.deepClass,
-              )}
-            >
-              {c.name}
-            </span>
-            {TOPIC_GROUPS[c.id].map((t) => (
-              <button
-                key={t}
-                onClick={() => toggle(t)}
-                aria-pressed={selected.includes(t)}
-                className={cn(
-                  "min-h-11 rounded-full border px-3 text-sm transition-colors active:scale-[0.98]",
-                  selected.includes(t)
-                    ? "border-ink bg-ink text-surface"
-                    : "border-line text-ink-soft hover:border-accent hover:text-ink",
-                )}
-              >
-                {t}
-              </button>
-            ))}
+    <section className="mt-16 border-t border-line pt-9" aria-labelledby="interests-heading">
+      <div className="flex items-center gap-3">
+        <Headphones aria-hidden size={22} className="text-ink-soft" />
+        <h2 id="interests-heading" className="font-serif text-xl">孩子更想听什么？</h2>
+      </div>
+      <p className="mt-2 text-sm leading-6 text-ink-soft">选几个方向，只调整往期内容顺序。今天的少年刊仍由编辑部统一精选。</p>
+      <div className="mt-6 space-y-5">
+        {CATEGORIES.map((category) => (
+          <div key={category.id} className="grid grid-cols-[3.5rem_1fr] gap-3">
+            <span className="pt-2 text-xs text-accent">{category.name}</span>
+            <div className="flex flex-wrap gap-2">
+              {TOPIC_GROUPS[category.id].map((topic) => (
+                <button key={topic} type="button" onClick={() => toggle(topic)} aria-pressed={selected.includes(topic)} className={cn("min-h-10 rounded-full border px-3 text-xs transition", selected.includes(topic) ? "border-ink bg-ink text-paper" : "border-line text-ink-soft hover:border-accent hover:text-ink")}>{topic}</button>
+              ))}
+            </div>
           </div>
         ))}
       </div>
-      <div className="mt-5 flex items-center gap-3">
-        <button
-          onClick={() => onDone(selected)}
-          disabled={selected.length === 0}
-          className="min-h-11 rounded-full bg-ink px-5 text-sm text-surface transition-transform active:scale-[0.98] disabled:opacity-40"
-        >
-          开始聆听
-        </button>
-        <button
-          onClick={() => onDone([])}
-          className="min-h-11 rounded-full px-4 text-sm text-ink-soft transition-colors hover:bg-ink/[0.04] hover:text-ink active:scale-[0.98]"
-        >
-          先随便听听
-        </button>
+      <div className="mt-6 flex gap-3">
+        <button type="button" onClick={() => onDone(selected)} disabled={selected.length === 0} className="min-h-11 rounded-full bg-ink px-5 text-sm text-paper disabled:opacity-35">保存兴趣</button>
+        <button type="button" onClick={() => onDone([])} className="min-h-11 px-4 text-sm text-ink-soft hover:text-ink">暂时跳过</button>
       </div>
     </section>
   );
 }
 
-function FilterChip({
-  label,
-  activeState,
-  onClick,
-}: {
-  label: string;
-  activeState: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      aria-pressed={activeState}
-      className={cn(
-        "min-h-11 shrink-0 rounded-full px-4 text-sm transition-colors active:scale-[0.98]",
-        activeState
-          ? "bg-ink text-surface"
-          : "text-ink-soft hover:bg-ink/[0.04] hover:text-ink",
-      )}
-    >
-      {label}
-    </button>
-  );
+function FilterChip({ label, activeState, onClick }: { label: string; activeState: boolean; onClick: () => void }) {
+  return <button type="button" onClick={onClick} aria-pressed={activeState} className={cn("min-h-10 shrink-0 px-3 text-xs transition", activeState ? "text-ink underline decoration-accent underline-offset-8" : "text-ink-soft hover:text-ink")}>{label}</button>;
+}
+
+function displayDate(iso: string): string {
+  const [year, month, day] = iso.split("-").map(Number);
+  const weekday = new Intl.DateTimeFormat("en-US", { weekday: "long", timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
+  return `${iso}　/　${weekday}`;
+}
+
+function englishMinutes(piece: Piece): number {
+  if (!piece.en) return 0;
+  const words = `${piece.en.intro} ${piece.en.paragraphs.join(" ")}`.trim().split(/\s+/).length;
+  return Math.max(1, Math.round(words / 145));
 }

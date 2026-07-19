@@ -10,13 +10,13 @@ async function currentUserId() {
 
 export async function GET() {
   const userId = await currentUserId();
-  if (!userId) return NextResponse.json({ message: "未登录" }, { status: 401 });
+  if (!userId) return NextResponse.json({ authenticated: false, ageBand: null });
 
   const result = await getDb().execute({
     sql: "SELECT age_band FROM listener_profiles WHERE parent_user_id = ? LIMIT 1",
     args: [userId],
   });
-  return NextResponse.json({ ageBand: result.rows[0]?.age_band ?? null });
+  return NextResponse.json({ authenticated: true, ageBand: result.rows[0]?.age_band ?? null });
 }
 
 export async function PUT(request: Request) {

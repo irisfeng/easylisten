@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #eef1ee;
-  --color-surface: #f8faf9;
-  --color-surface-strong: #e4eae6;
-  --color-ink: #1a201d;
-  --color-ink-soft: #5f6b64;
-  --color-ink-faint: #87918b;
-  --color-line: #d7ddd9;
-  --color-accent: #2f5d4c;
-  --color-accent-wash: #dce9e2;
+  --color-paper: #f3f3f0;
+  --color-surface: #fafaf7;
+  --color-surface-strong: #e9ecec;
+  --color-ink: #181b1a;
+  --color-ink-soft: #666c69;
+  --color-ink-faint: #8b918e;
+  --color-line: #d5d8d6;
+  --color-accent: #3979a7;
+  --color-accent-wash: #e0ebf2;
 
   --color-sky-wash: #e1f3fe;
   --color-sky-deep: #1f6c9f;
@@ -48,15 +48,15 @@ body {
 }
 
 :root[data-theme="dark"] {
-  --color-paper: #111513;
-  --color-surface: #171d1a;
-  --color-surface-strong: #202923;
-  --color-ink: #edf2ef;
-  --color-ink-soft: #a8b2ac;
-  --color-ink-faint: #747f78;
-  --color-line: #29322d;
-  --color-accent: #8fc4aa;
-  --color-accent-wash: #213d31;
+  --color-paper: #121516;
+  --color-surface: #181c1e;
+  --color-surface-strong: #22282b;
+  --color-ink: #eef1f1;
+  --color-ink-soft: #a9b0b2;
+  --color-ink-faint: #767f82;
+  --color-line: #2b3235;
+  --color-accent: #8dbbd9;
+  --color-accent-wash: #203747;
   --color-sky-wash: #1b323a;
   --color-sky-deep: #9bc6dc;
   --color-rose-wash: #3a2527;
@@ -73,15 +73,15 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-paper: #111513;
-    --color-surface: #171d1a;
-    --color-surface-strong: #202923;
-    --color-ink: #edf2ef;
-    --color-ink-soft: #a8b2ac;
-    --color-ink-faint: #747f78;
-    --color-line: #29322d;
-    --color-accent: #8fc4aa;
-    --color-accent-wash: #213d31;
+    --color-paper: #121516;
+    --color-surface: #181c1e;
+    --color-surface-strong: #22282b;
+    --color-ink: #eef1f1;
+    --color-ink-soft: #a9b0b2;
+    --color-ink-faint: #767f82;
+    --color-line: #2b3235;
+    --color-accent: #8dbbd9;
+    --color-accent-wash: #203747;
     --color-sky-wash: #1b323a;
     --color-sky-deep: #9bc6dc;
     --color-rose-wash: #3a2527;
