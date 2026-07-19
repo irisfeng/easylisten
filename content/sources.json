@@ -256,6 +256,54 @@
       "maxAgeDays": 7
     },
     {
+      "name": "The Conversation",
+      "$comment": "高校学者面向公众的解释文章；覆盖时事、社会科学、文化与科学。逐篇核查证据、立场与少年适配，不收纯政治口水",
+      "feed": "https://theconversation.com/global/articles.atom",
+      "category": "society",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "analysis",
+      "maxAgeDays": 3,
+      "maxItems": 4,
+      "minAgeBand": "10-12"
+    },
+    {
+      "name": "Smithsonian History",
+      "$comment": "史密森尼杂志历史频道；优先文学源流、考古、博物馆、人物与日常史，战争和死亡主题仅限高龄且避免细节",
+      "feed": "https://www.smithsonianmag.com/rss/history/",
+      "category": "humanities",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "analysis",
+      "maxAgeDays": 7,
+      "maxItems": 4,
+      "minAgeBand": "10-12"
+    },
+    {
+      "name": "The Paris Review Daily",
+      "$comment": "文学访谈、创作随笔与批评；只选能解释语言、写作、艺术和文化语境的文章，成人身份与创伤主题从严",
+      "feed": "https://www.theparisreview.org/blog/feed/",
+      "category": "humanities",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 7,
+      "maxItems": 3,
+      "minAgeBand": "13-16"
+    },
+    {
+      "name": "Works in Progress",
+      "$comment": "经济、城市、公共政策、科学与技术的证据型长文；只选论证完整且能转成纯听内容的文章",
+      "feed": "https://www.worksinprogress.news/feed",
+      "category": "society",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 14,
+      "maxItems": 3,
+      "minAgeBand": "13-16"
+    },
+    {
       "name": "3 Quarks Daily",
       "feed": "https://3quarksdaily.com/feed",
       "category": "humanities",

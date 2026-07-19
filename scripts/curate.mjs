@@ -17,6 +17,7 @@ import {
   composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
+  normalizeAgeBands,
   selectBilingualCandidates,
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
@@ -36,14 +37,6 @@ const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
 const MAX_PICKS = 6;
 const QUALITY_BAR = 80;
-const AGE_BANDS = ["6-9", "10-12", "13-16"];
-
-function normalizeAgeBands(value, fallback = AGE_BANDS) {
-  const valid = Array.isArray(value)
-    ? [...new Set(value.filter((band) => AGE_BANDS.includes(band)))]
-    : [];
-  return valid.length ? valid : fallback;
-}
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
 const PROVIDERS = [
@@ -139,14 +132,14 @@ function freshnessLabel(publishedAt) {
 
 const menu = CANDIDATES.map(
   (c, i) =>
-    `[${i}] (${c.category}/${c.lang}/${c.region === "mainland" ? "中国大陆" : "国际"}/${c.sourceName}/发布者${c.publisher ?? c.sourceName}/权重${c.weight}/${c.profile ?? "general"}/${freshnessLabel(c.publishedAt)}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
+    `[${i}] (${c.category}/${c.lang}/${c.region === "mainland" ? "中国大陆" : "国际"}/${c.sourceName}/发布者${c.publisher ?? c.sourceName}/权重${c.weight}/${c.profile ?? "general"}/最低适龄${c.minAgeBand ?? "逐篇判断"}/${freshnessLabel(c.publishedAt)}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
 ).join("\n\n");
 
 const scoreResult = await chatJson(
   `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
   `今天是北京时间 ${today}。以下是候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
-少年适配:真正听众是 6–16 岁孩子,选择者是家长。每期至少 2 篇应让 6–12 岁孩子无需额外背景也能听懂;战争、灾难、犯罪和死亡等沉重议题最多 1 篇且避免细节渲染。纯游戏/影视/新品官宣、销量战报和阵容清单不入选,除非文章提供创作、技术、产业或文化层面的解释。单一小样本健康研究不得被包装成普遍结论或行动建议。
+少年适配:听众固定分为 6-9、10-12、13-16 三个年龄段,选择者是家长。每期至少 2 篇应让 6-9 或 10-12 岁孩子无需额外背景也能听懂;候选标注的“最低适龄”是代码硬下限,不得向下误标。战争、灾难、犯罪和死亡等沉重议题最多 1 篇且避免细节渲染。纯游戏/影视/新品官宣、销量战报和阵容清单不入选,除非文章提供创作、技术、产业或文化层面的解释。单一小样本健康研究不得被包装成普遍结论或行动建议。
 中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
 国内主场:若中国大陆发布者中有达标内容,节目单至少一半来自国内源；仍须逐篇超过 ${QUALITY_BAR} 分，不得用低质量内容凑比例。国内内容不能只来自科技数码，要兼顾科学、教育、社会、人文、健康和体育。
 重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。同一发布来源每天最多 1 篇。
@@ -302,7 +295,7 @@ for (const pick of regularPicks) {
     console.log(`素材: ${c.title} → 全文 ${fullText.length} 字`);
     const script = await chatJson(
       `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
-      `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}\n\n同时判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。按概念难度、情绪安全和孩子能否独立听懂选择一个或多个，不因题材“高级”就机械排除低龄。\n\n以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"], "ageBands": ["6-9", "10-12", "13-16"]}。`,
+      `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}\n\n同时判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。按概念难度、情绪安全和孩子能否独立听懂选择一个或多个，不因题材“高级”就机械排除低龄。${c.minAgeBand ? `该来源的保守最低适龄段是 ${c.minAgeBand}，不得返回更低年龄段；这只是下限，具体文章仍可只标更高年龄段。` : ""}\n\n以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"], "ageBands": ["6-9", "10-12", "13-16"]}。`,
       `听稿(${c.title})`,
     );
     const validScript =
@@ -328,7 +321,7 @@ for (const pick of regularPicks) {
       intro: script.intro,
       paragraphs: script.paragraphs,
       topics: pick.topics,
-      ageBands: normalizeAgeBands(script.ageBands),
+      ageBands: normalizeAgeBands(script.ageBands, { minAgeBand: c.minAgeBand }),
       form: "pick",
       source: {
         name: c.sourceName,
@@ -391,7 +384,10 @@ if (deepValid) {
           intro: script.intro,
           paragraphs: script.paragraphs,
           topics: Array.isArray(deep.topics) ? deep.topics : [],
-          ageBands: normalizeAgeBands(script.ageBands, ["13-16"]),
+          ageBands: normalizeAgeBands(script.ageBands, {
+            fallback: ["13-16"],
+            minAgeBand: c.minAgeBand,
+          }),
           form: "long",
           shelf: "evergreen",
           source: {

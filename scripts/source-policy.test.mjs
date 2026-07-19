@@ -18,6 +18,7 @@ const categories = new Set([
 ]);
 const profiles = new Set(["depth", "analysis", "realtime", "discovery"]);
 const sourceFormats = new Set(["sitemap", "listing"]);
+const ageBands = new Set(["6-9", "10-12", "13-16"]);
 
 test("信息源配置完整、唯一且落在受控分层内", () => {
   assert.ok(Array.isArray(sources) && sources.length > 0);
@@ -40,6 +41,15 @@ test("信息源配置完整、唯一且落在受控分层内", () => {
       `${source.name}: weight must be between 0.8 and 1.2`,
     );
     assert.ok(profiles.has(source.profile), `${source.name}: invalid profile`);
+    if (source.maxItems !== undefined) {
+      assert.ok(
+        Number.isInteger(source.maxItems) && source.maxItems >= 1 && source.maxItems <= 10,
+        `${source.name}: maxItems must be an integer from 1 to 10`,
+      );
+    }
+    if (source.minAgeBand !== undefined) {
+      assert.ok(ageBands.has(source.minAgeBand), `${source.name}: invalid minAgeBand`);
+    }
     assert.ok(
       Number.isInteger(source.maxAgeDays) &&
         source.maxAgeDays >= 1 &&

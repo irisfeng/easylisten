@@ -4,6 +4,26 @@ export const CHINESE_POOL_SHARE = 0.5;
 export const MAINLAND_POOL_SHARE = 0.45;
 export const REALTIME_POOL_SHARE = 0.2;
 export const CATEGORY_POOL_MIN = 5;
+export const AGE_BANDS = ["6-9", "10-12", "13-16"];
+
+/**
+ * 模型逐篇判断适龄段，来源配置只提供保守下限。高质量成人刊物不等于低龄适配；
+ * 即使模型误标，代码也不会让内容落到来源下限以下。
+ */
+export function normalizeAgeBands(
+  value,
+  { fallback = AGE_BANDS, minAgeBand } = {},
+) {
+  const floor = AGE_BANDS.indexOf(minAgeBand);
+  const allowed = floor >= 0 ? AGE_BANDS.slice(floor) : AGE_BANDS;
+  const valid = Array.isArray(value)
+    ? [...new Set(value.filter((band) => allowed.includes(band)))]
+    : [];
+  if (valid.length) return valid;
+  if (floor >= 0) return [minAgeBand];
+  const validFallback = fallback.filter((band) => allowed.includes(band));
+  return validFallback.length ? validFallback : AGE_BANDS;
+}
 
 /**
  * 同一天的手动重跑或失败重试必须替换当天旧刊，不能继续追加。

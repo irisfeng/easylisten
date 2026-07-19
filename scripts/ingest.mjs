@@ -128,6 +128,7 @@ function strip(s) {
 }
 
 async function fetchFeed(src) {
+  const sourceLimit = Math.min(src.maxItems ?? MAX_PER_SOURCE, MAX_PER_SOURCE);
   const res = await fetch(src.feed, {
     headers: { "user-agent": "easylisten-ingest/1.0 (+https://github.com/irisfeng/easylisten)" },
     signal: AbortSignal.timeout(20000),
@@ -147,10 +148,10 @@ async function fetchFeed(src) {
         (a, b) => Number(preferred.test(b.title)) - Number(preferred.test(a.title)),
       );
     }
-    recent.splice(MAX_PER_SOURCE * 2);
+    recent.splice(sourceLimit * 2);
     const items = [];
     for (const item of recent) {
-      if (items.length >= MAX_PER_SOURCE) break;
+      if (items.length >= sourceLimit) break;
       try {
         const article = await fetch(item.link, {
           headers: { "user-agent": "easylisten-ingest/1.0 (+https://github.com/irisfeng/easylisten)" },
@@ -176,10 +177,10 @@ async function fetchFeed(src) {
         freshEnough(item.publishedAt, src.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS) &&
         (!src.includePattern || new RegExp(src.includePattern).test(item.link)),
     )
-    .slice(0, MAX_PER_SOURCE * 2);
+    .slice(0, sourceLimit * 2);
   const items = [];
   for (const item of recent) {
-    if (items.length >= MAX_PER_SOURCE) break;
+    if (items.length >= sourceLimit) break;
     try {
       const article = await fetch(item.link, {
         headers: { "user-agent": "easylisten-ingest/1.0 (+https://github.com/irisfeng/easylisten)" },
@@ -211,6 +212,7 @@ const seenUrls = new Set(
 const candidates = [];
 for (const src of SOURCES) {
   try {
+    const sourceLimit = Math.min(src.maxItems ?? MAX_PER_SOURCE, MAX_PER_SOURCE);
     const items = (await fetchFeed(src)).filter(
       (it) =>
         it.title &&
@@ -218,7 +220,7 @@ for (const src of SOURCES) {
         freshEnough(it.publishedAt, src.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS) &&
         !seenUrls.has(it.link),
     );
-    for (const it of items.slice(0, MAX_PER_SOURCE)) {
+    for (const it of items.slice(0, sourceLimit)) {
       candidates.push({
         ...it,
         sourceName: src.name,
@@ -228,6 +230,7 @@ for (const src of SOURCES) {
         profile: src.profile ?? "general",
         region: src.region ?? "international",
         publisher: src.publisher ?? src.name,
+        minAgeBand: src.minAgeBand,
       });
     }
     console.log(`ok   ${src.name}: ${items.length}`);

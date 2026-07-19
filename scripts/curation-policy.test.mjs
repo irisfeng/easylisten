@@ -6,9 +6,22 @@ import {
   composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
+  normalizeAgeBands,
   selectCandidatePool,
   selectBilingualCandidates,
 } from "./lib/curation-policy.mjs";
+
+test("成人向优质来源的最低适龄段由代码兜底", () => {
+  assert.deepEqual(
+    normalizeAgeBands(["6-9", "10-12"], { minAgeBand: "10-12" }),
+    ["10-12"],
+  );
+  assert.deepEqual(
+    normalizeAgeBands(["6-9"], { minAgeBand: "13-16" }),
+    ["13-16"],
+  );
+  assert.deepEqual(normalizeAgeBands(["6-9", "13-16"]), ["6-9", "13-16"]);
+});
 
 const now = Date.parse("2026-07-20T06:00:00+08:00");
 const item = (title, score, options = {}) => ({
