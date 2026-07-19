@@ -79,6 +79,28 @@ export default function Reader({ piece }: { piece: Piece }) {
     if (current > maxHeardRef.current) maxHeardRef.current = current;
   }, [current]);
 
+  // 当前句越过可视阅读区时自动跟随。底部为固定播放器留出空间，避免
+  // “高亮其实在动，但一直藏在播放器下面”。用户手动点可见句子不会跳屏。
+  useEffect(() => {
+    if (current < 0 || state !== "playing") return;
+    const active = document.querySelector<HTMLElement>(
+      `[data-sentence-index="${current}"]`,
+    );
+    if (!active) return;
+
+    const rect = active.getBoundingClientRect();
+    const topGuard = 72;
+    const bottomGuard = window.innerHeight - 128;
+    if (rect.top >= topGuard && rect.bottom <= bottomGuard) return;
+
+    active.scrollIntoView({
+      block: "center",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
+    });
+  }, [current, state]);
+
   // 浏览器语音列表异步加载;仅在走 WebSpeech 兜底时展示音色切换。
   useEffect(() => {
     if (hasAudio || typeof window === "undefined" || !("speechSynthesis" in window))
@@ -308,6 +330,7 @@ export default function Reader({ piece }: { piece: Piece }) {
                 <span
                   key={s.index}
                   data-index={s.index}
+                  data-sentence-index={s.index}
                   onClick={() => startFrom(s.index)}
                   className={cn(
                     "sentence",

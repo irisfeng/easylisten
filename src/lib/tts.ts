@@ -68,11 +68,12 @@ class FullAudioEngine implements SpeechEngine {
   ) {}
 
   isAvailable() {
-    return (
+    const available =
       typeof window !== "undefined" &&
       typeof Audio !== "undefined" &&
-      this.starts.length > 1
-    );
+      this.starts.length > 1;
+    if (available) this.ensure();
+    return available;
   }
 
   private ensure(): HTMLAudioElement {
@@ -82,6 +83,9 @@ class FullAudioEngine implements SpeechEngine {
       a.setAttribute("playsinline", "");
       // rAF 在后台不跑,timeupdate 兜底,保证后台听完也能记录进度
       a.addEventListener("timeupdate", this.sync);
+      // Reader 初始化时就开始取元数据。这样用户第一次点播放/点句子时，
+      // 大多数情况下可以在同一次用户手势里完成 seek + play。
+      a.load();
       this.audio = a;
     }
     return this.audio;
@@ -109,29 +113,37 @@ class FullAudioEngine implements SpeechEngine {
   speak(sentences: string[], startIndex: number) {
     const a = this.ensure();
     this.stopped = false;
-    this.idx = -1;
+    const index = Math.max(
+      0,
+      Math.min(startIndex, sentences.length - 1, this.starts.length - 2),
+    );
+    // 点击哪一句就立即反馈哪一句；不能等 loadedmetadata，否则慢网和
+    // iOS Safari 上会出现“点了没高亮”的假死感。
+    this.idx = index;
+    this.sentenceCb(index);
     a.onended = () => {
       if (!this.stopped) {
         cancelAnimationFrame(this.raf);
         this.doneCb();
       }
     };
-    const seekTo =
-      this.starts[Math.max(0, Math.min(startIndex, this.starts.length - 2))];
+    const seekTo = this.starts[index];
     const begin = () => {
+      a.onloadedmetadata = null;
       a.currentTime = seekTo + 0.001;
       a.playbackRate = this.rate;
       this.sync();
-      void a.play().catch(() => {});
       cancelAnimationFrame(this.raf);
       this.raf = requestAnimationFrame(this.loop);
     };
-    // 元数据就绪才能 seek;首次播放时可能还没加载完
+    // 元数据就绪才能精确 seek。尚未就绪时也必须在当前点击手势里调用
+    // play():Safari/iOS 会拒绝稍后在 loadedmetadata 回调里的首次播放。
     if (a.readyState >= 1) {
       begin();
+      void a.play().catch(() => {});
     } else {
       a.onloadedmetadata = begin;
-      a.load();
+      void a.play().catch(() => {});
     }
   }
 
