@@ -46,147 +46,7 @@ export function splitSentences(paragraphs: string[]): string[] {
 }
 
 /* ------------------------------------------------------------------ */
-/* 整篇单文件引擎(优先):full.mp3 + 句级时间轴,句间零停顿                  */
-/* ------------------------------------------------------------------ */
-
-/**
- * 播放整篇拼接的 full.mp3,用时间轴(每句起点秒,末位为总时长)反查当前句。
- * 相比逐句换 src:没有句间启动开销,锁屏/后台是一条连续的系统级音频流。
- */
-class FullAudioEngine implements SpeechEngine {
-  private audio: HTMLAudioElement | null = null;
-  private rate = 1;
-  private stopped = false;
-  private raf = 0;
-  private idx = -1;
-  private sentenceCb: (i: number) => void = () => {};
-  private doneCb: () => void = () => {};
-
-  constructor(
-    private slug: string,
-    private starts: number[],
-  ) {}
-
-  isAvailable() {
-    const available =
-      typeof window !== "undefined" &&
-      typeof Audio !== "undefined" &&
-      this.starts.length > 1;
-    if (available) this.ensure();
-    return available;
-  }
-
-  private ensure(): HTMLAudioElement {
-    if (!this.audio) {
-      const a = new Audio(`/audio/${this.slug}/full.mp3`);
-      a.preload = "auto";
-      a.setAttribute("playsinline", "");
-      // rAF 在后台不跑,timeupdate 兜底,保证后台听完也能记录进度
-      a.addEventListener("timeupdate", this.sync);
-      // Reader 初始化时就开始取元数据。这样用户第一次点播放/点句子时，
-      // 大多数情况下可以在同一次用户手势里完成 seek + play。
-      a.load();
-      this.audio = a;
-    }
-    return this.audio;
-  }
-
-  /** 由播放位置推出当前句,变化时回调(支持前后跳)。 */
-  private sync = () => {
-    if (this.stopped || !this.audio) return;
-    const t = this.audio.currentTime;
-    let i = this.idx < 0 ? 0 : this.idx;
-    while (i + 1 < this.starts.length - 1 && t >= this.starts[i + 1]) i++;
-    while (i > 0 && t < this.starts[i]) i--;
-    if (i !== this.idx) {
-      this.idx = i;
-      this.sentenceCb(i);
-    }
-  };
-
-  private loop = () => {
-    if (this.stopped || !this.audio || this.audio.paused) return;
-    this.sync();
-    this.raf = requestAnimationFrame(this.loop);
-  };
-
-  speak(sentences: string[], startIndex: number) {
-    const a = this.ensure();
-    this.stopped = false;
-    const index = Math.max(
-      0,
-      Math.min(startIndex, sentences.length - 1, this.starts.length - 2),
-    );
-    // 点击哪一句就立即反馈哪一句；不能等 loadedmetadata，否则慢网和
-    // iOS Safari 上会出现“点了没高亮”的假死感。
-    this.idx = index;
-    this.sentenceCb(index);
-    a.onended = () => {
-      if (!this.stopped) {
-        cancelAnimationFrame(this.raf);
-        this.doneCb();
-      }
-    };
-    const seekTo = this.starts[index];
-    const begin = () => {
-      a.onloadedmetadata = null;
-      a.currentTime = seekTo + 0.001;
-      a.playbackRate = this.rate;
-      this.sync();
-      cancelAnimationFrame(this.raf);
-      this.raf = requestAnimationFrame(this.loop);
-    };
-    // 元数据就绪才能精确 seek。尚未就绪时也必须在当前点击手势里调用
-    // play():Safari/iOS 会拒绝稍后在 loadedmetadata 回调里的首次播放。
-    if (a.readyState >= 1) {
-      begin();
-      void a.play().catch(() => {});
-    } else {
-      a.onloadedmetadata = begin;
-      void a.play().catch(() => {});
-    }
-  }
-
-  pause() {
-    this.audio?.pause();
-    cancelAnimationFrame(this.raf);
-  }
-
-  resume() {
-    void this.audio?.play().catch(() => {});
-    cancelAnimationFrame(this.raf);
-    this.raf = requestAnimationFrame(this.loop);
-  }
-
-  stop() {
-    this.stopped = true;
-    cancelAnimationFrame(this.raf);
-    if (this.audio) {
-      this.audio.onended = null;
-      this.audio.onloadedmetadata = null;
-      this.audio.removeEventListener("timeupdate", this.sync);
-      this.audio.pause();
-      this.audio.removeAttribute("src");
-      this.audio = null;
-    }
-  }
-
-  setRate(rate: number) {
-    this.rate = rate;
-    if (this.audio) this.audio.playbackRate = rate;
-  }
-
-  onSentence(cb: (i: number) => void) {
-    this.sentenceCb = cb;
-  }
-
-  onDone(cb: () => void) {
-    this.doneCb = cb;
-  }
-}
-
-/* ------------------------------------------------------------------ */
-/* 预生成音频引擎(逐句,兼容没有时间轴的旧篇目)                            */
+/* 预生成音频引擎:逐句文件保证高亮与点击跳句在所有浏览器一致                */
 /* ------------------------------------------------------------------ */
 
 class AudioEngine implements SpeechEngine {
@@ -426,13 +286,11 @@ class WebSpeechEngine implements SpeechEngine {
 export function createSpeechEngine(options: {
   slug: string;
   hasAudio: boolean;
-  /** 整篇时间轴(manifest.timings[slug]),有则走单文件零停顿引擎。 */
-  timings?: number[];
   voiceURI?: string;
 }): SpeechEngine {
-  if (options.hasAudio && options.timings && options.timings.length > 1) {
-    return new FullAudioEngine(options.slug, options.timings);
-  }
+  // 不要在这里重新优先选择 full.mp3 + currentTime seek：iOS Safari/WKWebView
+  // 会出现 seek 回到 0、timeupdate 中断，直接破坏点句播放和逐句高亮。
+  // 逐句文件是跨桌面、移动网页与 Capacitor App 的统一可靠路径。
   if (options.hasAudio) return new AudioEngine(options.slug);
   return new WebSpeechEngine(options.voiceURI);
 }
