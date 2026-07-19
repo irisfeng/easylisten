@@ -197,7 +197,7 @@ npm run db:migrate
 | Secret | `MINIMAX_API_KEY` | 生成 MiniMax 中文语音；未配置时回落 Edge TTS |
 | Variable | `MINIMAX_TTS_MODEL` | 覆盖默认 MiniMax 模型 |
 | Secret | `ARK_API_KEY` | 按需生成豆包 Seedream 编辑缩略图；未配置时可回落百炼万相 |
-| Variable | `ARK_IMAGE_MODEL` | 覆盖默认 Seedream 模型，默认 `doubao-seedream-4-5-251128` |
+| Variable | `ARK_IMAGE_MODEL` | 覆盖默认 Seedream 模型，默认 `doubao-seedream-5-0-pro-260628` |
 | Variable | `DASHSCOPE_IMAGE_MODEL` | 覆盖百炼兜底生图模型，默认 `wanx-v1` |
 | Variable | `IMAGE_SELECTOR_MODEL` | 覆盖判断“是否值得配图”的文字模型 |
 

@@ -15,7 +15,7 @@ const DASHSCOPE_API_KEY = process.env.DASHSCOPE_API_KEY;
 const ISSUE_DATE =
   process.env.ISSUE_DATE ||
   new Date().toLocaleDateString("sv", { timeZone: "Asia/Shanghai" });
-const ARK_IMAGE_MODEL = process.env.ARK_IMAGE_MODEL || "doubao-seedream-4-5-251128";
+const ARK_IMAGE_MODEL = process.env.ARK_IMAGE_MODEL || "doubao-seedream-5-0-pro-260628";
 const DASHSCOPE_IMAGE_MODEL = process.env.DASHSCOPE_IMAGE_MODEL || "wanx-v1";
 const DASHSCOPE_API_BASE = (process.env.DASHSCOPE_IMAGE_BASE_URL || "https://dashscope.aliyuncs.com/api/v1").replace(/\/$/, "");
 const MAX_IMAGES = 2;
@@ -166,7 +166,7 @@ async function generateArkImage(prompt) {
       model: ARK_IMAGE_MODEL,
       prompt,
       size: "2K",
-      sequential_image_generation: "disabled",
+      stream: false,
       response_format: "url",
       watermark: false,
     }),
