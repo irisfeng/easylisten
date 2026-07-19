@@ -328,12 +328,12 @@ function IssueRow({
       <span className="pt-1 font-serif text-2xl text-ink-faint sm:text-3xl">{String(index + 1).padStart(2, "0")}</span>
       <div className="min-w-0 border-l-2 border-accent pl-4 sm:pl-6">
         {compactImage && (
-          <Link href={`/listen/${piece.slug}`} className="mb-5 block overflow-hidden bg-surface">
+          <Link href={`/listen/${piece.slug}`} className="mb-4 block w-28 overflow-hidden bg-surface sm:w-36">
             <figure>
-              <div className="relative aspect-[16/7]">
-                <Image src={image.src} alt={image.alt} fill sizes="(max-width: 768px) 65vw, 560px" className="object-cover grayscale-[0.7] saturate-[0.65]" style={{ objectPosition: image.position }} />
+              <div className="relative aspect-[4/3]">
+                <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 112px, 144px" className="object-cover grayscale-[0.7] saturate-[0.65]" style={{ objectPosition: image.position }} />
               </div>
-              <figcaption className="mt-2 text-[0.68rem] leading-5 text-ink-faint">编辑插图　{image.caption}</figcaption>
+              <figcaption className="mt-1 text-[0.62rem] leading-4 text-ink-faint">编辑插图</figcaption>
             </figure>
           </Link>
         )}
