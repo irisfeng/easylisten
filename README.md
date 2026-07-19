@@ -47,8 +47,8 @@
 
 每天北京时间早 6 点(GitHub Actions),从大量互联网内容中精挑细选并自动出刊:
 
-1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 45 个精选源
-   (中文源 15 个,约 33%),按核心权威/深度、可信常规、发现源分层,
+1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 51 个精选源
+   (中文源 16 个,约 31%),按核心权威/深度、可信常规、发现源分层,
    并做去重、分源时效过滤和多源共振检测(热点信号)
 2. **精选** `scripts/curate.mjs`:大模型按 `content/rubric.md` 的评分标准与
    编排规则选出每日 2–6 篇(80 分门槛,宁缺毋滥);每期配"主编的话",

@@ -406,6 +406,66 @@
       "weight": 1.1,
       "profile": "realtime",
       "maxAgeDays": 2
+    },
+    {
+      "name": "游戏研究社",
+      "$comment": "由 top-rss-list 发现并验活；补充中文游戏、互联网亚文化与青年文化叙事",
+      "feed": "https://www.yystv.cn/rss/feed",
+      "category": "culture",
+      "lang": "zh",
+      "weight": 1.0,
+      "profile": "analysis",
+      "maxAgeDays": 5
+    },
+    {
+      "name": "Simon Willison",
+      "$comment": "由 ai-daily-digest 的源库发现；只召回可独立成篇的 AI/数据分析，短链接与工具发布仍须过 80 分门槛",
+      "feed": "https://simonwillison.net/atom/everything/",
+      "category": "tech",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "analysis",
+      "maxAgeDays": 3
+    },
+    {
+      "name": "Krebs on Security",
+      "$comment": "由 ai-daily-digest 的源库发现；补充原创网络安全调查与事件解释",
+      "feed": "https://krebsonsecurity.com/feed/",
+      "category": "tech",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 7
+    },
+    {
+      "name": "Experimental History",
+      "$comment": "由 ai-daily-digest 的源库发现；补充适合听读的心理学、行为科学与社会科学长文",
+      "feed": "https://www.experimental-history.com/feed",
+      "category": "living",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 14
+    },
+    {
+      "name": "Construction Physics",
+      "$comment": "由 ai-daily-digest 的源库发现；补充工程、基础设施与技术史深度内容；阅读清单类仍须过内容门槛",
+      "feed": "https://www.construction-physics.com/feed",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 7
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "$comment": "由 ai-daily-digest 的源库发现；补充可听性强的科学、数学与 AI 长访谈",
+      "feed": "https://www.dwarkeshpatel.com/feed",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "depth",
+      "maxAgeDays": 14
     }
   ]
 }
