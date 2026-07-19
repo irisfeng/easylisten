@@ -240,10 +240,24 @@ function speechTextForUnit(text, unit) {
   return normalizeForSpeech(text, unit.endsWith("-en") ? "en" : "zh");
 }
 
-const pieces = [
+const allPieces = [
   ...JSON.parse(readFileSync(resolve(ROOT, "content/daily.json"), "utf8")),
   ...JSON.parse(readFileSync(resolve(ROOT, "content/seeds.json"), "utf8")),
 ];
+const targetSlugs = new Set(
+  String(process.env.TARGET_AUDIO_SLUGS ?? "")
+    .split(",")
+    .map((slug) => slug.trim())
+    .filter(Boolean),
+);
+const knownSlugs = new Set(allPieces.map((piece) => piece.slug));
+const unknownTargets = [...targetSlugs].filter((slug) => !knownSlugs.has(slug));
+if (unknownTargets.length) {
+  throw new Error(`指定音频稿件不存在：${unknownTargets.join("、")}`);
+}
+const pieces = targetSlugs.size
+  ? allPieces.filter((piece) => targetSlugs.has(piece.slug))
+  : allPieces;
 
 const manifest = existsSync(MANIFEST)
   ? JSON.parse(readFileSync(MANIFEST, "utf8"))
@@ -251,6 +265,16 @@ const manifest = existsSync(MANIFEST)
 const synthesisFailures = [];
 const requiredUnits = new Map();
 const miniMaxFemaleUnits = new Set(pieces.filter((piece) => piece.en).map((piece) => piece.slug));
+
+if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
+  for (const slug of targetSlugs) {
+    rmSync(resolve(AUDIO_DIR, slug), { recursive: true, force: true });
+    manifest.slugs = manifest.slugs.filter((unit) => unit !== slug);
+    if (manifest.timings) delete manifest.timings[slug];
+    if (manifest.speechTextVersions) delete manifest.speechTextVersions[slug];
+    console.log(`force ${slug}: 清除旧中文主声线，按已审核正文重新生成`);
+  }
+}
 
 async function synthesize(text, voice = VOICE) {
   const tts = new MsEdgeTTS();
