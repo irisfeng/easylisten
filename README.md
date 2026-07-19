@@ -196,13 +196,16 @@ npm run db:migrate
 | Variable | `LLM_BASE_URL` | 覆盖 OpenAI 兼容接口地址 |
 | Secret | `MINIMAX_API_KEY` | 生成 MiniMax 中文语音；未配置时回落 Edge TTS |
 | Variable | `MINIMAX_TTS_MODEL` | 覆盖默认 MiniMax 模型 |
+| Variable | `MINIMAX_MAX_CHARS_PER_RUN` | 单次 MiniMax 计费字符硬上限，默认 `12000`（汉字按 2 字符） |
 | Secret | `ARK_API_KEY` | 按需生成豆包 Seedream 编辑缩略图；未配置时可回落百炼万相 |
 | Variable | `ARK_IMAGE_MODEL` | 覆盖默认 Seedream 模型，默认 `doubao-seedream-5-0-pro-260628` |
+| Variable | `ARK_MAX_IMAGES_PER_RUN` | 单次最多生成几张付费图片，范围 `0–2`，默认 `2` |
 | Variable | `DASHSCOPE_IMAGE_MODEL` | 覆盖百炼兜底生图模型，默认 `wanx-v1` |
 | Variable | `IMAGE_SELECTOR_MODEL` | 覆盖判断“是否值得配图”的文字模型 |
 
 完整原文通过 Firecrawl Keyless 获取，无需单独配置 Firecrawl Key。
 自动配图不是硬性出刊指标：每期允许零张、最多两张，且任何生图失败都不会阻断内容与语音发布。
+同一天重复运行工作流时，成本闸门默认跳过选稿、MiniMax 和生图；只有在手动运行时明确勾选 `force_regenerate` 才会再次产生付费调用。
 
 ## 技术栈
 

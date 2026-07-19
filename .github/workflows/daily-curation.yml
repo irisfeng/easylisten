@@ -4,7 +4,13 @@ on:
   schedule:
     # UTC 22:00 = 北京时间早 6:00,日刊在早高峰前就绪
     - cron: "0 22 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_regenerate:
+        description: "强制重做当天内容（会重新调用付费模型）"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,23 +28,35 @@ jobs:
       - name: 设定北京日期
         run: echo "ISSUE_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
 
+      - name: 成本闸门
+        id: cost_guard
+        env:
+          FORCE_REGENERATE: ${{ inputs.force_regenerate || 'false' }}
+        run: node scripts/check-daily-run.mjs
+
       - uses: actions/setup-node@v4
+        if: steps.cost_guard.outputs.should_run == 'true'
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
+        if: steps.cost_guard.outputs.should_run == 'true'
 
       - name: 校验朗读文本规则
+        if: steps.cost_guard.outputs.should_run == 'true'
         run: npm run test:speech
 
       - name: 校验内容源与编排策略
+        if: steps.cost_guard.outputs.should_run == 'true'
         run: npm run test:curation
 
       - name: 召回候选
+        if: steps.cost_guard.outputs.should_run == 'true'
         run: node scripts/ingest.mjs
 
       - name: 评分与听稿改写
+        if: steps.cost_guard.outputs.should_run == 'true'
         # 三个模型 key 任配其一即可(DeepSeek 或阿里百炼);未配的留空,脚本自动挑选
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -50,6 +68,7 @@ jobs:
         run: node scripts/curate.mjs
 
       - name: 按需生成编辑缩略图
+        if: steps.cost_guard.outputs.should_run == 'true'
         # 最多两张且允许零张；生图服务失败不影响当天内容与语音出刊
         continue-on-error: true
         timeout-minutes: 8
@@ -65,19 +84,24 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           IMAGE_SELECTOR_MODEL: ${{ vars.IMAGE_SELECTOR_MODEL }}
           ISSUE_DATE: ${{ env.ISSUE_DATE }}
+          ARK_MAX_IMAGES_PER_RUN: ${{ vars.ARK_MAX_IMAGES_PER_RUN }}
         run: node scripts/generate-editorial-images.mjs
 
       # 整篇拼接的句级时间轴用 ffprobe 量时长(跑机不自带)
       - name: 安装 ffmpeg
+        if: steps.cost_guard.outputs.should_run == 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: 预生成神经语音
+        if: steps.cost_guard.outputs.should_run == 'true'
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
+          MINIMAX_MAX_CHARS_PER_RUN: ${{ vars.MINIMAX_MAX_CHARS_PER_RUN }}
         run: node scripts/synthesize.mjs
 
       - name: 提交今日日刊
+        if: steps.cost_guard.outputs.should_run == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

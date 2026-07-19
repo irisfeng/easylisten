@@ -64,6 +64,14 @@ let mmModelIdx = 0;
 const MM_MIN_INTERVAL_MS = Number(process.env.MINIMAX_MIN_INTERVAL_MS || 2100);
 const MM_RATE_LIMIT_WAIT_MS = Number(process.env.MINIMAX_RATE_LIMIT_WAIT_MS || 65000);
 const MM_RATE_LIMIT_RETRIES = Number(process.env.MINIMAX_RATE_LIMIT_RETRIES || 3);
+// 付费硬上限：无论选稿或修复逻辑如何变化，本轮传给 MiniMax 的文本总量都不能
+// 超过该值。默认 12000 字符；设为 0 可完全关闭付费 TTS（随后工作流会失败，
+// 而不是悄悄发布音质不一致的内容）。
+const MM_MAX_CHARS_PER_RUN = Math.max(
+  0,
+  Number(process.env.MINIMAX_MAX_CHARS_PER_RUN || 12000),
+);
+let mmCharsRequested = 0;
 let mmNextRequestAt = 0;
 const MM_GROUP_ID = (() => {
   try {
@@ -82,7 +90,23 @@ async function waitForMiniMaxSlot() {
   mmNextRequestAt = Date.now() + MM_MIN_INTERVAL_MS;
 }
 
+// MiniMax 计费口径：1 个汉字按 2 个字符，其余字母、标点、空格等按 1 个字符。
+function miniMaxBillingChars(text) {
+  return Array.from(text).reduce(
+    (total, char) => total + (/\p{Script=Han}/u.test(char) ? 2 : 1),
+    0,
+  );
+}
+
 async function synthesizeMiniMaxWith(text, voiceId, model) {
+  const billedChars = miniMaxBillingChars(text);
+  if (mmCharsRequested + billedChars > MM_MAX_CHARS_PER_RUN) {
+    throw new Error(
+      `MiniMax 成本闸门：本轮最多 ${MM_MAX_CHARS_PER_RUN} 字符，` +
+        `当前已请求 ${mmCharsRequested}，下一段 ${billedChars}；已停止付费调用`,
+    );
+  }
+  mmCharsRequested += billedChars;
   await waitForMiniMaxSlot();
   const textOptions = buildMiniMaxTextOptions(text, PRONUNCIATIONS.zh);
   const res = await fetch(
@@ -495,6 +519,11 @@ manifest.voice = VOICE;
 manifest.fullAudioVersion = FULL_AUDIO_VERSION;
 writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
 console.log(`manifest: ${manifest.slugs.length} pieces with audio`);
+if (MM_KEY) {
+  console.log(
+    `MiniMax 本轮请求 ${mmCharsRequested}/${MM_MAX_CHARS_PER_RUN} 字符（硬上限）`,
+  );
+}
 
 // 发布闸门：本轮要求生成/续传的每个音频单元，都必须具备完整句文件、
 // full.mp3 和逐句时间轴。任何半成品都让工作流失败，禁止再以绿色状态提交。

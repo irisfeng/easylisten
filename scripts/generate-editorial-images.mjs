@@ -18,7 +18,15 @@ const ISSUE_DATE =
 const ARK_IMAGE_MODEL = process.env.ARK_IMAGE_MODEL || "doubao-seedream-5-0-pro-260628";
 const DASHSCOPE_IMAGE_MODEL = process.env.DASHSCOPE_IMAGE_MODEL || "wanx-v1";
 const DASHSCOPE_API_BASE = (process.env.DASHSCOPE_IMAGE_BASE_URL || "https://dashscope.aliyuncs.com/api/v1").replace(/\/$/, "");
-const MAX_IMAGES = 2;
+const MAX_IMAGES = Math.max(
+  0,
+  Math.min(2, Number(process.env.ARK_MAX_IMAGES_PER_RUN || 2)),
+);
+
+if (MAX_IMAGES === 0) {
+  console.log("ARK_MAX_IMAGES_PER_RUN=0，已关闭本轮付费生图");
+  process.exit(0);
+}
 
 if (!ARK_API_KEY && !DASHSCOPE_API_KEY) {
   console.log("未配置 ARK_API_KEY 或 DASHSCOPE_API_KEY，今日不生成编辑缩略图");
