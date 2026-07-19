@@ -81,6 +81,9 @@ export default function Home() {
     [prefs],
   );
 
+  // 首屏优先展示最新一期，让新音色和新功能先被体验；个性化精选随后展示。
+  const [latestIssue, ...earlierIssueGroups] = issueGroups;
+
   return (
     <main className="mx-auto max-w-3xl px-6 pb-32">
       <header className="pt-20 pb-14">
@@ -115,20 +118,6 @@ export default function Home() {
         />
       )}
 
-      {forYou.length > 0 && (
-        <section className="mb-12">
-          <h2 className="mb-2 font-serif text-2xl tracking-tight">为你精选</h2>
-          <p className="mb-4 text-sm text-ink-soft">
-            根据你的兴趣与收听习惯排序,也会留一些惊喜。
-          </p>
-          <ul className="flex flex-col">
-            {forYou.map((p, i) => (
-              <PieceRow key={p.slug} piece={p} index={i} compact />
-            ))}
-          </ul>
-        </section>
-      )}
-
       <nav className="sticky top-0 z-10 -mx-6 mb-10 border-b border-line bg-paper/85 px-6 py-3 backdrop-blur">
         <div className="flex flex-wrap gap-2">
           <FilterChip
@@ -147,19 +136,30 @@ export default function Home() {
         </div>
       </nav>
 
-      {issueGroups.map(([date, list]) => (
-        <section key={date} className="mb-12">
-          <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
-            {dateLabel(date, todayStr)}
-          </h2>
+      {latestIssue && (
+        <IssueSection
+          date={latestIssue[0]}
+          list={latestIssue[1]}
+          today={todayStr}
+        />
+      )}
+
+      {forYou.length > 0 && (
+        <section className="mb-12">
+          <h2 className="mb-2 font-serif text-2xl tracking-tight">为你精选</h2>
+          <p className="mb-4 text-sm text-ink-soft">
+            根据你的兴趣与收听习惯排序,也会留一些惊喜。
+          </p>
           <ul className="flex flex-col">
-            {list.map((p, i) => (
-              <Reveal as="li" key={p.slug} index={i}>
-                <PieceRow piece={p} index={i} />
-              </Reveal>
+            {forYou.map((p, i) => (
+              <PieceRow key={p.slug} piece={p} index={i} compact />
             ))}
           </ul>
         </section>
+      )}
+
+      {earlierIssueGroups.map(([date, list]) => (
+        <IssueSection key={date} date={date} list={list} today={todayStr} />
       ))}
 
       {evergreen.length > 0 && (
@@ -186,6 +186,31 @@ export default function Home() {
         </p>
       </footer>
     </main>
+  );
+}
+
+function IssueSection({
+  date,
+  list,
+  today,
+}: {
+  date: string;
+  list: Piece[];
+  today: string;
+}) {
+  return (
+    <section className="mb-12">
+      <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
+        {dateLabel(date, today)}
+      </h2>
+      <ul className="flex flex-col">
+        {list.map((p, i) => (
+          <Reveal as="li" key={p.slug} index={i}>
+            <PieceRow piece={p} index={i} />
+          </Reveal>
+        ))}
+      </ul>
+    </section>
   );
 }
 
