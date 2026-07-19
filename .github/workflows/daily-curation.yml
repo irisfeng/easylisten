@@ -2,8 +2,10 @@ name: 每日精选
 
 on:
   schedule:
-    # UTC 22:00 = 北京时间早 6:00,日刊在早高峰前就绪
-    - cron: "0 22 * * *"
+    # 避开 GitHub Actions 每个整点的调度高峰。主任务北京时间 05:17 开始，
+    # 06:17 再兜底一次；当天已出刊时成本闸门会立即退出，不重复调用付费模型。
+    - cron: "17 21 * * *"
+    - cron: "17 22 * * *"
   workflow_dispatch:
     inputs:
       force_regenerate:
@@ -16,6 +18,11 @@ permissions:
   contents: write
   issues: write
 
+# 若主任务被 GitHub 延迟到兜底窗口，两个任务按顺序执行，避免并发重复计费。
+concurrency:
+  group: daily-curation
+  cancel-in-progress: false
+
 jobs:
   curate:
     runs-on: ubuntu-latest
@@ -23,6 +30,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # 兜底任务若排队，启动时读取主任务刚提交的最新日刊，成本闸门才能生效。
+          ref: ${{ github.event.repository.default_branch }}
           persist-credentials: false
 
       - name: 设定北京日期
