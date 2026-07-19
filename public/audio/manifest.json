@@ -78,7 +78,11 @@
     "2026-07-20-toronto-raccoons-verified-en",
     "2026-07-20-spain-argentina-final",
     "2026-07-20-toronto-raccoons-verified",
-    "2026-07-20-xixia-cliff-niches-verified"
+    "2026-07-20-xixia-cliff-niches-verified",
+    "2026-07-20-spain-argentina-final-m",
+    "2026-07-20-toronto-raccoons-verified-m",
+    "2026-07-20-404-ai-m",
+    "2026-07-20-xixia-cliff-niches-verified-m"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -1630,6 +1634,77 @@
       69.532,
       75.802,
       86.169
+    ],
+    "2026-07-20-spain-argentina-final-m": [
+      0,
+      2.635,
+      9.416,
+      12.179,
+      17.334,
+      26.204,
+      29.315,
+      36.397,
+      40.914,
+      44.745,
+      53.314
+    ],
+    "2026-07-20-toronto-raccoons-verified-m": [
+      0,
+      3.831,
+      6.641,
+      14.269,
+      18.739,
+      22.314,
+      26.32,
+      34.122,
+      40.217,
+      49.853,
+      56.204,
+      60.337,
+      65.283
+    ],
+    "2026-07-20-404-ai-m": [
+      0,
+      33.715,
+      39.555,
+      46.115,
+      46.963,
+      52.419,
+      55.403,
+      70.032,
+      75.361,
+      85.891,
+      93.438,
+      101.797,
+      112.71,
+      119.061,
+      129.961,
+      137.299,
+      142.326,
+      147.097,
+      157.848,
+      162.62,
+      167.775,
+      173.15,
+      178.526,
+      185.515,
+      190.333,
+      202.408
+    ],
+    "2026-07-20-xixia-cliff-niches-verified-m": [
+      0,
+      3.925,
+      7.501,
+      18.206,
+      21.015,
+      33.891,
+      40.973,
+      48.136,
+      56.147,
+      62.626,
+      66.376,
+      71.751,
+      81.596
     ]
   },
   "fullAudioVersion": 4,
@@ -1711,6 +1786,10 @@
     "2026-07-20-toronto-raccoons-verified-en": 2,
     "2026-07-20-spain-argentina-final": 2,
     "2026-07-20-toronto-raccoons-verified": 2,
-    "2026-07-20-xixia-cliff-niches-verified": 2
+    "2026-07-20-xixia-cliff-niches-verified": 2,
+    "2026-07-20-spain-argentina-final-m": 2,
+    "2026-07-20-toronto-raccoons-verified-m": 2,
+    "2026-07-20-404-ai-m": 2,
+    "2026-07-20-xixia-cliff-niches-verified-m": 2
   }
 }
