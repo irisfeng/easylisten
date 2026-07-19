@@ -122,6 +122,16 @@ export interface Piece {
 
 export type AgeBand = "6-9" | "10-12" | "13-16";
 
+const AGE_BAND_ORDER: AgeBand[] = ["6-9", "10-12", "13-16"];
+
+/** 始终逐段展示适龄标签，不把三个阶段压缩成含混的年龄范围。 */
+export function formatAgeBands(ageBands?: readonly AgeBand[]): string {
+  const labels = AGE_BAND_ORDER
+    .filter((band) => ageBands?.includes(band))
+    .map((band) => `${band} 岁`);
+  return labels.length ? labels.join("、") : "适龄信息待复核";
+}
+
 export function isPieceForAge(piece: Piece, ageBand: AgeBand): boolean {
   return !piece.ageBands?.length || piece.ageBands.includes(ageBand);
 }

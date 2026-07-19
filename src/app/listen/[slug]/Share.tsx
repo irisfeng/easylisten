@@ -10,7 +10,7 @@ import { X } from "@phosphor-icons/react";
 import { track } from "@vercel/analytics";
 import QRCode from "qrcode";
 import type { Piece } from "@/lib/content";
-import { categoryOf, listenMinutes } from "@/lib/content";
+import { categoryOf, formatAgeBands, listenMinutes } from "@/lib/content";
 
 const W = 750;
 const H = 1000;
@@ -65,8 +65,8 @@ function clippedLines(
 }
 
 function ageLabel(piece: Piece): string {
-  if (!piece.ageBands?.length || piece.ageBands.length === 3) return "适合 6-16 岁";
-  return `适合 ${piece.ageBands.join("、")} 岁`;
+  const labels = formatAgeBands(piece.ageBands);
+  return labels === "适龄信息待复核" ? labels : `适合：${labels}`;
 }
 
 function displayDate(value: string): string {
