@@ -21,6 +21,7 @@ import {
   selectBilingualCandidates,
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
+import { fetchFullText } from "./lib/full-text.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
@@ -201,30 +202,6 @@ const regularPicks = deepValid
   : picks;
 if (regularPicks.length !== picks.length) {
   console.log(`深读与常规入选重复,让位给深读: [${deep.index}]`);
-}
-
-/**
- * 用 Firecrawl Keyless 抓取入选文章全文(Markdown)。
- * 免费额度每月 1000 次、无需 API key,每日只抓入选的几篇,绰绰有余。
- * 任何失败都返回 null,听稿回落到"仅基于 RSS 摘要"的原有模式。
- */
-async function fetchFullText(url) {
-  try {
-    const res = await fetch("https://api.firecrawl.dev/v2/scrape", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ url, formats: ["markdown"] }),
-      signal: AbortSignal.timeout(45000),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const json = await res.json();
-    // 兼容 {data:{markdown}} 与 {markdown} 两种响应形态
-    const md = json?.data?.markdown ?? json?.markdown;
-    return typeof md === "string" && md.trim().length > 200 ? md : null;
-  } catch (e) {
-    console.log(`firecrawl 抓取失败(${url}): ${e.message}`);
-    return null;
-  }
 }
 
 /**
@@ -444,6 +421,11 @@ for (const bilingual of bilingualPicks) {
 }
 
 // 最新的排前面；同日重跑替换当天旧刊，避免手动测试或失败重试累加篇数。
+if (pieces.length === 0) {
+  throw new Error(
+    "本期没有生成任何可发布听稿：不写入日刊和主编记录，让任务失败并保留自动重试能力。",
+  );
+}
 const merged = mergeDailyPieces(pieces, existing, today);
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
