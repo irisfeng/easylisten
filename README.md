@@ -1,113 +1,184 @@
-# 轻听 · EasyListen
+<div align="center">
+  <img src="./public/icons/icon-192.png" width="88" height="88" alt="轻听 EasyListen 图标" />
+  <h1>轻听 · EasyListen</h1>
+  <p><strong>眼睛太忙了，把阅读交给耳朵。</strong></p>
+  <p>
+    一个为“听”重新编辑的中文阅读空间。<br />
+    每天从大量来源里挑出少数值得听的内容，改写成听稿，再用自然语音讲给你听。
+  </p>
+  <p>
+    <a href="https://easylisten.shddai.net"><strong>在线体验</strong></a>
+    ·
+    <a href="./docs/content-architecture.md">内容体系</a>
+    ·
+    <a href="./docs/roadmap.md">路线图</a>
+    ·
+    <a href="./docs/ios-app.md">iOS 指南</a>
+  </p>
+  <p>
+    <a href="https://easylisten.shddai.net"><img alt="Website" src="https://img.shields.io/badge/Website-Live-141413?style=flat-square" /></a>
+    <img alt="Next.js 15" src="https://img.shields.io/badge/Next.js-15-141413?style=flat-square&logo=nextdotjs" />
+    <img alt="React 19" src="https://img.shields.io/badge/React-19-141413?style=flat-square&logo=react" />
+    <img alt="PWA" src="https://img.shields.io/badge/PWA-ready-141413?style=flat-square&logo=pwa" />
+    <img alt="iOS" src="https://img.shields.io/badge/iOS-Capacitor-141413?style=flat-square&logo=apple" />
+  </p>
+</div>
 
-一个可以听的阅读空间。从科学到新闻,从深度长文到流行文化——挑一篇,让它读给你听。
+![轻听桌面端日刊首页](./docs/assets/readme/easylisten-home.png)
 
-本仓库是"轻听"的**全新重构版本**:以极简、编辑排版式的界面,搭配以句为单位的朗读播放器,
-把"阅读"变成"聆听"。
+## 不是更多内容，而是更值得听的内容
 
-## 设计取向
+信息从来不缺。缺的是筛选、判断，以及一种不占用眼睛的阅读方式。
 
-界面遵循一套"高级实用主义极简"原则(参考 [MengTo/Skills · minimalist-ui](https://github.com/MengTo/Skills)):
+轻听把**编辑标准、内容改写和朗读体验**放进同一条生产线。它不做无限信息流，也不把网页机械地转换成语音：每天只选 2–6 篇，低于质量门槛就不收；听稿基于来源原文重新组织，保留出处，并专门为耳朵理解而写。
 
-- **暖色单色画布**,颜色只作为语义点缀(六个领域各配一枚淡彩标签)。
-- **强烈的字体层级**:标题与引文用衬线体(Newsreader),正文/UI 用系统无衬线体,
-  元信息用等宽体。
-- **极致扁平**:1px 细线分隔,无重投影、无渐变、无大圆角。
-- **克制的动效**:内容随滚动轻柔淡入(IntersectionObserver),只动 `transform`/`opacity`。
+## 产品亮点
 
-## 核心体验
+| | 能力 | 体验 |
+| --- | --- | --- |
+| 🗞️ | **每日编辑精选** | 51 个中英文内容源，经过时效过滤、跨天去重、多源共振识别和质量评分，组成每日刊。 |
+| 🎧 | **连续聆听** | 整篇单文件播放，无句间停顿；支持逐句高亮、点句跳转、锁屏控制和 `0.8×–1.5×` 变速。 |
+| ✍️ | **为耳朵写作** | 不是照读、直译或简单摘要，而是把原文转述为口语化、脱离屏幕也能理解的中文听稿。 |
+| 🌏 | **双语与音色** | 高分且取得完整原文的部分篇目提供英文转述；部分中文篇目支持男女声切换。 |
+| ✨ | **无账号个性化** | 兴趣、收藏和完听记录默认保存在本地，只用于“为你精选”；匿名云备份是可选项。 |
+| 🖼️ | **自然地分享** | 每篇内容都能生成带二维码的图片卡片，可直接调用系统分享面板或长按保存。 |
+| 📱 | **多端体验** | 响应式 Web、PWA 与 Capacitor iOS 外壳共用同一套内容和播放逻辑。 |
+| 🛡️ | **可观测出刊** | GitHub Actions 每天自动出刊；任一步失败都会创建 Issue，不让断更静默发生。 |
 
-- **六领域首页**:科学 / 技术 / 社会 / 人文 / 生活 / 文化,一键筛选,列表随进入视口错峰淡入。内容体系(领域 × 形态 × 时效)见 [`docs/content-architecture.md`](./docs/content-architecture.md)。
-- **聆听式阅读页**:点击任意句子即可从该处开始朗读;正在朗读的句子会被高亮,
-  随朗读在文中平滑滑动。
-- **顺手的播放器**:底部常驻,播放/暂停、上一句/下一句、变速(0.8×–1.5×)、顶部进度条。
-- **键盘操作**:<kbd>空格</kbd> 播放/暂停,<kbd>←</kbd> <kbd>→</kbd> 跳句。
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./docs/assets/readme/easylisten-reader-mobile.png" width="360" alt="轻听移动端逐句高亮播放器" />
+      <br />
+      <sub><strong>边听边读</strong> · 当前句高亮、自动跟随、随时跳句</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./docs/assets/readme/easylisten-share-card.png" width="360" alt="轻听文章分享卡片" />
+      <br />
+      <sub><strong>一键分享</strong> · 自动排版的文章卡片与直达二维码</sub>
+    </td>
+  </tr>
+</table>
 
-## 朗读引擎(可插拔)
+## 从原文到耳机
 
-朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),层层回落:
+```text
+RSS / Atom 内容源
+        ↓
+召回 · 时效过滤 · 去重 · 热点信号识别
+        ↓
+编辑标准评分 · 选题 · 每日编排
+        ↓
+获取原文 · 重组为中文听稿
+        ↓
+分句 · 数字与发音治理 · TTS 合成
+        ↓
+整篇音频 · 句级时间轴 · 自动发布
+```
 
-- **超拟人双声(默认)**:`scripts/synthesize.mjs` 用 MiniMax `speech-2.8-hd`
-  为中文新稿生成女声/男声；双语实验的中文固定女声，右上角只切换中/英。
-  (账号不可用时自动降级 `speech-02-hd`)合成**女主持(默认)与男声**两套音频,
-  文章页一键切换,选择记在本地;缺 `MINIMAX_API_KEY` 时回落免费 Edge 晓晓,
-  出刊永不断更。音色经三轮真人盲选定妆。
-- **整篇零停顿**:逐句 MP3 拼成 `full.mp3` + 句级时间轴(`manifest.timings`),
-  播放器单文件连续播放,句间无停顿;高亮/点句跳转/变速靠时间轴反查,
-  锁屏与后台是一条系统级音频流。
-- **三层发音治理**:分句器先保护小数等不可拆文本;中文数字按上下文转换成
-  无歧义朗读稿;MiniMax 请求再启用中文增强和逐句发音词典。全大写缩写与
-  字母数字型号自动逐字符朗读,人名/多音字等固定规则维护在
-  `content/pronunciations.json`,页面始终显示原文。
-- **Web Speech 兜底**:无预生成音频的文章走浏览器内置语音。
+编辑规则集中维护在 [`content/rubric.md`](./content/rubric.md)。候选内容按信息密度、原创见解、可听性、时效与长青价值评分，**80 分是入选门槛**；周六可额外编排一篇约 10 分钟的“周末深读”。
 
-选型细节见 [`docs/tts-evaluation.md`](./docs/tts-evaluation.md)。
+每天北京时间 06:00，GitHub Actions 自动执行召回、精选、改写、语音合成和提交。完整实现见 [每日精选工作流](./.github/workflows/daily-curation.yml)。
 
-## 自动精选管线
+## 5 分钟跑起来
 
-每天北京时间早 6 点(GitHub Actions),从大量互联网内容中精挑细选并自动出刊:
+### 环境要求
 
-1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 51 个精选源
-   (中文源 16 个,约 31%),按核心权威/深度、可信常规、发现源分层,
-   并做去重、分源时效过滤和多源共振检测(热点信号)
-2. **精选** `scripts/curate.mjs`:大模型按 `content/rubric.md` 的评分标准与
-   编排规则选出每日 2–6 篇(80 分门槛,宁缺毋滥);每期配"主编的话",
-   每周六额外产出一篇 10 分钟"周末深读";达到 85 分、抓到全文的篇目
-   最多 2 篇附英文转述稿(文章页 EN 切换),优先有解释价值的实时事件
-3. **取全文**:用 [Firecrawl Keyless](https://www.firecrawl.dev/blog/firecrawl-keyless-launch)
-   免费抓取入选文章原文(无需 API key),听稿严格基于原文转述;抓取失败
-   回落 RSS 摘要
-4. **听稿改写**:转述而非照读,注明出处;**合成语音** `scripts/synthesize.mjs`
-   逐句生成 MP3;自动提交,Vercel 自动发布
+- Node.js 22（与 GitHub Actions 保持一致）
+- npm
+- 仅在本地生成整篇音频时需要 `ffmpeg` / `ffprobe`
 
-### 启用自动出刊
+### 启动
 
-模型走 **OpenAI 兼容接口**,在仓库 **Settings → Secrets and variables → Actions**
-配置以下任一 secret 即可(脚本自动识别):
+```bash
+git clone https://github.com/irisfeng/easylisten.git
+cd easylisten
+npm ci
+npm run dev
+```
 
-| Secret 名 | 服务 | 默认模型 |
-|---|---|---|
-| `DEEPSEEK_API_KEY` | [DeepSeek](https://platform.deepseek.com) | `deepseek-chat` |
-| `DASHSCOPE_API_KEY` | 阿里百炼(DashScope) | `qwen-plus` |
-| `OPENAI_API_KEY` | OpenAI 兼容服务 | 需另配 `LLM_BASE_URL` |
+打开 [http://localhost:3000](http://localhost:3000)。仓库已包含示例内容和预生成音频，**浏览产品不需要任何 API Key**。
 
-可选变量(Variables)`LLM_MODEL` / `LLM_BASE_URL` 覆盖默认模型与地址。
-Firecrawl 与语音合成均免费,无需任何配置。
+### 验证
+
+```bash
+npm run test:speech      # 分句、数字与发音规则
+npm run test:curation    # 内容源与编排策略
+npm run build            # Next.js 生产构建
+```
+
+## 朗读如何工作
+
+朗读能力通过 [`SpeechEngine`](./src/lib/tts.ts) 抽象，并按可用条件分层降级：
+
+1. 配置 `MINIMAX_API_KEY` 时，新稿优先使用 MiniMax `speech-2.8-hd`，不可用时自动尝试 `speech-02-hd`。
+2. 未配置 MiniMax 时，生成管线回落到 Microsoft Edge 神经语音。
+3. 文章没有预生成音频时，页面使用浏览器 Web Speech API 兜底。
+
+生成前还会治理小数、中文数字、字母数字型号、缩写、多音字和自定义人名读音。页面始终展示原文，朗读规则维护在 [`content/pronunciations.json`](./content/pronunciations.json)。选型过程与技术边界见 [TTS 评估](./docs/tts-evaluation.md)。
+
+## 启用自动出刊
+
+精选脚本使用 OpenAI 兼容接口。在仓库的 **Settings → Secrets and variables → Actions** 中配置以下任意一个 Secret：
+
+| Secret | 服务 | 默认模型 |
+| --- | --- | --- |
+| `DEEPSEEK_API_KEY` | DeepSeek | `deepseek-chat` |
+| `DASHSCOPE_API_KEY` | 阿里百炼 | `qwen-plus` |
+| `OPENAI_API_KEY` | OpenAI 或兼容服务 | `gpt-4o-mini` |
+
+可选配置：
+
+| 类型 | 名称 | 用途 |
+| --- | --- | --- |
+| Variable | `LLM_MODEL` | 覆盖默认精选模型 |
+| Variable | `LLM_BASE_URL` | 覆盖 OpenAI 兼容接口地址 |
+| Secret | `MINIMAX_API_KEY` | 生成 MiniMax 中文语音；未配置时回落 Edge TTS |
+| Variable | `MINIMAX_TTS_MODEL` | 覆盖默认 MiniMax 模型 |
+
+完整原文通过 Firecrawl Keyless 获取，无需单独配置 Firecrawl Key。
 
 ## 技术栈
 
-- [Next.js 15](https://nextjs.org/)(App Router)
-- [React 19](https://react.dev/) + TypeScript
-- [Tailwind CSS 4](https://tailwindcss.com/)
-- Web Speech API(朗读)
+| 层 | 技术 |
+| --- | --- |
+| Web | Next.js 15 App Router、React 19、TypeScript、Tailwind CSS 4 |
+| Audio | MiniMax TTS、Microsoft Edge TTS、Web Speech API、Media Session API |
+| Product | Vercel Analytics、PWA、Capacitor 8 for iOS |
+| Optional | Supabase 匿名偏好同步 |
+| Automation | GitHub Actions、OpenAI-compatible LLM、Firecrawl Keyless |
 
-## 本地运行
+## 项目结构
 
-```bash
-npm install
-npm run dev      # 开发
-npm run build    # 生产构建
-npm run start    # 运行生产构建
+```text
+easylisten/
+├── .github/workflows/       # 每日出刊、补生成音频与音色盲选
+├── content/                 # 内容源、编辑标准、日刊与发音词典
+├── docs/                    # 内容、TTS、同步、iOS 与路线图文档
+├── ios/                     # Capacitor iOS 工程
+├── public/audio/            # 预生成音频与句级时间轴
+├── scripts/                 # 召回、精选、语音合成及策略测试
+└── src/
+    ├── app/                 # 首页、阅读页和全局样式
+    ├── components/          # 通用交互组件
+    └── lib/                 # 内容、偏好、同步与朗读引擎
 ```
 
-打开 http://localhost:3000。
+## 文档
 
-## 目录结构
+- [内容架构](./docs/content-architecture.md) — 领域 × 形态 × 时效的内容模型
+- [TTS 评估](./docs/tts-evaluation.md) — 朗读方案、盲选结果与演进边界
+- [偏好云同步](./docs/prefs-sync.md) — 无账号的 Supabase 可选配置
+- [iOS App 指南](./docs/ios-app.md) — 本地运行、后台播放与 TestFlight
+- [路线图](./docs/roadmap.md) — 当前产品方向与后续计划
 
-```
-src/
-├── app/
-│   ├── layout.tsx              # 根布局与字体
-│   ├── page.tsx                # 首页:频道筛选 + 文章列表
-│   ├── globals.css             # 设计系统(色板、字体、动效、句子高亮)
-│   └── listen/[slug]/
-│       ├── page.tsx            # 阅读页(静态生成)
-│       └── Reader.tsx          # 聆听体验与播放器
-├── components/
-│   └── Reveal.tsx              # 滚动淡入
-└── lib/
-    ├── content.ts              # 频道与文章模型
-    ├── pieces.ts               # 文章内容
-    ├── tts.ts                  # 可插拔朗读引擎(SpeechEngine)
-    └── utils.ts                # 类名拼接等通用工具
-```
+## 参与建设
+
+欢迎通过 [Issue](https://github.com/irisfeng/easylisten/issues) 提交问题、内容源建议或功能想法，也欢迎直接发起 Pull Request。涉及编辑策略的改动，请同时说明它如何影响内容质量与可听性。
+
+---
+
+<div align="center">
+  <strong>每天几篇，宁缺毋滥。</strong><br />
+  <sub>轻听 EasyListen</sub>
+</div>
