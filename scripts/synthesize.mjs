@@ -306,7 +306,13 @@ for (const piece of pieces) {
   const hasDualVoiceEvidence =
     manifest.slugs.includes(maleUnit) || existsSync(resolve(AUDIO_DIR, maleUnit));
   const needsNewAudio = !manifest.slugs.includes(piece.slug);
-  if (MM_KEY && (needsNewAudio || hasDualVoiceEvidence)) {
+  if (MM_KEY && piece.en) {
+    // 双语实验的右上角只承担中/英切换；中文固定使用已选定的 MiniMax 女声。
+    await synthesizeUnit(piece.slug, piece.paragraphs, {
+      engine: "minimax",
+      voice: MM_FEMALE,
+    });
+  } else if (MM_KEY && (needsNewAudio || hasDualVoiceEvidence)) {
     // 新篇目使用 MiniMax 双声。若上次女声完成、男声只留下半个目录，
     // hasDualVoiceEvidence 会让重跑继续补男声，不会误判成旧的单声文章。
     await synthesizeUnit(piece.slug, piece.paragraphs, {

@@ -28,6 +28,7 @@
 朗读能力抽象为 `SpeechEngine` 接口(`src/lib/tts.ts`),层层回落:
 
 - **超拟人双声(默认)**:`scripts/synthesize.mjs` 用 MiniMax `speech-2.8-hd`
+  为中文新稿生成女声/男声；双语实验的中文固定女声，右上角只切换中/英。
   (账号不可用时自动降级 `speech-02-hd`)合成**女主持(默认)与男声**两套音频,
   文章页一键切换,选择记在本地;缺 `MINIMAX_API_KEY` 时回落免费 Edge 晓晓,
   出刊永不断更。音色经三轮真人盲选定妆。

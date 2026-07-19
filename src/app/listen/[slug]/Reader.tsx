@@ -57,7 +57,9 @@ export default function Reader({ piece }: { piece: Piece }) {
   useEffect(() => {
     setGender(loadPrefs().voiceGender ?? "f");
   }, []);
-  const hasMale = (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
+  // 双语实验的唯一切换是中/英；中文固定 MiniMax 女声，不展示男女声开关。
+  const hasMale =
+    !piece.en && (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
 
   const audioSlug =
     lang === "en"
