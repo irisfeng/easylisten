@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #f7f6f3;
-  --color-surface: #ffffff;
-  --color-ink: #141413;
-  --color-ink-soft: #787774;
-  --color-ink-faint: #a8a49e;
-  --color-line: #eaeaea;
+  --color-paper: #eef1ee;
+  --color-surface: #f8faf9;
+  --color-surface-strong: #e4eae6;
+  --color-ink: #1a201d;
+  --color-ink-soft: #5f6b64;
+  --color-ink-faint: #87918b;
+  --color-line: #d7ddd9;
+  --color-accent: #2f5d4c;
+  --color-accent-wash: #dce9e2;
 
   --color-sky-wash: #e1f3fe;
   --color-sky-deep: #1f6c9f;
@@ -31,9 +34,11 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light dark;
 }
 
 body {
+  min-height: 100dvh;
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
@@ -42,8 +47,71 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+:root[data-theme="dark"] {
+  --color-paper: #111513;
+  --color-surface: #171d1a;
+  --color-surface-strong: #202923;
+  --color-ink: #edf2ef;
+  --color-ink-soft: #a8b2ac;
+  --color-ink-faint: #747f78;
+  --color-line: #29322d;
+  --color-accent: #8fc4aa;
+  --color-accent-wash: #213d31;
+  --color-sky-wash: #1b323a;
+  --color-sky-deep: #9bc6dc;
+  --color-rose-wash: #3a2527;
+  --color-rose-deep: #e4a5a4;
+  --color-moss-wash: #213d31;
+  --color-moss-deep: #9bc9af;
+  --color-sand-wash: #39331f;
+  --color-sand-deep: #d9c47e;
+  --color-violet-wash: #2b293d;
+  --color-violet-deep: #bab3e2;
+  --color-teal-wash: #1d3834;
+  --color-teal-deep: #95cbc1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #111513;
+    --color-surface: #171d1a;
+    --color-surface-strong: #202923;
+    --color-ink: #edf2ef;
+    --color-ink-soft: #a8b2ac;
+    --color-ink-faint: #747f78;
+    --color-line: #29322d;
+    --color-accent: #8fc4aa;
+    --color-accent-wash: #213d31;
+    --color-sky-wash: #1b323a;
+    --color-sky-deep: #9bc6dc;
+    --color-rose-wash: #3a2527;
+    --color-rose-deep: #e4a5a4;
+    --color-moss-wash: #213d31;
+    --color-moss-deep: #9bc9af;
+    --color-sand-wash: #39331f;
+    --color-sand-deep: #d9c47e;
+    --color-violet-wash: #2b293d;
+    --color-violet-deep: #bab3e2;
+    --color-teal-wash: #1d3834;
+    --color-teal-deep: #95cbc1;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 ::selection {
-  background: var(--color-sand-wash);
+  background: var(--color-accent-wash);
   color: var(--color-ink);
 }
 

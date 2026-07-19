@@ -21,6 +21,16 @@ import {
 import { cn } from "@/lib/utils";
 import { SharePanel } from "./Share";
 import audioManifest from "../../../../public/audio/manifest.json";
+import {
+  ArrowLeft,
+  ArrowSquareOut,
+  Heart as HeartIcon,
+  Pause as PauseIcon,
+  Play as PlayIcon,
+  ShareNetwork,
+  SkipBack as SkipBackIcon,
+  SkipForward as SkipForwardIcon,
+} from "@phosphor-icons/react";
 
 const RATES = [0.8, 1, 1.25, 1.5];
 
@@ -214,7 +224,7 @@ export default function Reader({ piece }: { piece: Piece }) {
     const ms = navigator.mediaSession;
     ms.metadata = new MediaMetadata({
       title: piece.title,
-      artist: "轻听 · EasyListen",
+      artist: "轻听 EasyListen",
       album: cat.name,
       artwork: [
         { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
@@ -260,29 +270,30 @@ export default function Reader({ piece }: { piece: Piece }) {
 
   return (
     <main className="mx-auto max-w-2xl px-6 pb-40">
-      <div className="pt-10">
+      <div className="pt-5 sm:pt-8">
         <Link
           href="/"
-          className="font-mono text-xs text-ink-faint transition-colors hover:text-ink"
+          className="inline-flex min-h-11 items-center gap-2 rounded-full pr-4 text-sm text-ink-soft transition-colors hover:text-ink active:scale-[0.98]"
         >
-          ← 返回
+          <ArrowLeft size={18} weight="regular" aria-hidden="true" />
+          返回首页
         </Link>
       </div>
 
-      <article className="pt-8">
-        <div className="mb-4 flex items-center gap-3">
+      <article className="pt-6 sm:pt-8">
+        <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
           <span
             className={cn(
-              "rounded-full px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em]",
+              "rounded-full px-2.5 py-1 text-xs font-medium",
               cat.washClass,
               cat.deepClass,
             )}
           >
             {cat.name}
           </span>
-          <span className="font-mono text-xs text-ink-faint">
-            {listenMinutes(piece)} 分钟 · {piece.author} · {piece.publishedAt}
-          </span>
+          <span className="text-xs text-ink-faint">{listenMinutes(piece)} 分钟</span>
+          <span className="text-xs text-ink-faint">{piece.author}</span>
+          <time className="text-xs text-ink-faint">{piece.publishedAt}</time>
           {hasMale && lang === "zh" && (
             <button
               onClick={() => {
@@ -291,7 +302,7 @@ export default function Reader({ piece }: { piece: Piece }) {
                 setVoiceGender(g);
               }}
               aria-pressed={gender === "m"}
-              className="ml-auto rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink"
+              className="ml-auto min-h-10 rounded-full border border-line px-3 text-xs text-ink-soft transition-colors hover:border-accent hover:text-ink active:scale-[0.98]"
             >
               {gender === "f" ? "女声" : "男声"}
             </button>
@@ -306,7 +317,7 @@ export default function Reader({ piece }: { piece: Piece }) {
               aria-pressed={lang === "en"}
               className={cn(
                 !(hasMale && lang === "zh") && "ml-auto",
-                "rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft transition-colors hover:border-ink-faint hover:text-ink",
+                "min-h-10 rounded-full border border-line px-3 text-xs text-ink-soft transition-colors hover:border-accent hover:text-ink active:scale-[0.98]",
               )}
             >
               {lang === "zh" ? "EN" : "中"}
@@ -314,15 +325,19 @@ export default function Reader({ piece }: { piece: Piece }) {
           )}
         </div>
 
-        <h1 className="font-serif text-4xl leading-tight tracking-tight sm:text-5xl">
+        <h1 className="font-serif text-[2.35rem] leading-[1.14] tracking-[-0.03em] sm:text-5xl">
           {script.title}
         </h1>
 
-        <p className="mt-6 border-l-2 border-line pl-4 font-serif text-xl italic leading-relaxed text-ink-soft">
+        {piece.source && (
+          <SourceCard source={piece.source} />
+        )}
+
+        <p className="mt-7 border-l-2 border-accent/40 pl-4 font-serif text-xl leading-relaxed text-ink-soft">
           {script.intro}
         </p>
 
-        <div className="mt-8 space-y-6 text-[1.075rem] leading-[1.85] text-ink">
+        <div className="mt-9 space-y-6 text-[1.075rem] leading-[1.9] text-ink">
           {paragraphs.map((para, pi) => (
             <p key={pi}>
               {para.map((s) => (
@@ -346,16 +361,7 @@ export default function Reader({ piece }: { piece: Piece }) {
 
         {piece.source && (
           <p className="mt-10 border-t border-line pt-4 font-mono text-xs leading-relaxed text-ink-faint">
-            本文为轻听编辑部撰写的听稿,基于{" "}
-            <a
-              href={piece.source.url}
-              target="_blank"
-              rel="noreferrer"
-              className="underline decoration-line underline-offset-2 transition-colors hover:text-ink"
-            >
-              {piece.source.name}
-            </a>{" "}
-            的报道{piece.source.originalTitle ? `《${piece.source.originalTitle}》` : ""}转述。
+            本文由轻听编辑部基于上方原文独立转述，不是原文翻译；事实以原始来源为准。
           </p>
         )}
       </article>
@@ -386,6 +392,45 @@ export default function Reader({ piece }: { piece: Piece }) {
   );
 }
 
+function SourceCard({ source }: { source: NonNullable<Piece["source"]> }) {
+  const published = source.publishedAt ? formatSourceDate(source.publishedAt) : "历史内容未记录";
+  const retrieved = source.retrievedAt ? formatSourceDate(source.retrievedAt) : null;
+  return (
+    <aside className="mt-7 rounded-2xl border border-line bg-surface p-5 shadow-[0_14px_36px_rgba(27,48,38,0.05)]" aria-label="原始来源">
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-sm font-medium text-ink">原始来源</p>
+        <span className="rounded-full bg-accent-wash px-2.5 py-1 text-xs text-accent">
+          {source.basis === "full-text" ? "已核验完整原文" : "历史内容"}
+        </span>
+      </div>
+      <p className="mt-4 text-base font-medium text-accent">{source.name}</p>
+      <p className="mt-1 line-clamp-2 text-sm leading-6 text-ink-soft">{source.originalTitle}</p>
+      <div className="mt-4 flex flex-wrap items-end justify-between gap-3 text-xs text-ink-faint">
+        <div className="space-y-1">
+          <p>原文发布：{published}</p>
+          {retrieved && <p>轻听核验：{retrieved}</p>}
+        </div>
+        <a
+          href={source.url}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-line px-4 text-sm text-ink-soft transition hover:border-accent hover:text-ink active:scale-[0.98]"
+        >
+          查看原文
+          <ArrowSquareOut size={16} weight="regular" aria-hidden="true" />
+        </a>
+      </div>
+    </aside>
+  );
+}
+
+function formatSourceDate(value: string) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? value
+    : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric" });
+}
+
 function PlayerBar({
   available,
   state,
@@ -414,33 +459,37 @@ function PlayerBar({
   onVoice: (uri: string) => void;
 }) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/90 backdrop-blur">
+    <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/92 shadow-[0_-12px_40px_rgba(20,32,26,0.08)] backdrop-blur-xl">
       <div
         role="progressbar"
         aria-label="朗读进度"
         aria-valuenow={Math.round(progress)}
         aria-valuemin={0}
         aria-valuemax={100}
-        className="h-0.5 bg-ink transition-[width] duration-300 ease-out"
+        className="h-0.5 bg-accent transition-[width] duration-300 ease-out"
         style={{ width: `${progress}%` }}
       />
-      <div className="mx-auto flex max-w-2xl items-center gap-2 px-6 py-3.5">
+      <div className="mx-auto flex max-w-2xl items-center gap-1.5 px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] sm:gap-2 sm:px-6">
         {available ? (
           <>
             <IconButton label="上一句" onClick={() => onSkip(-1)}>
-              <SkipBack />
+              <SkipBackIcon size={20} weight="regular" />
             </IconButton>
 
             <button
               onClick={onToggle}
               aria-label={state === "playing" ? "暂停" : "播放"}
-              className="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-surface transition-transform active:scale-95"
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-ink text-surface transition-transform active:scale-95"
             >
-              {state === "playing" ? <Pause /> : <Play />}
+              {state === "playing" ? (
+                <PauseIcon size={22} weight="fill" />
+              ) : (
+                <PlayIcon size={22} weight="fill" />
+              )}
             </button>
 
             <IconButton label="下一句" onClick={() => onSkip(1)}>
-              <SkipForward />
+              <SkipForwardIcon size={20} weight="regular" />
             </IconButton>
 
             <div className="ml-auto flex items-center gap-3">
@@ -464,37 +513,38 @@ function PlayerBar({
               <button
                 onClick={onShare}
                 aria-label="分享卡片"
-                className="flex h-9 w-9 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
+                className="flex h-11 w-11 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-ink/[0.04] hover:text-ink active:scale-[0.96]"
               >
-                <ShareIcon />
+                <ShareNetwork size={20} weight="regular" />
               </button>
               <button
                 onClick={onFavorite}
                 aria-label={favorite ? "取消收藏" : "收藏"}
                 aria-pressed={favorite}
                 className={cn(
-                  "flex h-9 w-9 items-center justify-center rounded-full transition-colors",
+                  "flex h-11 w-11 items-center justify-center rounded-full transition-colors active:scale-[0.96]",
                   favorite
                     ? "text-rose-deep"
-                    : "text-ink-soft hover:bg-black/[0.04] hover:text-ink",
+                    : "text-ink-soft hover:bg-ink/[0.04] hover:text-ink",
                 )}
               >
-                <Heart filled={favorite} />
+                <HeartIcon size={20} weight={favorite ? "fill" : "regular"} />
               </button>
               <button
                 onClick={onRate}
-                className="rounded-md px-2.5 py-1 font-mono text-xs text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
+                aria-label={`切换播放速度，当前 ${rate} 倍`}
+                className="min-h-11 min-w-11 rounded-full px-2.5 font-mono text-xs text-ink-soft transition-colors hover:bg-ink/[0.04] hover:text-ink active:scale-[0.96]"
               >
                 {rate}×
               </button>
               <span className="hidden font-mono text-[0.65rem] text-ink-faint sm:inline">
-                <kbd>空格</kbd> 播放 · <kbd>← →</kbd> 跳句
+                <kbd>空格</kbd> 播放　<kbd>← →</kbd> 跳句
               </span>
             </div>
           </>
         ) : (
           <p className="text-sm text-ink-soft">
-            当前浏览器不支持语音朗读,可换用 Chrome 或 Safari。
+            当前浏览器不支持语音朗读，可换用 Chrome 或 Safari。
           </p>
         )}
       </div>
@@ -515,70 +565,9 @@ function IconButton({
     <button
       onClick={onClick}
       aria-label={label}
-      className="flex h-9 w-9 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
+      className="flex h-11 w-11 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-ink/[0.04] hover:text-ink active:scale-[0.96]"
     >
       {children}
     </button>
-  );
-}
-
-/* 细线图标,统一 1.6 描边。 */
-const S = {
-  width: 20,
-  height: 20,
-  viewBox: "0 0 24 24",
-  fill: "none",
-  stroke: "currentColor",
-  strokeWidth: 1.6,
-  strokeLinecap: "round" as const,
-  strokeLinejoin: "round" as const,
-};
-
-function Play() {
-  return (
-    <svg {...S} fill="currentColor" stroke="none">
-      <path d="M8 5.5v13l11-6.5z" />
-    </svg>
-  );
-}
-function Pause() {
-  return (
-    <svg {...S} fill="currentColor" stroke="none">
-      <rect x="7" y="5.5" width="3.2" height="13" rx="1" />
-      <rect x="13.8" y="5.5" width="3.2" height="13" rx="1" />
-    </svg>
-  );
-}
-function SkipBack() {
-  return (
-    <svg {...S}>
-      <path d="M18 7v10l-8-5z" />
-      <line x1="7" y1="6.5" x2="7" y2="17.5" />
-    </svg>
-  );
-}
-function SkipForward() {
-  return (
-    <svg {...S}>
-      <path d="M6 7v10l8-5z" />
-      <line x1="17" y1="6.5" x2="17" y2="17.5" />
-    </svg>
-  );
-}
-function ShareIcon() {
-  return (
-    <svg {...S}>
-      <path d="M12 14V4.5" />
-      <path d="M8.5 7.5L12 4l3.5 3.5" />
-      <path d="M6 11v7.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5V11" />
-    </svg>
-  );
-}
-
-function Heart({ filled }: { filled: boolean }) {
-  return (
-    <svg {...S} fill={filled ? "currentColor" : "none"}>
-      <path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.7-6 1.9 0 3.5 1.1 4.3 2.7C11.8 6.1 13.4 5 15.3 5c3.1 0 4.9 3.2 3.7 6-2 4.5-9 9-9 9z" />
-    </svg>
   );
 }

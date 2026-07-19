@@ -1,8 +1,21 @@
 export const BILINGUAL_LIMIT = 2;
 export const BILINGUAL_QUALITY_BAR = 85;
-export const CHINESE_POOL_SHARE = 0.3;
+export const CHINESE_POOL_SHARE = 0.5;
+export const MAINLAND_POOL_SHARE = 0.45;
 export const REALTIME_POOL_SHARE = 0.2;
 export const CATEGORY_POOL_MIN = 5;
+
+/** 正式听稿必须能回到标准来源，并且已经取得足量原文供事实核验。 */
+export function hasVerifiableSource(candidate, fullText) {
+  if (!candidate?.sourceName?.trim() || !candidate?.title?.trim()) return false;
+  try {
+    const url = new URL(candidate.link);
+    if (!['http:', 'https:'].includes(url.protocol)) return false;
+  } catch {
+    return false;
+  }
+  return typeof fullText === "string" && fullText.trim().length >= 200;
+}
 
 function ageHours(publishedAt, now) {
   const timestamp = Date.parse(publishedAt);
@@ -52,11 +65,17 @@ export function selectCandidatePool(items, limit = 120, now = Date.now()) {
     }
   };
 
-  take((item) => item.lang === "zh", Math.ceil(limit * CHINESE_POOL_SHARE));
+  const ensure = (predicate, count) => {
+    const current = selected.filter(predicate).length;
+    take(predicate, Math.max(0, count - current));
+  };
+
+  ensure((item) => item.region === "mainland", Math.ceil(limit * MAINLAND_POOL_SHARE));
+  ensure((item) => item.lang === "zh", Math.ceil(limit * CHINESE_POOL_SHARE));
   for (const category of ["science", "tech", "society", "humanities", "living", "culture"]) {
-    take((item) => item.category === category, CATEGORY_POOL_MIN);
+    ensure((item) => item.category === category, CATEGORY_POOL_MIN);
   }
-  take(
+  ensure(
     (item) =>
       item.profile === "realtime" &&
       ageHours(item.publishedAt, now) <= 48,

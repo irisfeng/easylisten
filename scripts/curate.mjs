@@ -14,6 +14,7 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import {
+  hasVerifiableSource,
   selectBilingualCandidates,
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
@@ -128,7 +129,7 @@ function freshnessLabel(publishedAt) {
 
 const menu = CANDIDATES.map(
   (c, i) =>
-    `[${i}] (${c.category}/${c.lang}/${c.sourceName}/权重${c.weight}/${c.profile ?? "general"}/${freshnessLabel(c.publishedAt)}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
+    `[${i}] (${c.category}/${c.lang}/${c.region === "mainland" ? "中国大陆" : "国际"}/${c.sourceName}/发布者${c.publisher ?? c.sourceName}/权重${c.weight}/${c.profile ?? "general"}/${freshnessLabel(c.publishedAt)}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
 ).join("\n\n");
 
 const scoreResult = await chatJson(
@@ -136,6 +137,7 @@ const scoreResult = await chatJson(
   `今天是北京时间 ${today}。以下是候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
 中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
+国内主场:若中国大陆发布者中有达标内容,节目单至少一半来自国内源；仍须逐篇超过 ${QUALITY_BAR} 分，不得用低质量内容凑比例。国内内容不能只来自科技数码，要兼顾科学、教育、社会、人文、健康和体育。
 重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。
 实时与长青必须并存:至少保留 1 篇与热点无关、以后仍值得听的内容。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
 近七天已讲过这些内容,除非有重大新进展,不要再选同一事件或高度同质的选题:${recentTitles.slice(0, 40).join(" / ")}。` : ""}
@@ -274,10 +276,12 @@ for (const pick of regularPicks) {
   const c = CANDIDATES[pick.index];
   try {
     const fullText = await fetchFullText(c.link);
-    const material = fullText
-      ? `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`
-      : `摘要:${c.summary}\n\n注意:你只有摘要。只转述摘要中明确的信息,可以补充公认的背景知识,但不得虚构原文细节。`;
-    console.log(`素材: ${c.title} → ${fullText ? `全文 ${fullText.length} 字` : "仅摘要"}`);
+    if (!hasVerifiableSource(c, fullText)) {
+      console.log(`跳过(来源或完整原文不可核验): ${c.title}`);
+      continue;
+    }
+    const material = `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`;
+    console.log(`素材: ${c.title} → 全文 ${fullText.length} 字`);
     const script = await chatJson(
       `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
       `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}
@@ -313,6 +317,9 @@ for (const pick of regularPicks) {
         name: c.sourceName,
         url: c.link,
         originalTitle: c.title,
+        publishedAt: c.publishedAt || undefined,
+        retrievedAt: new Date().toISOString(),
+        basis: "full-text",
         lang: c.lang,
         profile: c.profile ?? "general",
       },

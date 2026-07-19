@@ -24,43 +24,43 @@ export const CATEGORIES: Category[] = [
     id: "science",
     name: "科学",
     english: "Science",
-    washClass: "bg-sky-wash",
-    deepClass: "text-sky-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
   {
     id: "tech",
     name: "技术",
     english: "Technology",
-    washClass: "bg-violet-wash",
-    deepClass: "text-violet-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
   {
     id: "society",
     name: "社会",
     english: "Society",
-    washClass: "bg-rose-wash",
-    deepClass: "text-rose-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
   {
     id: "humanities",
     name: "人文",
     english: "Humanities",
-    washClass: "bg-sand-wash",
-    deepClass: "text-sand-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
   {
     id: "living",
     name: "生活",
     english: "Living",
-    washClass: "bg-moss-wash",
-    deepClass: "text-moss-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
   {
     id: "culture",
     name: "文化",
     english: "Culture",
-    washClass: "bg-teal-wash",
-    deepClass: "text-teal-deep",
+    washClass: "bg-accent-wash",
+    deepClass: "text-accent",
   },
 ];
 
@@ -75,6 +75,21 @@ export type Form = "brief" | "pick" | "long";
 
 /** 时效:热点(48h 降权)/ 本周 / 长青(可反复分发的资产)。 */
 export type Shelf = "hot" | "fresh" | "evergreen";
+
+export interface SourceReference {
+  /** 发布者或媒体的标准名称。 */
+  name: string;
+  /** 可直达原文的永久链接。 */
+  url: string;
+  /** 原文标题，不用轻听改写后的标题代替。 */
+  originalTitle: string;
+  /** 原文发布时间；旧内容可能暂缺，新管线为必填。 */
+  publishedAt?: string;
+  /** 轻听取得并核验原文的时间。 */
+  retrievedAt?: string;
+  /** 听稿依据；正式新刊只允许完整原文。 */
+  basis?: "full-text" | "legacy";
+}
 
 export interface Piece {
   slug: string;
@@ -91,7 +106,7 @@ export interface Piece {
   /** 时效,默认 fresh。 */
   shelf?: Shelf;
   /** 听稿的原文出处(管线产出的内容都有)。 */
-  source?: { name: string; url: string; originalTitle?: string };
+  source?: SourceReference;
   /** 双语实验:英文转述稿(每日最高分一篇携带),音频在 <slug>-en/。 */
   en?: { title: string; intro: string; paragraphs: string[] };
 }

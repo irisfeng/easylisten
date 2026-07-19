@@ -12,7 +12,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "轻听 · EasyListen",
   description:
-    "眼睛太忙了,把阅读交给耳朵。每天几篇,宁缺毋滥——一个可以听的阅读空间。",
+    "眼睛太忙了，把阅读交给耳朵。每天几篇，宁缺毋滥。一个可以听的阅读空间。",
   openGraph: {
     title: "轻听 · EasyListen",
     description: "眼睛太忙了,把阅读交给耳朵。每天几篇,宁缺毋滥。",
@@ -34,14 +34,17 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f7f6f3",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#eef1ee" },
+    { media: "(prefers-color-scheme: dark)", color: "#111513" },
+  ],
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN" className={newsreader.variable}>
+    <html lang="zh-CN" className={newsreader.variable} data-scroll-behavior="smooth">
       <body>
         {children}
         <Analytics />

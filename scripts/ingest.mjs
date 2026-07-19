@@ -10,7 +10,11 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "..");
-const SOURCES = JSON.parse(readFileSync(resolve(ROOT, "content/sources.json"), "utf8")).sources;
+const ALL_SOURCES = JSON.parse(readFileSync(resolve(ROOT, "content/sources.json"), "utf8")).sources;
+const sourceFilter = process.env.EASYLISTEN_SOURCE_FILTER;
+const SOURCES = sourceFilter
+  ? ALL_SOURCES.filter((source) => new RegExp(sourceFilter, "i").test(source.name))
+  : ALL_SOURCES;
 const OUT = resolve(ROOT, "content/candidates.json");
 const DAILY = resolve(ROOT, "content/daily.json");
 
@@ -38,12 +42,48 @@ function parseFeed(xml) {
   return items;
 }
 
+function pickArticleTitle(html) {
+  const propertyBlock = html.match(/<!--enpproperty([\s\S]*?)\/enpproperty-->/i)?.[1] ?? "";
+  const propertyTitle = propertyBlock.match(/<title>([\s\S]*?)<\/title>/i)?.[1];
+  if (propertyTitle) return strip(decode(propertyTitle));
+
+  const metaTitle = html.match(
+    /<meta[^>]+(?:property|name)=["'](?:og:title|twitter:title)["'][^>]+content=["']([^"']+)["']/i,
+  )?.[1];
+  if (metaTitle) return strip(decode(metaTitle));
+
+  const heading = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1];
+  if (heading) return strip(decode(heading));
+
+  return strip(decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? ""))
+    .replace(/[_｜|—-].*$/, "")
+    .trim();
+}
+
+function pickArticleSummary(html) {
+  const match = html.match(
+    /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i,
+  );
+  return strip(decode(match?.[1] ?? "")).slice(0, 1200);
+}
+
+function parseSitemap(xml) {
+  const blocks = xml.match(/<url[\s>][\s\S]*?<\/url>/gi) ?? [];
+  return blocks.map((block) => ({
+    link: strip(decode(block.match(/<loc[^>]*>([\s\S]*?)<\/loc>/i)?.[1] ?? "")),
+    publishedAt: strip(
+      decode(block.match(/<lastmod[^>]*>([\s\S]*?)<\/lastmod>/i)?.[1] ?? ""),
+    ),
+  }));
+}
+
 function decode(s) {
   return s
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
+    .replace(/&nbsp;|&#160;/g, " ")
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&amp;/g, "&");
 }
@@ -58,7 +98,34 @@ async function fetchFeed(src) {
     signal: AbortSignal.timeout(20000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return parseFeed(await res.text());
+  const body = await res.text();
+  if (src.format !== "sitemap") return parseFeed(body);
+
+  const recent = parseSitemap(body)
+    .filter(
+      (item) =>
+        item.link &&
+        freshEnough(item.publishedAt, src.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS) &&
+        (!src.includePattern || new RegExp(src.includePattern).test(item.link)),
+    )
+    .slice(0, MAX_PER_SOURCE * 2);
+  const items = [];
+  for (const item of recent) {
+    if (items.length >= MAX_PER_SOURCE) break;
+    try {
+      const article = await fetch(item.link, {
+        headers: { "user-agent": "easylisten-ingest/1.0 (+https://github.com/irisfeng/easylisten)" },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!article.ok) continue;
+      const html = await article.text();
+      const title = pickArticleTitle(html);
+      if (title) items.push({ ...item, title, summary: pickArticleSummary(html) });
+    } catch {
+      // 单篇失败不拖垮整个权威来源；后续文章仍可进入候选池。
+    }
+  }
+  return items;
 }
 
 function freshEnough(dateStr, maxAgeDays = DEFAULT_MAX_AGE_DAYS) {
@@ -91,6 +158,8 @@ for (const src of SOURCES) {
         lang: src.lang,
         weight: src.weight,
         profile: src.profile ?? "general",
+        region: src.region ?? "international",
+        publisher: src.publisher ?? src.name,
       });
     }
     console.log(`ok   ${src.name}: ${items.length}`);

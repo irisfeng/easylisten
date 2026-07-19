@@ -26,6 +26,9 @@ test("信息源配置完整、唯一且落在受控分层内", () => {
   for (const source of sources) {
     assert.ok(source.name?.trim(), "source name is required");
     assert.match(source.feed, /^https:\/\//, `${source.name}: feed must use HTTPS`);
+    if (source.format !== undefined) {
+      assert.equal(source.format, "sitemap", `${source.name}: unsupported source format`);
+    }
     assert.ok(categories.has(source.category), `${source.name}: invalid category`);
     assert.ok(["zh", "en"].includes(source.lang), `${source.name}: invalid language`);
     assert.ok(
@@ -39,6 +42,12 @@ test("信息源配置完整、唯一且落在受控分层内", () => {
         source.maxAgeDays <= 14,
       `${source.name}: maxAgeDays must be an integer from 1 to 14`,
     );
+    if (source.region !== undefined) {
+      assert.ok(["mainland", "international"].includes(source.region));
+    }
+    if (source.region === "mainland") {
+      assert.ok(source.publisher?.trim(), `${source.name}: mainland source requires publisher`);
+    }
   }
 });
 
@@ -48,6 +57,31 @@ test("源库保持中文可见度和高信任核心源占比", () => {
 
   assert.ok(chineseShare >= 0.3, `Chinese source share too low: ${chineseShare}`);
   assert.ok(coreShare >= 0.4, `Core source share too low: ${coreShare}`);
+});
+
+test("国内源不是装饰性配额，并覆盖少年刊需要的主要领域", () => {
+  const mainland = sources.filter((source) => source.region === "mainland");
+  assert.ok(mainland.length >= 21, `Mainland source count too low: ${mainland.length}`);
+  for (const category of ["science", "society", "humanities", "living", "culture"]) {
+    assert.ok(
+      mainland.some((source) => source.category === category),
+      `Missing mainland source for ${category}`,
+    );
+  }
+  assert.ok(
+    mainland.filter((source) => source.weight >= 1.1).length >= 12,
+    "Mainland source expansion must preserve the high-trust bar",
+  );
+  const publishers = new Set(mainland.map((source) => source.publisher));
+  assert.ok(publishers.size >= 12, `Mainland publisher diversity too low: ${publishers.size}`);
+  const publisherCounts = new Map();
+  for (const source of mainland) {
+    publisherCounts.set(source.publisher, (publisherCounts.get(source.publisher) ?? 0) + 1);
+  }
+  assert.ok(
+    [...publisherCounts.values()].every((count) => count <= 5),
+    "Do not inflate mainland coverage with too many channels from one publisher",
+  );
 });
 
 test("召回时窗匹配信息源角色", () => {

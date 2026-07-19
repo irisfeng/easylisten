@@ -1,6 +1,6 @@
 /**
- * 客户端个性化:兴趣与收听行为存在 localStorage,排序在浏览器里完成。
- * 零后端、零账号——先验证"个性化排序是否真的提升完听率",再考虑上云。
+ * 客户端个性化:兴趣与收听行为先存在 localStorage,排序在浏览器里完成。
+ * 登录后由轻听自己的服务端 API 同步到独立 Turso；未登录仍可完整试听。
  */
 
 import type { CategoryId, Piece } from "./content";
@@ -49,7 +49,7 @@ export function savePrefs(prefs: Prefs) {
   } catch {
     // 隐私模式等场景下静默降级为无记忆
   }
-  // 云备份(未配置 Supabase 时为空操作);动态引入避免循环依赖成环
+  // 登录后云同步；未登录时接口返回 401 并静默保留本机数据
   void import("./sync").then((m) => m.schedulePush(prefs));
 }
 

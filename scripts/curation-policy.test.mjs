@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   BILINGUAL_QUALITY_BAR,
+  hasVerifiableSource,
   selectCandidatePool,
   selectBilingualCandidates,
 } from "./lib/curation-policy.mjs";
@@ -51,9 +52,10 @@ test("评分池保留中文、领域和近 48 小时实时内容的可见性", (
   const categories = ["science", "tech", "society", "humanities", "living", "culture"];
   const candidates = Array.from({ length: 180 }, (_, index) => ({
     title: `candidate-${index}`,
-    lang: index < 50 ? "zh" : "en",
+    lang: index < 50 || index >= 120 ? "zh" : "en",
     category: categories[index % categories.length],
     profile: index >= 160 ? "realtime" : "depth",
+    region: index >= 120 ? "mainland" : "international",
     weight: index < 140 ? 1.2 : 0.9,
     resonance: 1,
     publishedAt:
@@ -63,6 +65,7 @@ test("评分池保留中文、领域和近 48 小时实时内容的可见性", (
   const selected = selectCandidatePool(candidates, 60, now);
   assert.equal(selected.length, 60);
   assert.ok(selected.filter((candidate) => candidate.lang === "zh").length >= 18);
+  assert.ok(selected.filter((candidate) => candidate.region === "mainland").length >= 27);
   assert.ok(
     categories.every((category) =>
       selected.some((candidate) => candidate.category === category),
@@ -71,4 +74,17 @@ test("评分池保留中文、领域和近 48 小时实时内容的可见性", (
   assert.ok(
     selected.filter((candidate) => candidate.profile === "realtime").length >= 12,
   );
+});
+
+test("正式听稿要求标准来源、原文标题、可访问链接和足量全文", () => {
+  const candidate = {
+    sourceName: "科学网",
+    title: "为什么星星会闪烁",
+    link: "https://example.com/science/story",
+  };
+  assert.equal(hasVerifiableSource(candidate, "完整原文".repeat(100)), true);
+  assert.equal(hasVerifiableSource({ ...candidate, sourceName: "" }, "完整原文".repeat(100)), false);
+  assert.equal(hasVerifiableSource({ ...candidate, title: "" }, "完整原文".repeat(100)), false);
+  assert.equal(hasVerifiableSource({ ...candidate, link: "not-a-url" }, "完整原文".repeat(100)), false);
+  assert.equal(hasVerifiableSource(candidate, "只有摘要"), false);
 });

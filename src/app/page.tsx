@@ -35,12 +35,15 @@ export default function Home() {
   useEffect(() => {
     const local = loadPrefs();
     setPrefs(local);
-    // 云备份恢复:iOS 清掉 localStorage 后,回访时把偏好拉回来
+    // 已登录时合并本机与账号记录；未登录保持纯本地使用
     void import("@/lib/sync").then((m) =>
       m
-        .restorePrefs(local.onboarded, (remote) => savePrefs(remote))
-        .then((restored) => {
-          if (restored) setPrefs(loadPrefs());
+        .syncAccountPrefs(local)
+        .then((merged) => {
+          if (merged) {
+            savePrefs(merged);
+            setPrefs(merged);
+          }
         }),
     );
   }, []);
@@ -83,31 +86,57 @@ export default function Home() {
 
   // 首屏优先展示最新一期，让新音色和新功能先被体验；个性化精选随后展示。
   const [latestIssue, ...earlierIssueGroups] = issueGroups;
+  const latestMinutes = latestIssue?.[1].reduce(
+    (total, piece) => total + listenMinutes(piece),
+    0,
+  );
 
   return (
     <main className="mx-auto max-w-3xl px-6 pb-32">
-      <header className="pt-20 pb-14">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink-faint">
-          EasyListen
-        </p>
-        <h1 className="mt-3 font-serif text-5xl leading-[1.05] tracking-tight sm:text-6xl">
-          轻听
-        </h1>
-        <p className="mt-5 max-w-md text-lg leading-relaxed text-ink-soft">
-          一个可以听的阅读空间。从科学到新闻,从深度长文到流行文化,
-          每天从大量来源里替你挑出值得听的几篇。
-        </p>
-        {LATEST_NOTE && (
-          <div className="mt-8 max-w-xl border-l-2 border-line pl-4">
-            <p className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
-              主编的话 · {LATEST_NOTE.date}
-            </p>
-            <p className="mt-2 text-[0.95rem] leading-relaxed text-ink-soft">
-              {LATEST_NOTE.note}
+      <header className="pt-5 pb-10 sm:pt-8 sm:pb-12">
+        <div className="flex min-h-14 items-center justify-between gap-4 border-b border-line">
+          <Link href="/" className="flex items-baseline gap-2 text-ink">
+            <span className="font-serif text-xl tracking-tight">轻听</span>
+            <span className="text-xs text-ink-faint">EasyListen</span>
+          </Link>
+          <Link
+            href="/account"
+            className="inline-flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-sm text-ink-soft transition hover:border-accent hover:text-ink active:scale-[0.98]"
+          >
+            家长账号
+          </Link>
+        </div>
+        <div className="grid gap-8 pt-10 sm:grid-cols-[minmax(0,1fr)_15rem] sm:items-end sm:pt-14">
+          <div>
+            <h1 className="max-w-2xl font-serif text-[2.75rem] leading-[1.08] tracking-[-0.035em] sm:text-5xl">
+              <span className="block">接送路上，给孩子</span>
+              <span className="block">听见更大的世界</span>
+            </h1>
+            <p className="mt-5 max-w-xl text-base leading-8 text-ink-soft sm:text-lg">
+              每天替你挑好几篇。中英双语，新闻、科学、人文都讲得明白。
             </p>
           </div>
-        )}
+          {latestIssue && (
+            <aside className="rounded-2xl border border-line bg-surface p-5 shadow-[0_16px_44px_rgba(27,48,38,0.06)]" aria-label="今日收听概览">
+              <p className="text-sm text-ink-soft">今天已经替你选好</p>
+              <p className="mt-2 font-serif text-4xl tracking-tight text-ink">
+                {latestIssue[1].length} <span className="text-lg text-ink-soft">篇</span>
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">约 {latestMinutes} 分钟，适合一段接送路程</p>
+            </aside>
+          )}
+        </div>
       </header>
+
+      {LATEST_NOTE && (
+        <aside className="mb-10 rounded-2xl bg-surface-strong px-5 py-5 sm:px-6" aria-label="主编的话">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="font-serif text-lg tracking-tight">主编的话</h2>
+            <time className="text-xs text-ink-faint">{LATEST_NOTE.date}</time>
+          </div>
+          <p className="mt-2 text-[0.95rem] leading-7 text-ink-soft">{LATEST_NOTE.note}</p>
+        </aside>
+      )}
 
       {prefs && !prefs.onboarded && (
         <Onboarding
@@ -118,8 +147,8 @@ export default function Home() {
         />
       )}
 
-      <nav className="sticky top-0 z-10 -mx-6 mb-10 border-b border-line bg-paper/85 px-6 py-3 backdrop-blur">
-        <div className="flex flex-wrap gap-2">
+      <nav aria-label="按内容领域筛选" className="sticky top-0 z-10 -mx-6 mb-10 border-y border-line bg-paper/90 px-6 py-2 backdrop-blur-xl">
+        <div className="hide-scrollbar flex gap-1 overflow-x-auto overscroll-x-contain">
           <FilterChip
             label="全部"
             activeState={active === "all"}
@@ -179,11 +208,10 @@ export default function Home() {
 
       <footer className="mt-20 border-t border-line pt-8">
         <p className="font-serif text-lg italic leading-relaxed text-ink-soft">
-          眼睛太忙了,把阅读交给耳朵。
+          眼睛太忙了，把阅读交给耳朵。
         </p>
-        <p className="mt-2 font-mono text-xs tracking-[0.08em] text-ink-faint">
-          每天几篇 · 宁缺毋滥 · 轻听 EasyListen
-        </p>
+        <p className="mt-2 text-xs text-ink-faint">每天几篇。宁缺毋滥。</p>
+        <p className="mt-1 text-xs text-ink-faint">轻听 EasyListen</p>
       </footer>
     </main>
   );
@@ -200,7 +228,7 @@ function IssueSection({
 }) {
   return (
     <section className="mb-12">
-      <h2 className="border-b border-line pb-2 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink-faint">
+      <h2 className="border-b border-line pb-3 text-sm font-medium text-ink-soft">
         {dateLabel(date, today)}
       </h2>
       <ul className="flex flex-col">
@@ -214,11 +242,11 @@ function IssueSection({
   );
 }
 
-/** 期眉标:今日刊 · 7 月 18 日 · 周六;非当日只显示日期。 */
+/** 期眉标：今日刊 · 7 月 18 日 周六；非当日只显示日期。 */
 function dateLabel(iso: string, today: string): string {
   const [y, m, d] = iso.split("-").map(Number);
   const week = "日一二三四五六"[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
-  const base = `${m} 月 ${d} 日 · 周${week}`;
+  const base = `${m} 月 ${d} 日 周${week}`;
   return iso === today ? `今日刊 · ${base}` : base;
 }
 
@@ -235,14 +263,14 @@ function PieceRow({
     <Link
       href={`/listen/${piece.slug}`}
       className={cn(
-        "group block border-b border-line transition-colors hover:bg-black/[0.015]",
-        compact ? "py-4" : "py-7",
+        "group -mx-3 block rounded-2xl border-b border-line px-3 transition hover:bg-surface active:scale-[0.995]",
+        compact ? "py-4" : "py-6 sm:py-7",
       )}
     >
-      <div className="mb-2 flex items-center gap-3">
+      <div className="mb-2 flex flex-wrap items-center gap-x-2.5 gap-y-2">
         <span
           className={cn(
-            "rounded-full px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em]",
+            "rounded-full px-2.5 py-1 text-xs font-medium",
             cat.washClass,
             cat.deepClass,
           )}
@@ -250,23 +278,23 @@ function PieceRow({
           {cat.name}
         </span>
         {piece.form === "long" && (
-          <span className="rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft">
+          <span className="text-xs text-ink-soft">
             深读
           </span>
         )}
         {piece.en && (
-          <span className="rounded-full border border-line px-2.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-[0.08em] text-ink-soft">
-            EN
+          <span className="text-xs text-ink-soft">
+            中英双语
           </span>
         )}
-        <span className="font-mono text-xs text-ink-faint">
-          {listenMinutes(piece)} 分钟 · {piece.author}
+        <span className="text-xs text-ink-faint">
+          {listenMinutes(piece)} 分钟
         </span>
       </div>
       <h2
         className={cn(
           "font-serif leading-snug tracking-tight text-ink",
-          compact ? "text-xl" : "text-2xl",
+          compact ? "text-xl" : "text-[1.45rem] sm:text-[1.65rem]",
         )}
       >
         {piece.title}
@@ -274,6 +302,11 @@ function PieceRow({
       {!compact && (
         <p className="mt-1.5 line-clamp-2 text-[0.95rem] leading-relaxed text-ink-soft">
           {piece.intro}
+        </p>
+      )}
+      {piece.source && (
+        <p className="mt-2 text-xs font-medium text-accent">
+          来源：{piece.source.name}{piece.source.basis === "full-text" ? "，原文可查" : ""}
         </p>
       )}
     </Link>
@@ -289,10 +322,10 @@ function Onboarding({ onDone }: { onDone: (interests: string[]) => void }) {
     );
 
   return (
-    <section className="mb-12 rounded-xl border border-line bg-surface p-6">
-      <h2 className="font-serif text-xl tracking-tight">你想多听点什么?</h2>
+    <section className="mb-12 rounded-2xl border border-line bg-surface p-5 sm:p-6">
+      <h2 className="font-serif text-2xl tracking-tight">孩子更想听什么？</h2>
       <p className="mt-1 mb-4 text-sm text-ink-soft">
-        选几个感兴趣的方向,首页会替你排好序。随时可以跳过,听着听着我们也会懂你。
+        选几个方向，首页会替你排好顺序。不确定也可以先随便听听。
       </p>
       <div className="space-y-3">
         {CATEGORIES.map((c) => (
@@ -311,10 +344,10 @@ function Onboarding({ onDone }: { onDone: (interests: string[]) => void }) {
                 onClick={() => toggle(t)}
                 aria-pressed={selected.includes(t)}
                 className={cn(
-                  "rounded-full border px-3 py-1 text-sm transition-colors",
+                  "min-h-11 rounded-full border px-3 text-sm transition-colors active:scale-[0.98]",
                   selected.includes(t)
                     ? "border-ink bg-ink text-surface"
-                    : "border-line text-ink-soft hover:border-ink-faint hover:text-ink",
+                    : "border-line text-ink-soft hover:border-accent hover:text-ink",
                 )}
               >
                 {t}
@@ -327,13 +360,13 @@ function Onboarding({ onDone }: { onDone: (interests: string[]) => void }) {
         <button
           onClick={() => onDone(selected)}
           disabled={selected.length === 0}
-          className="rounded-md bg-ink px-4 py-2 text-sm text-surface transition-transform active:scale-[0.98] disabled:opacity-40"
+          className="min-h-11 rounded-full bg-ink px-5 text-sm text-surface transition-transform active:scale-[0.98] disabled:opacity-40"
         >
           开始聆听
         </button>
         <button
           onClick={() => onDone([])}
-          className="rounded-md px-3 py-2 text-sm text-ink-soft transition-colors hover:bg-black/[0.04] hover:text-ink"
+          className="min-h-11 rounded-full px-4 text-sm text-ink-soft transition-colors hover:bg-ink/[0.04] hover:text-ink active:scale-[0.98]"
         >
           先随便听听
         </button>
@@ -356,10 +389,10 @@ function FilterChip({
       onClick={onClick}
       aria-pressed={activeState}
       className={cn(
-        "rounded-md px-3.5 py-1.5 text-sm transition-colors",
+        "min-h-11 shrink-0 rounded-full px-4 text-sm transition-colors active:scale-[0.98]",
         activeState
           ? "bg-ink text-surface"
-          : "text-ink-soft hover:bg-black/[0.04] hover:text-ink",
+          : "text-ink-soft hover:bg-ink/[0.04] hover:text-ink",
       )}
     >
       {label}

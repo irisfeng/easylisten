@@ -8,17 +8,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "db:migrate": "node scripts/db-migrate.mjs",
+    "audit:sources": "node scripts/audit-rss-catalog.mjs",
     "test:speech": "node --test scripts/speech-text.test.mjs",
     "test:curation": "node --test scripts/curation-policy.test.mjs scripts/source-policy.test.mjs"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",
     "@capacitor/ios": "^8.4.2",
+    "@libsql/client": "^0.17.4",
+    "@phosphor-icons/react": "^2.1.10",
     "@vercel/analytics": "^2.0.1",
     "next": "^15.5.20",
+    "next-auth": "^5.0.0-beta.31",
     "qrcode": "^1.5.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "resend": "^6.17.2"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.4.2",
