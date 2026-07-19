@@ -36,6 +36,14 @@ const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
 const MAX_PICKS = 6;
 const QUALITY_BAR = 80;
+const AGE_BANDS = ["6-9", "10-12", "13-16"];
+
+function normalizeAgeBands(value, fallback = AGE_BANDS) {
+  const valid = Array.isArray(value)
+    ? [...new Set(value.filter((band) => AGE_BANDS.includes(band)))]
+    : [];
+  return valid.length ? valid : fallback;
+}
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
 const PROVIDERS = [
@@ -294,9 +302,7 @@ for (const pick of regularPicks) {
     console.log(`素材: ${c.title} → 全文 ${fullText.length} 字`);
     const script = await chatJson(
       `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
-      `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}
-
-以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"]}。`,
+      `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}\n\n同时判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。按概念难度、情绪安全和孩子能否独立听懂选择一个或多个，不因题材“高级”就机械排除低龄。\n\n以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"], "ageBands": ["6-9", "10-12", "13-16"]}。`,
       `听稿(${c.title})`,
     );
     const validScript =
@@ -322,6 +328,7 @@ for (const pick of regularPicks) {
       intro: script.intro,
       paragraphs: script.paragraphs,
       topics: pick.topics,
+      ageBands: normalizeAgeBands(script.ageBands),
       form: "pick",
       source: {
         name: c.sourceName,
@@ -359,7 +366,7 @@ if (deepValid) {
       console.log(`深读素材: ${c.title} → 全文 ${fullText.length} 字`);
       const script = await chatJson(
         `你是"轻听"的撰稿人。按评分标准里的"周末深读改写要求"工作。\n\n${RUBRIC}`,
-        `把下面这篇长文改写成"周末深读"中文听稿:2200–3500 字、7–12 段。不是把短稿拉长,而是保留原文的论证层次、关键细节与转折;开头一段交代为什么值得花十分钟听它。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n原文全文(Markdown,可能截断):\n${fullText.slice(0, DEEP_FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。\n\n以 JSON 返回,格式为 {"title": "中文标题,凝练有余味", "intro": "一句话导语", "paragraphs": ["每段一个字符串"]}。`,
+        `把下面这篇长文改写成"周末深读"中文听稿:2200–3500 字、7–12 段。不是把短稿拉长,而是保留原文的论证层次、关键细节与转折;开头一段交代为什么值得花十分钟听它。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n原文全文(Markdown,可能截断):\n${fullText.slice(0, DEEP_FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。\n\n以 JSON 返回,格式为 {"title": "中文标题,凝练有余味", "intro": "一句话导语", "paragraphs": ["每段一个字符串"], "ageBands": ["10-12", "13-16"]}。`,
         `深读(${c.title})`,
       );
       const validDeep =
@@ -384,6 +391,7 @@ if (deepValid) {
           intro: script.intro,
           paragraphs: script.paragraphs,
           topics: Array.isArray(deep.topics) ? deep.topics : [],
+          ageBands: normalizeAgeBands(script.ageBands, ["13-16"]),
           form: "long",
           shelf: "evergreen",
           source: {

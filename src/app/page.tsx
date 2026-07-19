@@ -10,12 +10,15 @@ import {
   Headphones,
   Pause,
   Play,
+  UserCircle,
 } from "@phosphor-icons/react";
 import {
   CATEGORIES,
   TOPIC_GROUPS,
   categoryOf,
   listenMinutes,
+  isPieceForAge,
+  type AgeBand,
   type CategoryId,
   type Piece,
 } from "@/lib/content";
@@ -36,7 +39,6 @@ import {
 } from "@/lib/prefs";
 import { cn } from "@/lib/utils";
 
-type AgeBand = "6-9" | "10-12" | "13-16";
 type Playing = { slug: string; language: "zh" | "en" } | null;
 
 const AGE_KEY = "easylisten.age-band.v1";
@@ -93,14 +95,18 @@ export default function Home() {
   }, []);
 
   const [latestIssue, ...earlierIssues] = issueGroups;
-  const latestPieces = latestIssue?.[1] ?? [];
+  const latestPieces = useMemo(
+    () => (latestIssue?.[1] ?? []).filter((piece) => isPieceForAge(piece, ageBand)),
+    [ageBand, latestIssue],
+  );
   const alternate = latestPieces.find((piece) => piece.en);
   const filteredArchive = useMemo(() => {
-    const pieces = [...earlierIssues.flatMap(([, list]) => list), ...EVERGREEN_PIECES];
+    const pieces = [...earlierIssues.flatMap(([, list]) => list), ...EVERGREEN_PIECES]
+      .filter((piece) => isPieceForAge(piece, ageBand));
     return active === "all"
       ? pieces
       : pieces.filter((piece) => piece.category === active);
-  }, [active, earlierIssues]);
+  }, [active, ageBand, earlierIssues]);
   const forYou = useMemo(
     () => (prefs && hasSignal(prefs) ? pickForYou(PIECES, prefs, 3) : []),
     [prefs],
@@ -141,7 +147,7 @@ export default function Home() {
   return (
     <main className="mx-auto min-h-dvh max-w-[52rem] px-5 pb-24 sm:px-10 lg:px-12">
       <header className="pt-6 sm:pt-9">
-        <div className="flex items-center justify-between gap-5">
+        <div className="flex items-center justify-between gap-3">
           <label className="relative inline-flex min-h-11 items-center rounded-full border border-line bg-surface/60 pl-4 pr-10 text-sm text-ink">
             <span className="sr-only">选择主要收听年龄段</span>
             <select
@@ -155,10 +161,21 @@ export default function Home() {
             </select>
             <CaretDown aria-hidden size={15} className="pointer-events-none absolute right-4" />
           </label>
-          <a href="#sources" className="group inline-flex min-h-11 items-center gap-1 text-sm text-ink-soft hover:text-ink">
-            本期选题与来源
-            <CaretRight aria-hidden size={16} className="transition-transform group-hover:translate-x-0.5" />
-          </a>
+          <div className="flex items-center gap-2 sm:gap-4">
+            <a href="#sources" className="group inline-flex min-h-11 items-center gap-1 text-sm text-ink-soft hover:text-ink">
+              <span className="hidden min-[360px]:inline">本期选题与来源</span>
+              <span className="min-[360px]:hidden">来源</span>
+              <CaretRight aria-hidden size={16} className="transition-transform group-hover:translate-x-0.5" />
+            </a>
+            <Link
+              href="/account"
+              aria-label={signedIn ? "进入我的轻听" : "家长登录"}
+              className="inline-flex min-h-11 items-center gap-1.5 text-sm text-ink-soft hover:text-ink"
+            >
+              <UserCircle aria-hidden size={21} weight={signedIn ? "fill" : "regular"} />
+              <span className="hidden sm:inline">{signedIn ? "我的轻听" : "家长登录"}</span>
+            </Link>
+          </div>
         </div>
 
         <div className="pb-16 pt-20 sm:pb-20 sm:pt-24">
@@ -184,6 +201,9 @@ export default function Home() {
             约 {latestPieces.reduce((sum, piece) => sum + listenMinutes(piece), 0)} 分钟
           </p>
         </div>
+        <p className="-mt-4 mb-5 text-xs text-ink-faint">
+          当前节目单适合 {AGE_BANDS.find((band) => band.value === ageBand)?.label}，切换年龄会即时调整
+        </p>
 
         <ol>
           {latestPieces.map((piece, index) => (

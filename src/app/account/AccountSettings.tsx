@@ -32,7 +32,7 @@ export function AccountSettings({ email }: { email: string }) {
         body: JSON.stringify({ ageBand: value }),
       });
       if (!response.ok) throw new Error("保存失败");
-      setMessage("年龄段已保存。当前日刊仍由编辑部统一精选；后续分龄排序会参考这一设置。");
+      setMessage("年龄段已保存。首页当期节目单和往期内容会按这个阶段调整。");
     } catch {
       setMessage("暂时没有保存成功，请稍后再试。");
     } finally {

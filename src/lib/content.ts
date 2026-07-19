@@ -101,6 +101,8 @@ export interface Piece {
   paragraphs: string[];
   /** 细分兴趣标签,用于个性化排序。可跨领域。 */
   topics?: string[];
+  /** 编辑判断的适龄段；一篇可以跨多个阶段。旧内容缺省时对全部年龄可见。 */
+  ageBands?: AgeBand[];
   /** 形态,默认 pick。 */
   form?: Form;
   /** 时效,默认 fresh。 */
@@ -116,6 +118,12 @@ export interface Piece {
   };
   /** 双语实验:英文转述稿(每日最高分一篇携带),音频在 <slug>-en/。 */
   en?: { title: string; intro: string; paragraphs: string[] };
+}
+
+export type AgeBand = "6-9" | "10-12" | "13-16";
+
+export function isPieceForAge(piece: Piece, ageBand: AgeBand): boolean {
+  return !piece.ageBands?.length || piece.ageBands.includes(ageBand);
 }
 
 /** 话题全集,按领域分组。服务兴趣勾选、管线打标与个性化匹配。 */

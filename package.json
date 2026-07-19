@@ -11,7 +11,7 @@
     "db:migrate": "node scripts/db-migrate.mjs",
     "audit:sources": "node scripts/audit-rss-catalog.mjs",
     "test:speech": "node --test scripts/speech-text.test.mjs",
-    "test:curation": "node --test scripts/curation-policy.test.mjs scripts/source-policy.test.mjs scripts/editorial-image-policy.test.mjs"
+    "test:curation": "node --test scripts/curation-policy.test.mjs scripts/source-policy.test.mjs scripts/editorial-image-policy.test.mjs scripts/age-band.test.mjs"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",
