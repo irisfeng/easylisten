@@ -64,7 +64,14 @@ function pickArticleSummary(html) {
   const match = html.match(
     /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i,
   );
-  return strip(decode(match?.[1] ?? "")).slice(0, 1200);
+  const metaSummary = strip(decode(match?.[1] ?? "")).replace(/-$/, "");
+  if (metaSummary.length >= 80) return metaSummary.slice(0, 1200);
+
+  // 有些权威媒体的 description 只有标题，改从正文区取足量文本供主编评分。
+  const articleBody =
+    html.match(/id=["']detailContent["'][^>]*>([\s\S]*?)<div id=["']articleEdit["']/i)?.[1] ??
+    "";
+  return strip(decode(articleBody)).slice(0, 1200) || metaSummary.slice(0, 1200);
 }
 
 function parseSitemap(xml) {
@@ -75,6 +82,34 @@ function parseSitemap(xml) {
       decode(block.match(/<lastmod[^>]*>([\s\S]*?)<\/lastmod>/i)?.[1] ?? ""),
     ),
   }));
+}
+
+/**
+ * 解析权威媒体频道页里的最新文章列表。
+ * 目前用于新华体育，频道页比已经停用的旧 RSS 更新更稳定。
+ */
+function parseListing(html, baseUrl) {
+  const blocks =
+    html.match(/<div class="column-center-item[\s\S]*?<\/li><\/div>/gi) ?? [];
+  return blocks
+    .map((block) => {
+      const href = block.match(/<a[^>]+href=["']([^"']+)["']/i)?.[1] ?? "";
+      const title = strip(decode(block.match(/<span[^>]*>([\s\S]*?)<\/span>/i)?.[1] ?? ""));
+      const publishedAt = strip(
+        decode(block.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? ""),
+      );
+      try {
+        return {
+          title,
+          link: href ? new URL(href, baseUrl).href : "",
+          publishedAt: publishedAt ? `${publishedAt.replace(" ", "T")}+08:00` : "",
+          summary: "",
+        };
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean);
 }
 
 function decode(s) {
@@ -99,6 +134,39 @@ async function fetchFeed(src) {
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const body = await res.text();
+  if (!src.format) return parseFeed(body);
+
+  if (src.format === "listing") {
+    const recent = parseListing(body, src.feed).filter(
+      (item) =>
+        item?.link && freshEnough(item.publishedAt, src.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS),
+    );
+    if (src.preferPattern) {
+      const preferred = new RegExp(src.preferPattern, "i");
+      recent.sort(
+        (a, b) => Number(preferred.test(b.title)) - Number(preferred.test(a.title)),
+      );
+    }
+    recent.splice(MAX_PER_SOURCE * 2);
+    const items = [];
+    for (const item of recent) {
+      if (items.length >= MAX_PER_SOURCE) break;
+      try {
+        const article = await fetch(item.link, {
+          headers: { "user-agent": "easylisten-ingest/1.0 (+https://github.com/irisfeng/easylisten)" },
+          signal: AbortSignal.timeout(15000),
+        });
+        if (!article.ok) continue;
+        const html = await article.text();
+        const title = pickArticleTitle(html) || item.title;
+        if (title) items.push({ ...item, title, summary: pickArticleSummary(html) });
+      } catch {
+        // 单篇失败时继续检查频道里的下一篇，不让一个链接拖垮整个来源。
+      }
+    }
+    return items;
+  }
+
   if (src.format !== "sitemap") return parseFeed(body);
 
   const recent = parseSitemap(body)

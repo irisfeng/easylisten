@@ -17,6 +17,7 @@ const categories = new Set([
   "culture",
 ]);
 const profiles = new Set(["depth", "analysis", "realtime", "discovery"]);
+const sourceFormats = new Set(["sitemap", "listing"]);
 
 test("信息源配置完整、唯一且落在受控分层内", () => {
   assert.ok(Array.isArray(sources) && sources.length > 0);
@@ -27,7 +28,10 @@ test("信息源配置完整、唯一且落在受控分层内", () => {
     assert.ok(source.name?.trim(), "source name is required");
     assert.match(source.feed, /^https:\/\//, `${source.name}: feed must use HTTPS`);
     if (source.format !== undefined) {
-      assert.equal(source.format, "sitemap", `${source.name}: unsupported source format`);
+      assert.ok(sourceFormats.has(source.format), `${source.name}: unsupported source format`);
+    }
+    if (source.preferPattern !== undefined) {
+      assert.doesNotThrow(() => new RegExp(source.preferPattern), `${source.name}: invalid preferPattern`);
     }
     assert.ok(categories.has(source.category), `${source.name}: invalid category`);
     assert.ok(["zh", "en"].includes(source.lang), `${source.name}: invalid language`);

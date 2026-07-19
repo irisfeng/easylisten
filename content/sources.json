@@ -504,6 +504,20 @@
       "maxAgeDays": 2
     },
     {
+      "name": "新华体育",
+      "$comment": "新华社体育频道公开列表；优先赛事背景、技术机制、人物和体育精神，不选单纯赛果与阵容搬运",
+      "region": "mainland",
+      "publisher": "新华社",
+      "feed": "https://www.news.cn/sports/",
+      "format": "listing",
+      "preferPattern": "AI|技术|规则|战术|人物|精神|文化|镜头之外|中国元素|追光",
+      "category": "culture",
+      "lang": "zh",
+      "weight": 1.2,
+      "profile": "realtime",
+      "maxAgeDays": 2
+    },
+    {
       "name": "中新网健康",
       "$comment": "中国新闻社主办的健康频道；未成年人健康内容必须避免诊断建议和夸大结论",
       "region": "mainland",
