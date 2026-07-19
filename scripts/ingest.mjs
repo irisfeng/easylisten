@@ -8,6 +8,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
+import { resolveCanonicalArticle } from "./lib/canonical-source.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const ALL_SOURCES = JSON.parse(readFileSync(resolve(ROOT, "content/sources.json"), "utf8")).sources;
@@ -22,7 +23,7 @@ const DEFAULT_MAX_AGE_DAYS = 3;
 const MAX_PER_SOURCE = 10;
 
 /** 极简 RSS/Atom 解析:MVP 用正则提取 item/entry 的关键字段,不引第三方依赖。 */
-function parseFeed(xml) {
+function parseFeed(xml, source) {
   const items = [];
   const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>|<entry[\s>][\s\S]*?<\/entry>/g) ?? [];
   for (const block of blocks) {
@@ -32,11 +33,17 @@ function parseFeed(xml) {
     };
     // Atom 的链接在 <link href="..."/>
     const linkAttr = block.match(/<link[^>]*href=["']([^"']+)["']/i);
+    const rawContent = pick("content:encoded") || pick("description") || pick("content");
+    const canonical = source.resolveCanonical
+      ? resolveCanonicalArticle(rawContent, source.feed)
+      : null;
     items.push({
       title: strip(pick("title")),
-      link: strip(pick("link")) || (linkAttr ? linkAttr[1] : ""),
+      link: canonical?.url || strip(pick("link")) || (linkAttr ? linkAttr[1] : ""),
       publishedAt: pick("pubDate") || pick("published") || pick("updated") || pick("dc:date"),
       summary: strip(pick("description") || pick("summary") || pick("content")).slice(0, 1200),
+      canonicalSourceName: canonical?.sourceName,
+      discoveredVia: canonical ? source.name : undefined,
     });
   }
   return items;
@@ -135,7 +142,7 @@ async function fetchFeed(src) {
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const body = await res.text();
-  if (!src.format) return parseFeed(body);
+  if (!src.format) return parseFeed(body, src);
 
   if (src.format === "listing") {
     const recent = parseListing(body, src.feed).filter(
@@ -223,13 +230,14 @@ for (const src of SOURCES) {
     for (const it of items.slice(0, sourceLimit)) {
       candidates.push({
         ...it,
-        sourceName: src.name,
+        sourceName: it.canonicalSourceName ?? src.name,
         category: src.category,
         lang: src.lang,
         weight: src.weight,
         profile: src.profile ?? "general",
         region: src.region ?? "international",
-        publisher: src.publisher ?? src.name,
+        publisher: it.canonicalSourceName ?? src.publisher ?? src.name,
+        discoveredVia: it.discoveredVia,
         minAgeBand: src.minAgeBand,
       });
     }

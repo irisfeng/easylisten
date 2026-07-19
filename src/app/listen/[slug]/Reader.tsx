@@ -395,12 +395,20 @@ export default function Reader({ piece }: { piece: Piece }) {
 function SourceCard({ source }: { source: NonNullable<Piece["source"]> }) {
   const published = source.publishedAt ? formatSourceDate(source.publishedAt) : "历史内容未记录";
   const retrieved = source.retrievedAt ? formatSourceDate(source.retrievedAt) : null;
+  const reviewed = source.factReview?.reviewedAt
+    ? formatSourceDate(source.factReview.reviewedAt)
+    : null;
+  const verificationLabel = source.factReview
+    ? "事实已复核"
+    : source.basis === "full-text"
+      ? "已取得完整原文"
+      : "历史内容";
   return (
     <aside className="mt-7 rounded-2xl border border-line bg-surface p-5 shadow-[0_14px_36px_rgba(27,48,38,0.05)]" aria-label="原始来源">
       <div className="flex items-center justify-between gap-3">
         <p className="text-sm font-medium text-ink">原始来源</p>
         <span className="rounded-full bg-accent-wash px-2.5 py-1 text-xs text-accent">
-          {source.basis === "full-text" ? "已核验完整原文" : "历史内容"}
+          {verificationLabel}
         </span>
       </div>
       <p className="mt-4 text-base font-medium text-accent">{source.name}</p>
@@ -408,7 +416,8 @@ function SourceCard({ source }: { source: NonNullable<Piece["source"]> }) {
       <div className="mt-4 flex flex-wrap items-end justify-between gap-3 text-xs text-ink-faint">
         <div className="space-y-1">
           <p>原文发布：{published}</p>
-          {retrieved && <p>轻听核验：{retrieved}</p>}
+          {retrieved && <p>取得原文：{retrieved}</p>}
+          {reviewed && <p>事实复核：{reviewed}</p>}
         </div>
         <a
           href={source.url}

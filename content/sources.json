@@ -130,6 +130,7 @@
       "lang": "en",
       "weight": 0.9,
       "profile": "discovery",
+      "resolveCanonical": true,
       "maxAgeDays": 7
     },
     {
@@ -310,6 +311,7 @@
       "lang": "en",
       "weight": 1.0,
       "profile": "discovery",
+      "resolveCanonical": true,
       "maxAgeDays": 5
     },
     {

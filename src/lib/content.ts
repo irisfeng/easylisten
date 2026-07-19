@@ -85,10 +85,18 @@ export interface SourceReference {
   originalTitle: string;
   /** 原文发布时间；旧内容可能暂缺，新管线为必填。 */
   publishedAt?: string;
-  /** 轻听取得并核验原文的时间。 */
+  /** 轻听取得原文的时间；不等同于听稿事实已经复核。 */
   retrievedAt?: string;
   /** 听稿依据；正式新刊只允许完整原文。 */
   basis?: "full-text" | "legacy";
+  /** 听稿逐段事实审校的可追溯结果。 */
+  factReview?: {
+    status: "verified" | "manual-verified";
+    reviewedAt: string;
+    reviewer: string;
+    evidenceCount: number;
+    correctionCount?: number;
+  };
 }
 
 export interface Piece {

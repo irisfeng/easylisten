@@ -22,6 +22,7 @@ import {
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
 import { fetchFullText } from "./lib/full-text.mjs";
+import { validateFactReview } from "./lib/fact-review.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
@@ -58,20 +59,26 @@ const LLM_KEY = process.env[provider.env];
 const LLM_BASE = provider.base;
 const MODEL = process.env.LLM_MODEL || provider.model;
 console.log(`模型服务: ${provider.env} → ${MODEL} @ ${LLM_BASE}`);
+const factReviewProvider =
+  PROVIDERS.find((candidate) => candidate.env !== provider.env && process.env[candidate.env]) ??
+  provider;
+console.log(
+  `事实二审: ${factReviewProvider.env} → ${factReviewProvider === provider ? MODEL : factReviewProvider.model}`,
+);
 
 /**
  * 调用 OpenAI 兼容的 /chat/completions,强制 JSON 输出并解析。
  * DeepSeek 与百炼均支持 response_format:{type:"json_object"}(提示里需含 "json")。
  */
-async function chatJson(system, user, label, temperature = 0.7) {
-  const res = await fetch(`${LLM_BASE}/chat/completions`, {
+async function chatJsonWith(service, model, system, user, label, temperature = 0.7) {
+  const res = await fetch(`${service.base}/chat/completions`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      authorization: `Bearer ${LLM_KEY}`,
+      authorization: `Bearer ${process.env[service.env]}`,
     },
     body: JSON.stringify({
-      model: MODEL,
+      model,
       messages: [
         { role: "system", content: system },
         { role: "user", content: user },
@@ -98,6 +105,10 @@ async function chatJson(system, user, label, temperature = 0.7) {
   // 因此把裸控制字符统一替换为空格,既修复串内非法字符,又不影响结构与已转义序列。
   const safe = Array.from(cleaned, (ch) => (ch.charCodeAt(0) < 0x20 ? " " : ch)).join("");
   return JSON.parse(safe);
+}
+
+async function chatJson(system, user, label, temperature = 0.7) {
+  return chatJsonWith(provider, MODEL, system, user, label, temperature);
 }
 
 // 日刊按北京日历日期落款(定时任务在 UTC 22:00 = 北京次日早 6 点运行)
@@ -249,6 +260,48 @@ async function reviewTitle(script, candidate) {
   return finalTitle;
 }
 
+async function reviewScriptFacts(script, candidate, fullText) {
+  const review = await chatJsonWith(
+    factReviewProvider,
+    factReviewProvider === provider ? MODEL : factReviewProvider.model,
+    `你是独立事实审稿人，不参与选题，也不替撰稿人圆场。你的唯一任务是让听稿中的每个可核查陈述都忠于给定原文。
+逐项核对：比分、数字、日期、分钟、比赛阶段、人物身份、地点、奖项、引语、因果、比较级和“首次/唯一/刷新纪录”等断言。
+原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
+即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。`,
+    `原文标题：${candidate.title}
+来源：${candidate.sourceName}
+原文全文：
+${fullText.slice(0, script.paragraphs.length > 6 ? DEEP_FULLTEXT_LIMIT : FULLTEXT_LIMIT)}
+
+待审听稿：
+${JSON.stringify({ title: script.title, intro: script.intro, paragraphs: script.paragraphs })}
+
+以 JSON 返回：
+{"ok": true或false, "issues": ["发现的问题"], "final": {"title": "核验后的标题", "intro": "核验后的导语", "paragraphs": ["保持待审听稿段数的核验后正文"]}, "evidence": [{"paragraphIndex": 0, "sourceQuote": "支持该段关键事实的原文连续摘录"}]}。
+paragraphIndex 从 0 开始，每一段都必须覆盖；sourceQuote 必须逐字复制原文，不能改写。`,
+    `事实二审(${candidate.title})`,
+    0.1,
+  );
+  const finalScript = validateFactReview(review, fullText);
+  if (review.ok !== true || (Array.isArray(review.issues) && review.issues.length)) {
+    console.log(
+      `事实二审修正: ${candidate.title} — ${
+        Array.isArray(review.issues) ? review.issues.join("；") : "存在未说明的问题"
+      }`,
+    );
+  }
+  return {
+    script: finalScript,
+    audit: {
+      status: "verified",
+      reviewedAt: new Date().toISOString(),
+      reviewer: factReviewProvider === provider ? MODEL : factReviewProvider.model,
+      evidenceCount: review.evidence.length,
+      correctionCount: Array.isArray(review.issues) ? review.issues.length : 0,
+    },
+  };
+}
+
 // 全文再长也只取前 12000 字,足够写 3-6 段听稿;深读需要更足的素材
 const FULLTEXT_LIMIT = 12000;
 const DEEP_FULLTEXT_LIMIT = 24000;
@@ -287,6 +340,10 @@ for (const pick of regularPicks) {
       console.log(`跳过(听稿格式不合格): ${c.title}`);
       continue;
     }
+    const factChecked = await reviewScriptFacts(script, c, fullText);
+    script.title = factChecked.script.title;
+    script.intro = factChecked.script.intro;
+    script.paragraphs = factChecked.script.paragraphs;
     script.title = await reviewTitle(script, c);
 
     pieces.push({
@@ -309,6 +366,7 @@ for (const pick of regularPicks) {
         basis: "full-text",
         lang: c.lang,
         profile: c.profile ?? "general",
+        factReview: factChecked.audit,
       },
     });
     console.log(`wrote 听稿: ${script.title}`);
@@ -319,6 +377,7 @@ for (const pick of regularPicks) {
       pick,
       score: pick.score,
       hasFullText: Boolean(fullText),
+      fullText,
     });
   } catch (e) {
     console.log(`跳过(改写失败): ${c.title} — ${e.message}`);
@@ -351,6 +410,10 @@ if (deepValid) {
       if (!validDeep) {
         console.log(`深读放弃(听稿不合格): ${c.title}`);
       } else {
+        const factChecked = await reviewScriptFacts(script, c, fullText);
+        script.title = factChecked.script.title;
+        script.intro = factChecked.script.intro;
+        script.paragraphs = factChecked.script.paragraphs;
         script.title = await reviewTitle(script, c);
         pieces.push({
           slug: `${today}-${slugify(c.title)}`,
@@ -373,6 +436,7 @@ if (deepValid) {
             originalTitle: c.title,
             lang: c.lang,
             profile: c.profile ?? "general",
+            factReview: factChecked.audit,
           },
         });
         console.log(`wrote 深读: ${script.title}`);
@@ -410,8 +474,14 @@ for (const bilingual of bilingualPicks) {
       en.paragraphs.length >= 3 &&
       en.paragraphs.every((p) => typeof p === "string" && p.trim());
     if (validEn) {
-      bilingual.piece.en = { title: en.title, intro: en.intro, paragraphs: en.paragraphs };
-      console.log(`wrote 英文稿: ${en.title}`);
+      const factChecked = await reviewScriptFacts(en, bilingual.c, bilingual.fullText);
+      bilingual.piece.en = {
+        title: factChecked.script.title,
+        intro: factChecked.script.intro,
+        paragraphs: factChecked.script.paragraphs,
+        factReview: factChecked.audit,
+      };
+      console.log(`wrote 英文稿: ${factChecked.script.title}`);
     } else {
       console.log(`英文稿格式不合格,跳过: ${bilingual.c.title}`);
     }
