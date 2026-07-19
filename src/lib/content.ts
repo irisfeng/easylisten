@@ -124,8 +124,6 @@ export interface Piece {
     caption: string;
     kind: "editorial";
   };
-  /** 双语实验:英文转述稿(每日最高分一篇携带),音频在 <slug>-en/。 */
-  en?: { title: string; intro: string; paragraphs: string[] };
 }
 
 export type AgeBand = "6-9" | "10-12" | "13-16";

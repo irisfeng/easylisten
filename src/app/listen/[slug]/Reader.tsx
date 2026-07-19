@@ -20,6 +20,7 @@ import {
 } from "@/lib/tts";
 import { cn } from "@/lib/utils";
 import { SharePanel } from "./Share";
+import { VoiceSwitch, type VoiceGender } from "@/components/VoiceSwitch";
 import audioManifest from "../../../../public/audio/manifest.json";
 import {
   ArrowLeft,
@@ -39,9 +40,7 @@ type PlayState = "idle" | "playing" | "paused";
 export default function Reader({ piece }: { piece: Piece }) {
   const cat = categoryOf(piece.category);
 
-  // 双语实验:携带英文稿的篇目可切换中/英,音频走 <slug>-en
-  const [lang, setLang] = useState<"zh" | "en">("zh");
-  const script = lang === "en" && piece.en ? piece.en : piece;
+  const script = piece;
 
   // 把每段切成句子,并给每句分配一个全篇唯一的下标,
   // 这样朗读进度和文中高亮能对上号。
@@ -63,20 +62,13 @@ export default function Reader({ piece }: { piece: Piece }) {
   const [sharing, setSharing] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   // 双声篇目(有 -m 变体)可切男/女声,偏好记在本地
-  const [gender, setGender] = useState<"f" | "m">("f");
+  const [gender, setGender] = useState<VoiceGender>("f");
   useEffect(() => {
     setGender(loadPrefs().voiceGender ?? "f");
   }, []);
-  // 双语实验的唯一切换是中/英；中文固定 MiniMax 女声，不展示男女声开关。
-  const hasMale =
-    !piece.en && (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
+  const hasMale = (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
 
-  const audioSlug =
-    lang === "en"
-      ? `${piece.slug}-en`
-      : gender === "m" && hasMale
-        ? `${piece.slug}-m`
-        : piece.slug;
+  const audioSlug = gender === "m" && hasMale ? `${piece.slug}-m` : piece.slug;
   const hasAudio = (audioManifest.slugs as string[]).includes(audioSlug);
   const timings = (
     audioManifest as { timings?: Record<string, number[]> }
@@ -294,34 +286,16 @@ export default function Reader({ piece }: { piece: Piece }) {
           <span className="text-xs text-ink-faint">{listenMinutes(piece)} 分钟</span>
           <span className="text-xs text-ink-faint">{piece.author}</span>
           <time className="text-xs text-ink-faint">{piece.publishedAt}</time>
-          {hasMale && lang === "zh" && (
-            <button
-              onClick={() => {
-                const g = gender === "f" ? "m" : "f";
-                setGender(g);
-                setVoiceGender(g);
+          {hasMale && (
+            <VoiceSwitch
+              value={gender}
+              onChange={(next) => {
+                setGender(next);
+                setVoiceGender(next);
+                track("voice_switch", { slug: piece.slug, gender: next });
               }}
-              aria-pressed={gender === "m"}
-              className="ml-auto min-h-10 rounded-full border border-line px-3 text-xs text-ink-soft transition-colors hover:border-accent hover:text-ink active:scale-[0.98]"
-            >
-              {gender === "f" ? "女声" : "男声"}
-            </button>
-          )}
-          {piece.en && (
-            <button
-              onClick={() => {
-                const next = lang === "zh" ? "en" : "zh";
-                setLang(next);
-                if (next === "en") track("listen_en", { slug: piece.slug });
-              }}
-              aria-pressed={lang === "en"}
-              className={cn(
-                !(hasMale && lang === "zh") && "ml-auto",
-                "min-h-10 rounded-full border border-line px-3 text-xs text-ink-soft transition-colors hover:border-accent hover:text-ink active:scale-[0.98]",
-              )}
-            >
-              {lang === "zh" ? "EN" : "中"}
-            </button>
+              className="ml-auto"
+            />
           )}
         </div>
 
