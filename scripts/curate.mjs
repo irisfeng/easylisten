@@ -1,6 +1,6 @@
 /**
  * 精选:读取 content/candidates.json,按 content/rubric.md 评分,
- * 把入选文章改写成中文听稿,追加进 content/daily.json。
+ * 把入选文章改写成中文听稿；同日重跑时替换当天旧刊。
  *
  * 模型走 OpenAI 兼容接口,自动识别以下任一 key(GitHub Actions 中配为 secret):
  *   - DEEPSEEK_API_KEY   → DeepSeek(deepseek-chat)
@@ -15,6 +15,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import {
   hasVerifiableSource,
+  mergeDailyPieces,
   selectBilingualCandidates,
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
@@ -429,8 +430,8 @@ for (const bilingual of bilingualPicks) {
   }
 }
 
-// 最新的排前面;保留最近 60 篇
-const merged = [...pieces, ...existing].slice(0, 60);
+// 最新的排前面；同日重跑替换当天旧刊，避免手动测试或失败重试累加篇数。
+const merged = mergeDailyPieces(pieces, existing, today);
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
 

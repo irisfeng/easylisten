@@ -5,6 +5,15 @@ export const MAINLAND_POOL_SHARE = 0.45;
 export const REALTIME_POOL_SHARE = 0.2;
 export const CATEGORY_POOL_MIN = 5;
 
+/**
+ * 同一天的手动重跑或失败重试必须替换当天旧刊，不能继续追加。
+ * 这样日刊数量上限和首页“今日”语义在重复执行后仍然成立。
+ */
+export function mergeDailyPieces(pieces, existing, issueDate, limit = 60) {
+  const previousIssues = existing.filter((piece) => piece.publishedAt !== issueDate);
+  return [...pieces, ...previousIssues].slice(0, limit);
+}
+
 /** 正式听稿必须能回到标准来源，并且已经取得足量原文供事实核验。 */
 export function hasVerifiableSource(candidate, fullText) {
   if (!candidate?.sourceName?.trim() || !candidate?.title?.trim()) return false;

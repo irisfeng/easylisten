@@ -4,6 +4,7 @@ import test from "node:test";
 import {
   BILINGUAL_QUALITY_BAR,
   hasVerifiableSource,
+  mergeDailyPieces,
   selectCandidatePool,
   selectBilingualCandidates,
 } from "./lib/curation-policy.mjs";
@@ -87,4 +88,23 @@ test("正式听稿要求标准来源、原文标题、可访问链接和足量�
   assert.equal(hasVerifiableSource({ ...candidate, title: "" }, "完整原文".repeat(100)), false);
   assert.equal(hasVerifiableSource({ ...candidate, link: "not-a-url" }, "完整原文".repeat(100)), false);
   assert.equal(hasVerifiableSource(candidate, "只有摘要"), false);
+});
+
+test("同一天重跑会替换旧刊而不是继续追加", () => {
+  const existing = [
+    { slug: "old-today-1", publishedAt: "2026-07-20" },
+    { slug: "old-today-2", publishedAt: "2026-07-20" },
+    { slug: "yesterday", publishedAt: "2026-07-19" },
+  ];
+  const fresh = [
+    { slug: "new-today-1", publishedAt: "2026-07-20" },
+    { slug: "new-today-2", publishedAt: "2026-07-20" },
+  ];
+
+  const merged = mergeDailyPieces(fresh, existing, "2026-07-20");
+
+  assert.deepEqual(
+    merged.map((piece) => piece.slug),
+    ["new-today-1", "new-today-2", "yesterday"],
+  );
 });
