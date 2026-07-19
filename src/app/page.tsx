@@ -103,7 +103,7 @@ export default function Home() {
             href="/account"
             className="inline-flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-sm text-ink-soft transition hover:border-accent hover:text-ink active:scale-[0.98]"
           >
-            家长账号
+            家长账号 · 可选
           </Link>
         </div>
         <div className="grid gap-8 pt-10 sm:grid-cols-[minmax(0,1fr)_15rem] sm:items-end sm:pt-14">
