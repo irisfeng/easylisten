@@ -49,6 +49,24 @@ jobs:
           ISSUE_DATE: ${{ env.ISSUE_DATE }}
         run: node scripts/curate.mjs
 
+      - name: 按需生成编辑缩略图
+        # 最多两张且允许零张；生图服务失败不影响当天内容与语音出刊
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_IMAGE_MODEL: ${{ vars.ARK_IMAGE_MODEL }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          DASHSCOPE_IMAGE_MODEL: ${{ vars.DASHSCOPE_IMAGE_MODEL }}
+          DASHSCOPE_IMAGE_BASE_URL: ${{ vars.DASHSCOPE_IMAGE_BASE_URL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          IMAGE_SELECTOR_MODEL: ${{ vars.IMAGE_SELECTOR_MODEL }}
+          ISSUE_DATE: ${{ env.ISSUE_DATE }}
+        run: node scripts/generate-editorial-images.mjs
+
       # 整篇拼接的句级时间轴用 ffprobe 量时长(跑机不自带)
       - name: 安装 ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
@@ -65,7 +83,7 @@ jobs:
         run: |
           git config user.name "easylisten-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add content/daily.json content/editorial.json public/audio
+          git add content/daily.json content/editorial.json public/audio public/editorial
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: 每日精选 ${ISSUE_DATE}"
           REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"

@@ -33,5 +33,5 @@ const STORY_IMAGES: Record<string, EditorialImage> = {
 };
 
 export function editorialImageFor(piece: Piece): EditorialImage | undefined {
-  return STORY_IMAGES[piece.slug];
+  return piece.image ?? STORY_IMAGES[piece.slug];
 }

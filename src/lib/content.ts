@@ -107,6 +107,13 @@ export interface Piece {
   shelf?: Shelf;
   /** 听稿的原文出处(管线产出的内容都有)。 */
   source?: SourceReference;
+  /** 可选的轻听编辑插图；只作目录缩略图，不代表新闻现场。 */
+  image?: {
+    src: string;
+    alt: string;
+    caption: string;
+    kind: "editorial";
+  };
   /** 双语实验:英文转述稿(每日最高分一篇携带),音频在 <slug>-en/。 */
   en?: { title: string; intro: string; paragraphs: string[] };
 }
