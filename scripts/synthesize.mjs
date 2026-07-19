@@ -65,11 +65,11 @@ const MM_MIN_INTERVAL_MS = Number(process.env.MINIMAX_MIN_INTERVAL_MS || 2100);
 const MM_RATE_LIMIT_WAIT_MS = Number(process.env.MINIMAX_RATE_LIMIT_WAIT_MS || 65000);
 const MM_RATE_LIMIT_RETRIES = Number(process.env.MINIMAX_RATE_LIMIT_RETRIES || 3);
 // 付费硬上限：无论选稿或修复逻辑如何变化，本轮传给 MiniMax 的文本总量都不能
-// 超过该值。默认 12000 字符；设为 0 可完全关闭付费 TTS（随后工作流会失败，
-// 而不是悄悄发布音质不一致的内容）。
+// 超过该值。默认 9000 字符；若下一整篇放不进预算，就整篇使用免费 Edge 语音，
+// 避免混合音色，也避免为了补几句话突破预算或阻断当天出刊。
 const MM_MAX_CHARS_PER_RUN = Math.max(
   0,
-  Number(process.env.MINIMAX_MAX_CHARS_PER_RUN || 12000),
+  Number(process.env.MINIMAX_MAX_CHARS_PER_RUN || 9000),
 );
 let mmCharsRequested = 0;
 let mmNextRequestAt = 0;
@@ -96,6 +96,23 @@ function miniMaxBillingChars(text) {
     (total, char) => total + (/\p{Script=Han}/u.test(char) ? 2 : 1),
     0,
   );
+}
+
+function budgetedVoiceForUnit(unit, paragraphs, preferredVoice) {
+  if (preferredVoice.engine !== "minimax") return preferredVoice;
+  const billedChars = splitSentences(paragraphs).reduce((total, sentence) => {
+    const text = speechTextForUnit(sentence, unit);
+    return total + (/[\p{L}\p{N}]/u.test(text) ? miniMaxBillingChars(text) : 0);
+  }, 0);
+  if (mmCharsRequested + billedChars <= MM_MAX_CHARS_PER_RUN) return preferredVoice;
+  console.log(
+    `budget ${unit}: MiniMax 预计 ${billedChars} 字符，剩余 ` +
+      `${MM_MAX_CHARS_PER_RUN - mmCharsRequested}；整篇改用免费 Edge 语音`,
+  );
+  return {
+    engine: "edge",
+    voice: unit.endsWith("-m") ? "zh-CN-YunxiNeural" : VOICE,
+  };
 }
 
 async function synthesizeMiniMaxWith(text, voiceId, model) {
@@ -402,21 +419,47 @@ for (const piece of pieces) {
   const needsNewAudio = !manifest.slugs.includes(piece.slug);
   if (MM_KEY && piece.en) {
     // 双语实验的右上角只承担中/英切换；中文固定使用已选定的 MiniMax 女声。
-    await synthesizeUnit(piece.slug, piece.paragraphs, {
+    const preferredVoice = {
       engine: "minimax",
       voice: MM_FEMALE,
-    });
-  } else if (MM_KEY && (needsNewAudio || hasDualVoiceEvidence)) {
-    // 新篇目使用 MiniMax 双声。若上次女声完成、男声只留下半个目录，
-    // hasDualVoiceEvidence 会让重跑继续补男声，不会误判成旧的单声文章。
-    await synthesizeUnit(piece.slug, piece.paragraphs, {
+    };
+    await synthesizeUnit(
+      piece.slug,
+      piece.paragraphs,
+      budgetedVoiceForUnit(piece.slug, piece.paragraphs, preferredVoice),
+    );
+  } else if (MM_KEY && hasDualVoiceEvidence) {
+    // 已发布的双声篇继续维护两条声线，不能在修复时悄悄丢掉男声。
+    const femaleVoice = {
       engine: "minimax",
       voice: MM_FEMALE,
-    });
-    await synthesizeUnit(maleUnit, piece.paragraphs, {
+    };
+    await synthesizeUnit(
+      piece.slug,
+      piece.paragraphs,
+      budgetedVoiceForUnit(piece.slug, piece.paragraphs, femaleVoice),
+    );
+    const maleVoice = {
       engine: "minimax",
       voice: MM_MALE,
-    });
+    };
+    await synthesizeUnit(
+      maleUnit,
+      piece.paragraphs,
+      budgetedVoiceForUnit(maleUnit, piece.paragraphs, maleVoice),
+    );
+  } else if (MM_KEY && needsNewAudio) {
+    // 新篇目默认只生成一条高品质声线。双声会把同一正文重复计费，且对“听”
+    // 的核心体验提升有限；省下的预算用于保证每天所有入选内容都有完整音频。
+    const preferredVoice = {
+      engine: "minimax",
+      voice: MM_FEMALE,
+    };
+    await synthesizeUnit(
+      piece.slug,
+      piece.paragraphs,
+      budgetedVoiceForUnit(piece.slug, piece.paragraphs, preferredVoice),
+    );
   } else {
     await synthesizeUnit(piece.slug, piece.paragraphs, { engine: "edge", voice: VOICE });
   }
