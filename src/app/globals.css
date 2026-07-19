@@ -75,6 +75,13 @@ body {
 /* The sentence being read aloud. Background eases in so the highlight
    glides through the article instead of blinking. */
 .sentence {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: inherit;
   border-radius: 4px;
   padding: 1px 2px;
   margin: -1px -2px;

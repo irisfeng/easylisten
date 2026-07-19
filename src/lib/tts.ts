@@ -46,7 +46,160 @@ export function splitSentences(paragraphs: string[]): string[] {
 }
 
 /* ------------------------------------------------------------------ */
-/* 预生成音频引擎:逐句文件保证高亮与点击跳句在所有浏览器一致                */
+/* 整篇单文件引擎:连续媒体流用于 iOS 锁屏/后台，时间轴驱动高亮与点句          */
+/* ------------------------------------------------------------------ */
+
+class FullAudioEngine implements SpeechEngine {
+  private audio: HTMLAudioElement | null = null;
+  private rate = 1;
+  private stopped = false;
+  private raf = 0;
+  private index = -1;
+  // 元数据尚未就绪时，先在用户手势里启动播放，再完成 seek。在 seek 落地前
+  // 禁止 timeupdate 把用户刚点的句子又改回第 0 句。
+  private pendingSeek: number | null = null;
+  private sentenceCb: (i: number) => void = () => {};
+  private doneCb: () => void = () => {};
+
+  constructor(
+    private slug: string,
+    private starts: number[],
+  ) {}
+
+  isAvailable() {
+    const available =
+      typeof window !== "undefined" &&
+      typeof Audio !== "undefined" &&
+      this.starts.length > 1;
+    // 提前加载元数据，让第一次点句尽量在同一次手势里完成 seek + play。
+    if (available) this.ensureElement();
+    return available;
+  }
+
+  private ensureElement(): HTMLAudioElement {
+    if (!this.audio) {
+      const audio = new Audio(`/audio/${this.slug}/full.mp3`);
+      audio.preload = "auto";
+      audio.setAttribute("playsinline", "");
+      audio.setAttribute("data-easylisten-audio", "");
+      audio.hidden = true;
+      // 挂到文档中，让 Safari/WKWebView 稳定地把它登记为页面的主媒体元素。
+      // 仅保留 JS 创建但未入 DOM 的短音频，在部分微信 WebView 中不会进入锁屏控制器。
+      document.body.append(audio);
+      audio.addEventListener("timeupdate", this.sync);
+      audio.load();
+      this.audio = audio;
+    }
+    return this.audio;
+  }
+
+  private indexAt(time: number): number {
+    let low = 0;
+    let high = this.starts.length - 2;
+    while (low < high) {
+      const mid = Math.ceil((low + high) / 2);
+      if (this.starts[mid] <= time) low = mid;
+      else high = mid - 1;
+    }
+    return low;
+  }
+
+  private sync = () => {
+    if (this.stopped || !this.audio || this.pendingSeek !== null) return;
+    const next = this.indexAt(this.audio.currentTime);
+    if (next !== this.index) {
+      this.index = next;
+      this.sentenceCb(next);
+    }
+  };
+
+  private loop = () => {
+    if (this.stopped || !this.audio || this.audio.paused) return;
+    this.sync();
+    this.raf = requestAnimationFrame(this.loop);
+  };
+
+  speak(sentences: string[], startIndex: number) {
+    const audio = this.ensureElement();
+    this.stopped = false;
+    const index = Math.max(
+      0,
+      Math.min(startIndex, sentences.length - 1, this.starts.length - 2),
+    );
+    this.index = index;
+    this.sentenceCb(index);
+    this.pendingSeek = this.starts[index] + 0.001;
+
+    audio.onended = () => {
+      if (!this.stopped) {
+        cancelAnimationFrame(this.raf);
+        this.doneCb();
+      }
+    };
+
+    const seekAndTrack = () => {
+      if (this.pendingSeek === null) return;
+      audio.onloadedmetadata = null;
+      audio.currentTime = this.pendingSeek;
+      this.pendingSeek = null;
+      audio.playbackRate = this.rate;
+      this.sync();
+      cancelAnimationFrame(this.raf);
+      this.raf = requestAnimationFrame(this.loop);
+    };
+
+    if (audio.readyState >= 1) {
+      seekAndTrack();
+      void audio.play().catch(() => {});
+    } else {
+      audio.onloadedmetadata = seekAndTrack;
+      // iOS 首次播放必须发生在当前用户手势里；元数据到达后只负责 seek。
+      void audio.play().catch(() => {});
+    }
+  }
+
+  pause() {
+    this.audio?.pause();
+    cancelAnimationFrame(this.raf);
+  }
+
+  resume() {
+    void this.audio?.play().catch(() => {});
+    cancelAnimationFrame(this.raf);
+    this.raf = requestAnimationFrame(this.loop);
+  }
+
+  stop() {
+    this.stopped = true;
+    this.pendingSeek = null;
+    cancelAnimationFrame(this.raf);
+    if (this.audio) {
+      this.audio.onended = null;
+      this.audio.onloadedmetadata = null;
+      this.audio.removeEventListener("timeupdate", this.sync);
+      this.audio.pause();
+      this.audio.removeAttribute("src");
+      this.audio.remove();
+      this.audio = null;
+    }
+  }
+
+  setRate(rate: number) {
+    this.rate = rate;
+    if (this.audio) this.audio.playbackRate = rate;
+  }
+
+  onSentence(cb: (i: number) => void) {
+    this.sentenceCb = cb;
+  }
+
+  onDone(cb: () => void) {
+    this.doneCb = cb;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 逐句音频引擎:仅兼容没有整篇时间轴的旧内容                              */
 /* ------------------------------------------------------------------ */
 
 class AudioEngine implements SpeechEngine {
@@ -286,11 +439,12 @@ class WebSpeechEngine implements SpeechEngine {
 export function createSpeechEngine(options: {
   slug: string;
   hasAudio: boolean;
+  timings?: number[];
   voiceURI?: string;
 }): SpeechEngine {
-  // 不要在这里重新优先选择 full.mp3 + currentTime seek：iOS Safari/WKWebView
-  // 会出现 seek 回到 0、timeupdate 中断，直接破坏点句播放和逐句高亮。
-  // 逐句文件是跨桌面、移动网页与 Capacitor App 的统一可靠路径。
+  if (options.hasAudio && options.timings && options.timings.length > 1) {
+    return new FullAudioEngine(options.slug, options.timings);
+  }
   if (options.hasAudio) return new AudioEngine(options.slug);
   return new WebSpeechEngine(options.voiceURI);
 }

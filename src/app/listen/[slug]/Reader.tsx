@@ -68,6 +68,9 @@ export default function Reader({ piece }: { piece: Piece }) {
         ? `${piece.slug}-m`
         : piece.slug;
   const hasAudio = (audioManifest.slugs as string[]).includes(audioSlug);
+  const timings = (
+    audioManifest as { timings?: Record<string, number[]> }
+  ).timings?.[audioSlug];
 
   // 完听率是个性化排序的核心信号:记录本次会话听到的最远句子。
   const maxHeardRef = useRef(-1);
@@ -121,6 +124,7 @@ export default function Reader({ piece }: { piece: Piece }) {
     const engine = createSpeechEngine({
       slug: audioSlug,
       hasAudio,
+      timings,
       voiceURI: loadPrefs().voiceURI,
     });
     engineRef.current = engine;
@@ -153,7 +157,7 @@ export default function Reader({ piece }: { piece: Piece }) {
       engine.stop();
       flush();
     };
-  }, [piece, audioSlug, sentences.length, hasAudio]);
+  }, [piece, audioSlug, sentences.length, hasAudio, timings]);
 
   // 每篇每次访问只报一次"开始听",作完听率的分母
   const startTrackedRef = useRef(false);
@@ -322,7 +326,8 @@ export default function Reader({ piece }: { piece: Piece }) {
           {paragraphs.map((para, pi) => (
             <p key={pi}>
               {para.map((s) => (
-                <span
+                <button
+                  type="button"
                   key={s.index}
                   data-index={s.index}
                   data-sentence-index={s.index}
@@ -333,7 +338,7 @@ export default function Reader({ piece }: { piece: Piece }) {
                   )}
                 >
                   {s.text}
-                </span>
+                </button>
               ))}
             </p>
           ))}

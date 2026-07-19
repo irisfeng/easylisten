@@ -61,7 +61,7 @@ console.log(`模型服务: ${provider.env} → ${MODEL} @ ${LLM_BASE}`);
  * 调用 OpenAI 兼容的 /chat/completions,强制 JSON 输出并解析。
  * DeepSeek 与百炼均支持 response_format:{type:"json_object"}(提示里需含 "json")。
  */
-async function chatJson(system, user, label) {
+async function chatJson(system, user, label, temperature = 0.7) {
   const res = await fetch(`${LLM_BASE}/chat/completions`, {
     method: "POST",
     headers: {
@@ -75,7 +75,7 @@ async function chatJson(system, user, label) {
         { role: "user", content: user },
       ],
       response_format: { type: "json_object" },
-      temperature: 0.7,
+      temperature,
     }),
     signal: AbortSignal.timeout(120000),
   });
@@ -202,6 +202,51 @@ async function fetchFullText(url) {
   }
 }
 
+/**
+ * 标题二审与基础闸门。听稿模型容易把两条事实硬压成一个“有余味”的短语，
+ * 例如“每天一次 + 降低一半”被压成“一次半”。二审只在标题不清楚、歧义、
+ * 数字关系缺主语或有事实过度承诺时改写；清楚的标题必须原样保留。
+ */
+function titleQualityIssues(title) {
+  const t = typeof title === "string" ? title.trim() : "";
+  const issues = [];
+  if (t.length < 8 || t.length > 38) issues.push("长度不合适");
+  if (!/[\u3400-\u9fff]/.test(t)) issues.push("不是中文标题");
+  if ((t.match(/[：:]/g) ?? []).length > 1) issues.push("冒号堆砌");
+  if (/一次半|一半次|半次|[一二三四五六七八九十\d]+[次倍]半/.test(t)) {
+    issues.push("数字或量词关系含混");
+  }
+  if (/^[，。！？、：；,.!?:;]|[，、：；,:;]$/.test(t)) {
+    issues.push("标题像残句");
+  }
+  return issues;
+}
+
+async function reviewTitle(script, candidate) {
+  const current = script.title.trim();
+  const review = await chatJson(
+    `你是中文新闻标题编辑。标题首先要让普通读者一眼看懂，其次才是文采。
+规则：标题必须脱离导语也能独立理解；不得把两条数字事实压成新造短语；数字要说清谁、做什么、多少；不得使用没有解释的双关、悬空量词、病句或标题党；不得超出原题和导语的事实。清楚准确的标题必须原样保留。`,
+    `请复核下面的中文标题。
+原文标题：${candidate.title}
+候选中文标题：${current}
+导语：${script.intro}
+
+以 JSON 返回：{"ok": true或false, "title": "最终中文标题", "reason": "一句话理由"}。ok=true 时 title 必须与候选中文标题完全一致；只有存在歧义、病句、数字关系不清或事实过度承诺时才改。`,
+    `标题二审(${candidate.title})`,
+    0.2,
+  );
+  const finalTitle = typeof review.title === "string" ? review.title.trim() : "";
+  const issues = titleQualityIssues(finalTitle);
+  if (!finalTitle || issues.length) {
+    throw new Error(`标题二审不合格: ${issues.join("、") || "没有有效标题"}`);
+  }
+  if (review.ok !== true || finalTitle !== current) {
+    console.log(`标题二审: ${current} → ${finalTitle} (${review.reason ?? "需澄清"})`);
+  }
+  return finalTitle;
+}
+
 // 全文再长也只取前 12000 字,足够写 3-6 段听稿;深读需要更足的素材
 const FULLTEXT_LIMIT = 12000;
 const DEEP_FULLTEXT_LIMIT = 24000;
@@ -224,7 +269,7 @@ for (const pick of regularPicks) {
     `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
     `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}
 
-以 JSON 返回,格式为 {"title": "中文标题,凝练有余味,不用冒号堆砌", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"]}。`,
+以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"]}。`,
     `听稿(${c.title})`,
   );
   const validScript =
@@ -239,6 +284,7 @@ for (const pick of regularPicks) {
     console.log(`跳过(听稿格式不合格): ${c.title}`);
     continue;
   }
+  script.title = await reviewTitle(script, c);
 
   pieces.push({
     slug: `${today}-${slugify(c.title)}`,
@@ -287,6 +333,7 @@ if (deepValid) {
       if (!validDeep) {
         console.log(`深读放弃(听稿不合格): ${c.title}`);
       } else {
+        script.title = await reviewTitle(script, c);
         pieces.push({
           slug: `${today}-${slugify(c.title)}`,
           title: script.title,

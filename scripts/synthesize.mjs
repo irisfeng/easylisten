@@ -13,12 +13,16 @@
 import {
   readFileSync,
   writeFileSync,
+  copyFileSync,
   mkdirSync,
+  mkdtempSync,
+  rmSync,
   existsSync,
   readdirSync,
   statSync,
 } from "node:fs";
 import { resolve } from "node:path";
+import { tmpdir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 
@@ -243,10 +247,14 @@ async function synthesizeUnit(unit, paragraphs, v) {
 }
 
 /**
- * 整篇拼接:把 <unit>/ 下的逐句 MP3 按序拼成 full.mp3,并用 ffprobe 量出
+ * 整篇拼接:把 <unit>/ 下的逐句 MP3 按序封装成 full.mp3,并用 ffprobe 量出
  * 每句时长写入 manifest.timings(累计起点秒,末位为总时长)。
  * 播放器据此单文件连续播放——句间零停顿,高亮与点句跳转靠时间轴反查。
- * 同码率同参数的 MP3 帧直接拼接即可正常播放。
+ *
+ * 不能 Buffer.concat MP3 字节:那会保留每句各自的 ID3/Xing 头，Safari 的
+ * duration/seek 表会失真，表现为点句回到开头、高亮很快失步。ffmpeg concat
+ * demuxer 先按句序解码，再编码为一个带完整 Xing seek 表的连续 MP3。仅做
+ * stream copy 在 Chrome/Safari 中仍可能跳到错误位置；单流编码不改变选定音色。
  */
 // ffprobe 最准;环境没有它时退回 CBR 估算——合成参数固定 48kbps,
 // 时长 = 字节数 × 8 / 48000,对恒定码率 MP3 误差在毫秒级
@@ -262,10 +270,28 @@ function probeDuration(file, size, bps = 48000) {
   if (hasFfprobe) {
     const out = execFileSync(
       "ffprobe",
-      ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file],
+      [
+        "-v",
+        "error",
+        "-select_streams",
+        "a:0",
+        "-show_frames",
+        "-show_streams",
+        "-show_entries",
+        "stream=sample_rate:frame=nb_samples",
+        "-of",
+        "json",
+        file,
+      ],
       { encoding: "utf8" },
     );
-    const d = parseFloat(out.trim());
+    const data = JSON.parse(out);
+    const sampleRate = Number(data.streams?.[0]?.sample_rate);
+    const samples = (data.frames ?? []).reduce(
+      (sum, frame) => sum + Number(frame.nb_samples ?? 0),
+      0,
+    );
+    const d = samples / sampleRate;
     if (!Number.isFinite(d) || d <= 0) throw new Error(`时长异常: ${file}`);
     return d;
   }
@@ -280,22 +306,59 @@ function buildFull(unit) {
     .sort((a, b) => parseInt(a) - parseInt(b));
   if (!files.length) return;
   const starts = [];
-  const bufs = [];
   let acc = 0;
   // 无 ffprobe 时的码率估算需与该单元的合成参数一致
   const bps = voiceForUnit(unit).engine === "minimax" ? 64000 : 48000;
   for (const f of files) {
     const p = resolve(dir, f);
     starts.push(Number(acc.toFixed(3)));
-    const buf = readFileSync(p);
+    const size = statSync(p).size;
     // 修复失败仍残留的空文件按 0 时长跳过字节,句序与阅读页保持对齐
-    if (buf.length > 0) {
-      bufs.push(buf);
-      acc += probeDuration(p, buf.length, bps);
+    if (size > 0) {
+      acc += probeDuration(p, size, bps);
     }
   }
   starts.push(Number(acc.toFixed(3)));
-  writeFileSync(resolve(dir, "full.mp3"), Buffer.concat(bufs));
+
+  const workDir = mkdtempSync(resolve(tmpdir(), "easylisten-full-"));
+  try {
+    const concatFile = resolve(workDir, "concat.txt");
+    const output = resolve(workDir, "full.mp3");
+    const lines = files
+      .filter((f) => statSync(resolve(dir, f)).size > 0)
+      .map((f) => `file '${resolve(dir, f).replace(/'/g, "'\\''")}'`)
+      .join("\n");
+    writeFileSync(concatFile, `${lines}\n`);
+    execFileSync(
+      "ffmpeg",
+      [
+        "-v",
+        "error",
+        "-f",
+        "concat",
+        "-safe",
+        "0",
+        "-i",
+        concatFile,
+        "-c:a",
+        "libmp3lame",
+        "-b:a",
+        `${Math.round(bps / 1000)}k`,
+        "-ar",
+        "32000",
+        "-ac",
+        "1",
+        "-write_xing",
+        "1",
+        "-y",
+        output,
+      ],
+      { stdio: "inherit" },
+    );
+    copyFileSync(output, resolve(dir, "full.mp3"));
+  } finally {
+    rmSync(workDir, { recursive: true, force: true });
+  }
   manifest.timings ??= {};
   manifest.timings[unit] = starts;
   console.log(`full ${unit}: ${files.length} 句 / ${acc.toFixed(1)}s`);
@@ -365,12 +428,20 @@ async function repairUnit(unit) {
   return repaired;
 }
 
-// 先修所有既有单元的缺失/空文件；有修复或尚无时间轴时重建 full.mp3。
+// fullAudioVersion=4 代表带完整 seek 表的单一编码流，时间轴按解码后的 PCM
+// 样本数计算，排除每个逐句 MP3 自带的 encoder delay/padding。
+// 必须一次性迁移，否则 iOS 锁屏虽能看到播放器，点句和高亮仍会失真。
+const FULL_AUDIO_VERSION = 4;
+const needsFullAudioMigration = manifest.fullAudioVersion !== FULL_AUDIO_VERSION;
+
+// 先修所有既有单元的缺失/空文件；有修复、尚无时间轴或格式待迁移时重建。
 // 不能只看 timings：旧逻辑曾把 0 字节句子连同一个看似完整的时间轴一起发布。
 for (const unit of manifest.slugs) {
   try {
     const repaired = await repairUnit(unit);
-    if (repaired || !manifest.timings?.[unit]) buildFull(unit);
+    if (repaired || !manifest.timings?.[unit] || needsFullAudioMigration) {
+      buildFull(unit);
+    }
   } catch (e) {
     console.log(`full fail ${unit}: ${e.message}`);
     synthesisFailures.push(`${unit}/full.mp3: ${e.message}`);
@@ -378,6 +449,7 @@ for (const unit of manifest.slugs) {
 }
 
 manifest.voice = VOICE;
+manifest.fullAudioVersion = FULL_AUDIO_VERSION;
 writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
 console.log(`manifest: ${manifest.slugs.length} pieces with audio`);
 
