@@ -26,7 +26,7 @@
 
 <p align="center">
   <a href="https://easylisten.shddai.net">
-    <img src="./docs/assets/readme/easylisten-home.png" width="420" alt="轻听移动端少年刊首页" />
+    <img src="./docs/assets/readme/easylisten-home.png" width="390" alt="轻听移动端少年刊首页" />
   </a>
 </p>
 
