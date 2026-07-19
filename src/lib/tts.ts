@@ -29,21 +29,7 @@ export interface SpeechEngine {
 }
 
 /** 把段落切成朗读单位的句子,保留结尾标点。与 scripts/synthesize.mjs 保持一致。 */
-export function splitSentences(paragraphs: string[]): string[] {
-  const out: string[] = [];
-  for (const p of paragraphs) {
-    const parts = p.match(/[^。!?！？.!?]+[。!?！？.!?]*/g);
-    if (parts) {
-      for (const s of parts) {
-        const t = s.trim();
-        if (t) out.push(t);
-      }
-    } else if (p.trim()) {
-      out.push(p.trim());
-    }
-  }
-  return out;
-}
+export { splitSentences } from "./speech-text.js";
 
 /* ------------------------------------------------------------------ */
 /* 整篇单文件引擎:连续媒体流用于 iOS 锁屏/后台，时间轴驱动高亮与点句          */

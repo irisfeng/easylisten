@@ -29,6 +29,9 @@ jobs:
 
       - run: npm ci
 
+      - name: 校验朗读文本规则
+        run: npm run test:speech
+
       - name: 召回候选
         run: node scripts/ingest.mjs
 

@@ -25,6 +25,7 @@ import { resolve } from "node:path";
 import { tmpdir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
+import { normalizeForSpeech, splitSentences } from "../src/lib/speech-text.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const AUDIO_DIR = resolve(ROOT, "public/audio");
@@ -32,6 +33,9 @@ const MANIFEST = resolve(AUDIO_DIR, "manifest.json");
 const VOICE = "zh-CN-XiaoxiaoNeural";
 // 双语实验:带英文稿的篇目额外合成英文音频(目录 <slug>-en)
 const EN_VOICE = "en-US-AriaNeural";
+// 修改朗读规范时递增。已有 MiniMax 音频只重合成实际受新规则影响的句子，
+// 页面正文不变；版本记入 manifest，避免每日任务重复消耗额度。
+const SPEECH_TEXT_VERSION = 1;
 
 // —— 超拟人双声(盲选定音):配了 MINIMAX_API_KEY 时,新篇目合成
 // 女声(默认,目录 <slug>)与男声(目录 <slug>-m)两套;未配则回落 Edge ——
@@ -171,28 +175,16 @@ async function speak(text, v) {
 function voiceForUnit(unit) {
   if (unit.endsWith("-en")) return { engine: "edge", voice: EN_VOICE };
   if (unit.endsWith("-m")) return { engine: "minimax", voice: MM_MALE };
-  // 基础中文单元:存在 -m 兄弟目录说明是双声篇(MiniMax 女声),否则是旧的晓晓
-  if (MM_KEY && existsSync(resolve(AUDIO_DIR, `${unit}-m`))) {
+  // 基础中文单元：双语实验固定 MiniMax 女声；存在 -m 兄弟目录的是双声篇。
+  // 判断不能依赖本机是否配置 key，否则修复旧音频时会悄悄换回 Edge 音色。
+  if (miniMaxFemaleUnits.has(unit) || existsSync(resolve(AUDIO_DIR, `${unit}-m`))) {
     return { engine: "minimax", voice: MM_FEMALE };
   }
   return { engine: "edge", voice: VOICE };
 }
 
-/** 与 src/lib/tts.ts 的 splitSentences 保持一致。 */
-function splitSentences(paragraphs) {
-  const out = [];
-  for (const p of paragraphs) {
-    const parts = p.match(/[^。!?！？.!?]+[。!?！？.!?]*/g);
-    if (parts) {
-      for (const s of parts) {
-        const t = s.trim();
-        if (t) out.push(t);
-      }
-    } else if (p.trim()) {
-      out.push(p.trim());
-    }
-  }
-  return out;
+function speechTextForUnit(text, unit) {
+  return normalizeForSpeech(text, unit.endsWith("-en") ? "en" : "zh");
 }
 
 const pieces = [
@@ -205,6 +197,7 @@ const manifest = existsSync(MANIFEST)
   : { voice: VOICE, slugs: [] };
 const synthesisFailures = [];
 const requiredUnits = new Map();
+const miniMaxFemaleUnits = new Set(pieces.filter((piece) => piece.en).map((piece) => piece.slug));
 
 async function synthesize(text, voice = VOICE) {
   const tts = new MsEdgeTTS();
@@ -234,8 +227,10 @@ async function synthesizeUnit(unit, paragraphs, v) {
       const file = resolve(dir, `${i}.mp3`);
       // 零字节视同缺失:合成偶发静默失败留下的空文件要重新合成
       if (existsSync(file) && statSync(file).size > 0) continue;
-      writeFileSync(file, await speak(bodySentences[i], v));
+      writeFileSync(file, await speak(speechTextForUnit(bodySentences[i], unit), v));
     }
+    manifest.speechTextVersions ??= {};
+    manifest.speechTextVersions[unit] = SPEECH_TEXT_VERSION;
     manifest.slugs.push(unit);
     console.log(`ok   ${unit}: ${bodySentences.length} 句 (${v.engine}/${v.voice})`);
     return true;
@@ -411,19 +406,46 @@ async function repairUnit(unit) {
   const dir = resolve(AUDIO_DIR, unit);
   if (!paras || !existsSync(dir)) return false;
   const sentences = splitSentences(paras);
+  const speechSentences = sentences.map((sentence) => speechTextForUnit(sentence, unit));
   const v = voiceForUnit(unit);
+  const numericFiles = readdirSync(dir).filter((file) => /^\d+\.mp3$/.test(file));
+  const timingCount = manifest.timings?.[unit]?.length;
+  const sentenceCountDrift =
+    numericFiles.length !== sentences.length ||
+    (timingCount !== undefined && timingCount !== sentences.length + 1);
+  const needsSpeechTextUpgrade =
+    v.engine === "minimax" &&
+    manifest.speechTextVersions?.[unit] !== SPEECH_TEXT_VERSION &&
+    sentences.some((sentence, i) => speechSentences[i] !== sentence);
   let repaired = false;
+  let complete = true;
   for (let i = 0; i < sentences.length; i++) {
     const file = resolve(dir, `${i}.mp3`);
-    if (existsSync(file) && statSync(file).size > 0) continue;
+    const needsRewrite =
+      sentenceCountDrift ||
+      (needsSpeechTextUpgrade && speechSentences[i] !== sentences[i]) ||
+      !existsSync(file) ||
+      statSync(file).size === 0;
+    if (!needsRewrite) continue;
     try {
-      writeFileSync(file, await speak(sentences[i], v));
+      writeFileSync(file, await speak(speechSentences[i], v));
       console.log(`repair ${unit}/${i} (${v.engine})`);
       repaired = true;
     } catch (e) {
       console.log(`repair fail ${unit}/${i}: ${e.message}`);
       synthesisFailures.push(`${unit}/${i}.mp3: ${e.message}`);
+      complete = false;
     }
+  }
+  if (complete) {
+    for (const file of numericFiles) {
+      if (Number.parseInt(file, 10) >= sentences.length) {
+        rmSync(resolve(dir, file), { force: true });
+        repaired = true;
+      }
+    }
+    manifest.speechTextVersions ??= {};
+    manifest.speechTextVersions[unit] = SPEECH_TEXT_VERSION;
   }
   return repaired;
 }

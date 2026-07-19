@@ -2,11 +2,13 @@
   "name": "easylisten",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:speech": "node --test scripts/speech-text.test.mjs"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",
