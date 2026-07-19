@@ -1,130 +1,168 @@
 [
   {
-    "slug": "2026-07-19-there-s-this-deep-mystery-of-what-actually-is-th",
-    "title": "谷歌DeepMind内部的那位哲学家",
-    "category": "society",
+    "slug": "2026-07-19-ai-mania-is-eviscerating-global-decision-making",
+    "title": "AI狂热正在掏空全球决策质量",
+    "category": "tech",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-19",
-    "intro": "一位哲学家在谷歌DeepMind工作了近十年，试图预见并思考AI的影响。但随着商业和地缘政治压力加剧，伦理学家能改变什么吗？",
+    "intro": "当高管们连ChatGPT都没用过，却靠AI口号制定战略，这种狂热正在侵蚀大公司的决策能力。",
     "paragraphs": [
-      "2017年，一位名叫Iason Gabriel的哲学家加入了谷歌DeepMind。他所在的团队叫“伦理与社会”，任务是提前思考AI可能带来的影响——不是技术怎么实现，而是它该不该做、做了会怎样。Gabriel说，他刚进去的时候，公司里很多人觉得伦理学家是来“踩刹车”的，但后来慢慢发现，他们其实是来“指方向”的。",
-      "Gabriel的工作日常是跟工程师、产品经理坐在一起，讨论AI系统可能产生的后果。比如，一个推荐算法如果优化点击率，会不会无意中放大偏见？一个对话机器人如果学会模仿用户，会不会在不知不觉中操纵情绪？这些问题没有标准答案，但Gabriel认为，关键不是给出正确答案，而是让技术团队在决策前先意识到——这里有个伦理问题。",
-      "但随着AI技术越来越强大，商业和地缘政治的压力也在变大。DeepMind从研究机构逐渐转向产品落地，谷歌内部的资源竞争也越来越激烈。Gabriel坦言，伦理团队的建议并不总能被采纳。有时候，公司会优先考虑速度和市场，而不是谨慎和反思。他说：“我们不是决策者，我们只是提醒者。”",
-      "尽管如此，Gabriel并没有放弃。他认为，哲学家在科技公司里的角色，有点像古代宫廷里的弄臣——不是掌权的人，但可以说一些别人不敢说的话。他说：“有一种深层的神秘感：这个东西到底是什么？我们正在创造什么？”这种追问本身，也许就是伦理学家存在的意义。",
-      "Gabriel的故事让人思考：在AI狂飙突进的时代，那些试图让技术慢下来、多想想的人，究竟是阻力还是助力？也许两者都是。但至少，有一个人在公司内部不断提问，总比所有人都埋头赶路要好。"
+      "技术顾问尼克·苏雷什最近分享了一个令人哭笑不得的观察：他接触的许多大公司正被AI狂热冲昏头脑，做出荒谬的决策。比如，一位从未使用过ChatGPT或任何AI工具的高管，竟然为一家营收超过20亿美元的公司制定了一套完全围绕AI的技术战略。这位高管自己坦白，他连AI产品都没碰过。",
+      "更极端的例子来自一家设有“代币排行榜”的公司——员工用AI工具完成任务就能获得代币奖励。一位工程师透露，他为了保住工作，偷偷复制了一份公司的Go语言代码库，让AI把整个项目重写成Zig语言，同时假装自己在做其他事情。这种为了迎合AI叙事而进行的无意义工作，正在成为一些公司的常态。",
+      "苏雷什还讲述了一次与某家过度热衷AI的公司的对话。他问对方，为什么那些明显夸张的AI宣传没人反对？答案比预想的复杂：部分原因是销售话术，但更关键的是，客户公司的高管们正在公开宣称AI能带来100倍的生产力提升。如果供应商的高管站出来说这些承诺不现实，就等于打了客户的脸，会被视为攻击或异端，甚至导致企业合同被取消。在商业世界里，因为说实话而丢掉大单，是让自己丢饭碗的最快方式。",
+      "这种“皇帝的新衣”式博弈正在全球蔓延。没有人愿意戳破泡沫，因为戳破泡沫的成本太高——失去订单、得罪客户、毁掉职业生涯。于是，谎言层层叠加，决策越来越脱离实际。苏雷什的观察揭示了一个危险的趋势：当AI从工具变成信仰，理性讨论的空间就被压缩殆尽。"
     ],
     "topics": [
-      "AI 与计算"
+      "AI 与计算",
+      "经济与商业"
     ],
     "form": "pick",
     "source": {
-      "name": "Guardian Long Read",
-      "url": "https://www.theguardian.com/news/audio/2026/jul/17/theres-this-deep-mystery-of-what-actually-is-this-thing-the-philosopher-inside-google-deepmind-ai-podcast",
-      "originalTitle": "‘There’s this deep mystery of what, actually, is this thing?’: the philosopher inside Google DeepMind AI – podcast"
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "originalTitle": "AI Mania Is Eviscerating Global Decision-Making",
+      "publishedAt": "2026-07-19T05:06:21+00:00",
+      "retrievedAt": "2026-07-19T10:52:28.943Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis"
     }
   },
   {
-    "slug": "2026-07-19-25",
-    "title": "25光年外，一颗岩石行星正等着我们",
+    "slug": "2026-07-19-420",
+    "title": "中国科大实现量子存储器间纠缠距离420公里，突破无中继理论极限",
     "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-19",
-    "intro": "天文学家确认了一颗距离地球仅25光年的岩石行星，它位于宜居带，可能拥有液态水。",
+    "intro": "中国科学技术大学团队成功将两个冷原子量子存储器间的纠缠距离提升至420公里光纤，并在230公里以上突破无中继量子纠缠分发的理论极限，为城际量子网络奠定基础。",
     "paragraphs": [
-      "天文学家最近确认了一颗名为GJ3378b的系外行星，它距离地球只有25光年，位于鹿豹座方向，围绕一颗暗淡的红矮星运行。这颗行星被认为是最接近地球的潜在宜居世界之一。",
-      "GJ3378b最初在2024年被法国天文学家发现，当时测定的质量是地球的5.26倍，被归类为类似微型海王星的气态行星。但经过基特峰国家天文台的WIYN 3.5米望远镜等设备的二次观测，科学家修正了数据。新结果显示，它的真实质量只有地球的2.3倍，属于岩石质地的“超级地球”。",
-      "轨道参数也得到了修正。最初认为公转周期是25天，实际只有21天。这意味着它比之前判断的更靠近母星，但也恰好处于宜居带内——这个区域允许行星表面温度维持液态水的存在。",
-      "更重要的是，这颗行星从母星接收的辐射量约为地球从太阳获取的90%，位置非常理想。研究者认为，它可能具备孕育生命的条件。当然，这还需要更多观测来证实，但至少，我们离找到另一个地球又近了一步。"
+      "近日，中国科学技术大学潘建伟、包小辉、张强等团队，联合济南量子技术研究院等单位，在远距离量子中继研究中取得重大突破。他们成功实现了两个冷原子量子存储器之间跨越420公里光纤的量子纠缠，并在230公里以上距离突破了无中继量子纠缠分发的理论极限。这一成果大幅提升了物质量子比特间的纠缠距离，为构建城际尺度的量子网络铺平了道路。相关研究以编辑推荐的形式发表在2026年7月的《物理评论快报》上。",
+      "量子存储器间的远距离纠缠，是构建量子互联网的技术基础，有望应用于远程量子通信、分布式量子计算和分布式量子传感等领域。潘建伟、包小辉团队近年来持续取得突破：2020年实现了50公里光纤的双节点纠缠；2024年在合肥构建了国际首个城域三节点量子存储网络；2026年又实现了百公里高保真纠缠和器件无关量子密码分发。这次的新成果，将纠缠距离进一步提升到了420公里。",
+      "拓展纠缠距离的关键在于提升纠缠成功率。团队多年来持续研究基于单光子干涉的纠缠连接，解决了长光纤相位锁定、独立激光器远程相位同步、高效率低噪声量子频率转换等技术难题。为了将距离提升到几百公里，他们还需要进一步降低信道传输损耗，并提升单光子相位锁定的长期稳定性。",
+      "在本次实验中，团队将量子存储器的波长从795纳米切换到780纳米，并更换了量子频率转换方案，使信号光子能匹配光纤的超低损耗传输窗口。同时，他们发展了一种结合全时与分时的双波长三频相位锁定技术，大幅提升了超长光纤下光子锁相的长期稳定度。实验发现，直到420公里，来自两个冷原子量子存储器的出射光子都能保持稳定的单光子干涉，存储器间的量子纠缠也得到了直接验证。",
+      "这项实验不仅大幅提升了纠缠距离，还在纠缠分发成功率上取得了重要突破。直接纠缠分发的成功率正比于整个信道的传输效率，而该实验采用单光子干涉进行纠缠连接，成功率仅正比于一半信道的传输效率。因此，在230公里以上距离，可以突破量子纠缠直接分发的理论界限。这一成果和相关技术，使得构建城际尺度量子网络并开展应用研究成为可能。"
     ],
     "topics": [
-      "航天与宇宙"
+      "AI 与计算",
+      "工程与制造"
     ],
     "form": "pick",
     "source": {
-      "name": "Solidot 奇客",
-      "url": "https://www.solidot.org/story?sid=84862",
-      "originalTitle": "天文学家确认了 25 光年外的一颗位于宜居带的岩石行星"
+      "name": "科学网新闻头条",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568406.shtm",
+      "originalTitle": "中国科大实现量子存储器间纠缠距离420公里",
+      "publishedAt": "2026-07-18 08:24",
+      "retrievedAt": "2026-07-19T10:52:42.856Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime"
+    },
+    "en": {
+      "title": "Chinese Team Breaks Record: Quantum Entanglement Over 420 km of Fiber",
+      "intro": "Chinese scientists have set a new record by creating quantum entanglement between two memories linked by 420 kilometers of optical fiber, a big step toward building a quantum internet.",
+      "paragraphs": [
+        "A team led by Pan Jianwei from the University of Science and Technology of China, together with collaborators, has achieved quantum entanglement between two cold-atom quantum memories over a 420-kilometer optical fiber. This result, published in Physical Review Letters as an Editors' Suggestion, also breaks the theoretical limit for direct entanglement distribution beyond 230 kilometers. The work lays the foundation for building intercity quantum networks.",
+        "Long-distance entanglement between quantum memories is key for a quantum internet, enabling applications like secure quantum communication, distributed quantum computing, and quantum sensing. The team has been making steady progress: in 2020 they reached 50 kilometers, in 2024 they built the first city-scale three-node quantum memory network, and in 2026 they achieved 100-kilometer high-fidelity entanglement and device-independent quantum key distribution.",
+        "The main challenge is improving the success rate of entanglement. The team developed techniques to stabilize optical phases over long fibers, synchronize remote lasers, and use efficient quantum frequency conversion. To push to hundreds of kilometers, they switched the memory wavelength from 795 to 780 nanometers and changed the conversion scheme to match the fiber's low-loss transmission window. They also invented a dual-wavelength, three-frequency phase-locking method that greatly improves stability over long distances.",
+        "In experiments, they tested different fiber lengths and found stable single-photon interference up to 420 kilometers, directly verifying entanglement between the two memories. The success probability scales with half the channel loss, so beyond 230 kilometers it surpasses the fundamental PLOB bound for direct distribution. This breakthrough makes it possible to build intercity quantum networks and explore real-world applications."
+      ]
     }
   },
   {
-    "slug": "2026-07-19-ztjaqn",
-    "title": "被刻在墙上的名字：一位玛雅数学家的身份确认",
+    "slug": "2026-07-19-world-cup-2026-spain-v-argentina-final-buildup-e",
+    "title": "2026世界杯决赛日：西班牙对阵阿根廷，英格兰10球大战赢得季军",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-19",
+    "intro": "48支球队、5周赛程、103场比赛后，2026年世界杯迎来决赛日：欧洲冠军西班牙对阵南美冠军阿根廷，而英格兰与法国用一场6比4的进球大战为季军争夺战写下疯狂注脚。",
+    "paragraphs": [
+      "2026年世界杯今天迎来终局。决赛将在西班牙与阿根廷之间展开，欧洲冠军对阵南美冠军，西班牙力争连续赢得两项大赛，而阿根廷则追逐队史第四座世界杯——如果成功，将是自1958年和1962年巴西之后，首支实现连冠的球队。",
+      "在决赛之前，英格兰与法国先为观众奉献了一场不可思议的季军争夺战。据《卫报》报道，英格兰以6比4击败法国，萨卡上演帽子戏法，成为比赛的关键人物。这场比赛的进球数堪比网球比分，也引发了人们对第三名争夺战防守质量的讨论——当球队带着失望和遗憾上场时，防守往往是第一个被放弃的环节。",
+      "报道还提到，英格兰主帅图赫尔在用人上受到质疑。萨卡既然能首发并闪耀对阵法国的比赛，为何在半决赛对阵阿根廷时没有被充分使用？当时图赫尔选择了摩根·罗杰斯首发，而萨卡甚至没有上场。这些决定在当时看来并不理想，事后也未能被证明是正确的。",
+      "决赛的看点不止于冠军归属。西班牙是欧洲冠军，阿根廷是卫冕冠军，两队都拥有鲜明的风格和顶级球员。这场对决不仅是洲际荣誉的碰撞，也是两种足球哲学的较量。无论结果如何，这届世界杯已经以它扩军后的首个版本、密集的赛程和戏剧性的比赛，被载入史册。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+      "originalTitle": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+      "publishedAt": "Sun, 19 Jul 2026 10:40:53 GMT",
+      "retrievedAt": "2026-07-19T10:52:51.373Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "realtime"
+    },
+    "en": {
+      "title": "World Cup 2026 Final Day: Spain vs Argentina, plus England's Wild Win",
+      "intro": "It's World Cup final day, and we're looking ahead to Spain versus Argentina while also unpacking England's incredible 6-4 victory over France in the third-place playoff.",
+      "paragraphs": [
+        "Welcome to the final day of the 2026 World Cup! After forty-eight teams, five weeks, and 103 matches, we've reached the climax: Spain taking on the defending champions, Argentina. Spain are the European champions, Argentina are the South American champions, and both are chasing history. Spain want back-to-back major tournament wins, while Argentina are aiming for a fourth World Cup title overall and a second in a row—something not done since Brazil in 1958 and 1962. It's a massive occasion.",
+        "But before the final, we have to talk about that third-place playoff. England beat France 6-4 in an absolute thriller. Bukayo Saka scored a hat-trick to seal the win. It was a scoreline more like tennis than football, and it raises questions about England manager Thomas Tuchel's decisions. If Saka was fit enough to start and star against France, why didn't he play more against Argentina in the semifinal? Morgan Rogers was preferred from the start and didn't even get on the pitch. Those calls didn't look great at the time, and they haven't aged well.",
+        "The third-place playoff often produces goals because the teams are dealing with disappointment and don't defend as tightly. That was certainly the case here. John Brewin's minute-by-minute report captures all the drama of France 4-6 England, if you want to relive it.",
+        "As for the final, Spain and Argentina are two special teams. We want to hear from you—what makes them special? Send us your thoughts, and we'll also reflect on the best and worst moments of the tournament: the goals, matches, performances, players, and all the little things that made this World Cup memorable. Let's go!"
+      ]
+    }
+  },
+  {
+    "slug": "2026-07-19-masters-of-time-and-space-spain-s-dominance-come",
+    "title": "时间与空间的大师：西班牙足球的统治力来自根深蒂固的原则",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-19",
+    "intro": "足球评论员埃玛·海耶斯认为，西班牙队的卓越并非源于个别球星，而是来自一套长期培养的集体文化。",
+    "paragraphs": [
+      "在英格兰足球中，我们谈论个人太多，但足球是关于集体的。西班牙在半决赛中击败法国，依靠的不是个人才华，而是对空间、时机和核心原则的共同理解。这就是为什么他们是世界上最杰出的球队，也是为什么我认为他们将在周日赢得世界杯。",
+      "这不是关于罗德里、亚马尔或佩德里，而是关于整个中场、整个集体。西班牙队会想方设法在场上创造位置和人数优势，因为这种理念从很小的时候就已经深深植入他们的思维。他们是足球场上时间和空间的大师。对阵法国时，这种文化让他们在关键区域多次形成四打二的人数优势。",
+      "在决赛前，你可能会读到很多文章称赞罗德里是世界上最好的球员——是的，他在技术、战术和心理上都出类拔萃。但相信我，他的世界级能力并不是西班牙统治力的原因。回想2024年欧洲杯决赛，罗德里半场被迫下场，替补上场的苏维门迪依然能帮助西班牙中场保持控制。这是因为他们有一套非常清晰的打法体系，这套体系是长期建立的，不依赖于某个个人，也不因教练更迭而改变。从8岁到23岁，球员们都在这个体系中成长，直到成为王者。",
+      "这套体系从4-3-3控球阵型这个基本前提开始，所有年龄组都以此为基础，从不偏离。但他们也灵活多变：2024年他们使用正统中锋莫拉塔，而今年夏天则使用假九号奥亚萨瓦尔，他在防线之间游弋。两种方案都奏效了。在本届世界杯上，罗德里、法比安·鲁伊斯、奥尔莫和奥亚萨瓦尔的组合更少固定位置，更多是依靠西班牙球员内在的能力——在正确的时间到达正确的空间。他们不断轮转、交换位置，进入不同区域创造优势。如果无法形成人数优势，他们就问自己：如何通过轮转创造位置优势？",
+      "这种文化可以追溯到克鲁伊夫早期的巴塞罗那时代，而西班牙国家队在这方面的表现比世界上任何国家都好，无论男足还是女足。这就是为什么他们赢得了创纪录的9次U17欧青赛冠军、连续3次进入U19欧青赛决赛，并获得了5次U21欧青赛冠军。女足同样如此，她们拥有创纪录的8次U19女足欧青赛冠军，其中7次来自2017年之后，包括连续5次夺冠。在西班牙，法律要求运动员必须接受各级国家队的征召，这在很多国家并不成立。但青年国家队的经历对于培养球员在重大赛事压力下理解自己在体系中的角色至关重要。",
+      "阿根廷也是真正的集体，但方式截然不同。体育心理学家丹尼尔·亚伯拉罕斯写道，阿根廷人“高唱国歌，充满激情”，“在逼抢和对抗中极具侵略性，稍微游走在规则边缘，充满斗志，彼此热爱，决心坚定，没有焦虑的空间”。不要低估达成这种集体心态的难度。阿根廷是国际足球的战士，他们从不放弃任何比赛，即使不控球也会战斗到最后一刻。而西班牙则能巧妙地将球转移到一侧，吸引对手中场移动，再将球传回，攻击他们原本就想利用的区域。他们不惧怕长传和直塞，打法更加多样。他们是世界上最好的球队。在世界杯开赛前，我就预测他们是冠军，现在我仍然坚持这个观点。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/jul/19/masters-of-time-and-space-spains-dominance-comes-from-deep-rooted-principles",
+      "originalTitle": "Masters of time and space, Spain’s dominance comes from deep-rooted principles | Emma Hayes",
+      "publishedAt": "Sun, 19 Jul 2026 07:00:20 GMT",
+      "retrievedAt": "2026-07-19T10:53:04.945Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "realtime"
+    }
+  },
+  {
+    "slug": "2026-07-19-9by6e2",
+    "title": "甘肃花大门石刻：西夏塔龛悬葬的千年密码",
     "category": "humanities",
     "author": "轻听编辑部",
     "publishedAt": "2026-07-19",
-    "intro": "危地马拉一面古墙上的数学公式，让一位千年前的学者重见天日。",
+    "intro": "甘肃金昌花大门石刻群发现西夏塔龛悬葬遗迹，为破解西夏葬俗与宗教信仰提供了关键线索。",
     "paragraphs": [
-      "最近，考古学家在危地马拉的舒尔通玛雅遗址有了一个惊人发现：一面墙壁上镌刻的数学公式，让他们首次确认了一位玛雅数学家兼天文学家的真实姓名。这位学者叫 Sak Tahn Waax，意思是“白胸狐狸”。研究团队认为，他的成就足以和人类历史上的数学巨匠相提并论。",
-      "这面墙壁上绘有人物画像和象形文字，其中包含了基于天文历法的精密数学运算。玛雅人曾用这些运算来决定国王登基等重大仪式的举办时间。团队重点研究了一组编号为“19号文本”的象形文字，它由11个符号组成L形排列，整体高度只有10厘米左右。",
-      "研究发现，前9个符号完整记录了玛雅历法与天文周期的换算逻辑。这套公式破解了一个2920天周期的拆分规律，而这个周期可以适配玛雅各类历法单位。2920天是玛雅文明的核心天文周期，它正好等于5个金星周期（每个周期584天）和8个太阳年（每个周期365天）。不仅如此，这个运算还把2920天与乌伊纳尔（每月20天）、卓尔金历（260天的神圣历法）、通年（每年360天）以及780天的火星周期精确地联系了起来。",
-      "在“19号文本”的倒数第二个符号中，研究者破译出了“如是说”的句式。紧跟其后的最后一个象形文字，就是署名 Sak Tahn Waax。这表明，这位学者就是这套运算公式的创作者。从铭文缺失女性专属前缀可以判定，这是一位男性。",
-      "在此之前，我们对玛雅数学家的了解大多停留在集体成就上，很少有具体个人的名字流传下来。这次发现让 Sak Tahn Waax 成为了第一位被确认的玛雅数学家。他的名字和他的公式一起，被刻在了石墙上，等待了上千年才被后人读懂。"
+      "在甘肃金昌市永昌县，有一处名为花大门的山体，上面密布着上百个大小不一的石刻。这些石刻不是普通的岩画，而是西夏时期留下的塔龛——一种将佛塔与石窟结合的特殊形式。最近，考古学者对这些塔龛进行了系统研究，发现它们很可能与一种罕见的葬俗有关：塔龛悬葬。",
+      "所谓塔龛悬葬，就是把逝者的骨灰或遗骸安放在开凿于崖壁的佛塔形龛内。这种葬俗融合了佛教的塔葬传统和当地崖葬习俗，是西夏佛教文化独有的产物。花大门的塔龛形态多样，有的呈覆钵式，有的像密檐塔，龛内还残留着彩绘和题记。研究者通过题记中的西夏文和年号，确认这些塔龛开凿于西夏中晚期，距今约800到900年。",
+      "为什么西夏人要费尽心思在崖壁上凿出这些塔龛来安葬逝者？学者推测，这与西夏佛教的往生信仰密切相关。佛塔在佛教中象征佛陀的涅槃，将骨灰置于塔龛，寓意逝者能像佛陀一样脱离轮回、往生净土。同时，崖壁位置高峻，远离尘世，也符合佛教僧侣追求清修、远离世俗的理念。花大门所在的山体面向河流，背靠戈壁，环境幽僻，正是理想的安葬之地。",
+      "除了葬俗价值，花大门塔龛还反映了西夏与中原、西藏佛教艺术的交融。龛形既有中原楼阁式塔的影子，又有藏传覆钵式塔的特点，彩绘纹样也融合了汉地卷草纹和藏式八宝图案。这种多元风格表明，西夏作为丝绸之路上的枢纽，在文化上兼收并蓄，形成了自己独特的佛教艺术体系。",
+      "目前，花大门石刻群已被列为全国重点文物保护单位。但风化、雨水侵蚀和人为破坏仍在威胁这些脆弱的遗迹。考古学家呼吁，应在保护的前提下进行数字化记录和深入研究，让这些藏在崖壁上的西夏密码，能被更多后人读懂。"
     ],
     "topics": [
       "历史"
     ],
     "form": "pick",
     "source": {
-      "name": "Solidot 奇客",
-      "url": "https://www.solidot.org/story?sid=84858",
-      "originalTitle": "科学家确认了一位玛雅数学家"
-    },
-    "en": {
-      "title": "Scientists Identify a Maya Mathematician",
-      "intro": "A mathematical formula carved on a wall in Guatemala has led researchers to identify the real name of an important Maya mathematician and astronomer for the first time.",
-      "paragraphs": [
-        "A team of researchers has confirmed the identity of a significant Maya mathematician and astronomer, thanks to a mathematical formula inscribed on a wall at the Maya site of Xultún in Guatemala. The scholar, named Sak Tahn Waax, which translates to 'White Chest Fox,' is now recognized as a figure comparable to the great mathematicians in human history.",
-        "The wall features portraits and hieroglyphs, including precise mathematical calculations based on astronomical calendars. The Maya used these calculations to determine the timing of important ceremonies, such as the coronation of kings. The team focused on a set of hieroglyphs called 'Text 19,' which consists of 11 glyphs arranged in an L-shape, measuring about 10 centimeters in height.",
-        "The first nine glyphs record the logic for converting between Maya calendar and astronomical cycles. This formula explains how to break down a 2920-day period, which is a key astronomical cycle in Maya civilization. The 2920 days perfectly match five Venus cycles of 584 days each and eight solar years of 365 days each. Moreover, the calculation links the 2920-day period to other Maya calendar units, such as the 20-day month, the 260-day sacred calendar, the 360-day year, and the 780-day Mars cycle.",
-        "In the second-to-last symbol of Text 19, the team deciphered the phrase 'thus says,' followed by the final glyph, which is the signature of Sak Tahn Waax. This indicates that the scholar was the creator of the mathematical formula. Based on the absence of a female prefix in the inscription, the researchers determined that Sak Tahn Waax was male."
-      ]
-    }
-  },
-  {
-    "slug": "2026-07-19-cd",
-    "title": "CD 唱片销量涨幅超过黑胶，实体音乐复兴有了新主角",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-19",
-    "intro": "黑胶唱片的复兴故事听了快十年，但今年上半年，美国 CD 唱片的销量涨幅远远超过了黑胶。",
-    "paragraphs": [
-      "过去十年，黑胶唱片一直是实体音乐复兴的象征。但今年上半年，美国 CD 唱片的销量涨幅把黑胶远远甩在了后面。根据美国唱片业协会的数据，CD 销量飙升了 16%，达到 1630 万张；而黑胶唱片只涨了 2.4%。",
-      "韩国 K-pop 团体防弹少年团的热门专辑《ARIRANG》在 CD 销量增长中起了重要作用。但即便排除 K-pop，CD 销量仍然同比增长了 6.7%。包括 LP、CD 和磁带在内的实体专辑总销量，上半年增长了 7.8%，达到 3820 万张。",
-      "实体音乐复兴的一大原因，是年轻一代听歌习惯的变化。调查显示，六成 Z 世代听众表示他们最常听的音乐是 1990 年代或更早期的，而在 2021 年，这个比例只有 18%。无论是出于怀旧、通过流媒体发现新音乐，还是想要拥有艺术家作品的实体唱片，年轻听众正在重新拥抱实体唱片。",
-      "所以，CD 不是被淘汰了，它只是换了一群听众。黑胶的复兴故事还在继续，但 CD 的增长势头更猛，这或许说明实体音乐的下一个主角已经登场。"
-    ],
-    "topics": [
-      "音乐"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "url": "https://www.solidot.org/story?sid=84855",
-      "originalTitle": "美国 CD 唱片销量涨幅超过黑胶唱片"
-    }
-  },
-  {
-    "slug": "2026-07-19-fda-approves-new-cholesterol-lowering-drug",
-    "title": "降胆固醇有了新药丸，每天一次可降一半",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-19",
-    "intro": "美国FDA批准了一款新型降胆固醇口服药，能让坏胆固醇水平降低一半以上，但它的意义不止于此。",
-    "paragraphs": [
-      "美国食品药品监督管理局最近批准了一款名为Lipfendra的新型降胆固醇药物。它跟以往最大的不同在于，这是第一款口服的PCSK9抑制剂。之前同类药物只能靠注射给药，很多人一听说要打针就打了退堂鼓。现在变成药片，每天吃一次就行，方便得多。",
-      "Lipfendra的作用机制是抑制一种叫做PCSK9的蛋白质，从而帮助肝脏更高效地清除血液中的“坏胆固醇”——也就是低密度脂蛋白胆固醇。这种坏胆固醇会堵塞动脉和血管，增加心脏病和中风的风险。而心脏病和中风至今仍是全球头号死因。",
-      "两项涉及数千名患者的研究显示，Lipfendra能把坏胆固醇水平降低一半以上，而且安全性看起来不错。不过有个细节值得注意：这些研究并没有直接证明它能减少心脏病发作或中风事件。但专家们普遍认为，既然胆固醇降下来了，没理由不相信它最终能保护心脏。",
-      "你可能要问，市面上不是已经有他汀类这种便宜又安全的降胆固醇药了吗？确实，很多人靠健康饮食和运动就能控制胆固醇，不行的话还有他汀。但问题在于，仍有相当一部分患者即便用了他汀，胆固醇水平也降不到指南推荐的安全范围。默克公司的医生普贾·班卡透露，目前接受治疗的患者中，多达70%的人并没有达到目标值。Lipfendra正是为这群人准备的——在现有药物基础上加用，帮他们跨过那道坎。",
-      "默克表示，医生在未来几周内就能开出Lipfendra的处方。药价方面，30天的用量标价315美元，有医保的人实际花费会低很多，没有医保的患者公司也会提供帮助。值得一提的是，针对同一个PCSK9靶点，研究人员还在探索其他更前沿的手段，甚至包括一种一次性的基因编辑疗法，有望让坏胆固醇一辈子维持在低水平。当然，那还需要更多时间。"
-    ],
-    "topics": [
-      "健康与医学"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "url": "https://www.npr.org/2026/07/17/nx-s1-5896183/fda-approves-new-cholesterol-lowering-drug",
-      "originalTitle": "FDA approves new cholesterol-lowering drug"
+      "name": "中新网文化",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-19/10662366.shtml",
+      "originalTitle": "甘肃花大门石刻揭秘西夏塔龛悬葬文化密码",
+      "publishedAt": "Sun, 19 Jul 2026 12:30:59 +0800",
+      "retrievedAt": "2026-07-19T10:53:22.787Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis"
     }
   },
   {
