@@ -14,6 +14,66 @@ export function mergeDailyPieces(pieces, existing, issueDate, limit = 60) {
   return [...pieces, ...previousIssues].slice(0, limit);
 }
 
+/**
+ * 把模型提名收紧为可发布节目单。模型负责判断内容质量，代码负责不可妥协的
+ * 结构约束：质量门槛、同源去重、领域上限，以及有合格国内稿时的主场占比。
+ * 国内稿不足时宁可少发，不用低分稿补配额。
+ */
+export function composeDailyPicks(
+  rawPicks,
+  candidates,
+  { qualityBar = 80, minPicks = 2, maxPicks = 6 } = {},
+) {
+  const eligible = rawPicks
+    .map((pick, order) => ({ pick, order, candidate: candidates[pick.index] }))
+    .filter(
+      ({ pick, candidate }) =>
+        candidate && Number.isInteger(pick.score) && pick.score >= qualityBar,
+    )
+    .sort((a, b) => b.pick.score - a.pick.score || a.order - b.order);
+
+  const selected = [];
+  const sources = new Set();
+  const categoryCounts = new Map();
+  const add = (entry) => {
+    const source = entry.candidate.sourceName;
+    const category = entry.pick.category;
+    if (sources.has(source) || (categoryCounts.get(category) ?? 0) >= 2) return false;
+    selected.push(entry);
+    sources.add(source);
+    categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
+    return true;
+  };
+
+  // 先为合格国内稿预留一半席位，避免模型排序靠前的国际稿先占满节目单。
+  const mainlandTarget = Math.ceil(maxPicks / 2);
+  for (const entry of eligible.filter(({ candidate }) => candidate.region === "mainland")) {
+    if (selected.length >= mainlandTarget) break;
+    add(entry);
+  }
+  for (const entry of eligible) {
+    if (selected.length >= maxPicks) break;
+    add(entry);
+  }
+
+  const hasMainland = eligible.some(({ candidate }) => candidate.region === "mainland");
+  while (
+    hasMainland &&
+    selected.length > minPicks &&
+    selected.filter(({ candidate }) => candidate.region === "mainland").length <
+      Math.ceil(selected.length / 2)
+  ) {
+    const international = selected
+      .map((entry, index) => ({ entry, index }))
+      .filter(({ entry }) => entry.candidate.region !== "mainland")
+      .sort((a, b) => a.entry.pick.score - b.entry.pick.score || b.index - a.index)[0];
+    if (!international) break;
+    selected.splice(international.index, 1);
+  }
+
+  return selected.sort((a, b) => a.order - b.order).map(({ pick }) => pick);
+}
+
 /** 正式听稿必须能回到标准来源，并且已经取得足量原文供事实核验。 */
 export function hasVerifiableSource(candidate, fullText) {
   if (!candidate?.sourceName?.trim() || !candidate?.title?.trim()) return false;

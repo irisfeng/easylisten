@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   BILINGUAL_QUALITY_BAR,
+  composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
   selectCandidatePool,
@@ -106,5 +107,58 @@ test("同一天重跑会替换旧刊而不是继续追加", () => {
   assert.deepEqual(
     merged.map((piece) => piece.slug),
     ["new-today-1", "new-today-2", "yesterday"],
+  );
+});
+
+test("节目单强制同源去重并在有合格国内稿时保持至少一半", () => {
+  const candidates = [
+    { sourceName: "国际科技", region: "international" },
+    { sourceName: "科学网", region: "mainland" },
+    { sourceName: "国际体育", region: "international" },
+    { sourceName: "国际体育", region: "international" },
+    { sourceName: "中新网", region: "mainland" },
+  ];
+  const rawPicks = [
+    { index: 0, score: 92, category: "tech" },
+    { index: 1, score: 91, category: "science" },
+    { index: 2, score: 90, category: "culture" },
+    { index: 3, score: 89, category: "culture" },
+    { index: 4, score: 88, category: "humanities" },
+  ];
+
+  const selected = composeDailyPicks(rawPicks, candidates);
+
+  assert.deepEqual(selected.map((pick) => pick.index), [0, 1, 2, 4]);
+  assert.equal(
+    selected.filter((pick) => candidates[pick.index].region === "mainland").length,
+    2,
+  );
+  assert.equal(new Set(selected.map((pick) => candidates[pick.index].sourceName)).size, 4);
+});
+
+test("国内稿即使排在模型提名末尾也会获得主场席位", () => {
+  const candidates = [
+    { sourceName: "国际一", region: "international" },
+    { sourceName: "国际二", region: "international" },
+    { sourceName: "国际三", region: "international" },
+    { sourceName: "国际四", region: "international" },
+    { sourceName: "国内一", region: "mainland" },
+    { sourceName: "国内二", region: "mainland" },
+  ];
+  const rawPicks = [
+    { index: 0, score: 96, category: "tech" },
+    { index: 1, score: 95, category: "science" },
+    { index: 2, score: 94, category: "society" },
+    { index: 3, score: 93, category: "humanities" },
+    { index: 4, score: 84, category: "living" },
+    { index: 5, score: 83, category: "culture" },
+  ];
+
+  const selected = composeDailyPicks(rawPicks, candidates, { maxPicks: 4 });
+
+  assert.equal(selected.length, 4);
+  assert.equal(
+    selected.filter((pick) => candidates[pick.index].region === "mainland").length,
+    2,
   );
 });

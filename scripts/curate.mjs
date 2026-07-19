@@ -14,6 +14,7 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import {
+  composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
   selectBilingualCandidates,
@@ -139,7 +140,7 @@ const scoreResult = await chatJson(
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
 中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
 国内主场:若中国大陆发布者中有达标内容,节目单至少一半来自国内源；仍须逐篇超过 ${QUALITY_BAR} 分，不得用低质量内容凑比例。国内内容不能只来自科技数码，要兼顾科学、教育、社会、人文、健康和体育。
-重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。
+重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。同一发布来源每天最多 1 篇。
 实时与长青必须并存:至少保留 1 篇与热点无关、以后仍值得听的内容。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
 近七天已讲过这些内容,除非有重大新进展,不要再选同一事件或高度同质的选题:${recentTitles.slice(0, 40).join(" / ")}。` : ""}
 category 从这六个里选:science、tech、society、humanities、living、culture。
@@ -159,8 +160,15 @@ const structValid =
   indexes.every((i) => Number.isInteger(i) && i >= 0 && i < CANDIDATES.length) &&
   new Set(indexes).size === indexes.length;
 if (!structValid) throw new Error("评分:未返回有效且唯一的 picks");
-// 质量门槛在代码里再执行一次,不全信模型的自觉
-const picks = rawPicks.filter((p) => Number.isInteger(p.score) && p.score >= QUALITY_BAR);
+// 模型负责质量判断，代码再次执行质量、同源、领域和国内主场硬约束。
+const picks = composeDailyPicks(rawPicks, CANDIDATES, {
+  qualityBar: QUALITY_BAR,
+  minPicks: MIN_PICKS,
+  maxPicks: MAX_PICKS,
+});
+if (picks.length !== rawPicks.length) {
+  console.log(`编排硬约束: 模型提名 ${rawPicks.length} 篇 → 可发布 ${picks.length} 篇`);
+}
 if (picks.length === 0) {
   console.log(`今日候选均未达 ${QUALITY_BAR} 分,宁缺毋滥,本期不出刊`);
   process.exit(0);
