@@ -13,25 +13,22 @@
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
+import {
+  selectBilingualCandidates,
+  selectCandidatePool,
+} from "./lib/curation-policy.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
-// 源库扩容后候选可达 200+,评分前预筛:多源共振优先、源权重次之、时效再次,
-// 上限 120 条——控制评分 prompt 规模,也先替模型挡掉一层长尾
+// 源库扩容后候选可达 200+,评分前预筛保留中文、六领域与实时内容的可见性,
+// 再用多源共振、源权重和时效排序;上限 120 条控制评分 prompt 规模
 const RAW_CANDIDATES = JSON.parse(
   readFileSync(resolve(ROOT, "content/candidates.json"), "utf8"),
 );
-const CANDIDATES = [...RAW_CANDIDATES]
-  .sort(
-    (a, b) =>
-      (b.resonance ?? 1) - (a.resonance ?? 1) ||
-      (b.weight ?? 1) - (a.weight ?? 1) ||
-      (Date.parse(b.publishedAt) || 0) - (Date.parse(a.publishedAt) || 0),
-  )
-  .slice(0, 120);
+const CANDIDATES = selectCandidatePool(RAW_CANDIDATES, 120);
 const DAILY = resolve(ROOT, "content/daily.json");
 
-// 编排:每期 2–5 篇浮动,只收达到质量门槛的;宁缺毋滥
+// 编排:每期 2–6 篇浮动,只收达到质量门槛的;宁缺毋滥
 const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
 const MAX_PICKS = 6;
@@ -122,14 +119,25 @@ const recentTitles = existing
 const isSaturday = new Date(`${today}T00:00:00Z`).getUTCDay() === 6;
 
 // 第一步:全量评分,选出今日入选名单(结构化输出保证可解析)。
+function freshnessLabel(publishedAt) {
+  const timestamp = Date.parse(publishedAt);
+  if (!Number.isFinite(timestamp)) return "时间未知";
+  const hours = Math.max(0, Math.round((Date.now() - timestamp) / 3600000));
+  return hours < 48 ? `${hours}小时前` : `${Math.round(hours / 24)}天前`;
+}
+
 const menu = CANDIDATES.map(
   (c, i) =>
-    `[${i}] (${c.category}/${c.sourceName}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
+    `[${i}] (${c.category}/${c.lang}/${c.sourceName}/权重${c.weight}/${c.profile ?? "general"}/${freshnessLabel(c.publishedAt)}${c.resonance > 1 ? `/共振x${c.resonance}` : ""}) ${c.title}\n${c.summary.slice(0, 240)}`,
 ).join("\n\n");
 
 const scoreResult = await chatJson(
   `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
-  `以下是今天的候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
+  `今天是北京时间 ${today}。以下是候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
+来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
+中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
+重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。
+实时与长青必须并存:至少保留 1 篇与热点无关、以后仍值得听的内容。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
 近七天已讲过这些内容,除非有重大新进展,不要再选同一事件或高度同质的选题:${recentTitles.slice(0, 40).join(" / ")}。` : ""}
 category 从这六个里选:science、tech、society、humanities、living、culture。
 topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。${isSaturday ? `
@@ -158,6 +166,10 @@ if (picks.length < MIN_PICKS) {
   console.log(`达标仅 ${picks.length} 篇,少而精照常出刊`);
 }
 console.log(`selected ${picks.length}:`, picks.map((p) => `[${p.index}] ${p.score}`).join(", "));
+const chinesePicks = picks.filter((pick) => CANDIDATES[pick.index]?.lang === "zh");
+console.log(
+  `中文原始来源 ${chinesePicks.length}/${picks.length}: ${chinesePicks.map((pick) => CANDIDATES[pick.index].sourceName).join(" / ") || "无"}`,
+);
 
 // 周末深读候选:结构合法即有效;若与常规名单重复,让常规名单让位——
 // 被双重提名的恰恰是最好的深读素材,降级成短稿才是浪费(07-18 首个周六
@@ -254,54 +266,66 @@ const DEEP_FULLTEXT_LIMIT = 24000;
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
-// 双语实验:记住得分最高且改写成功的那篇及其素材,稍后追加英文转述稿
-let bestEn = null;
+// 双语扩展:只记录达到更高门槛的候选,稍后由纯策略函数按实时性、分数和
+// 领域多样性选最多两篇。没有完整原文的候选不会进入双语。
+const bilingualCandidates = [];
 
 for (const pick of regularPicks) {
   const c = CANDIDATES[pick.index];
   try {
-  const fullText = await fetchFullText(c.link);
-  const material = fullText
-    ? `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`
-    : `摘要:${c.summary}\n\n注意:你只有摘要。只转述摘要中明确的信息,可以补充公认的背景知识,但不得虚构原文细节。`;
-  console.log(`素材: ${c.title} → ${fullText ? `全文 ${fullText.length} 字` : "仅摘要"}`);
-  const script = await chatJson(
-    `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
-    `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}
+    const fullText = await fetchFullText(c.link);
+    const material = fullText
+      ? `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`
+      : `摘要:${c.summary}\n\n注意:你只有摘要。只转述摘要中明确的信息,可以补充公认的背景知识,但不得虚构原文细节。`;
+    console.log(`素材: ${c.title} → ${fullText ? `全文 ${fullText.length} 字` : "仅摘要"}`);
+    const script = await chatJson(
+      `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
+      `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}
 
 以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"]}。`,
-    `听稿(${c.title})`,
-  );
-  const validScript =
-    typeof script.title === "string" &&
-    script.title.trim() &&
-    typeof script.intro === "string" &&
-    script.intro.trim() &&
-    Array.isArray(script.paragraphs) &&
-    script.paragraphs.length >= 3 &&
-    script.paragraphs.every((p) => typeof p === "string" && p.trim());
-  if (!validScript) {
-    console.log(`跳过(听稿格式不合格): ${c.title}`);
-    continue;
-  }
-  script.title = await reviewTitle(script, c);
+      `听稿(${c.title})`,
+    );
+    const validScript =
+      typeof script.title === "string" &&
+      script.title.trim() &&
+      typeof script.intro === "string" &&
+      script.intro.trim() &&
+      Array.isArray(script.paragraphs) &&
+      script.paragraphs.length >= 3 &&
+      script.paragraphs.every((p) => typeof p === "string" && p.trim());
+    if (!validScript) {
+      console.log(`跳过(听稿格式不合格): ${c.title}`);
+      continue;
+    }
+    script.title = await reviewTitle(script, c);
 
-  pieces.push({
-    slug: `${today}-${slugify(c.title)}`,
-    title: script.title,
-    category: pick.category,
-    author: "轻听编辑部",
-    publishedAt: today,
-    intro: script.intro,
-    paragraphs: script.paragraphs,
-    topics: pick.topics,
-    form: "pick",
-    source: { name: c.sourceName, url: c.link, originalTitle: c.title },
-  });
-  console.log(`wrote 听稿: ${script.title}`);
-  if (!bestEn || pick.score > bestEn.score) {
-    bestEn = { piece: pieces[pieces.length - 1], material, c, score: pick.score };
-  }
+    pieces.push({
+      slug: `${today}-${slugify(c.title)}`,
+      title: script.title,
+      category: pick.category,
+      author: "轻听编辑部",
+      publishedAt: today,
+      intro: script.intro,
+      paragraphs: script.paragraphs,
+      topics: pick.topics,
+      form: "pick",
+      source: {
+        name: c.sourceName,
+        url: c.link,
+        originalTitle: c.title,
+        lang: c.lang,
+        profile: c.profile ?? "general",
+      },
+    });
+    console.log(`wrote 听稿: ${script.title}`);
+    bilingualCandidates.push({
+      piece: pieces[pieces.length - 1],
+      material,
+      c,
+      pick,
+      score: pick.score,
+      hasFullText: Boolean(fullText),
+    });
   } catch (e) {
     console.log(`跳过(改写失败): ${c.title} — ${e.message}`);
   }
@@ -345,7 +369,13 @@ if (deepValid) {
           topics: Array.isArray(deep.topics) ? deep.topics : [],
           form: "long",
           shelf: "evergreen",
-          source: { name: c.sourceName, url: c.link, originalTitle: c.title },
+          source: {
+            name: c.sourceName,
+            url: c.link,
+            originalTitle: c.title,
+            lang: c.lang,
+            profile: c.profile ?? "general",
+          },
         });
         console.log(`wrote 深读: ${script.title}`);
       }
@@ -360,14 +390,18 @@ function slugify(s) {
   return ascii || Math.random().toString(36).slice(2, 8);
 }
 
-// 双语实验:给当日最高分的一篇追加英文转述稿(不是照读原文——那是版权红线;
-// 是我们自己的英文改写)。失败只跳过,不影响出刊。
-if (bestEn) {
+// 双语稿:最多两篇,必须有完整原文且 >=85 分。优先实时重大事件的解释性内容,
+// 同时保持领域多样性。英文是自主转述而非照读原文;单篇失败不影响出刊。
+const bilingualPicks = selectBilingualCandidates(bilingualCandidates);
+console.log(
+  `双语候选 ${bilingualCandidates.length} → 入选 ${bilingualPicks.length}: ${bilingualPicks.map((item) => item.c.title).join(" / ") || "无"}`,
+);
+for (const bilingual of bilingualPicks) {
   try {
     const en = await chatJson(
       `You are a writer for "EasyListen", a daily listening digest. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.`,
-      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bestEn.c.title}\nSource: ${bestEn.c.sourceName}\n${bestEn.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
-      `英文稿(${bestEn.c.title})`,
+      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
+      `英文稿(${bilingual.c.title})`,
     );
     const validEn =
       typeof en.title === "string" &&
@@ -378,10 +412,10 @@ if (bestEn) {
       en.paragraphs.length >= 3 &&
       en.paragraphs.every((p) => typeof p === "string" && p.trim());
     if (validEn) {
-      bestEn.piece.en = { title: en.title, intro: en.intro, paragraphs: en.paragraphs };
+      bilingual.piece.en = { title: en.title, intro: en.intro, paragraphs: en.paragraphs };
       console.log(`wrote 英文稿: ${en.title}`);
     } else {
-      console.log(`英文稿格式不合格,跳过: ${bestEn.c.title}`);
+      console.log(`英文稿格式不合格,跳过: ${bilingual.c.title}`);
     }
   } catch (e) {
     console.log(`英文稿生成失败(跳过): ${e.message}`);

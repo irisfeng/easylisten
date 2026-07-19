@@ -14,7 +14,7 @@ const SOURCES = JSON.parse(readFileSync(resolve(ROOT, "content/sources.json"), "
 const OUT = resolve(ROOT, "content/candidates.json");
 const DAILY = resolve(ROOT, "content/daily.json");
 
-const MAX_AGE_DAYS = 3;
+const DEFAULT_MAX_AGE_DAYS = 3;
 const MAX_PER_SOURCE = 10;
 
 /** 极简 RSS/Atom 解析:MVP 用正则提取 item/entry 的关键字段,不引第三方依赖。 */
@@ -61,10 +61,10 @@ async function fetchFeed(src) {
   return parseFeed(await res.text());
 }
 
-function freshEnough(dateStr) {
+function freshEnough(dateStr, maxAgeDays = DEFAULT_MAX_AGE_DAYS) {
   const t = Date.parse(dateStr);
   if (Number.isNaN(t)) return true; // 没有日期的条目先放行,由精选阶段判断
-  return Date.now() - t < MAX_AGE_DAYS * 24 * 3600 * 1000;
+  return Date.now() - t < maxAgeDays * 24 * 3600 * 1000;
 }
 
 const seenUrls = new Set(
@@ -77,10 +77,21 @@ const candidates = [];
 for (const src of SOURCES) {
   try {
     const items = (await fetchFeed(src)).filter(
-      (it) => it.title && it.link && freshEnough(it.publishedAt) && !seenUrls.has(it.link),
+      (it) =>
+        it.title &&
+        it.link &&
+        freshEnough(it.publishedAt, src.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS) &&
+        !seenUrls.has(it.link),
     );
     for (const it of items.slice(0, MAX_PER_SOURCE)) {
-      candidates.push({ ...it, sourceName: src.name, category: src.category, lang: src.lang, weight: src.weight });
+      candidates.push({
+        ...it,
+        sourceName: src.name,
+        category: src.category,
+        lang: src.lang,
+        weight: src.weight,
+        profile: src.profile ?? "general",
+      });
     }
     console.log(`ok   ${src.name}: ${items.length}`);
   } catch (e) {

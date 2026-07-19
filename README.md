@@ -47,12 +47,13 @@
 
 每天北京时间早 6 点(GitHub Actions),从大量互联网内容中精挑细选并自动出刊:
 
-1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 20 个精选源,
-   去重、时效过滤、多源共振检测(热点信号)
+1. **召回** `scripts/ingest.mjs`:抓取 `content/sources.json` 里 45 个精选源
+   (中文源 15 个,约 33%),按核心权威/深度、可信常规、发现源分层,
+   并做去重、分源时效过滤和多源共振检测(热点信号)
 2. **精选** `scripts/curate.mjs`:大模型按 `content/rubric.md` 的评分标准与
    编排规则选出每日 2–6 篇(80 分门槛,宁缺毋滥);每期配"主编的话",
-   每周六额外产出一篇 10 分钟"周末深读";当日最高分篇目附英文转述稿
-   (文章页 EN 切换)
+   每周六额外产出一篇 10 分钟"周末深读";达到 85 分、抓到全文的篇目
+   最多 2 篇附英文转述稿(文章页 EN 切换),优先有解释价值的实时事件
 3. **取全文**:用 [Firecrawl Keyless](https://www.firecrawl.dev/blog/firecrawl-keyless-launch)
    免费抓取入选文章原文(无需 API key),听稿严格基于原文转述;抓取失败
    回落 RSS 摘要

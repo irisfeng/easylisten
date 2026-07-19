@@ -32,6 +32,9 @@ jobs:
       - name: 校验朗读文本规则
         run: npm run test:speech
 
+      - name: 校验内容源与编排策略
+        run: npm run test:curation
+
       - name: 召回候选
         run: node scripts/ingest.mjs
 

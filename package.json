@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:speech": "node --test scripts/speech-text.test.mjs"
+    "test:speech": "node --test scripts/speech-text.test.mjs",
+    "test:curation": "node --test scripts/curation-policy.test.mjs scripts/source-policy.test.mjs"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",
