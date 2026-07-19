@@ -25,17 +25,27 @@ import { resolve } from "node:path";
 import { tmpdir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
-import { normalizeForSpeech, splitSentences } from "../src/lib/speech-text.js";
+import {
+  buildMiniMaxTextOptions,
+  buildPronunciationDictionary,
+  normalizeForSpeech,
+  splitSentences,
+} from "../src/lib/speech-text.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const AUDIO_DIR = resolve(ROOT, "public/audio");
 const MANIFEST = resolve(AUDIO_DIR, "manifest.json");
+const PRONUNCIATIONS = JSON.parse(
+  readFileSync(resolve(ROOT, "content/pronunciations.json"), "utf8"),
+);
 const VOICE = "zh-CN-XiaoxiaoNeural";
 // 双语实验:带英文稿的篇目额外合成英文音频(目录 <slug>-en)
 const EN_VOICE = "en-US-AriaNeural";
 // 修改朗读规范时递增。已有 MiniMax 音频只重合成实际受新规则影响的句子，
 // 页面正文不变；版本记入 manifest，避免每日任务重复消耗额度。
-const SPEECH_TEXT_VERSION = 1;
+const SPEECH_TEXT_VERSION = 2;
+const NUMBER_NORMALIZATION_VERSION = 1;
+const PRONUNCIATION_DICTIONARY_VERSION = 2;
 
 // —— 超拟人双声(盲选定音):配了 MINIMAX_API_KEY 时,新篇目合成
 // 女声(默认,目录 <slug>)与男声(目录 <slug>-m)两套;未配则回落 Edge ——
@@ -74,6 +84,7 @@ async function waitForMiniMaxSlot() {
 
 async function synthesizeMiniMaxWith(text, voiceId, model) {
   await waitForMiniMaxSlot();
+  const textOptions = buildMiniMaxTextOptions(text, PRONUNCIATIONS.zh);
   const res = await fetch(
     `https://api.minimaxi.com/v1/t2a_v2${MM_GROUP_ID ? `?GroupId=${MM_GROUP_ID}` : ""}`,
     {
@@ -83,6 +94,7 @@ async function synthesizeMiniMaxWith(text, voiceId, model) {
         model,
         text,
         stream: false,
+        ...textOptions,
         voice_setting: { voice_id: voiceId, speed: 1, vol: 1, pitch: 0 },
         audio_setting: { sample_rate: 32000, bitrate: 64000, format: "mp3", channel: 1 },
       }),
@@ -407,23 +419,32 @@ async function repairUnit(unit) {
   if (!paras || !existsSync(dir)) return false;
   const sentences = splitSentences(paras);
   const speechSentences = sentences.map((sentence) => speechTextForUnit(sentence, unit));
+  const pronunciationRules = speechSentences.map((sentence) =>
+    buildPronunciationDictionary(sentence, PRONUNCIATIONS.zh),
+  );
   const v = voiceForUnit(unit);
   const numericFiles = readdirSync(dir).filter((file) => /^\d+\.mp3$/.test(file));
   const timingCount = manifest.timings?.[unit]?.length;
   const sentenceCountDrift =
     numericFiles.length !== sentences.length ||
     (timingCount !== undefined && timingCount !== sentences.length + 1);
+  const currentSpeechTextVersion = Number(manifest.speechTextVersions?.[unit] ?? 0);
+  const sentenceNeedsFeatureUpgrade = sentences.map(
+    (sentence, i) =>
+      (currentSpeechTextVersion < NUMBER_NORMALIZATION_VERSION &&
+        speechSentences[i] !== sentence) ||
+      (currentSpeechTextVersion < PRONUNCIATION_DICTIONARY_VERSION &&
+        pronunciationRules[i].length > 0),
+  );
   const needsSpeechTextUpgrade =
-    v.engine === "minimax" &&
-    manifest.speechTextVersions?.[unit] !== SPEECH_TEXT_VERSION &&
-    sentences.some((sentence, i) => speechSentences[i] !== sentence);
+    v.engine === "minimax" && sentenceNeedsFeatureUpgrade.some(Boolean);
   let repaired = false;
   let complete = true;
   for (let i = 0; i < sentences.length; i++) {
     const file = resolve(dir, `${i}.mp3`);
     const needsRewrite =
       sentenceCountDrift ||
-      (needsSpeechTextUpgrade && speechSentences[i] !== sentences[i]) ||
+      (needsSpeechTextUpgrade && sentenceNeedsFeatureUpgrade[i]) ||
       !existsSync(file) ||
       statSync(file).size === 0;
     if (!needsRewrite) continue;

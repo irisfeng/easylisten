@@ -29,6 +29,7 @@ export function splitSentences(paragraphs) {
 const CHINESE_DIGITS = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
 const SMALL_UNITS = ["", "十", "百", "千"];
 const LARGE_UNITS = ["", "万", "亿", "兆"];
+const MAX_PRONUNCIATION_RULES_PER_REQUEST = 32;
 
 function sectionToChinese(section) {
   let value = section;
@@ -84,6 +85,45 @@ function spokenNumber(raw) {
     ? `点${[...fraction].map((digit) => CHINESE_DIGITS[Number(digit)]).join("")}`
     : "";
   return `${negative ? "负" : ""}${spokenInteger}${spokenFraction}`;
+}
+
+/**
+ * 为中文稿中的全大写缩写和字母数字型号生成 MiniMax pronunciation_dict。
+ * 固定规则优先，可用于人名、多音字和业务词；自动规则只处理形态明确的标识，
+ * 不拆 DeepMind、SpaceX 这类应自然朗读的普通英文专名。
+ */
+export function buildPronunciationDictionary(text, fixedRules = []) {
+  const rules = [];
+  const covered = new Set();
+  const add = (rule) => {
+    const slash = rule.indexOf("/");
+    if (slash <= 0) return;
+    const source = rule.slice(0, slash);
+    if (!text.includes(source) || covered.has(source)) return;
+    covered.add(source);
+    rules.push(rule);
+  };
+
+  for (const rule of fixedRules) add(rule);
+  for (const [identifier] of text.matchAll(/\b[A-Z]{2,}[A-Za-z0-9]*\b/g)) {
+    if (covered.has(identifier)) continue;
+    const pronunciation = [...identifier]
+      .map((char) => (/\d/.test(char) ? CHINESE_DIGITS[Number(char)] : char.toUpperCase()))
+      .join(" ");
+    add(`${identifier}/${pronunciation}`);
+    if (rules.length >= MAX_PRONUNCIATION_RULES_PER_REQUEST) break;
+  }
+
+  return rules.slice(0, MAX_PRONUNCIATION_RULES_PER_REQUEST);
+}
+
+/** MiniMax 中文 T2A 的原生文本控制参数。 */
+export function buildMiniMaxTextOptions(text, fixedRules = []) {
+  const tone = buildPronunciationDictionary(text, fixedRules);
+  return {
+    language_boost: "Chinese",
+    ...(tone.length ? { pronunciation_dict: { tone } } : {}),
+  };
 }
 
 /**
