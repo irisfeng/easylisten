@@ -50,6 +50,7 @@ jobs:
       - name: 预生成神经语音
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
         run: node scripts/synthesize.mjs
 
       - name: 提交今日日刊

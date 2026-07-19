@@ -1,8 +1,13 @@
 name: 补生成语音
 
-# 手动触发:为所有还没有音频的听稿预生成神经语音(无需任何 secret)。
+# 手动触发:为所有还没有音频或只生成了一部分的听稿补齐神经语音。
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "可选：修复既有半成品时指定原型号，默认 speech-2.8-hd"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -10,7 +15,7 @@ permissions:
 jobs:
   synthesize:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,6 +35,7 @@ jobs:
       - name: 预生成神经语音
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_TTS_MODEL: ${{ inputs.model || vars.MINIMAX_TTS_MODEL }}
         run: node scripts/synthesize.mjs
 
       - name: 提交音频

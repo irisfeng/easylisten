@@ -36,8 +36,17 @@ const MM_FEMALE = "presenter_female";
 const MM_MALE = "male-qn-jingying";
 // 型号按新旧排序逐个尝试:2.8 为当前旗舰;若账号/地域暂不可用,
 // 自动降级到盲选时实测可用的 speech-02-hd,并全程记住可用型号
-const MM_MODELS = [process.env.MINIMAX_TTS_MODEL || "speech-2.8-hd", "speech-02-hd"];
+const MM_MODELS = [
+  ...new Set([process.env.MINIMAX_TTS_MODEL || "speech-2.8-hd", "speech-02-hd"]),
+];
 let mmModelIdx = 0;
+// MiniMax 当前套餐按模型限制 RPM。句级音频一次需要很多请求，若连续发送，
+// 第 2～3 篇就会触发 1002 限流。把请求起点控制在每 2.1 秒一次（< 30 RPM），
+// 并允许测试/紧急修复时通过环境变量覆盖。
+const MM_MIN_INTERVAL_MS = Number(process.env.MINIMAX_MIN_INTERVAL_MS || 2100);
+const MM_RATE_LIMIT_WAIT_MS = Number(process.env.MINIMAX_RATE_LIMIT_WAIT_MS || 65000);
+const MM_RATE_LIMIT_RETRIES = Number(process.env.MINIMAX_RATE_LIMIT_RETRIES || 3);
+let mmNextRequestAt = 0;
 const MM_GROUP_ID = (() => {
   try {
     const payload = JSON.parse(Buffer.from(MM_KEY.split(".")[1], "base64").toString());
@@ -47,7 +56,16 @@ const MM_GROUP_ID = (() => {
   }
 })();
 
+const sleep = (ms) => new Promise((resolveSleep) => setTimeout(resolveSleep, ms));
+
+async function waitForMiniMaxSlot() {
+  const waitMs = Math.max(0, mmNextRequestAt - Date.now());
+  if (waitMs > 0) await sleep(waitMs);
+  mmNextRequestAt = Date.now() + MM_MIN_INTERVAL_MS;
+}
+
 async function synthesizeMiniMaxWith(text, voiceId, model) {
+  await waitForMiniMaxSlot();
   const res = await fetch(
     `https://api.minimaxi.com/v1/t2a_v2${MM_GROUP_ID ? `?GroupId=${MM_GROUP_ID}` : ""}`,
     {
@@ -66,21 +84,40 @@ async function synthesizeMiniMaxWith(text, voiceId, model) {
   const json = await res.json();
   const hex = json?.data?.audio;
   if (!hex) {
-    throw new Error(
+    const detail = json?.base_resp ?? json;
+    const error = new Error(
       `minimax(${model}) HTTP ${res.status} ${JSON.stringify(json?.base_resp ?? json).slice(0, 160)}`,
     );
+    // MiniMax 用 HTTP 200 + 业务码 1002 表示 RPM 限流。它不是模型兼容性错误，
+    // 不能因此降级型号；否则两个型号会被依次打满，产生一批半成品。
+    error.rateLimited =
+      detail?.status_code === 1002 && /rate limit/i.test(detail?.status_msg ?? "");
+    throw error;
   }
   return Buffer.from(hex, "hex");
 }
 
 async function synthesizeMiniMax(text, voiceId) {
   for (; mmModelIdx < MM_MODELS.length; mmModelIdx++) {
-    try {
-      return await synthesizeMiniMaxWith(text, voiceId, MM_MODELS[mmModelIdx]);
-    } catch (e) {
-      // 最后一个型号也失败则抛出;否则降级到下一个型号继续
-      if (mmModelIdx === MM_MODELS.length - 1) throw e;
-      console.log(`minimax 型号降级 ${MM_MODELS[mmModelIdx]} → ${MM_MODELS[mmModelIdx + 1]}: ${e.message}`);
+    for (let attempt = 0; attempt <= MM_RATE_LIMIT_RETRIES; attempt++) {
+      try {
+        return await synthesizeMiniMaxWith(text, voiceId, MM_MODELS[mmModelIdx]);
+      } catch (e) {
+        if (e.rateLimited && attempt < MM_RATE_LIMIT_RETRIES) {
+          console.log(
+            `minimax RPM 限流，等待 ${Math.ceil(MM_RATE_LIMIT_WAIT_MS / 1000)} 秒后重试 ` +
+              `(${attempt + 1}/${MM_RATE_LIMIT_RETRIES})`,
+          );
+          await sleep(MM_RATE_LIMIT_WAIT_MS);
+          continue;
+        }
+        // 只有模型本身失败才尝试旧型号；RPM 限流在同一型号上等待重试。
+        if (e.rateLimited || mmModelIdx === MM_MODELS.length - 1) throw e;
+        console.log(
+          `minimax 型号降级 ${MM_MODELS[mmModelIdx]} → ${MM_MODELS[mmModelIdx + 1]}: ${e.message}`,
+        );
+        break;
+      }
     }
   }
 }
@@ -126,6 +163,8 @@ const pieces = [
 const manifest = existsSync(MANIFEST)
   ? JSON.parse(readFileSync(MANIFEST, "utf8"))
   : { voice: VOICE, slugs: [] };
+const synthesisFailures = [];
+const requiredUnits = new Map();
 
 async function synthesize(text, voice = VOICE) {
   const tts = new MsEdgeTTS();
@@ -134,7 +173,9 @@ async function synthesize(text, voice = VOICE) {
     const { audioStream } = await tts.toStream(text);
     const chunks = [];
     for await (const chunk of audioStream) chunks.push(chunk);
-    return Buffer.concat(chunks);
+    const audio = Buffer.concat(chunks);
+    if (audio.length === 0) throw new Error(`edge/${voice} 返回空音频`);
+    return audio;
   } finally {
     tts.close();
   }
@@ -142,7 +183,8 @@ async function synthesize(text, voice = VOICE) {
 
 /** 为一组段落逐句合成到 public/audio/<unit>/,成功后登记进 manifest。 */
 async function synthesizeUnit(unit, paragraphs, v) {
-  if (manifest.slugs.includes(unit)) return;
+  requiredUnits.set(unit, paragraphs);
+  if (manifest.slugs.includes(unit)) return true;
   // 句序与播放器一致:0 = 第一句正文(intro 不进入朗读)
   const bodySentences = splitSentences(paragraphs);
   const dir = resolve(AUDIO_DIR, unit);
@@ -156,8 +198,11 @@ async function synthesizeUnit(unit, paragraphs, v) {
     }
     manifest.slugs.push(unit);
     console.log(`ok   ${unit}: ${bodySentences.length} 句 (${v.engine}/${v.voice})`);
+    return true;
   } catch (e) {
     console.log(`fail ${unit}: ${e.message}`);
+    synthesisFailures.push(`${unit}: ${e.message}`);
+    return false;
   }
 }
 
@@ -221,14 +266,18 @@ function buildFull(unit) {
 }
 
 for (const piece of pieces) {
-  const isNew = !manifest.slugs.includes(piece.slug);
-  if (MM_KEY && isNew) {
-    // 新篇目:MiniMax 双声(女声为默认,男声在 -m 目录);旧篇目保持原声不重刻
+  const maleUnit = `${piece.slug}-m`;
+  const hasDualVoiceEvidence =
+    manifest.slugs.includes(maleUnit) || existsSync(resolve(AUDIO_DIR, maleUnit));
+  const needsNewAudio = !manifest.slugs.includes(piece.slug);
+  if (MM_KEY && (needsNewAudio || hasDualVoiceEvidence)) {
+    // 新篇目使用 MiniMax 双声。若上次女声完成、男声只留下半个目录，
+    // hasDualVoiceEvidence 会让重跑继续补男声，不会误判成旧的单声文章。
     await synthesizeUnit(piece.slug, piece.paragraphs, {
       engine: "minimax",
       voice: MM_FEMALE,
     });
-    await synthesizeUnit(`${piece.slug}-m`, piece.paragraphs, {
+    await synthesizeUnit(maleUnit, piece.paragraphs, {
       engine: "minimax",
       voice: MM_MALE,
     });
@@ -255,32 +304,63 @@ for (const piece of pieces) {
 async function repairUnit(unit) {
   const paras = textByUnit.get(unit);
   const dir = resolve(AUDIO_DIR, unit);
-  if (!paras || !existsSync(dir)) return;
+  if (!paras || !existsSync(dir)) return false;
   const sentences = splitSentences(paras);
   const v = voiceForUnit(unit);
+  let repaired = false;
   for (let i = 0; i < sentences.length; i++) {
     const file = resolve(dir, `${i}.mp3`);
     if (existsSync(file) && statSync(file).size > 0) continue;
     try {
       writeFileSync(file, await speak(sentences[i], v));
       console.log(`repair ${unit}/${i} (${v.engine})`);
+      repaired = true;
     } catch (e) {
       console.log(`repair fail ${unit}/${i}: ${e.message}`);
+      synthesisFailures.push(`${unit}/${i}.mp3: ${e.message}`);
     }
   }
+  return repaired;
 }
 
-// 为所有还没有时间轴的既有篇目回填 full.mp3(先修空文件,再拼现有文件)
+// 先修所有既有单元的缺失/空文件；有修复或尚无时间轴时重建 full.mp3。
+// 不能只看 timings：旧逻辑曾把 0 字节句子连同一个看似完整的时间轴一起发布。
 for (const unit of manifest.slugs) {
-  if (manifest.timings?.[unit]) continue;
   try {
-    await repairUnit(unit);
-    buildFull(unit);
+    const repaired = await repairUnit(unit);
+    if (repaired || !manifest.timings?.[unit]) buildFull(unit);
   } catch (e) {
     console.log(`full fail ${unit}: ${e.message}`);
+    synthesisFailures.push(`${unit}/full.mp3: ${e.message}`);
   }
 }
 
 manifest.voice = VOICE;
 writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
 console.log(`manifest: ${manifest.slugs.length} pieces with audio`);
+
+// 发布闸门：本轮要求生成/续传的每个音频单元，都必须具备完整句文件、
+// full.mp3 和逐句时间轴。任何半成品都让工作流失败，禁止再以绿色状态提交。
+for (const [unit, paragraphs] of requiredUnits) {
+  const expectedCount = splitSentences(paragraphs).length;
+  const dir = resolve(AUDIO_DIR, unit);
+  const missing = [];
+  for (let i = 0; i < expectedCount; i++) {
+    const file = resolve(dir, `${i}.mp3`);
+    if (!existsSync(file) || statSync(file).size === 0) missing.push(`${i}.mp3`);
+  }
+  const full = resolve(dir, "full.mp3");
+  const timingCount = manifest.timings?.[unit]?.length ?? 0;
+  if (!manifest.slugs.includes(unit)) missing.push("manifest");
+  if (!existsSync(full) || statSync(full).size === 0) missing.push("full.mp3");
+  if (timingCount !== expectedCount + 1) missing.push("timings");
+  if (missing.length) {
+    synthesisFailures.push(`${unit}: 不完整 (${missing.slice(0, 8).join(", ")})`);
+  }
+}
+
+if (synthesisFailures.length) {
+  throw new Error(
+    `音频生成未完整，拒绝发布：\n- ${[...new Set(synthesisFailures)].join("\n- ")}`,
+  );
+}
