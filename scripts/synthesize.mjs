@@ -122,8 +122,44 @@ async function synthesizeMiniMax(text, voiceId) {
   }
 }
 
+const silenceCache = new Map();
+
+/**
+ * 分句规则为保持历史音频下标稳定，会把句末引号偶尔拆成独立的“””句。
+ * TTS 服务对纯标点可能返回 0 字节；用极短静音保留该下标，避免之后所有句子错位。
+ */
+function synthesizeSilence(v) {
+  const bitrate = v.engine === "minimax" ? "64k" : "48k";
+  if (!silenceCache.has(bitrate)) {
+    silenceCache.set(
+      bitrate,
+      execFileSync(
+        "ffmpeg",
+        [
+          "-v",
+          "error",
+          "-f",
+          "lavfi",
+          "-i",
+          "anullsrc=r=32000:cl=mono",
+          "-t",
+          "0.12",
+          "-b:a",
+          bitrate,
+          "-f",
+          "mp3",
+          "pipe:1",
+        ],
+        { maxBuffer: 1024 * 1024 },
+      ),
+    );
+  }
+  return silenceCache.get(bitrate);
+}
+
 /** 统一发声入口:v = { engine: "edge" | "minimax", voice }。 */
 async function speak(text, v) {
+  if (!/[\p{L}\p{N}]/u.test(text)) return synthesizeSilence(v);
   return v.engine === "minimax" ? synthesizeMiniMax(text, v.voice) : synthesize(text, v.voice);
 }
 
