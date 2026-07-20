@@ -273,45 +273,68 @@ async function reviewTitle(script, candidate) {
 }
 
 async function reviewScriptFacts(script, candidate, fullText) {
-  const review = await chatJsonWith(
-    factReviewProvider,
-    factReviewProvider === provider ? MODEL : factReviewProvider.model,
-    `你是独立事实审稿人，不参与选题，也不替撰稿人圆场。你的唯一任务是让听稿中的每个可核查陈述都忠于给定原文。
+  let currentScript = script;
+  let retryReason = "";
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const review = await chatJsonWith(
+      factReviewProvider,
+      factReviewProvider === provider ? MODEL : factReviewProvider.model,
+      `你是独立事实审稿人，不参与选题，也不替撰稿人圆场。你的唯一任务是让听稿中的每个可核查陈述都忠于给定原文。
 逐项核对：比分、数字、日期、分钟、比赛阶段、人物身份、地点、奖项、引语、因果、比较级和“首次/唯一/刷新纪录”等断言。
 原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
 即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。`,
-    `原文标题：${candidate.title}
+      `原文标题：${candidate.title}
 来源：${candidate.sourceName}
 原文全文：
-${fullText.slice(0, script.paragraphs.length > 6 ? DEEP_FULLTEXT_LIMIT : FULLTEXT_LIMIT)}
+${fullText.slice(0, currentScript.paragraphs.length > 6 ? DEEP_FULLTEXT_LIMIT : FULLTEXT_LIMIT)}
 
 待审听稿：
-${JSON.stringify({ title: script.title, intro: script.intro, paragraphs: script.paragraphs })}
+${JSON.stringify({ title: currentScript.title, intro: currentScript.intro, paragraphs: currentScript.paragraphs })}
+
+${retryReason ? `上一轮代码校验失败：${retryReason}
+这是最后一次证据修复。不要为保留原句而编造证据：无法由原文支持的句子必须删除或改成原文明确支持的表述。sourceQuote 必须从上方原文逐字复制连续 20–100 个字符，不得转述、翻译、省略、添加省略号或改变标点。返回前逐条用原文搜索确认。` : ""}
 
 以 JSON 返回：
 {"ok": true或false, "issues": ["发现的问题"], "final": {"title": "核验后的标题", "intro": "核验后的导语", "paragraphs": ["保持待审听稿段数的核验后正文"]}, "evidence": [{"paragraphIndex": 0, "sourceQuote": "支持该段关键事实的原文连续摘录"}]}。
 paragraphIndex 从 0 开始，每一段都必须覆盖；sourceQuote 必须逐字复制原文，不能改写。`,
-    `事实二审(${candidate.title})`,
-    0.1,
-  );
-  const finalScript = validateFactReview(review, fullText);
-  if (review.ok !== true || (Array.isArray(review.issues) && review.issues.length)) {
-    console.log(
-      `事实二审修正: ${candidate.title} — ${
-        Array.isArray(review.issues) ? review.issues.join("；") : "存在未说明的问题"
-      }`,
+      `${retryReason ? "事实证据修复" : "事实二审"}(${candidate.title})`,
+      0.1,
     );
+    try {
+      const finalScript = validateFactReview(review, fullText);
+      if (review.ok !== true || (Array.isArray(review.issues) && review.issues.length)) {
+        console.log(
+          `事实二审修正: ${candidate.title} — ${
+            Array.isArray(review.issues) ? review.issues.join("；") : "存在未说明的问题"
+          }`,
+        );
+      }
+      return {
+        script: finalScript,
+        audit: {
+          status: "verified",
+          reviewedAt: new Date().toISOString(),
+          reviewer: factReviewProvider === provider ? MODEL : factReviewProvider.model,
+          evidenceCount: review.evidence.length,
+          correctionCount: Array.isArray(review.issues) ? review.issues.length : 0,
+          attempts: attempt,
+        },
+      };
+    } catch (error) {
+      if (attempt >= 2) throw error;
+      retryReason = error.message;
+      if (
+        review?.final &&
+        typeof review.final.title === "string" &&
+        typeof review.final.intro === "string" &&
+        Array.isArray(review.final.paragraphs)
+      ) {
+        currentScript = review.final;
+      }
+      console.log(`事实证据修复重试: ${candidate.title} — ${retryReason}`);
+    }
   }
-  return {
-    script: finalScript,
-    audit: {
-      status: "verified",
-      reviewedAt: new Date().toISOString(),
-      reviewer: factReviewProvider === provider ? MODEL : factReviewProvider.model,
-      evidenceCount: review.evidence.length,
-      correctionCount: Array.isArray(review.issues) ? review.issues.length : 0,
-    },
-  };
+  throw new Error(`事实二审失败：${candidate.title}`);
 }
 
 // 全文再长也只取前 12000 字,足够写 3-6 段听稿;深读需要更足的素材
