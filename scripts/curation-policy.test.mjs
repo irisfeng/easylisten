@@ -3,12 +3,15 @@ import test from "node:test";
 
 import {
   BILINGUAL_QUALITY_BAR,
+  buildCurationAttemptQueue,
   composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
   normalizeAgeBands,
+  rankBilingualCandidates,
   selectCandidatePool,
   selectBilingualCandidates,
+  selectPublishableEntries,
 } from "./lib/curation-policy.mjs";
 
 test("成人向优质来源的最低适龄段由代码兜底", () => {
@@ -48,6 +51,43 @@ test("双语只选完整原文且达到更高质量门槛的两篇", () => {
     now,
   );
   assert.deepEqual(selected.map((entry) => entry.c.title), ["合格一", "合格二"]);
+});
+
+test("双语前两篇失败时仍保留同标准第三候选作为备份", () => {
+  const ranked = rankBilingualCandidates(
+    [
+      item("合格一", 92, { category: "science" }),
+      item("合格二", 91, { category: "humanities" }),
+      item("合格三", 90, { category: "living" }),
+      item("低分不进入备份", BILINGUAL_QUALITY_BAR - 1, { category: "culture" }),
+    ],
+    now,
+  );
+  assert.deepEqual(ranked.map((entry) => entry.c.title), ["合格一", "合格二", "合格三"]);
+});
+
+test("主名单失败后候补按相同门槛进入尝试队列", () => {
+  const candidates = [
+    { sourceName: "主源", region: "international" },
+    { sourceName: "候补源一", region: "mainland" },
+    { sourceName: "候补源二", region: "international" },
+    { sourceName: "候补源二", region: "international" },
+  ];
+  const primary = [{ index: 0, score: 92, category: "science" }];
+  const reserves = [
+    { index: 1, score: 89, category: "humanities" },
+    { index: 2, score: 84, category: "living" },
+    { index: 3, score: 90, category: "culture" },
+  ];
+
+  const queue = buildCurationAttemptQueue(primary, reserves, candidates);
+  assert.deepEqual(queue.map((pick) => pick.index), [0, 1, 2]);
+
+  const publishable = selectPublishableEntries(
+    queue.slice(1).map((pick) => ({ pick, marker: `draft-${pick.index}` })),
+    candidates,
+  );
+  assert.deepEqual(publishable.map((entry) => entry.marker), ["draft-1", "draft-2"]);
 });
 
 test("48 小时内的重大实时事件优先获得双语稿，但仍保持领域多样性", () => {

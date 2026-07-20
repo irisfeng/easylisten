@@ -47,6 +47,50 @@
       "maxAgeDays": 3
     },
     {
+      "name": "Science News Explores",
+      "feed": "https://www.snexplores.org/feed",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.2,
+      "profile": "analysis",
+      "minAgeBand": "10-12",
+      "maxItems": 6,
+      "maxAgeDays": 5
+    },
+    {
+      "name": "NSF News",
+      "feed": "https://www.nsf.gov/rss/rss_www_news.xml",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "analysis",
+      "minAgeBand": "10-12",
+      "maxItems": 6,
+      "maxAgeDays": 5
+    },
+    {
+      "name": "Our World in Data",
+      "feed": "https://ourworldindata.org/atom.xml",
+      "category": "society",
+      "lang": "en",
+      "weight": 1.2,
+      "profile": "depth",
+      "minAgeBand": "13-16",
+      "maxItems": 6,
+      "maxAgeDays": 10
+    },
+    {
+      "name": "Eos Earth & Space Science",
+      "feed": "https://eos.org/feed",
+      "category": "science",
+      "lang": "en",
+      "weight": 1.1,
+      "profile": "analysis",
+      "minAgeBand": "10-12",
+      "maxItems": 6,
+      "maxAgeDays": 5
+    },
+    {
       "name": "Solidot 奇客",
       "region": "mainland",
       "publisher": "北京至锐信息技术有限公司",

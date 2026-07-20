@@ -7,6 +7,44 @@ export const BILINGUAL_LIMIT = 2;
 export const BILINGUAL_QUALITY_BAR = 85;
 
 /**
+ * 主编名单之外保留同标准候补。候补只扩大失败后的尝试面，不降低分数门槛；
+ * 尝试队列放宽到每领域 3 篇，最终节目单仍由 composeDailyPicks 收紧到每领域 2 篇。
+ */
+export function buildCurationAttemptQueue(
+  primary,
+  reserves,
+  candidates,
+  { qualityBar = 80, maxAttempts = 10 } = {},
+) {
+  const combined = [...primary, ...reserves];
+  const seenIndexes = new Set();
+  const seenSources = new Set();
+  const categoryCounts = new Map();
+  const queue = [];
+
+  for (const pick of combined) {
+    const candidate = candidates[pick?.index];
+    if (
+      queue.length >= maxAttempts ||
+      !candidate ||
+      !Number.isInteger(pick?.index) ||
+      !Number.isInteger(pick?.score) ||
+      pick.score < qualityBar ||
+      seenIndexes.has(pick.index) ||
+      seenSources.has(candidate.sourceName) ||
+      (categoryCounts.get(pick.category) ?? 0) >= 3
+    ) {
+      continue;
+    }
+    queue.push(pick);
+    seenIndexes.add(pick.index);
+    seenSources.add(candidate.sourceName);
+    categoryCounts.set(pick.category, (categoryCounts.get(pick.category) ?? 0) + 1);
+  }
+  return queue;
+}
+
+/**
  * 模型逐篇判断适龄段，来源配置只提供保守下限。高质量成人刊物不等于低龄适配；
  * 即使模型误标，代码也不会让内容落到来源下限以下。
  */
@@ -122,7 +160,7 @@ function timelyDepthSignal(item, now) {
  * 双语稿不是配额：必须高于日刊门槛且抓到完整原文。排序优先重大事件的
  * 深度材料，再看分数与新鲜度；贪心时优先覆盖不同领域，避免两篇同质热点。
  */
-export function selectBilingualCandidates(items, now = Date.now()) {
+export function rankBilingualCandidates(items, now = Date.now()) {
   const eligible = items
     .filter((item) => item.hasFullText && item.score >= BILINGUAL_QUALITY_BAR)
     .sort(
@@ -134,15 +172,28 @@ export function selectBilingualCandidates(items, now = Date.now()) {
 
   const selected = [];
   for (const item of eligible) {
-    if (selected.length >= BILINGUAL_LIMIT) break;
     if (selected.some((chosen) => chosen.pick?.category === item.pick?.category)) continue;
     selected.push(item);
   }
   for (const item of eligible) {
-    if (selected.length >= BILINGUAL_LIMIT) break;
     if (!selected.includes(item)) selected.push(item);
   }
   return selected;
+}
+
+export function selectBilingualCandidates(items, now = Date.now()) {
+  return rankBilingualCandidates(items, now).slice(0, BILINGUAL_LIMIT);
+}
+
+/** 最终只从已完整通过中文改写和事实二审的草稿中组成节目单。 */
+export function selectPublishableEntries(entries, candidates, options = {}) {
+  const selected = composeDailyPicks(
+    entries.map((entry) => entry.pick),
+    candidates,
+    options,
+  );
+  const byIndex = new Map(entries.map((entry) => [entry.pick.index, entry]));
+  return selected.map((pick) => byIndex.get(pick.index)).filter(Boolean);
 }
 
 function candidateTimestamp(candidate) {
