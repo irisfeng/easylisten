@@ -8,6 +8,39 @@ function draftText(script) {
   return [script?.title, script?.intro, ...(script?.paragraphs ?? [])].join("\n");
 }
 
+/**
+ * 把原文切成带稳定编号的重叠证据块。审稿模型只选择编号，最终引文由代码
+ * 从原文回填，避免模型复制英文标点、空格或中文引号时制造“伪不匹配”。
+ * 每一块仍是原文连续子串，后续精确匹配闸门保持不变。
+ */
+export function buildEvidenceBlocks(sourceText, { windowSize = 180, overlap = 40 } = {}) {
+  const text = String(sourceText ?? "");
+  if (!text.trim()) return [];
+  const step = Math.max(1, windowSize - overlap);
+  const blocks = [];
+  for (let start = 0; start < text.length; start += step) {
+    const quote = text.slice(start, Math.min(text.length, start + windowSize));
+    if (!quote.trim()) continue;
+    blocks.push({ id: `E${String(blocks.length + 1).padStart(3, "0")}`, quote });
+    if (start + windowSize >= text.length) break;
+  }
+  return blocks;
+}
+
+export function materializeEvidenceQuotes(review, evidenceBlocks) {
+  const byId = new Map(evidenceBlocks.map((block) => [block.id, block.quote]));
+  return {
+    ...review,
+    evidence: (Array.isArray(review?.evidence) ? review.evidence : []).map((item) => ({
+      ...item,
+      sourceQuote:
+        typeof item?.sourceId === "string" && byId.has(item.sourceId)
+          ? byId.get(item.sourceId)
+          : item?.sourceQuote,
+    })),
+  };
+}
+
 function chineseNumber(value) {
   const digits = { 零: 0, 〇: 0, 一: 1, 二: 2, 两: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
   if (value.includes("百")) {

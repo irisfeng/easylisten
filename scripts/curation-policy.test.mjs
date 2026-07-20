@@ -13,6 +13,49 @@ import {
   selectBilingualCandidates,
   selectPublishableEntries,
 } from "./lib/curation-policy.mjs";
+import {
+  buildEvidenceBlocks,
+  materializeEvidenceQuotes,
+  validateFactReview,
+} from "./lib/fact-review.mjs";
+
+test("事实二审通过编号选择证据并由代码回填原文精确引文", () => {
+  const source = "Alpha is the first verified fact. Beta is the second verified fact. ".repeat(5);
+  const blocks = buildEvidenceBlocks(source, { windowSize: 70, overlap: 20 });
+  const review = materializeEvidenceQuotes(
+    {
+      final: {
+        title: "Verified title",
+        intro: "Verified intro",
+        paragraphs: ["First paragraph.", "Second paragraph.", "Third paragraph."],
+      },
+      evidence: [0, 1, 2].map((paragraphIndex) => ({
+        paragraphIndex,
+        sourceId: blocks[paragraphIndex].id,
+      })),
+    },
+    blocks,
+  );
+
+  assert.equal(review.evidence[0].sourceQuote, blocks[0].quote);
+  assert.equal(validateFactReview(review, source).title, "Verified title");
+});
+
+test("不存在的证据编号不能绕过原文精确匹配闸门", () => {
+  const source = "Only this source text is allowed. ".repeat(10);
+  const review = materializeEvidenceQuotes(
+    {
+      final: {
+        title: "Title",
+        intro: "Intro",
+        paragraphs: ["One.", "Two.", "Three."],
+      },
+      evidence: [0, 1, 2].map((paragraphIndex) => ({ paragraphIndex, sourceId: "E999" })),
+    },
+    buildEvidenceBlocks(source),
+  );
+  assert.throws(() => validateFactReview(review, source), /缺少可回查原文证据/);
+});
 
 test("成人向优质来源的最低适龄段由代码兜底", () => {
   assert.deepEqual(
