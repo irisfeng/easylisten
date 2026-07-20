@@ -4,20 +4,91 @@ import test from "node:test";
 import {
   CHINESE_FEMALE_VOICE,
   CHINESE_MALE_VOICE,
-  chineseVoicePlan,
-  missingChineseVoiceUnits,
+  ENGLISH_FEMALE_VOICE,
+  audioPlanForPiece,
+  latestIssuePieces,
+  missingRequiredAudioUnits,
 } from "./lib/audio-policy.mjs";
 
-test("每篇中文稿必须规划 MiniMax 男女两条声线", () => {
-  assert.deepEqual(chineseVoicePlan("today-story"), [
-    { unit: "today-story", gender: "f", voice: CHINESE_FEMALE_VOICE },
-    { unit: "today-story-m", gender: "m", voice: CHINESE_MALE_VOICE },
+const chinesePiece = { slug: "today-story", paragraphs: ["中文正文。"] };
+
+test("纯中文稿必须规划 MiniMax 男女两条声线", () => {
+  assert.deepEqual(audioPlanForPiece(chinesePiece), [
+    {
+      unit: "today-story",
+      language: "zh",
+      gender: "f",
+      engine: "minimax",
+      voice: CHINESE_FEMALE_VOICE,
+      paragraphs: chinesePiece.paragraphs,
+    },
+    {
+      unit: "today-story-m",
+      language: "zh",
+      gender: "m",
+      engine: "minimax",
+      voice: CHINESE_MALE_VOICE,
+      paragraphs: chinesePiece.paragraphs,
+    },
   ]);
 });
 
-test("已有女声时仍把缺失男声列为发布前必补单元", () => {
+test("中英双语稿使用 MiniMax 中文女声和 Edge 英文女声", () => {
+  const bilingual = {
+    ...chinesePiece,
+    en: { title: "Story", intro: "Intro", paragraphs: ["English body."] },
+  };
+  assert.deepEqual(audioPlanForPiece(bilingual), [
+    {
+      unit: "today-story",
+      language: "zh",
+      gender: "f",
+      engine: "minimax",
+      voice: CHINESE_FEMALE_VOICE,
+      paragraphs: bilingual.paragraphs,
+    },
+    {
+      unit: "today-story-en",
+      language: "en",
+      gender: "f",
+      engine: "edge",
+      voice: ENGLISH_FEMALE_VOICE,
+      paragraphs: bilingual.en.paragraphs,
+    },
+  ]);
+});
+
+test("发布闸门按文章类型找出缺失音轨", () => {
   assert.deepEqual(
-    missingChineseVoiceUnits(["story-a", "story-b"], ["story-a", "story-b", "story-b-m"]),
-    ["story-a-m"],
+    missingRequiredAudioUnits(
+      [
+        { slug: "story-a", paragraphs: ["正文。"] },
+        {
+          slug: "story-b",
+          paragraphs: ["正文。"],
+          en: { paragraphs: ["Body."] },
+        },
+      ],
+      ["story-a", "story-b"],
+    ).map(({ unit }) => unit),
+    ["story-a-m", "story-b-en"],
+  );
+});
+
+test("默认每日任务只对最新一期执行新音频契约", () => {
+  const pieces = [
+    { ...chinesePiece, slug: "old", publishedAt: "2026-07-19" },
+    { ...chinesePiece, slug: "today-zh", publishedAt: "2026-07-20" },
+    {
+      ...chinesePiece,
+      slug: "today-en",
+      publishedAt: "2026-07-20",
+      en: { paragraphs: ["English body."] },
+    },
+  ];
+
+  assert.deepEqual(
+    latestIssuePieces(pieces).map((piece) => piece.slug),
+    ["today-zh", "today-en"],
   );
 });

@@ -18,6 +18,7 @@ import {
   hasVerifiableSource,
   mergeDailyPieces,
   normalizeAgeBands,
+  selectBilingualCandidates,
   selectCandidatePool,
 } from "./lib/curation-policy.mjs";
 import { fetchFullText } from "./lib/full-text.mjs";
@@ -308,6 +309,10 @@ const DEEP_FULLTEXT_LIMIT = 24000;
 // 第二步:逐篇改写为听稿。
 const pieces = [];
 
+// 每日发布契约要求 1-2 篇中英双语。这里只记录达到更高门槛且取得完整原文的
+// 候选；稍后生成英文稿，任何候选失败都不会通过降低标准来凑数。
+const bilingualCandidates = [];
+
 for (const pick of regularPicks) {
   const c = CANDIDATES[pick.index];
   try {
@@ -365,6 +370,15 @@ for (const pick of regularPicks) {
       },
     });
     console.log(`wrote 听稿: ${script.title}`);
+    bilingualCandidates.push({
+      piece: pieces[pieces.length - 1],
+      material,
+      c,
+      pick,
+      score: pick.score,
+      hasFullText: Boolean(fullText),
+      fullText,
+    });
   } catch (e) {
     console.log(`跳过(改写失败): ${c.title} — ${e.message}`);
   }
@@ -436,6 +450,49 @@ if (deepValid) {
 function slugify(s) {
   const ascii = s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
   return ascii || Math.random().toString(36).slice(2, 8);
+}
+
+// 每天精选 1-2 篇中英双语：英文是基于同一完整原文的独立听稿，并接受与
+// 中文稿相同的事实二审。少于 1 篇时拒绝发布，多于 2 篇则由策略层截断。
+const bilingualPicks = selectBilingualCandidates(bilingualCandidates);
+console.log(
+  `双语候选 ${bilingualCandidates.length} → 入选 ${bilingualPicks.length}: ${bilingualPicks.map((item) => item.c.title).join(" / ") || "无"}`,
+);
+let bilingualPublished = 0;
+for (const bilingual of bilingualPicks) {
+  try {
+    const en = await chatJson(
+      `You are a writer for "EasyListen", a daily listening digest. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.`,
+      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
+      `英文稿(${bilingual.c.title})`,
+    );
+    const validEn =
+      typeof en.title === "string" &&
+      en.title.trim() &&
+      typeof en.intro === "string" &&
+      en.intro.trim() &&
+      Array.isArray(en.paragraphs) &&
+      en.paragraphs.length >= 3 &&
+      en.paragraphs.every((p) => typeof p === "string" && p.trim());
+    if (validEn) {
+      const factChecked = await reviewScriptFacts(en, bilingual.c, bilingual.fullText);
+      bilingual.piece.en = {
+        title: factChecked.script.title,
+        intro: factChecked.script.intro,
+        paragraphs: factChecked.script.paragraphs,
+        factReview: factChecked.audit,
+      };
+      bilingualPublished += 1;
+      console.log(`wrote 英文稿: ${factChecked.script.title}`);
+    } else {
+      console.log(`英文稿格式不合格,跳过: ${bilingual.c.title}`);
+    }
+  } catch (e) {
+    console.log(`英文稿生成失败(跳过): ${e.message}`);
+  }
+}
+if (bilingualPublished < 1) {
+  throw new Error("每日发布契约未满足：必须有 1-2 篇通过完整原文与事实二审的中英双语稿");
 }
 
 // 最新的排前面；同日重跑替换当天旧刊，避免手动测试或失败重试累加篇数。

@@ -3,6 +3,8 @@ export const MAINLAND_POOL_SHARE = 0.45;
 export const REALTIME_POOL_SHARE = 0.2;
 export const CATEGORY_POOL_MIN = 5;
 export const AGE_BANDS = ["6-9", "10-12", "13-16"];
+export const BILINGUAL_LIMIT = 2;
+export const BILINGUAL_QUALITY_BAR = 85;
 
 /**
  * 模型逐篇判断适龄段，来源配置只提供保守下限。高质量成人刊物不等于低龄适配；
@@ -114,6 +116,33 @@ function timelyDepthSignal(item, now) {
   const eventTopic = topics.includes("全球时事") || topics.includes("体育");
   const eventSource = item.c?.profile === "realtime" || (item.c?.resonance ?? 1) > 1;
   return ageHours(item.c?.publishedAt, now) <= 48 && (eventTopic || eventSource);
+}
+
+/**
+ * 双语稿不是配额：必须高于日刊门槛且抓到完整原文。排序优先重大事件的
+ * 深度材料，再看分数与新鲜度；贪心时优先覆盖不同领域，避免两篇同质热点。
+ */
+export function selectBilingualCandidates(items, now = Date.now()) {
+  const eligible = items
+    .filter((item) => item.hasFullText && item.score >= BILINGUAL_QUALITY_BAR)
+    .sort(
+      (a, b) =>
+        Number(timelyDepthSignal(b, now)) - Number(timelyDepthSignal(a, now)) ||
+        b.score - a.score ||
+        ageHours(a.c?.publishedAt, now) - ageHours(b.c?.publishedAt, now),
+    );
+
+  const selected = [];
+  for (const item of eligible) {
+    if (selected.length >= BILINGUAL_LIMIT) break;
+    if (selected.some((chosen) => chosen.pick?.category === item.pick?.category)) continue;
+    selected.push(item);
+  }
+  for (const item of eligible) {
+    if (selected.length >= BILINGUAL_LIMIT) break;
+    if (!selected.includes(item)) selected.push(item);
+  }
+  return selected;
 }
 
 function candidateTimestamp(candidate) {

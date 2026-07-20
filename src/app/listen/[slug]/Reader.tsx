@@ -20,7 +20,12 @@ import {
 } from "@/lib/tts";
 import { cn } from "@/lib/utils";
 import { SharePanel } from "./Share";
-import { VoiceSwitch, type VoiceGender } from "@/components/VoiceSwitch";
+import {
+  LanguageSwitch,
+  VoiceSwitch,
+  type ListeningLanguage,
+  type VoiceGender,
+} from "@/components/VoiceSwitch";
 import audioManifest from "../../../../public/audio/manifest.json";
 import {
   ArrowLeft,
@@ -40,7 +45,8 @@ type PlayState = "idle" | "playing" | "paused";
 export default function Reader({ piece }: { piece: Piece }) {
   const cat = categoryOf(piece.category);
 
-  const script = piece;
+  const [lang, setLang] = useState<ListeningLanguage>("zh");
+  const script = lang === "en" && piece.en ? piece.en : piece;
 
   // 把每段切成句子,并给每句分配一个全篇唯一的下标,
   // 这样朗读进度和文中高亮能对上号。
@@ -66,9 +72,15 @@ export default function Reader({ piece }: { piece: Piece }) {
   useEffect(() => {
     setGender(loadPrefs().voiceGender ?? "f");
   }, []);
-  const hasMale = (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
+  const hasMale =
+    !piece.en && (audioManifest.slugs as string[]).includes(`${piece.slug}-m`);
 
-  const audioSlug = gender === "m" && hasMale ? `${piece.slug}-m` : piece.slug;
+  const audioSlug =
+    lang === "en"
+      ? `${piece.slug}-en`
+      : gender === "m" && hasMale
+        ? `${piece.slug}-m`
+        : piece.slug;
   const hasAudio = (audioManifest.slugs as string[]).includes(audioSlug);
   const timings = (
     audioManifest as { timings?: Record<string, number[]> }
@@ -293,6 +305,16 @@ export default function Reader({ piece }: { piece: Piece }) {
                 setGender(next);
                 setVoiceGender(next);
                 track("voice_switch", { slug: piece.slug, gender: next });
+              }}
+              className="ml-auto"
+            />
+          )}
+          {piece.en && (
+            <LanguageSwitch
+              value={lang}
+              onChange={(next) => {
+                setLang(next);
+                track("language_switch", { slug: piece.slug, language: next });
               }}
               className="ml-auto"
             />

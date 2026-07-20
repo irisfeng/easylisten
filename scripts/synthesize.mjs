@@ -2,12 +2,13 @@
  * 预生成神经语音:为每篇没有音频的听稿逐句合成 MP3,
  * 写入 public/audio/<slug>/<句序>.mp3,并更新 public/audio/manifest.json。
  *
- * 正式工作流使用 MiniMax，为每篇中文稿生成女声与男声两条音轨:
+ * 正式工作流按产品音频契约生成音轨：纯中文稿为 MiniMax 男女双声；
+ * 中英双语稿为 MiniMax 中文女声与 Edge 英文女声：
  *   node scripts/synthesize.mjs
  *
  * 按句分文件与播放器的句级模型天然对齐:高亮、跳句、点句播放都无需时间轴。
- * 本地未配置 key 时可用 Edge 做开发兜底；REQUIRE_DUAL_VOICE=true 的正式
- * 工作流禁止兜底，双声不完整就拒绝发布。
+ * 本地未配置 key 时可用 Edge 做开发兜底；REQUIRE_AUDIO_CONTRACT=true 的
+ * 正式工作流禁止兜底，规定音轨不完整就拒绝发布。
  */
 
 import {
@@ -34,8 +35,10 @@ import {
 import {
   CHINESE_FEMALE_VOICE,
   CHINESE_MALE_VOICE,
-  chineseVoicePlan,
-  missingChineseVoiceUnits,
+  ENGLISH_FEMALE_VOICE,
+  audioPlanForPiece,
+  latestIssuePieces,
+  missingRequiredAudioUnits,
 } from "./lib/audio-policy.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -45,19 +48,20 @@ const PRONUNCIATIONS = JSON.parse(
   readFileSync(resolve(ROOT, "content/pronunciations.json"), "utf8"),
 );
 const VOICE = "zh-CN-XiaoxiaoNeural";
+const EN_VOICE = ENGLISH_FEMALE_VOICE;
 // 修改朗读规范时递增。已有 MiniMax 音频只重合成实际受新规则影响的句子，
 // 页面正文不变；版本记入 manifest，避免每日任务重复消耗额度。
 const SPEECH_TEXT_VERSION = 2;
 const NUMBER_NORMALIZATION_VERSION = 1;
 const PRONUNCIATION_DICTIONARY_VERSION = 2;
 
-// 正式中文节目必须同时生成 MiniMax 女声(<slug>)与男声(<slug>-m)。
-// 未配置 key 时仅允许本地开发回落 Edge；正式工作流会通过 REQUIRE_DUAL_VOICE
-// 在任何付费请求之前失败，避免发布只有一条声线的半成品。
+// 产品音频契约：纯中文稿生成 MiniMax 女声(<slug>)和男声(<slug>-m)；
+// 中英双语稿生成 MiniMax 中文女声(<slug>)和 Edge 英文女声(<slug>-en)。
+// 未配置 key 时仅允许本地开发回落 Edge；正式工作流会在付费前失败。
 const MM_KEY = process.env.MINIMAX_API_KEY;
 const MM_FEMALE = CHINESE_FEMALE_VOICE;
 const MM_MALE = CHINESE_MALE_VOICE;
-const REQUIRE_DUAL_VOICE = process.env.REQUIRE_DUAL_VOICE === "true";
+const REQUIRE_AUDIO_CONTRACT = process.env.REQUIRE_AUDIO_CONTRACT === "true";
 // 型号按新旧排序逐个尝试:2.8 为当前旗舰;若账号/地域暂不可用,
 // 自动降级到盲选时实测可用的 speech-02-hd,并全程记住可用型号
 const MM_MODELS = [
@@ -111,10 +115,10 @@ function budgetedVoiceForUnit(unit, paragraphs, preferredVoice) {
     return total + (/[\p{L}\p{N}]/u.test(text) ? miniMaxBillingChars(text) : 0);
   }, 0);
   if (mmCharsRequested + billedChars <= MM_MAX_CHARS_PER_RUN) return preferredVoice;
-  if (REQUIRE_DUAL_VOICE) {
+  if (REQUIRE_AUDIO_CONTRACT) {
     throw new Error(
-      `MiniMax 双声成本闸门：${unit} 需要 ${billedChars} 字符，` +
-        `本轮已使用 ${mmCharsRequested}/${MM_MAX_CHARS_PER_RUN}；拒绝降级或发布单声版本`,
+      `MiniMax 音频契约成本闸门：${unit} 需要 ${billedChars} 字符，` +
+        `本轮已使用 ${mmCharsRequested}/${MM_MAX_CHARS_PER_RUN}；拒绝降级或发布不完整版本`,
     );
   }
   console.log(
@@ -238,6 +242,7 @@ async function speak(text, v) {
 
 /** 按音频目录名推断该单元的声音(修复与 CBR 码率估算共用)。 */
 function voiceForUnit(unit) {
+  if (unit.endsWith("-en")) return { engine: "edge", voice: EN_VOICE };
   if (unit.endsWith("-m")) return { engine: "minimax", voice: MM_MALE };
   // 基础中文单元固定 MiniMax 女声；存在 -m 兄弟目录的是双声篇。
   // 判断不能依赖本机是否配置 key，否则修复旧音频时会悄悄换回 Edge 音色。
@@ -251,10 +256,13 @@ function speechTextForUnit(text, unit) {
   return normalizeForSpeech(text, unit.endsWith("-en") ? "en" : "zh");
 }
 
-const allPieces = [
-  ...JSON.parse(readFileSync(resolve(ROOT, "content/daily.json"), "utf8")),
-  ...JSON.parse(readFileSync(resolve(ROOT, "content/seeds.json"), "utf8")),
-];
+const dailyPieces = JSON.parse(
+  readFileSync(resolve(ROOT, "content/daily.json"), "utf8"),
+);
+const seedPieces = JSON.parse(
+  readFileSync(resolve(ROOT, "content/seeds.json"), "utf8"),
+);
+const allPieces = [...dailyPieces, ...seedPieces];
 const targetSlugs = new Set(
   String(process.env.TARGET_AUDIO_SLUGS ?? "")
     .split(",")
@@ -268,7 +276,14 @@ if (unknownTargets.length) {
 }
 const pieces = targetSlugs.size
   ? allPieces.filter((piece) => targetSlugs.has(piece.slug))
-  : allPieces;
+  : latestIssuePieces(dailyPieces);
+
+if (!targetSlugs.size) {
+  console.log(
+    `最新一期音频契约：${pieces[0]?.publishedAt ?? "无日期"} / ${pieces.length} 篇；` +
+      "历史稿不追溯付费生成",
+  );
+}
 
 const manifest = existsSync(MANIFEST)
   ? JSON.parse(readFileSync(MANIFEST, "utf8"))
@@ -277,44 +292,42 @@ const synthesisFailures = [];
 const requiredUnits = new Map();
 const miniMaxFemaleUnits = new Set(pieces.map((piece) => piece.slug));
 
-if (REQUIRE_DUAL_VOICE && !MM_KEY) {
-  throw new Error("正式中文双声工作流缺少 MINIMAX_API_KEY，拒绝回落为单声或免费音色");
+if (REQUIRE_AUDIO_CONTRACT && !MM_KEY) {
+  throw new Error("正式音频工作流缺少 MINIMAX_API_KEY，拒绝回落或发布不完整音轨");
 }
 
 if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
   for (const slug of targetSlugs) {
-    for (const { unit } of chineseVoicePlan(slug)) {
+    const piece = pieces.find((entry) => entry.slug === slug);
+    for (const { unit } of audioPlanForPiece(piece)) {
       rmSync(resolve(AUDIO_DIR, unit), { recursive: true, force: true });
       manifest.slugs = manifest.slugs.filter((entry) => entry !== unit);
       if (manifest.timings) delete manifest.timings[unit];
       if (manifest.speechTextVersions) delete manifest.speechTextVersions[unit];
     }
-    console.log(`force ${slug}: 清除旧中文男女声，按已审核正文重新生成`);
+    console.log(`force ${slug}: 按文章类型清除旧音轨，按已审核正文重新生成`);
   }
 }
 
-// 正式工作流先计算本轮缺失的完整双声成本。超限时在第一次 MiniMax 调用前
-// 直接失败，既不超预算，也不会花了一半费用后留下不可发布的单声版本。
-if (REQUIRE_DUAL_VOICE) {
-  const pieceBySlug = new Map(pieces.map((piece) => [piece.slug, piece]));
-  const missingUnits = missingChineseVoiceUnits(
-    pieces.map((piece) => piece.slug),
-    manifest.slugs,
-  );
-  const estimatedChars = missingUnits.reduce((total, unit) => {
-    const slug = unit.endsWith("-m") ? unit.slice(0, -2) : unit;
-    const piece = pieceBySlug.get(slug);
-    return total + splitSentences(piece.paragraphs).reduce((sum, sentence) => {
-      const text = speechTextForUnit(sentence, unit);
-      return sum + (/\p{L}|\p{N}/u.test(text) ? miniMaxBillingChars(text) : 0);
+// 正式工作流先计算本轮缺失 MiniMax 音轨的总成本。Edge 英文轨免费，不计入
+// MiniMax 字符预算。超限时在第一次付费调用前失败，不留下半套音频。
+if (REQUIRE_AUDIO_CONTRACT) {
+  const missingTracks = missingRequiredAudioUnits(pieces, manifest.slugs);
+  const estimatedChars = missingTracks
+    .filter(({ engine }) => engine === "minimax")
+    .reduce((total, track) => {
+      return total + splitSentences(track.paragraphs).reduce((sum, sentence) => {
+        const text = speechTextForUnit(sentence, track.unit);
+        return sum + (/\p{L}|\p{N}/u.test(text) ? miniMaxBillingChars(text) : 0);
+      }, 0);
     }, 0);
-  }, 0);
   console.log(
-    `双声预检：待生成 ${missingUnits.length} 条音轨，预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符`,
+    `音频契约预检：待生成 ${missingTracks.length} 条音轨，` +
+      `MiniMax 预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符`,
   );
   if (estimatedChars > MM_MAX_CHARS_PER_RUN) {
     throw new Error(
-      `MiniMax 双声成本预检超限：预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符；` +
+      `MiniMax 音频契约成本预检超限：预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符；` +
         "尚未发起付费请求，请缩短稿件或显式调整预算",
     );
   }
@@ -482,12 +495,12 @@ function buildFull(unit) {
 
 for (const piece of pieces) {
   if (MM_KEY) {
-    for (const { unit, voice } of chineseVoicePlan(piece.slug)) {
-      const preferredVoice = { engine: "minimax", voice };
+    for (const track of audioPlanForPiece(piece)) {
+      const preferredVoice = { engine: track.engine, voice: track.voice };
       await synthesizeUnit(
-        unit,
-        piece.paragraphs,
-        budgetedVoiceForUnit(unit, piece.paragraphs, preferredVoice),
+        track.unit,
+        track.paragraphs,
+        budgetedVoiceForUnit(track.unit, track.paragraphs, preferredVoice),
       );
     }
   } else {
@@ -495,11 +508,12 @@ for (const piece of pieces) {
   }
 }
 
-// 修复用:按中文女声目录(slug)或男声目录(slug-m)找回句子文本
+// 修复用:按产品音频契约找回每条音轨对应的文本
 const textByUnit = new Map();
 for (const piece of pieces) {
-  textByUnit.set(piece.slug, piece.paragraphs);
-  textByUnit.set(`${piece.slug}-m`, piece.paragraphs);
+  for (const track of audioPlanForPiece(piece)) {
+    textByUnit.set(track.unit, track.paragraphs);
+  }
 }
 
 /** 重合成单元里缺失/零字节的句子文件(空文件是偶发合成失败的残留)。 */

@@ -124,6 +124,13 @@ export interface Piece {
     caption: string;
     kind: "editorial";
   };
+  /** 每日 1-2 篇双语稿；中文走 MiniMax 女声，英文走 Edge 女声。 */
+  en?: {
+    title: string;
+    intro: string;
+    paragraphs: string[];
+    factReview?: SourceReference["factReview"];
+  };
 }
 
 export type AgeBand = "6-9" | "10-12" | "13-16";
