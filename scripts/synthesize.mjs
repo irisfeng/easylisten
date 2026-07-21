@@ -32,6 +32,7 @@ import {
   normalizeForSpeech,
   splitSentences,
 } from "../src/lib/speech-text.js";
+import { synthesizeWithRetries } from "./lib/tts-recovery.mjs";
 import {
   CHINESE_FEMALE_VOICE,
   CHINESE_MALE_VOICE,
@@ -49,6 +50,12 @@ const PRONUNCIATIONS = JSON.parse(
 );
 const VOICE = "zh-CN-XiaoxiaoNeural";
 const EN_VOICE = ENGLISH_FEMALE_VOICE;
+const EN_FALLBACK_VOICE = "en-US-JennyNeural";
+const EDGE_ATTEMPTS_PER_VOICE = Math.max(
+  1,
+  Number(process.env.EDGE_TTS_ATTEMPTS_PER_VOICE || 3),
+);
+const EDGE_RETRY_BASE_MS = Math.max(0, Number(process.env.EDGE_TTS_RETRY_BASE_MS || 1200));
 // 修改朗读规范时递增。已有 MiniMax 音频只重合成实际受新规则影响的句子，
 // 页面正文不变；版本记入 manifest，避免每日任务重复消耗额度。
 const SPEECH_TEXT_VERSION = 2;
@@ -242,7 +249,9 @@ async function speak(text, v) {
 
 /** 按音频目录名推断该单元的声音(修复与 CBR 码率估算共用)。 */
 function voiceForUnit(unit) {
-  if (unit.endsWith("-en")) return { engine: "edge", voice: EN_VOICE };
+  if (unit.endsWith("-en")) {
+    return { engine: "edge", voice: manifest.edgeVoices?.[unit] ?? EN_VOICE };
+  }
   if (unit.endsWith("-m")) return { engine: "minimax", voice: MM_MALE };
   // 基础中文单元固定 MiniMax 女声；存在 -m 兄弟目录的是双声篇。
   // 判断不能依赖本机是否配置 key，否则修复旧音频时会悄悄换回 Edge 音色。
@@ -304,6 +313,7 @@ if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
       manifest.slugs = manifest.slugs.filter((entry) => entry !== unit);
       if (manifest.timings) delete manifest.timings[unit];
       if (manifest.speechTextVersions) delete manifest.speechTextVersions[unit];
+      if (manifest.edgeVoices) delete manifest.edgeVoices[unit];
     }
     console.log(`force ${slug}: 按文章类型清除旧音轨，按已审核正文重新生成`);
   }
@@ -333,19 +343,79 @@ if (REQUIRE_AUDIO_CONTRACT) {
   }
 }
 
-async function synthesize(text, voice = VOICE) {
+async function synthesizeEdgeAttempt(text, voice) {
   const tts = new MsEdgeTTS();
   try {
     await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
     const { audioStream } = await tts.toStream(text);
     const chunks = [];
     for await (const chunk of audioStream) chunks.push(chunk);
-    const audio = Buffer.concat(chunks);
-    if (audio.length === 0) throw new Error(`edge/${voice} 返回空音频`);
-    return audio;
+    return Buffer.concat(chunks);
   } finally {
     tts.close();
   }
+}
+
+async function synthesize(text, voice = VOICE) {
+  const result = await synthesizeWithRetries({
+    voices: [voice],
+    attemptsPerVoice: EDGE_ATTEMPTS_PER_VOICE,
+    baseDelayMs: EDGE_RETRY_BASE_MS,
+    synthesizeAttempt: (candidateVoice) => synthesizeEdgeAttempt(text, candidateVoice),
+  });
+  if (result.attempt > 1) {
+    console.log(`edge/${voice} 第 ${result.attempt} 次尝试成功`);
+  }
+  return result.audio;
+}
+
+function clearUnitAudio(unit) {
+  const dir = resolve(AUDIO_DIR, unit);
+  if (!existsSync(dir)) return;
+  for (const file of readdirSync(dir)) {
+    if (/^\d+\.mp3$/.test(file) || file === "full.mp3") {
+      rmSync(resolve(dir, file), { force: true });
+    }
+  }
+  if (manifest.timings) delete manifest.timings[unit];
+}
+
+async function synthesizeEdgeUnit(unit, bodySentences, preferredVoice) {
+  // 上一轮若在备用音色中途失败，manifest 会记录该音色；续传时必须沿用，
+  // 否则已有句子与新补句子会混用不同声音。
+  const resumableVoice = manifest.edgeVoices?.[unit] ?? preferredVoice;
+  const voices = [
+    resumableVoice,
+    ...(unit.endsWith("-en") && resumableVoice !== EN_FALLBACK_VOICE
+      ? [EN_FALLBACK_VOICE]
+      : []),
+  ];
+  const failures = [];
+  for (let voiceIndex = 0; voiceIndex < voices.length; voiceIndex++) {
+    const voice = voices[voiceIndex];
+    // 一旦主音色持续失败，整条音轨统一重做为备用女声，避免句间混音色。
+    if (voiceIndex > 0) {
+      clearUnitAudio(unit);
+      console.log(`edge 单元降级 ${unit}: ${resumableVoice} → ${voice}`);
+    }
+    // 在开始写句文件前记录实际音色；即使本轮中途失败，下一进程也能同音色续传。
+    manifest.edgeVoices ??= {};
+    manifest.edgeVoices[unit] = voice;
+    try {
+      for (let i = 0; i < bodySentences.length; i++) {
+        const file = resolve(AUDIO_DIR, unit, `${i}.mp3`);
+        if (existsSync(file) && statSync(file).size > 0) continue;
+        writeFileSync(
+          file,
+          await synthesize(speechTextForUnit(bodySentences[i], unit), voice),
+        );
+      }
+      return voice;
+    } catch (error) {
+      failures.push(`${voice}: ${error.message}`);
+    }
+  }
+  throw new Error(`Edge 音轨生成失败：${failures.join("；")}`);
 }
 
 /** 为一组段落逐句合成到 public/audio/<unit>/,成功后登记进 manifest。 */
@@ -357,16 +427,21 @@ async function synthesizeUnit(unit, paragraphs, v) {
   const dir = resolve(AUDIO_DIR, unit);
   mkdirSync(dir, { recursive: true });
   try {
-    for (let i = 0; i < bodySentences.length; i++) {
-      const file = resolve(dir, `${i}.mp3`);
-      // 零字节视同缺失:合成偶发静默失败留下的空文件要重新合成
-      if (existsSync(file) && statSync(file).size > 0) continue;
-      writeFileSync(file, await speak(speechTextForUnit(bodySentences[i], unit), v));
+    let actualVoice = v.voice;
+    if (v.engine === "edge") {
+      actualVoice = await synthesizeEdgeUnit(unit, bodySentences, v.voice);
+    } else {
+      for (let i = 0; i < bodySentences.length; i++) {
+        const file = resolve(dir, `${i}.mp3`);
+        // 零字节视同缺失:合成偶发静默失败留下的空文件要重新合成
+        if (existsSync(file) && statSync(file).size > 0) continue;
+        writeFileSync(file, await speak(speechTextForUnit(bodySentences[i], unit), v));
+      }
     }
     manifest.speechTextVersions ??= {};
     manifest.speechTextVersions[unit] = SPEECH_TEXT_VERSION;
     manifest.slugs.push(unit);
-    console.log(`ok   ${unit}: ${bodySentences.length} 句 (${v.engine}/${v.voice})`);
+    console.log(`ok   ${unit}: ${bodySentences.length} 句 (${v.engine}/${actualVoice})`);
     return true;
   } catch (e) {
     console.log(`fail ${unit}: ${e.message}`);

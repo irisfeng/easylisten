@@ -48,7 +48,7 @@ jobs:
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
           MINIMAX_MAX_CHARS_PER_RUN: "12000"
           REQUIRE_AUDIO_CONTRACT: "true"
-        run: node scripts/synthesize.mjs
+        run: node scripts/run-synthesis-with-recovery.mjs
 
       - name: 提交音频
         env:

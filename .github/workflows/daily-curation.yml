@@ -128,7 +128,7 @@ jobs:
           REQUIRE_AUDIO_CONTRACT: "true"
           TARGET_AUDIO_SLUGS: ${{ inputs.repair_audio_slug }}
           FORCE_TARGET_AUDIO: ${{ inputs.repair_audio_slug != '' && 'true' || 'false' }}
-        run: node scripts/synthesize.mjs
+        run: node scripts/run-synthesis-with-recovery.mjs
 
       - name: 提交今日日刊
         if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
