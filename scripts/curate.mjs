@@ -1,6 +1,7 @@
 /**
  * 精选:读取 content/candidates.json,按 content/rubric.md 评分,
  * 把入选文章改写成中文听稿；同日重跑时替换当天旧刊。
+ * SUPPLEMENT_PICKS=2|3 时保留当天已发稿件，只追加补刊。
  *
  * 模型走 OpenAI 兼容接口,自动识别以下任一 key(GitHub Actions 中配为 secret):
  *   - DEEPSEEK_API_KEY   → DeepSeek(deepseek-chat)
@@ -17,6 +18,7 @@ import {
   buildCurationAttemptQueue,
   hasVerifiableSource,
   mergeDailyPieces,
+  mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
   selectCandidatePool,
@@ -44,10 +46,19 @@ const RAW_CANDIDATES = JSON.parse(
 const CANDIDATES = selectCandidatePool(RAW_CANDIDATES, 160);
 const DAILY = resolve(ROOT, "content/daily.json");
 
-// 编排:每期 2–6 篇浮动,只收达到质量门槛的;宁缺毋滥
+const requestedSupplementPicks = Number.parseInt(
+  process.env.SUPPLEMENT_PICKS ?? "0",
+  10,
+);
+if (![0, 2, 3].includes(requestedSupplementPicks)) {
+  throw new Error("SUPPLEMENT_PICKS 只能是 0、2 或 3");
+}
+const IS_SUPPLEMENT = requestedSupplementPicks > 0;
+
+// 编排:正刊每期 2–6 篇；补刊只追加 2–3 篇。全部仍须达到质量门槛。
 const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
-const MAX_PICKS = 6;
+const MAX_PICKS = IS_SUPPLEMENT ? requestedSupplementPicks : 6;
 // 主名单改写或事实二审失败后，最多继续尝试 10 篇同门槛候补。
 const MAX_CURATION_ATTEMPTS = 10;
 const QUALITY_BAR = 80;
@@ -130,6 +141,31 @@ const today =
 
 // 编排规则:连续 3 天缺席的领域提权,先从近三期日刊统计覆盖情况
 const existing = existsSync(DAILY) ? JSON.parse(readFileSync(DAILY, "utf8")) : [];
+const existingToday = existing.filter((piece) => piece.publishedAt === today);
+if (IS_SUPPLEMENT && existingToday.length === 0) {
+  throw new Error(`${today} 尚无已发日刊，不能执行补刊`);
+}
+const sourceRegistry = JSON.parse(
+  readFileSync(resolve(ROOT, "content/sources.json"), "utf8"),
+).sources;
+const regionBySource = new Map(
+  sourceRegistry.map((source) => [source.name, source.region ?? "international"]),
+);
+const existingRegionCounts = existingToday.reduce(
+  (counts, piece) => {
+    const region = piece.source?.region ?? regionBySource.get(piece.source?.name) ?? "international";
+    counts[region === "mainland" ? "mainland" : "international"] += 1;
+    return counts;
+  },
+  { mainland: 0, international: 0 },
+);
+const existingSources = existingToday
+  .map((piece) => piece.source?.name)
+  .filter(Boolean);
+const existingCategoryCounts = existingToday.reduce((counts, piece) => {
+  counts[piece.category] = (counts[piece.category] ?? 0) + 1;
+  return counts;
+}, {});
 const recentCats = new Set(
   existing
     .filter((p) => Date.now() - Date.parse(p.publishedAt) < 3 * 24 * 3600 * 1000)
@@ -144,7 +180,8 @@ const recentTitles = existing
   .map((p) => p.source?.originalTitle || p.title);
 
 // 周六(以北京日期计)额外出一篇"周末深读"
-const isSaturday = new Date(`${today}T00:00:00Z`).getUTCDay() === 6;
+const isSaturday =
+  !IS_SUPPLEMENT && new Date(`${today}T00:00:00Z`).getUTCDay() === 6;
 
 // 第一步:全量评分,选出今日入选名单(结构化输出保证可解析)。
 function freshnessLabel(publishedAt) {
@@ -161,7 +198,7 @@ const menu = CANDIDATES.map(
 
 const scoreResult = await chatJson(
   `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
-  `今天是北京时间 ${today}。以下是候选池。为每篇打分,并按编排规则选出今天的节目单:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
+  `今天是北京时间 ${today}。以下是候选池。${IS_SUPPLEMENT ? `这是补刊：今日已有 ${existingToday.length} 篇（国内 ${existingRegionCounts.mainland} / 国际 ${existingRegionCounts.international}），必须保留已发稿，只从候选中新增 ${MIN_PICKS}–${MAX_PICKS} 篇。` : ""}为每篇打分,并按编排规则选出今天的${IS_SUPPLEMENT ? "补刊" : "节目单"}:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
 少年适配:听众固定分为 6-9、10-12、13-16 三个年龄段,选择者是家长。每期至少 2 篇应让 6-9 或 10-12 岁孩子无需额外背景也能听懂;候选标注的“最低适龄”是代码硬下限,不得向下误标。战争、灾难、犯罪和死亡等沉重议题最多 1 篇且避免细节渲染。纯游戏/影视/新品官宣、销量战报和阵容清单不入选,除非文章提供创作、技术、产业或文化层面的解释。单一小样本健康研究不得被包装成普遍结论或行动建议。
 中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
@@ -411,6 +448,7 @@ for (const pick of regularPicks) {
       form: "pick",
       source: {
         name: c.sourceName,
+        region: c.region,
         url: c.link,
         originalTitle: c.title,
         publishedAt: c.publishedAt || undefined,
@@ -434,12 +472,18 @@ for (const pick of regularPicks) {
     const preview = selectPublishableEntries(regularDrafts, CANDIDATES, {
       qualityBar: QUALITY_BAR,
       maxPicks: MAX_PICKS,
+      initialRegionCounts: existingRegionCounts,
+      initialSources: existingSources,
+      initialCategoryCounts: existingCategoryCounts,
     });
     const bilingualReady = preview.filter(
       (draft) => draft.hasFullText && draft.score >= 85,
     ).length;
-    if (preview.length >= MAX_PICKS && bilingualReady >= 3) {
-      console.log("候选备份已充足：最终可编排 6 篇、国内国际数量均衡，停止额外模型调用");
+    if (preview.length >= MAX_PICKS && (IS_SUPPLEMENT || bilingualReady >= 3)) {
+      console.log(
+        `候选备份已充足：${IS_SUPPLEMENT ? "补刊" : "正刊"}可编排 ${preview.length} 篇、` +
+          "国内国际数量均衡，停止额外模型调用",
+      );
       break;
     }
   } catch (e) {
@@ -449,8 +493,10 @@ for (const pick of regularPicks) {
 
 const finalRegular = selectPublishableEntries(regularDrafts, CANDIDATES, {
   qualityBar: QUALITY_BAR,
-  minPicks: MIN_PICKS,
   maxPicks: MAX_PICKS,
+  initialRegionCounts: existingRegionCounts,
+  initialSources: existingSources,
+  initialCategoryCounts: existingCategoryCounts,
 });
 if (finalRegular.length < MIN_PICKS) {
   throw new Error(
@@ -513,6 +559,7 @@ if (deepValid) {
           shelf: "evergreen",
           source: {
             name: c.sourceName,
+            region: c.region,
             url: c.link,
             originalTitle: c.title,
             lang: c.lang,
@@ -536,13 +583,17 @@ function slugify(s) {
 // 每天精选 1-2 篇中英双语：英文是基于同一完整原文的独立听稿，并接受与
 // 中文稿相同的事实二审。按质量与领域排好全部合格候选，前一篇失败就继续
 // 尝试下一篇，直到两篇成功或候选耗尽；低于 85 分和无全文稿始终不进入队列。
-const bilingualPicks = rankBilingualCandidates(bilingualCandidates);
+const existingBilingualCount = existingToday.filter((piece) => piece.en).length;
+const bilingualSlots = Math.max(0, 2 - existingBilingualCount);
+const bilingualPicks = bilingualSlots
+  ? rankBilingualCandidates(bilingualCandidates)
+  : [];
 console.log(
   `双语候选 ${bilingualCandidates.length} → 尝试队列 ${bilingualPicks.length}: ${bilingualPicks.map((item) => item.c.title).join(" / ") || "无"}`,
 );
 let bilingualPublished = 0;
 for (const bilingual of bilingualPicks) {
-  if (bilingualPublished >= 2) break;
+  if (bilingualPublished >= bilingualSlots) break;
   try {
     const en = await chatJson(
       `You are a writer for "EasyListen", a daily listening digest. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.`,
@@ -574,7 +625,7 @@ for (const bilingual of bilingualPicks) {
     console.log(`英文稿生成失败(跳过): ${e.message}`);
   }
 }
-if (bilingualPublished < 1) {
+if (existingBilingualCount + bilingualPublished < 1) {
   throw new Error("每日发布契约未满足：必须有 1-2 篇通过完整原文与事实二审的中英双语稿");
 }
 
@@ -584,17 +635,27 @@ if (pieces.length === 0) {
     "本期没有生成任何可发布听稿：不写入日刊和主编记录，让任务失败并保留自动重试能力。",
   );
 }
-const merged = mergeDailyPieces(pieces, existing, today);
+const merged = IS_SUPPLEMENT
+  ? mergeSupplementPieces(
+      pieces,
+      existing,
+      today,
+      Math.min(6, existingToday.length + MAX_PICKS),
+    )
+  : mergeDailyPieces(pieces, existing, today);
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
 
 // 主编的话:点出今天几篇之间的隐线。生成失败只跳过,不影响出刊。
 if (pieces.length > 0) {
   const EDITORIAL = resolve(ROOT, "content/editorial.json");
+  const issuePieces = IS_SUPPLEMENT
+    ? merged.filter((piece) => piece.publishedAt === today)
+    : pieces;
   try {
     const r = await chatJson(
       `你是"轻听"的主编。按评分标准里的"主编的话"要求工作:语气克制、有判断,不逐篇罗列,不喊口号,不用感叹号。\n\n${RUBRIC}`,
-      `今天的节目单如下,请写一段 60–100 字的"主编的话"。\n\n${pieces.map((p) => `《${p.title}》——${p.intro}`).join("\n")}\n\n以 JSON 返回:{"note": "主编的话"}。`,
+      `今天的节目单如下,请写一段 60–100 字的"主编的话"。\n\n${issuePieces.map((p) => `《${p.title}》——${p.intro}`).join("\n")}\n\n以 JSON 返回:{"note": "主编的话"}。`,
       "主编导语",
     );
     if (typeof r.note === "string" && r.note.trim()) {

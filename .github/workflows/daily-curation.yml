@@ -18,6 +18,15 @@ on:
         required: false
         type: string
         default: ""
+      supplement_picks:
+        description: "保留今日已发内容，追加 2 或 3 篇补刊"
+        required: false
+        type: choice
+        options:
+          - "0"
+          - "2"
+          - "3"
+        default: "0"
 
 permissions:
   contents: write
@@ -48,6 +57,7 @@ jobs:
         id: cost_guard
         env:
           FORCE_REGENERATE: ${{ inputs.force_regenerate || 'false' }}
+          SUPPLEMENT_PICKS: ${{ inputs.supplement_picks || '0' }}
         run: node scripts/check-daily-run.mjs
 
       - uses: actions/setup-node@v4
@@ -81,6 +91,7 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           ISSUE_DATE: ${{ env.ISSUE_DATE }}
+          SUPPLEMENT_PICKS: ${{ inputs.supplement_picks || '0' }}
         run: node scripts/curate.mjs
 
       - name: 按需生成编辑缩略图

@@ -10,6 +10,7 @@ import {
   composeDailyPicks,
   hasVerifiableSource,
   mergeDailyPieces,
+  mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
   selectCandidatePool,
@@ -256,6 +257,27 @@ test("同一天重跑会替换旧刊而不是继续追加", () => {
   );
 });
 
+test("补刊保留当日已发内容，只追加新稿且不重复", () => {
+  const existing = [
+    { slug: "today-domestic", publishedAt: "2026-07-21" },
+    { slug: "today-international", publishedAt: "2026-07-21" },
+    { slug: "yesterday", publishedAt: "2026-07-20" },
+  ];
+  const additions = [
+    { slug: "today-domestic", publishedAt: "2026-07-21" },
+    { slug: "new-one", publishedAt: "2026-07-21" },
+    { slug: "new-two", publishedAt: "2026-07-21" },
+    { slug: "new-three", publishedAt: "2026-07-21" },
+  ];
+
+  const merged = mergeSupplementPieces(additions, existing, "2026-07-21", 5);
+
+  assert.deepEqual(
+    merged.map((piece) => piece.slug),
+    ["today-domestic", "today-international", "new-one", "new-two", "new-three", "yesterday"],
+  );
+});
+
 test("一侧合格稿不足时允许另一侧多一篇，不会收缩到对称的两篇", () => {
   const candidates = [
     { sourceName: "科学网", region: "mainland" },
@@ -319,4 +341,47 @@ test("双方都有足量合格稿时六篇 3+3、五篇 3+2", () => {
     five.filter((pick) => candidates[pick.index].region === "international").length,
     3,
   );
+});
+
+test("补刊编排会把新稿优先补到当日欠缺的地域", () => {
+  const candidates = [
+    { sourceName: "国际一", region: "international" },
+    { sourceName: "国际二", region: "international" },
+    { sourceName: "国内一", region: "mainland" },
+    { sourceName: "国内二", region: "mainland" },
+  ];
+  const rawPicks = [
+    { index: 0, score: 96, category: "tech" },
+    { index: 1, score: 95, category: "science" },
+    { index: 2, score: 84, category: "society" },
+    { index: 3, score: 83, category: "culture" },
+  ];
+
+  const selected = composeDailyPicks(rawPicks, candidates, {
+    maxPicks: 2,
+    initialRegionCounts: { mainland: 2, international: 0 },
+  });
+
+  assert.deepEqual(selected.map((pick) => pick.index), [0, 1]);
+});
+
+test("补刊将当日已用来源和领域上限纳入编排", () => {
+  const candidates = [
+    { sourceName: "已用来源", region: "international" },
+    { sourceName: "新科学源", region: "international" },
+    { sourceName: "新人文源", region: "mainland" },
+  ];
+  const rawPicks = [
+    { index: 0, score: 96, category: "culture" },
+    { index: 1, score: 95, category: "science" },
+    { index: 2, score: 84, category: "humanities" },
+  ];
+
+  const selected = composeDailyPicks(rawPicks, candidates, {
+    maxPicks: 2,
+    initialSources: ["已用来源"],
+    initialCategoryCounts: { science: 2 },
+  });
+
+  assert.deepEqual(selected.map((pick) => pick.index), [2]);
 });

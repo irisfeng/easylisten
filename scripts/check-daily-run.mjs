@@ -11,17 +11,23 @@ const issueDate =
   process.env.ISSUE_DATE ||
   new Date().toLocaleDateString("sv", { timeZone: "Asia/Shanghai" });
 const forced = process.env.FORCE_REGENERATE === "true";
+const supplementPicks = Number.parseInt(process.env.SUPPLEMENT_PICKS ?? "0", 10);
+if (![0, 2, 3].includes(supplementPicks)) {
+  throw new Error("SUPPLEMENT_PICKS 只能是 0、2 或 3");
+}
 const editorial = JSON.parse(
   readFileSync(resolve(root, "content/editorial.json"), "utf8"),
 );
 const alreadyPublished = editorial.some((issue) => issue.date === issueDate);
-const shouldRun = forced || !alreadyPublished;
+const shouldRun = forced || supplementPicks > 0 || !alreadyPublished;
 
 if (process.env.GITHUB_OUTPUT) {
   appendFileSync(process.env.GITHUB_OUTPUT, `should_run=${shouldRun}\n`);
 }
 
-if (!shouldRun) {
+if (supplementPicks > 0) {
+  console.log(`${issueDate} 允许补刊 ${supplementPicks} 篇：保留已发内容并调用付费模型。`);
+} else if (!shouldRun) {
   console.log(`${issueDate} 已出刊：跳过选稿、MiniMax 与生图，避免重复计费。`);
   console.log("如确需替换当天内容，请手动运行并显式勾选 force_regenerate。 ");
 } else if (forced) {

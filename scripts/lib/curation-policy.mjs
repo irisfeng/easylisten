@@ -72,6 +72,27 @@ export function mergeDailyPieces(pieces, existing, issueDate, limit = 60) {
   return [...pieces, ...previousIssues].slice(0, limit);
 }
 
+/** 补刊只在当日已发内容后追加新稿，不替换已发稿件或重复 slug。 */
+export function mergeSupplementPieces(
+  additions,
+  existing,
+  issueDate,
+  maxIssuePicks = 6,
+  limit = 60,
+) {
+  const currentIssue = existing.filter((piece) => piece.publishedAt === issueDate);
+  const previousIssues = existing.filter((piece) => piece.publishedAt !== issueDate);
+  const seen = new Set(currentIssue.map((piece) => piece.slug));
+  const accepted = [];
+  for (const piece of additions) {
+    if (currentIssue.length + accepted.length >= maxIssuePicks) break;
+    if (!piece?.slug || seen.has(piece.slug)) continue;
+    seen.add(piece.slug);
+    accepted.push(piece);
+  }
+  return [...currentIssue, ...accepted, ...previousIssues].slice(0, limit);
+}
+
 /**
  * 把模型提名收紧为可发布节目单。模型负责判断内容质量，代码负责不可妥协的
  * 结构约束：质量门槛、同源去重、领域上限，以及国内与国际视野的动态均衡。
@@ -81,7 +102,13 @@ export function mergeDailyPieces(pieces, existing, issueDate, limit = 60) {
 export function composeDailyPicks(
   rawPicks,
   candidates,
-  { qualityBar = 80, maxPicks = 6 } = {},
+  {
+    qualityBar = 80,
+    maxPicks = 6,
+    initialRegionCounts = { mainland: 0, international: 0 },
+    initialSources = [],
+    initialCategoryCounts = {},
+  } = {},
 ) {
   const eligible = rawPicks
     .map((pick, order) => ({ pick, order, candidate: candidates[pick.index] }))
@@ -92,8 +119,13 @@ export function composeDailyPicks(
     .sort((a, b) => b.pick.score - a.pick.score || a.order - b.order);
 
   const selected = [];
-  const sources = new Set();
-  const categoryCounts = new Map();
+  const sources = new Set(initialSources);
+  const categoryCounts = new Map(
+    Object.entries(initialCategoryCounts).map(([category, count]) => [
+      category,
+      Math.max(0, Number(count) || 0),
+    ]),
+  );
   const canAdd = (entry) =>
     !sources.has(entry.candidate.sourceName) &&
     (categoryCounts.get(entry.pick.category) ?? 0) < 2;
@@ -113,10 +145,17 @@ export function composeDailyPicks(
     // 两边轮流取当前最高分可用稿。某一侧耗尽时，另一侧最多再多一篇，
     // 因此最终数量差不超过 1；不会像旧逻辑那样强制对称并收缩到 2 篇。
     while (selected.length < maxPicks) {
-      const mainlandCount = selected.filter(
+      const selectedMainland = selected.filter(
         ({ candidate }) => candidate.region === "mainland",
       ).length;
-      const internationalCount = selected.length - mainlandCount;
+      const initialMainland = Math.max(0, Number(initialRegionCounts.mainland) || 0);
+      const initialInternational = Math.max(
+        0,
+        Number(initialRegionCounts.international) || 0,
+      );
+      const mainlandCount = initialMainland + selectedMainland;
+      const internationalCount =
+        initialInternational + selected.length - selectedMainland;
       const requiredRegion =
         mainlandCount < internationalCount
           ? "mainland"
