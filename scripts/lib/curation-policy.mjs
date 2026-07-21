@@ -123,6 +123,30 @@ export function regionCountsForPicks(
 }
 
 /**
+ * 计算模型主名单与普通候补中，两个地域还缺多少同门槛专项候补。
+ * 只统计有效索引和达到质量线的提名；语言不能代替发布者地域。
+ */
+export function regionalReserveNeeds(
+  rawPicks,
+  rawReserves,
+  candidates,
+  { qualityBar = 80, targetPerRegion = 5 } = {},
+) {
+  const counts = { mainland: 0, international: 0 };
+  for (const pick of [...rawPicks, ...rawReserves]) {
+    if (!Number.isInteger(pick?.index) || !Number.isInteger(pick.score)) continue;
+    if (pick.score < qualityBar) continue;
+    const candidate = candidates[pick.index];
+    if (!candidate) continue;
+    counts[candidate.region === "mainland" ? "mainland" : "international"] += 1;
+  }
+  return {
+    mainland: Math.max(0, targetPerRegion - counts.mainland),
+    international: Math.max(0, targetPerRegion - counts.international),
+  };
+}
+
+/**
  * 把模型提名收紧为可发布节目单。模型负责判断内容质量，代码负责不可妥协的
  * 结构约束：质量门槛、同源去重、领域上限，以及国内与国际视野的动态均衡。
  * 双方都有合格稿时交替选择各自当前最高分稿，最终数量差不超过 1；一侧候选

@@ -13,6 +13,7 @@ import {
   mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
+  regionalReserveNeeds,
   regionCountsForPicks,
   selectCandidatePool,
   selectBilingualCandidates,
@@ -175,6 +176,47 @@ test("主名单失败后候补按相同门槛进入尝试队列", () => {
     candidates,
   );
   assert.deepEqual(publishable.map((entry) => entry.marker), ["draft-1", "draft-2"]);
+});
+
+test("正刊候选梯队缺少某一地域时触发专项候补，均衡时不额外扩容", () => {
+  const candidates = [
+    ...Array.from({ length: 6 }, (_, index) => ({
+      sourceName: `国际源${index}`,
+      region: "international",
+    })),
+    ...Array.from({ length: 5 }, (_, index) => ({
+      sourceName: `国内源${index}`,
+      region: "mainland",
+    })),
+  ];
+  const internationalOnly = Array.from({ length: 6 }, (_, index) => ({
+    index,
+    score: 85,
+    category: "science",
+  }));
+  assert.deepEqual(
+    regionalReserveNeeds(internationalOnly, [], candidates, {
+      qualityBar: 80,
+      targetPerRegion: 5,
+    }),
+    { mainland: 5, international: 0 },
+  );
+
+  const balanced = [
+    ...internationalOnly.slice(0, 5),
+    ...Array.from({ length: 5 }, (_, index) => ({
+      index: index + 6,
+      score: 85,
+      category: "humanities",
+    })),
+  ];
+  assert.deepEqual(
+    regionalReserveNeeds(balanced, [], candidates, {
+      qualityBar: 80,
+      targetPerRegion: 5,
+    }),
+    { mainland: 0, international: 0 },
+  );
 });
 
 test("补刊尝试队列不再消耗在当日已用来源或已满领域", () => {

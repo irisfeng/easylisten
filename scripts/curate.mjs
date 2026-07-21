@@ -21,6 +21,7 @@ import {
   mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
+  regionalReserveNeeds,
   regionCountsForPicks,
   selectCandidatePool,
   selectPublishableEntries,
@@ -62,8 +63,9 @@ const IS_SUPPLEMENT = requestedSupplementPicks > 0;
 const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
 const MAX_PICKS = IS_SUPPLEMENT ? requestedSupplementPicks : 6;
-// 补刊需要给欠缺地域更大的事实二审尝试面；正刊仍控制在 10 篇。
-const MAX_CURATION_ATTEMPTS = IS_SUPPLEMENT ? 14 : 10;
+// 正刊与补刊都给欠缺地域足够的全文取得和事实二审尝试面。
+const MAX_CURATION_ATTEMPTS = 14;
+const MAX_RESERVE_NOMINATIONS = 24;
 const QUALITY_BAR = 80;
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
@@ -224,20 +226,18 @@ ${menu}`,
 const rawPicks = Array.isArray(scoreResult.picks) ? scoreResult.picks : [];
 let rawReserves = Array.isArray(scoreResult.reserves) ? scoreResult.reserves : [];
 
-// 补刊不能把地域均衡交给单次模型提名碰运气。若某一侧在主名单+
-// 候补中少于 8 篇，单独从该侧候选池补评；补评稿仍必须达到 80 分。
-if (IS_SUPPLEMENT) {
+// 正刊和补刊都不能把地域均衡交给单次模型提名碰运气。正刊每侧至少保留
+// 5 篇同门槛候选，补刊因已有来源/领域约束提高到 8 篇；不足时单独补评。
+{
+  const targetPerRegion = IS_SUPPLEMENT ? 8 : 5;
+  const needs = regionalReserveNeeds(rawPicks, rawReserves, CANDIDATES, {
+    qualityBar: QUALITY_BAR,
+    targetPerRegion,
+  });
   const seen = new Set([...rawPicks, ...rawReserves].map((pick) => pick.index));
   const regionalReserves = [];
   for (const region of ["mainland", "international"]) {
-    const current = [...rawPicks, ...rawReserves].filter(
-      (pick) =>
-        Number.isInteger(pick?.index) &&
-        CANDIDATES[pick.index]?.region === region &&
-        Number.isInteger(pick.score) &&
-        pick.score >= QUALITY_BAR,
-    ).length;
-    const needed = Math.max(0, 8 - current);
+    const needed = needs[region];
     if (needed === 0) continue;
     const regionalMenu = CANDIDATES.map((candidate, index) => ({ candidate, index }))
       .filter(
@@ -255,7 +255,7 @@ if (IS_SUPPLEMENT) {
     if (!regionalMenu) continue;
     const result = await chatJson(
       `你是"轻听"的候补编辑。先重温产品核心，再严格按评分标准为欠缺地域补评候选，不得降低 ${QUALITY_BAR} 分门槛。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
-      `今日补刊的${region === "mainland" ? "国内" : "国际"}候选不足。从以下候选中最多选 ${needed} 篇真正达到 ${QUALITY_BAR} 分的稿件，优先不同来源和领域。只能使用列出的 index。\n\n以 JSON 返回:{"reserves":[{"index":整数,"score":整数,"category":"science|tech|society|humanities|living|culture","topics":["话题"],"reason":"理由"}]}\n\n${regionalMenu}`,
+      `今日${IS_SUPPLEMENT ? "补刊" : "正刊"}的${region === "mainland" ? "国内" : "国际"}候选不足。从以下候选中最多选 ${needed} 篇真正达到 ${QUALITY_BAR} 分的稿件，优先不同来源和领域。只能使用列出的 index。\n\n以 JSON 返回:{"reserves":[{"index":整数,"score":整数,"category":"science|tech|society|humanities|living|culture","topics":["话题"],"reason":"理由"}]}\n\n${regionalMenu}`,
       `地域候补(${region})`,
       0.2,
     );
@@ -276,7 +276,7 @@ if (IS_SUPPLEMENT) {
       `${region === "mainland" ? "国内" : "国际"}专项候补: 需要 ${needed} 篇，获得 ${additions.length} 篇`,
     );
   }
-  // 专项候补放在普通候补前，避免被最多 10 篇的尝试队列截断。
+  // 专项候补放在普通候补前，避免被事实二审尝试上限截断。
   rawReserves = [...regionalReserves, ...rawReserves];
 }
 const shortlist = [...rawPicks, ...rawReserves];
@@ -284,8 +284,8 @@ const indexes = shortlist.map((p) => p.index);
 const structValid =
   rawPicks.length >= 1 &&
   rawPicks.length <= MAX_PICKS &&
-  rawReserves.length <= (IS_SUPPLEMENT ? 16 : 6) &&
-  indexes.length <= MAX_PICKS + (IS_SUPPLEMENT ? 16 : 6) &&
+  rawReserves.length <= MAX_RESERVE_NOMINATIONS &&
+  indexes.length <= MAX_PICKS + MAX_RESERVE_NOMINATIONS &&
   indexes.every((i) => Number.isInteger(i) && i >= 0 && i < CANDIDATES.length) &&
   new Set(indexes).size === indexes.length;
 if (!structValid) throw new Error("评分:未返回有效且唯一的 picks/reserves");
