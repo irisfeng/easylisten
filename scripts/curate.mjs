@@ -34,6 +34,8 @@ import {
 } from "./lib/fact-review.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
+// 每日精选先重温产品核心。它不是独立宣传文案，而是选题与改写的最高层约束。
+const PRODUCT_CORE = readFileSync(resolve(ROOT, "docs/product-core.md"), "utf8");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
 const EDITORIAL_POLICY = JSON.parse(
   readFileSync(resolve(ROOT, "content/editorial-policy.json"), "utf8"),
@@ -199,7 +201,7 @@ const menu = CANDIDATES.map(
 ).join("\n\n");
 
 const scoreResult = await chatJson(
-  `你是"轻听"的主编。严格按下面的评分标准与编排规则挑选内容,宁缺毋滥。\n\n${RUBRIC}`,
+  `你是"轻听"的主编。每天工作前先重温产品核心，再严格按评分标准与编排规则挑选内容，宁缺毋滥。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
   `今天是北京时间 ${today}。以下是候选池。${IS_SUPPLEMENT ? `这是补刊：今日已有 ${existingToday.length} 篇（国内 ${existingRegionCounts.mainland} / 国际 ${existingRegionCounts.international}），必须保留已发稿，只从候选中新增 ${MIN_PICKS}–${MAX_PICKS} 篇。` : ""}为每篇打分,并按编排规则选出今天的${IS_SUPPLEMENT ? "补刊" : "节目单"}:${MIN_PICKS}–${MAX_PICKS} 篇,只选 ${QUALITY_BAR} 分及以上的;达标的少就少选,宁缺毋滥(同一领域最多 2 篇)。
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
 少年适配:听众固定分为 6-9、10-12、13-16 三个年龄段,选择者是家长。每期至少 2 篇应让 6-9 或 10-12 岁孩子无需额外背景也能听懂;候选标注的“最低适龄”是代码硬下限,不得向下误标。战争、灾难、犯罪和死亡等沉重议题最多 1 篇且避免细节渲染。纯游戏/影视/新品官宣、销量战报和阵容清单不入选,除非文章提供创作、技术、产业或文化层面的解释。单一小样本健康研究不得被包装成普遍结论或行动建议。
@@ -252,7 +254,7 @@ if (IS_SUPPLEMENT) {
       .join("\n\n");
     if (!regionalMenu) continue;
     const result = await chatJson(
-      `你是"轻听"的候补编辑。严格按评分标准为欠缺地域补评候选，不得降低 ${QUALITY_BAR} 分门槛。\n\n${RUBRIC}`,
+      `你是"轻听"的候补编辑。先重温产品核心，再严格按评分标准为欠缺地域补评候选，不得降低 ${QUALITY_BAR} 分门槛。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
       `今日补刊的${region === "mainland" ? "国内" : "国际"}候选不足。从以下候选中最多选 ${needed} 篇真正达到 ${QUALITY_BAR} 分的稿件，优先不同来源和领域。只能使用列出的 index。\n\n以 JSON 返回:{"reserves":[{"index":整数,"score":整数,"category":"science|tech|society|humanities|living|culture","topics":["话题"],"reason":"理由"}]}\n\n${regionalMenu}`,
       `地域候补(${region})`,
       0.2,
@@ -473,7 +475,7 @@ for (const pick of regularPicks) {
     const material = `原文全文(Markdown,可能截断):\n${fullText.slice(0, FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。`;
     console.log(`素材: ${c.title} → 全文 ${fullText.length} 字`);
     const script = await chatJson(
-      `你是"轻听"的撰稿人。按评分标准里的"听稿改写要求"工作。\n\n${RUBRIC}`,
+      `你是"轻听"的撰稿人。先重温产品核心，再按评分标准里的"听稿改写要求"工作。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
       `把下面这篇内容改写成中文听稿。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n${material}\n\n同时判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。按概念难度、情绪安全和孩子能否独立听懂选择一个或多个，不因题材“高级”就机械排除低龄。${c.minAgeBand ? `该来源的保守最低适龄段是 ${c.minAgeBand}，不得返回更低年龄段；这只是下限，具体文章仍可只标更高年龄段。` : ""}\n\n以 JSON 返回,格式为 {"title": "中文标题,首先清楚准确,再求凝练有余味;不用冒号堆砌,不造含混短语,数字必须说清对象与关系", "intro": "一句话导语", "paragraphs": ["3-6 段听稿正文,每段一个字符串"], "ageBands": ["6-9", "10-12", "13-16"]}。`,
       `听稿(${c.title})`,
     );
@@ -603,7 +605,7 @@ if (deepValid) {
     } else {
       console.log(`深读素材: ${c.title} → 全文 ${fullText.length} 字`);
       const script = await chatJson(
-        `你是"轻听"的撰稿人。按评分标准里的"周末深读改写要求"工作。\n\n${RUBRIC}`,
+        `你是"轻听"的撰稿人。先重温产品核心，再按评分标准里的"周末深读改写要求"工作。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
         `把下面这篇长文改写成"周末深读"中文听稿:2200–3500 字、7–12 段。不是把短稿拉长,而是保留原文的论证层次、关键细节与转折;开头一段交代为什么值得花十分钟听它。\n\n标题:${c.title}\n来源:${c.sourceName}\n原文链接:${c.link}\n原文全文(Markdown,可能截断):\n${fullText.slice(0, DEEP_FULLTEXT_LIMIT)}\n\n注意:严格基于原文转述,不得添加原文没有的事实。判断适龄段：6-9 为小学低年级，10-12 为小学高年级，13-16 为初中。\n\n以 JSON 返回,格式为 {"title": "中文标题,凝练有余味", "intro": "一句话导语", "paragraphs": ["每段一个字符串"], "ageBands": ["10-12", "13-16"]}。`,
         `深读(${c.title})`,
       );
@@ -679,7 +681,7 @@ for (const bilingual of bilingualPicks) {
   if (bilingualPublished >= bilingualSlots) break;
   try {
     const en = await chatJson(
-      `You are a writer for "EasyListen", a daily listening digest. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.`,
+      `You are a writer for "EasyListen", a daily listening digest for children and teenagers aged 6-16, chosen and trusted by their parents. First follow the product core below. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.\n\nDAILY PRODUCT CORE:\n${PRODUCT_CORE}`,
       `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
       `英文稿(${bilingual.c.title})`,
     );
@@ -737,7 +739,7 @@ if (pieces.length > 0) {
     : pieces;
   try {
     const r = await chatJson(
-      `你是"轻听"的主编。按评分标准里的"主编的话"要求工作:语气克制、有判断,不逐篇罗列,不喊口号,不用感叹号。\n\n${RUBRIC}`,
+      `你是"轻听"的主编。先重温产品核心，再按评分标准里的"主编的话"要求工作：语气克制、有判断，不逐篇罗列，不喊口号，不用感叹号。\n\n【每日重温的产品核心】\n${PRODUCT_CORE}\n\n【编辑评分标准】\n${RUBRIC}`,
       `今天的节目单如下,请写一段 60–100 字的"主编的话"。\n\n${issuePieces.map((p) => `《${p.title}》——${p.intro}`).join("\n")}\n\n以 JSON 返回:{"note": "主编的话"}。`,
       "主编导语",
     );

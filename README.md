@@ -13,6 +13,8 @@
     ·
     <a href="./content/rubric.md">编辑标准</a>
     ·
+    <a href="./docs/product-core.md">产品核心</a>
+    ·
     <a href="./docs/product-design-principles.md">产品原则</a>
   </p>
   <p>
@@ -70,6 +72,7 @@
 国内现实与国际视野按数量近似 1:1 动态均衡：双方有足量达标内容时，
 最终篇数差不超过 1；不为凑比例降低质量门槛。完整准入规则和配置可以直接查看：
 
+- [`docs/product-core.md`](./docs/product-core.md)：每天开始前重温的用户、核心功能与决策边界
 - [`content/rubric.md`](./content/rubric.md)：编辑评分、少年适配、双语与发布红线
 - [`content/sources.json`](./content/sources.json)：受控来源、角色、时效窗口与最低适龄段
 - [`docs/source-review-2026-07-19.md`](./docs/source-review-2026-07-19.md)：来源核查与扩充记录

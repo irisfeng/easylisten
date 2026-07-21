@@ -28,6 +28,21 @@ import {
 const editorialPolicy = JSON.parse(
   readFileSync(resolve(import.meta.dirname, "../content/editorial-policy.json"), "utf8"),
 );
+const productCore = readFileSync(
+  resolve(import.meta.dirname, "../docs/product-core.md"),
+  "utf8",
+);
+const curateSource = readFileSync(resolve(import.meta.dirname, "curate.mjs"), "utf8");
+
+test("每日精选重温目标用户与产品核心", () => {
+  assert.match(productCore, /主要收听者：6–16 岁的孩子和少年/);
+  assert.match(productCore, /关键决策者：家长/);
+  assert.match(productCore, /可信内容精选/);
+  assert.match(productCore, /少年适配的听稿编辑/);
+  assert.match(productCore, /可靠的移动收听体验/);
+  assert.match(curateSource, /docs\/product-core\.md/);
+  assert.match(curateSource, /【每日重温的产品核心】/);
+});
 
 test("编辑策略版本已存档并与国内国际候选池规则同步", () => {
   assert.match(editorialPolicy.version, /^\d{4}-\d{2}-\d{2}\.\d+$/);

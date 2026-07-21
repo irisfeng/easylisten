@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-21.1",
-  "effectiveFrom": "2026-07-21",
+  "version": "2026-07-22.1",
+  "effectiveFrom": "2026-07-22",
   "regionBalance": {
     "candidatePoolMinimumSharePerRegion": 0.45,
     "publishedEdition": "when both regions have enough qualified entries, keep domestic and international counts within one; continue with reserves from the underrepresented region before finalizing; never lower the quality bar"
