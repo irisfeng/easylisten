@@ -126,6 +126,144 @@
         "correctionCount": 9,
         "attempts": 1
       }
+    },
+    "image": {
+      "src": "/editorial/2026-07-21/2026-07-21-chatty-cats-and-talking-dogs-could-one-day-speak.webp",
+      "alt": "A cat and a dog with a glowing device between them",
+      "caption": "动物与人类之间的翻译器或许不再是幻想。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-21-why-people-are-ordering-fake-food-and-fashion-de",
+    "editorialPolicyVersion": "2026-07-21.1",
+    "title": "点一份永远不会到的外卖，为什么能让人快乐？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-21",
+    "intro": "有人专门下载永远不会送餐的外卖App、永远不会发货的购物网站，只为享受下单那一刻的快感。这种被称为“dopamine apps”或“dopamine sites”的新潮流，最初出现在韩国，背后涉及大脑的奖励机制，也带来广告和数据追踪的问题。",
+    "paragraphs": [
+      "周六晚上，你下载了一个新的外卖App，浏览菜单、选了墨西哥菜、下了单，然后开始追踪配送进度。但你的食物永远不会到——而且你从一开始就没指望它会到。这听起来很荒谬，但这个病毒式的趋势比你想象的更受欢迎。仅FoodNeverComes这一个App，就宣称已实现近100万次“cravings satisfied”。",
+      "为什么有人愿意花时间在这些永远不会送达的App或网站上？归根结底，是为了获得多巴胺。多巴胺是一种强大的神经递质，也是一种神经调质，它在脑中发送化学信息并引发变化。它激励我们追求目标，帮助大脑学习哪些行为能带来好结果。在这些平台上，用户会经历期待、选择以及系统确认。唯一缺少的环节，就是真正的“收到货”。",
+      "其实，在这些新App出现之前，已经有人通过创建Amazon心愿单，或装满购物车后删除（且不进行任何购买），来获得类似的购物快感。在Pinterest上创建梦想家园的图板，或者用旅行规划App想象完美假期，都能模拟出同样的感觉。",
+      "不过，这些看似无害的App可能带来一些隐患。一项2014年针对409人的研究发现，玩社交赌场游戏（从未用真钱赌博）的人中，约26%在半年后转向了真实在线赌博；一项2016年针对521名社交赌场用户的研究发现，19%的人报告因社交赌场游戏而开始用真钱赌博；一项2018年针对1178名德国青少年（11至19岁）的研究发现，参与模拟赌博的行为可预测一年后真实金钱赌博的发生。虽然这些平台是否也会成为“gateway behaviours”还需要更多研究，但过去关于赌博和游戏的研究确实提出了担忧。",
+      "另一个问题是广告和隐私。免费App通常靠广告赚钱，它们会在你的浏览器里留下Cookie，记录你的浏览习惯。第三方广告商（比如Google）就能根据你的历史推送更精准的广告。如果你在Dopamine Shop上‘买’了一件夹克，或者在FoodNeverComes上‘点’了一份外卖，别惊讶接下来会看到更多真实商品的相关广告。",
+      "所以，享受这种伪消费的快乐本身没问题，但也要留意——你的每一次虚假订单行为，都在帮广告商更了解真实的你。"
+    ],
+    "topics": [
+      "数字生活",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/why-people-are-ordering-fake-food-and-fashion-deliveries-on-free-dopamine-apps-287690",
+      "originalTitle": "Why people are ordering fake food and fashion deliveries on free ‘dopamine apps’",
+      "publishedAt": "2026-07-21T02:01:58Z",
+      "retrievedAt": "2026-07-21T09:14:04.369Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T09:14:03.010Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 12,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-07-21-reverse-engineering-is-cheap-now",
+    "editorialPolicyVersion": "2026-07-21.1",
+    "title": "逆向工程变便宜了",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-21",
+    "intro": "2026年7月20日，Simon Willison指出：如今逆向工程家庭设备的成本已大幅降低。",
+    "paragraphs": [
+      "近期，多人通过编码代理（coding agents）对家中设备开展逆向工程并实现自动化。这体现了编写代码成本下降带来的影响。",
+      "过去，逆向工程家庭设备本就可行，但投入产出比（ROI）成问题：是否值得付出大量努力？更关键的是，有经验的程序员深知，这类设备依赖的未文档化、不稳定的API很可能在未来变更或失效。",
+      "若初始工作需绑定长期维护，便意味着陷入令人沮丧的持续修复循环。而编码代理彻底改变了这一权衡：实现基础自动化所需 effort 下降，尝试失败的成本也同步降低。",
+      "由于代码本身已极为廉价，未来维护它，或干脆弃之重来，所承载的心理负担已大大减轻。",
+      "这种成本与心理门槛的双重下降，正促使更多人着手逆向工程与自动化实践。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Simon Willison",
+      "region": "international",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "originalTitle": "Reverse-engineering is cheap now",
+      "publishedAt": "2026-07-20T19:24:05+00:00",
+      "retrievedAt": "2026-07-21T09:14:30.718Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T09:14:29.495Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 13,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-21-what-happened-to-the-bones-of-the-american-bison",
+    "editorialPolicyVersion": "2026-07-21.1",
+    "title": "美洲野牛被屠杀后，它们的骨头去哪儿了？",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-21",
+    "intro": "1870至1880年代，美洲野牛遭到了前所未有的大规模屠杀，但它们的遗骨并未就地腐烂，而是成为一种高强度提取产业的原料，该产业持续时间短、依赖原料存量，直至骨头耗尽。",
+    "paragraphs": [
+      "在1870至1880年代，美洲野牛遭到了前所未有的大规模屠杀。这种生活在平原和北方森林里的毛茸茸的牛，数量从世纪初的数千万头锐减到1890年的仅剩几百头。人们猎杀它们是为了获取皮毛和舌头——舌头在当时是一种美食，同时也是为了从土地上清除原住民的种族清洗行动的一部分。正如经典西部片《搜索者》（1956）中直白表达的：‘no bison, no food for the Comanche in winter’。屠杀野牛是服务于种族灭绝的生物灭绝手段，尽管最终都没有完全达到目的。",
+      "但人们不太知道的是，那堆积如山的骨头并没有就地腐烂。它们支撑起了一个短暂而高强度的提取产业，直到原料耗尽。一张著名的照片——底特律的密歇根碳业公司（Michigan Carbon Works）厂区外堆积如山的野牛头骨——揭示了真相：骨头是工厂的原材料。它们被磨成骨灰，用作肥料；或者烧制成骨炭，用作染料和甘蔗汁的过滤剂。密歇根碳公司的‘Homestead Guano’在南部和东部的农场很有名，但名字具有误导性，它其实不是鸟粪，而是磨碎的野牛骨头。剩下的皮、头骨和蹄子还能做成胶水。少量的骨头被制成纽扣、刀柄、扇子和伞骨——在塑料发明之前，骨头是象牙的廉价替代品。",
+      "历史学家凯西·帕利斯特认为，这段短暂而高强度的‘bone hunters’时期应该被更多人了解。他说：‘The carcasses of the great animals, picked clean by scavengers and left to bleach in the prairie sun, proved immensely important as sources of labor, capital, survival, and imagination in the North American West.’ 野牛骨头贸易‘was part of a web of well-organized capitalist extraction industries’，‘bone hunters’‘part of a laboring class as much as they were opportunistic individuals looking to make an extra dollar.’",
+      "美国神话讲述的是白手起家（bootstrapping）的定居者利用骨头牟利，但帕利斯特指出，原始文献显示，‘when one examines primary literature, it is apparent that Native Americans undoubtedly dominated the workforce, carving out their own place in the prairie industry but often doing so for similar reasons as most white settlers: survival.’ 被排斥在工资劳动之外的原住民，有时因为中间商依赖他们的劳动，而对每吨骨头的价格拥有相当大的话语权。混血人群（在加拿大被称为Métis）不受保留地约束，他们四处收集骨头，逐渐主导了这项贸易。帕利斯特写道：‘The bone trade proved part of a continuous pursuit of bison bodies for sustenance as well as trade goods in the American capitalist system.’ ‘was hardly a replacement for the rich bison-hunting lifestyle of the past,’ but ‘at times revealed a certain level of cultural continuity.’",
+      "约一百具完整骨架所含的骨头构成一吨，根据市场行情，bone hunters可获得4至12美元。（Edwin Ford Piper在诗《Dry Bones》中写有‘a dollar for a ton’，被帕利斯特引用。）工作很辛苦，也像赌博：‘one might hit the “motherlode” and accumulate considerable weight in a matter of hours, but more often it took days and long distances to fill a wagon or cart.’ 骨头热潮持续了不到二十年，而且因其自我吞噬性——没有动物，就没有遗骸——在景观上几乎没留下痕迹。这是一种双重抹除：既没有动物，也没有残骸。不过仍有蛛丝马迹：萨斯喀彻温省的首府里贾纳，在因维多利亚女王得名之前，被称为‘Pile-of-Bones’，因为那里曾是野牛骨头的转运站。"
+    ],
+    "topics": [
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "JSTOR Daily",
+      "region": "international",
+      "url": "https://daily.jstor.org/what-happened-to-the-bones-of-the-american-bison/",
+      "originalTitle": "What Happened to the Bones of the American Bison?",
+      "publishedAt": "Mon, 20 Jul 2026 13:37:08 +0000",
+      "retrievedAt": "2026-07-21T09:20:42.491Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T09:20:41.307Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 5,
+        "attempts": 2
+      }
     }
   },
   {
