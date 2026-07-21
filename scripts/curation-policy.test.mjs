@@ -162,6 +162,29 @@ test("主名单失败后候补按相同门槛进入尝试队列", () => {
   assert.deepEqual(publishable.map((entry) => entry.marker), ["draft-1", "draft-2"]);
 });
 
+test("补刊尝试队列不再消耗在当日已用来源或已满领域", () => {
+  const candidates = [
+    { sourceName: "已用源" },
+    { sourceName: "新科学源" },
+    { sourceName: "新文化源" },
+  ];
+  const queue = buildCurationAttemptQueue(
+    [
+      { index: 0, score: 90, category: "culture" },
+      { index: 1, score: 89, category: "science" },
+      { index: 2, score: 88, category: "culture" },
+    ],
+    [],
+    candidates,
+    {
+      initialSources: ["已用源"],
+      initialCategoryCounts: { science: 2 },
+    },
+  );
+
+  assert.deepEqual(queue.map((pick) => pick.index), [2]);
+});
+
 test("48 小时内的重大实时事件优先获得双语稿，但仍保持领域多样性", () => {
   const selected = selectBilingualCandidates(
     [

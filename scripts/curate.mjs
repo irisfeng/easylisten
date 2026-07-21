@@ -60,8 +60,8 @@ const IS_SUPPLEMENT = requestedSupplementPicks > 0;
 const MIN_PICKS = 2;
 // 6 是天花板不是指标:候选池肥的日子自然多出,瘦的日子照样 2-3 篇
 const MAX_PICKS = IS_SUPPLEMENT ? requestedSupplementPicks : 6;
-// 主名单改写或事实二审失败后，最多继续尝试 10 篇同门槛候补。
-const MAX_CURATION_ATTEMPTS = 10;
+// 补刊需要给欠缺地域更大的事实二审尝试面；正刊仍控制在 10 篇。
+const MAX_CURATION_ATTEMPTS = IS_SUPPLEMENT ? 14 : 10;
 const QUALITY_BAR = 80;
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
@@ -109,6 +109,7 @@ async function chatJsonWith(service, model, system, user, label, temperature = 0
       ],
       response_format: { type: "json_object" },
       temperature,
+      max_tokens: 8192,
     }),
     signal: AbortSignal.timeout(120000),
   });
@@ -222,7 +223,7 @@ const rawPicks = Array.isArray(scoreResult.picks) ? scoreResult.picks : [];
 let rawReserves = Array.isArray(scoreResult.reserves) ? scoreResult.reserves : [];
 
 // 补刊不能把地域均衡交给单次模型提名碰运气。若某一侧在主名单+
-// 候补中少于 5 篇，单独从该侧候选池补评；补评稿仍必须达到 80 分。
+// 候补中少于 8 篇，单独从该侧候选池补评；补评稿仍必须达到 80 分。
 if (IS_SUPPLEMENT) {
   const seen = new Set([...rawPicks, ...rawReserves].map((pick) => pick.index));
   const regionalReserves = [];
@@ -234,11 +235,15 @@ if (IS_SUPPLEMENT) {
         Number.isInteger(pick.score) &&
         pick.score >= QUALITY_BAR,
     ).length;
-    const needed = Math.max(0, 5 - current);
+    const needed = Math.max(0, 8 - current);
     if (needed === 0) continue;
     const regionalMenu = CANDIDATES.map((candidate, index) => ({ candidate, index }))
       .filter(
-        ({ candidate, index }) => candidate.region === region && !seen.has(index),
+        ({ candidate, index }) =>
+          candidate.region === region &&
+          !seen.has(index) &&
+          !existingSources.includes(candidate.sourceName) &&
+          (existingCategoryCounts[candidate.category] ?? 0) < 2,
       )
       .map(
         ({ candidate, index }) =>
@@ -286,6 +291,8 @@ if (!structValid) throw new Error("评分:未返回有效且唯一的 picks/rese
 const picks = buildCurationAttemptQueue(rawPicks, rawReserves, CANDIDATES, {
   qualityBar: QUALITY_BAR,
   maxAttempts: MAX_CURATION_ATTEMPTS,
+  initialSources: existingSources,
+  initialCategoryCounts: existingCategoryCounts,
 });
 if (picks.length !== shortlist.length) {
   console.log(`候补硬约束: 模型提名 ${shortlist.length} 篇 → 可尝试 ${picks.length} 篇`);
@@ -388,7 +395,8 @@ async function reviewScriptFacts(script, candidate, fullText) {
       `你是独立事实审稿人，不参与选题，也不替撰稿人圆场。你的唯一任务是让听稿中的每个可核查陈述都忠于给定原文。
 逐项核对：比分、数字、日期、分钟、比赛阶段、人物身份、地点、奖项、引语、因果、比较级和“首次/唯一/刷新纪录”等断言。
 原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
-即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。`,
+即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。
+务必优先完整返回 final 和 evidence；issues 最多 8 条、每条不超过 80 个字，只列实际导致修订的问题。`,
       `原文标题：${candidate.title}
 来源：${candidate.sourceName}
 原文证据块（编号和内容均由程序从原文生成）：
@@ -400,8 +408,8 @@ ${JSON.stringify({ title: currentScript.title, intro: currentScript.intro, parag
 ${retryReason ? `上一轮代码校验失败：${retryReason}
 这是最后一次证据修复。不要为保留原句而编造证据：无法由原文支持的句子必须删除或改成原文明确支持的表述。每段只能选择真正支持其关键事实的 sourceId，不得猜测或编造编号。` : ""}
 
-以 JSON 返回：
-{"ok": true或false, "issues": ["发现的问题"], "final": {"title": "核验后的标题", "intro": "核验后的导语", "paragraphs": ["保持待审听稿段数的核验后正文"]}, "evidence": [{"paragraphIndex": 0, "sourceId": "E001"}]}。
+以 JSON 返回，必须先输出完整 final 和 evidence，最后才输出精简 issues：
+{"final": {"title": "核验后的标题", "intro": "核验后的导语", "paragraphs": ["保持待审听稿段数的核验后正文"]}, "evidence": [{"paragraphIndex": 0, "sourceId": "E001"}], "ok": true或false, "issues": ["发现的问题"]}。
 paragraphIndex 从 0 开始，每一段都必须覆盖；sourceId 必须选自上方证据块。不要复制 sourceQuote，程序会按编号从原文精确回填。`,
       `${retryReason ? "事实证据修复" : "事实二审"}(${candidate.title})`,
       0.1,

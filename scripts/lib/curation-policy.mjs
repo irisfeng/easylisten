@@ -14,12 +14,22 @@ export function buildCurationAttemptQueue(
   primary,
   reserves,
   candidates,
-  { qualityBar = 80, maxAttempts = 10 } = {},
+  {
+    qualityBar = 80,
+    maxAttempts = 10,
+    initialSources = [],
+    initialCategoryCounts = {},
+  } = {},
 ) {
   const combined = [...primary, ...reserves];
   const seenIndexes = new Set();
-  const seenSources = new Set();
-  const categoryCounts = new Map();
+  const seenSources = new Set(initialSources);
+  const categoryCounts = new Map(
+    Object.entries(initialCategoryCounts).map(([category, count]) => [
+      category,
+      Math.max(0, Number(count) || 0),
+    ]),
+  );
   const queue = [];
 
   for (const pick of combined) {
@@ -32,6 +42,7 @@ export function buildCurationAttemptQueue(
       pick.score < qualityBar ||
       seenIndexes.has(pick.index) ||
       seenSources.has(candidate.sourceName) ||
+      (Number(initialCategoryCounts[pick.category]) || 0) >= 2 ||
       (categoryCounts.get(pick.category) ?? 0) >= 3
     ) {
       continue;
