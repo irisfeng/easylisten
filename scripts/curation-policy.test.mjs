@@ -13,6 +13,7 @@ import {
   mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
+  regionCountsForPicks,
   selectCandidatePool,
   selectBilingualCandidates,
   selectPublishableEntries,
@@ -384,4 +385,21 @@ test("补刊将当日已用来源和领域上限纳入编排", () => {
   });
 
   assert.deepEqual(selected.map((pick) => pick.index), [2]);
+});
+
+test("补刊发布闸门按整期统计地域数量", () => {
+  const candidates = [
+    { region: "mainland" },
+    { region: "international" },
+    { region: "international" },
+  ];
+
+  assert.deepEqual(
+    regionCountsForPicks(
+      [{ index: 0 }, { index: 1 }, { index: 2 }],
+      candidates,
+      { mainland: 1, international: 1 },
+    ),
+    { mainland: 2, international: 3 },
+  );
 });

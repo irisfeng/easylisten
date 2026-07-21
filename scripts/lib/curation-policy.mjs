@@ -93,6 +93,24 @@ export function mergeSupplementPieces(
   return [...currentIssue, ...accepted, ...previousIssues].slice(0, limit);
 }
 
+/** 统计候选稿与已发稿合并后的国内、国际数量，用于最终发布闸门。 */
+export function regionCountsForPicks(
+  picks,
+  candidates,
+  initialRegionCounts = { mainland: 0, international: 0 },
+) {
+  const counts = {
+    mainland: Math.max(0, Number(initialRegionCounts.mainland) || 0),
+    international: Math.max(0, Number(initialRegionCounts.international) || 0),
+  };
+  for (const pick of picks) {
+    const candidate = candidates[pick?.index];
+    if (!candidate) continue;
+    counts[candidate.region === "mainland" ? "mainland" : "international"] += 1;
+  }
+  return counts;
+}
+
 /**
  * 把模型提名收紧为可发布节目单。模型负责判断内容质量，代码负责不可妥协的
  * 结构约束：质量门槛、同源去重、领域上限，以及国内与国际视野的动态均衡。

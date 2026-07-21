@@ -21,6 +21,7 @@ import {
   mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
+  regionCountsForPicks,
   selectCandidatePool,
   selectPublishableEntries,
 } from "./lib/curation-policy.mjs";
@@ -218,14 +219,66 @@ ${menu}`,
   "评分",
 );
 const rawPicks = Array.isArray(scoreResult.picks) ? scoreResult.picks : [];
-const rawReserves = Array.isArray(scoreResult.reserves) ? scoreResult.reserves : [];
+let rawReserves = Array.isArray(scoreResult.reserves) ? scoreResult.reserves : [];
+
+// 补刊不能把地域均衡交给单次模型提名碰运气。若某一侧在主名单+
+// 候补中少于 5 篇，单独从该侧候选池补评；补评稿仍必须达到 80 分。
+if (IS_SUPPLEMENT) {
+  const seen = new Set([...rawPicks, ...rawReserves].map((pick) => pick.index));
+  const regionalReserves = [];
+  for (const region of ["mainland", "international"]) {
+    const current = [...rawPicks, ...rawReserves].filter(
+      (pick) =>
+        Number.isInteger(pick?.index) &&
+        CANDIDATES[pick.index]?.region === region &&
+        Number.isInteger(pick.score) &&
+        pick.score >= QUALITY_BAR,
+    ).length;
+    const needed = Math.max(0, 5 - current);
+    if (needed === 0) continue;
+    const regionalMenu = CANDIDATES.map((candidate, index) => ({ candidate, index }))
+      .filter(
+        ({ candidate, index }) => candidate.region === region && !seen.has(index),
+      )
+      .map(
+        ({ candidate, index }) =>
+          `[${index}] (${candidate.category}/${candidate.lang}/${candidate.sourceName}/权重${candidate.weight}/${freshnessLabel(candidate.publishedAt)}) ${candidate.title}\n${candidate.summary.slice(0, 240)}`,
+      )
+      .join("\n\n");
+    if (!regionalMenu) continue;
+    const result = await chatJson(
+      `你是"轻听"的候补编辑。严格按评分标准为欠缺地域补评候选，不得降低 ${QUALITY_BAR} 分门槛。\n\n${RUBRIC}`,
+      `今日补刊的${region === "mainland" ? "国内" : "国际"}候选不足。从以下候选中最多选 ${needed} 篇真正达到 ${QUALITY_BAR} 分的稿件，优先不同来源和领域。只能使用列出的 index。\n\n以 JSON 返回:{"reserves":[{"index":整数,"score":整数,"category":"science|tech|society|humanities|living|culture","topics":["话题"],"reason":"理由"}]}\n\n${regionalMenu}`,
+      `地域候补(${region})`,
+      0.2,
+    );
+    const additions = (Array.isArray(result.reserves) ? result.reserves : [])
+      .filter(
+        (pick) =>
+          Number.isInteger(pick?.index) &&
+          !seen.has(pick.index) &&
+          CANDIDATES[pick.index]?.region === region &&
+          Number.isInteger(pick.score) &&
+          pick.score >= QUALITY_BAR &&
+          ALL_CATS.includes(pick.category),
+      )
+      .slice(0, needed);
+    for (const pick of additions) seen.add(pick.index);
+    regionalReserves.push(...additions);
+    console.log(
+      `${region === "mainland" ? "国内" : "国际"}专项候补: 需要 ${needed} 篇，获得 ${additions.length} 篇`,
+    );
+  }
+  // 专项候补放在普通候补前，避免被最多 10 篇的尝试队列截断。
+  rawReserves = [...regionalReserves, ...rawReserves];
+}
 const shortlist = [...rawPicks, ...rawReserves];
 const indexes = shortlist.map((p) => p.index);
 const structValid =
   rawPicks.length >= 1 &&
   rawPicks.length <= MAX_PICKS &&
-  rawReserves.length <= 6 &&
-  indexes.length <= MAX_PICKS + 6 &&
+  rawReserves.length <= (IS_SUPPLEMENT ? 16 : 6) &&
+  indexes.length <= MAX_PICKS + (IS_SUPPLEMENT ? 16 : 6) &&
   indexes.every((i) => Number.isInteger(i) && i >= 0 && i < CANDIDATES.length) &&
   new Set(indexes).size === indexes.length;
 if (!structValid) throw new Error("评分:未返回有效且唯一的 picks/reserves");
@@ -479,7 +532,18 @@ for (const pick of regularPicks) {
     const bilingualReady = preview.filter(
       (draft) => draft.hasFullText && draft.score >= 85,
     ).length;
-    if (preview.length >= MAX_PICKS && (IS_SUPPLEMENT || bilingualReady >= 3)) {
+    const previewRegions = regionCountsForPicks(
+      preview.map((draft) => draft.pick),
+      CANDIDATES,
+      existingRegionCounts,
+    );
+    const previewBalanced =
+      Math.abs(previewRegions.mainland - previewRegions.international) <= 1;
+    if (
+      preview.length >= MAX_PICKS &&
+      previewBalanced &&
+      (IS_SUPPLEMENT || bilingualReady >= 3)
+    ) {
       console.log(
         `候选备份已充足：${IS_SUPPLEMENT ? "补刊" : "正刊"}可编排 ${preview.length} 篇、` +
           "国内国际数量均衡，停止额外模型调用",
@@ -503,11 +567,22 @@ if (finalRegular.length < MIN_PICKS) {
     `每日发布契约未满足：${regularDrafts.length} 篇草稿中仅 ${finalRegular.length} 篇满足最终编排，至少需要 ${MIN_PICKS} 篇`,
   );
 }
+const finalRegionCounts = regionCountsForPicks(
+  finalRegular.map((draft) => draft.pick),
+  CANDIDATES,
+  existingRegionCounts,
+);
+if (Math.abs(finalRegionCounts.mainland - finalRegionCounts.international) > 1) {
+  throw new Error(
+    `国内国际发布闸门未满足：国内 ${finalRegionCounts.mainland} / 国际 ${finalRegionCounts.international}`,
+  );
+}
 const pieces = finalRegular.map((entry) => entry.piece);
 const bilingualCandidates = finalRegular;
 console.log(
   `中文草稿 ${regularDrafts.length} → 最终节目单 ${finalRegular.length}: ` +
-    finalRegular.map((entry) => entry.piece.title).join(" / "),
+    finalRegular.map((entry) => entry.piece.title).join(" / ") +
+    `（整期国内 ${finalRegionCounts.mainland} / 国际 ${finalRegionCounts.international}）`,
 );
 
 // 周末深读:基于足量原文精写十分钟长稿;素材不足或改写失败则放弃,不硬写
