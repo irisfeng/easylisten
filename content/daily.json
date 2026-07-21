@@ -1,5 +1,134 @@
 [
   {
+    "slug": "2026-07-21-17",
+    "title": "清华团队用17年做一件事：帮助盲人“看见”世界",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-21",
+    "intro": "一个清华团队用17年时间，为盲人研发了盲人计算机——大幅面触觉图形显示终端，让他们能通过触摸感知图形。",
+    "paragraphs": [
+      "杨光听到医生‘接下来的1到2年内，你的视觉会不可逆地完全丧失’的宣判时，还是个小学生。后来，他每天从早到晚不停地去看周边世界，拼命把所有事物都记到脑子里，包括它们的颜色、形状等，因为以后就再也看不见了。多年后，就读北京联合大学的视障学生杨光，把这段往事讲给2014年时任清华大学未来实验室助理研究员的焦阳听。那一刻，焦阳的眼泪当场就掉了下来。他后来说：“也许这件事不如AI那么火，但是它能够触动人心，我就愿意去做。”",
+      "盲人可以借助读屏软件，听到外放播报的文字，但他们无法从电子屏幕上的图形获取信息。焦阳说，帮他们把每张图都打印到专门的盲文纸上，显然是不现实的，专门为盲人设计一款计算机就成了一个解决途径。这正是未来实验室主任徐迎庆团队自2009年开始的长期主义事业。",
+      "未来实验室里诞生的盲人计算机，其学术称谓是大幅面触觉图形显示终端。设备拥有7200个可升降触点，每个触点都像一个可控制的“像素”，能把屏幕上的图像转化为手指下起伏的纹理。此外，设备上面还有一个触觉引导环，可以在点阵上方去任意地二维滑动，这就相当于有人在牵引盲人的手去摸一幅图像。",
+      "为了满足盲人的创作需求，团队开发了TacChat系统，其中包含吕京阳参与开发的自动识别盲人绘图创作功能。当盲人用3D绘画笔完成创作，摄像头就会自动拍照并显示在盲人计算机上，以便分享。此前，盲人一直是被动接受老师给到的图形信息；这一系统使他们也能主动表达和分享。",
+      "这个项目的缘起是2009年。焦阳是2013年来到清华的，他是徐迎庆的第一个博士生。当时江宁已经毕业，焦阳面对的，只有一个“手搓”的盲人计算机概念模型。他最初的设计是在印制电路板下面垫一层海绵，然后用大头针扎点，等扎出一片树叶或者一朵花，再让盲人来摸。仅仅为了解决“顶起和锁定触点的电磁驱动偏心轮翻转”的工作，焦阳就耗费了两三年的时间。如今，他们为盲校开发了一整套高中二年级教材，已累计试用了100多个课时。",
+      "盲人女孩小涵通过盲人计算机实现了网购。盲人的网购，平时只能靠听产品的文字解释，这样的网购就相当于“开盲盒”。盲人计算机能够让她通过触摸辨别哪个是高水杯、哪个是咖啡杯、哪个是马克杯。平时买东西要三四十分钟，这次她一摸，一分钟就能找到她想要的商品。当拿到杯子的时候，她特别激动：“从来没有想过自己能在网上买东西，而且还能自己挑。”焦阳还有一个雄心，希望借鉴李飞飞当年做的ImageNet，构建全球首个百万级的触觉图像数据库。如果实现的话，就可以想象：每当盲人走到一个地方拍照，设备就会将其转换为触觉图形，他们就可以“看到”更丰富的世界。"
+    ],
+    "topics": [
+      "脑与认知",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568532.shtm",
+      "originalTitle": "清华团队用17年做一件事：帮助盲人看见世界",
+      "publishedAt": "2026-07-20 20:21",
+      "retrievedAt": "2026-07-20T23:53:06.677Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-20T23:53:05.188Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 10,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Tsinghua Team Spent 17 Years Helping the Blind 'See' the World",
+      "intro": "A Tsinghua University team has spent 17 years developing a large-format tactile graphics display terminal that lets blind people 'see' through touch and sound.",
+      "paragraphs": [
+        "Imagine being told as a child that you'll lose your sight completely within a year or two. That's what happened to Yang Guang, a visually impaired student. He spent every waking moment memorizing the colors and shapes around him. Years later, when he shared this story with Jiao Yang, a researcher at Tsinghua University's Future Laboratory, Jiao was moved to tears. He decided then to dedicate himself to a project that might not be as flashy as AI, but one that could truly touch people's hearts: building a computer for the blind.",
+        "This computer, called a large-format tactile graphics display terminal, is nothing like a regular PC. It has 7200 actuable tactile points that can rise and fall, turning images on a screen into patterns you can feel with your fingers. There's also a tactile guidance ring that moves freely in two dimensions above the point array, simulating the experience of someone guiding a blind person's hand to explore an image. The idea came from researchers who used to physically guide blind people's hands to teach them shapes. Now, the device can even show dynamic graphics, helping blind students understand complex concepts like the proof process of the Pythagorean theorem. Controlled experiments found that blind students' learning outcomes under this new approach were significantly higher than those in two control groups: one receiving speech-only instruction, and another receiving both speech and static tactile images. The team has since developed a full set of Grade 11 textbooks for blind schools, which have been piloted for over 100 class hours.",
+        "The team didn't stop there. They developed a chat application called TacChat, modeled after WeChat, that lets blind users create and share drawings. The idea originated from students at Beijing Municipal School for the Blind, who said: 'You need to make something that lets us also gesture and sketch (a system).' This inspired developer Zhang Yuewen to recognize blind users' creative needs. When a blind user completes a drawing using a 3D pen, the device's camera automatically captures it and renders it as a tactile image for sharing. Lü Jingyang, a third-year undergraduate majoring in Software Engineering at Beijing Jiaotong University, led the programming work for this feature. Wang Chong, a master's student in Educational Technology at Beijing Normal University, has limited vision—he can identify the top row of letters on a visual acuity chart from two to three meters away—and serves as a bridge between the sighted and blind worlds by leveraging both magnified vision and Braille literacy; he is currently working on Braille translation projects integrated with educational scenarios.",
+        "The project started in 2009 when Xu Yingqing, now director of the Future Laboratory, was a principal researcher at Microsoft Research Asia. He observed that blind visitors to museums could only access exhibit information via audio descriptions, prompting the question: could exhibits be made touchable? Soon, the team realized this need extended far beyond museums—to everyday image recognition tasks. Jiao Yang joined the project in 2013 as Xu Yingqing's first PhD student and became its continuous driving force for over a decade. He spent two to three years solving a single technical challenge: achieving reliable electromagnetic actuation and locking of the tactile points via eccentric wheel rotation. In recent years, the team has collaborated with Kunshan City and secured investment to pilot product commercialization. For blind user Xiao Han, the device enables online shopping by touch—replacing the 'blind box' experience where purchases rely solely on audio descriptions. She can now distinguish among tall water cups, coffee cups, and mugs by touch, reducing selection time from thirty to forty minutes down to one minute. Upon receiving her chosen item, she exclaimed: 'I never imagined I could shop online myself—and pick exactly what I want.'",
+        "Xu Yingqing believes that persisting in one endeavor for ten years is sufficient to earn respect and authoritative expertise. Jiao Yang embodies this principle. The team's ambition is to build a million-scale tactile image database, inspired by Li Feifei's ImageNet initiative. If realized, blind users could photograph a location and instantly receive a tactile representation of it. As Wang Chong's WeChat signature states: 'If only ordinary ideals exist, what distinguishes you from a simple ring?' In mathematics, a simple ring admits only trivial ideals; blind people's lives should not be narrow. With this technology, Xu Yingqing's team has spent 17 years striving to restore, in another form, the shapes and images that once receded from view."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T00:03:37.804Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 12,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-21/2026-07-21-17.webp",
+      "alt": "A tactile graphic display device with raised patterns",
+      "caption": "触觉图形显示终端帮助盲人感知图像。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-21-chatty-cats-and-talking-dogs-could-one-day-speak",
+    "title": "猫狗会说话？科学家说未来或可实现动物-人类翻译器",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-21",
+    "intro": "在电影《飞屋环游记》里，黄金猎犬达格戴着能将其‘狗崽子想法’（doggy thoughts）实时翻译成人类语言的电子项圈——例如说出‘Hi there’后突然喊出‘SQUIRREL！’。现实中，科学家认为这类动物-人类翻译器虽尚未实现，但未必永远停留在科幻范畴。",
+    "paragraphs": [
+      "你有没有想过，你的猫或狗到底在想什么？在电影《飞屋环游记》里，一只叫达格的黄金猎犬戴着电子项圈，能把它的‘狗崽子想法’翻译成实际人类语言。比如它会说：‘Hi there’——然后突然分心喊：‘SQUIRREL！’（E014–E015）。虽然这只是电影设定，但科学家认为，动物-人类翻译器未来或不再只是科幻（E019）。",
+      "纽约洛克菲勒大学的神经遗传学家埃里希·贾维斯说：‘我认为这些事情可能有一天能做到。’（E019）他指出，计算能力提升、人工智能（AI）发展以及精密声音测量工具的进步，有望将动物的吠叫、吱吱声、喵喵声等转化为人类可解码的信息（E022–E023）。",
+      "当然，有些动物已能使用人类语言，比如一只离开加州家多年后返家、开口说西班牙语的鹦鹉（E025）。但这类能力罕见。纽约大学神经科学家迈克尔·朗指出，仅有不到1%的脊椎动物具备‘构想信息并发出复杂声音’所需的特殊心智技能与身体系统灵活性（E027）。例如疣猴（vervet monkeys）认知能力很强（E029），却难以发出复杂声音（E029）；而动物交流远不止发声——猫因空食盆发出痛苦哀嚎、狗叼 leash 坐于门前，皆为清晰信号（E044–E047）。",
+      "科学家正推进动物语言研究。2023年，研究人员用解码的鲸鱼‘hello’（源自whale whups声信号）与一头阿拉斯加座头鲸完成简短跨物种互动，双方均参与其中（E037–E038）。另有研究发现，鲸类语言与人类语言共享统计特性（E039）。贾维斯团队则通过向小鼠引入人源NOVA1蛋白基因，使其发出更复杂的发声（E042），尽管这尚非‘会说话的老鼠’（E043）。",
+      "尽管猫狗翻译器尚未问世，但研究进展迅速（E043）。若真有设备，它或将揭示猫为何凝视客厅空角落（E021）。而在等待技术成熟期间，我们可关注动物早已展现的丰富表达方式：如Long收养的布鲁克林流浪猫，其需求‘非常、非常透明’（E049）。",
+      "对于其中一只猫，Long设想的翻译内容极为务实：‘我会告诉它，我做饭时别坐得太靠近炉灶。我想就这些。’（E050–E051）"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "url": "https://www.snexplores.org/article/talking-animals-speak-language-tech",
+      "originalTitle": "Chatty cats and talking dogs could one day ‘speak’ in our language",
+      "publishedAt": "Mon, 20 Jul 2026 10:30:00 +0000",
+      "retrievedAt": "2026-07-20T23:53:45.191Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-20T23:53:43.989Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Chatty cats and talking dogs could one day ‘speak’ in our language",
+      "intro": "Imagine a world where your cat or dog could ‘speak’ in our language—scientists say that animal-human translation may not remain science fiction forever.",
+      "paragraphs": [
+        "In the animated movie Up, a golden retriever named Dug wears a collar that translates his thoughts to speech—including mid-sentence distractions like ‘SQUIRREL!’ Scientists note that while such tech is fictional today, Erich Jarvis, a neurogeneticist at The Rockefeller University in New York City, says, ‘I think these things may be one day doable.’ He envisions pets wearing devices like Dug’s collar—or using a phone app—to translate pet sounds into words.",
+        "Advances in computing power, artificial intelligence (AI), and tools that measure sounds promise to bring people closer to conversing with other animals—by turning animal chatter into bits of information that can be decoded by humans. But not all animals are equally equipped: ‘Thinking up a message and making intricate vocal sounds to convey it’ takes special mental skills and body-system flexibility, traits present in fewer than 1 percent of vertebrate species, says Michael Long, a neuroscientist at New York University. Vervet monkeys, for instance, have ‘huge’ cognitive abilities but ‘flounder when it comes to producing complex sounds’—they have one requirement, but need the other. Still, animals already communicate broadly: through barks, meows, dances, posture, color, objects—and even ground-thumping, as Mongolian gerbils do.",
+        "Some animals, like parrots, can already learn human languages; one parrot returned home years later speaking Spanish. In 2023, scientists used a decoded whale ‘hello’ to enjoy a short conversation with an Alaskan humpback—a volley of whale ‘whups’ translated into English as ‘hello,’ in which both parties engaged. Whale language also shares statistical properties with human languages. Meanwhile, Erich Jarvis’s research includes mice genetically altered to produce more complex vocalizations: mice with a human version of the protein NOVA1 made more complex vocalizations—but ‘this is not yet a talking mouse.’",
+        "Even without sci-fi gadgets, many animal messages are clear: ‘Anguished yowls of a cat sitting by her unfilled food dish are no great mystery.’ A dog holding his leash in his mouth and sitting by the front door signals a desire to go out. As Michael Long says, ‘Animals are speaking, often — to use speaking in a very loose way — more vibrantly than we had ever given them credit for.’ So while we wait for a gizmo that translates pets’ thoughts into words, we can appreciate the wildly variable ways animals already communicate."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T00:04:13.616Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 9,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-20-spain-argentina-final",
     "title": "加时赛第106分钟破门，西班牙队1比0击败阿根廷夺冠",
     "category": "culture",
