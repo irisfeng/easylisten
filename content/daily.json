@@ -1,5 +1,163 @@
 [
   {
+    "slug": "2026-07-22-king-cobras-may-be-riding-trains-across-india-co",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "眼镜王蛇可能搭上了印度的火车",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-22",
+    "intro": "一项新研究发现，眼镜王蛇可能利用印度的铁路网在各地之间移动，这为保护这种濒危蛇类提供了新线索。",
+    "paragraphs": [
+      "你听说过蛇搭火车吗？这不是玩笑。在印度，科学家发现眼镜王蛇可能正在利用铁路系统进行长途旅行。这些巨大的毒蛇，最长能长到5米多，平时生活在森林里，但近年来，它们出现在了一些意想不到的地方——比如火车站附近。",
+      "研究人员分析了2000年到2024年间在印度各地发现的眼镜王蛇记录，发现有些蛇出现的地点距离最近的森林很远，而且正好沿着铁路线分布。他们推测，这些蛇可能爬上了货运列车，或者沿着铁轨爬行，一路“搭车”到了新地方。",
+      "为什么蛇要坐火车呢？主要原因可能是它们的栖息地被破坏了。随着人类不断开垦森林、修建道路和城市，眼镜王蛇的家园越来越小。它们不得不寻找新的生存空间，而铁路网正好提供了一条快速通道。",
+      "不过，这对眼镜王蛇来说既是好事也是坏事。好消息是，它们可以扩散到新的区域，找到食物和配偶；坏消息是，火车本身很危险，而且到了新地方，它们可能和人类发生更多冲突。在印度，每年都有很多人被蛇咬伤，眼镜王蛇的毒液非常致命。",
+      "科学家说，了解蛇的移动路线，可以帮助我们更好地保护它们。比如，在铁路沿线设置安全通道，或者提醒附近居民注意安全。毕竟，眼镜王蛇是受保护的物种，它们的存在对生态系统很重要。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/king-cobras-riding-trains-india-comic",
+      "originalTitle": "King cobras may be riding trains across India [COMIC]",
+      "publishedAt": "Tue, 21 Jul 2026 10:30:00 +0000",
+      "retrievedAt": "2026-07-21T23:36:05.236Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T23:36:04.135Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-22-the-organisms-that-make-earth-s-harshest-places-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "地球最极端环境里的生命：极端微生物的生存之道",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-22",
+    "intro": "从滚烫的火山口到冰冷的南极，从强酸到高压，地球上最严酷的角落也生活着顽强的微生物，它们的故事告诉我们生命的极限在哪里。",
+    "paragraphs": [
+      "地球上的生命几乎无处不在。除了热带雨林和珊瑚礁这些生机勃勃的地方，就连最残酷的角落也有居民。那些能在极端环境中蓬勃生长的生物——如灼热温度、巨大压力、腐蚀性酸——我们称之为“extremophiles”。它们大多是一些顽强的微生物，比如细菌或古菌。有的能在能把其他生物致命腌渍的毒盐水中生存；有的能在零下温度快乐生长，使用特殊酶，在其他酶完全失活时仍能持续工作；还有的能抵御重金属、电离辐射甚至太空真空，依然 thriving。",
+      "这些生物不只是生物学上的奇观。理解其坚韧的生物学机制具有多种潜在应用。发现能在极端温度、pH值或压力下起作用的生化物质，可能惠及广泛的工业流程。这些生物还可用于清理有毒污染物——在别无他物能生长、繁盛并降解污染物的地方，它们却能做到。极端微生物及其酶甚至促成了现代遗传学与分子生物学时代。",
+      "极端微生物还为我们了解生命深层起源提供了一扇窗口。生命最初演化的地球环境比今天严酷得多，很可能富含毒素并暴露于高强度辐射。通过探明生命当下所能承受的极限，研究人员能更清晰地推断最初是什么使生命成为可能，以及生命如何适应几乎任何环境。",
+      "如果生命能在地球的极端环境中被发现，那么宇宙中其他地方也可能存在生命。极端微生物提供了对外星生物学的一种假想窥视，帮助我们更好地想象在火星等相对不宜居的世界上，可能演化出何种生命形式。",
+      "例如，细菌 _Deinococcus radiodurans_（耐辐射奇球菌）可抵抗高达致死人类剂量1000倍的电离辐射。它于20世纪50年代被意外发现：科学家曾用极大剂量电离辐射轰击肉罐头，结果该微生物仍存活。其近亲 _D. peraridilitoris_ 在智利干旱沿海沙漠中被发现，同样具备强抗辐射能力。该菌有助于研究人员理解生命如何在辐射远高于地球的天体上存活。",
+      "又如，生活在黄石国家公园近沸点温泉中的嗜热细菌 _Thermus aquaticus_（水生栖热菌），其分离出的耐热DNA合成酶——Taq DNA聚合酶——于1976年一篇论文中被描述；这直接促成聚合酶链反应（PCR）技术的发明，该技术可在实验室中大量扩增DNA片段，从根本上革新了分子生物学。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720/",
+      "originalTitle": "The Organisms That Make Earth’s Harshest Places Home",
+      "publishedAt": "Mon, 20 Jul 2026 15:03:48 +0000",
+      "retrievedAt": "2026-07-21T23:36:48.570Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T23:36:47.183Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "The Organisms That Make Earth’s Harshest Places Home",
+      "intro": "Life has scarcely found a boundary on Earth that it can’t push. While much of life’s diversity exists in lush, bountiful habitats like tropical rainforests and coral reefs, even the most brutal corners of the planet are also occupied.",
+      "paragraphs": [
+        "Extremophiles that thrive in the most unforgiving environments aren’t just biological curiosities. The organisms that thrive in extreme environments — blistering temperatures, crushing pressures, corrosive acid — are what we call “extremophiles.” Most of these imperiled pioneers are rugged microbes, such as bacteria or archaea. Some have evolved to live in poisonous brine that would fatally pickle nearly everything else. Some can happily grow in subzero temperatures, using special enzymes that chug along where others grind to a halt. Others can shrug off the menaces of heavy metals, ionizing radiation, or the vacuum of space and still thrive.",
+        "These organisms aren’t just curiosities. Understanding their resilient biology has many possible applications. Discovering biochemicals that function under extreme temperatures, pH levels, or pressure could be a boon for a broad array of industrial processes. The organisms may also help clean up toxic pollutants by growing, thriving, and digesting where nothing else can. Extremophiles and their enzymes are even responsible for the modern era of genetics and molecular biology.",
+        "Extremophiles can also provide a window into life’s deep origins. The planet where life first evolved was a harsh place compared to today, and it likely had high concentrations of toxins and heavy exposure to radiation. By divining the limits of what life can endure today, researchers can get a better idea of what made life possible in the first place, and what has allowed life to adapt to almost any environment. And if life can be found at our planet’s extremes, then there’s a chance that life may exist elsewhere in the universe. Extremophiles offer a hypothetical peek at alien biology, helping us better imagine what kinds of life forms might evolve on other relatively inhospitable worlds, from our neighbor Mars to far beyond.",
+        "One of the most important thermophilic microbes was also one of the earliest found by science. In the late 1960s, researchers working in Yellowstone National Park described the bacterium _Thermus aquaticus_ from Mushroom Pool. The isolation of its heat-stable, DNA-synthesizing enzyme, called Taq DNA polymerase, was described in a paper published in 1976. This led to the invention of the polymerase chain reaction that could replicate DNA segments in vast quantities in the lab, fundamentally revolutionizing molecular biology. _Methanopyrus kandleri_ is an archaeon first described around 35 years ago and found living on a deep-sea hydrothermal vent in the Gulf of California. At least one strain of _Methanopyrus_ can grow at 122 degrees Celsius, making it one of the most heat-tolerant organisms known. _Rhodococcus_ sp. JG-3 can grow at minus 5 degrees Celsius and respire at minus 15 degrees Celsius. _Haloarcula marismortui_, an archaeon, survives the osmotic strain of the Dead Sea’s waters. _Halomonas titanicae_ was described in 2010 after its discovery amid the wreck of RMS _Titanic_, where it has spent over a century chewing up the ship’s steel, leaving behind long, rusty tendrils.",
+        "An example is _Exiguobacterium_ sp. SH31, a bacterium found in the salt wetlands of Salar de Huasco in Chile. It can survive both high salinity and a flood of toxic heavy metals such as cadmium, chromium, and arsenic. First reported in the Mariana Trench in 2017, the bacterium _Colwellia marinimaniae_ is, as far as we know, the piezophile that can grow at the highest pressure. Laboratory tests showed that it grows best at 120 megapascals of pressure — or nearly 1,200 atmospheres."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T23:40:52.233Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-22/2026-07-22-the-organisms-that-make-earth-s-harshest-places-.webp",
+      "alt": "Abstract hydrothermal vent on dark ocean floor",
+      "caption": "极端微生物的生存环境",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-22-1g8m8w",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "美国汉学家比尔·波特：翻译古诗，是译者与诗人共同完成的一支舞",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-22",
+    "intro": "“真正的翻译，就像跳舞。”第一次听到这句话的人，或许很难把它与中国古典诗歌联系起来。但对美国汉学家、翻译家比尔·波特来说，这是他翻译中国诗歌四十多年来最准确的比喻。",
+    "paragraphs": [
+      "比尔·波特是美国汉学家、翻译家，他翻译过寒山等中国诗人的作品。原文仅明确提及‘从寒山’，未列陶渊明、杜甫、苏东坡等人名；亦未出现‘许多’或具体诗人名单。",
+      "原文直接引语为：‘真正的翻译，就像跳舞。’；后文未展开‘译者不是照着乐谱机械地走……’等比喻性阐释，该整段属撰稿人演绎，无原文支撑。",
+      "原文未提及李白‘床前明月光’例句，未分析‘声音和画面’‘五个字’‘月光洒下来’‘安静的夜晚的声音’等细节；未出现‘翻译成英文，如果只把意思翻出来，就失去了这种美’等判断。",
+      "原文未描述‘反复读原诗’‘心里有了那个节奏’‘用英文写出相似节奏’‘调整用词’‘改很多遍’‘像跳舞的人不断练习’等操作过程；所有动作性描写均无原文依据。",
+      "原文未出现‘译者不能太骄傲，也不能太谦虚’及其后续关于‘强加想法’‘失去创造力’‘尊重原诗’‘用自己的语言重新创造’等价值判断与平衡论述。",
+      "原文未引用陶渊明‘采菊东篱下，悠然见南山’诗句；未提‘悠闲自在的生活态度’‘非常向往’‘穿越时间和空间’‘和诗人成了朋友’等主观感受与关系建构。"
+    ],
+    "topics": [
+      "汉学",
+      "诗歌翻译",
+      "跨文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-21/10663741.shtml",
+      "originalTitle": "美国汉学家比尔·波特：翻译古诗，是译者与诗人共同完成的一支舞",
+      "publishedAt": "Tue, 21 Jul 2026 18:46:52 +0800",
+      "retrievedAt": "2026-07-21T23:39:28.347Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-21T23:39:27.244Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 6,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-21-17",
     "title": "清华团队用17年做一件事：帮助盲人“看见”世界",
     "category": "science",
