@@ -41,6 +41,20 @@ export function materializeEvidenceQuotes(review, evidenceBlocks) {
   };
 }
 
+export function stripEvidenceMarkersFromScript(script) {
+  const strip = (text) =>
+    String(text).replace(
+      /[（(]\s*E\d{3}(?:\s*[–—-]\s*E?\d{3})?(?:\s*[,，、]\s*E\d{3}(?:\s*[–—-]\s*E?\d{3})?)*\s*[）)]/g,
+      "",
+    );
+  return {
+    ...script,
+    title: strip(script.title),
+    intro: strip(script.intro),
+    paragraphs: script.paragraphs.map(strip),
+  };
+}
+
 function chineseNumber(value) {
   const digits = { 零: 0, 〇: 0, 一: 1, 二: 2, 两: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
   if (value.includes("百")) {

@@ -13,6 +13,11 @@ on:
         required: false
         type: boolean
         default: false
+      repair_audio_slug:
+        description: "仅重做指定稿件音频（不重新选稿、生图）"
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -39,34 +44,35 @@ jobs:
         run: echo "ISSUE_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
 
       - name: 成本闸门
+        if: inputs.repair_audio_slug == ''
         id: cost_guard
         env:
           FORCE_REGENERATE: ${{ inputs.force_regenerate || 'false' }}
         run: node scripts/check-daily-run.mjs
 
       - uses: actions/setup-node@v4
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
 
       - name: 校验朗读文本规则
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         run: npm run test:speech
 
       - name: 校验内容源与编排策略
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         run: npm run test:curation
 
       - name: 召回候选
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug == '' && steps.cost_guard.outputs.should_run == 'true'
         run: node scripts/ingest.mjs
 
       - name: 评分与听稿改写
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug == '' && steps.cost_guard.outputs.should_run == 'true'
         # 三个模型 key 任配其一即可(DeepSeek 或阿里百炼);未配的留空,脚本自动挑选
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -78,7 +84,7 @@ jobs:
         run: node scripts/curate.mjs
 
       - name: 按需生成编辑缩略图
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug == '' && steps.cost_guard.outputs.should_run == 'true'
         # 最多两张且允许零张；生图服务失败不影响当天内容与语音出刊
         continue-on-error: true
         timeout-minutes: 8
@@ -99,20 +105,22 @@ jobs:
 
       # 整篇拼接的句级时间轴用 ffprobe 量时长(跑机不自带)
       - name: 安装 ffmpeg
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: 预生成神经语音
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
           MINIMAX_MAX_CHARS_PER_RUN: ${{ vars.MINIMAX_MAX_CHARS_PER_RUN || '12000' }}
           REQUIRE_AUDIO_CONTRACT: "true"
+          TARGET_AUDIO_SLUGS: ${{ inputs.repair_audio_slug }}
+          FORCE_TARGET_AUDIO: ${{ inputs.repair_audio_slug != '' && 'true' || 'false' }}
         run: node scripts/synthesize.mjs
 
       - name: 提交今日日刊
-        if: steps.cost_guard.outputs.should_run == 'true'
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

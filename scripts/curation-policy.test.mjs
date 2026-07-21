@@ -16,6 +16,7 @@ import {
 import {
   buildEvidenceBlocks,
   materializeEvidenceQuotes,
+  stripEvidenceMarkersFromScript,
   validateFactReview,
 } from "./lib/fact-review.mjs";
 
@@ -55,6 +56,17 @@ test("不存在的证据编号不能绕过原文精确匹配闸门", () => {
     buildEvidenceBlocks(source),
   );
   assert.throws(() => validateFactReview(review, source), /缺少可回查原文证据/);
+});
+
+test("内部证据编号不会进入正式听稿或音频文本", () => {
+  const clean = stripEvidenceMarkersFromScript({
+    title: "标题（E001）",
+    intro: "导语(E002-E003)",
+    paragraphs: ["事实（E014–E015）。", "另一事实（E019）。", "正常内容。"],
+  });
+  assert.equal(clean.title, "标题");
+  assert.equal(clean.intro, "导语");
+  assert.deepEqual(clean.paragraphs, ["事实。", "另一事实。", "正常内容。"]);
 });
 
 test("成人向优质来源的最低适龄段由代码兜底", () => {

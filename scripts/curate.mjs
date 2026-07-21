@@ -26,6 +26,7 @@ import { fetchFullText } from "./lib/full-text.mjs";
 import {
   buildEvidenceBlocks,
   materializeEvidenceQuotes,
+  stripEvidenceMarkersFromScript,
   validateFactReview,
 } from "./lib/fact-review.mjs";
 
@@ -314,7 +315,9 @@ paragraphIndex 从 0 开始，每一段都必须覆盖；sourceId 必须选自�
     );
     try {
       const reviewWithExactQuotes = materializeEvidenceQuotes(review, evidenceBlocks);
-      const finalScript = validateFactReview(reviewWithExactQuotes, fullText);
+      const finalScript = stripEvidenceMarkersFromScript(
+        validateFactReview(reviewWithExactQuotes, fullText),
+      );
       if (review.ok !== true || (Array.isArray(review.issues) && review.issues.length)) {
         console.log(
           `事实二审修正: ${candidate.title} — ${
