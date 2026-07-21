@@ -1,8 +1,11 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import test from "node:test";
 
 import {
   BILINGUAL_QUALITY_BAR,
+  REGION_POOL_MIN_SHARE,
   buildCurationAttemptQueue,
   composeDailyPicks,
   hasVerifiableSource,
@@ -19,6 +22,18 @@ import {
   stripEvidenceMarkersFromScript,
   validateFactReview,
 } from "./lib/fact-review.mjs";
+
+const editorialPolicy = JSON.parse(
+  readFileSync(resolve(import.meta.dirname, "../content/editorial-policy.json"), "utf8"),
+);
+
+test("编辑策略版本已存档并与国内国际候选池规则同步", () => {
+  assert.match(editorialPolicy.version, /^\d{4}-\d{2}-\d{2}\.\d+$/);
+  assert.equal(
+    editorialPolicy.regionBalance.candidatePoolMinimumSharePerRegion,
+    REGION_POOL_MIN_SHARE,
+  );
+});
 
 test("事实二审通过编号选择证据并由代码回填原文精确引文", () => {
   const source = "Alpha is the first verified fact. Beta is the second verified fact. ".repeat(5);
@@ -174,8 +189,9 @@ test("评分池保留中文、领域和近 48 小时实时内容的可见性", (
 
   const selected = selectCandidatePool(candidates, 60, now);
   assert.equal(selected.length, 60);
-  assert.ok(selected.filter((candidate) => candidate.lang === "zh").length >= 18);
+  assert.ok(selected.filter((candidate) => candidate.lang === "zh").length >= 30);
   assert.ok(selected.filter((candidate) => candidate.region === "mainland").length >= 27);
+  assert.ok(selected.filter((candidate) => candidate.region !== "mainland").length >= 27);
   assert.ok(
     categories.every((category) =>
       selected.some((candidate) => candidate.category === category),
@@ -184,6 +200,28 @@ test("评分池保留中文、领域和近 48 小时实时内容的可见性", (
   assert.ok(
     selected.filter((candidate) => candidate.profile === "realtime").length >= 12,
   );
+});
+
+test("评分池为国内国际保留近似均衡的候选面", () => {
+  const categories = ["science", "tech", "society", "humanities", "living", "culture"];
+  const candidates = Array.from({ length: 180 }, (_, index) => ({
+    title: `candidate-${index}`,
+    lang: index >= 90 ? "zh" : "en",
+    category: categories[index % categories.length],
+    profile: "depth",
+    region: index >= 150 ? "mainland" : "international",
+    weight: index >= 150 ? 0.8 : 1.2,
+    resonance: 1,
+    publishedAt: "2026-07-19T20:00:00+08:00",
+  }));
+
+  const selected = selectCandidatePool(candidates, 60, now);
+  const mainland = selected.filter((candidate) => candidate.region === "mainland");
+  const international = selected.filter((candidate) => candidate.region === "international");
+
+  assert.equal(mainland.length, 27);
+  assert.equal(international.length, 33);
+  assert.ok(selected.filter((candidate) => candidate.lang === "zh").length >= 30);
 });
 
 test("正式听稿要求标准来源、原文标题、可访问链接和足量全文", () => {
@@ -218,55 +256,67 @@ test("同一天重跑会替换旧刊而不是继续追加", () => {
   );
 });
 
-test("节目单强制同源去重并在有合格国内稿时保持至少一半", () => {
+test("一侧合格稿不足时允许另一侧多一篇，不会收缩到对称的两篇", () => {
   const candidates = [
-    { sourceName: "国际科技", region: "international" },
     { sourceName: "科学网", region: "mainland" },
-    { sourceName: "国际体育", region: "international" },
-    { sourceName: "国际体育", region: "international" },
-    { sourceName: "中新网", region: "mainland" },
+    { sourceName: "国际科学", region: "international" },
+    { sourceName: "国际社会", region: "international" },
+    { sourceName: "国际人文", region: "international" },
+    { sourceName: "国际生活", region: "international" },
+    { sourceName: "国际文化", region: "international" },
   ];
   const rawPicks = [
     { index: 0, score: 92, category: "tech" },
     { index: 1, score: 91, category: "science" },
-    { index: 2, score: 90, category: "culture" },
-    { index: 3, score: 89, category: "culture" },
-    { index: 4, score: 88, category: "humanities" },
+    { index: 2, score: 90, category: "society" },
+    { index: 3, score: 89, category: "humanities" },
+    { index: 4, score: 88, category: "living" },
+    { index: 5, score: 87, category: "culture" },
   ];
 
   const selected = composeDailyPicks(rawPicks, candidates);
 
-  assert.deepEqual(selected.map((pick) => pick.index), [0, 1, 2, 4]);
-  assert.equal(
-    selected.filter((pick) => candidates[pick.index].region === "mainland").length,
-    2,
-  );
-  assert.equal(new Set(selected.map((pick) => candidates[pick.index].sourceName)).size, 4);
+  assert.equal(selected.length, 3);
+  assert.deepEqual(selected.map((pick) => pick.index), [0, 1, 2]);
 });
 
-test("国内稿即使排在模型提名末尾也会获得主场席位", () => {
+test("双方都有足量合格稿时六篇 3+3、五篇 3+2", () => {
   const candidates = [
     { sourceName: "国际一", region: "international" },
     { sourceName: "国际二", region: "international" },
     { sourceName: "国际三", region: "international" },
-    { sourceName: "国际四", region: "international" },
     { sourceName: "国内一", region: "mainland" },
     { sourceName: "国内二", region: "mainland" },
+    { sourceName: "国内三", region: "mainland" },
   ];
   const rawPicks = [
     { index: 0, score: 96, category: "tech" },
     { index: 1, score: 95, category: "science" },
     { index: 2, score: 94, category: "society" },
-    { index: 3, score: 93, category: "humanities" },
+    { index: 3, score: 85, category: "humanities" },
     { index: 4, score: 84, category: "living" },
     { index: 5, score: 83, category: "culture" },
   ];
 
-  const selected = composeDailyPicks(rawPicks, candidates, { maxPicks: 4 });
+  const six = composeDailyPicks(rawPicks, candidates, { maxPicks: 6 });
+  const five = composeDailyPicks(rawPicks, candidates, { maxPicks: 5 });
 
-  assert.equal(selected.length, 4);
+  assert.equal(six.length, 6);
   assert.equal(
-    selected.filter((pick) => candidates[pick.index].region === "mainland").length,
+    six.filter((pick) => candidates[pick.index].region === "mainland").length,
+    3,
+  );
+  assert.equal(
+    six.filter((pick) => candidates[pick.index].region === "international").length,
+    3,
+  );
+  assert.equal(five.length, 5);
+  assert.equal(
+    five.filter((pick) => candidates[pick.index].region === "mainland").length,
     2,
+  );
+  assert.equal(
+    five.filter((pick) => candidates[pick.index].region === "international").length,
+    3,
   );
 });

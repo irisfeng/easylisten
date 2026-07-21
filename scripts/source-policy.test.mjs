@@ -73,7 +73,7 @@ test("源库保持中文可见度和高信任核心源占比", () => {
   assert.ok(coreShare >= 0.4, `Core source share too low: ${coreShare}`);
 });
 
-test("国内源不是装饰性配额，并覆盖少年刊需要的主要领域", () => {
+test("国内源覆盖少年刊需要的主要领域并保持发布者多样性", () => {
   const mainland = sources.filter((source) => source.region === "mainland");
   assert.ok(mainland.length >= 21, `Mainland source count too low: ${mainland.length}`);
   for (const category of ["science", "society", "humanities", "living", "culture"]) {

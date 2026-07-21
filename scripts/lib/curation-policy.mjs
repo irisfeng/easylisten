@@ -1,5 +1,5 @@
 export const CHINESE_POOL_SHARE = 0.5;
-export const MAINLAND_POOL_SHARE = 0.45;
+export const REGION_POOL_MIN_SHARE = 0.45;
 export const REALTIME_POOL_SHARE = 0.2;
 export const CATEGORY_POOL_MIN = 5;
 export const AGE_BANDS = ["6-9", "10-12", "13-16"];
@@ -74,13 +74,14 @@ export function mergeDailyPieces(pieces, existing, issueDate, limit = 60) {
 
 /**
  * 把模型提名收紧为可发布节目单。模型负责判断内容质量，代码负责不可妥协的
- * 结构约束：质量门槛、同源去重、领域上限，以及有合格国内稿时的主场占比。
- * 国内稿不足时宁可少发，不用低分稿补配额。
+ * 结构约束：质量门槛、同源去重、领域上限，以及国内与国际视野的动态均衡。
+ * 双方都有合格稿时交替选择各自当前最高分稿，最终数量差不超过 1；一侧候选
+ * 不足时允许另一侧多一篇，而不是为绝对对称把节目单收缩到两篇。
  */
 export function composeDailyPicks(
   rawPicks,
   candidates,
-  { qualityBar = 80, minPicks = 2, maxPicks = 6 } = {},
+  { qualityBar = 80, maxPicks = 6 } = {},
 ) {
   const eligible = rawPicks
     .map((pick, order) => ({ pick, order, candidate: candidates[pick.index] }))
@@ -93,40 +94,50 @@ export function composeDailyPicks(
   const selected = [];
   const sources = new Set();
   const categoryCounts = new Map();
+  const canAdd = (entry) =>
+    !sources.has(entry.candidate.sourceName) &&
+    (categoryCounts.get(entry.pick.category) ?? 0) < 2;
   const add = (entry) => {
     const source = entry.candidate.sourceName;
     const category = entry.pick.category;
-    if (sources.has(source) || (categoryCounts.get(category) ?? 0) >= 2) return false;
+    if (!canAdd(entry)) return false;
     selected.push(entry);
     sources.add(source);
     categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
     return true;
   };
 
-  // 先为合格国内稿预留一半席位，避免模型排序靠前的国际稿先占满节目单。
-  const mainlandTarget = Math.ceil(maxPicks / 2);
-  for (const entry of eligible.filter(({ candidate }) => candidate.region === "mainland")) {
-    if (selected.length >= mainlandTarget) break;
-    add(entry);
-  }
-  for (const entry of eligible) {
-    if (selected.length >= maxPicks) break;
-    add(entry);
-  }
-
   const hasMainland = eligible.some(({ candidate }) => candidate.region === "mainland");
-  while (
-    hasMainland &&
-    selected.length > minPicks &&
-    selected.filter(({ candidate }) => candidate.region === "mainland").length <
-      Math.ceil(selected.length / 2)
-  ) {
-    const international = selected
-      .map((entry, index) => ({ entry, index }))
-      .filter(({ entry }) => entry.candidate.region !== "mainland")
-      .sort((a, b) => a.entry.pick.score - b.entry.pick.score || b.index - a.index)[0];
-    if (!international) break;
-    selected.splice(international.index, 1);
+  const hasInternational = eligible.some(({ candidate }) => candidate.region !== "mainland");
+  if (hasMainland && hasInternational) {
+    // 两边轮流取当前最高分可用稿。某一侧耗尽时，另一侧最多再多一篇，
+    // 因此最终数量差不超过 1；不会像旧逻辑那样强制对称并收缩到 2 篇。
+    while (selected.length < maxPicks) {
+      const mainlandCount = selected.filter(
+        ({ candidate }) => candidate.region === "mainland",
+      ).length;
+      const internationalCount = selected.length - mainlandCount;
+      const requiredRegion =
+        mainlandCount < internationalCount
+          ? "mainland"
+          : internationalCount < mainlandCount
+            ? "international"
+            : null;
+      const next = eligible.find(
+        (entry) =>
+          canAdd(entry) &&
+          (requiredRegion === null ||
+            (requiredRegion === "mainland"
+              ? entry.candidate.region === "mainland"
+              : entry.candidate.region !== "mainland")),
+      );
+      if (!next || !add(next)) break;
+    }
+  } else {
+    for (const entry of eligible) {
+      if (selected.length >= maxPicks) break;
+      add(entry);
+    }
   }
 
   return selected.sort((a, b) => a.order - b.order).map(({ pick }) => pick);
@@ -210,7 +221,7 @@ function compareCandidates(a, b) {
 }
 
 /**
- * 候选过多时先保证中文、六领域和实时事件有进入评分池的机会,
+ * 候选过多时先保证国内、国际、中文、六领域和实时事件有进入评分池的机会,
  * 再按共振、源权重和新鲜度填满。这只是召回层保护,不代表入选配额。
  */
 export function selectCandidatePool(items, limit = 120, now = Date.now()) {
@@ -237,7 +248,8 @@ export function selectCandidatePool(items, limit = 120, now = Date.now()) {
     take(predicate, Math.max(0, count - current));
   };
 
-  ensure((item) => item.region === "mainland", Math.ceil(limit * MAINLAND_POOL_SHARE));
+  ensure((item) => item.region === "mainland", Math.ceil(limit * REGION_POOL_MIN_SHARE));
+  ensure((item) => item.region !== "mainland", Math.ceil(limit * REGION_POOL_MIN_SHARE));
   ensure((item) => item.lang === "zh", Math.ceil(limit * CHINESE_POOL_SHARE));
   for (const category of ["science", "tech", "society", "humanities", "living", "culture"]) {
     ensure((item) => item.category === category, CATEGORY_POOL_MIN);

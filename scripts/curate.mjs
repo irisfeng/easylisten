@@ -32,6 +32,9 @@ import {
 
 const ROOT = resolve(import.meta.dirname, "..");
 const RUBRIC = readFileSync(resolve(ROOT, "content/rubric.md"), "utf8");
+const EDITORIAL_POLICY = JSON.parse(
+  readFileSync(resolve(ROOT, "content/editorial-policy.json"), "utf8"),
+);
 // 源库扩容后候选可达 200+,评分前预筛保留中文、六领域与实时内容的可见性,
 // 再用多源共振、源权重和时效排序。扩大到 160 条用于候补梯队，但仍由
 // 单次结构化评分统一筛选，避免为了“广撒网”并发重复调用模型。
@@ -162,7 +165,7 @@ const scoreResult = await chatJson(
 来源原则:权重 1.1–1.2 是权威/深度核心源,1.0 是可信常规源,0.8–0.9 是发现源;来源声誉不能替代文章质量,发现源的爆炸性主张必须有可靠来源支撑。
 少年适配:听众固定分为 6-9、10-12、13-16 三个年龄段,选择者是家长。每期至少 2 篇应让 6-9 或 10-12 岁孩子无需额外背景也能听懂;候选标注的“最低适龄”是代码硬下限,不得向下误标。战争、灾难、犯罪和死亡等沉重议题最多 1 篇且避免细节渲染。纯游戏/影视/新品官宣、销量战报和阵容清单不入选,除非文章提供创作、技术、产业或文化层面的解释。单一小样本健康研究不得被包装成普遍结论或行动建议。
 中文覆盖:若中文原始来源中有达标内容,节目单目标包含 2 篇左右,但绝不能为凑比例降低 ${QUALITY_BAR} 分门槛或牺牲领域多样性。
-国内主场:若中国大陆发布者中有达标内容,节目单至少一半来自国内源；仍须逐篇超过 ${QUALITY_BAR} 分，不得用低质量内容凑比例。国内内容不能只来自科技数码，要兼顾科学、教育、社会、人文、健康和体育。
+国内与国际数量均衡:双方都有足量达标内容时，节目单尽量接近 1:1，最终数量差不超过 1；6 篇按 3+3，5 篇按 3+2。一侧不足时用该侧候补补位，不得降低 ${QUALITY_BAR} 分门槛凑比例。国内内容不能只来自科技数码，国际内容也不能只剩突发新闻。
 重大事件:未来 24 小时内或刚发生的全球性事件值得关注,但只选提供背景、机制、历史、战术、文化或社会影响的解释性内容;比分搬运、胜负预测、阵容清单和情绪化热评不入选。同一重大事件最多 1 篇,除非两篇视角显著不同且都超过 90 分。同一发布来源每天最多 1 篇。
 实时与长青必须并存:至少保留 1 篇与热点无关、以后仍值得听的内容。${starved.length ? `近三天未覆盖的领域(同分时优先):${starved.join("、")}。` : ""}${recentTitles.length ? `
 近七天已讲过这些内容,除非有重大新进展,不要再选同一事件或高度同质的选题:${recentTitles.slice(0, 40).join(" / ")}。` : ""}
@@ -170,7 +173,7 @@ category 从这六个里选:science、tech、society、humanities、living、cul
 topics 从这个列表里选:航天与宇宙、生命与演化、物质与数学、脑与认知、AI 与计算、工程与制造、互联网产品、数字生活、全球时事、经济与商业、城市与公共、气候与能源、历史、哲学与思想、艺术与设计、阅读与写作、健康与医学、心理与情绪、食物与日常、出行与旅行、音乐、影视与游戏、流行与网络文化、体育。${isSaturday ? `
 今天是周六,请额外挑一篇最适合"周末深读"的候选填进 deep 字段:优先叙事有纵深、论证完整的非热点长文(essays、深度报道),它不占节目单名额,且不得与 picks 重复。` : ""}
 
-除最终节目单 picks 外，再给出 4–6 篇 reserves 候补。候补必须同样达到 ${QUALITY_BAR} 分，且尽量来自不同发布者和领域；它们只在主名单全文取得、改写或事实二审失败时接替，不是降低门槛凑数。picks 与 reserves 的 index 不得重复。
+除最终节目单 picks 外，再给出 4–6 篇 reserves 候补。候补必须同样达到 ${QUALITY_BAR} 分，且尽量来自不同发布者和领域；国内、国际任一侧在 picks 中较少时，reserves 必须优先覆盖该侧。它们只在主名单全文取得、改写或事实二审失败时接替，不是降低门槛凑数。picks 与 reserves 的 index 不得重复。
 
 以 JSON 返回,格式为 {"picks": [{"index": 候选序号(整数), "score": 分数(整数), "category": 领域, "topics": [话题], "reason": "一句话理由"}], "reserves": [{"index": 候选序号(整数), "score": 分数(整数), "category": 领域, "topics": [话题], "reason": "候补理由"}]${isSaturday ? `, "deep": {"index": 候选序号(整数), "category": 领域, "topics": [话题]}` : ""}}。
 
@@ -396,6 +399,7 @@ for (const pick of regularPicks) {
 
     const piece = {
       slug: `${today}-${slugify(c.title)}`,
+      editorialPolicyVersion: EDITORIAL_POLICY.version,
       title: script.title,
       category: pick.category,
       author: "轻听编辑部",
@@ -427,11 +431,15 @@ for (const pick of regularPicks) {
       fullText,
     });
     console.log(`wrote 听稿: ${script.title}`);
-    const bilingualReady = regularDrafts.filter(
+    const preview = selectPublishableEntries(regularDrafts, CANDIDATES, {
+      qualityBar: QUALITY_BAR,
+      maxPicks: MAX_PICKS,
+    });
+    const bilingualReady = preview.filter(
       (draft) => draft.hasFullText && draft.score >= 85,
     ).length;
-    if (regularDrafts.length >= MAX_PICKS && bilingualReady >= 3) {
-      console.log("候选备份已充足：6 篇中文草稿、至少 3 篇双语候选，停止额外模型调用");
+    if (preview.length >= MAX_PICKS && bilingualReady >= 3) {
+      console.log("候选备份已充足：最终可编排 6 篇、国内国际数量均衡，停止额外模型调用");
       break;
     }
   } catch (e) {
@@ -489,6 +497,7 @@ if (deepValid) {
         script.title = await reviewTitle(script, c);
         pieces.push({
           slug: `${today}-${slugify(c.title)}`,
+          editorialPolicyVersion: EDITORIAL_POLICY.version,
           title: script.title,
           category: ALL_CATS.includes(deep.category) ? deep.category : "humanities",
           author: "轻听编辑部",
