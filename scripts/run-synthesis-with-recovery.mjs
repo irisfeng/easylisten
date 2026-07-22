@@ -5,8 +5,9 @@
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
 
-const attempts = Math.max(1, Number(process.env.SYNTHESIS_PROCESS_ATTEMPTS || 3));
-const waitMs = Math.max(0, Number(process.env.SYNTHESIS_PROCESS_RETRY_MS || 4000));
+import { resolveProcessRetryPlan } from "./lib/process-recovery.mjs";
+
+const { attempts, delaysMs } = resolveProcessRetryPlan(process.env);
 const script = resolve(import.meta.dirname, "synthesize.mjs");
 
 for (let attempt = 1; attempt <= attempts; attempt++) {
@@ -17,6 +18,7 @@ for (let attempt = 1; attempt <= attempts; attempt++) {
   });
   if (result.status === 0) process.exit(0);
   if (attempt < attempts) {
+    const waitMs = delaysMs[attempt - 1];
     console.log(
       `音频契约第 ${attempt}/${attempts} 轮未完成，${Math.ceil(waitMs / 1000)} 秒后只补缺口`,
     );

@@ -1,7 +1,26 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
+import { resolveProcessRetryPlan } from "./lib/process-recovery.mjs";
 import { synthesizeWithRetries } from "./lib/tts-recovery.mjs";
+
+test("完整音频契约使用分钟级退避并限制在声明的轮数内", () => {
+  assert.deepEqual(resolveProcessRetryPlan({}), {
+    attempts: 4,
+    delaysMs: [60_000, 180_000, 600_000],
+  });
+
+  assert.deepEqual(
+    resolveProcessRetryPlan({
+      SYNTHESIS_PROCESS_ATTEMPTS: "3",
+      SYNTHESIS_PROCESS_RETRY_DELAYS_MS: "1000, 2000, 3000",
+    }),
+    {
+      attempts: 3,
+      delaysMs: [1000, 2000],
+    },
+  );
+});
 
 test("Edge 返回空音频时自动重试同一音色", async () => {
   let calls = 0;

@@ -40,8 +40,8 @@ concurrency:
 jobs:
   curate:
     runs-on: ubuntu-latest
-    # 候补与证据修复最多多走一轮事实二审；保留足够时间，但仍有总时限防失控。
-    timeout-minutes: 45
+    # 内容审核、付费语音与最长 14 分钟退避都要留在同一工作区续跑。
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
         with:
@@ -120,7 +120,9 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: 预生成神经语音
+        id: synthesis
         if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
+        continue-on-error: true
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
@@ -129,6 +131,25 @@ jobs:
           TARGET_AUDIO_SLUGS: ${{ inputs.repair_audio_slug }}
           FORCE_TARGET_AUDIO: ${{ inputs.repair_audio_slug != '' && 'true' || 'false' }}
         run: node scripts/run-synthesis-with-recovery.mjs
+
+      - name: 保存待恢复的出刊快照
+        if: steps.synthesis.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-recovery-${{ env.ISSUE_DATE }}-${{ github.run_id }}
+          path: |
+            content/daily.json
+            content/editorial.json
+            public/audio
+            public/editorial
+          if-no-files-found: error
+          retention-days: 3
+
+      - name: 音频不完整时停止发布
+        if: steps.synthesis.outcome == 'failure'
+        run: |
+          echo "音频仍不完整；已保存可续跑快照，等待自动恢复任务只补缺轨"
+          exit 1
 
       - name: 提交今日日刊
         if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'

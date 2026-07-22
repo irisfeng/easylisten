@@ -1,0 +1,94 @@
+name: 每日精选失败自动恢复
+
+on:
+  workflow_run:
+    workflows: ["每日精选"]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-curation-recovery
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: 下载失败运行保存的出刊快照
+        id: snapshot
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: daily-recovery-*
+          path: .
+          merge-multiple: true
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        if: steps.snapshot.outcome == 'success'
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        if: steps.snapshot.outcome == 'success'
+
+      - name: 校验发布契约
+        if: steps.snapshot.outcome == 'success'
+        run: |
+          npm run test:speech
+          npm run test:curation
+
+      - name: 安装 ffmpeg
+        if: steps.snapshot.outcome == 'success'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: 只补快照中的缺失音轨
+        if: steps.snapshot.outcome == 'success'
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
+          MINIMAX_MAX_CHARS_PER_RUN: ${{ vars.MINIMAX_MAX_CHARS_PER_RUN || '12000' }}
+          REQUIRE_AUDIO_CONTRACT: "true"
+        run: node scripts/run-synthesis-with-recovery.mjs
+
+      - name: 提交恢复后的今日日刊
+        if: steps.snapshot.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "easylisten-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content/daily.json content/editorial.json public/audio public/editorial
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore: 自动恢复每日精选音频"
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          pushed=""
+          for i in 1 2 3; do
+            git push "$REMOTE" "HEAD:${GITHUB_REF_NAME}" && { pushed=1; break; }
+            echo "push 失败,变基重试 ($i/3)"
+            git pull --rebase "$REMOTE" "${GITHUB_REF_NAME}"
+            sleep 5
+          done
+          [ -n "$pushed" ] || { echo "三次推送均失败"; exit 1; }
+
+      - name: 恢复失败告警
+        if: failure() && steps.snapshot.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create -R "$GITHUB_REPOSITORY" \
+            --title "⚠️ 每日精选自动恢复仍未完成" \
+            --body "已从失败运行快照续补音频，但仍未达到发布契约。恢复日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
