@@ -33,6 +33,10 @@ import {
   stripEvidenceMarkersFromScript,
   validateFactReview,
 } from "./lib/fact-review.mjs";
+import {
+  fitIssueEntriesToMiniMaxBudget,
+  miniMaxCharsForPiece,
+} from "./lib/audio-budget.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 // 每日精选先重温产品核心。它不是独立宣传文案，而是选题与改写的最高层约束。
@@ -67,6 +71,10 @@ const MAX_PICKS = IS_SUPPLEMENT ? requestedSupplementPicks : 6;
 const MAX_CURATION_ATTEMPTS = 14;
 const MAX_RESERVE_NOMINATIONS = 24;
 const QUALITY_BAR = 80;
+const MINIMAX_MAX_CHARS_PER_RUN = Math.max(
+  0,
+  Number(process.env.MINIMAX_MAX_CHARS_PER_RUN || 12000),
+);
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
 const PROVIDERS = [
@@ -713,6 +721,38 @@ for (const bilingual of bilingualPicks) {
 if (existingBilingualCount + bilingualPublished < 1) {
   throw new Error("每日发布契约未满足：必须有 1-2 篇通过完整原文与事实二审的中英双语稿");
 }
+
+// 音频预算是节目单编排约束，不应等到 TTS 前才发现确定性超限。小规模枚举
+// 保留尽可能多且总评分最高的组合，同时继续守住地域均衡与双语下限。
+const scoresBySlug = new Map(
+  finalRegular.map((entry) => [entry.piece.slug, entry.score]),
+);
+const budgetEntries = fitIssueEntriesToMiniMaxBudget(
+  pieces.map((piece) => ({ piece, score: scoresBySlug.get(piece.slug) ?? QUALITY_BAR })),
+  {
+    maxChars: MINIMAX_MAX_CHARS_PER_RUN,
+    minPicks: MIN_PICKS,
+    minBilingual: 1,
+    initialRegionCounts: IS_SUPPLEMENT
+      ? existingRegionCounts
+      : { mainland: 0, international: 0 },
+    initialBilingual: IS_SUPPLEMENT ? existingBilingualCount : 0,
+  },
+);
+if (budgetEntries.length !== pieces.length) {
+  const removed = pieces.filter(
+    (piece) => !budgetEntries.some((entry) => entry.piece.slug === piece.slug),
+  );
+  console.log(
+    `MiniMax 节目单预算收敛：${pieces.length} → ${budgetEntries.length} 篇，` +
+      `移除 ${removed.map((piece) => `《${piece.title}》`).join(" / ")}`,
+  );
+}
+pieces.splice(0, pieces.length, ...budgetEntries.map((entry) => entry.piece));
+console.log(
+  `MiniMax 节目单预算：${pieces.reduce((sum, piece) => sum + miniMaxCharsForPiece(piece), 0)}/` +
+    `${MINIMAX_MAX_CHARS_PER_RUN} 字符`,
+);
 
 // 最新的排前面；同日重跑替换当天旧刊，避免手动测试或失败重试累加篇数。
 if (pieces.length === 0) {

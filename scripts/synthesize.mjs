@@ -34,6 +34,10 @@ import {
 } from "../src/lib/speech-text.js";
 import { synthesizeWithRetries } from "./lib/tts-recovery.mjs";
 import {
+  miniMaxBillingChars,
+  miniMaxCharsForTracks,
+} from "./lib/audio-budget.mjs";
+import {
   CHINESE_FEMALE_VOICE,
   CHINESE_MALE_VOICE,
   ENGLISH_FEMALE_VOICE,
@@ -105,14 +109,6 @@ async function waitForMiniMaxSlot() {
   const waitMs = Math.max(0, mmNextRequestAt - Date.now());
   if (waitMs > 0) await sleep(waitMs);
   mmNextRequestAt = Date.now() + MM_MIN_INTERVAL_MS;
-}
-
-// MiniMax 计费口径：1 个汉字按 2 个字符，其余字母、标点、空格等按 1 个字符。
-function miniMaxBillingChars(text) {
-  return Array.from(text).reduce(
-    (total, char) => total + (/\p{Script=Han}/u.test(char) ? 2 : 1),
-    0,
-  );
 }
 
 function budgetedVoiceForUnit(unit, paragraphs, preferredVoice) {
@@ -323,14 +319,7 @@ if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
 // MiniMax 字符预算。超限时在第一次付费调用前失败，不留下半套音频。
 if (REQUIRE_AUDIO_CONTRACT) {
   const missingTracks = missingRequiredAudioUnits(pieces, manifest.slugs);
-  const estimatedChars = missingTracks
-    .filter(({ engine }) => engine === "minimax")
-    .reduce((total, track) => {
-      return total + splitSentences(track.paragraphs).reduce((sum, sentence) => {
-        const text = speechTextForUnit(sentence, track.unit);
-        return sum + (/\p{L}|\p{N}/u.test(text) ? miniMaxBillingChars(text) : 0);
-      }, 0);
-    }, 0);
+  const estimatedChars = miniMaxCharsForTracks(missingTracks);
   console.log(
     `音频契约预检：待生成 ${missingTracks.length} 条音轨，` +
       `MiniMax 预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符`,

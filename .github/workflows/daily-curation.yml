@@ -92,6 +92,7 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           ISSUE_DATE: ${{ env.ISSUE_DATE }}
           SUPPLEMENT_PICKS: ${{ inputs.supplement_picks || '0' }}
+          MINIMAX_MAX_CHARS_PER_RUN: ${{ vars.MINIMAX_MAX_CHARS_PER_RUN || '12000' }}
         run: node scripts/curate.mjs
 
       - name: 按需生成编辑缩略图
