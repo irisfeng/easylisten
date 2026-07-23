@@ -9,12 +9,14 @@ import {
   buildCurationAttemptQueue,
   composeDailyPicks,
   hasVerifiableSource,
+  hasOverlongEnglishSentence,
   mergeDailyPieces,
   mergeSupplementPieces,
   normalizeAgeBands,
   rankBilingualCandidates,
   regionalReserveNeeds,
   regionCountsForPicks,
+  hasUnexpectedCjkInEnglishScript,
   selectCandidatePool,
   selectBilingualCandidates,
   selectPublishableEntries,
@@ -152,6 +154,40 @@ test("双语前两篇失败时仍保留同标准第三候选作为备份", () =>
     now,
   );
   assert.deepEqual(ranked.map((entry) => entry.c.title), ["合格一", "合格二", "合格三"]);
+});
+
+test("英文听稿拒绝残留中文字符但允许普通英文和数字", () => {
+  assert.equal(
+    hasUnexpectedCjkInEnglishScript({
+      title: "Heavy Ion Accelerator",
+      intro: "HIAF has entered trial operation.",
+      paragraphs: ["Its performance leads among comparable facilities worldwide."],
+    }),
+    false,
+  );
+  assert.equal(
+    hasUnexpectedCjkInEnglishScript({
+      title: "Heavy Ion Accelerator",
+      intro: "HIAF has entered trial operation.",
+      paragraphs: ["Its performance leads among同类装置 (peer facilities)."],
+    }),
+    true,
+  );
+});
+
+test("英文听稿拒绝超过三十词的整屏高亮长句", () => {
+  assert.equal(
+    hasOverlongEnglishSentence({ paragraphs: ["A short sentence. Another short sentence."] }),
+    false,
+  );
+  assert.equal(
+    hasOverlongEnglishSentence({
+      paragraphs: [
+        "The panel reviewed reports, inspected the site, questioned the team, checked every target, compared the results with the approved design, discussed the findings, and concluded that the facility met all requirements without separating these facts into shorter sentences.",
+      ],
+    }),
+    true,
+  );
 });
 
 test("主名单失败后候补按相同门槛进入尝试队列", () => {

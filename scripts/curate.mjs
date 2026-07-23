@@ -16,6 +16,8 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import {
   buildCurationAttemptQueue,
+  hasOverlongEnglishSentence,
+  hasUnexpectedCjkInEnglishScript,
   hasVerifiableSource,
   mergeDailyPieces,
   mergeSupplementPieces,
@@ -690,7 +692,7 @@ for (const bilingual of bilingualPicks) {
   try {
     const en = await chatJson(
       `You are a writer for "EasyListen", a daily listening digest for children and teenagers aged 6-16, chosen and trusted by their parents. First follow the product core below. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.\n\nDAILY PRODUCT CORE:\n${PRODUCT_CORE}`,
-      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English).\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
+      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English). Keep every sentence at 30 words or fewer. Do not chain multiple facts with semicolons; use short natural sentences so each playback highlight fits comfortably on a phone screen.\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
       `英文稿(${bilingual.c.title})`,
     );
     const validEn =
@@ -703,6 +705,12 @@ for (const bilingual of bilingualPicks) {
       en.paragraphs.every((p) => typeof p === "string" && p.trim());
     if (validEn) {
       const factChecked = await reviewScriptFacts(en, bilingual.c, bilingual.fullText);
+      if (hasUnexpectedCjkInEnglishScript(factChecked.script)) {
+        throw new Error("英文听稿残留中文、日文或韩文字符");
+      }
+      if (hasOverlongEnglishSentence(factChecked.script)) {
+        throw new Error("英文听稿包含超过 30 词的长句，不适合移动端逐句高亮");
+      }
       bilingual.piece.en = {
         title: factChecked.script.title,
         intro: factChecked.script.intro,

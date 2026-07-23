@@ -44,7 +44,6 @@ import {
   ENGLISH_FEMALE_VOICE,
   audioPlanForPiece,
   latestIssuePieces,
-  missingRequiredAudioUnits,
 } from "./lib/audio-policy.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -287,6 +286,12 @@ const targetSlugs = new Set(
     .map((slug) => slug.trim())
     .filter(Boolean),
 );
+const targetUnits = new Set(
+  String(process.env.TARGET_AUDIO_UNITS ?? "")
+    .split(",")
+    .map((unit) => unit.trim())
+    .filter(Boolean),
+);
 const knownSlugs = new Set(allPieces.map((piece) => piece.slug));
 const unknownTargets = [...targetSlugs].filter((slug) => !knownSlugs.has(slug));
 if (unknownTargets.length) {
@@ -295,6 +300,13 @@ if (unknownTargets.length) {
 const pieces = targetSlugs.size
   ? allPieces.filter((piece) => targetSlugs.has(piece.slug))
   : latestIssuePieces(dailyPieces);
+const knownTargetUnits = new Set(
+  pieces.flatMap((piece) => audioPlanForPiece(piece).map(({ unit }) => unit)),
+);
+const unknownTargetUnits = [...targetUnits].filter((unit) => !knownTargetUnits.has(unit));
+if (unknownTargetUnits.length) {
+  throw new Error(`指定音轨不存在或不属于目标稿件：${unknownTargetUnits.join("、")}`);
+}
 
 if (!targetSlugs.size) {
   console.log(
@@ -317,7 +329,7 @@ if (REQUIRE_AUDIO_CONTRACT && !MM_KEY) {
 if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
   for (const slug of targetSlugs) {
     const piece = pieces.find((entry) => entry.slug === slug);
-    for (const { unit } of audioPlanForPiece(piece)) {
+    for (const { unit } of audioPlanForPiece(piece, targetUnits)) {
       rmSync(resolve(AUDIO_DIR, unit), { recursive: true, force: true });
       manifest.slugs = manifest.slugs.filter((entry) => entry !== unit);
       if (manifest.timings) delete manifest.timings[unit];
@@ -333,7 +345,10 @@ if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
 // 正式工作流先计算本轮缺失 MiniMax 音轨的总成本。Edge 英文轨免费，不计入
 // MiniMax 字符预算。超限时在第一次付费调用前失败，不留下半套音频。
 if (REQUIRE_AUDIO_CONTRACT) {
-  const missingTracks = missingRequiredAudioUnits(pieces, manifest.slugs);
+  const available = new Set(manifest.slugs);
+  const missingTracks = pieces.flatMap((piece) =>
+    audioPlanForPiece(piece, targetUnits).filter(({ unit }) => !available.has(unit)),
+  );
   const estimatedChars = miniMaxCharsForTracks(missingTracks);
   console.log(
     `音频契约预检：待生成 ${missingTracks.length} 条音轨，` +
@@ -606,7 +621,7 @@ function buildFull(unit) {
 
 for (const piece of pieces) {
   if (MM_KEY) {
-    for (const track of audioPlanForPiece(piece)) {
+    for (const track of audioPlanForPiece(piece, targetUnits)) {
       const preferredVoice = { engine: track.engine, voice: track.voice };
       await synthesizeUnit(
         track.unit,
@@ -622,7 +637,7 @@ for (const piece of pieces) {
 // 修复用:按产品音频契约找回每条音轨对应的文本
 const textByUnit = new Map();
 for (const piece of pieces) {
-  for (const track of audioPlanForPiece(piece)) {
+  for (const track of audioPlanForPiece(piece, targetUnits)) {
     textByUnit.set(track.unit, track.paragraphs);
   }
 }

@@ -6,6 +6,26 @@ export const AGE_BANDS = ["6-9", "10-12", "13-16"];
 export const BILINGUAL_LIMIT = 2;
 export const BILINGUAL_QUALITY_BAR = 85;
 
+/** 英文听稿必须保持语言纯净，避免模型把中文原文片段夹进译稿。 */
+export function hasUnexpectedCjkInEnglishScript(script) {
+  const text = [script?.title, script?.intro, ...(script?.paragraphs ?? [])]
+    .filter((part) => typeof part === "string")
+    .join("\n");
+  return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u.test(
+    text,
+  );
+}
+
+/** 高亮按朗读句推进；过长英文句会在手机上形成整屏色块。 */
+export function hasOverlongEnglishSentence(script, maxWords = 30) {
+  const text = [script?.title, script?.intro, ...(script?.paragraphs ?? [])]
+    .filter((part) => typeof part === "string")
+    .join(" ");
+  return text
+    .split(/(?<=[.!?])["”’']*\s+/u)
+    .some((sentence) => (sentence.match(/[A-Za-z0-9]+(?:['’.-][A-Za-z0-9]+)*/g) ?? []).length > maxWords);
+}
+
 /**
  * 主编名单之外保留同标准候补。候补只扩大失败后的尝试面，不降低分数门槛；
  * 尝试队列放宽到每领域 3 篇，最终节目单仍由 composeDailyPicks 收紧到每领域 2 篇。

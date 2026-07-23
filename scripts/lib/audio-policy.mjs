@@ -6,9 +6,10 @@ export const ENGLISH_FEMALE_VOICE = "en-US-AriaNeural";
  * 正式中文节目固定提供两条 MiniMax 声线。目录约定由播放器和工作流共用：
  * <slug> 为女声，<slug>-m 为男声。
  */
-export function audioPlanForPiece(piece) {
+export function audioPlanForPiece(piece, targetUnits = null) {
+  let plan;
   if (piece.en) {
-    return [
+    plan = [
       {
         unit: piece.slug,
         language: "zh",
@@ -26,25 +27,27 @@ export function audioPlanForPiece(piece) {
         paragraphs: piece.en.paragraphs,
       },
     ];
+  } else {
+    plan = [
+      {
+        unit: piece.slug,
+        language: "zh",
+        gender: "f",
+        engine: "minimax",
+        voice: CHINESE_FEMALE_VOICE,
+        paragraphs: piece.paragraphs,
+      },
+      {
+        unit: `${piece.slug}-m`,
+        language: "zh",
+        gender: "m",
+        engine: "minimax",
+        voice: CHINESE_MALE_VOICE,
+        paragraphs: piece.paragraphs,
+      },
+    ];
   }
-  return [
-    {
-      unit: piece.slug,
-      language: "zh",
-      gender: "f",
-      engine: "minimax",
-      voice: CHINESE_FEMALE_VOICE,
-      paragraphs: piece.paragraphs,
-    },
-    {
-      unit: `${piece.slug}-m`,
-      language: "zh",
-      gender: "m",
-      engine: "minimax",
-      voice: CHINESE_MALE_VOICE,
-      paragraphs: piece.paragraphs,
-    },
-  ];
+  return targetUnits?.size ? plan.filter(({ unit }) => targetUnits.has(unit)) : plan;
 }
 
 export function missingRequiredAudioUnits(pieces, manifestSlugs) {

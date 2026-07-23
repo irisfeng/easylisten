@@ -12,6 +12,10 @@ on:
         required: false
         type: boolean
         default: false
+      units:
+        description: "可选：只修复指定音轨目录名，多个用英文逗号分隔"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -43,6 +47,7 @@ jobs:
       - name: 按产品契约生成或补齐音轨
         env:
           TARGET_AUDIO_SLUGS: ${{ inputs.slugs }}
+          TARGET_AUDIO_UNITS: ${{ inputs.units }}
           FORCE_TARGET_AUDIO: ${{ inputs.force_regenerate }}
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}

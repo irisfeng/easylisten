@@ -58,6 +58,17 @@ test("中英双语稿使用 MiniMax 中文女声和 Edge 英文女声", () => {
   ]);
 });
 
+test("定向修复可以只选择双语稿的英文音轨", () => {
+  const bilingual = {
+    ...chinesePiece,
+    en: { title: "Story", intro: "Intro", paragraphs: ["English body."] },
+  };
+  assert.deepEqual(
+    audioPlanForPiece(bilingual, new Set(["today-story-en"])).map(({ unit }) => unit),
+    ["today-story-en"],
+  );
+});
+
 test("发布闸门按文章类型找出缺失音轨", () => {
   assert.deepEqual(
     missingRequiredAudioUnits(
