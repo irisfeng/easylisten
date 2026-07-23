@@ -105,10 +105,10 @@
     "2026-07-23-v329jr",
     "2026-07-23-v329jr-m",
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or",
-    "2026-07-23-15",
-    "2026-07-23-15-m",
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en",
-    "2026-07-23-oy46xz-en"
+    "2026-07-23-oy46xz-en",
+    "2026-07-23-15",
+    "2026-07-23-15-m"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -2250,32 +2250,6 @@
       157.114,
       157.294
     ],
-    "2026-07-23-15": [
-      0,
-      3.925,
-      7.884,
-      12.018,
-      14.7,
-      16.871,
-      20.319,
-      27.819,
-      36.178,
-      46.499,
-      50.505
-    ],
-    "2026-07-23-15-m": [
-      0,
-      4.435,
-      8.104,
-      12.237,
-      14.28,
-      15.941,
-      19.006,
-      26.471,
-      34.226,
-      43.271,
-      47.148
-    ],
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": [
       0,
       10.879,
@@ -2323,6 +2297,36 @@
       116.64,
       123.624,
       132.192
+    ],
+    "2026-07-23-15": [
+      0,
+      4.052,
+      16.208,
+      31.602,
+      40.263,
+      42.481,
+      58.004,
+      68.453,
+      73.573,
+      82.524,
+      92.973,
+      104.235,
+      109.993
+    ],
+    "2026-07-23-15-m": [
+      0,
+      4.087,
+      15.511,
+      29.071,
+      37.175,
+      39.01,
+      55.21,
+      64.892,
+      69.327,
+      78.964,
+      87.915,
+      97.168,
+      102.881
     ]
   },
   "fullAudioVersion": 4,
@@ -2431,10 +2435,10 @@
     "2026-07-23-v329jr": 3,
     "2026-07-23-v329jr-m": 3,
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or": 3,
-    "2026-07-23-15": 3,
-    "2026-07-23-15-m": 3,
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": 3,
-    "2026-07-23-oy46xz-en": 3
+    "2026-07-23-oy46xz-en": 3,
+    "2026-07-23-15": 3,
+    "2026-07-23-15-m": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
@@ -2442,10 +2446,14 @@
   },
   "trackEngines": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "minimax",
-    "2026-07-23-oy46xz-en": "edge"
+    "2026-07-23-oy46xz-en": "edge",
+    "2026-07-23-15": "minimax",
+    "2026-07-23-15-m": "minimax"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
-    "2026-07-23-oy46xz-en": "en-US-AriaNeural"
+    "2026-07-23-oy46xz-en": "en-US-AriaNeural",
+    "2026-07-23-15": "presenter_female",
+    "2026-07-23-15-m": "male-qn-jingying"
   }
 }
