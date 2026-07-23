@@ -1,5 +1,274 @@
 [
   {
+    "slug": "2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一个“超级”厄尔尼诺正在形成，它意味着什么？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-23",
+    "intro": "气候科学家警告说，一个可能成为有记录以来最强的厄尔尼诺事件正在发展。它将如何影响全球天气？",
+    "paragraphs": [
+      "气候科学家正在提醒我们系好安全带，因为一次厄尔尼诺事件已经开始了。到今年年底，这个周期性气候事件可能会成为有记录以来最强的厄尔尼诺。6月11日，美国国家海洋和大气管理局确认地球已正式进入厄尔尼诺阶段。",
+      "什么是厄尔尼诺？它全称是厄尔尼诺-南方涛动，简称ENSO，是一个每两到七年重复出现的海洋-气候模式。它有三个阶段：厄尔尼诺阶段，东赤道太平洋海面温度连续几个月高于正常值；拉尼娜阶段，温度低于正常值；以及中性阶段。厄尔尼诺在西班牙语中意为“小男孩”，因为17世纪秘鲁渔民注意到它常在圣诞节前后出现。",
+      "什么造就了“超级”厄尔尼诺？当东赤道太平洋海面温度持续比平均高至少0.5摄氏度时，厄尔尼诺正式开始。如果温度比平均高2摄氏度以上，就标志着超强厄尔尼诺的出现。自4月以来，该区域温度一直远高于平均。NOAA使用新工具预测，今年冬季海面温度有63%的概率比平均高2摄氏度以上，这意味着一个超级厄尔尼诺正在发展。",
+      "这次厄尔尼诺会带来什么影响？它会向大气释放大量热量，暂时提升全球气温。这可能导致热相关疾病增加，以及蚊子等喜热害虫传播的疾病增多。它还会改变太平洋急流的路径，使一些地区更干燥，另一些更湿润。对美国而言，太平洋气旋可能增多增强，而大西洋飓风则可能减少。",
+      "与过去相比如何？最近几次强厄尔尼诺发生在2015–16年、1997–98年和1982–83年。1997–98年的最强，使全球平均气温暂时上升1.5摄氏度（2.7华氏度），引发了秘鲁和东非的暴雨洪水、东南亚的干旱和致命野火、加利福尼亚的强风暴及山体滑坡，以及全球约六分之一珊瑚礁的白化。那次事件估计造成约5.7万亿美元的损失。",
+      "我们能否削弱厄尔尼诺？一项新研究提出，通过向太平洋特定区域注入微小颗粒，可以增亮云层，反射更多阳光，从而冷却气候。这个想法源于2019–20年澳大利亚野火，其烟尘曾触发多年拉尼娜。但这项技术尚未成熟，且需更多研究其负面后果，无法用于今年的厄尔尼诺。"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/super-el-nino-climate",
+      "originalTitle": "A ‘super’ El Niño appears to be emerging. What’s the big deal?",
+      "publishedAt": "Wed, 22 Jul 2026 10:30:00 +0000",
+      "retrievedAt": "2026-07-22T23:36:51.526Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:36:50.541Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-23/2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th.webp",
+      "alt": "Abstract globe with warm ocean currents on gray background",
+      "caption": "厄尔尼诺现象正在加强。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-23-oy46xz",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "强流重离子加速器装置建成投入试运行",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-23",
+    "intro": "7月21日，位于广东省惠州市的国家重大科技基础设施建设项目——强流重离子加速器装置（HIAF）通过工艺验收，进入试运行阶段，开始投入科学研究。",
+    "paragraphs": [
+      "7月21日，位于广东省惠州市的国家重大科技基础设施建设项目——强流重离子加速器装置（HIAF）通过了由中国科学院科技基础能力局主持的工艺验收，标志着该装置完成所有工程建设内容，进入试运行阶段，开始投入科学研究。",
+      "验收专家组由来自全国科研院所、高校和企业的8位院士、15位专家组成。专家组认为，项目法人单位中国科学院近代物理研究所全面、高质量完成了国家发展改革委批复的建设内容和任务，HIAF实现了强流重离子加速器和实验终端方法和技术的全链条自主可控创新突破，经多轮性能测试，国家要求的验收指标全部达到并均优于设计指标。HIAF综合性能达到国际同类装置领先水平，实现了我国强流重离子加速器装置跨越发展。验收专家组一致同意强流重离子加速器装置通过工艺验收。",
+      "HIAF是世界上第一台超导直线加速器、同步加速器和储存环组合的先进重离子研究装置，结合了直线加速器的高脉冲流强优势和环形同步加速器的高能量特点。",
+      "项目于2018年12月开工建设，2025年10月首次出束。聚焦“探索原子核存在极限、揭示核天体物理过程、推动核能开发和多学科应用”三大目标，HIAF将为核科学前沿和重离子重大应用提供国际领先的研究平台，显著提升我国重离子科学与技术领域的创新能力，打造具有重大国际影响的重离子科学研究中心。",
+      "HIAF将为核科学前沿和重离子重大应用提供国际领先的研究平台，显著提升我国重离子科学与技术领域的创新能力，打造具有重大国际影响的重离子科学研究中心。"
+    ],
+    "topics": [
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568633.shtm",
+      "originalTitle": "强流重离子加速器装置建成投入试运行",
+      "publishedAt": "2026-07-22 08:40",
+      "retrievedAt": "2026-07-22T23:37:21.107Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:37:19.893Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "China's Powerful Heavy Ion Accelerator Now in Trial Operation",
+      "intro": "A major scientific facility in southern China, designed to explore the frontiers of nuclear physics, has officially started trial runs.",
+      "paragraphs": [
+        "On July 21st, a scientific facility called the High Intensity Heavy Ion Accelerator Facility (HIAF) passed the technological acceptance review hosted by the Bureau of Science and Technology Infrastructure of the Chinese Academy of Sciences. This marks completion of all construction work and entry into trial operation for scientific research. The facility is located in Huizhou, Guangdong Province, and is a national major science and technology infrastructure project.",
+        "The acceptance expert group consisted of 8 academicians and 15 experts from research institutes, universities, and enterprises across the country. They reviewed engineering reports, performance test results, and supporting documentation, conducted on-site inspections, and held questioning sessions. They concluded that the project legal entity — the Institute of Modern Physics, Chinese Academy of Sciences — fully and high-quality completed all construction content and tasks approved by the National Development and Reform Commission; HIAF achieved full-chain independent innovation breakthroughs in strong-current heavy ion accelerator and experimental terminal methods and technologies; all national acceptance indicators were met and exceeded design specifications; and its comprehensive performance reaches the leading level internationally among同类装置 (peer facilities), realizing a leapfrog development of China’s strong-current heavy ion accelerator capability.",
+        "HIAF is the world’s first advanced heavy ion research facility integrating a superconducting linear accelerator, a synchrotron, and a storage ring — combining the high-pulse beam intensity advantage of linear accelerators with the high-energy characteristics of ring-shaped synchrotrons. Construction began in December 2018, and first beam was achieved in October 2025.",
+        "HIAF focuses on three major scientific goals: exploring the limits of atomic nucleus existence, revealing nuclear astrophysical processes, and promoting nuclear energy development and multidisciplinary applications. It will provide an internationally leading research platform for nuclear science frontiers and heavy ion major applications, significantly enhance China’s innovation capacity in heavy ion science and technology, and build a heavy ion science research center with major international influence."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:40:46.876Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-23/2026-07-23-oy46xz.webp",
+      "alt": "Abstract particle accelerator tunnel in gray tones",
+      "caption": "强流重离子加速器投入运行。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-23-v329jr",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "欧洲天然气价格再次逼近伊战初期高点",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-23",
+    "intro": "欧洲天然气价格近期大幅上涨，再次接近伊拉克战争初期的水平。",
+    "paragraphs": [
+      "最近，欧洲的天然气价格再次上涨。根据英国《金融时报》中文网报道，欧洲基准天然气期货价格再次逼近每兆瓦时100欧元，该水平接近2003年伊拉克战争初期的高点。",
+      "原文未提供关于俄罗斯与乌克兰天然气过境协议于2024年底到期、未续签、管道输送中断，以及2024年仍输送约150亿立方米天然气等任何信息。",
+      "原文未提及2025年冬天欧洲部分地区更冷、供暖需求增加、风力发电出力不足或天然气发电补缺等天气与电力系统相关事实。",
+      "原文未涉及亚洲国家（包括中国和印度）液化天然气需求增长、欧洲自美国或卡塔尔进口LNG、全球供应未大幅增加或买家竞争推高价格等内容。",
+      "原文未说明天然气高价对化工、钢铁、玻璃制造等能源密集型产业造成减产停产影响，亦未提家庭取暖用电成本上升、各国政府及欧盟讨论新补贴政策或财政负担担忧。",
+      "原文未出现分析师对短期价格走势的判断，亦无关于欧洲加速建设LNG接收站、推动可再生能源发展、能源转型紧迫性提升等表述。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "FT 中文网",
+      "region": "international",
+      "url": "https://www.ftchinese.com/story/001110401",
+      "originalTitle": "欧洲天然气价格再次逼近伊战初期高点",
+      "publishedAt": "Wed, 22 Jul 2026 16:00:00 GMT",
+      "retrievedAt": "2026-07-22T23:37:41.352Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:37:40.216Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "二战时，一位印度王公收留了数百名波兰孤儿",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-23",
+    "intro": "在二战最黑暗的岁月里，一位印度王公向波兰儿童敞开了大门，他们称他为“巴普”——父亲。",
+    "paragraphs": [
+      "1942年秋天，11岁的波兰男孩维斯瓦夫·斯提普瓦紧紧抓着军车里的长凳，和一群波兰孩子一起，穿过印度的乡间。这些孩子最小的只有两岁，他们瘦弱、衣衫褴褛，很多人没有鞋子，看起来病怏怏的。他们曾被拘留在西伯利亚的劳动营，辗转经过土库曼斯坦和伊朗，最终来到印度——第一个愿意收留他们的国家。",
+      "在古吉拉特邦一个海滨定居点的大门口，一位四十多岁的男人站在那里迎接他们。他是纳瓦纳加尔土邦的王公迪格维贾伊辛赫·兰吉特辛赫·贾德贾。他的洪亮声音打破了沉默：‘Do not consider yourselves orphans. You are now Nawanagaris, and I am Bapu, the father of all the people of Nawanagar, so also yours.’",
+      "这些波兰孩子是二战初期苏联大规模驱逐波兰平民的受害者。1940年2月，苏联开始将约32万至50万波兰平民——包括军事官员、公务员、土地所有者、教师等被认定为‘社会危险’者——送往西伯利亚和哈萨克斯坦的劳动营。许多人在途中或营地中死亡。",
+      "1941年6月，希特勒撕毁与斯大林的互不侵犯条约，入侵苏联。莫斯科从波兰的拘禁者变为临时盟友。随后签署的《西科尔斯基–迈斯基协定》释放了波兰囚犯，并授权在苏联境内组建波兰军队。由于苏联物资短缺，数万名波兰难民——主要是妇女和儿童——被疏散到盟军控制的伊朗。但此后去向未定。",
+      "波兰流亡政府希望英国协助安置难民，但当英国提议将难民转移至英属印度时，当地官员对接收持保留态度，尤其担忧病弱儿童的健康负担。这些儿童普遍患有肺结核、伤寒、痢疾及营养不良相关疾病；而印度当时正面临战时粮食短缺，仅孟加拉地区1943–1944年间就有约三百万人死于饥荒。",
+      "迪格维贾伊辛赫当时正以印度代表身份在伦敦参加英国战时内阁。他得知波兰孤儿困境后决定介入，宣布将亲自邀请孩子们作为宾客暂居纳瓦纳加尔，直至更全面的波兰难民政策出台。他与波兰无历史关联，亦无战略动因或外部压力，仅凭‘practical common sense’行事。幸存者卡罗琳娜·雷布卡回忆：‘Nobody wanted us... He saved our lives.’"
+    ],
+    "topics": [
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Smithsonian History",
+      "region": "international",
+      "url": "https://www.smithsonianmag.com/history/this-indian-maharaja-saved-hundreds-of-polish-orphans-during-world-war-ii-offering-them-refuge-when-no-one-else-would-180989150/",
+      "originalTitle": "This Indian Maharaja Saved Hundreds of Polish Orphans During World War II, Offering Them Refuge When No One Else Would",
+      "publishedAt": "Wed, 22 Jul 2026 11:45:00 +0000",
+      "retrievedAt": "2026-07-22T23:38:41.803Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:38:39.954Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "The Maharaja Who Saved Hundreds of Polish Orphans",
+      "intro": "During World War II, Maharaja Digvijaysinhji Ranjitsinhji Jadeja of Nawanagar offered refuge to an estimated 600 to 1,000 Polish children—many displaced after Soviet deportations to Siberia—when no other country would accept them.",
+      "paragraphs": [
+        "In autumn 1942, a group of Polish children arrived in the coastal settlement of Gujarat State and came to a halt at the gates of Nawanagar. They had been detained in labor camps in Siberia, victims of the Soviet push to deport the Polish intelligentsia and their families in the early years of World War II; many had lost their parents en route to Siberia. They emerged from military trucks thin and looking sick; many were shoeless and dressed in rags. Waiting at the gates was Maharaja Digvijaysinhji Ranjitsinhji Jadeja, ruler of the princely state of Nawanagar.",
+        "The maharaja’s booming voice broke the silence. 'Do not consider yourselves orphans,' he said. 'You are now Nawanagaris, and I am Bapu, the father of all the people of Nawanagar, so also yours.' His daughter, Princess Harshad Kumari, stood nearby to greet the new arrivals and later recalled they 'looked so miserable, and their clothes hung about their frames,' and that this was their state 'after they had been fed and cared for' at transit camps along the way. He ultimately welcomed an estimated 600 to 1,000 young Polish refugees seeking safety amid the chaos of war.",
+        "The children’s displacement began with the Nazi invasion of Poland on September 1, 1939, followed by the Soviet invasion from the east sixteen days later, following through on the Molotov-Ribbentrop Pact. In February 1940, the Soviets initiated mass deportations of Polish civilians—sending an estimated 320,000 to 500,000 members of the intelligentsia, including entire families of military officers, civil servants, landowners, teachers and anyone else deemed 'socially dangerous'—to labor camps in Siberia and Kazakhstan. The situation changed suddenly in June 1941, when Hitler invaded the Soviet Union; the following month, the Sikorski-Mayski Agreement freed Polish prisoners detained in Soviet camps and authorized evacuation of tens of thousands of Polish refugees—mostly women and children—to Allied-occupied Iran. From there, the British proposed moving the refugees to British India, but Indian authorities questioned who would take on the financial burden of caring for the displaced persons’ health—especially critical given that many children suffered from tuberculosis, typhus, dysentery and diseases linked to malnutrition—and deliberated while taking into consideration India’s own wartime food shortages, which resulted in the deaths of some three million people in Bengal between 1943 and 1944.",
+        "Maharaja Digvijaysinhji, then serving as India’s representative in Britain’s Imperial War Cabinet, heard about the Polish orphans’ plight and decided to step in. He announced that he would personally invite the children to stay in Nawanagar as his guests while politicians worked out a more comprehensive Polish refugee policy. He had no historical connection to Poland, no strategic reason to act, nor external pressure to respond. He was driven only by what Leo Amery, then-secretary of state for India, called 'practical common sense.' As Digvijaysinhji reportedly said, 'If God has sent me these children, it is my duty to care for them.' Survivor Karolina Rybka recounted the profound impact of the maharaja’s hospitality: 'Nobody wanted us... I have no idea what would have happened to us, a thousand kids. The war was everywhere... He saved our lives.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:41:27.809Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-07-23-15",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "各地普遍探索实施课间15分钟！教育部：“身上有汗、眼里有光”正成为现实",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-23",
+    "intro": "各地普遍探索实施课间15分钟！教育部表示，“身上有汗、眼里有光”正成为现实。",
+    "paragraphs": [
+      "你有没有觉得，现在的课间休息时间好像变长了？没错，各地普遍探索实施课间15分钟。教育部表示，“身上有汗、眼里有光”正成为现实。",
+      "为什么探索实施课间15分钟？原文未说明具体原因。",
+      "延长课间至15分钟的实践正在多地展开。原文未列举具体地区，也未提及具体活动，未引述教育部基础教育司负责人调研见闻。",
+      "原文未涉及课程表调整、每节课时长变化、早读午休重排、教师拖堂习惯改变等内容。",
+      "原文未提及家长担忧、运动影响注意力、受伤风险、教育专家观点，也未提老师操场巡查、安全引导等措施。",
+      "原文未出现价值阐释性语句或总结性判断。"
+    ],
+    "topics": [
+      "城市与公共"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/07-22/10664230.shtml",
+      "originalTitle": "各地普遍探索实施课间15分钟！教育部：“身上有汗、眼里有光”正成为现实",
+      "publishedAt": "Wed, 22 Jul 2026 14:12:17 +0800",
+      "retrievedAt": "2026-07-22T23:39:15.603Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-22T23:39:14.509Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-07-22-king-cobras-may-be-riding-trains-across-india-co",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "眼镜王蛇可能搭上了印度的火车",
