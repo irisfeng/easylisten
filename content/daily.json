@@ -1,5 +1,245 @@
 [
   {
+    "slug": "2026-07-24-4-2026",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "邓煜、王虹等4人获2026年菲尔兹奖",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-24",
+    "intro": "7月23日，在美国费城举办的国际数学家大会（ICM 2026）上，国际数学联盟（IMU）公布2026年菲尔兹奖获奖者名单，邓煜、王虹等4位年轻数学家获奖。其中，邓煜和王虹成为首批斩获菲尔兹奖的中国籍数学家。",
+    "paragraphs": [
+      "7月23日，在美国费城举办的数学家大会（ICM 2026）上，国际数学联盟（IMU）公布了2026年菲尔兹奖获奖者名单。今年，获奖的4位年轻数学家分别是：邓煜（美国芝加哥大学教授）、约翰·帕登（美国纽约州立大学石溪分校教授）、雅各布·齐默曼（加拿大多伦多大学教授）和王虹（法国高等科学研究所教授、美国纽约大学柯朗数学研究所教授）。值得关注的是，邓煜、王虹成为首批斩获菲尔兹奖的中国籍数学家。在此之前，仅有两位华裔数学家获此殊荣：一位是1982年获奖的丘成桐；另一位是2006年获奖的陶哲轩。",
+      "菲尔兹奖被誉为“数学界的诺贝尔奖”，该奖以加拿大数学家约翰·查尔斯·菲尔兹命名，由IMU在每四年举行一次的ICM上颁发，旨在表彰40岁以下杰出数学家，每届授予2至4人，每位获奖者奖金为1.5万加拿大元（约合72150元人民币），并获颁一枚金质奖章。",
+      "邓煜1989年出生于广东深圳，在高中时作为中国数学奥林匹克国家队成员摘得金牌。2007年，邓煜保送至北京大学数学科学学院，2009年转入美国麻省理工学院。2015年，邓煜获得普林斯顿大学博士学位，2024年加入芝加哥大学。他因在偏微分方程领域的工作获奖，包括从稀薄气体的硬球动力学严格推导出玻尔兹曼方程——这一成果是希尔伯特于1900年ICM上提出的著名23个数学问题之一。邓煜曾分享，他在一次吃炸鸡时的突发奇想，像美妙的“催化剂”激发了清晰的整体研究思路。",
+      "王虹1991年出生于广西桂林。2007年，16岁的王虹考入北京大学地球与空间科学学院，次年转入数学科学学院。之后她赴法国留学，于2014年获得巴黎综合理工学院工程师学位和巴黎第十一大学数学硕士学位。2019年，她在麻省理工学院取得博士学位。2023年任纽约大学柯朗数学科学研究所副教授，2025年晋升为教授；同年成为法国高等科学研究所终身教授，是该所历史上首位女性终身教授。她因在调和分析与几何测度论方向的研究获奖，包括解决三维挂谷问题——即一根针要转到能够指向所有方向，至少需要占据多大的空间。菲尔兹奖得主陶哲轩评价这是“几何测度论领域的惊人进步”。",
+      "另外两位获奖者分别是：约翰·帕登，表彰其在辛几何领域的杰出成就，包括虚拟基本闭链、Liouville流形的Fukaya范畴和全纯曲线计数的新方法；雅各布·齐默曼，表彰其极大拓展了o-极小（o-minimal）方法在算术几何和复代数几何中的应用范围，包括证明Griffiths关于周期映射像代数性的猜想。",
+      "“4位获奖者的工作展现了当代数学的深度、原创性和活力，我们很高兴能在国际数学家大会上庆祝他们的成就。”IMU主席中岛平说。现在，王虹成为世界上第三位女性菲尔兹奖得主，并与邓煜共同成为中国籍菲尔兹奖得主。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568755.shtm",
+      "originalTitle": "邓煜、王虹等4人获2026年菲尔兹奖",
+      "publishedAt": "2026-07-23 22:14",
+      "retrievedAt": "2026-07-23T22:16:57.632Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:16:56.077Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-24-dormant-microbes-from-tzi-the-iceman-s-body-can-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "冰人奥茨体内休眠的微生物，能在实验室中生长",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-24",
+    "intro": "科学家在冰人奥茨遗体中发现仍具活性的微生物，这些微生物在实验室培养基上成功生长。",
+    "paragraphs": [
+      "1991年，登山者在阿尔卑斯山发现了一具古尸，他被称为‘冰人奥茨’。",
+      "最近，研究人员发现：来自奥茨体内的某些微生物，在经历五千多年休眠后，仍能在实验室中生长。",
+      "研究人员从奥茨样本中分离出这些微生物，并将其置于培养基上，观察到酵母菌和细菌的生长。",
+      "这项研究有助于理解微生物的长期休眠能力。",
+      "科学家强调，这些微生物是在严格隔离条件下培养的。",
+      "奥茨遗体自1991年被发现以来，持续为科学研究提供新线索。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/otzi-iceman-living-microbes-yeast",
+      "originalTitle": "Dormant microbes from Ötzi the Iceman’s body can grow in the lab",
+      "publishedAt": "Thu, 23 Jul 2026 10:30:00 +0000",
+      "retrievedAt": "2026-07-23T22:18:07.675Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:18:06.548Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Dormant microbes from Ötzi the Iceman’s body can grow in the lab",
+      "intro": "Scientists have discovered that dormant microbes from a 5,300-year-old mummy can grow in the lab.",
+      "paragraphs": [
+        "Ötzi the Iceman is a famous ancient mummy found in the Alps in 1991. He lived over 5,000 years ago. Scientists have discovered dormant microbes from his body that can grow in the lab.",
+        "The microbes are a type of yeast. Yeast is a fungus. The yeast from Ötzi was dormant but viable — it grew when provided with nutrients and warmth in the lab.",
+        "This discovery shows that some microbes can remain viable for thousands of years under certain conditions.",
+        "Scientists are studying these microbes to better understand ancient microbiomes and microbial survival strategies."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:23:43.223Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-24-supercooled-kidneys-have-been-transplanted-into-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "零下四度保存肾脏三天，移植后健康工作：器官冷藏时长有望翻三倍",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-24",
+    "intro": "科学家发明了一种装置，能让肾脏在零下4摄氏度保存三天而不结冰，移植后功能恢复比传统冰存法更快。",
+    "paragraphs": [
+      "器官移植是一场与时间的赛跑。肾脏从捐献者体内取出后，必须在24小时内移植给患者，否则就会损坏无法使用。传统方法是将器官放在约4°C（39°F）的冰上保存，但温度再低就会结冰，冰晶会破坏组织。此前尝试冷冻器官均因冰形成而失败。",
+      "现在，美国德州农工大学的Matthew Powell Palm及其团队发明了一种装置，让肾脏可在-4°C（25°F）下超冷保存而不结冰。他们用猪肾实验：将肾脏浸入常用保存液（如威斯康星大学溶液），置于密闭加压容器中，通过恒压抑制冰晶形成。肾脏在该装置中成功保存24、48或72小时。",
+      "实验显示，保存72小时的肾脏移植回原供体猪体内后，约10天内恢复基线肾功能；而冰存24小时的肾脏恢复更慢。所有超冷肾脏在30天存活期内均实现功能恢复。一只猪的移植肾在200天后仍形态健康。",
+      "这项技术若用于人类，有望缓解器官短缺危机。目前美国有超10.4万人等待肾移植，每天约17人因等不到器官死亡；约三分之一捐献肾因运输或匹配时间不足而被丢弃。当前临床标准保存时限为18–24小时，延长至72小时将显著提升匹配精度与运输可行性。",
+      "该装置结构简单紧凑，已用车辆（如Kia Sorento）跨州运输超冷肾脏，稳定性获验证。研究团队正筹备成立公司，并计划申请美国食品药品监督管理局（FDA）加速审批，以推进人体试验。"
+    ],
+    "topics": [
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "MIT Technology Review",
+      "region": "international",
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "originalTitle": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "publishedAt": "Thu, 23 Jul 2026 16:58:28 +0000",
+      "retrievedAt": "2026-07-23T22:18:34.403Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:18:33.003Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-24/2026-07-24-supercooled-kidneys-have-been-transplanted-into-.webp",
+      "alt": "Stylized kidney in cold storage container with frost patterns",
+      "caption": "零下四度保存肾脏三天",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-24-dpvg4a",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "苏州吴文化博物馆新展展现东西方交流“含金量”",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-24",
+    "intro": "苏州吴文化博物馆新展，用黄金文物讲述东西方交流的故事。",
+    "paragraphs": [
+      "在苏州的吴文化博物馆，最近开幕了一个新展览。这个展览用黄金文物，展现东西方交流的‘含金量’。",
+      "黄金，在全世界都很珍贵。展览中展出的唐代金杯上刻有葡萄藤和卷草纹——这些图案源自古代波斯和罗马。",
+      "展览还展出了一件来自古希腊地区的金花冠，用极薄的金片打制成树叶形状，再编成花环。",
+      "博物馆专家表示，这些金器是古代世界人们互相学习、互相交流的证据。",
+      "展览将持续到今年年底。"
+    ],
+    "topics": [
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-23/10665107.shtml",
+      "originalTitle": "苏州吴文化博物馆新展展现东西方交流“含金量”",
+      "publishedAt": "Thu, 23 Jul 2026 18:12:57 +0800",
+      "retrievedAt": "2026-07-23T22:19:26.606Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:19:25.381Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-24-how-much-energy-do-data-centers-and-artificial-i",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "数据中心和人工智能到底用了多少电？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-24",
+    "intro": "AI 的能耗一直是热门话题，它到底占全球电力的多少？每问一次 AI 又消耗多少电？本文用数据给出答案。",
+    "paragraphs": [
+      "人工智能的普及速度之快，几乎没有哪项技术能比。但 AI 运行需要电力，所以人们很关心它的能耗到底有多大。这种担心主要有三个方面：一是环境——AI 耗电增加可能导致碳排放上升，让脱碳更难；二是对当地的影响——高电力需求可能让电网紧张、电价上涨；三是 AI 自身的发展瓶颈——如果耗电太多，反而会限制它的扩张。那么，AI 到底用了多少电？我们可以从两个层面来看：一是 AI 的总用电量，二是每次查询的用电量。",
+      "先看总用电量。据国际能源署的数据，2025 年全球数据中心大约消耗了 485 太瓦时电力，相当于德国一年的发电量，约占全球发电量的 1.5%。数据中心不只是跑 AI，还包括电子邮件、网页浏览、视频流媒体、在线银行等所有数字服务。其中，非 AI 数据中心用了三分之二，AI 数据中心用了三分之一。也就是说，2025 年 AI 消耗了全球约 0.5% 的电力。如果换算成一次能源，大概在 0.1% 到 0.2% 之间。",
+      "不过，这 1.5% 的全球平均数字掩盖了局部地区的巨大差异。在美国，数据中心用电占比已达 5%，其中 AI 约占 2%。而在爱尔兰，数据中心用电超过全国的 20%；美国弗吉尼亚州甚至超过 25%。这种高度集中的需求，加上 AI 的快速增长，可能会给当地电网带来很大压力，尽管全球总量看起来并不惊人。",
+      "再看每次查询的用电量。谷歌在 2025 年公布了其 Gemini 模型的能耗数据：一次中位数文本查询大约消耗 0.24 瓦时。这相当于微波炉工作不到一秒，或者电视机开十秒钟。OpenAI 的 CEO Sam Altman 曾表示，ChatGPT 上‘平均查询’大约消耗 0.34 瓦时（但未提供详细依据）。独立研究机构 Epoch AI 的估算也类似，约 0.3 瓦时。这些数字指向相近的范围。不过，复杂查询——比如需要 AI 推理或长文本生成——能耗会更高。",
+      "总的来说，AI 当前的全球电力占比还很小，但增长极快。国际能源署预测，到 2030 年数据中心用电可能增至 945 太瓦时，占全球电力的 3%，其中 AI 数据中心将占约 465 太瓦时，接近非 AI 数据中心的 480 太瓦时。未来几年，AI 能耗会成为一个越来越重要的议题。"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Our World in Data",
+      "region": "international",
+      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "originalTitle": "How much energy do data centers and artificial intelligence use?",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "retrievedAt": "2026-07-23T22:20:38.559Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-23T22:20:37.478Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "一个“超级”厄尔尼诺正在形成，它意味着什么？",
