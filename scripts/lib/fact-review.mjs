@@ -8,6 +8,28 @@ function draftText(script) {
   return [script?.title, script?.intro, ...(script?.paragraphs ?? [])].join("\n");
 }
 
+const AUDIT_LANGUAGE_PATTERNS = [
+  /原文(?:未|没有)(?:说明|提供|提及|涉及|出现|列举|引述|写明|包含|披露|给出|支持|显示)/,
+  /原文仅(?:明确)?(?:提及|说明|出现|包含|给出)/,
+  /原文中找不到/,
+  /(?:无|缺少)原文(?:依据|支撑|证据)/,
+  /与原文不符/,
+  /(?:撰稿人|模型)(?:的)?(?:演绎|推断|补充)/,
+  /所有.+(?:描写|判断|内容).+无原文依据/,
+  /\bthe (?:original )?(?:source|article) (?:does not|did not|doesn't) (?:mention|state|provide|include|explain|support)\b/i,
+  /\bnot (?:mentioned|stated|provided|included|supported) in the (?:original )?(?:source|article)\b/i,
+];
+
+/**
+ * 事实审稿过程可以讨论原文缺了什么，但正式听稿只能讲原文能够支持的事实。
+ * 这类话术一旦进入 final，说明模型把审稿意见误写成了面向听众的正文。
+ */
+export function findPublishedAuditLanguage(script) {
+  return [script?.title, script?.intro, ...(script?.paragraphs ?? [])]
+    .map((text) => String(text ?? "").trim())
+    .filter((text) => AUDIT_LANGUAGE_PATTERNS.some((pattern) => pattern.test(text)));
+}
+
 /**
  * 把原文切成带稳定编号的重叠证据块。审稿模型只选择编号，最终引文由代码
  * 从原文回填，避免模型复制英文标点、空格或中文引号时制造“伪不匹配”。
@@ -121,6 +143,16 @@ export function validateFactReview(review, sourceText) {
     finalScript.paragraphs.some((paragraph) => typeof paragraph !== "string" || !paragraph.trim())
   ) {
     throw new Error("事实二审没有返回完整听稿");
+  }
+
+  const leakedAuditLanguage = findPublishedAuditLanguage(finalScript);
+  if (leakedAuditLanguage.length) {
+    throw new Error(
+      `审稿话术泄漏：${leakedAuditLanguage
+        .slice(0, 3)
+        .map((text) => text.slice(0, 60))
+        .join("；")}`,
+    );
   }
 
   const evidence = Array.isArray(review.evidence) ? review.evidence : [];

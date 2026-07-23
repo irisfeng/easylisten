@@ -47,3 +47,59 @@ test("事实二审要求每段都有原文中的连续证据", () => {
     /第 2、3 段/,
   );
 });
+
+test("事实二审不得把原文未说明等审稿话术写进正式听稿", () => {
+  const sourceText = `各地落实健康第一要求，全面推行中小学每天综合体育活动两小时，
+普遍探索实施课间十五分钟，身上有汗、眼里有光正在成为现实。
+学校在走廊和转角摆放足球、篮球、跳绳等运动器材。`;
+  assert.throws(
+    () =>
+      validateFactReview(
+        {
+          final: {
+            title: "课间十五分钟",
+            intro: "各地正在探索延长课间。",
+            paragraphs: [
+              "各地正在探索实施课间十五分钟。",
+              "原文未说明具体原因。",
+              "原文未提及家长担忧和受伤风险。",
+            ],
+          },
+          evidence: [0, 1, 2].map((paragraphIndex) => ({
+            paragraphIndex,
+            sourceQuote: "各地落实健康第一要求，全面推行中小学每天综合体育活动两小时",
+          })),
+        },
+        sourceText,
+      ),
+    /审稿话术泄漏/,
+  );
+});
+
+test("英文双语听稿同样不得泄漏 source does not mention 审稿话术", () => {
+  const sourceText =
+    "Schools are exploring fifteen-minute breaks and two hours of daily physical activity. " +
+    "One school places balls and skipping ropes in corridors so children can move during breaks.";
+  assert.throws(
+    () =>
+      validateFactReview(
+        {
+          final: {
+            title: "A Longer School Break",
+            intro: "Schools are giving children more time to move.",
+            paragraphs: [
+              "Some schools are exploring fifteen-minute breaks.",
+              "The source does not mention parents' concerns.",
+              "One school places sports equipment in its corridors.",
+            ],
+          },
+          evidence: [0, 1, 2].map((paragraphIndex) => ({
+            paragraphIndex,
+            sourceQuote: "Schools are exploring fifteen-minute breaks and two hours of daily physical activity.",
+          })),
+        },
+        sourceText,
+      ),
+    /审稿话术泄漏/,
+  );
+});

@@ -23,6 +23,7 @@ import {
 } from "./lib/curation-policy.mjs";
 import {
   buildEvidenceBlocks,
+  findPublishedAuditLanguage,
   materializeEvidenceQuotes,
   stripEvidenceMarkersFromScript,
   validateFactReview,
@@ -30,6 +31,9 @@ import {
 
 const editorialPolicy = JSON.parse(
   readFileSync(resolve(import.meta.dirname, "../content/editorial-policy.json"), "utf8"),
+);
+const dailyPieces = JSON.parse(
+  readFileSync(resolve(import.meta.dirname, "../content/daily.json"), "utf8"),
 );
 const productCore = readFileSync(
   resolve(import.meta.dirname, "../docs/product-core.md"),
@@ -102,6 +106,20 @@ test("内部证据编号不会进入正式听稿或音频文本", () => {
   assert.equal(clean.title, "标题");
   assert.equal(clean.intro, "导语");
   assert.deepEqual(clean.paragraphs, ["事实。", "另一事实。", "正常内容。"]);
+});
+
+test("最新一期不得出现原文未说明等内部审稿话术", () => {
+  const latestDate = dailyPieces.reduce(
+    (latest, piece) => (piece.publishedAt > latest ? piece.publishedAt : latest),
+    "",
+  );
+  const leaks = dailyPieces
+    .filter((piece) => piece.publishedAt === latestDate)
+    .flatMap((piece) => [
+      ...findPublishedAuditLanguage(piece),
+      ...(piece.en ? findPublishedAuditLanguage(piece.en) : []),
+    ]);
+  assert.deepEqual(leaks, []);
 });
 
 test("成人向优质来源的最低适龄段由代码兜底", () => {

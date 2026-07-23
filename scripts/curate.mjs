@@ -31,6 +31,7 @@ import {
 import { fetchFullText } from "./lib/full-text.mjs";
 import {
   buildEvidenceBlocks,
+  findPublishedAuditLanguage,
   materializeEvidenceQuotes,
   stripEvidenceMarkersFromScript,
   validateFactReview,
@@ -408,6 +409,7 @@ async function reviewScriptFacts(script, candidate, fullText) {
 逐项核对：比分、数字、日期、分钟、比赛阶段、人物身份、地点、奖项、引语、因果、比较级和“首次/唯一/刷新纪录”等断言。
 原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
 即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。
+final 必须是直接面向孩子和家长、可以独立收听的成稿。不得在 final 中写“原文未说明”“原文未提及”“无原文支撑”等审稿意见；应直接删除无依据内容。删除后不足三段，或原文信息不足以写成一篇完整听稿时，返回 ok=false 且不要用审稿意见凑段落。
 务必优先完整返回 final 和 evidence；issues 最多 8 条、每条不超过 80 个字，只列实际导致修订的问题。`,
       `原文标题：${candidate.title}
 来源：${candidate.sourceName}
@@ -776,6 +778,18 @@ const merged = IS_SUPPLEMENT
       Math.min(6, existingToday.length + MAX_PICKS),
     )
   : mergeDailyPieces(pieces, existing, today);
+const leakedAuditPieces = merged
+  .filter((piece) => piece.publishedAt === today)
+  .flatMap((piece) => {
+    const zh = findPublishedAuditLanguage(piece);
+    const en = piece.en ? findPublishedAuditLanguage(piece.en) : [];
+    return [...zh, ...en].map((text) => `《${piece.title}》：${text.slice(0, 80)}`);
+  });
+if (leakedAuditPieces.length) {
+  throw new Error(
+    `每日发布契约未满足：正式听稿含内部审稿话术\n- ${leakedAuditPieces.join("\n- ")}`,
+  );
+}
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
 
