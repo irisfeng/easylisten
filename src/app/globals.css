@@ -10,6 +10,8 @@
   --color-line: #d5d8d6;
   --color-accent: #3979a7;
   --color-accent-wash: #e0ebf2;
+  --color-highlight: #f5e5ad;
+  --color-highlight-ink: #29230f;
 
   --color-sky-wash: #e1f3fe;
   --color-sky-deep: #1f6c9f;
@@ -57,6 +59,8 @@ body {
   --color-line: #2b3235;
   --color-accent: #8dbbd9;
   --color-accent-wash: #203747;
+  --color-highlight: #55481f;
+  --color-highlight-ink: #fff2bd;
   --color-sky-wash: #1b323a;
   --color-sky-deep: #9bc6dc;
   --color-rose-wash: #3a2527;
@@ -82,6 +86,8 @@ body {
     --color-line: #2b3235;
     --color-accent: #8dbbd9;
     --color-accent-wash: #203747;
+    --color-highlight: #55481f;
+    --color-highlight-ink: #fff2bd;
     --color-sky-wash: #1b323a;
     --color-sky-deep: #9bc6dc;
     --color-rose-wash: #3a2527;
@@ -167,8 +173,9 @@ body {
 
 .sentence-active,
 .sentence-active:hover {
-  background: #f5e5ad;
-  box-shadow: 0 0 0 2px #f5e5ad;
+  background: var(--color-highlight);
+  color: var(--color-highlight-ink);
+  box-shadow: 0 0 0 2px var(--color-highlight);
 }
 
 @media (prefers-reduced-motion: reduce) {

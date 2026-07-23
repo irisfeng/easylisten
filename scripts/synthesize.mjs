@@ -30,6 +30,7 @@ import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 import {
   buildMiniMaxTextOptions,
   buildPronunciationDictionary,
+  findSpeechNormalizationIssues,
   normalizeForSpeech,
   splitSentences,
 } from "../src/lib/speech-text.js";
@@ -65,8 +66,8 @@ const EDGE_ATTEMPTS_PER_VOICE = Math.max(
 const EDGE_RETRY_BASE_MS = Math.max(0, Number(process.env.EDGE_TTS_RETRY_BASE_MS || 1200));
 // 修改朗读规范时递增。已有 MiniMax 音频只重合成实际受新规则影响的句子，
 // 页面正文不变；版本记入 manifest，避免每日任务重复消耗额度。
-const SPEECH_TEXT_VERSION = 2;
-const NUMBER_NORMALIZATION_VERSION = 1;
+const SPEECH_TEXT_VERSION = 3;
+const NUMBER_NORMALIZATION_VERSION = 3;
 const PRONUNCIATION_DICTIONARY_VERSION = 2;
 
 // 产品音频契约：纯中文稿生成 MiniMax 女声(<slug>)和男声(<slug>-m)；
@@ -345,6 +346,21 @@ if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
 // 正式工作流先计算本轮缺失 MiniMax 音轨的总成本。Edge 英文轨免费，不计入
 // MiniMax 字符预算。超限时在第一次付费调用前失败，不留下半套音频。
 if (REQUIRE_AUDIO_CONTRACT) {
+  const normalizationFailures = pieces.flatMap((piece) =>
+    audioPlanForPiece(piece, targetUnits).flatMap((track) =>
+      track.language === "zh"
+        ? splitSentences(track.paragraphs).flatMap((sentence) => {
+            const issues = findSpeechNormalizationIssues(sentence, "zh");
+            return issues.length ? [`${track.unit}: ${issues.join("、")}`] : [];
+          })
+        : [],
+    ),
+  );
+  if (normalizationFailures.length) {
+    throw new Error(
+      `中文数字朗读规范预检失败：\n- ${normalizationFailures.join("\n- ")}`,
+    );
+  }
   const available = new Set(manifest.slugs);
   const missingTracks = pieces.flatMap((piece) =>
     audioPlanForPiece(piece, targetUnits).filter(({ unit }) => !available.has(unit)),

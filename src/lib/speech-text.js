@@ -87,6 +87,26 @@ function spokenNumber(raw) {
   return `${negative ? "负" : ""}${spokenInteger}${spokenFraction}`;
 }
 
+function spokenYear(raw) {
+  return [...raw].map((digit) => CHINESE_DIGITS[Number(digit)]).join("");
+}
+
+function completeRangeYear(start, end) {
+  if (end.length === 4) return end;
+  let value = Math.floor(Number(start) / 100) * 100 + Number(end);
+  if (value < Number(start)) value += 100;
+  return String(value).padStart(4, "0");
+}
+
+function spokenDecade(raw) {
+  const year = Number(raw);
+  const century = Math.floor(year / 100) + 1;
+  const decade = year % 100;
+  return decade === 0
+    ? `${integerToChinese(String(century))}世纪最初十年`
+    : `${integerToChinese(String(century))}世纪${integerToChinese(String(decade))}年代`;
+}
+
 /**
  * 为中文稿中的全大写缩写和字母数字型号生成 MiniMax pronunciation_dict。
  * 固定规则优先，可用于人名、多音字和业务词；自动规则只处理形态明确的标识，
@@ -142,8 +162,31 @@ export function normalizeForSpeech(text, language = "zh") {
   const numberPattern = "-?\\d[\\d,]*(?:\\.\\d+)?";
   const speak = (number) => spokenNumber(number);
 
-  return text
-    .replace(/(\d{4})年/g, (_, year) => `${[...year].map((digit) => CHINESE_DIGITS[Number(digit)]).join("")}年`)
+  let normalized = text
+    .replace(/(\d{4})-(\d{1,2})-(\d{1,2})(?!\d)/g, (_, year, month, day) =>
+      `${spokenYear(year)}年${speak(month)}月${speak(day)}日`)
+    .replace(/(\d{4})年?\s*[~～–—至到-]\s*(\d{2,4})年/g, (_, start, end) =>
+      `${spokenYear(start)}到${spokenYear(completeRangeYear(start, end))}年`)
+    .replace(/(\d{4})年代/g, (_, year) => spokenDecade(year))
+    .replace(/(\d{4})年/g, (_, year) => `${spokenYear(year)}年`)
+    .replace(/(?:HK\$|HKD)\s*(-?\d[\d,]*(?:\.\d+)?)\s*[~～–—至到-]\s*(?:HK\$|HKD)?\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, from, to) =>
+      `${speak(from)}到${speak(to)}港元`)
+    .replace(/(?:US\$|USD|\$)\s*(-?\d[\d,]*(?:\.\d+)?)\s*[~～–—至到-]\s*(?:US\$|USD|\$)?\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, from, to) =>
+      `${speak(from)}到${speak(to)}美元`)
+    .replace(/(?:CN¥|CNY|RMB|[¥￥])\s*(-?\d[\d,]*(?:\.\d+)?)\s*[~～–—至到-]\s*(?:CN¥|CNY|RMB|[¥￥])?\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, from, to) =>
+      `${speak(from)}到${speak(to)}元`)
+    .replace(/(?:EUR|€)\s*(-?\d[\d,]*(?:\.\d+)?)\s*[~～–—至到-]\s*(?:EUR|€)?\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, from, to) =>
+      `${speak(from)}到${speak(to)}欧元`)
+    .replace(/(?:GBP|£)\s*(-?\d[\d,]*(?:\.\d+)?)\s*[~～–—至到-]\s*(?:GBP|£)?\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, from, to) =>
+      `${speak(from)}到${speak(to)}英镑`)
+    .replace(/(?:HK\$|HKD)\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, number) => `${speak(number)}港元`)
+    .replace(/(?:US\$|USD|\$)\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, number) => `${speak(number)}美元`)
+    .replace(/(?:CN¥|CNY|RMB|[¥￥])\s*(-?\d[\d,]*(?:\.\d+)?)\s*(万|亿)?元?/gi, (_, number, scale) =>
+      `${speak(number)}${scale ?? ""}元`)
+    .replace(/(?:EUR|€)\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, number) => `${speak(number)}欧元`)
+    .replace(/(?:GBP|£)\s*(-?\d[\d,]*(?:\.\d+)?)/gi, (_, number) => `${speak(number)}英镑`)
+    .replace(/(\d[\d,]*)\s*\/\s*(\d[\d,]*)/g, (_, numerator, denominator) =>
+      `${speak(denominator)}分之${speak(numerator)}`)
     .replace(/(\d{1,2}):(\d{2})(?!\d)/g, (_, hour, minute) => {
       const spokenMinute = Number(minute) === 0 ? "" : `${speak(minute)}分`;
       return `${speak(hour)}点${spokenMinute}`;
@@ -162,4 +205,16 @@ export function normalizeForSpeech(text, language = "zh") {
     .replace(/\s*=\s*/g, "等于")
     .replace(/(-?\d[\d,]*(?:\.\d+)?)\s*[%％]/g, (_, number) => `百分之${spokenNumber(number)}`)
     .replace(/(?<![A-Za-z0-9])-?\d[\d,]*(?:\.\d+)?(?![A-Za-z0-9])/g, (number) => spokenNumber(number));
+  return normalized;
+}
+
+/** 合成前审计：中文朗读稿里不应再有独立阿拉伯数字或裸货币符号。 */
+export function findSpeechNormalizationIssues(text, language = "zh") {
+  if (language !== "zh") return [];
+  const normalized = normalizeForSpeech(text, language);
+  return [
+    ...new Set(
+      normalized.match(/[\$¥￥€£₽₹₩]|(?<![A-Za-z0-9])\d[\d,.]*(?![A-Za-z0-9])/g) ?? [],
+    ),
+  ];
 }
