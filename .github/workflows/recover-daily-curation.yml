@@ -4,6 +4,12 @@ on:
   workflow_run:
     workflows: ["每日精选"]
     types: [completed]
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: "包含 daily-recovery 快照的每日精选运行 ID"
+        required: true
+        type: string
 
 permissions:
   actions: read
@@ -16,7 +22,7 @@ concurrency:
 
 jobs:
   recover:
-    if: github.event.workflow_run.conclusion == 'failure'
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -33,7 +39,7 @@ jobs:
           pattern: daily-recovery-*
           path: .
           merge-multiple: true
-          run-id: ${{ github.event.workflow_run.id }}
+          run-id: ${{ github.event.workflow_run.id || inputs.source_run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
@@ -62,6 +68,7 @@ jobs:
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
           MINIMAX_MAX_CHARS_PER_RUN: ${{ vars.MINIMAX_MAX_CHARS_PER_RUN || '12000' }}
           REQUIRE_AUDIO_CONTRACT: "true"
+          ALLOW_MINIMAX_ENGLISH_FALLBACK: "true"
         run: node scripts/run-synthesis-with-recovery.mjs
 
       - name: 提交恢复后的今日日刊

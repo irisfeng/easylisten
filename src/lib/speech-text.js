@@ -117,8 +117,14 @@ export function buildPronunciationDictionary(text, fixedRules = []) {
   return rules.slice(0, MAX_PRONUNCIATION_RULES_PER_REQUEST);
 }
 
-/** MiniMax 中文 T2A 的原生文本控制参数。 */
-export function buildMiniMaxTextOptions(text, fixedRules = []) {
+/** MiniMax T2A 的原生文本控制参数。 */
+export function buildMiniMaxTextOptions(text, fixedRules = [], language = "zh") {
+  if (language === "en") {
+    return {
+      language_boost: "English",
+      english_normalization: true,
+    };
+  }
   const tone = buildPronunciationDictionary(text, fixedRules);
   return {
     language_boost: "Chinese",

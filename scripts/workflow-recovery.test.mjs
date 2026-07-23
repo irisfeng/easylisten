@@ -28,7 +28,19 @@ test("失败恢复任务下载原运行快照并只补音轨后提交", async ()
   assert.match(workflow, /workflows: \["每日精选"\]/);
   assert.match(workflow, /github\.event\.workflow_run\.conclusion == 'failure'/);
   assert.match(workflow, /actions\/download-artifact@v4/);
-  assert.match(workflow, /run-id: \$\{\{ github\.event\.workflow_run\.id \}\}/);
+  assert.match(
+    workflow,
+    /run-id: \$\{\{ github\.event\.workflow_run\.id \|\| inputs\.source_run_id \}\}/,
+  );
   assert.match(workflow, /node scripts\/run-synthesis-with-recovery\.mjs/);
   assert.match(workflow, /git add content\/daily\.json content\/editorial\.json public\/audio public\/editorial/);
+});
+
+test("恢复任务既能自动接管失败运行也能人工指定快照，并允许整轨 MiniMax 英文兜底", async () => {
+  const workflow = await readFile(recoveryWorkflowUrl, "utf8");
+
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /source_run_id:/);
+  assert.match(workflow, /github\.event\.workflow_run\.id \|\| inputs\.source_run_id/);
+  assert.match(workflow, /ALLOW_MINIMAX_ENGLISH_FALLBACK: "true"/);
 });

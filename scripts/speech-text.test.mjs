@@ -84,3 +84,10 @@ test("MiniMax 中文请求启用语言增强并按需携带发音词典", () => 
     language_boost: "Chinese",
   });
 });
+
+test("MiniMax 英文兜底启用英文增强和数字规范化且不携带中文词典", () => {
+  assert.deepEqual(buildMiniMaxTextOptions("It rose 5.26%.", [], "en"), {
+    language_boost: "English",
+    english_normalization: true,
+  });
+});

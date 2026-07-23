@@ -3,7 +3,8 @@
  * 写入 public/audio/<slug>/<句序>.mp3,并更新 public/audio/manifest.json。
  *
  * 正式工作流按产品音频契约生成音轨：纯中文稿为 MiniMax 男女双声；
- * 中英双语稿为 MiniMax 中文女声与 Edge 英文女声：
+ * 中英双语稿为 MiniMax 中文女声与 Edge 英文女声；恢复任务可在 Edge
+ * 持续故障时把整条英文轨统一改为 MiniMax 英文女声：
  *   node scripts/synthesize.mjs
  *
  * 按句分文件与播放器的句级模型天然对齐:高亮、跳句、点句播放都无需时间轴。
@@ -55,6 +56,9 @@ const PRONUNCIATIONS = JSON.parse(
 const VOICE = "zh-CN-XiaoxiaoNeural";
 const EN_VOICE = ENGLISH_FEMALE_VOICE;
 const EN_FALLBACK_VOICE = "en-US-JennyNeural";
+const MM_ENGLISH_FEMALE = process.env.MINIMAX_ENGLISH_VOICE || "English_Graceful_Lady";
+const ALLOW_MINIMAX_ENGLISH_FALLBACK =
+  process.env.ALLOW_MINIMAX_ENGLISH_FALLBACK === "true";
 const EDGE_ATTEMPTS_PER_VOICE = Math.max(
   1,
   Number(process.env.EDGE_TTS_ATTEMPTS_PER_VOICE || 3),
@@ -134,7 +138,7 @@ function budgetedVoiceForUnit(unit, paragraphs, preferredVoice) {
   };
 }
 
-async function synthesizeMiniMaxWith(text, voiceId, model) {
+async function synthesizeMiniMaxWith(text, voiceId, model, language = "zh") {
   const billedChars = miniMaxBillingChars(text);
   if (mmCharsRequested + billedChars > MM_MAX_CHARS_PER_RUN) {
     throw new Error(
@@ -144,7 +148,7 @@ async function synthesizeMiniMaxWith(text, voiceId, model) {
   }
   mmCharsRequested += billedChars;
   await waitForMiniMaxSlot();
-  const textOptions = buildMiniMaxTextOptions(text, PRONUNCIATIONS.zh);
+  const textOptions = buildMiniMaxTextOptions(text, PRONUNCIATIONS.zh, language);
   const res = await fetch(
     `https://api.minimaxi.com/v1/t2a_v2${MM_GROUP_ID ? `?GroupId=${MM_GROUP_ID}` : ""}`,
     {
@@ -177,11 +181,11 @@ async function synthesizeMiniMaxWith(text, voiceId, model) {
   return Buffer.from(hex, "hex");
 }
 
-async function synthesizeMiniMax(text, voiceId) {
+async function synthesizeMiniMax(text, voiceId, language = "zh") {
   for (; mmModelIdx < MM_MODELS.length; mmModelIdx++) {
     for (let attempt = 0; attempt <= MM_RATE_LIMIT_RETRIES; attempt++) {
       try {
-        return await synthesizeMiniMaxWith(text, voiceId, MM_MODELS[mmModelIdx]);
+        return await synthesizeMiniMaxWith(text, voiceId, MM_MODELS[mmModelIdx], language);
       } catch (e) {
         if (e.rateLimited && attempt < MM_RATE_LIMIT_RETRIES) {
           console.log(
@@ -240,11 +244,20 @@ function synthesizeSilence(v) {
 /** 统一发声入口:v = { engine: "edge" | "minimax", voice }。 */
 async function speak(text, v) {
   if (!/[\p{L}\p{N}]/u.test(text)) return synthesizeSilence(v);
-  return v.engine === "minimax" ? synthesizeMiniMax(text, v.voice) : synthesize(text, v.voice);
+  return v.engine === "minimax"
+    ? synthesizeMiniMax(text, v.voice, v.language ?? "zh")
+    : synthesize(text, v.voice);
 }
 
 /** 按音频目录名推断该单元的声音(修复与 CBR 码率估算共用)。 */
 function voiceForUnit(unit) {
+  if (manifest.trackEngines?.[unit] === "minimax") {
+    return {
+      engine: "minimax",
+      voice: manifest.trackVoices?.[unit] ?? MM_ENGLISH_FEMALE,
+      language: unit.endsWith("-en") ? "en" : "zh",
+    };
+  }
   if (unit.endsWith("-en")) {
     return { engine: "edge", voice: manifest.edgeVoices?.[unit] ?? EN_VOICE };
   }
@@ -310,6 +323,8 @@ if (targetSlugs.size && process.env.FORCE_TARGET_AUDIO === "true") {
       if (manifest.timings) delete manifest.timings[unit];
       if (manifest.speechTextVersions) delete manifest.speechTextVersions[unit];
       if (manifest.edgeVoices) delete manifest.edgeVoices[unit];
+      if (manifest.trackEngines) delete manifest.trackEngines[unit];
+      if (manifest.trackVoices) delete manifest.trackVoices[unit];
     }
     console.log(`force ${slug}: 按文章类型清除旧音轨，按已审核正文重新生成`);
   }
@@ -417,8 +432,36 @@ async function synthesizeUnit(unit, paragraphs, v) {
   mkdirSync(dir, { recursive: true });
   try {
     let actualVoice = v.voice;
+    let actualEngine = v.engine;
     if (v.engine === "edge") {
-      actualVoice = await synthesizeEdgeUnit(unit, bodySentences, v.voice);
+      try {
+        actualVoice = await synthesizeEdgeUnit(unit, bodySentences, v.voice);
+      } catch (edgeError) {
+        if (!unit.endsWith("-en") || !ALLOW_MINIMAX_ENGLISH_FALLBACK) throw edgeError;
+        clearUnitAudio(unit);
+        if (manifest.edgeVoices) delete manifest.edgeVoices[unit];
+        const fallbackVoice = {
+          engine: "minimax",
+          voice: MM_ENGLISH_FEMALE,
+          language: "en",
+        };
+        console.log(
+          `英文整轨兜底 ${unit}: Edge 持续失败，统一改用 minimax/${MM_ENGLISH_FEMALE}`,
+        );
+        for (let i = 0; i < bodySentences.length; i++) {
+          const file = resolve(dir, `${i}.mp3`);
+          writeFileSync(
+            file,
+            await speak(speechTextForUnit(bodySentences[i], unit), fallbackVoice),
+          );
+        }
+        actualVoice = MM_ENGLISH_FEMALE;
+        actualEngine = "minimax";
+        manifest.trackEngines ??= {};
+        manifest.trackVoices ??= {};
+        manifest.trackEngines[unit] = "minimax";
+        manifest.trackVoices[unit] = MM_ENGLISH_FEMALE;
+      }
     } else {
       for (let i = 0; i < bodySentences.length; i++) {
         const file = resolve(dir, `${i}.mp3`);
@@ -429,8 +472,12 @@ async function synthesizeUnit(unit, paragraphs, v) {
     }
     manifest.speechTextVersions ??= {};
     manifest.speechTextVersions[unit] = SPEECH_TEXT_VERSION;
+    manifest.trackEngines ??= {};
+    manifest.trackVoices ??= {};
+    manifest.trackEngines[unit] = actualEngine;
+    manifest.trackVoices[unit] = actualVoice;
     manifest.slugs.push(unit);
-    console.log(`ok   ${unit}: ${bodySentences.length} 句 (${v.engine}/${actualVoice})`);
+    console.log(`ok   ${unit}: ${bodySentences.length} 句 (${actualEngine}/${actualVoice})`);
     return true;
   } catch (e) {
     console.log(`fail ${unit}: ${e.message}`);
