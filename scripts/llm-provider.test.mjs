@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   configuredLlmProviders,
+  isRetryableFinishReason,
   isRetryableProviderResponse,
   modelCandidatesFor,
 } from "./lib/llm-provider.mjs";
@@ -13,6 +14,11 @@ test("DeepSeek 默认先尝试当前 v4 模型并保留旧模型兼容", () => {
     "deepseek-v4-pro",
     "deepseek-chat",
   ]);
+});
+
+test("结构化输出被截断时允许切换供应商重新完成该任务", () => {
+  assert.equal(isRetryableFinishReason("length"), true);
+  assert.equal(isRetryableFinishReason("stop"), false);
 });
 
 test("显式模型覆盖优先但不移除供应商安全回退", () => {

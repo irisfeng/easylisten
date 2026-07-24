@@ -42,6 +42,7 @@ import {
 } from "./lib/audio-budget.mjs";
 import {
   configuredLlmProviders,
+  isRetryableFinishReason,
   isRetryableProviderResponse,
   modelCandidatesFor,
 } from "./lib/llm-provider.mjs";
@@ -155,8 +156,10 @@ async function chatJsonWith(service, model, system, user, label, temperature = 0
     }
     const json = await res.json();
     const choice = json?.choices?.[0];
-    if (choice?.finish_reason === "length") {
-      throw new Error(`${label}: 输出被 max_tokens 截断,本次不出刊`);
+    if (isRetryableFinishReason(choice?.finish_reason)) {
+      const error = new Error(`${label}: 输出被 max_tokens 截断`);
+      error.allowProviderFallback = true;
+      throw error;
     }
     const text = choice?.message?.content;
     if (!text) throw new Error(`${label}: 响应中没有内容`);

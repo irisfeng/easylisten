@@ -39,3 +39,7 @@ export function isRetryableProviderResponse(status, body = "") {
   if (status !== 400) return false;
   return /model|模型|unsupported|not supported|invalid_request_error/i.test(body);
 }
+
+export function isRetryableFinishReason(reason) {
+  return reason === "length";
+}
