@@ -29,12 +29,27 @@ test("失败恢复任务下载原运行快照并只补音轨后提交", async ()
   assert.match(workflow, /workflows: \["每日精选"\]/);
   assert.match(workflow, /github\.event\.workflow_run\.conclusion == 'failure'/);
   assert.match(workflow, /actions\/download-artifact@v4/);
+  assert.match(workflow, /path: _recovery_snapshot/);
+  assert.match(workflow, /test -f _recovery_snapshot\/content\/daily\.json/);
+  assert.match(workflow, /不能拿主分支旧刊冒充恢复成功/);
   assert.match(
     workflow,
     /run-id: \$\{\{ github\.event\.workflow_run\.id \|\| inputs\.source_run_id \}\}/,
   );
   assert.match(workflow, /node scripts\/run-synthesis-with-recovery\.mjs/);
   assert.match(workflow, /git add content\/daily\.json content\/editorial\.json public\/audio public\/editorial/);
+});
+
+test("恢复任务没有快照时必须失败告警，不能显示假成功", async () => {
+  const workflow = await readFile(recoveryWorkflowUrl, "utf8");
+  const guard = workflow.indexOf("name: 确认并恢复出刊快照");
+  const synthesis = workflow.indexOf("name: 只补快照中的缺失音轨");
+  const alert = workflow.indexOf("name: 恢复失败告警");
+
+  assert.ok(guard >= 0 && guard < synthesis);
+  assert.ok(alert > synthesis);
+  assert.match(workflow, /if: failure\(\)/);
+  assert.doesNotMatch(workflow, /continue-on-error: true[\s\S]{0,120}actions\/download-artifact/);
 });
 
 test("恢复任务既能自动接管失败运行也能人工指定快照，并允许整轨 MiniMax 英文兜底", async () => {

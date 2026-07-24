@@ -33,36 +33,41 @@ jobs:
 
       - name: 下载失败运行保存的出刊快照
         id: snapshot
-        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
           pattern: daily-recovery-*
-          path: .
+          path: _recovery_snapshot
           merge-multiple: true
           run-id: ${{ github.event.workflow_run.id || inputs.source_run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 确认并恢复出刊快照
+        id: snapshot_guard
+        run: |
+          test -f _recovery_snapshot/content/daily.json || {
+            echo "失败运行没有生成 daily-recovery 快照，不能拿主分支旧刊冒充恢复成功"
+            exit 1
+          }
+          cp -R _recovery_snapshot/content/. content/
+          test ! -d _recovery_snapshot/public/audio || cp -R _recovery_snapshot/public/audio/. public/audio/
+          test ! -d _recovery_snapshot/public/editorial || cp -R _recovery_snapshot/public/editorial/. public/editorial/
+
       - uses: actions/setup-node@v4
-        if: steps.snapshot.outcome == 'success'
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
-        if: steps.snapshot.outcome == 'success'
 
       - name: 校验发布契约
-        if: steps.snapshot.outcome == 'success'
         run: |
           npm run test:speech
           npm run test:curation
 
       - name: 安装 ffmpeg
-        if: steps.snapshot.outcome == 'success'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: 只补快照中的缺失音轨
-        if: steps.snapshot.outcome == 'success'
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_TTS_MODEL: ${{ vars.MINIMAX_TTS_MODEL }}
@@ -72,7 +77,6 @@ jobs:
         run: node scripts/run-synthesis-with-recovery.mjs
 
       - name: 提交恢复后的今日日刊
-        if: steps.snapshot.outcome == 'success'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -92,10 +96,10 @@ jobs:
           [ -n "$pushed" ] || { echo "三次推送均失败"; exit 1; }
 
       - name: 恢复失败告警
-        if: failure() && steps.snapshot.outcome == 'success'
+        if: failure()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create -R "$GITHUB_REPOSITORY" \
             --title "⚠️ 每日精选自动恢复仍未完成" \
-            --body "已从失败运行快照续补音频，但仍未达到发布契约。恢复日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            --body "自动恢复未完成：失败运行可能没有生成快照，或快照续补后仍未达到发布契约。恢复日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

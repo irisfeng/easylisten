@@ -4,7 +4,7 @@
  * SUPPLEMENT_PICKS=2|3 时保留当天已发稿件，只追加补刊。
  *
  * 模型走 OpenAI 兼容接口,自动识别以下任一 key(GitHub Actions 中配为 secret):
- *   - DEEPSEEK_API_KEY   → DeepSeek(deepseek-chat)
+ *   - DEEPSEEK_API_KEY   → DeepSeek(v4 flash/pro，兼容旧 chat 名称)
  *   - DASHSCOPE_API_KEY  → 阿里百炼(qwen-plus)
  *   - OPENAI_API_KEY     → 任意 OpenAI 兼容服务(需另配 LLM_BASE_URL)
  * 可用 LLM_MODEL / LLM_BASE_URL 覆盖默认模型与地址。
@@ -40,6 +40,11 @@ import {
   fitIssueEntriesToMiniMaxBudget,
   miniMaxCharsForPiece,
 } from "./lib/audio-budget.mjs";
+import {
+  configuredLlmProviders,
+  isRetryableProviderResponse,
+  modelCandidatesFor,
+} from "./lib/llm-provider.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 // 每日精选先重温产品核心。它不是独立宣传文案，而是选题与改写的最高层约束。
@@ -80,13 +85,8 @@ const MINIMAX_MAX_CHARS_PER_RUN = Math.max(
 );
 
 // —— 模型服务解析:按已配置的 key 自动选择 OpenAI 兼容服务商 ——
-const PROVIDERS = [
-  { env: "DEEPSEEK_API_KEY", base: "https://api.deepseek.com/v1", model: "deepseek-chat" },
-  { env: "DASHSCOPE_API_KEY", base: "https://dashscope.aliyuncs.com/compatible-mode/v1", model: "qwen-plus" },
-  // 通用 OpenAI 兼容服务:base 由 LLM_BASE_URL 显式给定
-  { env: "OPENAI_API_KEY", base: process.env.LLM_BASE_URL || "https://api.openai.com/v1", model: "gpt-4o-mini" },
-];
-const provider = PROVIDERS.find((p) => process.env[p.env]);
+const PROVIDERS = configuredLlmProviders();
+const provider = PROVIDERS[0];
 if (!provider) {
   throw new Error(
     "未找到模型 key:请在 GitHub Secrets 配置 DEEPSEEK_API_KEY 或 DASHSCOPE_API_KEY",
@@ -96,13 +96,18 @@ const LLM_KEY = process.env[provider.env];
 // base 始终绑定到选中的服务商,杜绝把某家的 key 发到另一家的端点;
 // LLM_MODEL 覆盖只换模型名(同一端点),不改地址
 const LLM_BASE = provider.base;
-const MODEL = process.env.LLM_MODEL || provider.model;
-console.log(`模型服务: ${provider.env} → ${MODEL} @ ${LLM_BASE}`);
-const factReviewProvider =
-  PROVIDERS.find((candidate) => candidate.env !== provider.env && process.env[candidate.env]) ??
-  provider;
+const MODEL = modelCandidatesFor(provider, process.env.LLM_MODEL)[0];
+const activeModelByProvider = new Map();
 console.log(
-  `事实二审: ${factReviewProvider.env} → ${factReviewProvider === provider ? MODEL : factReviewProvider.model}`,
+  `模型服务: ${provider.env} → ${modelCandidatesFor(provider, process.env.LLM_MODEL).join(" / ")} @ ${LLM_BASE}`,
+);
+const factReviewProvider =
+  PROVIDERS.find((candidate) => candidate.env !== provider.env) ?? provider;
+console.log(
+  `事实二审: ${factReviewProvider.env} → ${modelCandidatesFor(
+    factReviewProvider,
+    factReviewProvider === provider ? process.env.LLM_MODEL : "",
+  ).join(" / ")}`,
 );
 
 /**
@@ -110,45 +115,92 @@ console.log(
  * DeepSeek 与百炼均支持 response_format:{type:"json_object"}(提示里需含 "json")。
  */
 async function chatJsonWith(service, model, system, user, label, temperature = 0.7) {
-  const res = await fetch(`${service.base}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${process.env[service.env]}`,
-    },
-    body: JSON.stringify({
-      model,
-      messages: [
-        { role: "system", content: system },
-        { role: "user", content: user },
-      ],
-      response_format: { type: "json_object" },
-      temperature,
-      max_tokens: 8192,
-    }),
-    signal: AbortSignal.timeout(120000),
-  });
-  if (!res.ok) {
-    throw new Error(`${label}: HTTP ${res.status} ${(await res.text()).slice(0, 300)}`);
+  const models = modelCandidatesFor(
+    service,
+    activeModelByProvider.get(service.env) ||
+      model ||
+      (service === provider ? process.env.LLM_MODEL : ""),
+  );
+  let lastError;
+  for (const candidateModel of models) {
+    const res = await fetch(`${service.base}/chat/completions`, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        authorization: `Bearer ${process.env[service.env]}`,
+      },
+      body: JSON.stringify({
+        model: candidateModel,
+        messages: [
+          { role: "system", content: system },
+          { role: "user", content: user },
+        ],
+        response_format: { type: "json_object" },
+        temperature,
+        max_tokens: 8192,
+      }),
+      signal: AbortSignal.timeout(120000),
+    });
+    if (!res.ok) {
+      const body = (await res.text()).slice(0, 500);
+      lastError = new Error(`${label}: HTTP ${res.status} ${body.slice(0, 300)}`);
+      lastError.allowProviderFallback = isRetryableProviderResponse(res.status, body);
+      if (lastError.allowProviderFallback && candidateModel !== models.at(-1)) {
+        console.warn(
+          `${label}: ${service.env} 不接受 ${candidateModel}，自动尝试下一模型`,
+        );
+        continue;
+      }
+      throw lastError;
+    }
+    const json = await res.json();
+    const choice = json?.choices?.[0];
+    if (choice?.finish_reason === "length") {
+      throw new Error(`${label}: 输出被 max_tokens 截断,本次不出刊`);
+    }
+    const text = choice?.message?.content;
+    if (!text) throw new Error(`${label}: 响应中没有内容`);
+    activeModelByProvider.set(service.env, candidateModel);
+    // 个别模型会用 ```json 包裹,去壳后再解析
+    const cleaned = text.replace(/^```json\s*|\s*```$/g, "").trim();
+    // 有的模型会在字符串里塞入未转义的裸控制字符(如换行),JSON.parse 会拒绝。
+    // 合法 JSON 里控制字符只作为词法记号间的空白出现,或以 \n 形式转义(两个字符);
+    // 因此把裸控制字符统一替换为空格,既修复串内非法字符,又不影响结构与已转义序列。
+    const safe = Array.from(cleaned, (ch) => (ch.charCodeAt(0) < 0x20 ? " " : ch)).join("");
+    return JSON.parse(safe);
   }
-  const json = await res.json();
-  const choice = json?.choices?.[0];
-  if (choice?.finish_reason === "length") {
-    throw new Error(`${label}: 输出被 max_tokens 截断,本次不出刊`);
-  }
-  const text = choice?.message?.content;
-  if (!text) throw new Error(`${label}: 响应中没有内容`);
-  // 个别模型会用 ```json 包裹,去壳后再解析
-  const cleaned = text.replace(/^```json\s*|\s*```$/g, "").trim();
-  // 有的模型会在字符串里塞入未转义的裸控制字符(如换行),JSON.parse 会拒绝。
-  // 合法 JSON 里控制字符只作为词法记号间的空白出现,或以 \n 形式转义(两个字符);
-  // 因此把裸控制字符统一替换为空格,既修复串内非法字符,又不影响结构与已转义序列。
-  const safe = Array.from(cleaned, (ch) => (ch.charCodeAt(0) < 0x20 ? " " : ch)).join("");
-  return JSON.parse(safe);
+  throw lastError ?? new Error(`${label}: 没有可用模型`);
 }
 
 async function chatJson(system, user, label, temperature = 0.7) {
-  return chatJsonWith(provider, MODEL, system, user, label, temperature);
+  let lastError;
+  for (const service of [provider, ...PROVIDERS.filter((item) => item !== provider)]) {
+    try {
+      return await chatJsonWith(
+        service,
+        service === provider ? MODEL : modelCandidatesFor(service)[0],
+        system,
+        user,
+        label,
+        temperature,
+      );
+    } catch (error) {
+      lastError = error;
+      if (!error.allowProviderFallback || service === PROVIDERS.at(-1)) throw error;
+      console.warn(`${label}: ${service.env} 暂不可用，自动切换下一供应商`);
+    }
+  }
+  throw lastError ?? new Error(`${label}: 没有可用模型服务`);
+}
+
+function activeModelFor(service) {
+  return (
+    activeModelByProvider.get(service.env) ||
+    modelCandidatesFor(
+      service,
+      service === provider ? process.env.LLM_MODEL : "",
+    )[0]
+  );
 }
 
 // 日刊按北京日历日期落款(定时任务在 UTC 22:00 = 北京次日早 6 点运行)
@@ -404,7 +456,7 @@ async function reviewScriptFacts(script, candidate, fullText) {
   for (let attempt = 1; attempt <= 2; attempt++) {
     const review = await chatJsonWith(
       factReviewProvider,
-      factReviewProvider === provider ? MODEL : factReviewProvider.model,
+      activeModelFor(factReviewProvider),
       `你是独立事实审稿人，不参与选题，也不替撰稿人圆场。你的唯一任务是让听稿中的每个可核查陈述都忠于给定原文。
 逐项核对：比分、数字、日期、分钟、比赛阶段、人物身份、地点、奖项、引语、因果、比较级和“首次/唯一/刷新纪录”等断言。
 原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
@@ -445,7 +497,7 @@ paragraphIndex 从 0 开始，每一段都必须覆盖；sourceId 必须选自�
         audit: {
           status: "verified",
           reviewedAt: new Date().toISOString(),
-          reviewer: factReviewProvider === provider ? MODEL : factReviewProvider.model,
+          reviewer: activeModelFor(factReviewProvider),
           evidenceCount: reviewWithExactQuotes.evidence.length,
           correctionCount: Array.isArray(review.issues) ? review.issues.length : 0,
           attempts: attempt,
