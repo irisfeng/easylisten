@@ -445,9 +445,13 @@ async function reviewTitle(script, candidate) {
   return finalTitle;
 }
 
-async function reviewScriptFacts(script, candidate, fullText) {
+async function reviewScriptFacts(script, candidate, fullText, { language = "zh" } = {}) {
   let currentScript = script;
   let retryReason = "";
+  const isEnglishScript = language === "en";
+  const languageRequirements = isEnglishScript
+    ? "final 的 title、intro 和 paragraphs 必须全部使用英文，不得夹带中文、日文或韩文。每个英文句子不得超过 30 个单词；长句必须拆开，不得使用分号串联多项事实。issues 可以使用中文，但审稿意见绝不能进入 final。"
+    : "";
   const reviewSource = fullText.slice(
     0,
     currentScript.paragraphs.length > 6 ? DEEP_FULLTEXT_LIMIT : FULLTEXT_LIMIT,
@@ -465,6 +469,7 @@ async function reviewScriptFacts(script, candidate, fullText) {
 原文没有明确写出的内容必须删除，不得用常识、记忆或搜索结果补充。直接引语必须在原文逐字存在；“赛后表示”“获评最佳”等归因也必须有原文证据。
 即使只发现一处错误，也要修正整篇后再返回。每段至少给一条能够支撑该段最重要事实的原文连续摘录。
 final 必须是直接面向孩子和家长、可以独立收听的成稿。不得在 final 中写“原文未说明”“原文未提及”“无原文支撑”等审稿意见；应直接删除无依据内容。删除后不足三段，或原文信息不足以写成一篇完整听稿时，返回 ok=false 且不要用审稿意见凑段落。
+${languageRequirements}
 务必优先完整返回 final 和 evidence；issues 最多 8 条、每条不超过 80 个字，只列实际导致修订的问题。`,
       `原文标题：${candidate.title}
 来源：${candidate.sourceName}
@@ -488,6 +493,12 @@ paragraphIndex 从 0 开始，每一段都必须覆盖；sourceId 必须选自�
       const finalScript = stripEvidenceMarkersFromScript(
         validateFactReview(reviewWithExactQuotes, fullText),
       );
+      if (isEnglishScript && hasUnexpectedCjkInEnglishScript(finalScript)) {
+        throw new Error("英文听稿残留中文、日文或韩文字符");
+      }
+      if (isEnglishScript && hasOverlongEnglishSentence(finalScript)) {
+        throw new Error("英文听稿包含超过 30 词的长句，必须拆句后再复核");
+      }
       if (review.ok !== true || (Array.isArray(review.issues) && review.issues.length)) {
         console.log(
           `事实二审修正: ${candidate.title} — ${
@@ -749,7 +760,8 @@ for (const bilingual of bilingualPicks) {
   try {
     const en = await chatJson(
       `You are a writer for "EasyListen", a daily listening digest for children and teenagers aged 6-16, chosen and trusted by their parents. First follow the product core below. You rewrite articles as scripts meant to be heard, not read: conversational, linear reasoning, a hook at the start, an afterthought at the end. Never copy the original text verbatim; retell it in your own words with attribution-safe paraphrase.\n\nDAILY PRODUCT CORE:\n${PRODUCT_CORE}`,
-      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English). Keep every sentence at 30 words or fewer. Do not chain multiple facts with semicolons; use short natural sentences so each playback highlight fits comfortably on a phone screen.\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
+      `Rewrite the following article as an English listening script (3-6 paragraphs, plain spoken English). Keep every sentence at 30 words or fewer. Do not chain multiple facts with semicolons; use short natural sentences so each playback highlight fits comfortably on a phone screen.
+Every field in the returned final script must use English only. Do not include Chinese translations, review notes, or source-gap commentary.\n\nTitle: ${bilingual.c.title}\nSource: ${bilingual.c.sourceName}\n${bilingual.material}\n\nReturn JSON: {"title": "concise English title", "intro": "one-sentence lead", "paragraphs": ["each paragraph as a string"]}`,
       `英文稿(${bilingual.c.title})`,
     );
     const validEn =
@@ -761,7 +773,9 @@ for (const bilingual of bilingualPicks) {
       en.paragraphs.length >= 3 &&
       en.paragraphs.every((p) => typeof p === "string" && p.trim());
     if (validEn) {
-      const factChecked = await reviewScriptFacts(en, bilingual.c, bilingual.fullText);
+      const factChecked = await reviewScriptFacts(en, bilingual.c, bilingual.fullText, {
+        language: "en",
+      });
       if (hasUnexpectedCjkInEnglishScript(factChecked.script)) {
         throw new Error("英文听稿残留中文、日文或韩文字符");
       }

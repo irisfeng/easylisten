@@ -208,6 +208,17 @@ test("英文听稿拒绝超过三十词的整屏高亮长句", () => {
   );
 });
 
+test("英文语言纯度和句长在事实二审修复循环内执行", () => {
+  const reviewStart = curateSource.indexOf("async function reviewScriptFacts");
+  const reviewEnd = curateSource.indexOf("// 全文再长也只取前", reviewStart);
+  const reviewLoop = curateSource.slice(reviewStart, reviewEnd);
+
+  assert.match(reviewLoop, /hasUnexpectedCjkInEnglishScript\(finalScript\)/);
+  assert.match(reviewLoop, /hasOverlongEnglishSentence\(finalScript\)/);
+  assert.match(reviewLoop, /currentScript = review\.final/);
+  assert.match(curateSource, /language: "en"/);
+});
+
 test("主名单失败后候补按相同门槛进入尝试队列", () => {
   const candidates = [
     { sourceName: "主源", region: "international" },
