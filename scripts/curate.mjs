@@ -451,7 +451,7 @@ async function reviewScriptFacts(script, candidate, fullText, { language = "zh" 
   const isEnglishScript = language === "en";
   const languageRequirements = isEnglishScript
     ? "final 的 title、intro 和 paragraphs 必须全部使用英文，不得夹带中文、日文或韩文。每个英文句子不得超过 30 个单词；长句必须拆开，不得使用分号串联多项事实。issues 可以使用中文，但审稿意见绝不能进入 final。"
-    : "";
+    : "final 必须使用清楚自然的中文。通用概念使用中文，不得夹带 discrepancy 一类未解释的普通英文词；必要的英文专名首次出现时先给中文名称。英文直接引语若不适合少年理解，应去掉引号并用中文准确转述，不得把整句英文原样塞进中文听稿。";
   const reviewSource = fullText.slice(
     0,
     currentScript.paragraphs.length > 6 ? DEEP_FULLTEXT_LIMIT : FULLTEXT_LIMIT,

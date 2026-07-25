@@ -217,6 +217,7 @@ test("英文语言纯度和句长在事实二审修复循环内执行", () => {
   assert.match(reviewLoop, /hasOverlongEnglishSentence\(finalScript\)/);
   assert.match(reviewLoop, /currentScript = review\.final/);
   assert.match(curateSource, /language: "en"/);
+  assert.match(reviewLoop, /不得夹带 discrepancy 一类未解释的普通英文词/);
 });
 
 test("主名单失败后候补按相同门槛进入尝试队列", () => {
