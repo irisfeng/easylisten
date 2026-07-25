@@ -119,12 +119,12 @@
     "2026-07-24-dpvg4a-m",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i-m",
-    "2026-07-25-how-fast-is-the-universe-really-expanding",
     "2026-07-25-how-fast-is-the-universe-really-expanding-en",
     "2026-07-25-80miqe",
     "2026-07-25-80miqe-m",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time",
-    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m"
+    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m",
+    "2026-07-25-how-fast-is-the-universe-really-expanding"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -2524,16 +2524,6 @@
       153.131,
       156.673
     ],
-    "2026-07-25-how-fast-is-the-universe-really-expanding": [
-      0,
-      14.803,
-      23.034,
-      28.015,
-      33.216,
-      45.244,
-      52.837,
-      58.805
-    ],
     "2026-07-25-how-fast-is-the-universe-really-expanding-en": [
       0,
       5.088,
@@ -2708,6 +2698,16 @@
       97.466,
       104.966,
       113.708
+    ],
+    "2026-07-25-how-fast-is-the-universe-really-expanding": [
+      0,
+      14.965,
+      23.359,
+      27.794,
+      31.289,
+      43.27,
+      50.771,
+      56.82
     ]
   },
   "fullAudioVersion": 4,
@@ -2830,12 +2830,12 @@
     "2026-07-24-dpvg4a-m": 3,
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i": 3,
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i-m": 3,
-    "2026-07-25-how-fast-is-the-universe-really-expanding": 3,
     "2026-07-25-how-fast-is-the-universe-really-expanding-en": 3,
     "2026-07-25-80miqe": 3,
     "2026-07-25-80miqe-m": 3,
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": 3,
-    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": 3
+    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": 3,
+    "2026-07-25-how-fast-is-the-universe-really-expanding": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
@@ -2858,12 +2858,12 @@
     "2026-07-24-dpvg4a-m": "minimax",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i": "minimax",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i-m": "minimax",
-    "2026-07-25-how-fast-is-the-universe-really-expanding": "minimax",
     "2026-07-25-how-fast-is-the-universe-really-expanding-en": "edge",
     "2026-07-25-80miqe": "minimax",
     "2026-07-25-80miqe-m": "minimax",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": "minimax",
-    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "minimax"
+    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "minimax",
+    "2026-07-25-how-fast-is-the-universe-really-expanding": "minimax"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
@@ -2880,11 +2880,11 @@
     "2026-07-24-dpvg4a-m": "male-qn-jingying",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i": "presenter_female",
     "2026-07-24-how-much-energy-do-data-centers-and-artificial-i-m": "male-qn-jingying",
-    "2026-07-25-how-fast-is-the-universe-really-expanding": "presenter_female",
     "2026-07-25-how-fast-is-the-universe-really-expanding-en": "en-US-AriaNeural",
     "2026-07-25-80miqe": "presenter_female",
     "2026-07-25-80miqe-m": "male-qn-jingying",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": "presenter_female",
-    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "male-qn-jingying"
+    "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "male-qn-jingying",
+    "2026-07-25-how-fast-is-the-universe-really-expanding": "presenter_female"
   }
 }
