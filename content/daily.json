@@ -1,5 +1,222 @@
 [
   {
+    "slug": "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "FDA果蔬安全改革15年，效果如何？",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-26",
+    "intro": "15年前，美国食品和药物管理局对果蔬安全规则进行了全面改革，旨在预防食源性疾病爆发。如今，这套系统是否奏效？",
+    "paragraphs": [
+      "15年前，美国食品和药物管理局——也就是FDA——对水果和蔬菜的安全规则进行了一次彻底改革。改革的初衷很明确：预防食源性疾病爆发。",
+      "新规则要求种植者、包装商和运输商采取更严格的卫生措施，比如检测灌溉水质、规范堆肥使用、保持设备清洁，并建立可追溯系统，以便在问题出现时迅速找出源头。",
+      "那么，15年过去，这些改革到底有没有用？报道指出，食源性疾病的总爆发次数确实有所下降，但一些新病原体和抗药性细菌的出现，又带来了新的挑战。"
+    ],
+    "topics": [
+      "健康与医学",
+      "食物与日常"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/07/24/nx-s1-5903267-e1/15-years-later-is-the-fdas-produce-safety-overhaul-working",
+      "originalTitle": "15 years later, is the FDA's produce safety overhaul working?",
+      "publishedAt": "Fri, 24 Jul 2026 16:26:08 -0400",
+      "retrievedAt": "2026-07-25T22:14:41.764Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:14:38.793Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "FDA Produce Safety Overhaul: 15 Years Later",
+      "intro": "Fifteen years ago, the FDA overhauled its safety rules for fruits and vegetables, hoping to prevent outbreaks of foodborne illness. How's that system working today?",
+      "paragraphs": [
+        "Fifteen years ago, the FDA overhauled its safety rules for fruits and vegetables, hoping to prevent outbreaks of foodborne illness.",
+        "How's that system working today? A reporter named Jeff Guo examined the overhaul's impact for NPR.",
+        "You can hear the full story on NPR's All Things Considered for July 24, 2026. The report aired at 4:26 PM ET and is titled '15 years later, is the FDA's produce safety overhaul working?'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:20:35.472Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-26-9g4bho",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国科学家提出“可编程植物合成免疫”新理念，AI辅助构建抗病平台",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-26",
+    "intro": "中国科学院遗传与发育生物学研究所高彩霞团队提出“可编程植物合成免疫”新理念，利用人工智能辅助蛋白质设计、模块化免疫受体工程和植物体内定向进化技术，构建可编程的合成植物免疫受体（SPIR）平台，让植物能快速获得对新发病害的抵抗力。",
+    "paragraphs": [
+      "植物病害严重威胁全球农业生产和粮食安全，每年造成数千亿美元的经济损失。培育和推广作物抗病品种是植物病害绿色防控的核心策略之一。长期以来，作物抗病育种主要依赖植物抗病基因（R基因）的发掘与利用。大多数抗病基因编码核苷酸结合富亮氨酸重复（NLR）免疫受体，通过识别病原物效应蛋白激活植物免疫反应。然而，植物基因组编码的免疫受体数量有限，加之病原物持续进化变异，导致已有的作物抗病性不断被攻破。",
+      "北京时间2026年7月24日2时，《科学》（Science）在线发表了中国科学院遗传与发育生物学研究所高彩霞团队题为“Programmable design of synthetic plant immune receptors for pathogen protein recognition”的研究论文。研究团队首次提出“可编程植物合成免疫（Programmable Plant Synthetic Immunity）”的新理念，注意到一类非典型NLR免疫受体演化出通过体积更小、功能相对独立的整合诱饵（Integrated Decoy，ID）结构域直接识别病原蛋白的策略；据此提出设想：能否通过人工设计ID结构域，赋予植物免疫受体全新的病原识别能力？",
+      "研究团队整合人工智能辅助蛋白质设计、模块化免疫受体工程和植物体内定向进化技术，建立了可编程的合成植物免疫受体（SPIR）设计平台。具体流程包括：利用AlphaFold 3预测病原蛋白三维结构，通过BindCraft完成结合蛋白（binder）从头设计，并借助HelixFold 3预测筛选结合能力强和稳定性高的候选结合蛋白；再以人工设计的结合蛋白替代天然ID结构域，整合到水稻免疫受体Pikm-1中，构建全新合成免疫受体。整个设计过程无需依赖已有的抗病基因资源，仅基于病原蛋白的结构信息开展人工定向设计。",
+      "研究团队首先以马铃薯Y病毒（PVY）衣壳蛋白为验证靶标，设计了48个SPIR，其中11个能够特异性识别PVY衣壳蛋白并激活植物免疫反应。在此基础上，团队进一步针对13种重要植物病毒（含乌干达木薯褐条纹病毒、番茄斑萎病毒、马铃薯X病毒、黄瓜绿斑驳花叶病毒等），以及细菌（丁香假单胞菌、野油菜黄单胞菌）、真菌（玉米黑粉菌）、卵菌（大豆疫霉）等多种病原物的蛋白，完成了相应SPIR的设计。共设计并测试了391个SPIR，其中71个能特异地识别对应病原蛋白并有效激活植物免疫反应，成功率为18.2%，首次证明人工智能辅助的蛋白质设计技术能够实现植物免疫受体的从头创制。",
+      "大部分人工智能辅助设计的合成植物免疫受体存在免疫活性不足或自激活等问题。研究团队将其与前期建立的植物体内定向进化系统GRAPE（Science，2025，DOI:10.1126/science.ady2167）相结合，显著增强SPIR对病原蛋白的免疫活性，并有效降低其自激活水平，最终建立了完整的植物合成免疫受体“设计—构建—测试—进化”开发流程。",
+      "不同SPIR之间具有高度识别特异性和正交性，且可通过基因叠加策略同时识别多种病原蛋白。实验证实表达SPIR的转基因植物能够有效抵御相应病毒的侵染，展示了SPIR技术在作物抗病遗传改良中的应用潜力。",
+      "SPIR平台首次实现了植物免疫受体的定制化设计，赋予植物识别自然界全新病原靶标蛋白的能力。依托该技术平台，可针对各类特异性病原蛋白，在数周内快速设计对应的人工合成植物免疫受体，为高效应对新发、突发病害和病原物变异提供全新技术途径。这项工作实现了植物免疫受体从“天然挖掘发现”向“人工精准设计”的范式转变，推动植物抗病育种从“利用自然”迈向“定向创制”的新阶段。审稿人评价该工作是植物免疫工程领域的一项重大进展，为在作物中开发持久、广谱的抗病性奠定了坚实基础。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568777.shtm",
+      "originalTitle": "研究提出“可编程植物合成免疫”新理念",
+      "publishedAt": "2026-07-24 08:42",
+      "retrievedAt": "2026-07-25T22:15:25.876Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:15:22.576Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Scientists Design Custom Plant Immune Systems",
+      "intro": "A new study shows how scientists can program plants to fight diseases by designing custom immune receptors.",
+      "paragraphs": [
+        "Scientists at the Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, led by Professor Caixia Gao, have proposed a new concept called 'Programmable Plant Synthetic Immunity'. They built a platform to design synthetic plant immune receptors (SPIRs) from scratch using AI-assisted protein design, modular receptor engineering, and in planta directed evolution.",
+        "Plant diseases caused by viruses, bacteria, fungi, and oomycetes threaten global food security and cause billions of dollars in losses each year. Traditional breeding relies on natural resistance (R) genes, mostly encoding NLR immune receptors. But natural R genes are limited, and pathogens rapidly evolve to overcome them.",
+        "The team used AlphaFold 3 to predict pathogen protein structures, then used BindCraft to design binder proteins that bind those targets. They replaced natural Integrated Decoy (ID) domains with these artificial binders in the rice immune receptor Pikm-1 to build SPIRs.",
+        "They designed and tested 391 SPIRs against 13 plant viruses, plus bacterial, fungal, and oomycete pathogens. Seventy-one SPIRs (18.2%) specifically recognized their target pathogen proteins and activated plant immunity. They combined the design with GRAPE — an in planta directed evolution system published in Science in 2025 — to improve activity and reduce autoactivation.",
+        "The SPIR platform enables de novo, structure-guided design of plant immune receptors in weeks — without relying on natural R genes. Transgenic plants expressing SPIRs resisted corresponding viral infections. This shifts plant disease resistance breeding from 'mining nature' to 'engineering immunity'."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:20:18.480Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-26-fields-and-abacus-medals-2026",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "2026年菲尔兹奖与阿巴卡奖揭晓：五位年轻数学家改写数学版图",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-26",
+    "intro": "数学界最高荣誉每四年颁发一次，今年有五位四十岁以下的数学家获奖，他们的工作重塑了数学和理论计算机科学的面貌。",
+    "paragraphs": [
+      "2026年的菲尔兹奖和阿巴卡奖刚刚揭晓。菲尔兹奖是数学界的最高荣誉，每四年颁发一次，获奖者必须在当年1月1日之前未满40岁。阿巴卡奖则颁发给理论计算机科学领域的杰出年轻研究者。今年共有五位数学家获奖，他们的故事各有精彩。",
+      "王虹成为了历史上第三位获得菲尔兹奖的女性。她凭借一项‘once in a century’证明获奖。",
+      "雅各布·齐默尔曼因证明安德烈-奥尔特猜想而获奖。",
+      "约翰·帕登因在辛几何领域的工作获奖。",
+      "邓宇因在随机数据问题上的工作获奖。",
+      "沙扬·奥韦斯·加兰获得了今年的阿巴卡奖。他因将各种数学工具应用于计算机科学而获奖。"
+    ],
+    "topics": [
+      "物质与数学",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/fields-and-abacus-medals-2026-20260723/",
+      "originalTitle": "Fields and Abacus Medals 2026",
+      "publishedAt": "Thu, 23 Jul 2026 14:20:31 +0000",
+      "retrievedAt": "2026-07-25T22:16:15.583Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:16:11.955Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-07-26-2fh6j0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "看不见、摸得着的家居要素：聊聊湿度管理的方法与实践",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-26",
+    "intro": "湿度就是空气里藏着的水蒸气，太多让人难受，太少也不行。这篇基于作者两年‘抗湿经验’，教你读懂湿度指标、匹配不同物品需求，并选择合适除湿方式。",
+    "paragraphs": [
+      "你有没有注意过，下雨天墙壁会冒汗，夏天从冰箱拿出可乐，瓶子上立刻凝满小水珠？这些都是空气里看不见的水——湿度在捣鬼。又到了江浙沪一年一度的黄梅季节，连续几周阴雨不休让室内外空气中都充斥着潮湿的味道，基于这两年的‘抗湿经验’，我们来聊聊这个摸不着但很重要的家居要素。",
+      "湿度有三种核心指标：绝对湿度（AH）表示单位体积空气中含有的水蒸气质量（g/m³）；饱和湿度是在某温度下空气最多能容纳的水蒸气质量（g/m³），温度越高，饱和湿度越大；相对湿度（RH）是当前湿度占饱和湿度的百分比，天气预报和手机天气软件显示的就是它。例如，同样74% RH，在10℃和35℃下的体感完全不同——因为温度变化改变了空气‘装水’能力。",
+      "不同城市湿度差异显著：广州几乎全年高热高湿；上海和武汉高湿度集中在6～9月；北京高湿仅限7～8月三伏天，其他季节更需加湿；西安夏季以干热为主；而昆明是全年温湿度宜人、感受不到闷热的城市。人类最舒适的环境是温度22～26℃、相对湿度40%～60%，超出该范围会影响呼吸道健康。",
+      "家中物件对湿度要求各不相同：奶粉/咖啡粉、白砂糖、茶叶等需低湿（RH≈30%），否则易结块、发霉；普通衣物、书籍、电子设备、木家具、吉他钢琴等属中湿组（RH 40%～60%），过高会导致霉变、变形或氧化；葡萄酒、雪茄、绿植则属高湿组（RH 60%～74%），需专门保存条件。",
+      "除湿策略依保存方式而异：密封箱（如相机、药品）可用硅胶或氯化钙干燥剂，60L箱从RH 80%降至50%仅需吸收约0.4g水分；半密封空间（如衣柜）存在自然与人为换气，一个1.2m³衣柜每天需吸湿约16.9g，氯化钙干燥剂更适用；全开放空间（如卧室）需空调除湿模式或专用除湿机——前者通过蒸发器冷凝排水，后者将冷凝水存于水箱并释放热量，故吹出热风；低于25℃时用除湿机可避免过度降温。",
+      "最后记住关键原则：开窗通风前须比较室内外绝对湿度（不能只看相对湿度），仅当室外绝对湿度更低时才有效；黄梅天晾衣建议用封闭阳台+除湿机组合，配合阳光加速蒸发、机器即时除湿，次日即可收干爽衣物；华南‘回南天’等低温高湿场景，还可开启制热空调防止凝结水。"
+    ],
+    "topics": [
+      "湿度管理",
+      "家居",
+      "健康生活",
+      "环境控制"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "少数派",
+      "region": "mainland",
+      "url": "https://sspai.com/post/112093",
+      "originalTitle": "看不见、摸得着的家居要素：聊聊湿度管理的方法与实践",
+      "publishedAt": "Sat, 25 Jul 2026 11:09:49 +0800",
+      "retrievedAt": "2026-07-25T22:17:34.820Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-25T22:17:33.355Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-25-how-fast-is-the-universe-really-expanding",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "宇宙到底在膨胀得多快？",

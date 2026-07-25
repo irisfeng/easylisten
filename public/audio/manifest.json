@@ -124,7 +124,15 @@
     "2026-07-25-80miqe-m",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m",
-    "2026-07-25-how-fast-is-the-universe-really-expanding"
+    "2026-07-25-how-fast-is-the-universe-really-expanding",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh",
+    "2026-07-26-9g4bho",
+    "2026-07-26-9g4bho-en",
+    "2026-07-26-fields-and-abacus-medals-2026",
+    "2026-07-26-fields-and-abacus-medals-2026-m",
+    "2026-07-26-2fh6j0",
+    "2026-07-26-2fh6j0-m",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh-en"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -2708,6 +2716,118 @@
       43.27,
       50.771,
       56.82
+    ],
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh": [
+      0,
+      9.253,
+      12.795,
+      28.317,
+      32.369,
+      41.622
+    ],
+    "2026-07-26-9g4bho": [
+      0,
+      6.862,
+      12.655,
+      18.924,
+      29.373,
+      39.311,
+      58.858,
+      88.83,
+      103.284,
+      129.62,
+      137.758,
+      152.387,
+      178.578,
+      198.651,
+      206.197,
+      216.983,
+      234.219,
+      243.426,
+      255.152,
+      264.852,
+      280.293,
+      293.262,
+      302.898
+    ],
+    "2026-07-26-9g4bho-en": [
+      0,
+      13.152,
+      25.368,
+      35.52,
+      43.08,
+      48.816,
+      58.008,
+      67.296,
+      76.776,
+      85.848,
+      96.384,
+      105.72,
+      111.384,
+      117.216
+    ],
+    "2026-07-26-fields-and-abacus-medals-2026": [
+      0,
+      3.669,
+      12.028,
+      17.787,
+      22.384,
+      26.691,
+      29.838,
+      34.482,
+      37.849,
+      41.088,
+      44.536,
+      48.588
+    ],
+    "2026-07-26-fields-and-abacus-medals-2026-m": [
+      0,
+      3.669,
+      12.028,
+      17.485,
+      21.49,
+      24.729,
+      27.202,
+      31.719,
+      34.737,
+      37.419,
+      41.088,
+      44.327
+    ],
+    "2026-07-26-2fh6j0": [
+      0,
+      7.372,
+      10.995,
+      25.414,
+      52.47,
+      62.663,
+      83.581,
+      93.681,
+      126.353,
+      172.164,
+      198.428
+    ],
+    "2026-07-26-2fh6j0-m": [
+      0,
+      7.628,
+      10.867,
+      22.547,
+      48.162,
+      58.356,
+      76.579,
+      86.006,
+      120.082,
+      163.337,
+      189.205
+    ],
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh-en": [
+      0,
+      10.019,
+      12.876,
+      18.46,
+      27.376,
+      38.592,
+      38.772
     ]
   },
   "fullAudioVersion": 4,
@@ -2835,13 +2955,22 @@
     "2026-07-25-80miqe-m": 3,
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": 3,
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": 3,
-    "2026-07-25-how-fast-is-the-universe-really-expanding": 3
+    "2026-07-25-how-fast-is-the-universe-really-expanding": 3,
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh": 3,
+    "2026-07-26-9g4bho": 3,
+    "2026-07-26-9g4bho-en": 3,
+    "2026-07-26-fields-and-abacus-medals-2026": 3,
+    "2026-07-26-fields-and-abacus-medals-2026-m": 3,
+    "2026-07-26-2fh6j0": 3,
+    "2026-07-26-2fh6j0-m": 3,
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh-en": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
     "2026-07-23-oy46xz-en": "en-US-AriaNeural",
     "2026-07-24-dormant-microbes-from-tzi-the-iceman-s-body-can--en": "en-US-AriaNeural",
-    "2026-07-25-how-fast-is-the-universe-really-expanding-en": "en-US-AriaNeural"
+    "2026-07-25-how-fast-is-the-universe-really-expanding-en": "en-US-AriaNeural",
+    "2026-07-26-9g4bho-en": "en-US-AriaNeural"
   },
   "trackEngines": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "minimax",
@@ -2863,7 +2992,15 @@
     "2026-07-25-80miqe-m": "minimax",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": "minimax",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "minimax",
-    "2026-07-25-how-fast-is-the-universe-really-expanding": "minimax"
+    "2026-07-25-how-fast-is-the-universe-really-expanding": "minimax",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh": "minimax",
+    "2026-07-26-9g4bho": "minimax",
+    "2026-07-26-9g4bho-en": "edge",
+    "2026-07-26-fields-and-abacus-medals-2026": "minimax",
+    "2026-07-26-fields-and-abacus-medals-2026-m": "minimax",
+    "2026-07-26-2fh6j0": "minimax",
+    "2026-07-26-2fh6j0-m": "minimax",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh-en": "minimax"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
@@ -2885,6 +3022,14 @@
     "2026-07-25-80miqe-m": "male-qn-jingying",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time": "presenter_female",
     "2026-07-25-io-s-hidden-heat-revealed-for-the-first-time-m": "male-qn-jingying",
-    "2026-07-25-how-fast-is-the-universe-really-expanding": "presenter_female"
+    "2026-07-25-how-fast-is-the-universe-really-expanding": "presenter_female",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh": "presenter_female",
+    "2026-07-26-9g4bho": "presenter_female",
+    "2026-07-26-9g4bho-en": "en-US-AriaNeural",
+    "2026-07-26-fields-and-abacus-medals-2026": "presenter_female",
+    "2026-07-26-fields-and-abacus-medals-2026-m": "male-qn-jingying",
+    "2026-07-26-2fh6j0": "presenter_female",
+    "2026-07-26-2fh6j0-m": "male-qn-jingying",
+    "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh-en": "English_Graceful_Lady"
   }
 }
