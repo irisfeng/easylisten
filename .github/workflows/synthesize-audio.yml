@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       model:
-        description: "可选：修复既有半成品时指定原型号，默认 speech-2.8-hd"
+        description: "可选：指定 Turbo 型号，默认 speech-2.8-turbo；HD 会被成本闸门拒绝"
         required: false
         type: string
 

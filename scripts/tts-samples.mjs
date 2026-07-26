@@ -39,10 +39,10 @@ if (MM) {
       return "";
     }
   })();
-  // 第三轮:音色已定妆(女主持/精英青年),盲测当前旗舰 speech-2.8-hd
-  // 与盲选时所用 speech-02-hd 的差异,确认升级不换味
+  // 音色已定妆(女主持/精英青年),盲测最新与上一代 Turbo，
+  // 确认 speech-2.8-turbo 相比 speech-2.6-turbo 是否值得作为生产默认。
   const pairs = [];
-  for (const model of ["speech-2.8-hd", "speech-02-hd"]) {
+  for (const model of ["speech-2.8-turbo", "speech-2.6-turbo"]) {
     for (const voice of ["presenter_female", "male-qn-jingying"]) {
       pairs.push({ model, voice });
     }
@@ -59,7 +59,7 @@ if (MM) {
             text: TEXT,
             stream: false,
             voice_setting: { voice_id: voice, speed: 1, vol: 1, pitch: 0 },
-            audio_setting: { sample_rate: 32000, bitrate: 128000, format: "mp3", channel: 1 },
+            audio_setting: { sample_rate: 32000, bitrate: 64000, format: "mp3", channel: 1 },
           }),
           signal: AbortSignal.timeout(60000),
         },

@@ -40,6 +40,10 @@ import {
   miniMaxCharsForTracks,
 } from "./lib/audio-budget.mjs";
 import {
+  estimateMiniMaxTtsCostCny,
+  miniMaxTtsModelCandidates,
+} from "./lib/minimax-model-policy.mjs";
+import {
   CHINESE_FEMALE_VOICE,
   CHINESE_MALE_VOICE,
   ENGLISH_FEMALE_VOICE,
@@ -77,11 +81,9 @@ const MM_KEY = process.env.MINIMAX_API_KEY;
 const MM_FEMALE = CHINESE_FEMALE_VOICE;
 const MM_MALE = CHINESE_MALE_VOICE;
 const REQUIRE_AUDIO_CONTRACT = process.env.REQUIRE_AUDIO_CONTRACT === "true";
-// 型号按新旧排序逐个尝试:2.8 为当前旗舰;若账号/地域暂不可用,
-// 自动降级到盲选时实测可用的 speech-02-hd,并全程记住可用型号
-const MM_MODELS = [
-  ...new Set([process.env.MINIMAX_TTS_MODEL || "speech-2.8-hd", "speech-02-hd"]),
-];
+// 正式节目只使用 Turbo：2.8 为当前版本，2.6 为上一版本，02 为旧稳定回退。
+// 音色 ID 不变；显式 HD 配置会在第一次付费调用前被模型策略拒绝。
+const MM_MODELS = miniMaxTtsModelCandidates(process.env.MINIMAX_TTS_MODEL);
 let mmModelIdx = 0;
 // MiniMax 当前套餐按模型限制 RPM。句级音频一次需要很多请求，若连续发送，
 // 第 2～3 篇就会触发 1002 限流。把请求起点控制在每 2.1 秒一次（< 30 RPM），
@@ -368,7 +370,8 @@ if (REQUIRE_AUDIO_CONTRACT) {
   const estimatedChars = miniMaxCharsForTracks(missingTracks);
   console.log(
     `音频契约预检：待生成 ${missingTracks.length} 条音轨，` +
-      `MiniMax 预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符`,
+      `MiniMax 预计 ${estimatedChars}/${MM_MAX_CHARS_PER_RUN} 字符，` +
+      `Turbo 按量约 ¥${estimateMiniMaxTtsCostCny(estimatedChars, MM_MODELS[0]).toFixed(2)}`,
   );
   if (estimatedChars > MM_MAX_CHARS_PER_RUN) {
     throw new Error(
@@ -743,7 +746,11 @@ writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
 console.log(`manifest: ${manifest.slugs.length} pieces with audio`);
 if (MM_KEY) {
   console.log(
-    `MiniMax 本轮请求 ${mmCharsRequested}/${MM_MAX_CHARS_PER_RUN} 字符（硬上限）`,
+    `MiniMax 本轮请求 ${mmCharsRequested}/${MM_MAX_CHARS_PER_RUN} 字符（硬上限），` +
+      `Turbo 按量约 ¥${estimateMiniMaxTtsCostCny(
+        mmCharsRequested,
+        MM_MODELS[mmModelIdx] ?? MM_MODELS[0],
+      ).toFixed(2)}`,
   );
 }
 

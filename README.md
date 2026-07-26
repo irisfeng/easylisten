@@ -192,7 +192,7 @@ npm run db:migrate
 | Variable | `LLM_MODEL` | 覆盖默认精选模型 |
 | Variable | `LLM_BASE_URL` | 覆盖 OpenAI 兼容接口地址 |
 | Secret | `MINIMAX_API_KEY` | 生成中文语音，未配置时回落到 Edge TTS |
-| Variable | `MINIMAX_TTS_MODEL` | 覆盖默认 MiniMax 语音模型 |
+| Variable | `MINIMAX_TTS_MODEL` | 覆盖默认 MiniMax Turbo 语音模型；HD 会被成本闸门拒绝 |
 | Variable | `MINIMAX_MAX_CHARS_PER_RUN` | 单次 MiniMax 计费字符硬上限，默认 `12000` |
 | Secret | `ARK_API_KEY` | 按需生成豆包 Seedream 编辑缩略图 |
 | Variable | `ARK_IMAGE_MODEL` | 覆盖默认 Seedream 模型 |
