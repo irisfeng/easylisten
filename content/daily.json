@@ -1,5 +1,273 @@
 [
   {
+    "slug": "2026-07-28-a-new-way-that-a-cow-s-inner-world-shapes-earth-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新发现：牛胃里的微生物如何影响地球大气",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-28",
+    "intro": "每一头牛的肚子里，都藏着一个能影响全球气候的微型世界。",
+    "paragraphs": [
+      "在牛的肚子里，有一个巨大的发酵罐，叫做瘤胃。这里生活着数以千万计的细菌，它们分解纤维素和蛋白质；还有微生物真菌，其酶能摧毁坚硬的细胞壁；以及纤毛虫——一类大型、捕食性的微生物，靠吞食细菌为生。这个复杂的微生物食物网把饲料转化为能量，供牛代谢使用。连发酵产生的氢气和二氧化碳也被瘤胃中其他微生物利用。这些‘机会主义者’就是产甲烷菌，它们的代谢废物是甲烷。",
+      "甲烷是一种强效的温室气体，其捕热能力远高于二氧化碳。反刍动物（包括牛、山羊和绵羊）打嗝释放的甲烷约占大气中全部甲烷的三分之一。所有来源的甲烷——包括垃圾填埋场和化石燃料——共同导致了过去150年全球升温幅度的约30%。但甲烷在大气中存留时间较短，因此针对牛肠道甲烷的研究备受全球科学家关注。最近一项发表在《科学》杂志上的研究揭示了一个关键结构：一种新发现的细胞器，被命名为‘氢小体’。",
+      "氢小体位于纤毛虫细胞膜边缘、纤毛基部，由单层膜包裹，内部含有氢酶。它能产生氢气，同时消耗氧气——而氧气会抑制产甲烷菌活性。因此，氢小体既为产甲烷菌提供了原料，又帮助维持瘤胃内无氧环境。电子显微镜图像显示，不同纤毛虫种类的氢小体数量差异显著：等毛虫体型巨大、全身密布纤毛，氢小体数量远多于内毛虫；后者体型较小，纤毛和氢小体仅分布于局部区域。这两种纤毛虫在瘤胃中占据不同生态位，如同草原上狮子与猎豹的角色分工。",
+      "为验证氢小体对甲烷排放的实际影响，研究人员用‘头箱’（一种套在奶牛头部、用于测量呼出气体的装置）测定了100头奶牛的甲烷排放量，并分析其瘤胃中等毛虫与内毛虫的比例。结果发现：等毛虫占比更高的奶牛，甲烷读数明显更高。这首次在机制层面证实了特定纤毛虫类群通过氢小体驱动甲烷生成的作用。",
+      "这一发现为减少畜牧业甲烷排放提供了新路径。过去曾尝试清除瘤胃中全部原生动物（包括纤毛虫），却导致细菌暴增、氢气产量上升、甲烷反而增加。如今可精准靶向产氢能力强的等毛虫，或设法将氢气导向不产甲烷的其他微生物。已有饲料添加剂Bovaer（含3-硝氧基丙醇）通过干扰产甲烷酶起效，但效果不稳定；本研究有助于解释其失效原因，并优化益生菌或添加剂的应用条件。",
+      "不过，该研究仍有局限。例如，实验未说明奶牛的饲料类型——而饲料成分是影响氢气产量的关键变量。此外，作者未明确氢小体本身是否直接决定甲烷总量，仅建立其与纤毛虫类群及甲烷读数的关联。尽管如此，这项工作已推动新研究方向：从聚焦细菌与古菌间的氢传递，转向跨界（细菌、古菌、真菌、原生动物）的氢代谢网络解析。"
+    ],
+    "topics": [
+      "生命与演化",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/a-new-way-that-a-cows-inner-world-shapes-earths-atmosphere-20260727/",
+      "originalTitle": "A New Way That a Cow’s Inner World Shapes Earth’s Atmosphere",
+      "publishedAt": "Mon, 27 Jul 2026 14:40:59 +0000",
+      "retrievedAt": "2026-07-27T22:22:36.009Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:22:29.733Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-28/2026-07-28-a-new-way-that-a-cow-s-inner-world-shapes-earth-.webp",
+      "alt": "Cow silhouette with microbial ecosystem in stomach emitting gases",
+      "caption": "牛胃微生物与大气之间的隐秘联系",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-28-we-published-a-new-topic-page-on-economic-inequa",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "经济不平等：全球数据中的贫富差距",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-28",
+    "intro": "过去二十年，经济不平等越来越受关注，数据也变得更丰富。本篇文章带你了解全球收入差距的现状与变化。",
+    "paragraphs": [
+      "过去二十年里，人们对经济不平等的关注大幅增加。与此同时，可用的数据也大大改善了：现在有更多国家和更长时间段的估算数据，新的国际数据库让数据更容易比较和获取。过去我们只能看单个国家，现在可以越来越多地从全球视角看待不平等问题。",
+      "不过，这么多数据和衡量方法也让人难以理解。衡量不平等有很多方式，各有优缺点。三个主要国际数据库——世界银行的贫困与不平等平台、卢森堡收入研究、世界不平等数据库——帮助我们看清全貌。综合来看，许多国家的不平等程度很高，并且在许多情况下正在上升。",
+      "但也有一些好消息：全球收入不平等——衡量全世界所有人之间的收入差距——在近几十年里下降了，尤其是因为亚洲部分地区经济快速增长。而且在许多国家内部，收入不平等在最近几十年里是下降或保持稳定的。这说明高且上升的不平等并非不可避免。",
+      "一个容易理解的衡量方法是P90/P10比率，它比较最富的10%和最穷的10%的收入或消费差距。例如，美国最富10%的收入或消费是最穷10%的7倍，德国是4.5倍，巴西则高达10倍。安哥拉、越南和马达加斯加的数据反映的是消费而非收入；其中安哥拉最富与最穷10%的差距，是马达加斯加或越南的两倍。",
+      "从全球视角看，不平等不仅仅是国家内部的事情，国家之间的差距同样巨大。在安哥拉或马达加斯加这样的低收入国家，即使是最富的10%，其收入或消费也远低于高收入国家最穷的10%。但好消息是，各国通过制度建设与政策选择可以影响不平等程度。不平等并非完全由无法控制的全球力量决定，而是我们可以改变的事情。"
+    ],
+    "topics": [
+      "经济与商业",
+      "社会公平"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Our World in Data",
+      "region": "international",
+      "url": "https://ourworldindata.org/we-published-a-new-topic-page-on-economic-inequality",
+      "originalTitle": "We published a new topic page on economic inequality",
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "retrievedAt": "2026-07-27T22:23:37.364Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:23:34.711Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-28-10",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "北京10年间年轻人数量减半，不再吸引年轻人",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-28",
+    "intro": "33岁生日那天，陈予舒接到了公司的裁员通知。陈予舒在一家互联网影视公司工作，担任院线电影的执行制片人。这个武汉女孩学的是戏剧影视文学和电影研究，2015年研究生毕业后来到北京，‘干电影的没有别的选择’。",
+    "paragraphs": [
+      "33岁生日那天，陈予舒接到了公司的裁员通知。陈予舒在一家互联网影视公司工作，担任院线电影的执行制片人。这个武汉女孩学的是戏剧影视文学和电影研究，2015年研究生毕业后来到北京，‘干电影的没有别的选择’。过去许多年里，‘北漂’，曾经是一个无须解释的选择。在文化、互联网、金融、大型央国企、高等教育和科研等方面，北京都被认为汇聚了全国最顶级的资源和发展机遇，无数像陈予舒一样的年轻人蜂拥至首都。",
+      "「离开北京的时候，一定程度上内心就已经退休了。」这句话出自陈予舒。端传媒报道标题明确指出：‘10年间年轻人减半，当北京不再吸引年轻人’。",
+      "陈予舒的故事被端传媒作为典型案例呈现。她2015年研究生毕业后从武汉来到北京，从事电影行业；报道未说明她在北京生活了十年，也未说明她‘收拾行李决定离开’的具体时间、方式或去向；未提及‘房价高、生活压力大、机会不再独一无二’等归因性表述；未出现‘反思是否仍是最好选择’‘寻找另一种可能’等推论性内容；所有关于‘年轻人数量减少一半’的断言均来自标题[E001]，原文正文中未提供数据来源、统计口径、时间节点（如起止年份）、具体数值或官方出处。"
+    ],
+    "topics": [
+      "城市与公共",
+      "人口与迁移"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20260727-mainland-when-beijing-is-no-longer-attractive-to-young-people/",
+      "originalTitle": "10年間年輕人減半，當北京不再吸引年輕人",
+      "publishedAt": "Sun, 26 Jul 2026 23:00:21 GMT",
+      "retrievedAt": "2026-07-27T22:24:13.727Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:24:04.212Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-28-wonw5l",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "两位中国数学家同获菲尔兹奖，外媒怎么看",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-28",
+    "intro": "2026年7月23日，中国青年数学家王虹、邓煜在费城举行的国际数学家大会上双双获得菲尔兹奖。这是中国籍数学家首次获得该奖项，也是首次有两位中国学者在同一届国际数学家大会上获奖。",
+    "paragraphs": [
+      "今年夏天，四年一度的国际数学家大会在美国费城举行。会上颁发了被誉为“数学界诺贝尔奖”的菲尔兹奖。两位年轻的中国数学家——35岁的王虹和37岁的邓煜——于7月23日同时获奖。法国总统马克龙亲自致电祝贺王虹，称她“体现了我们研究和教育的卓越水平”，并特别强调，这对“年轻女孩来说，是一个非常棒的榜样”。美国《华盛顿邮报》《量子杂志》、科学新闻网站Live Science等在报道标题中着重强调了王虹的“开创性”成就——她是菲尔兹奖90年历史上第三位女性得主，也是第一位获此殊荣的中国女性。",
+      "邓煜因在偏微分方程和数学物理领域的突破性贡献获奖。英国《新科学家》杂志评价其成果“统一了物理学中两套截然不同的尺度体系”。美国全国公共广播电台（NPR）称，这项研究是数百年来数学家与物理学家依托第一原理推导物理基本定律的一次重大飞跃。邓煜是芝加哥大学历史上第11位菲尔兹奖得主。该校校长保罗·阿利维萨托斯公开表示，邓煜因其数学研究的严谨性和重要性获得了最高认可。“他解决了困扰几代学者的世纪难题，真正体现了致力于知识创造所能实现的目标。我们为他的成就以及他是我们学者社区的一员而感到自豪。”巴基斯坦发行量最大的报纸《战斗报》报道称，两位中国籍学者同获菲尔兹奖，是中国巩固科技强国地位的标志性里程碑事件。",
+      "王虹与邓煜的成长轨迹截然不同。王虹1991年生于广西桂林，成长经历并不符合公众对“数学神童”的传统印象——没有国际数学奥林匹克（IMO）参赛经历，从未入选国家数学奥赛集训队，纯粹凭借对数学的热爱坚持下来。《量子杂志》人物特写称，王虹对数学无比痴迷，会以修女或精英运动员般的奉献精神和纪律投入工作。她会拒绝读书或养狗等耗时的嗜好，但会为朋友、瑜伽和清晨在公园散步留出时间，因为她深知这些有助于缓解数学研究可能带来的压力和自我怀疑。邓煜1989年生于深圳，自幼展露数理天赋；少年时期在数学竞赛和围棋比赛中都表现出色；中学阶段展露数学天赋，17岁代表中国参加IMO，斩获满分金牌并保送北京大学；2010年又拿下全美顶尖普特南数学竞赛最高奖项。",
+      "王虹和邓煜的本科核心教育均完成于北京大学，但博士深造与核心科研成果均诞生于欧美顶尖高校。国际舆论对此呈现多元视角。有媒体报道称，这需要引发中国对本土科研环境、基础研究培育能力的深思。NPR报道称，美国学界需要反思本土日趋紧张对立的学术环境。在全球科技与学术竞争中，美国顶尖高校的基础研究人才培育优势正在弱化。反观中国，持续出台引才政策、搭建科研平台，持续扭转“人才流失”局面，持续优化本土科研生态、补齐人才发展短板。",
+      "多家外媒认为，这一突破彰显了中国数学领域持续扩大的国际影响力，打破了长期以来“中国擅长竞赛数学和应用数学、缺少基础理论原创”的刻板印象。国际数学联盟副主席乌尔丽克·蒂尔曼在接受NPR采访时评价：“菲尔兹奖再次迎来女性获奖者意义重大。王虹的突破充分证明，女性学者完全能在顶尖基础研究领域做出改写学科格局的原创性成果。”两人的获奖是中国顶尖数学人才跻身全球学术前沿的标志性坐标。业界更关注的核心问题是，未来能否让全球顶级数学命题、原创性科研合作、长周期基础性研究，更多扎根中国本土。"
+    ],
+    "topics": [
+      "菲尔兹奖",
+      "中国数学",
+      "外媒解读"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568897.shtm",
+      "originalTitle": "菲尔兹奖中国“双响”，外媒如何解读",
+      "publishedAt": "2026-07-27 09:09",
+      "retrievedAt": "2026-07-27T22:25:21.786Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:25:19.330Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Two Chinese Mathematicians Win Fields Medal",
+      "intro": "Two young Chinese mathematicians have won the Fields Medal, the highest honor in mathematics. It is the first time Chinese citizens have won this prize.",
+      "paragraphs": [
+        "Wang Hong and Deng Yu both won the 2026 Fields Medal on July 23. Wang Hong solved the three-dimensional Kakeya conjecture. Deng Yu made breakthrough contributions in partial differential equations and mathematical physics. Wang Hong is 35 years old. Deng Yu is 37 years old.",
+        "Their paths to success were very different. Wang Hong was born in Guilin, Guangxi, in 1991. She had no International Mathematical Olympiad (IMO) experience and never joined China’s national math training team. She pursued mathematics out of pure passion. Deng Yu was born in Shenzhen in 1989. He competed in the IMO at age 17, won a perfect-score gold medal, and was admitted to Peking University.",
+        "International media widely praised both winners. French President Emmanuel Macron personally called Wang Hong to congratulate her and said she is 'a wonderful role model for young girls'. Multiple outlets stated this double win breaks the long-held stereotype that China excels only in competition math and applied math, not in original foundational research.",
+        "Both Wang Hong and Deng Yu completed their undergraduate studies at Peking University. Wang Hong earned her PhD and conducted core research at institutions in France. Deng Yu pursued advanced study and research in the United States. Some international reports noted this pattern raises questions about China’s capacity to nurture top-tier basic research talent domestically. Deng Yu said he hopes to bring his research achievements back to China so students can access world-leading mathematics without studying abroad."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:27:39.373Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-28-x348v0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "可再生能源有望成为全球最大的发电来源",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-28",
+    "intro": "国际能源署《电力年中更新2026》报告预测，2026年可再生能源发电量将超过煤炭，成为全球最大的发电来源。",
+    "paragraphs": [
+      "先说说世界到底需要多少电。根据国际能源署的《Electricity Mid-Year Update 2026》报告，2026年全球电力需求将增长3.6%，2027年将进一步增长3.8%。全球电力消耗量到2027年将达到30,700太瓦时，相比2025年的28,600太瓦时。",
+      "报告指出，可再生能源有望在2026年超过煤炭成为全球最大的发电来源。2026年可再生能源发电量将增长逾8%，其在全球发电量中的份额将从2025年的33%提高至2027年的37%。",
+      "报告警告，天气相关变化可能会影响电力需求趋势，增加不确定性。2026年强于预期的厄尔尼诺现象可能会增加制冷需求，进一步推高电力需求，同时可能导致部分地区的水力发电和风力发电量下降，增加对其它发电方式的依赖。"
+    ],
+    "topics": [
+      "可再生能源",
+      "电力",
+      "IEA报告"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Solidot 奇客",
+      "region": "mainland",
+      "url": "https://www.solidot.org/story?sid=84937",
+      "originalTitle": "可再生能源有望成为全球最大的发电来源",
+      "publishedAt": "Mon, 27 Jul 2026 22:56:39 +0800",
+      "retrievedAt": "2026-07-27T22:26:35.955Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "discovery",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:26:33.525Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Renewable Energy Set to Become World's Top Power Source",
+      "intro": "A new report says renewable energy could soon beat coal to become the world's biggest source of electricity.",
+      "paragraphs": [
+        "The International Energy Agency's Electricity Mid-Year Update 2026 predicts global electricity demand will grow by 3.6% in 2026.",
+        "Demand will grow by 3.8% in 2027.",
+        "Global electricity consumption will reach 30,700 TWh in 2027.",
+        "That is up from 28,600 TWh in 2025.",
+        "Renewable energy is expected to surpass coal as the largest source of global electricity generation in 2026.",
+        "Renewable generation will grow by more than 8% in 2026.",
+        "Its share of global electricity will rise from 33% in 2025 to 37% in 2027.",
+        "The report warns weather-related changes may increase uncertainty.",
+        "A stronger-than-expected El Niño in 2026 could raise cooling demand.",
+        "That could push electricity demand higher.",
+        "It could also reduce hydropower and wind power output in some regions.",
+        "That would increase reliance on other power sources."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-27T22:28:04.900Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 12,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-07-27-rjib91",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "从北大同学到菲尔兹奖得主——王虹和邓煜的故事",
@@ -2319,80 +2587,6 @@
       "name": "Quanta Magazine",
       "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
       "originalTitle": "Researchers Reveal the Power of 'Quantum Proofs'"
-    },
-    "form": "pick"
-  },
-  {
-    "slug": "2026-07-11-night-train-map",
-    "title": "一张地图上的欧洲夜车复兴",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-11",
-    "intro": "2026 年的欧洲卧铺网络第一次被完整画在了一张地图上:有五条新线开通,也有十条线悄悄消失。",
-    "paragraphs": [
-      "如果你听过我们之前那篇《夜行列车的回归》,这里有一份最新的进展报告。倡导组织把 2026 年欧洲所有在运营的夜间卧铺线路画成了一张可交互的地图,这张网络第一次变得一目了然。",
-      "新增的连接里,最受关注的是 European Sleeper 今年三月底开通的巴黎—布鲁塞尔—柏林线:每周三班,傍晚从巴黎出发,第二天早晨在柏林醒来,填补了此前既有服务停运留下的空缺。据报道,七月中旬起这条线还延伸服务汉堡。波兰国铁也新开了连接布拉格和慕尼黑的线路,中欧的选择多了起来。",
-      "但复兴不是单向的。同一张地图也记录了大约十条线路的消失,其中包括几条颇受欢迎的既有夜车,以及全欧洲最长的夜车线之一——一千四百多公里的斯德哥尔摩到纳尔维克线。",
-      "把新增和消失放在一起看,你会得到一个更真实的图景:夜车的回归不是浪漫叙事的全面胜利,而是一场路线级别的精打细算。哪里的需求撑得起一列每天满员的卧铺车,哪里的夜车就活下来;撑不起的,再有情怀也会停运。",
-      "这也许正是这张地图的价值:它让'绿色出行'从口号变成了可以逐条核对的时刻表。下一次规划欧洲旅行时,值得先打开它看一眼——你和目的地之间,可能正好有一张床。"
-    ],
-    "topics": [
-      "出行与旅行",
-      "气候与能源"
-    ],
-    "source": {
-      "name": "Euronews",
-      "url": "https://www.euronews.com/travel/2026/06/04/love-night-trains-this-new-map-shows-all-the-sleeper-services-running-across-europe-in-2026",
-      "originalTitle": "This new map shows all the sleeper services running across Europe in 2026"
-    },
-    "form": "pick"
-  },
-  {
-    "slug": "2026-07-11-little-red-dots",
-    "title": "宇宙深处的小红点",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-11",
-    "intro": "韦布望远镜看见了数百个此前从未见过的天体。它们很小,很红,出现得太早——而天文学家还不知道它们是什么。",
-    "paragraphs": [
-      "科学史上最有意思的时刻,往往不是'我们找到了答案',而是'我们看见了一个不该存在的东西'。韦布望远镜眼下正处在这样一个时刻。",
-      "自它上线观测以来,天文学家在深空图像里陆续发现了数百个被称为'小红点'的天体:极其紧凑,颜色极红,而且成规模地出现在大爆炸之后约六亿五千万年的宇宙里。在韦布之前,没有任何望远镜见过它们——不是没注意到,是根本看不到。",
-      "麻烦在于,它们不太符合我们已有的剧本。如果把它们解释成早期星系,那它们聚集恒星的速度就快得离谱,早期宇宙似乎不该这么高效;如果把它们解释成正在吞噬物质的黑洞,一些该有的特征又对不上。据 Quanta 杂志报道,天文学家仍在为此争论,几种假说各有拥趸,也各有硬伤。",
-      "值得慢下来体会的,是这种悬而未决本身。韦布升空前,人们期待它'确认'我们对宇宙童年的想象;结果它带回的第一批重要发现之一,却是一群没人预订过的陌生访客。仪器越好,看见的不是越多的答案,而是越多的好问题。",
-      "小红点最终会被归类、被解释、被写进教科书。但在那之前,它们提醒着我们:宇宙从不承诺符合预期。这大概就是把一台机器送到一百五十万公里之外,最值得的回报。"
-    ],
-    "topics": [
-      "航天与宇宙"
-    ],
-    "source": {
-      "name": "Quanta Magazine",
-      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
-      "originalTitle": "Astrophysicists Puzzle Over Webb's New Universe"
-    },
-    "form": "pick"
-  },
-  {
-    "slug": "2026-07-11-renaissance-pedant",
-    "title": "文艺复兴舞台上的书呆子",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-11",
-    "intro": "五百年前的观众也爱看'知识分子出洋相'。舞台上的迂腐学究,是那个时代最锋利的讽刺。",
-    "paragraphs": [
-      "每个时代都有自己嘲笑的对象,而嘲笑什么,恰恰暴露了那个时代在焦虑什么。《公共领域评论》最近刊出的一篇文章,把目光投向了文艺复兴舞台上的一个经典角色:迂腐的学究。",
-      "十六世纪的欧洲剧场里,这是一个观众一看就懂的定型角色:满口拉丁文,引经据典到令人窒息,坚信自己的学识高人一等,却在最基本的人情世故上笨拙可笑。台词里对他的称呼毫不客气——'没用的白痴''驴脑袋'。",
-      "有趣的是这个角色出现的时机。那正是人文主义教育最风光的年代,读古典、习修辞被奉为通往智慧与美德的正道。而舞台偏偏在此时造出了一个反面镜像:一个背下了全部经典、却没有学会做人的人。据文章作者的研究,这种讽刺瞄准的正是人文主义者的博学姿态和高远理想——知识成了炫耀身份的道具,而非理解世界的工具。",
-      "这面镜子照到今天依然清晰。术语的堆砌、引用的轰炸、'你连这个都没读过'的优越感——迂腐学究从未退场,只是换了舞台。而五百年前的观众已经用笑声投过票了:他们分得清博学和智慧的区别。",
-      "所以这个老角色真正的遗产,也许是一个朴素的提醒:学问的意义在于让人更明白,而不是让人显得更高级。谁忘了这一点,谁就会成为下一个被写进喜剧的人。"
-    ],
-    "topics": [
-      "历史",
-      "阅读与写作"
-    ],
-    "source": {
-      "name": "The Public Domain Review",
-      "url": "https://publicdomainreview.org/essays/worthless-idiot-donkey-head-parodies-of-pedantry-on-the-renaissance-stage/",
-      "originalTitle": "\"Worthless Idiot, Donkey Head\": Parodies of Pedantry on the Renaissance Stage"
     },
     "form": "pick"
   }
