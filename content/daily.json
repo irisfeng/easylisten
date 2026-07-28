@@ -1,5 +1,320 @@
 [
   {
+    "slug": "2026-07-29-analyze-this-how-sea-slugs-get-their-flashy-colo",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "分析：海蛞蝓如何获得鲜艳的颜色",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "海蛞蝓亮丽的颜色从哪来？答案可能藏在它们的食物里。",
+    "paragraphs": [
+      "海蛞蝓，也叫海兔，是海洋里最色彩缤纷的动物之一。它们有的像霓虹灯，有的像宝石，这些鲜艳的颜色是怎么来的呢？",
+      "科学家发现，很多海蛞蝓的颜色并不是自己产生的，而是从食物中获取的。它们吃一些含有色素的藻类或者水螅体，然后把色素保留在自己的身体里，甚至转移到皮肤中。",
+      "有些海蛞蝓还能把吃进来的色素稍加改造，变成自己独特的颜色。这就像把颜料从食物里“偷”出来，再用到自己的身上。",
+      "不过，颜色不只是为了好看，还能帮助海蛞蝓警告捕食者“我有毒”或者伪装自己。每一种颜色背后都藏着生存的智慧。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/how-sea-slugs-get-bright-colors",
+      "originalTitle": "Analyze This: How sea slugs get their flashy colors",
+      "publishedAt": "Tue, 28 Jul 2026 10:30:00 +0000",
+      "retrievedAt": "2026-07-28T22:21:15.234Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:21:13.064Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-29/2026-07-29-analyze-this-how-sea-slugs-get-their-flashy-colo.webp",
+      "alt": "A translucent sea slug with muted colors on a dark textured background",
+      "caption": "海蛞蝓的色素来自食物",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-29-52dcld",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国官方要求国有文物管理机构提供主动公开、授权使用等服务",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "国家文物局相关要求明确，国有文物管理机构应提供主动公开、授权使用等服务。",
+    "paragraphs": [
+      "国家文物局近日提出要求，国有文物管理机构应当提供主动公开、授权使用等服务。",
+      "过去，许多文物数字资源获取渠道有限；新规强调国有文物单位应主动公开经数字化采集的文物信息。",
+      "文件明确提出‘授权使用’机制，允许公众和机构在授权范围内合法使用文物数字资源。",
+      "规定还鼓励国有文物管理机构开发文化创意产品。",
+      "同时强调，使用文物资源须尊重其完整性，不得歪曲、丑化；授权协议需明确使用范围、期限与方式。",
+      "这一要求旨在推动文物数字资源规范开放与合理利用。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-28/10668198.shtml",
+      "originalTitle": "中国官方要求国有文物管理机构提供主动公开、授权使用等服务",
+      "publishedAt": "Tue, 28 Jul 2026 22:03:25 +0800",
+      "retrievedAt": "2026-07-28T22:21:46.347Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:21:44.729Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-29-d6xmod",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "气候灾害加剧，威胁生命安全并重创各国经济",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "联合国气候变化框架公约执行秘书斯蒂尔周二发表声明表示，全球各地由气候变化驱动的灾害正在加剧，威胁生命安全并重创各国经济。",
+    "paragraphs": [
+      "联合国气候变化框架公约执行秘书斯蒂尔周二发表声明表示，全球范围内，气候驱动型灾害正达到“噩梦般”的程度，人类持续依赖燃烧煤炭、石油和天然气所付出的代价不断攀升。",
+      "他说，法国、西班牙及欧洲其他地区近期发生创纪录山火。在此之前，当地经历了导致大范围干旱的严重热浪，山火迫使大批民众撤离，并对地区和国家经济造成严重影响。北非部分地区气温接近49摄氏度，对民众生命和生计构成严重威胁，并给医院和电力系统带来巨大压力；智利发生致命风暴，造成房屋损毁和人员死亡；日本持续刷新高温纪录，目前正经历有记录以来持续时间最长的40摄氏度高温天气。",
+      "斯蒂尔表示，在地球持续快速变暖的背景下，人类向清洁能源转型以及森林保护的步伐仍然过于缓慢，不断升级的气候灾害已成为数十亿人面临的现实。他强调，科学结论已经十分明确：人类大量燃烧煤炭、石油和天然气导致全球变暖，使持续性热浪、严重洪灾和强烈风暴变得更加频繁、更加强烈，并造成更加严重的损失。",
+      "斯蒂尔表示，应对气候危机所需采取的行动同样明确，包括加快淘汰煤炭、石油和天然气，大规模发展可再生能源，并加强对受气候变化影响最严重人群的保护。他指出，许多处于气候危机前线的脆弱国家需要获得支持，才能以当前危机所要求的速度和规模采取行动。",
+      "他警告说，“气候警报正从四面八方传来，响彻云霄”。"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/07/1142555",
+      "originalTitle": "联合国称：气候灾害加剧 威胁生命安全并重创各国经济",
+      "publishedAt": "Tue, 28 Jul 2026 12:00:00 +0000",
+      "retrievedAt": "2026-07-28T22:22:16.507Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:22:14.758Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "裸体主义者、和平主义者和蹭游者：一群古怪的人守护着世界语的梦想",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "一位音乐人偶然想起少年时听说过的世界语，好奇之下学习并参加全球大会，发现这门人造语言背后藏着一群认真又古怪的人。",
+    "paragraphs": [
+      "十几年前，我十六岁，在2000年代末，朋友肯扬通过AOL即时消息问我有没有听说过世界语。他说，这是19世纪末一位波兰犹太裔眼科医生柴门霍夫（L. L. Zamenhof）发明的语言，目标是创造一种极易掌握的语言，成为全世界人的共同第二语言；从相互理解出发，世界和平终将实现。当时互联网已开启全球连接新纪元，他相信世界语可能迎来复兴。而我正处在社交觉醒期，靠朋友的朋友收留四处旅行演出，也在尝试搭便车和跳货运火车——世界语在我眼中，就像另一个拒绝分裂力量的松散社群。但那时我就觉得它的目标已显多余：互联网已赋予我跨越距离与差异沟通的新工具。后来，早期互联网的集体乐观消散，我便忘了世界语。",
+      "几年前，我买了台短波收音机，发现中国广播电台（China Radio International）和梵蒂冈（直至近年）仍在定期播出世界语节目。受此触动，我加入了一千多万人的行列——他们自十年前世界语上线多邻国（Duolingo）平台后开始学习。我迅速登上App排行榜，朗读听起来像‘梦境扭曲版西班牙语’的句子：‘那个工人是谁？’‘小偷有罪吗？’‘警察帮我们吗？’也有理想化表达：‘世界上战争太多了’‘学世界语，和全世界对话’。世界语者常被视作怪人：长发青年、火车迷、裸体主义者、巴西招魂论者（相信世界语是更和平的灵界语言，由上帝经柴门霍夫传至人间）。但世界语曾是全球政治力量：二战前，它在国际劳工、反殖民与无政府主义运动中影响深远。今天的支持者远非天真或古怪——包括欧洲社会民主党人、老年无政府主义者、中国共产党人、中非青年和平主义者、乌克兰独立倡导者、同性权利活动家、圣经译者、律师和围棋爱好者。",
+      "去年夏天，我注册参加第110届世界语大会——由世界语协会（Universal Esperanto Association）主办，在捷克布尔诺的孟德尔大学举行。八天里，一千多名付费参会者来自六十多个国家，全程只用世界语交流、讨论语言现状，并度过一系列出人意料的深夜狂欢。开幕当晚，‘运动展’（Movada Foiro）拉开序幕：天主教世界语者分发祈祷卡；泛欧组织推广‘让世界语成为欧盟官方语言’；国际世界语铁路工人联合会（IFEF）摊位人满为患；世界语医生、盲人世界语者联盟、世界语非吸烟者协会、乌克兰世界语协会、国际世界语自然主义者组织并肩而立——后者派发印有健美裸体照片的传单，代表热情邀我参加‘免费游泳’（senpaga！）。",
+      "我学了仅几个月，听讲座仍吃力——比如说不出‘粗野主义’（brutalism）这个词。但在‘运动展’上，我靠一句‘Mi estas komencanto. Bonvolu paroli malrapide.’（我是初学者，请说慢点）听懂约一半内容，之后理解明显提升。世界语设计高度规则化：名词以-o结尾，形容词以-a结尾，副词以-e结尾，动词不定式以-i结尾（现在时加-as，过去时-is，将来时-os）；重音恒在倒数第二音节；词汇如数学公式：词根+数十个常用词缀即可生成新词。例如‘sano’（健康），加否定前缀‘mal-’成‘malsano’（疾病），再加指人后缀‘-ulo’得‘malsanulo’（病人）。掌握不到500个基础词根与词缀，就能理解约95%的日常表达。",
+      "世界语的发展由世界语学院（Akademio de Esperanto）严格管控——该机构成立于1905年第一届世界语大会（法国布洛涅），使命是‘维护并保护世界语基本原则’并‘规范其发展’。因人造语言若放任方言与俚语滋生，极易分裂为全新自然语言。因此，网络热词如‘rizz’或‘six seven’绝不可进入世界语。学院由45名语言学家、科学家与哲学家组成，全年接收全球使用者咨询，定期发布正式语言变更建议。",
+      "大会讲座全用世界语进行，主题远超语言本身：太空旅行史、詹姆斯·韦布望远镜、行为主义与粗野主义建筑的交集、中国春节。我白天听课，深夜畅谈，逐渐放下昔日的讥诮（cinikismo）。世界语或许永远成不了全球通用语，但这一百多年坚持证明：人们不只是在学一门语言，更是在共建一个超越国界的共同体。今天的世界语者立场各异——欧洲社会民主派、中国共产党人、乌克兰独立支持者——却选择用这门‘谁也无法占据优势’的语言，耐心交谈、彼此理解。也许，这就是世界语所能带来的最实在的和平。"
+    ],
+    "topics": [
+      "世界语",
+      "理想主义",
+      "语言运动"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/28/nudists-peaceniks-freeloading-travellers-esperanto",
+      "originalTitle": "Nudists, peaceniks and freeloading travellers: the people keeping the Esperanto dream alive",
+      "publishedAt": "Tue, 28 Jul 2026 04:00:28 GMT",
+      "retrievedAt": "2026-07-28T22:23:10.985Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:23:04.682Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The People Keeping Esperanto Alive",
+      "intro": "Esperanto is a made-up language created in the late 19th century. A diverse group of people still believe in its dream of mutual understanding.",
+      "paragraphs": [
+        "A friend named Kenyon told me about Esperanto when I was 16. He said it was invented by a Polish-Jewish ophthalmologist named L. L. Zamenhof. Zamenhof aimed to create a language so easy to learn that it would be adopted as a shared second tongue by people the world over. From a position of mutual understanding, world peace would surely follow.",
+        "Years later, I got a shortwave radio. I learned that China Radio International and the Vatican ran regular shortwave broadcasts in Esperanto. The Vatican’s broadcasts ended recently. I started learning on Duolingo. The app taught sentences like 'Who is that worker?', 'Is the thief guilty?', and 'Do the police help us?'. Many enthusiasts are eccentric: nudists, train enthusiasts, and Brazilian spiritists. They believe Esperanto is the language of the spirit world. They also believe it was sent to Earth from God, via Zamenhof, to bring about universal harmony.",
+        "Esperanto was once a force in global politics. Before facing heavy persecution during the second world war, it gained serious traction in international labour, anticolonial and anarchist movements. Today’s adherents include European social democrats, elder anarchists, Chinese communists, central African youth pacifists, and Ukrainian-independence advocates. Slovakian educator Petro Baláž said: 'If our aim is only to buy a hamburger, then [those tools] are enough.' He added: 'But it’s something totally different ... to speak about the meaning of life, to travel through the world, to have really deep conversations.'",
+        "I attended the 110th annual World Esperanto Congress in Brno, Czechia. More than 1,000 paying attenders from more than 60 countries gathered at Mendel University. We spoke nothing but Esperanto for eight days. At the Movement Fair, Catholic Esperantists handed out prayer cards. The International Federation of Esperanto Railwaymen drew such a crowd that I had to stand on tiptoe to catch a glimpse. The International Esperanto Naturist Organisation showered passersby with pamphlets featuring stock photos of naked bodies. One representative invited me to a free swimming excursion. She said 'Senpaga!'",
+        "Esperanto is designed with formulaic, surgical clarity. Its rules have few exceptions. The suffix -o marks nouns. The suffix -a marks adjectives. The suffix -e marks adverbs. The suffix -i marks verbs. Verbs add -as for present tense, -is for past, -os for future. Stress is always on the second-to-last syllable. Words build from roots and affixes. For example, 'sano' means health. 'Mal-' means opposite. 'Ulo' means person. So 'malsanulo' means sick person or patient. The Akademio de Esperanto governs the language. It is a panel of 45 linguists, scientists, philosophers and others. Its mandate is to preserve and protect the fundamental principles of Esperanto. It also controls the language’s development."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:25:53.166Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-07-29-vge96o",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "化‘敌’为友的思路：科学家破解金属强与韧难以兼得的难题",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "一位科学家大胆挑战传统认知，将金属中长期被视为‘天敌’的氧元素转化为提升性能的关键‘朋友’，成功让高熵合金既显著增强又保持良好延展性。",
+    "paragraphs": [
+      "你见过金属材料吗？飞机、桥梁、汽车……它们都由金属制成。但金属有一个长期存在的难题：强度越高，延展性越差，越容易断裂；延展性好，强度又往往不足。这种强度与延展性之间的矛盾，曾被视作难以调和的‘天平两端’。",
+      "北京科技大学吕昭平教授和团队却另辟蹊径，提出‘化“敌”为友’的思路。在传统金属材料研究中，氧元素一直被视为金属的‘天敌’——它虽能提高硬度，却会极大削弱延展性，使金属变得像陶瓷一样易碎。然而，团队以高熵合金为模型，在熔炼过程中主动引入含量高达2%的氧元素。这一尝试源于一次‘炉子漏气’导致的意外污染实验。吕昭平没有废弃这些‘不合格样品’，而是追问：为什么这次失败反而带来了更好结果？",
+      "他和团队花了三年时间，拍摄了几千张电子显微镜照片，反复排除干扰因素，最终在原子尺度上揭示了机制：氧原子并未形成破坏性的脆性氧化物，而是借助高熵合金中的化学短程有序效应，与富含锆、钛的团簇结合，形成纳米尺度的‘有序氧复合体’。这些复合体像一枚枚‘钉子’钉住位错，使塑性流变更均匀。实验表明，该高熵合金抗拉强度提高48.5%，同时保持良好延展性，破解了金属材料强度与延展性难以兼得的难题。",
+      "这一成果成为吕昭平团队获得2023年度国家自然科学奖二等奖的核心贡献。它也催生了更深层的科学思想——‘共轭材料学’：打破性能之间绝对割裂与对立，在高温、高应力、强辐照等多因素耦合的真实服役环境中，追求多性能、多机制的动态协同。吕昭平用‘划皮划艇’作比喻：风和日丽时节奏一致即可；狂风暴雨中则需依水势风向动态配合——材料设计亦如此。",
+      "吕昭平的科研之路，始终与国家自然科学基金紧密相连：2007年回国当年获青年科学基金项目（A类）资助；2020年获‘高性能金属材料’创新研究群体项目资助；项目期满评估成绩优异。他坦言：‘科学基金最可贵之处，在于它为青年科研人员提供了一个凭实力说话、靠成果立身的成长平台。’",
+      "从‘炉子漏气’的偶然发现，到原子尺度的机制突破；从单点性能优化，到面向大国重器真实服役环境的系统性思考——吕昭平团队的工作印证着：基础研究的价值，正在于回归科学本源，敢于质疑定论，在长期坚守中淬炼真正支撑‘钢筋铁骨’的原创力量。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568895.shtm",
+      "originalTitle": "深耕基础研究，为大国重器淬炼“钢筋铁骨”",
+      "publishedAt": "2026-07-27 08:24",
+      "retrievedAt": "2026-07-28T22:24:07.016Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:24:02.376Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Turning Problems into Strength: The Science of Super Metals",
+      "intro": "A Chinese scientist turned a common enemy into an ally to create stronger, tougher metals.",
+      "paragraphs": [
+        "Professor Lü Zhaoping is a materials scientist. He leads a team at the University of Science and Technology Beijing. He works on high-performance metal materials for major national equipment.",
+        "Years ago, Lü worked in the United States. He had a stable job at Oak Ridge National Laboratory. He had made breakthrough achievements in amorphous steel and gained international recognition. But he felt a lack of belonging overseas. He said, 'China is my home.' When Beijing University of Science and Technology invited him, he called his wife and asked, 'Shall we return?' She replied, 'I'll follow your decision.' The decision took only 36 seconds.",
+        "Back in China, Lü received support from the National Natural Science Foundation's Young Scientists Fund (Class A). This helped him launch independent research. He focused on high-performance metal materials. Metals are among the oldest and most mature materials. Yet achieving both high strength and good ductility has long been a fundamental challenge. Traditionally, higher strength means lower ductility — the material becomes brittle.",
+        "Oxygen has long been viewed as the 'archenemy' of metals. It can increase hardness but severely weakens ductility, making metals ceramic-like and fragile. Lü's team adopted reverse thinking. They introduced up to 2% oxygen into a high-entropy alloy. Surprisingly, oxygen did not form destructive brittle oxides. Instead, aided by chemical short-range ordering, oxygen atoms bonded with zirconium- and titanium-rich clusters to form nanoscale 'ordered oxygen complexes.' These acted like 'nails' pinning dislocations, enabling more uniform plastic flow. The alloy’s tensile strength increased by 48.5%, while maintaining good ductility — solving the long-standing strength–ductility trade-off. This breakthrough was the core contribution to their 2023 National Natural Science Award Second Prize.",
+        "Lü's team also studies radiation-tolerant materials for advanced nuclear energy systems. Under high temperature and high-dose irradiation, conventional materials suffer void swelling and performance failure. Traditional strengthening relies on interfaces to absorb radiation defects, but reinforcing particles dissolve irreversibly under harsh conditions. Lü proposed a 'low-misfit, strong-ordering' design strategy. Reinforcing particles remain stable and reversible — dissolving into the matrix under irradiation and re-precipitating when irradiation eases — like a gourd sinking and floating in water. This dynamic 'dissolve–re-precipitate' process maintains particle density while eliminating defects.",
+        "Lü further developed the concept of 'conjugate materials science.' It breaks absolute opposition between properties and emphasizes dynamic synergy among multiple factors — such as high temperature, stress, and radiation — in real service environments. He compares it to kayaking: in calm weather, synchronized strokes work well; in storms, paddlers must adjust rhythm and coordination with wind and waves. Material design must enable multi-performance, multi-mechanism coexistence and adaptation.",
+        "Lü believes scientific funding should provide fair, stable, and long-term support for young researchers. He says foundational research requires patience, tolerance for trial and error, and freedom to explore. One breakthrough came from a failed experiment — a furnace leak that accidentally introduced oxygen. Rather than discarding the contaminated sample, Lü pursued it. 'Often, unexpected good things hide in bad results,' he said. His team spent three years analyzing thousands of electron microscope images to reveal the atomic-scale mechanism."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:25:06.285Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 7,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-29/2026-07-29-vge96o.webp",
+      "alt": "Abstract metallic lattice with a glowing atom",
+      "caption": "氧元素增强金属性能",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-29-duv",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国开始小批量生产DUV光刻机",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-29",
+    "intro": "中国在芯片制造关键设备上取得新进展，一家上海企业已启动浸没式深紫外（DUV）光刻机的小规模批量生产。",
+    "paragraphs": [
+      "本周一，据科技媒体The Information报道，一家总部位于上海的企业已启动浸没式深紫外（DUV）光刻机的小规模批量生产，预计今年内向中芯国际、华虹半导体及长鑫存储等主要芯片制造商交付首批约5台设备。",
+      "该公司名为上海爱晟纳电子科技集团，是一家国营企业，2023年8月在上海成立，注册资本高达70亿元人民币，主要股东为上海电气控股集团及上海国际信托旗下子公司等国有资本。",
+      "这款中国产光刻机主打28纳米芯片生产，还可满足7纳米级别芯片的制造需求。2027年产量计划提升至约20台。",
+      "路透社周二报道了这一消息；该消息也见于Slashdot和德国之声等媒体。"
+    ],
+    "topics": [
+      "工程与制造",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Solidot 奇客",
+      "region": "mainland",
+      "url": "https://www.solidot.org/story?sid=84947",
+      "originalTitle": "中国开始量产 DUV 光刻机",
+      "publishedAt": "Tue, 28 Jul 2026 23:22:24 +0800",
+      "retrievedAt": "2026-07-28T22:24:39.514Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "discovery",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-28T22:24:35.189Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-28-a-new-way-that-a-cow-s-inner-world-shapes-earth-",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "新发现：牛胃里的微生物如何影响地球大气",
@@ -2444,150 +2759,5 @@
       "url": "https://www.solidot.org/story?sid=84837",
       "originalTitle": "纽约州禁止建造大型数据中心一年"
     }
-  },
-  {
-    "slug": "2026-07-16-music-influencers-are-getting-paid-to-promote-so",
-    "title": "音乐推广的隐秘推手：不透明的付费宣传",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-16",
-    "intro": "社交媒体能让一首歌一夜爆红，甚至冲上流行榜，但你可能不知道，部分网红正收钱推广歌曲却不告诉你。",
-    "paragraphs": [
-      "你有没有在刷短视频或社交媒体时，突然被一首歌洗脑，然后发现它已经冲上了各大音乐榜单？这种‘一夜爆红’的现象，现在越来越常见。但你可能没意识到，背后可能有一只看不见的手——付费推广。",
-      "据NPR音乐频道报道，一些社交媒体上的音乐类网红，正在收钱推广歌曲，但他们没有向粉丝披露这笔交易。换句话说，你以为是朋友推荐的好歌，实际上可能是广告。这种隐藏的付费推广，正在悄悄影响你的音乐品味和流行榜单。",
-      "报道指出，这种现象并不奇怪。在社交媒体时代，一首歌能否走红，很大程度上取决于网红的推荐。品牌和唱片公司看中了这一点，开始付费请网红推广歌曲。问题在于，很多网红没有按照联邦贸易委员会的规定，明确标注‘广告’或‘赞助’。",
-      "对于听众来说，这可能会造成误导。你可能会因为相信网红的推荐而下载或播放一首歌，却不知道这背后是商业交易。更严重的是，这种不透明的推广可能扭曲流行音乐市场，让真正有才华但没钱推广的艺人更难被发现。",
-      "目前，监管机构已经开始关注这一问题。但与此同时，作为听众，我们或许需要更警惕：下次再听到一首‘爆款’时，不妨想一想，它真的是因为好听才走红的吗？还是因为有人付了钱？"
-    ],
-    "topics": [
-      "流行与网络文化"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Music",
-      "url": "https://www.npr.org/2026/07/13/nx-s1-5849926/influencers-paid-music-promotion",
-      "originalTitle": "Music influencers are getting paid to promote songs — and they're not telling you"
-    }
-  },
-  {
-    "slug": "2026-07-15-why-am-i-left-handed",
-    "title": "左手之迷：10%人类的隐形差异",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-15",
-    "intro": "为什么有人是左撇子？这个看似简单的问题，至今让多个学科感到困惑。",
-    "paragraphs": [
-      "你大概知道，大约每十个人里就有一个是左撇子。这个比例在人类中非常稳定，跨越文化和时代。但你可能没想过，为什么偏偏是这10%的人？为什么不是一半一半？这个看似简单的问题，至今让神经科学、遗传学和进化生物学都感到困惑。",
-      "左撇子并不是一个简单的偏好。它反映的是大脑的偏侧化——左右半球分工不同。大多数人的语言中枢在左脑，而控制右手的是左脑，所以右撇子更常见。但左撇子的大脑组织方式却有所不同，他们中很大一部分人的语言中枢分布在右脑，甚至两侧。这种差异是隐形的，除非你观察他们写字或吃饭。",
-      "科学家们一直在寻找左撇子的遗传密码。过去的研究发现，左撇子有一定的家族聚集性，但并非简单的孟德尔遗传。一些基因，比如LRRTM1，被认为与左撇子有关，但它们的解释力有限。环境因素也在起作用，比如胎儿期睾酮水平的影响。但至今没有一个单一的模型能完全解释左撇子的起源。",
-      "从进化角度看，左撇子的存在可能是一种平衡策略。在对抗性运动中，比如击剑或拳击，左撇子因为少见而拥有出其不意的优势。但在需要协作的社会中，工具和设施大多为右撇子设计，左撇子反而面临不便。这种“负频率依赖选择”可能让左撇子比例稳定在10%左右——太多会失去优势，太少又会重新出现。",
-      "所以，当你下次看到有人用左手写字，不妨想一想：这不仅仅是习惯，而是大脑组织方式的一种独特标记。左撇子之谜，至今仍是科学界一个迷人而尚未解开的谜题。"
-    ],
-    "topics": [
-      "脑与认知"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "url": "https://www.quantamagazine.org/why-am-i-left-handed-20260713/",
-      "originalTitle": "Why Am I Left-Handed?"
-    }
-  },
-  {
-    "slug": "2026-07-15-the-looting-of-science-fiction",
-    "title": "科技巨头如何劫持了科幻",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-15",
-    "intro": "硅谷大佬们总爱说科幻给了他们灵感，但事实上，他们只是把自己的政治野心，嫁接在了那些关于美好未来的故事上。",
-    "paragraphs": [
-      "科技巨头们总喜欢把科幻小说挂在嘴边。埃隆·马斯克说自己受《银河系漫游指南》启发，杰夫·贝佐斯从小迷恋《星际迷航》，彼得·蒂尔更是《指环王》的狂热读者。他们想让公众相信，自己的宏伟愿景——无论是移民火星、永生不死，还是用算法取代政府——都源于那些充满想象力的故事。但学者阿里·里扎·塔什卡莱在《Aeon》杂志上撰文指出，这不过是一种精心包装的说辞。",
-      "塔什卡莱认为，硅谷真正做的，不是继承科幻的精神，而是劫持了它。科幻文学的核心传统是批判现实、想象另一种可能——从《美丽新世界》到《1984》，它们都在警告我们技术可能带来的灾难。但科技巨头们只挑选那些符合他们叙事的故事，比如《星际迷航》里乐观的星际联邦，或者《黑客帝国》中“突破束缚”的个人英雄主义。他们把这些故事简化成一种技术乌托邦：只要技术足够先进，所有社会问题都会迎刃而解。",
-      "这种简化背后隐藏着一种政治立场。当马斯克说要在火星上建立“直接民主”时，他实际上是在兜售一种去政府化的愿景——技术精英应该拥有无限权力，而传统政治制度只会拖累进步。塔什卡莱指出，这种思路与科幻中的“技术解决方案主义”一脉相承：所有问题都被视为工程问题，而工程师是唯一能解决它们的人。但现实中的复杂问题——比如贫富差距、气候变化——从来不是单靠技术就能解决的。",
-      "更讽刺的是，硅谷在“借用”科幻的同时，也在扼杀科幻的多样性。真正的科幻应该容纳不同的声音：女性、有色人种、非西方视角。但科技行业的主流叙事仍然是白人男性天才拯救世界的故事。塔什卡莱认为，这不是什么巧合——它反映了一种权力结构：谁掌握资本，谁就能定义什么是“未来”。而那些真正具有颠覆性的科幻——比如厄休拉·勒古恩的《黑暗的左手》，或者姜峯楠的《降临》——恰恰被忽略了，因为它们不提供简单的技术救赎。",
-      "所以，下次再听到哪位CEO说“我们正在实现科幻的梦想”时，不妨多问一句：谁的梦想？牺牲了谁的未来？科幻本来是关于可能性的文学，但在硅谷手里，它变成了一部只有一种结局的剧本。而真正的想象力，或许恰恰在于拒绝被这种单一大叙事所收编。"
-    ],
-    "topics": [
-      "哲学与思想"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Aeon Essays",
-      "url": "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem",
-      "originalTitle": "The looting of science fiction"
-    }
-  },
-  {
-    "slug": "2026-07-15-solution-to-feynman-039-s-reverse-sprinkler-puzz",
-    "title": "费曼反喷灌器难题终获解答，新理论也适用于“傻喷灌器”",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-15",
-    "intro": "一项新研究不仅验证了2024年提出的动量通量理论，还发现它同样能解释一种看似无厘头的喷灌器现象。",
-    "paragraphs": [
-      "物理学家理查德·费曼曾提出一个经典谜题：如果把一个旋转喷灌器放在水里，让水从喷口吸入而不是喷出，它会朝哪个方向转？这个问题看似简单，却困扰了科学界几十年。直到2024年，科学家提出了“动量通量理论”来解释这个现象。而最近一项新研究证实了这一理论，并且发现它还能解释另一种被称为“傻喷灌器”的装置。",
-      "所谓“傻喷灌器”，是一种设计得极其简单的喷灌器——它的喷口是直的，没有弯曲的臂。按照直觉，它根本不应该转动。但实验表明，它确实会缓慢旋转。这看起来像个玩笑，但背后却隐藏着流体力学的基本原理。",
-      "2024年的动量通量理论认为，决定喷灌器旋转方向的关键，不是水流本身的动量，而是水流在喷口处产生的角动量通量。简单来说，就是水在进出喷口时，对喷灌器施加了一个扭矩。对于费曼反喷灌器，水被吸入时，这个扭矩的方向与普通喷灌器相反，因此它会朝相反方向旋转。",
-      "新研究通过计算机模拟和实验验证，证明这个理论同样适用于“傻喷灌器”。研究者发现，即使喷口是直的，水流在喷口内部也会产生微小的偏转，从而产生角动量通量，推动喷灌器旋转。这一发现不仅解决了两个看似无关的谜题，还深化了我们对流体与固体相互作用的理解。",
-      "这个结果的意义不仅在于解答了一个经典谜题。据报道，研究者认为，相关原理可能应用于微型机器人或生物医学设备的设计——比如利用流体驱动微小装置旋转。一个有趣的物理谜题，最终可能带来实用的技术突破。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Ars Technica Science",
-      "url": "https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers/",
-      "originalTitle": "Solution to Feynman&#039;s reverse sprinkler puzzle also applies to \"silly sprinklers\""
-    }
-  },
-  {
-    "slug": "2026-07-15-pythons-extreme-biology-may-hold-clues-for-treat",
-    "title": "蟒蛇的极端生物学，或能解开人类疾病之谜",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-15",
-    "intro": "这些蛇可以数月不吃东西，心脏大小能伸缩，代谢瞬间重启——它们的秘密，或许就在我们体内。",
-    "paragraphs": [
-      "蟒蛇的生物学堪称极端。它们可以连续几个月不进食，一旦捕到猎物，心脏和器官会迅速增大以应对消化负担，之后又缩回原状。这种在代谢停滞与高速运转之间自如切换的能力，让科学家着迷。",
-      "人类在面对长期饥饿、心脏病或代谢疾病时，往往会出现器官损伤或功能紊乱。而蟒蛇却能在不进食期间维持健康，并在进食后迅速修复组织、重启代谢。研究者认为，理解这些机制，可能为治疗人类的心脏衰竭、代谢综合征甚至器官萎缩提供新思路。",
-      "例如，蟒蛇的心脏在禁食时会缩小，但不会失去功能；重新进食后，心脏细胞会快速增殖，使器官恢复原尺寸。这种可控的细胞生长，若能通过药物模拟，或能帮助修复人类受损的心肌。",
-      "当然，从蟒蛇到人类还有很长的路。但科学家已经在研究蛇的基因和蛋白质如何调控这一过程。据报道，研究者正试图识别那些在禁食和进食阶段被激活的关键分子通路，并探索是否能用类似方法干预人类疾病。",
-      "蟒蛇的极端，或许正是我们的良药。"
-    ],
-    "topics": [
-      "健康与医学"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "url": "https://www.npr.org/2026/07/13/nx-s1-5887668/pythons-metabolism-digestion-human-disease-treatment",
-      "originalTitle": "Pythons' extreme biology may hold clues for treating human disease"
-    }
-  },
-  {
-    "slug": "2026-07-11-quantum-proofs",
-    "title": "只有量子才能验证的答案",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-11",
-    "intro": "一个悬置二十多年的问题刚刚有了答案:有些证明,天生就是量子的。",
-    "paragraphs": [
-      "先从一个日常直觉说起。要说服别人相信一件事,你得拿出证据,而对方要能核验这份证据。数学家把这件事抽象成了'证明与验证':证明可以很难找,但一旦摆在面前,验证它应该是相对容易的。",
-      "量子计算进场之后,这个古老的框架里多了一个新问题:如果验证者手里有一台量子计算机,那么证据是一段普通的文字,和证据本身就是一种量子态,这两者的能力一样吗?换句话说,量子证明是否真的比经典证明更强?这个问题在量子复杂性理论里悬置了二十多年。",
-      "据 Quanta 杂志报道,四位研究者在今年六月的计算理论研讨会上凭一篇获得最佳论文奖的工作,给出了一个突破:他们找到了一个特殊的计算问题,它的答案确实需要量子形式的证明才能被有效核验——用任何经典文字来写这份证据,都不够用。",
-      "这听起来抽象,但它触碰的是一个很根本的边界:信息用什么形态存在,决定了它能说服谁。有些知识可以被写下来、打印出来、贴在墙上;而现在我们知道,至少在理论世界里,存在另一类知识,它只能以量子态的形式被递交和确认。",
-      "对普通人来说,这不会改变明天的生活。但它划出了经典世界与量子世界之间又一道清晰的分界线——而每一次这样的分界被划清,我们对'计算到底能做什么'的理解,就又深了一层。"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "source": {
-      "name": "Quanta Magazine",
-      "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
-      "originalTitle": "Researchers Reveal the Power of 'Quantum Proofs'"
-    },
-    "form": "pick"
   }
 ]
