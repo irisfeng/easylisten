@@ -164,7 +164,13 @@
     "2026-07-29-vge96o-en",
     "2026-07-29-duv",
     "2026-07-29-duv-m",
-    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en"
+    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en",
+    "2026-07-30-scientists-say-fjord",
+    "2026-07-30-scientists-say-fjord-m",
+    "2026-07-30-68qyna",
+    "2026-07-30-68qyna-en"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -3521,6 +3527,109 @@
       250.888,
       257.715,
       260.652
+    ],
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r": [
+      0,
+      4.899,
+      12.109,
+      16.498,
+      27.411,
+      40.414,
+      60.342,
+      75.226,
+      89.727,
+      107.486,
+      114.649,
+      131.158,
+      140.876
+    ],
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": [
+      0,
+      3.504,
+      6.528,
+      11.592,
+      15.336,
+      19.104,
+      24.984,
+      30.24,
+      38.688,
+      43.8,
+      50.808,
+      55.44,
+      62.736,
+      69.312,
+      75.72,
+      79.104,
+      93.144,
+      99.912,
+      102.216,
+      106.296,
+      111.912,
+      117.888,
+      127.68,
+      132.816,
+      137.496
+    ],
+    "2026-07-30-scientists-say-fjord": [
+      0,
+      4.644,
+      6.304,
+      10.101,
+      13.595,
+      17.647,
+      27.33,
+      34.493,
+      47.462,
+      54.579,
+      58.538,
+      68.093,
+      73.805
+    ],
+    "2026-07-30-scientists-say-fjord-m": [
+      0,
+      4.214,
+      5.828,
+      9.625,
+      12.26,
+      16.521,
+      24.787,
+      31.01,
+      43.166,
+      49.517,
+      53.859,
+      61.533,
+      66.351
+    ],
+    "2026-07-30-68qyna": [
+      0,
+      15.395,
+      18.936,
+      31.73,
+      37.187,
+      45.627,
+      59.571
+    ],
+    "2026-07-30-68qyna-en": [
+      0,
+      4.2,
+      12.072,
+      15.264,
+      17.976,
+      20.376,
+      24.024,
+      29.544,
+      34.224,
+      39.192,
+      43.08,
+      48,
+      51.024,
+      55.824,
+      62.952,
+      65.904,
+      70.752,
+      75.48,
+      79.032,
+      87.744
     ]
   },
   "fullAudioVersion": 4,
@@ -3688,7 +3797,13 @@
     "2026-07-29-vge96o-en": 3,
     "2026-07-29-duv": 3,
     "2026-07-29-duv-m": 3,
-    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": 3
+    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": 3,
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r": 3,
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": 3,
+    "2026-07-30-scientists-say-fjord": 3,
+    "2026-07-30-scientists-say-fjord-m": 3,
+    "2026-07-30-68qyna": 3,
+    "2026-07-30-68qyna-en": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
@@ -3700,7 +3815,9 @@
     "2026-07-27-google-en": "en-US-AriaNeural",
     "2026-07-28-wonw5l-en": "en-US-AriaNeural",
     "2026-07-28-x348v0-en": "en-US-AriaNeural",
-    "2026-07-29-vge96o-en": "en-US-AriaNeural"
+    "2026-07-29-vge96o-en": "en-US-AriaNeural",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": "en-US-AriaNeural",
+    "2026-07-30-68qyna-en": "en-US-AriaNeural"
   },
   "trackEngines": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "minimax",
@@ -3762,7 +3879,13 @@
     "2026-07-29-vge96o-en": "edge",
     "2026-07-29-duv": "minimax",
     "2026-07-29-duv-m": "minimax",
-    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": "minimax"
+    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": "minimax",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r": "minimax",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": "edge",
+    "2026-07-30-scientists-say-fjord": "minimax",
+    "2026-07-30-scientists-say-fjord-m": "minimax",
+    "2026-07-30-68qyna": "minimax",
+    "2026-07-30-68qyna-en": "edge"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
@@ -3824,6 +3947,12 @@
     "2026-07-29-vge96o-en": "en-US-AriaNeural",
     "2026-07-29-duv": "presenter_female",
     "2026-07-29-duv-m": "male-qn-jingying",
-    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": "English_Graceful_Lady"
+    "2026-07-29-nudists-peaceniks-and-freeloading-travellers-the-en": "English_Graceful_Lady",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r": "presenter_female",
+    "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": "en-US-AriaNeural",
+    "2026-07-30-scientists-say-fjord": "presenter_female",
+    "2026-07-30-scientists-say-fjord-m": "male-qn-jingying",
+    "2026-07-30-68qyna": "presenter_female",
+    "2026-07-30-68qyna-en": "en-US-AriaNeural"
   }
 }
