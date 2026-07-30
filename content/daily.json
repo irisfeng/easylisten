@@ -1,5 +1,185 @@
 [
   {
+    "slug": "2026-07-31-climate-change-made-spain-wildfires-at-least-20-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "气候变化使西班牙发生野火的可能性至少是原来的20倍",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-31",
+    "intro": "一项新研究发现，气候变化使法国和西班牙出现野火易发条件的可能性显著上升，其中西班牙中部的情况尤为突出。",
+    "paragraphs": [
+      "在过去的两周里，法国西南部和西班牙中部发生了大规模野火，烧毁了25.5万公顷土地，迫使数十万人撤离，甚至数百公里外的空气质量也严重恶化。虽然消防员目前已控制住主要火势，但预报显示，即将到来的热浪和大风天气可能使情况再度恶化。",
+      "一项来自世界天气归因组织的新分析指出，气候变化为这些野火的燃烧和蔓延创造了条件。该分析表明：气候变化使法国西南部出现火灾易发条件的可能性至少增加了一倍，而在西班牙中部，这种可能性至少增加了20倍。极端高温和西欧大范围干旱——两者均与气候变化有关——共同形成了‘火药桶般的环境’。",
+      "归因研究通常通过比较现实世界中的天气和气候观测数据，与一个模拟的、未受人为变暖影响的‘反事实’气候世界进行对比，从而评估特定事件在没有气候变化时发生的可能性。本次研究采用‘超快速’协议，分析历史天气观测，并将今年的火灾天气条件与往年夏季记录的最严重火灾天气、以及工业化前气候（即人类活动未显著改变气候的时期）的模拟结果进行对比。在法国，干旱影响下的人造松树林成为极易蔓延火势的燃料；在西班牙，冬季异常湿润促使植被大量生长，而随后春夏季的严重干旱与高温，使大量生物质变得高度易燃。",
+      "这种‘天气鞭打’——即冬季异常湿润、随后夏季异常干燥——正在成为西欧野火风险日益重要的驱动因素。作者指出，这一现象正变得越来越常见。",
+      "有未参与该研究的气候科学家指出，这种‘超快速’归因方法存在两点局限：一是难以在不依赖气候模型的情况下区分自然气候波动与气候变化的影响；二是难以评估大气二氧化碳浓度升高对植物生长进而助长野火的作用。但她同时肯定，该方法在归因温度升高和蒸发需求增强（可导致干旱）方面是成熟可靠的。目前，科学家对极端温度事件归因于气候变化的信心最高，其次为降水事件和干旱；相比之下，野火归因的置信度较低，因其成因复杂多样，但近年来相关科学方法已显著进步。",
+      "联合国气候变化框架公约执行秘书西蒙·斯蒂尔在新闻发布会上表示：‘这些特大野火表明，气候驱动的极端高温和干燥景观能多么迅速地将野火转变为毁灭性的国家灾难。人类持续燃烧巨量煤炭、石油和天然气，正在烘烤我们的星球，使这些条件更加危险，让特大野火更加致命和具有破坏性。但解决方案同样明确：所有国家必须加速从化石燃料转向可再生能源，并保护民众免受日益加剧的气候影响——包括野火、超级风暴、洪水，以及冲击粮食生产的干旱。’"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/research-and-developments/climate-change-made-spain-wildfires-at-least-20-times-more-likely",
+      "originalTitle": "Climate Change Made Spain Wildfires At Least 20 Times More Likely",
+      "publishedAt": "Thu, 30 Jul 2026 22:03:12 +0000",
+      "retrievedAt": "2026-07-30T22:23:07.915Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-30T22:22:59.641Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Climate Change Made Spain Wildfires At Least 20 Times More Likely",
+      "intro": "Did you know that climate change made the recent wildfires in Spain at least 20 times more likely?",
+      "paragraphs": [
+        "Over the past 2 weeks, large wildfires in southwestern France and central Spain burned 255,000 hectares. They displaced hundreds of thousands of people. They created extremely poor air quality even hundreds of kilometers away.",
+        "Firefighters have now contained the major fires. But a forecasted heat wave and windy weather threaten to worsen the situation.",
+        "A new analysis from World Weather Attribution found that climate change made fire-prone conditions much more likely. It made them at least twice as likely in southwestern France. It made them at least 20 times as likely in central Spain.",
+        "Extreme heat and a widespread drought in Western Europe created 'tinderbox conditions'. Both are linked to climate change.",
+        "Clair Barnes is a climate scientist at Imperial College London. She is one of the authors of the analysis. She said in a press release: 'What we’re seeing in France and Spain isn’t just bad luck. It is a clear sign of the escalating impacts of anthropogenic warming.'",
+        "She also said: 'It’s still early in the season. And with another heatwave looming, these findings are extremely scary.'",
+        "The analysis describes 'weather whiplash'. In Spain, December, January, and February were anomalously wet. Then June and July were anomalously dry.",
+        "A wet winter caused a spike in plant growth. Severe drought and high temperatures followed. That turned a large volume of biomass into highly flammable fuel.",
+        "In France, drought-affected man-made pine woodlands created particularly suitable fuel. That helped wildfires spread rapidly.",
+        "Two previous attribution analyses by World Weather Attribution this summer found that Europe’s June heatwave and summer drought were both made more likely by climate change.",
+        "Confidence in attributing events to climate change is highest for extreme temperature events. It is lower for precipitation events and drought. It is relatively low for wildfires.",
+        "The science surrounding attribution studies has greatly improved over the past decade. A recent report from the National Academies of Science, Engineering, and Medicine says so.",
+        "Simon Stiell is executive secretary of the United Nations Framework Convention on Climate Change. He said: 'These mega-fires show how fast climate-driven extreme heat and dry landscapes can turn wildfires into devastating national disasters.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-30T22:27:57.029Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 13,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-07-31-2026",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "2026“新疆是个好地方”非遗援疆主题展示活动呈现共创成果",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-31",
+    "intro": "一场聚焦非遗援疆成果的展示活动，呈现了新疆与各地非遗传承人的合作成果。",
+    "paragraphs": [
+      "近日，2026年“新疆是个好地方”非遗援疆主题展示活动举办。据中新网报道，活动呈现共创成果。",
+      "作为文化援疆的重要举措，该活动通过非遗项目的展示与交流，体现跨区域合作在非遗保护中的积极作用。",
+      "活动传递了一个明确信号：非遗传承需要各地力量共同参与，而新疆的非遗文化正在这样的合作中焕发新的生命力。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-30/10669541.shtml",
+      "originalTitle": "2026“新疆是个好地方”非遗援疆主题展示活动呈现共创成果",
+      "publishedAt": "Thu, 30 Jul 2026 21:32:12 +0800",
+      "retrievedAt": "2026-07-30T22:24:25.874Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-30T22:24:23.720Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 4,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "2026 'Xinjiang is a Good Place' Heritage Aid Event Shows Joint Results",
+      "intro": "A cultural event in Xinjiang shared new achievements in intangible heritage preservation.",
+      "paragraphs": [
+        "A special event called 'Xinjiang is a Good Place' took place in 2026. It focused on intangible cultural heritage. The event showed results from a joint effort to help Xinjiang.",
+        "Many artists and craftspeople from different regions took part. They created works together. The goal was to protect and share traditional skills.",
+        "Visitors saw performances, crafts, and exhibits. These included music, dance, and handmade items. The event highlighted how cooperation can keep culture alive."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-30T22:27:07.081Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-07-31/2026-07-31-2026.webp",
+      "alt": "抽象非遗刺绣图案在纸张质感背景上",
+      "caption": "非遗援疆展示活动呈现合作成果。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-07-31-060c2u",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一名6岁女童在基因治疗后去世：缺失的‘刹车’与必要反思",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-07-31",
+    "intro": "近日，《科学》杂志与撤稿观察联合报道：一名6岁女童在上海交通大学医学院附属新华医院接受针对CHD3基因突变的实验性碱基编辑治疗后，于2025年3月24日接受鞘内注射，一周后因严重并发症死亡。",
+    "paragraphs": [
+      "2025年3月24日，一名6岁女童在上海交通大学医学院附属新华医院接受经鞘内注射实施的实验性碱基编辑治疗，针对其CHD3基因突变所致的Snijders Blok-Campeau综合征。该治疗由仇子龙团队定制，以病毒为载体将编辑器送入脑脊液。一周后，患儿因严重并发症死亡。这一事件被《科学》杂志与撤稿观察联合调查报道。",
+      "伦理委员会于2025年1月2日批准该项临床研究，但用于评估安全性的猕猴毒理报告直至2月17日才完成——报告显示4只猕猴均出现中度至重度肝损伤，其中1只高剂量组还出现肾损伤。此后不久，患儿家属完成知情同意程序。而相关动物实验论文于2024年12月21日投稿《自然》，2026年初正式发表，文中未提及已开展且失败的临床治疗。",
+      "该事件触及生命科技进入人体应用的基本问题：科学依据是否充分？风险与收益是否匹配？患者权益是否得到保障？研究者在论文中明确承认：‘碱基编辑在中枢神经系统中的应用目前仅限于小鼠模型……这些模型对于评估表型改善具有价值，但不足以指导临床剂量或人体应用。’而临床治疗却在非人灵长类（猕猴）模型验证尚未完成的情况下启动。",
+      "研究资助来自患儿家属以非正式方式提供的经费；研究者同时担任技术开发者、治疗提供者，并与松江研究院关联。这种多重角色叠加构成严重利益冲突。知情同意程序虽已完成，但原文指出：‘如果研究者选择性披露风险、淡化失败可能，知情同意就可能沦为形式程序。’",
+      "2025年5月1日起施行的《生物医学新技术临床研究和临床转化应用管理条例》要求：临床研究必须‘具有科学依据’‘不得危害人体健康，不得违反伦理原则’，并实行‘清单式’管理；伦理审查须贯穿研究全过程，对方案实质性变更须重新审查；风险出现时应暂停、评估乃至终止研究。原文强调：‘伦理审查不应是一次性永久授权，而必须伴随知识更新不断调整。’"
+    ],
+    "topics": [
+      "基因治疗",
+      "碱基编辑",
+      "安全风险"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/7/569120.shtm",
+      "originalTitle": "女童死于基因治疗：缺失的刹车与必要的反思",
+      "publishedAt": "2026-07-30 20:29",
+      "retrievedAt": "2026-07-30T22:25:09.254Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-07-30T22:25:05.420Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "物理学家解开重大量子谜题，却发现旧实验结果对不上",
@@ -2803,81 +2983,6 @@
       "name": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
       "originalTitle": "Blasts reported in Iran as US launches new wave of strikes"
-    }
-  },
-  {
-    "slug": "2026-07-17-why-do-astronauts-bodies-waste-away-space-statio",
-    "title": "太空中的肌肉流失，根子可能出在线粒体上",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-17",
-    "intro": "宇航员在太空中为什么肌肉萎缩、骨骼变脆？一项国际空间站上的研究给出了新的答案——问题出在细胞的能量工厂线粒体上。",
-    "paragraphs": [
-      "你大概听说过，宇航员在太空待久了，身体会“变懒”——肌肉萎缩、骨密度下降，回到地球后甚至站不稳。过去我们以为，这只是因为失重环境下身体不用对抗重力，用进废退。但一项新研究告诉我们，事情没那么简单。科学家在国际空间站上做了一组实验，发现问题的根源可能藏在每个细胞里：那些负责制造能量的线粒体，在太空中出了故障。",
-      "这项研究发表在《自然》杂志上。研究者让一批小鼠在国际空间站上生活了 37 天，然后分析它们的肌肉组织。结果发现，小鼠的肌肉纤维明显变细，更关键的是，线粒体的数量和功能都下降了。线粒体是细胞的“发电厂”，负责把养分转化成能量。如果发电厂减产，细胞就会缺乏能量，肌肉自然无法维持。",
-      "有趣的是，这种变化并不是因为肌肉用得少。研究者设计了一个对照组，让另一批小鼠在地球上被限制活动，模拟“久坐不动”。这些小鼠虽然活动量也小，但它们的肌肉和线粒体并没有出现太空小鼠那样的严重退化。这说明，失重环境本身对细胞有某种直接的破坏作用，而不仅仅是运动不足。",
-      "那么，失重是怎么影响线粒体的呢？研究团队发现，在微重力下，细胞内的压力信号通路被异常激活，导致线粒体自噬——也就是细胞自己把受损的线粒体吃掉、清理掉——的过程加速了。线粒体被清理得太快，新的又来不及补上，能量供应就跟不上了。",
-      "这项研究的意义不只是解释宇航员的身体变化。未来人类要飞往火星，单程就要数月，如果肌肉和骨骼持续流失，宇航员可能还没到目的地就已经行动困难。而如果能找到药物或训练方法，保护线粒体在太空中的健康，也许就能缓解这些退化。当然，目前这还只是小鼠实验，距离临床应用还有距离。但至少，科学家现在知道该往哪个方向使劲了。"
-    ],
-    "topics": [
-      "生命与演化",
-      "航天与宇宙"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nature News",
-      "url": "https://www.nature.com/articles/d41586-026-02089-0",
-      "originalTitle": "Why do astronauts’ bodies waste away? Space-station study points to mitochondria"
-    }
-  },
-  {
-    "slug": "2026-07-17-w1mbp1",
-    "title": "第二次怀孕，大脑的又一次“升级”",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-17",
-    "intro": "研究发现，第二次怀孕会以与第一次不同的方式重塑大脑，留下独特的印记。",
-    "paragraphs": [
-      "怀孕对女性身体的影响，远不止肚子变大那么简单。最新研究证实，每一次怀孕都会在大脑里刻下独特的印记，而且第二次怀孕带来的变化，和第一次很不一样。",
-      "这项发表在英国《自然·通讯》期刊上的研究，由科学家长期跟踪了110名女性，包括第一次怀孕的准妈妈、第二次怀孕的，以及还没生过孩子的对照组。通过反复进行脑部扫描，他们观察到了大脑结构和活动的动态变化。",
-      "结果发现，第一次怀孕时，大脑的“默认模式网络”会发生最剧烈的改变。这个网络掌管着自我反思、社会认知等高级功能，可以说是我们“内心世界”的核心。而到了第二次怀孕，同样的网络会再次变化，但程度会轻一些。",
-      "更有意思的是，第二次怀孕最明显的变化，发生在另外两个脑区：一个是负责集中注意力的网络，另一个是处理感官信息的网络。研究者认为，这可能是大脑在帮助妈妈更好地应对同时照顾两个孩子的复杂需求——比如一边哄着大宝，一边还要留意周围的声音和动静。",
-      "这项研究告诉我们，怀孕不是一次性的“脑重塑”，而是一次次动态的适应过程。每一次孕育，都在悄悄优化妈妈的大脑，让她变得更敏锐、更专注。这不只是生理现象，更是母性本能背后的神经科学证据。"
-    ],
-    "topics": [
-      "脑与认知"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "url": "https://www.solidot.org/story?sid=84838",
-      "originalTitle": "第二次怀孕会以新方式改变大脑"
-    }
-  },
-  {
-    "slug": "2026-07-17-loitering-towards-war",
-    "title": "咖啡馆里的两个世界，如何撞碎了一个帝国",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-17",
-    "intro": "维也纳的咖啡馆孕育了现代主义，贝尔格莱德的卡法纳却酝酿了仇恨与阴谋。两个世界相遇，欧洲被拖入战争。",
-    "paragraphs": [
-      "1894年的一天，在维也纳中央咖啡馆，彼得·阿尔滕贝格正读着报纸上关于一个15岁女孩失踪的新闻。他即兴写了一首短诗纪念她。巧的是，几位维也纳文学界的大人物——阿图尔·施尼茨勒、胡戈·冯·霍夫曼斯塔尔、费利克斯·萨尔滕——恰好走进咖啡馆。施尼茨勒意外地发现阿尔滕贝格写诗，便拿过诗稿传给其他人。最终，这首诗让阿尔滕贝格，一个香烟推销员，在34岁时成了作家。他后来写道：“想想一个人的命运取决于多少巧合！”此后余生，他都把中央咖啡馆当作自己的通讯地址。",
-      "当时维也纳有大约一千家这样的咖啡馆。中央咖啡馆是其中最著名的之一，导演贝特霍尔德·菲特尔把它比作“生命之屋”。烟雾缭绕的房间层层深入，台球、象棋、纸牌和咖啡应有尽有，尽头是一个高敞的庭院，那里坐着离现实最远的人。一个人可以在这里虚度一生，很多人也确实如此。人们争论咖啡馆到底是创造力的摇篮还是懒惰的温床。许多人决心戒掉这个“恶习”，却屡屡失败。一位沮丧的顾客写道：“不，从今往后，不再过这种死气沉沉的日子，不再这样野兽般地闲荡。”可失去的时间只是“钝化了我的才智”。",
-      "然而创造力确实在这里蓬勃生长。现代主义艺术诞生于这些咖啡馆，那个为阿尔滕贝格“加冕”的文学圈子被称为“青年维也纳”。对许多艺术家来说，咖啡馆宽松的社交环境是逃避街头敌意的庇护所。它创造了一种独特的私人感受：对生活冷嘲热讽，对体制不抱幻想。阿尔滕贝格说咖啡馆是他的家；萨尔滕说他“土生土长，却又来自别处”。",
-      "咖啡馆之外是奥匈帝国，一个庞大而多元的帝国，在欧洲独一无二。哈布斯堡王朝自13世纪起统治奥地利领地，1867年与匈牙利合并为二元君主国。到1910年，帝国人口超过5100万，使用11种语言。马克·吐温1898年访问时幽默地写道，实际上有“十一种不同的嫉妒、敌意和交战利益”。议会斗殴司空见惯，连命名一条街道都能引发怨恨。军队里，军官用一种粗陋的洋泾浜语“陆军斯拉夫语”与多民族士兵沟通，但即便如此也常冒犯人。",
-      "然而在塞尔维亚，咖啡馆——卡法纳——却是另一种景象。这里的咖啡常伴着烈酒，容易过量。卡法纳是深沉情感、流言和激进主义的温床。塞尔维亚作家布拉尼斯拉夫·努希奇写道：“战前我们的卡法纳是公共生活的唯一表达。”工人来找工作，病人找医生，客户找律师，媒人撮合婚姻。贝尔格莱德的第一盏电灯、第一条电话线、第一个书展和第一场电影放映都在卡法纳里。这里甚至比剧院更受欢迎，因为常有歌舞杂耍和互动表演。卡法纳是生活戏剧上演的地方。",
-      "到19世纪末，塞尔维亚的卡法纳成了政治领地，每个党派都有自己的地盘。人民激进党在布勒瓦尔咖啡馆和莫斯科咖啡馆聚会，进步党在卡西纳咖啡馆。选举常常充满暴力，尤其是1883年米兰一世国王宣布选举结果无效后。努希奇回忆说，卡法纳常充当“野战医院”，把“头骨开裂的清醒选民”抬进来清洗伤口、恢复体力。政治愤怒在这里发酵，阴谋也在这里酝酿。最著名的是1903年6月，数十名军官在贝尔格莱德的卡法纳里喝酒壮胆，策划了一场政变。英国旅行者赫伯特·维维安在斯普斯卡·克鲁纳咖啡馆与他们共度了那个夜晚，他描述军官们脸上的表情……两个咖啡馆世界之间的碰撞，最终终结了那个看似永恒的帝国。"
-    ],
-    "topics": [
-      "历史",
-      "哲学与思想"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Aeon Essays",
-      "url": "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent",
-      "originalTitle": "Loitering towards war"
     }
   }
 ]
