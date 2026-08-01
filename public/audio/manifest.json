@@ -176,7 +176,13 @@
     "2026-07-31-2026-en",
     "2026-07-31-060c2u",
     "2026-07-31-060c2u-m",
-    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en"
+    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic-",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic--m",
+    "2026-08-01-00",
+    "2026-08-01-00-m",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -3757,6 +3763,115 @@
       182.068,
       196.952,
       197.132
+    ],
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic-": [
+      0,
+      6.653,
+      14.919,
+      22.976,
+      36.072,
+      46.777,
+      52.826,
+      63.101,
+      69.405,
+      78.484,
+      87.308
+    ],
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic--m": [
+      0,
+      6.049,
+      13.77,
+      22.257,
+      33.728,
+      42.725,
+      47.753,
+      57.342,
+      63.101,
+      70.856,
+      78.867
+    ],
+    "2026-08-01-00": [
+      0,
+      4.261,
+      11.424,
+      16.068,
+      25.24,
+      29.582,
+      35.12,
+      39.079,
+      43.979,
+      47.555,
+      53.139,
+      61.196,
+      66.27,
+      71.773,
+      75.699
+    ],
+    "2026-08-01-00-m": [
+      0,
+      3.669,
+      10.321,
+      14.663,
+      23.87,
+      27.446,
+      31.707,
+      35.329,
+      39.799,
+      43.12,
+      47.38,
+      55.101,
+      59.49,
+      64.772,
+      68.186
+    ],
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins": [
+      0,
+      2.763,
+      13.595,
+      20.886,
+      37.558,
+      59.646,
+      75.134,
+      86.558,
+      92.734,
+      109.627,
+      126.991,
+      127.171
+    ],
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en": [
+      0,
+      2.424,
+      10.344,
+      16.032,
+      20.832,
+      24.144,
+      30.072,
+      33.96,
+      37.848,
+      41.784,
+      46.272,
+      49.512,
+      56.088,
+      59.448,
+      64.416,
+      69.12,
+      72.48,
+      76.992,
+      80.232,
+      85.848,
+      90.36,
+      94.464,
+      99.288,
+      101.76,
+      105.456,
+      110.184,
+      115.224,
+      119.952,
+      127.344,
+      132.288,
+      136.176,
+      139.488,
+      142.704
     ]
   },
   "fullAudioVersion": 4,
@@ -3936,7 +4051,13 @@
     "2026-07-31-2026-en": 3,
     "2026-07-31-060c2u": 3,
     "2026-07-31-060c2u-m": 3,
-    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": 3
+    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": 3,
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic-": 3,
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic--m": 3,
+    "2026-08-01-00": 3,
+    "2026-08-01-00-m": 3,
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins": 3,
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
@@ -3951,7 +4072,8 @@
     "2026-07-29-vge96o-en": "en-US-AriaNeural",
     "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r-en": "en-US-AriaNeural",
     "2026-07-30-68qyna-en": "en-US-AriaNeural",
-    "2026-07-31-2026-en": "en-US-AriaNeural"
+    "2026-07-31-2026-en": "en-US-AriaNeural",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en": "en-US-AriaNeural"
   },
   "trackEngines": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "minimax",
@@ -4025,7 +4147,13 @@
     "2026-07-31-2026-en": "edge",
     "2026-07-31-060c2u": "minimax",
     "2026-07-31-060c2u-m": "minimax",
-    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": "minimax"
+    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": "minimax",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic-": "minimax",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic--m": "minimax",
+    "2026-08-01-00": "minimax",
+    "2026-08-01-00-m": "minimax",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins": "minimax",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en": "edge"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
@@ -4099,6 +4227,12 @@
     "2026-07-31-2026-en": "en-US-AriaNeural",
     "2026-07-31-060c2u": "presenter_female",
     "2026-07-31-060c2u-m": "male-qn-jingying",
-    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": "English_Graceful_Lady"
+    "2026-07-31-climate-change-made-spain-wildfires-at-least-20--en": "English_Graceful_Lady",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic-": "presenter_female",
+    "2026-08-01-how-smallpox-reached-the-americas-first-genomic--m": "male-qn-jingying",
+    "2026-08-01-00": "presenter_female",
+    "2026-08-01-00-m": "male-qn-jingying",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins": "presenter_female",
+    "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins-en": "en-US-AriaNeural"
   }
 }

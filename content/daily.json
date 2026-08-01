@@ -1,5 +1,160 @@
 [
   {
+    "slug": "2026-08-01-how-smallpox-reached-the-americas-first-genomic-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "智利木乃伊里的天花DNA，说明病毒来自欧洲",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-01",
+    "intro": "研究人员从两具约400年前的智利遗骸中意外发现天花病毒遗传物质，基因组比对证实该病毒分支于13世纪左右从欧洲分出。",
+    "paragraphs": [
+      "科学家原本在测试DNA分析软件，以研究智利北部一处考古遗址的人类历史。他们对两具生活在1492—1631年间的人类遗骸进行了DNA测序，意外发现了天花病毒的痕迹。研究共同作者康斯坦萨·德拉富恩特·卡斯特罗说：‘这没在我脑海里出现过’，但‘这让它更加令人兴奋’。",
+      "团队将这一智利天花病毒变种与古代和现代天花基因组进行比对，发现它约在13世纪与欧洲分支分离，证实欧洲殖民者是美洲天花的来源。",
+      "此前全球仅发现两例前20世纪的小天花DNA：一例来自7世纪维京人遗骸，另一例来自17世纪立陶宛木乃伊。本次发现是首次在美洲获得前20世纪的小天花基因组证据。",
+      "7世纪天花病毒基因组比20世纪毒株更大、含更多活跃基因，表明该病毒在适应人类宿主过程中持续丢失基因。研究者指出，类似机制可能也存在于猴痘等现有人畜共患病毒中。",
+      "天花曾是世界上最致命的疾病之一，仅20世纪就导致约3亿人死亡；其传入美洲后造成毁灭性后果。这两具智利遗骸中的病毒DNA，为‘天花由欧洲传入美洲’这一历史推断提供了首个直接基因组证据。"
+    ],
+    "topics": [
+      "生命与演化",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nature News",
+      "region": "international",
+      "url": "https://www.nature.com/articles/d41586-026-02366-y",
+      "originalTitle": "How smallpox reached the Americas: first genomic evidence points to Europeans",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-08-01T00:24:04.722Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-01T00:23:56.630Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-01/2026-08-01-how-smallpox-reached-the-americas-first-genomic-.webp",
+      "alt": "半透明木乃伊拼图与DNA纹理，背景山脉",
+      "caption": "木乃伊中的病毒痕迹",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-01-00",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "00后当起了机器人“老师”：一个叫“数采员”的新职业",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-01",
+    "intro": "一间工作室里，年轻人穿着布满传感器的衣服做着各种动作，他们不是在拍电影，而是在为机器人“上课”。",
+    "paragraphs": [
+      "你可能听说过人工智能，但“具身智能”你熟悉吗？简单说，就是让机器人在真实世界里能看、能听、能动，像人一样做事。他们需要学习大量动作，这时候就需要“数采员”出场了。",
+      "数采员，全称数据采集员，他们穿上特制的动作捕捉服，做出走路、搬东西、拧瓶盖这些日常动作。每一个动作都被记录下来，变成机器人能看懂的数据。就像老师一遍遍教学生写字，数采员就是在教机器人怎么动。",
+      "如今，越来越多的00后年轻人走进了这个新兴职业。他们手脚灵活，学新东西快，而且对机器人充满好奇。",
+      "这份工作看起来好玩，其实要求很高。一个简单的弯腰动作可能要重复上百次，以确保机器人学得准确。数采员不仅要体力好，还得理解机器人的“思维”方式，把复杂动作拆解成一步步的数据。",
+      "有了这些年轻“老师”的耐心教导，机器人正在变得越来越能干。将来，它们可能会走进工厂、医院，甚至你家里，帮你做家务。而这背后，就藏着00后数采员洒下的汗水。"
+    ],
+    "topics": [
+      "科技与社会",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/07-31/10669920.shtml",
+      "originalTitle": "【活力中国调研行】00后“数采员”：给具身智能机器人当“老师”",
+      "publishedAt": "Fri, 31 Jul 2026 15:50:18 +0800",
+      "retrievedAt": "2026-08-01T00:26:50.295Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-01T00:26:43.953Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-01-you-re-carrying-ghost-dna-from-extinct-hominins",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "你身体里藏着来自已灭绝古人类的‘幽灵DNA’",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-01",
+    "intro": "一项发表于《科学》杂志的新研究指出，所有现代人类都携带来自已灭绝古人类的古老基因序列。",
+    "paragraphs": [
+      "你的DNA是‘被幽灵萦绕的’。一项新研究发现，所有现代人类都携带来自所谓‘幽灵祖先’——即数十万年前已灭绝的古人类谱系——的古老遗传序列。研究团队开发了一种新技术，仅通过分析现代人类基因组，就能识别出这些远古序列。",
+      "该技术在测试中成功识别出已知来自尼安德特人和丹尼索瓦人的序列；在此基础上，团队进一步发现了更古老的序列，它们源自那些DNA早已无法从化石中获取、却仍留存于我们体内的古人类。其中一类贡献可能来自海德堡人（_Homo heidelbergensis_），这种古人类生活在70万至20万年前的欧洲和非洲，可能是现代人、尼安德特人与丹尼索瓦人的最后共同祖先；它向现代人类基因组贡献了最多达1%的遗传物质，且这一贡献存在于所有现代人中。",
+      "研究团队还发现，大洋洲人群携带一段来自所谓‘超级古老人类’祖先的DNA，该谱系在180多万年前就已与现代人类分道扬镳；团队认为其很可能是直立人（_Homo erectus_）。这段DNA被发现嵌套在丹尼索瓦人的序列中，表明它可能先传入丹尼索瓦人，再经由丹尼索瓦人与现代人类的混血进入大洋洲人群。",
+      "这些古老基因片段富集于与免疫系统和代谢功能相关的基因区域。研究者指出，适应新病原体和食物来源是人类进化中最强烈的自然选择压力之一；与其他古人类群体的混血引入了新的遗传变异，为自然选择提供了额外素材，有益变异由此被保留并扩散多代。研究共同作者Priya Moorjani表示：‘我们常把人类进化想象成一棵分支树，但新的基因组数据和分析方法揭示的是一幅更互连的历史图景——更像一张由反复迁徙与混合连接起来的复杂网络。’"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/",
+      "originalTitle": "You’re Carrying “Ghost DNA” From Extinct Hominins",
+      "publishedAt": "Fri, 31 Jul 2026 21:00:00 +0000",
+      "retrievedAt": "2026-08-01T00:27:55.195Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-01T00:27:52.445Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Ghost DNA in All of Us",
+      "intro": "A new study reveals that every human carries ancient genetic traces from extinct hominin species.",
+      "paragraphs": [
+        "Your DNA is haunted. A new study published in Science shows all modern humans carry ancient genetic sequences from so-called 'ghost ancestors'. These are lineages of hominins that died out tens and hundreds of thousands of years ago. Scientists discovered these archaic sequences using a new technique. It analyzes only modern genomes.",
+        "The new method correctly identified sequences from both Neanderthals and Denisovans. These are two ancient hominins humans interbred with. Their DNA has been preserved in fossil specimens. The team turned its attention to far older sequences. These come from archaic hominins whose DNA is lost to time. But those sequences still live on in us. One ghost ancestor interbred with Homo sapiens before a major wave of our species left Africa. That was more than 50,000 years ago. This ancestor contributed up to 1 percent of our genetic material. That is similar to the average amount of Neanderthal DNA we carry. This contribution is present in all of us.",
+        "The team also discovered a contribution in people from Oceania. They call this a 'super-archaic' ancestor. This ancestor diverged from modern humans over 1.8 million years ago. The more recent contribution may be from Homo heidelbergensis. The 'super-archaic' ancestor is likely Homo erectus. Human evolution was shaped more by interbreeding than previously thought. It is not a branching tree. It is more like a complex web of populations. Those populations were connected by repeated migration and mixing.",
+        "These archaic genes are found in regions associated with the immune system. They are also found in regions associated with metabolic functions. Adaptation to new pathogens and food sources has been one of the strongest selective pressures in human evolution. Interbreeding with other human groups introduced new genetic variation. That provided raw material for natural selection. Beneficial variants could then be retained. They could spread over many generations."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-01T00:33:33.206Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-07-31-climate-change-made-spain-wildfires-at-least-20-",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "气候变化使西班牙发生野火的可能性至少是原来的20倍",
@@ -2911,78 +3066,6 @@
       "name": "Aeon Essays",
       "url": "https://aeon.co/essays/why-has-venus-obsessed-so-many-astronomers",
       "originalTitle": "Transit of wonder"
-    }
-  },
-  {
-    "slug": "2026-07-18-why-are-berries-everywhere-in-every-season-drisc",
-    "title": "浆果帝国：Driscoll's 如何征服你的超市货架",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-18",
-    "intro": "为什么一年四季都能买到又大又甜的草莓和树莓？答案藏在一家你可能没听过、但几乎每天都吃过的公司里。",
-    "paragraphs": [
-      "你大概在超市里见过那个绿叶标志的塑料盒——Driscoll's，美国超市里第二赚钱的品牌，仅次于可口可乐。这家公司几乎垄断了浆果世界，但它究竟是怎么做到的？记者 Julia Moskin 走访了 Driscoll's 总部，和浆果科学家、经济学家聊了聊，揭开了这个水果帝国的运作逻辑。",
-      "在 Driscoll's 的实验室里，210 种树莓被摆成整齐的网格，等待感官科学家的评判。有些品种被培育得更好看——果实形状更匀称，籽粒更整齐，表面的“毛”更少；有些则追求高产，刺更少，植株更高更蓬松，方便采摘。每一种都要测试“内部压力指数”——也就是咬下去时那一下爆汁的力度。210 个品种里，最终能上市的，大概只有两个。",
-      "这家公司每年开发数百个新品种，但绝大多数永远不会出现在货架上。它们被淘汰，不是因为不好吃，而是不够“稳定”——比如运输中容易碰伤，或者在不同气候下表现不一。Driscoll's 要的不是一颗完美的浆果，而是一颗在任何地方、任何时候都能保持一致的浆果。",
-      "这种对“一致性”的极致追求，正在改变整个行业。消费者习惯了冬天也能买到草莓，习惯了每一颗都同样甜、同样大。但代价是，很多传统品种被淘汰，农夫的种植方式被标准化，甚至浆果的风味也趋于单一。研究者说，浆果的“野性”正在被驯化。",
-      "不过，Driscoll's 并不觉得自己在扼杀多样性。他们的首席树莓科学家说，公司也在保存数千种基因材料，作为未来的“保险库”。也许有一天，当气候变化或病害来袭，那些被淘汰的野生基因会重新派上用场。只是在那之前，我们吃到的每一颗浆果，都经过了精密计算。"
-    ],
-    "topics": [
-      "经济与商业",
-      "食物与日常"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Longreads",
-      "url": "https://longreads.com/2026/07/16/driscolls-raspberries-strawberries-agriculture/",
-      "originalTitle": "Why Are Berries Everywhere, in Every Season? Driscoll’s."
-    }
-  },
-  {
-    "slug": "2026-07-18-napalm-death-tiny-desk-concert",
-    "title": "碾核之父的办公桌演出：当噪音成为尊严的呐喊",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-18",
-    "intro": "NPR的Tiny Desk系列迎来了一支最不可能的组合——英国碾核乐队Napalm Death。在40年的噪音征途中，他们用最短的歌曲质问最沉重的问题。",
-    "paragraphs": [
-      "就在NPR音乐部员工写稿、编故事的地方，一群穿着黑色T恤和战甲夹克的乐迷，竟然开了一个小小的circle pit。这个场景的荒诞感，在场的人心里都清楚。但看到那些聚集起来围观一支英国金属乐队在NPR办公室地毯上搞破坏的人们脸上的笑容，那种混乱的劲头，恰到好处地保持了尊重又混乱的气氛。Napalm Death对音乐破坏的持续征战，终于来到了Tiny Desk。",
-      "四十多年来，噪音不仅是Napalm Death腐蚀性声音的核心信条，也是一种震耳欲聋的、为人类尊严发声的方式。上世纪80年代，乐队的早期阵容创造了碾核（grindcore），把金属和硬核的强度推到极致，制造出远更极端的东西。在这些通常很短、永远狂暴的歌曲里，压迫的痛苦反映在声波冲击中，但尖叫声和咆哮声提醒我们，要选择爱而非恨。",
-      "那么，碾核的奠基者们如何总结这样一份仍在演变的遗产呢？这场演出的曲目单，以1987年的作品为骨架，像一块Scum三明治。中间穿插着Napalm Death以疯狂的速度横扫其庞大曲库，包括不和谐的死亡金属曲目《Everyday Pox》和沉重的后朋克风格《Amoral》。后者由长期贝斯手Shane Embury创作，他这次未能随队参加美国巡演。演出以一个眨眼般的结尾收场，但同时也是一种挑战：《You Suffer》可以被当作噱头，但在它一秒钟的爆炸里，藏着一个值得我们每天在绝望中清醒时都要问的问题：但为什么？"
-    ],
-    "topics": [
-      "音乐"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Music",
-      "url": "https://www.npr.org/2026/07/15/g-s1-133336/napalm-death-tiny-desk-concert",
-      "originalTitle": "Napalm Death: Tiny Desk Concert"
-    }
-  },
-  {
-    "slug": "2026-07-17-blasts-reported-in-iran-as-us-launches-new-wave-",
-    "title": "霍尔木兹海峡战火再燃，美国连续六夜空袭伊朗",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-17",
-    "intro": "美国对伊朗发动第六轮夜间空袭，霍尔木兹海峡控制权争夺持续升级。",
-    "paragraphs": [
-      "美国军方证实，他们对伊朗发动了连续第六个夜晚的新一轮空袭。美国中央司令部说，这次打击的目的是‘进一步削弱伊朗的军事能力’。",
-      "据伊朗官方媒体报道，美国的导弹击中了霍尔木兹海峡附近格什姆岛周边地区，以及阿巴斯港和布什尔——后者是伊朗核电站所在地。此前，双方已经在一夜之间互相发动了打击，新一轮的敌对行动让原本就脆弱的停战协议更加紧张。",
-      "白宫新闻秘书卡罗琳·莱维特表示，美国总统特朗普仍然对与伊朗谈判持开放态度。她说：‘总统会在伊朗背弃对美国所说的话时追究他们的责任，但他始终对外交敞开大门。’她还透露，伊朗表示仍想与美国达成协议，但‘总统不会允许他们在海峡向船只开火而不承担后果’。",
-      "随着攻击升级，霍尔木兹海峡——这条伊朗海岸附近的关键水道，已经被伊朗实际上封锁——仍然处于关闭状态。周四早些时候，伊朗称他们打击了美国在约旦、科威特和巴林的军事基地；而美国则表示对海峡内多个地点进行了长达六小时的打击。",
-      "这些交火发生在特朗普警告伊朗‘最好规矩点’，否则如果伊朗不回到谈判桌，将面临进一步军事行动之后。伊朗首席谈判代表穆罕默德·巴吉尔·加利巴夫对官方媒体表示，德黑兰‘没有理由’遵守任何对伊朗不利的协议。他还说，伊朗的国家安全依赖于在霍尔木兹海峡维持所谓的‘伊朗安排’。",
-      "与此同时，特朗普周三称赞伊朗释放了美国被拘留者德娜·卡拉里，称其‘被错误拘留’。特朗普在社交媒体上写道：‘美国感谢伊朗的这一善意姿态！’卡拉里的律师说她在回美国的路上。然而，伊朗司法部门周四表示，没有美国囚犯被释放或交换。"
-    ],
-    "topics": [
-      "全球时事"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-      "originalTitle": "Blasts reported in Iran as US launches new wave of strikes"
     }
   }
 ]
