@@ -67,6 +67,15 @@ test("成功出刊与成功恢复都会自动关闭当日失败告警", async ()
   assert.match(recovery, /gh issue close/);
 });
 
+test("主任务与恢复任务不再为 ffmpeg 执行全量 apt update", async () => {
+  const daily = await readFile(dailyWorkflowUrl, "utf8");
+  const recovery = await readFile(recoveryWorkflowUrl, "utf8");
+  assert.match(daily, /apt-get install -y -qq --no-install-recommends ffmpeg/);
+  assert.match(recovery, /apt-get install -y -qq --no-install-recommends ffmpeg/);
+  assert.doesNotMatch(daily, /apt-get update/);
+  assert.doesNotMatch(recovery, /apt-get update/);
+});
+
 test("恢复任务没有快照时必须失败告警，不能显示假成功", async () => {
   const workflow = await readFile(recoveryWorkflowUrl, "utf8");
   const guard = workflow.indexOf("name: 确认并恢复出刊快照");
