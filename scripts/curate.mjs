@@ -42,6 +42,7 @@ import {
 } from "./lib/audio-budget.mjs";
 import {
   configuredLlmProviders,
+  isRetryableEmptyResponse,
   isRetryableFinishReason,
   isRetryableProviderResponse,
   modelCandidatesFor,
@@ -162,7 +163,15 @@ async function chatJsonWith(service, model, system, user, label, temperature = 0
       throw error;
     }
     const text = choice?.message?.content;
-    if (!text) throw new Error(`${label}: 响应中没有内容`);
+    if (isRetryableEmptyResponse(choice)) {
+      lastError = new Error(`${label}: 响应中没有内容`);
+      lastError.allowProviderFallback = true;
+      if (candidateModel !== models.at(-1)) {
+        console.warn(`${label}: ${candidateModel} 返回空内容，自动尝试下一模型`);
+        continue;
+      }
+      throw lastError;
+    }
     activeModelByProvider.set(service.env, candidateModel);
     // 个别模型会用 ```json 包裹,去壳后再解析
     const cleaned = text.replace(/^```json\s*|\s*```$/g, "").trim();

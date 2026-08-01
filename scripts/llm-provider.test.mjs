@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   configuredLlmProviders,
+  isRetryableEmptyResponse,
   isRetryableFinishReason,
   isRetryableProviderResponse,
   modelCandidatesFor,
@@ -19,6 +20,13 @@ test("DeepSeek 默认先尝试当前 v4 模型并保留旧模型兼容", () => {
 test("结构化输出被截断时允许切换供应商重新完成该任务", () => {
   assert.equal(isRetryableFinishReason("length"), true);
   assert.equal(isRetryableFinishReason("stop"), false);
+});
+
+test("HTTP 200 空响应也允许切换模型或供应商", () => {
+  assert.equal(isRetryableEmptyResponse(undefined), true);
+  assert.equal(isRetryableEmptyResponse({ message: {} }), true);
+  assert.equal(isRetryableEmptyResponse({ message: { content: "   " } }), true);
+  assert.equal(isRetryableEmptyResponse({ message: { content: "{}" } }), false);
 });
 
 test("显式模型覆盖优先但不移除供应商安全回退", () => {

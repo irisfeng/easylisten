@@ -1,0 +1,59 @@
+name: 每日精选缺刊看门狗
+
+on:
+  schedule:
+    # 北京时间 09:17 做最终兜底；主任务及快照恢复通常已在此之前结束。
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+  issues: write
+
+concurrency:
+  group: daily-curation-watchdog
+  cancel-in-progress: false
+
+jobs:
+  ensure-published:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: 设定北京日期
+        run: echo "ISSUE_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
+
+      - name: 检查是否缺刊
+        id: guard
+        env:
+          FORCE_REGENERATE: "false"
+          SUPPLEMENT_PICKS: "0"
+        run: node scripts/check-daily-run.mjs
+
+      - name: 缺刊时触发一次有界补发
+        if: steps.guard.outputs.should_run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "${ISSUE_DATE} 仍未出刊，触发最终补发流水线"
+          gh workflow run daily-curation.yml -R "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME"
+
+      - name: 已出刊时清理当日告警
+        if: steps.guard.outputs.should_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选 ${ISSUE_DATE} 出刊失败 in:title" --json number,title \
+            --jq '.[] | select(.title | contains("每日精选") and contains("出刊失败")) | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "${ISSUE_DATE} 已确认出刊，看门狗自动关闭告警。"
+          done
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选自动恢复仍未完成 in:title" --json number,title \
+            --jq '.[] | select(.title == "⚠️ 每日精选自动恢复仍未完成") | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "${ISSUE_DATE} 已确认出刊，看门狗自动关闭恢复告警。"
+          done

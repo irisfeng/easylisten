@@ -22,7 +22,10 @@ concurrency:
 
 jobs:
   recover:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'failure' ||
+      github.event.workflow_run.conclusion == 'cancelled'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -51,6 +54,7 @@ jobs:
           cp -R _recovery_snapshot/content/. content/
           test ! -d _recovery_snapshot/public/audio || cp -R _recovery_snapshot/public/audio/. public/audio/
           test ! -d _recovery_snapshot/public/editorial || cp -R _recovery_snapshot/public/editorial/. public/editorial/
+          echo "ISSUE_DATE=$(jq -r '.[0].publishedAt' content/daily.json)" >> "$GITHUB_ENV"
 
       - uses: actions/setup-node@v4
         with:
@@ -65,7 +69,13 @@ jobs:
           npm run test:curation
 
       - name: 安装 ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: |
+          if command -v ffprobe >/dev/null 2>&1; then
+            ffprobe -version | head -1
+          else
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
 
       - name: 只补快照中的缺失音轨
         env:
@@ -95,11 +105,31 @@ jobs:
           done
           [ -n "$pushed" ] || { echo "三次推送均失败"; exit 1; }
 
+      - name: 恢复成功后关闭当日告警
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选 ${ISSUE_DATE} 出刊失败 in:title" --json number,title \
+            --jq '.[] | select(.title | contains("每日精选") and contains("出刊失败")) | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "${ISSUE_DATE} 已由自动恢复成功补发。"
+          done
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选自动恢复仍未完成 in:title" --json number,title \
+            --jq '.[] | select(.title == "⚠️ 每日精选自动恢复仍未完成") | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "${ISSUE_DATE} 已由自动恢复成功补发。"
+          done
+
       - name: 恢复失败告警
         if: failure()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue create -R "$GITHUB_REPOSITORY" \
-            --title "⚠️ 每日精选自动恢复仍未完成" \
-            --body "自动恢复未完成：失败运行可能没有生成快照，或快照续补后仍未达到发布契约。恢复日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          title="⚠️ 每日精选自动恢复仍未完成"
+          issue="$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)"
+          body="自动恢复未完成；每日看门狗会在最终补发窗口再检查一次。恢复日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          if [ -n "$issue" ]; then
+            gh issue comment -R "$GITHUB_REPOSITORY" "$issue" --body "$body"
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi

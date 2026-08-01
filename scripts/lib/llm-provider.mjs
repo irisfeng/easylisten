@@ -43,3 +43,11 @@ export function isRetryableProviderResponse(status, body = "") {
 export function isRetryableFinishReason(reason) {
   return reason === "length";
 }
+
+/**
+ * 上游偶尔会返回 HTTP 200 但不给 choices/content。这不是稿件问题，应该像
+ * 5xx 一样切换模型或供应商；否则一次瞬时空响应会让整期在写快照前终止。
+ */
+export function isRetryableEmptyResponse(choice) {
+  return typeof choice?.message?.content !== "string" || !choice.message.content.trim();
+}

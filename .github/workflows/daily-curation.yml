@@ -41,7 +41,7 @@ jobs:
   curate:
     runs-on: ubuntu-latest
     # 内容审核、付费语音与最长 14 分钟退避都要留在同一工作区续跑。
-    timeout-minutes: 65
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -115,10 +115,30 @@ jobs:
           ARK_MAX_IMAGES_PER_RUN: ${{ vars.ARK_MAX_IMAGES_PER_RUN }}
         run: node scripts/generate-editorial-images.mjs
 
+      # 在耗时最长的 ffmpeg/TTS 之前固化已审核节目单。即使后续任务被平台
+      # 超时取消，自动恢复也有可靠输入，不必重新选稿或再次做事实二审。
+      - name: 保存已审核节目单快照
+        if: inputs.repair_audio_slug == '' && steps.cost_guard.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-recovery-base-${{ env.ISSUE_DATE }}-${{ github.run_id }}
+          path: |
+            content/daily.json
+            content/editorial.json
+            public/editorial
+          if-no-files-found: error
+          retention-days: 3
+
       # 整篇拼接的句级时间轴用 ffprobe 量时长(跑机不自带)
       - name: 安装 ffmpeg
         if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: |
+          if command -v ffprobe >/dev/null 2>&1; then
+            ffprobe -version | head -1
+          else
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
 
       - name: 预生成神经语音
         id: synthesis
@@ -133,16 +153,17 @@ jobs:
           FORCE_TARGET_AUDIO: ${{ inputs.repair_audio_slug != '' && 'true' || 'false' }}
         run: node scripts/run-synthesis-with-recovery.mjs
 
-      - name: 保存待恢复的出刊快照
+      - name: 保存已生成的部分音轨
         if: steps.synthesis.outcome == 'failure'
         uses: actions/upload-artifact@v4
         with:
-          name: daily-recovery-${{ env.ISSUE_DATE }}-${{ github.run_id }}
+          name: daily-recovery-audio-${{ env.ISSUE_DATE }}-${{ github.run_id }}
+          # 同时列出 content 让 artifact 保留仓库相对目录；与 base 合并时
+          # daily.json 内容相同，partial audio 则覆盖到 public/audio。
           path: |
             content/daily.json
             content/editorial.json
             public/audio
-            public/editorial
           if-no-files-found: error
           retention-days: 3
 
@@ -179,6 +200,27 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue create -R "$GITHUB_REPOSITORY" \
-            --title "⚠️ 每日精选 ${ISSUE_DATE:-未知日期} 出刊失败" \
-            --body "定时出刊任务失败,今天的日刊没有发出。运行日志:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          title="⚠️ 每日精选 ${ISSUE_DATE:-未知日期} 出刊失败"
+          issue="$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)"
+          if [ -n "$issue" ]; then
+            gh issue comment -R "$GITHUB_REPOSITORY" "$issue" --body "再次失败：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$title" \
+              --body "定时出刊任务失败，自动恢复/补发将继续处理。运行日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+
+      - name: 出刊成功后关闭当日告警
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选 ${ISSUE_DATE} 出刊失败 in:title" --json number,title \
+            --jq '.[] | select(.title | contains("每日精选") and contains("出刊失败")) | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "${ISSUE_DATE} 已成功出刊，自动关闭告警。"
+          done
+          gh issue list -R "$GITHUB_REPOSITORY" --state open --search "每日精选自动恢复仍未完成 in:title" --json number,title \
+            --jq '.[] | select(.title == "⚠️ 每日精选自动恢复仍未完成") | .number' |
+          while read -r issue; do
+            [ -z "$issue" ] || gh issue close -R "$GITHUB_REPOSITORY" "$issue" --comment "后续补发已成功，自动关闭恢复告警。"
+          done

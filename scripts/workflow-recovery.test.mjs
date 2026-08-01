@@ -8,18 +8,26 @@ const recoveryWorkflowUrl = new URL(
   import.meta.url,
 );
 const repairWorkflowUrl = new URL("../.github/workflows/repair-audio.yml", import.meta.url);
+const watchdogWorkflowUrl = new URL(
+  "../.github/workflows/watch-daily-curation.yml",
+  import.meta.url,
+);
 
 test("每日任务在音频失败后先保存可续跑快照再停止发布", async () => {
   const workflow = await readFile(dailyWorkflowUrl, "utf8");
+  const baseSnapshot = workflow.indexOf("name: 保存已审核节目单快照");
   const synthesis = workflow.indexOf("id: synthesis");
-  const snapshot = workflow.indexOf("name: 保存待恢复的出刊快照");
+  const snapshot = workflow.indexOf("name: 保存已生成的部分音轨");
   const reject = workflow.indexOf("name: 音频不完整时停止发布");
 
+  assert.ok(baseSnapshot >= 0 && baseSnapshot < synthesis, "耗时音频前必须先保存节目单");
   assert.ok(synthesis >= 0, "音频步骤需要暴露 outcome");
   assert.ok(snapshot > synthesis, "失败快照必须在音频步骤之后");
   assert.ok(reject > snapshot, "必须先保存快照，再让主任务失败");
   assert.match(workflow, /actions\/upload-artifact@v4/);
   assert.match(workflow, /steps\.synthesis\.outcome == 'failure'/);
+  assert.match(workflow, /daily-recovery-base-/);
+  assert.match(workflow, /daily-recovery-audio-/);
 });
 
 test("失败恢复任务下载原运行快照并只补音轨后提交", async () => {
@@ -28,6 +36,7 @@ test("失败恢复任务下载原运行快照并只补音轨后提交", async ()
   assert.match(workflow, /workflow_run:/);
   assert.match(workflow, /workflows: \["每日精选"\]/);
   assert.match(workflow, /github\.event\.workflow_run\.conclusion == 'failure'/);
+  assert.match(workflow, /github\.event\.workflow_run\.conclusion == 'cancelled'/);
   assert.match(workflow, /actions\/download-artifact@v4/);
   assert.match(workflow, /path: _recovery_snapshot/);
   assert.match(workflow, /test -f _recovery_snapshot\/content\/daily\.json/);
@@ -38,6 +47,24 @@ test("失败恢复任务下载原运行快照并只补音轨后提交", async ()
   );
   assert.match(workflow, /node scripts\/run-synthesis-with-recovery\.mjs/);
   assert.match(workflow, /git add content\/daily\.json content\/editorial\.json public\/audio public\/editorial/);
+});
+
+test("缺刊看门狗每天只触发一次有界补发，并由成本闸门防止重复计费", async () => {
+  const workflow = await readFile(watchdogWorkflowUrl, "utf8");
+  assert.match(workflow, /cron: "17 1 \* \* \*"/);
+  assert.match(workflow, /node scripts\/check-daily-run\.mjs/);
+  assert.match(workflow, /steps\.guard\.outputs\.should_run == 'true'/);
+  assert.match(workflow, /gh workflow run daily-curation\.yml/);
+  assert.doesNotMatch(workflow, /force_regenerate=true/);
+});
+
+test("成功出刊与成功恢复都会自动关闭当日失败告警", async () => {
+  const daily = await readFile(dailyWorkflowUrl, "utf8");
+  const recovery = await readFile(recoveryWorkflowUrl, "utf8");
+  assert.match(daily, /出刊成功后关闭当日告警/);
+  assert.match(recovery, /恢复成功后关闭当日告警/);
+  assert.match(daily, /gh issue close/);
+  assert.match(recovery, /gh issue close/);
 });
 
 test("恢复任务没有快照时必须失败告警，不能显示假成功", async () => {
