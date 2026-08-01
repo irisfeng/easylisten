@@ -2,7 +2,7 @@ const PROVIDER_DEFINITIONS = [
   {
     env: "DEEPSEEK_API_KEY",
     base: "https://api.deepseek.com/v1",
-    models: ["deepseek-v4-flash", "deepseek-v4-pro", "deepseek-chat"],
+    models: ["deepseek-v4-flash", "deepseek-chat"],
   },
   {
     env: "DASHSCOPE_API_KEY",

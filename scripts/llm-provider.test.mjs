@@ -12,7 +12,6 @@ test("DeepSeek 默认先尝试当前 v4 模型并保留旧模型兼容", () => {
   const [provider] = configuredLlmProviders({ DEEPSEEK_API_KEY: "test" });
   assert.deepEqual(modelCandidatesFor(provider), [
     "deepseek-v4-flash",
-    "deepseek-v4-pro",
     "deepseek-chat",
   ]);
 });
@@ -34,7 +33,6 @@ test("显式模型覆盖优先但不移除供应商安全回退", () => {
   assert.deepEqual(modelCandidatesFor(provider, "custom-model"), [
     "custom-model",
     "deepseek-v4-flash",
-    "deepseek-v4-pro",
     "deepseek-chat",
   ]);
 });
