@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2026-08-03-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI+物理破解台风预报“黑箱”，路径误差最大降幅超30%",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-03",
+    "intro": "我国科学家首创FuXi-CNOPs集合预报系统，将自研AI气象大模型“伏羲”与非线性动力学方法深度融合，中期台风路径预报误差最大降幅达32.33%，显著超越国际主流系统。",
+    "paragraphs": [
+      "台风往哪走，是道难题。不同气象模型给出的路径，可能相差几百千米。人工智能虽然算得快，但要想真正派上用场，还得回答‘台风最有可能往哪走’‘它还有可能往哪里偏’，并说出所有这些可能性背后的理由，打破纯数据模型的‘黑箱’困局。",
+      "这套系统叫FuXi-CNOPs，由中国科学院大气物理研究所段晚锁研究员团队，联合复旦大学李昊研究员、中国气象局地球系统数值预报中心韩威研究员等共同研制。它融合我国自研AI气象大模型“伏羲”（FuXi）与自主发展的“正交条件非线性最优扰动”方法。集合预报相当于给台风路径做‘可能性推演’：在计算机中生成多个不同初始场景，模拟一组可能走向，再判断风险。相比国际标杆——欧洲中期天气预报中心IFS_EPS系统每次需51个初始场‘成员’，FuXi-CNOPs仅用31个‘成员’，就获得更高整体预报技能。",
+      "研究团队选取62个典型台风个例，开展91次集合预报对比试验。结果显示：24小时短时预报中，两个系统旗鼓相当；但在120小时中期预报中，FuXi-CNOPs优势持续扩大，路径误差最大降幅达32.33%；对台风移动速度和方向的刻画更稳定，量化预报不确定性的准确度最高提升29.2%。段晚锁研究员比喻：‘这相当于用更少的“兵力”完成了更精准的“侦察”。’",
+      "为什么这么厉害？秘密在于它生成的初始扰动不是随机数字，而是有明确物理含义的‘天气信号’。这些最优扰动的能量分布具有清晰规律：水平方向上高度集中在三个关键区域——台风内核区、螺旋雨带，以及副热带高压与台风环流相互作用较强的区域；这些地方正是台风结构演变与环境引导气流变化的敏感地带，微小初始误差一旦进入，就会被非线性放大。垂直方向上，扰动能量呈现独特‘双峰分布’。李昊研究员介绍：‘这好比给台风做了一次全身体检，哪里容易出问题，一目了然。’",
+      "FuXi-CNOPs无需额外训练超大规模模型，大幅降低计算资源消耗，更利于在业务预报中落地。研究团队表示，将在现有基础上引入模式扰动模块，同步优化初始误差和模式误差，进一步提升台风路径和强度预报技巧，并逐步拓展至暴雨、强对流等其他极端天气的集合预报场景。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569216.shtm",
+      "originalTitle": "“AI+物理”破解台风预报“黑箱”",
+      "publishedAt": "2026-08-02 08:56",
+      "retrievedAt": "2026-08-02T22:14:25.497Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-02T22:14:21.108Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "AI Plus Physics Opens Typhoon Forecast Black Box",
+      "intro": "Chinese scientists have built a smarter typhoon forecasting system by combining AI with physics.",
+      "paragraphs": [
+        "Typhoons are hard to predict. Different models can disagree by hundreds of kilometers. Even fast AI models struggle to explain their answers. Scientists want forecasts that are both accurate and understandable.",
+        "A team from the Chinese Academy of Sciences, Fudan University, and the China Meteorological Administration built a new system called FuXi-CNOPs. It pairs China's self-developed AI weather model 'FuXi' with a physics-based method called 'orthogonal conditional nonlinear optimal perturbation'. The system runs many possible storm paths using only 31 members, while Europe's top system uses 51.",
+        "In tests on 62 typical typhoons, the new system matched the European model for 24-hour forecasts. But for 120-hour forecasts, its path errors shrank by up to 32.33 percent. It also predicted storm speed and direction more steadily. Its uncertainty estimates improved by up to 29.2 percent.",
+        "The system finds the most sensitive parts of a typhoon: the inner core, spiral rain bands, and the interaction zone between the typhoon and the subtropical high. Small initial errors in these areas grow like snowballs due to nonlinearity. This precise targeting helps make forecasts more reliable.",
+        "This gives AI weather models a physically interpretable 'brain'. The system's initial perturbations carry clear physical meaning—not random numbers. It saves computing resources and is suitable for operational use. The team plans to extend it to heavy rain and severe convection.",
+        "So the next time a typhoon warning appears, remember: behind the forecast, there may be a smarter 'brain' at work."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-02T22:24:21.992Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-03/2026-08-03-ai.webp",
+      "alt": "抽象台风涡旋与数据网格的冷色插图",
+      "caption": "AI与物理融合的台风预报概念图",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-03-z3nr3c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国特有极危物种“川东灯台报春”在重庆阴条岭迁地保护成功",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-03",
+    "intro": "重庆阴条岭国家级自然保护区传来好消息：中国特有的极度濒危植物川东灯台报春，人工培育的植株已结出果实，迁地保护取得成功。",
+    "paragraphs": [
+      "最近，重庆阴条岭国家级自然保护区传出一个让人高兴的消息：一种名叫川东灯台报春的植物，通过人工栽培，已经结出了果实。这标志着极度濒危植物川东灯台报春迁地保护已取得成功。迁地保护，就是把植物从野外危险生境中迁移到人工可控环境中进行保育和繁育，以避免其野外灭绝。",
+      "川东灯台报春是中国特有植物，花色艳丽，具有较高的观赏价值。目前仅在野外发现5个极小种群，植株数量很少。",
+      "自2021年在阴条岭发现川东灯台报春野外种群后，重庆阴条岭国家级自然保护区管理事务中心联合重庆师范大学生命科学学院唐安军教授团队，从生长在海拔2200米至2300米的野生种群采集种子，在海拔约1450米的报春花繁育基地进行播种、栽培。经过精心管护，人工培育的川东灯台报春生长良好，多数植株已喜结硕果，可以采种扩繁。",
+      "除已开花结果的成年植株外，该报春花繁育基地还保存有2万余株川东灯台报春幼苗。‘从种子到种子’的轮回表明川东灯台报春的迁地保护在阴条岭报春花繁育基地是切实可行的。今后，科研人员将依托此繁育基地，分批次、‘多点’开展引种回归和监测工作，在相似生境区新建种群，助力川东灯台报春种群在自然条件下实现繁育。",
+      "重庆阴条岭国家级自然保护区位于重庆市巫溪县东部、大巴山脉腹地，保存了亚热带北部山地大量的珍稀濒危物种，是我国亚热带山地森林生态系统及其物种基因保存最完整的区域之一，具有很高的科研和保护价值。"
+    ],
+    "topics": [
+      "生命与演化",
+      "生态与保护"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/02/content_558120.html",
+      "originalTitle": "中国特有极危物种“川东灯台报春”在重庆阴条岭迁地保护成功",
+      "publishedAt": "2026-08-02",
+      "retrievedAt": "2026-08-02T22:16:11.081Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-02T22:16:09.227Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-03-8f5gx6",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "景德镇申遗成功：一座窑火不熄的千年瓷都",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-03",
+    "intro": "2026年7月25日，在韩国釜山举行的联合国教科文组织第48届世界遗产大会上，‘景德镇手工瓷业遗存’成功列入《世界遗产名录》——它不是一座封存历史的古城，而是窑火未断、匠人仍在、年轻人扎堆的‘活着的世界遗产’。",
+    "paragraphs": [
+      "一千多年来，景德镇的窑火从未熄灭。老作坊里师傅还在手把手带徒弟，70多岁的把桩师傅胡家旺，一辈子守在窑火旁，带着一拨拨年轻学徒，手把手教他们‘看火候’、‘听窑音’；高岭瓷土矿遗址还在，御窑厂的考古也在进行——整个手工制瓷产业链，从原料到烧成，至今都在完整运转。七十二道制瓷工序仍在延续。2026年7月25日，在韩国釜山举行的联合国教科文组织第48届世界遗产大会上，‘景德镇手工瓷业遗存’成功列入《世界遗产名录》，成为全球首个瓷主题的世界遗产。",
+      "为什么说它是‘活着的’遗产？因为这里窑火从未中断，遗产不是锁在玻璃柜里的展品，而是每天推开窗就能看见的生活。陶阳里历史文化旅游区实行社区、遗产区、景区‘三区合一’，108条老里弄得到很好保护；穿行在里弄，非遗传承人的手工作坊和年轻人开的咖啡馆相邻而立；清晨巷口飘着景德镇方言，傍晚陶溪川文创街区响起英语、法语、意大利语；景德镇有6万多名‘景漂’，高峰时有5000多名‘洋景漂’——来自意大利、埃及、俄罗斯的艺术家；加拿大艺术家雷菲力说：‘我们愿意帮助更多的人，语言不是障碍，手就是最好的翻译。’",
+      "一件官窑瓷器，要经历七十二道工序，稍有瑕疵就得当场砸碎掩埋。游客站在御窑厂遗址边上，脚下到处都是当年不达标准、被砸碎掩埋的官窑残片；旁边大屏循环播放七十二道制瓷工序动画，取土、揉泥、绘彩、多次入窑烧制每一步都清晰直观；还配有VR眼镜，戴上就能沉浸式看见几百年前御窑工匠制作贡瓷的鲜活场景。粉彩瓷传承人陈磬说：‘景德镇有四大传统名瓷工艺——青花、粉彩、玲珑和颜色釉，其中粉彩是最复杂的釉上彩工艺之一……一个学徒至少要经过三年的基础训练，才能真正掌握最基本的颜色和笔法……真正难的，不是入门，而是长期坚持。’",
+      "申遗成功后，变化悄然发生：弄堂口经营小店的业主说：‘老弄堂保护得越来越好，游客一年比一年多，申遗成功以后，全世界都会知道景德镇，我的生意也越来越好。’‘小巷讲堂’把申遗故事讲到社区，‘申遗夜校’开进了老弄堂；在陶阳里历史文化旅游区，游客可以亲手触摸泥坯、体验拉坯工序。宣传干部占维笑说：‘这里不只有瓷器，更有一群正在用双手让世界变慢一点的人。这里不只是一座城市，更是一种以瓷为名的生活方式——在这里，泥巴可以被塑造成任何形状，你的人生也是。’传承人陈磬说：‘来景德镇吧，做一个属于自己，拥有自己双手温度和痕迹的杯子或碗吧！’英文讲解员朱紫琦说：‘大家赶快来景德镇吧，我们一起亲手触摸来自1000年前的瓷器碎片，我们一起去看过去的生活，我们一起去拥抱未来，你就会听到这个文明的一个回声。’",
+      "世界遗产最终属于生活在其中的人。景德镇的魅力，不在它有多古老，而在它始终生长——窑火一直没灭，手艺一直在传，人一直留下来。它并不着急变成什么，它只是安静地生长着。申遗成功不是给过去一个名分，而是让未来的每一种生长，都有了更深厚、更辽阔的土壤。它守护的不只是陶瓷，更是人类对手艺、耐心和创造力的珍视。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/07/1142567",
+      "originalTitle": "窑火不熄：千年瓷都景德镇如何与世界连接——申遗成功注入新动力",
+      "publishedAt": "Fri, 31 Jul 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-02T22:18:32.440Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-02T22:18:29.214Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 26,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Jingdezhen: A Living City of Fire and Clay",
+      "intro": "For over a thousand years, kilns have burned day and night in Jingdezhen—the ancient Chinese city where porcelain is born.",
+      "paragraphs": [
+        "Jingdezhen is known as the 'Porcelain Capital.' Its kiln fires have never gone out. Masters still teach apprentices by hand. Young artists move there from all over the world to learn, create, and live among centuries-old workshops and cafés.",
+        "On July 25, 2026, UNESCO added 'Jingdezhen’s Handmade Porcelain Industry Heritage' to the World Heritage List. This makes it the first city in the world recognized for its full, living ceramic tradition—from mining clay to firing finished pieces.",
+        "What makes Jingdezhen special is that it’s not a museum frozen in time. People still live in historic alleyways. Craftsmen fire kilns using methods passed down for generations. Tourists walk past pottery studios and coffee shops on the same street. Even today, every step of making porcelain—there are seventy-two steps—is still done by hand.",
+        "Local storytellers say the real magic isn’t just in the finished bowls or vases. It’s in the quiet focus of an artist painting fine details. It’s in the sound of a master listening to the kiln to judge the heat. It’s in the patience needed to perfect one small skill over years—or even decades.",
+        "Now, more young people from Italy, Egypt, Canada, and beyond come to Jingdezhen to study ceramics. They don’t just learn technique. They learn a slower, more thoughtful way of working—and living. And when they leave, they carry that spirit with them, helping keep this ancient craft alive around the world.",
+        "Jingdezhen’s World Heritage status didn’t just bring a title. It brought pride, purpose, and new energy. Locals now see themselves as guardians—not just of old buildings, but of a living tradition. As one resident said simply: 'Jingdezhen has finally been seen by the world.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-02T22:25:45.560Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-03/2026-08-03-8f5gx6.webp",
+      "alt": "窑炉与瓷器碎片的抽象冷色插图",
+      "caption": "千年窑火与瓷都遗产的视觉隐喻",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-08-02-rxw4c9",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "戴松恩：他让更多人吃上白面",
@@ -3029,125 +3215,6 @@
       "alt": "Cliff with rock-cut niches in a barren landscape",
       "caption": "西夏悬葬石窟遗迹",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-19-s1atnn",
-    "title": "暑期研学怎么选？四步教你避开“只游不学”的坑",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-19",
-    "intro": "暑假到了，研学产品五花八门，怎么才能选出真正能学到东西的？中新网教育给出四步筛选法。",
-    "paragraphs": [
-      "暑假一到，各种研学营、夏令营的广告铺天盖地。有的打着“名校研学”的旗号，结果只是在校门口拍张照；有的号称“深度体验”，实际上就是换个地方玩手机。家长们花了钱，孩子却没学到什么，这就是典型的“只游不学”。",
-      "那怎么才能避开这些坑呢？中新网教育最近采访了多位教育专家，总结出四步筛选法。第一步：看课程设计。真正的研学产品，应该有明确的学习目标、课程大纲和教学方式，而不是把景点参观和自由活动拼在一起。比如，一个合格的“博物馆研学”，应该包含主题讲解、任务卡、讨论环节，而不仅仅是“带你看一圈”。",
-      "第二步：查师资团队。研学导师不是导游，也不是普通的大学生志愿者。优秀的研学产品会明确列出授课老师的资质，比如是否有教师资格证、相关学科背景或研学指导经验。如果宣传里只写“专业导师”却不提具体姓名和资历，那就要打个问号。",
-      "第三步：看师生比和安全保障。研学过程中，孩子需要足够的关注和指导。一般来说，师生比建议不低于1:10，对于低龄儿童或动手类项目，最好能达到1:5。同时，要确认主办方是否有完善的安全预案、保险和随队医护人员。",
-      "第四步：听过来人的口碑。不要只看宣传册上的“好评截图”，那些很可能是筛选过的。可以去家长群、社交平台搜一搜往期学员的真实反馈，问清楚“孩子回来之后有什么变化”“有没有觉得无聊或浪费时间”。如果多数反馈都说“孩子很开心但没学到东西”，那基本就是“只游不学”了。",
-      "总结一下：选研学产品，先看课程设计有没有学习目标，再看师资有没有资质，然后确认师生比和安全保障，最后查一查真实口碑。这四步走下来，基本就能筛掉大部分“假研学”。毕竟，花出去的是钱，但孩子的时间更宝贵。"
-    ],
-    "topics": [
-      "经济与商业",
-      "数字生活"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "url": "https://www.chinanews.com.cn/edu/2026/07-17/10661282.shtml",
-      "originalTitle": "暑期研学产品怎么选？四步避开“只游不学”",
-      "publishedAt": "Fri, 17 Jul 2026 13:10:09 +0800",
-      "retrievedAt": "2026-07-19T12:18:59.560Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime"
-    }
-  },
-  {
-    "slug": "2026-07-19-ai-mania-is-eviscerating-global-decision-making",
-    "title": "AI狂热正在掏空全球决策的质量",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-19",
-    "intro": "当高管们没自己用过AI却制定出以AI为中心的战略，当工程师靠让AI重写代码来保住饭碗——AI狂热如何扭曲了真实的决策？",
-    "paragraphs": [
-      "科技顾问尼克·苏雷什最近分享了一个令人哭笑不得的观察：他合作的大公司里，AI狂热正在严重侵蚀决策质量。他举了一个极端例子——一位高管承认自己从未使用过ChatGPT或任何AI工具，却为一家营收超过20亿美元的组织制定了完全以AI为中心的技术战略。换句话说，一个人对自己推销的东西毫无亲身体验，却决定了整个公司的技术方向。",
-      "更荒诞的案例来自一家设有“代币排行榜”的公司——员工用AI工具生成的代码量被公开排名。一位工程师透露，他的生存策略是：在Git仓库里复制一份代码，然后让AI把整个Go语言项目重写成Zig语言，只是为了显得自己在干活，好保住工作。这不叫效率提升，这叫表演性工作。",
-      "苏雷什还记录了一段和一位持怀疑态度的高管的对话。他问：为什么那些明显荒谬的说法在公司内部被反复传播，却没有人站出来反对？答案比预想的更复杂。部分原因确实是销售人员对着容易兴奋的客户胡说八道，但更关键的因素在于：客户公司的高管们自己也在公开宣称AI能带来100倍的生产力提升。如果供应商的高管站出来说“这些增长不现实”，那就会让客户的高管显得不专业，甚至被视为攻击或异端。结果呢？供应商的高管可能因此丢掉企业合同——而因为说了句实话就丢掉大单，是让自己被开除的好办法。",
-      "所以，整个生态陷入了一种奇特的沉默螺旋：没有人敢戳破泡沫，因为说实话的成本太高。高管们为了保住合同和面子，宁愿一起把荒谬的故事演下去。而真正的后果是，公司的战略资源被浪费在追逐不切实际的幻想上，而非解决真实的问题。",
-      "苏雷什的观察提醒我们：当一项技术被赋予过于夸张的期待时，它就不再是工具，而变成了一种信仰。信仰不需要证据，但它会让决策变得脆弱、短视，甚至危险。"
-    ],
-    "topics": [
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-      "originalTitle": "AI Mania Is Eviscerating Global Decision-Making",
-      "publishedAt": "2026-07-19T05:06:21+00:00",
-      "retrievedAt": "2026-07-19T12:19:09.195Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis"
-    },
-    "en": {
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "intro": "Simon Willison shares a spicy blog post by Nik Suresh, revealing how AI hype is wrecking decision-making at big companies, complete with anonymous anecdotes.",
-      "paragraphs": [
-        "Have you ever seen someone make a huge decision about something they know nothing about? Well, that's exactly what's happening with AI in big companies right now. Simon Willison, on his blog, points us to a post by Nik Suresh, who consults with large organizations and has seen some wild things. In one case, an executive at a company with over two billion dollars in revenue presented a whole technical strategy centered on AI. The catch? That executive had never even used ChatGPT or any AI tool in their life. Can you believe that?",
-        "And it gets even stranger. At one company, they have what's called a 'token leaderboard' – basically a competition to see who can use the most AI tokens. An engineer there said they were told to make a copy of their Go code repository and have the AI rewrite the whole thing in Zig, just so they could keep their job. It's like they're using AI for the sake of using AI, not because it actually helps.",
-        "But why is this happening? Nik Suresh asked a skeptical executive at an over-enthusiastic company why no one speaks up against these crazy AI claims. The answer is fascinating. It's partly because salespeople are saying ridiculous things to an audience that gets easily excited. But the bigger reason is that executives at their customers are making wild claims about achieving 100 times productivity. So if an executive at the vendor says those gains aren't realistic, it would make the customer's executive look bad. That could be seen as an attack, and might even get a contract cancelled. And nobody wants to get fired for being honest about something that doesn't really matter to the company's mission.",
-        "So, next time you hear someone raving about AI, remember: a lot of it might just be hype. Companies are making big decisions based on fear and pressure, not on solid thinking. As Simon Willison puts it, this AI mania is eviscerating global decision-making. And that's something to think about."
-      ]
-    },
-    "image": {
-      "src": "/editorial/2026-07-19/2026-07-19-ai-mania-is-eviscerating-global-decision-making.webp",
-      "alt": "Brain with circuit pattern overlay",
-      "caption": "AI狂热侵蚀决策质量",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-19-1500",
-    "title": "浙江绍兴稽中遗址出土1500余枚简牍，揭秘东汉三国时期会稽郡",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-19",
-    "intro": "浙江绍兴稽中遗址出土了1500多枚简牍，上面写着汉代《仓颉篇》、户籍、账簿和法律文书，像一本“东汉至三国时期会稽郡的鲜活档案”。",
-    "paragraphs": [
-      "想象一下，你翻开一本两千多年前的笔记本，上面记着当时的人名、账目、法律条文——这不是电影情节，而是真实发生的考古发现。在浙江绍兴，考古学家从稽中遗址里挖出了1500多枚简牍，也就是古人用来写字的竹片和木片。这些简牍保存得很好，上面写的字还能认出来，内容有汉代识字课本《仓颉篇》、户籍名单、账本和法律文书。考古队说，这简直就是东汉到三国时期会稽郡的“活档案”，让我们能直接看到当时人们的生活和管理。",
-      "稽中遗址可不简单。它被评为2025年全国十大考古新发现之一，被认为是越国的都城和汉六朝时期的会稽郡所在地。也就是说，这里曾经是越国的政治中心，后来汉朝和六朝时期，它又是会稽郡的官府所在地。这次出土的简牍，正好印证了这一点。比如，简牍上写有“会稽”“山阴”等地名，说明当时这里就是会稽郡的核心区域。",
-      "这些简牍里最有意思的是《仓颉篇》。这是汉朝小朋友学认字用的课本，类似今天的《三字经》或识字卡片。考古学家发现，简牍上的《仓颉篇》内容跟之前出土的版本不太一样，可能是一个更古老的抄本。这就像你突然找到一本爷爷小时候用过的语文书，能帮我们了解两千年前的人是怎么学写字的。",
-      "除了识字课本，还有户籍和账簿。户籍简上记着每户人家有多少人、叫什么名字，甚至还有年龄和职业。账簿简则写着官府收了多少钱粮、花在哪里。这些信息对历史学家来说太珍贵了，因为它能告诉我们当时的社会结构、人口分布和经济活动。比如，从户籍里可以看出一个家庭有多少劳动力，从账簿里能知道官府主要花销在哪些地方。",
-      "当然，法律文书也很重要。它们记录了当时的法律条文和判案记录，让我们知道东汉和三国时期的法律是怎么执行的。比如，简牍上可能写着某人因为偷东西被判了几年劳役，或者两家因为土地纠纷打官司。这些细节让历史不再是干巴巴的年代和事件，而是活生生的人和故事。",
-      "这次发现还有一个特别的地方：简牍的出土地点就在绍兴市区，也就是古代会稽郡的中心。这说明当时的官府档案就保存在这里，后来因为火灾或战争被埋在了地下。考古学家说，这些简牍不仅证明绍兴在两千年前就是东南地区的政治文化中心，还让我们对越国和会稽郡的历史有了更具体的认识。未来，他们还会继续研究这些简牍，说不定还能发现更多秘密。"
-    ],
-    "topics": [
-      "历史"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-19/10662536.shtml",
-      "originalTitle": "浙江绍兴稽中遗址出土简牍1500余枚 讲述会稽山阴历史",
-      "publishedAt": "Sun, 19 Jul 2026 19:33:10 +0800",
-      "retrievedAt": "2026-07-19T12:19:31.367Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis"
     }
   }
 ]
