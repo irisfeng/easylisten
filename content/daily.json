@@ -1,5 +1,266 @@
 [
   {
+    "slug": "2026-08-04-b",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "离开川大后，他在B站讲“量子物理”意外走红",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-04",
+    "intro": "一位理论物理学家离开四川大学后，在B站用白板和马克笔讲量子场论与粒子物理，两个月收获10万粉丝。",
+    "paragraphs": [
+      "50秒。这是理论物理学家李政阳在B站发布的第一条视频时长。镜头里的他面容消瘦，穿着一件灰黑色秋衣，头发像“鸡窝”一样支棱着，身后是一面白墙。怎么看，都不像一个UP主（视频内容创作者）。没人想到，这个看上去与流量毫无关系的人，竟会在短短两个月内收获10万粉丝。更没人想到，就在几个月前，他因基金申请失败、岗位未能续约，离开了四川大学。",
+      "李政阳出生于中国台湾，10岁移民新西兰，一路读到博士，在巴西、印度完成博士后研究，2019年进入四川大学。4月22日，他在B站上传第一条视频，缓慢介绍自己：“Hello大家好，我是李政阳。我是一名物理学家，主要从事量子场论和粒子物理的工作。”他的课程设置极为“硬核”，常从物理学的微观世界讲起，掺杂着大量公式和代数符号；形式一板一眼，话语平铺直叙，没有比喻；唯一的互动是他指向板书位置、注视镜头的讲解动作。弹幕迅速刷出：“观前郑重提醒：up主是真科学家，真博士后，没有玩梗，没有玩梗”“坏了，这不是民科，是真大佬！”有人问他如何入门量子物理，有人和他讨论公式背后的数学细节，还有人一边“自嘲”一边敬畏地围观“大佬”们的讨论。",
+      "为什么要成为UP主？这还要从加入宇算科技说起。2025年，是李政阳在四川大学理论物理中心的第六年；作为助理研究员的他未能申请到新的基金项目，因此不能续约。今年3月，他进入一家科学计算相关的人工智能（AI）公司——宇算科技，尝试将AI应用于理论物理中的计算问题。为推广公司的AI智能体工作空间，他与团队决定在B站科普物理知识，借助智能体工作空间生成的可视化产品，将量子场论与粒子物理进行更通俗化的解释。所谓“通俗化”，是指他每期视频评论区留下的AI可视化图画。没承想，真干起来以后收获了许多回应与肯定。如今，他在重庆居家办公，早晨打开电脑后先看B站评论、回复网友问题，随后处理公司工作，其间照料几个月大的儿子——宝宝以数学概念“李群”命名；傍晚或晚上开始录制新视频。",
+      "研究的起点可以追溯到他在新西兰坎特伯雷大学读博时。当时，他与导师Dharam Vir Ahluwalia提出了一种新的量子场论理论，希望描述一种新的基本粒子形式。但在后续研究中，一个关于旋转对称性的约束问题始终没有得到解决。从博士阶段开始，到后来在川大工作期间，他和导师仍然通过视频通话不断寻找突破的方法。最终，在一次与导师的视频讨论中，他们意识到，问题可能出在理论所包含的自由度不足上。增加相应的自由度后，理论满足了旋转对称性的要求，这个长期困扰他们的问题终于得到了解决。",
+      "目前，李政阳在公司中主要承担首席科学家的工作，他关注的方向之一是利用AI提升费曼图计算的效率。费曼图是粒子物理中描述基本粒子相互作用的重要工具，每一个图形结构都对应着一个数学表达式，用于计算粒子碰撞过程中的概率分布。随着计算精度提高，需要考虑的费曼图数量不断增加，计算复杂度也随之迅速增长。他认为，AI进入理论物理研究，正在改变研究者处理问题的方式：过去靠数学推导和传统计算方法，如今AI为复杂科学计算提供了新可能。他希望利用AI辅助已有理论计算过程，提高效率，并探索其中是否存在新规律。在公司官网上的自我介绍中，他写下一句话：“只有做物理的人才是物理学家。”这句话来自他的导师Ahluwalia。导师曾告诉他，一个人如果顶着物理学家的头衔，却早已不再真正做物理研究，那将不再是物理学家；一旦开始盘算自己要发多少篇文章，他已经不再是一名真正的科学家了。",
+      "李政阳坦言：“我做科研的过程主要是为了自我满足，能把这个结果做出来，我就非常高兴。”在B站视频中，他也秉持着这样一种对真理的“执拗”——极为少见的比喻，大量的原始公式。“我知道有很多好的科普者善于比喻，但这并不适合我，我还是更想保证讲述的正确性。”他告诉《中国科学报》。十几岁时，他曾在图书馆读到一本关于霍金与彭罗斯讨论时间、空间以及量子引力问题的书，当时完全无法理解，但其中的数学符号和物理概念却让他产生了兴趣，也因此走入了物理世界。如今，他希望通过自己的视频，让更多年轻人也能够接触这些知识。就像他在视频《场的运动方程》中所说：“我这里讲的这些内容，我相信很多同学其实看不懂，我把这些东西讲出来，目的也不是让你们真正地理解这些知识，只是告诉你们这些知识存在，以便未来进一步学习。”"
+    ],
+    "topics": [
+      "物理与量子",
+      "教育与传播"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569265.shtm",
+      "originalTitle": "离开川大后，他在B站讲“量子物理”意外走红",
+      "publishedAt": "2026-08-03 20:20",
+      "retrievedAt": "2026-08-03T22:23:48.640Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:23:46.929Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Physicist Left Sichuan University. Then He Went Viral on Bilibili.",
+      "intro": "After losing his academic position, a theoretical physicist began sharing quantum physics on Bilibili—and unexpectedly gained 100,000 fans in two months.",
+      "paragraphs": [
+        "Li Zhengyang's first Bilibili video was 50 seconds long. He looked thin, wore a grey-black autumn top, and had messy hair like a 'bird's nest'. Behind him was a plain white wall. He did not look like a typical online creator. The video quickly gained millions of views.",
+        "On April 22, he introduced himself: 'Hello everyone, I am Li Zhengyang. I am a physicist, working on quantum field theory and particle physics.' He shared his background: born in Taiwan, moved to New Zealand at age ten, earned a PhD, completed postdoctoral research in Brazil and India, and joined Sichuan University in 2019. His videos featured heavy use of formulas and algebraic symbols. He used no metaphors.",
+        "He wrote formulas on a whiteboard. His delivery was straightforward and unembellished. Viewers called it 'anti-internet'. Comments poured in: people asked how to start learning quantum physics. Others discussed mathematical details. His eight-month-old son—named 'Li Group' after a math concept—sometimes made baby sounds during recordings.",
+        "His popularity surprised him. He said he felt 'overwhelmed with gratitude'. He compared his sudden fame to that of mathematician Wei Dongyi. His wife Zhou Siyi, an associate professor at Chongqing University's School of Physics, commented on his videos using her account 'String Theory World'.",
+        "In 2025, after six years at Sichuan University, he failed to secure a new research fund. His contract was not renewed. In March 2025, he joined Yusan Technology, an AI company focused on scientific computing. To promote its AI-powered workspace, he began making physics videos on Bilibili. He used AI-generated visualizations to explain quantum field theory and particle physics.",
+        "For ten years, he worked on a new quantum field theory with his advisor Dharam Vir Ahluwalia. They started it during his PhD at the University of Canterbury in New Zealand. A rotational symmetry problem remained unsolved until they realized the theory lacked sufficient degrees of freedom. After adding them, the problem was resolved. His advisor died before the paper was formally published.",
+        "He now works from home in Chongqing. Each day, he checks Bilibili comments and replies to questions. Then he handles company tasks. He cares for his infant son. He records new videos in the evening or at dusk. He says he is not highly scheduled. He works 'by mood'. He believes: 'Only those who do physics are physicists.' That phrase came from his advisor. His advisor said one stops being a physicist when they stop doing physics. He does research for personal fulfillment. As a teenager, he read a book about Hawking and Penrose. He could not understand it. But the math symbols fascinated him. Now he hopes his videos help young people discover physics."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:35:58.937Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-04-scientists-say-alloy",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "合金：混出来的金属",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-04",
+    "intro": "一种把金属混在一起的材料，正在悄悄撑起高楼和首饰——它就是合金。",
+    "paragraphs": [
+      "合金听起来像化学课上的词，其实你身边到处都是：建造高楼的钢材、青铜、黄铜，都是合金。简单说，合金就是一种以金属为基础的混合物。有的合金是几种金属混在一起，有的则是金属和某些非金属混合而成。金属工作者可以通过调整配方，让合金拥有不同的性能，做出刚好适合的材料。",
+      "拿最常见的钢来说，它主要由铁和碳组成。铁本身是一种金属元素，加入碳之后，铁会变得更强。于是，这种又强又韧、还不容易断裂的合金，既能做成薄薄的刀片，也能支撑起最高的摩天大楼。",
+      "只含碳和铁的钢叫碳钢，但化学家常常会再加点别的元素来微调性能。比如加入少量的铬，就得到了不锈钢。铬会和空气中的氧气结合，形成一层‘铬锈’。严格说，铁锈也是金属和氧气结合的结果，但铁锈会一片片剥落，铬锈却不会。它反而像屏障一样保护着里面的铁，让钢铁不再怕生锈。",
+      "纯银是一种金属元素，但市面上说的‘标准纯银’，其实是合金。银又亮又不容易生锈，还能导电，是现代电子工业的重要材料。问题是，纯银太软，和黄金一样，直接做成首饰容易变形。所以金属工作者会掺入一点铜或其他金属来增加强度。几乎所有的银首饰都是合金，而且必须含有92.5%的银，才能被叫作‘标准纯银’。",
+      "用稀土金属做成的合金，可以制造出超强磁铁、超导体等神奇材料。"
+    ],
+    "topics": [
+      "物质与数学",
+      "材料科学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/scientists-say-alloy-definition-pronunciation",
+      "originalTitle": "Scientists Say: Alloy",
+      "publishedAt": "Mon, 03 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-03T22:24:55.934Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:24:36.049Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-04-what-has-driven-deforestation-in-the-21st-centur",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "21世纪，森林消失的最大元凶是什么？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-04",
+    "intro": "过去二十年，世界每年砍掉的森林面积相当于一个哥斯达黎加。谁才是最大的元凶？一项发表于《自然·食品》的研究给出了答案。",
+    "paragraphs": [
+      "过去二十年，世界以每年约一个哥斯达黎加（5.1百万公顷）的速度砍伐森林。最大的驱动因素是农业扩张——这一结论已延续数千年，并持续至今。最近发表在《自然·食品》上的一项研究，由查德拉坎特·辛格和马丁·佩尔森完成，量化了不同农产品对全球毁林的贡献。",
+      "该研究显示：牛肉生产是单一最大驱动因素，占2001–2023年全球毁林总量的41%。养牛需大量牧场用地，因此全球牛肉需求增长直接推动了牧场扩张。仅牛肉一项，本世纪已导致超过两个英国面积的森林被毁。",
+      "第二大驱动因素是油籽（主要为大豆与棕榈油），占16%；林业种植园与谷物生产各占约12%。毁林地理分布高度集中：超一半的牛肉相关毁林发生在巴西；印尼棕榈油生产造成全球6%的毁林；而非洲则在主粮作物（如谷物、根茎类）及经济作物（如咖啡、可可、水果、坚果）相关毁林中占比突出。",
+      "巴西牛肉生产单独解释了本世纪全球四分之一的毁林。这些毁林主要集中在地球上生物多样性最丰富的生态系统——亚马逊雨林与塞拉多草原。印尼与马来西亚几乎供应全球全部棕榈油，其中印尼一国即贡献6%的全球毁林。在撒哈拉以南非洲，因单位面积粮食产量远低于世界其他地区，粮食增产主要依靠扩大耕地面积，而非提升生产力，从而导致大量森林被转为农田。",
+      "值得指出的是，毁林趋势并非不可逆转。棕榈油相关毁林在2000年代至2010年代初达高峰，但过去十年已大幅下降。这得益于企业承诺（如联合利华、雀巢采纳‘零毁林、零泥炭、零剥削’政策）、认证体系（如可持续棕榈油圆桌倡议RSPO）扩展，以及印尼（2018年起暂停发放新油棕种植许可）和马来西亚（设定种植面积上限）的政府行动。",
+      "这些协同努力证明：只要清晰识别毁林所涉商品与地域，系统性减缓是可行的。这也正是该研究数据的核心价值——为有针对性的保护行动提供事实基础。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球时事"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Our World in Data",
+      "region": "international",
+      "url": "https://ourworldindata.org/what-has-driven-deforestation-in-the-21st-century",
+      "originalTitle": "What has driven deforestation in the 21st century?",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "retrievedAt": "2026-08-03T22:25:38.862Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:25:36.902Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "What Is Driving Deforestation in the 21st Century?",
+      "intro": "A new study reveals which foods are cutting down the world's forests.",
+      "paragraphs": [
+        "Over the last two decades, the world has cut down forests at a rate of roughly one Costa Rica per year. The largest driver of deforestation has been the expansion of agriculture. A recent study published in Nature Food by Chandrakant Singh and Martin Persson answered which products, in particular, have been responsible.",
+        "Beef is the single largest contributor, accounting for 41% of global deforestation between 2001 and 2023. Cattle need a lot of land for grazing, which means the growing global demand for beef has led to the expansion of pasture. Beef alone has led to the destruction of more than two UK-sized areas of forest this century. More than half of deforestation for beef production occurred in Brazil. In fact, one-quarter of all deforestation this century was driven by Brazilian beef production alone. This clearance has been centered on the Amazon rainforest and the Cerrado savanna.",
+        "The second-largest driver was oilseeds, dominated by deforestation for soy and palm oil. Almost all of the world’s demand for palm oil has been met by just two countries — Indonesia and Malaysia. Six percent of global deforestation has been caused by Indonesian palm oil production. Forest plantations have been a large driver in parts of Asia and North America, particularly in the United States and China.",
+        "For most other products — including cereals, roots and tubers, vegetables, fruits and nuts, coffee, cocoa and spices — it’s Africa where the most forest has been lost. Countries across sub-Saharan Africa achieve very low crop yields compared to the rest of the world. As a consequence, most of the growth in food production has come from using more land, rather than using land more productively. This has come at the cost of forests.",
+        "Deforestation for palm oil has fallen substantially over the last decade. Many large food companies adopted 'No Deforestation, No Peat, No Exploitation' policies. Certification schemes, such as the Roundtable on Sustainable Palm Oil, expanded. Governments in Indonesia and Malaysia also took action: Indonesia launched a moratorium on new oil palm plantation permits in 2018; Malaysia capped the area allocated to plantations. This combination of corporate commitments, certification, government action, and public pressure has contributed to reduced deforestation for palm oil."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:36:32.619Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-04-szqbup",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "草原上的荣誉项圈：搏克手的将嘎",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-04",
+    "intro": "在内蒙古锡林郭勒盟东乌珠穆沁旗的那达慕大会上，老搏克手将佩戴一生的将嘎授予年轻力士，这是搏克精神代代相传的庄严仪式。",
+    "paragraphs": [
+      "2026年8月1日，锡林郭勒盟第十九届搏克排位赛开幕式上，几位年轻力士站在场地中心，接过了老搏克手们递来的将嘎。这是东乌珠穆沁旗那达慕大会开幕的固定仪式：年长、退役的老牌搏克手，会把自己佩戴一生的将嘎授予品行、实力兼优的年轻选手，代表搏克精神代代相传。",
+      "将嘎是搏克手的专属荣誉项圈，由蓝、白、绿、红、黄五色彩绸缠绕制成。五种颜色象征着自然界中的五种元素，也承载着搏克手数十年的坚守与荣光。‘搏克’取蒙古语‘坚不可摧、恒久存续’之意。",
+      "24岁的搏克手巴图阿拉达尔在本次仪式上首次获授将嘎。他来自东乌珠穆沁旗额吉淖尔镇，练习搏克四年，自幼接触自由式摔跤，常年参与全区、全国摔跤赛事。按照传统规则，若在128人规模搏克赛事上斩获四次以上冠军，则有资格获戴将嘎。",
+      "东乌珠穆沁旗文体旅游广电局副局长乌恩其介绍：‘能够接过将嘎的人，既要赛场成绩突出，更要品行端正，扛起传承民族体育文化的责任。’脖颈上的将嘎，不只是搏克手终身最高荣誉，更是来自群众、来自草原的认可。",
+      "作为‘搏克之乡’，东乌珠穆沁旗群众摔跤基础深厚，持续向各级专业队伍输送人才。早在1984年，当地便牵头成立搏克协会；本届赛事设有儿童搏克组别，让草原少年拥有同台竞技平台，为搏克储备新生力量。",
+      "仪式上，送出将嘎的老搏克手们会被授予‘达尔汗搏克’的荣誉称号。这是一个草原跤手至高无上的荣誉，也是搏克技艺与精神在老、中、青三代之间形成的完整传承。"
+    ],
+    "topics": [
+      "体育",
+      "文化传承"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260803/98e7ab05519c40278ae598d679516d9e/c.html",
+      "originalTitle": "被传递的将嘎",
+      "publishedAt": "2026-08-03T10:21:14+08:00",
+      "retrievedAt": "2026-08-03T22:26:16.485Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:26:10.773Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-04-x-70",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "香港性罪行法律滯後55年終改革，倖存者仍想爭取的事",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-04",
+    "intro": "2026年7月7日，港府提出「完善香港的性罪行法例」修訂草案，啟動公眾諮詢。這是自1970年代沿用至今、主要源自英格蘭《1956年性罪行法令》的法例，過去55年從未更新。",
+    "paragraphs": [
+      "香港現行性罪行法例主要沿用1970年代訂立的英格蘭《1956年性罪行法令》，過去55年從未更新，意味法庭正執行一套70年前的性罪行法律框架；該框架並無針對持續性侵犯兒童作出獨立罪行分類。",
+      "阿Mui自13歲起被繼父持續性侵7年，共上百次；最終檢控方僅將其行為概括為5項控罪——兩項非禮、兩項強姦以及一項向16歲以下兒童作猥褻行為罪；她表示：『人們看新聞，只會覺得他在我小時候對我做了那幾件事，長大後就沒有。感覺就像我有好多說話未講完，卡在這裡。』",
+      "本次修訂基於現行法律滯後現實的問題，旨在推動制度更新；草案正進行公眾諮詢。",
+      "阿Mui曾鼓起勇氣在電腦繪畫舊居平面圖，以不同顏色圓點標記被插入身體及被非禮的地點；她通宵錄口供從晚上8時至翌日早上7時，社工在旁陪伴；這只是性暴力受害人漫長舉證過程的其中一步。"
+    ],
+    "topics": [
+      "社会正义",
+      "法律与人权"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20260803-hongkong-sexual-offences-laws-reform-long-awaited/",
+      "originalTitle": "「我們都是X」：香港性罪行法律滯後70年終改革，倖存者仍想爭取的",
+      "publishedAt": "Sun, 02 Aug 2026 23:00:47 GMT",
+      "retrievedAt": "2026-08-03T22:30:48.343Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-03T22:29:41.012Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-08-03-ai",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "AI+物理破解台风预报“黑箱”，路径误差最大降幅超30%",
@@ -2990,231 +3251,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-07-20-spain-argentina-final",
-    "title": "加时赛第106分钟破门，西班牙队1比0击败阿根廷夺冠",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-20",
-    "intro": "2026年世界杯决赛，西班牙队与阿根廷队在常规时间互交白卷；费兰·托雷斯在加时赛第106分钟打破僵局，帮助西班牙队第二次捧起大力神杯。",
-    "paragraphs": [
-      "这场决赛在纽约新泽西体育场举行。常规时间内，西班牙队完成十五次射门，却始终没有进球；阿根廷队也没有完成射门。九十分钟结束时，比分仍是零比零。",
-      "下半场补时阶段，阿根廷队的恩佐·费尔南德斯两黄变一红被罚下。比赛进入加时赛后，尼科·威廉斯曾在第九十五分钟把球送入球门，但因为此前有西班牙球员犯规，进球被判无效。",
-      "真正打破僵局的是加时赛下半场。第106分钟，西班牙队连续进攻撕开防线，费兰·托雷斯在禁区内劲射破门。西班牙队把一比零的领先保持到终场，没有让比赛进入点球大战。",
-      "这是西班牙队继2010年后第二次夺得世界杯冠军。中新网还提到，西班牙队本届赛事总共只丢一球，刷新了世界杯冠军在单届赛事中的最少失球纪录。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "url": "https://www.chinanews.com.cn/ty/2026/07-20/10662650.shtml",
-      "originalTitle": "费兰·托雷斯建功，西班牙队获世界杯冠军",
-      "publishedAt": "Mon, 20 Jul 2026 06:37:55 +0800",
-      "retrievedAt": "2026-07-19T22:52:43.719Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "manual-verified",
-        "reviewedAt": "2026-07-19T23:27:32Z",
-        "reviewer": "轻听编辑部",
-        "evidenceCount": 4,
-        "correctionCount": 4
-      }
-    }
-  },
-  {
-    "slug": "2026-07-20-toronto-raccoons-verified",
-    "title": "多伦多：全世界的城市浣熊之都",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-20",
-    "intro": "作家丹·韦布在多伦多寻找浣熊留下的痕迹，借这次城市漫游观察一种动物如何适应水泥森林。",
-    "paragraphs": [
-      "在加拿大多伦多，浣熊几乎无处不在。它们的学名是 Procyon lotor。原文解释，这个拉丁名带有“在狗之前、会清洗”的意思，来自人们观察到的浣熊似乎会清洗食物的习惯。",
-      "这些小家伙已经把城市里最灰色的角落都变成了它们的野生乐园。对它们来说，城市比原来的森林老家更适合生活。多伦多人相信，这座城市里没有浣熊征服不了的地方。",
-      "为了验证这个说法，作者决定去一个他认为最城市、最水泥、最没有生气的地方——联合车站。这是多伦多铁路和公交系统的中心，也是通往市中心密密麻麻的网格状商业区的大门。他想：如果在那里都能找到浣熊的踪迹，那就很能证明，这些动物已经征服了这座大都市里最不友好的微小栖息地。",
-      "于是，他在晚高峰时间坐上了地铁——就像几天前一只浣熊做过的那样。那只浣熊因为在地铁里表现得很乖，还受到了人们的表扬。作者从地铁站出来，挤在密密麻麻的人群里，开始寻找浣熊的身影。"
-    ],
-    "topics": [
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Literary Hub",
-      "url": "https://lithub.com/welcome-to-toronto-world-capital-of-the-urban-raccoon/",
-      "originalTitle": "Welcome to Toronto, World Capital of the Urban Raccoon",
-      "publishedAt": "2026-07-15",
-      "retrievedAt": "2026-07-19T22:52:50.903Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "author": "Dan Werb",
-      "factReview": {
-        "status": "manual-verified",
-        "reviewedAt": "2026-07-19T23:27:32Z",
-        "reviewer": "轻听编辑部",
-        "evidenceCount": 4,
-        "correctionCount": 2
-      }
-    },
-    "en": {
-      "title": "Welcome to Toronto, World Capital of the Urban Raccoon",
-      "intro": "If you ask anyone in Toronto, they'll tell you raccoons are everywhere, even in the most unexpected places.",
-      "paragraphs": [
-        "Dan Werb, writing for Literary Hub, explains that raccoons, known scientifically as Procyon lotor—Latin for 'before-dog washer,' because they seem to wash their food—have taken over Toronto. These creatures have turned even the grayest urban spaces into wild landscapes that suit them better than their original woodland homes. There's no part of the city they can't master, or so people believe.",
-        "To test this theory, Werb decided to visit the most urban, concrete, and dead place he could think of: Union Station. This is the heart of the city's rail and transit system, a doorway to the sprawling downtown district. If he could find raccoon traces there, it would be strong evidence that these animals have conquered even the least welcoming micro-habitats in the metropolis.",
-        "So he took the subway during rush hour, just as a raccoon had done a few days earlier—that raccoon was praised for being well-behaved. He emerged amid a crush of human bodies, searching for signs of the city's unofficial mascot."
-      ]
-    }
-  },
-  {
-    "slug": "2026-07-20-radar-map-shows-wildfires-in-canada-blanketing-t",
-    "title": "加拿大野火烟雾笼罩美国，雷达地图揭示污染范围",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-20",
-    "intro": "加拿大正经历超过800起活跃野火，产生的烟雾飘过边境，导致美国中西部和东北部超过1亿人面临空气质量警报。",
-    "paragraphs": [
-      "如果你闻到空气里有烧焦的味道，那很可能来自加拿大。目前，加拿大正在燃烧着超过800场野火，其中靠近美国边境的那些，已经把大量烟雾送到了美国中西部和东北部。美国国家气象局发布了一张卫星图像，清晰地显示了烟雾的覆盖范围——从加拿大南部中心地区到明尼苏达州北部，一路蔓延到美国多个州。",
-      "这场烟雾有多严重？在宾夕法尼亚州和马里兰州等受影响的地区，空气质量指数已经超过了200，达到了紫色警报级别——这是第二严重的等级。国家气象局警告说，所有人应该减少户外剧烈运动和锻炼，而儿童、老人以及患有心脏病、哮喘或其他肺病的人，应该完全避免户外活动。",
-      "野火产生的烟雾里含有非常微小的颗粒物，直径不到2.5微米——比头发丝还细得多。这些颗粒能直接进入人的肺部，引起炎症。世界卫生组织指出，它们会加重肺、心脏、大脑、神经系统、皮肤、肠道、肾脏、眼睛、鼻子和肝脏已有的疾病。",
-      "去年发表在《自然》杂志上的一项研究估计，加拿大野火烟雾导致北美地区约5400人短期死亡，而如果算上长期影响，北美和欧洲的慢性死亡人数可能高达6.43万人。野火不仅释放大量二氧化碳，加剧全球变暖，而气候变暖又让野火更容易发生——这是一个很难打破的恶性循环。",
-      "好消息是，天气预报说，随着天气系统和风向变化，东北部各州的烟雾状况下周可能会有所缓解。但野火本身还会继续燃烧——去年的野火季节一直持续到了11月。"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "url": "https://nautil.us/radar-map-shows-wildfires-in-canada-blanketing-the-us-with-smoke-1282776/",
-      "originalTitle": "Radar Map Shows Wildfires in Canada Blanketing the US with Smoke",
-      "publishedAt": "Fri, 17 Jul 2026 21:00:00 +0000",
-      "retrievedAt": "2026-07-19T22:52:57.272Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "manual-verified",
-        "reviewedAt": "2026-07-19T23:27:32Z",
-        "reviewer": "轻听编辑部",
-        "evidenceCount": 5,
-        "correctionCount": 0
-      }
-    }
-  },
-  {
-    "slug": "2026-07-20-404-ai",
-    "title": "在家跑AI模型，选显卡还是迷你电脑？先搞懂内存的两个关键指标",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-20",
-    "intro": "想在家运行AI大模型，该买独立显卡还是迷你电脑？答案可能出乎你的意料。关键在于理解内存的两个核心指标：容量和带宽。",
-    "paragraphs": [
-      "想在家里运行AI模型，目前有两种主流硬件选择：一种是独立显卡，比如英伟达的RTX 5090，它拥有32GB显存，算力高达每秒104.8万亿次浮点运算，售价约3万元人民币；另一种是采用板载芯片组的迷你电脑，比如搭载AMD Ryzen AI Max+ 395芯片的型号，它自带128GB内存，算力只有每秒14.8万亿次，售价约2万元。",
-      "单看算力，独立显卡是迷你电脑的7倍，很多人会毫不犹豫地选显卡。但正确答案其实是“不一定”——在很多情况下，迷你电脑反而更适合运行AI模型。为什么呢？因为大多数规模稍大的AI模型，RTX 5090根本跑不了。问题就出在它的32GB显存太小了。举个例子，一个700亿参数的模型，如果用4位精度存储，仅把所有权重读入内存就需要大约32.6GB，已经超过了RTX 5090的显存上限，所以它根本运行不起来。",
-      "而迷你电脑的板载内存有128GB，载入模型毫无困难。这种架构叫做“统一内存”，内存由显卡和CPU共用，可以分出尽可能多的内存给处理器，因此能处理内存消耗量巨大的AI模型。苹果的M系列芯片一直采用这种设计，现在AMD、英伟达、英特尔和高通也纷纷跟进。",
-      "不过，内存除了容量大小，还有另一个关键指标——内存带宽，也就是内存向处理器传送数据的速度。RTX 5090虽然显存小，但带宽高达每秒1792GB，而AMD迷你电脑的带宽只有每秒256GB。AI模型每生成一个词（Token），处理器都需要从内存中读取整个模型进行计算。如果带宽是256GB/s，一个40GB的模型每秒只能读取6次，也就是说每秒只能生成6个词，慢得让人无法忍受。即使是带宽最大的苹果M3 Ultra芯片，每秒也只能生成20个词，远不如RTX 5090。",
-      "好消息是，一种叫“混合专家模型”的新架构可以缓解这个矛盾。它计算每个词时不需要读取全部参数，只激活一部分。比如Qwen3-30B-A3B模型，总共有300亿参数，但每次只激活30亿，所以每个词只需读取2GB数据。在迷你电脑上，每秒理论上可以生成100多个词，速度相当不错。因此，如果你用统一内存的迷你电脑，记得选用混合专家模型。",
-      "迷你电脑还有一个缺点：算力慢导致处理用户输入的提示词也很慢。实测显示，用700亿参数的模型，每秒只能处理95个词。如果你提交一个包含4000个词的文档，需要大约40秒才能处理完，然后才开始输出第一个词。如果塞入更多内容，等待时间可能变成几分钟甚至几十分钟。所以，现阶段想在本地电脑运行大模型，无论是显卡还是迷你电脑都有缺陷，你最多只能运行一些中等规模的混合专家模型，而且提示词不能太长。"
-    ],
-    "topics": [
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "阮一峰的网络日志",
-      "url": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-404.html",
-      "originalTitle": "科技爱好者周刊（第 404 期）：你需要知道的 AI 内存知识",
-      "publishedAt": "2026-07-16T23:51:19Z",
-      "retrievedAt": "2026-07-19T22:53:05.688Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "manual-verified",
-        "reviewedAt": "2026-07-19T23:27:32Z",
-        "reviewer": "轻听编辑部",
-        "evidenceCount": 6,
-        "correctionCount": 0
-      }
-    },
-    "en": {
-      "title": "AI Memory Knowledge You Need to Know",
-      "intro": "This week's issue explores the trade-offs between dedicated GPUs and unified memory mini PCs for running AI models at home.",
-      "paragraphs": [
-        "When it comes to running AI models at home, you have two main hardware choices: a dedicated graphics card like the NVIDIA RTX 5090 with 32GB of VRAM for about 30,000 yuan, or a mini PC with an integrated chipset like AMD's Strix Halo, which comes with 128GB of shared memory for around 20,000 yuan. At first glance, the dedicated GPU seems superior—its FP32 computing power is 104.8 TFLOPS, seven times that of the chipset's 14.8 TFLOPS. But the surprising truth is that for many AI models, the mini PC is actually the better option.",
-        "The reason is simple: most large AI models simply can't run on the RTX 5090 because its 32GB VRAM is too small. For example, a 70-billion-parameter model using 4-bit precision requires about 32.6GB just to load the weights, which exceeds the 5090's capacity. In contrast, the AMD mini PC's 128GB unified memory—shared between the CPU and GPU—can easily handle such models. This unified memory architecture, long used by Apple's M-series chips and now adopted by AMD, NVIDIA, Intel, and Qualcomm, allows more memory to be allocated to the processor, enabling it to run memory-hungry AI models at a lower cost.",
-        "However, unified memory has a critical weakness: memory bandwidth. While the RTX 5090 boasts a massive 1792 GB/s bandwidth, the AMD chipset only offers 256 GB/s. Since generating each token requires the processor to read the entire model from memory, a 40GB model on the AMD system would theoretically yield only about 6 tokens per second—painfully slow. Even Apple's M3 Ultra, with 819 GB/s bandwidth, manages only around 20 tokens per second, far behind the 5090. So both memory capacity and bandwidth are bottlenecks.",
-        "The emergence of Mixture-of-Experts (MoE) models offers a workaround. These models activate only a subset of parameters per token, reducing the amount of data that needs to be read. For instance, Qwen3-30B-A3B has 30 billion total parameters but activates only 3 billion per token, so each token requires reading just 2GB instead of 20GB. On an AMD mini PC, this could theoretically yield over 100 tokens per second—a much more acceptable speed. So if you go with a unified memory mini PC, MoE models are your best bet.",
-        "Another downside of mini PCs is their slower processing of user prompts. With a 70B model, an AMD mini PC processes prompts at about 95 tokens per second. That means a 4000-token document would take around 40 seconds before generating the first token. If you stuff the context window with more content, prompt processing can stretch into minutes or tens of minutes. In short, both dedicated GPUs and unified memory mini PCs have flaws when running large models locally. For now, you're best off with medium-sized MoE models and keeping prompts short."
-      ]
-    }
-  },
-  {
-    "slug": "2026-07-20-xixia-cliff-niches-verified",
-    "title": "悬崖上的塔龛：西夏僧人的舍利安放处",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-20",
-    "intro": "甘肃永昌花大门的峭壁上，数十处塔龛保存着西夏僧侣安放舍利的痕迹，也记录了河西走廊的佛教文化。",
-    "paragraphs": [
-      "花大门位于甘肃省金昌市永昌县。这里两山相对，像一座山门，因此得名。石刻分布在绵延约一千米、高近二十米的天然崖壁上，附近还有始建于北周的圣容寺，是河西走廊上的一处佛教文化遗存。",
-      "这些遗迹不同于长江流域常见的悬棺葬。它们的特点是“一龛一塔、塔龛合一”：崖壁上开凿石龛，龛外雕刻佛塔，塔的造型包括覆钵式喇嘛塔、阁楼式塔和檐式塔。",
-      "当地文旅部门工作人员赵梅介绍，塔龛专门用于安放僧人的舍利，也就是火化后的骨灰。现存龛体的高、宽、深大多在二十五到三十五厘米之间；佛塔高约一米到一点五米。",
-      "把舍利安放在崖壁龛室，既符合佛教礼制，也利用了这里通风、干燥和清净的自然条件。报道说，这种方式多用于地位较高的僧侣，也被看作僧人身份和修行造诣的象征。",
-      "花大门石刻始凿于西夏，部分遗存延续到元代。报道将它称为国内现存规模最大、数量最多的西夏塔龛悬葬遗址。石龛中的西夏文字、动物岩画和佛塔雕刻，为研究西夏历史、石刻艺术和丧葬习俗留下了实物证据。"
-    ],
-    "topics": [
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-19/10662366.shtml",
-      "originalTitle": "甘肃花大门石刻揭秘西夏塔龛悬葬文化密码",
-      "publishedAt": "Sun, 19 Jul 2026 12:30:59 +0800",
-      "retrievedAt": "2026-07-19T22:53:13.319Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "manual-verified",
-        "reviewedAt": "2026-07-19T23:27:32Z",
-        "reviewer": "轻听编辑部",
-        "evidenceCount": 5,
-        "correctionCount": 8
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-20/2026-07-20-w92sei.webp",
-      "alt": "Cliff with rock-cut niches in a barren landscape",
-      "caption": "西夏悬葬石窟遗迹",
-      "kind": "editorial"
     }
   }
 ]
