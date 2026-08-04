@@ -1,5 +1,213 @@
 [
   {
+    "slug": "2026-08-05-songs-prep-unhatched-finches-8217-brains-for-a-h",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "蛋壳里的天气预报：斑胸草雀的歌声帮宝宝适应高温",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-05",
+    "intro": "斑胸草雀父母在高温天气发出的‘热呼叫’，能提前改变未孵化雏鸟大脑中控制血流的基因活动，帮助它们一生更好地应对炎热环境。",
+    "paragraphs": [
+      "在澳大利亚阳光炙烤的树林里，生活着一种叫斑胸草雀的小鸟。天气热得厉害时，成年鸟会发出一连串高音、急促的‘啾啾’声——科学家管这个叫‘热呼叫’。它能触发未孵化雏鸟大脑中的遗传变化，像一个天气预报，为它们准备蛋壳外的酷热环境。这项研究发表在6月11日的《实验生物学杂志》上。",
+      "大约十年前，行为生态学家梅琳·马里耶特所在团队发现：在蛋里、临近孵化时听到热呼叫的斑胸草雀雏鸟（Taeniopygia guttata），出壳后生长更慢，也更偏好温暖的筑巢地点，在所有方面都显得更善于应对高温。但当时没人知道，一段简单的叫声如何触发这些变化。",
+      "澳大利亚迪肯大学的梅琳·马里耶特和美国克莱姆森大学的神经科学家朱莉娅·乔治合作，将斑胸草雀的鸟蛋在恒温下孵化，再分为两组：约一半蛋每天播放成年鸟的热呼叫，另一半播放另一种叫声，持续数天。之后，研究人员取出胚胎并安乐死，切取下丘脑组织提取RNA——这是一种以DNA为模板合成的信使分子，负责把遗传信息传递给细胞中制造蛋白质的部分。通过比较两组RNA水平差异，可判断哪些基因被上调或下调。",
+      "研究者原本预期热呼叫会激活激素调控相关基因，结果却发现：控制脑血管收缩的基因活性被显著降低。研究人员推测，这有助于调节脑部血流，帮助散热，从而保护大脑免受高温损伤——因为‘重要的是，即使在高温下，大脑温度也必须保持凉爽’。这种变化并非全局性，仅影响下丘脑中约2%的RNA，且集中于对高温敏感的特定系统。",
+      "乔治说，热呼叫就像‘一个小小的天气预报’，让雏鸟在胚胎期就微调大脑发育，以便‘更好地适应出壳后所处的环境’。类似现象也见于其他鸟类：黄腿鸥胚胎若暴露于亲鸟的捕食警告叫声，出壳后生长更慢，且听到该叫声时更易蹲伏；德国慕尼黑路德维希-马克西米利安大学的进化行为生态学家亚历山德拉·科内斯虽未参与本研究，但她指出，成年家麻雀也能改变雏鸟代谢对温度的响应方式，只是具体机制尚未明确。",
+      "乔治总结道：‘斑胸草雀可能并非唯一拥有这种‘脑部音乐调节能力’的鸟类。或许还有一整份‘消暑歌单’等待被发现。’"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/songs-change-finch-brains-heat",
+      "originalTitle": "Songs prep unhatched finches&#8217; brains for a hot world",
+      "publishedAt": "Tue, 04 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-04T22:36:32.366Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-04T22:36:25.113Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-05/2026-08-05-songs-prep-unhatched-finches-8217-brains-for-a-h.webp",
+      "alt": "蛋壳内抽象大脑与声波线条",
+      "caption": "歌声影响未孵化雏鸟的脑部基因",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-05-355",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "南昌建起9个赣江免费天然泳场，355万人次安全亲水",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-05",
+    "intro": "原来靠围挡、标语防溺水，现在南昌干脆在赣江边建起9个免费天然泳场，让市民安全下水。",
+    "paragraphs": [
+      "夏天最快乐的事，大概就是跳进凉凉的水里。可江河野泳很危险，家长们总是提心吊胆。江西南昌水域面积占城市总面积近30%，是全国水域面积占比最高的省会城市之一，人们天生爱水；但赣江水情复杂，“野游”溺水事故年年刺痛人心。一边是群众强烈的亲水冲动，一边是防溺水的巨大压力，怎么解？过去南昌也用过常规解法——设围挡、贴标语、派人巡，可光靠“堵”，堵不住群众的亲水意愿。",
+      "南昌看中了一件事：近年来，随着公开水域游泳等亲水活动成为广大群众喜闻乐见的新兴健身休闲项目，加上南昌加速推进雨污分流和赣抚尾闾综合整治，赣江南昌段水质实现二类全覆盖，水流平缓度提升40%，水体自净能力增强35%。于是从2025年起，南昌沿25公里赣江岸线划出有专人值守的安全区域，建设9个免费开放的天然泳场，取名“两滩七湾”。救生员会提前手拉手排成一排，用脚底板一步步探查水底，清除危险物、探查暗坑；今年近60亩水域被分成6个区域，每个区域配10到15名救生员；水面上架起的一排排浮筒平台，既是深浅水域的隔断，也是紧急救援的“跳板”。",
+      "想下水，得守规矩。市民每人领一顶红色泳帽，戴好才能下水，“红色在水面最显眼，遇险能第一时间发现”；深水区入口设有酒精检测仪，饮酒者禁入；泳场边立有小型气象监测站，气象局每天中午发布“泳场开放指数”，通过电子屏、公众号、短视频实时告知公众；开放期间如遇突降大雨等情况，救生员会吹哨引导泳客有序上岸。泳场配有专业安全员、医疗点、救护车停靠点；依托高清监控、无人机巡查、电子围栏等科技手段，实现全方位实时监控；水源保护也严格到位：“两滩七湾”全部建在8个饮用水取水口上游1公里范围外，周边不建淋浴室，入口处贴着“禁止使用洗发水、沐浴露”告示，每日有专人监测水质并公示。",
+      "这样精细的管理，换来了放心的体验。自2025年6月开放以来，“两滩七湾”日均接待游客3.2万人次，最多时超过10万人次，并保持零重大安全事故，群众满意率超98%。泳场还带动了周边餐饮、零售、住宿等消费同比增长超过30%；一家毗邻泳场的便利店老板甘文科说：“泳场一开放，营业额就翻番。”",
+      "其实不只是南昌。浙江衢州通过划定安全水域、配齐设施、限时开放，变“野游”为“野能游”，24处亲水场所已服务群众3年，溺水事故连续两年下降；湖北武汉用科技补上安全短板，东湖凌波桥上热成像无人机巡航，汉口江滩215个救生圈“一键可取”。越来越多的城市敢于“民呼我应”，将管理难点、安全痛点变为民生亮点、百姓兴奋点。"
+    ],
+    "topics": [
+      "城市与公共",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260804/64cca06cca1249c797be27cc2c5dfc6e/c.html",
+      "originalTitle": "大看台｜355万人次下赣江：“防溺之困”咋成“亲水之乐”",
+      "publishedAt": "2026-08-04T09:40:56+08:00",
+      "retrievedAt": "2026-08-04T22:37:59.958Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-04T22:37:54.691Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-05-xvz3mz",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "教育部部署开展义务教育阶段科学教育“做中学”领航行动",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-05",
+    "intro": "教育部近日印发《义务教育阶段科学教育“做中学”领航行动指南》，部署开展科学教育“做中学”领航行动，强调以学生为主体、以兴趣为导向、以实践为路径，聚焦加强科学探究实践。",
+    "paragraphs": [
+      "教育部近日印发《义务教育阶段科学教育“做中学”领航行动指南》，部署开展科学教育“做中学”领航行动。这项行动面向义务教育阶段，旨在推动科学教育育人方式变革。",
+      "《指南》指出，领航行动以学生为主体，以兴趣为导向，以实践为路径，聚焦加强科学探究实践。",
+      "科学的本质在于探究——通过观察现象、提出问题、形成假设、设计实验、验证结论来认识世界。只靠听讲和记忆概念，难以真正理解科学思维与方法。",
+      "领航行动覆盖义务教育阶段，即小学和初中阶段的科学教育。其核心是强化科学探究实践，增加学生动手操作、实地观察、实验验证等真实学习经历。"
+    ],
+    "topics": [
+      "教育",
+      "科学教育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-04/10671814.shtml",
+      "originalTitle": "教育部部署开展义务教育阶段科学教育“做中学”领航行动",
+      "publishedAt": "Tue, 4 Aug 2026 16:41:18 +0800",
+      "retrievedAt": "2026-08-04T22:40:07.972Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-04T22:40:05.096Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-05-why-the-legendary-erd-s-problems-are-falling-to-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "传奇数学家埃尔德什留下的难题，正被 AI 一道一道攻克",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-05",
+    "intro": "AI 正在改变数学研究，而它最耀眼的成绩，都来自一位已故匈牙利数学家留下的一串问题。",
+    "paragraphs": [
+      "2026年5月20日，OpenAI发布了一个让数学界震动的消息：一个未向公众开放的内部AI模型，为匈牙利数学家保罗·埃尔德什在1946年提出的‘单位距离’猜想找到了一个反例。这是历史上首个由AI模型完成的具有历史意义的数学证明。虽然该结果并非最终定论——人类数学家在几周内就大幅改进了它——但它引入了此前从未成功应用于该问题的一个遥远数学分支的思想，并在几天内催生出解决其他重要问题的新方法。8月1日，OpenAI宣布，一个尚未发布的模型Astra取得了10项数学进展，其中包括解决三个埃尔德什提出的问题。许多数学家认为，这标志着AI数学能力的一次质变。",
+      "埃尔德什是20世纪最多产、最具传奇色彩的数学家之一。他常年拎着箱子旅行，寄居于世界各地数学家家中，几乎不拥有个人财产。他在论文和信件中不断提出问题，并自掏腰包为首个给出正确解答者设立奖金：少则10美元或25美元，对重要或困难问题则可达数千美元。他于1996年在华沙参加数学会议期间因心脏病去世，但一家位于爱荷华州的非营利基金会承诺兑现他遗留的悬赏。他为人古怪又令人敬爱：只穿丝绸衣物，回避他人身体接触，称上帝为‘最高法西斯’，并长期依靠安非他命维持高强度数学思考。颇具讽刺意味的是，他提出的问题如今已成为全球顶尖科技公司展示AI能力的核心试验场。",
+      "不过，这一切很可能不会发生，若非英国数学家托马斯·布鲁姆。布鲁姆专攻数论与组合数学交叉领域——算术组合学。他自2014年获得博士学位后迅速成长为该领域新锐，曾获英国皇家学会大学研究员奖学金。他长期欣赏埃尔德什的风格，却苦于难以追踪哪些问题已被解决、哪些被遗忘。于是2023年初，他着手整理埃尔德什问题清单，初衷仅为自用；后为便于随时访问，决定建站，网站名为erdosproblems.com。他用ChatGPT编写了网站的Python代码——这在当时已是大语言模型一项显著成就。他仔细梳理问题表述，将埃尔德什原始模糊的陈述修正为最合理的数学版本。截至2025年8月，网站已收录近1000个问题；2024年至2025年8月间，其中111个问题的状态从‘未解决’更新为‘已解决’（部分实为早年已解，此次系重新发现或验证）。",
+      "2025年8月，布鲁姆应同事建议为网站添加评论功能，并再次借助ChatGPT快速实现。此时网站已形成活跃社区。2025年10月，沃特·范多恩——一位在企业从事客户服务工作的数学爱好者——在‘问题1102’页面留下首条评论。该问题由埃尔德什于1981年提出，涉及无平方因子整数的性质。2025年11月初，范多恩在未使用AI的情况下，在评论区分享了自己对该问题的进展；当天，另一位用户指出其论证存在漏洞。两人迅速展开讨论，范多恩成功说服对方，后者回复：‘我明白你的论证了，真棒！’——此人正是加州大学洛杉矶分校教授、当今最具影响力的数学家之一陶哲轩。范多恩坦言：‘没有汤姆的网站和评论区，整个合作根本不可能实现。’在这里，职称、年龄、所属机构均不重要，只要有好想法，就能找到合作者。",
+      "但到了2025年12月，情况开始变化。凯文·巴雷托（剑桥大学本科生）与利亚姆·普赖斯（大学未毕业）在AI主题Discord服务器相识。他们尝试将成批埃尔德什问题输入最新AI模型。他们很快发现：若直接告诉GPT-5.2‘这个问题尚无答案’，模型便难有进展；于是他们学会以非常特定的方式提示模型，‘诱导它相信答案存在并值得探索’。"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "originalTitle": "Why the Legendary Erdős Problems Are Falling to AI",
+      "publishedAt": "Mon, 03 Aug 2026 15:05:20 +0000",
+      "retrievedAt": "2026-08-04T22:42:32.535Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-04T22:42:24.197Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 71,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How AI Is Cracking a Quirky Mathematician’s Puzzles",
+      "intro": "Decades ago, a strange math genius left behind thousands of unsolved problems — and now AI is starting to solve them.",
+      "paragraphs": [
+        "Paul Erdős was a Hungarian mathematician who traveled constantly — living out of a suitcase for years at a time, staying with friends, owning almost nothing. He posed thousands of questions, often attaching prize money he paid out of pocket. He referred to God as the 'Supreme Fascist' and fueled his output with amphetamines. His problems were often simple to explain but mathematically deep.",
+        "On May 20, 2026, OpenAI announced that an internal AI model had found a counterexample to the 'unit distance' problem — a conjecture Erdős made in 1946. This was the first historically significant proof to come from an AI model. Though not definitive, it was innovative and influential. Then on August 1, OpenAI announced that an unreleased model named Astra made 10 additional mathematical advances, including solutions to three more Erdős problems.",
+        "Thomas Bloom, a British mathematician, gathered Erdős problems into a website — erdosproblems.com — launched in early 2023. He used ChatGPT to write the Python code. By mid-2025, he’d cataloged nearly 1,000 problems and added a commenting function. The site enabled collaboration across backgrounds — professionals, students, and hobbyists alike.",
+        "Wouter van Doorn works in customer service support and had nearly completed a master’s in math a decade earlier. In October 2025, he commented on Problem 1102 — about square-free integers — and shared progress in early November 2025. Terence Tao, a professor at UCLA and one of the most influential mathematicians alive, replied the same day, confirming van Doorn’s argument was correct.",
+        "In December 2025, Kevin Barreto and Liam Price — both in their early 20s — began testing AI models on Erdős problems. They learned to prompt GPT-5.2 in a particular way, 'gaslighting it into thinking the answer already existed', which helped generate proofs no human had yet found."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-04T22:49:15.473Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 30,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-05/2026-08-05-why-the-legendary-erd-s-problems-are-falling-to-.webp",
+      "alt": "数学公式与电路板融合的抽象图",
+      "caption": "AI逐步解决数学难题",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-08-04-b",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "离开川大后，他在B站讲“量子物理”意外走红",
@@ -3049,208 +3257,6 @@
       "alt": "A tactile graphic display device with raised patterns",
       "caption": "触觉图形显示终端帮助盲人感知图像。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-21-chatty-cats-and-talking-dogs-could-one-day-speak",
-    "title": "猫狗会说话？科学家说未来或可实现动物-人类翻译器",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-21",
-    "intro": "在电影《飞屋环游记》里，黄金猎犬达格戴着能将其‘狗崽子想法’（doggy thoughts）实时翻译成人类语言的电子项圈——例如说出‘Hi there’后突然喊出‘SQUIRREL！’。现实中，科学家认为这类动物-人类翻译器虽尚未实现，但未必永远停留在科幻范畴。",
-    "paragraphs": [
-      "你有没有想过，你的猫或狗到底在想什么？在电影《飞屋环游记》里，一只叫达格的黄金猎犬戴着电子项圈，能把它的‘狗崽子想法’翻译成实际人类语言。比如它会说：‘Hi there’——然后突然分心喊：‘SQUIRREL！’。虽然这只是电影设定，但科学家认为，动物-人类翻译器未来或不再只是科幻。",
-      "纽约洛克菲勒大学的神经遗传学家埃里希·贾维斯说：‘我认为这些事情可能有一天能做到。’他指出，计算能力提升、人工智能（AI）发展以及精密声音测量工具的进步，有望将动物的吠叫、吱吱声、喵喵声等转化为人类可解码的信息。",
-      "当然，有些动物已能使用人类语言，比如一只离开加州家多年后返家、开口说西班牙语的鹦鹉。但这类能力罕见。纽约大学神经科学家迈克尔·朗指出，仅有不到1%的脊椎动物具备‘构想信息并发出复杂声音’所需的特殊心智技能与身体系统灵活性。例如疣猴（vervet monkeys）认知能力很强，却难以发出复杂声音；而动物交流远不止发声——猫因空食盆发出痛苦哀嚎、狗叼 leash 坐于门前，皆为清晰信号。",
-      "科学家正推进动物语言研究。2023年，研究人员用解码的鲸鱼‘hello’（源自whale whups声信号）与一头阿拉斯加座头鲸完成简短跨物种互动，双方均参与其中。另有研究发现，鲸类语言与人类语言共享统计特性。贾维斯团队则通过向小鼠引入人源NOVA1蛋白基因，使其发出更复杂的发声，尽管这尚非‘会说话的老鼠’。",
-      "尽管猫狗翻译器尚未问世，但研究进展迅速。若真有设备，它或将揭示猫为何凝视客厅空角落。而在等待技术成熟期间，我们可关注动物早已展现的丰富表达方式：如Long收养的布鲁克林流浪猫，其需求‘非常、非常透明’。",
-      "对于其中一只猫，Long设想的翻译内容极为务实：‘我会告诉它，我做饭时别坐得太靠近炉灶。我想就这些。’"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "url": "https://www.snexplores.org/article/talking-animals-speak-language-tech",
-      "originalTitle": "Chatty cats and talking dogs could one day ‘speak’ in our language",
-      "publishedAt": "Mon, 20 Jul 2026 10:30:00 +0000",
-      "retrievedAt": "2026-07-20T23:53:45.191Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-20T23:53:43.989Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Chatty cats and talking dogs could one day ‘speak’ in our language",
-      "intro": "Imagine a world where your cat or dog could ‘speak’ in our language—scientists say that animal-human translation may not remain science fiction forever.",
-      "paragraphs": [
-        "In the animated movie Up, a golden retriever named Dug wears a collar that translates his thoughts to speech—including mid-sentence distractions like ‘SQUIRREL!’ Scientists note that while such tech is fictional today, Erich Jarvis, a neurogeneticist at The Rockefeller University in New York City, says, ‘I think these things may be one day doable.’ He envisions pets wearing devices like Dug’s collar—or using a phone app—to translate pet sounds into words.",
-        "Advances in computing power, artificial intelligence (AI), and tools that measure sounds promise to bring people closer to conversing with other animals—by turning animal chatter into bits of information that can be decoded by humans. But not all animals are equally equipped: ‘Thinking up a message and making intricate vocal sounds to convey it’ takes special mental skills and body-system flexibility, traits present in fewer than 1 percent of vertebrate species, says Michael Long, a neuroscientist at New York University. Vervet monkeys, for instance, have ‘huge’ cognitive abilities but ‘flounder when it comes to producing complex sounds’—they have one requirement, but need the other. Still, animals already communicate broadly: through barks, meows, dances, posture, color, objects—and even ground-thumping, as Mongolian gerbils do.",
-        "Some animals, like parrots, can already learn human languages; one parrot returned home years later speaking Spanish. In 2023, scientists used a decoded whale ‘hello’ to enjoy a short conversation with an Alaskan humpback—a volley of whale ‘whups’ translated into English as ‘hello,’ in which both parties engaged. Whale language also shares statistical properties with human languages. Meanwhile, Erich Jarvis’s research includes mice genetically altered to produce more complex vocalizations: mice with a human version of the protein NOVA1 made more complex vocalizations—but ‘this is not yet a talking mouse.’",
-        "Even without sci-fi gadgets, many animal messages are clear: ‘Anguished yowls of a cat sitting by her unfilled food dish are no great mystery.’ A dog holding his leash in his mouth and sitting by the front door signals a desire to go out. As Michael Long says, ‘Animals are speaking, often — to use speaking in a very loose way — more vibrantly than we had ever given them credit for.’ So while we wait for a gizmo that translates pets’ thoughts into words, we can appreciate the wildly variable ways animals already communicate."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T00:04:13.616Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 9,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-21/2026-07-21-chatty-cats-and-talking-dogs-could-one-day-speak.webp",
-      "alt": "Cat and dog silhouettes with abstract speech bubble",
-      "caption": "动物与人类交流的科幻愿景",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-21-10",
-    "editorialPolicyVersion": "2026-07-21.1",
-    "title": "鸡蛋价格创10年新高，“火箭蛋”重创中国消费者",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-21",
-    "intro": "在中国，鸡蛋这种长期以来在许多菜肴中只扮演配角的普通食材，如今却登上了舞台中央。在这个世界上人均鸡蛋消费量几乎是首屈一指的国家，价格的暴涨显得尤为令人痛苦。",
-    "paragraphs": [
-      "在中国，鸡蛋这种长期以来在许多菜肴中只扮演配角的普通食材，如今却登上了舞台中央。在餐桌旁，精打细算的家庭抱怨鸡蛋价格突然飙升。在农村，农民们去年还在抱怨鸡蛋供过于求、如今却因供应短缺而发愁，他们感到十分困惑。在小吃摊，沮丧的厨师们因鸡蛋价格上涨和伊朗战争导致的能源成本上升的双重打击而焦头烂额。甚至连官方媒体也开始用“火箭蛋”一词来形容价格的飞涨。根据一项追踪主要产蛋省份的指数，鸡蛋价格比一年前上涨了40%以上。另一项追踪中国北方馆陶县一处批发市场价格的基准指数显示，蛋价最近创下了10年来的新高，这让业内人士大感意外。",
-      "在这个世界上人均鸡蛋消费量几乎是首屈一指的国家，价格的暴涨显得尤为令人痛苦。而在这个仍在努力摆脱普遍通货紧缩的经济体中，这也成为了一个悖论——由于工业产能过剩和消费者购买意愿低迷，中国物价已经连续数年下跌。（例如，猪肉价格最近就创下了16年来的新低。）伊朗战争推高了能源价格并引发了初期的通货膨胀，但伴随而来的是经济增长的放缓，这样的组合令人不安。",
-      "问题始于家禽养殖户的过分热情。研究鸡蛋市场的分析师阿斯彭·李（音）表示，两年前，在连续几年的丰收之后，养殖户开始扩大规模，2024年至2025年间新增的蛋鸡数量创下历史新高。突然之间，鸡蛋供过于求，价格暴跌。随后，养殖户们发现自己没有足够的资金来喂养所有的鸡。于是他们开始大量淘汰蛋鸡，专家认为这样的淘汰速度过快了。最终，蛋鸡数量不足以满足需求，导致价格上涨，李先生说其程度“甚至超出了我的预期”。",
-      "与此同时，市场需求却格外强劲，经济学家将其归于各种因素，比如备战重要全国性考试、食量极大的青少年，以及被称为端午节的夏季节日。还有一些人将成本攀升归咎给特朗普总统。伊朗战争导致烹饪用气价格上涨。",
-      "在天津市的沿海小镇，一个餐馆老板在店面窗户上贴了一张告示，解释说他们将煎饼（一种用鸡蛋、蔬菜和油炸薄脆做成的卷饼）的价格提高了五毛钱，原因是“特朗普推高了物价”。25岁的卜阿轩（音）在东部城市金华经营着两个名为“煎饼侠”的摊位，他说他无法将这种咸味鸡蛋煎饼的成本转嫁给老顾客。“一涨价别人就不买了，”他说。卜阿轩每两三天就要用掉360个鸡蛋，他发现每次进货时，价格都会上涨几毛钱。一箱鸡蛋曾经要价约170元，现在涨到了约240元。更糟的是，他用来加热平底锅的煤气价格也从每罐约110元涨到了约150元，而他每五天就得买一罐。“忙了一个月又是一个月，到最后什么都不剩，”他说。",
-      "家住东部江苏省的海伦·张（音）说，和肉类不同，鸡蛋不容易被替代。她和男朋友每天最多要吃七个鸡蛋——早餐吃水煮蛋，午餐吃西红柿炒蛋，还用鸡蛋做炸米糕的面糊。海伦·张说，鸡蛋占他们每月食品开支的十分之一。“但不管鸡蛋多贵都得吃，”她说。“价格涨了，但是还得补充蛋白质。”来自南部广东省的哈丽特·华（音）注意到，从4月份开始，她在拼多多这一购物平台上购买的鸡蛋价格开始悄然上涨。从那以后，价格已经上涨了20%。“我的第一反应是，‘天哪，怎么这么贵？’所以就不买了，想着等价格降下来再说，”哈丽特·华说，她通常每个月会一次性购买30个鸡蛋。在她失业的六个月里，即使是最小幅度的价格上涨也让人吃不消。“但价格根本就没降下来，”上个月刚找到新工作的哈丽特·华说。“最后我还是不得不买。”"
-    ],
-    "topics": [
-      "经济与商业",
-      "食物与日常"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "纽约时报中文网",
-      "region": "international",
-      "url": "https://cn.nytimes.com/business/20260721/china-eggs-expensive/?utm_source=RSS",
-      "originalTitle": "鸡蛋价格创10年新高，“火箭蛋”重创中国消费者",
-      "publishedAt": "Tue, 21 Jul 2026 10:30:09 +0800",
-      "retrievedAt": "2026-07-21T09:43:20.692Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T09:43:19.353Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-21-why-people-are-ordering-fake-food-and-fashion-de",
-    "editorialPolicyVersion": "2026-07-21.1",
-    "title": "点一份永远不送到的外卖，为什么让人上瘾？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-21",
-    "intro": "有人在App上点外卖、下单买衣服，却从来不指望收到货——这些‘dopamine apps’正在全球流行。",
-    "paragraphs": [
-      "周六晚上，你下载了一个新的外卖App。你浏览菜单，选了几道墨西哥菜，下单，然后追踪配送进度。但你的食物永远不会送来——你也从来没指望过它会来。这听起来很荒谬，但如果你没试过，可能会低估这个流行趋势的热度。仅FoodNeverComes这一个应用，就宣称已‘满足’近100万次‘渴望’。",
-      "为什么人们愿意花时间在那些永远不送货的应用或网站上？归根结底，是为了获得多巴胺——一种与愉悦通路相关的神经递质。多巴胺既是强效神经递质，也是神经调节剂，参与传递化学信号并引发大脑变化；它在激励我们朝目标努力、帮助大脑学习哪些行为带来有益结果等方面发挥重要作用。在这些平台上，用户体验到：* 期待（‘I might find something good’） * 选择（‘I control my choices’） * 和确认感（‘My order is placed!’）。唯一缺失的环节是消费（‘I received it’）。",
-      "其实，早在这些新平台出现之前，就有人通过创建心愿单或填满购物车后删除，来获得类似的零售疗法快感。你还可以通过创建Pinterest收藏板模拟梦想中的家，而不实际建造；或用免费或付费旅行规划App和网站想象理想假期。",
-      "不过，假装点餐、购物或‘用虚拟香烟取乐’是否有坏处？这些dopamine apps和网站相对较新，目前尚无专门研究评估其是否可能成为‘gateway behaviours’。已有研究显示，在赌博和游戏领域，模拟行为可能构成通往真实风险行为的路径。例如，一项2014年研究追踪了409名只玩社交赌场游戏、从未在线真钱赌博的人，六个月后约26%转向了真实在线赌博。一项2016年研究发现，521名社交赌场用户中，19%报告因玩此类游戏而开始真钱赌博。",
-      "另外，‘there’s no such thing as a free lunch’。虽然这些app和网站免费且有趣，但你的虚假选择对营销人员极具价值。免费app常依赖广告盈利；使用Google AdSense的平台会通过cookies追踪你的浏览习惯，第三方广告商（包括Google）据此推送更精准广告。如果你在app中‘购买’了那件假夹克或‘订购’了假玉米卷，别惊讶随后会看到更多真实商品广告。"
-    ],
-    "topics": [
-      "心理与情绪",
-      "数字生活"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/why-people-are-ordering-fake-food-and-fashion-deliveries-on-free-dopamine-apps-287690",
-      "originalTitle": "Why people are ordering fake food and fashion deliveries on free ‘dopamine apps’",
-      "publishedAt": "2026-07-21T02:01:58Z",
-      "retrievedAt": "2026-07-21T09:43:57.395Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T09:43:56.047Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-21-29jaxh",
-    "editorialPolicyVersion": "2026-07-21.1",
-    "title": "甘肃永昌：一躯瑞像见证“丝路古刹”交融过往",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-21",
-    "intro": "在甘肃永昌的一座古寺里，一尊特别的佛像静静地诉说着千年前东西方文化相遇的故事。",
-    "paragraphs": [
-      "在甘肃省永昌县，有一座古老的寺庙叫圣容寺。它可不是一座普通的寺庙，而是丝绸之路上的重要文化地标。最近，一尊被称为“瑞像”的佛像引起了考古学家和历史学者的关注，因为它身上藏着东西方文化交融的密码。",
-      "这尊瑞像是一尊石雕佛像，高约1.5米，雕刻于北魏时期，距今已有1500多年。它的造型很特别：佛像的面部轮廓深邃，鼻梁高挺，带有明显的西域特征，但它的衣纹和坐姿又完全是中原佛教艺术的手法。考古学家说，这尊佛像就像一位“混血儿”，融合了印度、中亚和中国的艺术风格。",
-      "圣容寺所在的位置，正是古代丝绸之路的必经之地。当年，商队和僧侣沿着这条道路往来，不仅带来了货物，也带来了不同的文化和信仰。这尊瑞像就是这种交流的活证据——它可能是一位来自西域的工匠雕刻的，也可能是当地工匠学习了外来技法后创作的。",
-      "更让人惊叹的是，这尊佛像背后还有一个传说。据唐代的文献记载，这尊瑞像曾经“现身”于圣容寺，并发出光芒，因此被当地人视为祥瑞。虽然传说不可全信，但它反映出当时人们对这尊佛像的崇敬，以及丝绸之路沿线各种文化相互影响的历史事实。",
-      "如今，这尊瑞像被精心保护在圣容寺内，成为研究丝绸之路文化的重要文物。它提醒我们，不同文明之间的交流与融合，早在千年之前就已经开始了。"
-    ],
-    "topics": [
-      "丝绸之路",
-      "佛教文化",
-      "甘肃永昌",
-      "御山圣容寺"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-21/10663396.shtml",
-      "originalTitle": "甘肃永昌：一躯瑞像见证“丝路古刹”交融过往",
-      "publishedAt": "Tue, 21 Jul 2026 11:13:40 +0800",
-      "retrievedAt": "2026-07-21T09:46:01.356Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T09:45:59.959Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
