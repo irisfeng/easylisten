@@ -1,5 +1,324 @@
 [
   {
+    "slug": "2026-08-06-scientists-made-clocks-from-an-atomic-nucleus",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家第一次用原子核做成了钟",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "人类最准的钟一直靠原子，现在科学家第一次让原子核来“滴答”。",
+    "paragraphs": [
+      "科学家第一次用原子核做成了一台钟。钟要守住稳定节奏，就像落地钟里摆动的钟摆。目前全世界最准的钟，靠的是原子，但用的是原子外围的电子；这次科学家换成了原子中心的原子核。",
+      "这个技术才刚刚起步，核钟现在还没有比原子钟更准。但两个团队已经造出了第一批核钟，并且开始了新探测。其中一个团队用核钟寻找暗物质——一种占据宇宙很大比重、却还没被直接发现的东西。他们没有找到暗物质，但对某些类型的暗物质，这台核钟的敏感度已经超过了原子钟。参与研究的物理学家说：‘我们已经比所有原子钟都强。’另一位没参与研究的理论物理学家评价：这是非常出色的结果，建造超级精确核钟的比赛才刚刚开始。需要说明的是，两篇论文目前都还没有经过同行评审。",
+      "核钟的核心，是氟化钙晶体里嵌进去的放射性同位素钍-229。在整个元素周期表里，只有钍-229的原子核能用来做钟。科学家用激光照射它，激光电磁波的摆动就像钟摆；钍核的作用，是确保激光的频率不跑偏，这样钟的“滴答”就不会忽快忽慢。",
+      "这背后的原理是量子物理。原子核只能处在特定的能量水平上，从一个能级跳到另一个特定能级，需要的能量是固定的。只有频率正好合适的光，才能让钍-229的原子核完成这次跃迁。科学家就利用这个跃迁，一遍遍把激光调整回正确频率，让钟稳稳地走。以前人们已经很接近核钟，但这一步调整从来没实现过。一位德国物理学家说，这是把核钟叫做‘真正的钟’之前最后一块缺失的拼图。",
+      "和原子钟相比，核钟不容易被杂散电磁场干扰，还能做成固体；原子钟里的原子必须悬在笨重的真空腔里。更重要的是，原子核和电子感受的力不同：电子主要受电磁力，而质子和中子是被强核力束缚在一起的。比较两种钟，可以检验大自然的基本常数是否真的永远不变。钍核钟的想法差不多二十五年前就有人提出，最初的进展很慢，近几年突然加速。一位当年提出这个想法的物理学家说，大量有趣的研究，现在才刚刚开始。"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/first-atomic-nuclear-clock",
+      "originalTitle": "Scientists made clocks from an atomic nucleus",
+      "publishedAt": "Wed, 05 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-05T22:29:46.112Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:29:43.957Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Clock Inside an Atom's Core",
+      "intro": "Scientists have finally turned the heart of an atom—its nucleus—into a ticking clock.",
+      "paragraphs": [
+        "Every clock needs a steady beat. Think of a grandfather clock's swinging pendulum. In this new clock, the 'pendulum' is a laser beam. The laser's light waves wiggle at a constant pace. Thorium-229's nucleus keeps that wiggle from changing, so the ticks stay steady.",
+        "Most precise clocks today are atomic clocks. They use electrons to keep time. The new nuclear clock goes deeper. It uses the atom's nucleus, packed with protons and neutrons. Only thorium-229's nucleus can be used this way. Scientists fired a laser at crystals of calcium fluoride containing thorium-229. They locked the laser's frequency to a jump between two energy levels in the thorium nucleus. That jump always takes the same amount of energy, so the clock ticks steadily.",
+        "Researchers had tried this before but missed a crucial step. They needed to constantly readjust the laser using the nuclear energy jump. Two teams finally managed that readjustment loop. 'This was the final missing step before calling it an actual clock,' says Lars von der Wense. Without it, the laser would drift and the clock would not function as a true clock.",
+        "These early nuclear clocks are not yet more accurate than atomic ones. But they already show advantages. One team used their clock to search for dark matter. They didn't find it, but the clock was more sensitive to some types than atomic clocks. 'We're already outperforming all of the atomic clocks,' reports Thorsten Schumm. Nuclear clocks could also be more portable and robust. They don’t need atoms suspended in a vacuum chamber. And because nuclei respond to the strong nuclear force—not just electromagnetic forces—they offer new ways to test whether fundamental constants change over time.",
+        "So the race is on. After nearly a quarter century of effort, scientists are building super-accurate nuclear clocks. 'The race for building super-accurate nuclear clocks just started,' says Victor Flambaum. 'This is only the first step.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:38:02.269Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-06/2026-08-06-scientists-made-clocks-from-an-atomic-nucleus.webp",
+      "alt": "Abstract nucleus with clock-like orbits in gray tones",
+      "caption": "原子核的滴答，时间的边界。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-06-how-to-give-everyday-people-a-say-in-ai-governan",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI越强大，越该听听普通人的声音",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "AI可能比工业革命更快地改变世界，可决定它方向的人里几乎没有普通人。政治理论学者埃莱娜·朗德摩尔在《Noema》杂志上提出：用AI平台本身，让全球普通人发声。",
+    "paragraphs": [
+      "2026年7月，200多位经济学家和AI研究人员——其中包括17位诺贝尔奖得主——签署了一份题为《我们必须立即行动》的四句话声明。声明警告：‘AI可能在十年内变得远比现在强大’，引发的变革规模可能超过工业革命，但时间进程却短得多，伴随大规模失业等风险；并呼吁经济学家、政策制定者和科技领袖立刻行动，建立激励机制、监管框架和制度，引导AI增强人类能力、造福社会。",
+      "耶鲁大学与牛津大学政治学教授埃莱娜·朗德摩尔指出，这份声明真正引人注目的是它遗漏了谁：普通人。声明只召集经济学家、政策制定者和科技领袖；社会仅作为‘受益者’出现一次，而非决策参与者。她指出，两篇广受关注的预测文章——2025年4月发布的《AI 2027》和2026年6月发布的《欧洲2031》——同样将公众视为需被精英保护的对象，或仅需动员支持既定方案的观众；两文均未询问普通人对AI的真实期待，也未提出了解其意愿的方法。",
+      "朗德摩尔认为，我们可能没有几年时间组织长期 deliberative 过程，因此应立即启动全球在线公共咨询。可行路径在于利用已具超大规模触达能力的AI平台：OpenAI称ChatGPT于2026年2月有9亿周活用户，6月突破10亿月活；Google Gemini同期从4亿增至超9亿月活；Meta AI亦于2026年5月宣布达10亿月活。没有任何政府、媒体或国际组织曾拥有如此广泛、实时、双向的人类连接能力。可在同一周内，通过这些平台向全球普通人提问：‘你希望这项技术为你做什么（如果有的话）？它永远不该被允许做什么？该由谁来治理这项技术，依据什么原则？’",
+      "但她同时强调，AI模型并非中立工具。《经济学人》2026年6月一项调查对比25个前沿AI模型与《世界价值观调查》（覆盖88国）中普通人的价值观，发现这些模型常比各国平均受访者更极端——有些比地球上任何社会都更世俗或更个人主义，并倾向于压缩全球道德多样性。若未经校准直接用此类模型汇总民意，所得‘全球共识’可能仅代表某一狭窄文化视角。因此她主张采用三层混合方案：第一层是AI辅助的全球咨询，数月内产出初步草案，并按地区拆解结果（如西方侧重个体数据隐私与预防性限制，非洲与印度更强调数据主权与发展优先），避免以虚假共识掩盖真实分歧；第二层是真人实时在线对话的全球审议，由AI担任协调助手，检验、修正并丰富第一层结论；第三层是在各国各地举办线上线下公民大会与公投，最终汇入一场全球公民大会予以审议、修订或取代前两层成果。",
+      "朗德摩尔指出，当前最有可能实际推动这场全球审议的，或许不是民选领导人，而是正在构建AI的公司负责人。她特别致信Anthropic CEO达里奥·阿莫代：‘你们自己的研究人员已在2023年证明，第一层方案可行且可扩展。’而迈出第一步的关键，在于让掌握权力者真正承诺并投入资源——‘把钱花在嘴上说的地方’。AI越强大，它的未来越不该由少数人独自书写。"
+    ],
+    "topics": [
+      "哲学与思想",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Noema",
+      "region": "international",
+      "url": "https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance",
+      "originalTitle": "How To Give Everyday People A Say In AI Governance",
+      "publishedAt": "Tue, 04 Aug 2026 13:01:54 +0000",
+      "retrievedAt": "2026-08-05T22:31:46.948Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:31:41.118Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-06/2026-08-06-how-to-give-everyday-people-a-say-in-ai-governan.webp",
+      "alt": "Abstract human silhouette before a network globe",
+      "caption": "让普通人发声，AI才更可信。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-06-three-things-to-avoid-in-middle-age-if-you-want-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中年时期避开吸烟、高血压和糖尿病，或能推迟痴呆十三年",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "一项研究发现，中年时没有这三个风险因素的人，大脑健康的时间平均多出十三年。",
+    "paragraphs": [
+      "目前还没有能治愈痴呆症的药。虽然市场上已有一些治疗阿尔茨海默病的新药，但它们也只能减慢疾病进展。正因如此，预防就变得格外重要。一项发表在《Neurology Open Access》上的新研究显示，如果能在中年阶段避免吸烟、糖尿病和高血压力这三个主要风险因素，就可能显著延长无痴呆生存时间。",
+      "这项研究纳入了超过12,400人的健康记录，参与者加入研究时平均年龄为56岁，研究人员评估了他们是否患有高血压、糖尿病或有吸烟习惯，并持续追踪长达26年。结果发现：完全没有这三项风险因素的人，平均无痴呆生存时间为30年；而同时具备三项风险因素的人，平均仅为17年——相差13年。",
+      "研究还发现，在同时具有三项风险因素的群体中，女性比男性延迟出现痴呆，白人比黑人延迟出现痴呆。研究作者Josef Coresh指出：‘这些结果表明，降低血管风险对所有人群都有益，但黑人成年人等特定群体可能尤其受益于有针对性的预防措施。’他还呼吁人们从45岁起就密切关注血管健康，例如戒烟。",
+      "不过，做到这一点并不容易。吸烟虽属行为习惯，却高度成瘾；电子烟等替代品也可能带来类似风险。而高血压和糖尿病则具有遗传成分，若缺乏规范医疗干预，更难规避。",
+      "在尚无能改善痴呆症状的医学干预手段之前，预防仍是最佳策略。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/three-things-to-avoid-in-middle-age-if-you-want-to-stave-off-dementia-1283422/",
+      "originalTitle": "Three Things to Avoid in Middle Age If You Want to Stave Off Dementia",
+      "publishedAt": "Wed, 05 Aug 2026 20:00:00 +0000",
+      "retrievedAt": "2026-08-05T22:33:01.322Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:32:55.727Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 16,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-06-4w5m8p",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "榕江“班超”足球赛，从班级踢到了全国",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "第二届全国青少年“班超”足球赛于8月3日在贵州榕江落幕，参赛队伍从首届的16支增至97支。",
+    "paragraphs": [
+      "你也许听过火爆的“村超”，那是贵州榕江的乡村足球联赛。现在，榕江的校园里也诞生了“班超”——一项以班级为单位的校园足球超级联赛。8月3日，第二届全国青少年“班超”足球赛（简称“班超”全国赛）在贵州省黔东南州榕江县落幕。本届赛事规模全面升级，参赛队伍达97支，组别扩展为初中女子组、男子U12、U15和U17四个组别，绿茵场上的主角换成了孩子们。",
+      "“班超”的模式是在“村超”社会足球带动下开创的校园足球发展新模式，自2024年2月启动。截至目前，已举办“班超”赛事4000余场，4.5万名学生参与其中。榕江县乡镇及以上58所学校均已实现每班至少组建两支足球队。本届全国赛，东道主榕江派出18支队伍参赛，并在四个组别中斩获两个冠军、两个亚军、两个季军。",
+      "榕江正构建“村超”社会足球、“班超”校园足球、“逐梦”职业足球的“新三线”人民足球体系。其中，“村超”已通过先后举办“村超”联赛、“村超”全国赛、“村超”地球村友谊赛等，走出了“本地联赛-全国赛事-国际交流赛事”三级赛事矩阵路子；“班超”也要走“村超”多级赛事矩阵之路，要从“榕江学生自己玩”，到深度“吸引全国学生一起玩”，最后力争“吸引全世界学生一起玩”。今年6月起，榕江发起“班超”百校联盟，短短一个月吸引116所学校参加，其中省外42所。",
+      "比赛精彩纷呈：在京鲁岳峰星火联队与遵义十九中一队的U15男子组半决赛中，双方常规时间3比3战平，并通过点球大战鏖战15轮方决胜负，这场比赛创造了“村超”和“班超”的点球纪录。夺得初中女子组冠军的湖南湘成女足是一支公益足球队，队员主要由来自新疆和四川大凉山的孩子组成。湘成女足12岁门将艾菲萨·拜日克提拉在决赛结束后，还与队员一起坐在“村超”球场看了一整晚比赛。",
+      "佛山市超盈实验中学领队何启锵表示，他们队伍曾夺得广东省中学生运动会男足冠军，通过“班超”平台提供的交流机会，全队看到了榕江校园足球的高竞技水平；榕江一中主教练褚相伟说，“班超”是一个相互交流、相互提升的平台，相信未来在更多球队的参与下，“班超”可以被打造成为推动国内外青少年足球竞技和文化交流的大舞台。",
+      "从班级联赛起步，到覆盖全国近百支队伍，“班超”正以扎实的基层实践和清晰的发展路径，让足球真正扎根校园、走向全国。"
+    ],
+    "topics": [
+      "校园足球",
+      "村超生态",
+      "青少年体育参与"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260805/3de6a5aa4fe94358b6297ac5d71a1925/c.html",
+      "originalTitle": "追光丨榕江“班超”全国赛凭什么吸引近百支球队？",
+      "publishedAt": "2026-08-05T07:25:05+08:00",
+      "retrievedAt": "2026-08-05T22:34:11.323Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:34:06.871Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 2,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Why Kids Flocked to Rongjiang for a Football Tournament",
+      "intro": "A youth football tournament in China's Guizhou province just wrapped up, and it was full of surprises.",
+      "paragraphs": [
+        "A penalty shootout went 15 rounds. It happened in the U15 boys' semifinal between Jinglu Yuefeng Xinghuo United Team and Zunyi No.19 Middle School. This set a record for 'Cun Chao' and 'Ban Chao'.",
+        "The tournament is called 'Ban Chao', short for 'Class Super League'. It started in February 2024. It grew from 16 teams in 2025 to 97 teams in 2026. The event took place in Rongjiang County, Guizhou Province. Rongjiang is the birthplace of 'Cun Chao'.",
+        "This year's 'Ban Chao' national tournament had four groups: junior girls, and boys U12, U15, and U17. Hunan Xiangcheng Women's Football Club won the junior girls title. Their players come from Xinjiang and Sichuan's Daliangshan. Foshan Chaoying Experimental Middle School won the U17 boys title.",
+        "Rongjiang sent 18 teams. They won two championships, two runner-up finishes, and two third-place finishes. All 58 schools above township level in Rongjiang now have at least two football teams per class. One player from Rongjiang No.1 Middle School said his team gave their best effort and learned from strong opponents.",
+        "The 'Ban Chao' is part of Rongjiang's 'three-line' people's football system. It includes 'Cun Chao' for community football, 'Ban Chao' for school football, and 'Zhu Meng' for professional football. The goal is to go from 'Rongjiang students playing among themselves' to 'attracting students nationwide', then 'worldwide'."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:37:12.035Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-06-81rlve",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "西安碑林海峡两岸临书展开展",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "西安碑林博物馆举办海峡两岸青少年临书展，展出两岸青少年临摹古代碑帖的书法作品。",
+    "paragraphs": [
+      "西安碑林博物馆里，一场特别的展览正在举行。展出的是来自海峡两岸青少年临摹古代碑帖的书法作品。",
+      "这个展览叫做“西安碑林海峡两岸临书展”。主办方从两岸征集到投稿，最终选出了优秀作品。",
+      "临书，就是照着古代的名家碑帖模仿学习。这是学习书法最传统的方式。",
+      "除了展览，主办方还安排了两岸青少年一起参观碑林、现场挥毫。",
+      "这次临书展由西安碑林博物馆和台湾一家书法教育推广机构共同主办。展览将持续到八月底。"
+    ],
+    "topics": [
+      "书法传承",
+      "两岸文脉",
+      "碑帖临习"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-05/10672623.shtml",
+      "originalTitle": "西安碑林海峡两岸临书展开展",
+      "publishedAt": "Wed, 5 Aug 2026 22:04:31 +0800",
+      "retrievedAt": "2026-08-05T22:34:45.501Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:34:41.313Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-06-9o4wjz",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中小学科学教育“上新”，“做中学”让科学教育落地生根",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-06",
+    "intro": "教育部发布《中小学科学教育工作指南》，强调通过动手实践和探究式学习，推动科学教育真正落地。",
+    "paragraphs": [
+      "你印象里的科学课是什么样的？是不是老师讲原理，你埋头做卷子？根据中新网教育报道，教育部已发布《中小学科学教育工作指南》，明确要求强化“做中学”，即在动手操作、实验探究中学习科学。",
+      "新指南提出加强科学教育师资建设。",
+      "“做中学”强调实践性学习。指南要求减少死记硬背和重复刷题，增加跨学科实践活动，促进科学与数学、技术、艺术等融合。",
+      "指南支持拓展校外科学教育资源，推动科技馆、博物馆、高校实验室和高科技企业成为中小学生科学学习的延伸场所。",
+      "这些举措体现一个核心理念：科学不是书本上的固定答案，而是一种探索世界的方法。学生在动手操作、提出猜想、验证猜想的过程中，培养像科学家一样的思维方式——这种能力无法通过试卷衡量。"
+    ],
+    "topics": [
+      "教育",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-05/10672228.shtml",
+      "originalTitle": "中小学科学教育“上新”，“做中学”让科学教育落地生根",
+      "publishedAt": "Wed, 5 Aug 2026 11:30:47 +0800",
+      "retrievedAt": "2026-08-05T22:36:31.029Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-05T22:36:24.202Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-08-05-songs-prep-unhatched-finches-8217-brains-for-a-h",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蛋壳里的天气预报：斑胸草雀的歌声帮宝宝适应高温",
@@ -2902,360 +3221,6 @@
       "src": "/editorial/2026-07-23/2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th.webp",
       "alt": "Abstract globe with warm ocean currents on gray background",
       "caption": "厄尔尼诺现象正在加强。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-23-oy46xz",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "强流重离子加速器装置建成投入试运行",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-23",
-    "intro": "7月21日，位于广东省惠州市的国家重大科技基础设施建设项目——强流重离子加速器装置（HIAF）通过工艺验收，进入试运行阶段，开始投入科学研究。",
-    "paragraphs": [
-      "7月21日，位于广东省惠州市的国家重大科技基础设施建设项目——强流重离子加速器装置（HIAF）通过了由中国科学院科技基础能力局主持的工艺验收，标志着该装置完成所有工程建设内容，进入试运行阶段，开始投入科学研究。",
-      "验收专家组由来自全国科研院所、高校和企业的8位院士、15位专家组成。专家组认为，项目法人单位中国科学院近代物理研究所全面、高质量完成了国家发展改革委批复的建设内容和任务，HIAF实现了强流重离子加速器和实验终端方法和技术的全链条自主可控创新突破，经多轮性能测试，国家要求的验收指标全部达到并均优于设计指标。HIAF综合性能达到国际同类装置领先水平，实现了我国强流重离子加速器装置跨越发展。验收专家组一致同意强流重离子加速器装置通过工艺验收。",
-      "HIAF是世界上第一台超导直线加速器、同步加速器和储存环组合的先进重离子研究装置，结合了直线加速器的高脉冲流强优势和环形同步加速器的高能量特点。",
-      "项目于2018年12月开工建设，2025年10月首次出束。聚焦“探索原子核存在极限、揭示核天体物理过程、推动核能开发和多学科应用”三大目标，HIAF将为核科学前沿和重离子重大应用提供国际领先的研究平台，显著提升我国重离子科学与技术领域的创新能力，打造具有重大国际影响的重离子科学研究中心。",
-      "HIAF将为核科学前沿和重离子重大应用提供国际领先的研究平台，显著提升我国重离子科学与技术领域的创新能力，打造具有重大国际影响的重离子科学研究中心。"
-    ],
-    "topics": [
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568633.shtm",
-      "originalTitle": "强流重离子加速器装置建成投入试运行",
-      "publishedAt": "2026-07-22 08:40",
-      "retrievedAt": "2026-07-22T23:37:21.107Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-22T23:37:19.893Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "China's Powerful Heavy Ion Accelerator Now in Trial Operation",
-      "intro": "A major scientific facility in southern China, designed to explore the frontiers of nuclear physics, has officially started trial runs.",
-      "paragraphs": [
-        "On July 21st, the High Intensity Heavy Ion Accelerator Facility, or HIAF, passed its technological acceptance review. The review was hosted by the Bureau of Science and Technology Infrastructure of the Chinese Academy of Sciences. This marks completion of all construction work and entry into trial operation for scientific research. The facility is located in Huizhou, Guangdong Province, and is a national major science and technology infrastructure project.",
-        "The acceptance panel brought together eight academicians and 15 experts from research institutes, universities, and companies across China. They reviewed reports and test results, inspected the facility, and questioned the project team. The panel found that the Institute of Modern Physics had completed all work approved by the National Development and Reform Commission to a high standard. It said HIAF had achieved independent innovation across its heavy-ion accelerator and experimental systems, while every national acceptance target met or exceeded its design specification. The facility now ranks among the world’s leading comparable facilities, marking a major leap in China’s heavy-ion accelerator capabilities.",
-        "HIAF is the world’s first advanced heavy ion research facility to combine a superconducting linear accelerator, a synchrotron, and a storage ring. It combines the high pulse intensity of linear accelerators with the high energy of ring-shaped synchrotrons. Construction began in December 2018, and first beam was achieved in October 2025.",
-        "HIAF focuses on three major scientific goals: exploring the limits of atomic nucleus existence, revealing nuclear astrophysical processes, and promoting nuclear energy development and multidisciplinary applications. It will provide an internationally leading platform for nuclear science and major heavy-ion applications. It is expected to strengthen China’s innovation capacity and help build a heavy-ion research center with major international influence."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-22T23:40:46.876Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-23/2026-07-23-oy46xz.webp",
-      "alt": "Abstract particle accelerator tunnel in gray tones",
-      "caption": "强流重离子加速器投入运行。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "二战时，一位印度王公收留了数百名波兰孤儿",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-23",
-    "intro": "在二战最黑暗的岁月里，一位印度王公向波兰儿童敞开了大门，他们称他为“巴普”——父亲。",
-    "paragraphs": [
-      "1942年秋天，11岁的波兰男孩维斯瓦夫·斯提普瓦紧紧抓着军车里的长凳，和一群波兰孩子一起，穿过印度的乡间。这些孩子最小的只有两岁，他们瘦弱、衣衫褴褛，很多人没有鞋子，看起来病怏怏的。他们曾被拘留在西伯利亚的劳动营，辗转经过土库曼斯坦和伊朗，最终来到印度——第一个愿意收留他们的国家。",
-      "在古吉拉特邦一个海滨定居点的大门口，一位四十多岁的男人站在那里迎接他们。他是纳瓦纳加尔土邦的王公迪格维贾伊辛赫·兰吉特辛赫·贾德贾。他的洪亮声音打破了沉默：‘Do not consider yourselves orphans. You are now Nawanagaris, and I am Bapu, the father of all the people of Nawanagar, so also yours.’",
-      "这些波兰孩子是二战初期苏联大规模驱逐波兰平民的受害者。1940年2月，苏联开始将约32万至50万波兰平民——包括军事官员、公务员、土地所有者、教师等被认定为‘社会危险’者——送往西伯利亚和哈萨克斯坦的劳动营。许多人在途中或营地中死亡。",
-      "1941年6月，希特勒撕毁与斯大林的互不侵犯条约，入侵苏联。莫斯科从波兰的拘禁者变为临时盟友。随后签署的《西科尔斯基–迈斯基协定》释放了波兰囚犯，并授权在苏联境内组建波兰军队。由于苏联物资短缺，数万名波兰难民——主要是妇女和儿童——被疏散到盟军控制的伊朗。但此后去向未定。",
-      "波兰流亡政府希望英国协助安置难民，但当英国提议将难民转移至英属印度时，当地官员对接收持保留态度，尤其担忧病弱儿童的健康负担。这些儿童普遍患有肺结核、伤寒、痢疾及营养不良相关疾病；而印度当时正面临战时粮食短缺，仅孟加拉地区1943–1944年间就有约三百万人死于饥荒。",
-      "迪格维贾伊辛赫当时正以印度代表身份在伦敦参加英国战时内阁。他得知波兰孤儿困境后决定介入，宣布将亲自邀请孩子们作为宾客暂居纳瓦纳加尔，直至更全面的波兰难民政策出台。他与波兰无历史关联，亦无战略动因或外部压力，仅凭‘practical common sense’行事。幸存者卡罗琳娜·雷布卡回忆：‘Nobody wanted us... He saved our lives.’"
-    ],
-    "topics": [
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Smithsonian History",
-      "region": "international",
-      "url": "https://www.smithsonianmag.com/history/this-indian-maharaja-saved-hundreds-of-polish-orphans-during-world-war-ii-offering-them-refuge-when-no-one-else-would-180989150/",
-      "originalTitle": "This Indian Maharaja Saved Hundreds of Polish Orphans During World War II, Offering Them Refuge When No One Else Would",
-      "publishedAt": "Wed, 22 Jul 2026 11:45:00 +0000",
-      "retrievedAt": "2026-07-22T23:38:41.803Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-22T23:38:39.954Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "The Maharaja Who Saved Hundreds of Polish Orphans",
-      "intro": "During World War II, Maharaja Digvijaysinhji Ranjitsinhji Jadeja of Nawanagar offered refuge to an estimated 600 to 1,000 Polish children—many displaced after Soviet deportations to Siberia—when no other country would accept them.",
-      "paragraphs": [
-        "In autumn 1942, a group of Polish children arrived in the coastal settlement of Gujarat State and came to a halt at the gates of Nawanagar. They had been detained in labor camps in Siberia, victims of the Soviet push to deport the Polish intelligentsia and their families in the early years of World War II; many had lost their parents en route to Siberia. They emerged from military trucks thin and looking sick; many were shoeless and dressed in rags. Waiting at the gates was Maharaja Digvijaysinhji Ranjitsinhji Jadeja, ruler of the princely state of Nawanagar.",
-        "The maharaja’s booming voice broke the silence. 'Do not consider yourselves orphans,' he said. 'You are now Nawanagaris, and I am Bapu, the father of all the people of Nawanagar, so also yours.' His daughter, Princess Harshad Kumari, stood nearby to greet the new arrivals and later recalled they 'looked so miserable, and their clothes hung about their frames,' and that this was their state 'after they had been fed and cared for' at transit camps along the way. He ultimately welcomed an estimated 600 to 1,000 young Polish refugees seeking safety amid the chaos of war.",
-        "The children’s displacement began with the Nazi invasion of Poland on September 1, 1939, followed by the Soviet invasion from the east sixteen days later, following through on the Molotov-Ribbentrop Pact. In February 1940, the Soviets initiated mass deportations of Polish civilians—sending an estimated 320,000 to 500,000 members of the intelligentsia, including entire families of military officers, civil servants, landowners, teachers and anyone else deemed 'socially dangerous'—to labor camps in Siberia and Kazakhstan. The situation changed suddenly in June 1941, when Hitler invaded the Soviet Union; the following month, the Sikorski-Mayski Agreement freed Polish prisoners detained in Soviet camps and authorized evacuation of tens of thousands of Polish refugees—mostly women and children—to Allied-occupied Iran. From there, the British proposed moving the refugees to British India, but Indian authorities questioned who would take on the financial burden of caring for the displaced persons’ health—especially critical given that many children suffered from tuberculosis, typhus, dysentery and diseases linked to malnutrition—and deliberated while taking into consideration India’s own wartime food shortages, which resulted in the deaths of some three million people in Bengal between 1943 and 1944.",
-        "Maharaja Digvijaysinhji, then serving as India’s representative in Britain’s Imperial War Cabinet, heard about the Polish orphans’ plight and decided to step in. He announced that he would personally invite the children to stay in Nawanagar as his guests while politicians worked out a more comprehensive Polish refugee policy. He had no historical connection to Poland, no strategic reason to act, nor external pressure to respond. He was driven only by what Leo Amery, then-secretary of state for India, called 'practical common sense.' As Digvijaysinhji reportedly said, 'If God has sent me these children, it is my duty to care for them.' Survivor Karolina Rybka recounted the profound impact of the maharaja’s hospitality: 'Nobody wanted us... I have no idea what would have happened to us, a thousand kids. The war was everywhere... He saved our lives.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-22T23:41:27.809Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-23-15",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "课间15分钟，孩子们怎样真正动起来",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-23",
-    "intro": "多地学校正在探索15分钟课间，并把每天两小时综合体育活动落到校园的走廊、操场和球场上。",
-    "paragraphs": [
-      "全国基础教育工作会议7月22日在北京召开。教育部介绍，我国目前有43万所中小学和幼儿园、2.2亿在校生、1577万名专任教师，已经建成世界上规模最大的基础教育体系。",
-      "一项覆盖2023年至2025年的国家义务教育质量监测显示，大约80%的学生在数学、语文、英语和科学等学科达到课程标准要求，大约55%达到优良水平。学生的身高、肺活量和体能等指标也在改善，肥胖率和视力不良检出率的上升趋势得到明显遏制。",
-      "学习不只发生在教室里。这个暑期，贵州遵义的学生走进革命旧址，浙江杭州的学生到田野体验农耕，北京等地开展科学夏令营和人工智能科创比赛，一些地方还安排了体能闯关和特色美育活动。",
-      "在校园里，各地正在落实“健康第一”的要求，全面推行中小学生每天综合体育活动两小时，并普遍探索实施15分钟课间。教育部把这种变化概括为：让学生“身上有汗、眼里有光”。",
-      "广州荔湾区西关培正小学把足球、篮球和跳绳等器材放在走廊与转角，让孩子随时可以动起来。学校还会在大课间组织篮球操和对抗赛，去年学生体质合格率达到100%，优良率达到92.4%。",
-      "从课间15分钟到每天两小时体育活动，关键不只是把时间写进安排表，而是给孩子准备真正能参与的空间、器材和活动。这样，多出来的时间才会变成奔跑、合作和身体成长的机会。"
-    ],
-    "topics": [
-      "城市与公共"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/07-22/10664230.shtml",
-      "originalTitle": "各地普遍探索实施课间15分钟！教育部：“身上有汗、眼里有光”正成为现实",
-      "publishedAt": "Wed, 22 Jul 2026 14:12:17 +0800",
-      "retrievedAt": "2026-07-22T23:39:15.603Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-23T10:31:39Z",
-        "reviewer": "source-exact-repair",
-        "evidenceCount": 6,
-        "correctionCount": 6,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-22-king-cobras-may-be-riding-trains-across-india-co",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "眼镜王蛇可能搭上了印度的火车",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-22",
-    "intro": "一项新研究发现，眼镜王蛇可能利用印度的铁路网在各地之间移动，这为保护这种濒危蛇类提供了新线索。",
-    "paragraphs": [
-      "你听说过蛇搭火车吗？这不是玩笑。在印度，科学家发现眼镜王蛇可能正在利用铁路系统进行长途旅行。这些巨大的毒蛇，最长能长到5米多，平时生活在森林里，但近年来，它们出现在了一些意想不到的地方——比如火车站附近。",
-      "研究人员分析了2000年到2024年间在印度各地发现的眼镜王蛇记录，发现有些蛇出现的地点距离最近的森林很远，而且正好沿着铁路线分布。他们推测，这些蛇可能爬上了货运列车，或者沿着铁轨爬行，一路“搭车”到了新地方。",
-      "为什么蛇要坐火车呢？主要原因可能是它们的栖息地被破坏了。随着人类不断开垦森林、修建道路和城市，眼镜王蛇的家园越来越小。它们不得不寻找新的生存空间，而铁路网正好提供了一条快速通道。",
-      "不过，这对眼镜王蛇来说既是好事也是坏事。好消息是，它们可以扩散到新的区域，找到食物和配偶；坏消息是，火车本身很危险，而且到了新地方，它们可能和人类发生更多冲突。在印度，每年都有很多人被蛇咬伤，眼镜王蛇的毒液非常致命。",
-      "科学家说，了解蛇的移动路线，可以帮助我们更好地保护它们。比如，在铁路沿线设置安全通道，或者提醒附近居民注意安全。毕竟，眼镜王蛇是受保护的物种，它们的存在对生态系统很重要。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/king-cobras-riding-trains-india-comic",
-      "originalTitle": "King cobras may be riding trains across India [COMIC]",
-      "publishedAt": "Tue, 21 Jul 2026 10:30:00 +0000",
-      "retrievedAt": "2026-07-21T23:36:05.236Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T23:36:04.135Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-22-the-organisms-that-make-earth-s-harshest-places-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "地球最极端环境里的生命：极端微生物的生存之道",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-22",
-    "intro": "从滚烫的火山口到冰冷的南极，从强酸到高压，地球上最严酷的角落也生活着顽强的微生物，它们的故事告诉我们生命的极限在哪里。",
-    "paragraphs": [
-      "地球上的生命几乎无处不在。除了热带雨林和珊瑚礁这些生机勃勃的地方，就连最残酷的角落也有居民。那些能在极端环境中蓬勃生长的生物——如灼热温度、巨大压力、腐蚀性酸——我们称之为“extremophiles”。它们大多是一些顽强的微生物，比如细菌或古菌。有的能在能把其他生物致命腌渍的毒盐水中生存；有的能在零下温度快乐生长，使用特殊酶，在其他酶完全失活时仍能持续工作；还有的能抵御重金属、电离辐射甚至太空真空，依然 thriving。",
-      "这些生物不只是生物学上的奇观。理解其坚韧的生物学机制具有多种潜在应用。发现能在极端温度、pH值或压力下起作用的生化物质，可能惠及广泛的工业流程。这些生物还可用于清理有毒污染物——在别无他物能生长、繁盛并降解污染物的地方，它们却能做到。极端微生物及其酶甚至促成了现代遗传学与分子生物学时代。",
-      "极端微生物还为我们了解生命深层起源提供了一扇窗口。生命最初演化的地球环境比今天严酷得多，很可能富含毒素并暴露于高强度辐射。通过探明生命当下所能承受的极限，研究人员能更清晰地推断最初是什么使生命成为可能，以及生命如何适应几乎任何环境。",
-      "如果生命能在地球的极端环境中被发现，那么宇宙中其他地方也可能存在生命。极端微生物提供了对外星生物学的一种假想窥视，帮助我们更好地想象在火星等相对不宜居的世界上，可能演化出何种生命形式。",
-      "例如，细菌 _Deinococcus radiodurans_（耐辐射奇球菌）可抵抗高达致死人类剂量1000倍的电离辐射。它于20世纪50年代被意外发现：科学家曾用极大剂量电离辐射轰击肉罐头，结果该微生物仍存活。其近亲 _D. peraridilitoris_ 在智利干旱沿海沙漠中被发现，同样具备强抗辐射能力。该菌有助于研究人员理解生命如何在辐射远高于地球的天体上存活。",
-      "又如，生活在黄石国家公园近沸点温泉中的嗜热细菌 _Thermus aquaticus_（水生栖热菌），其分离出的耐热DNA合成酶——Taq DNA聚合酶——于1976年一篇论文中被描述；这直接促成聚合酶链反应（PCR）技术的发明，该技术可在实验室中大量扩增DNA片段，从根本上革新了分子生物学。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720/",
-      "originalTitle": "The Organisms That Make Earth’s Harshest Places Home",
-      "publishedAt": "Mon, 20 Jul 2026 15:03:48 +0000",
-      "retrievedAt": "2026-07-21T23:36:48.570Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T23:36:47.183Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "The Organisms That Make Earth’s Harshest Places Home",
-      "intro": "Life has scarcely found a boundary on Earth that it can’t push. While much of life’s diversity exists in lush, bountiful habitats like tropical rainforests and coral reefs, even the most brutal corners of the planet are also occupied.",
-      "paragraphs": [
-        "Extremophiles that thrive in the most unforgiving environments aren’t just biological curiosities. The organisms that thrive in extreme environments — blistering temperatures, crushing pressures, corrosive acid — are what we call “extremophiles.” Most of these imperiled pioneers are rugged microbes, such as bacteria or archaea. Some have evolved to live in poisonous brine that would fatally pickle nearly everything else. Some can happily grow in subzero temperatures, using special enzymes that chug along where others grind to a halt. Others can shrug off the menaces of heavy metals, ionizing radiation, or the vacuum of space and still thrive.",
-        "These organisms aren’t just curiosities. Understanding their resilient biology has many possible applications. Discovering biochemicals that function under extreme temperatures, pH levels, or pressure could be a boon for a broad array of industrial processes. The organisms may also help clean up toxic pollutants by growing, thriving, and digesting where nothing else can. Extremophiles and their enzymes are even responsible for the modern era of genetics and molecular biology.",
-        "Extremophiles can also provide a window into life’s deep origins. The planet where life first evolved was a harsh place compared to today, and it likely had high concentrations of toxins and heavy exposure to radiation. By divining the limits of what life can endure today, researchers can get a better idea of what made life possible in the first place, and what has allowed life to adapt to almost any environment. And if life can be found at our planet’s extremes, then there’s a chance that life may exist elsewhere in the universe. Extremophiles offer a hypothetical peek at alien biology, helping us better imagine what kinds of life forms might evolve on other relatively inhospitable worlds, from our neighbor Mars to far beyond.",
-        "One of the most important thermophilic microbes was also one of the earliest found by science. In the late 1960s, researchers working in Yellowstone National Park described the bacterium _Thermus aquaticus_ from Mushroom Pool. The isolation of its heat-stable, DNA-synthesizing enzyme, called Taq DNA polymerase, was described in a paper published in 1976. This led to the invention of the polymerase chain reaction that could replicate DNA segments in vast quantities in the lab, fundamentally revolutionizing molecular biology. _Methanopyrus kandleri_ is an archaeon first described around 35 years ago and found living on a deep-sea hydrothermal vent in the Gulf of California. At least one strain of _Methanopyrus_ can grow at 122 degrees Celsius, making it one of the most heat-tolerant organisms known. _Rhodococcus_ sp. JG-3 can grow at minus 5 degrees Celsius and respire at minus 15 degrees Celsius. _Haloarcula marismortui_, an archaeon, survives the osmotic strain of the Dead Sea’s waters. _Halomonas titanicae_ was described in 2010 after its discovery amid the wreck of RMS _Titanic_, where it has spent over a century chewing up the ship’s steel, leaving behind long, rusty tendrils.",
-        "An example is _Exiguobacterium_ sp. SH31, a bacterium found in the salt wetlands of Salar de Huasco in Chile. It can survive both high salinity and a flood of toxic heavy metals such as cadmium, chromium, and arsenic. First reported in the Mariana Trench in 2017, the bacterium _Colwellia marinimaniae_ is, as far as we know, the piezophile that can grow at the highest pressure. Laboratory tests showed that it grows best at 120 megapascals of pressure — or nearly 1,200 atmospheres."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T23:40:52.233Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-22/2026-07-22-the-organisms-that-make-earth-s-harshest-places-.webp",
-      "alt": "Abstract hydrothermal vent on dark ocean floor",
-      "caption": "极端微生物的生存环境",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-21-17",
-    "title": "清华团队用17年做一件事：帮助盲人“看见”世界",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-21",
-    "intro": "一个清华团队用17年时间，为盲人研发了盲人计算机——大幅面触觉图形显示终端，让他们能通过触摸感知图形。",
-    "paragraphs": [
-      "杨光听到医生‘接下来的1到2年内，你的视觉会不可逆地完全丧失’的宣判时，还是个小学生。后来，他每天从早到晚不停地去看周边世界，拼命把所有事物都记到脑子里，包括它们的颜色、形状等，因为以后就再也看不见了。多年后，就读北京联合大学的视障学生杨光，把这段往事讲给2014年时任清华大学未来实验室助理研究员的焦阳听。那一刻，焦阳的眼泪当场就掉了下来。他后来说：“也许这件事不如AI那么火，但是它能够触动人心，我就愿意去做。”",
-      "盲人可以借助读屏软件，听到外放播报的文字，但他们无法从电子屏幕上的图形获取信息。焦阳说，帮他们把每张图都打印到专门的盲文纸上，显然是不现实的，专门为盲人设计一款计算机就成了一个解决途径。这正是未来实验室主任徐迎庆团队自2009年开始的长期主义事业。",
-      "未来实验室里诞生的盲人计算机，其学术称谓是大幅面触觉图形显示终端。设备拥有7200个可升降触点，每个触点都像一个可控制的“像素”，能把屏幕上的图像转化为手指下起伏的纹理。此外，设备上面还有一个触觉引导环，可以在点阵上方去任意地二维滑动，这就相当于有人在牵引盲人的手去摸一幅图像。",
-      "为了满足盲人的创作需求，团队开发了TacChat系统，其中包含吕京阳参与开发的自动识别盲人绘图创作功能。当盲人用3D绘画笔完成创作，摄像头就会自动拍照并显示在盲人计算机上，以便分享。此前，盲人一直是被动接受老师给到的图形信息；这一系统使他们也能主动表达和分享。",
-      "这个项目的缘起是2009年。焦阳是2013年来到清华的，他是徐迎庆的第一个博士生。当时江宁已经毕业，焦阳面对的，只有一个“手搓”的盲人计算机概念模型。他最初的设计是在印制电路板下面垫一层海绵，然后用大头针扎点，等扎出一片树叶或者一朵花，再让盲人来摸。仅仅为了解决“顶起和锁定触点的电磁驱动偏心轮翻转”的工作，焦阳就耗费了两三年的时间。如今，他们为盲校开发了一整套高中二年级教材，已累计试用了100多个课时。",
-      "盲人女孩小涵通过盲人计算机实现了网购。盲人的网购，平时只能靠听产品的文字解释，这样的网购就相当于“开盲盒”。盲人计算机能够让她通过触摸辨别哪个是高水杯、哪个是咖啡杯、哪个是马克杯。平时买东西要三四十分钟，这次她一摸，一分钟就能找到她想要的商品。当拿到杯子的时候，她特别激动：“从来没有想过自己能在网上买东西，而且还能自己挑。”焦阳还有一个雄心，希望借鉴李飞飞当年做的ImageNet，构建全球首个百万级的触觉图像数据库。如果实现的话，就可以想象：每当盲人走到一个地方拍照，设备就会将其转换为触觉图形，他们就可以“看到”更丰富的世界。"
-    ],
-    "topics": [
-      "脑与认知",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568532.shtm",
-      "originalTitle": "清华团队用17年做一件事：帮助盲人看见世界",
-      "publishedAt": "2026-07-20 20:21",
-      "retrievedAt": "2026-07-20T23:53:06.677Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-20T23:53:05.188Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 10,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Tsinghua Team Spent 17 Years Helping the Blind 'See' the World",
-      "intro": "A Tsinghua University team has spent 17 years developing a large-format tactile graphics display terminal that lets blind people 'see' through touch and sound.",
-      "paragraphs": [
-        "Imagine being told as a child that you'll lose your sight completely within a year or two. That's what happened to Yang Guang, a visually impaired student. He spent every waking moment memorizing the colors and shapes around him. Years later, when he shared this story with Jiao Yang, a researcher at Tsinghua University's Future Laboratory, Jiao was moved to tears. He decided then to dedicate himself to a project that might not be as flashy as AI, but one that could truly touch people's hearts: building a computer for the blind.",
-        "This computer, called a large-format tactile graphics display terminal, is nothing like a regular PC. It has 7200 actuable tactile points that can rise and fall, turning images on a screen into patterns you can feel with your fingers. There's also a tactile guidance ring that moves freely in two dimensions above the point array, simulating the experience of someone guiding a blind person's hand to explore an image. The idea came from researchers who used to physically guide blind people's hands to teach them shapes. Now, the device can even show dynamic graphics, helping blind students understand complex concepts like the proof process of the Pythagorean theorem. Controlled experiments found that blind students' learning outcomes under this new approach were significantly higher than those in two control groups: one receiving speech-only instruction, and another receiving both speech and static tactile images. The team has since developed a full set of Grade 11 textbooks for blind schools, which have been piloted for over 100 class hours.",
-        "The team didn't stop there. They developed a chat application called TacChat, modeled after WeChat, that lets blind users create and share drawings. The idea originated from students at Beijing Municipal School for the Blind, who said: 'You need to make something that lets us also gesture and sketch (a system).' This inspired developer Zhang Yuewen to recognize blind users' creative needs. When a blind user completes a drawing using a 3D pen, the device's camera automatically captures it and renders it as a tactile image for sharing. Lü Jingyang, a third-year undergraduate majoring in Software Engineering at Beijing Jiaotong University, led the programming work for this feature. Wang Chong, a master's student in Educational Technology at Beijing Normal University, has limited vision—he can identify the top row of letters on a visual acuity chart from two to three meters away—and serves as a bridge between the sighted and blind worlds by leveraging both magnified vision and Braille literacy; he is currently working on Braille translation projects integrated with educational scenarios.",
-        "The project started in 2009 when Xu Yingqing, now director of the Future Laboratory, was a principal researcher at Microsoft Research Asia. He observed that blind visitors to museums could only access exhibit information via audio descriptions, prompting the question: could exhibits be made touchable? Soon, the team realized this need extended far beyond museums—to everyday image recognition tasks. Jiao Yang joined the project in 2013 as Xu Yingqing's first PhD student and became its continuous driving force for over a decade. He spent two to three years solving a single technical challenge: achieving reliable electromagnetic actuation and locking of the tactile points via eccentric wheel rotation. In recent years, the team has collaborated with Kunshan City and secured investment to pilot product commercialization. For blind user Xiao Han, the device enables online shopping by touch—replacing the 'blind box' experience where purchases rely solely on audio descriptions. She can now distinguish among tall water cups, coffee cups, and mugs by touch, reducing selection time from thirty to forty minutes down to one minute. Upon receiving her chosen item, she exclaimed: 'I never imagined I could shop online myself—and pick exactly what I want.'",
-        "Xu Yingqing believes that persisting in one endeavor for ten years is sufficient to earn respect and authoritative expertise. Jiao Yang embodies this principle. The team's ambition is to build a million-scale tactile image database, inspired by Li Feifei's ImageNet initiative. If realized, blind users could photograph a location and instantly receive a tactile representation of it. As Wang Chong's WeChat signature states: 'If only ordinary ideals exist, what distinguishes you from a simple ring?' In mathematics, a simple ring admits only trivial ideals; blind people's lives should not be narrow. With this technology, Xu Yingqing's team has spent 17 years striving to restore, in another form, the shapes and images that once receded from view."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-21T00:03:37.804Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 12,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-21/2026-07-21-17.webp",
-      "alt": "A tactile graphic display device with raised patterns",
-      "caption": "触觉图形显示终端帮助盲人感知图像。",
       "kind": "editorial"
     }
   }
