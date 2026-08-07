@@ -1,5 +1,229 @@
 [
   {
+    "slug": "2026-08-07-00wd1l",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国科学家首次认证胶球存在",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-07",
+    "intro": "一个纯由“力”构成的粒子，中国科学家经过15年持续研究，建立了完整实验证据链，首次认证其存在。",
+    "paragraphs": [
+      "如果有人说，有一种物质不是由‘东西’构成的，而是由‘力’构成的，你可能会觉得这是在说科幻电影。但这不是幻想。北京时间8月6日，北京正负电子对撞机上的北京谱仪III实验（BESIII）国际合作组，在巴西举行的国际高能物理大会上，以特别大会报告的形式宣布：经过15年的持续研究，BESIII实验建立了证明胶球存在的完整证据链，解开了困扰学术界近半个世纪的胶球存在之谜。",
+      "原子核由质子和中子组成，质子和中子又由夸克组成。夸克之间靠胶子传递强相互作用力，就像光子传递电磁相互作用力一样。但胶子的特别之处在于，光子不会自己吸引自己，而胶子却会。因此，胶子之间有可能相互吸引，形成胶球。",
+      "在描述强相互作用的物理学理论‘量子色动力学’里，胶球是个极其重要的预言，因为它是唯一一种由‘力的传播子’构成的粒子。然而，半个世纪以来，实验上一直未能找到胶球。胶球到底存不存在，是对这个物理学理论至关重要的检验，也是悬而未决的重大科学问题之一。",
+      "2011年，BESIII合作组在J/psi的衰变产物中发现了一个新粒子X(2370)，疑似为胶球。经过13年的努力，他们于2024年首次利用100亿个J/psi粒子，测定了X(2370)的自旋和宇称量子数，其质量与格点量子色动力学对相同量子数胶球的理论预言完全一致。最近，由南京大学金山教授和中国科学院高能物理研究所黄燕萍研究员共同领导的研究团队又发现多个X(2370)新衰变模式，并首次测出它的‘味单态’性质。",
+      "‘味单态’性质是胶球的最重要特性。质子、中子等普通粒子都含有不同‘味道’的夸克，如上夸克、下夸克、奇异夸克等，而胶球由纯胶子构成，不含‘味道’信息，属于‘味单态’。最新实验结果成功测定，X(2370)正是‘味单态’。至此，BESIII实验通过历时15年的一系列研究，建立了从质量、量子数到‘味单态’的完整实验证据链，证实X(2370)的主要成分正是物理学家找了近半个世纪的胶球。",
+      "国际高能物理大会是每两年一次的全球性大会，只有特别重大的成果发布，才会增加特别大会报告。金山介绍，这是近半世纪来，胶球寻找最明确的实验结果，不仅清晰验证了‘胶子能够自我结合形成新型物质’这一重大理论预言，也展示了北京正负电子对撞机在研究强相互作用方面的独特优势。"
+    ],
+    "topics": [
+      "物质与数学",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569413.shtm",
+      "originalTitle": "力直接构成物质！中国科学家首次认证胶球存在",
+      "publishedAt": "2026-08-06 11:29",
+      "retrievedAt": "2026-08-07T01:08:48.158Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:08:45.819Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Matter Made of Pure Force: Chinese Scientists Confirm the Glueball",
+      "intro": "A Chinese-led experiment has confirmed the glueball, a particle made entirely of force, after 15 years of research.",
+      "paragraphs": [
+        "Imagine a material made entirely of force. It sounds like science fiction. But this time, it is real. On August 6, 2026, the BESIII collaboration announced at the International Conference on High Energy Physics in Brazil that they had established a complete experimental evidence chain for the glueball. After 15 years of continuous research, they confirmed that X(2370) is predominantly a glueball.",
+        "Inside atomic nuclei, protons and neutrons are made of quarks. Quarks are held together by the strong force. Gluons carry that force. Unlike photons, gluons attract each other. This self-interaction allows them to bind together and form a new kind of particle: the glueball.",
+        "The glueball is a key prediction of quantum chromodynamics. It is the only known particle made entirely of force mediators. For nearly 50 years, experiments failed to confirm its existence. The Beijing Electron-Positron Collider produces huge numbers of J/psi particles. J/psi particles were discovered by Samuel Ting. Their decays are highly favorable for glueball production.",
+        "In 2011, the BESIII collaboration discovered X(2370) in J/psi decays. In 2024, using 10 billion J/psi events, they measured its spin and parity quantum numbers. These matched lattice QCD predictions for a glueball exactly. Recently, a team led by Jin Shan of Nanjing University and Yanping Huang of the Institute of High Energy Physics confirmed X(2370)'s flavor-singlet nature.",
+        "Flavor-singlet is a defining property of glueballs. Ordinary particles contain quarks of different flavors. Glueballs contain no quarks at all. X(2370) was shown to be flavor-singlet. Scientists call this the clearest experimental result in nearly 50 years of glueball searches. It verifies that gluons can bind to form new matter. It also shows the unique capability of BEPCII for studying strong interactions.",
+        "BESIII is a detector operated by about 700 scientists from 15 countries and 96 institutions. Since BEPCII's major upgrade in 2008, BESIII has collected over 10 billion J/psi events. It is the world leader in the tau-charm energy region."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:23:11.094Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-07/2026-08-07-00wd1l.webp",
+      "alt": "A translucent sphere of force lines on a lab table",
+      "caption": "科学家认证胶球存在",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-07-explainer-what-is-bioprinting",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "生物打印：用活细胞做墨水，打印皮肤和软骨",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-07",
+    "intro": "3D打印机不但能打印玩具、雕塑、金属零件甚至篮球，还能用活细胞打印皮肤、软骨和早期阶段的血 vessels——这项技术叫生物打印，听起来像科幻，但科学家已经迈出了第一步。",
+    "paragraphs": [
+      "我们身边有不少3D打印的东西，比如模型火箭、游戏配件。但你想过吗？如果用3D打印机打印的不是塑料，而是活细胞，会怎样？科学家真的在这么做。他们用活细胞当“ink”，打印出皮肤、软骨和早期阶段的血 vessels——这项技术，就叫‘bioprinting’。",
+      "生物打印的原理和普通3-D打印差不多，只是把塑料或金属换成了活细胞。但细胞不能直接喷在表面上就完事，它们得和一种像果冻一样的软凝胶混在一起，这种材料叫‘bioinks’。Bioinks是特制的软凝胶，能混合活细胞，像果冻一样保持形状同时保护内部细胞。制作bioinks的材料有从海藻里提取的海藻酸盐（AL-jin-ate），也有皮肤和骨骼里常见的胶原蛋白。打印完成后，这些结构会被放进培养箱，让细胞慢慢成熟、连接，最终形成组织。",
+      "要打印细胞，工程师想出了好几种办法。最常见的是‘extrusion’，就像挤牙膏一样，把bioink从喷嘴挤出来，一层层搭出形状。这种方法适合皮肤和软骨，但速度比较慢，挤压也会让细胞受压。还有一种‘inkjet bioprinting’，像办公室打印机喷墨那样，把微小的墨滴滴到表面，速度更快、更温柔，适合打印血管内侧那种薄薄的细胞层。还有用激光的方法，它能一次性打印出整个结构，比如一小段带着分支的血管网络，只需要几秒钟。",
+      "生物打印虽然还在实验阶段，但已经有一些真实应用。2022年，一位患者接受了用自己细胞打印出来的耳朵。2025年底，医生成功把生物打印的角膜——也就是眼睛最外层的透明结构——植入了一位曾被法律认定为失明的人眼中。皮肤移植是目前最成熟的应用之一。2025年，澳大利亚的研究人员用一种实验机器人，把患者自己的皮肤细胞直接打印到她的烧伤伤口上；第一位接受治疗的病人在新闻发布会上展示了腿上的成功愈合。",
+      "不过，想打印完整的器官，还有一道大坎。打印骨骼就很难，因为它又硬又有活细胞，目前科学家只能打印出引导骨骼生长的‘bone scaffolds’，还没法做出含活细胞、可植入人体的真正骨组织。心脏、肾脏这类复杂器官也还在研究中。问题出在‘diffusion’上：氧气在组织里只能扩散几毫米，组织一厚，里面的细胞就会缺氧而死。打个比方，一座没有道路的大城市，食物车进不来，垃圾车出不去。为了给厚组织开辟‘道路’，科学家想到了一个办法：先用一种‘sacrificial inks’打印出血管形状，等周围组织定型后，再让这种墨水溶解，留下空腔让血液流通。也有人正在研究，在打印的过程中直接把血管一起打进去。把血管打进组织，正是打印完整器官最大的难关。"
+    ],
+    "topics": [
+      "生命与演化",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/explainer-what-is-bioprinting",
+      "originalTitle": "Explainer: What is bioprinting?",
+      "publishedAt": "Thu, 06 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-07T01:10:49.103Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:10:44.287Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-07-u7nsfs",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "战争、高温、难民危机：失去对自身命运掌控的欧洲",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-07",
+    "intro": "这个夏天，战争、热浪和移民危机接连冲击欧洲，但许多关键决策却不由欧洲决定。",
+    "paragraphs": [
+      "这个夏天，欧洲再次显得像是在旁观席上，眼睁睁看着自己的命运被外部力量所塑造。特朗普总统是否会选择重启对伊朗的大规模战争并推高油价？在全球变暖背景下，即便多地已爆发肆虐的野火，这场横跨欧洲大陆的灾难是否还会进一步扩大和恶化？人群突然原因不明地大量涌入摩洛哥边境另一侧的西班牙飞地——且几乎所有人都在第一时间被遣返——这是否会造成欧盟领导人的分裂，并为极右翼势力推波助澜？",
+      "对欧洲而言，这个夏天本已经很残酷：两场战争、创纪录的高温、不断飙升的通胀，以及对食品、能源和安全的深深焦虑。乌克兰战争已持续四年多，欧洲依然未能解决；其在减少排放以应对气候变化方面取得的成就被美国和中国的举措掩盖；人工智能未来的塑造基本与欧洲无关；在移民、不平等和虚假信息的推波助澜下，右翼民粹主义势力抬头。欧洲和英国立即采取措施支持乌克兰，包括提供数十亿美元的援助、制裁俄罗斯，并通过特别项目接收数百万乌克兰难民进入其国家。然而，欧洲领导人似乎注定只能通过特朗普的社交媒体动态来获知伊朗战争的下一阶段动向。",
+      "英国、法国、德国和其他欧洲国家组成了“意愿联盟”，试图在任何和平协议中保护乌克兰的利益，并在幕后努力调和乌克兰和美国总统之间的关系。这些努力有助于防止普京与特朗普以牺牲乌克兰为代价达成协议。该联盟多次声明“没有欧洲人参与，不得就涉及欧洲利益和安全的事宜进行谈判”，但这已被证明难以付诸施行。特朗普一次又一次地边缘化美国的盟友，转而与俄罗斯或乌克兰进行直接——但基本上毫无成果的——谈判。基辅萨海达奇尼安全中心主任莱西娅·奥格里兹科写道：“未来几个月可能会迎来最清晰的考验，检验这些雄心是否现实。”",
+      "欧洲强烈反对特朗普的开战决定，这激怒了这位美国领导人，并使跨大西洋关系恶化。4月，英法两国宣布将筹划一项军事行动，拟在达成持久停火协议后协助保障霍尔木兹海峡的自由通航与开放通行，这在一定程度上是为了修复与特朗普的关系。然而，美伊之间时断时续的交火令这项行动难以启动。多位欧洲国家外交官表示，在局势明朗、确定战事真正暂停之前，派遣军舰赴霍尔木兹海峡协助扫雷或护航的可能性暂时不存在。特朗普近日威胁称，如果伊朗政权不同意开放该海峡，将大幅升级对伊朗的打击。周二，总统告诉福克斯新闻，如果这条关键水道不能在短期内开放，伊朗将遭到“非常沉重的打击”。",
+      "欧洲的平均气温上升速度快于任何其他大洲。英国正经历着近两个世纪以来最干旱的7月。火灾在法国和西班牙已导致30多万人流离失所。在希腊，消防员在扑灭尚未完全得到控制的大火时殉职。过去二十年的大部分时间里，欧洲国家在面对气候变化带来的危险方面基本保持一致，并采取行动减少排放和投资可再生能源。但自特朗普执政以来，他们一直与这个全球最大的污染国之一意见相左，从而导致应对气候变化的努力变得更加困难。",
+      "上周成千上万的人涌入位于北非海岸的西班牙微型领土休达，这可能酿成新一轮的危机，考验着欧洲在这一地区最为敏感的政治议题上的团结。西班牙左翼首相佩德罗·桑切斯对试图非法跨越西班牙与摩洛哥边境的人采取了更强硬的手段，迅速动用本国军队进行打击，绝大多数人在周末被遣返。两国之间的海墙附近正在建立起一道浮动屏障。该事件暴露了近年来欧盟内部日益加深的高层紧张局势，包括德国选择党和法国国民联盟在内的极右翼政党利用对移民的恐惧来激发政治支持者的热情。在移民抵达休达后的几个小时内，近二十个欧盟国家猛烈抨击了西班牙，一些国家甚至呼吁暂停该国在欧盟内部自由流动区（申根区）的资格。桑切斯对此回应，称这些国家“自私”。一些分析人士指出，面对外部威胁，各方对西班牙缺乏声援，这恰恰折射出欧洲大陆在全球舞台上投射影响力的力不从心。"
+    ],
+    "topics": [
+      "全球时事",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "纽约时报中文网",
+      "region": "international",
+      "url": "https://cn.nytimes.com/world/20260807/europe-war-wildfires-migration/?utm_source=RSS",
+      "originalTitle": "战争、高温、难民危机：失去对自身命运掌控的欧洲",
+      "publishedAt": "Fri, 07 Aug 2026 08:33:00 +0800",
+      "retrievedAt": "2026-08-07T01:15:36.900Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:15:34.796Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Europe Feels Powerless This Summer",
+      "intro": "This summer, Europe faces war, wildfires, and migration — all while feeling like it’s watching its own future unfold from the sidelines.",
+      "paragraphs": [
+        "Europe is dealing with crises it didn’t start and can’t fully control. A war involving Iran — which most European countries never wanted — has pushed up gasoline, groceries, and travel costs. Wildfires have raged across France, Spain, and Greece. And thousands of people recently crossed into Spain’s tiny enclave of Ceuta — almost all were immediately deported.",
+        "Leaders across Europe are holding emergency Zoom video meetings. Parliaments from Poland to the UK are in political anxiety. But many of the biggest forces shaping their lives come from outside — like Trump’s social media updates on Iran, Russia’s war in Ukraine, or rising global temperatures.",
+        "Europe has taken action. It provided billions in aid to Ukraine. It imposed sanctions on Russia. It extended temporary protection for Ukrainian refugees until March 2028. It formed a ‘coalition of the willing’ to protect Ukraine’s interests in peace talks. Yet Trump repeatedly sidelines European allies — negotiating directly with Putin or Zelensky instead.",
+        "When it comes to Iran, Europe strongly opposes Trump’s decision to restart large-scale war. Britain and France announced plans for a naval mission to help ensure free passage through the Strait of Hormuz after a durable ceasefire. But with intermittent fighting still ongoing, that mission has not launched.",
+        "Wildfires this summer have spread across the continent. Weather maps show large areas of bright red across southern Europe. In Greece, firefighters died while battling fires still not fully under control. Fires in France and Spain have displaced more than 300,000 people. Europe is warming faster than any other continent.",
+        "The sudden arrival of migrants in Ceuta exposed deep divisions. Spain’s Prime Minister Pedro Sánchez deployed troops to block crossings. Nearly twenty EU countries sharply criticized Spain within hours — some even called for suspending Spain’s participation in the Schengen Area. Right-wing parties including Germany’s AfD and France’s National Rally used the moment to stoke fear about immigration."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:24:56.281Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-07-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "从“图片仅供参考”到“图片纯属虚构”，AI模特该好好管管了",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-07",
+    "intro": "当商品图片里的模特不再是真人，而是AI虚构出来的形象，消费者的知情权该由谁来保护？",
+    "paragraphs": [
+      "在网上买东西，我们总会看到商品照片旁边有一行小字：图片仅供参考。这句话的意思是，照片和实物之间可能有差距，你得有点心理准备。可如今，情况变得更复杂了——照片里展示商品的“人”，可能根本不是真人，而是AI生成出来的虚拟形象。从“仅供参考”到“纯属虚构”，图片和真实之间的距离，一下子被拉大了。",
+      "AI模特为什么会出现？对商家来说，好处很明显：请模特、租场地、做拍摄，成本高、周期长。而AI可以在几分钟里生成无数张照片，姿势、服装、背景都能随时调整，甚至做到完美无瑕。但便利的另一面是，消费者看到的“效果图”，可能从来没有穿在任何真人身上过。衣服的版型、质感，以及穿在身上的真实状态，都被巧妙地藏了起来。",
+      "这意味着什么？首先，消费者被误导的风险变大了。一张AI模特图，可能让一件普通衣服看起来特别有型，等你买回家才发现完全不是那么回事。其次，这些虚构的完美形象，也在悄悄影响我们对“真实”的判断。AI模特的脸、身材和皮肤，往往经过精心设计，接近一种不自然的完美。看多了这种图片，我们可能会误以为那是正常标准，甚至对自己和他人产生不必要的不满。",
+      "正因如此，越来越多的人呼吁，AI模特该管一管了。具体怎么管？一个基本的方向是：如果图片是由AI生成的，就应该明确标注出来，让消费者知道眼前这个“人”并不存在，图片展示的效果是虚构的。同时，平台和商家不能借助AI生成图片逃避对商品真实性的责任。技术可以进步，但基本的诚实和透明不该丢。",
+      "AI模特本身并不可怕，它是技术发展的一种应用。真正值得警惕的，是技术悄悄模糊了真实和虚构的边界，而我们却没有足够的能力去分辨。"
+    ],
+    "topics": [
+      "AI虚拟模特",
+      "广告伦理",
+      "消费者权益"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-06/10673146.shtml",
+      "originalTitle": "从“图片仅供参考”到“图片纯属虚构”，AI模特该好好管管了",
+      "publishedAt": "Thu, 6 Aug 2026 19:32:46 +0800",
+      "retrievedAt": "2026-08-07T01:18:08.887Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-07T01:18:05.910Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 3,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-08-06-scientists-made-clocks-from-an-atomic-nucleus",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "科学家第一次用原子核做成了钟",
@@ -3038,190 +3262,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-07-24-supercooled-kidneys-have-been-transplanted-into-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "零下四度保存肾脏三天，移植后健康工作：器官冷藏时长有望翻三倍",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-24",
-    "intro": "科学家发明了一种装置，能让肾脏在零下4摄氏度保存三天而不结冰，移植后功能恢复比传统冰存法更快。",
-    "paragraphs": [
-      "器官移植是一场与时间的赛跑。肾脏从捐献者体内取出后，必须在24小时内移植给患者，否则就会损坏无法使用。传统方法是将器官放在约4°C（39°F）的冰上保存，但温度再低就会结冰，冰晶会破坏组织。此前尝试冷冻器官均因冰形成而失败。",
-      "现在，美国德州农工大学的Matthew Powell Palm及其团队发明了一种装置，让肾脏可在-4°C（25°F）下超冷保存而不结冰。他们用猪肾实验：将肾脏浸入常用保存液（如威斯康星大学溶液），置于密闭加压容器中，通过恒压抑制冰晶形成。肾脏在该装置中成功保存24、48或72小时。",
-      "实验显示，保存72小时的肾脏移植回原供体猪体内后，约10天内恢复基线肾功能；而冰存24小时的肾脏恢复更慢。所有超冷肾脏在30天存活期内均实现功能恢复。一只猪的移植肾在200天后仍形态健康。",
-      "这项技术若用于人类，有望缓解器官短缺危机。目前美国有超10.4万人等待肾移植，每天约17人因等不到器官死亡；约三分之一捐献肾因运输或匹配时间不足而被丢弃。当前临床标准保存时限为18–24小时，延长至72小时将显著提升匹配精度与运输可行性。",
-      "该装置结构简单紧凑，已用车辆（如Kia Sorento）跨州运输超冷肾脏，稳定性获验证。研究团队正筹备成立公司，并计划申请美国食品药品监督管理局（FDA）加速审批，以推进人体试验。"
-    ],
-    "topics": [
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "MIT Technology Review",
-      "region": "international",
-      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "originalTitle": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "publishedAt": "Thu, 23 Jul 2026 16:58:28 +0000",
-      "retrievedAt": "2026-07-23T22:18:34.403Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-23T22:18:33.003Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-24/2026-07-24-supercooled-kidneys-have-been-transplanted-into-.webp",
-      "alt": "Stylized kidney in cold storage container with frost patterns",
-      "caption": "零下四度保存肾脏三天",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-24-dpvg4a",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "苏州吴文化博物馆新展展现东西方交流“含金量”",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-24",
-    "intro": "苏州吴文化博物馆新展，用黄金文物讲述东西方交流的故事。",
-    "paragraphs": [
-      "在苏州的吴文化博物馆，最近开幕了一个新展览。这个展览用黄金文物，展现东西方交流的‘含金量’。",
-      "黄金，在全世界都很珍贵。展览中展出的唐代金杯上刻有葡萄藤和卷草纹——这些图案源自古代波斯和罗马。",
-      "展览还展出了一件来自古希腊地区的金花冠，用极薄的金片打制成树叶形状，再编成花环。",
-      "博物馆专家表示，这些金器是古代世界人们互相学习、互相交流的证据。",
-      "展览将持续到今年年底。"
-    ],
-    "topics": [
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-23/10665107.shtml",
-      "originalTitle": "苏州吴文化博物馆新展展现东西方交流“含金量”",
-      "publishedAt": "Thu, 23 Jul 2026 18:12:57 +0800",
-      "retrievedAt": "2026-07-23T22:19:26.606Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-23T22:19:25.381Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-24-how-much-energy-do-data-centers-and-artificial-i",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "数据中心和人工智能到底用了多少电？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-24",
-    "intro": "AI 的能耗一直是热门话题，它到底占全球电力的多少？每问一次 AI 又消耗多少电？本文用数据给出答案。",
-    "paragraphs": [
-      "人工智能的普及速度之快，几乎没有哪项技术能比。但 AI 运行需要电力，所以人们很关心它的能耗到底有多大。这种担心主要有三个方面：一是环境——AI 耗电增加可能导致碳排放上升，让脱碳更难；二是对当地的影响——高电力需求可能让电网紧张、电价上涨；三是 AI 自身的发展瓶颈——如果耗电太多，反而会限制它的扩张。那么，AI 到底用了多少电？我们可以从两个层面来看：一是 AI 的总用电量，二是每次查询的用电量。",
-      "先看总用电量。据国际能源署的数据，2025 年全球数据中心大约消耗了 485 太瓦时电力，相当于德国一年的发电量，约占全球发电量的 1.5%。数据中心不只是跑 AI，还包括电子邮件、网页浏览、视频流媒体、在线银行等所有数字服务。其中，非 AI 数据中心用了三分之二，AI 数据中心用了三分之一。也就是说，2025 年 AI 消耗了全球约 0.5% 的电力。如果换算成一次能源，大概在 0.1% 到 0.2% 之间。",
-      "不过，这 1.5% 的全球平均数字掩盖了局部地区的巨大差异。在美国，数据中心用电占比已达 5%，其中 AI 约占 2%。而在爱尔兰，数据中心用电超过全国的 20%；美国弗吉尼亚州甚至超过 25%。这种高度集中的需求，加上 AI 的快速增长，可能会给当地电网带来很大压力，尽管全球总量看起来并不惊人。",
-      "再看每次查询的用电量。谷歌在 2025 年公布了其 Gemini 模型的能耗数据：一次中位数文本查询大约消耗 0.24 瓦时。这相当于微波炉工作不到一秒，或者电视机开十秒钟。OpenAI 的 CEO Sam Altman 曾表示，ChatGPT 上‘平均查询’大约消耗 0.34 瓦时（但未提供详细依据）。独立研究机构 Epoch AI 的估算也类似，约 0.3 瓦时。这些数字指向相近的范围。不过，复杂查询——比如需要 AI 推理或长文本生成——能耗会更高。",
-      "总的来说，AI 当前的全球电力占比还很小，但增长极快。国际能源署预测，到 2030 年数据中心用电可能增至 945 太瓦时，占全球电力的 3%，其中 AI 数据中心将占约 465 太瓦时，接近非 AI 数据中心的 480 太瓦时。未来几年，AI 能耗会成为一个越来越重要的议题。"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Our World in Data",
-      "region": "international",
-      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
-      "originalTitle": "How much energy do data centers and artificial intelligence use?",
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "retrievedAt": "2026-07-23T22:20:38.559Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-23T22:20:37.478Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一个“超级”厄尔尼诺正在形成，它意味着什么？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-23",
-    "intro": "气候科学家警告说，一个可能成为有记录以来最强的厄尔尼诺事件正在发展。它将如何影响全球天气？",
-    "paragraphs": [
-      "气候科学家正在提醒我们系好安全带，因为一次厄尔尼诺事件已经开始了。到今年年底，这个周期性气候事件可能会成为有记录以来最强的厄尔尼诺。6月11日，美国国家海洋和大气管理局确认地球已正式进入厄尔尼诺阶段。",
-      "什么是厄尔尼诺？它全称是厄尔尼诺-南方涛动，简称ENSO，是一个每两到七年重复出现的海洋-气候模式。它有三个阶段：厄尔尼诺阶段，东赤道太平洋海面温度连续几个月高于正常值；拉尼娜阶段，温度低于正常值；以及中性阶段。厄尔尼诺在西班牙语中意为“小男孩”，因为17世纪秘鲁渔民注意到它常在圣诞节前后出现。",
-      "什么造就了“超级”厄尔尼诺？当东赤道太平洋海面温度持续比平均高至少0.5摄氏度时，厄尔尼诺正式开始。如果温度比平均高2摄氏度以上，就标志着超强厄尔尼诺的出现。自4月以来，该区域温度一直远高于平均。NOAA使用新工具预测，今年冬季海面温度有63%的概率比平均高2摄氏度以上，这意味着一个超级厄尔尼诺正在发展。",
-      "这次厄尔尼诺会带来什么影响？它会向大气释放大量热量，暂时提升全球气温。这可能导致热相关疾病增加，以及蚊子等喜热害虫传播的疾病增多。它还会改变太平洋急流的路径，使一些地区更干燥，另一些更湿润。对美国而言，太平洋气旋可能增多增强，而大西洋飓风则可能减少。",
-      "与过去相比如何？最近几次强厄尔尼诺发生在2015–16年、1997–98年和1982–83年。1997–98年的最强，使全球平均气温暂时上升1.5摄氏度（2.7华氏度），引发了秘鲁和东非的暴雨洪水、东南亚的干旱和致命野火、加利福尼亚的强风暴及山体滑坡，以及全球约六分之一珊瑚礁的白化。那次事件估计造成约5.7万亿美元的损失。",
-      "我们能否削弱厄尔尼诺？一项新研究提出，通过向太平洋特定区域注入微小颗粒，可以增亮云层，反射更多阳光，从而冷却气候。这个想法源于2019–20年澳大利亚野火，其烟尘曾触发多年拉尼娜。但这项技术尚未成熟，且需更多研究其负面后果，无法用于今年的厄尔尼诺。"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/super-el-nino-climate",
-      "originalTitle": "A ‘super’ El Niño appears to be emerging. What’s the big deal?",
-      "publishedAt": "Wed, 22 Jul 2026 10:30:00 +0000",
-      "retrievedAt": "2026-07-22T23:36:51.526Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-22T23:36:50.541Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-23/2026-07-23-a-super-el-ni-o-appears-to-be-emerging-what-s-th.webp",
-      "alt": "Abstract globe with warm ocean currents on gray background",
-      "caption": "厄尔尼诺现象正在加强。",
-      "kind": "editorial"
     }
   }
 ]
