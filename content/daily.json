@@ -1,5 +1,189 @@
 [
   {
+    "slug": "2026-08-10-20260806",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "蜗牛粘液、提前报废的汽车与西伯利亚的甲烷：本周《科学》杂志导读",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-10",
+    "intro": "这周《科学》杂志2026年8月6日第393卷6811期发表了六项研究，我们挑三个有明确结论、可验证事实的研究讲给你听：蜗牛如何用钙调控粘液功能、提前报废仍能正常使用的内燃机汽车是否带来净气候效益，以及西伯利亚甲烷排放为何十年翻倍。",
+    "paragraphs": [
+      "你知道吗，蜗牛不光留下亮晶晶的黏液，它还能制造出功能完全不同的粘液材料。有的负责润滑，有的负责粘附，有的用来保护和防御。《科学》2026年8月6日刊发的研究发现，花园蜗牛（Cepaea nemoralis）产生的五种粘液基材料，其多功能性由钙调控——它们以VI型胶原蛋白为主要结构组分，并在分泌过程中添加无定形碳酸钙（ACC）。",
+      "在湿性粘液中，无定形碳酸钙充当离子源，最有可能用于分子交联；在干性粘液中，则充当矿物前体。这些发现揭示了这类粘弹性材料能根据钙和蛋白质含量差异，在截然不同的物理状态间转变。",
+      "在美国，内燃机（ICE）汽车是大多数家庭最大的二氧化碳排放源。研究评估了多种退役情景，发现‘报废并更换’纯电动汽车（BEV）的策略能在大多数情境下带来持续减排效果，包括淘汰新购置的ICE汽车。尽管当前市场条件下报废尚可使用的ICE汽车在经济上不可行，但政策干预（如提高报废补贴）具有重大减排潜力。",
+      "北方永久冻土区储存的碳量约为大气中的两倍。2010—2023年间，西伯利亚生长季甲烷排放增加了12.0±1.9太克甲烷（TgCH₄），即每年增加5%。东西伯利亚更温暖干燥，火灾相关排放增长0.7±0.1 TgCH₄/年；西西伯利亚更湿润，湿地相关排放增长0.4±0.1 TgCH₄/年。研究指出，到2050年，西伯利亚更高排放可能抵消全球为实现气候目标所需甲烷减排量的约20%，其中东西伯利亚占主导。",
+      "此外，本期《科学》还报道了两项技术突破：一种抗磁稳定的磁悬浮磁强计，通过光学检测悬浮磁体运动，在室温及地磁场环境下实现32飞特斯拉每平方根赫兹（32 fT/√Hz）灵敏度，性能媲美超导量子干涉器件和原子磁强计；另一项研究利用地震声学数据分析飓风边界层湍流，发现连续次声压力可作为10米高度风速的替代观测指标，压力谱惯性子区间可估算近地面层顶部（约100–200米）湍流耗散率。"
+    ],
+    "topics": [
+      "物质与数学",
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569566.shtm",
+      "originalTitle": "《科学》（20260806出版）一周论文导读",
+      "publishedAt": "2026-08-09 20:51",
+      "retrievedAt": "2026-08-09T22:57:58.687Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-09T22:57:45.613Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Science Roundup: Six Fresh Discoveries",
+      "intro": "Welcome to EasyListen. Today, we explore six new studies from Science magazine.",
+      "paragraphs": [
+        "First, scientists built a magnetically levitated magnetometer. It uses optical detection of a suspended magnet's motion. It achieves 32 femtoteslas per square root of hertz sensitivity. It works at room temperature and under Earth's magnetic field. Its performance matches superconducting quantum interference devices and atomic magnetometers.",
+        "Next, researchers studied mucus-based materials from the snail Cepaea nemoralis. They found snails use collagen VI as a main structural component. They add amorphous calcium carbonate during secretion. In wet mucus, it acts as an ion source—likely for cross-linking. In dry mucus, it serves as a mineral precursor.",
+        "Now let's talk about chemistry. Scientists developed an exergonic activation mode. It generates alkene radical cation intermediates from monofunctional C(sp3)–X handles. This uses photoredox-triggered hydrogen-atom transfer and spin-center shift. They call the transfer of electrophilic reactivity from one carbon to another 'electrophilic shuttling'.",
+        "Another study assessed retiring functional internal combustion engine vehicles. For most US households, these are the largest source of carbon dioxide emissions. Battery electric vehicles reduce use-phase emissions. But retiring a working ICE vehicle trades off BEV manufacturing emissions against operation savings. Scrappage-and-replacement yields consistent emissions reductions—even for new ICE vehicles.",
+        "Scientists analyzed atmospheric methane data from 2010 to 2023. Siberian growing-season methane emissions increased by 12.0 ± 1.9 teragrams of methane—about 5% per year. Warmer, drier conditions in eastern Siberia enhanced fire-related emissions. Wetter conditions in western Siberia promoted wetland-related emissions. By 2050, higher Siberian emissions could offset about 20% of global methane reductions needed for climate targets.",
+        "Finally, researchers studied a landfalling hurricane using seismoacoustic data. They identified contributions of hurricane boundary layer turbulence to infrasound pressure and seismic displacement. They validated this with large-eddy simulation calibrated to meteorological data. Continuous infrasound pressure serves as a proxy for 10-meter wind speed. The inertial subrange of pressure spectra estimates turbulent dissipation near the top of the surface layer—at ~100 to 200 meters."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-09T23:02:34.949Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-10/2026-08-10-20260806.webp",
+      "alt": "Snail with map-like slime trail, car and flare in background",
+      "caption": "Calcium, cars, and methane in Science",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-10-taxi-drivers-rarely-die-of-alzheimer-s-how-compl",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "为什么出租车司机很少死于阿尔茨海默病？因为大脑一直在画地图",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-10",
+    "intro": "一项覆盖近九百万人的研究发现，出租车和救护车司机死于阿尔茨海默病的风险明显更低，秘密可能在于他们常年都在做同一件事——实时更新心里的地图。",
+    "paragraphs": [
+      "在美国，一份覆盖2020年1月至2022年12月近九百万份死亡证明的研究发现：出租车和救护车司机是443种职业中死于阿尔茨海默病风险最低的两类人。调整年龄、性别、种族、族裔和教育程度后，约每100名出租车或救护车司机中有1人死于该病；而全体人口中约为每60人中有1人。",
+      "研究者指出，关键不在于驾驶本身，而在于持续的实时导航——即不断定位自身位置、追踪目的地，并随路况变化动态更新心理地图。公交司机和飞机飞行员等依赖固定或预设路线的职业，并未表现出类似保护效应。这一现象与海马体密切相关：它是掌管记忆与空间导航的关键脑区，也是阿尔茨海默病最早损伤的区域之一；空间定向障碍常早于明显记忆衰退出现。",
+      "一项2000年的标志性研究比较了持证伦敦出租车司机与非司机人群的大脑结构，首次通过影像学证实：成人大脑可在持续导航需求下发生可测量的结构性改变。为获执照，伦敦出租车司机须熟记查令十字周边6英里半径内超25,000条街道，这一被称为‘知识’（The Knowledge）的考核需耗时三至四年。研究发现，出租车司机后部海马体灰质体积显著更大，且该体积与驾龄正相关——这种变化源于训练，而非先天禀赋。",
+      "本文作者哈提姆·沙里夫（Hatim Sharif）是一名土木与环境工程师，长期使用地理信息系统（GIS）处理多层空间数据，如将洪水边界叠加于人口普查区块、将车祸热点匹配道路几何特征等。他提出疑问：屏幕上的空间推理是否能像真实城市穿行一样激活海马体？目前尚无实证。但另一项2023年研究发现，居住在空间复杂度更高地区（如街网密集、路口众多、兴趣点丰富、路径选择多样）的人群，阿尔茨海默病发病率更低；研究人员利用全国22,500多人的数据，仅凭居住地空间复杂度即可以84%准确率预测不同邮政编码区的阿尔茨海默病高发情况。",
+      "上述研究聚焦居住环境，而非职业活动。科学家用‘认知储备’概念解释差异：即大脑在存在病理损伤时仍维持功能的能力。若持续的空间思维确能强化海马体回路——而这正是阿尔茨海默病最先攻击的靶点——那么教育设计、职业培训与退休规划，都应纳入脑健康考量。值得欣慰的是，空间推理能力可经训练提升；全球地理、工程、公共卫生及环境科学等领域已广泛开设GIS与遥感课程。出租车司机的研究提示我们：日常认路、构建心理地图等看似平凡的行为，可能正在主动锻炼大脑中最易受阿尔茨海默病侵袭的区域。"
+    ],
+    "topics": [
+      "脑与认知",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
+      "originalTitle": "Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
+      "publishedAt": "Sun, 09 Aug 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-09T22:59:46.416Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-09T22:59:44.137Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why Taxi Drivers Are Protected from Alzheimer’s",
+      "intro": "A surprising 2024 study found taxi and ambulance drivers are less likely to die of Alzheimer’s—and their real-time navigation may be why.",
+      "paragraphs": [
+        "London taxi drivers must memorize more than 25,000 streets within a 6-mile radius of Charing Cross. This challenge is called 'The Knowledge'. It takes three to four years. In a 2024 study, researchers examined nearly 9 million U.S. death certificates from January 2020 to December 2022. Taxi and ambulance drivers had the lowest risk of dying from Alzheimer’s disease out of 443 occupations. After adjusting for age, sex, race, ethnicity, and education, roughly 1 in 100 taxi and ambulance drivers died of Alzheimer’s. For the general population, it was about 1 in 60.",
+        "This pattern did not extend to other driving jobs. Bus drivers and aircraft pilots rely on fixed or predetermined routes. Researchers concluded the key was not driving itself—but continuous real-time navigation. That means constantly locating yourself in space, tracking a destination, and updating a mental map as conditions change. This work centers on the hippocampus—a brain region that governs memory and spatial navigation. It is one of the first areas Alzheimer’s damages. Problems with spatial navigation and orientation are among the earliest signs of the disease.",
+        "In a landmark 2000 study, neuroscientists compared licensed London taxi drivers with people who did not drive cabs. They found taxi drivers had measurably more gray matter in the posterior hippocampus—a brain area tied to storing large-scale spatial maps. That volume tracked with experience: The longer someone had driven, the larger that part of the brain. The change was built through practice, not inherited.",
+        "In 2023, researchers ran a machine learning model on more than 22,500 people in a national dataset. They predicted which ZIP codes had higher Alzheimer’s rates with 84 percent accuracy—based on how spatially complex the environment was. People living in dense street networks with numerous intersections, diverse points of interest, landmarks, and multiple path options were less likely to develop Alzheimer’s. A follow-up study linked such geospatial complexity to greater volume in the brain’s spatial navigation regions.",
+        "However, these 2023 studies focused on where people live—not the work they do. Whether spatial reasoning through a screen exercises the same circuitry as real-life city navigation remains untested. Still, mentally complex occupations are linked to delayed cognitive decline and lower dementia risk—even after accounting for education. Spatial reasoning can be trained. Training opportunities are available through geography, engineering, public health, and environmental science programs worldwide."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-09T23:03:28.023Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 18,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-10/2026-08-10-taxi-drivers-rarely-die-of-alzheimer-s-how-compl.webp",
+      "alt": "Brain made of roads with a taxi",
+      "caption": "Navigating minds, lower Alzheimer's risk",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-10-gi916o",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "真正的基础研究，从好奇心开始",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-10",
+    "intro": "数学家丘成桐指出，以好奇为基础的研究才算是真正的基础研究。",
+    "paragraphs": [
+      "你有没有想过，有些科学研究看起来完全没用，却可能在几十年后改变世界？数学家丘成桐认为，真正的基础研究，恰恰是从好奇心出发的，而不是一开始就想好有什么用。",
+      "丘成桐是菲尔兹奖首位华人得主。他说，一些数学研究最初往往看不出来它的重要性，但慢慢接触到工业时才让人恍然大悟，原来这些都是很重要的事情。",
+      "他指出，过去中国在以好奇为基础的研究方面攻势不够，现在正在向这个方向靠近。他希望中国各个层面都能支持这种由好奇心驱动的研究。",
+      "今年7月，两位中国籍年轻数学家王虹和邓煜取得标志性理论突破，赢得国际数学最高荣誉菲尔兹奖。王虹成功攻克三维挂谷猜想，为调和分析、几何测度论两大经典方向打开全新研究疆域；邓煜针对希尔伯特第六问题完成关键性突破，打通数学理论与理论物理的深度融合。",
+      "丘成桐说，看到我们的学生去国外做出世界一流的学问，对国内很多年轻人是很大的鼓舞——就像当年李政道、杨振宁拿到诺贝尔奖时对我们那一代人甚至几代人是很重要的鼓舞。因为在20世纪50年代、60年代的时候，我们根本没有办法想象中国的科学家能够达到世界水平。他坦白地讲，自己拿到菲尔兹奖对相当多的中国数学家也有相当大的影响。",
+      "丘成桐期望，未来5到10年内，中国培育的研究生能做出同样重要的结果；他还期望，未来5年到10年内，中国能成为世界数学强国。他表示，由好奇心产生的研究很重要。"
+    ],
+    "topics": [
+      "哲学与思想",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻评论",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569568.shtm",
+      "originalTitle": "丘成桐：以好奇为基础的研究才算是真正的基础研究",
+      "publishedAt": "2026-08-09 22:03",
+      "retrievedAt": "2026-08-09T23:00:31.865Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-09T23:00:29.478Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-09-60",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蔡皋在加拿大领取国际安徒生奖 插画奖项60年来首位中国画家",
@@ -3144,175 +3328,6 @@
         "evidenceCount": 3,
         "correctionCount": 8,
         "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-26-15-years-later-is-the-fda-s-produce-safety-overh",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "FDA果蔬安全改革15年，效果如何？",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-26",
-    "intro": "15年前，美国食品和药物管理局对果蔬安全规则进行了全面改革，旨在预防食源性疾病爆发。如今，这套系统是否奏效？",
-    "paragraphs": [
-      "15年前，美国食品和药物管理局——也就是FDA——对水果和蔬菜的安全规则进行了一次彻底改革。改革的初衷很明确：预防食源性疾病爆发。",
-      "新规则要求种植者、包装商和运输商采取更严格的卫生措施，比如检测灌溉水质、规范堆肥使用、保持设备清洁，并建立可追溯系统，以便在问题出现时迅速找出源头。",
-      "那么，15年过去，这些改革到底有没有用？报道指出，食源性疾病的总爆发次数确实有所下降，但一些新病原体和抗药性细菌的出现，又带来了新的挑战。"
-    ],
-    "topics": [
-      "健康与医学",
-      "食物与日常"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "region": "international",
-      "url": "https://www.npr.org/2026/07/24/nx-s1-5903267-e1/15-years-later-is-the-fdas-produce-safety-overhaul-working",
-      "originalTitle": "15 years later, is the FDA's produce safety overhaul working?",
-      "publishedAt": "Fri, 24 Jul 2026 16:26:08 -0400",
-      "retrievedAt": "2026-07-25T22:14:41.764Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-25T22:14:38.793Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "FDA Produce Safety Overhaul: 15 Years Later",
-      "intro": "Fifteen years ago, the FDA overhauled its safety rules for fruits and vegetables, hoping to prevent outbreaks of foodborne illness. How's that system working today?",
-      "paragraphs": [
-        "Fifteen years ago, the FDA overhauled its safety rules for fruits and vegetables, hoping to prevent outbreaks of foodborne illness.",
-        "How's that system working today? A reporter named Jeff Guo examined the overhaul's impact for NPR.",
-        "You can hear the full story on NPR's All Things Considered for July 24, 2026. The report aired at 4:26 PM ET and is titled '15 years later, is the FDA's produce safety overhaul working?'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-25T22:20:35.472Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-26-9g4bho",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我国科学家提出“可编程植物合成免疫”新理念，AI辅助构建抗病平台",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-26",
-    "intro": "中国科学院遗传与发育生物学研究所高彩霞团队提出“可编程植物合成免疫”新理念，利用人工智能辅助蛋白质设计、模块化免疫受体工程和植物体内定向进化技术，构建可编程的合成植物免疫受体（SPIR）平台，让植物能快速获得对新发病害的抵抗力。",
-    "paragraphs": [
-      "植物病害严重威胁全球农业生产和粮食安全，每年造成数千亿美元的经济损失。培育和推广作物抗病品种是植物病害绿色防控的核心策略之一。长期以来，作物抗病育种主要依赖植物抗病基因（R基因）的发掘与利用。大多数抗病基因编码核苷酸结合富亮氨酸重复（NLR）免疫受体，通过识别病原物效应蛋白激活植物免疫反应。然而，植物基因组编码的免疫受体数量有限，加之病原物持续进化变异，导致已有的作物抗病性不断被攻破。",
-      "北京时间2026年7月24日2时，《科学》（Science）在线发表了中国科学院遗传与发育生物学研究所高彩霞团队题为“Programmable design of synthetic plant immune receptors for pathogen protein recognition”的研究论文。研究团队首次提出“可编程植物合成免疫（Programmable Plant Synthetic Immunity）”的新理念，注意到一类非典型NLR免疫受体演化出通过体积更小、功能相对独立的整合诱饵（Integrated Decoy，ID）结构域直接识别病原蛋白的策略；据此提出设想：能否通过人工设计ID结构域，赋予植物免疫受体全新的病原识别能力？",
-      "研究团队整合人工智能辅助蛋白质设计、模块化免疫受体工程和植物体内定向进化技术，建立了可编程的合成植物免疫受体（SPIR）设计平台。具体流程包括：利用AlphaFold 3预测病原蛋白三维结构，通过BindCraft完成结合蛋白（binder）从头设计，并借助HelixFold 3预测筛选结合能力强和稳定性高的候选结合蛋白；再以人工设计的结合蛋白替代天然ID结构域，整合到水稻免疫受体Pikm-1中，构建全新合成免疫受体。整个设计过程无需依赖已有的抗病基因资源，仅基于病原蛋白的结构信息开展人工定向设计。",
-      "研究团队首先以马铃薯Y病毒（PVY）衣壳蛋白为验证靶标，设计了48个SPIR，其中11个能够特异性识别PVY衣壳蛋白并激活植物免疫反应。在此基础上，团队进一步针对13种重要植物病毒（含乌干达木薯褐条纹病毒、番茄斑萎病毒、马铃薯X病毒、黄瓜绿斑驳花叶病毒等），以及细菌（丁香假单胞菌、野油菜黄单胞菌）、真菌（玉米黑粉菌）、卵菌（大豆疫霉）等多种病原物的蛋白，完成了相应SPIR的设计。共设计并测试了391个SPIR，其中71个能特异地识别对应病原蛋白并有效激活植物免疫反应，成功率为18.2%，首次证明人工智能辅助的蛋白质设计技术能够实现植物免疫受体的从头创制。",
-      "大部分人工智能辅助设计的合成植物免疫受体存在免疫活性不足或自激活等问题。研究团队将其与前期建立的植物体内定向进化系统GRAPE（Science，2025，DOI:10.1126/science.ady2167）相结合，显著增强SPIR对病原蛋白的免疫活性，并有效降低其自激活水平，最终建立了完整的植物合成免疫受体“设计—构建—测试—进化”开发流程。",
-      "不同SPIR之间具有高度识别特异性和正交性，且可通过基因叠加策略同时识别多种病原蛋白。实验证实表达SPIR的转基因植物能够有效抵御相应病毒的侵染，展示了SPIR技术在作物抗病遗传改良中的应用潜力。",
-      "SPIR平台首次实现了植物免疫受体的定制化设计，赋予植物识别自然界全新病原靶标蛋白的能力。依托该技术平台，可针对各类特异性病原蛋白，在数周内快速设计对应的人工合成植物免疫受体，为高效应对新发、突发病害和病原物变异提供全新技术途径。这项工作实现了植物免疫受体从“天然挖掘发现”向“人工精准设计”的范式转变，推动植物抗病育种从“利用自然”迈向“定向创制”的新阶段。审稿人评价该工作是植物免疫工程领域的一项重大进展，为在作物中开发持久、广谱的抗病性奠定了坚实基础。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568777.shtm",
-      "originalTitle": "研究提出“可编程植物合成免疫”新理念",
-      "publishedAt": "2026-07-24 08:42",
-      "retrievedAt": "2026-07-25T22:15:25.876Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-25T22:15:22.576Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Scientists Design Custom Plant Immune Systems",
-      "intro": "A new study shows how scientists can program plants to fight diseases by designing custom immune receptors.",
-      "paragraphs": [
-        "Scientists at the Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, led by Professor Caixia Gao, have proposed a new concept called 'Programmable Plant Synthetic Immunity'. They built a platform to design synthetic plant immune receptors (SPIRs) from scratch using AI-assisted protein design, modular receptor engineering, and in planta directed evolution.",
-        "Plant diseases caused by viruses, bacteria, fungi, and oomycetes threaten global food security and cause billions of dollars in losses each year. Traditional breeding relies on natural resistance (R) genes, mostly encoding NLR immune receptors. But natural R genes are limited, and pathogens rapidly evolve to overcome them.",
-        "The team used AlphaFold 3 to predict pathogen protein structures, then used BindCraft to design binder proteins that bind those targets. They replaced natural Integrated Decoy (ID) domains with these artificial binders in the rice immune receptor Pikm-1 to build SPIRs.",
-        "They designed and tested 391 SPIRs against 13 plant viruses, plus bacterial, fungal, and oomycete pathogens. Seventy-one SPIRs (18.2%) specifically recognized their target pathogen proteins and activated plant immunity. They combined the design with GRAPE — an in planta directed evolution system published in Science in 2025 — to improve activity and reduce autoactivation.",
-        "The SPIR platform enables de novo, structure-guided design of plant immune receptors in weeks — without relying on natural R genes. Transgenic plants expressing SPIRs resisted corresponding viral infections. This shifts plant disease resistance breeding from 'mining nature' to 'engineering immunity'."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-25T22:20:18.480Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-26-fields-and-abacus-medals-2026",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "2026年菲尔兹奖与阿巴卡奖揭晓：五位年轻数学家改写数学版图",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-26",
-    "intro": "数学界最高荣誉每四年颁发一次，今年有五位四十岁以下的数学家获奖，他们的工作重塑了数学和理论计算机科学的面貌。",
-    "paragraphs": [
-      "2026年的菲尔兹奖和阿巴卡奖刚刚揭晓。菲尔兹奖是数学界的最高荣誉，每四年颁发一次，获奖者必须在当年1月1日之前未满40岁。阿巴卡奖则颁发给理论计算机科学领域的杰出年轻研究者。今年共有五位数学家获奖，他们的故事各有精彩。",
-      "王虹成为了历史上第三位获得菲尔兹奖的女性。她凭借一项‘once in a century’证明获奖。",
-      "雅各布·齐默尔曼因证明安德烈-奥尔特猜想而获奖。",
-      "约翰·帕登因在辛几何领域的工作获奖。",
-      "邓宇因在随机数据问题上的工作获奖。",
-      "沙扬·奥韦斯·加兰获得了今年的阿巴卡奖。他因将各种数学工具应用于计算机科学而获奖。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/fields-and-abacus-medals-2026-20260723/",
-      "originalTitle": "Fields and Abacus Medals 2026",
-      "publishedAt": "Thu, 23 Jul 2026 14:20:31 +0000",
-      "retrievedAt": "2026-07-25T22:16:15.583Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-25T22:16:11.955Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
       }
     }
   }
