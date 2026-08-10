@@ -1,5 +1,179 @@
 [
   {
+    "slug": "2026-08-11-why-are-rivers-so-mathematical",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "无论大河小溪，长度和汇水面积都遵循同一条数学定律",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-11",
+    "intro": "从天上落下的雨水，怎么在地上刻出纵横的河道？一位地质学家发现，无论大河小溪，长度和汇水面积之间都遵循同一条数学定律。",
+    "paragraphs": [
+      "全世界的河流网络看起来都差不多：细小的溪流汇入稍大的支流，再并入更大的干流，最后奔向大海。这种分支结构很像树枝连着树干，也像叶脉、人体血管、铁路与公路网——它们都属于‘运输网络’，即把某种流体（水、血液、车流）从各处输送到一个集中点（海洋、心脏、城市中心）。河流尤其特别，因为它们并非生物演化或人工规划的结果，而是混沌地球过程自发形成的。",
+      "1957年，美国地质调查局科学家约翰·哈克在弗吉尼亚和马里兰州的河流上测量了每条溪流的长度及其汇水区域的面积（即流域面积）。他发现：任何溪流——从最小的山涧到最大的江河——其长度大致与流域面积的0.6次方成正比（公式表达为 L ∼ A⁰·⁶）。尽管实际数值存在微小波动（因地球复杂性），但这一关系‘总体规律性仍极为显著’；且该规律‘不受区域地质或构造特征影响’。后来卫星影像数据证实，这一规律在全球范围内成立。",
+      "为什么大自然会形成这种形状？20世纪90年代初，意大利水文学家安德烈亚·里纳尔多等人提出‘最优河道网络’理论：在一块均匀降雨的方形土地上，若将全部径流导至单一出口，挖大量直线沟渠虽直观，却需极长总长度，耗能巨大；而采用树状分级网络——小流汇入大流，最终归于主干——虽单个水滴路径变长，但因共享主干渠道，整体摩擦损耗更低、能量更节省。计算机模拟显示，指数恰好为0.6的网络能耗最低。",
+      "另一解释来自‘景观演化模型’。科学家用计算机模拟雨水沿随机起伏地形流动并持续侵蚀岩石的过程。初始微小地形差异导致某些沟谷捕获更多径流，从而侵蚀更快、加深，进而吸引更多水流；邻近沟谷则因水源被截断而萎缩甚至消失。这类局部竞争与调整持续数千年，使整个排水网络不断重组，最终自发趋向最节能的格局，并在地表刻下符合哈克定律的形态。"
+    ],
+    "topics": [
+      "物质与数学",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+      "originalTitle": "Why Are Rivers So Mathematical?",
+      "publishedAt": "Mon, 10 Aug 2026 14:56:34 +0000",
+      "retrievedAt": "2026-08-10T22:02:07.038Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-10T22:01:55.667Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-11/2026-08-11-why-are-rivers-so-mathematical.webp",
+      "alt": "Abstract river network on gray paper",
+      "caption": "河流的数学之美",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-11-1-496",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一分钟跳绳496次，三个小学生是怎样做到的？",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-11",
+    "intro": "在2026年亚洲跳绳锦标赛上，重庆三名小学生冷浩然、欧栩滔、徐澄曦以1分钟496次的成绩，刷新了60秒交互绳速度项目混合组世界纪录。",
+    "paragraphs": [
+      "这个数字是什么概念？平均每秒跳动约8.27次，刷新了60秒交互绳速度项目混合组世界纪录。上一个世界纪录是486次，他们多跳了10次。",
+      "交互绳由一人主跳、两人摇绳，比单人跳绳更考验团队协作的默契。三年前，冷浩然、欧栩滔和徐澄曦开始搭伴练习交互绳时，默契不足、技巧不熟，一口气只能跳10来秒。教练范子棋没有着急，而是让他们从10秒开始，一点点突破到15秒、20秒、30秒……直至1分钟全程零失误。",
+      "不断磨合中，三个孩子找到了各自的最佳位置：冷浩然腿部力量突出，负责主跳；欧栩滔手臂力量较强，控制摇绳节奏；徐澄曦细心敏锐，负责观察和调整。技术打磨中，主跳进绳越来越快——从最初需要听着‘1、2、3’才能进绳，到后来听着‘1、2’就能进绳，‘抢’出来的一拍，最终成为刷新世界纪录的关键10次跳动。",
+      "纪录背后是日复一日的坚持。蛙跳、折返跑、立刻接跳绳……每天早晚、每个假期，这样的训练是他们的日常。成年人跳三五年都不会断的绳子，他们一两个月就能跳断一根。徐澄曦招蚊子，夏天训练腿上全是蚊子叮咬的痕迹；奶奶曾心疼地劝她放弃，父亲徐晓龙说，对跳绳运动的热爱让孩子坚持下来。",
+      "跳绳带来的改变不只是奖牌。冷浩然以前是个‘小胖墩’，如今身体状态明显提升；除了身体素质之外，孩子们学会了自己面对和解决困难，抗压能力也提升了。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260809/39377a8fae6940358a78fb8a22289582/c.html",
+      "originalTitle": "追光丨1分钟496次，是怎样练成的？",
+      "publishedAt": "2026-08-09T21:26:26+08:00",
+      "retrievedAt": "2026-08-10T22:04:42.039Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-10T22:04:37.884Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "496 Jumps in a Minute: How Three Kids Made It Happen",
+      "intro": "Imagine jumping rope 496 times in just one minute—that's over eight jumps every second.",
+      "paragraphs": [
+        "Three elementary school students from Chongqing set a new world record in the 60-second interactive rope speed event for mixed teams. Cold Haoran, Ou Xutao, and Xu Chengxi achieved 496 jumps at the 2026 Asian Jump Rope Championships. The previous world record was 486 jumps. When the final whistle blew, the scoreboard showed 496. Their coach Fan Ziqi said the minute felt extremely long. He shouted: 'They did it!'",
+        "Three years ago, the three children began practicing interactive rope together. At first, they lacked coordination and skill. They could only jump for about 10 seconds. Coach Fan Ziqi had them start with 10 seconds and gradually increase to 15, 20, then 30 seconds—until they reached a full minute with zero mistakes.",
+        "In interactive rope, one person jumps while two swing the ropes. Cold Haoran has strong leg power and is the main jumper. Ou Xutao has strong arm power and controls the rope rhythm. Xu Chengxi is careful and observant. She watches and adjusts. They found their best positions through repeated practice. They improved timing so much that they entered the rope on '1, 2' instead of '1, 2, 3'. That saved one beat—and added the final 10 jumps needed to break the record.",
+        "Their training was daily—morning and evening—and continued through every holiday. They did frog jumps, shuttle runs, then immediately jumped rope. Adults might use one rope for three to five years without breaking it. These children wore out a rope in one or two months. Xu Chengxi gets bitten by mosquitoes often in summer. Her grandmother once urged her to quit. Her father Xu Xiaolong said her love for jump rope kept her going.",
+        "The record brought more than medals. Cold Haoran used to be overweight. Now his physical condition has clearly improved. Beyond fitness, the children learned to face and solve problems themselves. Their resilience improved."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-10T22:08:28.931Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-11-hddroo",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "从废弃油桶到世界舞台：钢鼓见证文化传承与创新",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-11",
+    "intro": "一个废弃的油桶，能变成什么？在特立尼达和多巴哥，人们给出的答案是：一件能够奏响动人旋律的乐器。",
+    "paragraphs": [
+      "20世纪初，由于殖民当局限制非洲传统鼓乐的使用，特立尼达和多巴哥的青年开始利用废弃的牛奶罐、垃圾桶盖和金属容器，为一年一度的狂欢节创作节奏。随着音乐不断发展，他们将55加仑油桶改造成能够演奏完整音阶和复杂旋律的乐器——钢鼓，迄今唯一诞生于20世纪的原声乐器。",
+      "钢鼓诞生于特立尼达和多巴哥首都西班牙港以东的工人阶级社区拉文蒂耶（Laventille），从不起眼的街头巷尾走向世界舞台，见证了一个民族将挑战转化为创造力的历程。它承载着社区精神、文化遗产和民族身份认同，象征着坚韧、自我表达和团结。每年狂欢节期间举行的全景（Panorama）钢鼓大赛汇聚众多乐队同台竞技，被视为钢鼓音乐的重要盛会。如今，钢鼓的影响早已超越加勒比地区，从北美到欧洲，40多个国家和地区拥有钢鼓乐队，一些大学还开设相关课程；在加拿大等地，钢鼓也被用于学校文化教育，帮助不同背景的学生增进理解与交流。",
+      "2023年，联合国大会通过决议，决定将每年的8月11日定为‘世界钢鼓日’，旨在提升国际社会对钢鼓文化价值的认识，推动这一诞生于特立尼达和多巴哥、被誉为20世纪唯一新发明原声乐器的保护、传承和发展。联合国认为，钢鼓不仅是重要的文化遗产，也是促进文化多样性、教育、青年发展、社会包容和可持续发展的重要载体。围绕钢鼓形成的制造、演出、教育和旅游产业，为社区创造了新的经济机遇，也为青年和小型企业提供了发展空间。2019年，联合国教科文组织将特立尼达和多巴哥首都西班牙港列入音乐创意城市名录，钢鼓正是这座城市利用创造力推动可持续发展的重要象征。",
+      "特立尼达和多巴哥已故卡利普索音乐家丹尼斯·富兰克林·威廉斯曾在歌曲《钢鼓危哉》（Pan in Danger）中表达对钢鼓未来的担忧：随着钢鼓日益商业化和国际化，这一诞生于特立尼达和多巴哥贫民社区、承载着国家文化认同的乐器，正面临传统精神被淡化、年轻一代参与减少以及本土支持不足等挑战。歌曲呼吁加强钢鼓文化的传承与保护，避免钢鼓在走向世界的同时，逐渐失去其历史根源和文化内涵。如今，随着世界钢鼓日的设立，这一诞生于社区、成长于文化土壤中的乐器正在开辟一个新的篇章。钢鼓提醒世界：文化不仅记录过去，也能够创造未来。它的旋律诉说着创造力、韧性与希望，也展现了文化遗产在促进可持续发展、连接不同社会和丰富人类共同文化生活中的力量。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "文化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142590",
+      "originalTitle": "【专题报道】从废弃油桶到世界舞台：钢鼓见证文化传承与创新",
+      "publishedAt": "Mon, 10 Aug 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-10T22:06:31.240Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-10T22:06:27.262Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "From Oil Barrels to World Stages: The Steel Pan Story",
+      "intro": "How can a rusty old oil drum become a beautiful musical instrument?",
+      "paragraphs": [
+        "In the early 1900s, colonial authorities restricted African traditional drumming in Trinidad and Tobago. Young people used discarded milk cans, garbage lid covers, and metal containers for Carnival rhythms. Later, they shaped 55-gallon oil barrels into instruments. These steel pans could play full scales and complex melodies. They are the only acoustic instrument born in the 20th century.",
+        "Steel pans are more than music. They symbolize community spirit, cultural heritage, and national identity. They represent resilience, self-expression, and unity. In 2023, the United Nations General Assembly adopted a resolution. It established World Steelpan Day on August 11. The day aims to raise awareness of steel pan’s cultural value. It supports protection, transmission, and development. Steel pan is a vehicle for cultural diversity, education, youth development, social inclusion, and sustainable development.",
+        "Steel pan music has spread beyond the Caribbean. Steel pan bands exist in over 40 countries and regions. Some universities offer related courses. In Canada, steel pans are used in school cultural education. They help students from different backgrounds build understanding and connection. Steel pans perform Caribbean traditional music. They also play jazz and classical music. They show cross-cultural and cross-regional appeal. From community events to world-renowned stages, steel pans prove music connects people.",
+        "Steel pans support communities economically. Manufacturing, performance, education, and tourism industries create new opportunities. They benefit youth and small businesses. Trinidad and Tobago’s Minister of Tourism, Culture and the Arts said steel pans can create sustainable environments in rural communities. They generate income for small enterprises. In 2019, UNESCO listed Port of Spain in its Creative Cities Network for music. Steel pan is a key symbol of how creativity drives sustainable development.",
+        "Steel pans remind us that culture records the past and creates the future. Their melody tells stories of creativity, resilience, and hope. They show how cultural heritage promotes sustainable development. They connect diverse societies. They enrich shared human culture."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-10T22:09:27.094Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-08-10-20260806",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蜗牛粘液、提前报废的汽车与西伯利亚的甲烷：本周《科学》杂志导读",
@@ -3147,187 +3321,6 @@
         "evidenceCount": 4,
         "correctionCount": 8,
         "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-27-6lw5y2",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "绿氢：用风能和太阳能制造的清洁燃料，为什么被称为能源转型的关键一环？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-27",
-    "intro": "绿氢是什么？它离我们的生活有多远？一篇专访带你了解这个未来能源的重要方向。",
-    "paragraphs": [
-      "你有没有听说过“绿氢”？它是先利用太阳能、风能等可再生能源产生绿电，再利用绿电进行水电解生产出的氢气。由于整个制取环节几乎不产生二氧化碳排放，从全生命周期来看，其碳排放也远低于利用化石能源制氢，因此被称为“绿氢”。它最大的特点，就是具有显著的绿色低碳环境价值。",
-      "对于普通人来说，家里使用的是电，而不是氢，绿氢的发展未来会如何影响我们的日常生活？当前人们更多感受到的是一些间接变化。例如在交通领域，氢能公交、氢能重卡正逐步推广应用；在工业端，绿氢可以进一步生产氨、甲醇和航空煤油，也可以在钢铁等行业实现工业替代，推动终端产品低碳化；与此同时，通过在天然气管道中掺氢替代部分化石能源，氢能未来还将在炊事、供暖、发电以及工业燃料等领域发挥作用。",
-      "太阳能、风能等可再生能源虽然已经成为支撑能源绿色低碳转型的主力电源，但由于受自然特性影响，其发电具有间歇性和波动性，难以实现全天候、稳定供电；同时，富余电力也难以低成本、大规模、长时间储存。此外，在钢铁、化工等需要高温生产的工业领域，以及远洋船舶、重型卡车等应用场景中，单纯依靠电气化实现低碳转型仍面临挑战。绿氢恰恰能够弥补这些短板：一方面，它可以作为长周期储能载体，把富余的风电、光伏电转化为氢气储存起来，在需要时再释放和利用；另一方面，它既可以作为零碳燃料提供高温热能，也可以作为工业原料，广泛应用于钢铁、化工等领域。因此，绿氢补上了能源转型中的关键一环，解决了许多其他技术难以解决的问题，被业内称为能源转型的‘最后一块拼图’。",
-      "目前，氢能产业发展速度很快，但要实现大规模应用，仍面临一些关键瓶颈，其中最核心的还是全产业链成本偏高。无论是制氢的经济性，还是储运和加氢站等基础设施建设，与加油站、充电桩相比都还有较大差距。目前绿氢制取成本仍是传统化石能源制氢（灰氢）的两到三倍，尚未达到平价水平；氢气运输主要依赖公路运输，导致储运成本在终端用氢成本中占比较高。以中国为例，风能、太阳能等可再生能源资源主要集中在“三北”地区，而氢能需求则主要集中在东部沿海等经济发达地区，需要依靠跨区域、长距离运输，相关基础设施仍处于发展初期。",
-      "中国已处于全球氢能产业发展的第一梯队，是推动全球氢能发展的重要力量。中国氢能消费规模已连续多年位居世界第一，在电解槽产能、绿氢项目建设、加氢站数量、氢燃料电池汽车保有量等关键指标上均处于全球领先水平。我国“制、储、输、用”全产业链体系已基本形成，正进入规模化推广应用阶段。中国《新型能源体系建设“十五五”规划》明确将氢能纳入新型能源体系，并提出到2030年实现可再生能源制氢规模达到200万吨。这一目标意味着中国绿氢产业正从示范验证阶段正式迈向规模化推广阶段：出行将更加清洁，居家用能将更加绿色低碳，生态环境将持续改善，老百姓也将享受到更多的蓝天白云。",
-      "氢气燃烧后的产物虽然只是水，但不同制取路径带来的碳排放差异很大。利用煤炭、天然气等化石能源制取的氢气，被称为“灰氢”，虽然使用过程中不产生碳排放，但生产环节会排放大量二氧化碳，因此不能简单认为所有氢能都是清洁能源。而绿氢则利用风能、太阳能等可再生能源产生的绿色电力制取，从源头降低碳排放。在评价氢能的环保价值时，不能只看使用环节，更要关注整个生命周期和生产来源。只有来自可再生能源制取的氢，才是真正意义上的绿氢。"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/07/1142521",
-      "originalTitle": "【前方视野】解码绿氢：能源转型的“最后一块拼图” ——专访水电水利规划设计总院副院长张益国",
-      "publishedAt": "Sat, 25 Jul 2026 12:00:00 +0000",
-      "retrievedAt": "2026-07-26T22:19:31.739Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:19:29.589Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Green Hydrogen: The Missing Piece for Energy Transition",
-      "intro": "Green hydrogen is a clean fuel made from renewable energy. Here's what you need to know.",
-      "paragraphs": [
-        "Green hydrogen is produced using solar or wind power. First, renewable energy generates electricity. Then, that electricity splits water into hydrogen and oxygen. This process releases almost no carbon dioxide. That's why it's called 'green' hydrogen. It has very low emissions over its whole life.",
-        "Green hydrogen will change our daily lives. For example, hydrogen buses and heavy-duty trucks are already in use in cities like Zhangjiakou, Beijing, and Shanghai. In the future, hydrogen can be blended into natural gas for cooking and heating. It can also replace fossil fuels in steelmaking and chemical production. These uses will help make industrial products cleaner.",
-        "Why is green hydrogen important for energy? Solar and wind power are not always available. Their output varies with weather and time of day. Green hydrogen can store excess electricity as hydrogen — acting like a long-term battery. Also, some industries need high-temperature heat that electricity alone cannot easily deliver. Green hydrogen can provide that heat and serve as a raw material — filling gaps other clean technologies cannot.",
-        "But there are challenges. Producing green hydrogen is still expensive. It costs two to three times more than hydrogen made from fossil fuels (called 'gray hydrogen'). Transporting hydrogen is also hard. Most hydrogen today is moved by road tankers. Pipelines and large-scale storage facilities are still limited. This makes delivery costly and limits widespread use.",
-        "China is a leader in green hydrogen. It has the largest installed capacity of renewable energy in the world. It leads globally in electrolyzer manufacturing, green hydrogen project development, hydrogen refueling stations, and fuel cell vehicle numbers. China aims to produce 2 million tons of renewable hydrogen by 2030 — not 200 million tons. This target marks a shift from pilot projects to large-scale application. It will support cleaner transport, greener home energy, and improved air quality.",
-        "Not all hydrogen is clean. Hydrogen made from coal or natural gas is called 'gray hydrogen'. It creates large carbon emissions during production — even though it burns cleanly. Only hydrogen made from renewable electricity is truly green. So when you hear 'hydrogen', remember: its color depends on how it’s made."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:24:29.156Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-27/2026-07-27-6lw5y2.webp",
-      "alt": "Wind turbine and solar panel with hydrogen molecule symbol",
-      "caption": "绿氢：风能与太阳能转化的清洁燃料。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-27-405",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "资源越多，社会越不公平？一个奇特的观点",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-27",
-    "intro": "用电量越多，社会就越公平吗？一位哲学家提出了相反的看法，还拿车速和算力来举例。",
-    "paragraphs": [
-      "你可能会觉得，资源越多，大家的日子越好过，社会也就越公平。但奥地利哲学家伊万·伊里奇在1973年提出过一个相反的观点：资源太多反而会造成社会不公平。这个想法很奇特，值得琢磨一下。",
-      "伊里奇说，用电量和社会公平的关系不是一直正向的。当人均用电量还比较低的时候，增加用电确实能改善公平，因为更多人能用上电了。可是一旦超过某个阈值，再增加用电量反而会牺牲公平。为什么呢？因为资源不再稀缺后，就会落入少数人手中，他们利用这些资源拉大了和普通人的差距。",
-      "他举了一个更形象的例子：车速。他说，车辆速度超过一定限度后，会拉开人与人之间的距离。只有少数人能拥有高速交通工具，速度越快，这些人越领先，而大多数通勤者只会感到时间越来越紧，越来越落后。时间计量单位从按天变成按小时甚至分钟，这种紧迫感也加剧了不公平。他建议限制车速，不是为了安全，而是为了防止少数人领先太多。",
-      "按照同样的逻辑，算力也是如此。算力一开始普及，能提高所有人的福利，但到了某个程度，算力越多，少数人掌握的算力优势就越大，社会不公平就越严重。所以政府可能要设置算力上限，防止过度集中。",
-      "伊里奇的理论其实在说资源的分配问题：如何让每个人都能获取资源，同时防止少数人获取太多。坦白说，这挺难的。为了提高经济效率，似乎很难保证资源的平均分配。但至少，这个观点让我们开始思考：是不是所有的“更多”都意味着“更好”呢？"
-    ],
-    "topics": [
-      "算力",
-      "社会公平",
-      "资源分配"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "阮一峰的网络日志",
-      "region": "mainland",
-      "url": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
-      "originalTitle": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
-      "publishedAt": "2026-07-24T00:12:16Z",
-      "retrievedAt": "2026-07-26T22:19:56.085Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:19:52.062Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-27/2026-07-27-405.webp",
-      "alt": "Abstract scale balancing data and inequality symbol",
-      "caption": "资源越多，社会越不公平？",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-27-google",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "多家知名网站考虑彻底屏蔽谷歌——AI摘要正在‘偷走’流量",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-27",
-    "intro": "美国今日、政治报、经济学人、人物杂志和路透社等知名网络出版商正在考虑彻底屏蔽谷歌，原因是谷歌的AI摘要功能导致网站访问量大幅下降。",
-    "paragraphs": [
-      "最近，美国今日（USA Today）、政治报（Politico）、经济学人（The Economist）、人物杂志（People）和路透社（Reuters）等知名网络出版商正在考虑彻底屏蔽谷歌，甚至与谷歌签署了每年6000万美元合同的Reddit也在重新评估与谷歌的关系。",
-      "这些网站做出这一考虑，是因为谷歌的AI摘要功能导致其网站访问量大幅下降。例如，美国今日过去一年来自美国用户的访问量下降了近一半；Reddit也注意到，谷歌的AI摘要正在阻止用户访问其网站。",
-      "对这些网站而言，这是一个两难选择：彻底屏蔽谷歌可能导致搜索流量进一步减少；但继续允许谷歌抓取内容用于AI摘要，则从长远看会加速自身衰亡。"
-    ],
-    "topics": [
-      "AI摘要",
-      "搜索引擎",
-      "网站流量"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "region": "mainland",
-      "url": "https://www.solidot.org/story?sid=84925",
-      "originalTitle": "多家知名网站考虑彻底屏蔽 Google",
-      "publishedAt": "Sun, 26 Jul 2026 18:57:43 +0800",
-      "retrievedAt": "2026-07-26T22:20:27.698Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "discovery",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:20:25.408Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Top Websites Consider Blocking Google",
-      "intro": "Many well-known websites are considering completely blocking Google from their content.",
-      "paragraphs": [
-        "USA Today, Politico, The Economist, People, and Reuters are considering completely blocking Google. Reddit — which has a $60 million annual contract with Google — is also re-evaluating its relationship with Google.",
-        "The reason is Google's AI summary feature. It has caused a sharp drop in website traffic. For example, USA Today saw nearly half of its U.S. user visits decline over the past year.",
-        "Reddit noticed that Google's AI is preventing users from visiting its site. These sites rely on visitor traffic. But Google's AI now displays summaries without sending users to the original sites."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:24:45.154Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
       }
     }
   }
