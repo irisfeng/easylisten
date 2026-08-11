@@ -1,5 +1,230 @@
 [
   {
+    "slug": "2026-08-12-what-to-know-about-using-ai-chatbots-for-therapy",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI聊天机器人能当心理治疗师吗？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-12",
+    "intro": "一项新调查显示，近五分之一12至21岁年轻人曾向AI聊天机器人寻求心理支持。但聊天机器人真的能帮上忙吗？",
+    "paragraphs": [
+      "当你感到难过、生气或压力很大时，可能想找聊天机器人聊聊。一项针对12到21岁年轻人的新调查发现，近五分之一的人曾用人工智能来支持自己的心理健康，而两年前，这个数字还是八分之一。",
+      "年轻人确实很需要心理支持。2023年，有40%的高中生表示，他们感到如此悲伤或绝望，以至于无法参与正常活动。2024年，15%的12到17岁青少年经历过重度抑郁发作——其中许多人未接受治疗。",
+      "但是，心理学家维尔·赖特提醒说，聊天机器人虽然听起来像真人，但它们没有真正的同理心。像ChatGPT、Meta AI和Character.AI这样的通用聊天机器人，并不是为了支持心理健康而设计的。它们没有治疗师执照，也不遵循人类治疗师所必须遵守的患者照护规则。",
+      "这并不意味着聊天机器人完全没用。赖特说，可以用它搜索心理健康信息、查找资源；它甚至能在你一时不知该找谁时，提供‘一些基本建议’。但要小心，聊天机器人有时会编造信息（‘make stuff up’），所以它的回答一定要核实。而且，如果你和聊天机器人进行多轮、长时间对话，用它填补生活中的情感空缺，就可能进入危险地带。",
+      "为什么聊天机器人成不了好治疗师？赖特说，真实治疗师的目标是帮助患者，而聊天机器人被刻意设计成尽可能长时间留住用户——方式就是极度认同你、只说你想听的话。这感觉很好，但不是真正有用的建议。真正的治疗师会肯定你的感受，也会指出你行动、思考或感受中哪些可能对你不利。精神病学家达尔贾·乔尔杰维奇补充说，AI拥有百科全书式的知识，但不理解人们生活的具体情境；而这种对个体生活背景的全面了解，恰恰是支持心理健康的关键。",
+      "聊天机器人也处理不好心理危机。乔尔杰维奇指出：‘它们完全不能妥善应对任何心理健康危机或紧急情况。’她研究发现，AI系统难以识别自残、焦虑、饮食障碍等状况中需立即由真人介入的情形。她特别提到16岁的加州少年亚当·雷恩——他去年在与ChatGPT讨论自杀想法后死于自杀。她强调，人类联结至关重要；目前几乎没有关于长期使用AI进行心理支持的长期影响研究，但大量研究证实：社会联结与人际接触对身心健康和蓬勃发展极为重要。此外，赖特提醒，你在这些应用中输入的所有内容都不私密——所有聊天记录都会被留存；一旦被黑客攻击，敏感对话可能被他人读取。"
+    ],
+    "topics": [
+      "心理与情绪",
+      "数字生活"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/ai-chatbots-therapy-mental-health",
+      "originalTitle": "What to know about using AI chatbots for therapy",
+      "publishedAt": "Tue, 11 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-11T22:11:21.859Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:11:19.626Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "What to Know About Using AI Chatbots for Therapy",
+      "intro": "More and more young people are asking AI chatbots for mental health advice. But experts say that can be risky.",
+      "paragraphs": [
+        "A recent survey of 12- to 21-year-olds found that nearly 1 in 5 had turned to AI for mental health support. That is up from 1 in 8 just a couple years ago. In 2023, 40 percent of high school students said they felt so sad or hopeless that they could not engage in activities normal for them. In 2024, 15 percent of 12- to 17-year-olds had a major depressive episode. Many did not receive treatment. Chatbots are not real people with empathy. Free, general-use chatbots such as ChatGPT, Meta AI and Character.AI were not built to support mental health. They do not earn licenses to offer therapy. They do not follow rules for treating patients.",
+        "A chatbot can help you search for information on mental health conditions. It can also help you find resources. Just be sure to double-check its answers. An AI might even offer some basic advice if you are struggling in the moment and do not know where else to turn. Psychologist Vaile Wright says it is not wise to treat a chatbot like a therapist. She warns about multi-turn, extended conversations. These happen when you use the chatbot to fill an emotional gap in your life. Real therapists aim to help their patients. Chatbots are engineered to keep people on the platform as long as possible. They do this by being exceedingly validating. They tell people exactly what they want to hear. A therapist validates feelings. But it is also their role to point out unhelpful thinking or behavior. Chatbots do not have the same knowledge of a person’s life. Psychiatrist Darja Djordjevic says AI has encyclopedic knowledge. But it does not understand the context of people’s lives.",
+        "Darja Djordjevic says chatbots do not handle mental health crises or emergencies well. She has studied how AI systems respond to users with self-harm, anxiety and eating disorders. The models often fail to recognize situations that need human intervention. She notes tragic cases involving young people. Adam Raine was 16. He lived in California. He died by suicide last year after discussing his suicidal thoughts with ChatGPT. Very little research exists on the long-term effects of using AI for mental health. But much research shows social connection and human contact are important for health and flourishing. Leaning on AI might get in the way of forming crucial connections with real people. Wright adds that everything you put in these apps is not private. All chats are maintained. If a chatbot were hacked, someone else might read your sensitive conversations.",
+        "Wright says it does not have to be an either-or choice. You could use a chatbot to brainstorm how to ask a trusted adult for support. For example, you could ask how to talk to your dad about concerns. Using the chatbot as a tool to connect with human relationships is one of the most impactful things this technology can do. Most schools have counselors students can talk to. The National Alliance for Mental Illness has many resources. It offers a free, confidential helpline for teens. Almost two-thirds of young people who used chatbots for mental health did not tell anyone. Djordjevic says many adults around you have struggled with mental health. More have struggled than you think. Suicide was the third leading cause of death among U.S. teens ages 15–19 in 2024. If you or someone you know is suffering from suicidal thoughts, seek help. In the U.S., call or text 988. Or chat at 988lifeline.org."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:22:19.987Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-12-5exscs",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "从零起步，他建成了全世界唯一在运行的钍基熔盐实验堆",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-12",
+    "intro": "在甘肃武威民勤县红沙岗镇戈壁滩地下14米，我国完全自主建造的2兆瓦液态燃料钍基熔盐实验堆正在满功率运转。这是目前国际上唯一在运行的同类型反应堆。带领团队从零起步建成它的，是中国科学院上海应用物理研究所所长戴志敏。",
+    "paragraphs": [
+      "在甘肃武威民勤县红沙岗镇，一望无际的戈壁滩上，几座砖红色建筑静静矗立。建筑下14米深处，我国完全自主建造的2兆瓦液态燃料钍基熔盐实验堆正在满功率运转。这是目前国际上唯一在运行的同类型反应堆。整整15年，身为实验堆工程总经理和调试总指挥，戴志敏与团队从‘零’起步，从上海到荒漠，在一无所有的戈壁滩上，为我国掌握第四代先进核能技术，探索开拓出一条可行之路。",
+      "在转战戈壁之前，戴志敏已参与建设上海光源——其储存环是光源最大核心装置，他担任分总体负责人；2009年5月，上海光源首批7条光束线站正式向全国用户开放，《自然》杂志评价这标志着‘中国加入世界同步辐射俱乐部’。光源建成后，他升任副所长，兼任上海光源总经理助理、加速器物理与射频技术部主任。就在那时，他的导师、时任上海应物所所长徐洪杰问他：‘科学院要重启熔盐堆研究，没论文、没奖项、二三十年才见成效，你愿不愿过来开辟新战场？’戴志敏没有丝毫犹豫就答应了。当时，全球民用核能主流选择压水堆路线，美国橡树岭实验室早已放弃熔盐堆技术，并将部分资料公开；我国上世纪70年代也曾研发过钍基熔盐堆，但受限于当时的工业能力，最终也转向了压水堆。这意味着，他们即将踏入一片从未有人成功过的‘无人区’。",
+      "立项之初，团队面临‘三无’困境：无技术、无团队、无工业基础。熔盐工艺系统负责人汤睿回忆：‘那时，戴所和我们一起，把美国解密的资料都快翻烂了，发现有些参数和工艺路线根本不适应中国的工业体系。’他们从最基础、最核心的合金材料、熔盐化学入手，一步步摸索建堆的中国路径。2017年，实验堆最终落户甘肃民勤的戈壁荒漠。上海应物所党委书记、副所长李晴暖回忆：‘第一次来，这里除了沙子和梭梭草，什么都没有。’为了这片2400公里外的科研飞地，戴志敏与团队开始了‘候鸟’生活——单程十几小时的奔波已是家常便饭，为了推进建设进度，他经常一连十几天、几十天驻守在戈壁。",
+      "2023年夏天，钍堆项目建设到了最吃紧的关头——刚拿到运行许可证不久，正准备进行首次加料，管道内的熔盐却意外发生冻堵。‘当时感觉十几年的心血可能要打了水漂。’熔盐工艺系统负责人汤睿说。关键时刻，戴志敏没有责备任何人，而是第一时间稳住阵脚，和徐洪杰老所长一起迅速组织团队分析故障原因、研判解决问题。45℃的设备间里，戴志敏常常一待就是几个小时——由于安全规定，连水都不能喝。他紧盯着仪表盘，逐丝排查异常。材料研究部主任黄鹤飞说，作为现场总指挥，戴志敏组织大家积极抢修的同时，果断启动备用方案，最终解决了熔盐冻堵问题。2023年10月11日，实验堆首次临界成功；2024年6月17日，实现满功率运行。巧合的是，57年前的同一天，中国第一枚氢弹爆炸成功。",
+      "在随后的加钍实验中，有一道关键工序：通过十几米长的管道，将钍燃料胶囊送入高温、强辐照的堆芯。这步操作容不得半点差错——美国橡树岭国家实验室当年进行同类操作时，曾多次发生胶囊脱落掉进堆芯的事故。戴志敏带着技术人员先后讨论了十几种预案，定下‘机械连锁耦合阀门供气物理隔绝’的双重冗余保护方案。最终，33枚燃料胶囊全部成功送入堆芯。戴志敏的办公室里，挂着钍基熔盐堆‘三步走’的路线图：实验堆已经运行，旁边即将兴建10兆瓦钍基熔盐研究堆，到2035年左右要建成百兆瓦级示范工程。此外，在实现钍堆产业化的进程中，还要全力推动‘东西联动’的创新布局：设计研发与装备制造在上海，涉核实验与示范在甘肃。这不仅是为了国家能源安全，更是为了将‘烧钍’技术推广到‘一带一路’沿线钍资源丰富的国家。去年，他罹患重病，动完手术后刚能下床，又想回到所里工作。‘实验堆在运行，研究堆在筹建，团队离不开领头人，我想在有生之年把事做成。’他每周至少来所里工作3天，把有限的精力几乎全部投入到工作中。他说：‘我们选择了一条无人知晓、没人相信能走通的路。即使需要20年、30年，甚至40年的努力，我们都会秉持初心，一代一代接续奋斗。’"
+    ],
+    "topics": [
+      "工程与制造",
+      "能源与气候"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569570.shtm",
+      "originalTitle": "从零起步 他在“无人区”拓荒未来核能",
+      "publishedAt": "2026-08-10 08:07",
+      "retrievedAt": "2026-08-11T22:13:14.096Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:13:11.003Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "From Zero to a Nuclear Future",
+      "intro": "A 15-year journey from an empty desert to the world's only operating thorium molten salt reactor.",
+      "paragraphs": [
+        "In Minqin County, Wuwei City, Gansu Province, several brick-red buildings stand on endless gravel. Fourteen meters below, China's fully self-developed 2-megawatt liquid-fuel thorium-based molten salt experimental reactor is operating at full power. It is currently the only reactor of its kind running anywhere in the world.",
+        "Dai Zhimin is the Engineering General Manager and Commissioning Chief Commander of the experimental reactor. He is also Director of the Shanghai Institute of Applied Physics, Chinese Academy of Sciences. He was the subsystem leader for the storage ring of the Shanghai Synchrotron Radiation Facility. In 2009, its first seven beamlines opened to users nationwide.",
+        "In 2011, the Chinese Academy of Sciences launched the Strategic Priority Research Program 'Advanced Nuclear Fission Energy — Thorium-Based Molten Salt Reactor Nuclear Energy System'. The team faced 'three no's': no technology, no team, no industrial foundation. They studied declassified U.S. Oak Ridge data. They found some parameters and process routes incompatible with China's industrial system. So they started from alloy materials and molten salt chemistry.",
+        "In 2017, the experimental reactor site was selected in the Gobi Desert of Minqin County. 'The first time we came, there was nothing but sand and saxaul grass,' recalled Li Qingnuan. Dai and his team lived as 'migratory birds'. They traveled over 2,400 kilometers repeatedly. In summer 2023, molten salt froze and blocked pipes. In a 45°C equipment room, Dai stayed for hours. He monitored instruments and led troubleshooting. The team resolved the freeze-up using a backup plan. On October 11, 2023, the reactor achieved first criticality. On June 17, 2024, it reached full-power operation.",
+        "Dai's office displays a 'three-step' roadmap. The experimental reactor is now running. A 10-megawatt thorium-based molten salt research reactor will be built next. By around 2035, a hundred-megawatt demonstration plant is planned. They are building an 'east-west linkage' model. Design and manufacturing are in Shanghai. Nuclear experiments and demonstration are in Gansu. This aims to support national energy security. It also aims to extend 'thorium-burning' technology to Belt and Road countries rich in thorium resources. Dai said: 'We chose a path no one knew, no one believed could succeed. Even if it takes 20, 30, or 40 years, we will uphold our original aspiration and pass the torch generation after generation.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:20:41.203Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-12/2026-08-12-5exscs.webp",
+      "alt": "地下实验反应堆的抽象剖面图",
+      "caption": "地下实验堆的抽象剖面",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-12-kiv7td",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "数学家王虹获菲尔兹奖，如何折射中国舆论场价值观的迁移？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-12",
+    "intro": "一位中国女数学家拿下数学界最高奖，但真正值得听的，是围绕她的各种不同声音。",
+    "paragraphs": [
+      "北京时间2026年7月24日凌晨（费城当地时间7月23日），中国数学家王虹在美国费城举行的国际数学家大会开幕式上荣获菲尔兹奖。与以往数学新闻主要停留在专业媒体不同，这一次获奖消息迅速突破专业范围，进入大众舆论空间，中央媒体、地方媒体、高校、科研机构、自媒体和普通网友几乎同时参与到此次获奖事件中。",
+      "菲爾茲獎的評選過程保密，但在正式公布獲獎人選之前，國際數學界已經普遍認為王虹是本屆菲爾茲獎的熱門候選人之一。她在限制猜想（Restriction Conjecture）、局部平滑猜想（Local Smoothing）、掛谷猜想（Kakeya Conjecture）等調和分析領域連續取得突破性成果，被認為代表了近年來數學最重要的原創工作之一。當菲爾茲獎名單正式公布後，王虹成為首位獲得菲爾茲獎的中國籍女性數學家。",
+      "中央媒體對菲爾茲獎的解讀集中在「中國數學實現歷史性突破」、「中國首次獲得菲爾茲獎」、「中國青年數學家創造歷史」等，以國家科技實力和創新能力為主要敘事；王虹家鄉所在的廣西黨媒《廣西日報》推出頭版報道《王的猜想》，強調王虹是「桂林女孩」，是「平凡家庭走出的數學家」。",
+      "浙江省宣傳部旗下公眾號「浙江宣傳」發布了文章《包容為什麼給了王虹》，文章主題是：王虹在獲獎後，包括海外求學、使用語言、職業選擇等個人選擇獲得了輿論的「理解和包容」，而不再像以往普通留學生或者普通人一樣遭到非議，文章受到廣泛批評。",
+      "從一則科學新聞演變為一次觀察中國輿論場價值觀遷移的公共樣本。各方聲音圍繞這些說法爭論不休，讓這次獲獎從一個科學事件，變成了觀察中國輿論場價值觀如何遷移的窗口。",
+      "從「歷史性突破」，到「桂林女孩」，再到「包容」，同一個人的同一個獎項，被講出了完全不同的故事。為什麼大家關心的，不止是數學本身？也許，這正是這個時代值得停下來聽一听的問題。"
+    ],
+    "topics": [
+      "历史",
+      "教育"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20260810-mainland-public-discourse-surrounding-mathematician-wang-hongs-award/",
+      "originalTitle": "數學家王虹獲菲爾茲獎，如何折射中國輿論場價值觀的遷移？",
+      "publishedAt": "Sun, 09 Aug 2026 22:59:58 GMT",
+      "retrievedAt": "2026-08-11T22:14:47.070Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:14:44.765Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-12-49lhg5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "沈阳西塔的四百年：从喇嘛塔到网红美食街",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-12",
+    "intro": "沈阳有条网红美食街叫西塔，韩式烤肉和朝鲜族风情让人流连，但它的故事，要从三百八十多年前的一座喇嘛塔说起。",
+    "paragraphs": [
+      "沈阳有一条网红美食街叫西塔，提到它，很多人会想到韩式烤肉、朝鲜族风情。但你可能不知道，这条热闹街区的起点，是1643年皇太极在盛京城西郊修建的一座藏传佛教喇嘛塔。从一座荒郊佛塔，到殖民时代铁路交汇的移民落脚地，再到社会主义建设时期少数民族的日常生活空间，21世纪以来演变为中韩建交之后繁华的消费地标“小首尔”，近年来又成为了移动互联网时代的网红打卡地——西塔的政治经济面貌和文化含义，被一波又一波的时代力量不断改写。",
+      "皇太极为什么要在那里修塔？这要从清朝与蒙古的关系说起。当时，后金/清朝攻灭林丹汗后，逐渐意识到藏传佛教对整合蒙藏的重要性。于是皇太极在盛京修建了四塔四寺，西塔就是其中之一。原文指出，盛京藏传佛教寺院网络是清朝藏传佛教管理机制的“先行试验区”。可见，一座塔从一开始就不仅仅是建筑，它承载着政治和信仰的双重含义。",
+      "塔修好后，西塔周围长期是荒郊。改变发生在十九世纪末、二十世纪初。中、俄、日铁路博弈，改变了东北的政治、社会、自然生态，也改变了西塔。大量移民沿着铁路涌入，‘闯关东’的汉族人来了，日本殖民时期朝鲜族移民也聚居于此。西塔因地处铁路交汇地带，逐渐成为各族移民落脚、聚居的地方。",
+      "1931年九一八事变后，西塔成为殖民者新城市规划中的“红灯区”，隔壁则兴起了铁西工业区。殖民夹缝中，朝鲜族教堂在此建立，后来成为在全国都非常有影响的西塔教会。社会主义建设时期，西塔经历了巨大的社会结构变迁，但经济发展（相比铁西）较慢。‘平壤楼’‘朝百’（朝鲜族百货商店）等场所，与中国朝鲜族身份认同的形成密切相关。",
+      "改革开放后，西塔与铁西发展趋势此消彼长，是同一个逻辑（全球新自由主义浪潮）的不同产物。新世纪的西塔：从打造‘小首尔’到成为网红打卡地。从一座喇嘛塔到一条美食街，西塔的四百年，是被一波又一波时代力量不断改写的历史。下次路过那里时，不妨想想：这条街上，藏着多少看不见的故事？"
+    ],
+    "topics": [
+      "西塔四百年",
+      "城市历史变迁",
+      "微观全球史"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "机核 GCores",
+      "region": "mainland",
+      "url": "https://www.gcores.com/radios/218196",
+      "originalTitle": "西塔四百年：从一座喇嘛塔到网红美食街的微观全球史",
+      "publishedAt": "Tue, 11 Aug 2026 08:00:00 +0800",
+      "retrievedAt": "2026-08-11T22:18:10.828Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-11T22:18:07.033Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-12/2026-08-12-49lhg5.webp",
+      "alt": "古老街道与喇嘛塔的抽象景观",
+      "caption": "古塔与街市的时空叠影",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-08-11-why-are-rivers-so-mathematical",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "无论大河小溪，长度和汇水面积都遵循同一条数学定律",
@@ -3105,222 +3330,6 @@
         "evidenceCount": 3,
         "correctionCount": 8,
         "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-28-wonw5l",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "两位中国数学家同获菲尔兹奖，外媒怎么看",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-28",
-    "intro": "2026年7月23日，中国青年数学家王虹、邓煜在费城举行的国际数学家大会上双双获得菲尔兹奖。这是中国籍数学家首次获得该奖项，也是首次有两位中国学者在同一届国际数学家大会上获奖。",
-    "paragraphs": [
-      "今年夏天，四年一度的国际数学家大会在美国费城举行。会上颁发了被誉为“数学界诺贝尔奖”的菲尔兹奖。两位年轻的中国数学家——35岁的王虹和37岁的邓煜——于7月23日同时获奖。法国总统马克龙亲自致电祝贺王虹，称她“体现了我们研究和教育的卓越水平”，并特别强调，这对“年轻女孩来说，是一个非常棒的榜样”。美国《华盛顿邮报》《量子杂志》、科学新闻网站Live Science等在报道标题中着重强调了王虹的“开创性”成就——她是菲尔兹奖90年历史上第三位女性得主，也是第一位获此殊荣的中国女性。",
-      "邓煜因在偏微分方程和数学物理领域的突破性贡献获奖。英国《新科学家》杂志评价其成果“统一了物理学中两套截然不同的尺度体系”。美国全国公共广播电台（NPR）称，这项研究是数百年来数学家与物理学家依托第一原理推导物理基本定律的一次重大飞跃。邓煜是芝加哥大学历史上第11位菲尔兹奖得主。该校校长保罗·阿利维萨托斯公开表示，邓煜因其数学研究的严谨性和重要性获得了最高认可。“他解决了困扰几代学者的世纪难题，真正体现了致力于知识创造所能实现的目标。我们为他的成就以及他是我们学者社区的一员而感到自豪。”巴基斯坦发行量最大的报纸《战斗报》报道称，两位中国籍学者同获菲尔兹奖，是中国巩固科技强国地位的标志性里程碑事件。",
-      "王虹与邓煜的成长轨迹截然不同。王虹1991年生于广西桂林，成长经历并不符合公众对“数学神童”的传统印象——没有国际数学奥林匹克（IMO）参赛经历，从未入选国家数学奥赛集训队，纯粹凭借对数学的热爱坚持下来。《量子杂志》人物特写称，王虹对数学无比痴迷，会以修女或精英运动员般的奉献精神和纪律投入工作。她会拒绝读书或养狗等耗时的嗜好，但会为朋友、瑜伽和清晨在公园散步留出时间，因为她深知这些有助于缓解数学研究可能带来的压力和自我怀疑。邓煜1989年生于深圳，自幼展露数理天赋；少年时期在数学竞赛和围棋比赛中都表现出色；中学阶段展露数学天赋，17岁代表中国参加IMO，斩获满分金牌并保送北京大学；2010年又拿下全美顶尖普特南数学竞赛最高奖项。",
-      "王虹和邓煜的本科核心教育均完成于北京大学，但博士深造与核心科研成果均诞生于欧美顶尖高校。国际舆论对此呈现多元视角。有媒体报道称，这需要引发中国对本土科研环境、基础研究培育能力的深思。NPR报道称，美国学界需要反思本土日趋紧张对立的学术环境。在全球科技与学术竞争中，美国顶尖高校的基础研究人才培育优势正在弱化。反观中国，持续出台引才政策、搭建科研平台，持续扭转“人才流失”局面，持续优化本土科研生态、补齐人才发展短板。",
-      "多家外媒认为，这一突破彰显了中国数学领域持续扩大的国际影响力，打破了长期以来“中国擅长竞赛数学和应用数学、缺少基础理论原创”的刻板印象。国际数学联盟副主席乌尔丽克·蒂尔曼在接受NPR采访时评价：“菲尔兹奖再次迎来女性获奖者意义重大。王虹的突破充分证明，女性学者完全能在顶尖基础研究领域做出改写学科格局的原创性成果。”两人的获奖是中国顶尖数学人才跻身全球学术前沿的标志性坐标。业界更关注的核心问题是，未来能否让全球顶级数学命题、原创性科研合作、长周期基础性研究，更多扎根中国本土。"
-    ],
-    "topics": [
-      "菲尔兹奖",
-      "中国数学",
-      "外媒解读"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568897.shtm",
-      "originalTitle": "菲尔兹奖中国“双响”，外媒如何解读",
-      "publishedAt": "2026-07-27 09:09",
-      "retrievedAt": "2026-07-27T22:25:21.786Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:25:19.330Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Two Chinese Mathematicians Win Fields Medal",
-      "intro": "Two young Chinese mathematicians have won the Fields Medal, the highest honor in mathematics. It is the first time Chinese citizens have won this prize.",
-      "paragraphs": [
-        "Wang Hong and Deng Yu both won the 2026 Fields Medal on July 23. Wang Hong solved the three-dimensional Kakeya conjecture. Deng Yu made breakthrough contributions in partial differential equations and mathematical physics. Wang Hong is 35 years old. Deng Yu is 37 years old.",
-        "Their paths to success were very different. Wang Hong was born in Guilin, Guangxi, in 1991. She had no International Mathematical Olympiad (IMO) experience and never joined China’s national math training team. She pursued mathematics out of pure passion. Deng Yu was born in Shenzhen in 1989. He competed in the IMO at age 17, won a perfect-score gold medal, and was admitted to Peking University.",
-        "International media widely praised both winners. French President Emmanuel Macron personally called Wang Hong to congratulate her and said she is 'a wonderful role model for young girls'. Multiple outlets stated this double win breaks the long-held stereotype that China excels only in competition math and applied math, not in original foundational research.",
-        "Both Wang Hong and Deng Yu completed their undergraduate studies at Peking University. Wang Hong earned her PhD and conducted core research at institutions in France. Deng Yu pursued advanced study and research in the United States. Some international reports noted this pattern raises questions about China’s capacity to nurture top-tier basic research talent domestically. Deng Yu said he hopes to bring his research achievements back to China so students can access world-leading mathematics without studying abroad."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:27:39.373Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-28-x348v0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "可再生能源有望成为全球最大的发电来源",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-28",
-    "intro": "国际能源署《电力年中更新2026》报告预测，2026年可再生能源发电量将超过煤炭，成为全球最大的发电来源。",
-    "paragraphs": [
-      "先说说世界到底需要多少电。根据国际能源署的《Electricity Mid-Year Update 2026》报告，2026年全球电力需求将增长3.6%，2027年将进一步增长3.8%。全球电力消耗量到2027年将达到30,700太瓦时，相比2025年的28,600太瓦时。",
-      "报告指出，可再生能源有望在2026年超过煤炭成为全球最大的发电来源。2026年可再生能源发电量将增长逾8%，其在全球发电量中的份额将从2025年的33%提高至2027年的37%。",
-      "报告警告，天气相关变化可能会影响电力需求趋势，增加不确定性。2026年强于预期的厄尔尼诺现象可能会增加制冷需求，进一步推高电力需求，同时可能导致部分地区的水力发电和风力发电量下降，增加对其它发电方式的依赖。"
-    ],
-    "topics": [
-      "可再生能源",
-      "电力",
-      "IEA报告"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "region": "mainland",
-      "url": "https://www.solidot.org/story?sid=84937",
-      "originalTitle": "可再生能源有望成为全球最大的发电来源",
-      "publishedAt": "Mon, 27 Jul 2026 22:56:39 +0800",
-      "retrievedAt": "2026-07-27T22:26:35.955Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "discovery",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:26:33.525Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Renewable Energy Set to Become World's Top Power Source",
-      "intro": "A new report says renewable energy could soon beat coal to become the world's biggest source of electricity.",
-      "paragraphs": [
-        "The International Energy Agency's Electricity Mid-Year Update 2026 predicts global electricity demand will grow by 3.6% in 2026.",
-        "Demand will grow by 3.8% in 2027.",
-        "Global electricity consumption will reach 30,700 TWh in 2027.",
-        "That is up from 28,600 TWh in 2025.",
-        "Renewable energy is expected to surpass coal as the largest source of global electricity generation in 2026.",
-        "Renewable generation will grow by more than 8% in 2026.",
-        "Its share of global electricity will rise from 33% in 2025 to 37% in 2027.",
-        "The report warns weather-related changes may increase uncertainty.",
-        "A stronger-than-expected El Niño in 2026 could raise cooling demand.",
-        "That could push electricity demand higher.",
-        "It could also reduce hydropower and wind power output in some regions.",
-        "That would increase reliance on other power sources."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:28:04.900Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 12,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-27-rjib91",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从北大同学到菲尔兹奖得主——王虹和邓煜的故事",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-27",
-    "intro": "2026年，两位中国数学家同时获得数学界最高荣誉菲尔兹奖，他们还是北京大学数学科学学院2007级本科同班同学。",
-    "paragraphs": [
-      "7月23日，美国费城，2026年国际数学家大会举行，菲尔兹奖名单上出现了两位中国籍数学家——王虹和邓煜。这也是该奖项历史上少见的一个国家有两位数学家同时获奖。菲尔兹奖被称为‘数学界的诺贝尔奖’，每4年颁发一次，每次获奖者不超过4位，只授予不满40岁、在数学领域取得突出成就的数学家。",
-      "王虹是菲尔兹奖历史上第三位获奖的女性。她1991年出生在广西桂林，没有受过一天竞赛训练，但从小喜欢数学，小学跳了两级，16岁考上北京大学地球与空间科学学院。因一心想学数学，她凭借自学，大二转到数学学院。在高手如云的数院，王虹多次表示自己是一个‘小透明’。北大本科毕业后，她去了法国，因感觉数学太难，转行学了半年建筑；但这次喘息让她认识到最爱的还是数学，决心破釜沉舟，把自己最具创造力的年华投入数学研究。2025年，王虹与数学家约书亚·扎尔共同发布一篇127页的长预印本论文，成功证明了著名的三维挂谷猜想。",
-      "邓煜出生在深圳，今年37岁。2006年，他满分拿下全国中学生数学冬令营金牌后，又获得国际数学奥林匹克金牌，被保送北大。北大期间，他在大二下学期选修了刘和平老师讲授的研究生课程调和分析，这门课近10年300多位学生平均分是75分，邓煜拿了第一个满分。大三开始，他转去麻省理工学院；本科最后一学期，已无课可上，他花了一周时间，把一篇关于三维能量临界五次薛定谔方程的85页论文从头到尾核对了所有细节。邓煜与合作者在提出已有125年的狭义希尔伯特第六问题上取得关键性突破，搭建起连接牛顿力学、玻尔兹曼动力学和流体力学三个世界的桥梁。",
-      "看似两条截然不同的路径，但对数学的热爱让两个人最终汇聚在菲尔兹奖的顶点。丘成桐认为，邓煜和王虹的共同点是一直对数学保持兴趣，更可贵的是他们的创造力，敢于挑战别人没有走过的路。王虹说：‘我觉得可能还是要有勇气去做自己真的想做的事情，很多问题我如果不敢去尝试的话那就做不出来……成功的秘诀我觉得可能是坚持和运气。’邓煜说：‘作为我来讲的话，我不想说很多哲学东西，只是说我对这个事情感兴趣，有些东西非常有意思，我想研究它，对我来讲这么简单。’"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/568851.shtm",
-      "originalTitle": "从同窗到菲尔兹双星，王虹与邓煜的数学追梦路",
-      "publishedAt": "2026-07-26 07:55",
-      "retrievedAt": "2026-07-26T22:17:51.179Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:17:49.226Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-27-a-master-of-the-traveling-salesperson-problem-fi",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "破解旅行推销员问题的计算机科学家，赢得阿巴库斯奖",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-27",
-    "intro": "一位以跨领域工具突破算法瓶颈的理论计算机科学家，因在旅行推销员问题等难题上的开创性工作，获颁国际数学联盟2026年阿巴库斯奖。",
-    "paragraphs": [
-      "理论计算机科学中，破解难题的关键在于找到合适的工具。多数研究者倾向使用与问题匹配的熟悉方法，但华盛顿大学的沙扬·奥韦斯·格兰（Shayan Oveis Gharan）从不满足于惯常路径。他坦言：‘我’m not learning anything new. I’m just sort of staying where I am.’ 当长期沿用同一方法时，他会感到不安。",
-      "格兰以对旅行推销员问题（traveling salesperson problem）的研究闻名——这是一个关于在多个地点间规划最短往返路线的著名计算难题。研究者认为，无法设计出能在所有地图上快速求得精确最优解的算法；因此目标转为设计能始终给出较优近似解的算法。1976年，尼科斯·克里斯托菲德斯（Nicos Christofides）提出一种算法，保证所得路线长度至多比最短路线长50%；此后数十年，该纪录未被打破。",
-      "读研期间，格兰参与设计了‘不对称’版本旅行推销员问题（含单向道路的地图）的算法；随后与导师及同事尝试改进对称版本的近似比。他运用了来自数学遥远分支、看似与计算机科学无关的新型工具。评奖委员会将此比作‘一位富有创造力的木匠发现听诊器在某些任务中比锯子更有效’。",
-      "格兰1986年生于伊朗伊斯法罕。其母法特梅赫·赫伊（Fatemeh Khoei）曾渴望学习数学，但因当时社会观念‘女孩不应学数学’而放弃；她转而全力支持子女学业。格兰是家中最小的孩子，兄姐年龄比他大六至十三岁，均专攻数学、科学或医学。中学时，哥哥送他一本数学谜题书，‘它让他的思维焕发出深入探索的光彩’；他后来参加国际信息学奥林匹克竞赛并获2004年金牌。本科就读于伊朗谢里夫理工大学，后受妻子劝导赴斯坦福大学深造，并在那里重燃对数学研究的热情。如今他是华盛顿大学教授，同事形容他‘坚信进步可以实现’，并‘极具合作乐趣’。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/shayan-oveis-gharan-wins-2026-imu-abacus-medal-20260723/",
-      "originalTitle": "A Master of the Traveling Salesperson Problem Finds His Own Path",
-      "publishedAt": "Thu, 23 Jul 2026 14:18:20 +0000",
-      "retrievedAt": "2026-07-26T22:18:54.794Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-26T22:18:49.087Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
       }
     }
   }
