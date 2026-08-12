@@ -1,5 +1,182 @@
 [
   {
+    "slug": "2026-08-13-this-microbe-turns-into-a-hulk-that-eats-its-own",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "微生物变身“绿巨人”，变大后吃掉自己的同类",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-13",
+    "intro": "一种看上去像小虫子的单细胞原生生物，平时以细菌和其他微生物为食，但少数个体会膨胀到正常大小的两倍以上，变成‘超巨型’个体，开始吞食体型更小的同类。",
+    "paragraphs": [
+      "你有没有想过，如果‘绿巨人’是一粒微生物，会是什么样？科学家发现了这样一种新微生物。它是一种单细胞原生生物，外形略像昆虫，平时以细菌和其他微生物为食。但有时，少数个体膨胀到超过正常大小的两倍，变成‘超巨型’细胞，并吞食体型更小的同类。",
+      "这种微生物叫Euplotes gigatrox，是一种纤毛虫类原生生物。它身体周围长着许多毛发般的纤毛，嘴巴位于纤毛围成的椭圆形凹陷中。细胞生物学家本·拉森在美国纽约州特洛伊市伦斯勒理工学院工作，他在加勒比海库拉索岛一家水族馆的过滤器污垢中发现了这种微生物。研究人员于5月14日公布了这项新发现，相关成果发表在《美国国家科学院院刊》上。",
+      "什么触发这种变化尚不明确，但通常发生在食物充足时。形态转变是分阶段进行的：首先细胞长出更大的口部结构，随后活动性增强；此时它们尚未具备高效捕食同类的能力。一旦捕获并吞食一个较小的同类或近缘个体，其整个身体结构便发生改变，最终发育为体型巨大、以同类为食的超巨型形态。",
+      "超巨型个体与普通个体行为明显不同：普通E. gigatrox能行走和游泳，而超巨型个体只能绕圈行走。超巨型个体可通过不对称分裂逐渐缩小体型。普通E. gigatrox每天分裂一次；正在缩小的超巨型个体在第一天最多可产生9个正常大小的后代，五天内最多可产生16个后代。每次分裂后，其体型都会减小一些，最终恢复为普通大小和行为模式。",
+      "多达42%的E. gigatrox基因参与从普通大小向超巨型转变及逆转的过程。研究这种原生生物如何调控如此剧烈的形态与行为转变，可能为理解简单生命形式如何演化出复杂行为提供线索，甚至有助于探索多细胞生命最初是如何进化出来的。"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/hulk-cannibal-microbe",
+      "originalTitle": "This microbe turns into a ‘Hulk’ that eats its own kind",
+      "publishedAt": "Wed, 12 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-12T22:09:14.690Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-12T22:09:12.150Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Microbe Turns Hulk and Eats Its Own Kind",
+      "intro": "Scientists have found a tiny single-celled creature that can grow huge and then eat its smaller relatives.",
+      "paragraphs": [
+        "This microbe is called Euplotes gigatrox. It usually grazes on bacteria and other microbes. Sometimes a small number of these predators balloon to more than twice their regular size. These 'supergiant' cells turn into cannibals, gobbling up their smaller siblings.",
+        "Researchers shared their new findings May 14. The work appeared in the Proceedings of the National Academy of Sciences. Ben Larson discovered the microbes in gunk scraped from a filter at an aquarium in Curaçao. That’s a Dutch territory in the Caribbean Sea. What triggers the change isn’t all that clear. But it tends to happen when there is plenty of food.",
+        "Morphing into a supergiant happens in steps. In the first stage, 'a cell gets a big mouth,' Larson says. Then, 'they start running around like crazy.' At that point, they still aren’t great cannibals. Once a would-be Hulk catches one of its siblings or cousins in its enlarged mouth, its whole body plan changes. These cells 'grow up to be these just enormous cannibalistic supergiants,' Larson says. Regular-size cells walk and swim. The big ones can only walk in circles.",
+        "Giants can return to their former size by lopsided splitting. Normal-size E. gigatrox divide just once per day. Shrinking Hulks, in contrast, can produce nine normal-size offspring in the first day. Over five days, they can generate up to 16 offspring. Each time a giant cell divides, it shrinks somewhat. Eventually it returns to normal size and behavior. Up to 42 percent of the species’ genes are involved in shifting from regular size to giant and back again. Learning how these protists do this may offer clues about how simple life forms develop complex behaviors. It might even point to how many-celled life first evolved."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-12T22:25:03.877Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-13/2026-08-13-this-microbe-turns-into-a-hulk-that-eats-its-own.webp",
+      "alt": "巨大细胞吞噬小细胞的抽象插图",
+      "caption": "巨型微生物吞噬同类",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-13-the-tantalizing-possibility-of-locating-consciou",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "意识可能藏在大脑深处，而不是负责复杂思考的皮层",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-13",
+    "intro": "当计算机没有生物神经元也能表现出智能，科学家开始重新思考：意识也许并不依赖高级认知，而是来自大脑深处由简单感受组合而成。",
+    "paragraphs": [
+      "一个深夜，一位神经科学家和ChatGPT聊天，发现它像人一样有幽默感和推理能力，却没有一个生物神经元。这让他想到：如果智能只是信号处理，在硅片里也能实现，那意识还是必须和智能绑在一起吗？",
+      "过去，神经科学认为 cognition（认知）是意识的必要成分——即复杂思维与主观体验密不可分。但现在，计算机已能实现规划、推理、问题解决等认知能力，我们却依然无法解释大脑如何产生意识。真正的问题变成了：如果意识与高级认知没有根本关系，那它到底是什么？",
+      "神经学家安东尼奥·达马西奥发现，一些前额叶皮层受损的病人智力完好，却连选择两个预约时间都纠结数小时。他们缺乏的是将选项赋予情感价值的信号——那种引导决策的‘本能感觉’。这一观察成为他1994年著作《笛卡尔的错误》的核心观点：感受不是理性的附属品，而是理性得以运作的必要机制。意识可能并非高阶思考本身，而是一组原始感受——饥饿、疼痛、熟悉、期待、信心、连贯性等——的组合。就像飞机仪表盘，我们看不到机舱内复杂的计算过程，只接收到高度压缩的体验性读数。",
+      "这个想法可用食谱类比：两份熟悉加一份连贯，可能构成‘理解’；三份期待加一份动机，可能构成‘希望’。自行车、童年朋友、数学定理，并不对应单一原始感受，而是各自占据多维感受空间中的独特位置——由熟悉、期待、信心、连贯性、动机强度等维度共同定义。哪怕仅有30种独立感受维度，每种仅8个可分辨等级，组合出的可能体验状态就达约10²⁷种（1 octillion），远超人类历史上所有个体一生所能经历的体验总数（约10²¹种）。",
+      "如果意识源于这类深层感受，它可能位于进化上更古老的脑区，而非新皮层。20世纪20年代起，生理学家曾手术切除数十只猫的整个大脑皮层；幸存者仍能进食、繁殖、游泳、梳理毛发，甚至学习简单迷宫。后来，基因编辑小鼠被培育为天生无皮层，也展现出类似行为。尽管能力严重受损，但很难断言它们‘完全没有体验’。此外，对人类深部脑区（如脑干、丘脑等古老结构）进行电刺激，可诱发强烈主观体验；而大面积刺激前额叶皮层，却常无意识效应。这提示：意识的神经基础，可能不在最高级的皮层，而在更深层、更古老的脑区。"
+    ],
+    "topics": [
+      "哲学与思想",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Noema",
+      "region": "international",
+      "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain",
+      "originalTitle": "The Tantalizing Possibility Of Locating Consciousness In The Brain",
+      "publishedAt": "Tue, 11 Aug 2026 17:16:19 +0000",
+      "retrievedAt": "2026-08-12T22:10:47.721Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-12T22:10:39.514Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Could Consciousness Come from Deep Inside the Brain?",
+      "intro": "Scientists are asking whether consciousness might come from older, deeper parts of the brain rather than the thinking cortex.",
+      "paragraphs": [
+        "A neuroscientist chats with an AI late at night and is surprised by how human it seems. The AI can use language, reason, make social inferences, and even show a sense of humor. Yet it has no biological neurons. This raises the possibility that intelligence may be portable — implementable in silicon — and that consciousness may not depend on higher cognition.",
+        "Neurologist Antonio Damasio studied patients with damage to a region of the prefrontal cortex critical for emotional valuation. Their reasoning, conversation, and problem-solving stayed intact, but decision-making was impaired. They lost the gut feelings that assign value to options. Damasio argued in his 1994 book 'Descartes’ Error' that feelings are not peripheral to rational thought — they are part of the machinery that makes rational thought possible.",
+        "Some researchers now explore the possibility that human thought does not constitute a separate category from feeling. Instead, our stream of thought may emerge from combinations of a finite number of primitive feeling states — like familiarity, anticipation, confidence, coherence, and motivational pull. A bicycle, a castle, or a childhood friend may each occupy a distinct location in a multidimensional experiential landscape defined by such ingredients. With just 30 dimensions and eight levels each, the space contains roughly 1 octillion possible configurations — far more than humanity has ever experienced.",
+        "Many neuroscientists point to frontal areas of the cerebral cortex as responsible for subjective experience. But experiments challenge that view: Cats with surgically removed cortices could eat, reproduce, swim, groom, and learn simple mazes. Genetically modified mice born without cortices showed similar behaviors. Though severely impaired, it is difficult to imagine they experienced nothing. Deep-brain stimulation in humans evokes intense subjective experiences, while stimulation of large prefrontal cortex regions often produces little or no conscious effect. This suggests consciousness may arise from evolutionarily older, deep-brain circuits.",
+        "The next time you have a feeling, remember it might be more than a passing mood. It could be a basic ingredient in the combinatorial architecture of conscious experience."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-12T22:26:11.205Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-13-xm57pz",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "首届‘疆超’落幕，喀什队点球1:0胜伊犁队夺冠",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-13",
+    "intro": "8月9日晚，首届新疆足球超级联赛（简称“疆超”）圆满收官，在巅峰对决中，喀什队依靠下半场的点球以1:0击败伊犁队，成功摘得首届“疆超”冠军。",
+    "paragraphs": [
+      "这是中国覆盖面积最大的省级联赛，也是一场横跨天山南北的热爱奔赴。新疆有多大？‘疆超’给出了最直观的答案：从阿勒泰到喀什，相当于北京到福州的距离。别的联赛去客场靠大巴、高铁，‘疆超’去客场有时还要靠飞机。网友玩梗：踢个球，先解锁一张机票。赛事主题为‘同心铸梦，“疆”来可期’。",
+      "比赛周期从5月16日至8月9日，赛事覆盖全疆14个地州市及邻近兵团师市，组建14支代表队参赛，共有490名运动员获得参赛资格，参赛球员年龄跨度较大，最大39岁、最小16岁。赛事分为南、北两大赛区，共计56场比赛，其中常规赛42场，采用赛区内主客场单循环；淘汰赛14场，实行主客场两回合对决；季军赛、决赛统一落地乌鲁木齐奥体中心，实行单场决胜。",
+      "场上踢球的队员有教师、司机、学生、个体商户；场下看球的观众有汉族、维吾尔族、哈萨克族等多民族的足球爱好者。场上是对手，场下是兄弟。巴州队的小白杏、吐鲁番队的葡萄，球员们互赠特产；吐鲁番队给克州队留下卡片：‘天山脚下永远是一家人，后会有期，一起加油’；喀什队给巴州队留下字条：‘都是新疆儿子娃娃，香梨和石榴籽紧紧抱在一起’。",
+      "决赛之夜，32683名球迷从各地奔赴而来，创下本届赛事单场观赛人数最高纪录。有人从喀什坐20小时火车，有人从伊犁自驾前来，只为见证冠军的诞生。各色球衣汇成彩色海洋，进球时的呐喊响彻夜空，欢呼与热泪交织，定格成最温暖的画面。",
+      "随着喀什队捧起冠军奖杯，首届‘疆超’联赛画上句号。这是一场关于热爱与团结的双向奔赴。在新疆的记忆里，足球就是一种纯粹的热爱。山河隔千里，足球无距离，你我一直在一起。"
+    ],
+    "topics": [
+      "新疆足球超级联赛",
+      "地域体育",
+      "足球文化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260811/80bd7b21dea14aff8aa9e2a5f7a59c26/c.html",
+      "originalTitle": "追光丨来“疆超”追一场覆盖面积最大的省级足球联赛",
+      "publishedAt": "2026-08-11T12:02:03+08:00",
+      "retrievedAt": "2026-08-12T22:17:17.976Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-12T22:15:48.715Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-12-what-to-know-about-using-ai-chatbots-for-therapy",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "AI聊天机器人能当心理治疗师吗？",
@@ -3192,142 +3369,6 @@
         "reviewedAt": "2026-07-28T22:24:35.189Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-28-a-new-way-that-a-cow-s-inner-world-shapes-earth-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "新发现：牛胃里的微生物如何影响地球大气",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-28",
-    "intro": "每一头牛的肚子里，都藏着一个能影响全球气候的微型世界。",
-    "paragraphs": [
-      "在牛的肚子里，有一个巨大的发酵罐，叫做瘤胃。这里生活着数以千万计的细菌，它们分解纤维素和蛋白质；还有微生物真菌，其酶能摧毁坚硬的细胞壁；以及纤毛虫——一类大型、捕食性的微生物，靠吞食细菌为生。这个复杂的微生物食物网把饲料转化为能量，供牛代谢使用。连发酵产生的氢气和二氧化碳也被瘤胃中其他微生物利用。这些‘机会主义者’就是产甲烷菌，它们的代谢废物是甲烷。",
-      "甲烷是一种强效的温室气体，其捕热能力远高于二氧化碳。反刍动物（包括牛、山羊和绵羊）打嗝释放的甲烷约占大气中全部甲烷的三分之一。所有来源的甲烷——包括垃圾填埋场和化石燃料——共同导致了过去150年全球升温幅度的约30%。但甲烷在大气中存留时间较短，因此针对牛肠道甲烷的研究备受全球科学家关注。最近一项发表在《科学》杂志上的研究揭示了一个关键结构：一种新发现的细胞器，被命名为‘氢小体’。",
-      "氢小体位于纤毛虫细胞膜边缘、纤毛基部，由单层膜包裹，内部含有氢酶。它能产生氢气，同时消耗氧气——而氧气会抑制产甲烷菌活性。因此，氢小体既为产甲烷菌提供了原料，又帮助维持瘤胃内无氧环境。电子显微镜图像显示，不同纤毛虫种类的氢小体数量差异显著：等毛虫体型巨大、全身密布纤毛，氢小体数量远多于内毛虫；后者体型较小，纤毛和氢小体仅分布于局部区域。这两种纤毛虫在瘤胃中占据不同生态位，如同草原上狮子与猎豹的角色分工。",
-      "为验证氢小体对甲烷排放的实际影响，研究人员用‘头箱’（一种套在奶牛头部、用于测量呼出气体的装置）测定了100头奶牛的甲烷排放量，并分析其瘤胃中等毛虫与内毛虫的比例。结果发现：等毛虫占比更高的奶牛，甲烷读数明显更高。这首次在机制层面证实了特定纤毛虫类群通过氢小体驱动甲烷生成的作用。",
-      "这一发现为减少畜牧业甲烷排放提供了新路径。过去曾尝试清除瘤胃中全部原生动物（包括纤毛虫），却导致细菌暴增、氢气产量上升、甲烷反而增加。如今可精准靶向产氢能力强的等毛虫，或设法将氢气导向不产甲烷的其他微生物。已有饲料添加剂Bovaer（含3-硝氧基丙醇）通过干扰产甲烷酶起效，但效果不稳定；本研究有助于解释其失效原因，并优化益生菌或添加剂的应用条件。",
-      "不过，该研究仍有局限。例如，实验未说明奶牛的饲料类型——而饲料成分是影响氢气产量的关键变量。此外，作者未明确氢小体本身是否直接决定甲烷总量，仅建立其与纤毛虫类群及甲烷读数的关联。尽管如此，这项工作已推动新研究方向：从聚焦细菌与古菌间的氢传递，转向跨界（细菌、古菌、真菌、原生动物）的氢代谢网络解析。"
-    ],
-    "topics": [
-      "生命与演化",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/a-new-way-that-a-cows-inner-world-shapes-earths-atmosphere-20260727/",
-      "originalTitle": "A New Way That a Cow’s Inner World Shapes Earth’s Atmosphere",
-      "publishedAt": "Mon, 27 Jul 2026 14:40:59 +0000",
-      "retrievedAt": "2026-07-27T22:22:36.009Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:22:29.733Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-28/2026-07-28-a-new-way-that-a-cow-s-inner-world-shapes-earth-.webp",
-      "alt": "Cow silhouette with microbial ecosystem in stomach emitting gases",
-      "caption": "牛胃微生物与大气之间的隐秘联系",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-28-we-published-a-new-topic-page-on-economic-inequa",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "经济不平等：全球数据中的贫富差距",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-28",
-    "intro": "过去二十年，经济不平等越来越受关注，数据也变得更丰富。本篇文章带你了解全球收入差距的现状与变化。",
-    "paragraphs": [
-      "过去二十年里，人们对经济不平等的关注大幅增加。与此同时，可用的数据也大大改善了：现在有更多国家和更长时间段的估算数据，新的国际数据库让数据更容易比较和获取。过去我们只能看单个国家，现在可以越来越多地从全球视角看待不平等问题。",
-      "不过，这么多数据和衡量方法也让人难以理解。衡量不平等有很多方式，各有优缺点。三个主要国际数据库——世界银行的贫困与不平等平台、卢森堡收入研究、世界不平等数据库——帮助我们看清全貌。综合来看，许多国家的不平等程度很高，并且在许多情况下正在上升。",
-      "但也有一些好消息：全球收入不平等——衡量全世界所有人之间的收入差距——在近几十年里下降了，尤其是因为亚洲部分地区经济快速增长。而且在许多国家内部，收入不平等在最近几十年里是下降或保持稳定的。这说明高且上升的不平等并非不可避免。",
-      "一个容易理解的衡量方法是P90/P10比率，它比较最富的10%和最穷的10%的收入或消费差距。例如，美国最富10%的收入或消费是最穷10%的7倍，德国是4.5倍，巴西则高达10倍。安哥拉、越南和马达加斯加的数据反映的是消费而非收入；其中安哥拉最富与最穷10%的差距，是马达加斯加或越南的两倍。",
-      "从全球视角看，不平等不仅仅是国家内部的事情，国家之间的差距同样巨大。在安哥拉或马达加斯加这样的低收入国家，即使是最富的10%，其收入或消费也远低于高收入国家最穷的10%。但好消息是，各国通过制度建设与政策选择可以影响不平等程度。不平等并非完全由无法控制的全球力量决定，而是我们可以改变的事情。"
-    ],
-    "topics": [
-      "经济与商业",
-      "社会公平"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Our World in Data",
-      "region": "international",
-      "url": "https://ourworldindata.org/we-published-a-new-topic-page-on-economic-inequality",
-      "originalTitle": "We published a new topic page on economic inequality",
-      "publishedAt": "2026-07-27T00:00:00.000Z",
-      "retrievedAt": "2026-07-27T22:23:37.364Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:23:34.711Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-28-10",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "北京10年间年轻人数量减半，不再吸引年轻人",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-28",
-    "intro": "33岁生日那天，陈予舒接到了公司的裁员通知。陈予舒在一家互联网影视公司工作，担任院线电影的执行制片人。这个武汉女孩学的是戏剧影视文学和电影研究，2015年研究生毕业后来到北京，‘干电影的没有别的选择’。",
-    "paragraphs": [
-      "33岁生日那天，陈予舒接到了公司的裁员通知。陈予舒在一家互联网影视公司工作，担任院线电影的执行制片人。这个武汉女孩学的是戏剧影视文学和电影研究，2015年研究生毕业后来到北京，‘干电影的没有别的选择’。过去许多年里，‘北漂’，曾经是一个无须解释的选择。在文化、互联网、金融、大型央国企、高等教育和科研等方面，北京都被认为汇聚了全国最顶级的资源和发展机遇，无数像陈予舒一样的年轻人蜂拥至首都。",
-      "「离开北京的时候，一定程度上内心就已经退休了。」这句话出自陈予舒。端传媒报道标题明确指出：‘10年间年轻人减半，当北京不再吸引年轻人’。",
-      "陈予舒的故事被端传媒作为典型案例呈现。她2015年研究生毕业后从武汉来到北京，从事电影行业；报道未说明她在北京生活了十年，也未说明她‘收拾行李决定离开’的具体时间、方式或去向；未提及‘房价高、生活压力大、机会不再独一无二’等归因性表述；未出现‘反思是否仍是最好选择’‘寻找另一种可能’等推论性内容；所有关于‘年轻人数量减少一半’的断言均来自标题[E001]，原文正文中未提供数据来源、统计口径、时间节点（如起止年份）、具体数值或官方出处。"
-    ],
-    "topics": [
-      "城市与公共",
-      "人口与迁移"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20260727-mainland-when-beijing-is-no-longer-attractive-to-young-people/",
-      "originalTitle": "10年間年輕人減半，當北京不再吸引年輕人",
-      "publishedAt": "Sun, 26 Jul 2026 23:00:21 GMT",
-      "retrievedAt": "2026-07-27T22:24:13.727Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-27T22:24:04.212Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
         "correctionCount": 8,
         "attempts": 1
       }
