@@ -1,5 +1,318 @@
 [
   {
+    "slug": "2026-08-15-why-aging-may-be-a-program-not-a-breakdown",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "衰老可能不是零件随机磨损，而是有指令的细胞更替过程",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "科学家发现，衰老不是身体零件随机磨损的结果，而像发育一样，是一套分阶段、有指令的细胞更替过程。",
+    "paragraphs": [
+      "你有没有注意到，爷爷奶奶的头发会变白，皮肤会起皱，走路变慢，记性也不如从前？这些变化，我们叫‘衰老’。过去科学家一直认为，衰老就像一台用久了的机器——零件慢慢损坏，修也修不过来，最后停摆。但最近，美国洛克菲勒大学的细胞生物学家曹俊越博士和团队发现：事情可能不是这样。",
+      "曹博士分析了约50只雄性和雌性老鼠身上2100万个细胞的基因表达，覆盖它们从3个月、6个月、12个月、16个月到23个月（分别相当于人类约20岁、30岁、50岁、60岁和75岁）的五个生命阶段。他惊讶地发现：不是所有细胞都在同步老化。在总共1828种细胞亚型中，只有约四分之一显示出强烈的年龄相关变化；其余细胞数量稳定，几乎不受影响。这说明，衰老不是全身‘一起坏掉’，而是某些特定细胞群体按时间表有序增减。",
+      "研究把衰老划分为几个清晰阶段。比如，在老鼠3到6个月大时（相当于人类20多岁），一些脂肪细胞、肌肉细胞，以及大脑里两种具有再生脑组织能力的未成熟细胞，开始快速减少。到了6到12个月（相当于人类30至40多岁），负责维持身体结构的细胞大量流失：肌腱中的腱细胞、包裹血管并稳定循环系统的细胞、结肠的平滑肌细胞、肾脏中过滤血液毒素的上皮细胞，以及部分保护肠道等特定组织的免疫细胞，都明显减少。",
+      "曹博士把这种变化称为‘细胞社会的重塑’——就像一座城市不会突然倒塌，而是随着发展，老街区改造、新社区兴起、人口重新分布。衰老不是故障，而是一套早在年轻时就写进细胞里的程序。这套程序在人类身上，很可能30岁前就已经启动了。",
+      "需要说明的是：这项研究是在老鼠身上做的，基于基因表达数据；目前尚无直接证据证明人类完全遵循相同模式。它不提供抗衰老药方，也不宣称能延长寿命；它只是帮我们换一种方式理解：为什么身体会这样变化，以及变化背后，可能藏着怎样的规律。"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+      "originalTitle": "Why Aging May Be a Program, Not a Breakdown",
+      "publishedAt": "Fri, 14 Aug 2026 13:10:26 +0000",
+      "retrievedAt": "2026-08-14T21:47:39.065Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:47:29.270Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-15/2026-08-15-why-aging-may-be-a-program-not-a-breakdown.webp",
+      "alt": "冷灰色调下，一组半透明几何细胞按序排列，抽象表现程序化更替。",
+      "caption": "细胞更替的抽象示意。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-15-3-700",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "3人获2026未来科学大奖，单项奖金约700万元！",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "8月13日上午，2026未来科学大奖获奖名单揭晓。张宏获得“生命科学奖”；赵东元获得“物质科学奖”；袁新意获得“数学与计算机科学奖”。单项奖金约700万元人民币（等值100万美元）。",
+    "paragraphs": [
+      "8月13日上午，2026未来科学大奖获奖名单揭晓。张宏获得“生命科学奖”；赵东元获得“物质科学奖”；袁新意获得“数学与计算机科学奖”。单项奖金约700万元人民币（等值100万美元）。未来科学大奖设立于2016年，由科学家和企业家群体共同发起，关注原创性的基础科学研究，奖励在中国内地（大陆）、香港、澳门、台湾做出杰出科学成果的科学家（不限国籍）。",
+      "2026年“生命科学奖”获奖者张宏，是中国科学院生物物理研究所研究员，1969年出生于中国安徽，2001年于美国爱因斯坦医学院获得博士学位。他开创性地利用秀丽隐杆线虫模型，解析高等生物的自噬分子机制；依托2010年发表于《细胞》的里程碑论文及后续研究，发现了一组仅存在于多细胞生物中的自噬基因，命名为EPG基因；阐明了动物自噬特有的复杂分子通路，揭示了自噬在机体发育、生理稳态及人类疾病中发挥作用的底层原理。",
+      "2026年“物质科学奖”获奖者赵东元，1963年生于中国沈阳，1990年在吉林大学获得博士学位，现为复旦大学教授。他率先发展了基于分子自组装的有序介孔材料合成新方法，开创了SBA、FDU等一系列具有国际影响力的有序介孔材料体系；提出并建立了有机—有机自组装策略，实现了高度有序介孔聚合物和介孔碳材料的可控制备；发展挥发诱导自组装等普适性方法，使分子自组装成为构筑功能介观材料的通用平台，推动介孔材料在催化、能源、环境和生物医学等领域广泛应用。",
+      "2026年“数学与计算机科学奖”获奖者袁新意，北京大学北京国际数学研究中心教授，1981年出生于湖北麻城，2003年获北京大学学士学位，2008年获哥伦比亚大学博士学位。他在算术几何领域作出奠基性贡献，开创了Arakelov几何中的算术大性（arithmetic bigness）理论；利用该理论证明了一致Bogomolov猜想，并与虞家伟、周胜铉合作证明了Barry Mazur提出的一致Mordell猜想的有效定量版本；其成果已成为证明Birch–Swinnerton-Dyer猜想若干特例以及André–Oort猜想的重要基础。",
+      "2016年至2025年，未来科学大奖共评选出46位获奖者。奖项以定向邀约方式提名，由优秀科学家组成科学委员会专业评审，秉持公正、公平、公信原则，保持评奖独立性。获奖工作须同时满足：产生巨大国际影响；具有原创性、长期重要性或经过时间考验；主要在中国内地（大陆）、香港、澳门、台湾完成。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569749.shtm",
+      "originalTitle": "3人获未来科学大奖，单项奖金约700万元！",
+      "publishedAt": "2026-08-13 10:57",
+      "retrievedAt": "2026-08-14T21:48:38.252Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:48:35.573Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Three Scientists Win 2026 Future Science Prize",
+      "intro": "Three researchers have won the 2026 Future Science Prize in China.",
+      "paragraphs": [
+        "The winners were announced on August 13, 2026. Zhang Hong won the Life Science Prize. Zhao Dongyuan won the Material Science Prize. Yuan Xinyi won the Mathematics and Computer Science Prize. Each prize carries a cash award of about seven million yuan RMB, equivalent to one million US dollars.",
+        "Zhang Hong is a researcher at the Institute of Biophysics, Chinese Academy of Sciences. He was born in Anhui Province in 1969. He earned his PhD from Albert Einstein College of Medicine in 2001. Zhang Hong made pioneering discoveries on autophagy mechanisms unique to multicellular organisms. Autophagy is a key cellular degradation and recycling process: cells form double-membrane vesicles called autophagosomes to enclose proteins, organelles, and pathogens for lysosomal degradation. He identified a set of autophagy genes found only in multicellular organisms, naming them EPG genes. His work revealed how autophagy regulates development, physiological homeostasis, and human disease.",
+        "Zhao Dongyuan was born in Shenyang in 1963. He earned his PhD from Jilin University in 1990. He is a professor at Fudan University. Zhao Dongyuan made pioneering contributions to mesoporous materials — materials with pore sizes between 2 and 50 nanometers. He and his collaborators developed new molecular self-assembly methods for synthesizing ordered mesoporous materials. They created influential material families including SBA and FDU. Their work enabled precise control over pore structure, size, composition, and morphology. Zhao’s team also pioneered organic–organic self-assembly, enabling ordered mesoporous polymers and carbon materials. Their methods are widely adopted worldwide and applied in catalysis, energy conversion and storage, environmental remediation, and biomedicine.",
+        "Yuan Xinyi was born in Macheng, Hubei Province in 1981. He earned his bachelor’s degree from Peking University in 2003 and his PhD from Columbia University in 2008. He is a professor at the Beijing International Center for Mathematical Research, Peking University. Yuan Xinyi made foundational contributions to arithmetic geometry. He founded the theory of arithmetic bigness in Arakelov geometry. He proved the uniform Bogomolov conjecture and provided a quantitative version of the uniform Mordell conjecture proposed by Barry Mazur in the 1980s. His work established a new theoretical framework for studying small points on algebraic varieties and represents a major breakthrough in Diophantine geometry.",
+        "The Future Science Prize was established in 2016 by scientists and entrepreneurs. It rewards original basic scientific research conducted primarily in mainland China, Hong Kong, Macao, or Taiwan — regardless of the laureate’s nationality. Nominations are by invitation only; evaluation is conducted by an independent Scientific Committee. From 2016 to 2025, the prize honored 46 scientists. The 2026 laureates join this distinguished group."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T22:01:36.019Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-15-x7e4u7",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新史料重现百年光影 《光社寻踪》还原民国摄影风貌",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "一则文化消息：新史料加上《光社寻踪》，让民国摄影的风貌再次浮现。",
+    "paragraphs": [
+      "中新网文化频道最近发布了一则消息：新史料重现百年光影，《光社寻踪》还原民国摄影风貌。",
+      "这则消息里，有三个关键词。一个是“新史料”，一个是“《光社寻踪》”，还有一个是“民国摄影风貌”。",
+      "报道标题把它们连在一起：新史料和《光社寻踪》，共同让百年前的光影被重新看见。",
+      "不过，关于新史料的具体内容、光社到底是什么，报道没有更多展开。想了解详情，需要阅读原文。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-14/10678001.shtml",
+      "originalTitle": "新史料重现百年光影 《光社寻踪》还原民国摄影风貌",
+      "publishedAt": "Fri, 14 Aug 2026 23:30:36 +0800",
+      "retrievedAt": "2026-08-14T21:49:55.043Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:49:53.172Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-15/2026-08-15-x7e4u7.webp",
+      "alt": "冷灰色调下，老式相机轮廓线条简洁，光影层次微妙，抽象还原民国摄影。",
+      "caption": "民国摄影风貌的抽象还原。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-15-ai-needs-public-feedback-at-scale-before-it-s-to",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI需要超十亿用户的反馈，现在就开始",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "全球已有超十亿人每月使用AI聊天工具，但决定AI该做什么、不该做什么的，却几乎全是工程师和公司内部团队。",
+    "paragraphs": [
+      "你用过ChatGPT、Gemini或Meta AI吗？它们背后的大语言模型，正在帮医生写病历、帮学生改作文、帮记者整理新闻——甚至参与制定法律和政策。但这些模型的价值观，真的代表你、你的家人，或者全世界不同国家的人吗？《Noema》杂志援引《经济学人》2026年6月调查指出：25个前沿AI模型的价值观，比世界价值观调查（WVS）所覆盖的88个国家的平均受访者更极端——有的更世俗、更个人主义，甚至超出地球上任何社会的取值范围；同时，这些模型倾向于压缩全球丰富的道德多样性。",
+      "这不是技术故障，而是设计选择。AI靠海量文本学习‘怎么说话’，但这些文本主要来自英文互联网，且由少数科技公司筛选和加权。就像只听一个班级里五位同学发言，就去总结‘全班的想法’——结果一定漏掉很多声音。更关键的是，AI会‘幻觉’：编造看似合理、实则不存在的事实；也会‘隐藏’某些观点，只因为训练数据里它们出现得少。要纠正它，技术上叫‘人类反馈强化学习’——即通过真实人类反馈来校准模型输出。",
+      "好消息是，让上亿人一起参与这件事的基础设施，已经存在。OpenAI在2024年2月报告9亿周活用户，同年6月突破10亿月活；Google Gemini在相似时间线内从4亿增至超9亿月活；Meta AI也在2025年5月宣布达到10亿月活。这意味着，只要愿意，一家公司就能在一周内，用AI翻译和提问，同时向159个国家、70种语言的普通人问同一个问题：‘你希望AI帮你做什么？哪些事它永远不该做？谁该来管它？按什么原则？’这不是设想——Anthropic公司在2025年用AI采访了近8.1万名Claude用户，覆盖159国、70种语言。",
+      "但光有问卷不够。真正的共识，需要人和人之间讨论、质疑、修正。比如美国加州政府推出的‘Engaged California’平台，就用AI当助手，组织真实市民在线辩论AI对工作和社会的影响：老师、护士、程序员、农民一起聊，AI只负责记录、归纳、提醒遗漏的观点。再进一步，还可以在各国召开线下+线上的‘公民议事会’，请普通人花几天时间，认真读材料、分组讨论、投票建议——最后汇总成一份全球参考的AI治理框架。",
+      "文章最后直接呼吁三家AI巨头：Anthropic请把下一次‘Claude宪法’的修订权，交给它每天对话的千万用户；OpenAI请重启2023年启动但未落地的‘民主输入计划’，不是资助十个研究团队，而是调动自身十亿级用户规模来共同起草；Meta也请把已在测试的‘网络欺凌社区论坛’，扩展为更全面的AI治理对话。因为技术跑得再快，也不能代替人思考‘我们想要怎样的未来’——而这个问题的答案，必须由所有人一起说出。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "社会"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Noema",
+      "region": "international",
+      "url": "https://www.noemamag.com/ai-needs-public-feedback-at-scale-before-its-too-late",
+      "originalTitle": "AI Needs Public Feedback at Scale Before It’s Too Late",
+      "publishedAt": "Fri, 14 Aug 2026 15:11:46 +0000",
+      "retrievedAt": "2026-08-14T21:53:55.508Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:53:46.137Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "AI Needs Public Feedback at Scale Before It's Too Late",
+      "intro": "AI tools now reach billions of people. Experts say those people deserve a real say in how AI is built and governed.",
+      "paragraphs": [
+        "New communication technologies caused chaos before helping build consensus. The printing press tore the medieval frame apart through polemical pamphlets. Then it slowly built a new frame through printed treatises and encyclopedias. Early 18th-century newspapers fed revolutionary mood. Mature 19th-century newspapers became daily companions of stable citizen-democracy from 1815 to 1914. Interwar mass media included propaganda film and demagogues' radio. That media produced manufactured emotion for totalitarianism. Postwar broadcast television and regulated journalism produced calmer national conversation.",
+        "If the pattern holds, social media disruption will not be resolved by abandoning social media. It will be resolved by social media's next iteration. That iteration will be shaped by artificial intelligence. We are still inside the chaotic phase. That phase is historically comparable to the Wars of Religion or the demagogue's radio. AI interacting with social platforms could deepen current chaos. But it is also the most plausible candidate to eventually tame the disorder. The new transcendent framework will arrive through these technologies. It will not arrive in spite of them.",
+        "The challenge today is unprecedented scale. Generative AI supercharges global connectivity. OpenAI reported 900 million weekly active ChatGPT users in February. It crossed a billion monthly users in June. Google went from 400 million to more than 900 million monthly active Gemini users. Meta AI reported a billion monthly users. No government, broadcaster or international body has ever had standing, two-way contact with such a huge portion of humanity simultaneously. Companies can use their best models to ask everyday people urgent questions. Those questions include: 'What do you want this technology to do for you, if anything?' 'What should it never be allowed to do?' 'Who should govern this technology and according to what principles?' This is not a thought experiment. The infrastructure to ask hundreds of millions of people the same question in the same week already exists.",
+        "Hélène Landemore argues large language models alone cannot represent humanity's interests. Their training data has limits. An Economist investigation compared 25 frontier AI models to values in the World Values Survey. The study covered 88 countries. It found the models often hold values more extreme than the average respondent. In some cases they are more secular or individualist than any society on Earth. They tend to compress the world's moral diversity. Landemore proposes a three-tier mixed approach. First: an LLM-mediated global consultation. It could produce an interim draft within months. Second: an online global deliberation. Participants interact in real time. AI facilitators mediate it. Third: local and national citizens' assemblies. They feed into a concluding global citizens' assembly.",
+        "Landemore directly appeals to AI leaders. Anthropic and the Collective Intelligence Project sourced constitutional principles from roughly 1,000 ordinary Americans in 2023. They tested and refined a real model on those principles. In some areas, that model produced less biased outputs than the standard internally authored model. In 2025, Anthropic used an AI interviewer to ask nearly 81,000 Claude users across 159 countries and 70 languages in a single week. OpenAI funded 10 teams through its 2023 Democratic Inputs to AI program. Those teams were selected from nearly 1,000 applicants. That effort never matched the scale OpenAI's reach allows. 'What’s missing isn’t proof of concept. It’s the will to use it.'",
+        "Disruptive technologies become platforms for forging governing consensus that transcends divisions. Technologies of disruption are also the platform for social consensus. The infrastructure already exists. The real issue is one of representativeness and accountability. If people help shape AI, it can build real consensus. If they stay silent, a narrow cultural corner may define the 'global' constitutional baseline."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T22:03:32.977Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-15-1",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世卫组织：过去八年全球发生超过1万起医疗卫生领域袭击事件",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "世界上有些地方正在经历冲突和战乱，连救人的医院和医护人员也成了攻击目标。世卫组织的数据显示，过去八年全球医疗卫生领域遭受超过1万起袭击。",
+    "paragraphs": [
+      "想象一下，你生病或者受伤的时候，最想做的事情就是赶快去医院。可是在这个世界上的某些角落，去医院可能本身就非常危险。世界卫生组织表示，自2018年以来，29个国家和地区共报告超过10400起针对医疗卫生领域的袭击事件。袭击的目标包括医院及其他设施、医护人员和患者、救护车及其他运输工具，以及仓库和医疗物资。平均下来，每六小时就有一起袭击发生。",
+      "这些袭击造成的伤害非常严重。据统计，造成约5700人死亡、8000多人受伤。仅2026年1月至8月，世卫组织就记录了900多起袭击事件，造成至少900人死亡、1400多人受伤，平均每天发生4起以上。更令人不安的是，迄今为止，尚无人为此承担责任。",
+      "这些袭击大多发生在哪些地方呢？报告指出，大多数事件发生在乌克兰、黎巴嫩和被占领的巴勒斯坦领土。其他涉及国家和地区包括缅甸、伊朗、苏丹、刚果民主共和国、南苏丹、俄罗斯、叙利亚和尼日利亚。2026年报告中最常见的袭击手段是重型武器，其次是破坏医疗设施以及实施社会心理暴力。",
+      "袭击的影响并不止于事发当天。一项针对叙利亚西北部69起袭击事件的研究发现，袭击发生后的第二天，门诊就诊量下降了51%，这一趋势持续长达37天。在苏丹，2026年有37%的医疗机构被报告无法正常运转；在接受评估的医疗机构中，仅有3%提供住院治疗服务。加沙地带36家医院全部受损，其中仅有一半仍能部分运转，初级卫生保健服务也受到类似影响。",
+      "世卫组织人道主义和灾害管理主任穆萨尼表示，每一起袭击都会对患者、医疗设施和医疗服务造成影响，并可能制造恐慌，阻碍民众寻求医疗救助，也阻止医疗专业人员到岗工作，同时削弱社区信任。刚果民主共和国5月宣布当前埃博拉疫情暴发以来，世卫组织已核实12起针对医疗卫生领域的袭击事件，这些袭击扰乱了疫情应对工作。自乌克兰冲突爆发以来，世卫组织已核实3000多起针对医疗设施、救护车、仓库及供应链的袭击事件。",
+      "穆萨尼呼吁利用证据保护医疗卫生及其依赖者，并追究冲突各方的责任。但对于是否有人因袭击事件被追究责任，他表示，在上述1万多起经核实的事件中，“没有一起进入问责体系”。他同时指出，世卫组织既无授权也无专业能力追究冲突各方的责任，但世卫组织总干事已多次呼吁追究交战各方的责任。"
+    ],
+    "topics": [
+      "全球时事",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142634",
+      "originalTitle": "世卫组织：过去八年全球发生超过1万起医疗卫生领域袭击事件",
+      "publishedAt": "Fri, 14 Aug 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-14T21:55:16.575Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:55:14.470Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-15-8w8ano",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "国家体育总局：坚决反对任何形式“追私”行为",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-15",
+    "intro": "国家体育总局明确表示，坚决反对任何形式的“追私”行为。",
+    "paragraphs": [
+      "近日，国家体育总局明确表示，坚决反对任何形式的“追私”行为。",
+      "“追私”的“私”，是隐私的私。指不经过运动员允许，擅自打扰其私人生活的行为。",
+      "这一表态旨在保护运动员的隐私权和人身安全，维护其正常训练、比赛与生活秩序。"
+    ],
+    "topics": [
+      "城市与公共",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-14/10677753.shtml",
+      "originalTitle": "国家体育总局：坚决反对任何形式“追私”行为",
+      "publishedAt": "Fri, 14 Aug 2026 17:15:03 +0800",
+      "retrievedAt": "2026-08-14T21:57:08.917Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-14T21:56:23.910Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-14-explainer-what-is-adhd",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "ADHD不是笨，而是大脑的另一种运作方式",
@@ -3048,334 +3361,6 @@
       "alt": "抽象非遗刺绣图案在纸张质感背景上",
       "caption": "非遗援疆展示活动呈现合作成果。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-31-060c2u",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一名6岁女童在基因治疗后去世：缺失的‘刹车’与必要反思",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-31",
-    "intro": "近日，《科学》杂志与撤稿观察联合报道：一名6岁女童在上海交通大学医学院附属新华医院接受针对CHD3基因突变的实验性碱基编辑治疗后，于2025年3月24日接受鞘内注射，一周后因严重并发症死亡。",
-    "paragraphs": [
-      "2025年3月24日，一名6岁女童在上海交通大学医学院附属新华医院接受经鞘内注射实施的实验性碱基编辑治疗，针对其CHD3基因突变所致的Snijders Blok-Campeau综合征。该治疗由仇子龙团队定制，以病毒为载体将编辑器送入脑脊液。一周后，患儿因严重并发症死亡。这一事件被《科学》杂志与撤稿观察联合调查报道。",
-      "伦理委员会于2025年1月2日批准该项临床研究，但用于评估安全性的猕猴毒理报告直至2月17日才完成——报告显示4只猕猴均出现中度至重度肝损伤，其中1只高剂量组还出现肾损伤。此后不久，患儿家属完成知情同意程序。而相关动物实验论文于2024年12月21日投稿《自然》，2026年初正式发表，文中未提及已开展且失败的临床治疗。",
-      "该事件触及生命科技进入人体应用的基本问题：科学依据是否充分？风险与收益是否匹配？患者权益是否得到保障？研究者在论文中明确承认：‘碱基编辑在中枢神经系统中的应用目前仅限于小鼠模型……这些模型对于评估表型改善具有价值，但不足以指导临床剂量或人体应用。’而临床治疗却在非人灵长类（猕猴）模型验证尚未完成的情况下启动。",
-      "研究资助来自患儿家属以非正式方式提供的经费；研究者同时担任技术开发者、治疗提供者，并与松江研究院关联。这种多重角色叠加构成严重利益冲突。知情同意程序虽已完成，但原文指出：‘如果研究者选择性披露风险、淡化失败可能，知情同意就可能沦为形式程序。’",
-      "2025年5月1日起施行的《生物医学新技术临床研究和临床转化应用管理条例》要求：临床研究必须‘具有科学依据’‘不得危害人体健康，不得违反伦理原则’，并实行‘清单式’管理；伦理审查须贯穿研究全过程，对方案实质性变更须重新审查；风险出现时应暂停、评估乃至终止研究。原文强调：‘伦理审查不应是一次性永久授权，而必须伴随知识更新不断调整。’"
-    ],
-    "topics": [
-      "基因治疗",
-      "碱基编辑",
-      "安全风险"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/7/569120.shtm",
-      "originalTitle": "女童死于基因治疗：缺失的刹车与必要的反思",
-      "publishedAt": "2026-07-30 20:29",
-      "retrievedAt": "2026-07-30T22:25:09.254Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-30T22:25:05.420Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-30-physicists-solve-a-big-quantum-mystery-now-old-r",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "物理学家解开重大量子谜题，却发现旧实验结果对不上",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-30",
-    "intro": "一段25年的粒子物理谜题似乎被解开了，但新的测量结果又带来了更大的疑问。",
-    "paragraphs": [
-      "二十五年来，物理学家一直被一个百万分之一的差异困扰着。他们对μ子在磁场中‘摆动’（即g−2）的理论预期，与实验观测结果存在偏差。这个偏差曾被视作可能存在未知粒子的激动人心线索。",
-      "2021年，采用晶格QCD方法的新理论计算预测结果与费米实验室的实验测量高度吻合，精确到百亿分之一。但旧的‘数据驱动法’预测仍与实验严重冲突；而该旧方法并非纯理论推导，而是基于电子-正电子对撞实验中π介子产率等实测数据得出。",
-      "一条关键线索来自西伯利亚诺沃西比尔斯克的VEPP-2000对撞机：2023年，其升级后的新探测器测得的π介子产率发生显著变化；这一结果得到晶格QCD 2024年预测的支持，也与VEPP-2000另一探测器的初步数据一致。",
-      "μ子是电子的较重‘表亲’，行为类似微小磁铁；其在磁场中的摆动幅度（g−2）受所有量子虚粒子影响，因此成为探测已知乃至未知粒子的精密探针。2001年布鲁克海文实验室首次测得异常偏大的g−2值，引发对新粒子（如暗物质候选者）的期待；2021年费米实验室以更高精度复现了该偏差。",
-      "2021年同日，BMW（布达佩斯-马赛-伍珀塔尔）合作组在《自然》发表晶格QCD计算结果，显示费米实验室测得的μ子g−2值完全符合标准模型预期；此后多个独立晶格小组验证了该结论。如今许多物理学家认为，μ子额外摆动可由已知粒子和已知相互作用完全解释。",
-      "矛盾焦点转向电子-正电子对撞实验本身：意大利、美国及加州BABAR实验的早期π介子产率数据支持旧预测，而VEPP-2000新数据与之剧烈偏离。目前尚无技术缺陷被证实，物理学家正全力排查是实验系统误差，还是强子物理中存在未被理解的新效应。"
-    ],
-    "topics": [
-      "物质与数学",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
-      "originalTitle": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.",
-      "publishedAt": "Wed, 29 Jul 2026 14:53:08 +0000",
-      "retrievedAt": "2026-07-29T22:17:51.450Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-29T22:17:45.855Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Muon Puzzle Solved? New Calculations Raise New Questions",
-      "intro": "For 25 years, physicists have been puzzled by an apparent one-part-in-a-million problem in how muons wobble in a magnetic field.",
-      "paragraphs": [
-        "The muon is a heavier cousin of the electron. It behaves like a tiny bar magnet. Spin it in a magnetic field and it wobbles, tracing smaller circles. The size of those circles depends on its g-factor. If isolated, that factor would be exactly 2. But quantum theory says all particles affect it through fleeting emissions and reabsorptions. That makes the muon’s g–2 a window into all particles in the universe.",
-        "In 2001, an experiment at Brookhaven National Laboratory measured the muon’s g-factor and found it larger than expected. Some thought this hinted at new particles — even ones linked to dark matter. In 2021, the BMW group used lattice QCD to calculate the muon g–2. Their result matched Fermilab’s experimental measurement exactly. Lattice QCD simulates quark behavior on a 3D grid because standard methods fail for the strong force.",
-        "The data-driven method disagrees with both Fermilab’s result and the BMW lattice calculation. It relies on electron-positron collision data to infer how the strong force affects muons. Physicists are now re-examining that data. A collider in Novosibirsk, VEPP-2000, recently measured a significantly changed pion production rate — after installing a new detector in 2010 and publishing updated results in 2023.",
-        "Fedor Ignatov, a physicist at the University of Liverpool, said the new pion rate was a surprise. No one expected it. The new rate agrees with the BMW lattice prediction. Preliminary data from VEPP-2000’s second detector also match it. But a 2023 analysis of older BABAR collider data still supports the old rate.",
-        "The conflict leaves two possibilities: unknown particles interfering with quarks, or unaccounted-for experimental details creating false signals. As Alex Keshavarzi said, 'No measurement has been scrutinized more.' So far, no flaws have been found in the new Siberian result."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-29T22:21:33.032Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-07-30-scientists-say-fjord",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家说：峡湾——冰川刻出的狭长海湾",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-30",
-    "intro": "峡湾是冰川雕刻出来的狭长海湾，挪威海岸线就有很多。",
-    "paragraphs": [
-      "你有没有见过那种又长又窄、两边山壁陡峭的海湾？那很可能就是峡湾。这个词来自挪威语，原本是“渡口”的意思。",
-      "峡湾的形成，要从冰河时代说起。那时候，巨大的冰川像河流一样缓慢地移动。冰的重量和它所携带的石块，像砂纸一样不停地刮擦着山谷，把原本的V形山谷磨成了深深的U形。后来气候变暖，冰川融化后退，海水顺着这条U形槽涌入，就形成了峡湾。",
-      "因为冰川的刨蚀作用往往比海平面还深，所以很多峡湾内部特别深，但在入海口处反而有一道浅浅的“门槛”——那是冰川终点堆积的岩石。",
-      "世界上最有名的峡湾在挪威，那里的海岸线被成千上万个峡湾切割得支离破碎。不过，智利、新西兰和加拿大也都有壮观的峡湾。",
-      "下次你看到一张挪威海岸的风景图，那些深深切入群山之间的蓝色水道——没错，就是峡湾。它们就像地球表面的一道道伤疤，却也是冰川时代留下的壮丽印记。"
-    ],
-    "topics": [
-      "地理与环境",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-fjord-definition-pronunciation",
-      "originalTitle": "Scientists Say: Fjord",
-      "publishedAt": "Mon, 27 Jul 2026 10:30:00 +0000",
-      "retrievedAt": "2026-07-29T22:18:20.059Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-29T22:18:18.052Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-30/2026-07-30-scientists-say-fjord.webp",
-      "alt": "A gray fjord landscape with cliffs and water",
-      "caption": "峡湾：冰川刻出的狭长海湾",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-30-68qyna",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "上海谍战风云录 第一期丨起于风暴",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-30",
-    "intro": "始于抗争，工人纠察队登上历史舞台",
-    "paragraphs": [
-      "上海作为近代中国工人运动的摇篮，数十万产业工人在帝国主义、封建势力与资本的三重压迫下奋起抗争：自发罢工、二月抗争、顾正红流血、五卅风暴席卷全国。",
-      "遍地抗争之下，工人开始自发结成自卫力量。从香港海员、安源矿工自发组建纠察自卫，到省港大罢工打造正规化工人武装、封锁千里海疆，初代工人武装在浴血抗争中逐步成型。",
-      "反帝浪潮不断高涨的同时，国民党右派的反共暗流持续涌动。坚定联俄联共、全力支撑工农运动的左派领袖廖仲恺惨遭暗杀，国共合作裂痕彻底暴露。",
-      "周恩来牵头成立廖案特别法庭、陈赓奉命投入案件侦查，中共最早的情报保卫、隐蔽侦查工作，就在这场震惊全国的谋杀案中正式拉开序幕。"
-    ],
-    "topics": [
-      "上海谍战",
-      "隐蔽战线",
-      "工人运动"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/radios/211475",
-      "originalTitle": "上海谍战风云录 第一期丨起于风暴",
-      "publishedAt": "Wed, 29 Jul 2026 21:00:00 +0800",
-      "retrievedAt": "2026-07-29T22:21:05.434Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-29T22:21:03.110Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Spy Wars in Shanghai: Episode 1 - Storm Rising",
-      "intro": "The story of early Communist intelligence work in China begins with the rise of the working class.",
-      "paragraphs": [
-        "Shanghai was the cradle of China's modern workers' movement.",
-        "Hundreds of thousands of industrial workers lived under triple oppression from imperialism, feudal forces, and capital.",
-        "Workers launched spontaneous strikes.",
-        "Then came the February Struggle.",
-        "Gu Zhenghong was shot.",
-        "The May Thirtieth Movement swept across the country.",
-        "Under widespread resistance, workers began forming self-defense forces.",
-        "Hong Kong seamen and Anyuan miners organized self-protection.",
-        "The Guangzhou-Hong Kong strike built a regularized workers' armed force.",
-        "That force blockaded a thousand miles of coastline.",
-        "The first generation of workers' armed forces took shape in bloody struggle.",
-        "The anti-imperialist wave rose.",
-        "The right-wing faction of the Kuomintang secretly opposed Communists.",
-        "Liao Zhongkai supported the Russian alliance, Communist cooperation, and the workers' and peasants' movement.",
-        "Liao Zhongkai was assassinated.",
-        "The rift in KMT-CCP cooperation was fully exposed.",
-        "Zhou Enlai led the establishment of the Liao Case Special Tribunal.",
-        "Chen Geng was ordered to join the investigation.",
-        "The Communist Party's earliest intelligence security and covert investigative work officially began in this nationally shocking murder case."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-29T22:22:04.180Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 19,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-07-29-analyze-this-how-sea-slugs-get-their-flashy-colo",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "分析：海蛞蝓如何获得鲜艳的颜色",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-29",
-    "intro": "海蛞蝓亮丽的颜色从哪来？答案可能藏在它们的食物里。",
-    "paragraphs": [
-      "海蛞蝓，也叫海兔，是海洋里最色彩缤纷的动物之一。它们有的像霓虹灯，有的像宝石，这些鲜艳的颜色是怎么来的呢？",
-      "科学家发现，很多海蛞蝓的颜色并不是自己产生的，而是从食物中获取的。它们吃一些含有色素的藻类或者水螅体，然后把色素保留在自己的身体里，甚至转移到皮肤中。",
-      "有些海蛞蝓还能把吃进来的色素稍加改造，变成自己独特的颜色。这就像把颜料从食物里“偷”出来，再用到自己的身上。",
-      "不过，颜色不只是为了好看，还能帮助海蛞蝓警告捕食者“我有毒”或者伪装自己。每一种颜色背后都藏着生存的智慧。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/how-sea-slugs-get-bright-colors",
-      "originalTitle": "Analyze This: How sea slugs get their flashy colors",
-      "publishedAt": "Tue, 28 Jul 2026 10:30:00 +0000",
-      "retrievedAt": "2026-07-28T22:21:15.234Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-28T22:21:13.064Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-07-29/2026-07-29-analyze-this-how-sea-slugs-get-their-flashy-colo.webp",
-      "alt": "A translucent sea slug with muted colors on a dark textured background",
-      "caption": "海蛞蝓的色素来自食物",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-07-29-52dcld",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国官方要求国有文物管理机构提供主动公开、授权使用等服务",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-07-29",
-    "intro": "国家文物局相关要求明确，国有文物管理机构应提供主动公开、授权使用等服务。",
-    "paragraphs": [
-      "国家文物局近日提出要求，国有文物管理机构应当提供主动公开、授权使用等服务。",
-      "过去，许多文物数字资源获取渠道有限；新规强调国有文物单位应主动公开经数字化采集的文物信息。",
-      "文件明确提出‘授权使用’机制，允许公众和机构在授权范围内合法使用文物数字资源。",
-      "规定还鼓励国有文物管理机构开发文化创意产品。",
-      "同时强调，使用文物资源须尊重其完整性，不得歪曲、丑化；授权协议需明确使用范围、期限与方式。",
-      "这一要求旨在推动文物数字资源规范开放与合理利用。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-28/10668198.shtml",
-      "originalTitle": "中国官方要求国有文物管理机构提供主动公开、授权使用等服务",
-      "publishedAt": "Tue, 28 Jul 2026 22:03:25 +0800",
-      "retrievedAt": "2026-07-28T22:21:46.347Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-07-28T22:21:44.729Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
