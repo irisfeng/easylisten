@@ -306,7 +306,15 @@
     "2026-08-17-34iml1",
     "2026-08-17-34iml1-en",
     "2026-08-17-i-lived-through-the-first-taliban-girls-school-b",
-    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m"
+    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m",
+    "2026-08-18-scientists-say-phenology",
+    "2026-08-18-scientists-say-phenology-en",
+    "2026-08-18-zdxk9i",
+    "2026-08-18-zdxk9i-en",
+    "2026-08-18-yqr79o",
+    "2026-08-18-yqr79o-m",
+    "2026-08-18-kabfg5",
+    "2026-08-18-kabfg5-m"
   ],
   "timings": {
     "2026-07-11-quantum-proofs": [
@@ -6994,6 +7002,130 @@
       176.788,
       181.99,
       186.425
+    ],
+    "2026-08-18-scientists-say-phenology": [
+      0,
+      8.998,
+      11.982,
+      15.093,
+      19.099,
+      28.944,
+      31.8,
+      38.58,
+      43.863,
+      51.746,
+      58.015,
+      63.774,
+      70.856,
+      73.538,
+      81.769,
+      84.916,
+      91.87,
+      99.544,
+      103.039
+    ],
+    "2026-08-18-scientists-say-phenology-en": [
+      0,
+      2.928,
+      9,
+      12.336,
+      16.176,
+      19.584,
+      24.768,
+      27.552,
+      29.928,
+      34.56,
+      39.936,
+      44.64,
+      50.88,
+      55.032,
+      59.424,
+      64.968,
+      72,
+      76.728,
+      82.152,
+      85.44,
+      92.448,
+      99.6
+    ],
+    "2026-08-18-zdxk9i": [
+      0,
+      10.832,
+      19.366,
+      28.317,
+      31.556
+    ],
+    "2026-08-18-zdxk9i-en": [
+      0,
+      7.248,
+      11.208,
+      15.288,
+      21.744,
+      26.208,
+      33.336,
+      37.008
+    ],
+    "2026-08-18-yqr79o": [
+      0,
+      7.721,
+      10.403,
+      29.183,
+      31.226,
+      39.76,
+      45.983,
+      56.513,
+      61.459,
+      67.218,
+      69.307,
+      83.808,
+      89.393,
+      95.442,
+      97.532,
+      106.959,
+      115.226,
+      117.141,
+      128.101,
+      137.737,
+      144.425,
+      152.354
+    ],
+    "2026-08-18-yqr79o-m": [
+      0,
+      7.291,
+      9.927,
+      27.337,
+      29.079,
+      37.217,
+      43.267,
+      52.775,
+      57.292,
+      62.621,
+      64.792,
+      80.825,
+      86.236,
+      91.089,
+      93.086,
+      102.486,
+      111.356,
+      112.97,
+      124.138,
+      133.728,
+      139.44,
+      146.093
+    ],
+    "2026-08-18-kabfg5": [
+      0,
+      15.488,
+      21.885,
+      25.89,
+      32.287
+    ],
+    "2026-08-18-kabfg5-m": [
+      0,
+      13.944,
+      19.737,
+      23.232,
+      28.816
     ]
   },
   "fullAudioVersion": 4,
@@ -7303,7 +7435,15 @@
     "2026-08-17-34iml1": 3,
     "2026-08-17-34iml1-en": 3,
     "2026-08-17-i-lived-through-the-first-taliban-girls-school-b": 3,
-    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": 3
+    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": 3,
+    "2026-08-18-scientists-say-phenology": 3,
+    "2026-08-18-scientists-say-phenology-en": 3,
+    "2026-08-18-zdxk9i": 3,
+    "2026-08-18-zdxk9i-en": 3,
+    "2026-08-18-yqr79o": 3,
+    "2026-08-18-yqr79o-m": 3,
+    "2026-08-18-kabfg5": 3,
+    "2026-08-18-kabfg5-m": 3
   },
   "edgeVoices": {
     "2026-07-22-the-organisms-that-make-earth-s-harshest-places--en": "en-US-AriaNeural",
@@ -7344,7 +7484,9 @@
     "2026-08-16-9d1x0w-en": "en-US-AriaNeural",
     "2026-08-16-k3arlu-en": "en-US-AriaNeural",
     "2026-08-17-leehzz-en": "en-US-AriaNeural",
-    "2026-08-17-34iml1-en": "en-US-AriaNeural"
+    "2026-08-17-34iml1-en": "en-US-AriaNeural",
+    "2026-08-18-scientists-say-phenology-en": "en-US-AriaNeural",
+    "2026-08-18-zdxk9i-en": "en-US-AriaNeural"
   },
   "trackEngines": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "minimax",
@@ -7548,7 +7690,15 @@
     "2026-08-17-34iml1": "minimax",
     "2026-08-17-34iml1-en": "edge",
     "2026-08-17-i-lived-through-the-first-taliban-girls-school-b": "minimax",
-    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": "minimax"
+    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": "minimax",
+    "2026-08-18-scientists-say-phenology": "minimax",
+    "2026-08-18-scientists-say-phenology-en": "edge",
+    "2026-08-18-zdxk9i": "minimax",
+    "2026-08-18-zdxk9i-en": "edge",
+    "2026-08-18-yqr79o": "minimax",
+    "2026-08-18-yqr79o-m": "minimax",
+    "2026-08-18-kabfg5": "minimax",
+    "2026-08-18-kabfg5-m": "minimax"
   },
   "trackVoices": {
     "2026-07-23-this-indian-maharaja-saved-hundreds-of-polish-or-en": "English_Graceful_Lady",
@@ -7752,6 +7902,14 @@
     "2026-08-17-34iml1": "presenter_female",
     "2026-08-17-34iml1-en": "en-US-AriaNeural",
     "2026-08-17-i-lived-through-the-first-taliban-girls-school-b": "presenter_female",
-    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": "male-qn-jingying"
+    "2026-08-17-i-lived-through-the-first-taliban-girls-school-b-m": "male-qn-jingying",
+    "2026-08-18-scientists-say-phenology": "presenter_female",
+    "2026-08-18-scientists-say-phenology-en": "en-US-AriaNeural",
+    "2026-08-18-zdxk9i": "presenter_female",
+    "2026-08-18-zdxk9i-en": "en-US-AriaNeural",
+    "2026-08-18-yqr79o": "presenter_female",
+    "2026-08-18-yqr79o-m": "male-qn-jingying",
+    "2026-08-18-kabfg5": "presenter_female",
+    "2026-08-18-kabfg5-m": "male-qn-jingying"
   }
 }

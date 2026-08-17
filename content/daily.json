@@ -1,5 +1,226 @@
 [
   {
+    "slug": "2026-08-18-scientists-say-phenology",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "物候学：动植物如何读懂大自然的季节信号",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-18",
+    "intro": "为什么树在春天发芽、鱼在特定月份产卵？研究这些生命节律的科学，就叫作物候学。",
+    "paragraphs": [
+      "想象一棵树，冬天刚刚过去，光秃秃的枝头冒出嫩绿的芽苞，叶子慢慢舒展，花朵也跟着开放。是什么在提醒这棵树：春天到了？是白昼变长，还是天气变暖？研究这些问题的一门科学，叫作物候学。它的英文名 phenology 读作 fen-AW-luh-jee，专门研究季节和环境信号，怎样触发生物生命周期中的各种变化。",
+      "物候学关心的，远不止树木开花。它探索的是所有生命在整个一年里，如何随着环境改变而改变自己的节奏。许多鱼类会在沿海地区产卵，幼鱼长大后再游向开阔的海洋。在墨西哥湾，红鼓鱼通常在8月到11月间在近岸繁殖，红鲷鱼则在6月到8月产卵。这两种鱼都不会翻日历，它们感受的是水温、洋流和日照长短的变化。",
+      "今天，物候学家特别关心一件事：气候变化正在改变这些环境信号。全球气温升高，可能让植物比往年更早发芽，也可能改变鸟类和其他动物的迁徙时间。弄清楚这些因果联系非常重要。我们只有知道地球上的生命会怎样跟着变化，才谈得上更妥善地照顾它们、为未来做好准备。",
+      "物候学也悄悄藏在日常生活里。比如，季节性花粉水平与人类过敏症状之间的联系，就是物候学可以研究的问题。",
+      "所以，下次看到春天的第一片新叶，不妨想一想：是大自然里的什么信号，悄悄提醒了它？这，就是物候学想听懂的语言。"
+    ],
+    "topics": [
+      "生命与演化",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/scientists-say-phenology-definition-pronunciation",
+      "originalTitle": "Scientists Say: Phenology",
+      "publishedAt": "Mon, 17 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-17T21:46:47.154Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:46:43.779Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "What Is Phenology?",
+      "intro": "Have you ever noticed trees budding in spring or wondered why fish spawn at certain times? Scientists who study those patterns work in a field called phenology.",
+      "paragraphs": [
+        "Phenology is a field of science. It studies the seasonal and environmental cues that trigger life-cycle changes in living things. Imagine a tree as winter turns to spring. Bright green buds appear on branches that had been bare. Leaves unfurl and flowers begin to bloom. A phenologist might ask: What causes the tree to begin budding in the spring? Do longer days trigger the change? Or perhaps warmer weather?",
+        "Phenology explores how all types of life change throughout the year. For instance, many fish reproduce, or spawn, in coastal regions. The young fish then move into the open ocean as they grow into adults. In the Gulf of Mexico, red drum tend to reproduce near shore between August and November. Red snapper spawn in the area between June and August. Neither species checks a calendar to know when it’s spawn season. They respond to changes in water temperature, ocean currents and daylight hours.",
+        "Phenologists also study how climate change is altering the environmental cues that living things respond to. Higher global temperatures can trigger plants to bud earlier in the year. Climate change can also affect the migration timing of birds and other animals. This cause-and-effect knowledge is important. It may allow us to better manage future changes to our planet’s life forms as global temperatures keep rising.",
+        "The field of phenology might investigate the link between seasonal pollen levels and allergy symptoms in humans."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:57:33.242Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-18/2026-08-18-scientists-say-phenology.webp",
+      "alt": "树、鱼、太阳和月亮组成的季节循环抽象图",
+      "caption": "物候节律的视觉隐喻",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-18-zdxk9i",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家首次探测到核反应堆的“幽灵余辉”",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-18",
+    "intro": "即便核反应堆停止运行，堆内长寿命裂变产物仍持续衰变，不断释放极难捕捉的反中微子，如同难以消散的“幽灵余辉”。",
+    "paragraphs": [
+      "即便核反应堆停止运行，堆内长寿命裂变产物仍持续衰变，不断释放极难捕捉的反中微子，如同难以消散的“幽灵余辉”。德国主导的双乔兹实验，在法国核电站地下探测器中，首次实测到反应堆停机阶段的反中微子信号。",
+      "德国主导的双乔兹实验，在法国核电站地下探测器中，首次实测到反应堆停机阶段的反中微子信号。",
+      "相关研究成果发表于《物理评论快报》。"
+    ],
+    "topics": [
+      "物质与数学",
+      "物理"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/17/content_565332.html",
+      "originalTitle": "科学家首次探测到核反应堆的“幽灵余辉”",
+      "publishedAt": "2026-08-17",
+      "retrievedAt": "2026-08-17T21:48:13.143Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:48:10.857Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "First Detection of a Nuclear Reactor's Ghost Afterglow",
+      "intro": "Scientists have detected an elusive signal from a nuclear reactor after it stopped running.",
+      "paragraphs": [
+        "Even after a nuclear reactor stops running, long-lived fission products inside the core continue to decay. They release extremely hard-to-catch antineutrinos. Scientists call this lingering signal a 'ghost afterglow'.",
+        "The Germany-led Double Chooz experiment used a detector underground at a French nuclear power plant. It measured antineutrinos during the reactor's shutdown phase.",
+        "For the first time, scientists directly measured antineutrino signals from a reactor that had stopped running. The findings were published in Physical Review Letters."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:55:44.886Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-18/2026-08-18-zdxk9i.webp",
+      "alt": "核反应堆轮廓与散发微光的粒子",
+      "caption": "反应堆余辉的抽象表现",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-18-yqr79o",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "泛美卫生组织发布工具包，预防儿童和青少年遭受欺凌及网络欺凌",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-18",
+    "intro": "一份新工具包帮助家长、老师和医生识别欺凌和网络欺凌的预警信号，及早采取行动。",
+    "paragraphs": [
+      "想象一下，一个孩子在学校被人起外号、推搡，回到家里又在手机上收到攻击性的消息。这不是简单的‘闹着玩’，而是欺凌。2026年8月17日，泛美卫生组织发布《美洲地区儿童和青少年反欺凌及网络欺凌有效干预措施工具包》，汇集相关证据、建议和实用工具，预防和应对影响本地区数百万儿童和青少年的欺凌，包括网络欺凌。",
+      "欺凌到底有多普遍？拉丁美洲和加勒比地区约四分之一的13至17岁青少年报告称，在过去一个月内曾在学校遭受过欺凌。中美洲约23%的学生报告遭受欺凌，南美洲这一比例为30%。在本地区一些国家，7%至27%的儿童和青少年报告称在过去12个月内曾遭受网络欺凌，其中女孩的比例更高。网络欺凌可能随时发生，传播迅速，且能够触及大量受众。泛美卫生组织强调，网络欺凌往往反映、放大或延伸线下暴力。",
+      "被欺凌不只是心情不好。欺凌和网络欺凌与抑郁、焦虑、创伤性应激、社交孤立、睡眠障碍、自残、自杀念头及自杀未遂风险增加密切相关，并会对学业成就和社会发展产生负面影响。欺凌还可能造成受伤、心身症状、慢性疼痛和睡眠障碍。这些影响表明，应对措施不能仅限于学校，还需要卫生系统参与。",
+      "那么，怎么及早发现呢？行为突然变化、焦虑、易怒、社交退缩、原因不明的伤痕或不愿上学，都可能是遭受欺凌的征兆。网络欺凌的预警信号还可能包括使用数字设备期间或之后行为突然变化，以及不愿谈论网络活动。",
+      "发现了信号之后怎么办？泛美卫生组织建议卫生工作者在常规问诊中询问学校和数字环境，识别预警信号，评估心理健康影响，并提供初步支持。该组织同时强调，解决欺凌问题需要卫生、教育及其他部门共同采取基于证据的措施，并加强家庭和同伴支持。",
+      "欺凌和网络欺凌可以被阻止，但前提是有人看见、有人倾听、有人行动。希望这份工具包能帮助更多人学会识别信号、及时伸手，让每个孩子都能安全地长大。"
+    ],
+    "topics": [
+      "心理与情绪",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142642",
+      "originalTitle": "泛美卫生组织发布工具包，预防儿童和青少年遭受欺凌及网络欺凌",
+      "publishedAt": "Mon, 17 Aug 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-17T21:49:04.915Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:49:03.249Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-18-kabfg5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-18",
+    "intro": "因提供的原文只有标题和网站导航，没有正文内容，无法进行听稿改写。",
+    "paragraphs": [
+      "你给出的文本中，文章标题是“邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期”，但正文部分被截断，只剩网页框架和图片链接，没有事实、数字或引语可供转述。",
+      "根据轻听编辑标准，听稿必须严格基于原文，不能添加原文没有的信息。在缺少正文的情况下，无法生成符合要求的听稿。",
+      "请提供这篇报道的完整正文，我才能按照听稿要求进行改写，并判断适龄段。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10679133.shtml",
+      "originalTitle": "邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期",
+      "publishedAt": "Mon, 17 Aug 2026 17:20:13 +0800",
+      "retrievedAt": "2026-08-17T21:54:23.072Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-17T21:54:10.586Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-17-leehzz",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "用极少光子看清活体动物大脑——清华团队研发成像新技术",
@@ -3153,243 +3374,6 @@
       "src": "/editorial/2026-08-03/2026-08-03-ai.webp",
       "alt": "抽象台风涡旋与数据网格的冷色插图",
       "caption": "AI与物理融合的台风预报概念图",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-03-z3nr3c",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国特有极危物种“川东灯台报春”在重庆阴条岭迁地保护成功",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-03",
-    "intro": "重庆阴条岭国家级自然保护区传来好消息：中国特有的极度濒危植物川东灯台报春，人工培育的植株已结出果实，迁地保护取得成功。",
-    "paragraphs": [
-      "最近，重庆阴条岭国家级自然保护区传出一个让人高兴的消息：一种名叫川东灯台报春的植物，通过人工栽培，已经结出了果实。这标志着极度濒危植物川东灯台报春迁地保护已取得成功。迁地保护，就是把植物从野外危险生境中迁移到人工可控环境中进行保育和繁育，以避免其野外灭绝。",
-      "川东灯台报春是中国特有植物，花色艳丽，具有较高的观赏价值。目前仅在野外发现5个极小种群，植株数量很少。",
-      "自2021年在阴条岭发现川东灯台报春野外种群后，重庆阴条岭国家级自然保护区管理事务中心联合重庆师范大学生命科学学院唐安军教授团队，从生长在海拔2200米至2300米的野生种群采集种子，在海拔约1450米的报春花繁育基地进行播种、栽培。经过精心管护，人工培育的川东灯台报春生长良好，多数植株已喜结硕果，可以采种扩繁。",
-      "除已开花结果的成年植株外，该报春花繁育基地还保存有2万余株川东灯台报春幼苗。‘从种子到种子’的轮回表明川东灯台报春的迁地保护在阴条岭报春花繁育基地是切实可行的。今后，科研人员将依托此繁育基地，分批次、‘多点’开展引种回归和监测工作，在相似生境区新建种群，助力川东灯台报春种群在自然条件下实现繁育。",
-      "重庆阴条岭国家级自然保护区位于重庆市巫溪县东部、大巴山脉腹地，保存了亚热带北部山地大量的珍稀濒危物种，是我国亚热带山地森林生态系统及其物种基因保存最完整的区域之一，具有很高的科研和保护价值。"
-    ],
-    "topics": [
-      "生命与演化",
-      "生态与保护"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-08/02/content_558120.html",
-      "originalTitle": "中国特有极危物种“川东灯台报春”在重庆阴条岭迁地保护成功",
-      "publishedAt": "2026-08-02",
-      "retrievedAt": "2026-08-02T22:16:11.081Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-02T22:16:09.227Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-03-8f5gx6",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "景德镇申遗成功：一座窑火不熄的千年瓷都",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-03",
-    "intro": "2026年7月25日，在韩国釜山举行的联合国教科文组织第48届世界遗产大会上，‘景德镇手工瓷业遗存’成功列入《世界遗产名录》——它不是一座封存历史的古城，而是窑火未断、匠人仍在、年轻人扎堆的‘活着的世界遗产’。",
-    "paragraphs": [
-      "一千多年来，景德镇的窑火从未熄灭。老作坊里师傅还在手把手带徒弟，70多岁的把桩师傅胡家旺，一辈子守在窑火旁，带着一拨拨年轻学徒，手把手教他们‘看火候’、‘听窑音’；高岭瓷土矿遗址还在，御窑厂的考古也在进行——整个手工制瓷产业链，从原料到烧成，至今都在完整运转。七十二道制瓷工序仍在延续。2026年7月25日，在韩国釜山举行的联合国教科文组织第48届世界遗产大会上，‘景德镇手工瓷业遗存’成功列入《世界遗产名录》，成为全球首个瓷主题的世界遗产。",
-      "为什么说它是‘活着的’遗产？因为这里窑火从未中断，遗产不是锁在玻璃柜里的展品，而是每天推开窗就能看见的生活。陶阳里历史文化旅游区实行社区、遗产区、景区‘三区合一’，108条老里弄得到很好保护；穿行在里弄，非遗传承人的手工作坊和年轻人开的咖啡馆相邻而立；清晨巷口飘着景德镇方言，傍晚陶溪川文创街区响起英语、法语、意大利语；景德镇有6万多名‘景漂’，高峰时有5000多名‘洋景漂’——来自意大利、埃及、俄罗斯的艺术家；加拿大艺术家雷菲力说：‘我们愿意帮助更多的人，语言不是障碍，手就是最好的翻译。’",
-      "一件官窑瓷器，要经历七十二道工序，稍有瑕疵就得当场砸碎掩埋。游客站在御窑厂遗址边上，脚下到处都是当年不达标准、被砸碎掩埋的官窑残片；旁边大屏循环播放七十二道制瓷工序动画，取土、揉泥、绘彩、多次入窑烧制每一步都清晰直观；还配有VR眼镜，戴上就能沉浸式看见几百年前御窑工匠制作贡瓷的鲜活场景。粉彩瓷传承人陈磬说：‘景德镇有四大传统名瓷工艺——青花、粉彩、玲珑和颜色釉，其中粉彩是最复杂的釉上彩工艺之一……一个学徒至少要经过三年的基础训练，才能真正掌握最基本的颜色和笔法……真正难的，不是入门，而是长期坚持。’",
-      "申遗成功后，变化悄然发生：弄堂口经营小店的业主说：‘老弄堂保护得越来越好，游客一年比一年多，申遗成功以后，全世界都会知道景德镇，我的生意也越来越好。’‘小巷讲堂’把申遗故事讲到社区，‘申遗夜校’开进了老弄堂；在陶阳里历史文化旅游区，游客可以亲手触摸泥坯、体验拉坯工序。宣传干部占维笑说：‘这里不只有瓷器，更有一群正在用双手让世界变慢一点的人。这里不只是一座城市，更是一种以瓷为名的生活方式——在这里，泥巴可以被塑造成任何形状，你的人生也是。’传承人陈磬说：‘来景德镇吧，做一个属于自己，拥有自己双手温度和痕迹的杯子或碗吧！’英文讲解员朱紫琦说：‘大家赶快来景德镇吧，我们一起亲手触摸来自1000年前的瓷器碎片，我们一起去看过去的生活，我们一起去拥抱未来，你就会听到这个文明的一个回声。’",
-      "世界遗产最终属于生活在其中的人。景德镇的魅力，不在它有多古老，而在它始终生长——窑火一直没灭，手艺一直在传，人一直留下来。它并不着急变成什么，它只是安静地生长着。申遗成功不是给过去一个名分，而是让未来的每一种生长，都有了更深厚、更辽阔的土壤。它守护的不只是陶瓷，更是人类对手艺、耐心和创造力的珍视。"
-    ],
-    "topics": [
-      "历史",
-      "艺术与设计",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/07/1142567",
-      "originalTitle": "窑火不熄：千年瓷都景德镇如何与世界连接——申遗成功注入新动力",
-      "publishedAt": "Fri, 31 Jul 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-02T22:18:32.440Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-02T22:18:29.214Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 26,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Jingdezhen: A Living City of Fire and Clay",
-      "intro": "For over a thousand years, kilns have burned day and night in Jingdezhen—the ancient Chinese city where porcelain is born.",
-      "paragraphs": [
-        "Jingdezhen is known as the 'Porcelain Capital.' Its kiln fires have never gone out. Masters still teach apprentices by hand. Young artists move there from all over the world to learn, create, and live among centuries-old workshops and cafés.",
-        "On July 25, 2026, UNESCO added 'Jingdezhen’s Handmade Porcelain Industry Heritage' to the World Heritage List. This makes it the first city in the world recognized for its full, living ceramic tradition—from mining clay to firing finished pieces.",
-        "What makes Jingdezhen special is that it’s not a museum frozen in time. People still live in historic alleyways. Craftsmen fire kilns using methods passed down for generations. Tourists walk past pottery studios and coffee shops on the same street. Even today, every step of making porcelain—there are seventy-two steps—is still done by hand.",
-        "Local storytellers say the real magic isn’t just in the finished bowls or vases. It’s in the quiet focus of an artist painting fine details. It’s in the sound of a master listening to the kiln to judge the heat. It’s in the patience needed to perfect one small skill over years—or even decades.",
-        "Now, more young people from Italy, Egypt, Canada, and beyond come to Jingdezhen to study ceramics. They don’t just learn technique. They learn a slower, more thoughtful way of working—and living. And when they leave, they carry that spirit with them, helping keep this ancient craft alive around the world.",
-        "Jingdezhen’s World Heritage status didn’t just bring a title. It brought pride, purpose, and new energy. Locals now see themselves as guardians—not just of old buildings, but of a living tradition. As one resident said simply: 'Jingdezhen has finally been seen by the world.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-02T22:25:45.560Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-03/2026-08-03-8f5gx6.webp",
-      "alt": "窑炉与瓷器碎片的抽象冷色插图",
-      "caption": "千年窑火与瓷都遗产的视觉隐喻",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-02-rxw4c9",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "戴松恩：他让更多人吃上白面",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-02",
-    "intro": "你碗里的白面馒头，背后有一位科学家毕生的努力。他的名字叫戴松恩。",
-    "paragraphs": [
-      "在中国科学家博物馆馆藏中，珍藏着一张由中国科学院颁发的「从事科学工作五十年荣誉奖状」。这张奖状是颁给中国科学院院士、遗传育种学家、细胞遗传学家戴松恩的，用以表彰他多年来扎根本土育种研究，为奠基作物细胞遗传学、建设农业科研教育体系作出的突出贡献。",
-      "戴松恩在留学期间树立了“科学救国”的理想，他坚定地认为：“搞农业离不开土地，只有在祖国的土地上，我那点知识才能更好地为家乡父老、为更多人服务。”1936年，戴松恩获得美国康奈尔大学博士学位，“为了建设祖国的作物遗传育种事业”，他再三拒绝了导师的挽留，于1937年初毅然归国。不久，全面抗战爆发，他辗转西南坚持农业科研，以科技助力战时农业生产。",
-      "20世纪30年代末，国内曾有人提出要大量引进美国双杂交玉米种子，认为直接引种就能立刻实现高产增产，准备大面积推广。那时，在中央农业实验所贵阳工作站工作的戴松恩拒绝了跟风盲从，坚持开展了三年对照引种试验。他反复记录产量性状，最终得出结论：美国双杂交玉米并不适配本土气候和土壤，整体产量并不优于当地最优品种，有的甚至更差，直接引进并不能稳定增产。1939年，他在《农报》发表《美国杂交玉米在我国的利用问题》一文，提出了正确路线：不能直接全盘引进成品杂交玉米，应利用其自交系和本土材料杂交，培育适配我国生态环境的新品种。这为我国玉米杂交育种指明了本土化方向，避免农民和国家蒙受巨大经济损失。",
-      "新中国成立后，戴松恩历任华北农业科学研究所副所长、中国农科院副秘书长、研究生院副院长等职，他始终记得周恩来总理对他的嘱托：“希望你用科学技术增多小麦，让人人都能吃上白面。”为这个虽然质朴，彼时却看上去遥不可及的愿望，他奋斗了一生。20世纪20年代，戴松恩进入作物遗传育种研究领域，当时国内从事这方面研究的学者少之又少。他参与育成并推广了金大2905、金大26等小麦品种。20世纪30年代，戴松恩对来自中国、苏联、美国的小麦品种进行性状遗传规律研究。当时这种规模的遗传研究在国内尚属空白。他通过对6个普通小麦品种的春冬性及穗部、叶片等十多个性状的遗传分析，明确了单性状的遗传规律以及它们之间的连锁遗传关系，并以博士论文形式发表了题为“中俄美小麦品种杂交之遗传研究”的报告。1941年，戴松恩在连续四年的抗病性鉴定试验基础上，发表了《小麦赤霉病抗病性研究》一文，指出在严格接种条件下中国小麦品种中有对小麦赤霉病表现抵抗的材料，并以云南“牟定火麦”为例，论证了选育抗病品种的可能性。这一发现，对发展我国小麦抗赤霉病育种工作是一个很好的启发。",
-      "20世纪70年代末，为缩小我国在小麦育种基础理论以及研究方法上与国外的差距，戴松恩主持了“小麦非整倍体研究”。这项研究是为小麦定向育种提供理论根据的基础研究，利用非整倍体材料和相应的分析方法，测定基因位置及连锁关系，通过染色体附加、代换和易位技术，达到有计划、有步骤地创造麦类新品种的目的。1978年7月，戴松恩在“全国农业学术讨论会暨中国农学会第三届全国代表大会”上，首次倡议当时的农林部种子局制定《中华人民共和国种子法》。该法历经三次修订，于2000年12月1日正式实施，对我国种业发展、粮食安全和农业现代化发挥着重要作用。",
-      "戴松恩常说：“个人的得失实在是微不足道，只有心中装下祖国、民族的利益，个人有限的才华、智慧才能焕发出灿烂的光彩。”从基础细胞遗传研究、小麦抗病育种，到西南经济作物改良、玉米本土化育种路线纠偏，再到老年深耕小麦遗传基础、呼吁种业法治建设，他一生坚守实证科研、立足本土，拒绝照搬外来模式，守护我国农业育种根基。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569184.shtm",
-      "originalTitle": "戴松恩：他让更多人吃上白面",
-      "publishedAt": "2026-08-01 10:16",
-      "retrievedAt": "2026-08-01T23:18:52.853Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-01T23:18:50.646Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-02/2026-08-02-rxw4c9.webp",
-      "alt": "一碗白面馒头和麦穗，背景农田",
-      "caption": "白面馒头与麦穗，纪念农业科学家",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-02-it-makes-your-heart-sing-can-a-pioneering-projec",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "它让你的心唱起歌：林肯郡的野化实验，能否证明保护自然也有钱赚？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-02",
-    "intro": "英格兰的古老林地和淡水湿地，几乎被集约农业毁掉了。在林肯郡的一处农场，一位激进的贵族正试图证明：保护自然也能赚钱。",
-    "paragraphs": [
-      "一个让人心里唱歌的念头，正在英格兰林肯郡的一片农场上慢慢生长。这片土地叫博斯比野化地（Boothby Wildland），正在进行一场‘再野化’实验——不是把土地整理得整整齐齐，而是让自然自己拿回主导权。项目的发起人是一位激进的贵族，他的想法很直接：与其继续用高强度耕作向土地索取，不如退后一步，看看野生世界能怎样回来。",
-      "为什么要这么做？因为今天的英格兰，古老林地几乎被毁，淡水湿地也几乎被抽干。集约化农业的大规模开垦、排水和化肥使用，让许多原本栖息在湿地和林地里的生物失去了家园。野化并不是把农场彻底撂荒，而是重新让森林、草地、水流和野生动物组成一张复杂的网，让自然重新运转起来。",
-      "这个项目的特别之处，在于它想证明一件很多人不相信的事：保护自然也能赚钱。报道明确指出，项目发起人‘希望表明保护自然是有钱可赚的’；其思路是用生态本身创造价值——健康的河流、茂密的林地、回归的动物，都能成为吸引游客、支持者与投资者的资源。",
-      "照片里，河狸已经出现在这片野化地上。原文配图说明为‘Beavers at Boothby Wildland’（博斯比野化地的河狸），由Jonathan Perugia/Nattergal拍摄。河狸会筑坝、改变水流，其存在有助于湿地再生，并为鱼类、昆虫和鸟类创造新栖息地。",
-      "为什么我们值得关心这件事？因为它触及一个根本问题：在养活人类的农田和生机勃勃的自然之间，是否必须二选一？林肯郡的实验给出的答案是——也许不用。如果保护自然真能带来回报，那么下一代人看到的英格兰，就不只是整齐单一的大农田，而是一片重新会唱歌的土地。"
-    ],
-    "topics": [
-      "气候与能源",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Guardian Long Read",
-      "region": "international",
-      "url": "https://www.theguardian.com/news/audio/2026/jul/31/it-makes-your-heart-sing-can-a-pioneering-project-show-that-rewilding-really-works-podcast",
-      "originalTitle": "‘It makes your heart sing’: can a pioneering project show that rewilding really works? – podcast",
-      "publishedAt": "Fri, 31 Jul 2026 04:00:03 GMT",
-      "retrievedAt": "2026-08-01T23:19:45.189Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-01T23:19:39.366Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Can a Rewilding Project Really Work?",
-      "intro": "One Lincolnshire farm is testing whether protecting nature can also make money.",
-      "paragraphs": [
-        "Intensive farming has all but destroyed England’s ancient woodlands and freshwater wetlands.",
-        "On a farm in Lincolnshire a radical aristocrat hopes to show there’s money in protecting nature.",
-        "Beavers are at Boothby Wildland.",
-        "The project raises the question: can rewilding really work?",
-        "This project could be an example for the rest of England."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-01T23:35:25.062Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-02/2026-08-02-it-makes-your-heart-sing-can-a-pioneering-projec.webp",
-      "alt": "英格兰林地湿地，有野花和牛羊",
-      "caption": "野化实验地，自然与收益共存",
       "kind": "editorial"
     }
   }
