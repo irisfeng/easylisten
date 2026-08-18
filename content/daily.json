@@ -1,5 +1,277 @@
 [
   {
+    "slug": "2026-08-19-surprise-wax-seems-key-in-turning-honeybee-larva",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "蜂蜡也在决定谁当蜂王",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-19",
+    "intro": "一项新研究发现，除了蜂王浆，蜂巢里蜂蜡的性质也在决定一只蜜蜂幼虫能否成为蜂王。",
+    "paragraphs": [
+      "在很多人印象里，蜜蜂世界的规则很简单：一只普通幼虫只要从小吃蜂王浆，就能长成蜂王。但一项新研究发现，事情没那么简单——幼虫居住的蜂巢蜡壁，也在暗中参与决定它的命运。",
+      "蜜蜂的巢里，大多数幼虫住在六边形的小格子里，将来长成工蜂或者雄蜂。可一旦蜂群需要新蜂王，工蜂就会专门建造几个形状像花生的大房间，并且只在里面放受精卵。这些房间叫做王台，里面孵化的幼虫会由一群专职的‘皇家护士蜂’照顾。过去，人们普遍认为是蜂王浆让幼虫‘变王’的。但加州大学河滨分校的昆虫学家鲍里斯·贝尔自己养蜂多年，他忍不住想：王台本身会不会也有贡献？",
+      "为了验证这个想法，贝尔和同事研究了两种蜜蜂，对比了王台和普通工蜂巢室的蜡。结果发现，王台的蜡更软、密度更低，化学成分也不一样。而且，皇家护士蜂建王台时，比普通工蜂建巢室花的时间更长，它们身体的温度也更高。研究者猜测，更高的体温可能让蜡软化，更容易塑造，不过这一点还没有直接验证。",
+      "更有说服力的证据来自一个交换实验。科学家把刚孵化的蜂王幼虫放进小塑料杯，放回蜂巢让护士蜂喂养四天蜂王浆，然后用不同来源的蜡把杯口封住。结果令人意外：用普通工蜂巢室的蜡封口，大约三分之二的蜂王幼虫死掉了，死亡率是用王台蜡封口的两倍。即使活下来，在工蜂蜡下发育的蛹也更小。而用王台蜡培育的蜂王，看起来和自然状态下长大的蜂王更接近。",
+      "这些结果让研究者相信，蜜蜂不仅仅是在喂养未来的蜂王，更像是在主动‘塑造’一位女王。至于蜂蜡究竟如何影响幼虫发育，目前仍不清楚。这项研究的共同作者、中国农业科学院的王凯对王台里的气味特别好奇：这些气味会不会在塑造未来蜂王的感官，为它日后的交配和生活做准备？未来，研究者希望弄清蜂蜡是在什么时候、以什么方式起作用的。",
+      "研究者说，蜂群这样的‘超级有机体’，会调动专门的工蜂共同塑造下一代。蜜蜂社会的分工，可能比我们已知的复杂得多。下次观察蜂巢，那些蜡质小房间也许会让你想到：它们不只是容器，更是决定未来的‘车间’。"
+    ],
+    "topics": [
+      "生命与演化",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/royal-wax-queen-honeybee",
+      "originalTitle": "Surprise! Wax seems key in turning honeybee larvae into queens",
+      "publishedAt": "Tue, 18 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-18T21:44:45.029Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:44:42.372Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Surprise! Wax seems key in turning honeybee larvae into queens",
+      "intro": "Wax, not just royal jelly, may help turn a honeybee larva into a queen.",
+      "paragraphs": [
+        "Most people learn that feeding a young bee royal jelly turns it into a queen. A new study finds that the larva’s diet is only part of what makes her a queen. The chemical makeup of her growth chamber also plays a key role. Scientists shared this finding in the June 18 Nature.",
+        "Most honeybee larvae develop in identical six-sided cells. But those common cells aren’t big enough for a queen. So worker bees build larger, peanut-shaped cells. They put a fertilized egg in each and feed it royal jelly.",
+        "Researchers studied western and eastern honeybees. They found queen-cell wax is softer and less dense than worker-cell wax. It is also chemically different. Royal nurses spend more time building queen cells. Their bodies are warmer too.",
+        "Scientists swapped wax caps on queen larvae. They placed newly hatched larvae in plastic queen cups, fed them royal jelly for four days, then capped them with either queen-cell wax or worker-cell wax. Nearly two out of three larvae under worker-cell wax died — twice the death rate of those under queen-cell wax. Pupae reared under worker-cell wax were smaller.",
+        "Bees do more than feed the queen: they actively engineer her. Exactly how the wax affects development remains unclear. Some scientists wonder whether scents inside the cell influence the larva’s senses — or whether the larva communicates with the workers building her chamber.",
+        "These findings show beehives mobilize specialized workers that collectively shape the next generation. The division of labor in bees may be much more complex than previously acknowledged."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:57:39.866Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 20,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-19/2026-08-19-surprise-wax-seems-key-in-turning-honeybee-larva.webp",
+      "alt": "Honeycomb with larva in wax cell",
+      "caption": "蜂蜡中的幼虫",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-19-theory-of-fluids-enters-the-21st-century",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "流体理论进入21世纪",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-19",
+    "intro": "从19世纪到21世纪初，物理学家一直用同一套理论理解流体。如今，他们基于现代物理洞见，从微观基础出发，重新构建了流体理论。",
+    "paragraphs": [
+      "你面前的一杯水，看起来安静光滑。但凑近看，它是无数分子挤在一起、互相推搡的混沌世界。可是物理学家用来描述水流、漩涡的方程，却是19世纪的老古董。这套叫‘纳维-斯托克斯方程’的理论，在过去两百年里极其成功，却有一个根本局限：它把流体当作连续物质来处理，完全忽略了构成流体的微观粒子。",
+      "这个方程的故事从1750年代开始。数学家欧拉先写出了一套描述液体运动的方程——适用于没有黏性的‘理想流体’。到了1800年代，法国工程师纳维和爱尔兰物理学家斯托克斯给它加入了黏性项，使方程能描述墨水在水中扩散、空气流动时的摩擦等真实现象。今天，设计飞机机翼、预测飓风登陆、模拟火山灰飘散，甚至研究恒星内部，都依赖这套方程。",
+      "但物理学家早就知道，这套方程不是终极理论。流体实际上是由原子和分子组成的。当你不断放大观察尺度，会发现流动中存在因物质颗粒性而产生的微小涨落，而这些涨落在经典流体方程中被忽略。麻省理工学院物理学家迈克尔·兰德里指出：‘纳维-斯托克斯方程非常近似，它不是一个精确方程。’在整个20世纪，物理学家为许多物质理论重建了微观基础，唯独流体理论长期未被纳入这一现代框架。",
+      "转折来自1970年代康奈尔大学物理学家肯尼斯·威尔逊的工作。他研究磁性材料时发现，铁、镍、钴等不同金属在冷却时磁化速率惊人一致。他提出，决定宏观行为的关键不是原子种类或排列细节，而是系统所具有的对称性——即在某种变换下保持不变的性质。他发展出一套数学方法，证明当从微观尺度逐步‘拉远镜头’时，绝大多数细节都会衰减消失，只留下少数由对称性决定的主导项。这种方法后来被称为‘有效场论’，成为现代物理学的重要工具，并为他赢得1982年诺贝尔物理学奖。",
+      "但这个方法长期未能应用于流体。因为流体的底层对称性始终不明确。2000年代，一组宇宙学家尝试用威尔逊的方法构建整个宇宙的有效场论。他们意识到：宇宙的膨胀打破了时空原本的对称性——在普通时空中，没有绝对参考系可定义‘匀速运动’；但在膨胀宇宙中，存在一个特殊参考系，其中所有星系均匀地远离观测者。这一发现首次为流体理论提供了关键的对称性线索。",
+      "顺着这条线索，物理学家花了约20年时间，从微观基础出发重建流体理论。他们证明：纳维-斯托克斯方程并非凭空而来，而是特定对称性约束下的必然结果。这不仅解释了该方程为何具有当前形式，更打开了通向新物理的大门——能预测源于微观粒子运动的新流体行为。流体理论，终于从19世纪迈入21世纪。"
+    ],
+    "topics": [
+      "物质与数学",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/",
+      "originalTitle": "Theory of Fluids Enters the 21st Century",
+      "publishedAt": "Mon, 17 Aug 2026 15:11:17 +0000",
+      "retrievedAt": "2026-08-18T21:46:30.753Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:46:27.184Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-19/2026-08-19-theory-of-fluids-enters-the-21st-century.webp",
+      "alt": "Abstract fluid swirls",
+      "caption": "流体理论新解",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-19-democracy-v-the-machine-the-birth-of-the-digital",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "民主与机器：半个世纪前被忽视的警告",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-19",
+    "intro": "计算机刚走进政治时，就有人预见机器会预测并影响投票行为、威胁民主，可他们的警告为什么没人听？",
+    "paragraphs": [
+      "今天，很多人一边刷着手机，一边担心机器人会抢走工作，算法会不会控制我们的生活。其实，这种担心并不新鲜。半个多世纪前，当计算机刚从军事实验室走进办公室时，就有一群人预见到了今天的一切，并且发出了一连串警告。可是，几乎没有谁认真听过。",
+      "那是1950到1980年代，计算机越来越小、越来越快、越来越便宜，开始参与商业、医疗，甚至政治。日本社会学家米田米二（Yoneji Masuda）在1981年提出，人类未来要么走向一种‘computopia’，将消除所有阶级和国家差别，并实现‘人与自然和谐共生的共生关系’；要么走向一种‘automated state’，即‘由机器治理的政府’。他还指出，无论哪条路径，人类都已‘忽视了与自然共存的需要，而对自然的影响却变得无法估量’。",
+      "更具体的预言来自1958年。纽约广告人爱德华·格林菲尔德（Edward L Greenfield）和麻省理工学院政治学家伊瑟尔·德·索拉·普尔（Ithiel de Sola Pool）提出用机器预测和影响投票行为。他们计划把选举结果、民意调查和人口普查数据做成‘数百上千张穿孔卡片’，建立一个‘信息库’，用来按类型分类选民、按议题分类观点，并模拟整个美国选民。1959年，他们与IBM的亚历克斯·伯恩斯坦（Alex Bernstein）合伙成立了Simulmatics公司。他们称‘simulmatics’意为‘人类智能的自动化模拟’，并相信自己发明了‘社会科学界的原子弹’。第一个客户是民主党全国委员会。1959年，民主党全国委员会雇用Simulmatics运行人工选民模拟，告诉党派提名人该对谁、说什么、何时说。1960年，肯尼迪竞选团队也雇用了他们，在IBM 704计算机上运行预测。肯尼迪胜选后，多家媒体将Simulmatics称为他的‘秘密武器’。",
+      "但也有人感到不安。历史学家阿瑟·施莱辛格（Arthur Schlesinger）写道：‘我一想到公共领导力竟意味着……一个人不该说话，除非先经机器批准，就不寒而栗。’小说家尤金·伯迪克（Eugene Burdick）在1964年出版小说《480》，描写一家名为‘Simulations Enterprises’的公司暗中操纵美国总统选举。他本人曾被邀请加入Simulmatics公司，但拒绝了。更尖锐的批评来自美国评论家刘易斯·芒福德（Lewis Mumford），他在1966年《机器的神话》中警告，‘cybernetic intelligence’（控制论智能）的‘自动运行’将使人类变成‘被动、无目的、被机器驯化的动物’；他还指出，认为‘机器决定历史进程’的观念是一种‘对整个人类发展全过程的根本误读’。",
+      "后来的事我们大概都清楚：信用卡交易、汽车租赁、图书馆借阅记录，都被存进计算机文件，机器越连越密，不再只是回答问题的工具。那些早期警告，在今天听起来格外刺耳。为什么当时没有人停下来听一听？这或许是我们现在最该问的问题。"
+    ],
+    "topics": [
+      "历史",
+      "哲学与思想"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/2026/aug/18/the-long-read-democracy-v-the-machine-digital-age-warnings-computer-history-technology",
+      "originalTitle": "Democracy v the machine: the birth of the digital age and the warnings that were ignored",
+      "publishedAt": "Tue, 18 Aug 2026 04:00:13 GMT",
+      "retrievedAt": "2026-08-18T21:48:28.273Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:48:20.773Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Democracy vs the Machine: Warnings Ignored",
+      "intro": "Long before smartphones, some people saw the danger coming and warned that machines could replace democracy.",
+      "paragraphs": [
+        "This strange digital age has a past. It was not inevitable. Many people saw it coming. Some dreamed of a computer utopia. Others feared a machine-run state. They warned us again and again. Why did nobody listen?",
+        "Between the 1950s and 1980s, computers got smaller, faster, cheaper and more powerful. Public life became automated. Electronic data grew from a molehill into a mountain. In 1981, the Japanese sociologist Yoneji Masuda predicted either a 'computopia' — erasing class and nation — or an 'automated state': government by machine. Both paths led humans to neglect coexistence with nature.",
+        "In 1958, a team built a machine to predict and influence voting behaviour. Edward L Greenfield and Ithiel de Sola Pool proposed an 'information bank' using punch cards, election returns, surveys and census data. They called it a 'People Machine'. In 1959, Simulmatics Corporation formed to run simulations for the Democratic National Committee. In 1960, Kennedy’s campaign used Simulmatics’ predictions on an IBM 704. The New York Herald Tribune called it his 'secret weapon'. Simulmatics went bankrupt in 1970 due to insufficient data.",
+        "The idea alarmed thinkers. In 1964, Eugene Burdick published The 480, a political thriller featuring a thinly veiled 'Simulations Enterprises' meddling in a US presidential election. In 1966, Lewis Mumford warned in The Myth of the Machine that cybernetic intelligence would make humans passive, machine-conditioned animals. He said technological determinism was a 'radical misinterpretation of human development'. Data collection expanded anyway — credit card transactions, car rentals, library checkout records — enabling predictions Simulmatics had only dreamed of.",
+        "JCR Licklider helped invent the internet. In 1965, he wrote Libraries of the Future. He said books were impractical: moving information required moving books or readers. Converting knowledge to data changed that. In 1960, he estimated human knowledge was doubling every year. He projected about a dozen petabytes by 2020. The internet grew far larger — some said dozens of zettabytes. His vision came true. The warnings were ignored. We still have time to choose our future."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:58:29.824Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-19-c5aifh",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "《欢迎来龙餐馆》彩蛋：原文缺失，本期听稿无法呈现",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-19",
+    "intro": "因原文正文未能完整获取，本期无法基于原文进行彩蛋解读，向听众说明原因并致歉。",
+    "paragraphs": [
+      "听众朋友，今天原定要聊的是电影《欢迎来龙餐馆》的彩蛋。不过，编辑在整理资料时发现，从网站上保存下来的页面，只有标题和栏目框架，真正的正文内容没有拿到。",
+      "轻听有一条规矩：每一句话都得能在原始来源里找到依据。既然正文缺失，如果硬要写，就只能凭空猜测，那是我们不希望发生的事。",
+      "所以这一期，我们选择暂停彩蛋解读。您可以先去看看这部电影，说不定自己就能发现那个特别的彩蛋。等我们拿到完整原文，再回来好好讲给您听。感谢您的理解。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "影视与游戏"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679956.shtml",
+      "originalTitle": "这才是《欢迎来龙餐馆》的彩蛋",
+      "publishedAt": "Tue, 18 Aug 2026 23:01:37 +0800",
+      "retrievedAt": "2026-08-18T21:49:42.929Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:49:40.224Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-19-kp13xt",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "别让孩子困在“抢跑”里",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-19",
+    "intro": "中新网评论提醒家长，与其让孩子在“抢跑”中失去快乐，不如尊重他们自己的成长节奏。",
+    "paragraphs": [
+      "在我们身边，很多小朋友从幼儿园开始就背着小书包，上了好多课：拼音、算术、英语、书法……天还没亮就得起床，晚上天黑了还没回家。为什么这么忙？因为大人们常说，不能让孩子输在起跑线上。可是，中新网的一篇评论却说，别让孩子困在“抢跑”里。",
+      "“抢跑”是什么意思呢？就像跑步比赛，发令枪还没响，有人就急着冲出去。看起来他跑在最前面，可如果一开始就拼命冲，到真正要加速的时候，可能已经没有力气了。学习也是这样。有些家长怕孩子落后，就让他们提前学一年级、二年级的知识。可是，等到班上正式教这些内容时，孩子可能已经听腻了，反而坐不住，慢慢就不爱学习了。",
+      "其实，每个孩子都有自己的节奏。有的孩子开窍早，有的孩子开窍晚，这都很正常。就像花朵，有的春天开，有的夏天开，有的到了秋天反而开得最漂亮。如果我们硬要让一朵花提前开放，结果可能是它还没准备好，就早早枯萎了。中新网评论说，教育不是短跑，而是长跑，起跑线上的领先，不代表最后能赢。",
+      "更让人担心的是，“抢跑”会偷走孩子的童年。玩泥巴、看蚂蚁、和小伙伴追跑打闹，这些看起来“没用”的事，其实是孩子认识世界、学会和人相处的重要方式。如果所有时间都被课本和培训班塞满，孩子就没有时间发呆、探索、犯错，也就少了成长中最重要的东西——快乐和好奇心。",
+      "所以，别让孩子困在“抢跑”里。与其催着他们往前赶，不如陪着他们慢慢走。在合适的年龄做合适的事，让他们按照自己的脚步长大。也许，最后跑到终点的，并不是最先冲出去的那个，而是最清楚自己该怎么跑的那个。"
+    ],
+    "topics": [
+      "教育",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-18/10679831.shtml",
+      "originalTitle": "中新网评：别让孩子困在“抢跑”里",
+      "publishedAt": "Tue, 18 Aug 2026 19:11:52 +0800",
+      "retrievedAt": "2026-08-18T21:56:53.646Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-18T21:56:51.587Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-18-scientists-say-phenology",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "物候学：动植物如何读懂大自然的季节信号",
@@ -3110,271 +3382,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-08-04-scientists-say-alloy",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "合金：混出来的金属",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-04",
-    "intro": "一种把金属混在一起的材料，正在悄悄撑起高楼和首饰——它就是合金。",
-    "paragraphs": [
-      "合金听起来像化学课上的词，其实你身边到处都是：建造高楼的钢材、青铜、黄铜，都是合金。简单说，合金就是一种以金属为基础的混合物。有的合金是几种金属混在一起，有的则是金属和某些非金属混合而成。金属工作者可以通过调整配方，让合金拥有不同的性能，做出刚好适合的材料。",
-      "拿最常见的钢来说，它主要由铁和碳组成。铁本身是一种金属元素，加入碳之后，铁会变得更强。于是，这种又强又韧、还不容易断裂的合金，既能做成薄薄的刀片，也能支撑起最高的摩天大楼。",
-      "只含碳和铁的钢叫碳钢，但化学家常常会再加点别的元素来微调性能。比如加入少量的铬，就得到了不锈钢。铬会和空气中的氧气结合，形成一层‘铬锈’。严格说，铁锈也是金属和氧气结合的结果，但铁锈会一片片剥落，铬锈却不会。它反而像屏障一样保护着里面的铁，让钢铁不再怕生锈。",
-      "纯银是一种金属元素，但市面上说的‘标准纯银’，其实是合金。银又亮又不容易生锈，还能导电，是现代电子工业的重要材料。问题是，纯银太软，和黄金一样，直接做成首饰容易变形。所以金属工作者会掺入一点铜或其他金属来增加强度。几乎所有的银首饰都是合金，而且必须含有92.5%的银，才能被叫作‘标准纯银’。",
-      "用稀土金属做成的合金，可以制造出超强磁铁、超导体等神奇材料。"
-    ],
-    "topics": [
-      "物质与数学",
-      "材料科学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-alloy-definition-pronunciation",
-      "originalTitle": "Scientists Say: Alloy",
-      "publishedAt": "Mon, 03 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-03T22:24:55.934Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:24:36.049Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-04-what-has-driven-deforestation-in-the-21st-centur",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "21世纪，森林消失的最大元凶是什么？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-04",
-    "intro": "过去二十年，世界每年砍掉的森林面积相当于一个哥斯达黎加。谁才是最大的元凶？一项发表于《自然·食品》的研究给出了答案。",
-    "paragraphs": [
-      "过去二十年，世界以每年约一个哥斯达黎加（5.1百万公顷）的速度砍伐森林。最大的驱动因素是农业扩张——这一结论已延续数千年，并持续至今。最近发表在《自然·食品》上的一项研究，由查德拉坎特·辛格和马丁·佩尔森完成，量化了不同农产品对全球毁林的贡献。",
-      "该研究显示：牛肉生产是单一最大驱动因素，占2001–2023年全球毁林总量的41%。养牛需大量牧场用地，因此全球牛肉需求增长直接推动了牧场扩张。仅牛肉一项，本世纪已导致超过两个英国面积的森林被毁。",
-      "第二大驱动因素是油籽（主要为大豆与棕榈油），占16%；林业种植园与谷物生产各占约12%。毁林地理分布高度集中：超一半的牛肉相关毁林发生在巴西；印尼棕榈油生产造成全球6%的毁林；而非洲则在主粮作物（如谷物、根茎类）及经济作物（如咖啡、可可、水果、坚果）相关毁林中占比突出。",
-      "巴西牛肉生产单独解释了本世纪全球四分之一的毁林。这些毁林主要集中在地球上生物多样性最丰富的生态系统——亚马逊雨林与塞拉多草原。印尼与马来西亚几乎供应全球全部棕榈油，其中印尼一国即贡献6%的全球毁林。在撒哈拉以南非洲，因单位面积粮食产量远低于世界其他地区，粮食增产主要依靠扩大耕地面积，而非提升生产力，从而导致大量森林被转为农田。",
-      "值得指出的是，毁林趋势并非不可逆转。棕榈油相关毁林在2000年代至2010年代初达高峰，但过去十年已大幅下降。这得益于企业承诺（如联合利华、雀巢采纳‘零毁林、零泥炭、零剥削’政策）、认证体系（如可持续棕榈油圆桌倡议RSPO）扩展，以及印尼（2018年起暂停发放新油棕种植许可）和马来西亚（设定种植面积上限）的政府行动。",
-      "这些协同努力证明：只要清晰识别毁林所涉商品与地域，系统性减缓是可行的。这也正是该研究数据的核心价值——为有针对性的保护行动提供事实基础。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Our World in Data",
-      "region": "international",
-      "url": "https://ourworldindata.org/what-has-driven-deforestation-in-the-21st-century",
-      "originalTitle": "What has driven deforestation in the 21st century?",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "retrievedAt": "2026-08-03T22:25:38.862Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:25:36.902Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "What Is Driving Deforestation in the 21st Century?",
-      "intro": "A new study reveals which foods are cutting down the world's forests.",
-      "paragraphs": [
-        "Over the last two decades, the world has cut down forests at a rate of roughly one Costa Rica per year. The largest driver of deforestation has been the expansion of agriculture. A recent study published in Nature Food by Chandrakant Singh and Martin Persson answered which products, in particular, have been responsible.",
-        "Beef is the single largest contributor, accounting for 41% of global deforestation between 2001 and 2023. Cattle need a lot of land for grazing, which means the growing global demand for beef has led to the expansion of pasture. Beef alone has led to the destruction of more than two UK-sized areas of forest this century. More than half of deforestation for beef production occurred in Brazil. In fact, one-quarter of all deforestation this century was driven by Brazilian beef production alone. This clearance has been centered on the Amazon rainforest and the Cerrado savanna.",
-        "The second-largest driver was oilseeds, dominated by deforestation for soy and palm oil. Almost all of the world’s demand for palm oil has been met by just two countries — Indonesia and Malaysia. Six percent of global deforestation has been caused by Indonesian palm oil production. Forest plantations have been a large driver in parts of Asia and North America, particularly in the United States and China.",
-        "For most other products — including cereals, roots and tubers, vegetables, fruits and nuts, coffee, cocoa and spices — it’s Africa where the most forest has been lost. Countries across sub-Saharan Africa achieve very low crop yields compared to the rest of the world. As a consequence, most of the growth in food production has come from using more land, rather than using land more productively. This has come at the cost of forests.",
-        "Deforestation for palm oil has fallen substantially over the last decade. Many large food companies adopted 'No Deforestation, No Peat, No Exploitation' policies. Certification schemes, such as the Roundtable on Sustainable Palm Oil, expanded. Governments in Indonesia and Malaysia also took action: Indonesia launched a moratorium on new oil palm plantation permits in 2018; Malaysia capped the area allocated to plantations. This combination of corporate commitments, certification, government action, and public pressure has contributed to reduced deforestation for palm oil."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:36:32.619Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-04-szqbup",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "草原上的荣誉项圈：搏克手的将嘎",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-04",
-    "intro": "在内蒙古锡林郭勒盟东乌珠穆沁旗的那达慕大会上，老搏克手将佩戴一生的将嘎授予年轻力士，这是搏克精神代代相传的庄严仪式。",
-    "paragraphs": [
-      "2026年8月1日，锡林郭勒盟第十九届搏克排位赛开幕式上，几位年轻力士站在场地中心，接过了老搏克手们递来的将嘎。这是东乌珠穆沁旗那达慕大会开幕的固定仪式：年长、退役的老牌搏克手，会把自己佩戴一生的将嘎授予品行、实力兼优的年轻选手，代表搏克精神代代相传。",
-      "将嘎是搏克手的专属荣誉项圈，由蓝、白、绿、红、黄五色彩绸缠绕制成。五种颜色象征着自然界中的五种元素，也承载着搏克手数十年的坚守与荣光。‘搏克’取蒙古语‘坚不可摧、恒久存续’之意。",
-      "24岁的搏克手巴图阿拉达尔在本次仪式上首次获授将嘎。他来自东乌珠穆沁旗额吉淖尔镇，练习搏克四年，自幼接触自由式摔跤，常年参与全区、全国摔跤赛事。按照传统规则，若在128人规模搏克赛事上斩获四次以上冠军，则有资格获戴将嘎。",
-      "东乌珠穆沁旗文体旅游广电局副局长乌恩其介绍：‘能够接过将嘎的人，既要赛场成绩突出，更要品行端正，扛起传承民族体育文化的责任。’脖颈上的将嘎，不只是搏克手终身最高荣誉，更是来自群众、来自草原的认可。",
-      "作为‘搏克之乡’，东乌珠穆沁旗群众摔跤基础深厚，持续向各级专业队伍输送人才。早在1984年，当地便牵头成立搏克协会；本届赛事设有儿童搏克组别，让草原少年拥有同台竞技平台，为搏克储备新生力量。",
-      "仪式上，送出将嘎的老搏克手们会被授予‘达尔汗搏克’的荣誉称号。这是一个草原跤手至高无上的荣誉，也是搏克技艺与精神在老、中、青三代之间形成的完整传承。"
-    ],
-    "topics": [
-      "体育",
-      "文化传承"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260803/98e7ab05519c40278ae598d679516d9e/c.html",
-      "originalTitle": "被传递的将嘎",
-      "publishedAt": "2026-08-03T10:21:14+08:00",
-      "retrievedAt": "2026-08-03T22:26:16.485Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:26:10.773Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-04-x-70",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "香港性罪行法律滯後55年終改革，倖存者仍想爭取的事",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-04",
-    "intro": "2026年7月7日，港府提出「完善香港的性罪行法例」修訂草案，啟動公眾諮詢。這是自1970年代沿用至今、主要源自英格蘭《1956年性罪行法令》的法例，過去55年從未更新。",
-    "paragraphs": [
-      "香港現行性罪行法例主要沿用1970年代訂立的英格蘭《1956年性罪行法令》，過去55年從未更新，意味法庭正執行一套70年前的性罪行法律框架；該框架並無針對持續性侵犯兒童作出獨立罪行分類。",
-      "阿Mui自13歲起被繼父持續性侵7年，共上百次；最終檢控方僅將其行為概括為5項控罪——兩項非禮、兩項強姦以及一項向16歲以下兒童作猥褻行為罪；她表示：『人們看新聞，只會覺得他在我小時候對我做了那幾件事，長大後就沒有。感覺就像我有好多說話未講完，卡在這裡。』",
-      "本次修訂基於現行法律滯後現實的問題，旨在推動制度更新；草案正進行公眾諮詢。",
-      "阿Mui曾鼓起勇氣在電腦繪畫舊居平面圖，以不同顏色圓點標記被插入身體及被非禮的地點；她通宵錄口供從晚上8時至翌日早上7時，社工在旁陪伴；這只是性暴力受害人漫長舉證過程的其中一步。"
-    ],
-    "topics": [
-      "社会正义",
-      "法律与人权"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20260803-hongkong-sexual-offences-laws-reform-long-awaited/",
-      "originalTitle": "「我們都是X」：香港性罪行法律滯後70年終改革，倖存者仍想爭取的",
-      "publishedAt": "Sun, 02 Aug 2026 23:00:47 GMT",
-      "retrievedAt": "2026-08-03T22:30:48.343Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:29:41.012Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-03-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI+物理破解台风预报“黑箱”，路径误差最大降幅超30%",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-03",
-    "intro": "我国科学家首创FuXi-CNOPs集合预报系统，将自研AI气象大模型“伏羲”与非线性动力学方法深度融合，中期台风路径预报误差最大降幅达32.33%，显著超越国际主流系统。",
-    "paragraphs": [
-      "台风往哪走，是道难题。不同气象模型给出的路径，可能相差几百千米。人工智能虽然算得快，但要想真正派上用场，还得回答‘台风最有可能往哪走’‘它还有可能往哪里偏’，并说出所有这些可能性背后的理由，打破纯数据模型的‘黑箱’困局。",
-      "这套系统叫FuXi-CNOPs，由中国科学院大气物理研究所段晚锁研究员团队，联合复旦大学李昊研究员、中国气象局地球系统数值预报中心韩威研究员等共同研制。它融合我国自研AI气象大模型“伏羲”（FuXi）与自主发展的“正交条件非线性最优扰动”方法。集合预报相当于给台风路径做‘可能性推演’：在计算机中生成多个不同初始场景，模拟一组可能走向，再判断风险。相比国际标杆——欧洲中期天气预报中心IFS_EPS系统每次需51个初始场‘成员’，FuXi-CNOPs仅用31个‘成员’，就获得更高整体预报技能。",
-      "研究团队选取62个典型台风个例，开展91次集合预报对比试验。结果显示：24小时短时预报中，两个系统旗鼓相当；但在120小时中期预报中，FuXi-CNOPs优势持续扩大，路径误差最大降幅达32.33%；对台风移动速度和方向的刻画更稳定，量化预报不确定性的准确度最高提升29.2%。段晚锁研究员比喻：‘这相当于用更少的“兵力”完成了更精准的“侦察”。’",
-      "为什么这么厉害？秘密在于它生成的初始扰动不是随机数字，而是有明确物理含义的‘天气信号’。这些最优扰动的能量分布具有清晰规律：水平方向上高度集中在三个关键区域——台风内核区、螺旋雨带，以及副热带高压与台风环流相互作用较强的区域；这些地方正是台风结构演变与环境引导气流变化的敏感地带，微小初始误差一旦进入，就会被非线性放大。垂直方向上，扰动能量呈现独特‘双峰分布’。李昊研究员介绍：‘这好比给台风做了一次全身体检，哪里容易出问题，一目了然。’",
-      "FuXi-CNOPs无需额外训练超大规模模型，大幅降低计算资源消耗，更利于在业务预报中落地。研究团队表示，将在现有基础上引入模式扰动模块，同步优化初始误差和模式误差，进一步提升台风路径和强度预报技巧，并逐步拓展至暴雨、强对流等其他极端天气的集合预报场景。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569216.shtm",
-      "originalTitle": "“AI+物理”破解台风预报“黑箱”",
-      "publishedAt": "2026-08-02 08:56",
-      "retrievedAt": "2026-08-02T22:14:25.497Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-02T22:14:21.108Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "AI Plus Physics Opens Typhoon Forecast Black Box",
-      "intro": "Chinese scientists have built a smarter typhoon forecasting system by combining AI with physics.",
-      "paragraphs": [
-        "Typhoons are hard to predict. Different models can disagree by hundreds of kilometers. Even fast AI models struggle to explain their answers. Scientists want forecasts that are both accurate and understandable.",
-        "A team from the Chinese Academy of Sciences, Fudan University, and the China Meteorological Administration built a new system called FuXi-CNOPs. It pairs China's self-developed AI weather model 'FuXi' with a physics-based method called 'orthogonal conditional nonlinear optimal perturbation'. The system runs many possible storm paths using only 31 members, while Europe's top system uses 51.",
-        "In tests on 62 typical typhoons, the new system matched the European model for 24-hour forecasts. But for 120-hour forecasts, its path errors shrank by up to 32.33 percent. It also predicted storm speed and direction more steadily. Its uncertainty estimates improved by up to 29.2 percent.",
-        "The system finds the most sensitive parts of a typhoon: the inner core, spiral rain bands, and the interaction zone between the typhoon and the subtropical high. Small initial errors in these areas grow like snowballs due to nonlinearity. This precise targeting helps make forecasts more reliable.",
-        "This gives AI weather models a physically interpretable 'brain'. The system's initial perturbations carry clear physical meaning—not random numbers. It saves computing resources and is suitable for operational use. The team plans to extend it to heavy rain and severe convection.",
-        "So the next time a typhoon warning appears, remember: behind the forecast, there may be a smarter 'brain' at work."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-02T22:24:21.992Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-03/2026-08-03-ai.webp",
-      "alt": "抽象台风涡旋与数据网格的冷色插图",
-      "caption": "AI与物理融合的台风预报概念图",
-      "kind": "editorial"
     }
   }
 ]
