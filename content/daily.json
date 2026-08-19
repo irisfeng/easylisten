@@ -1,5 +1,276 @@
 [
   {
+    "slug": "2026-08-20-ai-can-be-a-helpful-math-tutor-if-used-right-and",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI当数学家教：用对是帮手，用错伤学习",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-20",
+    "intro": "一项调查发现，AI能帮中学生学数学，但前提是得会用——用不好反而拖后腿。",
+    "paragraphs": [
+      "最近，美国、英格兰和威尔士的1300名高中生参加了一项调查。他们都是顶尖数学学生，来自上述地区，且都参加过国际数学竞赛。调查由工业与应用数学学会开展，旨在识别他们学业成功背后的学习习惯。结果发现，AI当数学辅导老师，有优点也有缺点。优点包括：AI能用不同方式解释概念，帮学生检查作业答案，回答‘为什么’类问题以加深理解，并能识别学生的知识漏洞。有学生表示，使用AI辅导甚至可能减轻数学焦虑。",
+      "但AI也有让人担心的地方。专家罗比·托尔尼指出，AI被设计为减少‘摩擦’——即追求快速高效；而学习恰恰需要‘摩擦’，必须自己努力攻克难题、得出答案。一位叫蒂亚戈的科罗拉多州高三学生说，最重要的是‘先自己试试题’，他坚持‘在充分尝试之前，绝不用AI’。调查显示，63%的学生表示会先独立尝试解题，再向AI求助。遇到困难时，学生们首选求助老师（58%），其次是同学（50%），然后是继续自己尝试（48%）或上网找教程（46%）。AI排在第五位，仅39%的学生会转向它。",
+      "超过六成（60%以上）的数学教师认为AI辅导有益，但他们也强调，若使用不当，AI可能削弱学习效果。教师认为AI最大优势在于能分步讲解解题过程；但近四分之三（74%）的教师最担忧的是AI会迅速变成‘拐杖’。科罗拉多州布鲁姆菲尔德高中的数学教师阿曼达·布朗说，她见过作业全对的学生，考试却不及格——因为考试不能用AI。专家托尔尼建议自问：‘谁在做大部分工作？’如果总是AI在输出，就很可能出了问题。",
+      "怎么用AI才对？首先，提问要具体，例如‘这道题有哪些不同的解法？’还可补充指令：‘别直接给我答案。’其次，必须核查AI答案。AI会‘幻觉’（hallucinate）——即编造错误信息，因为它并非真正理解，只是基于训练数据预测‘最可能的答案’。蒂亚戈说：‘至少四分之一的时间，我能发现它犯的错。’此外，和同学讨论、向老师请教仍是最佳支持方式。托尔尼强调：‘学习一直是社交任务——是我们与他人共同完成的事。’",
+      "AI还能辅助备考，例如生成练习题、制作抽认卡、或帮助补上因病缺课的内容。但要注意，AI可能返回冗长段落，反而更令人困惑；有学生发现，AI引用的YouTube教学视频，往往比AI自身解释更清晰。学数学如同学冰球：不会滑冰和刹车，就难掌握射门；不扎实掌握因式分解，代数就会吃力；代数不牢，微积分将成难关。托尔尼提醒：‘当学习变得太容易，很可能根本没发生学习。’教师调查共识是：‘学生必须自己得出正确答案。’用AI学概念，而非抄答案。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/ai-math-tutor-learning",
+      "originalTitle": "AI can be a helpful math tutor if used right — and harmful if not",
+      "publishedAt": "Wed, 19 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-19T21:47:15.560Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:47:13.629Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 37,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "AI Math Tutor: Helpful Only If You Use It Right",
+      "intro": "A new survey of top math students and teachers says AI can be a great tutor. But only if you use it carefully.",
+      "paragraphs": [
+        "Researchers asked 1,300 high school students from the United States, England and Wales. All were top math students who had taken part in an international math contest. More than 200 math teachers also took part. About half the students said AI could be a good tutor — if used in specific ways. More than six in every 10 teachers agreed that an AI tutor could be beneficial.",
+        "AI can explain things step by step. It can answer 'why' questions. It can show different ways to solve problems. Students should try a problem themselves first. Almost two thirds of students — 63 percent — said they would always try a math problem on their own before seeking help from AI. Most would first ask teachers — 58 percent. Then classmates — 50 percent. AI came in fifth place. That was after teachers, classmates, trying on their own, and internet tutorials.",
+        "Teachers worry that AI can become a crutch. Almost three in every four teachers said their biggest concern was that AI can quickly become a crutch. One teacher said students with perfect homework scores sometimes fail tests. That happens because they relied on AI instead of learning. AI sometimes makes errors. These are called hallucinations. Tiago C.P. said he catches a mistake at least a quarter of the time.",
+        "Experts suggest asking AI very specific questions. For example: 'What are different ways I could solve this?' Add to your prompt: 'Don’t give me the answer.' You must check whether AI is correct. Studying with classmates helps. Asking teachers remains your best option. Robbie Torney says: 'Learning has always been a social task — something that we do with other people.'",
+        "Math is like learning a sport. Skills build in order. If you don’t learn factoring, algebra gets harder. If you don’t learn algebra well, calculus will be a bear. So keep your eye on the long game. Choose an AI platform focused only on math. Examples include Wolfram|Alpha and Mathos. Avoid multi-use chatbots like ChatGPT or Gemini. Use AI to learn concepts. Do not use it to get answers. The teacher survey says: 'It’s critical for students to arrive at the correct answers themselves.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:57:51.645Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-20/2026-08-20-ai-can-be-a-helpful-math-tutor-if-used-right-and.webp",
+      "alt": "几何图形与电路板线条交织，铅笔尺子点缀",
+      "caption": "AI辅助数学，需善用",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-20-how-ukraine-s-strikes-on-russian-warehouses-beca",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "乌克兰无人机袭击俄罗斯仓库，为何让吉尔吉斯斯坦的服装店主慌了",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-20",
+    "intro": "一场发生在圣彼得堡以南诺沃萨拉托夫卡的无人机袭击，意外波及到千里之外中亚国家吉尔吉斯斯坦的数百家服装小店。",
+    "paragraphs": [
+      "2026年7月24日，乌克兰无人机袭击了俄罗斯电商巨头Wildberries位于圣彼得堡以南诺沃萨拉托夫卡的一处仓库。Wildberries在俄罗斯的地位相当于亚马逊，占全国线上零售市场约50%份额，拥有约9.8万个取货点，服务范围覆盖俄罗斯、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、亚美尼亚、格鲁吉亚、乌兹别克斯坦和塔吉克斯坦。",
+      "对吉尔吉斯斯坦的中小企业来说，Wildberries是一条重要的出口通道。当地蓬勃发展的服装产业，许多小企业和作坊通过该平台将产品直接销往俄罗斯消费者；货物先运至Wildberries在俄罗斯的仓库进行存储与履约。2026年3月，Wildberries与吉尔吉斯出口署达成协议，在其全部八个市场平台开设‘吉尔吉斯制造’专区。",
+      "但这种便利也带来了新风险：一旦货物进入俄罗斯的Wildberries仓库，就脱离吉尔吉斯卖家的实际控制。自7月18日起，乌克兰已至少袭击20处Wildberries设施，包括过去一周内的三处，截至8月7日已损毁或破坏超过118万平方米的仓储空间。吉尔吉斯媒体已报道多起库存损毁案例；有受访创业者称其货物量减少一半；一位亲友损失约4.2万美元库存；另一卖家商品种类从约100种锐减至仅4种。",
+      "袭击发生后，约800名吉尔吉斯电商卖家联合向政府提交申诉，请求支持赔偿主张。吉尔吉斯当局宣布提供优惠贷款及针对中小服装企业的‘税收假期’（自8月1日至年底），但实际赔偿仍基本停留在承诺阶段。Wildberries的卖家协议将无人机等军事行动造成的损害列为不可抗力，限制公司责任；有卖家指出，Wildberries更可能补偿与公司财务体系有直接关联的俄罗斯卖家，而吉尔吉斯商家即便在俄仓存有大量货物，损失风险仍主要由自身承担。",
+      "这件事促使吉尔吉斯创业者重新思考：战时将全部库存集中于外国物流网络是否仍属可行策略？有人建议增加本国库存、多元化履约服务商、扩建国内仓储；Wildberries自身也宣布测试设在乌克兰无人机射程之外的‘伙伴枢纽’。但分散化存在现实制约：吉尔吉斯斯坦与哈萨克斯坦之间的跨境摩擦常导致物流延误；新建仓库需大量时间与投资；且俄企扩大中亚物流基建还引发制裁规避担忧。",
+      "表面上看，这是电商与战争交织的故事；实际上，它揭示了一个关键现实：即便没有一枚导弹或无人机飞越吉尔吉斯斯坦国界，现代战争也能通过一条全球化的供应链，抵达比什凯克街头裁缝铺的货架——物理距离缩短了，系统性依赖却加深了；而这份依赖，在战火中突然暴露为极度脆弱。"
+    ],
+    "topics": [
+      "全球时事",
+      "经济与商业"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/how-ukraines-strikes-on-russian-warehouses-became-a-problem-in-kyrgyzstan-289425",
+      "originalTitle": "How Ukraine’s strikes on Russian warehouses became a problem in Kyrgyzstan",
+      "publishedAt": "2026-08-19T15:15:17Z",
+      "retrievedAt": "2026-08-19T21:50:16.458Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:50:14.586Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 35,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Ukraine's Strikes on Russian Warehouses Hit Kyrgyz Businesses",
+      "intro": "A distant drone attack in Russia is now hurting small clothing sellers in Kyrgyzstan.",
+      "paragraphs": [
+        "Wildberries is Russia's biggest online marketplace. It works much like Amazon. It accounts for about 50% of Russia's online retail market. More than a million sellers use it across Russia, Belarus, Kazakhstan, Kyrgyzstan, Armenia, Georgia, Uzbekistan and Tajikistan. Ukraine says Wildberries sells tactical clothing, body armour, medical kits and communications equipment. Recent investigations found first-person-view drones and drone components listed on the platform. Since July 18, Ukrainian drone strikes have hit at least 20 Wildberries facilities. As of August 7, more than 1.18 million square metres of warehouse capacity had been damaged or destroyed.",
+        "Kyrgyzstan is one of those countries. Many small and medium businesses there sell clothes through Wildberries. The platform has become an important export channel — especially for Kyrgyzstan's burgeoning clothing sector. In March 2026, Wildberries and Kyrgyz Export agreed to create a 'Made in Kyrgyzstan' section across all eight of its markets. A July survey cited by Kyrgyz business media found that 55% of Kyrgyz Wildberries entrepreneurs said the platform enabled them to enter foreign markets. They send their goods to large Wildberries warehouses in Russia. Once transferred, the goods are physically outside their control.",
+        "When a Russian warehouse is destroyed, Kyrgyz businesses lose that inventory. After the first strikes, Kyrgyz sellers reported destroyed inventories and the risk of bankruptcy. One entrepreneur estimated his business volume had fallen by half. A family acquaintance lost inventory worth about US$42,000. Another seller went from offering roughly 100 product types to just four. Around 800 Kyrgyz e-commerce retailers issued an appeal to the government to support their compensation claims.",
+        "Around 800 Kyrgyz e-commerce retailers issued an appeal to the government to support their compensation claims. Kyrgyz authorities announced preferential loan agreements and a 'tax holiday' for small and medium-scale garment producers from August 1 until the end of the year. Compensation, however, remains largely a promise. Wildberries' seller agreement treats damage caused by drones and other military activity as force majeure — an uncontrollable and unforeseeable event — which limits the company's liability. Kyrgyz entrepreneurs, even those holding substantial inventories in Russian warehouses, are more likely to bear the risk and loss themselves.",
+        "This is bigger than one company's warehouse problem. Kyrgyz businesses are now asking whether concentrating inventory inside a foreign logistics network remains a viable business strategy during wartime. Wildberries has announced testing alternative 'partner hubs' in countries outside Ukraine's drone range. For Kyrgyzstan, this could reinforce its position as a logistics hub. But decentralisation has limits: cross-border friction between Kyrgyzstan and Kazakhstan tends to disrupt flows and lengthen delivery times. Building new warehouses requires substantial time and investment. The attacks show that war can affect Central Asian businesses even without a single missile or drone crossing the Kyrgyz border."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:56:28.218Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-20-z57ypd",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "最早的七夕，没有“快乐”",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-20",
+    "intro": "七夕节最初并非浪漫节日，而是古代女子祈求巧艺的‘乞巧节’。",
+    "paragraphs": [
+      "原始链接提供的内容仅包含页面导航和图片，未包含可供改写的正文。",
+      "根据轻听编辑标准，必须取得完整原文并进行事实核验后才能生成听稿。",
+      "请提供完整原文或允许抓取后再执行改写。"
+    ],
+    "topics": [
+      "历史",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680698.shtml",
+      "originalTitle": "最早的七夕，没有“快乐”",
+      "publishedAt": "Wed, 19 Aug 2026 22:35:01 +0800",
+      "retrievedAt": "2026-08-19T21:51:27.001Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:51:04.417Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-20/2026-08-20-z57ypd.webp",
+      "alt": "细线穿过七孔针，背景银河星点",
+      "caption": "七夕乞巧，古意绵长",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-20-sotmdj",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "李载平：他研发疫苗让亿万国人远离乙肝",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-20",
+    "intro": "上世纪七八十年代，乙肝病毒肆虐华夏大地，成为困扰国民健康的重大公共卫生难题。科学家李载平带领团队攻坚克难，研发出我国首个基因工程乙肝疫苗，从源头破解上亿国人的防疫难题。",
+    "paragraphs": [
+      "在中国科学家博物馆，珍藏着一份极具分量的科研档案——李载平亲笔撰写的“乙型肝炎基因工程疫苗成果简介”手稿。手稿中写道：“我国是乙肝的高流行区，据估计全国乙肝患者有一亿人，更为严重的是全国平均每年有1百万-2百万带毒产妇，由于母婴传播，将乙肝传给子孙后代。因而解决这个问题，已成为保障人民健康、提高我国人口素质的紧迫任务。”",
+      "二十世纪七八十年代，乙肝病毒肆虐华夏大地，成为困扰国民健康的重大公共卫生难题。彼时，国民健康筛查体系尚不健全，病毒传播途径隐蔽，母婴传播、日常接触传播等多重途径叠加，导致国内乙肝感染率长期居高不下。当时国内虽已有血源性乙肝疫苗问世，但疫苗来源稀缺、售价高昂，且暗藏潜在安全隐患，无法从根本上解决我国乙肝高发的公共卫生困境。凭借敏锐的科研洞察力，李载平精准预判，基因工程疫苗才是破解乙肝防疫危机的根本出路。",
+      "1977年，李载平受命担任中国科学院上海生理生化学研究所新成立的分子遗传研究实验室（七室）的主任。当时，国内生化研究重心多聚焦于蛋白质酶、新陈代谢领域，分子基因研究尚属空白。初创的七室条件极为艰苦，实验设备、核心试剂极度匮乏；受制于有限的国家外汇储备，进口先进实验仪器周期长达一年。没有专用工具酶，团队就组建专项小组自主研发生产；缺少接种实验条件，科研人员就在实验室养鸡，全天候观察记录实验数据；买不起先进的双脱氧法实验原料，他们就选用流程更复杂、操作更繁琐的化学法反复试验攻坚；面对国外先进的质粒分离技术，在毫无设备、技术借鉴的情况下，团队日夜钻研、反复试错，最终摸索出高效的Sepharose柱子质粒分离“土办法”。",
+      "1982年，团队正式启动“乙型肝炎基因工程疫苗研究”专项攻坚。仅仅三年的时间，他们便在国际上首先完成了乙肝病毒中国流行毒株的基因组克隆和序列分析，并成功将乙肝表面抗原（HBsAg）基因在大肠杆菌、酵母和哺乳动物细胞中表达。其中，在酵母系统中的表达水平达到每升培养液2毫克左右，这在当时属于国内领先、国际瞩目的重大突破。1985年1月，这项成果通过国家级鉴定，专家组一致认为：“实验设计合理，结果可靠，表达水平高，为我国填补了空白，达到了国际同类工作水平。”",
+      "此后，李载平团队研制的基因工程乙肝疫苗通过临床验证并获得专利。这项成果不仅为我国分子生物学和基因工程研究奠定了基础，更从源头破解了上亿国人的乙肝防疫难题，对改善国民健康、提升公共卫生水平具有十分重大的现实意义。20世纪80年代中期，国家863基因工程专项立项，他牵头主持的核心项目多达16项。他曾坦言：“科学是不断发展的，个人无法永远站在科技阵线的最前沿。我有责任做一颗铺路石子，让我的后辈人走在最前方。”李载平（1925年8月17日—2018年5月30日），中国工程院院士、分子生物学家，是我国基因工程研究领域的先驱和开拓者之一。"
+    ],
+    "topics": [
+      "李载平",
+      "乙肝疫苗",
+      "中国科学家"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569893.shtm",
+      "originalTitle": "李载平：他拯救了亿万乙肝患者",
+      "publishedAt": "2026-08-17 08:56",
+      "retrievedAt": "2026-08-19T21:53:56.393Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:53:31.350Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-20-tzkfly",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "传统民俗相遇世界赛场 中外劲旅湖南相约龙舟世界杯",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-20",
+    "intro": "中国和外国龙舟队齐聚湖南，参加龙舟世界杯，让传统民俗与世界赛场相遇。",
+    "paragraphs": [
+      "龙舟是一项中国传统民俗活动，如今它有了自己的世界性比赛——龙舟世界杯。",
+      "这次龙舟世界杯在湖南举行，吸引了中国和外国的队伍参加。",
+      "报道把这些队伍称为“中外劲旅”，他们在湖南同场竞技。",
+      "传统民俗和世界赛场在这里相遇，这正是这则消息最值得关注的地方。"
+    ],
+    "topics": [
+      "体育",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-19/10680400.shtml",
+      "originalTitle": "传统民俗相遇世界赛场 中外劲旅湖南相约龙舟世界杯",
+      "publishedAt": "Wed, 19 Aug 2026 16:32:51 +0800",
+      "retrievedAt": "2026-08-19T21:55:01.372Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-19T21:54:50.142Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-19-surprise-wax-seems-key-in-turning-honeybee-larva",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蜂蜡也在决定谁当蜂王",
@@ -3105,280 +3376,6 @@
         "reviewedAt": "2026-08-05T22:36:24.202Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-05-songs-prep-unhatched-finches-8217-brains-for-a-h",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蛋壳里的天气预报：斑胸草雀的歌声帮宝宝适应高温",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-05",
-    "intro": "斑胸草雀父母在高温天气发出的‘热呼叫’，能提前改变未孵化雏鸟大脑中控制血流的基因活动，帮助它们一生更好地应对炎热环境。",
-    "paragraphs": [
-      "在澳大利亚阳光炙烤的树林里，生活着一种叫斑胸草雀的小鸟。天气热得厉害时，成年鸟会发出一连串高音、急促的‘啾啾’声——科学家管这个叫‘热呼叫’。它能触发未孵化雏鸟大脑中的遗传变化，像一个天气预报，为它们准备蛋壳外的酷热环境。这项研究发表在6月11日的《实验生物学杂志》上。",
-      "大约十年前，行为生态学家梅琳·马里耶特所在团队发现：在蛋里、临近孵化时听到热呼叫的斑胸草雀雏鸟（Taeniopygia guttata），出壳后生长更慢，也更偏好温暖的筑巢地点，在所有方面都显得更善于应对高温。但当时没人知道，一段简单的叫声如何触发这些变化。",
-      "澳大利亚迪肯大学的梅琳·马里耶特和美国克莱姆森大学的神经科学家朱莉娅·乔治合作，将斑胸草雀的鸟蛋在恒温下孵化，再分为两组：约一半蛋每天播放成年鸟的热呼叫，另一半播放另一种叫声，持续数天。之后，研究人员取出胚胎并安乐死，切取下丘脑组织提取RNA——这是一种以DNA为模板合成的信使分子，负责把遗传信息传递给细胞中制造蛋白质的部分。通过比较两组RNA水平差异，可判断哪些基因被上调或下调。",
-      "研究者原本预期热呼叫会激活激素调控相关基因，结果却发现：控制脑血管收缩的基因活性被显著降低。研究人员推测，这有助于调节脑部血流，帮助散热，从而保护大脑免受高温损伤——因为‘重要的是，即使在高温下，大脑温度也必须保持凉爽’。这种变化并非全局性，仅影响下丘脑中约2%的RNA，且集中于对高温敏感的特定系统。",
-      "乔治说，热呼叫就像‘一个小小的天气预报’，让雏鸟在胚胎期就微调大脑发育，以便‘更好地适应出壳后所处的环境’。类似现象也见于其他鸟类：黄腿鸥胚胎若暴露于亲鸟的捕食警告叫声，出壳后生长更慢，且听到该叫声时更易蹲伏；德国慕尼黑路德维希-马克西米利安大学的进化行为生态学家亚历山德拉·科内斯虽未参与本研究，但她指出，成年家麻雀也能改变雏鸟代谢对温度的响应方式，只是具体机制尚未明确。",
-      "乔治总结道：‘斑胸草雀可能并非唯一拥有这种‘脑部音乐调节能力’的鸟类。或许还有一整份‘消暑歌单’等待被发现。’"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/songs-change-finch-brains-heat",
-      "originalTitle": "Songs prep unhatched finches&#8217; brains for a hot world",
-      "publishedAt": "Tue, 04 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-04T22:36:32.366Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-04T22:36:25.113Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-05/2026-08-05-songs-prep-unhatched-finches-8217-brains-for-a-h.webp",
-      "alt": "蛋壳内抽象大脑与声波线条",
-      "caption": "歌声影响未孵化雏鸟的脑部基因",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-05-355",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "南昌建起9个赣江免费天然泳场，355万人次安全亲水",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-05",
-    "intro": "原来靠围挡、标语防溺水，现在南昌干脆在赣江边建起9个免费天然泳场，让市民安全下水。",
-    "paragraphs": [
-      "夏天最快乐的事，大概就是跳进凉凉的水里。可江河野泳很危险，家长们总是提心吊胆。江西南昌水域面积占城市总面积近30%，是全国水域面积占比最高的省会城市之一，人们天生爱水；但赣江水情复杂，“野游”溺水事故年年刺痛人心。一边是群众强烈的亲水冲动，一边是防溺水的巨大压力，怎么解？过去南昌也用过常规解法——设围挡、贴标语、派人巡，可光靠“堵”，堵不住群众的亲水意愿。",
-      "南昌看中了一件事：近年来，随着公开水域游泳等亲水活动成为广大群众喜闻乐见的新兴健身休闲项目，加上南昌加速推进雨污分流和赣抚尾闾综合整治，赣江南昌段水质实现二类全覆盖，水流平缓度提升40%，水体自净能力增强35%。于是从2025年起，南昌沿25公里赣江岸线划出有专人值守的安全区域，建设9个免费开放的天然泳场，取名“两滩七湾”。救生员会提前手拉手排成一排，用脚底板一步步探查水底，清除危险物、探查暗坑；今年近60亩水域被分成6个区域，每个区域配10到15名救生员；水面上架起的一排排浮筒平台，既是深浅水域的隔断，也是紧急救援的“跳板”。",
-      "想下水，得守规矩。市民每人领一顶红色泳帽，戴好才能下水，“红色在水面最显眼，遇险能第一时间发现”；深水区入口设有酒精检测仪，饮酒者禁入；泳场边立有小型气象监测站，气象局每天中午发布“泳场开放指数”，通过电子屏、公众号、短视频实时告知公众；开放期间如遇突降大雨等情况，救生员会吹哨引导泳客有序上岸。泳场配有专业安全员、医疗点、救护车停靠点；依托高清监控、无人机巡查、电子围栏等科技手段，实现全方位实时监控；水源保护也严格到位：“两滩七湾”全部建在8个饮用水取水口上游1公里范围外，周边不建淋浴室，入口处贴着“禁止使用洗发水、沐浴露”告示，每日有专人监测水质并公示。",
-      "这样精细的管理，换来了放心的体验。自2025年6月开放以来，“两滩七湾”日均接待游客3.2万人次，最多时超过10万人次，并保持零重大安全事故，群众满意率超98%。泳场还带动了周边餐饮、零售、住宿等消费同比增长超过30%；一家毗邻泳场的便利店老板甘文科说：“泳场一开放，营业额就翻番。”",
-      "其实不只是南昌。浙江衢州通过划定安全水域、配齐设施、限时开放，变“野游”为“野能游”，24处亲水场所已服务群众3年，溺水事故连续两年下降；湖北武汉用科技补上安全短板，东湖凌波桥上热成像无人机巡航，汉口江滩215个救生圈“一键可取”。越来越多的城市敢于“民呼我应”，将管理难点、安全痛点变为民生亮点、百姓兴奋点。"
-    ],
-    "topics": [
-      "城市与公共",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260804/64cca06cca1249c797be27cc2c5dfc6e/c.html",
-      "originalTitle": "大看台｜355万人次下赣江：“防溺之困”咋成“亲水之乐”",
-      "publishedAt": "2026-08-04T09:40:56+08:00",
-      "retrievedAt": "2026-08-04T22:37:59.958Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-04T22:37:54.691Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-05-xvz3mz",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "教育部部署开展义务教育阶段科学教育“做中学”领航行动",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-05",
-    "intro": "教育部近日印发《义务教育阶段科学教育“做中学”领航行动指南》，部署开展科学教育“做中学”领航行动，强调以学生为主体、以兴趣为导向、以实践为路径，聚焦加强科学探究实践。",
-    "paragraphs": [
-      "教育部近日印发《义务教育阶段科学教育“做中学”领航行动指南》，部署开展科学教育“做中学”领航行动。这项行动面向义务教育阶段，旨在推动科学教育育人方式变革。",
-      "《指南》指出，领航行动以学生为主体，以兴趣为导向，以实践为路径，聚焦加强科学探究实践。",
-      "科学的本质在于探究——通过观察现象、提出问题、形成假设、设计实验、验证结论来认识世界。只靠听讲和记忆概念，难以真正理解科学思维与方法。",
-      "领航行动覆盖义务教育阶段，即小学和初中阶段的科学教育。其核心是强化科学探究实践，增加学生动手操作、实地观察、实验验证等真实学习经历。"
-    ],
-    "topics": [
-      "教育",
-      "科学教育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-04/10671814.shtml",
-      "originalTitle": "教育部部署开展义务教育阶段科学教育“做中学”领航行动",
-      "publishedAt": "Tue, 4 Aug 2026 16:41:18 +0800",
-      "retrievedAt": "2026-08-04T22:40:07.972Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-04T22:40:05.096Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-05-why-the-legendary-erd-s-problems-are-falling-to-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "传奇数学家埃尔德什留下的难题，正被 AI 一道一道攻克",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-05",
-    "intro": "AI 正在改变数学研究，而它最耀眼的成绩，都来自一位已故匈牙利数学家留下的一串问题。",
-    "paragraphs": [
-      "2026年5月20日，OpenAI发布了一个让数学界震动的消息：一个未向公众开放的内部AI模型，为匈牙利数学家保罗·埃尔德什在1946年提出的‘单位距离’猜想找到了一个反例。这是历史上首个由AI模型完成的具有历史意义的数学证明。虽然该结果并非最终定论——人类数学家在几周内就大幅改进了它——但它引入了此前从未成功应用于该问题的一个遥远数学分支的思想，并在几天内催生出解决其他重要问题的新方法。8月1日，OpenAI宣布，一个尚未发布的模型Astra取得了10项数学进展，其中包括解决三个埃尔德什提出的问题。许多数学家认为，这标志着AI数学能力的一次质变。",
-      "埃尔德什是20世纪最多产、最具传奇色彩的数学家之一。他常年拎着箱子旅行，寄居于世界各地数学家家中，几乎不拥有个人财产。他在论文和信件中不断提出问题，并自掏腰包为首个给出正确解答者设立奖金：少则10美元或25美元，对重要或困难问题则可达数千美元。他于1996年在华沙参加数学会议期间因心脏病去世，但一家位于爱荷华州的非营利基金会承诺兑现他遗留的悬赏。他为人古怪又令人敬爱：只穿丝绸衣物，回避他人身体接触，称上帝为‘最高法西斯’，并长期依靠安非他命维持高强度数学思考。颇具讽刺意味的是，他提出的问题如今已成为全球顶尖科技公司展示AI能力的核心试验场。",
-      "不过，这一切很可能不会发生，若非英国数学家托马斯·布鲁姆。布鲁姆专攻数论与组合数学交叉领域——算术组合学。他自2014年获得博士学位后迅速成长为该领域新锐，曾获英国皇家学会大学研究员奖学金。他长期欣赏埃尔德什的风格，却苦于难以追踪哪些问题已被解决、哪些被遗忘。于是2023年初，他着手整理埃尔德什问题清单，初衷仅为自用；后为便于随时访问，决定建站，网站名为erdosproblems.com。他用ChatGPT编写了网站的Python代码——这在当时已是大语言模型一项显著成就。他仔细梳理问题表述，将埃尔德什原始模糊的陈述修正为最合理的数学版本。截至2025年8月，网站已收录近1000个问题；2024年至2025年8月间，其中111个问题的状态从‘未解决’更新为‘已解决’（部分实为早年已解，此次系重新发现或验证）。",
-      "2025年8月，布鲁姆应同事建议为网站添加评论功能，并再次借助ChatGPT快速实现。此时网站已形成活跃社区。2025年10月，沃特·范多恩——一位在企业从事客户服务工作的数学爱好者——在‘问题1102’页面留下首条评论。该问题由埃尔德什于1981年提出，涉及无平方因子整数的性质。2025年11月初，范多恩在未使用AI的情况下，在评论区分享了自己对该问题的进展；当天，另一位用户指出其论证存在漏洞。两人迅速展开讨论，范多恩成功说服对方，后者回复：‘我明白你的论证了，真棒！’——此人正是加州大学洛杉矶分校教授、当今最具影响力的数学家之一陶哲轩。范多恩坦言：‘没有汤姆的网站和评论区，整个合作根本不可能实现。’在这里，职称、年龄、所属机构均不重要，只要有好想法，就能找到合作者。",
-      "但到了2025年12月，情况开始变化。凯文·巴雷托（剑桥大学本科生）与利亚姆·普赖斯（大学未毕业）在AI主题Discord服务器相识。他们尝试将成批埃尔德什问题输入最新AI模型。他们很快发现：若直接告诉GPT-5.2‘这个问题尚无答案’，模型便难有进展；于是他们学会以非常特定的方式提示模型，‘诱导它相信答案存在并值得探索’。"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-      "originalTitle": "Why the Legendary Erdős Problems Are Falling to AI",
-      "publishedAt": "Mon, 03 Aug 2026 15:05:20 +0000",
-      "retrievedAt": "2026-08-04T22:42:32.535Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-04T22:42:24.197Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 71,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How AI Is Cracking a Quirky Mathematician’s Puzzles",
-      "intro": "Decades ago, a strange math genius left behind thousands of unsolved problems — and now AI is starting to solve them.",
-      "paragraphs": [
-        "Paul Erdős was a Hungarian mathematician who traveled constantly — living out of a suitcase for years at a time, staying with friends, owning almost nothing. He posed thousands of questions, often attaching prize money he paid out of pocket. He referred to God as the 'Supreme Fascist' and fueled his output with amphetamines. His problems were often simple to explain but mathematically deep.",
-        "On May 20, 2026, OpenAI announced that an internal AI model had found a counterexample to the 'unit distance' problem — a conjecture Erdős made in 1946. This was the first historically significant proof to come from an AI model. Though not definitive, it was innovative and influential. Then on August 1, OpenAI announced that an unreleased model named Astra made 10 additional mathematical advances, including solutions to three more Erdős problems.",
-        "Thomas Bloom, a British mathematician, gathered Erdős problems into a website — erdosproblems.com — launched in early 2023. He used ChatGPT to write the Python code. By mid-2025, he’d cataloged nearly 1,000 problems and added a commenting function. The site enabled collaboration across backgrounds — professionals, students, and hobbyists alike.",
-        "Wouter van Doorn works in customer service support and had nearly completed a master’s in math a decade earlier. In October 2025, he commented on Problem 1102 — about square-free integers — and shared progress in early November 2025. Terence Tao, a professor at UCLA and one of the most influential mathematicians alive, replied the same day, confirming van Doorn’s argument was correct.",
-        "In December 2025, Kevin Barreto and Liam Price — both in their early 20s — began testing AI models on Erdős problems. They learned to prompt GPT-5.2 in a particular way, 'gaslighting it into thinking the answer already existed', which helped generate proofs no human had yet found."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-04T22:49:15.473Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 30,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-05/2026-08-05-why-the-legendary-erd-s-problems-are-falling-to-.webp",
-      "alt": "数学公式与电路板融合的抽象图",
-      "caption": "AI逐步解决数学难题",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-04-b",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "离开川大后，他在B站讲“量子物理”意外走红",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-04",
-    "intro": "一位理论物理学家离开四川大学后，在B站用白板和马克笔讲量子场论与粒子物理，两个月收获10万粉丝。",
-    "paragraphs": [
-      "50秒。这是理论物理学家李政阳在B站发布的第一条视频时长。镜头里的他面容消瘦，穿着一件灰黑色秋衣，头发像“鸡窝”一样支棱着，身后是一面白墙。怎么看，都不像一个UP主（视频内容创作者）。没人想到，这个看上去与流量毫无关系的人，竟会在短短两个月内收获10万粉丝。更没人想到，就在几个月前，他因基金申请失败、岗位未能续约，离开了四川大学。",
-      "李政阳出生于中国台湾，10岁移民新西兰，一路读到博士，在巴西、印度完成博士后研究，2019年进入四川大学。4月22日，他在B站上传第一条视频，缓慢介绍自己：“Hello大家好，我是李政阳。我是一名物理学家，主要从事量子场论和粒子物理的工作。”他的课程设置极为“硬核”，常从物理学的微观世界讲起，掺杂着大量公式和代数符号；形式一板一眼，话语平铺直叙，没有比喻；唯一的互动是他指向板书位置、注视镜头的讲解动作。弹幕迅速刷出：“观前郑重提醒：up主是真科学家，真博士后，没有玩梗，没有玩梗”“坏了，这不是民科，是真大佬！”有人问他如何入门量子物理，有人和他讨论公式背后的数学细节，还有人一边“自嘲”一边敬畏地围观“大佬”们的讨论。",
-      "为什么要成为UP主？这还要从加入宇算科技说起。2025年，是李政阳在四川大学理论物理中心的第六年；作为助理研究员的他未能申请到新的基金项目，因此不能续约。今年3月，他进入一家科学计算相关的人工智能（AI）公司——宇算科技，尝试将AI应用于理论物理中的计算问题。为推广公司的AI智能体工作空间，他与团队决定在B站科普物理知识，借助智能体工作空间生成的可视化产品，将量子场论与粒子物理进行更通俗化的解释。所谓“通俗化”，是指他每期视频评论区留下的AI可视化图画。没承想，真干起来以后收获了许多回应与肯定。如今，他在重庆居家办公，早晨打开电脑后先看B站评论、回复网友问题，随后处理公司工作，其间照料几个月大的儿子——宝宝以数学概念“李群”命名；傍晚或晚上开始录制新视频。",
-      "研究的起点可以追溯到他在新西兰坎特伯雷大学读博时。当时，他与导师Dharam Vir Ahluwalia提出了一种新的量子场论理论，希望描述一种新的基本粒子形式。但在后续研究中，一个关于旋转对称性的约束问题始终没有得到解决。从博士阶段开始，到后来在川大工作期间，他和导师仍然通过视频通话不断寻找突破的方法。最终，在一次与导师的视频讨论中，他们意识到，问题可能出在理论所包含的自由度不足上。增加相应的自由度后，理论满足了旋转对称性的要求，这个长期困扰他们的问题终于得到了解决。",
-      "目前，李政阳在公司中主要承担首席科学家的工作，他关注的方向之一是利用AI提升费曼图计算的效率。费曼图是粒子物理中描述基本粒子相互作用的重要工具，每一个图形结构都对应着一个数学表达式，用于计算粒子碰撞过程中的概率分布。随着计算精度提高，需要考虑的费曼图数量不断增加，计算复杂度也随之迅速增长。他认为，AI进入理论物理研究，正在改变研究者处理问题的方式：过去靠数学推导和传统计算方法，如今AI为复杂科学计算提供了新可能。他希望利用AI辅助已有理论计算过程，提高效率，并探索其中是否存在新规律。在公司官网上的自我介绍中，他写下一句话：“只有做物理的人才是物理学家。”这句话来自他的导师Ahluwalia。导师曾告诉他，一个人如果顶着物理学家的头衔，却早已不再真正做物理研究，那将不再是物理学家；一旦开始盘算自己要发多少篇文章，他已经不再是一名真正的科学家了。",
-      "李政阳坦言：“我做科研的过程主要是为了自我满足，能把这个结果做出来，我就非常高兴。”在B站视频中，他也秉持着这样一种对真理的“执拗”——极为少见的比喻，大量的原始公式。“我知道有很多好的科普者善于比喻，但这并不适合我，我还是更想保证讲述的正确性。”他告诉《中国科学报》。十几岁时，他曾在图书馆读到一本关于霍金与彭罗斯讨论时间、空间以及量子引力问题的书，当时完全无法理解，但其中的数学符号和物理概念却让他产生了兴趣，也因此走入了物理世界。如今，他希望通过自己的视频，让更多年轻人也能够接触这些知识。就像他在视频《场的运动方程》中所说：“我这里讲的这些内容，我相信很多同学其实看不懂，我把这些东西讲出来，目的也不是让你们真正地理解这些知识，只是告诉你们这些知识存在，以便未来进一步学习。”"
-    ],
-    "topics": [
-      "物理与量子",
-      "教育与传播"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569265.shtm",
-      "originalTitle": "离开川大后，他在B站讲“量子物理”意外走红",
-      "publishedAt": "2026-08-03 20:20",
-      "retrievedAt": "2026-08-03T22:23:48.640Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:23:46.929Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Physicist Left Sichuan University. Then He Went Viral on Bilibili.",
-      "intro": "After losing his academic position, a theoretical physicist began sharing quantum physics on Bilibili—and unexpectedly gained 100,000 fans in two months.",
-      "paragraphs": [
-        "Li Zhengyang's first Bilibili video was 50 seconds long. He looked thin, wore a grey-black autumn top, and had messy hair like a 'bird's nest'. Behind him was a plain white wall. He did not look like a typical online creator. The video quickly gained millions of views.",
-        "On April 22, he introduced himself: 'Hello everyone, I am Li Zhengyang. I am a physicist, working on quantum field theory and particle physics.' He shared his background: born in Taiwan, moved to New Zealand at age ten, earned a PhD, completed postdoctoral research in Brazil and India, and joined Sichuan University in 2019. His videos featured heavy use of formulas and algebraic symbols. He used no metaphors.",
-        "He wrote formulas on a whiteboard. His delivery was straightforward and unembellished. Viewers called it 'anti-internet'. Comments poured in: people asked how to start learning quantum physics. Others discussed mathematical details. His eight-month-old son—named 'Li Group' after a math concept—sometimes made baby sounds during recordings.",
-        "His popularity surprised him. He said he felt 'overwhelmed with gratitude'. He compared his sudden fame to that of mathematician Wei Dongyi. His wife Zhou Siyi, an associate professor at Chongqing University's School of Physics, commented on his videos using her account 'String Theory World'.",
-        "In 2025, after six years at Sichuan University, he failed to secure a new research fund. His contract was not renewed. In March 2025, he joined Yusan Technology, an AI company focused on scientific computing. To promote its AI-powered workspace, he began making physics videos on Bilibili. He used AI-generated visualizations to explain quantum field theory and particle physics.",
-        "For ten years, he worked on a new quantum field theory with his advisor Dharam Vir Ahluwalia. They started it during his PhD at the University of Canterbury in New Zealand. A rotational symmetry problem remained unsolved until they realized the theory lacked sufficient degrees of freedom. After adding them, the problem was resolved. His advisor died before the paper was formally published.",
-        "He now works from home in Chongqing. Each day, he checks Bilibili comments and replies to questions. Then he handles company tasks. He cares for his infant son. He records new videos in the evening or at dusk. He says he is not highly scheduled. He works 'by mood'. He believes: 'Only those who do physics are physicists.' That phrase came from his advisor. His advisor said one stops being a physicist when they stop doing physics. He does research for personal fulfillment. As a teenager, he read a book about Hawking and Penrose. He could not understand it. But the math symbols fascinated him. Now he hopes his videos help young people discover physics."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-03T22:35:58.937Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
         "correctionCount": 8,
         "attempts": 2
       }
