@@ -1,5 +1,187 @@
 [
   {
+    "slug": "2026-08-23-how-to-lessen-your-pet-s-impacts-on-the-planet",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "怎样养宠物，才能少伤害地球？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-23",
+    "intro": "宠物陪伴我们，也会给地球留下痕迹；科学家从食物、便便和来源上给出了更环保的养宠办法。",
+    "paragraphs": [
+      "英国兽医约翰·哈维在英格兰德文郡执业时，所在诊所正设法降低碳足迹——比如换装节能灯泡。这让他开始思考：宠物对地球的影响有多大？2024年，他启动狗粮环境影响研究；如今他是爱丁堡大学和埃克塞特大学的研究员。所谓碳足迹，指生产某物过程中排放的温室气体总量，这些气体会加剧气候变化。",
+      "哈维团队分析了近1000种狗粮，计算每种在生产过程中产生的温室气体排放量。结果发现，湿粮和生肉粮排放最高：湿粮因使用金属罐包装，制造耗能高；生肉粮含肉比例更高，还需冷链运输与储存。肉类来源也至关重要——牛肉和羊肉排放远高于鸡肉或鱼肉；而用人类食品工业中原本会被丢弃的内脏（如肝、肾）制作狗粮，则能减少牲畜养殖及资源消耗。研究中环境影响最大的狗粮，其排放量是最小者的65倍。作为对比，高肉饮食的人类食谱排放量仅为植物性饮食的2.5倍。哈维指出，狗粮选择存在‘相当大的改善机会’。具体建议包括：优先选干粮；避开含牛肉或羊肉的配方；不选‘人用级’肉源或标榜‘无谷物’的产品（后者额外添加的肉类并非健康必需）；避免过量喂食；选择体型较小的犬种——它们食量更少，整体生态足迹更小。",
+      "狗粮之外，狗粪处理同样关键。澳大利亚环境科学家艾米丽·布莱森指出，露天狗粪中的营养物质会渗入水体，还可能携带致病菌和寄生虫。使用塑料捡屎袋会产生温室气体，而填埋后粪便分解也会持续释放气体。她提出家庭堆肥方案：研究证实，狗粪可在家庭堆肥系统中有效分解，病原体死亡，养分转化为植物可吸收形态。但需注意，市售‘可堆肥袋’在家庭堆肥中9.5个月内未能完全降解，反而碎裂为污染性微塑料；且多数此类袋子由化石燃料基塑料制成。她建议直接用铲具将粪便送入堆肥箱，或用报纸等可完全生物降解的纸制品承接——例如纽约市部分堆肥点已采用此法，最终成品用于公园绿化施肥。",
+      "猫的情况有所不同。美国约有7600万只家猫；干粮、不含牛肉或羊肉的猫粮同样更环保，且因食量小于狗，其食物碳足迹本身更小。但猫对野生动物影响显著：红外相机显示，猫活动过的庭院及公园区域，鸟类和小型哺乳动物当日甚至次日均会回避——因猫尿液、粪便及脱落毛发留下的捕食者气味引发应激反应，迫使它们耗费更多能量警戒与迁徙。更严峻的是捕杀数据：美国境内猫每年导致多达40亿只鸟和200亿只哺乳动物死亡；全球范围内，猫已被关联至63个物种灭绝事件，涵盖鸟类、爬行类与哺乳类。因此研究者强烈建议将猫养在室内，或使用完全封闭式户外猫舍——此举既保护野生动物，也保障猫自身免受疾病、天敌、车祸或走失风险。猫砂亦需审慎选择：传统膨润土猫砂开采会破坏自然栖息地；已有替代品如大豆豆壳、废弃橄榄核等有机废料制成的猫砂。另须牢记：切勿将猫粪冲入马桶——其中弓形虫等寄生虫可耐受污水处理流程，进入水体后感染并致死海豚等海洋生物。",
+      "异宠饲养同样关乎生态。澳大利亚墨尔本大学动物学家爱丽丝·休斯自幼饲养青蛙、豹纹守宫与玉米蛇，现专研野生捕获宠物对生态的影响。数据显示，全美约240万户家庭饲养爬行动物，其最大环境影响取决于来源：野外捕捉会削弱野生种群，甚至导致局部灭绝；而人工繁育个体则压力小得多。休斯指出，针对活体野生动物跨境贸易的监管，长期聚焦于濒危物种名录，却极少追踪非名录物种的采集规模与生态后果。因此，选择宠物时，‘它从哪里来’与‘吃什么’同等重要。"
+    ],
+    "topics": [
+      "生命与演化",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/greener-pets-less-impact-environment",
+      "originalTitle": "How to lessen your pet’s impacts on the planet",
+      "publishedAt": "Thu, 20 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-22T21:41:58.368Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-22T21:41:56.629Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How to Make Your Pet More Planet-Friendly",
+      "intro": "Pets are family, but they leave a footprint. Small changes can make it lighter.",
+      "paragraphs": [
+        "A veterinarian in Devon, England, asked a simple question: How much do pets impact the planet? John Harvey worked at a clinic there. His team installed energy-efficient light bulbs. That got him thinking about animals. In 2024, he began studying how different types of dog food affect the planet. Now he is a researcher at the University of Edinburgh in Scotland and the University of Exeter in England.",
+        "Dog food is the biggest single impact a dog has on the planet, Harvey says. His team analyzed nearly 1,000 types of dog food to calculate greenhouse gas emissions linked with making each one. Wet and raw dog foods had the highest emissions. Wet food’s footprint was high because it comes in metal cans, which take a lot of energy and resources to make. Raw dog food contains more meat than other types and needs energy to stay cold. The dog food with the largest footprint released 65 times more emissions than the greenest food. For people, a high-meat diet produces 2.5 times the emissions of a plant-based diet.",
+        "Choose dry food. Skip the lamb and beef. Don’t feed your dog human-grade meat or grain-free food. The extra meat in grain-free food isn’t needed for a dog’s health, Harvey says. Be careful not to overfeed — that is unhealthy for both your dog and the planet. When choosing a new dog, consider a small one; they’ll eat less and have a smaller overall footprint.",
+        "Poop left outdoors can pollute land and water. It may contain disease-causing germs or parasites. Responsible dog owners pick up pet waste. But plastic bags used for pickup create greenhouse gases, and dog poop decaying in landfills does too. Emily Bryson, an environmental scientist at Central Queensland University in Wayville, Australia, says dog poop is a valuable resource — if treated safely. Her research shows home composting can transform nutrients in dog poop into forms plants can use as fertilizer. Compostable bags break down into microplastics, so Bryson suggests scooping poop directly into the bin — or using paper, like newspaper. In some sites in New York City, people use newspaper to pick up and toss poop into a compost tumbler. The finished compost fertilizes park plantings.",
+        "Cats eat less than most dogs, so their diet’s carbon pawprint is smaller. But outdoor cats harm wildlife in other ways. Environmental scientist Loren Fardell found wildlife avoided spots cats had visited — even the day before. Cats leave scents in urine, feces and shed fur that stress birds and small mammals. Cats kill up to 4 billion birds and 20 billion mammals each year in the United States. Experts say keep cats indoors or use fully enclosed outdoor cat runs. Indoor cats use litter boxes. Some kitty litter uses absorbent clay mined from natural habitats. Researchers found discarded organic material — such as soybean hulls — is a good alternative. Some companies sell litter made from olive pits. Never flush cat poop. It can contain parasites that survive wastewater treatment and later infect and kill wild animals, such as dolphins.",
+        "Some 2.4 million U.S. households nurture pet reptiles. Their biggest environmental impact traces to whether they were wild-caught or bred in captivity. Taking animals from the wild can weaken populations or even cause extinctions. Zoologist Alice Hughes, at the University of Melbourne in Australia, studies this impact. She says choosing pets bred in captivity helps protect wild populations. Pets bring joy and comfort. Smart choices can protect the planet at the same time."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-22T21:53:39.989Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 42,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-23/2026-08-23-how-to-lessen-your-pet-s-impacts-on-the-planet.webp",
+      "alt": "Cat and dog on grass with globe background",
+      "caption": "宠物与地球的和谐共存",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-23-building-a-quantum-computer-one-fragile-qubit-at",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "构建量子计算机，一次一个脆弱的量子比特",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-23",
+    "intro": "未来量子计算机要靠哪种技术造出来，还没有人知道；但这场竞赛，已经造出了科学中最精密的机器。",
+    "paragraphs": [
+      "今天几乎所有电脑，从洗碗机里那个便宜的微控制器，到帮人工智能算数据的高端硬件，靠的都是同一种技术：硅片上刻着密密麻麻的微型晶体管。它们能又快又稳地在0和1两个状态之间切换，从而存储和处理信息。量子计算机则有可能超越这种只有0和1的方式，用全新的办法处理信息，解决一些传统计算机做起来太困难的问题。可是，要造出一台足够强大的量子计算机，至今仍是一个巨大的挑战。",
+      "量子计算机的算力来自它最基本的零件——量子比特。和只能表示0或1的普通比特不一样，量子比特能表现出‘叠加’和‘纠缠’这些奇妙现象，正是这些现象给了它额外的计算能力。但这些量子效应非常脆弱，很容易被量子比特与周围环境的偶然相互作用所破坏。每一种量子比特技术都在尝试平衡两个难以兼得的要求：既要让量子比特充分隔绝外界干扰，又要便于研究人员操控。",
+      "有些研究者把赌注押在天然的原子上。要把一个原子变成量子比特，先要把它隔离并捕获在真空室中。具体做法分为两种：在‘囚禁离子’量子计算中，研究人员使原子失去一个电子，形成带正电的离子，并用电场将其固定；另一种方法使用被称为‘光镊’的紧密聚焦激光束阵列来捕获中性原子。",
+      "还有一条重要路线是超导量子计算，它采用人工设计的量子比特。研究人员利用改良的经典芯片微加工工艺，在硅晶圆上制作由铝、铌等金属构成的微小电路；当冷却至极低温时，这些电路成为超导体，并可作为量子比特使用。这类电路被安置在名为‘稀释制冷机’的特殊低温系统中。此外，其他量子比特候选方案还包括电子自旋、光子，以及更奇特的量子系统。",
+      "扩大规模是从小型原型迈向大型系统所面临的最大挑战之一。仅制造少量优质量子比特是不够的；按最乐观估计，最终至少需要数万个量子比特，甚至可能达百万量级。更多量子比特也意味着更大、更复杂的控制与测量系统。",
+      "这场竞赛已催生许多令人惊叹的装置：牛津大学实验室于2017年拍摄的照片显示，一个锶离子被电场约束在真空室中两根针尖之间约2毫米区域；加州理工学院研究人员在2025年发表论文，报告在直径1毫米的光镊阵列中成功捕获并独立操控6100个铯原子；IBM在纽约州奥尔巴尼的洁净室内，按‘夜鹰’（Nighthawk）设计制造了每块含120个量子比特的超导芯片。目前尚无法判断哪条技术路线将最终胜出，但这些努力本身已展现出人类为构建可靠量子计算机所达到的工程精度。"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
+      "originalTitle": "Building a Quantum Computer, One Fragile Qubit at a Time",
+      "publishedAt": "Wed, 19 Aug 2026 14:16:03 +0000",
+      "retrievedAt": "2026-08-22T21:43:37.196Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-22T21:43:30.523Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Quantum Computers: Tiny Qubits, Big Challenge",
+      "intro": "Scientists are racing to build quantum computers, but every approach faces the same huge challenge.",
+      "paragraphs": [
+        "Almost every computer we use works the same way. Tiny switches called transistors store information as 1s and 0s. Quantum computers could go beyond this. They use qubits, which can act in strange quantum ways like superposition and entanglement. But qubits are very fragile. They break easily when disturbed by stray interactions with the surrounding environment.",
+        "To build a qubit, researchers need two things at once. Qubits must be isolated from outside disturbances, but easy for researchers to manipulate. That balance is hard to get right. Different teams are trying different physical systems. Some use single atoms as qubits.",
+        "One approach uses trapped ions. Scientists knock one electron off each atom to get positively charged ions that can be held in place by electric fields. Another approach uses neutral atoms. Arrays of tightly focused laser beams — called optical tweezers — trap them. There is also a very different plan. Superconducting circuits made of metals like aluminum and niobium become qubits when cooled to very low temperatures inside dilution refrigerators.",
+        "Every approach faces a scaling problem. It is not enough to make a few good qubits. Researchers will ultimately need at least tens of thousands, by even the most optimistic estimates, and perhaps even millions. More qubits also mean larger and more complex control and measurement systems. While it’s too early to say which technology, if any, will win out, all require ambitious engineering.",
+        "The machines are already intricate. One photo shows a single strontium ion suspended in a vacuum chamber, confined to a 2-millimeter region by electric fields. Another shows atoms arranged into a shape modeled after the Eiffel Tower. In a paper published in 2025, researchers at the California Institute of Technology trapped 6,100 individually controlled cesium atoms in an optical tweezer array 1 millimeter in diameter. They showed those qubits had long coherence times — a prerequisite for quantum computing — but they didn’t do any computations."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-22T21:52:34.242Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 27,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-23/2026-08-23-building-a-quantum-computer-one-fragile-qubit-at.webp",
+      "alt": "Glowing sphere on thin structure",
+      "caption": "量子比特的精密构建",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-23-p6sn24",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "学者蒙曼：湖南沅陵是扣住大西南的“文化纽扣”",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-23",
+    "intro": "湖南有个地方叫沅陵，在学者蒙曼口中，它是一颗‘扣住大西南的文化纽扣’。",
+    "paragraphs": [
+      "你注意过衣服上的纽扣吗？它小小的，却很重要。如果没有它，衣服的两片前襟就合不到一起，风会灌进来，衣服也没法穿。可以说，纽扣是让一件衣服成立的关键。学者蒙曼在谈到湖南沅陵时，就用了一个纽扣的比喻。",
+      "这个说法听起来很新鲜。我们先来拆解一下。大西南，指的是中国西南方向的一大片区域。而沅陵，是湖南的一个县。在蒙曼看来，它刚好处在湖南和大西南之间，就像一件衣服上，两片衣襟交汇的位置。",
+      "不过，蒙曼说的是‘文化纽扣’，不是普通纽扣。这意味着，沅陵扣住的不是布，而是文化。文化听起来很抽象，但其实就是人们怎么说话、怎么吃饭、怎么过节、怎么待人接物。在沅陵这个地方，湖南的文化和西南的文化碰面了。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682461.shtml",
+      "originalTitle": "学者蒙曼：湖南沅陵是扣住大西南的“文化纽扣”",
+      "publishedAt": "Sat, 22 Aug 2026 20:50:31 +0800",
+      "retrievedAt": "2026-08-22T21:51:42.523Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-22T21:51:40.997Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-08-22-humans-have-used-fire-far-longer-than-anyone-rea",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "南非奇迹洞烧焦骨头，将人类用火史推至约180万年前",
@@ -3240,170 +3422,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-08-07-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从“图片仅供参考”到“图片纯属虚构”，AI模特该好好管管了",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-07",
-    "intro": "当商品图片里的模特不再是真人，而是AI虚构出来的形象，消费者的知情权该由谁来保护？",
-    "paragraphs": [
-      "在网上买东西，我们总会看到商品照片旁边有一行小字：图片仅供参考。这句话的意思是，照片和实物之间可能有差距，你得有点心理准备。可如今，情况变得更复杂了——照片里展示商品的“人”，可能根本不是真人，而是AI生成出来的虚拟形象。从“仅供参考”到“纯属虚构”，图片和真实之间的距离，一下子被拉大了。",
-      "AI模特为什么会出现？对商家来说，好处很明显：请模特、租场地、做拍摄，成本高、周期长。而AI可以在几分钟里生成无数张照片，姿势、服装、背景都能随时调整，甚至做到完美无瑕。但便利的另一面是，消费者看到的“效果图”，可能从来没有穿在任何真人身上过。衣服的版型、质感，以及穿在身上的真实状态，都被巧妙地藏了起来。",
-      "这意味着什么？首先，消费者被误导的风险变大了。一张AI模特图，可能让一件普通衣服看起来特别有型，等你买回家才发现完全不是那么回事。其次，这些虚构的完美形象，也在悄悄影响我们对“真实”的判断。AI模特的脸、身材和皮肤，往往经过精心设计，接近一种不自然的完美。看多了这种图片，我们可能会误以为那是正常标准，甚至对自己和他人产生不必要的不满。",
-      "正因如此，越来越多的人呼吁，AI模特该管一管了。具体怎么管？一个基本的方向是：如果图片是由AI生成的，就应该明确标注出来，让消费者知道眼前这个“人”并不存在，图片展示的效果是虚构的。同时，平台和商家不能借助AI生成图片逃避对商品真实性的责任。技术可以进步，但基本的诚实和透明不该丢。",
-      "AI模特本身并不可怕，它是技术发展的一种应用。真正值得警惕的，是技术悄悄模糊了真实和虚构的边界，而我们却没有足够的能力去分辨。"
-    ],
-    "topics": [
-      "AI虚拟模特",
-      "广告伦理",
-      "消费者权益"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-06/10673146.shtml",
-      "originalTitle": "从“图片仅供参考”到“图片纯属虚构”，AI模特该好好管管了",
-      "publishedAt": "Thu, 6 Aug 2026 19:32:46 +0800",
-      "retrievedAt": "2026-08-07T01:18:08.887Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-07T01:18:05.910Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 3,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-06-scientists-made-clocks-from-an-atomic-nucleus",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家第一次用原子核做成了钟",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-06",
-    "intro": "人类最准的钟一直靠原子，现在科学家第一次让原子核来“滴答”。",
-    "paragraphs": [
-      "科学家第一次用原子核做成了一台钟。钟要守住稳定节奏，就像落地钟里摆动的钟摆。目前全世界最准的钟，靠的是原子，但用的是原子外围的电子；这次科学家换成了原子中心的原子核。",
-      "这个技术才刚刚起步，核钟现在还没有比原子钟更准。但两个团队已经造出了第一批核钟，并且开始了新探测。其中一个团队用核钟寻找暗物质——一种占据宇宙很大比重、却还没被直接发现的东西。他们没有找到暗物质，但对某些类型的暗物质，这台核钟的敏感度已经超过了原子钟。参与研究的物理学家说：‘我们已经比所有原子钟都强。’另一位没参与研究的理论物理学家评价：这是非常出色的结果，建造超级精确核钟的比赛才刚刚开始。需要说明的是，两篇论文目前都还没有经过同行评审。",
-      "核钟的核心，是氟化钙晶体里嵌进去的放射性同位素钍-229。在整个元素周期表里，只有钍-229的原子核能用来做钟。科学家用激光照射它，激光电磁波的摆动就像钟摆；钍核的作用，是确保激光的频率不跑偏，这样钟的“滴答”就不会忽快忽慢。",
-      "这背后的原理是量子物理。原子核只能处在特定的能量水平上，从一个能级跳到另一个特定能级，需要的能量是固定的。只有频率正好合适的光，才能让钍-229的原子核完成这次跃迁。科学家就利用这个跃迁，一遍遍把激光调整回正确频率，让钟稳稳地走。以前人们已经很接近核钟，但这一步调整从来没实现过。一位德国物理学家说，这是把核钟叫做‘真正的钟’之前最后一块缺失的拼图。",
-      "和原子钟相比，核钟不容易被杂散电磁场干扰，还能做成固体；原子钟里的原子必须悬在笨重的真空腔里。更重要的是，原子核和电子感受的力不同：电子主要受电磁力，而质子和中子是被强核力束缚在一起的。比较两种钟，可以检验大自然的基本常数是否真的永远不变。钍核钟的想法差不多二十五年前就有人提出，最初的进展很慢，近几年突然加速。一位当年提出这个想法的物理学家说，大量有趣的研究，现在才刚刚开始。"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/first-atomic-nuclear-clock",
-      "originalTitle": "Scientists made clocks from an atomic nucleus",
-      "publishedAt": "Wed, 05 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-05T22:29:46.112Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-05T22:29:43.957Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Clock Inside an Atom's Core",
-      "intro": "Scientists have finally turned the heart of an atom—its nucleus—into a ticking clock.",
-      "paragraphs": [
-        "Every clock needs a steady beat. Think of a grandfather clock's swinging pendulum. In this new clock, the 'pendulum' is a laser beam. The laser's light waves wiggle at a constant pace. Thorium-229's nucleus keeps that wiggle from changing, so the ticks stay steady.",
-        "Most precise clocks today are atomic clocks. They use electrons to keep time. The new nuclear clock goes deeper. It uses the atom's nucleus, packed with protons and neutrons. Only thorium-229's nucleus can be used this way. Scientists fired a laser at crystals of calcium fluoride containing thorium-229. They locked the laser's frequency to a jump between two energy levels in the thorium nucleus. That jump always takes the same amount of energy, so the clock ticks steadily.",
-        "Researchers had tried this before but missed a crucial step. They needed to constantly readjust the laser using the nuclear energy jump. Two teams finally managed that readjustment loop. 'This was the final missing step before calling it an actual clock,' says Lars von der Wense. Without it, the laser would drift and the clock would not function as a true clock.",
-        "These early nuclear clocks are not yet more accurate than atomic ones. But they already show advantages. One team used their clock to search for dark matter. They didn't find it, but the clock was more sensitive to some types than atomic clocks. 'We're already outperforming all of the atomic clocks,' reports Thorsten Schumm. Nuclear clocks could also be more portable and robust. They don’t need atoms suspended in a vacuum chamber. And because nuclei respond to the strong nuclear force—not just electromagnetic forces—they offer new ways to test whether fundamental constants change over time.",
-        "So the race is on. After nearly a quarter century of effort, scientists are building super-accurate nuclear clocks. 'The race for building super-accurate nuclear clocks just started,' says Victor Flambaum. 'This is only the first step.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-05T22:38:02.269Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-06/2026-08-06-scientists-made-clocks-from-an-atomic-nucleus.webp",
-      "alt": "Abstract nucleus with clock-like orbits in gray tones",
-      "caption": "原子核的滴答，时间的边界。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-06-how-to-give-everyday-people-a-say-in-ai-governan",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI越强大，越该听听普通人的声音",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-06",
-    "intro": "AI可能比工业革命更快地改变世界，可决定它方向的人里几乎没有普通人。政治理论学者埃莱娜·朗德摩尔在《Noema》杂志上提出：用AI平台本身，让全球普通人发声。",
-    "paragraphs": [
-      "2026年7月，200多位经济学家和AI研究人员——其中包括17位诺贝尔奖得主——签署了一份题为《我们必须立即行动》的四句话声明。声明警告：‘AI可能在十年内变得远比现在强大’，引发的变革规模可能超过工业革命，但时间进程却短得多，伴随大规模失业等风险；并呼吁经济学家、政策制定者和科技领袖立刻行动，建立激励机制、监管框架和制度，引导AI增强人类能力、造福社会。",
-      "耶鲁大学与牛津大学政治学教授埃莱娜·朗德摩尔指出，这份声明真正引人注目的是它遗漏了谁：普通人。声明只召集经济学家、政策制定者和科技领袖；社会仅作为‘受益者’出现一次，而非决策参与者。她指出，两篇广受关注的预测文章——2025年4月发布的《AI 2027》和2026年6月发布的《欧洲2031》——同样将公众视为需被精英保护的对象，或仅需动员支持既定方案的观众；两文均未询问普通人对AI的真实期待，也未提出了解其意愿的方法。",
-      "朗德摩尔认为，我们可能没有几年时间组织长期 deliberative 过程，因此应立即启动全球在线公共咨询。可行路径在于利用已具超大规模触达能力的AI平台：OpenAI称ChatGPT于2026年2月有9亿周活用户，6月突破10亿月活；Google Gemini同期从4亿增至超9亿月活；Meta AI亦于2026年5月宣布达10亿月活。没有任何政府、媒体或国际组织曾拥有如此广泛、实时、双向的人类连接能力。可在同一周内，通过这些平台向全球普通人提问：‘你希望这项技术为你做什么（如果有的话）？它永远不该被允许做什么？该由谁来治理这项技术，依据什么原则？’",
-      "但她同时强调，AI模型并非中立工具。《经济学人》2026年6月一项调查对比25个前沿AI模型与《世界价值观调查》（覆盖88国）中普通人的价值观，发现这些模型常比各国平均受访者更极端——有些比地球上任何社会都更世俗或更个人主义，并倾向于压缩全球道德多样性。若未经校准直接用此类模型汇总民意，所得‘全球共识’可能仅代表某一狭窄文化视角。因此她主张采用三层混合方案：第一层是AI辅助的全球咨询，数月内产出初步草案，并按地区拆解结果（如西方侧重个体数据隐私与预防性限制，非洲与印度更强调数据主权与发展优先），避免以虚假共识掩盖真实分歧；第二层是真人实时在线对话的全球审议，由AI担任协调助手，检验、修正并丰富第一层结论；第三层是在各国各地举办线上线下公民大会与公投，最终汇入一场全球公民大会予以审议、修订或取代前两层成果。",
-      "朗德摩尔指出，当前最有可能实际推动这场全球审议的，或许不是民选领导人，而是正在构建AI的公司负责人。她特别致信Anthropic CEO达里奥·阿莫代：‘你们自己的研究人员已在2023年证明，第一层方案可行且可扩展。’而迈出第一步的关键，在于让掌握权力者真正承诺并投入资源——‘把钱花在嘴上说的地方’。AI越强大，它的未来越不该由少数人独自书写。"
-    ],
-    "topics": [
-      "哲学与思想",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Noema",
-      "region": "international",
-      "url": "https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance",
-      "originalTitle": "How To Give Everyday People A Say In AI Governance",
-      "publishedAt": "Tue, 04 Aug 2026 13:01:54 +0000",
-      "retrievedAt": "2026-08-05T22:31:46.948Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-05T22:31:41.118Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-06/2026-08-06-how-to-give-everyday-people-a-say-in-ai-governan.webp",
-      "alt": "Abstract human silhouette before a network globe",
-      "caption": "让普通人发声，AI才更可信。",
-      "kind": "editorial"
     }
   }
 ]
