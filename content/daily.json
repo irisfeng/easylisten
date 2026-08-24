@@ -1,5 +1,228 @@
 [
   {
+    "slug": "2026-08-25-a-new-framework-for-how-the-brain-compresses-our",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "大脑如何压缩嘈杂世界？新框架：预测，而非归档",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-25",
+    "intro": "两位神经科学家提出新观点：大脑不是被动归档感觉的“文件柜”，而是一台为生存而预测的引擎。",
+    "paragraphs": [
+      "你有没有过这样的经历？走在安静的街上，突然听到一阵急促的啪嗒声——你扭头一看，原来是一只鸽子扑棱棱飞起来。可如果是深夜走进一条昏暗的小巷，同样的声音，你会觉得是陌生人的脚步声。同一个声音，为什么大脑会给出完全不同的判断？这背后，是大脑压缩世界的方式。",
+      "我们每时每刻都被海量感觉包围：光线进入眼睛，声波撞击耳膜，气味分子钻进鼻子，化学物质接触味蕾，压力和热量激活皮肤神经末梢。大脑必须做大量的数据压缩，才能把混乱、嘈杂、信息丰富的世界，变成我们能理解、能应对的对象、人、概念和情绪。传统神经科学认为，分类发生在感觉处理的最后一步：大脑被动接收感官细节，再解码特征，然后像翻神经文件柜一样，与记忆中存储的模板匹配。",
+      "两位著名神经科学家——美国东北大学的丽莎·费尔德曼·巴雷特和麻省理工学院的厄尔·米勒——在《自然·神经科学评论》上合作提出新框架。他们描述大脑如何‘持续重构其类别’，不仅依据感官和记忆，还依据身体的即时生理需求。米勒指出：‘你的脑必须不断对接下来几秒会发生什么做出预测，因为它得滤掉大部分传入的感觉信息——它无法全部处理，所以主要寻找与预测不匹配的东西，因为那才更有信息量。’",
+      "新框架最反直觉的地方在于：我们通常以为，分类反映的是客观现实；但研究者指出，大脑是根据身体的生存需要，把类别‘投射’到世界上。甚至在我们意识到感官印象之前，大脑已在准备让身体做出维持能量资源的行为——这些资源驱动着我们的生理系统。因此，大脑的预测，而非感官信息的累积，最终塑造并限制了我们如何分类世界中的对象与特征。情绪如‘恐惧’‘高兴’‘愤怒’，在该框架中被视为预测性‘行动计划’：例如被狗追赶时，心跳加快、呼吸急促、肌肉紧张等身体状态，在该情境下被归类为‘恐惧’，以启动战斗或逃跑行为。巴雷特的研究表明，情绪类别并非天生硬连线，而是大脑结合内部身体信号与外部情境动态构建的。",
+      "巴雷特定义：‘类别是在特定情境中，不同事物被当作相似或等同的事件。’类别可以很基础，如‘食物’‘威胁’‘伴侣’；人类还能形成高度抽象的类别，如‘正义’‘真理’‘美’。一个‘苹果’的类别，不仅包含光滑、圆形、红色、手掌大小等物理特征，还包括一套行为策略：‘适合吃’或‘腐烂时扔掉’。分类的功能，是利用类似过去情境的经验，实施能维持身体系统功能的行为。传统观点认为，我们通过积累特征（如尾巴、耳朵、毛发）来形成‘猫’这类别；而新观点强调：大脑在感官尚未识别出传统类别前，就已调用相似过往情境的记忆，预测出当前最恰当的行为。",
+      "想象你走着走着，腿上被刮了一下。如果身处安全环境且心情平静，你可能毫不在意。但如果正穿行于陌生之地的高草丛中，心跳和呼吸已加快——这一下刮擦可能立刻触发警觉：它不再是普通触碰，而可能意味着危险。同样感觉信号，因情境与身体预测不同，被归入不同类别。这就是大脑压缩世界的方式：它不追求复刻现实，而是用预测与分类，让你在复杂世界中快速存活。"
+    ],
+    "topics": [
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
+      "originalTitle": "A New Framework for How the Brain Compresses Our Noisy World",
+      "publishedAt": "Mon, 24 Aug 2026 14:00:55 +0000",
+      "retrievedAt": "2026-08-24T21:48:27.141Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T21:48:24.667Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 6,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A New Framework for How the Brain Compresses Our Noisy World",
+      "intro": "Two neuroscientists have proposed a new way to understand how the brain sorts our messy sensory world into categories.",
+      "paragraphs": [
+        "Every moment of our lives, our bodies are awash in sensory signals. Photons hit our retinas. Waves of compressed air collide with our eardrums. Volatile molecules bind to receptors in our nostrils. Chemicals slather our taste buds. Pressure and heat activate nerve endings in our skin. We are able to navigate this torrent because the brain does an enormous amount of data compression. Through categorization, the brain turns the messy, noisy, information-rich world into objects, people, concepts, and emotions. We can understand and act on them at the level of experience.",
+        "In neuroscience’s traditional view, categorization happens at the very end of sensory processing. The brain passively receives sensory details. Then it decodes their features. It matches them to stored templates in memory. This is like a clerk shuffling through a neural filing cabinet. But this approach struggles to account for the extraordinary flexibility in how we assign labels to features of the world. On a clear day on an open street, a sudden rhythmic patter is a pigeon taking flight. At night in a dimly lit alley, the same sound is the shuffle of a stranger’s footsteps. How can the brain categorize similar sensory signals in radically different ways?",
+        "Lisa Feldman Barrett studies emotion at Northeastern University. Earl Miller studies goal-directed behavior at MIT. They collaborated on a new view of categorization. They describe how the brain constantly reconstructs its categories moment to moment. This depends not only on senses and memory, but on the body’s immediate physiological needs. Their framework holds a counterintuitive insight. While we may think categories reflect objective reality, the brain projects them in response to survival needs. Before we are even aware of sensory impressions, the brain prepares the body. It does so to maintain energetic resources that power our physiological systems.",
+        "The brain’s predictions — not the cumulative effects of sensory information — shape and limit how we categorize. This fits with predictive coding. Predictive coding regards perceptions as products of the brain’s predictions. It does not build scenes from passive sensory input. Your brain constantly makes predictions about the next few seconds. It filters out most incoming sensory information. It cannot process it all. So it mainly looks for mismatches with predictions. These mismatches are more informative. When sensory signals violate your predictive model, they might enter conscious experience as surprise. Categorization does not happen in one brain area. It happens across the entire organ and beyond. Neuroscientists must look all over the nervous system, from head to toe.",
+        "A category is an event in which different things are treated as similar or equivalent in a particular situation. The function of categorization is to use past experiences that resemble a new situation. This helps implement behaviors that keep our bodily systems functioning. The category 'apple' includes physical features: smooth, round, red, palm-size. It also includes behavioral policies: 'good for eating' or 'throw out when rotten.' The reason for categorization is to support the current task. You categorize something according to what meaning it has for you."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T22:00:53.683Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-25/2026-08-25-a-new-framework-for-how-the-brain-compresses-our.webp",
+      "alt": "抽象大脑由碎片聚拢成漩涡",
+      "caption": "大脑压缩与预测的抽象示意",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-25-scientists-say-midden",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "古代垃圾堆里藏着祖先的生活密码",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-25",
+    "intro": "考古学家不只挖宝，更爱翻古人的垃圾堆——这种叫‘midden’的遗址，既是厨房废料堆，也是动物储物仓，更是穿越千年的信息库。",
+    "paragraphs": [
+      "你有没有想过，古人吃完饭扔掉的贝壳、碎陶片、断掉的工具，其实不是废物，而是一封写给未来的信？科学家管这种堆积如山的古代垃圾堆叫‘midden’，读作‘米登’。它指的是人类在居住地长期丢弃食物残渣和生活废料形成的土堆，比如海边村落里堆满蛤蜊壳和贻贝壳的角落。",
+      "这些看似脏乱的垃圾堆，对考古学家来说却像打开了一本立体日记。比如，一个贝壳堆积层能告诉我们：当时的人主要吃什么、大概有多少人住在村里、是不是用工具敲开贝壳。贝壳中渗出的钙质让土壤酸性降低，帮助保存骨头、鱼鳞等生物材料。脆弱的骨制工具如果被丢进这样的堆里，反而更容易完整留存下来。",
+      "有趣的是，‘midden’这个词也用在动物身上。松鼠会把食物藏进地洞，老鼠更特别：它们收集碎布、种子、小珠子甚至人类丢弃的垃圾，并往堆里撒尿——尿液干后变成一层硬壳状物质，叫‘amberat’（琥珀质），能防水并帮助保存所藏物品。",
+      "因为老鼠自古就和人类住在一起，它们囤积的东西里，有时混着人类掉落的陶片、织物纤维或谷粒。化石化的老鼠垃圾堆，也能为考古学家提供关于古代人类社会的线索。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/scientists-say-midden-definition-pronunciation",
+      "originalTitle": "Scientists Say: Midden",
+      "publishedAt": "Mon, 24 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-24T21:50:17.494Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T21:50:16.235Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 13,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-25/2026-08-25-scientists-say-midden.webp",
+      "alt": "古代垃圾堆分层剖面图",
+      "caption": "垃圾堆中的历史层积",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-25-yx6w2l",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "西藏类乌齐队夺得“村超”季军，创下西藏球队最佳战绩",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-25",
+    "intro": "在2026年“村超”全国赛中，西藏昌都市类乌齐县足球队以4:0战胜对手，夺得赛季军，创下西藏球队在该赛事的历史最佳战绩。",
+    "paragraphs": [
+      "终场哨声响起，比分定格在4:0。西藏昌都市类乌齐县足球队夺得2026年“村超”全国赛季军，创下西藏球队在该赛事的最佳战绩。兴奋的球员们换好藏装，意气风发走上领奖台。看台上掌声、欢呼声不断，“类乌齐”三个字一遍遍响彻赛场。",
+      "其实，类乌齐“出圈”源于一次口误。在“村超”全国赛开幕式上，主持人误将“类乌齐”念成“类鸟齐”。当晚，主持人专程请队员吃饭并赔礼道歉；结账时却发现，西藏队员已经悄悄买了单。类乌齐县还邀请他成为当地的文旅推介官。",
+      "在贵州比赛期间，类乌齐县的拉拉队员身着民族服饰，跳起热烈欢快的岭卓舞，为队员加油助威。比赛结束后，队员们向对手敬献哈达，当地群众也一同欢歌热舞。类乌齐县足球队能够赢得尊重，靠的是待人之真诚，更是赛场上的实力。从全国32强赛起步，类乌齐4:1战胜湖北红安代表队；随后连续经历两场点球大战，队员们顶住压力接连取胜，一路挺进全国前四。半决赛面对卫冕冠军广东肇庆高要金利诚峻队，类乌齐队以0:2惜败；经过短暂休整，队员们重新振作、调整状态，以4:0赢下季军战，为此次“村超”之旅画上圆满句号。",
+      "从雪域高原到黔东南，类乌齐县足球队鏖战半个月，终于站上领奖台。队员多为农牧民和大学生，年龄最小的只有17岁。他们对足球的热爱，质朴又执着。此次“村超”全国赛上，类乌齐、八宿、卡若三支西藏球队同时闯进16强，展现出西藏广泛的足球基础。在辽阔的雪域高原，足球属于每一个热爱奔跑的人：一片空地、几块石头，就能围出一座简易球场。在那曲市嘉黎县藏比乡，牧民索朗晋美把自家牛圈改造成孩子们的足球场；孩子们在这里传球、射门，捧起用蔬菜做的奖杯，尽情享受足球带来的快乐。在昌都市马利镇，父亲们挥动锄头和铁锹，平整土地、搬运石块，为孩子们建起“父亲的球场”。这里没有专业草坪，也没有宽阔华丽的看台，但只要有一片能够奔跑的场地，一场充满欢乐的比赛就能吹响开场哨。",
+      "为了让更多人享受运动的快乐，西藏把体育设施建到群众身边。“十四五”期间，西藏持续强化体育惠民，进一步完善全民健身公共服务体系，全区累计投入资金14.5亿元，新建、改扩建全民健身场地1232个，建成体育公园19个。从村庄里的简易球场，到海拔4500米的“云上球场”，从街头巷尾的民间比赛，到山南“石榴籽杯”草原足球赛、林芝“南迦巴瓦峰杯”篮球赛，不断完善的体育设施托举着群众的运动热情，广泛开展的全民健身活动为西藏体育积蓄着新的力量。这届“村超”让许多球迷记住了类乌齐。未来，期待有更多西藏球队、球员凭借实力走上更宽广的舞台，让更多人看到西藏体育发展的蓬勃生机。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260824/50aad58d126d490ca6469b05eaf909ac/c.html",
+      "originalTitle": "追光丨这届“村超”让球迷记住一个名字：类乌齐",
+      "publishedAt": "2026-08-24T17:28:16+08:00",
+      "retrievedAt": "2026-08-24T21:52:26.755Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T21:52:22.642Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Leiwuqi: The Name Fans Remember from This Year's Village Super League",
+      "intro": "A Tibetan county called Leiwuqi just made history at China's Village Super League football tournament.",
+      "paragraphs": [
+        "The final whistle blew and the score was 4:0. Leiwuqi County football team from Chamdo, Tibet, won third place in the 2026 Village Super League national tournament. It is the best result a Tibetan team has ever achieved in this event. The players changed into traditional Tibetan clothes and walked proudly to the podium. Fans cheered and chanted the name Leiwuqi again and again.",
+        "The name Leiwuqi became known after a small mistake. At the opening ceremony, the host mispronounced it as Leiniaoqi. That night he invited the players to dinner to apologize. But when he tried to pay, he found the Tibetan players had already quietly covered the bill. Leiwuqi County even asked him to become a local tourism ambassador. The host said the team's kindness was bigger than the plateau. The mistake did not create distance. Instead, it connected two faraway places through football.",
+        "During matches in Guizhou, Leiwuqi cheerleaders wore ethnic costumes and performed the Lingzhuo dance. After games, players offered hada scarves to their opponents. Local people joined in singing and dancing. People met through football and built understanding and friendship. The team earned respect through sincerity and real skill.",
+        "Their road was not easy. They started in the national round of 32. They beat Hubei Hong'an 4:1. Then they survived two tense penalty shootouts. In the semifinal, they lost 0:2 to the defending champion from Guangdong Zhaoqing Gaoyao Jinli Chengjun team. After a short rest, they lifted themselves and won the third-place match 4:0. The players are mostly farmers and college students. The youngest is only 17. Their love for football is simple and strong.",
+        "This success shows a wider football base in Tibet. Three Tibetan teams reached the final 16 this year: Leiwuqi, Basu, and Karuo. On the plateau, a patch of empty land and a few stones can make a simple pitch. In one village, a herder turned his cowshed into a children's football field. In another town, fathers used hoes and shovels to build a pitch for their kids. There is no professional turf or big grandstand. But as long as there is a place to run, a joyful match can begin.",
+        "Tibet has also invested heavily in sports facilities. During the 14th Five-Year Plan period, the region spent 1.45 billion yuan. It built or upgraded 1,232 fitness venues and 19 sports parks. From simple village pitches to a cloud pitch at 4,500 meters, more people can play. Improved facilities and widespread community games are building new strength for Tibetan sports. This year's Village Super League made many fans remember Leiwuqi. In the future, more Tibetan teams may step onto bigger stages."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T21:59:05.587Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-25-a40r6f",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-25",
+    "intro": "一场聚焦珞巴族舞剧创作历程的分享会在拉萨举行。",
+    "paragraphs": [
+      "最近，在拉萨的“拉萨文化惠客厅”，举行了《与太阳共舞》主创分享会。",
+      "分享会聚焦舞剧《与太阳共舞》的创作历程。",
+      "该剧以珞巴族为题材，通过舞蹈艺术呈现珞巴族文化。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683467.shtml",
+      "originalTitle": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
+      "publishedAt": "Mon, 24 Aug 2026 21:45:47 +0800",
+      "retrievedAt": "2026-08-24T21:53:44.449Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-24T21:53:23.983Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-24-huge-breakthrough-in-the-math-of-imbalance",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "计算机科学家找到更公平分组的方法",
@@ -3185,241 +3408,6 @@
         "correctionCount": 0,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-08-09-how-does-touch-lead-to-pain-or-pleasure",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "触摸，为什么有时疼、有时舒服？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-09",
-    "intro": "同样是被触摸，亲人的手让人安心，陌生人的手让人警惕——神经科学家正在用动物解开触觉的秘密。",
-    "paragraphs": [
-      "同样是被触摸，亲人的手让人安心，陌生人的手让人警惕。神经科学家伊什梅尔·阿卜杜斯-萨布尔（Ishmail Abdus-Saboor）在哥伦比亚大学祖克曼研究所研究皮肤如何将触觉转化为疼痛或愉悦，并探索触觉作为社会与情感信号的作用。",
-      "疼痛和愉悦看似简单，实则远非如此。神经科学家尚不能解释为何身体疼痛不同于心理疼痛，也无法明确说明为何亲人的触碰令人宽慰，而陌生人的触碰令人排斥。阿卜杜斯-萨布尔指出，疼痛具有进化意义，它帮助生物躲避危险；但目前尚无客观生物标志物来测量疼痛或愉悦，研究人员只能依赖行为观察等间接方式。",
-      "研究动物的痛觉尤其困难，因为它们无法描述自身感受。阿卜杜斯-萨布尔团队通过观察动物行为（如爪子回缩）来推断其不适反应，但这类行为可能反映疼痛、恐惧或其他状态，解读需极为谨慎。他强调实验操作温和，同时严肃思考对无法言说感受的动物开展感觉研究的伦理权衡。",
-      "触觉不仅是感官输入，更是社会与情感信号。阿卜杜斯-萨布尔指出，触摸的功能‘不只是感官性的，更是社会性和情感性的’；皮肤作为器官，是身体与大脑之间传递信息的关键界面。",
-      "为深入理解触觉机制，阿卜杜斯-萨布尔研究裸鼹鼠——一种几乎不感疼痛、无明显衰老迹象、且整个社群高度依赖触觉维系的动物。这种研究有望揭示触觉在社交中的作用，以及疼痛与愉悦背后的神经通路。",
-      "触摸如何引发疼痛或愉悦，仍是未解之谜。阿卜杜斯-萨布尔的工作聚焦于可观察、可测量的现象：从一次爪子回缩，到裸鼹鼠群体中密集的触碰互动，都在为理解皮肤-大脑轴提供线索。"
-    ],
-    "topics": [
-      "脑与认知",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/",
-      "originalTitle": "How Does Touch Lead To Pain Or Pleasure?",
-      "publishedAt": "Thu, 06 Aug 2026 13:37:48 +0000",
-      "retrievedAt": "2026-08-08T21:55:05.679Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T21:55:00.831Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-09/2026-08-09-how-does-touch-lead-to-pain-or-pleasure.webp",
-      "alt": "A hand touching a surface with radiating lines",
-      "caption": "触觉的微妙感知",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-08-djxqvx",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "谢家麟：他带着一群年轻人“手搓”出大国重器",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-08",
-    "intro": "中国第一台30MeV可向更高能量发展的电子直线加速器，是谢家麟带领一群年轻人，用八年时间“手搓”出来的。",
-    "paragraphs": [
-      "在中国科学家博物馆里，收藏了一张‘1964年中国第一个大功率速调管’的黑白照片。这台在今天看来略显简陋的设备，当时却承载着我国粒子加速器事业从低能加速器向高能加速器转变的希望。它的背后，是谢家麟带领一群年轻人，克服了诸多艰难险阻，用八年光阴“手搓”出的奇迹。",
-      "谢家麟（1920年8月8日—2016年2月20日），中国科学院院士、加速器物理学家。1955年，谢家麟在美国芝加哥医学中心研制出世界上第一台用高能电子束治疗癌症的加速器装置，开拓了高能电子束治癌的全新领域。不久后，谢家麟接到美国移民局来信，要求他在永久居民和限期离境之间做出选择，他毫不犹豫地选择限期离境，尽快回国。",
-      "回国后，他进入中国科学院原子能所（现中国科学院高能物理研究所）工作，在被问及工作意向时，他表示对加速器了解较多，希望从事加速器工作。面对百废待兴的科研环境，他没有选择简单易行的技术路线，而是决定挑战困难，建造一台当时最先进的可向高能发展的电子直线加速器。为此，谢家麟带领着一群刚毕业、对加速器几乎一无所知的年轻人，从零开始。他们自己组织培训，从核物理、电子学等基础知识补起；自己建造微波实验室、调制器实验室，甚至建立精密金工车间。当时，加速器的核心部件——大功率速调管，国内还无法生产。谢家麟手中仅有的参考资料是斯坦福大学发表的一篇论文和一张速调管的照片。他下定决心，自主攻克这项零部件。从画图、打造零件到组装、排气、烘烤、激活、老化，每一个环节谢家麟都亲力亲为，他甚至手把手地教焊工师傅使用氩弧焊来密封高真空系统。为了加工一个部件，他们常常要抱着沉重的材料，辗转5趟公交车到北京东郊的电子管厂进行工艺处理。",
-      "1964年，在谢家麟的带领下，这支队伍经过8年的艰苦探索，终于建成了我国第一台30MeV可向更高能量发展的电子直线加速器，跨越式地赶上了国际先进水平。这台加速器不仅为国防建设作出了直接贡献，也为后期北京正负电子对撞机的建造奠定了坚实的人才和技术基础。1980年，中国高能加速器的发展走到了一个关键的十字路口：是选择十拿九稳的质子同步加速器方案，还是挑战当时国际上最先进的正负电子对撞机方案？谢家麟不冒进，也不畏难。他和同事们组织了数十次研讨，反复权衡两种方案的优缺点，最终确定了技术难度极大但前景更广阔的正负电子对撞机方案。他作为总设计师，还提出了6条精辟的设计指导思想，既保证了机器的先进性，又确保了项目的可控性。北京正负电子对撞机项目从1984年奠基到1988年成功对撞，仅用4年时间、2.4亿元人民币，创造了国际同类工程中建设速度快、投资省、质量好、水平高的奇迹。",
-      "几十年来，时常有人问谢家麟，是否后悔当年回国，如果留在美国，他可能获得更大的成就。而他的回答永远是：“我不但不后悔，而且感到非常庆幸，做了正确的选择，使我有机会施展自己所学的知识，为祖国建设服务。”2016年1月，国际天文学联合会将一颗国际编号为32928号的小行星正式命名为“谢家麟星”。这颗闪耀于苍穹的星辰，将永远化作催人奋进的力量，激励后人为建设科技强国和创新型国家而不懈努力。"
-    ],
-    "topics": [
-      "工程与制造",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569520.shtm",
-      "originalTitle": "谢家麟：他带着一群年轻人“手搓”出大国重器",
-      "publishedAt": "2026-08-08 09:20",
-      "retrievedAt": "2026-08-08T03:06:08.875Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T03:06:07.252Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-08/2026-08-08-djxqvx.webp",
-      "alt": "A group of faceless figures assembling a large machine in a gray-toned illustration.",
-      "caption": "协作与匠心，铸就大国重器。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-08-tjecbf",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "八段锦这样练才养生",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-08",
-    "intro": "练了大半年八段锦却没感觉？专家说，可能是动作不到位、运动量不合适或练习时间不科学。",
-    "paragraphs": [
-      "你有没有见过公园里有人慢慢比划一套动作？那就是八段锦。它是一种融肢体运动、呼吸吐纳与心理调节于一体的传统健身养生方法，动作缓和舒展，普适性较强。8月8日是全民健身日，作为一种传统养生功法，八段锦在全民健身热潮中广受欢迎。新华社记者田晓航、尹硕韩采访多位专家，梳理出科学习练要点。",
-      "先说说练多久、练多勤。中国中医科学院望京医院副院长、南阳市中医院执行院长魏戌说，对健康人群而言，推荐每周不少于3天，每天不少于两遍，每遍约10至15分钟；初学者可从每日一遍起步，逐渐增加至两遍，循序渐进，量力而行。判断运动量是否适宜，身体感受是直观标尺：练习时身体微微出汗、可轻松交谈，练习后精神愉悦、次日体力良好，说明负荷合适；若出现明显疲劳、头晕、心悸或关节疼痛加重，则说明负荷过大。",
-      "什么时候练也有讲究。《黄帝内经》记载“平旦人气生，日中而阳气隆”，上午9至10时阳气生发，此时练习有助气血运行，效果最佳。上班族无需拘泥于固定时间，坚持每日练习比追求“最佳时间”更重要。",
-      "有人练了大半年，为何效果却不明显？其实，这可能与动作不到位有关。随着《八段锦》团体标准发布，这一传统功法有了统一的技术规范。以第一式“两手托天理三焦”为例，根据该团体标准，练习时注意“两掌上托舒胸展体，上下对拔拉长，节节抻开，脚趾抓地”，才能达到更好效果。练习每一式都可参考这一团体标准予以辅助，正确掌握技术要领。",
-      "八段锦适合养生保健，高血压等慢性病患者规律习练，也可获得健康增益。中国医学科学院阜外医院研究员李静介绍，确诊高血压或血压偏高人群，每天练习两遍约30分钟、每周不少于5天，长期坚持有助于稳定降低血压。需要注意的是，八段锦仅为辅助调理手段，不能取代药物治疗。",
-      "八段锦是中医“治未病”理念的重要实践载体。从中医理论来看，八个动作协同作用，通过疏通经络、调和气血、平衡阴阳改善身心状态，长期坚持能起到增强体质和预防疾病等作用。《“健康中国2030”规划纲要》明确提出，发展中医养生保健治未病服务，将中医药优势与健康管理结合，探索融健康文化、健康管理、健康保险为一体的中医健康保障模式。健康中国，人人参与。不妨从一套八段锦开始，在舒展的动作中调和身心，在日复一日的坚持中收获健康，让传统养生功法融入日常、成为全民守护健康的便捷选择。"
-    ],
-    "topics": [
-      "健康与医学",
-      "食物与日常"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260807/072735944b274e52b9efd1181184530b/c.html",
-      "originalTitle": "八段锦这样练才养生",
-      "publishedAt": "2026-08-07T16:45:45+08:00",
-      "retrievedAt": "2026-08-08T03:07:17.744Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T03:07:13.731Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How to Practice Baduanjin the Right Way",
-      "intro": "Baduanjin is a slow, traditional Chinese exercise that anyone can try.",
-      "paragraphs": [
-        "Have you seen people doing slow, graceful moves in a park? It might be Baduanjin. This is a traditional Chinese fitness routine. It combines gentle body movements with breathing and calm attention. August 8 is National Fitness Day in China. As a traditional health-preserving practice, Baduanjin is widely popular amid the national fitness trend.",
-        "Experts recommend healthy people practice at least three days a week. They should do at least two rounds per day. Each round takes about 10 to 15 minutes. Beginners can start with one round per day. They can gradually increase to two rounds. They should progress step by step. They should act within their capacity.",
-        "Light sweating during practice means the load is appropriate. Being able to talk easily during practice also means the load is appropriate. After practice, you should feel mentally refreshed. You should have good energy the next day. If you feel obvious fatigue, dizziness, palpitations, or worsening joint pain, the load is too heavy. Morning from 9 to 10 a.m. is ideal for practice. That is when qi rises and yang energy flourishes. But daily consistency matters more than timing for busy people.",
-        "Some people practice for half a year without noticeable results. This may be due to incorrect form. The group standard for Baduanjin has been released. This gives the practice unified technical specifications. The first movement is 'Two Hands Hold Up the Heavens to Regulate the Triple Burner'. It requires 'palms lifting upward while expanding the chest'. It requires 'lengthening the body vertically'. It requires 'stretching joints sequentially'. It requires 'toes gripping the ground'. Each movement can be guided by this standard.",
-        "Baduanjin supports health maintenance. People with hypertension or elevated blood pressure can benefit from regular practice. A researcher from Fuwai Hospital says practicing two rounds daily helps stabilize and lower blood pressure over time. They should practice for about 30 minutes daily. They should practice at least five days weekly. Baduanjin is only an auxiliary regulation method. It cannot replace medication. It is an important practical carrier of Traditional Chinese Medicine's 'treating disease before it arises' concept. Long-term practice enhances physical constitution. It helps prevent disease."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T03:17:30.867Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-08-neutrinos-from-deep-inside-earth-provide-a-new-p",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "来自地球深处的中微子，描绘地幔的新图景",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-08",
-    "intro": "在地下两公里的实验室里，科学家正捕捉一种几乎不与任何东西反应的粒子——中微子，用它来窥探地球内部的秘密。",
-    "paragraphs": [
-      "在加拿大萨德伯里（Sudbury）的Creighton矿井深处、地下两公里的Snolab地下物理实验室里，有一个 house-size（房屋大小）的探测器，浸泡在约7000吨超纯水中，水在光下泛着如雨刷液般的蓝色。这个探测器叫SNO+，它复用了1999至2006年运行的SNO实验的组件，目标是捕捉中微子——物理学中最难探测的粒子之一。中微子质量极小（仅为电子质量的百万分之一），且不带电，几乎不与物质相互作用；每秒有数万亿个太阳中微子穿过人体，但几十年来，像SNO+这样的探测器仅捕获了几十万个闪光信号。",
-      "这些中微子中，有一类特别稀有的被称为‘地球中微子’（geoneutrinos），由地壳和地幔中铀、钍和钾等放射性元素衰变产生。这些衰变释放的热量，是驱动地幔岩石流动、进而影响板块构造和地球磁场的关键热源之一。另一热源是地球形成时残留的热量。若无放射性衰变产热，地球早已冷却，成为一颗地质活动停滞的‘死星球’。因此，统计地球中微子数量，可直接测量地球内部产热放射性元素的总量。",
-      "自2005年日本Kamland探测器首次报告地球中微子以来，意大利Borexino在2009年又探测到数十个；2025年11月，SNO+报告其首次探测（arXiv:2511.11856），使全球观测总数增加约50个。这是西半球首次测得地球中微子，提供了全新视角。目前三处结果呈现差异：Borexino测得通量很高，Kamland很低，而SNO+测得‘相当居中’（pretty in-between）的地幔通量。研究者指出，这可能暗示地幔并非均匀混合，放射性元素分布存在区域性差异。",
-      "高通量区域大致位于地震学发现的两大‘大型低剪切速度省’（LLSVPs）上方——一个在非洲下方，另一个在太平洋下方。这些是核幔边界附近异常高温、高密度的大陆尺度结构。SNO+合作负责人Mark Chen表示：‘可能存在深部地幔结构，它们或许富集某些元素。’ geochemist William McDonough指出，中微子未来或有望绘制出‘地球内部的化学地图’。",
-      "但当前结论仍高度不确定。科学家强调，差异可能源于地壳贡献、核电站干扰或探测器识别方法不同。SNO+还需特别排除其所在地（18亿年前陨石撞击形成的盆地）周边岩石放射性的干扰。目前尚无法断定观测差异反映真实地幔不均，还是系统误差所致；更多探测器数据与精细建模仍在进行中。"
-    ],
-    "topics": [
-      "物质与数学",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
-      "originalTitle": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
-      "publishedAt": "Fri, 07 Aug 2026 13:55:32 +0000",
-      "retrievedAt": "2026-08-08T03:08:42.594Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T03:08:40.439Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Ghostly Particles Reveal Earth’s Hidden Heat",
-      "intro": "A new detector deep underground is helping scientists see inside our planet.",
-      "paragraphs": [
-        "Two kilometers underground, a crane lowers Matt Depatie through a hatch into a white-walled cavern filled with about 7,000 tons of ultrapure water that glows blue. He steps into an inflatable raft and paddles over to inspect a house-size detector built to catch neutrinos. This is the SNO+ experiment at SNOLAB in Sudbury, Canada.",
-        "Neutrinos are the most abundant particles with mass, but their mass is tiny — just a millionth the mass of an electron. They have no electromagnetic charge and rarely interact with matter. Trillions pass through us every second. Geoneutrinos come from radioactive decay inside Earth — mainly uranium, thorium, and potassium in the mantle and crust. This decay heats Earth’s interior and powers mantle flow, plate tectonics, and the magnetic field.",
-        "The first geoneutrino detection was reported in 2005 by KamLAND in Japan. Borexino in Italy reported several dozen more in 2009. In November 2025, SNO+ reported its first detection, adding about 50 observed geoneutrinos. These are the first measured in the western hemisphere.",
-        "Measurements from different locations suggest the geoneutrino flux may not be uniform: high at Borexino, low at KamLAND, and ‘pretty in-between’ under Canada. This could hint that the mantle is not evenly mixed. The highest signals sit roughly above continent-size blobs of hot, dense material — large low-shear-velocity provinces — one under Africa, the other under the Pacific Ocean.",
-        "Uncertainties remain. Scientists must subtract signals from nuclear reactors and from the crust — especially within a few hundred kilometers of the detector. Each experiment faces different geological and technical challenges. Still, geoneutrinos offer a path toward making a chemical map of Earth’s interior."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T03:18:10.238Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-08/2026-08-08-neutrinos-from-deep-inside-earth-provide-a-new-p.webp",
-      "alt": "A cross-section of Earth with a small lab and particle trails rising through the mantle.",
-      "caption": "中微子，窥探地幔的幽光。",
-      "kind": "editorial"
     }
   }
 ]
