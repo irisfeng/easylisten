@@ -1,5 +1,190 @@
 [
   {
+    "slug": "2026-08-27-volcanoes-that-made-history",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "改变历史的大喷发",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-27",
+    "intro": "从喀拉喀托的惊天爆炸，到可能引发黑死病的无名火山，冰芯和年轮记录着大喷发如何悄悄改变气候、农业和文明。",
+    "paragraphs": [
+      "1883年8月27日，印度尼西亚的喀拉喀托火山猛烈喷发，摧毁了爪哇和苏门答腊之间的两座岛屿，还削平了第三座的大部分。超过36,000人在灾难中丧生，其中大多数死于火山喷发引发的巨大海啸。这是人类历史上第一次通过电报实时传遍全球的火山灾难，也让科学家第一次有机会在近实时中记录其影响，并由此奠定了现代火山学的基础。",
+      "大喷发不仅会毁掉眼前的一切，还会改变地球的气候。火山喷出的硫在高空形成微小的气溶胶颗粒，把阳光反射回太空，使地球降温。喀拉喀托喷发后，北半球非热带地区的夏季温度平均下降了0.6摄氏度（1.1华氏度）。如今，科学家通过分析极地冰芯和树木年轮，寻找古代火山留下的印记，并把它们和历史上的干旱、饥荒、瘟疫及社会动荡联系起来。",
+      "公元536年，欧洲、中东和亚洲的文献都记载了怪异的天气：太阳被一层雾气遮挡了长达18个月，气温骤降，庄稼歉收，几年后还出现了第一次有记载的全球瘟疫。极地冰芯里的硫沉积表明，那一年确实发生过大喷发，但具体是哪座火山喷发，至今仍然是个谜。当时冰岛可能尚未有人居住，因此没有留下任何目击记录。",
+      "1257年，印度尼西亚的萨马拉斯火山爆发，按硫排放量计算，是最近几千年里最大的一次。树轮研究显示，1257至1259年间，北美和欧亚大陆广泛降温；英格兰因收成失败而出现饥荒，日本因湿冷夏季导致水稻减产。一些研究者推测，这次喷发带来的气候变化，可能与蒙古帝国的衰落存在关联——其最后一位统治者于1259年在中国死于一场流行病，该疫情或与喷发引发的气候异常有关。",
+      "1345年前后，可能又有一座未知火山喷发，导致欧洲南部1345、1346和1347年夏季异常寒冷潮湿。粮食歉收后，欧洲人从更远的东方进口谷物，运粮船上的老鼠携带鼠疫杆菌（Yersinia pestis），研究者认为这可能是黑死病在欧洲大规模蔓延的重要诱因之一；1346至1352年间，欧洲约一半人口死于这场瘟疫。",
+      "1783年6月起，冰岛拉基火山开始持续喷发，历时八个月。有毒气体和气候异常导致冰岛至少五分之一人口死亡、大量牲畜死亡。远在法国的美国大使本杰明·富兰克林注意到前一年笼罩欧洲的异常雾霾，并将其与遥远的火山喷发联系起来。在没有新闻推送、没有直播的年代，人们只能依靠观察与推理理解这场地球深处的剧变。这些火山的故事提醒我们：理解过去的大喷发，有助于思考当今社会如何应对快速气候变化。"
+    ],
+    "topics": [
+      "气候与能源",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/volcanoes-that-made-history-1284447/",
+      "originalTitle": "Volcanoes That Made History",
+      "publishedAt": "Wed, 26 Aug 2026 13:00:00 +0000",
+      "retrievedAt": "2026-08-27T00:54:13.738Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-27T00:54:11.257Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 28,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Volcanoes That Made History",
+      "intro": "When Krakatau exploded in 1883, telegraph wires carried the disaster around the world in near real time.",
+      "paragraphs": [
+        "The first telegram arrived in Singapore on a Monday. It was sent from Batavia in the Dutch East Indies. That city is now Jakarta, Indonesia. It reported: 'Terrific detonations from Krakatau (volcanic island).'. Soon afterward: 'Stones falling. Village near Anjer washed away.'. The wires continued clattering out news. Bridges were destroyed. Boats were smashed. Lighthouses 'disappeared.'. By noon on Tuesday, the scope was clear: 'Where once Mount Krakatau stood the sea now plays.'. Within days, the source was known worldwide. On August 27, 1883, a volcanic eruption obliterated two islands in the strait between Java and Sumatra. It also destroyed most of a third island. More than 36,000 people perished. Most died in devastating tsunamis. Those tsunamis raced outward from the colossal explosion. Thanks to Victorian-era telecommunications, this was the first time people worldwide could document a catastrophic volcanic eruption in near real time.",
+        "In the months after Krakatau, volcanic particles drifted high in the atmosphere. They circled the globe. They caused violently colored sunsets. Contemporary artists captured those sunsets in paintings. That may include the psychedelic background of Edvard Munch’s The Scream. The key climate-driving component was sulfur. It came from the molten rock that fed Krakatau. Once sulfur erupts into the atmosphere, it forms aerosols. These aerosols reflect sunlight. They cool Earth. After the eruption, average summer temperatures fell. They fell 0.6 degrees Celsius in non-tropical Northern Hemisphere regions. That equals 1.1 degrees Fahrenheit. Researchers now understand that rapid climate changes transform societies. They affect agriculture, public health and living conditions. Volcanologists use lessons from Krakatau and other eruptions. They identify past blasts that may have contributed to droughts, famines, epidemics and societal unrest.",
+        "In the year 536, scribes in Europe, the Middle East and Asia wrote about bizarre weather. A haze shrouded the sun for 18 months. Temperatures plummeted. Harvests failed. Within a few years, the first documented global plague began. These chronicles strongly suggest a major volcanic eruption. Hard evidence lies in polar ice. Scientists look for sulfur and ash deposits in ice cores. Those cores come from Greenland and Antarctica. The cores preserve an annual record. They show what circulated in Earth’s atmosphere each year. Researchers read these frozen layers like turning pages of a book. Polar ice cores contain large amounts of sulfur from 536. That is a distinct signal of a major eruption. But the volcano remains unknown. There is no known written record from anyone living close to the eruption. Iceland, where it may have occurred, was not yet populated.",
+        "Until 2013, researchers knew only that a huge eruption occurred in 1257. It was the biggest in the last few millennia by sulfur output. In 2013, a team radiocarbon-dated ash and pumice around Samalas in Indonesia. They tied it to the 1257 eruption. Tree-ring studies show cooling across North America and Eurasia. It lasted from 1257 to 1259. Bad harvests led to starvation in England. Wet, cool summers damaged rice production in Japan. Some researchers speculate that the Samalas eruption helped seal the fate of the Mongol Empire. Its last ruler perished in a 1259 epidemic in China. That epidemic could have been linked to eruption-caused climate changes.",
+        "Between 1346 and 1352, perhaps half of Europe’s population died in the Black Death. It was caused by Yersinia pestis. Historical records suggest skies were darker than usual. That may be due to volcanic haze. Ice-core records document a big eruption around 1345. The location remains unknown. Ulf Büntgen led a team at the University of Cambridge. They used tree-ring data. It confirmed unusually cold and wet summers in southern Europe. That was in 1345, 1346 and 1347. As crops failed, Europeans imported grain from farther east. Grain ships arrived with rats carrying Y. pestis. Researchers argue the 1345 eruption may have set off a chain of events. That chain killed tens of millions of people.",
+        "The source was Laki, an Icelandic fissure. It spewed lava for eight months. That started in June 1783. The eruption killed at least one-fifth of Iceland’s people. It killed much of its livestock. Toxic fog and ruined harvests caused the deaths. The event was well-documented in Iceland. Observers in England, France and elsewhere saw the haze. Some smelled its foul odor. But they could only guess what was happening. They lived in a disconnected, pre-electronic world. Katrin Kleemann says: 'They wouldn’t get news alerts on their phone. They wouldn’t see livestreams of this eruption. They would have no idea.' She has studied the eruption."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-27T01:09:15.586Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-27/2026-08-27-volcanoes-that-made-history.webp",
+      "alt": "火山喷发与灰白烟柱延伸至农田",
+      "caption": "大喷发与气候变迁",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-27-2ts8kg",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国用可负担的技术共享，让发展中国家也能参与全球科技",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-27",
+    "intro": "一位国际科学教育者发现，中国用可负担的价格分享技术，正在为发展中国家打开参与全球科技合作的大门。",
+    "paragraphs": [
+      "如果一个国家想要发展科技，却因为技术太贵而被挡在门外，会怎么样？“一带一路”国际科学教育协调委员会副主席曼祖尔·胡塞恩·索木尔在接受科技日报采访时直言：“中国始终致力于与全球各国开展合作，潜力巨大。”在他看来，面对全球科技格局的深刻变革，中国展现出的开放姿态，正在让发展中国家真正有机会参与到全球科技治理中来。“如果把这种合作思维运用到太空探索和缓解气候变化等领域，人类社会就能更好地应对全球性挑战。”",
+      "曼祖尔注意到，中国在过去二十年里发展速度持续加快。他更看重的是，中国在自身发展过程中开展科技合作的方式。全球科技合作中曾长期存在不合理模式，而中国选择了不同的路径，推动技术共享与开源生态建设。“中国以可负担的价格分享技术，提供优质的产品和设备，这对发展中国家来说是一种赋能。”他说，这种转变的意义不限于技术本身的进步，因为它让更多国家有机会参与进来，而不是被排除在外。",
+      "除技术共享外，中国在人工智能治理上的积极举措同样令他印象深刻。“能力越大，责任越大，”他表示，大国应共同承担起确保人工智能服务于积极目标的责任。中国在全球人工智能治理领域的理念和行动，有望为全球科技向善发展提供有力支撑。",
+      "曼祖尔高度评价中国在科技治理与科学教育领域的实践。他说，科学普及工作看似基础，却是支撑一个国家科技能力的重要方面。中国在该领域务实的发展经验，正为更多国家提升整体科技素养提供借鉴。",
+      "这种务实也延续到了共建“一带一路”倡议的合作中。曼祖尔表示，中国不仅重视基础设施建设，如今正进一步与各方开展数字基础设施和人才能力培养合作。他所在的机构曾与中国科协等共建联合培训中心，用于开展科技创新能力建设培训。“从‘修路’到‘育人’，正是合作不断深入的体现。”"
+    ],
+    "topics": [
+      "一带一路",
+      "国际科学教育",
+      "技术共享"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/27/content_570101.html",
+      "originalTitle": "“一带一路”国际科学教育协调委员会副主席曼祖尔：中国特色的技术共享为发展中国家赋能|外国专家看中国",
+      "publishedAt": "2026-08-27",
+      "retrievedAt": "2026-08-27T01:01:12.274Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-27T01:00:53.613Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 8,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-27-to-dismantle-the-concept-of-separate-but-equal-t",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "瑟古德·马歇尔如何用一个个案子拆掉‘隔离但平等’",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-27",
+    "intro": "在美国种族隔离最顽固的年代，黑人律师瑟古德·马歇尔没有指望一次胜诉就推翻制度，而是通过一系列高等教育案件，把‘隔离但平等’的法律高墙一点点凿开。",
+    "paragraphs": [
+      "1945年11月，37岁的瑟古德·马歇尔来到俄克拉何马州小镇麦卡莱斯特，宣布要把一名黑人学生送进该州只收白人的旗舰大学——俄克拉何马大学。他当时已是全国有色人种协进会（NAACP）法律辩护基金负责人，当众表示：‘这是进入俄克拉何马法院最容易打赢的案子’，甚至说‘连在密西西比州也能打赢这种案子’。但当时所有通往教育公平的道路都被1896年最高法院‘普莱西诉弗格森案’堵死——该案确立‘隔离但平等’为合法原则。马歇尔清楚，要 dismantling Jim Crow，不能靠一次‘全面进攻’，而必须‘逐个击破’，一案一案地削弱普莱西案的根基。",
+      "马歇尔自己就曾因肤色被马里兰大学法学院拒之门外，这一不公成为他职业生涯的重要动力。后来他在霍华德大学法学院遇到查尔斯·休斯敦——时任法学院院长、后来的NAACP首席律师。休斯敦提出一个更务实的策略：不先挑战中小学隔离，而是聚焦高等教育中的不平等；用法律施压，迫使各州要么为黑人学生建立真正平等的专业学院，要么开放白人学校。马歇尔以全班第一成绩毕业后，被休斯敦招募加入NAACP法律团队，成为这一策略的核心执行者。",
+      "这条路起初并不顺利。1938年，休斯敦与马歇尔成功说服最高法院裁定：黑人学生劳埃德·盖恩斯有权进入密苏里大学法学院。但盖恩斯在开学前神秘失踪，再无音讯；他最后已知的信件写给母亲，提到自己承受着‘为1300万黑人争取长久成功’的压力。休斯敦随后退休，马歇尔接任NAACP新成立的法律辩护基金负责人。他带领团队在南方寻找坚定、可靠、不会中途退却的原告。1945年，他们找到21岁的艾达·路易斯·西普尔——俄克拉何马州学院毕业生、有志成为律师。她的父母曾在1921年塔尔萨种族屠杀后逃离格林伍德黑人社区。西普尔于1946年1月申请俄克拉何马大学法学院，因种族被拒；官司两年后打到最高法院。马歇尔此次直接挑战普莱西案，称‘隔离但平等’‘毫无法律基础’。法院最终裁定西普尔有权接受法学教育，但刻意回避了‘隔离本身是否违宪’这一核心问题；仅要求校方‘以任何方式’提供法律教育。州政府随即在州议会大厦几个空房间里仓促设立一所黑人法学院，西普尔拒绝入学。",
+      "类似情况接连发生：1948年，黑人教授乔治·麦克劳林被俄克拉何马大学研究生院录取，却被强制坐在白人学生之外的单独角落，不得共进午餐；得克萨斯州33岁黑人邮递员赫曼·斯韦特申请德州大学法学院遭拒，州政府为他另设一所‘影子法学院’。马歇尔意识到，只要继续容忍‘隔离’前提下的‘设施平等’，各州就会不断花钱建假学院来规避实质融合。1950年4月，他和NAACP同事在最高法院同时为斯韦特案与麦克劳林案上诉，核心论点是：强制隔离本身即构成屈辱，违反第十四修正案平等保护条款——‘就算建一所一模一样的法学院，只要它仍然隔离，就是不平等的’。",
+      "1950年6月5日，最高法院裁定：俄克拉何马与得克萨斯两州对麦克劳林和斯韦特的隔离安排必须废除。但首席大法官弗雷德·文森在判决意见中明确写道：‘更广泛的议题已被提出供我们考虑，但我们坚持只在具体案件语境中裁决宪法问题’，再次回避了‘普莱西案是否违宪’这一根本命题。这场胜利在黑人报刊和NAACP总部广受庆祝——‘到处都是苏格兰威士忌和波本酒’，一位律师回忆道；但也有黑人领袖担忧判决范围过于狭窄。正是这些看似有限的胜利，为1954年‘布朗诉托皮卡教育局案’彻底推翻‘隔离但平等’铺平了道路。"
+    ],
+    "topics": [
+      "历史",
+      "法律与社会"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Smithsonian History",
+      "region": "international",
+      "url": "https://www.smithsonianmag.com/history/dismantle-concept-separate-equal-thurgood-marshall-methodically-devised-winning-strategy-divide-conquer-180989278/",
+      "originalTitle": "To Dismantle the Concept of Separate but Equal, Thurgood Marshall Methodically Devised a Winning Strategy: Divide and Conquer",
+      "publishedAt": "Wed, 26 Aug 2026 12:00:00 +0000",
+      "retrievedAt": "2026-08-27T01:05:04.872Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-27T01:04:26.533Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 39,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How Thurgood Marshall Chipped Away at Segregation",
+      "intro": "Thurgood Marshall used a step-by-step legal plan to tear down the 'separate but equal' doctrine.",
+      "paragraphs": [
+        "Thurgood Marshall walked into McAlester, Oklahoma in November 1945. He looked confident. At 37 years old, he was head of the NAACP Legal Defense Fund. He announced a new plan. He would get a Black student enrolled at the University of Oklahoma. That school was the state’s all-white flagship college. He boasted: 'This is the easiest case to beat that ever entered the courts of Oklahoma.' He added: 'I could win this type of case even down in Mississippi.' The NAACP had tried and failed to take on Jim Crow segregation in education before. All roads to justice were blocked by Plessy v. Ferguson. That was the 1896 Supreme Court ruling. It legally protected segregation under the 'separate but equal' doctrine. The court called segregated schools a 'valid exercise of ... legislative power.' But Americans of all races knew 'separate but equal' was a farce. Black students were too often shunted to poor, racially isolated schools. Those schools offered fewer opportunities than white ones.",
+        "Marshall had personal reasons to fight. He set his sights on enrolling at the University of Maryland’s law school. He was unable to attend because of the color of his skin. That injustice motivated much of his career. In 1930, he enrolled at Howard University. There he met Charles Houston. Houston was the stern new dean of the law school. He instilled a sense of purpose in his young students. He predicted Black lawyers of Marshall’s generation would become the social engineers of a new America. Marshall graduated at the top of his class. Houston then recruited him to help with legal work for the NAACP. The NAACP wanted to improve Black schools. In the 1920s, it planned to file targeted lawsuits. Those suits would increase funding for Black schools case by case. In 1931, Nathan Margold argued the organization should challenge the constitutionality of segregation directly.",
+        "In January 1946, Ada Lois Sipuel applied to the University of Oklahoma’s law school. She was denied because of her race. Marshall and the NAACP quickly filed suit. Within two years, the case reached the Supreme Court. This time Marshall attacked Plessy directly. He declared the 'separate but equal' doctrine was 'without legal foundation.' The Supreme Court ruled in Sipuel’s favor. But the decision sidestepped whether 'separate but equal' was constitutional. The court held only that Sipuel deserved a law school education. It left open how the University of Oklahoma might provide it. State officials created a sham Black law school. It was located in a few spare rooms in the state capitol. Sipuel refused to enroll. In Texas, Heman Sweatt filed suit to enroll at the University of Texas law school. The state set him up in a separate, charade law school.",
+        "Marshall realized colleges would not budge from 'separate but equal.' Even spending new money on Black facilities did not change that. So in April 1950, he and his NAACP colleagues argued appeals in the Sweatt and McLaurin cases before the Supreme Court. They said forced segregation violated the equal protection clause of the 14th Amendment. They said this was true regardless of facility quality. Their brief stated: 'The very fact of segregation establishes a feeling of humiliation and deprivation to the group considered to be inferior.' Marshall said simply: 'They can build an exact duplicate [of the law school], but if it is segregated, it is unequal.' On June 5, the Supreme Court ruled that segregation policies keeping McLaurin and Sweatt separate from white classmates had to be abolished. Chief Justice Fred Vinson wrote: 'Broader issues have been urged for our consideration... but we adhere to the principle of deciding constitutional questions only in the context of the particular case before the court.'",
+        "These victories were widely celebrated in the Black press and at NAACP headquarters. One attorney recalled 'there was lots of Scotch and bourbon.' Some Black leaders worried about the narrow scope of the rulings. Marshall believed an 'all-out attack' on segregation could not be achieved with a single judicial ruling. The cruel logic of Plessy would have to be chipped away piece by piece. Case by case. Brown v. Board of Education came in 1954. It is widely remembered for tearing down 'separate but equal' in schools. That landmark ruling could not have happened without courageous students. They were willing to barrel across the color line in the decades prior. Marshall once remarked: 'You just simply cannot have a little segregation.' He added: 'You cannot rationalize on the necessity of segregation at all.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-27T01:11:04.251Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-27/2026-08-27-to-dismantle-the-concept-of-separate-but-equal-t.webp",
+      "alt": "高墙缺口与倾斜天平",
+      "caption": "凿开隔离之墙",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-08-25-a-new-framework-for-how-the-brain-compresses-our",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "大脑如何压缩嘈杂世界？新框架：预测，而非归档",
@@ -3232,182 +3417,6 @@
       "alt": "Brain made of roads with a taxi",
       "caption": "Navigating minds, lower Alzheimer's risk",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-10-gi916o",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "真正的基础研究，从好奇心开始",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-10",
-    "intro": "数学家丘成桐指出，以好奇为基础的研究才算是真正的基础研究。",
-    "paragraphs": [
-      "你有没有想过，有些科学研究看起来完全没用，却可能在几十年后改变世界？数学家丘成桐认为，真正的基础研究，恰恰是从好奇心出发的，而不是一开始就想好有什么用。",
-      "丘成桐是菲尔兹奖首位华人得主。他说，一些数学研究最初往往看不出来它的重要性，但慢慢接触到工业时才让人恍然大悟，原来这些都是很重要的事情。",
-      "他指出，过去中国在以好奇为基础的研究方面攻势不够，现在正在向这个方向靠近。他希望中国各个层面都能支持这种由好奇心驱动的研究。",
-      "今年7月，两位中国籍年轻数学家王虹和邓煜取得标志性理论突破，赢得国际数学最高荣誉菲尔兹奖。王虹成功攻克三维挂谷猜想，为调和分析、几何测度论两大经典方向打开全新研究疆域；邓煜针对希尔伯特第六问题完成关键性突破，打通数学理论与理论物理的深度融合。",
-      "丘成桐说，看到我们的学生去国外做出世界一流的学问，对国内很多年轻人是很大的鼓舞——就像当年李政道、杨振宁拿到诺贝尔奖时对我们那一代人甚至几代人是很重要的鼓舞。因为在20世纪50年代、60年代的时候，我们根本没有办法想象中国的科学家能够达到世界水平。他坦白地讲，自己拿到菲尔兹奖对相当多的中国数学家也有相当大的影响。",
-      "丘成桐期望，未来5到10年内，中国培育的研究生能做出同样重要的结果；他还期望，未来5年到10年内，中国能成为世界数学强国。他表示，由好奇心产生的研究很重要。"
-    ],
-    "topics": [
-      "哲学与思想",
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻评论",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569568.shtm",
-      "originalTitle": "丘成桐：以好奇为基础的研究才算是真正的基础研究",
-      "publishedAt": "2026-08-09 22:03",
-      "retrievedAt": "2026-08-09T23:00:31.865Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-09T23:00:29.478Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-09-60",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蔡皋在加拿大领取国际安徒生奖 插画奖项60年来首位中国画家",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-09",
-    "intro": "中国绘本画家蔡皋在加拿大领取国际安徒生奖插画奖，系该奖项设立60年来首位获此殊荣的中国画家。",
-    "paragraphs": [
-      "国际安徒生奖插画奖于1966年设立，每两年颁发一次。蔡皋是该奖项设立60年以来首位获奖的中国画家。",
-      "蔡皋的画风温暖质朴，常以湖南乡村生活为背景，用细腻的线条和沉静的色彩描绘孩子、老人、老屋、菜园和四季流转。",
-      "她为《桃花源记》《小狐狸买手套》《荒原狐精》等经典文本绘制插图。",
-      "蔡皋坚持用毛笔、水彩和宣纸作画，不用电脑绘图。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-08/10674162.shtml",
-      "originalTitle": "蔡皋在加拿大领取国际安徒生奖 系插画奖项60年来首位中国画家",
-      "publishedAt": "Sat, 8 Aug 2026 12:43:01 +0800",
-      "retrievedAt": "2026-08-08T21:51:36.057Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T21:51:33.548Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Cai Gao Wins International Hans Christian Andersen Illustration Award",
-      "intro": "Cai Gao is the first Chinese illustrator to win the International Hans Christian Andersen Award for illustration in its 60-year history.",
-      "paragraphs": [
-        "Do you know the International Hans Christian Andersen Award? It is a major prize for children's book illustration.",
-        "Cai Gao received the award in Canada. She is the first Chinese painter to win this illustration award. The award has existed for 60 years.",
-        "Cai Gao is an illustrator from China."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T21:59:58.031Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-09/2026-08-09-60.webp",
-      "alt": "An open book with botanical line drawings on pages",
-      "caption": "艺术与文字的交融",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-09-95",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "用活的人脑干细胞造计算机？复旦‘95后’博士在临港做了这件事",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-09",
-    "intro": "他们没用硅芯片，而是把人脑干细胞长成的‘微型大脑’，和自主研发的神经芯片连在一起，造出了国内先进的工业级‘类器官+脑机接口’系统。",
-    "paragraphs": [
-      "你见过用活细胞做的计算机吗？在上海临港的一座科创园区里，一群平均年龄不足28岁的年轻人，正在做这样一件事：他们从人类多能干细胞（含患者自体诱导多能干细胞）出发，培育出携带真实人类基因、体外长期存活的脑类器官；再把它和自主研发的神经芯片、电极系统‘缝合’起来，形成一个能高密度高通量读取电生理信号、支持闭环神经调控的‘体外活体大脑’工业级系统——这被称作‘类器官+脑机接口’系统，不是科幻电影里的想象，而是已落地运行的科研平台。",
-      "领衔这项工作的，是两位复旦大学的‘95后’博士：陈浩满和陈鑫宇。陈浩满研究方向为脑科学与生物物理交叉研究，陈鑫宇主攻脑类器官与干细胞组织工程。2023年圣诞节前夕一次偶然见面，两人发现彼此对‘如何让生命组织和电子设备真正对话’有着完全一致的追问。没有冗长的计划书，他们拉上几位核心成员，在2026年1月于临港正式成立‘脑际芯云’，搭建起占地数千平方米的标准化实验空间。",
-      "为什么要做这个？他们说，不是追热点，而是看到了一个更深层的变化：脑科学已经走到‘完全工业化的节点’——过去只需几万元、几十万元经费就能完成的小课题时代已经结束，其研究复杂度已远超单一课题组所能承载的极限。而‘类器官+脑机接口’这套技术体系，正是解锁未来脑功能读取与调控这一人类生命科学核心方向的关键钥匙。",
-      "目前，团队正攻坚两个核心难题：一是攻破神经元规模化培育的行业桎梏——当前体外模型神经元总量与成年人脑860亿神经元存在巨大差距，受限于体外分化的神经组织血管化程度差、传统悬浮培养的生物支架技术有天然理论上限；二是搭完脑类器官闭环刺激调控的最后一块拼图——正在搭建覆盖电、光、磁、超声的全维度刺激调控系统，让体外培养的脑类器官真正能发育出接近完整人脑的复杂功能。",
-      "这套系统已有三大实际用途：第一，AI时代的高通量人源筛药平台，依托标准化人脑类器官提供多维度全链条表型评估，为阿尔茨海默症、帕金森等重大神经疾病的新药IND申报提供完整临床前证据；第二，先进的活体湿件生物计算平台，将脑类器官转化为可复现、可读写、可训练的标准化湿件算力单元，突破传统硅基AI高能耗瓶颈；第三，专业化植入式脑机接口人源化体外测试平台，在人体试验前完成电极筛选、灵敏度验证、生物相容性评估、安全阈值标定等全流程测试。所有技术均为国内自研，突破海外在生物计算领域的长期垄断。",
-      "记者问他们：如果一切归零，还敢重来吗？两位博士回答：‘我有！’墙上贴着国科温州研究院教授帅建伟的寄语：‘人类需要敢于冒险的科技探索者’；复旦大学生命科学学院教授赛音贺西格则开导他们：‘最重要的是遵从自己内心的选择。’他们不和别人比卷，只和昨天的自己较劲——每天睡前都要问自己：今天是不是比昨天多往前迈了一步？"
-    ],
-    "topics": [
-      "生命与演化",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569529.shtm",
-      "originalTitle": "“95后”复旦博士领衔造出“生物计算机”",
-      "publishedAt": "2026-08-08 20:24",
-      "retrievedAt": "2026-08-08T21:53:56.017Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T21:53:32.471Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Two Young Fudan PhDs Build a 'Biological Computer'",
-      "intro": "Two young Fudan University PhDs are leading a team that builds a biological computer using lab-grown brain cells and custom chips.",
-      "paragraphs": [
-        "In Shanghai, a young team is building a new kind of computer. It combines living brain cells with computer chips. The cells are grown into tiny brain-like structures called organoids. The team connects these organoids to chips they designed. The project is led by two Fudan University PhDs. Both were born after 1995. The whole team has an average age of 28.",
-        "The two founders met by chance in December 2023. One was in Shanghai to collect research samples. A teacher suggested he visit another young scientist. The teacher called that scientist a 'lone wolf.' The two had never met, but they clicked right away. They shared the same drive and the same scientific vision. Soon they became partners.",
-        "Their startup is based in Lingang, a coastal tech area in Shanghai. The team grows brain organoids from human pluripotent stem cells. These organoids carry real human genes. Then they join them with their own chips and electrode systems. The system can read electrical signals from the cells. It can also send signals back. That gives scientists a living model of the human brain. The team wants to make this an industrial-grade system. It could help test drugs for diseases like Alzheimer's and Parkinson's.",
-        "Making this work is very hard. An adult human brain has about 86 billion neurons. Lab-grown organoids have far fewer. Growing enough neurons is a huge bottleneck. The team also needs better ways to stimulate the organoids. They are building tools that use electricity, light, magnetism, and ultrasound. They compare their startup to Tesla in its early days. They want to push science forward, not just follow trends.",
-        "The team has built three main platforms. One platform helps test new brain drugs. It uses standardized brain organoids to check many drug candidates quickly. Another platform turns living brain cells into computing units. This could lead to low-energy biological computing. The third platform tests brain implants before human trials. It checks electrodes for safety and performance. That helps shorten development time and cut costs.",
-        "The founders say their strength is not just talent. It is also a stubborn belief in their dream. They think any problem can be solved if the inner fire is hot enough. One night, Chen Haoman asked his partner a hard question. 'If everything goes to zero, would you start again?' Chen Xinyu answered without any hesitation. 'I would.' Their dream is just beginning."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-08T22:01:07.676Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
     }
   }
 ]
