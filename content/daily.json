@@ -1,5 +1,224 @@
 [
   {
+    "slug": "2026-08-28-meet-the-world-s-biggest-waves-and-the-mysteries",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世界上最大的浪，从何而来？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-28",
+    "intro": "有的浪能冲浪，有的浪能把整片森林卷走，它们是怎么形成的？一起来认识人类记录过的最大海浪。",
+    "paragraphs": [
+      "2020年10月29日，葡萄牙沿海小镇纳扎雷，德国冲浪手塞巴斯蒂安·施托伊特纳创造了一项新纪录：他冲上了一道26.21米（85.99英尺）高的巨浪，这是人类冲浪史上最高的浪。这个纪录之前是24.38米（80英尺），也是在纳扎雷创造的。2024年2月，他 surfed 一道估计高28.57米（93.73英尺）的浪，但该高度尚未正式确认。",
+      "纳扎雷平均浪高为15至20米（50至65英尺），但全世界还有更大的浪。2004年12月26日，印度洋发生9.1级地震，引发的海啸在印尼登陆时高达30米（98英尺），造成超过20万人死亡。2011年3月11日，日本发生9.1级地震，引发的海啸导致约1.8万人死亡，并造成三座核反应堆熔毁。有记录以来最高的浪出现在1958年7月9日美国阿拉斯加州利图亚湾：一道524米（1720英尺）高的巨浪由地震引发的山体滑坡形成——近9000万吨岩石坠入海湾，摧毁了所有低于该高度的树木，重塑了岸线上的林线。",
+      "巨浪的形成与风、海底地形和外部能量有关。风吹过海面，推动水体做圆周运动；靠近岸边时，底部水流受海床摩擦减速，上层水流更快，从而翻卷破碎成拍岸浪。纳扎雷近海有一条深而狭长的水下峡谷，全长约210公里（130英里），从海岸延伸至远海；海浪经此峡谷汇聚抬升，再与其他方向来的波叠加，可形成极端巨浪。2020年10月29日那道破纪录巨浪，还叠加了刚过境飓风残余的能量。",
+      "除了海啸和常规巨浪，还有‘疯狗浪’（rogue waves）：它们至少是周围波浪平均高度的两倍，突发性强，对船舶构成严重威胁。过去几百年，疯狗浪曾被视为传说——哥伦布1498年航行至今委内瑞拉附近海峡时报告险被巨浪吞没；1826年法国探险家杜蒙·迪尔维尔在印度洋目击并描述一道灾难性巨浪，当时无人相信。直到1995年1月1日，科学家首次在北海达伦普纳石油平台上用激光传感器实测到一道25.6米（84英尺）高的疯狗浪。2010年，游轮‘路易斯·马杰斯特号’在驶离西班牙巴塞罗那前往意大利热那亚途中，遭三道较小疯狗浪袭击，造成人员伤亡。此外还有‘偷浪’（sneaker waves），会突然涌上远超预期的滩涂距离，每年在美国太平洋沿岸等地致人溺亡；地震或风暴还能在封闭水域如湖泊中引发‘假潮’（seiches），即像浴缸晃水般来回振荡的波。",
+      "研究波浪不只是为了冲浪。海洋工程师托里·托米切克在美国海军学院工作，她通过分析飓风等强风暴后最具破坏力的波浪类型，希望设计出更能抵御灾害的建筑。物理学家研究水波以理解流体运动，其规律还可类比光与声的传播；气候研究者关注海气交界面的波浪，以掌握能量传输机制；航海者则依靠波浪知识规划更安全航线。正如托里所说：‘我一直热爱大海。’"
+    ],
+    "topics": [
+      "地球与海洋"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/worlds-biggest-waves-mysteries",
+      "originalTitle": "Meet the world’s biggest waves — and the mysteries behind them",
+      "publishedAt": "Thu, 27 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-28T05:29:34.617Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:29:31.858Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-28-arpg",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "从太古屋走向曼哈顿，《控制：共振》全面拥抱动作角色扮演",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-28",
+    "intro": "机核在科隆游戏展试玩《控制：共振》后，专访了Remedy资深关卡设计师阿尔希·马科宁，围绕游戏从TPS转向ARPG、曼哈顿开放式场景构建及新主角迪伦的情感驱动力展开交流。",
+    "paragraphs": [
+      "最近，机核在科隆游戏展（Gamescom）试玩了《控制》续作《控制：共振》，并专访了Remedy资深关卡设计师阿尔希·马科宁（Arhi Makkonen）。本次试玩截取游戏第一章主线，从二代主人公、一代主角杰西·法登的弟弟迪伦·法登‘苏醒’开始，到他在曼哈顿的初步探索为止。故事舞台从幽闭的太古屋转向扭曲的曼哈顿——这是Remedy版本的曼哈顿，一个覆盖着超自然层面的开放枢纽世界。",
+      "一代《控制》战斗常被诟病单调乏味，而本作大胆转向ARPG，以近战交互和动作设计为核心。迪伦比杰西更快，可悬浮、二段跳、冲刺；战斗系统强调‘跑位’而非精确瞄准，鼓励玩家在空间中移动、锁定高优目标并快速解决。主角拥有主形态（X键）与次形态（Y键）两种战斗形态，每种形态三选一，组合共9种，配合各自技能树，构成深度成长框架。",
+      "开发团队从《艾尔登法环》《只狼》中汲取世界构建灵感，从《鬼泣》《王国之心》中参考空中战斗等动作元素，但强调未刻意模仿，而是融合碎片形成独特连招体验。游戏提供极高自由度：可打造不同‘Aberrant’近战形态、制作增益型‘Artifacts’、通过‘共振’获取技能、升级完整技能树；对话选择影响NPC反应，但主线故事保持线性，仅有一个结局。",
+      "叙事设计明确优化：迪伦在初代事件6年后从昏迷中醒来，此前一直被FBC控制于太古屋，对外界一无所知。他与玩家同步面对新局势、新敌人、曼哈顿异变及杰西失踪之谜，天然适配新玩家视角。老玩家则可通过大量背景设定（Lore）识别熟悉角色，但无需前置知识即可理解主线。叙事团队使主线与支线任务结合紧密，整体比初代‘更容易理解（easier to catch）’。",
+      "地图设计从初代封闭式结构转向开放区域与枢纽（Open hubs）结合的‘活生生的世界（living world）’，包含叙事收集品、谜题、隐藏秘密、挑战及大型叙事支线任务，所有内容有机融合。迪伦的双重驱动力清晰交织：一方面需查明曼哈顿异变本质并协助FBC应对危机；另一方面执着寻找失踪姐姐杰西——‘宏大危机与个人情感之间有着极好的重叠’。至于试玩中出现的身体交换类闪回镜头，设计师确认‘这对兄妹之间发生了一些身体层面的改变……故事当然不会这么简单’。"
+    ],
+    "topics": [
+      "影视与游戏"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "机核 GCores",
+      "region": "mainland",
+      "url": "https://www.gcores.com/articles/218923",
+      "originalTitle": "从太古屋走向曼哈顿，全面拥抱ARPG｜机核专访《控制：共振》主创",
+      "publishedAt": "Fri, 28 Aug 2026 05:49:18 +0800",
+      "retrievedAt": "2026-08-28T05:33:42.344Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:33:40.353Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Control: Resonance Heads to Manhattan and Becomes an ARPG",
+      "intro": "Remedy's new sequel moves from the Oldest House to a twisted Manhattan. The creators confirm it is now a full action RPG.",
+      "paragraphs": [
+        "Control: Resonance is the sequel to Control. It was one of the most talked-about games at Gamescom. Gcores played the demo. They interviewed Remedy's Senior Level Designer Arhi Makkonen. The team wanted to make a much bigger game. They moved out of the Oldest House.",
+        "The new setting is their version of Manhattan. It is an open, surreal city. It has open hubs. It has supernatural layers over reality. They pushed the Northlight engine to its limit. They played Elden Ring and Sekiro for world-building. They played Devil May Cry and Kingdom Hearts for combat.",
+        "The original game used third-person shooting logic. Many players found its combat dull. This sequel shifts to an action RPG. Melee and movement are now core to combat. Dylan is Jesse's brother. He is faster than Jesse. He can float. He can double jump. He can dash. Combat skills consume a resource. Melee attacks restore that resource. The team aimed for a 'dance-like' flow.",
+        "Players have high freedom in character building. They choose a main form and a secondary form. Each form has three options. There is a skill tree for each form. There are Artifacts for small boosts. Dialogue choices affect NPC reactions. The main story remains linear. It leads to one ending. New players can start here without prior knowledge.",
+        "Dylan wakes up six years after the first game. He was held by the FBC inside the Oldest House. He knows almost nothing about the outside world. Jesse is missing. He sets out to find her. His personal quest overlaps with the larger crisis in Manhattan. The story keeps Remedy's signature weirdness. It is more accessible than the first game. Surprises remain unspoiled."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:46:50.441Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-08-28-97i453",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国首次在轨验证地月双向高速激光通信能力",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-28",
+    "intro": "我国首次在轨验证地月双向高速激光通信能力，成功构建超过40万公里的地月距离双向激光链路，下传一幅8K月面高清图像时间从4~5分钟缩短至约12秒。",
+    "paragraphs": [
+      "你从地球给月亮传一张照片，需要等多久？过去用传统微波通信方式传输，下传一幅8K月面高清图像需4~5分钟；而本次试验中，采用百Mbps级激光通信后，传输时间缩短至约12秒。中国科学院空间应用工程与技术中心牵头，联合之江实验室、中国科学院云南天文台和上海微系统与信息技术研究所，组织实施地月激光通信试验任务，经过近一年多的在轨测试试验，成功构建了超过40万公里的地月距离双向激光链路，并首次验证了地月高速激光通信能力，标志着我国空间激光通信正式从近地轨道迈入地月空间。",
+      "为什么用激光？空间激光通信是一种利用激光传输信息的通信方式。与传统微波通信相比，它速度快、带宽大，方向准、保密性好，设备小、重量轻，双向高速、收发自如。但深空激光通信长期面临三座大山：瞄准精度要求苛刻、信号衰减到极致、传输速率难以提升。",
+      "科研团队经过5年的技术攻关，成功破解了这三大难题。针对‘瞄准难’，提出了适用于超远距离、极微弱信号条件的双向捕获跟踪方案，通过对卫星轨道、望远镜安装及形变误差、大气折射、激光飞行时间等多种因素的计算和系统校准，使空间端与地面端能够在运动中持续保持高精度对准，确保激光在目标尚未显现时便能精准照向预定区域。针对‘信号弱’，突破了高速超导单光子探测技术和一系列复杂的高灵敏度通信信号处理算法，能够从海量背景噪声中甄别出有效信号。针对‘通信慢’，突破了皮秒级时间识别的大带宽高效通信处理技术，采用高阶脉冲位置调制和高可靠信号处理方案，在极低信噪比条件下实现高码率数据传输，并通过强纠错编码策略对抗噪声，确保海量探测数据以高速度、低误码率传回地面。",
+      "本次试验已初步实现上行1.25Mbps、下行100Mbps的通信速率。这一速率使下传一幅8K月面高清图像的时间从4~5分钟缩短至约12秒。随着全球月球探测、载人登月和月球科研站建设加速推进，地月空间即将迎来一场‘数据大爆炸’；传统微波通信因带宽窄、速度慢，已难以满足需求，而百Mbps级激光通信提供了关键支撑。",
+      "相关技术形成的地月空间轻量化、小尺寸、低功耗、高速率的信息传输能力，将为我国载人登月、月球科研站建设和深空探测提供高速信息传输新手段，支撑我国空间科学与应用取得更多更好的原创性科学成果。空间应用中心研究员、激光通信试验科研团队负责人杨雷向《中国科学报》表示，该成果标志着我国空间激光通信正式从近地轨道迈入地月空间。"
+    ],
+    "topics": [
+      "地月通信",
+      "激光技术",
+      "航天工程"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/570384.shtm",
+      "originalTitle": "我国首次在轨验证地月双向高速激光通信能力",
+      "publishedAt": "2026-08-27 08:28",
+      "retrievedAt": "2026-08-28T05:39:09.790Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:39:08.189Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-28-the-flat-pack-skyscraper-how-wood-can-shape-the-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "木材建成的摩天楼：挪威18层全木建筑如何改变城市",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-28",
+    "intro": "挪威有一座全部用木材建成的18层高楼，它不靠水泥和钢铁，却稳稳立在湖边——它把树吸收的二氧化碳锁在建筑里，让城市从碳排放源变成碳储存地。",
+    "paragraphs": [
+      "在挪威最大的湖——米约萨湖岸边，矗立着一座特别的塔楼：它高84米（277英尺），有18层，是目前世界上最高的全木结构建筑，名叫‘米约斯塔恩’，意思是‘米约萨湖的塔’。它位于小镇布鲁蒙达尔湖畔，里面既有办公室、公寓，还有一家72间房的酒店。记者住在第11层，乘的电梯井道全是木头做的；房间地板、床、灯、椅子，连墙角那根粗大的柱子，也都是木头。那根柱子宽0.6米、长1.5米，由许多块精准切割的松木胶合压制而成，叫‘胶合木’（glulam，即‘胶合层压木材’），像一棵被削去树皮、再打磨成几何形状的巨树主干。",
+      "这座楼的开发者阿瑟·布哈尔特，是在一张餐巾纸上画出它的雏形的：两个蓝色方块，一个平放，一个竖在上面。他想造一座‘信号塔’，告诉人们——木头真的能盖这么高的楼。他从小在布鲁蒙达尔小镇长大，建过23家酒店，十年前才开始认真思考环境问题。2015年《巴黎气候协定》签署后，他问自己：‘我能怎么回应这个绿色转变？’他唯一会做的事就是盖房子，于是决定换一种方式盖：用本地森林里的木材；连装饰用的灰色大理石（取自周围山丘）和墙上挂的艺术品，也都来自当地。",
+      "为什么非要用木头？因为全球建筑行业排放了37%的温室气体，其中水泥生产就占7%到8%。而树木生长时吸收二氧化碳，砍下做成建材后，这些碳仍被锁在木头里。一栋中等高度的混凝土大楼，施工过程会排放1500到2000吨二氧化碳；同样大小的木结构大楼，反而能封存600到1000吨二氧化碳——这还不算种新树后继续吸收的碳。",
+      "当然，现实没那么轻松。这座木楼造价约1亿英镑，比全用钢和混凝土贵1000万到1500万英镑。但换个角度看：水泥生产造成的健康与环境损害，其可量化的经济成本，几乎等同于——甚至可能超过——整个水泥行业的产值。就像十年前没人查汽车的碳排放，今天大家第一眼就看这个数字——未来，人们也会这样看一栋楼的‘碳足迹’。",
+      "站在楼顶望出去，雾气沿着对岸森林缓缓滑落，风把细雨吹向玻璃窗。室内安静无声，只有木头的温润感包围着人。那一刻，记者意识到：自己正睡在童年幻想里的‘天空树屋’中——它不是童话，而是已经建成的、真实的未来一角。"
+    ],
+    "topics": [
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/27/the-flat-pack-skyscraper-how-wood-can-shape-the-cities-of-the-future",
+      "originalTitle": "The flat-pack skyscraper: how wood can shape the cities of the future",
+      "publishedAt": "Thu, 27 Aug 2026 04:00:06 GMT",
+      "retrievedAt": "2026-08-28T05:43:25.175Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:43:19.152Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 31,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Wooden Skyscraper",
+      "intro": "A journey to Norway reveals a giant wooden tower and a vision for greener cities.",
+      "paragraphs": [
+        "I traveled to Oslo in early autumn. It felt like arriving into a possible future. I drove north past forests and lakes. Then I saw a tall, slim building. It was Mjøstårnet, the world's tallest wooden skyscraper. It rises 18 storeys above Lake Mjøsa.",
+        "Inside, wood was everywhere. Floors, tables, lamps, and beds were all wooden. Even the elevator shaft was made of wood. My room had a huge wooden column. It felt like a giant treehouse in the sky. The wood came from the local landscape. The developer called it a political statement.",
+        "The man behind the tower is Arthur Buchardt. He drew the first design on a napkin. He grew up near the town of Brumunddal. He built hotels across Scandinavia. After the Paris climate agreement in December 2015, he wanted to act. He asked architects how tall a wooden building could be. He wanted to show what was possible.",
+        "Why choose wood? Concrete and steel create huge emissions. Buildings cause 37% of global emissions. Concrete manufacturing alone accounts for 7 to 8% of those emissions. Trees take carbon dioxide out of the air. They store it in their bodies. Cut down and built with, they still hold that carbon. A wooden mid-rise building sequesters 600 to 1,000 metric tons of CO2. That is before counting new tree growth.",
+        "Still, wooden skyscrapers are not cheap. Mjøstårnet cost around £100m. A steel and concrete tower would have been £10m to £15m cheaper. But climate costs may change the math. Damage from concrete production has a financial value nearly equal to the entire concrete industry. As people care more about carbon, buildings may follow cars. Ten years ago, few checked a car's CO2. Now it is the first thing people look at.",
+        "Imagine an entire city built from wood. Dense urban centers could become giant carbon sinks. We could move from a concrete jungle to a timber city. That is the vision of Mjøstårnet. Maybe one day, our skyscrapers will grow from forests, not quarries."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-28T05:45:45.788Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-28/2026-08-28-the-flat-pack-skyscraper-how-wood-can-shape-the-.webp",
+      "alt": "木制摩天楼与树木剪影的冷色插图",
+      "caption": "木材建筑与自然共生",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-08-27-volcanoes-that-made-history",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "改变历史的大喷发",
@@ -3152,270 +3371,6 @@
       "src": "/editorial/2026-08-11/2026-08-11-why-are-rivers-so-mathematical.webp",
       "alt": "Abstract river network on gray paper",
       "caption": "河流的数学之美",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-11-1-496",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一分钟跳绳496次，三个小学生是怎样做到的？",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-11",
-    "intro": "在2026年亚洲跳绳锦标赛上，重庆三名小学生冷浩然、欧栩滔、徐澄曦以1分钟496次的成绩，刷新了60秒交互绳速度项目混合组世界纪录。",
-    "paragraphs": [
-      "这个数字是什么概念？平均每秒跳动约8.27次，刷新了60秒交互绳速度项目混合组世界纪录。上一个世界纪录是486次，他们多跳了10次。",
-      "交互绳由一人主跳、两人摇绳，比单人跳绳更考验团队协作的默契。三年前，冷浩然、欧栩滔和徐澄曦开始搭伴练习交互绳时，默契不足、技巧不熟，一口气只能跳10来秒。教练范子棋没有着急，而是让他们从10秒开始，一点点突破到15秒、20秒、30秒……直至1分钟全程零失误。",
-      "不断磨合中，三个孩子找到了各自的最佳位置：冷浩然腿部力量突出，负责主跳；欧栩滔手臂力量较强，控制摇绳节奏；徐澄曦细心敏锐，负责观察和调整。技术打磨中，主跳进绳越来越快——从最初需要听着‘1、2、3’才能进绳，到后来听着‘1、2’就能进绳，‘抢’出来的一拍，最终成为刷新世界纪录的关键10次跳动。",
-      "纪录背后是日复一日的坚持。蛙跳、折返跑、立刻接跳绳……每天早晚、每个假期，这样的训练是他们的日常。成年人跳三五年都不会断的绳子，他们一两个月就能跳断一根。徐澄曦招蚊子，夏天训练腿上全是蚊子叮咬的痕迹；奶奶曾心疼地劝她放弃，父亲徐晓龙说，对跳绳运动的热爱让孩子坚持下来。",
-      "跳绳带来的改变不只是奖牌。冷浩然以前是个‘小胖墩’，如今身体状态明显提升；除了身体素质之外，孩子们学会了自己面对和解决困难，抗压能力也提升了。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260809/39377a8fae6940358a78fb8a22289582/c.html",
-      "originalTitle": "追光丨1分钟496次，是怎样练成的？",
-      "publishedAt": "2026-08-09T21:26:26+08:00",
-      "retrievedAt": "2026-08-10T22:04:42.039Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-10T22:04:37.884Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "496 Jumps in a Minute: How Three Kids Made It Happen",
-      "intro": "Imagine jumping rope 496 times in just one minute—that's over eight jumps every second.",
-      "paragraphs": [
-        "Three elementary school students from Chongqing set a new world record in the 60-second interactive rope speed event for mixed teams. Cold Haoran, Ou Xutao, and Xu Chengxi achieved 496 jumps at the 2026 Asian Jump Rope Championships. The previous world record was 486 jumps. When the final whistle blew, the scoreboard showed 496. Their coach Fan Ziqi said the minute felt extremely long. He shouted: 'They did it!'",
-        "Three years ago, the three children began practicing interactive rope together. At first, they lacked coordination and skill. They could only jump for about 10 seconds. Coach Fan Ziqi had them start with 10 seconds and gradually increase to 15, 20, then 30 seconds—until they reached a full minute with zero mistakes.",
-        "In interactive rope, one person jumps while two swing the ropes. Cold Haoran has strong leg power and is the main jumper. Ou Xutao has strong arm power and controls the rope rhythm. Xu Chengxi is careful and observant. She watches and adjusts. They found their best positions through repeated practice. They improved timing so much that they entered the rope on '1, 2' instead of '1, 2, 3'. That saved one beat—and added the final 10 jumps needed to break the record.",
-        "Their training was daily—morning and evening—and continued through every holiday. They did frog jumps, shuttle runs, then immediately jumped rope. Adults might use one rope for three to five years without breaking it. These children wore out a rope in one or two months. Xu Chengxi gets bitten by mosquitoes often in summer. Her grandmother once urged her to quit. Her father Xu Xiaolong said her love for jump rope kept her going.",
-        "The record brought more than medals. Cold Haoran used to be overweight. Now his physical condition has clearly improved. Beyond fitness, the children learned to face and solve problems themselves. Their resilience improved."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-10T22:08:28.931Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-11-hddroo",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从废弃油桶到世界舞台：钢鼓见证文化传承与创新",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-11",
-    "intro": "一个废弃的油桶，能变成什么？在特立尼达和多巴哥，人们给出的答案是：一件能够奏响动人旋律的乐器。",
-    "paragraphs": [
-      "20世纪初，由于殖民当局限制非洲传统鼓乐的使用，特立尼达和多巴哥的青年开始利用废弃的牛奶罐、垃圾桶盖和金属容器，为一年一度的狂欢节创作节奏。随着音乐不断发展，他们将55加仑油桶改造成能够演奏完整音阶和复杂旋律的乐器——钢鼓，迄今唯一诞生于20世纪的原声乐器。",
-      "钢鼓诞生于特立尼达和多巴哥首都西班牙港以东的工人阶级社区拉文蒂耶（Laventille），从不起眼的街头巷尾走向世界舞台，见证了一个民族将挑战转化为创造力的历程。它承载着社区精神、文化遗产和民族身份认同，象征着坚韧、自我表达和团结。每年狂欢节期间举行的全景（Panorama）钢鼓大赛汇聚众多乐队同台竞技，被视为钢鼓音乐的重要盛会。如今，钢鼓的影响早已超越加勒比地区，从北美到欧洲，40多个国家和地区拥有钢鼓乐队，一些大学还开设相关课程；在加拿大等地，钢鼓也被用于学校文化教育，帮助不同背景的学生增进理解与交流。",
-      "2023年，联合国大会通过决议，决定将每年的8月11日定为‘世界钢鼓日’，旨在提升国际社会对钢鼓文化价值的认识，推动这一诞生于特立尼达和多巴哥、被誉为20世纪唯一新发明原声乐器的保护、传承和发展。联合国认为，钢鼓不仅是重要的文化遗产，也是促进文化多样性、教育、青年发展、社会包容和可持续发展的重要载体。围绕钢鼓形成的制造、演出、教育和旅游产业，为社区创造了新的经济机遇，也为青年和小型企业提供了发展空间。2019年，联合国教科文组织将特立尼达和多巴哥首都西班牙港列入音乐创意城市名录，钢鼓正是这座城市利用创造力推动可持续发展的重要象征。",
-      "特立尼达和多巴哥已故卡利普索音乐家丹尼斯·富兰克林·威廉斯曾在歌曲《钢鼓危哉》（Pan in Danger）中表达对钢鼓未来的担忧：随着钢鼓日益商业化和国际化，这一诞生于特立尼达和多巴哥贫民社区、承载着国家文化认同的乐器，正面临传统精神被淡化、年轻一代参与减少以及本土支持不足等挑战。歌曲呼吁加强钢鼓文化的传承与保护，避免钢鼓在走向世界的同时，逐渐失去其历史根源和文化内涵。如今，随着世界钢鼓日的设立，这一诞生于社区、成长于文化土壤中的乐器正在开辟一个新的篇章。钢鼓提醒世界：文化不仅记录过去，也能够创造未来。它的旋律诉说着创造力、韧性与希望，也展现了文化遗产在促进可持续发展、连接不同社会和丰富人类共同文化生活中的力量。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "文化"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142590",
-      "originalTitle": "【专题报道】从废弃油桶到世界舞台：钢鼓见证文化传承与创新",
-      "publishedAt": "Mon, 10 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-10T22:06:31.240Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-10T22:06:27.262Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "From Oil Barrels to World Stages: The Steel Pan Story",
-      "intro": "How can a rusty old oil drum become a beautiful musical instrument?",
-      "paragraphs": [
-        "In the early 1900s, colonial authorities restricted African traditional drumming in Trinidad and Tobago. Young people used discarded milk cans, garbage lid covers, and metal containers for Carnival rhythms. Later, they shaped 55-gallon oil barrels into instruments. These steel pans could play full scales and complex melodies. They are the only acoustic instrument born in the 20th century.",
-        "Steel pans are more than music. They symbolize community spirit, cultural heritage, and national identity. They represent resilience, self-expression, and unity. In 2023, the United Nations General Assembly adopted a resolution. It established World Steelpan Day on August 11. The day aims to raise awareness of steel pan’s cultural value. It supports protection, transmission, and development. Steel pan is a vehicle for cultural diversity, education, youth development, social inclusion, and sustainable development.",
-        "Steel pan music has spread beyond the Caribbean. Steel pan bands exist in over 40 countries and regions. Some universities offer related courses. In Canada, steel pans are used in school cultural education. They help students from different backgrounds build understanding and connection. Steel pans perform Caribbean traditional music. They also play jazz and classical music. They show cross-cultural and cross-regional appeal. From community events to world-renowned stages, steel pans prove music connects people.",
-        "Steel pans support communities economically. Manufacturing, performance, education, and tourism industries create new opportunities. They benefit youth and small businesses. Trinidad and Tobago’s Minister of Tourism, Culture and the Arts said steel pans can create sustainable environments in rural communities. They generate income for small enterprises. In 2019, UNESCO listed Port of Spain in its Creative Cities Network for music. Steel pan is a key symbol of how creativity drives sustainable development.",
-        "Steel pans remind us that culture records the past and creates the future. Their melody tells stories of creativity, resilience, and hope. They show how cultural heritage promotes sustainable development. They connect diverse societies. They enrich shared human culture."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-10T22:09:27.094Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-10-20260806",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蜗牛粘液、提前报废的汽车与西伯利亚的甲烷：本周《科学》杂志导读",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-10",
-    "intro": "这周《科学》杂志2026年8月6日第393卷6811期发表了六项研究，我们挑三个有明确结论、可验证事实的研究讲给你听：蜗牛如何用钙调控粘液功能、提前报废仍能正常使用的内燃机汽车是否带来净气候效益，以及西伯利亚甲烷排放为何十年翻倍。",
-    "paragraphs": [
-      "你知道吗，蜗牛不光留下亮晶晶的黏液，它还能制造出功能完全不同的粘液材料。有的负责润滑，有的负责粘附，有的用来保护和防御。《科学》2026年8月6日刊发的研究发现，花园蜗牛（Cepaea nemoralis）产生的五种粘液基材料，其多功能性由钙调控——它们以VI型胶原蛋白为主要结构组分，并在分泌过程中添加无定形碳酸钙（ACC）。",
-      "在湿性粘液中，无定形碳酸钙充当离子源，最有可能用于分子交联；在干性粘液中，则充当矿物前体。这些发现揭示了这类粘弹性材料能根据钙和蛋白质含量差异，在截然不同的物理状态间转变。",
-      "在美国，内燃机（ICE）汽车是大多数家庭最大的二氧化碳排放源。研究评估了多种退役情景，发现‘报废并更换’纯电动汽车（BEV）的策略能在大多数情境下带来持续减排效果，包括淘汰新购置的ICE汽车。尽管当前市场条件下报废尚可使用的ICE汽车在经济上不可行，但政策干预（如提高报废补贴）具有重大减排潜力。",
-      "北方永久冻土区储存的碳量约为大气中的两倍。2010—2023年间，西伯利亚生长季甲烷排放增加了12.0±1.9太克甲烷（TgCH₄），即每年增加5%。东西伯利亚更温暖干燥，火灾相关排放增长0.7±0.1 TgCH₄/年；西西伯利亚更湿润，湿地相关排放增长0.4±0.1 TgCH₄/年。研究指出，到2050年，西伯利亚更高排放可能抵消全球为实现气候目标所需甲烷减排量的约20%，其中东西伯利亚占主导。",
-      "此外，本期《科学》还报道了两项技术突破：一种抗磁稳定的磁悬浮磁强计，通过光学检测悬浮磁体运动，在室温及地磁场环境下实现32飞特斯拉每平方根赫兹（32 fT/√Hz）灵敏度，性能媲美超导量子干涉器件和原子磁强计；另一项研究利用地震声学数据分析飓风边界层湍流，发现连续次声压力可作为10米高度风速的替代观测指标，压力谱惯性子区间可估算近地面层顶部（约100–200米）湍流耗散率。"
-    ],
-    "topics": [
-      "物质与数学",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569566.shtm",
-      "originalTitle": "《科学》（20260806出版）一周论文导读",
-      "publishedAt": "2026-08-09 20:51",
-      "retrievedAt": "2026-08-09T22:57:58.687Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-09T22:57:45.613Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Science Roundup: Six Fresh Discoveries",
-      "intro": "Welcome to EasyListen. Today, we explore six new studies from Science magazine.",
-      "paragraphs": [
-        "First, scientists built a magnetically levitated magnetometer. It uses optical detection of a suspended magnet's motion. It achieves 32 femtoteslas per square root of hertz sensitivity. It works at room temperature and under Earth's magnetic field. Its performance matches superconducting quantum interference devices and atomic magnetometers.",
-        "Next, researchers studied mucus-based materials from the snail Cepaea nemoralis. They found snails use collagen VI as a main structural component. They add amorphous calcium carbonate during secretion. In wet mucus, it acts as an ion source—likely for cross-linking. In dry mucus, it serves as a mineral precursor.",
-        "Now let's talk about chemistry. Scientists developed an exergonic activation mode. It generates alkene radical cation intermediates from monofunctional C(sp3)–X handles. This uses photoredox-triggered hydrogen-atom transfer and spin-center shift. They call the transfer of electrophilic reactivity from one carbon to another 'electrophilic shuttling'.",
-        "Another study assessed retiring functional internal combustion engine vehicles. For most US households, these are the largest source of carbon dioxide emissions. Battery electric vehicles reduce use-phase emissions. But retiring a working ICE vehicle trades off BEV manufacturing emissions against operation savings. Scrappage-and-replacement yields consistent emissions reductions—even for new ICE vehicles.",
-        "Scientists analyzed atmospheric methane data from 2010 to 2023. Siberian growing-season methane emissions increased by 12.0 ± 1.9 teragrams of methane—about 5% per year. Warmer, drier conditions in eastern Siberia enhanced fire-related emissions. Wetter conditions in western Siberia promoted wetland-related emissions. By 2050, higher Siberian emissions could offset about 20% of global methane reductions needed for climate targets.",
-        "Finally, researchers studied a landfalling hurricane using seismoacoustic data. They identified contributions of hurricane boundary layer turbulence to infrasound pressure and seismic displacement. They validated this with large-eddy simulation calibrated to meteorological data. Continuous infrasound pressure serves as a proxy for 10-meter wind speed. The inertial subrange of pressure spectra estimates turbulent dissipation near the top of the surface layer—at ~100 to 200 meters."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-09T23:02:34.949Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-10/2026-08-10-20260806.webp",
-      "alt": "Snail with map-like slime trail, car and flare in background",
-      "caption": "Calcium, cars, and methane in Science",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-10-taxi-drivers-rarely-die-of-alzheimer-s-how-compl",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "为什么出租车司机很少死于阿尔茨海默病？因为大脑一直在画地图",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-10",
-    "intro": "一项覆盖近九百万人的研究发现，出租车和救护车司机死于阿尔茨海默病的风险明显更低，秘密可能在于他们常年都在做同一件事——实时更新心里的地图。",
-    "paragraphs": [
-      "在美国，一份覆盖2020年1月至2022年12月近九百万份死亡证明的研究发现：出租车和救护车司机是443种职业中死于阿尔茨海默病风险最低的两类人。调整年龄、性别、种族、族裔和教育程度后，约每100名出租车或救护车司机中有1人死于该病；而全体人口中约为每60人中有1人。",
-      "研究者指出，关键不在于驾驶本身，而在于持续的实时导航——即不断定位自身位置、追踪目的地，并随路况变化动态更新心理地图。公交司机和飞机飞行员等依赖固定或预设路线的职业，并未表现出类似保护效应。这一现象与海马体密切相关：它是掌管记忆与空间导航的关键脑区，也是阿尔茨海默病最早损伤的区域之一；空间定向障碍常早于明显记忆衰退出现。",
-      "一项2000年的标志性研究比较了持证伦敦出租车司机与非司机人群的大脑结构，首次通过影像学证实：成人大脑可在持续导航需求下发生可测量的结构性改变。为获执照，伦敦出租车司机须熟记查令十字周边6英里半径内超25,000条街道，这一被称为‘知识’（The Knowledge）的考核需耗时三至四年。研究发现，出租车司机后部海马体灰质体积显著更大，且该体积与驾龄正相关——这种变化源于训练，而非先天禀赋。",
-      "本文作者哈提姆·沙里夫（Hatim Sharif）是一名土木与环境工程师，长期使用地理信息系统（GIS）处理多层空间数据，如将洪水边界叠加于人口普查区块、将车祸热点匹配道路几何特征等。他提出疑问：屏幕上的空间推理是否能像真实城市穿行一样激活海马体？目前尚无实证。但另一项2023年研究发现，居住在空间复杂度更高地区（如街网密集、路口众多、兴趣点丰富、路径选择多样）的人群，阿尔茨海默病发病率更低；研究人员利用全国22,500多人的数据，仅凭居住地空间复杂度即可以84%准确率预测不同邮政编码区的阿尔茨海默病高发情况。",
-      "上述研究聚焦居住环境，而非职业活动。科学家用‘认知储备’概念解释差异：即大脑在存在病理损伤时仍维持功能的能力。若持续的空间思维确能强化海马体回路——而这正是阿尔茨海默病最先攻击的靶点——那么教育设计、职业培训与退休规划，都应纳入脑健康考量。值得欣慰的是，空间推理能力可经训练提升；全球地理、工程、公共卫生及环境科学等领域已广泛开设GIS与遥感课程。出租车司机的研究提示我们：日常认路、构建心理地图等看似平凡的行为，可能正在主动锻炼大脑中最易受阿尔茨海默病侵袭的区域。"
-    ],
-    "topics": [
-      "脑与认知",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
-      "originalTitle": "Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
-      "publishedAt": "Sun, 09 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-09T22:59:46.416Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-09T22:59:44.137Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why Taxi Drivers Are Protected from Alzheimer’s",
-      "intro": "A surprising 2024 study found taxi and ambulance drivers are less likely to die of Alzheimer’s—and their real-time navigation may be why.",
-      "paragraphs": [
-        "London taxi drivers must memorize more than 25,000 streets within a 6-mile radius of Charing Cross. This challenge is called 'The Knowledge'. It takes three to four years. In a 2024 study, researchers examined nearly 9 million U.S. death certificates from January 2020 to December 2022. Taxi and ambulance drivers had the lowest risk of dying from Alzheimer’s disease out of 443 occupations. After adjusting for age, sex, race, ethnicity, and education, roughly 1 in 100 taxi and ambulance drivers died of Alzheimer’s. For the general population, it was about 1 in 60.",
-        "This pattern did not extend to other driving jobs. Bus drivers and aircraft pilots rely on fixed or predetermined routes. Researchers concluded the key was not driving itself—but continuous real-time navigation. That means constantly locating yourself in space, tracking a destination, and updating a mental map as conditions change. This work centers on the hippocampus—a brain region that governs memory and spatial navigation. It is one of the first areas Alzheimer’s damages. Problems with spatial navigation and orientation are among the earliest signs of the disease.",
-        "In a landmark 2000 study, neuroscientists compared licensed London taxi drivers with people who did not drive cabs. They found taxi drivers had measurably more gray matter in the posterior hippocampus—a brain area tied to storing large-scale spatial maps. That volume tracked with experience: The longer someone had driven, the larger that part of the brain. The change was built through practice, not inherited.",
-        "In 2023, researchers ran a machine learning model on more than 22,500 people in a national dataset. They predicted which ZIP codes had higher Alzheimer’s rates with 84 percent accuracy—based on how spatially complex the environment was. People living in dense street networks with numerous intersections, diverse points of interest, landmarks, and multiple path options were less likely to develop Alzheimer’s. A follow-up study linked such geospatial complexity to greater volume in the brain’s spatial navigation regions.",
-        "However, these 2023 studies focused on where people live—not the work they do. Whether spatial reasoning through a screen exercises the same circuitry as real-life city navigation remains untested. Still, mentally complex occupations are linked to delayed cognitive decline and lower dementia risk—even after accounting for education. Spatial reasoning can be trained. Training opportunities are available through geography, engineering, public health, and environmental science programs worldwide."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-09T23:03:28.023Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 18,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-10/2026-08-10-taxi-drivers-rarely-die-of-alzheimer-s-how-compl.webp",
-      "alt": "Brain made of roads with a taxi",
-      "caption": "Navigating minds, lower Alzheimer's risk",
       "kind": "editorial"
     }
   }
