@@ -1,5 +1,232 @@
 [
   {
+    "slug": "2026-08-29-this-cosmic-oddity-blurs-the-line-between-planet",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一颗绕着褐矮星转的巨物，模糊了行星与卫星的界线",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-29",
+    "intro": "天文学家发现了一个前所未见的宇宙天体：它质量接近木星，却绕着一颗褐矮星运行；而那颗褐矮星，又绕着一颗恒星转动。",
+    "paragraphs": [
+      "想象一下太阳系的结构：行星绕着太阳转，卫星绕着行星转。这种清晰的层级关系，帮我们给天体分类——比如木卫三和土卫六，大小和水星差不多，但因为绕着行星转，就叫‘卫星’；水星绕着太阳转，所以是‘行星’。可最近，科学家在CD-35 2722恒星系统里，发现了一个打破这个规则的天体。",
+      "这个新天体质量大约和木星相当，但它不绕恒星转，而是绕着一颗‘褐矮星’运行。褐矮星比行星大得多，却不够大到像太阳那样点燃氢气发光——它介于行星与恒星之间。而那颗褐矮星本身，又在绕着CD-35 2722这颗恒星公转。也就是说，这个天体处在‘三层嵌套’的轨道中：它→绕褐矮星→绕恒星。",
+      "研究团队给它起了个临时名字，叫‘外卫星’（exosatellite），意思是‘太阳系外的类卫星’。但他们也承认：这名字其实不太准——因为它不像月球那样绕着行星转，所以不是传统意义的卫星；它也不直接绕恒星转，所以严格来说，也不符合目前国际天文学联合会对‘系外行星’的定义。",
+      "按照2018年确立的系外行星定义，只要一个天体质量不超过木星的13倍，并且绕着恒星、褐矮星或中子星这类致密天体运行，就可以算作行星。照这个标准，这个新天体确实能被称作‘行星’。但不少天文学家觉得别扭：它所处的轨道结构太特殊了，和我们熟悉的行星完全不同，硬归为行星，反而模糊了它真正的特别之处。",
+      "更有趣的是，这可能不是孤例。今年早些时候，另一支团队也在不同恒星系统中，发现了类似‘绕褐矮星运行的巨物’的线索。这些发现提醒我们：宇宙并不按人类的分类习惯运行。当我们用‘行星’‘卫星’这些词去描述它时，不是在给自然贴标签，而是在努力理解它有多丰富、多意外。",
+      "目前，科学家还在继续观测这个系统。它不危险，不发光，也不靠近地球——但它像一面镜子，照出人类语言和定义的边界。下一次，当你抬头看月亮时，也许可以想一想：如果它不是绕着地球，而是绕着一颗褐矮星，再绕着太阳……那它还是月亮吗？"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/cosmic-oddity-moon-planet-definition",
+      "originalTitle": "This cosmic oddity blurs the line between planet and moon",
+      "publishedAt": "Fri, 28 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-08-29T03:17:10.131Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:17:06.320Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-29/2026-08-29-this-cosmic-oddity-blurs-the-line-between-planet.webp",
+      "alt": "三重轨道示意图",
+      "caption": "宇宙中的轨道奇观",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-29-qsavof",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "台北植物园旁捷运工地，藏着五千年前的农村",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-29",
+    "intro": "在台北植物园旁的捷运工地，考古学家发现了一座距今约5200至4200年的农村遗址，这里的人们已经会种植稻米和小米。",
+    "paragraphs": [
+      "2015年起，台北捷运万大树林线在植物园站施工，因工程范围无法避开植物园遗址，必须启动抢救考古工作。中研院历史语言研究所郭素秋和陈光祖研究员率队承接任务，在地表下4~5公尺深的土层中，发掘出大量石器、陶器，以及保存状况良好的稻、粟等植物遗留。这些器物距今约5200~4200年，属于新石器时代早期，说明台北市区地下曾存在一个持续居住近千年之久的定居聚落。",
+      "怎么从泥土里找到细小种子呢？团队用了‘水桶浮选法’：将不同地点采集的土壤样本浸泡在塑料水桶中1至4天，每天搅拌软化土样；碳化种子因密度低而浮于水面，再用不同密度的不锈钢筛网层层筛选、收集晾干。此次抢救计划从植物园遗址下层共浮选出101份样品，其中76份含各类植物遗留共67,165个，90.39%为谷物类，主要为稻、粟两个种类。这是继南部科学园区南关里东遗址后，台湾第二处发现同时期且数量丰富的栽培作物遗留，更是台湾北部首次确认新石器时代早期已能同时种植稻、粟两种作物。",
+      "如何知道这些稻米是人种的，而不是野生的？关键在稻谷与茎部连接的‘穗轴基部’。野生稻在此处留有接合面，易因风吹碎裂脱落，称‘落粒型’；驯化稻连接处无此接合面，不易脱落，称‘不自动落粒型’。植物园遗址出土的穗轴基部中，不自动落粒型数量明显高于落粒型；中国科学院古脊椎动物与古人類研究所葛勇副研究员借助显微电脑断层扫描与3D重建技术，确认驯化稻穗轴基部存在‘带刺纺锤形植矽体’（FUSIFORM ECHINATE phytolith）——这是植物吸收水分时沉积在细胞内的二氧化硅颗粒，在野生稻中基本不会出现。北京大学考古植物学家邓振华指出：‘当不自动落粒型的比重高达80、90%时，代表这个群体应该都是驯化稻了。’研究推测，这种稻旱混作形式可能源自长江中游，经江西、福建沿海传播至台湾。",
+      "当时的人怎么处理粮食？遗址出土石锄用于掘土、石刀用于割穗；石锤上有锤击痕迹（小深疤点）和磨痕（短线列状），砥石上可见米粒大小的凹洞，推测用于脱穀与碾粉。出土数量最多的‘圜底圆腹罐’内外器体下半部严重熏黑、胎体多次受热变化、附着炭化物，推断用于炊煮；大龙峒遗址出土的‘鸟头状陶支脚’，顶部为鸟头、内侧鸟喙可平稳承托陶器，且有明显熏黑痕迹，证实其为具实际功能的炊具支架。这些工具表明，当时已发展出稳定的稻粟共作农业、定居聚落及配套的器物制作工艺。",
+      "考古过程并不轻松。植物园遗址所在地曾长期沉没于台北湖底，距今六千年前才露出地表，土壤呈青灰色、黏性高，虽利于植物遗留保存，却使土质极为硬实；加之地下水不断涌出，发掘深度达地下6公尺，存在坍塌风险。2006年学术探坑挖掘中曾发生土崩，工人刚爬出坑即遇块状崩落，险被活埋。此后团队严格要求：打入10公尺深钢板桩加固、设置10个点井抽水、全员穿戴警示背心与安全头盔，并由捷运工程单位建造‘之’字形楼梯确保安全通行。郭素秋强调：‘这些研究成果不是只靠一个人的力量，而是整个团队的努力。’她指出，新石器时代早期并非‘简易农耕’或‘初始社会’，而是具备发达村落经济与精细器物工艺的复杂社会，彻底颠覆大众对史前生活的刻板想象。"
+    ],
+    "topics": [
+      "生命与演化",
+      "考古"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中研院研之有物",
+      "region": "international",
+      "url": "https://research.sinica.edu.tw/rice-millet-cultivation-early-neolithic-taiwan-su-chiu-kuo/",
+      "originalTitle": "臺北地底藏了五千年的農村！植物園遺址顛覆史前想像",
+      "publishedAt": "Thu, 27 Aug 2026 08:00:52 +0000",
+      "retrievedAt": "2026-08-29T03:20:09.060Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:19:18.700Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A 5,000-Year-Old Farm Village Hidden Under Taipei",
+      "intro": "Archaeologists digging beneath Taipei for a new subway line found surprising evidence of early farming life.",
+      "paragraphs": [
+        "Next time you pass Taipei's Botanical Garden or Nanjichang night market, think about what is under your feet. Between 2015 and 2018, workers building the Wanda–Shulin MRT line had to pause for a rescue excavation at the Botanical Garden station site. Archaeologist Kuo Su-chiu from Academia Sinica's Institute of History and Philology led the team. They dug down six meters through sticky gray soil and groundwater. What they found changed ideas about Taiwan's earliest farmers.",
+        "The team used the water flotation method to find tiny plant remains. They soaked soil samples in plastic buckets for one to four days. Lighter charred seeds floated to the surface. They collected 101 samples. Seventy-six contained 67,165 plant remains. Over ninety percent were grains — mainly rice and millet. This was the second site in Taiwan, after the Nanguanli East site in the Southern Taiwan Science Park, to yield abundant contemporary cultivated crop remains. It was also the first confirmation in northern Taiwan that early Neolithic people grew both rice and millet together.",
+        "How do we know the rice was farmed, not wild? Wild rice has a 'shattering' spikelet base — a natural break point that lets grains fall easily in wind. Domesticated rice has a 'non-shattering' base, which holds grains firmly for easier harvest. Scientists examined charred rice spikelet bases. Most were non-shattering. Micro-CT scans revealed 'fusiform echinate phytoliths' — silica particles found only in domesticated rice. Experts link this rice to the middle Yangtze River region, where 'rice-drought mixed farming' appeared over 6,000 years ago.",
+        "The dig found stone hoes, knives, grinding stones, and pestles. These tools helped people till soil, cut stalks, and process grains. The most common pottery was the round-bottomed jar. Its lower half showed heavy soot, repeated heating marks, and carbon deposits — signs of cooking. A bird-headed clay stand from the Dalongdong site likely supported such jars. Other pottery included long-necked bottles and three-footed bowls — suggesting uses for cooking, storage, and serving. This shows stable food production and a settled village that lasted nearly a thousand years.",
+        "Excavating was dangerous. Groundwater kept rising, and the soil could collapse. In 2006, during an academic test pit at the Botanical Garden site, a soil collapse almost buried a worker alive. This time, engineers drove 10-meter steel plates into the ground for support. They built a zigzag staircase for safe entry and exit. The team followed strict safety rules: wearing high-visibility vests and helmets. All work aimed to protect both people and the ancient site."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:28:28.232Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-08-29/2026-08-29-qsavof.webp",
+      "alt": "考古遗址与作物",
+      "caption": "五千年前的农村遗址",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-08-29-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI看医学影像有了新规矩，科技部发布伦理指引规范研究转化",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-29",
+    "intro": "8月27日，科技部官网公布《人工智能医学影像研究伦理指引》，由国家科技伦理委员会医学伦理分委员会编制，旨在规范人工智能医学影像的基础算法研究、技术研发、临床验证和转化，防范科技伦理风险。",
+    "paragraphs": [
+      "人工智能医学影像可自动识别和解析医学影像，如数字放射摄影（DR）、计算机断层成像（CT）、磁共振成像（MRI）、单光子发射计算机断层成像（SPECT）、正电子发射计算机断层成像（PET）及超声（US）等的特征，提高诊断的准确性和效率。8月27日，科技部官网公布了由国家科技伦理委员会医学伦理分委员会编制的《人工智能医学影像研究伦理指引》（以下简称《指引》），意在规范人工智能医学影像相关的基础算法研究、技术研发、临床验证和转化，防范科技伦理风险。",
+      "《指引》明确六大基本原则：增进人类福祉、促进公平公正、尊重人的主体性、保护隐私和数据安全、确保安全可控、强化透明可信。在操作层面，《指引》提出了一般要求，即合法合规、知情同意、责任机制、利益冲突。从数据获取到算法研发、产品注册和临床部署，每一环节均应在法律法规、伦理规范框架下进行；明确科研人员、医疗机构、临床医生、科技企业和监管部门在全生命周期中的各自职责，确保人工智能医学影像研究结果可回溯、可审计、可问责。",
+      "围绕特殊要求，《指引》对数据、算法、伦理审查提出具体规范。数据方面，对数据安全、数据质量、数据脱敏、合成数据等作出界定，要求落实全生命周期安全管理，不得将合成数据混同于真实患者数据而不加说明，不得利用合成数据刻意夸大模型性能或规避伦理审查。算法层面，应重点关注算法选择、算法训练、模型评估和测试、模型优化与持续迭代中的伦理问题，特别是在使用合成影像数据时可能存在的幻觉、内容失真等；建立偏见量化指标与监测机制，必要时更新算法、修正偏见。",
+      "在涉及人工智能医学影像研究的伦理审查中，要审核合规性、科学价值和社会价值，还要跟踪审查模型上线后的性能漂移及其预警情况，及时评估与防范应用风险。《指引》还要求从事相关研究的科技人员加强伦理培训，客观准确评价研究成果，避免片面夸大、虚假宣传、误导公众，面向公众做好科普。",
+      "这份文件把AI医学影像研究放进了更清晰的监督框架里。它提醒我们，当机器越来越会读片，透明、公平和责任更不能缺席。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/570451.shtm",
+      "originalTitle": "科技部最新发布，规范AI医学影像研究",
+      "publishedAt": "2026-08-27 18:02",
+      "retrievedAt": "2026-08-29T03:22:25.638Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:21:41.920Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "New Ethical Rules for AI Medical Imaging",
+      "intro": "China has released ethical guidelines for artificial intelligence in medical imaging research.",
+      "paragraphs": [
+        "On August 27, 2026, China's Ministry of Science and Technology published the 'Ethical Guidelines for Artificial Intelligence in Medical Imaging Research'. The guidelines aim to regulate basic algorithm research, technology development, clinical validation, and translation. They seek to prevent ethical risks.",
+        "AI medical imaging can automatically identify and interpret features in medical images. These include digital radiography (DR), computed tomography (CT), magnetic resonance imaging (MRI), single-photon emission computed tomography (SPECT), positron emission tomography (PET), and ultrasound (US). This improves diagnostic accuracy and efficiency.",
+        "The guidelines state six core principles: promoting human welfare, fairness and justice, respect for human autonomy, protection of privacy and data security, safety and controllability, and transparency and trustworthiness. They also set general requirements: legality and compliance, informed consent, accountability mechanisms, and conflict-of-interest management. Every stage — from data acquisition to algorithm development, product registration, and clinical deployment — must follow laws and ethical norms. Researchers, hospitals, clinicians, tech companies, and regulators each have defined responsibilities. Research outcomes must be traceable, auditable, and accountable.",
+        "For data, the guidelines require full-life-cycle security management. Synthetic data must not be treated as real patient data without clear disclosure. It must not be used to exaggerate model performance or bypass ethical review. For algorithms, teams must address ethical issues in selection, training, evaluation, testing, optimization, and iteration — especially when using synthetic imaging data, which may cause hallucinations or content distortion. Bias quantification metrics and monitoring mechanisms must be established. Algorithms must be updated or corrected when bias is detected.",
+        "Ethical review must assess compliance, scientific value, and social value. It must also conduct follow-up review after model deployment — tracking performance drift and issuing early warnings. Researchers must receive enhanced ethics training. They must objectively and accurately report results. They must avoid exaggeration, false claims, or public misinformation. They must also engage in responsible science communication."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:27:03.728Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-08-29-139",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "139件展品串联人类演化史 周口店遗址文化展在重庆开幕",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-08-29",
+    "intro": "周口店遗址文化展在重庆开幕，展出139件展品，系统呈现人类演化历史。",
+    "paragraphs": [
+      "周口店遗址文化展在重庆开幕，展出139件展品，串联起人类演化史。",
+      "展览通过139件展品有序呈现人类演化脉络。",
+      "该展览已在重庆对公众开放。"
+    ],
+    "topics": [
+      "历史",
+      "考古"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-28/10686045.shtml",
+      "originalTitle": "139件展品串联人类演化史 周口店遗址文化展在重庆开幕",
+      "publishedAt": "Fri, 28 Aug 2026 18:39:16 +0800",
+      "retrievedAt": "2026-08-29T03:23:32.589Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-08-29T03:23:24.242Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-28-meet-the-world-s-biggest-waves-and-the-mysteries",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "世界上最大的浪，从何而来？",
@@ -3160,218 +3387,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-08-12-5exscs",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从零起步，他建成了全世界唯一在运行的钍基熔盐实验堆",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-12",
-    "intro": "在甘肃武威民勤县红沙岗镇戈壁滩地下14米，我国完全自主建造的2兆瓦液态燃料钍基熔盐实验堆正在满功率运转。这是目前国际上唯一在运行的同类型反应堆。带领团队从零起步建成它的，是中国科学院上海应用物理研究所所长戴志敏。",
-    "paragraphs": [
-      "在甘肃武威民勤县红沙岗镇，一望无际的戈壁滩上，几座砖红色建筑静静矗立。建筑下14米深处，我国完全自主建造的2兆瓦液态燃料钍基熔盐实验堆正在满功率运转。这是目前国际上唯一在运行的同类型反应堆。整整15年，身为实验堆工程总经理和调试总指挥，戴志敏与团队从‘零’起步，从上海到荒漠，在一无所有的戈壁滩上，为我国掌握第四代先进核能技术，探索开拓出一条可行之路。",
-      "在转战戈壁之前，戴志敏已参与建设上海光源——其储存环是光源最大核心装置，他担任分总体负责人；2009年5月，上海光源首批7条光束线站正式向全国用户开放，《自然》杂志评价这标志着‘中国加入世界同步辐射俱乐部’。光源建成后，他升任副所长，兼任上海光源总经理助理、加速器物理与射频技术部主任。就在那时，他的导师、时任上海应物所所长徐洪杰问他：‘科学院要重启熔盐堆研究，没论文、没奖项、二三十年才见成效，你愿不愿过来开辟新战场？’戴志敏没有丝毫犹豫就答应了。当时，全球民用核能主流选择压水堆路线，美国橡树岭实验室早已放弃熔盐堆技术，并将部分资料公开；我国上世纪70年代也曾研发过钍基熔盐堆，但受限于当时的工业能力，最终也转向了压水堆。这意味着，他们即将踏入一片从未有人成功过的‘无人区’。",
-      "立项之初，团队面临‘三无’困境：无技术、无团队、无工业基础。熔盐工艺系统负责人汤睿回忆：‘那时，戴所和我们一起，把美国解密的资料都快翻烂了，发现有些参数和工艺路线根本不适应中国的工业体系。’他们从最基础、最核心的合金材料、熔盐化学入手，一步步摸索建堆的中国路径。2017年，实验堆最终落户甘肃民勤的戈壁荒漠。上海应物所党委书记、副所长李晴暖回忆：‘第一次来，这里除了沙子和梭梭草，什么都没有。’为了这片2400公里外的科研飞地，戴志敏与团队开始了‘候鸟’生活——单程十几小时的奔波已是家常便饭，为了推进建设进度，他经常一连十几天、几十天驻守在戈壁。",
-      "2023年夏天，钍堆项目建设到了最吃紧的关头——刚拿到运行许可证不久，正准备进行首次加料，管道内的熔盐却意外发生冻堵。‘当时感觉十几年的心血可能要打了水漂。’熔盐工艺系统负责人汤睿说。关键时刻，戴志敏没有责备任何人，而是第一时间稳住阵脚，和徐洪杰老所长一起迅速组织团队分析故障原因、研判解决问题。45℃的设备间里，戴志敏常常一待就是几个小时——由于安全规定，连水都不能喝。他紧盯着仪表盘，逐丝排查异常。材料研究部主任黄鹤飞说，作为现场总指挥，戴志敏组织大家积极抢修的同时，果断启动备用方案，最终解决了熔盐冻堵问题。2023年10月11日，实验堆首次临界成功；2024年6月17日，实现满功率运行。巧合的是，57年前的同一天，中国第一枚氢弹爆炸成功。",
-      "在随后的加钍实验中，有一道关键工序：通过十几米长的管道，将钍燃料胶囊送入高温、强辐照的堆芯。这步操作容不得半点差错——美国橡树岭国家实验室当年进行同类操作时，曾多次发生胶囊脱落掉进堆芯的事故。戴志敏带着技术人员先后讨论了十几种预案，定下‘机械连锁耦合阀门供气物理隔绝’的双重冗余保护方案。最终，33枚燃料胶囊全部成功送入堆芯。戴志敏的办公室里，挂着钍基熔盐堆‘三步走’的路线图：实验堆已经运行，旁边即将兴建10兆瓦钍基熔盐研究堆，到2035年左右要建成百兆瓦级示范工程。此外，在实现钍堆产业化的进程中，还要全力推动‘东西联动’的创新布局：设计研发与装备制造在上海，涉核实验与示范在甘肃。这不仅是为了国家能源安全，更是为了将‘烧钍’技术推广到‘一带一路’沿线钍资源丰富的国家。去年，他罹患重病，动完手术后刚能下床，又想回到所里工作。‘实验堆在运行，研究堆在筹建，团队离不开领头人，我想在有生之年把事做成。’他每周至少来所里工作3天，把有限的精力几乎全部投入到工作中。他说：‘我们选择了一条无人知晓、没人相信能走通的路。即使需要20年、30年，甚至40年的努力，我们都会秉持初心，一代一代接续奋斗。’"
-    ],
-    "topics": [
-      "工程与制造",
-      "能源与气候"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569570.shtm",
-      "originalTitle": "从零起步 他在“无人区”拓荒未来核能",
-      "publishedAt": "2026-08-10 08:07",
-      "retrievedAt": "2026-08-11T22:13:14.096Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-11T22:13:11.003Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "From Zero to a Nuclear Future",
-      "intro": "A 15-year journey from an empty desert to the world's only operating thorium molten salt reactor.",
-      "paragraphs": [
-        "In Minqin County, Wuwei City, Gansu Province, several brick-red buildings stand on endless gravel. Fourteen meters below, China's fully self-developed 2-megawatt liquid-fuel thorium-based molten salt experimental reactor is operating at full power. It is currently the only reactor of its kind running anywhere in the world.",
-        "Dai Zhimin is the Engineering General Manager and Commissioning Chief Commander of the experimental reactor. He is also Director of the Shanghai Institute of Applied Physics, Chinese Academy of Sciences. He was the subsystem leader for the storage ring of the Shanghai Synchrotron Radiation Facility. In 2009, its first seven beamlines opened to users nationwide.",
-        "In 2011, the Chinese Academy of Sciences launched the Strategic Priority Research Program 'Advanced Nuclear Fission Energy — Thorium-Based Molten Salt Reactor Nuclear Energy System'. The team faced 'three no's': no technology, no team, no industrial foundation. They studied declassified U.S. Oak Ridge data. They found some parameters and process routes incompatible with China's industrial system. So they started from alloy materials and molten salt chemistry.",
-        "In 2017, the experimental reactor site was selected in the Gobi Desert of Minqin County. 'The first time we came, there was nothing but sand and saxaul grass,' recalled Li Qingnuan. Dai and his team lived as 'migratory birds'. They traveled over 2,400 kilometers repeatedly. In summer 2023, molten salt froze and blocked pipes. In a 45°C equipment room, Dai stayed for hours. He monitored instruments and led troubleshooting. The team resolved the freeze-up using a backup plan. On October 11, 2023, the reactor achieved first criticality. On June 17, 2024, it reached full-power operation.",
-        "Dai's office displays a 'three-step' roadmap. The experimental reactor is now running. A 10-megawatt thorium-based molten salt research reactor will be built next. By around 2035, a hundred-megawatt demonstration plant is planned. They are building an 'east-west linkage' model. Design and manufacturing are in Shanghai. Nuclear experiments and demonstration are in Gansu. This aims to support national energy security. It also aims to extend 'thorium-burning' technology to Belt and Road countries rich in thorium resources. Dai said: 'We chose a path no one knew, no one believed could succeed. Even if it takes 20, 30, or 40 years, we will uphold our original aspiration and pass the torch generation after generation.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-11T22:20:41.203Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-12/2026-08-12-5exscs.webp",
-      "alt": "地下实验反应堆的抽象剖面图",
-      "caption": "地下实验堆的抽象剖面",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-12-kiv7td",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "数学家王虹获菲尔兹奖，如何折射中国舆论场价值观的迁移？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-12",
-    "intro": "一位中国女数学家拿下数学界最高奖，但真正值得听的，是围绕她的各种不同声音。",
-    "paragraphs": [
-      "北京时间2026年7月24日凌晨（费城当地时间7月23日），中国数学家王虹在美国费城举行的国际数学家大会开幕式上荣获菲尔兹奖。与以往数学新闻主要停留在专业媒体不同，这一次获奖消息迅速突破专业范围，进入大众舆论空间，中央媒体、地方媒体、高校、科研机构、自媒体和普通网友几乎同时参与到此次获奖事件中。",
-      "菲爾茲獎的評選過程保密，但在正式公布獲獎人選之前，國際數學界已經普遍認為王虹是本屆菲爾茲獎的熱門候選人之一。她在限制猜想（Restriction Conjecture）、局部平滑猜想（Local Smoothing）、掛谷猜想（Kakeya Conjecture）等調和分析領域連續取得突破性成果，被認為代表了近年來數學最重要的原創工作之一。當菲爾茲獎名單正式公布後，王虹成為首位獲得菲爾茲獎的中國籍女性數學家。",
-      "中央媒體對菲爾茲獎的解讀集中在「中國數學實現歷史性突破」、「中國首次獲得菲爾茲獎」、「中國青年數學家創造歷史」等，以國家科技實力和創新能力為主要敘事；王虹家鄉所在的廣西黨媒《廣西日報》推出頭版報道《王的猜想》，強調王虹是「桂林女孩」，是「平凡家庭走出的數學家」。",
-      "浙江省宣傳部旗下公眾號「浙江宣傳」發布了文章《包容為什麼給了王虹》，文章主題是：王虹在獲獎後，包括海外求學、使用語言、職業選擇等個人選擇獲得了輿論的「理解和包容」，而不再像以往普通留學生或者普通人一樣遭到非議，文章受到廣泛批評。",
-      "從一則科學新聞演變為一次觀察中國輿論場價值觀遷移的公共樣本。各方聲音圍繞這些說法爭論不休，讓這次獲獎從一個科學事件，變成了觀察中國輿論場價值觀如何遷移的窗口。",
-      "從「歷史性突破」，到「桂林女孩」，再到「包容」，同一個人的同一個獎項，被講出了完全不同的故事。為什麼大家關心的，不止是數學本身？也許，這正是這個時代值得停下來聽一听的問題。"
-    ],
-    "topics": [
-      "历史",
-      "教育"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20260810-mainland-public-discourse-surrounding-mathematician-wang-hongs-award/",
-      "originalTitle": "數學家王虹獲菲爾茲獎，如何折射中國輿論場價值觀的遷移？",
-      "publishedAt": "Sun, 09 Aug 2026 22:59:58 GMT",
-      "retrievedAt": "2026-08-11T22:14:47.070Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-11T22:14:44.765Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-12-49lhg5",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "沈阳西塔的四百年：从喇嘛塔到网红美食街",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-12",
-    "intro": "沈阳有条网红美食街叫西塔，韩式烤肉和朝鲜族风情让人流连，但它的故事，要从三百八十多年前的一座喇嘛塔说起。",
-    "paragraphs": [
-      "沈阳有一条网红美食街叫西塔，提到它，很多人会想到韩式烤肉、朝鲜族风情。但你可能不知道，这条热闹街区的起点，是1643年皇太极在盛京城西郊修建的一座藏传佛教喇嘛塔。从一座荒郊佛塔，到殖民时代铁路交汇的移民落脚地，再到社会主义建设时期少数民族的日常生活空间，21世纪以来演变为中韩建交之后繁华的消费地标“小首尔”，近年来又成为了移动互联网时代的网红打卡地——西塔的政治经济面貌和文化含义，被一波又一波的时代力量不断改写。",
-      "皇太极为什么要在那里修塔？这要从清朝与蒙古的关系说起。当时，后金/清朝攻灭林丹汗后，逐渐意识到藏传佛教对整合蒙藏的重要性。于是皇太极在盛京修建了四塔四寺，西塔就是其中之一。原文指出，盛京藏传佛教寺院网络是清朝藏传佛教管理机制的“先行试验区”。可见，一座塔从一开始就不仅仅是建筑，它承载着政治和信仰的双重含义。",
-      "塔修好后，西塔周围长期是荒郊。改变发生在十九世纪末、二十世纪初。中、俄、日铁路博弈，改变了东北的政治、社会、自然生态，也改变了西塔。大量移民沿着铁路涌入，‘闯关东’的汉族人来了，日本殖民时期朝鲜族移民也聚居于此。西塔因地处铁路交汇地带，逐渐成为各族移民落脚、聚居的地方。",
-      "1931年九一八事变后，西塔成为殖民者新城市规划中的“红灯区”，隔壁则兴起了铁西工业区。殖民夹缝中，朝鲜族教堂在此建立，后来成为在全国都非常有影响的西塔教会。社会主义建设时期，西塔经历了巨大的社会结构变迁，但经济发展（相比铁西）较慢。‘平壤楼’‘朝百’（朝鲜族百货商店）等场所，与中国朝鲜族身份认同的形成密切相关。",
-      "改革开放后，西塔与铁西发展趋势此消彼长，是同一个逻辑（全球新自由主义浪潮）的不同产物。新世纪的西塔：从打造‘小首尔’到成为网红打卡地。从一座喇嘛塔到一条美食街，西塔的四百年，是被一波又一波时代力量不断改写的历史。下次路过那里时，不妨想想：这条街上，藏着多少看不见的故事？"
-    ],
-    "topics": [
-      "西塔四百年",
-      "城市历史变迁",
-      "微观全球史"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/radios/218196",
-      "originalTitle": "西塔四百年：从一座喇嘛塔到网红美食街的微观全球史",
-      "publishedAt": "Tue, 11 Aug 2026 08:00:00 +0800",
-      "retrievedAt": "2026-08-11T22:18:10.828Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-11T22:18:07.033Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-12/2026-08-12-49lhg5.webp",
-      "alt": "古老街道与喇嘛塔的抽象景观",
-      "caption": "古塔与街市的时空叠影",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-11-why-are-rivers-so-mathematical",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "无论大河小溪，长度和汇水面积都遵循同一条数学定律",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-11",
-    "intro": "从天上落下的雨水，怎么在地上刻出纵横的河道？一位地质学家发现，无论大河小溪，长度和汇水面积之间都遵循同一条数学定律。",
-    "paragraphs": [
-      "全世界的河流网络看起来都差不多：细小的溪流汇入稍大的支流，再并入更大的干流，最后奔向大海。这种分支结构很像树枝连着树干，也像叶脉、人体血管、铁路与公路网——它们都属于‘运输网络’，即把某种流体（水、血液、车流）从各处输送到一个集中点（海洋、心脏、城市中心）。河流尤其特别，因为它们并非生物演化或人工规划的结果，而是混沌地球过程自发形成的。",
-      "1957年，美国地质调查局科学家约翰·哈克在弗吉尼亚和马里兰州的河流上测量了每条溪流的长度及其汇水区域的面积（即流域面积）。他发现：任何溪流——从最小的山涧到最大的江河——其长度大致与流域面积的0.6次方成正比（公式表达为 L ∼ A⁰·⁶）。尽管实际数值存在微小波动（因地球复杂性），但这一关系‘总体规律性仍极为显著’；且该规律‘不受区域地质或构造特征影响’。后来卫星影像数据证实，这一规律在全球范围内成立。",
-      "为什么大自然会形成这种形状？20世纪90年代初，意大利水文学家安德烈亚·里纳尔多等人提出‘最优河道网络’理论：在一块均匀降雨的方形土地上，若将全部径流导至单一出口，挖大量直线沟渠虽直观，却需极长总长度，耗能巨大；而采用树状分级网络——小流汇入大流，最终归于主干——虽单个水滴路径变长，但因共享主干渠道，整体摩擦损耗更低、能量更节省。计算机模拟显示，指数恰好为0.6的网络能耗最低。",
-      "另一解释来自‘景观演化模型’。科学家用计算机模拟雨水沿随机起伏地形流动并持续侵蚀岩石的过程。初始微小地形差异导致某些沟谷捕获更多径流，从而侵蚀更快、加深，进而吸引更多水流；邻近沟谷则因水源被截断而萎缩甚至消失。这类局部竞争与调整持续数千年，使整个排水网络不断重组，最终自发趋向最节能的格局，并在地表刻下符合哈克定律的形态。"
-    ],
-    "topics": [
-      "物质与数学",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
-      "originalTitle": "Why Are Rivers So Mathematical?",
-      "publishedAt": "Mon, 10 Aug 2026 14:56:34 +0000",
-      "retrievedAt": "2026-08-10T22:02:07.038Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-10T22:01:55.667Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-11/2026-08-11-why-are-rivers-so-mathematical.webp",
-      "alt": "Abstract river network on gray paper",
-      "caption": "河流的数学之美",
-      "kind": "editorial"
     }
   }
 ]
