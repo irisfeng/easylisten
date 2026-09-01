@@ -1,5 +1,270 @@
 [
   {
+    "slug": "2026-09-01-some-sea-stars-channel-light-like-fiber-optic-ca",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "海星骨骼里的“光纤”：既能导光，又能加固",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-01",
+    "intro": "科学家发现，巧克力片海星的手臂尖端藏着90到100个微小的锥形结构，像光纤一样把光线导入体内，还让骨骼变得更加坚固。",
+    "paragraphs": [
+      "有一种海星，因为背上长着深色的小疙瘩，看起来就像撒了巧克力豆，所以人们叫它巧克力片海星（_Protoreaster nodosus_）。它生活在热带浅海里，五条手臂从一个中央圆盘伸出来。最近，科学家扫描它手臂尖端一块心形的骨骼——称为终端板——时，发现里面整整齐齐地排列着90到100个锥形小结构，这些结构像光纤一样，能把光线导入海星体内。",
+      "这个发现完全是个意外。研究人员原本想弄清楚，海星怎么把脆弱的碳酸钙骨骼造得那么结实。他们用X射线扫描终端板，结果发现每个板内都含有90到100个锥形结构，每个锥体由单个碳酸钙晶体构成；这种矿物的折射率比海水高，使进入宽端的光线发生全内反射，沿锥体内部传播，最终从窄端射出——原理与光纤传输光信号相同。",
+      "为了证明这些锥体能导光，团队在实验室里做了测试：当光照向终端板时，板下方的空腔里出现了一个亮点；而海星其他部位的骨骼没有这个效果，光线只会散开。每个锥体能传导约70%的入射光；所有锥体协同工作，可将光强度放大至原来的八倍。这项研究于6月8日发表在《美国国家科学院院刊》上。",
+      "海星天生会朝着光移动，这叫趋光性（phototaxis）。研究者猜想，海星可能通过比较五条手臂终端板接收到的光量，来判断光源方向——‘它们可以比较不同方向的光照水平，从而识别哪边更亮、哪边更暗’。但目前尚未在锥体下方发现感光细胞，因此这一功能尚未证实。一位研究海洋动物视觉的专家指出：‘光探测器这部分仍是缺失的’；另一位专家建议，只需用光照射海星并观察其是否响应，就能初步验证。",
+      "即便导光功能尚未被证实，这些锥体已确认带来一个实际好处——增强骨骼强度。计算机模型显示，这些结构使终端板的刚度提升约三倍，且几乎未增加材料用量。终端板位于手臂最尖端，是海星最暴露、最易刮擦或被捕食者注意的部位，‘让棘刺尖端格外坚固，非常合理’。",
+      "更让工程师们眼前一亮的是，海星用同一种材质（碳酸钙）、同一个结构（锥形晶体），同时实现了导光和加固两种功能。通常材料设计中，高强度与高效导光难以兼顾，而海星却做到了‘用单一结构执行不同功能’。研究者认为，这一自然设计或可启发新型轻质多功能材料的开发。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/some-sea-stars-channel-light-like-fiber-optic-cables",
+      "originalTitle": "Some sea stars channel light like fiber-optic cables",
+      "publishedAt": "Mon, 31 Aug 2026 10:30:00 +0000",
+      "retrievedAt": "2026-09-01T01:25:41.758Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:25:36.276Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Sea Stars Use Bone Cables to Channel Light",
+      "intro": "Scientists found tiny light-guiding channels inside sea star arms.",
+      "paragraphs": [
+        "Chocolate-chip sea stars are famous for the rows of dark, pointy bumps that cover each of their arms. The animals really look like they’re dotted with chocolate chips. But what’s inside their arms is even more surprising, a new study finds. Researchers have discovered tiny structures deep inside the skeleton at the tip of each arm. These channels work like mini fiber-optic cables.",
+        "The chocolate-chip sea star (Protoreaster nodosus) lives in shallow tropical waters. Its five arms grow out from a central disk. A network of small, interlocking plates make up its skeleton. Each plate is made of a chalky mineral called calcite. At the tip of each arm sits a heart-shaped piece called a terminal plate.",
+        "Each plate held 90 to 100 cone-shaped structures. Each extends deep into the skeleton. Each cone is built from a single crystal of calcium carbonate. This mineral bends light more than the surrounding seawater does. That means that light hitting the wide part of a cone refracts — bends — inward. Its angle and the high refractive index make the light bounce back — or reflect — off the cone’s inner walls. This is called total internal reflection. Light bounces within the crystal until it exits out the narrow end of a cone. 'It’s the same physical phenomenon as fiber optics,' says Pupa Gilbert.",
+        "All cones in a terminal plate work together, gathering light from one-third of the field of view around it. As cones funnel that light in toward a cavity below, they amplify its intensity as much as eight times. Li’s team tested the cones in the lab to confirm they channel light. When they shined light at a terminal plate, a bright spot appeared in the cavity below. Other bits of the sea-star skeleton had no such effect. Light shined on them simply scattered. Only the terminal plate’s cones focused light this way.",
+        "His team doesn’t know for sure that the animals use the cones this way. For one thing, no one has yet found light-sensitive cells beneath the cones. These would make the light signal useful to the animal. 'The light detector is the part that’s missing,' says Gilbert. Computer models show that these structures about triple the stiffness of the terminal plates compared to other parts of the skeleton. 'A three-times improvement in strength without adding that much material is pretty neat,' says Samuel Powell."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:37:30.689Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-01/2026-09-01-some-sea-stars-channel-light-like-fiber-optic-ca.webp",
+      "alt": "Sea star arm tip with light-conducting cones",
+      "caption": "海星骨骼的导光结构",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-01-1985",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一份1985年的手稿，为中国可再生能源指明方向",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-01",
+    "intro": "中国科学家博物馆珍藏着一份1985年的手稿，题为《中国太阳能与风能利用的发展与研究概况》，作者是时任中国太阳能学会理事长的王补宣。他在手稿中明确提出‘经济、实惠、牢靠、面向大众普及’的发展准则，为我国早期可再生能源事业锚定了落地路径。",
+    "paragraphs": [
+      "在中国科学家博物馆里，珍藏着一份1985年的手稿，题为《中国太阳能与风能利用的发展与研究概况》。作者是时任中国太阳能学会理事长的王补宣。回望20世纪80年代，国内可再生能源领域尚属一片亟待开拓的新领域，光伏、风电技术远未成熟，设备造价高昂、产业基础薄弱。当时太阳能、风能研究分散在全国各大高校、科研院所，缺少全局性梳理与发展规划。王补宣在手稿中系统梳理全国太阳能、风能科研现状，明确提出‘经济、实惠、牢靠、面向大众普及’的发展准则，为我国早期可再生能源事业锚定了落地路径。",
+      "王补宣1922年生于江苏无锡，年少怀揣‘工业救国’的赤诚理想，考入西南联合大学机械工程系。1949年，他取得美国普渡大学硕士学位，但得知新中国百废待兴、工业热工领域一片空白后，毅然放弃海外深造机会归国。彼时中国工程热物理学科零基础、无教材、无团队、无体系，专业人才极度匮乏。归国后，他先任北京大学工学院副教授，后在清华大学深耕教研，从零起步搭建热工教研组，翻译传热学启蒙著作，编撰出新中国首部《工程热力学》教科书，填补了国内学科教材空白；1957年创办国内首个工程热物理本科专业，为国家培育大批高层次热工人才。",
+      "王补宣被清华师生亲切称作科研领域的‘百搭能手’，也有人幽默地叫他科学界的‘万金油’。20世纪60年代，四川化工厂氨合成塔产能低下，又恰逢外国专家悉数撤走、全套图纸缺失，产业发展陷入停滞。危急关头，王补宣跳出熟悉的基础理论研究，扎根化工设备改造一线。历时三年日夜攻关，他带领团队研制出三重冷管氨合成塔，让单塔日产量直接翻倍，技术跻身世界前沿。该成果获评全国重大发明奖，入选国家百项重大科研成果。",
+      "步入20世纪80年代，国内能源供应紧张，国家开始布局可再生能源发展。王补宣再度扛起重任，牵头搭建起国内太阳能、风能等新能源科研协作网络，创办《太阳能学报》，为全国新能源科研工作者搭建重要的学术交流平台。他曾坦言：‘我做过各个领域中热物性的问题……我这个“万金油”里面有共同的点，就是都没有脱离热工。’国家工业建设需要什么，他就研究什么——锅炉传热、建筑湿热环境、太阳能开发利用、工业节能等诸多领域都有他的身影。",
+      "王补宣（1922年2月5日—2019年8月31日）是中国科学院院士、工程热力学家，中国工程热物理学会、中国太阳能学会（现中国可再生能源学会）等创始人之一。九十余载人生，一生深耕报国。如今，我国风电、光伏产业蓬勃发展、惠及万家，新能源事业蒸蒸日上。回望来路，正是王补宣等老一辈科学家，以超前眼光拓荒铺路，以务实初心扎根民生，用一生坚守与奉献，为中国新能源事业、热工学科发展筑牢根基、照亮前路。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/570596.shtm",
+      "originalTitle": "这份1985年的手稿，为可再生能源指明方向",
+      "publishedAt": "2026-08-31 08:15",
+      "retrievedAt": "2026-09-01T01:26:34.359Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:26:31.336Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-01-beef-production-in-brazil-has-been-the-largest-d",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "巴西牛肉，全球森林砍伐的最大推手",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-01",
+    "intro": "近几十年，全球为农业砍伐的森林面积相当于五个英国，而最大推手是巴西的牛肉生产。",
+    "paragraphs": [
+      "很多人可能想不到，我们餐桌上的牛肉，会和远在南美洲的森林消失有关。自本世纪初以来，全球为了腾出土地搞农业，砍伐的森林面积相当于五个英国那么大。想减少甚至终结森林砍伐，首先得弄清楚：到底是谁砍的，在哪里砍的？",
+      "答案最大的那一块，指向牛肉。研究显示，近几十年来，为了开辟牧场养牛而砍掉的森林，占了全球森林砍伐的41%。这些砍伐集中在哪里？近三分之二发生在巴西。算下来，全球森林砍伐的四分之一，是由巴西牛肉直接推动的。尤其严重的是，亚马逊雨林和塞拉多稀树草原这些生物多样性极高的地区，成了牧场扩张的主要代价。",
+      "巴西生产那么多牛肉，是不是都出口到国外了？事实恰好相反。巴西每年生产约900万至1000万吨牛肉，出口约300万吨，大部分留在国内消费。过去50年，巴西人均牛肉消费量翻了一倍，现在平均是欧洲人的三倍。也就是说，这轮砍伐主要是为巴西人自己的餐桌买单。",
+      "一份2005至2023年的贸易数据也印证了这一点：巴西因商品驱动的毁林中，约85%由国内需求驱动，仅15%与出口相关。虽然中国和美国是巴西牛肉的最大进口国，但没有任何一个国家对巴西毁林的拉动作用特别突出。国际需求确实推动了部分毁林（如大豆和牛肉贸易），但绝大部分是为了满足国内需求。",
+      "这带来一个关键认识：如果我们关心亚马逊雨林，光盯着出口贸易并不够。真正的驱动力，是巴西人持续增长的牛肉消费。森林消失的故事，最终绕回到每个人的餐盘选择上。"
+    ],
+    "topics": [
+      "气候与能源",
+      "经济与商业"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Our World in Data",
+      "region": "international",
+      "url": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
+      "originalTitle": "Beef production in Brazil has been the largest driver of global deforestation in recent decades",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "retrievedAt": "2026-09-01T01:27:33.619Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:27:28.636Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 19,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Brazil's Beef Appetite and the Vanishing Forests",
+      "intro": "Forests are disappearing at an alarming rate, and beef is the biggest reason.",
+      "paragraphs": [
+        "Since the turn of the century, an area of forest five times the size of the United Kingdom has been cut down to free up land for farming.",
+        "Beef production has driven 41% of global deforestation in recent decades. Almost two-thirds of that has taken place in Brazil. That means beef production in Brazil accounts for about one-quarter of global deforestation.",
+        "The expansion of cattle pastures has come at the expense of natural forests — particularly biodiverse regions in the Amazon rainforest and Cerrado savanna.",
+        "Most of Brazil’s beef is consumed domestically. Around 85% of deforestation linked to beef in Brazil was driven by domestic demand. Per-person beef consumption in Brazil has doubled over the past 50 years and is now three times the European average.",
+        "Only about 15% of Brazil’s beef-related deforestation is linked to exports. That share is spread across many countries. China and the United States are the largest importers, but none are particularly dominant."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:36:13.437Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-01-2026",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "量质齐升 2026年中国电影暑期档收官",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-01",
+    "intro": "中新网报道用“量质齐升”来总结2026年中国电影暑期档。",
+    "paragraphs": [
+      "暑假刚刚结束，电影院也送走了全年最热闹的档期。中新网报道用“量质齐升”来总结2026年中国电影暑期档。",
+      "先看“量”。",
+      "再看“质”。",
+      "为什么说这个信号比一部爆款更重要？",
+      "当然，一次收官不是终点。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687562.shtml",
+      "originalTitle": "量质齐升 2026年中国电影暑期档收官",
+      "publishedAt": "Mon, 31 Aug 2026 22:38:19 +0800",
+      "retrievedAt": "2026-09-01T01:28:42.205Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:28:39.270Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-01-communities-affected-by-climate-change-need-more",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "气候数据之外，社区还需要什么？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-01",
+    "intro": "波多黎各南部沿海社区拉马里格里塔的居民，守着世界上最先进的气候卫星数据，却依然在洪水、污染和基础设施失修中生活。一项新研究指出，让数据真正起作用，关键不在数据本身，而在信任与协作。",
+    "paragraphs": [
+      "说到气候变化，你可能想到海平面上升、极端天气。很多科学家和机构会提供海平面上升查看器、热力图、洪水预测服务等工具。美国宇航局地球观测（NASA EO）数据集能提供这些及其他自然灾害的重要信息，但许多最需要这些工具的社区，却面临获取障碍。",
+      "在波多黎各南部海岸，有个叫拉马里格里塔的社区。这里看起来阳光明媚，其实隐患不少：洪水、风暴暴露、基础设施坍塌、政府投资不足；居民还承受着附近发电厂和工业消毒设施带来的污染。2022年飓风菲奥娜带来30英寸降雨，摧毁了低洼地区的房屋，使居民长时间失去基本服务。",
+      "研究人员与拉马里格里塔居民合作开展了一项为期9个月的三阶段项目。第一阶段，通过16场一对一的双语访谈，了解居民的环境正义关切、对地球观测（EO）工具的熟悉程度，以及可能存在的使用障碍；第二阶段，一位NASA代表向社区成员演示EO工具的实际应用，例如显示停电模式、预测海平面上升速率；第三阶段，团队编制了一份英西双语报告，汇总居民关切与可用的NASA EO资源，并邀请居民反馈，确保报告准确反映其需求。",
+      "居民最关心的问题包括：洪水（56%）、非法开发导致的土地滥用（63%）、空气质量和相关健康问题（50%）。政府不作为是他们最大的担忧（69%）。居民起初对EO工具知之甚少，但认为洪水地图和空气质量监测系统会有用——前提是配套提供使用支持。主要障碍包括网络信号不稳定、技术不熟悉、过去与无效主管部门打交道的经历，以及语言障碍。",
+      "居民明确表示：不希望外部专家强加解决方案；他们期待与研究人员和机构建立倾听关系，共同推动社区主导的决策。研究作者强调，环境正义远不止于提供数据——在科学家、社区与NASA等机构之间建立信任关系，才能确保重要工具真正抵达并被最需要的人所用。",
+      "也许，解决气候问题的钥匙，不只是天上的卫星，还有人与人之间的信任。"
+    ],
+    "topics": [
+      "气候与能源",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/research-spotlights/communities-affected-by-climate-change-need-more-than-data",
+      "originalTitle": "Communities Affected by Climate Change Need More Than Data",
+      "publishedAt": "Mon, 31 Aug 2026 13:07:42 +0000",
+      "retrievedAt": "2026-09-01T01:32:44.060Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-01T01:32:41.852Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-08-30-the-cyclops-may-be-an-ancient-myth-but-one-eyed-",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "独眼巨人是神话，独眼动物却是真的",
@@ -3105,275 +3370,6 @@
         "reviewedAt": "2026-08-14T21:55:14.470Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-15-8w8ano",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "国家体育总局：坚决反对任何形式“追私”行为",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-15",
-    "intro": "国家体育总局明确表示，坚决反对任何形式的“追私”行为。",
-    "paragraphs": [
-      "近日，国家体育总局明确表示，坚决反对任何形式的“追私”行为。",
-      "“追私”的“私”，是隐私的私。指不经过运动员允许，擅自打扰其私人生活的行为。",
-      "这一表态旨在保护运动员的隐私权和人身安全，维护其正常训练、比赛与生活秩序。"
-    ],
-    "topics": [
-      "城市与公共",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-14/10677753.shtml",
-      "originalTitle": "国家体育总局：坚决反对任何形式“追私”行为",
-      "publishedAt": "Fri, 14 Aug 2026 17:15:03 +0800",
-      "retrievedAt": "2026-08-14T21:57:08.917Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-14T21:56:23.910Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-14-explainer-what-is-adhd",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "ADHD不是笨，而是大脑的另一种运作方式",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-14",
-    "intro": "ADHD不是笨，也不是懒，而是一种常见的大脑运作方式。它让一些人更容易走神、坐不住，但也可能带来创造力。",
-    "paragraphs": [
-      "上课的时候，同学都在看着黑板，玛凯拉·卡利恩多却盯着窗外发呆。有些衣服的标签和袜子让她难受，她根本没法集中注意力。她甚至重读了一年幼儿园，小时候的她觉得自己比同龄人笨。但她一点都不笨——她的大脑只是用另一种方式工作。玛凯拉患有的，就是注意力缺陷多动障碍，简称ADHD。",
-      "ADHD影响人们思考、学习和处理信息的方式。它其实是一种神经类型，是大脑发育过程中自然且相当常见的差异。在美国，大约有2200万人被诊断出ADHD，其中超过600万是儿童。研究发现，ADHD患者的大脑中，一些用于传递信号的化学物质比常人少，比如影响动力和情绪的多巴胺，还有影响注意力和兴奋的去甲肾上腺素（Nor-ep-ih-NEF-rin）。正因为这些差异，他们可能更难专心做某件事，坐不住，也不容易控制自己的情绪和动作。",
-      "ADHD并不只有一种模样。专家根据行为特征把它分成三种：多动型的人总坐立不安，容易冲动；注意力不集中型的人容易分心、丢三落四，玛凯拉就是这一型；混合型则结合了部分多动和注意力不集中特征，是最常见的类型，威廉姆斯估计每10个ADHD患者中约有6个属于这种。哪些特征会表现出来，取决于多种因素，其中基因是重要原因——约80%的ADHD患者遗传了使其更易表现出ADHD特征的基因，这也让ADHD成为遗传性最强的精神状况。环境因素也可能起作用，比如感染或早期接触铅等有毒金属，但目前尚不清楚这些是否直接导致ADHD。",
-      "要确诊ADHD，不能仅凭偶尔走神。一个人必须表现出至少六种相关特征，持续六个月以上，且这些特征需在家庭、学校等多个场合影响其功能。然而，很多ADHD患者没有被及时识别——超过一半的人要到14岁以后才被诊断。女孩更易被漏诊，因为她们更多表现出爱发呆等不太明显的注意力不集中特征；黑人、亚裔和西班牙裔儿童也比白人儿童更少获得ADHD诊断。研究者指出，偏见可能起作用：例如，白人老师面对因答不出问题而沮丧的黑人学生，可能从不同文化背景去解读其行为，而黑人老师更可能识别出这是注意力困难的表现。",
-      "还有人觉得ADHD不是真实存在的状况，或认为患者就是懒。其实，关于ADHD特征的描述贯穿历史。发明家爱迪生常在完成一个项目前就被新想法吸引，还因无法专注被老师赶出学校，因此有人推测他可能患有ADHD。ADHD大脑天生倾向‘追求新奇’，因多巴胺等神经递质水平较低，对枯燥任务难以维持注意——比如打两小时游戏毫无压力，但做不喜欢的数学作业或倒垃圾就格外困难。但反过来，多动和冲动特质也能帮助人建立跨领域联系，催生更灵活、更具适应性和创造力的想法。当ADHD患者遇到真正感兴趣或具挑战性的任务时，他们可能进入高度专注状态。体操名将西蒙·拜尔斯就患有ADHD，她对体操的专注帮助她赢得23枚世界锦标赛金牌，并完成许多曾被认为不可能的动作。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/explainer-what-is-adhd",
-      "originalTitle": "Explainer: What is ADHD?",
-      "publishedAt": "Thu, 13 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-13T22:09:10.372Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:09:08.886Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-14-graduate-student-proves-a-quantum-uncertainty-pr",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "博士生证明分形结构也遵循量子不确定性原理",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-14",
-    "intro": "一个25岁的博士生，用数学证明：像雪花、海岸线这样越放大越复杂的图形，和量子粒子一样，无法同时被‘精确定位’和‘精确描述变化’。",
-    "paragraphs": [
-      "你可能听说过‘海森堡不确定性原理’：在极小的量子世界里，科学家越清楚一个粒子在哪里，就越说不准它跑得多快；反过来也一样。这并不是仪器不够好，而是世界本来的样子。最近，这个原理被拓展到了另一类奇妙的形状上——分形。比如一片雪花、一棵西兰花，或者一段海岸线，无论你把它放大多少倍，总能看到同样复杂的细节。这种‘无限自相似’的结构，数学家叫它分形。",
-      "十年前，麻省理工学院的数学家戴特洛夫想弄明白：当物体在混沌中运动时，比如弹珠在弹球机里乱撞，有时会意外地被‘困住’，只在几个挡板之间来回反弹——它的撞击点连起来，恰好形成一种典型的分形，叫‘康托尔集’，看起来像一捧细密的‘分形尘’。但量子粒子是波，不是小弹珠；如果真把它‘关’进这样的分形路径里，它会不会立刻‘漏’出去？要回答这个问题，需要一个新的数学工具：能处理分形的不确定性原理。",
-      "2016年，戴特洛夫和已故数学家布尔甘合作，只证出了‘一维’情况下的分形不确定性原理——也就是把分形画在一条直线上。可真实世界是三维的，没人知道这个原理能不能推广。直到2025年，当时还是MIT博士生的亚历克斯·科恩，在顶级数学期刊《数学年刊》上发表论文，成功把这条原理推广到所有更高维度。他25岁就凭这项工作成为纽约大学助理教授。普林斯顿高等研究院的萨纳克评价：‘这是奠基性成果。’",
-      "这个原理说的是：如果你用一堆‘分形式’的频率（就像把不同音高按分形规律排列）合成一个声音或波形，那它最终的形状就不可能也是分形；反过来，一个分形形状的波，它的频率分布也绝不会呈现分形结构。换句话说，分形和它的‘变化方式’天生互斥——就像量子粒子的位置和速度不能同时确定一样。",
-      "为什么这很重要？它揭示了量子世界和经典世界的一条深层差异：一个弹珠或许能被‘锁’在分形路径里永远弹跳，但一个量子波做不到——它一定会‘渗出’边界。这不是缺陷，而是波的本质。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
-      "originalTitle": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
-      "publishedAt": "Wed, 12 Aug 2026 14:14:42 +0000",
-      "retrievedAt": "2026-08-13T22:10:58.165Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:10:49.661Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
-      "intro": "A young mathematician has extended a key quantum rule to work for fractals in any number of dimensions.",
-      "paragraphs": [
-        "The usual uncertainty principle says you cannot know both a quantum particle's position and its momentum exactly. The more you know about where it is, the less you know about how fast it's moving, and vice versa. Fractals are shapes that remain equally complex no matter how much you zoom in on them. Researchers wanted to know if quantum particles could follow fractal-like paths in chaotic situations. Ordinary objects sometimes get trapped on those paths forever. But quantum particles behave like waves, which blur their exact location.",
-        "In 2016, mathematician Semyon Dyatlov — with key ideas from Jean Bourgain — proved the fractal uncertainty principle for one-dimensional fractals, which look like jagged lines. Those lines can represent paths taken by objects moving in two dimensions, like balls on a billiard table. Dyatlov and Bourgain held a workshop in New Jersey that fall to extend the proof to higher dimensions. By the end, 'nobody really believed that it could be done,' said mathematician Frédéric Naud. Years later, Alex Cohen, while a doctoral student at MIT, published a proof in the Annals of Mathematics in 2025. He extended the principle to all higher dimensions. The result became Cohen's thesis and earned him an assistant professorship at New York University at age 25.",
-        "The fractal uncertainty principle comes from the Fourier transform — a 19th-century equation that breaks any function into simple waves of different frequencies. The usual uncertainty principle arises because a narrow function in space must have a wide spread of frequencies, and vice versa. In quantum mechanics, a particle's position and momentum are linked this way. Now imagine the Cantor set: start with a line, cut it into three, remove the center, repeat. The result is porous — full of holes at every scale. The fractal uncertainty principle says if you add together waves whose frequencies lie on such a fractal set, the resulting curve cannot itself be porous. The reverse also holds.",
-        "This matters for chaotic systems like a ball bouncing in a pinball machine. Most balls move erratically — 'like a random scribble.' But in rare cases, a ball can stay confined, bouncing between three bumpers forever. The impact points form fractal dust — a collection resembling the Cantor set. A classical object can stay on that fractal-like path. But a quantum wave cannot. 'If you tried to trap a wave between three bumpers, it would leak out and escape,' said Semyon Dyatlov. 'So there’s something different about quantum and classical [chaos].' One ingredient for understanding that difference is uncertainty principles."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:20:08.130Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-14/2026-08-14-graduate-student-proves-a-quantum-uncertainty-pr.webp",
-      "alt": "A blurred fractal shape on textured paper",
-      "caption": "分形与不确定性",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-14-nfb6b1",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我们为什么需要县级博物馆？",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-14",
-    "intro": "这篇述评聊聊县级博物馆的意义：它们虽小，却是一个地方最珍贵的记忆。",
-    "paragraphs": [
-      "你注意过吗？很多小县城里，也有一座博物馆。它们可能没有大城市博物馆那样气派，展厅不大，展品也不算多，却藏着这个小地方最珍贵的记忆。今天，我们就来聊聊，为什么我们需要这些小小的县级博物馆。",
-      "县级博物馆承担着收藏、保护和展示本地历史文化遗产的重要职能。每个县都有自己的历史脉络与文化特色——比如某地曾是古代重要驿站，或保存有独特非遗技艺。这些内容需依托实物遗存加以印证与传承。若缺乏系统性保护，文物可能散佚损毁，地方记忆也将随之模糊。县级博物馆正是守护这些实物证据的第一道防线。",
-      "县级博物馆具有显著的在地性与可及性优势。对县域居民尤其是青少年而言，它比省级或国家级博物馆更易抵达——无需长途交通，步行或短途公交即可到达。学校可组织常态化参观活动，让学生近距离接触本地出土陶器、农具、文书等真实历史物件，辅以讲解，使抽象的历史变得具体可感。",
-      "县级博物馆是联结本地居民文化认同与外来访客地域认知的重要载体。本地观众从中确认‘我是谁、我从哪里来’；外地游客则通过展陈快速理解该地的历史地位、人文气质与发展逻辑。这种基于实物与空间的在地化叙事，具有数字图像与线上展览难以替代的真实性与沉浸感。",
-      "当前部分县级博物馆面临专业人才短缺、经费保障不足、展陈更新滞后等现实困难。但正因如此，更需政策支持与公众关注，推动其从‘有馆所’向‘有活力’转变——关键在于提升服务效能，吸引公众真正走进去、留下来、有所得。",
-      "县城里的博物馆，就像一棵扎根很深的树。它也许不高，却牢牢抓住脚下的土地。下次你路过一座小城，不妨进去看看。你看到的，不只是老物件，更是一个地方的记忆和未来。"
-    ],
-    "topics": [
-      "博物馆",
-      "县域文化",
-      "文化遗产"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677320.shtml",
-      "originalTitle": "述评：我们为什么需要县级博物馆？",
-      "publishedAt": "Thu, 13 Aug 2026 22:33:58 +0800",
-      "retrievedAt": "2026-08-13T22:16:12.206Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:16:10.486Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-14/2026-08-14-nfb6b1.webp",
-      "alt": "A small museum building in muted tones",
-      "caption": "小博物馆，大记忆",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-14-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI研学热持续升温 警惕科技噱头消解素质教育初心",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-14",
-    "intro": "AI研学越来越火，但有些项目只是披着科技外衣，反而忘了素质教育真正该给孩子什么。",
-    "paragraphs": [
-      "现在很多地方都在办AI研学，热度一年比一年高。家长愿意掏钱，孩子也玩得开心，似乎成了素质教育的新选择。可越是这样热闹，我们越要问一句：孩子到底从中学到了什么？",
-      "热闹背后，一些项目把AI当成招生的噱头。挂个“人工智能”的名头，内容却缺乏深度体验，没有让孩子真正理解AI是什么、能解决什么问题。科技名词用了一堆，但孩子真正动手、动脑的时间却很少。",
-      "素质教育的初心，是让孩子在真实体验里锻炼观察、提问、动手和合作的能力，形成对世界的好奇与思考。如果内容流于表面，那孩子带走的可能只是新鲜感，而不是成长。新鲜感很快会过去，真正留下来的应该是能力和兴趣。",
-      "所以，面对AI研学热，家长和孩子都需要多留个心眼。与其看它用了多少炫酷名词，不如看它有没有给孩子留出动手、提问和试错的时间。一个好的AI研学，不该是一场科技秀，而应是一扇让孩子愿意继续探索的窗。",
-      "AI本身没有错，错的是只把AI当广告、当噱头。教育更不能被这些表面热闹消解了初心。当我们为孩子选择AI研学时，也许该先问：活动结束后，孩子是会追问“为什么”，还是只会说“好玩”？这个问题的答案，才真正决定了一次研学值不值得。"
-    ],
-    "topics": [
-      "AI教育",
-      "研学旅行",
-      "教育乱象"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-12/10676376.shtml",
-      "originalTitle": "AI研学热持续升温 警惕科技噱头消解素质教育初心",
-      "publishedAt": "Wed, 12 Aug 2026 15:10:48 +0800",
-      "retrievedAt": "2026-08-13T22:17:23.101Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:17:19.133Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "AI Study Tours Heat Up: Beware Tech Gimmicks Replacing Real Learning",
-      "intro": "AI study tours are becoming more popular, but we should watch out for flashy tech that hides weak learning.",
-      "paragraphs": [
-        "AI study tours are a growing trend. Many children now join these programs. They sound exciting because they involve new technology. But the report warns us to think carefully.",
-        "The worry is about tech gimmicks. A gimmick looks impressive on the surface but does not teach deep understanding. Some tours may focus on cool demos. That can distract from the real aim of education.",
-        "True quality education should stay ahead of the show. After all, the best technology helps us think better, not just watch."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-13T22:19:07.660Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
         "correctionCount": 8,
         "attempts": 1
       }
