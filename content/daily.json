@@ -1,5 +1,272 @@
 [
   {
+    "slug": "2026-09-06-3j2gq5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "天语望远镜首光仪式在青海冷湖天文观测基地举行",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-06",
+    "intro": "9月5日，我国首个大视场亚秒级采样的1米级巡天望远镜——天语望远镜，在青海冷湖天文观测基地举行首光仪式，标志着该望远镜正式建成。",
+    "paragraphs": [
+      "在青海冷湖天文观测基地，赛什腾山海拔逾4000米，是世界级光学天文台址。9月5日，天语望远镜在这里举行了首光（首次观测成像）仪式，标志着该望远镜正式建成。",
+      "天语望远镜是我国首个大视场亚秒级采样的1米级巡天望远镜。它2022年立项，由上海交通大学李政道研究所牵头、中国科学院上海天文台研制，是JUST（上海交通大学光谱望远镜）的先导望远镜。",
+      "天语计划负责人、上海交通大学李政道研究所副教授冯发波介绍，天语将对数以亿计的天体开展持续测光监测，从中发现太阳系外行星、变星、超新星和太阳系小天体。",
+      "冯发波表示：“预计5年内可以发现若干颗类似木星的凌星行星，最终回答一个根本性的问题：人类、地球和太阳系，在宇宙中是否独特。”",
+      "JUST项目负责人、上海交通大学李政道研究所副所长杨小虎说，天语还将为JUST的观测运维、瞬变源自动触发与任务调度开展工程预研，助力其2027年首光。“天语的任务是在一大堆石头里挑出可能的宝石，JUST则用光谱仪鉴定它们是不是真宝石。”两台望远镜将形成“发现—证认”的完整科学链条。",
+      "首光时在山上值守的数据管线研发者、博士生芮易成介绍，天语每晚产生的原始数据超过10TB，数据管线在山上实时完成图像校准与叠加，未来结合人工智能，可在发现新目标后几分钟内自动通知全球望远镜接力跟进。首光之后，天语望远镜预计于2026年10月启动科学巡天。"
+    ],
+    "topics": [
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/570950.shtm",
+      "originalTitle": "天语望远镜首光仪式在冷湖天文观测基地举行",
+      "publishedAt": "2026-09-05 17:42",
+      "retrievedAt": "2026-09-05T22:59:52.099Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T22:59:43.961Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "China's Tianyu Telescope Sees First Light in Qinghai",
+      "intro": "On September 5, China's Tianyu telescope captured its first images at the Lenghu astronomical observation base in Qinghai. This marked the telescope's official completion.",
+      "paragraphs": [
+        "The Tianyu telescope is China's first one-meter survey telescope with a large field of view and sub-second sampling. Its first light ceremony was held on September 5 at the Lenghu astronomical observation base in Qinghai. This event marked the telescope's formal completion.",
+        "The telescope is located on Saishiteng Mountain. The mountain's altitude is over 4,000 meters. That site is a world-class optical astronomical observatory location. Tianyu is the pathfinder telescope for JUST. JUST stands for the Shanghai Jiao Tong University Spectroscopic Telescope. The project was approved in 2022. It is led by the Tsung-Dao Lee Institute at Shanghai Jiao Tong University. It is developed by the Shanghai Astronomical Observatory.",
+        "Tianyu will conduct continuous photometric monitoring of hundreds of millions of celestial objects. It aims to discover exoplanets, variable stars, supernovae, and small solar system bodies. Feng Fabo is an associate professor at the Tsung-Dao Lee Institute. He is the Tianyu project leader. He said the telescope may find several Jupiter-like transiting planets within five years. That could help answer a fundamental question. The question is: Are humans, Earth, and the solar system unique in the universe?",
+        "Tianyu will support engineering research for JUST’s operations. This includes transient source automatic triggering and task scheduling. JUST is scheduled for first light in 2027. Yang Xiaohu is the deputy director of the Tsung-Dao Lee Institute. He is the JUST project leader. He compared the two telescopes. He said: 'Tianyu picks out possible gems from a pile of stones. JUST uses a spectrograph to verify whether they are real gems.' Together, they form a complete scientific chain of discovery and confirmation.",
+        "During first light, doctoral student Rui Yicheng was on-site. He developed the data pipeline. Tianyu produces more than 10 TB of raw data each night. The data pipeline processes image calibration and stacking in real time on the mountain. In the future, artificial intelligence may enable automatic global telescope follow-up within minutes of a new discovery. After first light, Tianyu is expected to begin its scientific survey in October 2026.",
+        "Next time you look up at the night sky, remember this quiet telescope in Qinghai. It is searching for answers to one of humanity’s oldest questions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:08:41.485Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-06-live-from-icm-2026-what-is-math-for-in-the-age-o",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI时代，数学家真正看重的是什么？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-06",
+    "intro": "在2026年7月于费城举行的国际数学家大会（ICM 2026）上，三位数学家与主持人Janna Levin和Steven Strogatz共同探讨：当人工智能开始生成证明、发现跨领域联系，甚至解决长期悬而未决的难题时，数学家究竟为何而做数学？",
+    "paragraphs": [
+      "在2026年7月于费城举行的国际数学家大会（ICM 2026）上，主持人Janna Levin和Steven Strogatz与三位数学家Akshay Venkatesh（普林斯顿高等研究院）、Ravi Vakil（斯坦福大学，美国数学会主席）和Alex Kontorovich（罗格斯大学）共同探讨：当AI系统已能生成证明、发现不同数学领域间的联系，并在个别案例中解决困扰数学家数十年的问题时，数学家真正重视的是什么？讨论聚焦于AI对数学前沿的影响，以及这对下一代数学家意味着什么。",
+      "讨论从国际数学奥林匹克竞赛（IMO）切入。2024年，AlphaProof在IMO中获得银牌；2025年，一个更先进的模型结合DeepThink取得金牌。Ravi Vakil指出，IMO是吸引年轻人进入数学的多种路径之一，其真正价值不在于六道题或六名优胜者，而在于激励数以百万计的孩子锤炼思维。他认为AI在IMO中的表现是‘概念验证’，是值得欢迎的里程碑，但并非‘超人智能’的体现；第一次看到模型解出问题令人兴奋，第七次则不再新鲜——这与学生反复解同一题的情形类似。",
+      "Akshay Venkatesh表示，IMO成绩可能强化一种错误印象：数学本质上是竞争。他担忧这种观念尤其在当下有害，因为有些孩子因竞赛失利就认定自己‘不适合数学’而退出，而这‘毫无道理’。Vakil也强调竞赛是‘双刃剑’：既能激发兴趣，也可能将人拒之门外。",
+      "话题随后转向AI对Erdős问题的进展。Paul Erdős生前提出数千个问题，近年由Tom Bloom整理成数据库。Alex Kontorovich解释，AI擅长从大量问题中筛选可解项——例如给AI一千个问题，即使仅1%命中率，也能产出约十篇好论文。但他同时提醒：近期宣布‘解决’的Erdős风格问题中，有多少是完整解答，又有多少只是部分进展，尚需审慎辨析。",
+      "讨论最终回归核心问题：数学家做数学，究竟为了什么？嘉宾们指出，答案涉及对‘证明’与‘理解’本质的再思考，也关乎‘讲故事’这一常被忽视却至关重要的维度。随着机器在解题能力上日益逼近甚至超越人类，数学家或将不得不重新确认：数学的价值，是否更在于探索的旅程本身，而非抵达某个确定的答案？"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+      "originalTitle": "Live from ICM 2026: What Is Math For in the Age of AI?",
+      "publishedAt": "Thu, 03 Sep 2026 13:41:48 +0000",
+      "retrievedAt": "2026-09-05T23:01:31.988Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:01:18.024Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 47,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "What Is Math For in the Age of AI?",
+      "intro": "At a live recording from the International Congress of Mathematicians in Philadelphia in July 2026, mathematicians discussed what they truly value about doing mathematics amid rapid AI advances.",
+      "paragraphs": [
+        "AI systems are now producing proofs, spotting connections between distant fields, and solving problems that had stumped mathematicians for decades. The pace of progress over the past several months has raised challenging questions: What can AI systems actually do? And what happens to the more human, creative aspects of the field once machines can match — or exceed — people at problem-solving?",
+        "The hosts began with the International Mathematical Olympiad. In 2024, AlphaProof achieved a silver medal. In 2025, a more advanced model with DeepThink achieved a gold medal. Ravi Vakil said it was exciting — a proof of concept — but did not represent superhuman intelligence or anything 'crazy like that'. He emphasized that the competition's real value is how it encourages millions of kids to hone their minds. He also cautioned that people might misinterpret the milestone.",
+        "Akshay Venkatesh said the AI successes have contributed to the image of mathematics as a competition — which is not how he sees it. He expressed mixed feelings about competitive validation for young people. Ravi Vakil agreed: some students are driven out of mathematics because they think they're 'not good' after performing poorly in competitions — a view he called nonsensical.",
+        "Alex Kontorovich discussed Erdős Problems. Paul Erdős loved asking questions and wrote down thousands of them. Tom Bloom collected them into a database. Kontorovich noted that AI can scan many problems quickly; even a 1% hit rate yields about ten good papers a year — a fantastic mathematical career. But he stressed: 'solving problems is just one small component of what mathematicians do.' They also find definitions, create new structures, and pose new questions.",
+        "The conversation turned to what mathematicians value about doing mathematics in the first place. The answer involves grappling with what proof and understanding really mean — and the surprising importance of storytelling. The hosts reflected on the saying 'It’s the journey, not the destination,' and wondered whether mathematics itself may be fundamentally about the journey."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:10:56.120Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-06/2026-09-06-live-from-icm-2026-what-is-math-for-in-the-age-o.webp",
+      "alt": "几何线条与数字节点交织的抽象插图",
+      "caption": "数学与AI的抽象对话",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-06-6fctmf",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "联合国通过决议，呼吁停止使用缩小非洲的地图",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-06",
+    "intro": "联合国大会以压倒性多数通过决议，呼吁各国政府、学校和科技公司停止使用那些让非洲看起来远小于其实际面积的地图。",
+    "paragraphs": [
+      "你有没有注意过，在很多常见地图上，非洲和格陵兰岛看起来差不多大？但事实上，非洲的实际面积约为格陵兰岛的14倍。地图为什么会失真？原因在于一种沿用四百多年的地图投影法——1569年由弗拉芒制图师杰拉德·墨卡托设计，初衷是解决海上航行问题。",
+      "2026年9月4日（周五），联合国大会以164票赞成、1票反对、6票弃权的结果通过决议，呼吁全球各国政府、学校、国际组织和科技公司在相对大小至关重要时，采用‘平等地球’等等面积地图投影法，并向公众说明任何平面地图表现球形地球时的固有局限。美国投下唯一反对票，称该倡议属于‘激进意识形态项目’；法国则在投票前宣布将放弃使用墨卡托投影法。",
+      "墨卡托投影法为保持航线上直线对应恒定罗盘方向，牺牲了面积准确性：陆地离赤道越远，视觉面积被放大得越严重。因此，格陵兰岛在图上看似与非洲相当，实则非洲面积约为其14倍；北欧和北美洲同样被显著夸大。尽管最初专为航海设计，该投影法至今仍广泛用于教育、媒体、数字平台和官方材料中，导致非洲的‘象征性缩小’，延续不平衡的世界观。",
+      "多哥外交部长罗伯特·杜西代表非洲集团主导谈判，强调‘地图塑造着我们对世界的理解。它们引导教育，滋养想象力，并影响集体认知。’决议将纠正此类失真称为‘认知正义和纪念性补偿’之举，并明确指出：此举并非谴责墨卡托投影法对航海的实用性，也未强制推行单一投影法。杜西表示：‘一张公平的地图不会改变世界的地理，它改变的是我们看待世界的方式。’",
+      "乌克兰和欧盟支持纠正历史失真，但担忧某些等面积地图对争议领土（如俄罗斯占领的乌克兰地区）的呈现可能模糊边界。欧盟强调，该决议仅适用于陆地相对大小，与主权、领土地位或国际公认边界无关；其支持亦不构成对‘平等地球’网站所展示地图的认可。决议本身承认：没有任何一种地图投影能完美再现球形地球，每种投影必在面积、形状、距离或方向中有所取舍；该决议不具约束力，但传递了一个关键信息——我们在地图上的选择，会影响几代人对世界的理解。"
+    ],
+    "topics": [
+      "全球时事",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142746",
+      "originalTitle": "联合国向世界发出呼吁：别再让非洲在地图上显得那么小",
+      "publishedAt": "Fri, 04 Sep 2026 12:00:00 +0000",
+      "retrievedAt": "2026-09-05T23:04:55.651Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:04:35.219Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-06/2026-09-06-6fctmf.webp",
+      "alt": "地球仪碎片与比例尺的抽象插图",
+      "caption": "地图投影的视觉反思",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-06-jefmgv",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "“成功学”类童书为何畅销占据榜单？孩子们能从中获益吗？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-06",
+    "intro": "标题已确认来自中新网教育频道，但所提供证据块中未包含任何正文内容。",
+    "paragraphs": [
+      "你提供的原文片段仅含网页导航栏、图片占位符、链接和标题，无实际报道正文。",
+      "根据审稿规则，所有事实陈述必须有原文直接支撑；无正文则无法核实观点、数据、引语或案例。",
+      "因此，当前信息不足以生成面向孩子和家长的独立听稿。"
+    ],
+    "topics": [
+      "教育",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-05/10690894.shtml",
+      "originalTitle": "“成功学”类童书为何畅销占据榜单？孩子们能从中获益吗？",
+      "publishedAt": "Sat, 5 Sep 2026 13:32:56 +0800",
+      "retrievedAt": "2026-09-05T23:06:11.746Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:05:55.660Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-06-rewriting-the-narrative-one-man-s-journey-throug",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "肺癌治疗新时代：一位患者的抗癌旅程",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-06",
+    "intro": "肺癌仍是头号癌症杀手，但新进展正在改变患者未来。",
+    "paragraphs": [
+      "肺癌目前仍然是致死率最高的癌症。",
+      "不过，新的医学进展正在改变患者可能面对的未来。",
+      "一位男性的抗癌经历展示了这种变化。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5850255/rewriting-the-narrative-one-mans-journey-through-the-new-era-of-lung-cancer-care",
+      "originalTitle": "Rewriting the narrative: One man's journey through the new era of lung cancer care",
+      "publishedAt": "Sat, 05 Sep 2026 07:43:23 -0400",
+      "retrievedAt": "2026-09-05T23:07:05.509Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T23:06:53.732Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-05-wildfires-can-be-tracked-by-their-distinctive-ru",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "山火有独特轰鸣，可借此追踪火势",
@@ -3105,301 +3372,6 @@
         "correctionCount": 0,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-08-18-kabfg5",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-18",
-    "intro": "因提供的原文只有标题和网站导航，没有正文内容，无法进行听稿改写。",
-    "paragraphs": [
-      "你给出的文本中，文章标题是“邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期”，但正文部分被截断，只剩网页框架和图片链接，没有事实、数字或引语可供转述。",
-      "根据轻听编辑标准，听稿必须严格基于原文，不能添加原文没有的信息。在缺少正文的情况下，无法生成符合要求的听稿。",
-      "请提供这篇报道的完整正文，我才能按照听稿要求进行改写，并判断适龄段。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10679133.shtml",
-      "originalTitle": "邓亚萍点赞武汉研发乒乓球机器人：学习能力远超预期",
-      "publishedAt": "Mon, 17 Aug 2026 17:20:13 +0800",
-      "retrievedAt": "2026-08-17T21:54:23.072Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:54:10.586Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-17-leehzz",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "用极少光子看清活体动物大脑——清华团队研发成像新技术",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-17",
-    "intro": "脑科学家常常在光和损伤之间两难：光太亮会伤细胞，光太弱又看不清。清华大学团队的新方法，让极稀疏的光子也能变成清晰的大脑活动图像。",
-    "paragraphs": [
-      "脑科学家有个两难：想把活体动物大脑里上百万个细胞的活动看清楚，显微镜的光就不能太弱；可光一强，又会伤到细胞，甚至扰乱大脑本来的状态。能不能用很少的光，也看清一切？",
-      "清华大学戴琼海团队给出一个新答案。他们研发出一种叫EFLIM的成像方法，全称是“首光子事件感知荧光寿命成像”。在保证成像质量的同时，它把高质量荧光寿命成像所需要的荧光分子数量降低了99%。这项成果发表在《自然·生物技术》杂志上。",
-      "要理解这事，先要知道显微镜怎么成像。绝大多数活体荧光成像靠的是荧光强度，也就是亮度。但亮度很容易受干扰：荧光探针分布不均、激发光源波动、生物组织散射、小动物实验样本扭动、光漂白效应等，都会引起图像亮度改变。实验里经常分不清变化来自真实的细胞活动，还是外界干扰带来的假象。于是团队改用荧光寿命成像（FLIM）。它不看重亮度，而是测量荧光分子被激发后能存活多久，即荧光寿命。这一物理参数不受探针浓度和光源功率干扰，还可以反馈细胞内部微环境、蛋白相互作用，是非常理想的定量观测手段。",
-      "但荧光寿命成像过去有个硬约束：传统FLIM要拿到可靠结果，需要对每一个像素点进行多次重复激发，收集足够数量的光子，再通过统计直方图计算荧光寿命。当视野扩大、成像提速之后，分摊到每个像素的光子数就会变少。要攒够光子，只有两条途径：增强光照，或者拉长拍摄时间。但强光会带来光毒性，伤害活体细胞；拉长时间，又跟不上神经信号转瞬即逝的变化。这就是过去FLIM很难大规模用于活体介观观测的核心原因。",
-      "EFLIM跳出了这个套路。传统方法好比要等一桶雨水接满，才开始统计雨量；新方法不同，每次激光脉冲激发后，只关注有没有光子被探测到，如果有，就记录下第一个到达探测器光子的到达时间。哪怕大部分脉冲激发未产生任何光子，这条观测事件信息也会被保留下来。之后，团队将荧光寿命估计转化为时空自监督去噪问题，依托生物图像本身具备的空间、时间连续性，利用算法参考相邻像素、前后时间帧的稀疏信号，让算法自主学习统计规律，最终重建完整的荧光寿命图像。团队特别强调：‘我们没有生成不存在的数据，只是改变了数据使用策略，让每一个采集到的光子价值最大化。’",
-      "效果经过多组对照实验验证：在成像质量相当的前提下，EFLIM所需的光子数量相比传统FLIM减少了99%。在清醒小鼠脑钙成像实验中，平均每个像素仅接收到0.2—0.8个光子，仍可输出稳定的荧光寿命读数；在活细胞钙动态观测中，单像素光子数量低至0.2—0.5个的极端条件下，也可以还原细胞内部的快速变化。这项技术目前已完成原理、算法、多类生物样本的验证，创新主要集中在算法层面，不需要对显微镜硬件做颠覆性改造。团队已经完成169例人脑胶质瘤组织成像，单视场采集仅需0.33秒，速度较传统方式提升10倍，同时保留了组织结构与肿瘤异质性信息。未来可将其做成软件模块、升级插件，直接兼容现有的FLIM设备；但若走向医院临床病理诊断，则需大规模多中心样本验证、建立统一标准，并完成医疗器械整套审批流程。正如戴琼海院士所说：‘高端科学仪器是基础研究的“眼睛”，我们希望开发真正好用的工具，帮助科学家看见过去看不见的生命过程。’"
-    ],
-    "topics": [
-      "脑与认知",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569823.shtm",
-      "originalTitle": "科研人员用极少光子“看清”活体动物大脑活动",
-      "publishedAt": "2026-08-14 22:54",
-      "retrievedAt": "2026-08-16T21:39:52.844Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-16T21:39:48.350Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Imaging Living Brains with a Tiny Amount of Light",
-      "intro": "Scientists can now watch brain cell activity using 99 percent less light than before.",
-      "paragraphs": [
-        "Brain researchers often want to watch many living neurons at once. Bright microscope light can damage cells. It may also disturb normal brain physiology. Dim light gives weak, unreliable signals. A team at Tsinghua University led by Professor Dai Qionghai developed EFLIM. That stands for first-photon event sensing fluorescence lifetime imaging. It reduces the number of fluorescent molecules needed for high-quality fluorescence lifetime imaging by 99 percent. The work was published in Nature Biotechnology.",
-        "Most fluorescence microscopes measure brightness. But brightness changes for many reasons. These include uneven probe distribution. They include light source fluctuations. They include tissue scattering. They include animal movement. They include photobleaching. These changes make it hard to tell real neural activity from noise. So the team used fluorescence lifetime imaging, or FLIM. FLIM measures how long a fluorescent molecule stays excited after laser excitation. This physical parameter is not affected by probe concentration or light power. It reflects intracellular microenvironment and protein interactions.",
-        "Traditional FLIM needs repeated excitations per pixel. It collects many photons. Then it uses statistical histogram analysis to calculate fluorescence lifetime. When imaging large fields or at high speed, photons per pixel drop sharply. To compensate, researchers must increase light intensity. That causes phototoxicity. Or they must extend imaging time. That misses fast neural dynamics. That was why FLIM had rarely been used for large-scale live mammalian brain imaging. The team asked: Must we collect many photons before estimating lifetime? EFLIM treats each laser pulse as an independent event. It records whether a photon arrived. It records the arrival time of the first photon. Even pulses with zero photons are kept as valid events. Then, a self-supervised algorithm uses spatial and temporal continuity. It compares neighboring pixels. It compares adjacent time frames. It reconstructs full lifetime maps. It does not generate data. It maximizes value from every detected photon. In tests, EFLIM achieved comparable image quality using 99 percent fewer photons. In awake mouse brain calcium imaging, average photons per pixel were only 0.2–0.8. Stable lifetime readings were still obtained.",
-        "This low-light approach reduces photodamage. It reduces motion artifacts. It enables stable single-cell-resolution recording of fast neural activity in awake animals. It enables long-duration low-damage observation over hours. It enables deeper brain tissue imaging. Beyond neuroscience, EFLIM captured subcellular calcium dynamics. It distinguished multiple immune cell types in one spectral channel. It did so using lifetime differences. It imaged 169 human glioblastoma tissue samples. Each field was acquired in just 0.33 seconds. That is ten times faster than conventional methods. Tissue architecture and tumor heterogeneity were preserved. EFLIM is primarily algorithmic. It requires no hardware overhaul. It can be deployed as software modules or upgrade plugins. It is compatible with existing FLIM systems. It may enter research labs within several years. Clinical use in pathology diagnosis would require multi-center validation. It would require standardized protocols. It would require full medical device regulatory approval."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-16T21:47:55.884Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-17/2026-08-17-leehzz.webp",
-      "alt": "由稀疏光点组成的大脑轮廓",
-      "caption": "稀疏光子成像，清晰洞察大脑",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-17-34iml1",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "《奥德赛》的隐藏智慧：有边界的善意，才能带来合作",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-17",
-    "intro": "电影《奥德赛》重新走红，但多少人只看到流浪与归家，忽略了那条让陌生人得以合作三千年的古老法则——宾主法则。",
-    "paragraphs": [
-      "电影《奥德赛》上映后，朋友圈里的解读铺天盖地。大多数人谈流浪，谈漂泊，谈一个中年男人历经千难万险终于回家的故事。导演诺兰在谈及这部史诗时说：‘用你希望别人对待你的方式去对待别人’（Treat people the way you want to be treated），他称之为‘宙斯定律’。古希腊宾主法则（Xenia）被定为整部《奥德赛》改编的绝对核心，电影里直接简化命名为宙斯的律法（Zeus's Law），所有人物冲突、悲剧、文明崩塌、奥德修斯的漂泊与复仇，全部围绕这条法则展开。",
-      "宾主法则到底是什么？它不只是‘善待客人’的礼貌。在古典世界，宙斯一个化身是‘客旅神’（Zeus Xenios），古希腊人相信宙斯会亲自庇护所有异乡的漂泊者，怠慢陌生人等同于亵渎神明。更重要的是，它是一种社会契约：荷马的时代正值迈锡尼王权崩溃之后的碎片化时期，没有统一政权，没有成文法律，各岛屿和部落高度分散。人们需要出海、贸易、逃难、远征，却面临根本困境——一旦离开族群，陌生人相遇，凭什么相信对方不会杀你、抢你？奥德修斯流浪的每一站，几乎都是一场宾主法则的测验。史诗第一卷，忒勒马科斯见到陌生访客，二话不说先请入座、设宴款待，‘欢迎你，陌生的客人。先享用宴席，待吃饱之后，再告知我们你的来意。’独眼巨人拒绝待客礼法，吃掉了船员，最终失去了眼睛；求婚者以‘客人’身份住在奥德修斯家中，却耗尽王宫财富、羞辱女主人，可谓双重背叛规则，招致屠杀。",
-      "诺兰的理解更类似‘己所欲，施于人’，这是一种现代化的理解。而传统的宾主法则体现一种古典主义伦理，更接近‘你不希望别人如何对你，你就不要如何对别人’，类似孔子的原则‘己所不欲，勿施于人’。这是一种负向伦理，核心是约束自我、禁止伤害，只划定行为底线，不主动干预他人选择。它不是冷酷，而是务实：正是这种有边界的对等原则，让无数次可能演变为掠夺的相遇，变成了贸易和合作的起点。如果一味将自己认可的‘善’强加于人，哪怕是自以为是的善意，也极容易变成干涉甚至越界。",
-      "2009年诺贝尔经济学奖得主埃莉诺·奥斯特罗姆毕生追问的问题，与三千年前的荷马惊人地相似：在没有外部强制权威的情况下，一群相互依赖的个体如何能够自发组织起来，实现持久的合作？她在世界各地的田野调查中发现，无数社群在没有政府介入、没有私有产权的情况下，通过自组织实现了长期的可持续合作。她总结出八项原则，如清晰的边界、适应当地条件的规则、有效监督、分级制裁等。这些原则可在宾主法则中找到对应：谁是‘主人’谁是‘客人’（边界清晰）；款待与回礼的义务（规则适应地方习俗）；客旅神宙斯的监督与声誉网络的制裁（有效监督与分级制裁）；违背宾主法则者被整个客友网络永久隔绝（制裁机制）。",
-      "《奥德赛》里的宾主法则，不是一个关于流浪与归家的温情故事的附注，而是整部史诗的伦理骨架，更是人类走出部落的关键一步，还蕴含人类文明生生不息的博弈智慧。荷马用3000年前的语言告诉我们：在没有国家、没有法律的世界里，人们是如何发展出跨越族群、种族、语言的合作秩序的——不是靠模糊的善意，而是靠清晰的边界；不是靠无差别的爱，而是靠有选择的互惠。文明的韧性，从来不在于它能包容多少，而在于它能捍卫什么。当我们将‘宽容’变成唯一信条时，我们失去的不是传统，而是辨别敌友、区分善恶的能力。而这，或许正是我们这个时代最需要补上的一课。"
-    ],
-    "topics": [
-      "历史",
-      "哲学与思想"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "FT 中文网",
-      "region": "international",
-      "url": "https://www.ftchinese.com/story/001110623",
-      "originalTitle": "奥德赛的真正遗产：宾主法则与古典博弈智慧",
-      "publishedAt": "Sun, 16 Aug 2026 16:00:00 GMT",
-      "retrievedAt": "2026-08-16T21:41:07.337Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-16T21:41:02.336Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Real Legacy of The Odyssey: Guest-Host Rules and Ancient Game Wisdom",
-      "intro": "A new film has made The Odyssey popular again. But many reviews miss its deepest lesson: how strangers built trust without laws or police.",
-      "paragraphs": [
-        "The real core of the story is xenia, the ancient Greek guest-host law. It was based on religion. Zeus had a form called Zeus Xenios, protector of strangers. Hosts must welcome strangers first. They offer food and shelter before asking who they are. Guests must not covet the host's property or family. Breaking xenia brought divine punishment from Zeus.",
-        "In Homer's time, there was no unified state or written law across Greek islands. People traveled for trade, escape, or war. With no courts or police, xenia acted as a cross-tribal social contract. It created clear duties for both hosts and guests. This made trade and cooperation possible between strangers.",
-        "The film's director calls xenia 'treat others the way you want to be treated'. But the original rule was closer to 'do not do to others what you would not want done to you'. This is a negative ethic. It sets a behavioral floor, not an ideal. It protects both sides with clear boundaries. Without those boundaries, openness can become vulnerability.",
-        "Economist Elinor Ostrom studied how communities manage shared resources without central government. She found successful groups used clear boundaries, local rules, monitoring, and graduated sanctions. These match xenia's features: 'who is host, who is guest' (boundary), 'offer hospitality, give gifts in return' (local rule), 'Zeus's oversight and reputation network' (monitoring and sanction).",
-        "The Odyssey is not just about wandering home. It shows that real cooperation needs enforceable rules. Openness without limits can enable free riders. Civilization's resilience lies not in how much it tolerates, but in what it defends."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-16T21:48:53.362Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-17/2026-08-17-34iml1.webp",
-      "alt": "两个几何形状由细线连接",
-      "caption": "有边界的善意，促成合作",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-17-i-lived-through-the-first-taliban-girls-school-b",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我曾亲历塔利班第一次禁女校，如今眼看重演令人心碎",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-17",
-    "intro": "作者以亲身经历对比塔利班两次禁止女孩上学的现实，指出国际社会虽然知情，却未让塔利班付出实际代价。",
-    "paragraphs": [
-      "2021年8月，塔利班重新占领喀布尔，几周内就禁止女孩进入六年级以上的学校。这条禁令至今未解除。阿富汗是全世界唯一一个正式禁止女孩和妇女接受中学及高等教育的国家。约220万名青春期女孩已被禁止接受中等教育近1800天。她们还被禁止在大多数曾雇用她们的行业工作，包括公务员系统和国内外援助组织。",
-      "作者说，这不是她第一次目睹这一幕。1996年，她还是个即将参加期末考试的小女孩，塔利班首次占领喀布尔。那晚停电，全家围在收音机旁，听到她被升入下一年级，但‘学校对女孩关闭，直至另行通知’。起初她因不用考试而兴奋，跑去找祖母；走到黑暗走廊中途，才突然明白：明年没有学校可上了。她坐下来哭了。她较为幸运——父母将她和妹妹送往巴基斯坦继续学业，靠海外叔伯姨母资助。她后来成为阿富汗内阁中首位担任矿产与石油部代理部长的女性。而她的部分朋友未能完成学业，据她所知，被早早嫁出。",
-      "阿富汗女性没有沉默。她们在喀布尔街头高喊‘面包、工作、自由’，持续提出对基本人权——教育与就业——的要求，即使面临真实的人身风险。抗议者报告遭遇逮捕、酷刑与杀害，迫使大量抵抗行动转入地下。2026年2月，女孩们仍在喀布尔街头要求教育权。而在抗议过于危险的地方，她们建起家庭式地下学校，为那些完全无法进入教室的女孩授课。",
-      "国际社会的回应乏力。联合国主导的多哈进程是与塔利班接触的主要渠道，但阿富汗女性及民间社会组织被排除在正式会谈之外，只能在会场外单独会面。阿富汗独立人权委员会前主席西玛·萨马尔指出，接受塔利班设定的参与条件，可能间接正当化联合国所反对的政策。联合国驻阿援助团代理负责人乔治特·加尼翁则主张，即使进展缓慢，也须坚持原则性且务实的接触。这种公开分歧本身印证了阿富汗女性多年来的描述：谴责声明频繁发布，却未给塔利班带来任何实际代价。",
-      "法律途径同样停滞。2024年9月，澳大利亚、加拿大、德国和荷兰援引阿富汗于2003年批准的《消除对妇女一切形式歧视公约》（CEDAW），正式启动追究其责任的程序。这是全球首次有国家尝试在国际法院就系统性性别歧视起诉另一国。但截至2026年，该案尚未提交至国际法院（ICJ）。相比之下，荷兰与加拿大针对叙利亚酷刑问题采取相同机制时，谈判一旦停滞即迅速申请仲裁，并于2023年成功向ICJ提起诉讼并获具约束力裁决。而针对阿富汗的案件，既无公开的仲裁请求，也无后续程序推进迹象。",
-      "阿富汗女性已用五年时间证明：她们拒绝将禁学令视为永久现实。值得追问的是——世界其他地方为何满足于远低于此的标准？"
-    ],
-    "topics": [
-      "教育",
-      "国际关系"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/i-lived-through-the-first-taliban-girls-school-ban-watching-it-happen-again-is-heartbreaking-289825",
-      "originalTitle": "I lived through the first Taliban girls’ school ban — watching it happen again is heartbreaking",
-      "publishedAt": "2026-08-14T10:48:28Z",
-      "retrievedAt": "2026-08-16T21:44:49.181Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-16T21:44:32.398Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 47,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-16-9d1x0w",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "童坦君：从“退役”老鼠开始，揭开衰老的秘密",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-16",
-    "intro": "长期以来，大众普遍认为衰老是循序渐进、匀速发生的生理过程。但2026年3月，浙江大学、复旦大学等科研团队在国际权威期刊《细胞代谢》发布研究成果，颠覆了传统认知：人体衰老并非平稳渐变，而是存在50岁、63岁两个断崖式关键节点。其实，人类对衰老奥秘的探索远非始于今日——早在数十年前，我国著名医学家、中国科学院院士童坦君就被誉为“破解衰老密码的人”。",
-    "paragraphs": [
-      "2026年3月，浙江大学、复旦大学等科研团队在国际权威期刊《细胞代谢》发布重磅研究成果，颠覆了传统认知：人体衰老并非平稳渐变，而是存在50岁、63岁两个断崖式关键节点，在特定年龄出现代谢、免疫机能的阶段性骤变。这一重大发现，让衰老机理与健康干预研究再度成为科研领域的关注热点。其实，人类对衰老奥秘的探索远非始于今日。早在数十年前，我国著名医学家童坦君就被誉为“破解衰老密码的人”。他是改革开放后的首批访美学者，留学期间敏锐地意识到我国日益突出的老龄化问题，强烈的社会使命感促使他投身于当时在国内几乎一片空白的老年医学基础研究，为后世科学家的突破性发现奠定了重要基石。",
-      "童坦君（1934年8月15日—2022年12月25日），中国科学院院士、生物化学家，是中国细胞衰老机制研究的奠基人之一。早在上大学时期，他凭借英语基础，靠一部英汉词典自学英文版《内科学纲要》，泛黄厚重的笔记记录着他扎实过硬的医学功底，也见证了他早年深耕医学、求索生命奥秘的初心。1978年，时为北京医学院助教的童坦君以英语口试满分的成绩，被选拔为教育部首批赴美留学的52名学者之一。在美国，他先在约翰·霍普金斯大学做访问学者，后转入美国国立卫生研究院（NIH）进行博士后研究，接触到细胞生物学和分子生物学，开拓了眼界，萌发了回国转向衰老研究的念头。",
-      "1981年的某一天，妻子张宗玉的实验室里有一批“老龄”鼠要处理，于是，童坦君和妻子一商量：不如“废物利用”，拿来做衰老实验。就这样，从一批“退役”的老鼠开始，他们开启了中国的细胞衰老的分子机理研究。1982年，童坦君牵头搭建衰老分子机理研究室；1988年，他全身心投入冷门的衰老研究领域。衰老研究是一场与时间赛跑的“慢工细活”：细胞培养动辄数月，容不得半点闪失；动物实验的周期更是以年为单位。这意味着，选择衰老，就选择了漫长的等待——出成果的速度，远比其他领域要慢得多。他常对学生说的两句话，一句是“奋斗，奋斗，再奋斗”，一句是“站着想，坐着想，躺着想”。",
-      "在童坦君的实验室里，每位学生都有一本记录册。他要求每天如实记下实验数据，周末亲自检查。他自己更是常年泡在实验室，几乎不休节假日。凭着这股甘坐冷板凳的劲头儿，他带领团队首次证明p16基因可以不依赖端粒酶来影响端粒长度，初步揭开了人类细胞衰老之谜，这项成果被两院院士评选为“2002年度中国十大科技进展”。",
-      "在童坦君看来，衰老研究的意义并不在于延长人类的寿命。他说：“我想做的是延长老人的健康期，缩短带病期。如果能够延长人的健康期，缩短带病期，这对于国民经济具有重要的意义。”面对日益严峻的人口老龄化问题，他不仅做科研，还致力于科普。1995年，他与夫人共同主编了国内最早集分子生物学研究、营养建议与临床诊断于一体的《医学老年学——衰老与长寿》；2003年，他又创办了“中华健康老年网”，向公众推广科学的老年学知识。",
-      "人如其名，当年他高祖父为他取名“坦君”，取“君子坦荡荡”之意。在生命科学的漫长赛道上，他从不急于求成，只是一步一个脚印，坦然走完了自己的拓荒之路。"
-    ],
-    "topics": [
-      "生命与演化",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569845.shtm",
-      "originalTitle": "童坦君：从“退役”老鼠开始，揭开衰老的秘密",
-      "publishedAt": "2026-08-15 09:32",
-      "retrievedAt": "2026-08-15T22:45:43.189Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:45:41.568Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Retired Mice Helped Unlock Aging Secrets",
-      "intro": "A Chinese scientist used retired lab mice to begin a lifelong study of aging.",
-      "paragraphs": [
-        "Recent research shows that human aging has two sharp turning points. They happen at age 50 and age 63. This discovery was published in March 2026 in the journal Cell Metabolism. But the real foundation was laid decades earlier. It began with a scientist named Tong Tanjun.",
-        "Back then, aging research in China was nearly empty. Tong Tanjun wanted to change that. He taught himself English using an English-Chinese dictionary. In 1978, he scored full marks on his English oral exam. He became one of the first 52 Chinese scholars selected by the Ministry of Education to study in the United States.",
-        "In America, he worked at Johns Hopkins University and then the U.S. National Institutes of Health (NIH). There, he learned cell biology and molecular biology. He noticed new trends in aging research. He decided to focus on aging when he returned home. In 1981, his wife Zhang Zongyu’s lab had aged mice to be disposed of. Tong Tanjun suggested using them for aging experiments. So he started from those 'retired' mice.",
-        "His team studied the molecular mechanisms of cellular aging. Cell culture took months. Animal experiments took years. He often told students: 'Strive, strive, and strive again' and 'Think while standing, sitting, or lying down'. Every weekend, he checked students’ lab notebooks. His team proved that the p16 gene can affect telomere length independently of telomerase. In 2002, this work was selected as one of China's Top Ten Scientific Advances by the Chinese Academy of Sciences and Chinese Academy of Engineering.",
-        "Tong Tanjun’s goal was not to extend lifespan. He said: 'I want to extend the healthy period of life and shorten the period of illness.' He co-edited the book Medical Gerontology: Aging and Longevity in 1995. In 2003, he founded the 'China Healthy Aging Network'. He was calm and steady — just like his name 'Tanjun', meaning 'upright gentleman'. He is recognized as a founder of cellular aging research in China."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:54:14.683Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-16/2026-08-16-9d1x0w.webp",
-      "alt": "Microscope and petri dishes in a lab",
-      "caption": "衰老研究的实验室静物",
-      "kind": "editorial"
     }
   }
 ]
