@@ -1,5 +1,278 @@
 [
   {
+    "slug": "2026-09-05-wildfires-can-be-tracked-by-their-distinctive-ru",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "山火有独特轰鸣，可借此追踪火势",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-05",
+    "intro": "大多数火情瞭望员用眼睛寻找山火，而一项新研究表明，电子耳朵也能描绘远处火焰的蔓延。",
+    "paragraphs": [
+      "在美国爱达荷州的一场计划烧除中，研究人员部署了声学传感器。这场火是人为点燃的，目的是清除可能助长后续野火的干枯植被。火势较弱，但传感器仍捕捉到一阵低频轰隆声。这种频率低于人耳听觉范围的声波称为次声波。通过追踪该次声波，传感器成功绘制出火焰蔓延路径。领导这项研究的是博伊西州立大学地球物理学家杰克·安德森。他说，新数据‘鼓励更广泛地使用’这一技术。",
+      "这并非声音首次用于探测火灾。去年，另一团队曾用声学监测描绘佛罗里达州一片森林的计划烧除。但那场火烧得更旺；而爱达荷州的火发生在潮湿环境中，燃烧强度较低。早期阶段的野火往往又小又低，且远离城镇，因此难以发现。过去依赖瞭望塔上的人眼观测，如今主要依靠卫星和空中平台，但这些方法都需要直接视线——云层和树木可能遮蔽烟与火。安德森指出，次声波能‘在能见度差的条件下’快速提示火势变化。",
+      "火灾因‘喘气’（puffing）过程产生压力波：持续喷出热气流的同时吸入冷空气，形成频率为1至20赫兹的波动。人耳可感知频率约为20至20,000赫兹，因此这类低频波动无法被听见，但仪器可以检测。为实地测试，安德森及其同事在爱达荷州西南部布设了90多个次声传感器，组成八组阵列，每组含3至44个传感器。每个传感器重量不到1千克，大小约如一本平装书。最大一组距火场近2公里，连续数小时准确追踪了火焰蔓延方向。",
+      "如何确认声音源自火灾而非其他干扰？研究发现，低频轰隆声最初来自点火直升机的方向；直升机离开加油后，轰隆声仍持续存在，表明火本身在发射该次声波。团队成员、博伊西州立大学地球物理学家马德琳·亨特解释：‘用两只耳朵，你能比只用一只耳朵更准判断声源方向’——传感器阵列正是基于这一原理。下一步将测试真实野火，但安德森指出，这远比计划烧除更具挑战性，因为研究人员未必能安全进入全部受影响区域。理想方案是开发‘可由消防员自身安装’的技术设备。",
+      "不过，该系统存在局限。波特兰州立大学环境科学家科迪·埃弗斯警告，强风本身也会产生大量次声波，可能干扰火源信号；而大型野火常伴随高风速天气。至于用声波灭火：一家位于俄亥俄州克利夫兰的公司已展示其技术可扑灭室内小型灶火，但安德森表示，由于声波呈球形扩散、未被约束时能量急剧衰减，‘我很难想象短期内会出现远距离、户外使用的次声波灭火工具’。当前技术最切实的用途，仍是早期定位火源。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/tracking-wildfire-infrasound-rumble",
+      "originalTitle": "Wildfires can be tracked by their distinctive rumble",
+      "publishedAt": "Fri, 04 Sep 2026 10:30:00 +0000",
+      "retrievedAt": "2026-09-05T00:15:41.475Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:15:37.284Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 31,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-05/2026-09-05-wildfires-can-be-tracked-by-their-distinctive-ru.webp",
+      "alt": "山脊上火焰化为声波波纹扩散",
+      "caption": "火焰的声波可追踪火势",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-05-the-chinese-only-schools-of-the-jim-crow-south",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "美国南方种族隔离时期的华人专属学校",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-05",
+    "intro": "上世纪二三十年代，在美国南方种族隔离最严苛的地区，一群华人家庭为让孩子上学，建起了只收华人的学校。",
+    "paragraphs": [
+      "1924年，密西西比州三角洲地区的华人父亲龚伦（Gong Lum）提起诉讼，要求其女儿进入白人学校就读，最初法官裁定：华人儿童可以与白人学生同校，因为他们‘在种族特征上 wholly different from’非裔美国人。但该判决很快被密西西比州巡回法院推翻；州最高法院最终援引州宪法‘必须为白人和有色人种儿童分别设立学校’的规定，并指出‘黄色，毕竟也是一种颜色’。",
+      "华人移民于1870年代来到密西西比三角洲从事农业劳动，逐渐形成以家庭为中心的农村聚居区，这与城市唐人街的‘单身社会’（bachelor society）形成对比。他们虽居住在 predominantly African American 地区，却‘抵制法律和习俗将他们的地位与黑人混同’——反映出在‘白人’与‘非洲裔’之间存在身份模糊、边界不稳的中间状态。",
+      "华人社区领袖拒绝送子女入读非裔学校，也未被白人学校接纳。在浸信会教会支持下，当地华人于1930年代创办多所教育机构：包括格林维尔第一浸信会资助的一间单层‘shotgun shack’，以及罗泽戴尔联合学校（Rosedale Consolidated School）下属的‘Chinese Department’。",
+      "其中一所是1937年成立的克利夫兰华人传道学校（Cleveland Chinese Mission School），资金来自纽约、旧金山乃至田纳西和阿肯色州的华人社区捐款，甚至吸引外州华人学生就读。这些学校主要教授英语，由华人家长支持设立，但并非为传承中文文化；克利夫兰学校未获州政府认证，教学质量亦未被原文评价为‘高’。",
+      "这些教会学校使密西西比华人得以‘向白人展示其拥有区别于非洲裔的文化遗产与‘innate’能力’，从而获得部分社会接纳；但这种策略也导致华人‘疏远非洲裔邻居’，因担心‘任何关联都可能逆转其多年争取到的白人社会接纳’。混血家庭则被浸信会传教学校拒之门外，其子女只能入读当地非洲裔公立或天主教学校。",
+      "至1940年代中期，密西西比州白人学校开始种族融合，部分华人家庭遂不再依赖单独办学。但这段历史对理解美国教育隔离与种族不平等至关重要——它表明：在吉姆·克劳法体系下，华人‘成功建立了平行于排他性白人教育机构的替代性学校’。"
+    ],
+    "topics": [
+      "历史",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "JSTOR Daily",
+      "region": "international",
+      "url": "https://daily.jstor.org/the-chinese-only-schools-of-the-jim-crow-south/",
+      "originalTitle": "The Chinese-Only Schools of the Jim Crow South",
+      "publishedAt": "Fri, 04 Sep 2026 13:44:23 +0000",
+      "retrievedAt": "2026-09-05T00:17:55.468Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:17:51.599Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 26,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Chinese-Only Schools of the Jim Crow South",
+      "intro": "A 1920s court battle over a Chinese American student exposed the complicated racial boundaries of school segregation.",
+      "paragraphs": [
+        "At first, a judge said Chinese children could attend school with white peers. But the Mississippi Circuit Court’s decision in the 1924 case was soon overturned. The Supreme Court pointed to the state Constitution’s stipulation that 'separate schools shall be maintained for children of the white and colored races.' 'Yellow, after all, was a color,' as educational researcher Sieglinde Lim de Sánchez remarks.",
+        "Chinese immigrants came to the Delta as agricultural workers in the 1870s. They formed family-centered rural enclaves. These contrasted with the bachelor society of urban Chinatowns. While they lived in predominantly African American areas, Mississippi Chinese resisted legal and customary efforts to conflate their status with that of blacks under Jim Crow laws.",
+        "Petitioner Gong Lum fought for his daughter to be admitted to a white school. His legal argument was that the Chinese should not be counted as 'colored.' In some smaller Delta towns, if a Chinese family was good friends with whites, they might be allowed to attend white schools. Chinese parents began boarding their children with Rosedale families. They also moved into the district. White townspeople of Rosedale pushed back. This led to the court case that legally barred Chinese American students from white-only schools.",
+        "Sending children to segregated African American schools was out of the question. Chinese community leaders called it 'an issue of crucial importance.' Instead, the Mississippi Chinese found a way to have schools of their own. Baptist congregations offered nighttime classes. They taught adults English. They encouraged 'Americanized' domestic habits. With Chinese parents’ backing, local Baptist churches opened educational missions in the 1930s. One was the Cleveland Chinese Mission School. It opened in 1937. Donations came from Chinese communities in New York and San Francisco.",
+        "Mission schools allowed Mississippi Chinese to gain social acceptance in the racially segregated South. They could demonstrate to whites that they possessed a cultural heritage and 'innate' capabilities that differed from African Americans. This came at the expense of relationships with African American neighbors. They feared any association might reverse the acceptance they had spent years trying to achieve within Delta white society. Interracial families were ostracized. Mixed-race children were excluded from the Baptist mission schools. They attended local African American public or Catholic schools. Some Chinese parents sent older children to public schools in California and Texas. White Delta schools began racial integration in the mid-1940s. Despite discrimination, Mississippi Chinese successfully established alternative schools that paralleled the exclusionary white educational institutions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:32:22.376Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-05-mauxm8",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "带着猪肾生活271天后，他接受了人类肾脏移植",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-05",
+    "intro": "一位66岁肾病患者在透析无法维持生命的情况下，接受转基因猪肾移植，依靠它存活271天，随后成功接受人类肾脏移植。这一案例为‘猪肾作为过渡性桥梁’的概念提供了首个临床证据。",
+    "paragraphs": [
+      "蒂姆·安德鲁斯66岁，因糖尿病和高血压导致终末期肾病，依赖透析维持生命——每隔一天用机器过滤数小时血液。他疲惫不堪、食欲丧失、虚弱到无法行走，并曾两次心脏病发作。根据美国器官共享联合网络数据，约9万人在等待肾移植，平均每天有11人在等待中去世。由于血型罕见，他获得匹配人类肾脏的几率极低。",
+      "2025年1月25日，安德鲁斯在麻省总医院布里格姆接受了eGenesis公司提供的转基因猪肾移植。这颗猪肾每天24小时、每周七天持续生成尿液并清除体内废物，而透析仅能间歇性替代部分功能。他的饮食改善、肌肉量恢复。他成为已知首例在猪肾移植后成功接受人类供体肾脏的患者，该病例发表于《柳叶刀》。",
+      "这一病例为‘猪肾作为通往人类器官移植的桥梁’这一概念提供了初步临床证据。医生指出，透析严重损耗患者身体，以致部分人病重到无法接受移植或在等待中死亡。此前担忧猪肾移植可能影响后续人体对人类肾脏的耐受性，但安德鲁斯及另一名患者的经历表明：‘它似乎根本不会改变你对人体组织的反应。’",
+      "移植所用猪肾来自经多重基因编辑的猪，部分编辑用于防止排斥反应，部分用于灭活内源性逆转录病毒。安德鲁斯因猪肾血管内形成血栓并造成损伤，于2026年1月摘除该器官，短暂恢复透析，随后从匹配供体处接受了人类肾脏。在麻省总医院布里格姆，共有五名患者依据FDA扩大使用计划接受了eGenesis猪肾；其中三人（包括安德鲁斯）存活超八个月；一人术后不久因意外心脏事件死亡；另一人于2026年6月接受移植。",
+      "这类将动物器官移植给人的技术称为异种移植。近年来，随着基因工程、克隆技术与新型抗排斥药物进步，该领域快速发展。FDA已允许在严格监管下开展此类实验性手术。eGenesis将于明年启动一项33人参与的正式临床试验；联合治疗公司已于2025年11月启动猪肾临床试验，并将启动第二项试验及一项小规模猪心人体移植试验。安德鲁斯现已恢复游泳、钓鱼和划独木舟等爱好。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "纽约时报中文网",
+      "region": "international",
+      "url": "https://cn.nytimes.com/health/20260904/pig-kidney-bridge-transplant/?utm_source=RSS",
+      "originalTitle": "肾病患者靠移植猪肾生活九个月，直到接受人类肾脏移植",
+      "publishedAt": "Fri, 04 Sep 2026 11:34:40 +0800",
+      "retrievedAt": "2026-09-05T00:19:48.786Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:19:47.015Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-05-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI时代，还需要数学家吗？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-05",
+    "intro": "AI已经能解出困扰数学家多年的难题，甚至业余爱好者也能借助它发表成果。那数学家还有用吗？",
+    "paragraphs": [
+      "想象一下，一个只有物理学学士学位、没接受过专门数学训练的人，去破解一道让无数思想家束手无策的难题，以前几乎不可能。但现在，你只要向一个人工智能模型简要描述这个数论猜想，就能等来答案。这个模型就是OpenAI今年4月发布的GPT-5.5 Pro。",
+      "AI的数学能力并不是突然长出来的。几年前，ChatGPT连基本的算术都做不好，还会信口开河、胡说八道。但后来，AI开始解答国际数学奥林匹克竞赛（IMO）的试题——这是一项面向高中生的精英测试，包含6道难度极高的题目。2024年7月，谷歌DeepMind宣布，其AlphaProof人工智能系统成功解出了当年IMO竞赛6道题中的4道，成绩足以获得银牌。仅仅一年后，谷歌和OpenAI便宣布其AI模型已达到金牌水平。斯坦福大学的拉维·瓦基尔表示：“人们真的大开眼界。”",
+      "很快，AI的本事就超出了竞赛范围。英国曼彻斯特大学的托马斯·布鲁姆运营一家网站，用于追踪著名数学家保罗·埃尔德什提出的上千道数学题的破解进展。2025年底，他首次注意到这些新模型带来的影响；短短数月后，随着GPT-5.2 Pro等更强大模型的发布，人们开始在AI辅助下发布完整的解法，其中一些已得到布鲁姆及其同事的验证。剑桥大学数学专业大二学生凯文·巴雷托利用人工智能解决了许多埃尔德什难题，他经常与利亚姆·普莱斯共同完成，而普莱斯既没有数学学位，也没有接受过正规数学培训。巴雷托表示，诀窍不仅在于要求模型生成证明，更在于以一种奇怪的方式给予它一定程度的支持，比如告诉它“尽力而为”或“不要放弃”，要通过暗示，让它相信这个问题的难度比实际要低；他说：“从模型中诱导出正确的证明策略，本质上就像是在刮彩票。”",
+      "在真正的科研前沿，AI也开始帮上忙。今年1月，瓦基尔及其同事上传了一篇论文，指出“该结果的证明是借助谷歌Gemini及相关工具完成的”。他的证明聚焦于一个特别棘手的问题：某些球体形状如何与被称为“旗空间”的其他数学对象建立联系。瓦基尔表示：“人工智能绝无可能凭一己之力完成这项工作，因为它根本不知道正确的问题是什么，我们得明确告诉它该做什么。”但同时，人工智能提供了一条捷径；他说：“这篇论文本可能永远无法问世，因为我们根本没有时间聚在一起理清论证思路。这更体现了发展趋势，未来将是人类与机器的某种结合。”",
+      "那数学家还有存在的必要吗？看法分成了两派。菲尔兹奖得主、加州大学洛杉矶分校教授陶哲轩曾表示，该领域正从“证明稀缺”的时代迈向“证明丰裕”的时代，许多曾经棘手的问题可能会被人工智能攻克。他认为，数学家们与其专注于成为第一个证明的人，不如竞相成为第一个理解证明的人。但也有人并不乐观。哈佛大学的梅兰妮·伍德指出，AI在数学某个领域拥有一定造诣，并不意味着在整体上具备类人级的数学能力。她说：“人们在思考人工智能与数学时常犯的一个重大错误，就是将这些人类技能之间的相关性直接套用到人工智能上，以为它们之间也会存在某种对应关系。”",
+      "在一次会议上，齐默曼请在场的专家表态：如果AI数学的未来是“一键生成答案”，是否还愿意继续当数学家？只有约一半的人举手。多伦多大学的会议组织者丹尼尔·利特说：“我真正关心的是理解事物、弄清真相。我们既可以通过提出猜想、证明猜想来做到这一点，也可以去找个朋友来问问。”而且，即使这些工具能够解决棘手复杂的问题，许多数学家仍然坚信，只有人类才能决定什么研究课题有趣，或者哪些重要问题值得攻克。伍德指出，数学并非为了解谜而解谜；数学家通常寻求的是能够推动该领域发展的解决方案，也就是说，这个解法是否能为解决许多其他问题提供思路，还是仅仅针对某个特定问题。”"
+    ],
+    "topics": [
+      "AI",
+      "数学教育",
+      "职业未来"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/570787.shtm",
+      "originalTitle": "AI时代，还需要数学家吗？",
+      "publishedAt": "2026-09-03 08:06",
+      "retrievedAt": "2026-09-05T00:21:25.860Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:21:24.717Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Do We Still Need Mathematicians in the Age of AI?",
+      "intro": "Artificial intelligence is now solving math problems that once stumped experts for decades.",
+      "paragraphs": [
+        "Imagine you only know basic physics and no advanced math. You ask an AI to crack a tough number theory puzzle. In the past, that seemed impossible. But new AI models like GPT-5.5 Pro can sometimes produce a correct solution. This feels like magic to many mathematicians. They are excited but also worried. Will human mathematicians still be needed?",
+        "Early AI was bad at math. It could not even do basic arithmetic. But models improved quickly after training on huge math data. In 2024, DeepMind's AlphaProof solved four of six problems from the International Math Olympiad. That earned a silver medal. By 2025, other models reached gold medal level. Soon these tools were open to the public. They started helping solve problems from a famous list created by Paul Erdős.",
+        "One surprising thing is who uses these tools. Some solutions come from amateurs and students, not just professors. A Cambridge student and his friend guided the AI to solve many Erdős problems. The friend has no math degree. The trick is not just asking for a proof. You have to encourage the model. Tell it to try hard or not give up. Even then, success is not guaranteed. It feels like scratching lottery tickets.",
+        "AI has now moved beyond contests. It is helping with real research math. In January, a mathematician used Google's AI to connect two areas of geometry. The AI found a structure that humans had missed. The human team used that hint to write a full proof. In May, OpenAI said its model solved an 80-year-old problem about distances between points in a plane. Many mathematicians were shocked. These results show humans and AI working together.",
+        "But not everyone is happy. Some mathematicians enjoy solving puzzles. If AI gives instant answers, that joy may disappear. Others say understanding is more important than solving. We still need humans to choose which questions matter. AI may produce proofs, but humans decide what is interesting. One expert said mathematicians might become first to understand a proof, not first to find it. So the future of math may not be about finding answers, but about asking the right questions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:30:49.810Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-05/2026-09-05-ai.webp",
+      "alt": "书本与铅笔，影子如电路板",
+      "caption": "数学在AI时代的新角色",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-05-nsltd3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "全国摔跤挠羊大赛在山西代县开赛",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-05",
+    "intro": "一场源自山西代县的民俗摔跤比赛，正在以全国性赛事的形式走进更多人的视野。",
+    "paragraphs": [
+      "在山西代县，一项名为“挠羊”的摔跤比赛正式开赛。",
+      "挠羊大赛作为一种地方民俗竞技活动，承载着当地的传统体育文化。",
+      "从地方到全国，这样的转变反映出传统民俗活动正在被更多人认识。",
+      "当一项地方民俗竞技走向全国，它带来的还有不同地区之间对传统体育的共同关注。"
+    ],
+    "topics": [
+      "民俗体育",
+      "非遗活化",
+      "地方文化传承"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-04/10690586.shtml",
+      "originalTitle": "全国摔跤挠羊大赛在山西代县开赛：地方民俗竞技走向全国",
+      "publishedAt": "Fri, 4 Sep 2026 20:25:06 +0800",
+      "retrievedAt": "2026-09-05T00:24:42.616Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-05T00:24:38.693Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-04-agriculture-relies-on-fossil-fuels-it-s-costing-",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "化肥为什么和石油天然气绑在一起，让种地和吃饭都变贵了？",
@@ -3127,277 +3400,6 @@
       "alt": "Microscope and petri dishes in a lab",
       "caption": "衰老研究的实验室静物",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-16-k3arlu",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "营养不良危机失控，阿富汗儿童正被推向饥饿深渊",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-16",
-    "intro": "联合国新闻报道指出，阿富汗营养不良危机正在失控，数以百万计的儿童正被推向饥饿深渊。",
-    "paragraphs": [
-      "今年7月中旬的一天，在阿富汗西南部赫尔曼德省的一家医疗保健中心，医务人员正在测量一位两岁女孩胳膊的粗细，以确定她的营养状况。这个小女孩是阿富汗大约350万5岁以下、罹患消瘦症的儿童当中的一个。目前，阿富汗近90%的两岁以下儿童处于“食物贫乏”状态，也就是说绝大部分的幼儿每天仅能依赖一、两种极单一的食物维生。",
-      "世界粮食计划署驻阿富汗国家主任约翰·艾利夫最近在访问阿富汗南部坎大哈省期间，遇到了一位名叫法里达的三个孩子的母亲。她的丈夫是一位年迈的街头小贩，每天收入不到一美元，根本无力负担营养食品、医疗保健或其他基本生活必需品。法里达的两个孩子患有贫血。其中六岁的儿子因急性营养不良，身体过于虚弱，已经好几个月无法上学。当艾利夫与法里达交谈时，她的婴儿因饥饿开始哭泣，她将手伸进包里，掏出一只婴儿奶瓶。通常情况下，人们会以为奶瓶里装的是牛奶。但这个瓶子里只有淡茶。这个家里根本买不起牛奶。",
-      "目前，阿富汗有1380万人、相当于每三个人当中就有一人处于危机级别的粮食不安全状态。有12个省份的儿童急性营养不良状况已达到危急水平，这是有记录以来的最高数字。当前的营养危机有着多重原因：阿富汗接连遭受地震、干旱与洪水等自然灾害；与巴基斯坦冲突不断，中东局势紧张，导致贸易中断，使主食价格上涨了20%至30%；普遍失业；以及人道主义资金缩减。",
-      "阿富汗土壤的天然肥力较低，这意味着小麦生产依赖于施用充足的化肥。冬小麦是该国的主要粮食作物，约占年度化肥需求的61%。但今年，化肥价格急剧上涨。尼姆鲁兹省的农民瓦基尔正在地里施肥。他表示：“以前化肥是从伊朗和巴基斯坦运来的。但现在与巴基斯坦的边境已经完全关闭。通过伊朗边境合法进口的化肥数量不足。价格就涨上去了。”他说：“以前，我都是随手撒肥。但现在我撒得非常小心，以免化肥落进别人的地里或被浪费。这可是我们花高价买来的。”自2023年9月以来，600万阿富汗人从巴基斯坦和伊朗被强行驱逐，形成了全球最大规模的难民回返潮。世界粮食计划署驻阿富汗国家主任艾利夫指出，“阿富汗境内根本没有足够的就业岗位来维持这些返乡者的生计”。预计到今年年底，还将有250万难民返回阿富汗。",
-      "近年来，全球的人道主义资金急剧减缩，阿富汗受到了严重的影响。联合国人道主义事务协调厅阿富汗事务发言人奥尔加·切列夫科表示：“目前的资金水平已低至危险程度。阿富汗今年的人道主义救援计划所需资金约为17.1亿美元，而我们目前仅收到26%多一点，但现在已经是8月份了”。18个月大的哈尼亚曾因营养不良被送入戴昆迪省立医院治疗。短短一周内，她的体重就增加了300克。然而，并不是所有的孩子都像哈尼亚这样幸运。由于资金严重短缺，世界粮食计划署目前只能为阿富汗每九个面临急性饥饿的人口中的一人提供食物。粮食署驻阿富汗国家主任艾利夫表示，“当你意识到世界粮食计划署今年获得的资金仅够为七分之一患有急性营养不良的妇女和儿童提供食物时，你会感到无比地痛心。是的，我们正在拒绝其中七分之六的人，让他们空手而归，一无所有。”世界粮食计划署2026年的阿富汗紧急粮食援助和营养项目预计需9亿美元，目前急需5亿美元资金才能维持最基本的生命救助行动。"
-    ],
-    "topics": [
-      "全球时事",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142639",
-      "originalTitle": "【专题报道┃前方视野】阿富汗：营养不良危机正在失控",
-      "publishedAt": "Sat, 15 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-15T22:47:25.592Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:47:23.123Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Afghanistan's Malnutrition Crisis Spins Out of Control",
-      "intro": "In Afghanistan, a hunger crisis is getting out of control. Young children are suffering the most.",
-      "paragraphs": [
-        "At a health center in Helmand Province, medical staff measured a two-year-old girl's upper arm circumference. She is one of about 3.5 million children under five with wasting in Afghanistan. Nearly 90 percent of children under two are in 'food poverty'. That means most toddlers eat only one or two very limited foods each day. Some families cannot afford milk. So infants receive weak tea instead.",
-        "John Ayliff is the World Food Programme Country Director for Afghanistan. He met Farida in Kandahar Province. She is a mother of three. Her husband is an elderly street vendor. He earns less than one dollar per day. Two of her children have anemia. Her six-year-old son is too weak from acute malnutrition to go to school. When her baby cried from hunger, she pulled out a bottle. It contained only weak tea. The family cannot afford milk.",
-        "Currently, 13.8 million people in Afghanistan face crisis-level food insecurity. That is one in every three people. Acute malnutrition among children has reached critical levels in 12 provinces. This is the highest number ever recorded.",
-        "The crisis has multiple causes. Afghanistan has suffered earthquakes, droughts, and floods. Conflict with Pakistan and Middle East tensions have disrupted trade. That raised staple food prices by 20 to 30 percent. Unemployment is widespread. Fertilizer prices have surged sharply. Waqil is a farmer in Nimruz Province. He said the border with Pakistan is fully closed. Legal fertilizer imports via Iran are insufficient. So prices rose. He now applies fertilizer very carefully. He does not want to waste it.",
-        "Since September 2023, about six million Afghans were forcibly returned from Pakistan and Iran. This is the largest returnee movement in the world. John Ayliff said Afghanistan has no enough jobs for these returnees. An additional 2.5 million are expected to return by year-end. Global humanitarian funding has shrunk dramatically. The UN Humanitarian Response Plan for Afghanistan needs 1.71 billion dollars. As of August, only about 26 percent had been received.",
-        "The World Food Programme can provide food to only one in nine people facing acute hunger. Even for women and children, it can help only one in seven with acute malnutrition. That means six out of seven are denied life-saving assistance. Sadiqa is a 30-year-old mother of seven from Helmand Province. Her two daughters are three years old and 18 months old. Both suffer from malnutrition. Her husband has been bedridden with kidney disease for ten days. She has typhoid. She said she cannot breastfeed unless she eats. When she eats, she can feed her babies."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:55:31.754Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-16-antarctica-is-releasing-mercury-faster-than-ever",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "南极冰盖正在加速释放汞，气候变暖是推手",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-16",
-    "intro": "遥远、寒冷、几乎无人居住的南极，正因冰川融化，把过去几百年封存的汞大量释放进海洋。",
-    "paragraphs": [
-      "你可能觉得，离最近大城市都有约1000公里、终年冰封的南极，应该是地球上最干净的地方之一。但科学家发现，这里其实长期积攒了大量汞——一种来自人类活动的有毒重金属。过去，寒冷的空气和冰层像‘冰箱’一样，把大气中飘来的汞冻住、锁在冰雪和南大洋沉积物里，使南极成为污染物的‘汇’（sink）。",
-      "可现在，这个‘汇’正在转变为‘源’。一项发表在《美国国家科学院院刊》（PNAS）上的新研究显示：自工业革命（18世纪中期）以来，南极半岛大陆架海底沉积物中的汞积累量平均增加了160%；增速尤其从1950年代起明显加快。研究团队分析了从南极半岛大陆架采集的16根沉积岩芯，发现其中约56%的汞来自大气沉降，其余很可能源自冰川融水释放、冰与沉积物风化侵蚀所 mobilized 的汞。",
-      "模型模拟进一步表明：相比工业革命前，南极冰川向海洋释放的汞已增加550%。研究者指出：‘气候变暖不仅增加了融水量，更释放了此前封存在南极半岛冰中的‘遗留汞’。’论文共同作者、北京大学环境科学家刘茂甸在邮件中写道：‘气候变化是汞循环的放大器。全球汞污染与气候变化并非彼此独立的环境问题。’",
-      "这些进入海洋的汞可能转化为毒性更强的甲基汞，后者更易在生物体内富集。甲基汞经由浮游生物、磷虾、鱼类、海鸟和海洋哺乳动物逐级传递，在食物链中累积。高剂量甲基汞可损害动物的神经系统、行为、生长和繁殖。由于部分南极磷虾和鱼类进入商业渔业，汞污染也可能间接影响人类健康。",
-      "类似过程也见于其他地区：北极永久冻土解冻正释放封存汞；美国东北部强风暴加剧侵蚀，加速土壤中汞向水体迁移。研究者强调，即使未来人为汞排放减少，已封存在南极冰中的汞仍将持续随融冰释放——‘环境汞负荷不太可能随减排立即下降。’"
-    ],
-    "topics": [
-      "气候与能源",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Eos Earth & Space Science",
-      "region": "international",
-      "url": "https://eos.org/articles/antarctica-is-releasing-mercury-faster-than-ever-because-of-climate-change",
-      "originalTitle": "Antarctica Is Releasing Mercury Faster Than Ever Because of Climate Change",
-      "publishedAt": "Fri, 14 Aug 2026 12:01:00 +0000",
-      "retrievedAt": "2026-08-15T22:49:24.488Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:49:21.701Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 18,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-16/2026-08-16-antarctica-is-releasing-mercury-faster-than-ever.webp",
-      "alt": "Melting iceberg with droplets",
-      "caption": "冰川融化释放汞的隐喻",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-16-a3iivl",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "高分选职校，中职学校如何既“接得住”更“接得好”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-16",
-    "intro": "当中考高分生把志愿填进中职校，人们开始追问：这些学校准备好了吗？",
-    "paragraphs": [
-      "在很多人的印象里，中职学校是考不上普通高中之后的备选。但最近，一个变化越来越明显：一些中考分数不错的学生，主动选择了职业学校。他们不是没考上高中，而是觉得职业教育更适合自己。",
-      "考验的第一关，是“接得住”。高分学生通常学习能力强，思维活跃，对课堂的要求也更高。他们不满足于照着操作手册练手，而是想知道每个动作背后的原理。如果学校还是用老办法教课，设备陈旧，老师讲不出新东西，这些学生很快就会觉得“来错了”。",
-      "接得住之后，还要“接得好”。“接得好”不是把学生招进来就完事，而是要帮他们找到成长的路。中职学生同样可以考大学，同样可以成为行业里的高手。这需要学校和好的企业合作，让学生接触真实的工作；也需要学校开足文化课，让想深造的学生有底气；还需要有老师专门帮学生规划未来，告诉他们学完这三年，脚下有哪些选择。",
-      "高分选职校，也让一个问题浮出水面：职业教育到底该是什么样？过去，它常常被看作“差生”的去处；现在，当高分学生愿意走进来，学校就要拿出配得上这份认可的教育。",
-      "学校要接得住、接得好，也离不开家长和社会的支持。家长需要了解，职业教育不是断头路，而是一条可以通向大学、通向好工作的路；社会也要慢慢放下对中职的偏见，给选择职业教育的孩子多一些尊重。",
-      "教育的选择越多，每个孩子就越能找到自己的方向。高分选职校，是一张信任票，也是一张考卷。学校答得好，未来会有更多孩子愿意走这条路；答得不好，这份信任也会慢慢流失。"
-    ],
-    "topics": [
-      "教育",
-      "经济与商业"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-14/10677375.shtml",
-      "originalTitle": "高分选职校，中职学校如何既“接得住”更“接得好”",
-      "publishedAt": "Fri, 14 Aug 2026 08:32:00 +0800",
-      "retrievedAt": "2026-08-15T22:53:19.386Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-15T22:53:17.586Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-15-why-aging-may-be-a-program-not-a-breakdown",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "衰老可能不是零件随机磨损，而是有指令的细胞更替过程",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-15",
-    "intro": "科学家发现，衰老不是身体零件随机磨损的结果，而像发育一样，是一套分阶段、有指令的细胞更替过程。",
-    "paragraphs": [
-      "你有没有注意到，爷爷奶奶的头发会变白，皮肤会起皱，走路变慢，记性也不如从前？这些变化，我们叫‘衰老’。过去科学家一直认为，衰老就像一台用久了的机器——零件慢慢损坏，修也修不过来，最后停摆。但最近，美国洛克菲勒大学的细胞生物学家曹俊越博士和团队发现：事情可能不是这样。",
-      "曹博士分析了约50只雄性和雌性老鼠身上2100万个细胞的基因表达，覆盖它们从3个月、6个月、12个月、16个月到23个月（分别相当于人类约20岁、30岁、50岁、60岁和75岁）的五个生命阶段。他惊讶地发现：不是所有细胞都在同步老化。在总共1828种细胞亚型中，只有约四分之一显示出强烈的年龄相关变化；其余细胞数量稳定，几乎不受影响。这说明，衰老不是全身‘一起坏掉’，而是某些特定细胞群体按时间表有序增减。",
-      "研究把衰老划分为几个清晰阶段。比如，在老鼠3到6个月大时（相当于人类20多岁），一些脂肪细胞、肌肉细胞，以及大脑里两种具有再生脑组织能力的未成熟细胞，开始快速减少。到了6到12个月（相当于人类30至40多岁），负责维持身体结构的细胞大量流失：肌腱中的腱细胞、包裹血管并稳定循环系统的细胞、结肠的平滑肌细胞、肾脏中过滤血液毒素的上皮细胞，以及部分保护肠道等特定组织的免疫细胞，都明显减少。",
-      "曹博士把这种变化称为‘细胞社会的重塑’——就像一座城市不会突然倒塌，而是随着发展，老街区改造、新社区兴起、人口重新分布。衰老不是故障，而是一套早在年轻时就写进细胞里的程序。这套程序在人类身上，很可能30岁前就已经启动了。",
-      "需要说明的是：这项研究是在老鼠身上做的，基于基因表达数据；目前尚无直接证据证明人类完全遵循相同模式。它不提供抗衰老药方，也不宣称能延长寿命；它只是帮我们换一种方式理解：为什么身体会这样变化，以及变化背后，可能藏着怎样的规律。"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
-      "originalTitle": "Why Aging May Be a Program, Not a Breakdown",
-      "publishedAt": "Fri, 14 Aug 2026 13:10:26 +0000",
-      "retrievedAt": "2026-08-14T21:47:39.065Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-14T21:47:29.270Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-15/2026-08-15-why-aging-may-be-a-program-not-a-breakdown.webp",
-      "alt": "冷灰色调下，一组半透明几何细胞按序排列，抽象表现程序化更替。",
-      "caption": "细胞更替的抽象示意。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-15-3-700",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "3人获2026未来科学大奖，单项奖金约700万元！",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-15",
-    "intro": "8月13日上午，2026未来科学大奖获奖名单揭晓。张宏获得“生命科学奖”；赵东元获得“物质科学奖”；袁新意获得“数学与计算机科学奖”。单项奖金约700万元人民币（等值100万美元）。",
-    "paragraphs": [
-      "8月13日上午，2026未来科学大奖获奖名单揭晓。张宏获得“生命科学奖”；赵东元获得“物质科学奖”；袁新意获得“数学与计算机科学奖”。单项奖金约700万元人民币（等值100万美元）。未来科学大奖设立于2016年，由科学家和企业家群体共同发起，关注原创性的基础科学研究，奖励在中国内地（大陆）、香港、澳门、台湾做出杰出科学成果的科学家（不限国籍）。",
-      "2026年“生命科学奖”获奖者张宏，是中国科学院生物物理研究所研究员，1969年出生于中国安徽，2001年于美国爱因斯坦医学院获得博士学位。他开创性地利用秀丽隐杆线虫模型，解析高等生物的自噬分子机制；依托2010年发表于《细胞》的里程碑论文及后续研究，发现了一组仅存在于多细胞生物中的自噬基因，命名为EPG基因；阐明了动物自噬特有的复杂分子通路，揭示了自噬在机体发育、生理稳态及人类疾病中发挥作用的底层原理。",
-      "2026年“物质科学奖”获奖者赵东元，1963年生于中国沈阳，1990年在吉林大学获得博士学位，现为复旦大学教授。他率先发展了基于分子自组装的有序介孔材料合成新方法，开创了SBA、FDU等一系列具有国际影响力的有序介孔材料体系；提出并建立了有机—有机自组装策略，实现了高度有序介孔聚合物和介孔碳材料的可控制备；发展挥发诱导自组装等普适性方法，使分子自组装成为构筑功能介观材料的通用平台，推动介孔材料在催化、能源、环境和生物医学等领域广泛应用。",
-      "2026年“数学与计算机科学奖”获奖者袁新意，北京大学北京国际数学研究中心教授，1981年出生于湖北麻城，2003年获北京大学学士学位，2008年获哥伦比亚大学博士学位。他在算术几何领域作出奠基性贡献，开创了Arakelov几何中的算术大性（arithmetic bigness）理论；利用该理论证明了一致Bogomolov猜想，并与虞家伟、周胜铉合作证明了Barry Mazur提出的一致Mordell猜想的有效定量版本；其成果已成为证明Birch–Swinnerton-Dyer猜想若干特例以及André–Oort猜想的重要基础。",
-      "2016年至2025年，未来科学大奖共评选出46位获奖者。奖项以定向邀约方式提名，由优秀科学家组成科学委员会专业评审，秉持公正、公平、公信原则，保持评奖独立性。获奖工作须同时满足：产生巨大国际影响；具有原创性、长期重要性或经过时间考验；主要在中国内地（大陆）、香港、澳门、台湾完成。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/8/569749.shtm",
-      "originalTitle": "3人获未来科学大奖，单项奖金约700万元！",
-      "publishedAt": "2026-08-13 10:57",
-      "retrievedAt": "2026-08-14T21:48:38.252Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-14T21:48:35.573Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Three Scientists Win 2026 Future Science Prize",
-      "intro": "Three researchers have won the 2026 Future Science Prize in China.",
-      "paragraphs": [
-        "The winners were announced on August 13, 2026. Zhang Hong won the Life Science Prize. Zhao Dongyuan won the Material Science Prize. Yuan Xinyi won the Mathematics and Computer Science Prize. Each prize carries a cash award of about seven million yuan RMB, equivalent to one million US dollars.",
-        "Zhang Hong is a researcher at the Institute of Biophysics, Chinese Academy of Sciences. He was born in Anhui Province in 1969. He earned his PhD from Albert Einstein College of Medicine in 2001. Zhang Hong made pioneering discoveries on autophagy mechanisms unique to multicellular organisms. Autophagy is a key cellular degradation and recycling process: cells form double-membrane vesicles called autophagosomes to enclose proteins, organelles, and pathogens for lysosomal degradation. He identified a set of autophagy genes found only in multicellular organisms, naming them EPG genes. His work revealed how autophagy regulates development, physiological homeostasis, and human disease.",
-        "Zhao Dongyuan was born in Shenyang in 1963. He earned his PhD from Jilin University in 1990. He is a professor at Fudan University. Zhao Dongyuan made pioneering contributions to mesoporous materials — materials with pore sizes between 2 and 50 nanometers. He and his collaborators developed new molecular self-assembly methods for synthesizing ordered mesoporous materials. They created influential material families including SBA and FDU. Their work enabled precise control over pore structure, size, composition, and morphology. Zhao’s team also pioneered organic–organic self-assembly, enabling ordered mesoporous polymers and carbon materials. Their methods are widely adopted worldwide and applied in catalysis, energy conversion and storage, environmental remediation, and biomedicine.",
-        "Yuan Xinyi was born in Macheng, Hubei Province in 1981. He earned his bachelor’s degree from Peking University in 2003 and his PhD from Columbia University in 2008. He is a professor at the Beijing International Center for Mathematical Research, Peking University. Yuan Xinyi made foundational contributions to arithmetic geometry. He founded the theory of arithmetic bigness in Arakelov geometry. He proved the uniform Bogomolov conjecture and provided a quantitative version of the uniform Mordell conjecture proposed by Barry Mazur in the 1980s. His work established a new theoretical framework for studying small points on algebraic varieties and represents a major breakthrough in Diophantine geometry.",
-        "The Future Science Prize was established in 2016 by scientists and entrepreneurs. It rewards original basic scientific research conducted primarily in mainland China, Hong Kong, Macao, or Taiwan — regardless of the laureate’s nationality. Nominations are by invitation only; evaluation is conducted by an independent Scientific Committee. From 2016 to 2025, the prize honored 46 scientists. The 2026 laureates join this distinguished group."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-14T22:01:36.019Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
