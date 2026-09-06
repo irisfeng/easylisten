@@ -1,5 +1,267 @@
 [
   {
+    "slug": "2026-09-07-ifnllk",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "实验室里藏着一片“海”，我国深海装备在这里提前接受考验",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-07",
+    "intro": "科学家在大连的海岸与海洋工程全国重点实验室里造出一片“模拟海洋”，用从南北极运回的真实海冰、可精准复制台风海况的造浪池、以及模拟海底“沙尘暴”的装置，为我国海上工程装备在投产前完成严苛的安全校验。",
+    "paragraphs": [
+      "你见过藏在大楼里的“大海”吗？在大连的海岸与海洋工程全国重点实验室里，科学家们造了这么一片模拟海洋。眼下，我国第16次北冰洋科考正在北冰洋中央冰区紧张推进；而在千里之外的大连，一场针对海冰的科研攻关也在同步进行。现在您看到的是科研人员正在对海冰进行强度测试，与之前用人工制海冰不同，现在实验室的冰样都是从南北极运回来的。摸清真实海冰的承压极限，未来对破冰船研发设计、极地航线规划都有着十分重要的意义。",
+      "海岸与海洋工程全国重点实验室教授卢鹏说：‘必须有海量的、大量的数据去支撑，这也是为什么我们反复做这个事情。’依托这些珍贵实地样本，实验室建起了我国的极地海冰物理与力学数据库。过去不少需要依赖国外的参数，如今我们自己就能测、就能算。摸透海冰特性，只是迈向大洋的第一步。",
+      "实验室的另一块试验区，一套漂浮式风机模型即将迎来海浪模拟考验。眼前这座造浪池，布设着波浪监测装置、光学测量系统、测力天平、应变传感器和压力传感器等多套设备，它可以精准复制极端台风海况，模拟出海上装备实际遭遇的复合极端工况。记者问：‘这个波，好像也没有想象中那种惊涛骇浪。’实验室副主任林毅峰回答：‘现在缩小了这个70倍的，这样子如果说我们换算到原型里面，就相当于现场我们模拟了3.5米的浪高。’",
+      "海洋带来的挑战不只来自海面，海底同样暗藏风险。眼前这套装置，正在模拟海底“沙尘暴”。湍急的水流冲刷海底泥沙，会造成风机海底电缆裸露，带来安全隐患。这个外形像红色大斗笠的装置，就是实验室自主研发的开孔圆台防护设施。当海底暗流涌来，它可以护住桩体周边泥沙不被冲走；更巧妙的是，水流经过装置会在后方形成泥沙淤积，把海底电缆埋得更深，进一步筑牢安全防线。",
+      "正是依靠这个人工搭建的“模拟海洋”，我国各类海上工程装备在投产前就能提前完成严苛的安全校验，为大国重器工程提供自主可控的试验支撑。就在不久前，依托试验数据，我国制造出同类装备当中离岸最远的漂浮式风电平台，作业离岸距离可达150公里，具备抵御17级超强台风的过硬实力。中国海油“海油安澜号”项目工程师冯东说：‘17级台风来了之后，我们整体平台的倾斜角能够控制在1度以内。’从港珠澳大桥，到深海钻井平台，再到海上丝绸之路沿线一批重大港口，实验室里的研究成果已经托举起了数十项国家重大海洋工程。再过几个月，世界上第一个全新海洋工程深水实验室就将在我国正式投运，它可以真实模拟出海下3000米的海底工况，为我国加速走向深远海提供坚实的技术支撑。"
+    ],
+    "topics": [
+      "工程与制造",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/570978.shtm",
+      "originalTitle": "我国加速走向深远海，揭秘藏在实验室里的大海",
+      "publishedAt": "2026-09-06 21:04",
+      "retrievedAt": "2026-09-06T22:59:16.169Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T22:59:04.722Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 14,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How a Lab Recreates the Deep Ocean",
+      "intro": "China's push into deeper seas depends on a special lab that copies ocean conditions before real equipment is built.",
+      "paragraphs": [
+        "China's 16th Arctic Ocean expedition is underway in the central ice area. Far away in Dalian, another team is studying sea ice. They test the strength of real ice samples brought back from the polar regions. In the past, they used artificial ice. Now the lab uses actual polar ice. Knowing how much pressure real ice can take helps design better icebreakers and plan polar shipping routes. Professor Lu Peng says they need massive amounts of data. The lab has built China's polar sea ice physical and mechanical database. Before, engineers often relied on foreign parameters. Now they can measure and calculate these values themselves. Professor Lu Peng says understanding ice is core to polar engineering because ice's effect on structures is the most important factor in polar regions.",
+        "Understanding ice is only the first step. In another part of the lab, a floating wind turbine model faces wave simulation. The wave pool has wave monitoring devices, optical measurement systems, force balances, strain sensors, and pressure sensors. It can accurately replicate extreme typhoon sea conditions and simulate compound extreme working conditions for offshore equipment. A reporter notes the waves look small. Deputy Director Lin Yifeng explains the model is scaled down 70 times. So those waves equal 3.5-meter waves in full scale.",
+        "Ocean challenges come not only from the surface but also from the seabed. The lab simulates underwater 'sandstorms'. Strong currents scour seabed sediment, risking exposure of wind turbine submarine cables. A red conical device — the lab's self-developed perforated conical protective facility — shields sediment around pile foundations. When undercurrents hit it, flow patterns cause sediment to deposit behind the device, burying cables deeper and strengthening safety.",
+        "These simulated ocean tests allow strict safety verification of marine engineering equipment before deployment. They provide autonomous, controllable experimental support for major national projects. Recently, based on test data, China built the farthest-offshore floating wind platform of its kind — operating 150 kilometers offshore and capable of withstanding a Category 17 super typhoon. Engineer Feng Dong of the CNOOC 'Haiyou Anlan' project says the platform's tilt stays within one degree during such a storm. Lab results have supported dozens of national marine projects — including the Hong Kong–Zhuhai–Macao Bridge, deep-sea drilling platforms, and major ports along the Maritime Silk Road.",
+        "In a few months, the world's first new deep-water ocean engineering laboratory will officially begin operation in China. It can realistically simulate seabed conditions at 3000 meters depth. This will provide solid technical support for China's accelerated advance into the deep and distant sea."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:13:47.045Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 14,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-07/2026-09-07-ifnllk.webp",
+      "alt": "Indoor wave pool with machinery in a lab",
+      "caption": "实验室中的模拟海洋装置",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-07-genome-duplication-is-a-radical-evolutionary-gam",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "整套基因翻倍：生命进化的一场豪赌",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-07",
+    "intro": "有些生物的整套基因突然多出一倍，这既可能催生新能力，也可能导致死亡。",
+    "paragraphs": [
+      "你见过比火柴头还小的蜗牛吗？新西兰亚历山德里娜湖边就生活着一种叫‘波塔莫’（potamo）的微小螺类——学名 _Potamopyrgus antipodarum_。它看起来毫不起眼，但细胞里藏着一个惊人的秘密：它的整套基因不是两份，而是三份或四份；大多数动物包括人类每个细胞有两套染色体，而这种蜗牛有三或四套，显著多于正常数量。",
+      "科学家把这种现象叫做‘多倍化’（polyploidy），即整套基因突然翻倍。它通常不是好事：科学家怀疑，继承三套、四套或更多染色体而非两套，多数情况下是致命的细胞分裂错误；只有极少数全基因组复制事件能在谱系中稳定下来。但那些成功的案例，却带来了重大演化后果——蜘蛛的吐丝器官、脊椎动物大型复杂的大脑、豆科与禾本科等植物的物种辐射、番茄的肉质果实，都与全基因组复制事件有关。",
+      "过去，科学家只能靠显微镜数染色体，知道多倍化存在，却难以理解其机制。直到全基因组测序技术发展，他们才真正看清基因内部的‘历史痕迹’。比如酵母菌基因组中存在大量约60%相似的重复区段，这些成对区域被长段独特基因隔开，能清晰追踪每个基因的命运——这是1997年Kenneth Wolfe团队在分析酿酒酵母 _Saccharomyces cerevisiae_ 基因组时发现的关键证据。",
+      "1970年，遗传学家大野乾（Susumu Ohno）提出：单个基因复制可为演化提供‘备份+试错’空间——一份维持原有功能，另一份自由变异。而整套基因翻倍，则是这种机制的全局放大。后续研究证实：所有现存种子植物都至少经历过一次古老全基因组复制；拟南芥基因组中就明确存在一次‘大声呼喊着’的复制事件；而包括人类在内的有颌脊椎动物，也保留着数百年前那次关键复制的证据。",
+      "不过，翻倍不是升级，而是冒险。全基因组复制是生物单代所能经历的最激进突变；细胞突然承载加倍遗传物质，常致死亡或不育。能存活下来的个体，还需经历漫长的‘红二倍化’（rediploidization）过程——选择性保留部分重复基因、丢弃其余，最终重建高效稳定的基因组结构。如今，科学家正通过这种蜗牛、酵母和植物的基因故事，解析生命如何在高风险中赢得高回报。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/genome-duplication-is-a-radical-evolutionary-gamble-20260902/",
+      "originalTitle": "Genome Duplication Is a Radical Evolutionary Gamble",
+      "publishedAt": "Wed, 02 Sep 2026 14:21:02 +0000",
+      "retrievedAt": "2026-09-06T23:03:24.043Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:03:22.392Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 23,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-07-the-purpose-of-dns-is-to-spread-scams",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "2025年新注册的通用顶级域名滥用率或达20%",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-07",
+    "intro": "一份网络安全报告显示，2025年新注册的通用顶级域名中，滥用率可能高达20%。",
+    "paragraphs": [
+      "科技博主泰伦斯·伊登在一篇题为《The purpose of DNS is to spread scams》的文章中指出：“the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate”。",
+      "这份报告来自Interisle研究机构。它指出：2025年共新增8500万个通用顶级域名（gTLD）注册。",
+      "截至2025年5月，其中850万个已被列入网络安全黑名单。报告认为，10%是这些数字的滥用率下限，实际可能接近20%。",
+      "泰伦斯据此表示：“One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea.” 他提到，ICANN apparently 已讨论这个问题多年。",
+      "域名本应是互联网上的门牌号，方便人们访问网站；但报告显示，大量新注册域名被用于诈骗。这意味着：当你点击一个陌生网址时，它有约20%的概率是骗局——这个数字提醒我们保持警惕。"
+    ],
+    "topics": [
+      "互联网产品",
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Simon Willison",
+      "region": "international",
+      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "originalTitle": "The purpose of DNS is to spread scams",
+      "publishedAt": "2026-09-06T14:40:07+00:00",
+      "retrievedAt": "2026-09-06T23:06:52.860Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:06:47.822Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-07-k2g152",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "老剧“翻红”，我们被什么打动",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-07",
+    "intro": "这篇题为《老剧“翻红”，我们被什么打动》的文章刊发于中国新闻网文娱频道，但当前可获取的网页内容中仅包含标题、导航栏、分享功能及大量页面结构代码，未抓取到任何正文文字。",
+    "paragraphs": [
+      "这篇候选的标题是《老剧“翻红”，我们被什么打动》，刊于中新网文化频道。",
+      "但当前原文页面只保留了导航、分享按钮和文章标题，正文部分没有抓到。",
+      "听稿里的每个事实、观点和引语都必须能回到原文；正文缺失时，任何展开都可能变成编造，所以这一篇暂不生成正式听稿。",
+      "请补充完整原文全文后再改写。"
+    ],
+    "topics": [
+      "影视与游戏",
+      "文化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-06/10691260.shtml",
+      "originalTitle": "老剧“翻红”，我们被什么打动",
+      "publishedAt": "Sun, 6 Sep 2026 09:26:57 +0800",
+      "retrievedAt": "2026-09-06T23:07:42.589Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:07:41.046Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-07-from-the-archive-drought-is-on-the-verge-of-beco",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "干旱正在变成下一场大流行",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-07",
+    "intro": "这不是比喻，而是科学家和水利专家反复发出的警告：当全球越来越干，水不再是取之不尽的背景资源，而成了需要被理解、保护和重新分配的生命线。",
+    "paragraphs": [
+      "2022年夏天，英国约克郡的贝廷斯水库干得露出湖底裂缝，整个英格兰水库蓄水量跌到1995年以来最低。",
+      "为什么干旱会像传染病一样蔓延？因为它不只关乎天不下雨。人类用水方式加剧了它：农业灌溉占全球淡水消耗的70%，但其中近40%因管道渗漏和漫灌白白流失；城市供水管网老化，英国平均每天漏掉30亿升水；而生产一瓶矿泉水，要消耗三瓶水的资源。",
+      "很多人以为‘水贵’只是账单变高，其实它暴露的是系统性失衡。比如英国水务公司过去二十年把数十亿英镑利润用于股东分红，却只投入少量资金更新老旧管网；而农民若改用滴灌技术，能省一半水，但设备成本高、培训缺位，政策支持又滞后。",
+      "值得听的是，解决办法不在遥远未来。西班牙用再生水灌溉农田，已覆盖全国12%的农业用水；澳大利亚在墨尔本建起全城雨水收集系统，把屋顶和街道的雨水导入地下蓄水层；中国浙江安吉的村庄用‘水币’制度，让村民用节水行为兑换生活用品——这些不是宏大工程，而是可触摸、可参与的日常调整。",
+      "最后要记住：水危机没有国界，但应对可以有起点。科学家说，‘下一场大流行’未必不可逆——只要我们开始把水看作有限的、流动的、需要共同照看的生命网络，而不是无限供应的后台服务。听完这期，你可以试着观察家里的水龙头、学校的饮水机，甚至下雨时流进下水道的那滩水：它从哪里来？又将流向哪里？"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/audio/2026/sep/02/from-the-archive-drought-is-on-the-verge-of-becoming-the-next-pandemic-podcast",
+      "originalTitle": "From the archive: ‘Drought is on the verge of becoming the next pandemic’ – podcast",
+      "publishedAt": "Wed, 02 Sep 2026 04:00:21 GMT",
+      "retrievedAt": "2026-09-06T23:09:38.453Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:09:35.604Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Drought: The Next Pandemic?",
+      "intro": "This week's archive long read explores why drought is becoming a global emergency.",
+      "paragraphs": [
+        "Imagine a crisis that spreads silently across the world. It doesn't come from a virus. It comes from a lack of water. Drought is on the verge of becoming the next pandemic — that's the warning at the heart of this long read.",
+        "Around the world, water supplies are shrinking. In summer 2022, the total stock of water in England's reservoirs was at its lowest level since 1995. That's just one example. Many regions are facing similar problems.",
+        "The article says two big things are draining our water resources. One is profit. The other is pollution. Both make the world drier. Even places that used to have plenty of rain now face shortages.",
+        "We have to change our approach. Instead of treating water as endless, we must value every drop. New approaches are possible. We can reduce waste, clean up pollution, and share water fairly.",
+        "The next time you turn on a tap, think about where that water comes from. Drought may not be in the news every day, but it's a slow-moving disaster. By paying attention now, we can avoid a much bigger crisis later."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-06T23:14:36.961Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-06-3j2gq5",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "天语望远镜首光仪式在青海冷湖天文观测基地举行",
@@ -3105,271 +3367,6 @@
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
         "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-19-c5aifh",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "《欢迎来龙餐馆》彩蛋：原文缺失，本期听稿无法呈现",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-19",
-    "intro": "因原文正文未能完整获取，本期无法基于原文进行彩蛋解读，向听众说明原因并致歉。",
-    "paragraphs": [
-      "听众朋友，今天原定要聊的是电影《欢迎来龙餐馆》的彩蛋。不过，编辑在整理资料时发现，从网站上保存下来的页面，只有标题和栏目框架，真正的正文内容没有拿到。",
-      "轻听有一条规矩：每一句话都得能在原始来源里找到依据。既然正文缺失，如果硬要写，就只能凭空猜测，那是我们不希望发生的事。",
-      "所以这一期，我们选择暂停彩蛋解读。您可以先去看看这部电影，说不定自己就能发现那个特别的彩蛋。等我们拿到完整原文，再回来好好讲给您听。感谢您的理解。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "影视与游戏"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679956.shtml",
-      "originalTitle": "这才是《欢迎来龙餐馆》的彩蛋",
-      "publishedAt": "Tue, 18 Aug 2026 23:01:37 +0800",
-      "retrievedAt": "2026-08-18T21:49:42.929Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-18T21:49:40.224Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-19-kp13xt",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "别让孩子困在“抢跑”里",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-19",
-    "intro": "中新网评论提醒家长，与其让孩子在“抢跑”中失去快乐，不如尊重他们自己的成长节奏。",
-    "paragraphs": [
-      "在我们身边，很多小朋友从幼儿园开始就背着小书包，上了好多课：拼音、算术、英语、书法……天还没亮就得起床，晚上天黑了还没回家。为什么这么忙？因为大人们常说，不能让孩子输在起跑线上。可是，中新网的一篇评论却说，别让孩子困在“抢跑”里。",
-      "“抢跑”是什么意思呢？就像跑步比赛，发令枪还没响，有人就急着冲出去。看起来他跑在最前面，可如果一开始就拼命冲，到真正要加速的时候，可能已经没有力气了。学习也是这样。有些家长怕孩子落后，就让他们提前学一年级、二年级的知识。可是，等到班上正式教这些内容时，孩子可能已经听腻了，反而坐不住，慢慢就不爱学习了。",
-      "其实，每个孩子都有自己的节奏。有的孩子开窍早，有的孩子开窍晚，这都很正常。就像花朵，有的春天开，有的夏天开，有的到了秋天反而开得最漂亮。如果我们硬要让一朵花提前开放，结果可能是它还没准备好，就早早枯萎了。中新网评论说，教育不是短跑，而是长跑，起跑线上的领先，不代表最后能赢。",
-      "更让人担心的是，“抢跑”会偷走孩子的童年。玩泥巴、看蚂蚁、和小伙伴追跑打闹，这些看起来“没用”的事，其实是孩子认识世界、学会和人相处的重要方式。如果所有时间都被课本和培训班塞满，孩子就没有时间发呆、探索、犯错，也就少了成长中最重要的东西——快乐和好奇心。",
-      "所以，别让孩子困在“抢跑”里。与其催着他们往前赶，不如陪着他们慢慢走。在合适的年龄做合适的事，让他们按照自己的脚步长大。也许，最后跑到终点的，并不是最先冲出去的那个，而是最清楚自己该怎么跑的那个。"
-    ],
-    "topics": [
-      "教育",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-18/10679831.shtml",
-      "originalTitle": "中新网评：别让孩子困在“抢跑”里",
-      "publishedAt": "Tue, 18 Aug 2026 19:11:52 +0800",
-      "retrievedAt": "2026-08-18T21:56:53.646Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-18T21:56:51.587Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-18-scientists-say-phenology",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "物候学：动植物如何读懂大自然的季节信号",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-18",
-    "intro": "为什么树在春天发芽、鱼在特定月份产卵？研究这些生命节律的科学，就叫作物候学。",
-    "paragraphs": [
-      "想象一棵树，冬天刚刚过去，光秃秃的枝头冒出嫩绿的芽苞，叶子慢慢舒展，花朵也跟着开放。是什么在提醒这棵树：春天到了？是白昼变长，还是天气变暖？研究这些问题的一门科学，叫作物候学。它的英文名 phenology 读作 fen-AW-luh-jee，专门研究季节和环境信号，怎样触发生物生命周期中的各种变化。",
-      "物候学关心的，远不止树木开花。它探索的是所有生命在整个一年里，如何随着环境改变而改变自己的节奏。许多鱼类会在沿海地区产卵，幼鱼长大后再游向开阔的海洋。在墨西哥湾，红鼓鱼通常在8月到11月间在近岸繁殖，红鲷鱼则在6月到8月产卵。这两种鱼都不会翻日历，它们感受的是水温、洋流和日照长短的变化。",
-      "今天，物候学家特别关心一件事：气候变化正在改变这些环境信号。全球气温升高，可能让植物比往年更早发芽，也可能改变鸟类和其他动物的迁徙时间。弄清楚这些因果联系非常重要。我们只有知道地球上的生命会怎样跟着变化，才谈得上更妥善地照顾它们、为未来做好准备。",
-      "物候学也悄悄藏在日常生活里。比如，季节性花粉水平与人类过敏症状之间的联系，就是物候学可以研究的问题。",
-      "所以，下次看到春天的第一片新叶，不妨想一想：是大自然里的什么信号，悄悄提醒了它？这，就是物候学想听懂的语言。"
-    ],
-    "topics": [
-      "生命与演化",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-phenology-definition-pronunciation",
-      "originalTitle": "Scientists Say: Phenology",
-      "publishedAt": "Mon, 17 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-17T21:46:47.154Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:46:43.779Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "What Is Phenology?",
-      "intro": "Have you ever noticed trees budding in spring or wondered why fish spawn at certain times? Scientists who study those patterns work in a field called phenology.",
-      "paragraphs": [
-        "Phenology is a field of science. It studies the seasonal and environmental cues that trigger life-cycle changes in living things. Imagine a tree as winter turns to spring. Bright green buds appear on branches that had been bare. Leaves unfurl and flowers begin to bloom. A phenologist might ask: What causes the tree to begin budding in the spring? Do longer days trigger the change? Or perhaps warmer weather?",
-        "Phenology explores how all types of life change throughout the year. For instance, many fish reproduce, or spawn, in coastal regions. The young fish then move into the open ocean as they grow into adults. In the Gulf of Mexico, red drum tend to reproduce near shore between August and November. Red snapper spawn in the area between June and August. Neither species checks a calendar to know when it’s spawn season. They respond to changes in water temperature, ocean currents and daylight hours.",
-        "Phenologists also study how climate change is altering the environmental cues that living things respond to. Higher global temperatures can trigger plants to bud earlier in the year. Climate change can also affect the migration timing of birds and other animals. This cause-and-effect knowledge is important. It may allow us to better manage future changes to our planet’s life forms as global temperatures keep rising.",
-        "The field of phenology might investigate the link between seasonal pollen levels and allergy symptoms in humans."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:57:33.242Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-18/2026-08-18-scientists-say-phenology.webp",
-      "alt": "树、鱼、太阳和月亮组成的季节循环抽象图",
-      "caption": "物候节律的视觉隐喻",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-18-zdxk9i",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家首次探测到核反应堆的“幽灵余辉”",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-18",
-    "intro": "即便核反应堆停止运行，堆内长寿命裂变产物仍持续衰变，不断释放极难捕捉的反中微子，如同难以消散的“幽灵余辉”。",
-    "paragraphs": [
-      "即便核反应堆停止运行，堆内长寿命裂变产物仍持续衰变，不断释放极难捕捉的反中微子，如同难以消散的“幽灵余辉”。德国主导的双乔兹实验，在法国核电站地下探测器中，首次实测到反应堆停机阶段的反中微子信号。",
-      "德国主导的双乔兹实验，在法国核电站地下探测器中，首次实测到反应堆停机阶段的反中微子信号。",
-      "相关研究成果发表于《物理评论快报》。"
-    ],
-    "topics": [
-      "物质与数学",
-      "物理"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-08/17/content_565332.html",
-      "originalTitle": "科学家首次探测到核反应堆的“幽灵余辉”",
-      "publishedAt": "2026-08-17",
-      "retrievedAt": "2026-08-17T21:48:13.143Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:48:10.857Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "First Detection of a Nuclear Reactor's Ghost Afterglow",
-      "intro": "Scientists have detected an elusive signal from a nuclear reactor after it stopped running.",
-      "paragraphs": [
-        "Even after a nuclear reactor stops running, long-lived fission products inside the core continue to decay. They release extremely hard-to-catch antineutrinos. Scientists call this lingering signal a 'ghost afterglow'.",
-        "The Germany-led Double Chooz experiment used a detector underground at a French nuclear power plant. It measured antineutrinos during the reactor's shutdown phase.",
-        "For the first time, scientists directly measured antineutrino signals from a reactor that had stopped running. The findings were published in Physical Review Letters."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:55:44.886Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-18/2026-08-18-zdxk9i.webp",
-      "alt": "核反应堆轮廓与散发微光的粒子",
-      "caption": "反应堆余辉的抽象表现",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-18-yqr79o",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "泛美卫生组织发布工具包，预防儿童和青少年遭受欺凌及网络欺凌",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-18",
-    "intro": "一份新工具包帮助家长、老师和医生识别欺凌和网络欺凌的预警信号，及早采取行动。",
-    "paragraphs": [
-      "想象一下，一个孩子在学校被人起外号、推搡，回到家里又在手机上收到攻击性的消息。这不是简单的‘闹着玩’，而是欺凌。2026年8月17日，泛美卫生组织发布《美洲地区儿童和青少年反欺凌及网络欺凌有效干预措施工具包》，汇集相关证据、建议和实用工具，预防和应对影响本地区数百万儿童和青少年的欺凌，包括网络欺凌。",
-      "欺凌到底有多普遍？拉丁美洲和加勒比地区约四分之一的13至17岁青少年报告称，在过去一个月内曾在学校遭受过欺凌。中美洲约23%的学生报告遭受欺凌，南美洲这一比例为30%。在本地区一些国家，7%至27%的儿童和青少年报告称在过去12个月内曾遭受网络欺凌，其中女孩的比例更高。网络欺凌可能随时发生，传播迅速，且能够触及大量受众。泛美卫生组织强调，网络欺凌往往反映、放大或延伸线下暴力。",
-      "被欺凌不只是心情不好。欺凌和网络欺凌与抑郁、焦虑、创伤性应激、社交孤立、睡眠障碍、自残、自杀念头及自杀未遂风险增加密切相关，并会对学业成就和社会发展产生负面影响。欺凌还可能造成受伤、心身症状、慢性疼痛和睡眠障碍。这些影响表明，应对措施不能仅限于学校，还需要卫生系统参与。",
-      "那么，怎么及早发现呢？行为突然变化、焦虑、易怒、社交退缩、原因不明的伤痕或不愿上学，都可能是遭受欺凌的征兆。网络欺凌的预警信号还可能包括使用数字设备期间或之后行为突然变化，以及不愿谈论网络活动。",
-      "发现了信号之后怎么办？泛美卫生组织建议卫生工作者在常规问诊中询问学校和数字环境，识别预警信号，评估心理健康影响，并提供初步支持。该组织同时强调，解决欺凌问题需要卫生、教育及其他部门共同采取基于证据的措施，并加强家庭和同伴支持。",
-      "欺凌和网络欺凌可以被阻止，但前提是有人看见、有人倾听、有人行动。希望这份工具包能帮助更多人学会识别信号、及时伸手，让每个孩子都能安全地长大。"
-    ],
-    "topics": [
-      "心理与情绪",
-      "教育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142642",
-      "originalTitle": "泛美卫生组织发布工具包，预防儿童和青少年遭受欺凌及网络欺凌",
-      "publishedAt": "Mon, 17 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-17T21:49:04.915Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-17T21:49:03.249Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
         "attempts": 1
       }
     }
