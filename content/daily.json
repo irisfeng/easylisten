@@ -1,5 +1,233 @@
 [
   {
+    "slug": "2026-09-09-agi",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AGI还没定论，大学教育已经需要变了",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-09",
+    "intro": "OpenAI发布的新模型再次引发‘通用人工智能是否到来’的讨论，但文章作者认为，无论结论如何，大学都需要开始调整培养目标。",
+    "paragraphs": [
+      "9月3日，美国人工智能（AI）公司OpenAI发布新款大模型GPT-6 Astra。据官方介绍，该模型能把推理、编程、计算机操作、研究与文档制作等能力结合起来，着重解决需要多个步骤才能解决的复杂问题。它的推出把一个讨论已久的问题再次带到人们眼前：通用人工智能（AGI）时代是否已经到来？Astra所体现的发展方向是从‘回答问题’变为‘参与工作’：用户可以交给AI一个需要逐步完成的目标，而非一句简单的回复。以准备一场学术讲座为例，教师可以提供讲座主题、听众情况、已有论文和时间要求，请Astra协助梳理材料、比较不同观点、拟定结构，再把内容整理成讲义或演示文稿。",
+      "很多人以为ChatGPT是一个知识面很广的对话者，而Astra所体现的发展方向却是从‘回答问题’变为‘参与工作’。所谓通用人工智能，是指一种系统能在广泛的任务中运用知识，面对不熟悉的问题也能学习、理解并寻找解决办法。今天的先进模型能处理越来越多不同类型的任务，但面对陌生情况是否可靠、连续工作时能否保持质量、遇到错误能否有效修正，这些都影响着人们的判断。就目前能核查的官方资料而言，还不能把‘Astra已经实现AGI’作为定论。不过，AGI是否得到确认与高等教育是否需要改变并非同一个问题。只要学生能借助AI完成过去需要独自完成的任务，只要职业世界开始要求人们与这些系统合作，大学的培养目标和教学安排就有重新审视的必要。",
+      "当AI能参与更完整的工作，大学应怎样判断学生究竟学会了什么？过去，教师看到一篇论证清楚的文章、一份分析完整的报告，通常会判断学生掌握了相应知识。但如今，一项同样的成果，却可能包含学生的努力与机器的帮助，甚至可能掩盖学生尚未理解的问题。作品质量与学生能力之间已不能再简单画等号。学生能把任务说清楚、比较不同方案、纠正系统错误，并形成可靠成果，这就是值得培养的能力。问题在于大学还要知道学生能否解释其中原理，能否面对追问，能否在条件改变时重新作出判断。从积极方面看，更强的AI为教学提供了新机会：一个班级里，学生的知识基础、理解速度和困难各不相同，经过适当设计的AI辅导可以尝试从不同角度解释概念，根据学生回答提出下一步问题，让不敢在课堂上发问的学生获得更多练习机会。教师的任务也将因此变化：当重复解释和材料准备能获得更多帮助，教师就有更多精力观察学生怎样思考，发现他们习惯性忽略的问题，组织有挑战的讨论，并给予针对性指导。但学校不能因此减少基础训练——不了解文学作品的人很难判断一段解读是否偏离原文；缺少数学基础的人也未必能看出答案错在哪里。判断力需要知识作为支撑。评价方式也应与之配合：有些任务可充分使用AI，考查学生如何组织合作、核验结果；有些环节则需要现场讨论、独立写作或实际操作，确认学生真正掌握了必要能力。",
+      "Astra代表的能力发展还可能影响研究怎样开展、青年人怎样成长，以及大学怎样证明自身价值。对于缺少大型团队的教师来说，多语材料的初步整理、代码编写和数据处理往往是开展项目的障碍；随着这些环节更易获得帮助，小团队有机会尝试更复杂的问题。但研究更易开展不等于有价值的研究必然增加——AI可以帮助快速整理材料，但真正值得追问的问题仍需要研究者发现。如果学校继续主要依据论文数量评价教师，技术带来的效率便可能被消耗在更多相似选题和重复论述中。查资料、核对引文、写初稿、修改程序等看似能交给机器的基础工作，却也是许多人学习专业判断的过程。资深教师觉得烦琐的环节，可能正是初学者积累经验的地方。如果未来只需要能够检查AI成果的专家，却不给年轻人足够的练习机会，新的专家从哪里来？教育公平也可能制造新的差距：有人能使用更强的系统，并获得教师的细致指导；有人虽然也接入AI，却主要依赖自动生成的回答。表面上，大家拥有了相似的工具，但获得的实质教育经验可能相差很大。高校既要为学生提供合理的技术条件，也要保障真实的师生互动，尤其不能出现‘资源充足的学生独享‘AI加教师’支持，资源不足的学生只能得到机器回应’的局面。大学还需要保有自己的判断和选择：把教学、研究和管理建立在智能平台上，涉及的不只是买一套软件这么简单，还包括数据怎样使用、服务能否持续、费用是否可承担等。录取、资助和教师评价等事项可以获得AI协助，但大学仍须说明理由，并对决定负责。",
+      "总之，Astra是否意味着AGI已经实现仍可继续讨论，但AI参与知识工作和日常生活的方式正在变化，高等教育需要认真回应这种变化。大学可以从具体课程和真实任务开始，组织教师试用，观察学生的学习，比较不同做法的效果，再逐步调整培养与评价方式。对一项新技术，既保持探索的热情，也保有判断的耐心，才能把新的可能转化为真实的教育进步。未来的大学，需要让学生看到世界正在发生怎样的改变，更需要帮助他们获得参与这种改变的能力。当机器越来越能够替人完成工作，大学更应帮助每一个人成为能够理解世界、作出选择并对他人有所贡献的人。这才是我们讨论AGI与高等教育时，最值得守住的目标。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571038.shtm",
+      "originalTitle": "AGI时代到来与否仍待定 教育变革已应开始",
+      "publishedAt": "2026-09-08 08:00",
+      "retrievedAt": "2026-09-08T23:29:50.199Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:29:22.155Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Should Schools Change Even Before True AGI Arrives?",
+      "intro": "A new AI model from OpenAI can handle complex multi-step tasks. That raises an urgent question for universities.",
+      "paragraphs": [
+        "On September 3, OpenAI released a new large model called GPT-6 Astra. According to official information, it combines reasoning, programming, computer operation, research, and document creation. It is designed to solve complex problems requiring multiple steps. For most people, technical parameters are less important. People care more about what the AI can help with. They want to know how it changes learning, work, and daily life.",
+        "Earlier models like ChatGPT acted as broadly knowledgeable conversational partners. Astra represents a shift from answering questions to participating in work. Officially, it can use user-provided materials and tools. It performs continuous tasks across different software and websites. It adjusts direction based on new requirements. For example, a teacher preparing an academic lecture can provide the topic, audience profile, existing papers, and time constraints. Astra can help organize materials. It can compare viewpoints. It can draft structure. It can produce handouts or presentation slides — all within one integrated task. It also checks its own results. It continues working based on user feedback.",
+        "So does this mean artificial general intelligence (AGI) has arrived? To answer, we must understand what 'general' means in 'general intelligence'. It means an AI can apply knowledge across diverse domains. It means it can adapt to unfamiliar problems. Past AI systems were narrow. A chess program could not analyze literature. A translation tool could not design experiments. AGI would operate broadly. Today’s advanced models handle more task types. That raises expectations. But whether they meet AGI criteria remains contested. Key concerns include reliability in novel situations. They include sustained quality during long tasks. They include effective error correction. Based on currently verifiable official information, 'Astra has achieved AGI' cannot be confirmed as fact.",
+        "The article makes a clear distinction. Whether AGI has arrived is not the same question as whether higher education must change. A university does not lose value because a new model is released. Nor should it delay reform just because AGI remains debated. Students can now use AI to complete tasks once done alone. Workplaces begin requiring human-AI collaboration. Universities must re-examine their goals and teaching methods. The article warns against letting debates about technical maturity become excuses for inaction. Change enters university life gradually. It appears in student assignments. It appears in teacher lesson planning. It appears in researchers’ data handling.",
+        "When AI can produce polished outputs, a well-structured essay or report no longer proves mastery. The quality of the final product and the student’s actual understanding are no longer equivalent. Human-AI collaboration still holds value. Students who can clearly define tasks hold value. Students who compare options hold value. Students who correct system errors hold value. Students who produce reliable outcomes hold value. These are important abilities. But universities must also assess whether students can explain underlying principles. They must assess whether students can respond to follow-up questions. They must assess whether students can re-evaluate when conditions change. Basic training must not be reduced. Without reading, practice, and independent reasoning, students cannot judge whether an AI-generated answer is accurate. Judgment depends on foundational knowledge.",
+        "Assessment methods should vary. Some tasks may allow full AI use. These test how students organize collaboration. They test how students verify results. Other tasks require live discussion. They require independent writing. They require hands-on work. These confirm essential capabilities. When AI assists with repetitive explanations and material preparation, teachers gain time. Teachers can observe student thinking. They can identify habitual blind spots. They can lead challenging discussions. They can give targeted guidance. This time must not be used to increase class size. It must not be used to increase workload. Universities must retain their own judgment. Deploying intelligent platforms involves data usage. It involves service sustainability. It involves cost. Decisions about admissions, funding, and faculty evaluation must remain transparent. They must remain accountable — even with AI support. As machines do more, universities must help every person become someone who understands the world. They must help every person make choices. They must help every person contribute meaningfully to others."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:45:47.123Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-09-w6ra2e",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "合肥这束光，怎样让量子通信“绝对安全”",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-09",
+    "intro": "在合肥，科学家们让一束光成为秘密的守护者，这束光如何让信息传递变得“绝对安全”？",
+    "paragraphs": [
+      "量子通信的安全性，来自光的最小单位——光子。发送信息时，科学家把信息编码在光子的量子状态里，比如偏振方向。只要有人想偷听，就必须去测量这个光子，而测量本身就会改变它的状态。",
+      "这就像在信封上用特殊墨水写字，只要有人拆开信封，墨水就会变色。发送者和接收者一对照，立刻就能发现有人偷看过，于是马上更换新的密钥，保证后面的通信依然安全。",
+      "合肥是中国量子技术研究的重要城市，那里的科学家一直在研究如何把量子密钥分发到更远的地方。",
+      "当然，“绝对安全”不是说永远不会出错，而是说在物理规律上，任何窃听行为都会留下痕迹，无法悄悄进行。"
+    ],
+    "topics": [
+      "量子通信",
+      "墨子号卫星",
+      "科技自立",
+      "青少年科普"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-08/10692471.shtml",
+      "originalTitle": "向新之翼｜科创中国行·合肥：这束光如何让量子通信“绝对安全”",
+      "publishedAt": "Tue, 8 Sep 2026 11:30:05 +0800",
+      "retrievedAt": "2026-09-08T23:37:00.734Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:36:42.420Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 4,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-09-your-perception-of-time-is-in-fact-warped",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "为什么时间越过越快？更深的问题可能是记忆方式的变化",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-09",
+    "intro": "越来越多的人感觉时间在加速，但这不只是错觉，背后是我们记忆方式的变化。",
+    "paragraphs": [
+      "你有没有发现，身边越来越多人在感叹：一年怎么又过完了？这种‘时间加速’的感觉，在疫情后似乎成了全球共鸣。在Reddit上，一位按季节劳作的农场主说‘不敢相信今年过得这么快’；一位中学老师回忆，她常和学生讨论‘生活速度令人困扰’；还有程序员说，‘疫情年份模糊成一片，之后一切感觉被压缩，像一个漫长季节而非独立年份’。",
+      "其实，科学家很早就注意到时间感知的弹性。19世纪90年代，法国哲学家保罗·雅内提出，人感受时间与年龄成比例：10岁时，一年是生命的十分之一，因此处理得缓慢而充实；50岁时，一年仅占生命的2%，体验相应变得短暂而轻飘。这一理论被称为‘对数时间感知’，也称‘生命时长理论’。心理学家威廉·詹姆斯在《心理学原理》中进一步指出，年轻人每天经历新鲜事物，注意力活跃、记忆保持强，因此回忆起来‘像一段快速而有趣的旅行’，显得‘繁复、丰富、绵长’；而成年后陷入重复模式，缺乏新信息输入、新技能习得或陌生情境刺激，意识趋于钝化，‘日子和星期在回忆中平滑为无内容的单位，年份变得空洞并坍塌’。",
+      "疫情加剧了这种扭曲。2023年，贝勒大学研究者利用盖洛普在疫情高峰期采集的数据发现，美国人经历了多向‘时间迷失’：时间有时加速、有时变慢、日子混杂到无法区分。2022年发表于《时间与社会》的一项针对乌拉圭大学生的研究显示，80%的受访者感到疫情期间时间变快或变慢。德国时间感知研究者马克·维特曼指出，封锁期间‘每天一模一样’——过去周一滑冰、周二见朋友，每个日子有专属标记；这些标记消失后，他称之为‘Blursday’（模糊日）。",
+      "为什么会有这种矛盾？关键在于记忆机制的双重性：我们当下对时间快慢的判断，取决于即时投入程度；而回溯性评估，则取决于是否形成可提取的记忆。疫情期间许多人居家隔离、无所事事，当下觉得时间‘拉长’‘扭曲’‘模糊’；但因日常高度重复，大脑未编码足够新记忆，导致事后回顾时，大段时光‘变得空洞并坍塌’——正如詹姆斯所描述。",
+      "所以，时间加速感背后，或许是我们正在失去那些安静、无聊却利于记忆形成的时刻。原文明确指出：‘更深层的问题是，我们正在遗忘它们——而正在失去的，正是那些安静、无聊、记忆得以沉淀的时刻。’"
+    ],
+    "topics": [
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Noema",
+      "region": "international",
+      "url": "https://www.noemamag.com/your-perception-of-time-is-in-fact-warped",
+      "originalTitle": "Your Perception Of Time Is, In Fact, Warped",
+      "publishedAt": "Thu, 03 Sep 2026 16:29:42 +0000",
+      "retrievedAt": "2026-09-08T23:38:36.230Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:38:11.721Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-09/2026-09-09-your-perception-of-time-is-in-fact-warped.webp",
+      "alt": "融化变形的座钟与飘散日历页",
+      "caption": "时间感知的扭曲与记忆重构",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-09-ixa3oz",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "历史移出中考计分，减负背后的经济学道理",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-09",
+    "intro": "辽宁等地把历史、生物、地理移出中考计分，作者用经济学里的边际收益递减解释：少考一科，学生的负担反而可能真正减轻。",
+    "paragraphs": [
+      "先看已经发生的事。2026年8月28日，辽宁省教育厅发布中考调整政策通知：自2026年秋季新初二起，生物、地理、历史三门学科由考试科目调整为考查科目，只评等级，不再计入中考总分。北京市从2025年开始实施中考改革方案，将历史、地理、化学、生物学统一调整为考查科目，成绩不计入中考总分。吉林省改革将于2027年正式施行，生物、地理转为开卷考查科目，仅公布等级结果，不再纳入中考计分范围。湖南省也将从2027年起，将毕业生的生物、地理成绩改为等级呈现，不再计入中考总分。但省级层面明确将历史学科移出中考计分的，仅有北京和辽宁两地。",
+      "有人担心，历史不计分了，学生会不会干脆不学、甚至忘记历史。文章作者刘远举认为，这种担心没有必要。历史也并没有从升学评价中消失，只是权重和形式变了，但仍有等级要求；比如，部分地方规定，报考优质高中，历史等级须达到B或C以上。而且，在新高考‘3+1+2’模式下，物理与历史是二选一的‘首选科目’，有高考指挥棒在，就不必担忧历史在整体教育中会失去地位。",
+      "那减负的效果从哪里来？作者用了一个经济学原理：边际收益递减效应。在技术水平和其他条件不变时，连续增加一种可变要素的投入，带来的产量增量会先递增，超过某个临界点后就开始递减，甚至可能变成负值。比如一块固定面积的土地，刚开始多施肥产量明显增加，但肥施到一定程度后，再多加化肥增产效果反而越来越小，甚至可能伤庄稼。",
+      "把这个道理放到考试上。如果中考突然增加一个新科目，投入到上面的时间，就在边际递增阶段——你花1天时间，就能从零分变为20分。但对于语文、数学、英语这些科目，从小学开始算，学生已经花了大量时间，处于边际收益递减阶段，同样花一天时间在语文、数学、英语上，几乎是没有什么影响的。相比之下，在历史上的投入更加高效。但如果没有历史科目了，学生虽然可以把这些时间转投入到语文、数学、英语，但因为这些科目已经在边际递减阶段，投入时间获得的效益更低。那么，低效的事情，就不值得做，学生的负担就可以减轻。",
+      "作者还进一步说，如果中考只考一科，语文，哪怕竞争再激烈，学生也因为‘无处努力’‘付出时间增分不明显’‘耽误一天几乎没影响’而减轻负担。中国的教育系统是一个环环相扣的筛选链条——好工作、好大学、好高中、好初中、小学，环环相扣的升学考试，把压力高效传导到童年。解决问题的方向是减少筛选环节、把筛选后移，比如通过教育均等化消除初中重点学校制度，最终把压力留在高中阶段，让初中小学减负。",
+      "也有人反对辽宁的做法，理由是‘辽宁是九一八事变的发生地，所以不该取消历史’。作者回应说，这种说法是从最简单的国家、民族角度出发，没有做复杂的技术性分析；相比教育系统贯彻落实国家政策、切实减轻孩子负担的努力，这些议论‘心中根本没有把我们的孩子，当作一个有血有肉的群体，对他们沉重的负担没有丝毫感知’。作者支持这轮改革，认为教育系统的官员是做了深思熟虑的考虑，是在为孩子着想。"
+    ],
+    "topics": [
+      "经济与商业",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "FT 中文网",
+      "region": "international",
+      "url": "https://www.ftchinese.com/story/001110813",
+      "originalTitle": "从“历史移出中考”，看教育减负背后的经济学逻辑",
+      "publishedAt": "Tue, 08 Sep 2026 16:00:00 GMT",
+      "retrievedAt": "2026-09-08T23:43:42.677Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:43:25.550Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why Cutting History from Exams Could Reduce Stress",
+      "intro": "What if dropping history from a big exam could actually lower student stress?",
+      "paragraphs": [
+        "Liaoning Province announced in August 2026 that, starting with new eighth graders in autumn 2026, biology, geography, and history will be changed from exam subjects to assessment subjects. They will be graded only by level, not counted in the high school entrance exam total score. Beijing began this change for biology and geography in 2025. Beijing also removed history, chemistry, geography, and biology from scoring. Liaoning and Beijing are the only provinces that have explicitly removed history from the scoring system. Some worry students will stop learning history. But history is still required. For example, some places require a B or C grade in history to apply to top high schools.",
+        "The concern about history disappearing is unnecessary. Under China’s new college entrance exam '3+1+2' model, students must choose either physics or history as a mandatory 'first-choice subject'. So history remains central in upper secondary education. The idea that removing history from the high school entrance exam would cause a 'break in continuity' between junior and senior high is unfounded. Because of the college entrance exam requirement, students can catch up on historical knowledge later.",
+        "This reform follows an economic principle: diminishing marginal returns. When students add study time to a subject they know little about — like history — early hours yield large score gains. But for Chinese, math, and English, students have already invested many years. Extra time brings diminishing returns. So history becomes a high-effort, high-return subject for exam preparation. Removing it eliminates that intense, last-minute cramming. Before history exams, students review until the final minute. Such all-night cramming is rarely seen before Chinese, math, or English exams.",
+        "If the high school entrance exam covered only one subject — say, Chinese — even fierce competition would not create the same burden. Students would have 'nowhere to push'. They would see 'no clear gain from extra effort'. And 'missing a day would almost have no impact'. China’s education system is a chain of selection steps — from primary school to jobs. Reducing screening at the junior high level moves pressure to high school. There, students are more mature and better able to cope. Officials made this change after careful technical analysis. Their goal is to reduce the screening function. They aim to narrow differences among high schools. And they want to ease pressure on younger students.",
+        "Some online critics argue history carries national memory and should stay. They cite, for example, that Liaoning is where the September 18 Incident occurred. But these critics often do not read history in their spare time. They demand students bear the cost. They contribute only comments. A thoughtful, technical policy is stronger than emotional, ideological reactions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-08T23:47:27.130Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-09/2026-09-09-ixa3oz.webp",
+      "alt": "天平一端书堆一端羽毛",
+      "caption": "减负与教育负担的权衡",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-09-08-what-archaeology-reveals-about-the-rise-of-all-p",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "权力从哪来：考古学家发现专制国王并非农业发展的必然结果",
@@ -3133,238 +3361,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-08-22-why-thailand-was-never-colonized",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "泰国为何从未被殖民",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-22",
-    "intro": "19世纪的东南亚几乎被欧洲列强瓜分，暹罗却成为少数例外之一；一块古石碑、外交和改革帮它守住了独立。",
-    "paragraphs": [
-      "1833年旱季，一位名叫蒙固的僧人前往暹罗旧都素可泰。蒙固不是普通僧人，他是国王拉玛二世的第43个孩子，出生自拉玛二世的一位高级妃嫔，是王位的有力竞争者。当时的暹罗领土包括今天泰国的大部分，以及老挝、柬埔寨和马来西亚的一部分，约有五百万人口。首都曼谷是繁忙的贸易港口，拥有密集的运河网络、水上房屋和多元族裔人口；而素可泰在13至15世纪曾是政治、文化和宗教中心，但此后已被南方的阿瑜陀耶及18世纪建立的曼谷所取代，到蒙固到访时已基本荒废。",
-      "在素可泰停留期间，蒙固发现了一块约一米高的四面黑色石碑，刻着一种不常见的文字。这块石碑后来被称为兰甘亨石碑，据称刻于1292年，常被引为现存最早的泰文书写实例。蒙固把它带回曼谷，组织学者委员会解读其铭文。他们比对已知的古泰文及其他相关文字，分析语言规律，并与博学僧人合作释读生僻字词。124行古文字记述了一位名为兰甘亨的贤明君主统治的古代泰王国，该王国具备文学传统、成熟的法律与政治制度、独立、主权、明确地理边界、佛教王权和公正统治。",
-      "石碑的发现时机恰逢其时。19世纪，欧洲列强几乎殖民了全球几乎所有其他地区，例外极少——日本是最广为人知的例子；暹罗或许是下一个最清晰的、成功抵御外国占领并保持主权的国家，但远不如日本知名。暹罗通过外交、改革和审慎的形象管理维持独立。1830年代，暹罗宫廷紧张注视着英国势力从印度向东南亚扩张：就在蒙固发现石碑前数年，第一次英缅战争（1824–1826）中，英国军舰驶入伊洛瓦底江，重创暹罗长期对手缅甸，攫取大片领土；东边，法国传教士活跃于越南和柬埔寨，代表法国殖民野心及其‘文明使命’的最初阶段。暹罗邻国相继沦陷，它成为东南亚唯一未被欧洲殖民的国家。",
-      "暹罗统治者意识到，若能证明本国早已拥有文字系统、法律制度与复杂文明，便可削弱欧洲殖民者常用的‘开化落后民族’这一借口。当时欧洲列强普遍认为，技术先进、信奉基督教的国家负有将‘进步’带给缺乏正当政府、文字系统与文化修养的‘落后’民族的道德义务；这种意识形态为其征服提供了国内支持与国际合法性。蒙固发现的石碑，恰如在关键时刻找到一份失落的《大宪章》——它提供了西方眼中文明合法性的关键凭证：书面语言。石碑铭文以实物证据颠覆了欧洲人对暹罗‘原始性’的预设。",
-      "1855年，英国特使约翰·鲍林抵达曼谷。当时英国控制着全球近五分之一的陆地面积，工业产量超世界一半，拥有史上最强海军。而暹罗自1688年起长期对西方实行相对自我封闭，此前英国使节约翰·克劳福德更曾形容暹罗人‘异常肮脏、虚伪且贪婪’。1851年拉玛三世去世后，蒙固继位，称拉玛四世。他早年为僧时即学习西方语言、科学与技术，通晓英语和拉丁语，并持续与天主教及新教传教士、外交官接触。他对西方‘物质与技术进步’观念深感兴趣，这与佛教宇宙观强调衰变循环形成鲜明对比。",
-      "鲍林与蒙固会面时，蒙固在其私人寓所以雪茄与葡萄酒招待对方，两人绕过翻译直接用英语交谈。鲍林注意到，国王藏书丰富，涵盖西方科学著作乃至沃尔特·司各特的小说。当时英国帝国主义者尚不习惯与能直接用英语交流、又熟稔西方书籍的亚洲君主谈判。"
-    ],
-    "topics": [
-      "历史",
-      "国际关系"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Works in Progress",
-      "region": "international",
-      "url": "https://www.worksinprogress.news/p/why-thailand-was-never-colonized",
-      "originalTitle": "Why Thailand was never colonized",
-      "publishedAt": "Fri, 21 Aug 2026 11:21:12 GMT",
-      "retrievedAt": "2026-08-21T21:53:51.169Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T21:53:47.711Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 48,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-22/2026-08-22-why-thailand-was-never-colonized.webp",
-      "alt": "一块刻有古老文字的石碑，背景有模糊的东南亚地图轮廓",
-      "caption": "石碑与地图，象征暹罗的独立与外交",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-20-ai-can-be-a-helpful-math-tutor-if-used-right-and",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI当数学家教：用对是帮手，用错伤学习",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-20",
-    "intro": "一项调查发现，AI能帮中学生学数学，但前提是得会用——用不好反而拖后腿。",
-    "paragraphs": [
-      "最近，美国、英格兰和威尔士的1300名高中生参加了一项调查。他们都是顶尖数学学生，来自上述地区，且都参加过国际数学竞赛。调查由工业与应用数学学会开展，旨在识别他们学业成功背后的学习习惯。结果发现，AI当数学辅导老师，有优点也有缺点。优点包括：AI能用不同方式解释概念，帮学生检查作业答案，回答‘为什么’类问题以加深理解，并能识别学生的知识漏洞。有学生表示，使用AI辅导甚至可能减轻数学焦虑。",
-      "但AI也有让人担心的地方。专家罗比·托尔尼指出，AI被设计为减少‘摩擦’——即追求快速高效；而学习恰恰需要‘摩擦’，必须自己努力攻克难题、得出答案。一位叫蒂亚戈的科罗拉多州高三学生说，最重要的是‘先自己试试题’，他坚持‘在充分尝试之前，绝不用AI’。调查显示，63%的学生表示会先独立尝试解题，再向AI求助。遇到困难时，学生们首选求助老师（58%），其次是同学（50%），然后是继续自己尝试（48%）或上网找教程（46%）。AI排在第五位，仅39%的学生会转向它。",
-      "超过六成（60%以上）的数学教师认为AI辅导有益，但他们也强调，若使用不当，AI可能削弱学习效果。教师认为AI最大优势在于能分步讲解解题过程；但近四分之三（74%）的教师最担忧的是AI会迅速变成‘拐杖’。科罗拉多州布鲁姆菲尔德高中的数学教师阿曼达·布朗说，她见过作业全对的学生，考试却不及格——因为考试不能用AI。专家托尔尼建议自问：‘谁在做大部分工作？’如果总是AI在输出，就很可能出了问题。",
-      "怎么用AI才对？首先，提问要具体，例如‘这道题有哪些不同的解法？’还可补充指令：‘别直接给我答案。’其次，必须核查AI答案。AI会‘幻觉’（hallucinate）——即编造错误信息，因为它并非真正理解，只是基于训练数据预测‘最可能的答案’。蒂亚戈说：‘至少四分之一的时间，我能发现它犯的错。’此外，和同学讨论、向老师请教仍是最佳支持方式。托尔尼强调：‘学习一直是社交任务——是我们与他人共同完成的事。’",
-      "AI还能辅助备考，例如生成练习题、制作抽认卡、或帮助补上因病缺课的内容。但要注意，AI可能返回冗长段落，反而更令人困惑；有学生发现，AI引用的YouTube教学视频，往往比AI自身解释更清晰。学数学如同学冰球：不会滑冰和刹车，就难掌握射门；不扎实掌握因式分解，代数就会吃力；代数不牢，微积分将成难关。托尔尼提醒：‘当学习变得太容易，很可能根本没发生学习。’教师调查共识是：‘学生必须自己得出正确答案。’用AI学概念，而非抄答案。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/ai-math-tutor-learning",
-      "originalTitle": "AI can be a helpful math tutor if used right — and harmful if not",
-      "publishedAt": "Wed, 19 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-19T21:47:15.560Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-19T21:47:13.629Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 37,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "AI Math Tutor: Helpful Only If You Use It Right",
-      "intro": "A new survey of top math students and teachers says AI can be a great tutor. But only if you use it carefully.",
-      "paragraphs": [
-        "Researchers asked 1,300 high school students from the United States, England and Wales. All were top math students who had taken part in an international math contest. More than 200 math teachers also took part. About half the students said AI could be a good tutor — if used in specific ways. More than six in every 10 teachers agreed that an AI tutor could be beneficial.",
-        "AI can explain things step by step. It can answer 'why' questions. It can show different ways to solve problems. Students should try a problem themselves first. Almost two thirds of students — 63 percent — said they would always try a math problem on their own before seeking help from AI. Most would first ask teachers — 58 percent. Then classmates — 50 percent. AI came in fifth place. That was after teachers, classmates, trying on their own, and internet tutorials.",
-        "Teachers worry that AI can become a crutch. Almost three in every four teachers said their biggest concern was that AI can quickly become a crutch. One teacher said students with perfect homework scores sometimes fail tests. That happens because they relied on AI instead of learning. AI sometimes makes errors. These are called hallucinations. Tiago C.P. said he catches a mistake at least a quarter of the time.",
-        "Experts suggest asking AI very specific questions. For example: 'What are different ways I could solve this?' Add to your prompt: 'Don’t give me the answer.' You must check whether AI is correct. Studying with classmates helps. Asking teachers remains your best option. Robbie Torney says: 'Learning has always been a social task — something that we do with other people.'",
-        "Math is like learning a sport. Skills build in order. If you don’t learn factoring, algebra gets harder. If you don’t learn algebra well, calculus will be a bear. So keep your eye on the long game. Choose an AI platform focused only on math. Examples include Wolfram|Alpha and Mathos. Avoid multi-use chatbots like ChatGPT or Gemini. Use AI to learn concepts. Do not use it to get answers. The teacher survey says: 'It’s critical for students to arrive at the correct answers themselves.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-19T21:57:51.645Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-20/2026-08-20-ai-can-be-a-helpful-math-tutor-if-used-right-and.webp",
-      "alt": "几何图形与电路板线条交织，铅笔尺子点缀",
-      "caption": "AI辅助数学，需善用",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-20-how-ukraine-s-strikes-on-russian-warehouses-beca",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "乌克兰无人机袭击俄罗斯仓库，为何让吉尔吉斯斯坦的服装店主慌了",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-20",
-    "intro": "一场发生在圣彼得堡以南诺沃萨拉托夫卡的无人机袭击，意外波及到千里之外中亚国家吉尔吉斯斯坦的数百家服装小店。",
-    "paragraphs": [
-      "2026年7月24日，乌克兰无人机袭击了俄罗斯电商巨头Wildberries位于圣彼得堡以南诺沃萨拉托夫卡的一处仓库。Wildberries在俄罗斯的地位相当于亚马逊，占全国线上零售市场约50%份额，拥有约9.8万个取货点，服务范围覆盖俄罗斯、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、亚美尼亚、格鲁吉亚、乌兹别克斯坦和塔吉克斯坦。",
-      "对吉尔吉斯斯坦的中小企业来说，Wildberries是一条重要的出口通道。当地蓬勃发展的服装产业，许多小企业和作坊通过该平台将产品直接销往俄罗斯消费者；货物先运至Wildberries在俄罗斯的仓库进行存储与履约。2026年3月，Wildberries与吉尔吉斯出口署达成协议，在其全部八个市场平台开设‘吉尔吉斯制造’专区。",
-      "但这种便利也带来了新风险：一旦货物进入俄罗斯的Wildberries仓库，就脱离吉尔吉斯卖家的实际控制。自7月18日起，乌克兰已至少袭击20处Wildberries设施，包括过去一周内的三处，截至8月7日已损毁或破坏超过118万平方米的仓储空间。吉尔吉斯媒体已报道多起库存损毁案例；有受访创业者称其货物量减少一半；一位亲友损失约4.2万美元库存；另一卖家商品种类从约100种锐减至仅4种。",
-      "袭击发生后，约800名吉尔吉斯电商卖家联合向政府提交申诉，请求支持赔偿主张。吉尔吉斯当局宣布提供优惠贷款及针对中小服装企业的‘税收假期’（自8月1日至年底），但实际赔偿仍基本停留在承诺阶段。Wildberries的卖家协议将无人机等军事行动造成的损害列为不可抗力，限制公司责任；有卖家指出，Wildberries更可能补偿与公司财务体系有直接关联的俄罗斯卖家，而吉尔吉斯商家即便在俄仓存有大量货物，损失风险仍主要由自身承担。",
-      "这件事促使吉尔吉斯创业者重新思考：战时将全部库存集中于外国物流网络是否仍属可行策略？有人建议增加本国库存、多元化履约服务商、扩建国内仓储；Wildberries自身也宣布测试设在乌克兰无人机射程之外的‘伙伴枢纽’。但分散化存在现实制约：吉尔吉斯斯坦与哈萨克斯坦之间的跨境摩擦常导致物流延误；新建仓库需大量时间与投资；且俄企扩大中亚物流基建还引发制裁规避担忧。",
-      "表面上看，这是电商与战争交织的故事；实际上，它揭示了一个关键现实：即便没有一枚导弹或无人机飞越吉尔吉斯斯坦国界，现代战争也能通过一条全球化的供应链，抵达比什凯克街头裁缝铺的货架——物理距离缩短了，系统性依赖却加深了；而这份依赖，在战火中突然暴露为极度脆弱。"
-    ],
-    "topics": [
-      "全球时事",
-      "经济与商业"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/how-ukraines-strikes-on-russian-warehouses-became-a-problem-in-kyrgyzstan-289425",
-      "originalTitle": "How Ukraine’s strikes on Russian warehouses became a problem in Kyrgyzstan",
-      "publishedAt": "2026-08-19T15:15:17Z",
-      "retrievedAt": "2026-08-19T21:50:16.458Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-19T21:50:14.586Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 35,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Ukraine's Strikes on Russian Warehouses Hit Kyrgyz Businesses",
-      "intro": "A distant drone attack in Russia is now hurting small clothing sellers in Kyrgyzstan.",
-      "paragraphs": [
-        "Wildberries is Russia's biggest online marketplace. It works much like Amazon. It accounts for about 50% of Russia's online retail market. More than a million sellers use it across Russia, Belarus, Kazakhstan, Kyrgyzstan, Armenia, Georgia, Uzbekistan and Tajikistan. Ukraine says Wildberries sells tactical clothing, body armour, medical kits and communications equipment. Recent investigations found first-person-view drones and drone components listed on the platform. Since July 18, Ukrainian drone strikes have hit at least 20 Wildberries facilities. As of August 7, more than 1.18 million square metres of warehouse capacity had been damaged or destroyed.",
-        "Kyrgyzstan is one of those countries. Many small and medium businesses there sell clothes through Wildberries. The platform has become an important export channel — especially for Kyrgyzstan's burgeoning clothing sector. In March 2026, Wildberries and Kyrgyz Export agreed to create a 'Made in Kyrgyzstan' section across all eight of its markets. A July survey cited by Kyrgyz business media found that 55% of Kyrgyz Wildberries entrepreneurs said the platform enabled them to enter foreign markets. They send their goods to large Wildberries warehouses in Russia. Once transferred, the goods are physically outside their control.",
-        "When a Russian warehouse is destroyed, Kyrgyz businesses lose that inventory. After the first strikes, Kyrgyz sellers reported destroyed inventories and the risk of bankruptcy. One entrepreneur estimated his business volume had fallen by half. A family acquaintance lost inventory worth about US$42,000. Another seller went from offering roughly 100 product types to just four. Around 800 Kyrgyz e-commerce retailers issued an appeal to the government to support their compensation claims.",
-        "Around 800 Kyrgyz e-commerce retailers issued an appeal to the government to support their compensation claims. Kyrgyz authorities announced preferential loan agreements and a 'tax holiday' for small and medium-scale garment producers from August 1 until the end of the year. Compensation, however, remains largely a promise. Wildberries' seller agreement treats damage caused by drones and other military activity as force majeure — an uncontrollable and unforeseeable event — which limits the company's liability. Kyrgyz entrepreneurs, even those holding substantial inventories in Russian warehouses, are more likely to bear the risk and loss themselves.",
-        "This is bigger than one company's warehouse problem. Kyrgyz businesses are now asking whether concentrating inventory inside a foreign logistics network remains a viable business strategy during wartime. Wildberries has announced testing alternative 'partner hubs' in countries outside Ukraine's drone range. For Kyrgyzstan, this could reinforce its position as a logistics hub. But decentralisation has limits: cross-border friction between Kyrgyzstan and Kazakhstan tends to disrupt flows and lengthen delivery times. Building new warehouses requires substantial time and investment. The attacks show that war can affect Central Asian businesses even without a single missile or drone crossing the Kyrgyz border."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-19T21:56:28.218Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-20-z57ypd",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "最早的七夕，没有“快乐”",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-20",
-    "intro": "七夕节最初并非浪漫节日，而是古代女子祈求巧艺的‘乞巧节’。",
-    "paragraphs": [
-      "原始链接提供的内容仅包含页面导航和图片，未包含可供改写的正文。",
-      "根据轻听编辑标准，必须取得完整原文并进行事实核验后才能生成听稿。",
-      "请提供完整原文或允许抓取后再执行改写。"
-    ],
-    "topics": [
-      "历史",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680698.shtml",
-      "originalTitle": "最早的七夕，没有“快乐”",
-      "publishedAt": "Wed, 19 Aug 2026 22:35:01 +0800",
-      "retrievedAt": "2026-08-19T21:51:27.001Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-19T21:51:04.417Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-20/2026-08-20-z57ypd.webp",
-      "alt": "细线穿过七孔针，背景银河星点",
-      "caption": "七夕乞巧，古意绵长",
-      "kind": "editorial"
     }
   }
 ]
