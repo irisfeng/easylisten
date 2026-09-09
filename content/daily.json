@@ -1,5 +1,229 @@
 [
   {
+    "slug": "2026-09-10-n22408",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "陶哲轩参与创办新期刊：不收论文，只收讲座视频",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-10",
+    "intro": "今年8月，由菲尔兹奖得主陶哲轩参与创办的新期刊《数学论述》（Mathematical Discourse）上线——它不收论文，只收45到65分钟的数学讲座视频。",
+    "paragraphs": [
+      "你可能不知道，数学家交流想法，常常不是靠写论文，而是站在黑板前讲一场报告。今年8月，一本全新的线上同行评审数学期刊《数学论述》正式诞生，它不收文字论文，只接收高质量的数学研究报告视频；该刊属于钻石开放获取，即作者和读者均无需付费；陶哲轩是科学委员会成员，主编之一是菲尔兹奖得主阿克谢·文卡特什（Akshay Venkatesh）。它的目标很特别：让‘把数学讲清楚’这件事，也像发表论文一样，获得学术共同体的正式认可。",
+      "为什么一场报告值得被发表？数学家恽之玮解释说，一篇论文追求严谨和完整，但一场好报告追求的是理解与启发。它要讲清一个问题为什么重要、结论为什么让人惊讶、推理的关键在哪里。瑞士苏黎世理工学院的王艺霖副教授打了个比方：报告就像一部电影，要有铺垫、推进、高潮和收束；它不是复述论文，而是为听众重新组织知识，帮他们跟上思路、发现联系。她强调：‘报告人不是核心，观众才是。’",
+      "这种面对面的交流，有时真能改变研究方向。2022年，王艺霖在哈佛大学听一场关于三维双曲流形体积问题的报告，当时她研究的是曲线在曲面上的能量——两个话题表面上相距很远。但因为报告人把陌生问题讲得足够清楚，她渐渐捕捉到两者的相似性，‘当时觉得，好像可以follow（听懂）’。这次‘听懂’，后来催生了新的合作和一系列后续结果。数学里很多突破，就发生在会场走廊、午餐桌旁、咖啡机边的一次提问或一段即兴推导中。",
+      "那么，怎么判断一场报告好不好？编辑们不会用统一模板打分。陶哲轩说，关键看它是否增加了职业数学家对该主题的理解与研究动机，是否提升了其使用相关文献的能力；不同编辑可能更看重不同因素；期刊初期没有固定标准，而是通过第一批发表的报告，在编辑讨论和审稿反馈中逐步形成共识性标准。王艺霖补充道：不同编辑看重的点可能不同——有人喜欢深挖一个小结果，有人看重整体脉络；这种差异不是缺陷，反而让评价更丰富、更贴近真实的研究生态。",
+      "这本新期刊的出现，也和人工智能有关。AI能快速给出答案，但它未必能讲清‘为什么’。王艺霖担心，如果人们只满足于AI给的正确结果，却不再追问推理过程，数学就会变成又一个‘黑箱’。而数学家几十年来一直在做的，正是不断把这些‘黑箱’打开，把抽象对象转化为人类能够共同理解和讨论的内容。这样的价值，并不会因为AI变得更强大而消失。",
+      "《数学论述》不打算取代印刷期刊在验证正确性上的角色，结果对不对由讲者负责，审稿人只看三件事：清晰度、新颖性和数学趣味。它只是为数学共同体增加一个维度：让认真准备报告、善于阐释思想的人，获得更明确的认可和反馈。对年轻研究者，恽之玮建议从问题的本源出发，坚持‘第一性原则’；王艺霖则提醒：真正的理解，有时恰恰要经过一段不理解的、甚至有些黑暗的时间——在不断追问、试错和重新组织中，人才会形成自己的判断和品味。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571162.shtm",
+      "originalTitle": "不收论文，一份陶哲轩参与的新期刊诞生了",
+      "publishedAt": "2026-09-09 20:54",
+      "retrievedAt": "2026-09-09T23:21:06.901Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:20:55.849Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A New Math Journal That Publishes Lectures, Not Papers",
+      "intro": "Imagine a math journal that publishes filmed lectures instead of written papers.",
+      "paragraphs": [
+        "A ScienceNet report introduces a new journal called Mathematical Discourse. Terence Tao wrote about it on his blog in late August. He is on its scientific committee. The journal is fully online and peer reviewed. It accepts video recordings of high-quality mathematical lecture reports. It follows a diamond open access model, so no one pays to read or publish. It does not accept written papers.",
+        "Two mathematicians who joined as editors talk about why. Yilin Wang says a good lecture is a kind of art. It needs setup, momentum, a climax, and a closing. Yun Zhiwei nearly refused when Akshay Venkatesh invited him. Venkatesh is a Fields Medal winner and one of the journal’s editors-in-chief. Yun would have refused an ordinary journal immediately. But he decided to join. He calls the project a mathematicians’ effort to help themselves, especially in the face of AI’s impact.",
+        "The journal supports something papers cannot fully capture. Many math ideas are born in front of a blackboard. Written papers may stay useful for a hundred years. But a live talk can spark interest more quickly. Its main results must already have a written form, according to the journal’s submission guidelines. Therefore, this journal does not replace printed journals. Speakers are responsible for correctness. Reviewers judge clarity, novelty, and mathematical interest.",
+        "A lecture can also connect very distant ideas. Wang remembers attending a small seminar at Harvard in 2022. A speaker discussed volumes of three-dimensional hyperbolic manifolds. Her research dealt with the energy of curves on surfaces. The topics seemed far apart. But the talk was clear enough that she saw a possible connection. That experience later led to new collaboration and fresh results.",
+        "Artificial intelligence is not why the journal began. But it makes the change more urgent. Tao says lectures capture the human side of math. He expects that side to become even more important. Wang worries about machines creating new black boxes. A machine may produce a correct answer. Yet if no person can follow the reasoning, knowledge remains locked. Mathematicians have always tried to open such boxes. Clear communication turns hidden truths into shared understanding.",
+        "Who decides what makes a talk good? Editors and reviewers will build that standard gradually. Different people may value different things. Wang says this flexibility gives evaluation room to breathe. She once asked artificial intelligence to help write a recommendation letter. The result looked smooth and warm, but it did not sound like her. She rewrote the letter by hand. Real understanding often needs a slow, uncomfortable path."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:34:52.565Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-10/2026-09-10-n22408.webp",
+      "alt": "半透明屏幕与几何线条，铅笔和纸",
+      "caption": "新期刊以视频承载数学论述",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-10-what-is-math-s-mysterious-langlands-program-real",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "朗兰兹纲领是什么？它能否揭示数学不同分支间的隐秘联系？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-10",
+    "intro": "数学的不同分支之间，是否藏着一条看不见的通道？朗兰兹纲领被称作‘数学的“ grand unified theory of mathematics ”’，正在寻找答案。",
+    "paragraphs": [
+      "在数学这片无边无际的宇宙里，不同的领域像相隔遥远的星系：这边研究数字和方程，那边研究形状和空间，还有研究变化与概率的。令人惊讶的是，有些领域之间竟藏着类似“虫洞”的隐秘连接。这种连接被称为朗兰兹对应，而几十年来数学家们努力扩展和利用这些对应的工作，就是朗兰兹程序。它暗示着，数学世界里各种看似无关的真理，可能来自同一个深层的统一结构。",
+      "这个程序的起点，可以追溯到1967年。数学家罗伯特·朗兰兹给同事写了一封信，把两个相隔很远的数学领域连在了一起：一边是研究数字的数论，另一边是研究信号和波的调和分析。朗兰兹猜想，这两边之间可能存在一系列对应关系，把一方的对象、对称和性质，映射到另一方完全不同的对象上。",
+      "要理解这种对应，可以先看一个具体例子。我们从有理数出发——也就是能写成分数的数，比如1、516、–5.3277等等。这些构成一个特殊的集合，叫有理数域Q。然后加入方程x²−2=0的解，即√2和−√2，得到新的数域Q(√2)。这个数域具有对称性：将其中所有√2替换为−√2（反之亦然），整个数域保持不变——就像镜像反射。这种对称操作的全体，称为该方程的伽罗瓦群。",
+      "再看一个稍微复杂一点的方程：x³−2=0。它有三个解，可想象为等边三角形的三个顶点。其伽罗瓦群S₃包含六种对称操作：两种三循环（对应绕中心旋转120°或240°），三种对换（对应翻转三角形、交换两个顶点），以及恒等操作。这个群是非阿贝尔群——操作顺序会影响结果。朗兰兹在1967年指出，每个这样的伽罗瓦表示都对应一个‘条形码式’的数据序列，该序列控制着另一个完全不同的数学对象的形式。",
+      "这个‘另一边’，就是调和分析中的模形式。模形式是一种具有高度对称性的数学函数，像声音和光波一样，可分解为简单振荡分量的叠加；它满足特定变换下的不变性（即‘自守性’）。朗兰兹程序最惊人的发现，正是将数论中抽象的伽罗瓦表示，与调和分析中规则优美的模形式建立起深刻联系。这条‘虫洞’般的对应，数学家已探索半个多世纪，但其最深层含义仍未被揭示——它似乎不仅关乎数学宇宙，还可能通向物理世界。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "originalTitle": "What Is Math’s Mysterious Langlands Program Really About?",
+      "publishedAt": "Wed, 09 Sep 2026 14:44:13 +0000",
+      "retrievedAt": "2026-09-09T23:22:24.828Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:22:20.804Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-10-7kzc8r",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "龙舟在新疆下水、上冰、跑旱地",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-10",
+    "intro": "起源于江河的传统龙舟，正在新疆的沙漠边、冰湖上和陆地上热热闹闹地“活”起来。",
+    "paragraphs": [
+      "谁说赛龙舟只在水乡风靡？今年，龙舟（凤舟）首次成为新疆维吾尔自治区第十五届运动会暨第十一届民族传统体育运动会比赛项目，在喀什市火热进行。全疆有5支男子组、4支女子组、3支混合组参赛。和田地区于田县龙舟队队员阿地力江江·阿不都艾尼说：‘我们是奔着冠军来的，没想到头一天的比赛只拿了第四名。新疆龙舟的强队还真不少。’",
+      "于田县地处塔克拉玛干沙漠边缘，从2022年起，每年端午节都会如约上演龙舟竞渡。最开始，龙舟都是‘手搓’的——大家动手造船，长短都不相同，有的速度快，有的转弯难，甚至还会‘闹脾气’，划着划着就翻了。可群众对赛龙舟的热爱却格外高涨，小小的水塘边早早被围得都是人。阿地力江的队友中有装修工、农民、出租车司机，从前都是零基础，甚至不会游泳，但都热爱上了这项运动。",
+      "去年，他们受邀前往湖南参加中国汨罗江第二届龙舟超级联赛。第一次走出新疆的他们到赛场后才发现，别人用的是轻便的碳纤维船桨，而他们的是木桨；赛前，其他队伍主动借给了他们专业船桨。",
+      "新疆丰富的地貌也让龙舟拥有了更多舞台：在巴楚县红海景区胡杨林间的小河上，桨声与秋色相遇；在赛里木湖，龙舟则‘转行’了——从水上‘搬’到了冰面，船桨换成了冰钎，龙身‘踩’着冰刀；2025年3月15日，首届赛里木湖全国冰上龙舟邀请赛在赛里木湖举行，全国20支队伍体验了不一样的‘划龙舟’。冲过终点后，选手还要给‘巨龙’踩刹车。即使没有河湖，龙舟也能‘出发’——人们靠双脚前进、靠默契加速，它不只是竞技项目，更在欢笑和呐喊中让大家享受节庆之乐。",
+      "龙舟换的是赛道，没变的是‘同舟共济’。各族人民在运动中感受中华传统文化魅力，也在并肩前行中收获友谊。正如阿地力江所说：‘一个人划再快也走不远，只有大家同心，才能划得更快、更远。’"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260909/475c40db291e4e5ba4f7aa81579d5855/c.html",
+      "originalTitle": "追光丨下水、上冰、跑旱地，龙舟在新疆“卷”起来了",
+      "publishedAt": "2026-09-09T15:31:17+08:00",
+      "retrievedAt": "2026-09-09T23:24:28.715Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:24:25.877Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Dragon Boats Take Off in Xinjiang",
+      "intro": "Dragon boat racing is booming across Xinjiang — on water, on ice, and even on dry land.",
+      "paragraphs": [
+        "Dragon boats are no longer just for rivers and lakes. In Xinjiang, far from China’s traditional water towns, people are racing them everywhere. This year, dragon (feng) boat racing became an official sport at the Xinjiang Uygur Autonomous Region’s 15th Games and the 11th Ethnic Traditional Sports Games in Kashgar.",
+        "Teams from all over Xinjiang competed — five men’s teams, four women’s teams, and three mixed teams. One team from Yutian County came hoping to win gold. But on day one, they finished fourth. 'We came for the championship, but didn’t expect to finish fourth on the first day. There are really many strong dragon boat teams in Xinjiang,' said Adilijiang Abduaini of the Yutian County team.",
+        "Yutian sits near the edge of the Taklamakan Desert. Since 2022, it has held dragon boat races every Dragon Boat Festival. At first, locals built the boats themselves — by hand. Some were fast. Others turned poorly. A few tipped over mid-race!",
+        "The racers aren’t pros. They’re farmers, taxi drivers, and construction workers. Most couldn’t swim when they started. Last year, the Yutian team traveled to Hunan for the second Miluo River Dragon Boat Super League. They brought wooden paddles — while other teams used lightweight carbon fiber ones. Before the race, other teams lent them professional paddles.",
+        "Xinjiang’s diverse landscapes make dragon boating extra creative. In autumn, teams race among poplar trees beside small desert rivers. On frozen Lake Sayram, dragon boats glide on ice — with ice picks instead of paddles, and blades instead of hulls. The first national ice dragon boat invitational on Lake Sayram was held on March 15, 2025. Even without water or ice, people race on foot — using teamwork, rhythm, and loud cheers to keep going.",
+        "The boats change. The spirit stays the same. 'One person can’t go far,' says racer Adilijiang. 'But together, we move faster — and farther.' People of all ethnic groups paddle side by side. They’re learning tradition, building friendship, and having fun — one stroke at a time."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:36:29.150Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-10/2026-09-10-7kzc8r.webp",
+      "alt": "沙漠、冰面、陆地上的龙舟线条",
+      "caption": "龙舟适应不同环境",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-10-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新加坡两位作者用AI画绘本：主动说清工具，故事和情感是人的",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-10",
+    "intro": "当AI开始画儿童绘本，新加坡两位作者选择把工具说清楚、把人放前面。",
+    "paragraphs": [
+      "在新加坡，有两本新出版的儿童绘本，插图全部由人工智能生成——但它们不是悄悄用的，而是明明白白写在书里：‘全书插图以草图为基础，运用人工智能作为辅助创作工具，经多次修改与调整完成’（《阿公》）和‘插画原稿：李太里、朱一宁’‘AI插画制作：李晓林’（《狮城水獭历险记》）。一本叫《阿公》，讲一位安静慈祥的祖父和孙女的日常；另一本叫《狮城水獭历险记》，主角是新加坡真实生活中的野生水獭。两本书的作者都不是专业插画师，却都花了大量时间打磨文字、设计细节、反复调整AI生成的画面，只为让故事更真、更暖、更像孩子身边的世界。",
+      "《阿公》的作者陈君宝，四年来一直想把女儿写的短文变成绘本，试过找新加坡、马来西亚、中国台湾等地区的四位画家合作，均未完成。今年五月，他决定试试AI：先以成型的草图和真实照片为基础，再与AI沟通、反复修改，两个月就完成了全部插图。他起初犹豫是否公开使用AI，直到朋友提醒：‘我记得你花四年反复讨论的细节：阿公炸虾球、买叉烧包、切水果；祖孙互动；医院病床比例、轮椅角度、灯光颜色、文字节奏，甚至一个轮子的透视。这些都不是AI产生的。AI没有阿公，不知道你的家庭，也不懂新加坡祖孙间那种安静却深厚的感情。真正决定《阿公》模样的，是你。’",
+      "另一本书《狮城水獭历险记》的作者李晓林，是新加坡华文教育工作者。她用AI画插图，是因为经费有限，但没因此降低对故事的要求。她请《联合早报》美术员为她起草水獭简笔画草图，在此基础上学习用AI工具制作插画，在上百张AI生成图片中选定效果最佳者，一边学一边完成整本书插图。书的版权页清楚标注：‘插画原稿：李太里、朱一宁’‘AI插画制作：李晓林’。她坦言：‘AI插画有优点，但是，我这些插画只在及格线上下，如果要有高品质的插画，还是插画师比较好。’并承认：‘如果没有AI，这本书也不会这么快面世。’",
+      "这两本书没有回避技术，也没有神化技术。它们不标榜‘AI创作’，而强调‘人在主导’：人定主题、人写故事、人选细节、人做取舍。陈君宝明确表示：‘我的答案仍是：陈君宝创作的绘本；AI是协助插画的工具，不是真正的创作者。我相信读者翻到最后一页，记住的不是“这是AI画的”，而是那个默默付出、沉默却深情的阿公。那份情感，才是这本书真正的价值。’",
+      "更特别的是，它们都在正式出版物中实践了‘主动披露’：《阿公》于2026年8月由新加坡行知文教中心和橙子华文教育联合出版；《狮城水獭历险记》于2025年12月由新加坡新阅出版社出版，并在2026年1月的发布会上由作者主动披露AI插图使用情况。这种诚实，让AI没有变成模糊的背景，反而成了孩子可以理解的一部分——就像我们不会因为铅笔是工厂造的，就说字不是你写的。"
+    ],
+    "topics": [
+      "文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "FT 中文网",
+      "region": "international",
+      "url": "https://www.ftchinese.com/story/001110835",
+      "originalTitle": "“人机协同+主动披露”：新加坡出版界如何应对AI焦虑？",
+      "publishedAt": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "retrievedAt": "2026-09-09T23:26:43.984Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-09T23:26:37.832Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-09-agi",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "AGI还没定论，大学教育已经需要变了",
@@ -3144,223 +3368,6 @@
       "alt": "Glowing sphere on thin structure",
       "caption": "量子比特的精密构建",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-23-p6sn24",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "学者蒙曼：湖南沅陵是扣住大西南的“文化纽扣”",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-23",
-    "intro": "湖南有个地方叫沅陵，在学者蒙曼口中，它是一颗‘扣住大西南的文化纽扣’。",
-    "paragraphs": [
-      "你注意过衣服上的纽扣吗？它小小的，却很重要。如果没有它，衣服的两片前襟就合不到一起，风会灌进来，衣服也没法穿。可以说，纽扣是让一件衣服成立的关键。学者蒙曼在谈到湖南沅陵时，就用了一个纽扣的比喻。",
-      "这个说法听起来很新鲜。我们先来拆解一下。大西南，指的是中国西南方向的一大片区域。而沅陵，是湖南的一个县。在蒙曼看来，它刚好处在湖南和大西南之间，就像一件衣服上，两片衣襟交汇的位置。",
-      "不过，蒙曼说的是‘文化纽扣’，不是普通纽扣。这意味着，沅陵扣住的不是布，而是文化。文化听起来很抽象，但其实就是人们怎么说话、怎么吃饭、怎么过节、怎么待人接物。在沅陵这个地方，湖南的文化和西南的文化碰面了。"
-    ],
-    "topics": [
-      "历史",
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682461.shtml",
-      "originalTitle": "学者蒙曼：湖南沅陵是扣住大西南的“文化纽扣”",
-      "publishedAt": "Sat, 22 Aug 2026 20:50:31 +0800",
-      "retrievedAt": "2026-08-22T21:51:42.523Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-22T21:51:40.997Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-08-22-humans-have-used-fire-far-longer-than-anyone-rea",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "南非奇迹洞烧焦骨头，将人类用火史推至约180万年前",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-22",
-    "intro": "科学家在南非北开普省的奇迹洞中发现烧焦的动物骨头，这是目前已知最早的人类用火痕迹，可追溯至约180万年前，由直立人使用。",
-    "paragraphs": [
-      "人类用火的历史，可能比我们想象的还要久远得多。南非北开普省有一个叫‘奇迹洞’的洞穴，科学家在里面发现了烧焦的动物骨头碎片。这些痕迹属于直立人，时间约为180万年前。这比此前已知最早的用火证据早了约80万年——而那项纪录同样来自奇迹洞，年代约为100万年前。",
-      "这项研究发表在6月1日的《公共科学图书馆·综合》期刊上。主持发掘的考古学家迈克尔·查赞来自加拿大多伦多大学。他说，新证据来自洞穴更深层的沉积物，这些火迹年龄在107万至179万年之间，但他‘非常确信’其年代介于170万至180万年前。研究者不认为直立人能自主生火；人类用黄铁矿打火的最早证据仅约40万年。因此，当时洞内之火很可能是从野外 wildfires 中取来的。查赞明确表示：‘这不是人类点火，而是收集地表上的火。’",
-      "这些火很可能不是用于烹饪，而是提供照明与取暖。研究人员首次将法医领域使用的蓝光技术应用于考古——被烧过的骨头在蓝光下比未烧过的更亮，这种技术称为‘发光检测法’。所检出的烧骨来自猫头鹰食团（即猫头鹰进食后吐出的毛与骨团），特别是仓鸮。查赞指出，仓鸮当时很可能也栖居于该洞穴，而直立人则在散落食团的地面上持续生火，从而留下烧骨。",
-      "不过，直立人似乎并未全年稳定用火。查赞说：‘这里有清晰的用火信号，但它并非全年可得。’野火很可能只发生在炎热季节，频率不足以促使直立人因用火而发生持久的生活方式改变。",
-      "从带回野火到掌握生火技术，人类走了漫长道路。这些烧骨将人类与火的故事向前推进了一大步，也引出一个新问题：最早把野火带进洞穴的人，是怎么想到这一招的？"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/oldest-human-fire-use",
-      "originalTitle": "Humans have used fire far longer than anyone realized",
-      "publishedAt": "Fri, 21 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-21T21:46:46.757Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T21:46:44.376Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 18,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Earliest Human Fire Use Found in South Africa",
-      "intro": "Burnt animal bones in a South African cave suggest early humans used fire about 1.8 million years ago.",
-      "paragraphs": [
-        "A cave called Wonderwerk Cave is in the Northern Cape province of South Africa. Burnt remnants of animal bones were found in deep layers of cave sediment. These traces hint that groups of Homo erectus used fires there as long as 1.8 million years ago. The oldest previously known traces of early human fire use also came from there and dated to about 1 million years ago.",
-        "Researchers do not think Homo erectus lit the fires. The earliest evidence of people using iron pyrite to make sparks dates to about 400,000 years ago. So people in Wonderwerk Cave probably carried in flames from wildfires. Michael Chazan says: 'This is not human ignition of fire. It’s collecting a fire on the landscape.' These were likely not cooking fires, but ones used to give light and warmth.",
-        "Chazan’s team detected burnt bones at the fire sites with a blue-light technique called luminescence. Forensics experts use this method to solve crimes. Until now, no one had used it in archaeology. The bones came from owl pellets. When examined under blue light, the burned bones glowed more brightly than unburned ones. Barn owls also likely sheltered in the cave while these ancient humans lived there. People kept fires going on the pellet-strewn floor.",
-        "Ancient people did not always have fires in Wonderwerk Cave. 'There’s a clear signal [of fire],' Chazan says. 'But it’s not of year-round access to fire.' Wildfires likely happened only in hot seasons. That may not have been often enough for Homo erectus to make any lasting lifestyle changes based on access to flames."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T22:01:18.798Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-22/2026-08-22-humans-have-used-fire-far-longer-than-anyone-rea.webp",
-      "alt": "烧焦的骨头散落在石面上，背景有微弱的余烬",
-      "caption": "奇迹洞中的烧焦骨头，人类用火的最早证据",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-22-lsj0il",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "山西昔阳发现迄今最高等级夏代墓葬",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-22",
-    "intro": "考古学家在山西昔阳发现了一座夏代墓葬，这是迄今发现等级最高的一座。",
-    "paragraphs": [
-      "考古学家在山西昔阳发现了一座夏代墓葬，这是迄今发现等级最高的一座。",
-      "夏代被认为是中国历史上的第一个王朝，距今约四千年。由于尚未发现确凿的夏代文字系统，对夏代的认识主要依赖考古发现。此前，河南、山西等地已发现多处夏代遗址，但如此高等级的墓葬尚属首次。",
-      "考古学中判断墓葬等级，主要依据墓葬规模、结构复杂度及随葬品的种类与数量。身份越高的墓主，墓葬通常越宏大、结构越考究、随葬品越丰富。该墓主人身份可能为夏代贵族甚至王族成员。",
-      "该墓地位于山西东部昔阳县，而以往确认的夏代核心遗存多分布于豫西、晋南一带。这一新发现可能提示夏代文化影响或人群活动范围较既有认知更广。",
-      "这座墓葬如同一封来自四千年前的‘时间信件’，承载着当时的社会结构、礼仪制度与精神信仰。目前考古工作仍在进行中，更多细节有待公布。"
-    ],
-    "topics": [
-      "历史",
-      "考古"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10682111.shtml",
-      "originalTitle": "山西昔阳发现迄今最高等级夏代墓葬",
-      "publishedAt": "Fri, 21 Aug 2026 22:01:47 +0800",
-      "retrievedAt": "2026-08-21T21:48:04.410Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T21:48:02.362Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Highest-level Xia Dynasty tomb found in Shanxi",
-      "intro": "A recent report says a very special ancient tomb has been discovered in Xiyang, Shanxi.",
-      "paragraphs": [
-        "A highest-level Xia Dynasty tomb has been discovered in Xiyang County, Shanxi Province.",
-        "This is the highest-ranking Xia Dynasty tomb found to date.",
-        "The discovery was reported by China News Service."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T22:01:48.931Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-22-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "当学术期刊集体给AI“立规矩”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-22",
-    "intro": "当越来越多的学术期刊开始规范人工智能的使用，科学家们正在重新定义：谁该为一篇论文负责？",
-    "paragraphs": [
-      "你可能听说过，最近有一个新名词叫‘学术期刊’。简单说，就是科学家们展示研究成果、互相交流的杂志。而最近，许多这样的杂志不约而同地做了一件事：给人工智能‘立规矩’。",
-      "过去两年，AI工具几乎成了研究者们的‘小帮手’。有人让它帮忙整理参考文献，有人让它润色英文句子，还有人让它快速分析一堆数据。这些工具确实让科研省力不少，但麻烦也跟着来了。比如，一篇文章里的思路和文字，到底算作者的，还是算AI的？如果AI替作者完成了关键部分，读者知道吗？",
-      "正因为有这样的疑问，许多学术期刊决定把规则写清楚。这些规矩的核心方向是一致的：作者要如实交代是否使用AI、用在了哪里；AI生成的内容不能直接搬进论文，必须经过作者本人的消化和确认；AI不能出现在作者名单里，因为工具无法对科学结论负责。",
-      "你可能会想，为什么AI不能署名？因为科学有一个很重要的传统：谁对成果负责，谁才配拥有荣誉。如果一篇论文出了错，人们要找到的是那个负责的人，而不是一个软件。机器没有想法，也不需要承担责任，可它却能替你做出看似正确的答案。所以，立规矩不是为了排斥AI，而是为了让人和AI各就各位。",
-      "其实，我们每个人每天都和各种‘AI’打交道。写字时会用到输入法推荐，写作文时会用搜索引擎找资料，有时候还会请聊天机器人解释题目。那么，你想过没有，这些帮助算不算自己的成果？如果作业上写着你的名字，内容却是AI生成的，这是不是也算一种‘代写’？学术期刊的规则，就像一面镜子，提醒我们：技术可以帮助思考，但不能代替思考。",
-      "说到底，AI越来越聪明，它可能写出通顺的句子，甚至很像样的论文。但那些句子和论文，最后要由你来检查、修改、负责。未来的世界，人和AI合作的机会会更多。学会诚实地承认哪些是AI帮的忙，守住那颗愿意自己动脑的心，这也许就是学术期刊们立下规矩时，最希望我们看到的东西。"
-    ],
-    "topics": [
-      "学术期刊",
-      "AI使用规范",
-      "学术伦理"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-21/10681471.shtml",
-      "originalTitle": "当学术期刊集体给AI“立规矩”",
-      "publishedAt": "Fri, 21 Aug 2026 10:03:10 +0800",
-      "retrievedAt": "2026-08-21T21:52:09.391Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-21T21:52:07.190Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
     }
   }
 ]
