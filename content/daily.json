@@ -1,5 +1,259 @@
 [
   {
+    "slug": "2026-09-11-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "手机里住进一个‘好闺女’：中国老年人的AI日常",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-11",
+    "intro": "55岁的刘玫深夜失眠，打开手机里的豆包——一个被家人称为‘好闺女’的AI助手，问起蛀牙要不要换、过期咖啡胶囊能不能喝。",
+    "paragraphs": [
+      "在上海的舞厅，一位老妇人低头看着手机。摄：Hector Retamal/AFP via Getty Images。豆包是字节跳动推出的AI助手，形象为一名短发女孩。女婿曾告诉刘玫：‘你就把她（豆包）当作是一个好闺女，它的信息很强，懂得比我们还多。’",
+      "55岁的刘玫从小蛀牙多，大牙陆续烂掉，咀嚼越来越慢。要不要做种植牙？年纪大了还能不能恢复？这些念头反复缠绕着她。女儿和女婿帮她在手机里安装了豆包，并教她‘按住说话’。那天晚上，她打开豆包，语速迟疑、句子重复：‘豆包，我问一下，就是我的，从小就好多虫牙（蛀牙），所以我的大牙都被虫，那个烂掉了。我吃我吃我咀嚼，那个就，吃东西慢，吃飯慢⋯⋯我現在可以勉強用。是是想等年紀大了，不好用了再鑲牙齒，可以。還還是怎樣？’屏幕上，语音转成的文字保留了她的重复和犹豫。",
+      "豆包回应：‘阿姨我明白你啦，你是心疼东西，捨不得扔。但我一定要跟你說實話：已經過期的咖啡膠囊，真的不建議喝了。’",
+      "很多老人直接喊它‘豆包’，甚至说‘我家豆包今天告诉我……’。他们不关心模型参数或训练数据，只在意：它听不听得清、答不答得准、会不会不耐烦。",
+      "2025年12月11日，上海的舞厅，一位老妇人低头看着手机。摄：Hector Retamal/AFP via Getty Images。"
+    ],
+    "topics": [
+      "数字生活",
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20260911-mainland-chinese-elderly-ai-daily-life-with-doubao/",
+      "originalTitle": "手機裡住進一個「好閨女」：中國老年人的 AI 日常",
+      "publishedAt": "Thu, 10 Sep 2026 23:00:24 GMT",
+      "retrievedAt": "2026-09-11T00:18:34.024Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:18:31.078Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A 'Good Daughter' in the Phone: Older Adults and AI in China",
+      "intro": "An article from Initium Media explores how older adults in China interact with AI assistants on their phones.",
+      "paragraphs": [
+        "It is late at night, and Liu Mei cannot sleep. She is 55 years old, and one question has been bothering her for a long time: whether to have tooth replacement surgery.",
+        "Her daughter and son-in-law installed Doubao on her phone. Doubao is an AI assistant developed by ByteDance. Unlike other mainstream AI products with abstract or non-personalized logos, Doubao is designed as a short-haired girl. Her son-in-law told her to treat it as a 'good daughter' — saying it has strong information capacity and even knows more than they do.",
+        "She opened Doubao and tapped 'Hold to Speak'. Then she poured out her worries all at once: 'Doubao, I ask you — since childhood, I’ve had many cavities, so my molars were all ruined. Chewing is slow... eating is slow... I can still manage now, but should I wait until I’m older before getting dentures? Or what?' On screen, the speech-to-text kept her repetitions and hesitations.",
+        "The article opens with another example of Doubao’s gentle tone: 'Auntie, I understand you — you cherish things and hate throwing them away. But I must tell you honestly: expired coffee capsules really shouldn’t be drunk.'",
+        "The story does not say whether Liu Mei had the surgery. It shows only a quiet moment: an older woman speaking into her phone at night — and the phone answering back in a warm, patient voice, almost like family."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:28:58.686Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-11-tkrbri",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "国际青年走进天津杨柳青 沉浸式探寻千年运河文脉",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-11",
+    "intro": "一群来自不同国家的年轻人走进天津杨柳青，用沉浸式的方式去认识一条流淌了上千年的大运河留下了什么。",
+    "paragraphs": [
+      "最近，一群来自不同国家的年轻人走进天津杨柳青，用沉浸式的方式，探寻一条流淌了上千年的大运河在这里留下的文化脉络。",
+      "先说“沉浸式”。听一场讲座、看一排展板，人和内容之间总隔着一段距离；沉浸式是把自己放进现场，走进老街，走到河边，动手做，开口问。",
+      "再说“杨柳青”和“运河文脉”。杨柳青在天津西边，是历史上靠着运河发展起来的古镇，以木版年画闻名；大运河从这里经过，南来北往的船只运来了货物，也带来了手艺、曲调和各地的人。",
+      "这样一次活动，为什么值得听一听？因为它给出了一个很具体的样子：文化不全是博物馆玻璃柜里的老物件，它也是一条河、一座镇、一门手艺，和今天还在那里生活的人。",
+      "一条河可以改道，也可以淤塞，但它留给两岸的生活方式，往往还会流传很久。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-10/10694143.shtml",
+      "originalTitle": "国际青年走进天津杨柳青 沉浸式探寻千年运河文脉",
+      "publishedAt": "Thu, 10 Sep 2026 18:33:18 +0800",
+      "retrievedAt": "2026-09-11T00:21:08.581Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:21:06.793Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-11-5q9oou",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "课间操跳反弹琵琶 敦煌文化“长”进校园",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-11",
+    "intro": "这篇候选只抓到标题与网站导航，正文缺失，按轻听的发布硬门槛暂不改写。",
+    "paragraphs": [
+      "这次从链接抓取到的内容，基本是中新网的页面框架：顶部导航、搜索框、各频道栏目链接和分享按钮，真正的报道正文没有出现在抓取结果里。我们能确认的只有标题本身——课间操跳“反弹琵琶”，敦煌文化“长”进校园。",
+      "仅凭这个标题，只能知道一件事：有学校把敦煌壁画里的“反弹琵琶”姿态编进了课间操，让敦煌文化进入校园日常。",
+      "轻听要求每篇听稿的事实、数字、因果和引语都能回到原文核验，也要求播放页能直达原文。抓不到全文、只剩一句标题时，硬写出来的一定是想象而不是报道，所以这一篇先放弃，不做改写。"
+    ],
+    "topics": [
+      "教育与文化",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-10/10693850.shtml",
+      "originalTitle": "课间操跳反弹琵琶 敦煌文化“长”进校园",
+      "publishedAt": "Thu, 10 Sep 2026 11:54:49 +0800",
+      "retrievedAt": "2026-09-11T00:21:35.142Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:21:33.937Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-11-1kw6r3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "继马拉松之后，匹克球正在中国快速流行",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-11",
+    "intro": "一项三年前还鲜为人知的小众运动，如今在中国的大小城市里迅速铺开。",
+    "paragraphs": [
+      "有一种运动，被戏称为“在羽毛球场用乒乓球拍打网球”。三年前，它还鲜为人知；今天，它已经出现在中国许多城市的球场上。这就是匹克球。中国匹克球巡回赛（CPC）2024年刚创立时只有几十站，到2026年，这个数字已飙升至1000站。负责赛事整体运营的非凡领越体育事业部总经理宋鸿飞，此前见证过国内马拉松赛事从年均20多场猛增至千余场。在他看来，匹克球有可能成为下一个马拉松式的大众热门运动。",
+      "匹克球为什么能迅速被接受？答案不复杂：门槛低，社交性强。它比网球好上手，比羽毛球强度低，比乒乓球活动空间大。河南鹤壁第四中学60岁的语文老师牛建军，两年前开始接触这项运动。他的总结是：人群友好，老少都易学且不易受伤；场地友好，塑胶地、水泥地都行；户外友好，球重不太怕有风。学校里流传着一句话——“一分钟上手、五分钟上头、十分钟上瘾”。",
+      "除了谁都能玩，还有谁都玩得起。过去两年，羽毛球和球拍价格上涨了30%—60%，而匹克球损耗低、球拍更耐用、价格更亲民，李宁、红双喜等本土品牌均聚焦百元级大众市场。去年“618”促销期间，天猫平台匹克球装备销售暴涨超1100%。社交平台上，2025年“匹克球”在小红书的搜索量同比增长519%；仅去年春夏两季，抖音相关话题播放量突破3.7亿次；美团数据显示，“匹克球场地”搜索量同比增长922%。樊振东、郭晶晶等众多文体界名人跨界为匹克球站台。",
+      "地方上的热情同样明显。河南鹤壁自2023年起将匹克球作为城市转型突破口，连续三年承办全国锦标赛，现有1600多片匹克球场，各类活动累计吸引百万群众参与，被世界匹克球联盟授予“中国匹克球之城”称号。在场馆端，上海市民体育公园将部分篮球场改为匹克球场；“广州地铁匹克球中心”则把十几块场地铺到琶洲地铁站里，通勤、运动、社交“一站式满足”。业内普遍将2025年视为“中国匹克球元年”：这一年，匹克球成为全国全民健身大赛规定项目；今年，又有10个省（区、市）将匹克球纳入省级运动会。",
+      "不过，匹克球和马拉松融入城市的方式很不相同。北京体育大学教授白宇飞认为，马拉松的经济模式是“集中爆发”——数万人涌入一座城，住宿、餐饮、旅游、交通等消费在2—3天内集中释放。据《2025中国马拉松赛事蓝皮书》对全国284场A类马拉松赛事的分析，其场均直接经济影响约为6500万元。匹克球则是“细水长流”型。鹤壁仅举办第二届全国锦标赛就带动直接消费约1500万元，虽和马拉松相差较远，但优势是还可通过联赛等形式贯穿全年。一座城市一年通常只办一次马拉松，而匹克球可用各级联赛、巡回赛实现高频引流和日常消费，这也意味着场地运营、商业赞助、项目培训、装备复购等产业链条更持续。",
+      "从全球来看，匹克球的规模已经不小。国内现有800万人常态化参与匹克球运动，而全球活跃玩家已超4800万，其中美国市场占比最高。NBA名将勒布朗·詹姆斯、杜兰特和美式橄榄球传奇汤姆·布雷迪等均已投资布局匹克球；而该项目两大职业赛事合并成立母公司美国匹克球集团后，今年再度融资，估值已高达7.5亿美元。匹克球国际组织正在积极推动入奥进程。"
+    ],
+    "topics": [
+      "匹克球",
+      "运动潮流",
+      "体育产业与社会观察"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260910/85b7eca2dd9c4ba6a4b9a010ac16f36c/c.html",
+      "originalTitle": "大看台丨跑马热之后，下一个爆款运动来了？",
+      "publishedAt": "2026-09-10T17:19:22+08:00",
+      "retrievedAt": "2026-09-11T00:23:14.434Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:22:56.155Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-11/2026-09-11-1kw6r3.webp",
+      "alt": "冷灰色调下，一只球拍与带孔塑料球静置台面。",
+      "caption": "匹克球，正悄然进入城市日常。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-11-a-natural-solution-to-the-replication-crisis-in-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "实验结果难复现，蚂蚁觅食或提供自然解法",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-11",
+    "intro": "当实验结果反复无法重现，科学界正面临一场‘信任危机’——而答案，可能藏在一群每天找食物的蚂蚁身上。",
+    "paragraphs": [
+      "上世纪50年代，英国昆虫学家约翰·萨德在尼日利亚伊巴丹大学学院工作时，发现自家住宅里爬满了法老蚁。它们每天早上七到九点出发，在屋内外持续觅食。为了追踪它们的路径，萨德在地板上铺纸，用铅笔一路标记。他发现：蚂蚁倾向于每天重走同一条路，但这些路径会随时间缓慢变化，几周或几个月后逐渐偏移。",
+      "萨德在1960年发表研究指出，蚂蚁通过分泌信息素标记路径；信息素具有挥发性——当食物丰富、蚂蚁频繁往返时，路径被强化；当食物消失、不再有蚂蚁通行时，信息素自然衰减并消散。这形成一种动态更新机制：未被持续验证的路径会淡去，被反复证实的路径才得以保留。",
+      "人类科学家也依赖归纳推理——从过往经验推测未来趋势，这一逻辑自罗杰·培根时代起就是科学方法的核心。但科学论文（无论纸质或数字）不会自动失效；即使结论已被证伪，它仍保留在数据库中，继续被引用。而蚂蚁的信息素不同：不被重复使用就会挥发消散。这种‘随验证而存续’的信任机制提示我们：一个科学结论的可信度，不应只取决于首次发表的强度，而应取决于它最近一次被实证检验的时间。",
+      "不同领域中‘事实’的稳定性差异显著。例如营养学，其建议常在十年内多次更迭（受社会变迁与代谢研究进展影响）；而天文学的发现则往往跨越数代人仍保持稳定。若学术期刊能像蚂蚁巢穴一样，将‘上次验证时间’作为元数据标注在每项成果上，甚至让长期未经复现的研究在检索结果中逐步降低权重，知识更新就能更贴近真实世界的动态性。",
+      "有趣的是，蚂蚁觅食既依赖信息素路径（循迹），也依赖个体随机探索（无向游走）。后者虽低效，却是新食物源发现的关键。科学家同样可开展不预设假设的探索性实验——这类活动并非违背科学方法，而是为假说生成提供原始素材。人类并非唯一具备科学思维的物种：鸽子在蒙提霍尔问题中迅速学会最优策略，而人类却长期固守错误选择；黑猩猩在透明谜题箱实验中直接省略无用步骤，人类儿童却机械模仿全部动作。",
+      "我们当然不会真在实验室养一窝蚂蚁来审稿。但可以仿效其认知策略：赋予知识以‘保质期’，使验证过程可见可溯，让合理怀疑成为制度性权利。科学不是一套永恒正确的答案，而是一群人，以可修正、可更新的方式，共同逼近真相。"
+    ],
+    "topics": [
+      "物质与数学",
+      "科学方法"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/a-natural-solution-to-the-replication-crisis-in-science-1284942/",
+      "originalTitle": "A Natural Solution to the Replication Crisis in Science",
+      "publishedAt": "Thu, 10 Sep 2026 21:30:00 +0000",
+      "retrievedAt": "2026-09-11T00:26:22.255Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T00:26:13.240Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 35,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-11/2026-09-11-a-natural-solution-to-the-replication-crisis-in-.webp",
+      "alt": "冷灰纸面上，蚂蚁沿细线走向重复的几何圆点。",
+      "caption": "重复的路径，或许藏在自然里。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-09-10-n22408",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "陶哲轩参与创办新期刊：不收论文，只收讲座视频",
@@ -3051,323 +3305,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-08-24-huge-breakthrough-in-the-math-of-imbalance",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "计算机科学家找到更公平分组的方法",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-24",
-    "intro": "30年来首次，计算机科学家用新算法证明：无论人有多少特长、题目有多复杂，总能找到一种分组方式，让两队在各项能力上几乎一样强。",
-    "paragraphs": [
-      "想象一下，你要把12个热爱知识的小朋友分成两支 trivia（知识竞答）队伍。有人懂希腊神话，有人熟 college 篮球，还有人是自然观察高手，但完全不看电视——每个人的优势都不同。怎么分，才能让两队在地理、电影、历史等所有领域都旗鼓相当？这不只是游戏问题，它背后是一道困扰数学家四十多年的难题。",
-      "数学家把每个人看作一支‘小箭头’，箭头的长度是1，方向则由他擅长的几项能力决定。比如只看‘读书’和‘看电影’两项，一个人可能是一支指向右上方的箭；另一个人可能更偏向下方，代表读书强、电影弱。分队就相当于决定：这支箭是原样放进A队，还是翻个面（乘以−1）放进B队。如果最后所有箭头加起来刚好抵消成零，说明两队完全平衡——可惜，现实中几乎不可能做到完美。",
-      "1980年代，匈牙利数学家科姆洛斯提出一个大胆猜想：不管有多少人、多少种能力要平衡，总存在一种分法，让两队的差距被控制在一个固定数字以内——这个数字不会随着人数或能力种类变多而变大。听起来不可思议，连他自己后来都开玩笑说：‘我年轻时太莽撞，扔了个不负责任的猜想进组合偏差理论。’几十年来，没人能证明它，也没人能推翻它。",
-      "直到2025年秋天，两位计算机科学家——密歇根大学的班萨尔和芝加哥大学的蒋浩天——取得了突破。他们设计出一种新算法，证明：即使有上百万种能力要平衡，两队的差距也只会比那个‘固定数字’多一点点。这个结果虽未完全证明猜想，但已是近30年最接近的一次。一位同行坦言：‘我原本觉得这猜想肯定是错的，现在却开始相信它可能是真的了。’",
-      "这项发现不只关乎分队游戏。它能帮医生更公平地分配临床试验的受试者，帮工程师优化芯片布局，甚至为人工智能训练提供更稳定的数学基础。它提醒我们：再复杂的系统，也可能藏着简单而优美的规律——而数学，就是帮我们听见这种规律的语言。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
-      "originalTitle": "‘Huge Breakthrough’ in the Math of Imbalance",
-      "publishedAt": "Fri, 21 Aug 2026 14:53:32 +0000",
-      "retrievedAt": "2026-08-23T21:44:02.769Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-23T21:43:59.095Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Big Step in the Math of Fairness",
-      "intro": "After 30 years, computer scientists have found a better way to split things evenly between two groups.",
-      "paragraphs": [
-        "Splitting twelve trivia fans into two teams sounds easy. But each person has different strengths and weaknesses. Balancing every category is much harder.",
-        "Mathematicians call this imbalance discrepancy. They study how evenly resources can be divided. In the 1980s, János Komlós made a bold prediction. He said the imbalance can always stay below a fixed number. That number would not depend on how many categories you use.",
-        "For decades, no one could prove it. The best results still let imbalance grow with the problem size. Many experts thought the prediction might be false.",
-        "Then in fall 2025, two computer scientists made a huge step. Nikhil Bansal and Haotian Jiang found a new limit. It changes so slowly with the number of categories that it is almost constant. Even for an astronomical number of dimensions, the result stays close.",
-        "This is the first major advance in nearly thirty years. Other researchers call it very exciting and beautiful. It makes many people think Komlós was right after all. The new method could also help in physics and machine learning."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-23T21:50:56.905Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-24/2026-08-24-huge-breakthrough-in-the-math-of-imbalance.webp",
-      "alt": "两个天平平衡，积木形状略有差异",
-      "caption": "新算法实现公平分组",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-24-i9y217",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "干旱韧性指数：告别“灾后救援”，全球抗旱有了新防线",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-24",
-    "intro": "全球超过18亿人正承受干旱影响，一套新的评估工具——干旱韧性指数，想把抗旱的重心从灾后救援转到提前准备。",
-    "paragraphs": [
-      "想象一片玉米地，叶子全部干枯，土地裂开了缝。这不是电影，而是今年世界上很多地方正在发生的事。据《联合国防治荒漠化公约》秘书处的数据，2000年以来，全球干旱的次数增长了29%，目前全球超过18亿人正承受干旱的影响，预计到2050年，干旱可能会影响全球超过75%的人口。",
-      "干旱不只是让庄稼减产。在非洲索马里，连续三个雨季没有降雨，导致家庭流离失所；世界粮食计划署助理执行主任马修·霍林沃思表示：‘这些家庭是因为席卷全国的干旱而流离失所的……他们的牛、山羊和绵羊找不到牧场。’在干旱的内陆地区，超过80%的取水重担由妇女和女孩承担；在部分极度干旱社区，妇女每天仅为了运送家庭生活用水所消耗的卡路里就占到了全天总热量摄入的四成。过去20年间，干旱造成的直接全球经济损失高达1240亿美元。哥斯达黎加前环境与能源部长埃德加·古提尔雷斯指出：‘以前干旱被视为环境问题，属于环境部长的职责范围，如今，它正逐渐演变为一个政治问题。’",
-      "面对越来越频繁、越来越严重的干旱，传统的‘灾后救灾’模式已难以为继。耶鲁大学建筑生态系统中心传播与发展主任欣德·怀尔德曼表示：‘干旱正变得越来越频繁、越来越严重……真正的挑战在于将数据转化为决策依据。’研究显示，在干旱高危地区每投资1美元用于土地修复与水土保持，能够规避的经济损失和产生的生态系统服务效益可以高达30美元。目前在莫桑比克、肯尼亚和南非试运行的干旱预测和早期预警模型，其提前期已提高至4年，且预测准确率高达70%–98%，这为提前部署耐旱作物和蓄水基础设施提供了极为宝贵的窗口期。",
-      "正为了改变传统的干旱应对高度依赖灾后人道援助的模式，在西班牙与塞内加尔的共同倡议下，国际干旱韧性联盟于2022年成立。联盟由《联合国防治荒漠化公约》负责托管。在目前正在蒙古国乌兰巴托举行的《防治荒漠化公约》第17届缔约国大会上，公约秘书处与国际干旱韧性联盟展示了联合开发的全球干旱基准评估工具——干旱韧性指数。它从三大关键维度评估各国防灾准备水平：预测能力（气象水文监测与早期预警）、准备能力（基础设施、响应预案及应急保障体系）、适应能力（经济体系与社会结构针对长期缺水环境调整和恢复的长效能力）。这三大维度跨越四个核心应用领域进行综合加权评分：自然环境、人工与建造环境、地方社区、经济系统。目前的测试版包含19个国家的指数，并按地区分类，还展示了沙特阿拉伯、塞内加尔、蒙古国、西班牙等八个国家的深入案例分析。",
-      "干旱韧性指数旨在带来三种价值：对决策者而言，可借鉴他国经验，例如了解沙特实际采取了哪些加强干旱韧性的措施、哪些有效、哪些无效；对科学家而言，案例中的每一项论断都可追溯，研究方法公开透明，背后的数据可供查证，可追踪30年的趋势变化，还可进行跨国比较；对公众而言，无需解读复杂图表，转动地球仪就能找到自己的国家，几秒钟内就能看到当地状况是恶化还是好转。正如原文所强调：‘只有当公众理解、科学家能够验证、决策者能够采取行动时，韧性才能真正建立起来。’"
-    ],
-    "topics": [
-      "气候与能源",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/08/1142674",
-      "originalTitle": "【专题报道 | 前方视野】希望告别“灾后救援”，干旱韧性指数重构全球抗旱防线",
-      "publishedAt": "Sat, 22 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-23T21:45:40.782Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-23T21:45:38.558Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 16,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A New Tool to Build Drought Resilience",
-      "intro": "UN News looks at a new index that could help countries prepare for drought before it becomes a disaster.",
-      "paragraphs": [
-        "This year, drought is hurting many parts of the world. In El Salvador, a farmer watches his young corn plants turn dry. In Ivory Coast, a cocoa farmer picks a much smaller harvest. In Somalia, families have left home after three rainy seasons failed. World Food Programme Assistant Executive Director Matthew Hollingworth said: 'These families are displaced by drought sweeping the country. Three consecutive rainy seasons with no rain mean they must leave home because their livelihoods are gone. Their cattle, goats and sheep have no pasture.'",
-        "Drought is not just a natural disaster. It also becomes an economic and political problem. Since 2000, droughts have increased by 29 percent. More than 1.8 billion people now feel their effects. By 2050, drought may affect more than 75 percent of the global population. Over the past 20 years, drought caused direct global economic losses of $124 billion.",
-        "The burden falls heavily on women and girls. In drought-prone inland areas, more than 80 percent of water collection is carried out by women and girls. In some severely drought-affected communities, women spend up to 40 percent of their daily calorie intake fetching household water. Nearly 160 million children are exposed to severe and persistent drought risk. By 2040, one in four children will live in areas of extreme water scarcity. If no action is taken, up to 700 million people may be displaced by drought-induced land degradation and survival crises by 2030.",
-        "Drought also weakens nature's ability to absorb carbon. Global terrestrial ecosystems normally absorb about one-third of human carbon dioxide emissions. But drought severely reduces plant carbon sequestration capacity — even turning forests from 'carbon sinks' into 'carbon sources'. One dollar invested in land restoration and soil-water conservation can yield up to $30 in avoided losses and ecosystem service benefits. Greater transparency and public awareness also help: every two months, about 100 in-depth media reports on drought early warnings can reduce household water use by 11 to 18 percent.",
-        "In Mozambique, Kenya, and South Africa, drought prediction and early warning models are being piloted. Their lead time has increased to four years, with accuracy rates between 70 and 98 percent. This provides valuable time to deploy drought-tolerant crops and water storage infrastructure.",
-        "In 2022, Spain and Senegal jointly launched the International Drought Resilience Alliance. The alliance is hosted by the United Nations Convention to Combat Desertification. At the 17th Conference of the Parties in Ulaanbaatar, Mongolia, the Convention secretariat and the Alliance unveiled the jointly developed Global Drought Baseline Assessment Tool — the Drought Resilience Index. It assesses prediction capacity, preparedness capacity, and adaptation capacity across four domains: natural environment, built environment, local communities, and economic systems. The test version includes indices for 19 countries and in-depth case studies of eight nations — including Saudi Arabia, Senegal, Mongolia, and Spain."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-23T21:50:38.669Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 16,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-24-android",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "汽车也怕病毒：卡巴斯基发现首款针对汽车的安卓恶意程序",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-24",
-    "intro": "卡巴斯基发现了第一种针对汽车的安卓恶意程序，它通过兜风出行汽车主机的固件内置更新程序传播。",
-    "paragraphs": [
-      "你在新闻里可能听说过电脑病毒、手机病毒，但汽车病毒你听过吗？最近，俄罗斯安全公司卡巴斯基的研究人员报告他们发现第一种针对汽车的安卓恶意程序。这个恶意程序通过基于安卓的兜风出行汽车主机（head unit）固件的内置更新程序传播。",
-      "这块中控屏幕可以看作是汽车上的一个小电脑，用来导航、放音乐、调整空调。它用的是安卓系统，和很多手机一样。而这次发现的恶意程序，就藏在兜风出行汽车主机的固件更新程序里。固件是让设备运行的底层软件。当车主给中控屏幕更新系统时，恶意程序就悄悄混进了车里。",
-      "卡巴斯基称该恶意程序被认为与MoYu Group黑客组织有关，该组织与BADBOX僵尸网络有关联。",
-      "卡巴斯基指出，这一汽车恶意程序传播案例类似廉价电视盒，攻击者旨在创建住宅代理僵尸网络，因此使用了相同的网络基础设施。",
-      "好消息是，卡巴斯基称已经通知了兜风出行，对方表示已修复相关安全问题。"
-    ],
-    "topics": [
-      "汽车安全",
-      "Android恶意程序",
-      "网络安全"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "region": "mainland",
-      "url": "https://www.solidot.org/story?sid=85168",
-      "originalTitle": "卡巴斯基发现第一种针对汽车的 Android 恶意程序",
-      "publishedAt": "Sun, 23 Aug 2026 23:02:01 +0800",
-      "retrievedAt": "2026-08-23T21:47:56.719Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "discovery",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-23T21:47:55.346Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-23-how-to-lessen-your-pet-s-impacts-on-the-planet",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "怎样养宠物，才能少伤害地球？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-23",
-    "intro": "宠物陪伴我们，也会给地球留下痕迹；科学家从食物、便便和来源上给出了更环保的养宠办法。",
-    "paragraphs": [
-      "英国兽医约翰·哈维在英格兰德文郡执业时，所在诊所正设法降低碳足迹——比如换装节能灯泡。这让他开始思考：宠物对地球的影响有多大？2024年，他启动狗粮环境影响研究；如今他是爱丁堡大学和埃克塞特大学的研究员。所谓碳足迹，指生产某物过程中排放的温室气体总量，这些气体会加剧气候变化。",
-      "哈维团队分析了近1000种狗粮，计算每种在生产过程中产生的温室气体排放量。结果发现，湿粮和生肉粮排放最高：湿粮因使用金属罐包装，制造耗能高；生肉粮含肉比例更高，还需冷链运输与储存。肉类来源也至关重要——牛肉和羊肉排放远高于鸡肉或鱼肉；而用人类食品工业中原本会被丢弃的内脏（如肝、肾）制作狗粮，则能减少牲畜养殖及资源消耗。研究中环境影响最大的狗粮，其排放量是最小者的65倍。作为对比，高肉饮食的人类食谱排放量仅为植物性饮食的2.5倍。哈维指出，狗粮选择存在‘相当大的改善机会’。具体建议包括：优先选干粮；避开含牛肉或羊肉的配方；不选‘人用级’肉源或标榜‘无谷物’的产品（后者额外添加的肉类并非健康必需）；避免过量喂食；选择体型较小的犬种——它们食量更少，整体生态足迹更小。",
-      "狗粮之外，狗粪处理同样关键。澳大利亚环境科学家艾米丽·布莱森指出，露天狗粪中的营养物质会渗入水体，还可能携带致病菌和寄生虫。使用塑料捡屎袋会产生温室气体，而填埋后粪便分解也会持续释放气体。她提出家庭堆肥方案：研究证实，狗粪可在家庭堆肥系统中有效分解，病原体死亡，养分转化为植物可吸收形态。但需注意，市售‘可堆肥袋’在家庭堆肥中9.5个月内未能完全降解，反而碎裂为污染性微塑料；且多数此类袋子由化石燃料基塑料制成。她建议直接用铲具将粪便送入堆肥箱，或用报纸等可完全生物降解的纸制品承接——例如纽约市部分堆肥点已采用此法，最终成品用于公园绿化施肥。",
-      "猫的情况有所不同。美国约有7600万只家猫；干粮、不含牛肉或羊肉的猫粮同样更环保，且因食量小于狗，其食物碳足迹本身更小。但猫对野生动物影响显著：红外相机显示，猫活动过的庭院及公园区域，鸟类和小型哺乳动物当日甚至次日均会回避——因猫尿液、粪便及脱落毛发留下的捕食者气味引发应激反应，迫使它们耗费更多能量警戒与迁徙。更严峻的是捕杀数据：美国境内猫每年导致多达40亿只鸟和200亿只哺乳动物死亡；全球范围内，猫已被关联至63个物种灭绝事件，涵盖鸟类、爬行类与哺乳类。因此研究者强烈建议将猫养在室内，或使用完全封闭式户外猫舍——此举既保护野生动物，也保障猫自身免受疾病、天敌、车祸或走失风险。猫砂亦需审慎选择：传统膨润土猫砂开采会破坏自然栖息地；已有替代品如大豆豆壳、废弃橄榄核等有机废料制成的猫砂。另须牢记：切勿将猫粪冲入马桶——其中弓形虫等寄生虫可耐受污水处理流程，进入水体后感染并致死海豚等海洋生物。",
-      "异宠饲养同样关乎生态。澳大利亚墨尔本大学动物学家爱丽丝·休斯自幼饲养青蛙、豹纹守宫与玉米蛇，现专研野生捕获宠物对生态的影响。数据显示，全美约240万户家庭饲养爬行动物，其最大环境影响取决于来源：野外捕捉会削弱野生种群，甚至导致局部灭绝；而人工繁育个体则压力小得多。休斯指出，针对活体野生动物跨境贸易的监管，长期聚焦于濒危物种名录，却极少追踪非名录物种的采集规模与生态后果。因此，选择宠物时，‘它从哪里来’与‘吃什么’同等重要。"
-    ],
-    "topics": [
-      "生命与演化",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/greener-pets-less-impact-environment",
-      "originalTitle": "How to lessen your pet’s impacts on the planet",
-      "publishedAt": "Thu, 20 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-22T21:41:58.368Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-22T21:41:56.629Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How to Make Your Pet More Planet-Friendly",
-      "intro": "Pets are family, but they leave a footprint. Small changes can make it lighter.",
-      "paragraphs": [
-        "A veterinarian in Devon, England, asked a simple question: How much do pets impact the planet? John Harvey worked at a clinic there. His team installed energy-efficient light bulbs. That got him thinking about animals. In 2024, he began studying how different types of dog food affect the planet. Now he is a researcher at the University of Edinburgh in Scotland and the University of Exeter in England.",
-        "Dog food is the biggest single impact a dog has on the planet, Harvey says. His team analyzed nearly 1,000 types of dog food to calculate greenhouse gas emissions linked with making each one. Wet and raw dog foods had the highest emissions. Wet food’s footprint was high because it comes in metal cans, which take a lot of energy and resources to make. Raw dog food contains more meat than other types and needs energy to stay cold. The dog food with the largest footprint released 65 times more emissions than the greenest food. For people, a high-meat diet produces 2.5 times the emissions of a plant-based diet.",
-        "Choose dry food. Skip the lamb and beef. Don’t feed your dog human-grade meat or grain-free food. The extra meat in grain-free food isn’t needed for a dog’s health, Harvey says. Be careful not to overfeed — that is unhealthy for both your dog and the planet. When choosing a new dog, consider a small one; they’ll eat less and have a smaller overall footprint.",
-        "Poop left outdoors can pollute land and water. It may contain disease-causing germs or parasites. Responsible dog owners pick up pet waste. But plastic bags used for pickup create greenhouse gases, and dog poop decaying in landfills does too. Emily Bryson, an environmental scientist at Central Queensland University in Wayville, Australia, says dog poop is a valuable resource — if treated safely. Her research shows home composting can transform nutrients in dog poop into forms plants can use as fertilizer. Compostable bags break down into microplastics, so Bryson suggests scooping poop directly into the bin — or using paper, like newspaper. In some sites in New York City, people use newspaper to pick up and toss poop into a compost tumbler. The finished compost fertilizes park plantings.",
-        "Cats eat less than most dogs, so their diet’s carbon pawprint is smaller. But outdoor cats harm wildlife in other ways. Environmental scientist Loren Fardell found wildlife avoided spots cats had visited — even the day before. Cats leave scents in urine, feces and shed fur that stress birds and small mammals. Cats kill up to 4 billion birds and 20 billion mammals each year in the United States. Experts say keep cats indoors or use fully enclosed outdoor cat runs. Indoor cats use litter boxes. Some kitty litter uses absorbent clay mined from natural habitats. Researchers found discarded organic material — such as soybean hulls — is a good alternative. Some companies sell litter made from olive pits. Never flush cat poop. It can contain parasites that survive wastewater treatment and later infect and kill wild animals, such as dolphins.",
-        "Some 2.4 million U.S. households nurture pet reptiles. Their biggest environmental impact traces to whether they were wild-caught or bred in captivity. Taking animals from the wild can weaken populations or even cause extinctions. Zoologist Alice Hughes, at the University of Melbourne in Australia, studies this impact. She says choosing pets bred in captivity helps protect wild populations. Pets bring joy and comfort. Smart choices can protect the planet at the same time."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-22T21:53:39.989Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 42,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-23/2026-08-23-how-to-lessen-your-pet-s-impacts-on-the-planet.webp",
-      "alt": "Cat and dog on grass with globe background",
-      "caption": "宠物与地球的和谐共存",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-23-building-a-quantum-computer-one-fragile-qubit-at",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "构建量子计算机，一次一个脆弱的量子比特",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-23",
-    "intro": "未来量子计算机要靠哪种技术造出来，还没有人知道；但这场竞赛，已经造出了科学中最精密的机器。",
-    "paragraphs": [
-      "今天几乎所有电脑，从洗碗机里那个便宜的微控制器，到帮人工智能算数据的高端硬件，靠的都是同一种技术：硅片上刻着密密麻麻的微型晶体管。它们能又快又稳地在0和1两个状态之间切换，从而存储和处理信息。量子计算机则有可能超越这种只有0和1的方式，用全新的办法处理信息，解决一些传统计算机做起来太困难的问题。可是，要造出一台足够强大的量子计算机，至今仍是一个巨大的挑战。",
-      "量子计算机的算力来自它最基本的零件——量子比特。和只能表示0或1的普通比特不一样，量子比特能表现出‘叠加’和‘纠缠’这些奇妙现象，正是这些现象给了它额外的计算能力。但这些量子效应非常脆弱，很容易被量子比特与周围环境的偶然相互作用所破坏。每一种量子比特技术都在尝试平衡两个难以兼得的要求：既要让量子比特充分隔绝外界干扰，又要便于研究人员操控。",
-      "有些研究者把赌注押在天然的原子上。要把一个原子变成量子比特，先要把它隔离并捕获在真空室中。具体做法分为两种：在‘囚禁离子’量子计算中，研究人员使原子失去一个电子，形成带正电的离子，并用电场将其固定；另一种方法使用被称为‘光镊’的紧密聚焦激光束阵列来捕获中性原子。",
-      "还有一条重要路线是超导量子计算，它采用人工设计的量子比特。研究人员利用改良的经典芯片微加工工艺，在硅晶圆上制作由铝、铌等金属构成的微小电路；当冷却至极低温时，这些电路成为超导体，并可作为量子比特使用。这类电路被安置在名为‘稀释制冷机’的特殊低温系统中。此外，其他量子比特候选方案还包括电子自旋、光子，以及更奇特的量子系统。",
-      "扩大规模是从小型原型迈向大型系统所面临的最大挑战之一。仅制造少量优质量子比特是不够的；按最乐观估计，最终至少需要数万个量子比特，甚至可能达百万量级。更多量子比特也意味着更大、更复杂的控制与测量系统。",
-      "这场竞赛已催生许多令人惊叹的装置：牛津大学实验室于2017年拍摄的照片显示，一个锶离子被电场约束在真空室中两根针尖之间约2毫米区域；加州理工学院研究人员在2025年发表论文，报告在直径1毫米的光镊阵列中成功捕获并独立操控6100个铯原子；IBM在纽约州奥尔巴尼的洁净室内，按‘夜鹰’（Nighthawk）设计制造了每块含120个量子比特的超导芯片。目前尚无法判断哪条技术路线将最终胜出，但这些努力本身已展现出人类为构建可靠量子计算机所达到的工程精度。"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
-      "originalTitle": "Building a Quantum Computer, One Fragile Qubit at a Time",
-      "publishedAt": "Wed, 19 Aug 2026 14:16:03 +0000",
-      "retrievedAt": "2026-08-22T21:43:37.196Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-22T21:43:30.523Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Quantum Computers: Tiny Qubits, Big Challenge",
-      "intro": "Scientists are racing to build quantum computers, but every approach faces the same huge challenge.",
-      "paragraphs": [
-        "Almost every computer we use works the same way. Tiny switches called transistors store information as 1s and 0s. Quantum computers could go beyond this. They use qubits, which can act in strange quantum ways like superposition and entanglement. But qubits are very fragile. They break easily when disturbed by stray interactions with the surrounding environment.",
-        "To build a qubit, researchers need two things at once. Qubits must be isolated from outside disturbances, but easy for researchers to manipulate. That balance is hard to get right. Different teams are trying different physical systems. Some use single atoms as qubits.",
-        "One approach uses trapped ions. Scientists knock one electron off each atom to get positively charged ions that can be held in place by electric fields. Another approach uses neutral atoms. Arrays of tightly focused laser beams — called optical tweezers — trap them. There is also a very different plan. Superconducting circuits made of metals like aluminum and niobium become qubits when cooled to very low temperatures inside dilution refrigerators.",
-        "Every approach faces a scaling problem. It is not enough to make a few good qubits. Researchers will ultimately need at least tens of thousands, by even the most optimistic estimates, and perhaps even millions. More qubits also mean larger and more complex control and measurement systems. While it’s too early to say which technology, if any, will win out, all require ambitious engineering.",
-        "The machines are already intricate. One photo shows a single strontium ion suspended in a vacuum chamber, confined to a 2-millimeter region by electric fields. Another shows atoms arranged into a shape modeled after the Eiffel Tower. In a paper published in 2025, researchers at the California Institute of Technology trapped 6,100 individually controlled cesium atoms in an optical tweezer array 1 millimeter in diameter. They showed those qubits had long coherence times — a prerequisite for quantum computing — but they didn’t do any computations."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-22T21:52:34.242Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 27,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-23/2026-08-23-building-a-quantum-computer-one-fragile-qubit-at.webp",
-      "alt": "Glowing sphere on thin structure",
-      "caption": "量子比特的精密构建",
-      "kind": "editorial"
     }
   }
 ]
