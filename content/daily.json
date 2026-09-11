@@ -1,5 +1,172 @@
 [
   {
+    "slug": "2026-09-12-why-do-these-fossil-shells-flip-their-spirals-ev",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "为什么化石壳每隔几千年就会翻转螺旋方向？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-12",
+    "intro": "一项汇总五十年数据的新研究提出，壳的螺旋方向也许不是对气候的适应，而是一场全球性进化事件留下的意外标记。",
+    "paragraphs": [
+      "在海洋里生活着一类叫有孔虫的微小生物。它们只有一个细胞，却会分泌出坚硬的壳，壳上布满细小的孔。许多有孔虫的壳像蜗牛一样盘旋，而在同一个物种里，绝大多数个体的盘旋方向是一致的：有的几乎全是左旋，有的几乎全是右旋，某些物种里同方向的个体比例高达百分之九十七。更奇怪的是，化石记录显示，这个方向有时会在全球范围内同时掉转——一个物种可能几百万年都朝同一个方向卷，然后突然整体翻过来，过一阵又翻回去。",
+      "有孔虫是地球上数量最多的真核生物之一，从热带到高纬度，所有海洋里都有。多数种类生活在海底，也有一些随洋流漂在表层。它们死后，壳一层层堆积，形成了一份能追溯到大约五亿六千万年前的自然档案，科学家靠它重建过去的气候和海洋环境。上世纪五十年代，海底取芯技术进步，瑞士微体古生物学家汉斯·博利第一次记录到，一些螺旋壳的有孔虫有明确的方向偏好，而且这种偏好会随时间改变。",
+      "一九五九年，哥伦比亚大学拉蒙特地质观测站（现为拉蒙特-多尔蒂地球观测站）的海洋地质学家戴维·埃里克森在北大西洋取出数百枚厚壁新方球虫（_Neogloboquadrina pachyderma_）的壳，发现冰期寒冷时多左旋，温暖时多右旋，于是推测温度是决定因素。这个假说后来被两项研究分别推翻。二〇〇六年，如今在斯特灵大学任荣誉教授的凯特·达林用基因证据说明，那其实不是一个种，而是两个各有自己螺旋方向的种。二〇一三年，日本高知大学教授、进化古生物学家由利香·氏家发现，多个海域的有孔虫螺旋方向与温度并不对应。也很难想象螺旋方向对一个没有明显左右之分的单细胞生物有什么好处。半个世纪后，掉转的原因重新变成一个谜。",
+      "伦敦大学学院的微体古生物学家布丽奇特·韦德研究沉积岩芯已经几十年。她的团队注意到，在大西洋、印度洋和太平洋的不同纬度上，好几个有孔虫物种似乎在差不多同一时期掉转了壳的方向；有一个物种，热带和高纬度的翻转几乎同时发生。这说明事情不止发生在一个海域。他们把过去五十年的数据汇总起来，分析了多个浮游有孔虫物种在过去五千六百万年间的螺旋变化，在每个物种身上都找到了跨越多个大洋盆地和气候带的翻转证据。例如，_Paragloborotalia siakensis_在一千五百万年前从混合螺旋变为以左旋为主；_Globorotalia scitula_先在一千五百万年前转向左旋，一千万年前又转回右旋。有一种至今仍然活着的热带浮游有孔虫_Pulleniatina obliquiloculata_，化石记录格外详细：过去八十六万年里它几乎全是右旋，而在这之前，它每隔几千年就在全球范围内换一次方向。",
+      "这些变化来得太快、范围太广，用缓慢的进化解释不通。韦德说，如果只是局部事件，还可以考虑局部环境的改变，可它同时在所有地方发生，背后应该是另一种机制。团队提出的猜想是‘隐存种’。海洋看起来连成一片，其实藏着温度、洋流、紫外线、化学和氧气各不相同的许多栖息地；一个表面全球分布的物种，内部也可能藏着好几个基因上不同的种。基因研究已经反复证明，过去仅凭壳形（包括螺旋方向）判断为同一个种的有孔虫，往往不止一个种。他们推测，如果其中一个隐存种获得了某种广泛的适应优势，它就可能随洋流扩散到全世界，完成一次规模巨大的种群扫荡，它单一的螺旋方向也一路被带到主导地位——这场进化事件就这样被意外地写进了化石记录。",
+      "法国微体古生物学家朱莉·梅扬没有参与这项研究。她说，这可能是第一次有做生物地层学（即深时研究）的人来碰这样的问题，把现代有孔虫的遗传和生物学与几千万年前的化石数据接起来，让人耳目一新。按照这个新假说，壳往哪边卷本身也许并不带来什么好处，它只是一个标记：地球上可能反复上演过一种极难观察的进化过程——一个新性状从一小群个体出发，扫过整个海洋。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
+      "originalTitle": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+      "publishedAt": "Fri, 11 Sep 2026 14:14:40 +0000",
+      "retrievedAt": "2026-09-11T23:20:40.686Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T23:20:29.336Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+      "intro": "For thousands and sometimes millions of years, marine plankton all over the world built their spiral shells in one direction. Then, suddenly, the spirals switched direction at the same time, everywhere. Only to switch back again later.",
+      "paragraphs": [
+        "These microorganisms are types of foraminifera, or forams. Found in all oceans, from the tropics to high latitudes, they’re among the most abundant eukaryotic organisms on Earth. The single-celled protists secrete a hard shell perforated with many small holes. Most species live on the seafloor. Some are planktonic. When they die, their shells blanket the seafloor across the world. This forms a natural archive of Earth’s history that goes back some 560 million years.",
+        "Among the many planktonic forams that have snail-like coiled shells, some species strongly prefer one spiral direction — left or right — over the other. As many as 97% of the individuals in a species coil in the same direction. Sometimes, a new coiling direction dominates everywhere across the oceans all at once in the fossil record. Ever since the 1950s, when this curiosity was observed, scientists have tried to figure out what causes shell direction to change in quadrillions of microorganisms in unison.",
+        "In 1959, the marine geologist David Ericson sifted through hundreds of coiled shells from Neogloboquadrina pachyderma collected from the North Atlantic. He observed that in cold climates during the ice ages, the shells tended to coil left. During warmer periods, they turned right. However, as more cores were retrieved from around the globe, and with advances in genetics, the temperature hypothesis didn’t hold up. In 2006, Kate Darling published genetic work. It showed that the variants of N. pachyderma are two distinct species. Each has its own coiling direction. In 2013, Yurika Ujiié found that shell chirality in different foram species did not correspond to temperature.",
+        "Bridget Wade is a micropaleontologist at University College London. She had been studying sediment cores for decades. Her team noticed a curious pattern. Several foram species seemed to flip their shell direction around the same time. This happened at different latitudes in the Atlantic, Indian, and Pacific oceans. In one species, the flips seemed almost instantaneous. They occurred in the tropics and in higher latitudes. To sate their curiosity, Wade’s team synthesized data from five decades of studies. They analyzed changes in coiling patterns in several planktonic foraminifera species. These spanned the past 56 million years. For each species, they found evidence of flipping across multiple ocean basins and climate belts.",
+        "Pulleniatina obliquiloculata was an especially useful example. It has an exceptionally detailed fossil record. It is still living today. It occurs throughout tropical oceans worldwide. For the past 860,000 years, its shell has coiled almost exclusively to the right. Before that, it went through rapid shell-coiling flips. These occurred globally every few thousand years. The shifts were far too sudden and widespread to be explained by gradual evolution.",
+        "The new study hypothesizes that shell direction is not itself an adaptive response. It is an accidental marker of a significant evolutionary event. That event starts in a small subpopulation. Then it sweeps across vast ocean basins. Julie Meilland is a researcher at Cerege in France. She was not involved in the study. She said it was very refreshing to see these worlds connect. People doing modern research don’t necessarily connect to people doing deep-time research. The work offers a new perspective on a decades-old mystery. It gives a rare glimpse into an obscure process. That process enables new traits to sweep across large populations."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T23:30:03.996Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-12/2026-09-12-why-do-these-fossil-shells-flip-their-spirals-ev.webp",
+      "alt": "冷灰色调下数枚螺旋方向交替的贝壳化石并排排列",
+      "caption": "螺旋方向交替，像一段被压缩的时间。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-12-dvxh9k",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国发现金银高含量海底大型矿区",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-12",
+    "intro": "一支联合科考队在西太平洋完成十八天航程，新锁定一处全新的、规模巨大的海底热液活动矿区，初步检测显示金最高含量达15.4ppm、银最高含量达1271ppm，平均含量水平显著优于陆地矿床。",
+    "paragraphs": [
+      "海底并不是一片安静的泥沙。在七百米到一千五百米深的地方，有一些不断喷出高温水流的喷口，周围慢慢堆积着含金属的矿石。最近，由清华大学、中国地质调查局青岛海洋地质研究所、上海交通大学等单位开展的西太平洋海底热液活动与资源联合科考航次取得重要突破。科考队搭乘“向阳红10”号科考船，于今年8月10日从深圳起航，在历时18天的科考航程中，在位于我国专属经济区的西太平洋弧后盆地内实施了7次探测器下潜作业。",
+      "先说清一个词：海底热液。可以把它理解成海底喷出的高温含矿水流。在开展本次科考之前，该科研团队人员已经对这片海域开展了十多次前期探测，找到了数十处高温热液喷口，这些喷口位于水下约700到1500米的深度，喷口端元流体最高温度超315℃，热液活动十分活跃。本航次在之前调查基础上，通过精细调查和原位取样又在盆地内精准锁定了一处全新且规模巨大的海底热液活动矿区。",
+      "所伴生的热液硫化物矿体由3个大型圆锥状矿体结构构成。经船载实验室初步检测分析，该矿体主要由黄铜矿、黄铁矿、闪锌矿等重要经济矿物组成。",
+      "对部分样品的初步分析显示，矿石中伴生金的最高含量达15.4ppm，伴生银的最高含量达1271ppm，其平均含量水平显著优于陆地矿床。",
+      "需要说明的是，这些数据来自船载实验室初步检测分析；本次科考初步证实，该矿区具备大规模多金属硫化物资源潜力。"
+    ],
+    "topics": [
+      "工程与制造",
+      "海洋与资源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571276.shtm",
+      "originalTitle": "我国发现金银高含量海底大型矿区",
+      "publishedAt": "2026-09-11 12:15",
+      "retrievedAt": "2026-09-11T23:21:37.732Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T23:21:34.749Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-12/2026-09-12-dvxh9k.webp",
+      "alt": "冷灰色调下海底热液喷口与上升烟柱的抽象剪影",
+      "caption": "海底深处，矿物在沉默中堆积。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-12-flubcp",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "民族舞剧《傲雪长白》亮相第七届全国少数民族文艺会演，重现抗联风骨",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-12",
+    "intro": "由吉林省延边歌舞团演绎的民族舞剧《傲雪长白》登上第七届全国少数民族文艺会演舞台，以东北抗日联军十四年艰苦斗争为背景，聚焦抗联缝纫队这群‘幕后英雄’，用舞蹈重现各族儿女在林海雪原并肩战斗的峥嵘岁月。",
+    "paragraphs": [
+      "9月11日，由吉林省延边歌舞团演绎的民族舞剧《傲雪长白》登上第七届全国少数民族文艺会演的舞台。该剧以东北抗日联军十四年艰苦斗争为背景，聚焦抗联缝纫队这群‘幕后英雄’，用舞蹈重现各族儿女在林海雪原并肩战斗的峥嵘岁月。",
+      "‘长白’指东北长白山，‘傲雪’喻示在冰雪中不屈的风骨。剧中主角善姬本是一名平凡的朝鲜族妇女，‘九·一八’事变后家园被日军突袭，丈夫为保护女儿中弹牺牲，她一步步蜕变为守望家园的抗联女战士。",
+      "抗联是东北抗日联军的简称，是二十世纪三四十年代在东北坚持抗日的一支武装力量，活动多在林海雪原之间。剧中，中国朝鲜族舞蹈的呼吸韵律与东北秧歌的舒展刚劲融为一体，长鼓的铿锵鼓点与东北民间音乐的质朴旋律层层交织，再现各族群众团结抗击帝国主义的往事。",
+      "第七届全国少数民族文艺会演是国家层面集中展示少数民族文艺创作的重要平台。《傲雪长白》由吉林省延边歌舞团创演，其将民族元素与吉林地域特色有机融合，突出铸牢中华民族共同体意识这一主线，展现80多年前各族军民共同抗战的真实写照。",
+      "舞蹈没有旁白，故事全靠肢体、音乐、服饰、道具和舞台调度传递。剧中善姬的饰演者方丽美说：‘善姬的伟大，不在于她承受了多少苦难，而在于承受这些苦难之后选择了什么。’这种向死而生的坚韧，正是抗联精神的生动体现。",
+      "‘重现’不是复刻历史，而是以当代艺术语言激活记忆。剧中抗联缝纫队成员来自不同民族，却在同一盏油灯下缝制军衣——她们手中的针线，是另一种武器；她们的坚守，让那段风雪里的坚持，在今天依然可感、可知、可敬。",
+      "如果你以后在课本或博物馆里再看到‘抗联’二字，或许可以想一想：一群人在极寒的林海雪原中坚持了十四年，他们中有冲锋陷阵的战士，也有默默缝补军衣的妇女；有汉族、朝鲜族，还有其他各族儿女——这不只是一个关于牺牲的故事，更是一个关于共同体如何在危难中凝结而成的故事。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-11/10694952.shtml",
+      "originalTitle": "民族舞剧《傲雪长白》亮相第七届全国少数民族文艺会演 重现抗联风骨",
+      "publishedAt": "Fri, 11 Sep 2026 20:08:25 +0800",
+      "retrievedAt": "2026-09-11T23:26:21.655Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-11T23:26:20.061Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-11-ai",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "手机里住进一个‘好闺女’：中国老年人的AI日常",
@@ -3151,160 +3318,6 @@
       "alt": "抽象大脑由碎片聚拢成漩涡",
       "caption": "大脑压缩与预测的抽象示意",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-25-scientists-say-midden",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "古代垃圾堆里藏着祖先的生活密码",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-25",
-    "intro": "考古学家不只挖宝，更爱翻古人的垃圾堆——这种叫‘midden’的遗址，既是厨房废料堆，也是动物储物仓，更是穿越千年的信息库。",
-    "paragraphs": [
-      "你有没有想过，古人吃完饭扔掉的贝壳、碎陶片、断掉的工具，其实不是废物，而是一封写给未来的信？科学家管这种堆积如山的古代垃圾堆叫‘midden’，读作‘米登’。它指的是人类在居住地长期丢弃食物残渣和生活废料形成的土堆，比如海边村落里堆满蛤蜊壳和贻贝壳的角落。",
-      "这些看似脏乱的垃圾堆，对考古学家来说却像打开了一本立体日记。比如，一个贝壳堆积层能告诉我们：当时的人主要吃什么、大概有多少人住在村里、是不是用工具敲开贝壳。贝壳中渗出的钙质让土壤酸性降低，帮助保存骨头、鱼鳞等生物材料。脆弱的骨制工具如果被丢进这样的堆里，反而更容易完整留存下来。",
-      "有趣的是，‘midden’这个词也用在动物身上。松鼠会把食物藏进地洞，老鼠更特别：它们收集碎布、种子、小珠子甚至人类丢弃的垃圾，并往堆里撒尿——尿液干后变成一层硬壳状物质，叫‘amberat’（琥珀质），能防水并帮助保存所藏物品。",
-      "因为老鼠自古就和人类住在一起，它们囤积的东西里，有时混着人类掉落的陶片、织物纤维或谷粒。化石化的老鼠垃圾堆，也能为考古学家提供关于古代人类社会的线索。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-midden-definition-pronunciation",
-      "originalTitle": "Scientists Say: Midden",
-      "publishedAt": "Mon, 24 Aug 2026 10:30:00 +0000",
-      "retrievedAt": "2026-08-24T21:50:17.494Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T21:50:16.235Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 13,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-25/2026-08-25-scientists-say-midden.webp",
-      "alt": "古代垃圾堆分层剖面图",
-      "caption": "垃圾堆中的历史层积",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-25-yx6w2l",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "西藏类乌齐队夺得“村超”季军，创下西藏球队最佳战绩",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-25",
-    "intro": "在2026年“村超”全国赛中，西藏昌都市类乌齐县足球队以4:0战胜对手，夺得赛季军，创下西藏球队在该赛事的历史最佳战绩。",
-    "paragraphs": [
-      "终场哨声响起，比分定格在4:0。西藏昌都市类乌齐县足球队夺得2026年“村超”全国赛季军，创下西藏球队在该赛事的最佳战绩。兴奋的球员们换好藏装，意气风发走上领奖台。看台上掌声、欢呼声不断，“类乌齐”三个字一遍遍响彻赛场。",
-      "其实，类乌齐“出圈”源于一次口误。在“村超”全国赛开幕式上，主持人误将“类乌齐”念成“类鸟齐”。当晚，主持人专程请队员吃饭并赔礼道歉；结账时却发现，西藏队员已经悄悄买了单。类乌齐县还邀请他成为当地的文旅推介官。",
-      "在贵州比赛期间，类乌齐县的拉拉队员身着民族服饰，跳起热烈欢快的岭卓舞，为队员加油助威。比赛结束后，队员们向对手敬献哈达，当地群众也一同欢歌热舞。类乌齐县足球队能够赢得尊重，靠的是待人之真诚，更是赛场上的实力。从全国32强赛起步，类乌齐4:1战胜湖北红安代表队；随后连续经历两场点球大战，队员们顶住压力接连取胜，一路挺进全国前四。半决赛面对卫冕冠军广东肇庆高要金利诚峻队，类乌齐队以0:2惜败；经过短暂休整，队员们重新振作、调整状态，以4:0赢下季军战，为此次“村超”之旅画上圆满句号。",
-      "从雪域高原到黔东南，类乌齐县足球队鏖战半个月，终于站上领奖台。队员多为农牧民和大学生，年龄最小的只有17岁。他们对足球的热爱，质朴又执着。此次“村超”全国赛上，类乌齐、八宿、卡若三支西藏球队同时闯进16强，展现出西藏广泛的足球基础。在辽阔的雪域高原，足球属于每一个热爱奔跑的人：一片空地、几块石头，就能围出一座简易球场。在那曲市嘉黎县藏比乡，牧民索朗晋美把自家牛圈改造成孩子们的足球场；孩子们在这里传球、射门，捧起用蔬菜做的奖杯，尽情享受足球带来的快乐。在昌都市马利镇，父亲们挥动锄头和铁锹，平整土地、搬运石块，为孩子们建起“父亲的球场”。这里没有专业草坪，也没有宽阔华丽的看台，但只要有一片能够奔跑的场地，一场充满欢乐的比赛就能吹响开场哨。",
-      "为了让更多人享受运动的快乐，西藏把体育设施建到群众身边。“十四五”期间，西藏持续强化体育惠民，进一步完善全民健身公共服务体系，全区累计投入资金14.5亿元，新建、改扩建全民健身场地1232个，建成体育公园19个。从村庄里的简易球场，到海拔4500米的“云上球场”，从街头巷尾的民间比赛，到山南“石榴籽杯”草原足球赛、林芝“南迦巴瓦峰杯”篮球赛，不断完善的体育设施托举着群众的运动热情，广泛开展的全民健身活动为西藏体育积蓄着新的力量。这届“村超”让许多球迷记住了类乌齐。未来，期待有更多西藏球队、球员凭借实力走上更宽广的舞台，让更多人看到西藏体育发展的蓬勃生机。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260824/50aad58d126d490ca6469b05eaf909ac/c.html",
-      "originalTitle": "追光丨这届“村超”让球迷记住一个名字：类乌齐",
-      "publishedAt": "2026-08-24T17:28:16+08:00",
-      "retrievedAt": "2026-08-24T21:52:26.755Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T21:52:22.642Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Leiwuqi: The Name Fans Remember from This Year's Village Super League",
-      "intro": "A Tibetan county called Leiwuqi just made history at China's Village Super League football tournament.",
-      "paragraphs": [
-        "The final whistle blew and the score was 4:0. Leiwuqi County football team from Chamdo, Tibet, won third place in the 2026 Village Super League national tournament. It is the best result a Tibetan team has ever achieved in this event. The players changed into traditional Tibetan clothes and walked proudly to the podium. Fans cheered and chanted the name Leiwuqi again and again.",
-        "The name Leiwuqi became known after a small mistake. At the opening ceremony, the host mispronounced it as Leiniaoqi. That night he invited the players to dinner to apologize. But when he tried to pay, he found the Tibetan players had already quietly covered the bill. Leiwuqi County even asked him to become a local tourism ambassador. The host said the team's kindness was bigger than the plateau. The mistake did not create distance. Instead, it connected two faraway places through football.",
-        "During matches in Guizhou, Leiwuqi cheerleaders wore ethnic costumes and performed the Lingzhuo dance. After games, players offered hada scarves to their opponents. Local people joined in singing and dancing. People met through football and built understanding and friendship. The team earned respect through sincerity and real skill.",
-        "Their road was not easy. They started in the national round of 32. They beat Hubei Hong'an 4:1. Then they survived two tense penalty shootouts. In the semifinal, they lost 0:2 to the defending champion from Guangdong Zhaoqing Gaoyao Jinli Chengjun team. After a short rest, they lifted themselves and won the third-place match 4:0. The players are mostly farmers and college students. The youngest is only 17. Their love for football is simple and strong.",
-        "This success shows a wider football base in Tibet. Three Tibetan teams reached the final 16 this year: Leiwuqi, Basu, and Karuo. On the plateau, a patch of empty land and a few stones can make a simple pitch. In one village, a herder turned his cowshed into a children's football field. In another town, fathers used hoes and shovels to build a pitch for their kids. There is no professional turf or big grandstand. But as long as there is a place to run, a joyful match can begin.",
-        "Tibet has also invested heavily in sports facilities. During the 14th Five-Year Plan period, the region spent 1.45 billion yuan. It built or upgraded 1,232 fitness venues and 19 sports parks. From simple village pitches to a cloud pitch at 4,500 meters, more people can play. Improved facilities and widespread community games are building new strength for Tibetan sports. This year's Village Super League made many fans remember Leiwuqi. In the future, more Tibetan teams may step onto bigger stages."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T21:59:05.587Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-25-a40r6f",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-25",
-    "intro": "一场聚焦珞巴族舞剧创作历程的分享会在拉萨举行。",
-    "paragraphs": [
-      "最近，在拉萨的“拉萨文化惠客厅”，举行了《与太阳共舞》主创分享会。",
-      "分享会聚焦舞剧《与太阳共舞》的创作历程。",
-      "该剧以珞巴族为题材，通过舞蹈艺术呈现珞巴族文化。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683467.shtml",
-      "originalTitle": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
-      "publishedAt": "Mon, 24 Aug 2026 21:45:47 +0800",
-      "retrievedAt": "2026-08-24T21:53:44.449Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T21:53:23.983Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
