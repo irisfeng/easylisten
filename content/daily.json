@@ -1,5 +1,209 @@
 [
   {
+    "slug": "2026-09-13-pk33s6",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "这几封书信，推动新中国通信学科迎来关键转向",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-13",
+    "intro": "中国科学家博物馆珍藏着数封20世纪50年代的书信，记录着通信工程专家张煦与苏联专家易果日夫的学术往来，真实留存了我国通信学科体系奠基的关键历程。",
+    "paragraphs": [
+      "中国科学家博物馆珍藏着数封20世纪50年代的书信，记录着通信工程专家张煦与苏联专家易果日夫的学术往来。它们真实留存了我国通信学科体系奠基的关键历程，也见证了张煦立足我国国情，探索勘定中国通信事业发展路径的远见与担当。",
+      "新中国成立初期，我国通信教育主要借鉴苏联模式。当时苏联学界认为无线电通信保密性差、发展前景有限，主张重点发展有线通信。受此影响，国内多所高校将电讯专业调整为有线电系。为了更好地学习苏联的先进技术，1952年，曾留美归国的张煦开始自学俄文，历时五年，他已能够独立阅读、翻译俄文电信文献。1955年底，经留苏学生牵线，张煦与苏联专家易果日夫副教授建立学术联系，围绕学科设置、人才培养等议题展开交流。",
+      "1956年前后，国内通信发展认知迎来关键转变。此时国际载波电话技术快速兴起，该技术把微波无线技术同有线电话体系相结合，单纯发展有线通信已无法满足技术迭代需求。与此同时，我国《十二年科学技术发展远景规划》颁布实施，导弹等国防重点项目启动研发，项目所需的遥控遥测技术，对微波、无线通信有着极强的现实需求。基于这两大现实背景，张煦在与易果日夫的通信中，重点探讨了有线电与无线电的学科设置问题。易果日夫提出，应该打破有线与无线的学科壁垒，这一观点和张煦的看法不谋而合。二人共同研讨确定：在“长途电话设备专业”下分设“载波电话电报专门化”“微波接力和波导设备专门化”；在“电话电报设备专业”下分设“电话设备专门化”“电报设备专门化”等。这套方案，为我国通信学科融合发展确立了科学办学方向。",
+      "1956年，怀揣建设中国自主通信产业的理想，张煦从上海交通大学调往刚刚筹建的成都电讯工程学院。建校初期办学条件艰苦，校园里连一条修好的路都没有，师生们只能挽着裤腿、一瘸一拐地走在泥泞土路上，戏称这里为“南泥湾”。办学过程中人才培养的难题摆在眼前：成都电讯工程学院主攻通信设备设计制造，但苏联可供参考的只有无线电制造教学计划，缺少电话、电报、长途通信完整成套的教学方案。为此，张煦致信易果日夫请教，询问人才培养与教学问题，例如“制造专业的教学计划与维护专业的教学计划应该设置多大差别”。易果日夫在回信中谈到，苏联虽区分工业电气工程师、结构工艺工程师，但他主张电路计算、设备设计工程师不应与维护工程师分开培养，应设立统一的电信工程师专业。设计人员要掌握设备维护知识，维护人员也要通晓设计制造逻辑，维护相关教程也需要纳入工艺、生产相关课程，反对专业划分过细。这一教育理念，与张煦留美时期重视基础、提倡全面育人的理念高度契合。",
+      "1957年，张煦参考苏联专家吉捷列夫教授的课堂笔记、油印讲义，结合自己在美国积累的英文技术资料，融会贯通编写出版《长途电话电路设计基础》，以适配国内教学需求。他将这本教材寄赠给易果日夫，易果日夫回信说看了学生翻译的序文很高兴，“希望以后写得更好更多”。这段跨越国界的学术书信往来，为我国通信学科体系搭建提供了重要参考，也让两位学者成为了学术上的好友。纵观张煦的一生，他始终走在中国通信技术迭代的最前沿。从20世纪50年代的一封封跨国书信，勘定融合发展的正确道路，到此后数十年紧跟全球技术浪潮，从零搭建起我国载波、晶体管、数字、光纤通信的教学与技术体系，他默默铺就了中国通信事业发展根基，堪称“中国通信元勋”。"
+    ],
+    "topics": [
+      "工程与制造",
+      "通信技术",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571320.shtm",
+      "originalTitle": "这几封书信，推动新中国通信学科迎来关键转向",
+      "publishedAt": "2026-09-12 08:44",
+      "retrievedAt": "2026-09-12T23:08:47.635Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-12T23:08:43.278Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Letters That Changed China's Communication Science",
+      "intro": "Old letters between Chinese engineer Zhang Xu and Soviet expert Yiguo Rifu show how China's communication studies shifted toward integration in the 1950s.",
+      "paragraphs": [
+        "The China Scientist Museum preserves several letters from the 1950s. They record academic exchanges between communication engineer Zhang Xu and Soviet expert Yiguo Rifu. These letters document the founding of China's communication discipline. They also reflect Zhang Xu's vision for a development path suited to China's national conditions.",
+        "After the founding of New China, communication education mainly followed the Soviet model. At that time, Soviet scholars believed radio communication had poor confidentiality and limited prospects. They advocated focusing on wired communication. As a result, many universities adjusted their telecommunication programs into wired electronics departments.",
+        "Zhang Xu had studied in the United States. In 1952, he began teaching himself Russian. After five years, he could independently read and translate Russian telecommunications literature. In late 1955, through Chinese students studying in the Soviet Union, he established academic contact with Associate Professor Yiguo Rifu. They exchanged letters on curriculum design and talent training.",
+        "Around 1956, China's understanding of communication development underwent a key shift. Internationally, carrier telephone technology was rapidly emerging. It combined microwave wireless technology with wired telephone systems. Relying solely on wired communication could no longer meet technological demands. Meanwhile, China's Twelve-Year Science and Technology Development Plan was implemented. Missile-related defense projects started. These required remote control and telemetry technologies. Those technologies strongly needed microwave and wireless communication. Based on these realities, Zhang Xu and Yiguo Rifu discussed wired and wireless discipline settings. Yiguo Rifu proposed breaking down the barrier between wired and wireless disciplines. Zhang Xu agreed. They jointly proposed: under the 'long-distance telephone equipment' major, set up 'carrier telephone and telegraph specialization' and 'microwave relay and waveguide equipment specialization'. Under the 'telephone and telegraph equipment' major, set up 'telephone equipment specialization' and 'telegraph equipment specialization'. This plan established a scientific direction for integrated development of China's communication discipline.",
+        "In 1956, Zhang Xu moved from Shanghai Jiao Tong University to the newly founded Chengdu Institute of Radio Engineering. Campus construction was still underway. There was not even a paved road. Teachers and students walked through mud. They jokingly called the place 'Nanniwan'. A major challenge was talent training. The institute focused on communication equipment design and manufacturing. But Soviet reference materials only provided a radio manufacturing teaching plan. They lacked complete teaching plans for telephone, telegraph, and long-distance communication. Zhang Xu wrote to Yiguo Rifu seeking advice. He asked: 'How large should the difference be between manufacturing and maintenance curricula?' Yiguo Rifu replied that the Soviet Union distinguished between industrial electrical engineers and structural process engineers. But he opposed overly narrow specialization. He advocated a unified telecommunications engineer program. Circuit calculation and equipment design engineers should not be trained separately from maintenance engineers. Designers must understand maintenance. Maintainers must understand design and manufacturing logic. Maintenance courses should include technology and production content. This educational philosophy aligned closely with Zhang Xu's U.S.-influenced emphasis on foundational knowledge and holistic training.",
+        "In 1957, Zhang Xu compiled and published Fundamentals of Long-Distance Telephone Circuit Design. He based it on Soviet Professor Jidielefu's lecture notes and mimeographed handouts. He also used English technical materials he had accumulated in the U.S. He sent the textbook to Yiguo Rifu. Yiguo Rifu replied that he was pleased to read the student-translated preface. He hoped Zhang Xu would 'write better and more in the future'. This cross-border correspondence provided important reference for building China's communication discipline system. It also forged a lasting academic friendship. Zhang Xu later helped establish teaching and technical systems for carrier, transistor, digital, and optical fiber communication in China. He is widely regarded as the 'Pioneer of Chinese Communications'."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-12T23:13:52.325Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-09-13-plasma-whirlpools-on-the-sun-could-trigger-solar",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "太阳表面发现打旋的等离子体，它们可能触发太阳耀斑",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-13",
+    "intro": "迄今最清晰的太阳照片，在太阳表面拍到了高能漩涡。研究者认为，它们可能是太阳耀斑爆发的关键一环。",
+    "paragraphs": [
+      "人类拍到过的最清晰的太阳照片，让科学家在太阳表面发现了意料之外的东西：许多高能的漩涡。太阳是一颗巨大的球，由极热、带电的气体组成，这种气体叫做等离子体。新照片暗示，太阳表面并不安稳。这些打着旋的等离子体，可能会扭动太阳的磁场；而这样的扭动会积累能量，后来以太阳爆炸的形式释放出来。这可能解释太阳为何偶尔抛出剧烈的辐射爆发——即太阳耀斑。",
+      "太阳耀斑属于‘太空天气’现象，会影响地球及周围空间的技术设备。研究人员于8月5日在《自然》杂志上发表了这项新发现。",
+      "拍到这些照片的是位于美国夏威夷毛伊岛哈莱阿卡拉火山顶附近的丹尼尔·井上太阳望远镜。它是世界上最大的太阳望远镜，镜面直径4米（13英尺）。照片显示，太阳表面一块19公里（12英里）宽的区域中，存在磁化等离子体的漩涡状结构。参与研究的天体物理学家大卫·库里泽说，这是‘以前根本看不见的细节水平’。他来自科罗拉多州博尔德的美国国家太阳观测台。为获得如此清晰的图像，研究团队修正了地球大气造成的模糊，去除了会毁掉图像的畸变。",
+      "新图像使太阳表面高度磁化的区域变得清晰可见。这类区域有数百万个，称为太阳磁元。库里泽团队发现，这些磁元之间的边界存在一种特殊不稳定性——开尔文-亥姆霍兹不稳定性（KHI）。当两层流体（如等离子体）以不同速度并排流动时，微小扰动可引发卷曲运动，最终形成波浪。",
+      "科学家曾在地球海洋波浪、云层，以及木星和太阳的大气层中观测到KHI，但此前从未在太阳表面直接观测到它。KHI可能将旋转等离子体的能量转化为太阳爆发所需的能量。奥夫曼指出，这有助于解释能量如何从太阳内部传递至外部，从而‘影响地球上的我们，也影响更远的地方’。",
+      "太阳表面，比它看上去要不安分得多。下一次耀斑亮起时，它的起点也许就藏在这些小小的漩涡里。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/plasma-whirlpools-sun-solar-flares",
+      "originalTitle": "Plasma whirlpools on the sun could trigger solar flares",
+      "publishedAt": "Fri, 11 Sep 2026 10:30:00 +0000",
+      "retrievedAt": "2026-09-12T23:09:42.002Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-12T23:09:40.171Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 25,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-13/2026-09-13-plasma-whirlpools-on-the-sun-could-trigger-solar.webp",
+      "alt": "冷灰底色上太阳圆盘与螺旋状等离子体漩涡的抽象插图",
+      "caption": "太阳表面的旋涡，或许藏着耀斑的线索。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-13-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "不与AI赛跑 业界冀职业教育转向培育人类独有核心素养",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-13",
+    "intro": "抓取到的页面只有标题和网站导航，正文缺失；在无法回到原文核验的情况下，这篇候选稿不做听稿改写。",
+    "paragraphs": [
+      "这篇候选稿来自中新网教育，标题是《不与AI赛跑 业界冀职业教育转向培育人类独有核心素养》。但抓取回来的内容里，除了这个标题，其余部分是网站栏目、导航链接、搜索框和页面装饰图片，没有正文。",
+      "也就是说，稿件里没有出现任何一家机构、任何一位受访者，没有具体主张，也没有案例和数据。目前能确认的只有标题本身传达的一个态度：业界希望职业教育不要与人工智能比速度，而是转向培养人类独有的核心素养。",
+      "轻听的听稿要求事实、数字、因果和引语都能回到原文核验。如果现在动笔，人物、场合和做法都只能靠推测补上，那就变成了编造，也会让家长无法判断这段话到底是谁说的、在什么场合说的。",
+      "按照编辑标准，全文抓取失败时不生成正式听稿。这篇候选稿因此退回候补池，等取得完整原文、确认了发言者和具体主张之后，再决定是否改写。"
+    ],
+    "topics": [
+      "教育与职业",
+      "AI与社会"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-12/10695484.shtml",
+      "originalTitle": "不与AI赛跑 业界冀职业教育转向培育人类独有核心素养",
+      "publishedAt": "Sat, 12 Sep 2026 22:28:20 +0800",
+      "retrievedAt": "2026-09-12T23:10:13.864Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-12T23:10:12.150Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-13-2026-9-11",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世界正在发生什么：联大开幕、最热8月、AI数据中心耗电逼近极限与世卫家庭提醒",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-13",
+    "intro": "今天，联合国大会新一届会议开幕；地球刚度过有记录以来最热的8月；人工智能数据中心耗电正逼近全球电力系统极限；世卫组织也发出一条和每个家庭都有关的提醒。",
+    "paragraphs": [
+      "9月11日，联合国大会第81届会议正式开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对联大的信任。在开幕仪式上，秘书长古特雷斯赞扬了第八十届会议主席、德国前外长贝尔伯克任内所取得的成就。",
+      "黎巴嫩南部奈拜提耶及其周边地区战事加剧，联合国驻黎巴嫩临时部队的记录显示，周四至周一期间，以色列共发射了528枚弹药，仅周日一天就发生了62起侵犯领空事件。秘书长古特雷斯发表声明，谴责由此导致黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出。联合国也门问题特使格伦德贝里周四向安理会表示，自2022年停火以来，也门再次出现大规模冲突的风险已经演变为现实。本周，也门多条战线的战斗均有所加剧，胡塞武装已经控制了重要港口城市莫卡。莫卡距离连接红海与亚丁湾的曼德海峡约75公里，这一事态发展引发国际社会对航行自由受到威胁的严重关切。",
+      "在‘9·11’恐怖袭击事件25周年之际，联合国秘书长发言人和联合国人权事务高级专员办事处分别发表声明，缅怀遇难者，向幸存者和救援人员致敬，并强调打击恐怖主义与维护人权是共同责任。安理会在9月11日当天举行会议，指出恐怖主义威胁正变得更加分散、隐蔽，并日益利用新技术。联合国强调，国际社会必须加强合作和预防，同时确保反恐行动符合国际法和人权。根据最新数据，地球刚刚经历了有记录以来最热的8月份。今年8月，全球海表温度达到有观测以来的最高值，北极和南极的海冰范围均低于平均水平。8月份，全球热带气旋活动高于平均水平，共产生了19场热带风暴。欧洲今年夏天的极端高温已夺去数万人的生命，并重创欧洲基础设施、企业及经济，损失1800亿欧元，相当于欧洲国内生产总值减少一个百分点。",
+      "联合国儿童基金会周三发布的一份最新分析报告显示，2025年全球有超过1.71亿名学龄儿童和青少年因风暴、洪水、热浪、干旱和野火等气候灾害而中断学业，相当于每10名学生中就有1名。世界卫生组织周二警告称，吸烟极有可能增加备孕难度，并强调吸烟女性的不孕风险比非吸烟者高出40%。全球每六人中就有一人受不孕症影响。吸烟不仅与女性不孕症有关，还会损害男性的精子质量和性功能。二手烟也会影响生育能力。",
+      "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧。据政府间组织国际能源署预测，到2030年，数据中心的电力消耗预计将几乎翻一番——从2025年的485太瓦时增至2030年的950太瓦时，相当于全球电力需求的3%。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球治理"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142779",
+      "originalTitle": "【世界进行时】2026年9月11日",
+      "publishedAt": "Fri, 11 Sep 2026 12:00:00 +0000",
+      "retrievedAt": "2026-09-12T23:12:25.259Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-12T23:12:20.623Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-12-why-do-these-fossil-shells-flip-their-spirals-ev",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "为什么化石壳每隔几千年就会翻转螺旋方向？",
@@ -3063,260 +3267,6 @@
       "src": "/editorial/2026-08-28/2026-08-28-the-flat-pack-skyscraper-how-wood-can-shape-the-.webp",
       "alt": "木制摩天楼与树木剪影的冷色插图",
       "caption": "木材建筑与自然共生",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-27-volcanoes-that-made-history",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "改变历史的大喷发",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-27",
-    "intro": "从喀拉喀托的惊天爆炸，到可能引发黑死病的无名火山，冰芯和年轮记录着大喷发如何悄悄改变气候、农业和文明。",
-    "paragraphs": [
-      "1883年8月27日，印度尼西亚的喀拉喀托火山猛烈喷发，摧毁了爪哇和苏门答腊之间的两座岛屿，还削平了第三座的大部分。超过36,000人在灾难中丧生，其中大多数死于火山喷发引发的巨大海啸。这是人类历史上第一次通过电报实时传遍全球的火山灾难，也让科学家第一次有机会在近实时中记录其影响，并由此奠定了现代火山学的基础。",
-      "大喷发不仅会毁掉眼前的一切，还会改变地球的气候。火山喷出的硫在高空形成微小的气溶胶颗粒，把阳光反射回太空，使地球降温。喀拉喀托喷发后，北半球非热带地区的夏季温度平均下降了0.6摄氏度（1.1华氏度）。如今，科学家通过分析极地冰芯和树木年轮，寻找古代火山留下的印记，并把它们和历史上的干旱、饥荒、瘟疫及社会动荡联系起来。",
-      "公元536年，欧洲、中东和亚洲的文献都记载了怪异的天气：太阳被一层雾气遮挡了长达18个月，气温骤降，庄稼歉收，几年后还出现了第一次有记载的全球瘟疫。极地冰芯里的硫沉积表明，那一年确实发生过大喷发，但具体是哪座火山喷发，至今仍然是个谜。当时冰岛可能尚未有人居住，因此没有留下任何目击记录。",
-      "1257年，印度尼西亚的萨马拉斯火山爆发，按硫排放量计算，是最近几千年里最大的一次。树轮研究显示，1257至1259年间，北美和欧亚大陆广泛降温；英格兰因收成失败而出现饥荒，日本因湿冷夏季导致水稻减产。一些研究者推测，这次喷发带来的气候变化，可能与蒙古帝国的衰落存在关联——其最后一位统治者于1259年在中国死于一场流行病，该疫情或与喷发引发的气候异常有关。",
-      "1345年前后，可能又有一座未知火山喷发，导致欧洲南部1345、1346和1347年夏季异常寒冷潮湿。粮食歉收后，欧洲人从更远的东方进口谷物，运粮船上的老鼠携带鼠疫杆菌（Yersinia pestis），研究者认为这可能是黑死病在欧洲大规模蔓延的重要诱因之一；1346至1352年间，欧洲约一半人口死于这场瘟疫。",
-      "1783年6月起，冰岛拉基火山开始持续喷发，历时八个月。有毒气体和气候异常导致冰岛至少五分之一人口死亡、大量牲畜死亡。远在法国的美国大使本杰明·富兰克林注意到前一年笼罩欧洲的异常雾霾，并将其与遥远的火山喷发联系起来。在没有新闻推送、没有直播的年代，人们只能依靠观察与推理理解这场地球深处的剧变。这些火山的故事提醒我们：理解过去的大喷发，有助于思考当今社会如何应对快速气候变化。"
-    ],
-    "topics": [
-      "气候与能源",
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/volcanoes-that-made-history-1284447/",
-      "originalTitle": "Volcanoes That Made History",
-      "publishedAt": "Wed, 26 Aug 2026 13:00:00 +0000",
-      "retrievedAt": "2026-08-27T00:54:13.738Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-27T00:54:11.257Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 28,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Volcanoes That Made History",
-      "intro": "When Krakatau exploded in 1883, telegraph wires carried the disaster around the world in near real time.",
-      "paragraphs": [
-        "The first telegram arrived in Singapore on a Monday. It was sent from Batavia in the Dutch East Indies. That city is now Jakarta, Indonesia. It reported: 'Terrific detonations from Krakatau (volcanic island).'. Soon afterward: 'Stones falling. Village near Anjer washed away.'. The wires continued clattering out news. Bridges were destroyed. Boats were smashed. Lighthouses 'disappeared.'. By noon on Tuesday, the scope was clear: 'Where once Mount Krakatau stood the sea now plays.'. Within days, the source was known worldwide. On August 27, 1883, a volcanic eruption obliterated two islands in the strait between Java and Sumatra. It also destroyed most of a third island. More than 36,000 people perished. Most died in devastating tsunamis. Those tsunamis raced outward from the colossal explosion. Thanks to Victorian-era telecommunications, this was the first time people worldwide could document a catastrophic volcanic eruption in near real time.",
-        "In the months after Krakatau, volcanic particles drifted high in the atmosphere. They circled the globe. They caused violently colored sunsets. Contemporary artists captured those sunsets in paintings. That may include the psychedelic background of Edvard Munch’s The Scream. The key climate-driving component was sulfur. It came from the molten rock that fed Krakatau. Once sulfur erupts into the atmosphere, it forms aerosols. These aerosols reflect sunlight. They cool Earth. After the eruption, average summer temperatures fell. They fell 0.6 degrees Celsius in non-tropical Northern Hemisphere regions. That equals 1.1 degrees Fahrenheit. Researchers now understand that rapid climate changes transform societies. They affect agriculture, public health and living conditions. Volcanologists use lessons from Krakatau and other eruptions. They identify past blasts that may have contributed to droughts, famines, epidemics and societal unrest.",
-        "In the year 536, scribes in Europe, the Middle East and Asia wrote about bizarre weather. A haze shrouded the sun for 18 months. Temperatures plummeted. Harvests failed. Within a few years, the first documented global plague began. These chronicles strongly suggest a major volcanic eruption. Hard evidence lies in polar ice. Scientists look for sulfur and ash deposits in ice cores. Those cores come from Greenland and Antarctica. The cores preserve an annual record. They show what circulated in Earth’s atmosphere each year. Researchers read these frozen layers like turning pages of a book. Polar ice cores contain large amounts of sulfur from 536. That is a distinct signal of a major eruption. But the volcano remains unknown. There is no known written record from anyone living close to the eruption. Iceland, where it may have occurred, was not yet populated.",
-        "Until 2013, researchers knew only that a huge eruption occurred in 1257. It was the biggest in the last few millennia by sulfur output. In 2013, a team radiocarbon-dated ash and pumice around Samalas in Indonesia. They tied it to the 1257 eruption. Tree-ring studies show cooling across North America and Eurasia. It lasted from 1257 to 1259. Bad harvests led to starvation in England. Wet, cool summers damaged rice production in Japan. Some researchers speculate that the Samalas eruption helped seal the fate of the Mongol Empire. Its last ruler perished in a 1259 epidemic in China. That epidemic could have been linked to eruption-caused climate changes.",
-        "Between 1346 and 1352, perhaps half of Europe’s population died in the Black Death. It was caused by Yersinia pestis. Historical records suggest skies were darker than usual. That may be due to volcanic haze. Ice-core records document a big eruption around 1345. The location remains unknown. Ulf Büntgen led a team at the University of Cambridge. They used tree-ring data. It confirmed unusually cold and wet summers in southern Europe. That was in 1345, 1346 and 1347. As crops failed, Europeans imported grain from farther east. Grain ships arrived with rats carrying Y. pestis. Researchers argue the 1345 eruption may have set off a chain of events. That chain killed tens of millions of people.",
-        "The source was Laki, an Icelandic fissure. It spewed lava for eight months. That started in June 1783. The eruption killed at least one-fifth of Iceland’s people. It killed much of its livestock. Toxic fog and ruined harvests caused the deaths. The event was well-documented in Iceland. Observers in England, France and elsewhere saw the haze. Some smelled its foul odor. But they could only guess what was happening. They lived in a disconnected, pre-electronic world. Katrin Kleemann says: 'They wouldn’t get news alerts on their phone. They wouldn’t see livestreams of this eruption. They would have no idea.' She has studied the eruption."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-27T01:09:15.586Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-27/2026-08-27-volcanoes-that-made-history.webp",
-      "alt": "火山喷发与灰白烟柱延伸至农田",
-      "caption": "大喷发与气候变迁",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-27-2ts8kg",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国用可负担的技术共享，让发展中国家也能参与全球科技",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-27",
-    "intro": "一位国际科学教育者发现，中国用可负担的价格分享技术，正在为发展中国家打开参与全球科技合作的大门。",
-    "paragraphs": [
-      "如果一个国家想要发展科技，却因为技术太贵而被挡在门外，会怎么样？“一带一路”国际科学教育协调委员会副主席曼祖尔·胡塞恩·索木尔在接受科技日报采访时直言：“中国始终致力于与全球各国开展合作，潜力巨大。”在他看来，面对全球科技格局的深刻变革，中国展现出的开放姿态，正在让发展中国家真正有机会参与到全球科技治理中来。“如果把这种合作思维运用到太空探索和缓解气候变化等领域，人类社会就能更好地应对全球性挑战。”",
-      "曼祖尔注意到，中国在过去二十年里发展速度持续加快。他更看重的是，中国在自身发展过程中开展科技合作的方式。全球科技合作中曾长期存在不合理模式，而中国选择了不同的路径，推动技术共享与开源生态建设。“中国以可负担的价格分享技术，提供优质的产品和设备，这对发展中国家来说是一种赋能。”他说，这种转变的意义不限于技术本身的进步，因为它让更多国家有机会参与进来，而不是被排除在外。",
-      "除技术共享外，中国在人工智能治理上的积极举措同样令他印象深刻。“能力越大，责任越大，”他表示，大国应共同承担起确保人工智能服务于积极目标的责任。中国在全球人工智能治理领域的理念和行动，有望为全球科技向善发展提供有力支撑。",
-      "曼祖尔高度评价中国在科技治理与科学教育领域的实践。他说，科学普及工作看似基础，却是支撑一个国家科技能力的重要方面。中国在该领域务实的发展经验，正为更多国家提升整体科技素养提供借鉴。",
-      "这种务实也延续到了共建“一带一路”倡议的合作中。曼祖尔表示，中国不仅重视基础设施建设，如今正进一步与各方开展数字基础设施和人才能力培养合作。他所在的机构曾与中国科协等共建联合培训中心，用于开展科技创新能力建设培训。“从‘修路’到‘育人’，正是合作不断深入的体现。”"
-    ],
-    "topics": [
-      "一带一路",
-      "国际科学教育",
-      "技术共享"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-08/27/content_570101.html",
-      "originalTitle": "“一带一路”国际科学教育协调委员会副主席曼祖尔：中国特色的技术共享为发展中国家赋能|外国专家看中国",
-      "publishedAt": "2026-08-27",
-      "retrievedAt": "2026-08-27T01:01:12.274Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-27T01:00:53.613Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 8,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-08-27-to-dismantle-the-concept-of-separate-but-equal-t",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "瑟古德·马歇尔如何用一个个案子拆掉‘隔离但平等’",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-27",
-    "intro": "在美国种族隔离最顽固的年代，黑人律师瑟古德·马歇尔没有指望一次胜诉就推翻制度，而是通过一系列高等教育案件，把‘隔离但平等’的法律高墙一点点凿开。",
-    "paragraphs": [
-      "1945年11月，37岁的瑟古德·马歇尔来到俄克拉何马州小镇麦卡莱斯特，宣布要把一名黑人学生送进该州只收白人的旗舰大学——俄克拉何马大学。他当时已是全国有色人种协进会（NAACP）法律辩护基金负责人，当众表示：‘这是进入俄克拉何马法院最容易打赢的案子’，甚至说‘连在密西西比州也能打赢这种案子’。但当时所有通往教育公平的道路都被1896年最高法院‘普莱西诉弗格森案’堵死——该案确立‘隔离但平等’为合法原则。马歇尔清楚，要 dismantling Jim Crow，不能靠一次‘全面进攻’，而必须‘逐个击破’，一案一案地削弱普莱西案的根基。",
-      "马歇尔自己就曾因肤色被马里兰大学法学院拒之门外，这一不公成为他职业生涯的重要动力。后来他在霍华德大学法学院遇到查尔斯·休斯敦——时任法学院院长、后来的NAACP首席律师。休斯敦提出一个更务实的策略：不先挑战中小学隔离，而是聚焦高等教育中的不平等；用法律施压，迫使各州要么为黑人学生建立真正平等的专业学院，要么开放白人学校。马歇尔以全班第一成绩毕业后，被休斯敦招募加入NAACP法律团队，成为这一策略的核心执行者。",
-      "这条路起初并不顺利。1938年，休斯敦与马歇尔成功说服最高法院裁定：黑人学生劳埃德·盖恩斯有权进入密苏里大学法学院。但盖恩斯在开学前神秘失踪，再无音讯；他最后已知的信件写给母亲，提到自己承受着‘为1300万黑人争取长久成功’的压力。休斯敦随后退休，马歇尔接任NAACP新成立的法律辩护基金负责人。他带领团队在南方寻找坚定、可靠、不会中途退却的原告。1945年，他们找到21岁的艾达·路易斯·西普尔——俄克拉何马州学院毕业生、有志成为律师。她的父母曾在1921年塔尔萨种族屠杀后逃离格林伍德黑人社区。西普尔于1946年1月申请俄克拉何马大学法学院，因种族被拒；官司两年后打到最高法院。马歇尔此次直接挑战普莱西案，称‘隔离但平等’‘毫无法律基础’。法院最终裁定西普尔有权接受法学教育，但刻意回避了‘隔离本身是否违宪’这一核心问题；仅要求校方‘以任何方式’提供法律教育。州政府随即在州议会大厦几个空房间里仓促设立一所黑人法学院，西普尔拒绝入学。",
-      "类似情况接连发生：1948年，黑人教授乔治·麦克劳林被俄克拉何马大学研究生院录取，却被强制坐在白人学生之外的单独角落，不得共进午餐；得克萨斯州33岁黑人邮递员赫曼·斯韦特申请德州大学法学院遭拒，州政府为他另设一所‘影子法学院’。马歇尔意识到，只要继续容忍‘隔离’前提下的‘设施平等’，各州就会不断花钱建假学院来规避实质融合。1950年4月，他和NAACP同事在最高法院同时为斯韦特案与麦克劳林案上诉，核心论点是：强制隔离本身即构成屈辱，违反第十四修正案平等保护条款——‘就算建一所一模一样的法学院，只要它仍然隔离，就是不平等的’。",
-      "1950年6月5日，最高法院裁定：俄克拉何马与得克萨斯两州对麦克劳林和斯韦特的隔离安排必须废除。但首席大法官弗雷德·文森在判决意见中明确写道：‘更广泛的议题已被提出供我们考虑，但我们坚持只在具体案件语境中裁决宪法问题’，再次回避了‘普莱西案是否违宪’这一根本命题。这场胜利在黑人报刊和NAACP总部广受庆祝——‘到处都是苏格兰威士忌和波本酒’，一位律师回忆道；但也有黑人领袖担忧判决范围过于狭窄。正是这些看似有限的胜利，为1954年‘布朗诉托皮卡教育局案’彻底推翻‘隔离但平等’铺平了道路。"
-    ],
-    "topics": [
-      "历史",
-      "法律与社会"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Smithsonian History",
-      "region": "international",
-      "url": "https://www.smithsonianmag.com/history/dismantle-concept-separate-equal-thurgood-marshall-methodically-devised-winning-strategy-divide-conquer-180989278/",
-      "originalTitle": "To Dismantle the Concept of Separate but Equal, Thurgood Marshall Methodically Devised a Winning Strategy: Divide and Conquer",
-      "publishedAt": "Wed, 26 Aug 2026 12:00:00 +0000",
-      "retrievedAt": "2026-08-27T01:05:04.872Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-27T01:04:26.533Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 39,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Thurgood Marshall Chipped Away at Segregation",
-      "intro": "Thurgood Marshall used a step-by-step legal plan to tear down the 'separate but equal' doctrine.",
-      "paragraphs": [
-        "Thurgood Marshall walked into McAlester, Oklahoma in November 1945. He looked confident. At 37 years old, he was head of the NAACP Legal Defense Fund. He announced a new plan. He would get a Black student enrolled at the University of Oklahoma. That school was the state’s all-white flagship college. He boasted: 'This is the easiest case to beat that ever entered the courts of Oklahoma.' He added: 'I could win this type of case even down in Mississippi.' The NAACP had tried and failed to take on Jim Crow segregation in education before. All roads to justice were blocked by Plessy v. Ferguson. That was the 1896 Supreme Court ruling. It legally protected segregation under the 'separate but equal' doctrine. The court called segregated schools a 'valid exercise of ... legislative power.' But Americans of all races knew 'separate but equal' was a farce. Black students were too often shunted to poor, racially isolated schools. Those schools offered fewer opportunities than white ones.",
-        "Marshall had personal reasons to fight. He set his sights on enrolling at the University of Maryland’s law school. He was unable to attend because of the color of his skin. That injustice motivated much of his career. In 1930, he enrolled at Howard University. There he met Charles Houston. Houston was the stern new dean of the law school. He instilled a sense of purpose in his young students. He predicted Black lawyers of Marshall’s generation would become the social engineers of a new America. Marshall graduated at the top of his class. Houston then recruited him to help with legal work for the NAACP. The NAACP wanted to improve Black schools. In the 1920s, it planned to file targeted lawsuits. Those suits would increase funding for Black schools case by case. In 1931, Nathan Margold argued the organization should challenge the constitutionality of segregation directly.",
-        "In January 1946, Ada Lois Sipuel applied to the University of Oklahoma’s law school. She was denied because of her race. Marshall and the NAACP quickly filed suit. Within two years, the case reached the Supreme Court. This time Marshall attacked Plessy directly. He declared the 'separate but equal' doctrine was 'without legal foundation.' The Supreme Court ruled in Sipuel’s favor. But the decision sidestepped whether 'separate but equal' was constitutional. The court held only that Sipuel deserved a law school education. It left open how the University of Oklahoma might provide it. State officials created a sham Black law school. It was located in a few spare rooms in the state capitol. Sipuel refused to enroll. In Texas, Heman Sweatt filed suit to enroll at the University of Texas law school. The state set him up in a separate, charade law school.",
-        "Marshall realized colleges would not budge from 'separate but equal.' Even spending new money on Black facilities did not change that. So in April 1950, he and his NAACP colleagues argued appeals in the Sweatt and McLaurin cases before the Supreme Court. They said forced segregation violated the equal protection clause of the 14th Amendment. They said this was true regardless of facility quality. Their brief stated: 'The very fact of segregation establishes a feeling of humiliation and deprivation to the group considered to be inferior.' Marshall said simply: 'They can build an exact duplicate [of the law school], but if it is segregated, it is unequal.' On June 5, the Supreme Court ruled that segregation policies keeping McLaurin and Sweatt separate from white classmates had to be abolished. Chief Justice Fred Vinson wrote: 'Broader issues have been urged for our consideration... but we adhere to the principle of deciding constitutional questions only in the context of the particular case before the court.'",
-        "These victories were widely celebrated in the Black press and at NAACP headquarters. One attorney recalled 'there was lots of Scotch and bourbon.' Some Black leaders worried about the narrow scope of the rulings. Marshall believed an 'all-out attack' on segregation could not be achieved with a single judicial ruling. The cruel logic of Plessy would have to be chipped away piece by piece. Case by case. Brown v. Board of Education came in 1954. It is widely remembered for tearing down 'separate but equal' in schools. That landmark ruling could not have happened without courageous students. They were willing to barrel across the color line in the decades prior. Marshall once remarked: 'You just simply cannot have a little segregation.' He added: 'You cannot rationalize on the necessity of segregation at all.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-27T01:11:04.251Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-27/2026-08-27-to-dismantle-the-concept-of-separate-but-equal-t.webp",
-      "alt": "高墙缺口与倾斜天平",
-      "caption": "凿开隔离之墙",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-08-25-a-new-framework-for-how-the-brain-compresses-our",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "大脑如何压缩嘈杂世界？新框架：预测，而非归档",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-08-25",
-    "intro": "两位神经科学家提出新观点：大脑不是被动归档感觉的“文件柜”，而是一台为生存而预测的引擎。",
-    "paragraphs": [
-      "你有没有过这样的经历？走在安静的街上，突然听到一阵急促的啪嗒声——你扭头一看，原来是一只鸽子扑棱棱飞起来。可如果是深夜走进一条昏暗的小巷，同样的声音，你会觉得是陌生人的脚步声。同一个声音，为什么大脑会给出完全不同的判断？这背后，是大脑压缩世界的方式。",
-      "我们每时每刻都被海量感觉包围：光线进入眼睛，声波撞击耳膜，气味分子钻进鼻子，化学物质接触味蕾，压力和热量激活皮肤神经末梢。大脑必须做大量的数据压缩，才能把混乱、嘈杂、信息丰富的世界，变成我们能理解、能应对的对象、人、概念和情绪。传统神经科学认为，分类发生在感觉处理的最后一步：大脑被动接收感官细节，再解码特征，然后像翻神经文件柜一样，与记忆中存储的模板匹配。",
-      "两位著名神经科学家——美国东北大学的丽莎·费尔德曼·巴雷特和麻省理工学院的厄尔·米勒——在《自然·神经科学评论》上合作提出新框架。他们描述大脑如何‘持续重构其类别’，不仅依据感官和记忆，还依据身体的即时生理需求。米勒指出：‘你的脑必须不断对接下来几秒会发生什么做出预测，因为它得滤掉大部分传入的感觉信息——它无法全部处理，所以主要寻找与预测不匹配的东西，因为那才更有信息量。’",
-      "新框架最反直觉的地方在于：我们通常以为，分类反映的是客观现实；但研究者指出，大脑是根据身体的生存需要，把类别‘投射’到世界上。甚至在我们意识到感官印象之前，大脑已在准备让身体做出维持能量资源的行为——这些资源驱动着我们的生理系统。因此，大脑的预测，而非感官信息的累积，最终塑造并限制了我们如何分类世界中的对象与特征。情绪如‘恐惧’‘高兴’‘愤怒’，在该框架中被视为预测性‘行动计划’：例如被狗追赶时，心跳加快、呼吸急促、肌肉紧张等身体状态，在该情境下被归类为‘恐惧’，以启动战斗或逃跑行为。巴雷特的研究表明，情绪类别并非天生硬连线，而是大脑结合内部身体信号与外部情境动态构建的。",
-      "巴雷特定义：‘类别是在特定情境中，不同事物被当作相似或等同的事件。’类别可以很基础，如‘食物’‘威胁’‘伴侣’；人类还能形成高度抽象的类别，如‘正义’‘真理’‘美’。一个‘苹果’的类别，不仅包含光滑、圆形、红色、手掌大小等物理特征，还包括一套行为策略：‘适合吃’或‘腐烂时扔掉’。分类的功能，是利用类似过去情境的经验，实施能维持身体系统功能的行为。传统观点认为，我们通过积累特征（如尾巴、耳朵、毛发）来形成‘猫’这类别；而新观点强调：大脑在感官尚未识别出传统类别前，就已调用相似过往情境的记忆，预测出当前最恰当的行为。",
-      "想象你走着走着，腿上被刮了一下。如果身处安全环境且心情平静，你可能毫不在意。但如果正穿行于陌生之地的高草丛中，心跳和呼吸已加快——这一下刮擦可能立刻触发警觉：它不再是普通触碰，而可能意味着危险。同样感觉信号，因情境与身体预测不同，被归入不同类别。这就是大脑压缩世界的方式：它不追求复刻现实，而是用预测与分类，让你在复杂世界中快速存活。"
-    ],
-    "topics": [
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
-      "originalTitle": "A New Framework for How the Brain Compresses Our Noisy World",
-      "publishedAt": "Mon, 24 Aug 2026 14:00:55 +0000",
-      "retrievedAt": "2026-08-24T21:48:27.141Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T21:48:24.667Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 6,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A New Framework for How the Brain Compresses Our Noisy World",
-      "intro": "Two neuroscientists have proposed a new way to understand how the brain sorts our messy sensory world into categories.",
-      "paragraphs": [
-        "Every moment of our lives, our bodies are awash in sensory signals. Photons hit our retinas. Waves of compressed air collide with our eardrums. Volatile molecules bind to receptors in our nostrils. Chemicals slather our taste buds. Pressure and heat activate nerve endings in our skin. We are able to navigate this torrent because the brain does an enormous amount of data compression. Through categorization, the brain turns the messy, noisy, information-rich world into objects, people, concepts, and emotions. We can understand and act on them at the level of experience.",
-        "In neuroscience’s traditional view, categorization happens at the very end of sensory processing. The brain passively receives sensory details. Then it decodes their features. It matches them to stored templates in memory. This is like a clerk shuffling through a neural filing cabinet. But this approach struggles to account for the extraordinary flexibility in how we assign labels to features of the world. On a clear day on an open street, a sudden rhythmic patter is a pigeon taking flight. At night in a dimly lit alley, the same sound is the shuffle of a stranger’s footsteps. How can the brain categorize similar sensory signals in radically different ways?",
-        "Lisa Feldman Barrett studies emotion at Northeastern University. Earl Miller studies goal-directed behavior at MIT. They collaborated on a new view of categorization. They describe how the brain constantly reconstructs its categories moment to moment. This depends not only on senses and memory, but on the body’s immediate physiological needs. Their framework holds a counterintuitive insight. While we may think categories reflect objective reality, the brain projects them in response to survival needs. Before we are even aware of sensory impressions, the brain prepares the body. It does so to maintain energetic resources that power our physiological systems.",
-        "The brain’s predictions — not the cumulative effects of sensory information — shape and limit how we categorize. This fits with predictive coding. Predictive coding regards perceptions as products of the brain’s predictions. It does not build scenes from passive sensory input. Your brain constantly makes predictions about the next few seconds. It filters out most incoming sensory information. It cannot process it all. So it mainly looks for mismatches with predictions. These mismatches are more informative. When sensory signals violate your predictive model, they might enter conscious experience as surprise. Categorization does not happen in one brain area. It happens across the entire organ and beyond. Neuroscientists must look all over the nervous system, from head to toe.",
-        "A category is an event in which different things are treated as similar or equivalent in a particular situation. The function of categorization is to use past experiences that resemble a new situation. This helps implement behaviors that keep our bodily systems functioning. The category 'apple' includes physical features: smooth, round, red, palm-size. It also includes behavioral policies: 'good for eating' or 'throw out when rotten.' The reason for categorization is to support the current task. You categorize something according to what meaning it has for you."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-08-24T22:00:53.683Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-08-25/2026-08-25-a-new-framework-for-how-the-brain-compresses-our.webp",
-      "alt": "抽象大脑由碎片聚拢成漩涡",
-      "caption": "大脑压缩与预测的抽象示意",
       "kind": "editorial"
     }
   }
