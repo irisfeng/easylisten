@@ -1,21 +1,22 @@
 [
   {
-    "slug": "2026-09-26-6isza9",
+    "slug": "2026-09-26-ai",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从跟跑到领跑，“中国天眼”落成十周年",
+    "title": "人类只给了AI一个检索方向，它自己发现了一种未知酶系统",
     "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-09-26",
-    "intro": "2016年9月25日，“中国天眼”（FAST）正式落成启用。十年后，它已成长为世界射电天文领域的核心科研设施，发现脉冲星总数达1284颗，远超同期国际上所有其他望远镜发现数量的总和。",
+    "intro": "据科技日报报道，Anthropic公司当地时间9月23日公布其生命科学研究组及实验室研究成果：在人类仅给出高层检索方向的情况下，Claude智能体并行分析基因组数据，自主发现一种此前未完整表征、存在于噬菌体中的酶系统，命名为阵列相关逆转录酶（ART），但其实际生物学功能仍待实验确认。",
     "paragraphs": [
-      "2016年9月25日，“中国天眼”（FAST）正式落成启用。十年后，当我们站在这个节点回望，FAST已成长为世界射电天文领域的核心科研设施。作为“国之重器”，FAST不仅改写了中国射电天文学的历史，更为人类探索宇宙奥秘贡献了不可或缺的中国力量。FAST的故事，始于1993年。那年，在日本京都召开的国际无线电科学联盟大会上，各国天文学家发出倡议：要在全球电波环境继续恶化之前，建造新一代射电望远镜。中国科学院北京天文台（现中国科学院国家天文台）的南仁东敏锐地意识到，“这是中国必须抓住的机会”。1994年，以南仁东为代表的中国天文学家提出利用贵州喀斯特洼地建造500米口径球面射电望远镜的工程构想。同年6月，选址工作正式启动。",
-      "此后，南仁东团队先后对比了1000多个洼地，带着300多幅卫星遥感图，徒步踏勘了上百个窝凼，历经十余年的艰辛勘探，最终锁定了贵州平塘县的大窝凼作为最佳台址。选址工作推进的同时，预研工作也在同步进行。1999年，中国科学院启动重大项目“大射电望远镜FAST预研究”。彼时，很多国外同行并不看好这一项目，但中国天文学家没有放弃，而是继续完善预研，奋力推进项目。2007年7月10日，国家正式批复立项FAST工程。",
-      "2011年3月25日，FAST正式开工建设。FAST的反射面有30个足球场大，由4450块三角形铝板拼接而成，不仅成为世界上最大的单口径射电望远镜，更在技术上领先世界，灵敏度达到当时最先进的阿雷西博望远镜的2.25倍。在建设过程中，最大的技术挑战来自索网结构。FAST的索网要支撑起一个500米口径的反射面，而且在整个望远镜生命周期里，索网要在球面和抛物面之间频繁变位，耐疲劳性能必须达到200万次。当时，世界上没有任何国家生产这种级别的钢索。作为索网系统负责人的姜鹏临危受命，带领团队耗费近两年时间，经历近百次失败，终于研制出在500兆帕应力幅下可实现200万次弯曲的成品钢索，疲劳性能是传统标准的2.5倍。这一突破催生了12项自主创新专利。FAST索网是当时世界上跨度最大、精度最高的索网结构。2015年2月4日，索网成功合龙，FAST渡过了建设阶段最艰难的一关。2016年9月25日，FAST正式落成启用。FAST的建成，离不开南仁东和他的团队22年的奋斗与坚持，是他们让FAST从一纸蓝图变为现实。",
-      "FAST落成后不久，便在多个领域产出了重要科学成果。2017年，FAST公布首批观测成果，成功发现6颗新脉冲星，一举实现我国射电望远镜自主发现脉冲星“零”的突破。2020年1月通过国家验收后，FAST正式开放运行，开启大规模系统性巡天。截至2026年9月，FAST发现脉冲星总数已达1284颗，远超同期国际上所有其他望远镜发现数量的总和。2023年6月，中国脉冲星测时阵列（CPTA）研究团队利用FAST对57颗毫秒脉冲星进行长达3年5个月的精密监测，首次获得纳赫兹引力波存在的关键证据，这一成果标志着我国在这一领域达到国际领先水平。2026年1月，利用长达2年多的观测数据，中国科学院紫金山天文台联合国内外团队，在国际上首次捕捉到重复快速射电暴法拉第旋转量发生剧烈跃变并随后回落的详细演化过程，为“快速射电暴起源于双星系统”假说提供了直接且关键的观测证据。此外，FAST在地月空间目标探测、脉冲星时间基准以及小行星防御等应用领域取得重要进展，服务于国家空天安全和重大战略需求。",
-      "FAST始终坚持开放共享的运行模式，全球科学家正基于FAST共享的观测数据开展研究。2021年3月起，FAST正式向全球天文学家开放观测申请。FAST用十年证明了中国创新的韧性与高度。更重要的是，FAST为中国培养了一大批射电天文领域的青年人才，他们将在天文学研究中持续发挥作用。未来，FAST将继续聚焦脉冲星观测、快速射电暴、中性氢等重要领域，争取产生更多前沿突破。从蓝图到巨眼，FAST的建成还带动了贵州当地的发展——曾经与世隔绝的大窝凼，如今已成为科技新名片，每天都有慕名而来的游客登上山顶观景台，眺望FAST壮观的“身姿”，他们同时也见证了中国天文学的发展从“跟跑”到“领跑”的跨越。苍穹之下，探索不止——FAST的征途，永远是下一片未知的星域。"
+      "如果要在海量基因组数据里找一种从没人完整描述过的东西，你会怎么做？过去，这通常意味着一位科学家先提出假设，再花几周甚至几个月去筛选。这一次，人类只给出了一个高层检索方向，剩下的交给了一群人工智能智能体。据科技日报报道，美国人工智能公司Anthropic当地时间23日公布了它生命科学研究组及实验室的这项成果。",
+      "这条研究方向说起来只有一句提示：在大规模DNA序列中寻找值得关注的新型逆转录酶。接下来，约950个Claude智能体并行工作21小时，消耗约2.1亿个词元，先从近20万个逆转录酶中筛出约3500个候选系统，再聚焦20个重点对象。其中一个智能体在查看某噬菌体异常逆转录酶旁的原始序列时，发现一排间隔规则的重复DNA，随后比对已知家族、统计重复单元并检索文献，将其作为新系统提交人工复核。",
+      "这套系统被命名为阵列相关逆转录酶（ART）。按科技日报报道，它由三部分组成：以RNA为模板合成DNA的逆转录酶；相邻、功能尚未明确的伴侣基因；包含规律间隔重复序列的DNA阵列。人类团队在实验室进一步验证，确认该重复阵列能够表达，并产生一组不同短RNA，说明其具有实际转录活动。",
+      "为什么这让人联想到CRISPR？因为CRISPR同样以重复阵列和短RNA引导蛋白识别目标，而少数兼具逆转录能力的系统可切割、复制和粘贴DNA。研究者认为ART值得按RNA引导、酶执行的方向继续探究，但不能据此认定它已具备基因编辑能力。CRISPR领域先驱之一、美国麻省理工学院教授张锋审阅材料后认为，这是AI智能体为生物学发现作出贡献的一个令人振奋的例子。",
+      "Anthropic表示，AI仅承担数据检索、候选筛选和假设整理，湿实验（传统的生物学实验）由人类科学家完成；若此类基因组挖掘可扩展，有望把专家需数周或数月的分析压缩至数小时。该公司同时强调，ART最终能否发展为类似CRISPR的生物技术工具，仍取决于后续对短RNA靶标、伴随蛋白作用及整体调控机制的实验验证。"
     ],
     "topics": [
-      "航天与宇宙"
+      "AI 与计算",
+      "生命与演化"
     ],
     "ageBands": [
       "10-12",
@@ -23,45 +24,59 @@
     ],
     "form": "pick",
     "source": {
-      "name": "科学网新闻头条",
+      "name": "科技日报",
       "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/572122.shtm",
-      "originalTitle": "从跟跑到领跑，“中国天眼”落成十周年",
-      "publishedAt": "2026-09-25 08:19",
-      "retrievedAt": "2026-09-26T00:01:49.951Z",
+      "url": "https://www.stdaily.com/web/gdxw/2026-09/26/content_587534.html",
+      "originalTitle": "总编辑圈点 | 人类仅给出高层检索方向，AI智能体自主发现未知酶系统",
+      "publishedAt": "2026-09-26",
+      "retrievedAt": "2026-09-26T00:43:29.491Z",
       "basis": "full-text",
       "lang": "zh",
       "profile": "realtime",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-09-26T00:01:48.463Z",
+        "reviewedAt": "2026-09-26T00:43:26.649Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
-        "correctionCount": 0,
+        "correctionCount": 8,
         "attempts": 1
       }
     },
-    "image": {
-      "src": "/editorial/2026-09-26/2026-09-26-6isza9.webp",
-      "alt": "冷灰色调下，一只抽象抛物面射电望远镜朝向深灰夜空，点缀微弱光点。",
-      "caption": "十年仰望，聆听宇宙深处的节律。",
-      "kind": "editorial"
+    "en": {
+      "title": "AI Finds a Hidden Enzyme System on Its Own",
+      "intro": "Scientists gave an AI only a high-level search direction—and it autonomously discovered a previously uncharacterized enzyme system in phage DNA.",
+      "paragraphs": [
+        "Anthropic reported on September 23 that its life sciences research team used Claude AI agents to discover a new enzyme system. Human researchers provided only a high-level prompt: to search large-scale DNA sequences for novel reverse transcriptases.",
+        "About 950 Claude agents worked in parallel for 21 hours, consuming approximately 210 million tokens. They screened nearly 200,000 reverse transcriptases and narrowed candidates to about 3,500—then focused on 20 top candidates.",
+        "One agent noticed a regularly spaced array of repeated DNA adjacent to an unusual reverse transcriptase in a bacteriophage’s raw sequence. It compared known families, counted repeat units, and searched literature—then submitted the finding for human review. The system was named ART: array-associated reverse transcriptase.",
+        "ART consists of three parts: a reverse transcriptase (which synthesizes DNA from RNA), an adjacent companion gene of unknown function, and a DNA array with regularly spaced repeats. Human lab validation confirmed the array is expressed and produces a set of distinct short RNAs.",
+        "Like CRISPR, ART uses a repeat array and short RNAs—yet researchers stress it has not been shown to edit genes. CRISPR pioneer Feng Zhang of MIT reviewed the work and called it ‘an exciting example of AI agents contributing to biological discovery.’ Anthropic clarified that AI handled only data retrieval, candidate screening, and hypothesis organization; all wet-lab experiments were done by humans.",
+        "Anthropic notes that if such genome mining scales, analyses requiring weeks or months by experts could be completed in hours. But whether ART becomes a biotech tool like CRISPR depends on further experimental validation—including studies of its short RNA targets, companion protein function, and regulatory mechanisms."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-26T00:50:59.741Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
     }
   },
   {
     "slug": "2026-09-26-gravity-seems-holographic-what-does-that-mean-fo",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "引力可能是全息的，空间内部的全部信息也许都写在它的表面上",
+    "title": "引力像全息图：空间可能只是表面的投影",
     "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-09-26",
-    "intro": "把任何一块空间装进盒子，理论上只要反复测量它的表面，就能推算里面发生的一切——物理学家把这个想法叫做全息原理。",
+    "intro": "科学家发现，描述一个空间区域里所有事情的信息，也许全藏在它的表面上——就像一张全息贴纸能‘装下’一只立体鸟。",
     "paragraphs": [
-      "先做一个想象。把任何一块空间装进一个盒子里，盒子里可以是乱撞的气体分子，也可以是正在碰撞的黑洞。全息原理说，你根本不用打开盒子，只要反复测量盒子表面上的点，就能推算出里面发生的一切。换句话说，填满一个盒子需要多少东西，和涂满它的表面需要多少颜料，是同一个数量。这违反了我们熟悉的几何常识——平方米和立方米本来是两回事。全息照片看着有立体感，其实只是一张平的底片；而全息原理说得更彻底：照片里的那只鸟，和一只真鸟，携带的信息是一样的。",
-      "为什么有物理学家认真对待这么离谱的说法？清华大学的巴尔特克·捷克用一个比喻说明它的分量。医院做CT，是用X光从几百上千个角度拍断层图像，再重建出大脑的三维结构。全息原理等于说，你根本不用看进大脑里面，只拍它的表面，就足以重建每一条褶皱、每一根血管和每一个神经元。捷克说，这一切追溯到同一个源头，‘a miracle of gravity’（引力的一次奇迹）。一个多世纪前，科学家就知道引力和其他力不同。假如盒子里装的是电荷，也就是电磁力，事情会很麻烦：正电荷和负电荷的效果互相抵消，不同的排布在表面看起来一模一样，你从外面分辨不出来。可引力里扮演电荷角色的是质量，而质量永远是正的，没有负质量。所以空间弯曲的方式只有一种，你总能从表面的时空弯曲，反推出盒子里唯一真实的排布。",
-      "真正让全息原理难以忽视的，是量子力学。1970年代，贝肯斯坦和霍金计算黑洞的熵——熵通常用来衡量一个东西里装得下多少内容。他们用量子理论预测黑洞吞下粒子后如何长大，结果令人困惑：黑洞的熵随着表面积增长，而不是随体积增长。斯坦福大学的伦纳德·萨斯坎德在1990年代顺着这个结果往前推，提出黑洞本身就是一个全息图，里面发生的一切都能从外面看到，某种意义上内部是多余的。萨斯坎德说，他当时觉得这个想法有点疯，但它是所有可能里最不疯的一个。诺贝尔奖得主特·胡夫特和佛罗里达大学的查尔斯·索恩几乎在同一时期得到过相似结论。",
-      "这个论证很有普遍性，因为任何一块空间只要塞进足够多的质量，都能变成黑洞。黑洞名声古怪，却是空间相当典型的例子，它只是把空间那些奇怪的属性放大了。既然黑洞是全息的，而任何一块空间都能变成黑洞，那么照这个推理，你现在坐着的这间屋子也应该是全息的。萨斯坎德说，‘It’s completely general’（它完全普遍）。但也有物理学家不肯接受这种读法。爱丁堡大学的莱瑟姆·博伊尔并不否认贝肯斯坦和霍金的计算，他怀疑的是把它解释成全息图。他认为，一旦给一块空间围上表面——黑洞形成时就是这样——就会出现两种不同的熵。一种告诉你里面装得下多少粒子，它确实取决于体积；另一种叫纠缠熵，里面的粒子和外面的粒子之间存在量子纠缠，表面越大，穿过表面的纠缠越多，这种熵取决于面积，不是体积。在博伊尔看来，这是对同一现象更朴素、更少神秘色彩的解释。",
-      "让全息原理站得更稳的，是另一条更严密的结果：反德西特空间与共形场论的对应关系（AdS/CFT）。它要求我们想象一个和我们不同的宇宙，那个宇宙弯曲得厉害，无限延展的空间可以被装进一个有限的雪花玻璃球里，这种几何叫反德西特空间。作者在文章开头说得很诚实：他听人说过全息原理是数学事实，也听人说过它只是思辨的飞行。引力似乎确实是全息的，但全息这个词到底是在描述空间本身，还是只在描述我们描述空间的方式，物理学家还在争论。"
+      "想象你面前有一个盒子。盒子里可能有气体分子乱撞，也可能有黑洞相撞。但根据‘全息原理’，你根本不用打开盒子，只要反复测量盒子表面的某些点，就能完全知道里面发生了什么。这听起来违反直觉：我们平时总认为，盒子有多大、多深，得看它的体积；可全息原理说，决定它能‘装多少信息’的，反而是它的表面积——就像画一只鸟，不是靠堆砌厚度，而是靠表面那层精细的图案。",
+      "为什么引力特别？因为其他力，比如电，有正负之分：正负电荷可以互相抵消，所以光看盒子外面的电场，你没法唯一确定里面电荷怎么排布。但引力只有‘正质量’，没有‘负质量’。质量只会让时空弯曲，而这种弯曲的方式，在盒子表面就已唯一确定了里面有什么。物理学家说，这是引力给我们的一个‘奇迹’——它让表面和内部之间，有了牢靠的对应关系。",
+      "这个想法最早来自黑洞。上世纪70年代，科学家用量子理论算出：黑洞的‘混乱程度’（叫熵）不随体积变大，而是随表面积增大。后来，斯坦福物理学家伦纳德·萨斯坎德提出：黑洞就像一张全息图——所有发生在黑洞内部的事，其实都编码在它的表面。更惊人的是，任何空间区域，只要塞进足够多质量，就能变成黑洞；所以如果黑洞是全息的，那我们坐的房间、窗外的街道，理论上也可能是全息的。",
+      "当然，也有物理学家提醒我们别太早下结论。爱丁堡大学的拉瑟姆·博伊尔指出：黑洞表面显示的‘熵’，可能有两种来源——一种真跟里面粒子数量有关（取决于体积），另一种叫‘纠缠熵’，来自盒子内外粒子之间的量子连接，它才真正取决于表面积。他说，这未必是空间‘消失’了，而可能是我们把两种不同性质的‘信息量’混在一起读了。",
+      "还有一条更坚实的线索，叫AdS/CFT对应。它设想了一种特殊形状的宇宙——像一个无限大的空间，却被巧妙地‘折进’一个有限的雪球里。在这个数学模型中，描述整个雪球内部的引力理论，竟然和只在雪球表面运行的另一种理论完全等价。这不是比喻，而是已被数千次引用验证的数学事实。它不直接告诉我们现实宇宙是不是全息的，但它证明：引力真的能让‘三维世界’和‘二维表面’成为同一事物的两种写法。"
     ],
     "topics": [
       "物质与数学",
@@ -78,84 +93,127 @@
       "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
       "originalTitle": "Gravity Seems Holographic. What Does That Mean for Reality?",
       "publishedAt": "Fri, 25 Sep 2026 14:40:26 +0000",
-      "retrievedAt": "2026-09-26T00:04:19.025Z",
+      "retrievedAt": "2026-09-26T00:45:34.623Z",
       "basis": "full-text",
       "lang": "en",
       "profile": "depth",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-09-26T00:04:17.216Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 49,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Gravity Seems Holographic",
-      "intro": "Quanta Magazine reports that physicists have found a surprising connection between gravity and quantum mechanics — one that suggests space itself may be holographic.",
-      "paragraphs": [
-        "Imagine a box in space. The holographic principle says you can decipher the entire contents of the box just by repeatedly measuring points on its surface — without ever looking inside. That sounds outrageous. It implies the amount of information in a volume equals the amount that can be encoded on its area. This erases the categorical difference between square meters and cubic meters. Physicists call this the holographic principle. It arises from deep links between gravity and quantum mechanics. Many call it the most profound proposal in theoretical physics in the last 30 years.",
-        "Why would gravity allow this? Gravity is different from other forces. Imagine a box filled with electric charges. Positive and negative charges can cancel, so different internal arrangements can produce identical fields at the surface. You cannot always infer what’s inside. Mass works differently: it is always positive, and there is no negative mass. Mass bends space-time, and the warping at the surface uniquely reveals the arrangement inside. As physicist Laurent Freidel said, 'Intuitively, this is why holography is plausible.'",
-        "The first clue came from black holes. In the 1970s, Jacob Bekenstein and Stephen Hawking calculated black hole entropy — a measure of how much stuff fits inside an object. They found entropy grows with surface area, not volume. In the 1990s, Leonard Susskind proposed black holes are literal holograms: everything inside can be observed from the outside. 'I thought it was a little bit crazy,' Susskind said, 'but I thought it was the least crazy of all the possibilities.' He added: 'It’s completely general.'",
-        "Not every physicist accepts the holographic interpretation. Latham Boyle does not dispute Bekenstein and Hawking’s findings. But he questions whether area-scaling entropy means the interior is illusory. He proposes two distinct entropies: one volumetric (counting particles), and another — entanglement entropy — which scales with area because quantum connections cross the surface. 'That seems like a less mystical, more down-to-earth interpretation,' he said.",
-        "A stronger mathematical foundation is AdS/CFT — anti-de Sitter/conformal field theory. It imagines a universe with special curvature, where infinite space fits inside a finite boundary — like a snow globe. This geometry is called anti-de Sitter space. AdS/CFT sparked a stampede in theoretical physics; its three foundational papers from the late 1990s are the most highly cited theoretical physics works of the digital era. It led to a widely accepted resolution of Hawking’s black hole information paradox: black holes are not inescapable prisons. Physicists studying it often describe it as 'magical' and 'miraculous' — yet still debate what it means for reality."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-26T00:14:00.674Z",
+        "reviewedAt": "2026-09-26T00:45:31.335Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
-        "correctionCount": 8,
+        "correctionCount": 0,
         "attempts": 1
       }
     },
     "image": {
       "src": "/editorial/2026-09-26/2026-09-26-gravity-seems-holographic-what-does-that-mean-fo.webp",
-      "alt": "冷灰色调中，一个半透明立方体，内部网格与表面纹路相互呼应。",
-      "caption": "空间内部的一切，或许都写在它的表面上。",
+      "alt": "浅灰纸面上方悬浮细线构成的立体轮廓，投影线汇聚于纸面边缘。",
+      "caption": "体积里的信息，也许都写在边界上。",
       "kind": "editorial"
     }
   },
   {
-    "slug": "2026-09-26-ai",
+    "slug": "2026-09-26-05-13",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "硅谷巨头呼吁AI减速，是真心的吗？能减得动吗？",
-    "category": "tech",
+    "title": "亚运会｜田径综合：“05后”问鼎“飞人大战” 女子铅球中国13连冠",
+    "category": "culture",
     "author": "轻听编辑部",
     "publishedAt": "2026-09-26",
-    "intro": "Anthropic公司CEO阿莫迪呼吁放缓前沿大模型迭代速度，以应对潜在的AI安全风险，硅谷头部闭源AI实验室集体响应，引发一波AI减速舆论热潮；但一边公开呼吁踩下刹车，一边持续加码算力与技术投入。",
+    "intro": "在名古屋亚运会的百米跑道上，两位年轻人先后刷新赛会纪录；中国女子铅球则把亚运冠军连续延续到第十三次。",
     "paragraphs": [
-      "近期，Anthropic的CEO阿莫迪呼吁放缓前沿大模型迭代速度，以应对潜在的AI安全风险，硅谷头部闭源AI实验室集体响应，引发了一波讨论AI减速的舆论热潮。但一边公开呼吁踩下刹车，一边持续加码算力与技术投入，这番表态究竟是出于对人类未来的真切担忧，还是商业竞争、监管博弈下的话语策略？减速的主张，现实中又究竟能不能落地？",
-      "本期节目是机核网《纵横说》播客，嘉宾为香港中文大学（深圳）公共政策学院助理教授黄靖洋，研究领域包括比较政治经济学、数字治理、政商关系和粤港澳大湾区发展；主持人是《文化纵横》编辑郑涛。",
-      "节目追溯“减速论”的来龙去脉，辨析美国科技圈内各方的立场分歧，拆解美国两党、联邦与地方政府在AI监管上的撕裂现状。阿莫迪为应对AI风险提出三个药方；节目探讨其主张是否‘醉翁之意不在酒’，背后是否存在商业竞争与监管俘获意图；也指出硅谷内部对AI安全问题存在不同看法：从关注现实影响，到主张技术限速，再到‘AI末日论’；开源阵营则质疑限速主张是否意在限制竞争。",
-      "节目指出，联邦层面不太可能采取激进的AI立法，但地方层面已出台很多AI管制措施；AI对美国经济社会基本面的冲击没有人们想象得那么大；黄仁勋质疑当前AI风险到底是工程问题，还是技术发展已不可控；节目还探讨加速减速背后的‘技术神学’：硅谷AI巨头想做AI时代的‘教皇’？极度优绩主义的AI塑造了极度自负的硅谷科技人。",
-      "节目从《复仇者联盟2：奥创纪元》中钢铁侠与马斯克的世界观类比切入，分析今日硅谷科技巨头的世界观如何形成；最后探讨AI安全和治理领域的国际合作空间有多大。",
-      "穿过加速、减速的话语迷雾，节目试图理清硅谷科技巨头们的‘技术神学’和世界观究竟长什么样，又是如何形成的。听完这些线索，或许可以自己判断：当一个行业里最有能力踩刹车的人同时在踩油门，他们说的究竟是哪一种未来。"
+      "9月25日，爱知·名古屋亚运会100米决赛中，17岁的中国选手陈妤颉以11秒06问鼎女子项目，20岁的泰国选手汶颂以9秒90加冕男子项目。两人均打破赛会纪录。汶颂出生于2006年，陈妤颉今年17岁，今年12月将满18岁。",
+      "作为本赛季亚洲女子100米最好成绩保持者，陈妤颉是最大夺冠热门。她直言决赛前非常紧张，“在训练场时腿都在抖，很害怕会抢跑”。但决赛场上，她拿出了一骑绝尘的表现。11秒06也是她自去年全运会至今第三度刷新个人最好成绩。赛后她说，今年12月自己将满18岁，“能在亚运会拿下这个冠军，是我送给自己最好的一份成人礼物”；“我会把目光放到世界舞台上，为中国和亚洲女子短跑取得更好的成绩。”",
+      "男子赛场，继前一天预赛跑出9秒95后，2006年出生的汶颂半决赛跑出9秒91，刷新赛会纪录。决赛他虽起跑处于劣势，但凭借强大的后程能力拿下冠军，并将赛会纪录改写为9秒90。赛后他说，下一个目标是挑战苏炳添9秒83的亚洲纪录。33岁的卫冕冠军、中国选手谢震业和队友曾克理分获第七、第六名。两人都表示很荣幸见证“破10”和新赛会纪录。",
+      "女子铅球比赛中，宋佳媛凭借第二投的19米40锁定冠军，张林茹获得银牌。这是自1978年以来，中国队连续第13次夺得该项目冠军。赛后，宋佳媛说，巴黎奥运会后接受了右肘手术，之后自己一度非常煎熬，“这场比赛给了我极大自信”。她还感谢了亚军张林茹的团队：“这次我教练没能来到前方，我的教练一直和张林茹教练线上连线，我们是个非常团结的团队。”",
+      "男子10000米比赛中，全国纪录保持者王文杰以28分38秒14获得第四名。巴林名将巴莱乌成功卫冕。赛后王文杰说：“最后四圈身体到了极限，目前竞技水平和巴林等队几位选手确实还存在差距。今晚已拼尽全力，没有遗憾。”女子撑杆跳高比赛中，日本选手诸田实咲以4米55夺冠，亚洲纪录保持者、中国选手牛春格在越过4米50之后再无建树，最终获银牌。"
     ],
     "topics": [
-      "AI 与计算",
-      "数字生活"
+      "体育"
     ],
     "ageBands": [
+      "10-12",
       "13-16"
     ],
     "form": "pick",
     "source": {
-      "name": "机核 GCores",
+      "name": "新华体育",
       "region": "mainland",
-      "url": "https://www.gcores.com/radios/220234",
-      "originalTitle": "硅谷巨头呼吁AI减速，是真心的吗？能减得动吗？",
-      "publishedAt": "Fri, 25 Sep 2026 09:30:00 +0800",
-      "retrievedAt": "2026-09-26T00:05:08.162Z",
+      "url": "https://www.news.cn/sports/20260926/381129f64dcd4dcc9b64eac5eb0693a2/c.html",
+      "originalTitle": "亚运会｜田径综合：“05后”问鼎“飞人大战” 女子铅球中国13连冠",
+      "publishedAt": "2026-09-26T01:12:35+08:00",
+      "retrievedAt": "2026-09-26T00:46:46.303Z",
       "basis": "full-text",
       "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-26T00:46:35.559Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "New Sprint Kings at the Asian Games",
+      "intro": "At the Asian Games in Nagoya, two young runners won the 100-meter titles and broke the meet records.",
+      "paragraphs": [
+        "On September 25, the Asian Games in Aichi and Nagoya held the 100-meter finals. In this race, the fastest men and women in Asia ran for gold.",
+        "In the women's final, 17-year-old Chen Yujie from China won in 11.06 seconds. That broke the Games record. She was the season's best Asian performer. She said she was very nervous before the final: 'My legs were shaking at the training track, and I was afraid of a false start.' In the final, she ran far ahead of everyone. The time was her third personal best since last year's National Games. She will turn 18 in December. She called the gold 'the best adult gift for myself' and said she aims to compete on the world stage for China and Asia.",
+        "In the men's final, 20-year-old Boonson from Thailand won in 9.90 seconds. He ran 9.95 in the heats and 9.91 in the semifinal — both new Games records. In the final, he started poorly but powered through the finish. His time broke the previous Games record. After the race, he said his next goal is Su Bingtian's Asian record of 9.83 seconds. China's defending champion Xie Zhenye, 33, finished seventh. His teammate Zeng Keli finished sixth. Both said they felt honored to witness a sub-10-second run and a new Games record.",
+        "In the women's shot put, Song Jiayuan of China won with a throw of 19.40 meters on her second attempt. Zhang Linru of China won silver. This was China's 13th consecutive Asian Games title in the event, dating back to 1978. Song said she had right-elbow surgery after the Paris Olympics and went through a hard time. This win gave her great confidence. Her coach could not attend, so her coach and Zhang Linru's coach coordinated online. She said, 'We are a very united team.'",
+        "In the men's 10,000 meters, China's national record holder Wang Wenjie finished fourth in 28 minutes 38.14 seconds. Bahrain's Balewu successfully defended his title. Wang said his body reached its limit in the final four laps. He admitted a gap remains between his level and those of top Bahraini and other international runners. He added, 'I gave everything tonight — no regrets.' In the women's pole vault, Japan's Misaki Morota won with a jump of 4.55 meters. China's Asian record holder Niu Chunge cleared 4.50 meters but failed at higher heights and took silver."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-26T00:51:39.453Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-09-26-nigeria-faces-the-world-s-highest-projected-deat",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究估算：超级厄尔尼诺或致尼日利亚高温死亡人数全球最高",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-26",
+    "intro": "芝加哥大学气候影响实验室的研究者结合温度预测与全球24,000多个地区的热致死亡率数据，估算出超级厄尔尼诺可能带来的额外死亡，并指出非洲萨赫勒地区风险最高。",
+    "paragraphs": [
+      "未来六个月，全球可能多出约45.1万例和高温有关的死亡。这是芝加哥大学气候影响实验室的一项新估算。研究者先使用欧洲中期天气预报中心的季节预报，判断接下来半年气温将比常年高出多少；再运用该实验室经同行评议的已有研究，将温度变化换算为预计增加的热相关死亡人数。结果显示，从现在到2027年2月底，全球预计多出451,000例高温死亡。",
+      "风险最集中的地方在非洲的萨赫勒地区。它是一条横跨非洲的干旱地带，从大西洋延伸到红海，北接撒哈拉沙漠，南邻热带草原，面积约305万平方公里，穿过毛里塔尼亚、马里、尼日尔、乍得、尼日利亚、苏丹、塞内加尔和厄立特里亚的部分地区。研究指出，2026年9月到2027年2月底，受影响最重的四个国家是尼日利亚、苏丹、尼日尔和乍得。",
+      "为什么是它们？因为高温要命，往往不是因为温度本身，而是因为人缺乏躲避高温的条件。尼日利亚2025年估计有超过60%人口生活在国家贫困线以下，即使家中通电，也常遭遇停电。苏丹因战争摧毁了商业、就业和电力供应，2025年约57%的人口处于极端贫困。尼日尔2021年有41%人口生活在国家贫困线以下，乍得2022年为44.8%。许多当地人依赖农业，易受干旱和歉收冲击。2024年，尼日尔仅21%人口有电力接入，乍得仅13%；没有电，连风扇都无法运行。研究还指出，在相似升温幅度下，贫困地区的热相关死亡通常多于富裕地区，因为低收入地区保护民众的资源更少。",
+      "具体到数字：与正常年份相比，这四个国家预计共多出66,800例高温死亡。其中近一半——31,400例——集中在人口最多的尼日利亚（2.375亿人），使其成为全球最可能面临最高热致死亡数的国家。苏丹预计17,500例，尼日尔10,000例，乍得8,000例。未来六个月，全球部分最大的气温异常将出现在萨赫勒地区，这也是该区域受超级厄尔尼诺冲击更重的原因。",
+      "谁最容易被高温伤害？这项研究本身未直接分析高危人群，但已有大量研究指出：65岁以上老人、0–4岁幼儿及患有慢性病者风险更高。在非洲，长期户外劳作（如农民）且缺乏室内降温条件的人群同样高度脆弱。另一项研究显示：低收入国家居民在高温天人均额外用电量，仅够支撑一盏LED灯亮四个月，远不足以驱动空调。研究者认为，全球变暖将加剧不平等——富裕国家会增加空调使用，而更热、更穷的国家则缺乏资金与稳定电力来保护民众。全球有18个国家正陷于‘极端高温+无制冷能力’的致命组合，多数位于撒哈拉以南非洲北部，包括尼日尔、马里、布基纳法索和乍得。",
+      "那么现在能做什么？研究团队建立了可搜索的‘适应清单’地图，汇总各国气候适应行动。他们认为，对今年高温最有效的短期措施，是已被实践验证的方案：建立高温预警系统，并配套实施热行动计划，帮助民众避暑；向老年人和脆弱群体开展针对性健康宣教；在高风险区域设立降温中心与饮水点；在一天中高温风险最高的时段，为户外劳动者提供保护；医院需提前增聘人员、储备物资、优化流程，以应对日射病与热射病患者激增。同样的高温落在不同地方，夺走的生命并不相同——有没有电、有没有预警、医院能否接住病人，最终决定了那条温度曲线会变成什么。"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/nigeria-faces-the-worlds-highest-projected-death-toll-from-super-el-nino-heat-what-could-save-lives-292786",
+      "originalTitle": "Nigeria faces the world’s highest projected death toll from super El Niño heat: what could save lives",
+      "publishedAt": "2026-09-25T09:50:36Z",
+      "retrievedAt": "2026-09-26T00:49:52.766Z",
+      "basis": "full-text",
+      "lang": "en",
       "profile": "analysis",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-09-26T00:05:06.542Z",
+        "reviewedAt": "2026-09-26T00:49:43.515Z",
         "reviewer": "qwen-plus",
-        "evidenceCount": 6,
+        "evidenceCount": 41,
         "correctionCount": 8,
         "attempts": 1
       }
@@ -3222,51 +3280,6 @@
         "evidenceCount": 5,
         "correctionCount": 8,
         "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-01-communities-affected-by-climate-change-need-more",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "气候数据之外，社区还需要什么？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-01",
-    "intro": "波多黎各南部沿海社区拉马里格里塔的居民，守着世界上最先进的气候卫星数据，却依然在洪水、污染和基础设施失修中生活。一项新研究指出，让数据真正起作用，关键不在数据本身，而在信任与协作。",
-    "paragraphs": [
-      "说到气候变化，你可能想到海平面上升、极端天气。很多科学家和机构会提供海平面上升查看器、热力图、洪水预测服务等工具。美国宇航局地球观测（NASA EO）数据集能提供这些及其他自然灾害的重要信息，但许多最需要这些工具的社区，却面临获取障碍。",
-      "在波多黎各南部海岸，有个叫拉马里格里塔的社区。这里看起来阳光明媚，其实隐患不少：洪水、风暴暴露、基础设施坍塌、政府投资不足；居民还承受着附近发电厂和工业消毒设施带来的污染。2022年飓风菲奥娜带来30英寸降雨，摧毁了低洼地区的房屋，使居民长时间失去基本服务。",
-      "研究人员与拉马里格里塔居民合作开展了一项为期9个月的三阶段项目。第一阶段，通过16场一对一的双语访谈，了解居民的环境正义关切、对地球观测（EO）工具的熟悉程度，以及可能存在的使用障碍；第二阶段，一位NASA代表向社区成员演示EO工具的实际应用，例如显示停电模式、预测海平面上升速率；第三阶段，团队编制了一份英西双语报告，汇总居民关切与可用的NASA EO资源，并邀请居民反馈，确保报告准确反映其需求。",
-      "居民最关心的问题包括：洪水（56%）、非法开发导致的土地滥用（63%）、空气质量和相关健康问题（50%）。政府不作为是他们最大的担忧（69%）。居民起初对EO工具知之甚少，但认为洪水地图和空气质量监测系统会有用——前提是配套提供使用支持。主要障碍包括网络信号不稳定、技术不熟悉、过去与无效主管部门打交道的经历，以及语言障碍。",
-      "居民明确表示：不希望外部专家强加解决方案；他们期待与研究人员和机构建立倾听关系，共同推动社区主导的决策。研究作者强调，环境正义远不止于提供数据——在科学家、社区与NASA等机构之间建立信任关系，才能确保重要工具真正抵达并被最需要的人所用。",
-      "也许，解决气候问题的钥匙，不只是天上的卫星，还有人与人之间的信任。"
-    ],
-    "topics": [
-      "气候与能源",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Eos Earth & Space Science",
-      "region": "international",
-      "url": "https://eos.org/research-spotlights/communities-affected-by-climate-change-need-more-than-data",
-      "originalTitle": "Communities Affected by Climate Change Need More Than Data",
-      "publishedAt": "Mon, 31 Aug 2026 13:07:42 +0000",
-      "retrievedAt": "2026-09-01T01:32:44.060Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-01T01:32:41.852Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
       }
     }
   }
