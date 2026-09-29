@@ -1,5 +1,190 @@
 [
   {
+    "slug": "2026-09-29-l1cq7m",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国科学家揭示趋磁细菌跨尺度磁组织新机制",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-29",
+    "intro": "我国科学家以西安未央湖发现的趋磁弧菌WYHV-1为研究对象，揭示了趋磁细菌跨尺度磁组织的新机制。",
+    "paragraphs": [
+      "地球磁场如同地球自带的方向坐标网，趋磁细菌就是自然界里的“活罗盘”。这类细菌能在细胞内部制造纳米级磁铁矿颗粒，也就是磁小体，再把颗粒串成磁链，顺着地磁场找准适合生存的环境。",
+      "过去主流理论认为，细菌想要获得稳定磁性，每一颗磁小体都必须是形态规整、磁化均匀的理想颗粒。但自然界里不少细菌能合成偏大、磁化不均匀的磁小体，它们如何实现磁响应，磁链能不能跨细胞发挥作用，一直缺少直接实验证据。",
+      "中国科学院地质与地球物理研究所李金华研究员联合多国科研团队，以在西安未央湖发现的趋磁弧菌WYHV-1为研究对象，揭示了趋磁细菌跨尺度磁组织的全新机制。相关成果北京时间9月29日在国际学术期刊《美国国家科学院院刊》发表。",
+      "本次研究发现，WYHV-1制造的磁小体十分特别：呈拉长棱柱状，个头比常见同类颗粒更大，晶体两端还有一对类似“酒窝”的对称凹坑，这是颗粒本身自带结构，并非样品制备造成的假象。",
+      "大尺寸的磁小体单独放置时，内部磁场会呈涡旋卷曲状态，达不到理想的均匀磁化。但当颗粒紧密排成链条，颗粒之间的磁相互作用会“驯服”这种紊乱，整条磁链就能形成稳定的磁性，实现定向导航。研究还观察到一个新奇现象：在外磁场作用下，这种细菌可以首尾相连，组装成长链状细胞集合体。磁小体链条产生的微弱磁场，能够充当“磁性纽带”，拉近独立细胞，实现细胞之间的磁力相互作用。",
+      "这项研究打通了磁性颗粒、磁链、细胞三个尺度，更新了经典的磁小体理论：不需要每一颗磁小体都保持理想磁化状态，依靠链条的协同效应，大尺寸涡旋颗粒依旧可以实现稳定磁响应。该成果也为古地磁研究提供了重要参考，这种带凹坑的磁铁矿，可帮助科学家识别岩石里的磁小体化石，更好解读远古地球环境。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/9/572268.shtm",
+      "originalTitle": "我国科学家揭示趋磁细菌跨尺度磁组织新机制",
+      "publishedAt": "2026-09-29 08:22",
+      "retrievedAt": "2026-09-29T01:03:55.293Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-29T01:03:51.985Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Tiny Living Compasses: How Magnetotactic Bacteria Build Their Magnetic Chains",
+      "intro": "Scientists in China have revealed how magnetotactic bacteria build magnetic chains that let them follow Earth's magnetic field.",
+      "paragraphs": [
+        "Imagine a living creature so small you cannot see it, but it always knows which way is north. Some bacteria can do exactly that. Scientists call them magnetotactic bacteria. These bacteria work like tiny living compasses. Inside their cells they build tiny crystals of a magnetic mineral called magnetite. Each crystal is only nanometers wide. The bacteria line these crystals into a chain. The chain follows Earth's magnetic field, the way a compass needle does. That helps the bacteria swim toward places where they can survive.",
+        "Now a team of scientists has learned something new about how those chains work. The lead researcher is Li Jinhua, from the Institute of Geology and Geophysics, Chinese Academy of Sciences. He worked with research teams from several other countries. Together they studied a kind of magnetotactic bacterium called magnetotactic spirillum WYHV-1, found in Weiyang Lake in Xi'an. Their results were published on September 29 in PNAS — the Proceedings of the National Academy of Sciences.",
+        "For a long time, the main theory said every crystal had to be perfect: ideal in shape and uniformly magnetized. But many bacteria in nature build larger crystals that are not uniformly magnetized. So how do those bacteria still respond to magnetism? And can magnetic chains work across more than one cell? Until now, there was no direct experimental evidence.",
+        "The new study found that this bacterium's crystals are unusual. They are elongated prismatic, larger than common magnetosome particles. Each crystal also has a pair of symmetric dimple-like pits at both ends — a feature intrinsic to the crystal, not an artifact of sample preparation. A large crystal sitting alone has a vortex magnetic field inside it, which is not uniform or stable.",
+        "But when many of these crystals pack tightly into a chain, their magnetic interactions 'tame' the vortex. Together, the whole chain becomes stably magnetic, enabling directional navigation. The team also observed a novel phenomenon: under an external magnetic field, the bacteria linked head-to-tail into long cellular chains. The weak magnetic field from a magnetosome chain acted as a 'magnetic tether', pulling independent cells together.",
+        "So the study bridges three scales: the magnetic particle, the magnetosome chain, and the whole cell. It updates the classic magnetosome theory: stable magnetic response does not require every magnetosome to be ideally magnetized. Instead, cooperative effects within the chain allow large vortex particles to function reliably. This finding also benefits paleomagnetic research: magnetite fossils with such dimples can help identify ancient magnetosome fossils in rocks, offering clues about Earth's ancient environment."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-29T01:10:02.070Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-29/2026-09-29-l1cq7m.webp",
+      "alt": "弧状细菌轮廓内立方体颗粒连成链，周围有方向一致的细箭头。",
+      "caption": "微观尺度上的磁颗粒，如何连成有序的链。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-29-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "机器人站上网球场，AI从棋盘走进物理世界",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-29",
+    "intro": "在深圳结束的2026年比利·简·金杯总决赛上，一台深圳企业研发的双轮足具身网球机器人TENNIIX ULTRA MAX与退役名将王蔷隔网对阵——人工智能正从棋盘走进真实的物理世界。",
+    "paragraphs": [
+      "在深圳的春茧体育馆，一台双轮足具身网球机器人TENNIIX ULTRA MAX站在了网球网的一侧。对面，是已经退役的网球名将王蔷。机器人自主移动、变换球路，平击、上旋、月亮球交替输出。这是刚刚于深圳结束的2026年比利·简·金杯总决赛现场。除了‘女子网球世界杯’的激烈角逐，这场人机对抗也吸引了不少目光。有业余爱好者试打后表示，相比传统发球机，与机器人对练更有‘真实对抗的感觉’。",
+      "机器人为什么能给职业选手带来压力？联合开发者、英汉思动力创始人朱瀚琦解释说，关键在它用‘双腿’站立打球。这台机器人击球点高度可以达到1.2米，未来还可以通过蹲起和跳跃，把出球高度控制在1米至1.8米之间。当机器人的出球点高过球网之后，便可打出由上而下、颇具进攻性的击球。",
+      "这台机器人由深圳企业英汉思动力和逐际动力联合开发，英汉思动力负责击球的‘上半身’，逐际动力负责移动的‘下半身’。从立项到工程样机亮相比利·简·金杯赛场，仅用了两个多月的时间。朱瀚琦说，团队依托仿真工具链，在虚拟环境完成海量算法试错，把大量原本需要实物反复实验的工作放在计算机中完成，极大压缩研发周期。但仿真不能替代真实世界，样机出来之后，还要面对一整套复杂的供应链协同问题。这正是珠三角硬件产业的独特优势：全部打样、迭代、制造流程，都可以在珠三角的产业圈内闭环完成。平均打样迭代周期压缩至两周——一周完成设计，一周加工打样拿回测试，反复迭代两三轮，就可以实现可用版本。不过，赛场亮相不等于产品落地。朱瀚琦将当前状态形容为‘万里长征第一步’。目前仅完成了功能展示，距离面向市场交付，还需要攻克可生产性、可维修性、成本控制、商业落地等多重关卡，预计还需8至10个月才能实现量产。",
+      "为什么机器人公司最近扎堆做体育？不久前，第二届世界人形机器人运动会在北京国家速滑馆‘冰丝带’举行，两千多台机器人同台竞技，足球、乒乓球、武术等项目轮番上演。朱瀚琦认为，体育其实是具身智能天然的试验场。首先，体育场景拥有三大特质：规则边界清晰、数据维度可控、参与者意图明确；对比家庭场景和城市开放环境，家庭生活中存在大量难以预测的需求和行为，体育运动目标简单纯粹。其次，对机器人而言，体育竞技是一套完整的压力测试：机器视觉实时感知环境，‘大脑’快速决策，‘身体’高速执行动作，还要处理大量真实世界的微小扰动，全部链路要在极短时间内形成闭环。如果体育场景都跑不通，那么家庭服务、工业场景的落地就无从谈起。第三，体育自带商业闭环：体育用户具备付费意愿与消费能力，而商业的收入可以反哺技术迭代，不需要长期依赖资本输血。先在体育场景跑通商业模式，沉淀成熟的硬件本体、大模型、数据体系，之后向工业、家庭服务等更大场景迁移，是一条现实可行的产业路径。朱瀚琦举例，英汉思动力发球机用户的月活跃率在70%至80%之间，每月产生10到20万场网球对战数据，在合规脱敏前提下完成数据沉淀，用于训练网球场景的AI模型。",
+      "把时间拉长看，人工智能与体育的交集走了一条清晰的进化路径：1997年，IBM深蓝战胜国际象棋世界冠军卡斯帕罗夫，这是依靠强大算力完成棋盘内的计算博弈；2016年，AlphaGo击败李世石，2017年又战胜柯洁。在更为复杂的围棋博弈中，机器展示出许多不同于传统人类棋风的着法。此后，AI逐渐成为不少职业棋手训练和研究的重要工具，也推动围棋定式、布局等理念不断更新。但这些具有广泛影响力的人机对抗，主要发生在棋盘这一规则明确、信息高度结构化的‘符号世界’中。而当网球机器人站在人类对面、人形机器人在跑道和球场上奔跑，人工智能踏入充满噪声、摩擦、重力和形变的真实物理世界。光线变化、地面摩擦、球体旋转、温度湿度，无数变量每时每刻都在扰动。AI不再仅仅做推演计算，还要控制实体硬件完成感知、决策、执行、反馈的完整闭环。",
+      "那么，人类会不会打不过机器人？朱瀚琦认为，技术上把网球机器人的出球速度提升到每小时200至250公里并不困难，网球的‘阿尔法狗’时刻很快就会到来，但人们不必为打不过机器人而悲伤。在他看来，未来网球机器人更重要的角色将是高级陪练，帮助运动员突破自身训练边界，加速网球技战术的迭代进化，就像今天围棋棋手借助AI开拓新思路一样。机器人采集海量高水平对战数据之后，可以模拟世界顶尖选手的技战术风格，在模拟环境中进行百万次推演，再迁移到现实设备。顶尖选手找不到更强人类对手的时候，可以依靠机器人制造出从未见过的球路，倒逼运动员突破原有认知边界，推动整个运动向前发展。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20260928/f1776d7ca75042568a5137e256fa9425/c.html",
+      "originalTitle": "当机器人站上网球场：AI叩响物理世界之门",
+      "publishedAt": "2026-09-28T16:33:35+08:00",
+      "retrievedAt": "2026-09-29T01:05:57.575Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-29T01:05:54.909Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "When a Robot Steps Onto the Tennis Court",
+      "intro": "A retired tennis star faced a machine in Shenzhen. It may be the moment AI stepped into the physical world.",
+      "paragraphs": [
+        "At the 2026 Billie Jean King Cup Finals in Shenzhen, retired tennis player Wang Qiang faced a bipedal wheeled tennis robot named TENNIIX ULTRA MAX. The match took place at the Spring Cocoon Gymnasium.",
+        "The robot moved autonomously. It varied shot types. It delivered flat hits, topspin, and moonballs. Wang Qiang felt real competitive pressure. Amateur players said it offered 'a real sense of opposition'. They said this was unlike traditional ball machines.",
+        "TENNIIX ULTRA MAX was jointly developed by Shenzhen-based Yinghansi Power and Zhuji Dynamics. Yinghansi Power built the upper body. Zhuji Dynamics built the lower body. Co-developer Zhu Hanqi said the prototype was completed in 'two months' from project launch to on-court debut. Its current strike height is 1.2 meters. Future versions may squat or jump. That could achieve 1-meter to 1.8-meter release heights. This would enable downward-angled, offensive shots.",
+        "The team used simulation tools for algorithm testing. This happened before physical prototyping. Real-world validation required supply chain coordination across the Pearl River Delta. Design-to-sample cycles averaged two weeks. One week was for design. One week was for fabrication and testing. Zhu Hanqi called this 'the first step of the Long March'. Functional demonstration has been achieved. Mass production is not yet ready. It requires solving manufacturability, serviceability, cost control, and commercialization. That is expected in 8 to 10 months.",
+        "Zhu Hanqi said sports is a natural testbed for embodied AI. Rules are clear. Data dimensions are controllable. Intent is explicit. Sports offer repeatable pressure tests. These cover perception, decision-making, and physical execution. Sports also provides a self-sustaining business model. Users pay. Revenue funds iteration. Yinghansi Power’s existing ball machines show 70% to 80% monthly active user rates. They generate 100,000 to 200,000 matches per month. This data trains domain-specific AI models. It is used under compliance and anonymization.",
+        "AI’s evolution in sports began with IBM Deep Blue defeating Garry Kasparov in chess in 1997. Then AlphaGo beat Lee Sedol in 2016. Then AlphaGo beat Ke Jie in 2017. Those were symbolic-world contests. They were structured. They were noise-free. They were rule-bound. Tennis robots operate in the physical world. Light changes interfere. Surface friction interferes. Ball spin interferes. Temperature interferes. Humidity interferes. AI must close the full perception-decision-action-feedback loop in real time. Zhu Hanqi said hitting speeds of 200 to 250 km/h are technically feasible. But he stressed robots’ role will be advanced training partners. They will simulate elite tactics. They will generate novel shot patterns. They will push human athletes beyond known limits."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-29T01:11:26.209Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-09-29/2026-09-29-ai.webp",
+      "alt": "棋盘格纹样与抽象双足机械轮廓由虚线相连。",
+      "caption": "从棋盘到球场，算法开始拥有身体。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-09-29-fire-in-the-brain-how-psychosis-may-arise-when-t",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "有些精神病，可能源于免疫系统对大脑的误伤",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-09-29",
+    "intro": "一小部分精神疾病患者的真正病因，可能不在心理，而在免疫系统对自己大脑的误伤；研究者正在努力把他们找出来。",
+    "paragraphs": [
+      "剑桥大学的精神病学家彼得·琼斯遇到过一位印象深刻的病人。他会产生非常鲜活的幻觉，看见各种动物，查房时还会抚摸它们、和它们互动，就像和琼斯本人互动一样真实。医生用了抗精神病药物，幻觉毫无消退。后来，病人接受了血浆置换——一种通常用于治疗免疫系统异常的疗法，幻觉随即消散。琼斯意识到，这并非典型的精神分裂症，症状实际源于自身免疫性脑炎，一种罕见的、由免疫系统攻击大脑引发的脑部炎症。",
+      "自身免疫性脑炎，即免疫系统错误地将自身脑组织识别为外来威胁并发起攻击。2007年一篇里程碑论文描述了12位女性患者：其中9位最初表现为幻觉、妄想和激越等精神病症状，其余主要表现为记忆障碍；除一人外，其余均发展为癫痫。研究发现，她们体内产生了靶向大脑NMDA受体的抗体。NMDA受体是参与学习和记忆形成等多种脑功能的关键蛋白。这些患者中90%患有卵巢肿瘤，研究人员检查的5个肿瘤均含有表达NMDA受体的神经组织，导致免疫系统将其误判为‘异物’，大量生成抗NMDA受体抗体；这些抗体随后也结合健康脑组织中的NMDA受体，干扰神经功能，并引发免疫细胞聚集与脑部炎症，从而在许多病例中诱发精神病症状。",
+      "除肿瘤外，专家认为既往感染（如脑内单纯疱疹病毒感染）也可能触发该病，但多数病例病因不明。需强调，由自身免疫机制导致的精神病仅占全部精神病病例的1%至2%。若不及时治疗，患者可能进展为昏迷甚至死亡。因此，经验丰富的精神科医生会警惕相关线索：最典型的是癫痫，此外还有紧张症或口面部不自主抽动。一旦怀疑，医生会检测血液或脑脊液中的自身抗体，并结合MRI或EEG检查结果综合判断。确诊后立即启动免疫治疗，使用药物抑制过度活跃的免疫系统；许多患者可完全康复。除抗NMDA受体抗体外，研究者已发现数十种与脑炎相关的自身抗体，例如2010年发现的LGI1抗体——它阻碍神经细胞间信号传递，常导致类痴呆表现，易被误诊。",
+      "牛津大学精神病学家贝琳达·伦诺克斯观察到类似显著改善。她最早确诊抗NMDA受体抗体阳性的患者之一，是一位年轻女图书管理员：她迅速出现偏执、失眠，最终失语；抗精神病药物反而加重病情。检测出抗体后，医生通过清除血液中抗体的治疗，约一周内她即完全康复。伦诺克斯指出，可能存在更大群体的精神病患者，其病因是未被识别的自身免疫问题，这也解释了部分患者对常规精神科治疗反应不佳的现象。过去十年，她主导名为SINAPPS2的临床试验，筛查发病不足两年的精神病患者，检测包括NMDA受体抗体和LGI1抗体在内的四种抗体。在已筛查的约5000名患者中，约5%血液或脑脊液中检出上述抗体。但血液检测存在局限：部分结果可能是假阳性；部分检出的抗体无致病性。目前已有70名参与者被随机分配接受免疫治疗或安慰剂，随访期长达1.5年；最终结果预计于2027年公布。是否应对更广泛的早期精神病患者常规开展抗体筛查，尚存争议；目前德国和澳大利亚已将其列为常规。",
+      "研究者仍在持续寻找新的脑靶向自身抗体。2024年，一项研究发现一种可结合大脑CAMKV蛋白的新型抗体，在5名癌症患者体内检出，其中3人伴有精神病或其他精神症状。发现新抗体本身并不等于证实其致病因果关系，但提供了重要线索。正如伦诺克斯所言：‘这是尚未探索的冰山一角。’"
+    ],
+    "topics": [
+      "脑与认知",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/fire-in-the-brain-how-psychosis-may-arise-when-the-body-attacks-itself-1285334/",
+      "originalTitle": "Fire in the Brain: How Psychosis May Arise When the Body Attacks Itself",
+      "publishedAt": "Mon, 28 Sep 2026 14:00:00 +0000",
+      "retrievedAt": "2026-09-29T01:07:06.449Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-09-29T01:07:04.006Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-09-28-4h7pf0",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "科学家实现液晶向列比特的可重构非阿贝尔编织",
@@ -3115,165 +3300,6 @@
       "alt": "书本与铅笔，影子如电路板",
       "caption": "数学在AI时代的新角色",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-05-nsltd3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "全国摔跤挠羊大赛在山西代县开赛",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-05",
-    "intro": "一场源自山西代县的民俗摔跤比赛，正在以全国性赛事的形式走进更多人的视野。",
-    "paragraphs": [
-      "在山西代县，一项名为“挠羊”的摔跤比赛正式开赛。",
-      "挠羊大赛作为一种地方民俗竞技活动，承载着当地的传统体育文化。",
-      "从地方到全国，这样的转变反映出传统民俗活动正在被更多人认识。",
-      "当一项地方民俗竞技走向全国，它带来的还有不同地区之间对传统体育的共同关注。"
-    ],
-    "topics": [
-      "民俗体育",
-      "非遗活化",
-      "地方文化传承"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/09-04/10690586.shtml",
-      "originalTitle": "全国摔跤挠羊大赛在山西代县开赛：地方民俗竞技走向全国",
-      "publishedAt": "Fri, 4 Sep 2026 20:25:06 +0800",
-      "retrievedAt": "2026-09-05T00:24:42.616Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T00:24:38.693Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-04-agriculture-relies-on-fossil-fuels-it-s-costing-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "化肥为什么和石油天然气绑在一起，让种地和吃饭都变贵了？",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-04",
-    "intro": "最近你也许发现油价涨了，但你可能不知道，农民买肥料也正承受着同样猛烈的价格冲击。",
-    "paragraphs": [
-      "如果你最近给家里的车加过油，或者买过机票，多半已经感受到化石燃料涨价的压力。但有一群人对这种涨价的感受更直接——种地的农民。他们每年要给庄稼买肥料，而今年肥料的价格像是坐了过山车，上涨的一个重要推手就是天然气价格飙升，因为天然气是生产肥料最关键的原料之一。",
-      "要理解这件事，得先知道肥料是怎么来的。尿素是最常用的一种氮肥，它的生产需要氨，而生产氨既要用天然气提供能量，也要把天然气当作化学原料。所以天然气一涨价，肥料价格几乎立刻跟着涨。今年四月，因为伊朗冲突导致天然气价格大幅上涨，尿素价格一度涨到每吨超过850美元，比冲突前高了80%，也是自2022年俄罗斯与乌克兰冲突以来最高的水平。",
-      "冲突还直接堵住了肥料的运输通道。全球大约三分之一的化肥海运要经过霍尔木兹海峡，这次冲突让这条海峡基本对商业船只关闭了。世界银行的报告说，一些最贫困的国家可能因此更难买到化肥。美国虽然大部分氮肥能自己生产，但也有少量从波斯湾地区进口。另外还要看到，化肥生产本身也会排放温室气体，大约占全球总量的2%。",
-      "好在已经有人在尝试换一条路。一些公司正在研究用经过基因编辑的微生物来给植物提供氮，这样就不再需要天然气。比如 Pivot Bio 公司说，他们的产品现在成本和化学肥料差不多，而且因为不用天然气，就不会被天然气涨价牵着走。冲突一开始，他们反而扩大了产量、降低了价格，还让农民能把价格锁定三年。另一家叫 Switch Bioworks 的公司也在做类似的事情。不过这些替代肥料目前能替代的化学肥料比例还有限——根据作物和条件，Pivot 说现在大约能替代25%，公司希望未来提高到40%到50%。",
-      "肥料价格高的问题可能不会很快结束。美国农业领域的大银行 CoBank 预计，部分肥料价格可能至少到2028年都会保持高位，因为中东有31座氨工厂受损或完全关闭，俄罗斯近几年也有20座氨工厂被破坏。农民利润本来就很薄，肥料一贵，他们就更难了。而这些成本最终会传导到我们每个人身上，超市里的食品价格也会跟着上涨。说到底，只要我们的食物链还建立在化石燃料上，食品价格就摆脱不了能源价格的波动。"
-    ],
-    "topics": [
-      "气候与能源",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "MIT Technology Review",
-      "region": "international",
-      "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
-      "originalTitle": "Agriculture relies on fossil fuels. It’s costing us.",
-      "publishedAt": "Thu, 03 Sep 2026 10:00:00 +0000",
-      "retrievedAt": "2026-09-04T00:19:34.285Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-04T00:19:21.420Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Why Fossil Fuels Push Up Food Prices",
-      "intro": "Farmers are already feeling the pain of rising fossil-fuel prices, and that pain could soon reach your dinner table.",
-      "paragraphs": [
-        "Fertilizer is a huge part of farming. Most conventional fertilizer depends on natural gas. Natural gas is used both as an energy source and as a chemical input in the production of ammonia. Ammonia is a key fertilizer ingredient. When natural-gas prices spiked in recent months because of the war in Iran, fertilizer prices followed.",
-        "About one-third of global seaborne trade in fertilizers passes through the Strait of Hormuz. That waterway has been effectively closed to commercial traffic because of the conflict. Access to fertilizer could get worse for some of the poorest countries around the world because of the strait’s closure. The US largely meets demand for nitrogen fertilizers with domestic production, but some imports do come from the Persian Gulf.",
-        "In April, the price of urea—the most commonly applied fertilizer—climbed above $850 per metric ton. That was 80% higher than it was before the conflict and the highest level since 2022, when the Russian invasion of Ukraine caused fertilizer costs to hit record highs. Prices have come down significantly, but forecasts remain uncertain.",
-        "Pivot Bio and Switch Bioworks make fertilizers that use microbes to provide nitrogen to plants. These products do not use natural gas as an input, so they aren’t subject to the same price spikes. Pivot says its products are cost-competitive with chemical fertilizers today. When the war in Iran started, Pivot increased the volume it planned to produce, dropped prices, and allowed farmers to lock in prices for three years.",
-        "Some fertilizer prices could remain high through at least 2028, according to a report from CoBank. The war has affected or shut down 31 ammonia plants in the Middle East—and 20 ammonia plants have been damaged in Russia in recent years. Farmers have paper-thin margins, so fertilizer price spikes are a real problem. Higher costs can push food prices higher, causing all of us to pay more at the grocery store.",
-        "Pivot says its products can replace about 25% of synthetic fertilizer today, and the company hopes to reach 40% to 50% of the total. As one leader says: 'We can’t keep doing it like this.' There’s no way to build a society where the basis of the food chain depends on fossil fuels."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-04T00:37:36.451Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-04/2026-09-04-agriculture-relies-on-fossil-fuels-it-s-costing-.webp",
-      "alt": "A field with a distant industrial silhouette in cool gray tones",
-      "caption": "化肥与化石燃料的隐性关联",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-04-914vc5",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "新潮运动走红，成为暑期体育消费新增长点",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-04",
-    "intro": "今年暑期，一批上手快、花费不高、又能和朋友一起玩的新潮运动，正在成为新的消费热点。",
-    "paragraphs": [
-      "太湖之畔，黄色小球在标准场地来回飞跃，击球声清脆作响；南京金牛湖、无锡蠡湖、北京亮马河上，桨板、皮划艇点缀水面，晚风中游人从容挥桨；上海耀雪冰雪世界内，身着雪服的游客畅快飞驰。这个夏天，匹克球、桨板、室内滑雪等一批新潮运动加速从“小众”走向“大众”，以轻量化、休闲化、强社交的特质，点燃消费热情。",
-      "今年暑期，持续高温让“去哪儿纳凉”成为不少市民的刚需。在人们对健康与趣味的双重追求下，“避暑不避动”悄然成为新风尚。苏州川流匹克球（华东）产业示范基地暑期推出29.9元/4小时畅打优惠，吸引大批附近居民体验；南京金鹰空中体育公园11片标准匹克球场夜间几乎场场爆满；上海耀雪冰雪世界、无锡热雪奇迹等室内雪场夏季客流持续上涨，太仓阿尔卑斯雪世界暑期接待游客超20万人次，滑雪夏令营期期爆满，7月至8月培训课程全部排满；淮安里运河龙首湾驿站暑期玩桨板人数日均百人左右，同比增长400%；无锡蠡湖水上运动基地单日接待超300人次、营收突破2万元，周末客流直接翻倍；某电商平台数据显示，7月1日至19日“桨板”日均搜索量环比增长31%，近四个月桨板销售额同比暴涨203%，匹克球销售额同比激增229%；线上旅行平台数据显示，7月全国室内滑雪订单量同比翻番。",
-      "这些运动低门槛、易参与：“10分钟上手，半小时‘上头’。”匹克球融合网球规则、乒乓球拍和羽毛球场地特色，初学者也能很快找到回合感；桨板充气五分钟后即可站立水面，适合6岁至80多岁全年龄段人群；室内滑雪场数量持续增长，让南方人四季可享冰雪乐趣。更深层原因在于精准契合当代都市人的情感需求——超越强身健体，追求情绪解压、社交属性与自我表达。匹克球爱好者唐晓雯说：“匹克球速度比网球慢很多，击球声很治愈。双打时天然形成‘聊天距离’，边打球边聊天，特别放松。”某社交平台上，匹克球相关笔记超120万条，相关话题播放量达8.2亿次。",
-      "新潮运动带动的远不止运动本身消费，一条“场馆运营、赛事引流、文旅消费”的产业链正加速形成。苏州川流匹克球基地今年5月开业以来已承接各类专业及大众赛事超15场，“五一”期间吸引全国十余省市近600名选手参赛，形成“一人参赛、全家游玩”的文体旅融合模式，规划每年办赛90场以上，预计拉动相关消费2.2亿元；扬州腰旗橄榄球公开赛吸引全国600名选手参赛，选手亲友团赛后游览瘦西湖、品鉴扬州炒饭；太仓阿尔卑斯雪世界举办青少年滑雪公开赛，同步开展“萌宠滑雪赛”“万人泼雪节”，暑期带动周边酒店预订量同比增长超四成；河南鹤壁依托橡塑产业基础发展匹克球器材制造，全市统筹建设近1600块场地；山东威海水上装备制造业订单激增，已形成覆盖原材料研发、模具设计、总装制造、跨境销售的完整产业链；南京大蓝鲸匹克球中心由长期空置低效地块改造而成；无锡地铁河埒口换乘站利用闲置地下通道打造江苏首个地铁站匹克球场；北京亮马河、成都锦江等城市河道经综合治理变身桨板、皮划艇云集的“网红”打卡地。",
-      "新潮运动凭借灵活场景优势，正推动体育渗透城市各个角落，构建起“处处可运动、时时能健身”的新格局。"
-    ],
-    "topics": [
-      "新潮运动",
-      "体育消费转型",
-      "青少年生活方式"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260903/0e77154eebff49a98309e2664d13cba1/c.html",
-      "originalTitle": "新潮运动“破圈”——暑期体育消费的新增长极",
-      "publishedAt": "2026-09-03T09:25:24+08:00",
-      "retrievedAt": "2026-09-04T00:27:14.367Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-04T00:26:38.837Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
     }
   }
 ]
