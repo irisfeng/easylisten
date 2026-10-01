@@ -1,5 +1,213 @@
 [
   {
+    "slug": "2026-10-01-1911-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "纪录片《汤寿潜1911》用AI“复活”百年档案致敬先贤",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-01",
+    "intro": "浙江广电集团首部AIGC剧情式纪录片，于2026年9月30日晚在浙江卫视播出并同步上线各平台。",
+    "paragraphs": [
+      "纪录片《汤寿潜1911》于2026年9月30日晚在浙江卫视播出，并同步上线各平台。该片是浙江广电集团首部AIGC（Artificial Intelligence Generated Content，即人工智能生成内容）剧情式纪录片。",
+      "AIGC是英文Artificial Intelligence Generated Content的缩写，中文意为‘人工智能生成内容’。该片被标注为‘AIGC剧情式纪录片’。",
+      "片名《汤寿潜1911》与报道标题一致，原文未对汤寿潜身份或1911年历史背景作解释，故仅保留片名本身。",
+      "原文标题使用‘用AI“复活”百年档案致敬先贤’的表述，其中‘复活’加引号，该说法直接来自原文标题。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "人工智能与文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-30/10706564.shtml",
+      "originalTitle": "纪录片《汤寿潜1911》用AI“复活”百年档案致敬先贤",
+      "publishedAt": "Wed, 30 Sep 2026 22:06:37 +0800",
+      "retrievedAt": "2026-10-01T00:40:25.066Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-01T00:40:23.095Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-01-one-giant-clam-contains-a-month-by-month-diary-o",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一只巨砗磲的贝壳里，藏着大堡礁两百年前逐月的气候记录",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-01",
+    "intro": "一只活了大约三十年的巨砗磲，把两百二十五年前大堡礁的海水温度和干湿变化，一层一层写进了自己的壳里。",
+    "paragraphs": [
+      "如果你在大堡礁的蓝色海水里潜水，海底有一样东西几乎不可能错过，那就是巨砗磲。它巨大的、带褶皱的壳里，藏着闪着电蓝色、绿色和金色光泽的软体。巨砗磲是世界上最大的双壳类动物，学名 _Tridacna gigas_，壳可以长到1.2米，重超过200公斤，能活一百多年。在漫长的一生里，它每天都在自己的壳里记日记。",
+      "这本日记是怎么写的？砗磲生长时，昼夜交替会在壳上留下极细的每日生长线，季节变化则留下更宽的年生长带，就像树的年轮。生长线标注日期，周围的海水则通过塑造每一层新壳的化学组成写下内容。地球化学就是这本日记的语言：研究者测量贝壳层里不同形态的氧和碳，也就是同位素。氧同位素用来推算过去的海水温度，碳同位素则给出降雨的线索。",
+      "这项研究发表在《Global and Planetary Change》杂志上，地点是大堡礁北部的吉古鲁（也称蜥蜴岛群）。研究是与Walmbaar Aboriginal Corporation和Nguurruumungu Indigenous Corporation合作完成的。吉古鲁对Dingaal和Ngurrumungu原住民社群有重要的文化意义，考古发掘显示，那里至少有6500年的原住民居住史。研究者分析的是一只从蓝潟湖采集的、长58厘米的巨砗磲壳。放射性碳定年显示，它生活在约1785年至1827年间，接近工业化前降温时期‘小冰期’的尾声。在显微镜下，研究者数出了将近10900条日生长线，说明它活了约30年。",
+      "把重建出的温度和1995至2015年在同一潟湖实测的海表温度相比，225年前的全年平均温度低了0.6–0.9°C；夏天低0.9–1.2°C，冬天却几乎相同。贝壳记下的还不止温度：碳同位素显示出湿季和干季之间清晰的节奏；温度记录还呈现反复的两至三年周期，与当地类似厄尔尼诺和拉尼娜的变化一致。1700年代末，偏厄尔尼诺型（更暖、更干）事件更常见；到1800年代初，偏拉尼娜型（更冷、更湿）条件变得更频繁，其中包括整份记录中最强的事件。只取一个平均值，这些细节全都看不见。",
+      "吉古鲁是孤例吗？其他记录说不是。大堡礁别处和澳大利亚西北部的珊瑚，也指向更冷的海水或海洋状况变化；南极冰和冰川记录显示同期出现降温和环流改变。更远处，加拉帕戈斯群岛的珊瑚显示1800年代初拉尼娜事件频繁，秘鲁北部的洞穴记录指示小冰期更湿润，澳大利亚东南部的湖泊当时水位也更高。放在一起看，这是一幅更广阔的南半球图景：很多地方更冷，但降雨和海洋环流以各不相同的方式改变，并不是一次整齐划一的事件。吉古鲁的降温幅度小于许多北半球的估算，这正是地方记录的价值。",
+      "今天，陆地、海洋和太空里的仪器在不停测量全球气候，但直接观测只覆盖了地球历史的一小段。要看得更远，研究者得依靠树轮、珊瑚、冰芯、湖泊和海洋沉积物，还有贝壳这些档案。目前最详细的工业化前记录大多来自北半球和高纬度地区，南半球热带海洋的记录要少得多。这只巨砗磲为南半球的气候故事补上了一个罕见的、逐月的海洋章节。印度—太平洋其他珊瑚礁里的巨砗磲，也许还藏着更多这样的气候日记。"
+    ],
+    "topics": [
+      "气候与能源",
+      "海洋科学",
+      "古气候学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/one-giant-clam-contains-a-month%e2%80%91by%e2%80%91month-diary-of-the-great-barrier-reefs-climate-200-years-ago-1285396/",
+      "originalTitle": "One Giant Clam Contains a Month‑by‑Month Diary of the Great Barrier Reef’s Climate 200 Years Ago",
+      "publishedAt": "Wed, 30 Sep 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-01T00:41:41.787Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-01T00:41:39.851Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 41,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-01/2026-10-01-one-giant-clam-contains-a-month-by-month-diary-o.webp",
+      "alt": "巨砗磲贝壳剖面，壳层呈同心弧线如年轮",
+      "caption": "壳层如年轮，记录海水冷暖",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-01-cities-across-the-world-are-sinking-because-of-g",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "全球许多城市因抽地下水而下沉，大阪数据表明这一过程可能逆转",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-01",
+    "intro": "全球许多城市因为抽走地下的水而下沉，一项新研究用大阪几十年的数据说明，这个过程有可能反过来。",
+    "paragraphs": [
+      "世界上的许多城市正在下沉，而原因就藏在脚底下。城市下方的含水层里储存着地下水，当抽取的速度超过水自然补充的速度，地面就会慢慢塌下去。印度尼西亚首都雅加达的部分地区，每年下沉超过十厘米，政府已经在计划迁都。中国的沿海城市天津住着一千五百万人，同样是下沉的热点地区；如果下沉照这样继续下去，到二一一〇年，天津将有百分之十五的人口处在水面以下。在新西兰，最近的研究显示，大约百分之八十的城市海岸线都在下沉，克赖斯特彻奇和惠灵顿等地，地下水可能是原因之一。从圣迭戈到伊朗的主要城市，只要地下水被抽得比补充得快，类似的故事都在发生。",
+      "这件事在沿海城市格外要紧。地面在下沉，海平面同时在上升，两个方向合在一起，沿海城市面对的相对海平面就更高，气候变暖带来的影响也会来得更早。地下水抽取会让地面下沉，这一点科学家早就了解，做好地下水管理也一直被当作减缓或停止下沉的关键办法。但有一个问题始终没有答案：如果含水层长期得到恢复，地面会怎么反应？是像气球重新充气那样均匀地升回来，还是过程要复杂得多？",
+      "日本大阪提供了一个几乎完美的天然实验室。上世纪二十年代到六十年代，大阪大量抽取地下水，地下水位最多下降三十米，有些地方的地面下沉超过两米。日本政府在六十年代初出台了严格的地下水管理规定，此后几十年，地下水位一直在稳步回升。为了看清地面发生了什么，研究者查看了四十四口监测井的数据，有些井深达五百米，记录最早可以追溯到一九八五年。与此同时，他们用卫星雷达反复拍摄地面图像，再配合地面站的高精度卫星导航测量，捕捉毫米级的地面高度变化。结果相当惊人：在大阪都市圈，大约一千五百万人生活的地方，地面正在上升，平均每年约四毫米，有些地方高达每年十二毫米。地下水位也在稳步上升，最快的地方每年上升一米。水位上升最快的地方，地面抬升也最快。",
+      "但地面的抬升并不均匀。同一个城市里，一个街区可能上升得很快，不到一百米之外的另一个地方却慢得多。这些突然的变化并不是随机的，它们连成一条条狭窄而连续的走廊，横穿整座城市。研究者很快意识到一件意想不到的事：这些走廊几乎完美地对应着已知的构造断层线。",
+      "断层是地壳中的裂缝，人们通常只在讨论地震时想到它。但在这项研究里，断层扮演了另一个角色。你可以把断层想象成挂在地下的一幅帷幕，它竖着穿过含水层，挡住的不是光，而是水。它阻止地下水横向流动，像一座地下大坝。在大阪的上町断层，一侧的地下水位上升速度是另一侧的三倍。城市里其他断层也重复着同样的模式：水被挡在断层的上游一侧，不容易流走，那里的地下水恢复得更快，地面也抬升得更快；下游一侧则慢一些。",
+      "这项研究给沿海城市应对海平面上升提供了一个新的思路。在地下水抽取曾经导致地面下沉的地方，减少抽取、让含水层慢慢恢复，有可能减缓——甚至在某些地方逆转——地面的下沉。海平面还在继续上升，让沿海城市脚下的地面不再往下掉，也许会成为适应一个更暖世界的重要一环。"
+    ],
+    "topics": [
+      "城市与公共",
+      "气候与能源",
+      "地理科学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/cities-across-the-world-are-sinking-because-of-groundwater-depletion-but-the-process-can-be-reversed-292669",
+      "originalTitle": "Cities across the world are sinking because of groundwater depletion. But the process can be reversed",
+      "publishedAt": "2026-09-30T09:05:49Z",
+      "retrievedAt": "2026-10-01T00:42:49.502Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-01T00:42:41.863Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 31,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-01/2026-10-01-cities-across-the-world-are-sinking-because-of-g.webp",
+      "alt": "抽象城市剪影与地层剖面，一条线由下沉转为回升",
+      "caption": "地下水与地面的升降",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-01-yx4obv",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "欧阳明高：当技术革命家是我的追求",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-01",
+    "intro": "这篇报道的正文内容未能成功抓取。页面仅显示标题、导航栏和搜索功能，无采访实录、人物言论或具体事迹等可核验信息。",
+    "paragraphs": [
+      "当前获取的网页内容中，只有标题‘欧阳明高：当技术革命家是我的追求’及中新网教育栏目导航结构，未包含任何记者提问、欧阳明高回答、技术细节、时间地点或事件经过等实质性正文内容。",
+      "根据轻听编辑规范，人物报道必须基于可核查的具体引语、事实和过程；仅凭标题无法支撑真实、准确、可回溯的听稿。使用模糊表述如‘据报道’‘专家指出’将导致无法验证，违背事实审稿原则。",
+      "因此本次不生成正式听稿。待完整原文到位——包括采访场景、直接引语、所涉技术方向（如氢能、电池热管理等）、关键时间节点及个人经历细节后，方可启动制作。目前信息量不足以构成一篇面向青少年的可信人物报道。"
+    ],
+    "topics": [
+      "新能源技术",
+      "科学家访谈",
+      "技术产业化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-30/10706214.shtml",
+      "originalTitle": "欧阳明高：当技术革命家是我的追求",
+      "publishedAt": "Wed, 30 Sep 2026 14:59:16 +0800",
+      "retrievedAt": "2026-10-01T00:44:37.567Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-01T00:44:36.260Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Ouyang Minggao: 'Being a Technology Revolutionary Is My Pursuit'",
+      "intro": "One short sentence in a headline gives us a chance to think about what the word 'revolutionary' really means.",
+      "paragraphs": [
+        "The China News Service education page shared a story about Ouyang Minggao. The headline is 'Ouyang Minggao: When Technology Revolutionary Is My Pursuit'.",
+        "The headline uses the phrase 'Technology Revolutionary'. It is presented as his personal aspiration.",
+        "The word 'pursuit' appears in the headline. It signals a long-term goal, not a one-time achievement."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-01T00:47:24.732Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-09-30-cuddling-helps-apes-keep-the-peace",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "喂食前互相拥抱的猿类，更可能和平地一起进食",
@@ -3093,209 +3301,6 @@
         "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-06-live-from-icm-2026-what-is-math-for-in-the-age-o",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI时代，数学家真正看重的是什么？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-06",
-    "intro": "在2026年7月于费城举行的国际数学家大会（ICM 2026）上，三位数学家与主持人Janna Levin和Steven Strogatz共同探讨：当人工智能开始生成证明、发现跨领域联系，甚至解决长期悬而未决的难题时，数学家究竟为何而做数学？",
-    "paragraphs": [
-      "在2026年7月于费城举行的国际数学家大会（ICM 2026）上，主持人Janna Levin和Steven Strogatz与三位数学家Akshay Venkatesh（普林斯顿高等研究院）、Ravi Vakil（斯坦福大学，美国数学会主席）和Alex Kontorovich（罗格斯大学）共同探讨：当AI系统已能生成证明、发现不同数学领域间的联系，并在个别案例中解决困扰数学家数十年的问题时，数学家真正重视的是什么？讨论聚焦于AI对数学前沿的影响，以及这对下一代数学家意味着什么。",
-      "讨论从国际数学奥林匹克竞赛（IMO）切入。2024年，AlphaProof在IMO中获得银牌；2025年，一个更先进的模型结合DeepThink取得金牌。Ravi Vakil指出，IMO是吸引年轻人进入数学的多种路径之一，其真正价值不在于六道题或六名优胜者，而在于激励数以百万计的孩子锤炼思维。他认为AI在IMO中的表现是‘概念验证’，是值得欢迎的里程碑，但并非‘超人智能’的体现；第一次看到模型解出问题令人兴奋，第七次则不再新鲜——这与学生反复解同一题的情形类似。",
-      "Akshay Venkatesh表示，IMO成绩可能强化一种错误印象：数学本质上是竞争。他担忧这种观念尤其在当下有害，因为有些孩子因竞赛失利就认定自己‘不适合数学’而退出，而这‘毫无道理’。Vakil也强调竞赛是‘双刃剑’：既能激发兴趣，也可能将人拒之门外。",
-      "话题随后转向AI对Erdős问题的进展。Paul Erdős生前提出数千个问题，近年由Tom Bloom整理成数据库。Alex Kontorovich解释，AI擅长从大量问题中筛选可解项——例如给AI一千个问题，即使仅1%命中率，也能产出约十篇好论文。但他同时提醒：近期宣布‘解决’的Erdős风格问题中，有多少是完整解答，又有多少只是部分进展，尚需审慎辨析。",
-      "讨论最终回归核心问题：数学家做数学，究竟为了什么？嘉宾们指出，答案涉及对‘证明’与‘理解’本质的再思考，也关乎‘讲故事’这一常被忽视却至关重要的维度。随着机器在解题能力上日益逼近甚至超越人类，数学家或将不得不重新确认：数学的价值，是否更在于探索的旅程本身，而非抵达某个确定的答案？"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
-      "originalTitle": "Live from ICM 2026: What Is Math For in the Age of AI?",
-      "publishedAt": "Thu, 03 Sep 2026 13:41:48 +0000",
-      "retrievedAt": "2026-09-05T23:01:31.988Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T23:01:18.024Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 47,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "What Is Math For in the Age of AI?",
-      "intro": "At a live recording from the International Congress of Mathematicians in Philadelphia in July 2026, mathematicians discussed what they truly value about doing mathematics amid rapid AI advances.",
-      "paragraphs": [
-        "AI systems are now producing proofs, spotting connections between distant fields, and solving problems that had stumped mathematicians for decades. The pace of progress over the past several months has raised challenging questions: What can AI systems actually do? And what happens to the more human, creative aspects of the field once machines can match — or exceed — people at problem-solving?",
-        "The hosts began with the International Mathematical Olympiad. In 2024, AlphaProof achieved a silver medal. In 2025, a more advanced model with DeepThink achieved a gold medal. Ravi Vakil said it was exciting — a proof of concept — but did not represent superhuman intelligence or anything 'crazy like that'. He emphasized that the competition's real value is how it encourages millions of kids to hone their minds. He also cautioned that people might misinterpret the milestone.",
-        "Akshay Venkatesh said the AI successes have contributed to the image of mathematics as a competition — which is not how he sees it. He expressed mixed feelings about competitive validation for young people. Ravi Vakil agreed: some students are driven out of mathematics because they think they're 'not good' after performing poorly in competitions — a view he called nonsensical.",
-        "Alex Kontorovich discussed Erdős Problems. Paul Erdős loved asking questions and wrote down thousands of them. Tom Bloom collected them into a database. Kontorovich noted that AI can scan many problems quickly; even a 1% hit rate yields about ten good papers a year — a fantastic mathematical career. But he stressed: 'solving problems is just one small component of what mathematicians do.' They also find definitions, create new structures, and pose new questions.",
-        "The conversation turned to what mathematicians value about doing mathematics in the first place. The answer involves grappling with what proof and understanding really mean — and the surprising importance of storytelling. The hosts reflected on the saying 'It’s the journey, not the destination,' and wondered whether mathematics itself may be fundamentally about the journey."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T23:10:56.120Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-06/2026-09-06-live-from-icm-2026-what-is-math-for-in-the-age-o.webp",
-      "alt": "几何线条与数字节点交织的抽象插图",
-      "caption": "数学与AI的抽象对话",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-06-6fctmf",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "联合国通过决议，呼吁停止使用缩小非洲的地图",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-06",
-    "intro": "联合国大会以压倒性多数通过决议，呼吁各国政府、学校和科技公司停止使用那些让非洲看起来远小于其实际面积的地图。",
-    "paragraphs": [
-      "你有没有注意过，在很多常见地图上，非洲和格陵兰岛看起来差不多大？但事实上，非洲的实际面积约为格陵兰岛的14倍。地图为什么会失真？原因在于一种沿用四百多年的地图投影法——1569年由弗拉芒制图师杰拉德·墨卡托设计，初衷是解决海上航行问题。",
-      "2026年9月4日（周五），联合国大会以164票赞成、1票反对、6票弃权的结果通过决议，呼吁全球各国政府、学校、国际组织和科技公司在相对大小至关重要时，采用‘平等地球’等等面积地图投影法，并向公众说明任何平面地图表现球形地球时的固有局限。美国投下唯一反对票，称该倡议属于‘激进意识形态项目’；法国则在投票前宣布将放弃使用墨卡托投影法。",
-      "墨卡托投影法为保持航线上直线对应恒定罗盘方向，牺牲了面积准确性：陆地离赤道越远，视觉面积被放大得越严重。因此，格陵兰岛在图上看似与非洲相当，实则非洲面积约为其14倍；北欧和北美洲同样被显著夸大。尽管最初专为航海设计，该投影法至今仍广泛用于教育、媒体、数字平台和官方材料中，导致非洲的‘象征性缩小’，延续不平衡的世界观。",
-      "多哥外交部长罗伯特·杜西代表非洲集团主导谈判，强调‘地图塑造着我们对世界的理解。它们引导教育，滋养想象力，并影响集体认知。’决议将纠正此类失真称为‘认知正义和纪念性补偿’之举，并明确指出：此举并非谴责墨卡托投影法对航海的实用性，也未强制推行单一投影法。杜西表示：‘一张公平的地图不会改变世界的地理，它改变的是我们看待世界的方式。’",
-      "乌克兰和欧盟支持纠正历史失真，但担忧某些等面积地图对争议领土（如俄罗斯占领的乌克兰地区）的呈现可能模糊边界。欧盟强调，该决议仅适用于陆地相对大小，与主权、领土地位或国际公认边界无关；其支持亦不构成对‘平等地球’网站所展示地图的认可。决议本身承认：没有任何一种地图投影能完美再现球形地球，每种投影必在面积、形状、距离或方向中有所取舍；该决议不具约束力，但传递了一个关键信息——我们在地图上的选择，会影响几代人对世界的理解。"
-    ],
-    "topics": [
-      "全球时事",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142746",
-      "originalTitle": "联合国向世界发出呼吁：别再让非洲在地图上显得那么小",
-      "publishedAt": "Fri, 04 Sep 2026 12:00:00 +0000",
-      "retrievedAt": "2026-09-05T23:04:55.651Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T23:04:35.219Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-06/2026-09-06-6fctmf.webp",
-      "alt": "地球仪碎片与比例尺的抽象插图",
-      "caption": "地图投影的视觉反思",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-06-jefmgv",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "“成功学”类童书为何畅销占据榜单？孩子们能从中获益吗？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-06",
-    "intro": "标题已确认来自中新网教育频道，但所提供证据块中未包含任何正文内容。",
-    "paragraphs": [
-      "你提供的原文片段仅含网页导航栏、图片占位符、链接和标题，无实际报道正文。",
-      "根据审稿规则，所有事实陈述必须有原文直接支撑；无正文则无法核实观点、数据、引语或案例。",
-      "因此，当前信息不足以生成面向孩子和家长的独立听稿。"
-    ],
-    "topics": [
-      "教育",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-05/10690894.shtml",
-      "originalTitle": "“成功学”类童书为何畅销占据榜单？孩子们能从中获益吗？",
-      "publishedAt": "Sat, 5 Sep 2026 13:32:56 +0800",
-      "retrievedAt": "2026-09-05T23:06:11.746Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T23:05:55.660Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-06-rewriting-the-narrative-one-man-s-journey-throug",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "肺癌治疗新时代：一位患者的抗癌旅程",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-06",
-    "intro": "肺癌仍是头号癌症杀手，但新进展正在改变患者未来。",
-    "paragraphs": [
-      "肺癌目前仍然是致死率最高的癌症。",
-      "不过，新的医学进展正在改变患者可能面对的未来。",
-      "一位男性的抗癌经历展示了这种变化。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "region": "international",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5850255/rewriting-the-narrative-one-mans-journey-through-the-new-era-of-lung-cancer-care",
-      "originalTitle": "Rewriting the narrative: One man's journey through the new era of lung cancer care",
-      "publishedAt": "Sat, 05 Sep 2026 07:43:23 -0400",
-      "retrievedAt": "2026-09-05T23:07:05.509Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-05T23:06:53.732Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 0,
-        "attempts": 1
       }
     }
   }
