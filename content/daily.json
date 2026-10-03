@@ -1,5 +1,214 @@
 [
   {
+    "slug": "2026-10-03-sea-monkeys-show-scientists-how-to-rewrite-a-rul",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "海猴子游动的角度，能改变湍流中能量的方向",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-03",
+    "intro": "科学家一直以为，湍流里的能量只朝一个固定方向传递。直到他们在一缸盐水里养上海猴子，才发现只要改变这种小虾游动的角度，能量的流向就会反过来。",
+    "paragraphs": [
+      "上世纪六七十年代，美国纽约市Transcience公司出版的漫画书广告承诺：寄去现金、支票或汇票，就能收到‘满满一碗快乐’——实际是一个装着冻干卵的小纸包。把卵倒入盐水，会孵化出卤虫，俗称‘海猴子’。卤虫长约10毫米，倒着游泳，疯狂摆动腿部，拖着细长腹部如尾巴。科学家最近发现，它们能做的事远不只是‘自己移动’。",
+      "湍流到处都是：瀑布底部翻滚的白沫、破碎浪头的浪尖、飞机颠簸、牛奶在咖啡中形成的漩涡，以及太阳表面等离子体的翻腾。意大利巴里理工大学水动力学专家弗朗切斯卡·德塞里奥说：‘我们日常生活中处处可见湍流，比如去海滩或洗手时。’湍流很复杂，但常始于简单情形：流动的流体遇到障碍物，局部流速改变，从而产生涡旋或涡流。例如河水因河岸摩擦而减速，速度差异形成涡旋；水流绕过岩石时速度变化、出现空腔，水层相互覆盖并开始旋转。",
+      "在这类系统中，能量在不同尺度间传递。1922年，英国数学物理学家刘易斯·弗莱·理查森用诗句描述这一过程：‘大漩涡里套着小漩涡，小漩涡喂养自身速度；小漩涡里还有更小的漩涡，如此直至黏性接管，能量最终耗散为热。’上世纪四十年代起，苏联数学家安德雷·柯尔莫哥洛夫为三维湍流建立了严格数学基础——在三维系统中，能量通常从大尺度流向小尺度。六十年代末，物理学家罗伯特·克赖奇南和乔治·巴切洛将研究扩展到二维系统，如木星大红斑：在二维湍流中，能量反向级联，从小尺度涡旋流向大尺度结构。此后几十年，物理学家并未深入探究这种能量流向是否不可改变。",
+      "匹兹堡大学方雷的实验室研究‘活性物质’——能自主运动并向环境注入能量的系统，包括细菌和微型机器人等。约2021年，当时在方雷实验室做学生的司新宇开始研究卤虫。他在玻璃表面铺一层薄盐水膜，下方放置磁铁；对导电盐水施加电流后，水在通道一侧单向流动，另一侧反向流动，中间形成速度梯度；随后加入卤虫。",
+      "反复实验后，他们观察到异常现象：当一只卤虫游动方向与水流‘最大拉伸方向’夹角小于45度时，能量按二维系统预期从小尺度流向大尺度，反哺整体流动；当夹角大于45度时，能量流向逆转，从大尺度流向小尺度，激发微小扰动。他们用张量几何解释该现象：一个张量描述大尺度剪切对能量通量的影响，另一个描述小尺度游动对能量通量的塑造；游动方向决定两个张量的对齐方式，进而决定能量流向。方雷说：‘几何形状很重要。’该成果于2024年发表于《PNAS Nexus》。",
+      "以色列魏茨曼科学研究所物理学家格雷戈里·法尔科维奇长期研究二维湍流，称这项工作是‘一项漂亮而娴熟的实验工作’。研究者指出，该发现可能推广至更大、更混沌的系统（包括三维系统），有助于深化对流体动力学的理解，并在污染控制、药物设计等领域具潜在应用价值。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
+      "originalTitle": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
+      "publishedAt": "Fri, 02 Oct 2026 14:45:02 +0000",
+      "retrievedAt": "2026-10-03T00:36:50.298Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T00:36:37.624Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 47,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-03/2026-10-03-sea-monkeys-show-scientists-how-to-rewrite-a-rul.webp",
+      "alt": "一只抽象小虾在水中倾斜游动，周围是弯曲的湍流线条。",
+      "caption": "改变游动角度，湍流中的能量方向随之反转。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-03-4q7mxc",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "国际留守儿童「团聚」之后，在父母身边当异乡人",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-03",
+    "intro": "有些孩子从小被留在国内，由祖辈抚养，父母远赴欧洲务工；十七年后终于团聚，却发现自己和父母、和那个叫‘家’的地方，都像初遇的异乡人。",
+    "paragraphs": [
+      "小芮高三那年，决定不参加高考，搭上单程飞机，在「国际留守」17年后，和在欧洲务工的父母团聚。她说：‘这是我妈，我知道。我学过妈妈这个概念，是生我的人，应该是我最亲近的人。’",
+      "在著名的侨乡浙江省青田县，从幼儿园到高中，每个阶段都有同学中途离开中国教育体系，到异国他乡打工谋生。‘考不上好高中就出国打工’、‘考不上好大学就出国打工’这些话伴随着侨乡儿童的童年，有时是底气，有时是威胁。",
+      "对于像小芮这样的侨乡青少年来说，大陆的另一端，有让他们从小异国留守的父母，有第一代移民已经建立的支持网络，有只在视频中见过的‘远方的家’。",
+      "团聚之后，并不自动等于团圆。小芮发现，父母习惯了用工资单说话，而她习惯了靠自己做决定；父母觉得‘出国就是出路’，她却在深夜查大学申请资料，悄悄想留下读书。语言、习惯、对时间的理解、甚至吃饭的节奏，都在提醒她：血缘很近，生活却很远。",
+      "这不是谁的错，也不是谁不够爱。它是一群人在跨国流动中，用尽力气托举下一代时，不得不暂时放下的那些日常——那些本该在早餐桌上、放学路上、生病发烧时，一点一滴长出来的亲密。当孩子终于站在父母面前，他们带去的不只是行李，还有17年独自长大的全部逻辑。"
+    ],
+    "topics": [
+      "全球时事",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261003-strangers-transnational-left-behind-children/",
+      "originalTitle": "國際留守兒童「團聚」之後，在父母身邊當異鄉人",
+      "publishedAt": "Fri, 02 Oct 2026 23:00:04 GMT",
+      "retrievedAt": "2026-10-03T00:38:04.759Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T00:38:02.864Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-03-cfypux",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "两面特殊的五星红旗，记录两位科学家回国的选择",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-03",
+    "intro": "1949年，两位正在美国的年轻科学家，各自用身边能找到的材料做出一面五星红旗，也做出了同一个选择。",
+    "paragraphs": [
+      "1949年9月23日，梁思礼在旧金山登上‘克利夫兰总统号’邮轮回国。邮轮航行在茫茫大海上，广播传来新中国成立的喜讯，同时还播报了新中国国旗为五星红旗。一群满怀热血的留美学子欣喜若狂，要举办一场海上庆祝会。彼时大家并未见过国旗实物，没有现成红旗，他们找来白布，用红墨水染成红色，再剪下黄纸，剪出一大四小五颗五角星，凭想象把大五角星放在旗面中间，小五角星放在四角。简陋的布料，粗糙的剪纸，这面并不标准的国旗，却盛满海外游子对祖国最炽热的祝福。",
+      "梁思礼刚取得自动控制专业博士学位，美国无线电公司向他递来优厚的工作邀约，但他心中牵挂的只有新生的祖国。1949年9月24日，梁思礼登上‘克利夫兰总统号’，踏上回国的航程。历经二十多天风浪颠簸，梁思礼先是抵达了香港，随后乘船北上，终于踏上天津码头，回到阔别八年的祖国怀抱。‘我离开（美国）时的感情，只有期望，没有留恋。’这是梁思礼的心声。",
+      "昔日同窗留在美国，参与研制洲际导弹，拥有优渥的物质生活；梁思礼扎根国内，住着普通单元楼，投身中国导弹事业。面对外界疑惑，他掷地有声：‘他干的导弹是瞄准中国的，我干的导弹是保卫我们祖国的！’此后，东风系列导弹、神舟飞船等诸多国之重器，都凝聚着他的心血与付出。",
+      "几乎同一时间，远在美国普渡大学的洪朝生，也听闻新中国成立的喜讯。当时纽约《华侨时报》转载了《人民日报》刊发的五星红旗标准图样及制作说明。怀着对新生祖国的无限热忱，洪朝生当即决定亲手绘制五星红旗。他拿出实验用的专业坐标纸，反复校准每一颗五角星的比例与位置，一笔一画绘出标准的五星红旗图样，小心翼翼珍藏数十载。如今，这份图纸陈列在中国科学家博物馆，纸页泛黄，初心依旧滚烫。",
+      "当时的洪朝生，已在半导体领域取得重大突破，提出著名的杂质能级导电理论，研究成果在国际学界备受关注。荷兰、英国、美国多家机构向他伸出橄榄枝，高薪、优越的科研条件，都没能留住他。他心中记挂的，是国内尚属空白的低温物理事业。在征求国内对研究方向的需求后，洪朝生根据国内的反馈和建议去西欧做了一年多的低温物理研究，并协调联系购买国内急缺的一些研究设备和实验材料。1952年，洪朝生毅然回到百废待兴的祖国，从零搭建起中国低温物理研究体系，助力‘两弹一星’工程，主持建设大型航天空间模拟设备，为我国超导、低温技术筑牢根基。",
+      "曾有学生问他，如果当年留在国外，是否有机会获得诺贝尔奖。洪朝生只是轻轻摇头：‘没有如果。我从未动摇和后悔回国的决定！’一句‘没有如果’，道尽老一辈科学家把个人理想完全融入国家命运的坚定抉择。从1949年8月至1950年底，上千名留美学子冲破重重阻碍回到祖国。他们放弃海外优渥生活，带回知识与技术，在一穷二白的土地上拓荒前行，其中很多人成为国内各个学科的奠基人。两面特殊的五星红旗，承载的不仅是海外游子对新生祖国的热切向往，更是老一辈科研工作者以身许国的无悔抉择。"
+    ],
+    "topics": [
+      "历史",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572444.shtm",
+      "originalTitle": "两面特殊的国旗背后，藏着怎样的归国故事？",
+      "publishedAt": "2026-10-02 08:57",
+      "retrievedAt": "2026-10-03T00:39:01.495Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T00:38:55.662Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Return Stories Behind Two Special Flags",
+      "intro": "A news report from ScienceNet tells how two unusual five-star red flags connect to Chinese scientists who returned home.",
+      "paragraphs": [
+        "In 1949, news of New China reached abroad. Liang Sili had just earned a PhD in automatic control. An American radio company offered him a good job, but he wanted to return. On September 24, 1949, he boarded the President Cleveland. On the ship, the radio announced the founding of New China and that the national flag would be the Five-Star Red Flag. Students were excited and planned a celebration at sea. They had never seen the real flag. They used white cloth, red ink, and yellow paper to make one. They put one big star in the center and four small stars in the corners. It was rough and not standard, but it held their warm wishes for the motherland.",
+        "After more than twenty days at sea, Liang reached Hong Kong and then traveled north to Tianjin. He had been away for eight years. He said he left America with only expectation, not attachment. A former classmate stayed in the United States and helped build intercontinental missiles. That classmate had a rich material life. Liang lived in an ordinary apartment and worked on China's missile program. He said his classmate's missile aimed at China, while his missile protected China. Later, Dongfeng missiles and Shenzhou spacecraft carried his hard work.",
+        "Around the same time, Hong Chaosheng was at Purdue University in America. He heard the news of New China. The New York-based Overseas Chinese Times reprinted the standard Five-Star Red Flag design and production instructions from People's Daily. Hong decided to draw the flag by hand. He used professional coordinate paper from his lab. He checked each star's size and position again and again. He kept the drawing carefully for many years. Today it is in the Chinese Scientists Museum. The paper has turned yellow, but his original wish is still strong.",
+        "At that time, Hong had made a major breakthrough in semiconductors. He proposed the famous impurity energy level conduction theory. His work drew international attention. Institutions in the Netherlands, Britain, and the United States invited him. They offered high pay and good research conditions. But he remembered that low-temperature physics was still blank in China. After consulting domestic needs, he went to Western Europe for over a year to study low-temperature physics. He also helped buy urgent equipment and materials for China. In 1952, he returned to a country rebuilding from scratch. He built China's low-temperature physics system from zero. He helped the 'Two Bombs, One Satellite' project. He led the building of large space simulation equipment. He laid foundations for superconductivity and low-temperature technology. A student once asked if staying abroad could have won him a Nobel Prize. He shook his head and said, 'No if. I never wavered and never regretted returning.'",
+        "From August 1949 to the end of 1950, over a thousand Chinese students in the United States returned home. They broke through many obstacles. They gave up comfortable lives abroad. They brought back knowledge and technology. They worked on poor land and many became founders of Chinese fields. The two special flags show more than longing for New China. They show older scientists' choice to give their lives to the country. Patriotism is not just a slogan. It means joining personal ideals with national development and using what you have learned to protect this land."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T00:45:19.017Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-03/2026-10-03-cfypux.webp",
+      "alt": "桌面上平铺一面手工缝制的抽象旗帜，旁有剪刀与线轴。",
+      "caption": "用身边材料缝出的旗帜，也是一次选择。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-03-dhq7ty",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "红海危局背后：破碎的也门与强势的胡塞，从何而来？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-03",
+    "intro": "红海航道再起波澜。9月以来，胡塞武装发动大规模军事攻势，迅速占据曼德海峡周边多个战略要地，全球能源与航运市场随之剧烈震荡。",
+    "paragraphs": [
+      "红海航道再起波澜。9月以来，胡塞武装发动大规模军事攻势，迅速占据曼德海峡周边多个战略要地，全球能源与航运市场随之剧烈震荡。也门这一轮冲突升级，究竟因何爆发？也门局势未来又可能会走向何方？本期节目，中东研究专家朱泉钢将为大家介绍当前也门内战和胡塞武装-沙特冲突的来龙去脉与最新变化，分析域外各利益相关方在此次冲突中的选择及其原因。",
+      "为了帮助我们更深入地理解也门为什么会形成当前这种支离破碎的政治军事格局，朱老师还简要梳理了它的近现代历史，并着重介绍了频频搅动也门局势的胡塞武装的发展历史和组织机制。也门失败的现代国家建设：殖民遗产、三次内战、部落政治；英国对也门的殖民主要在南部区域；1990年前的南北也门。",
+      "胡塞武装的诞生和早期经历；与也门中央政府之间矛盾的加剧，以及胡塞军事能力与复合身份的形成；2014年以来也门内战的几个阶段：速推—推回—僵局；2023年新一轮巴以冲突以来，胡塞越来越国际化。",
+      "胡塞的组织架构与治理机制：胡塞家族，监察员制，委员会制；胡塞并非伊朗的代理人：二者战略目标的同异。",
+      "反胡塞集团是个大杂烩；美国仍未下场：美沙之间“石油换安全”的承诺是否还有效？《麦加共同防务协议》成色的试炼：沙特的新安全伙伴土耳其、巴基斯坦会介入也门局势吗？沙特、土耳其、巴基斯坦安全合作的历史背景和政治经济原因；沙特、阿联酋在也门；本轮也门冲突的三种可能走向。",
+      "也门并不遥远。它的破碎来自殖民遗产、内战和部落政治；胡塞的强势来自组织机制和身份的变化；红海的动荡，则把这些线索一路连到了全球的航运和能源市场上。想听懂红海的新闻，恐怕得先听懂也门。"
+    ],
+    "topics": [
+      "全球时事",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "机核 GCores",
+      "region": "mainland",
+      "url": "https://www.gcores.com/radios/220465",
+      "originalTitle": "红海危局背后：破碎的也门与强势的胡塞，从何而来？",
+      "publishedAt": "Fri, 02 Oct 2026 10:00:00 +0800",
+      "retrievedAt": "2026-10-03T00:39:51.150Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T00:39:49.539Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-02-farting-fish-and-tooting-manatees-how-some-anima",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "动物也会放屁，有的靠它浮沉，有的靠它打招呼",
@@ -3098,226 +3307,6 @@
       "src": "/editorial/2026-09-08/2026-09-08-scientists-say-virga.webp",
       "alt": "雨丝在落地前消散于干燥地面",
       "caption": "维加：未及地面的雨雪。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-08-l98wfl",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "青春华章｜科学家，有了“新同事”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-08",
-    "intro": "",
-    "paragraphs": [
-      "本次提供的原文中没有出现实际报道正文，仅有标题、大量网站导航链接、图片占位符和分享功能模块。",
-      "根据轻听编辑规范，所有听稿事实必须有原文直接依据；标题本身不能支撑任何关于‘科学家’‘新同事’的具体描述、事件、人物或技术细节。",
-      "无法从现有材料中提取比分、时间、人物身份、引语、奖项、因果关系或任何可验证陈述，因此不具备改写为面向孩子和家长的听稿基础。"
-    ],
-    "topics": [
-      "科技与社会",
-      "教育创新"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-07/10692023.shtml",
-      "originalTitle": "青春华章｜科学家，有了“新同事”",
-      "publishedAt": "Mon, 7 Sep 2026 16:38:59 +0800",
-      "retrievedAt": "2026-09-07T23:38:52.629Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:38:43.568Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-08-ievfe8",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "尼泊尔特大洪灾：家庭难寻亲人遗体，重建资金缺口巨大",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-08",
-    "intro": "尼泊尔8月洪灾造成重大伤亡，家庭在悲痛中告别，而国际援助资金远低于重建需求。",
-    "paragraphs": [
-      "8月26日清晨，凯达尔和妻子萨利塔动身前往戈赛昆达湖。这是位于加德满都以北、中尼边境拉苏瓦县的一处圣湖。第二天就是贾奈普尼玛节——印度教最重要的节日之一，届时尼泊尔的家庭会聚集在湖畔举行古老仪式、分食豆芽汤并祈福。但他们在途中遭遇突如其来的山洪，乘坐的巴士在博特科西-特里苏利河畔被泥石流卷走。凯达尔的兄弟在博卡拉的西部地区医院辨认出了他的遗体；萨利塔的遗体则辗转至百公里之外的南部奇特旺省，因身份不明，政府几日后暂将其安葬，仅留下她的牙齒供家人举行葬礼。",
-      "这对夫妻的遭遇是尼泊尔这场特大洪灾中的一个悲剧。洪水冲毁道路和房屋，许多家庭失去亲人，有的甚至无法找到完整遗体，只能以其他方式告别。",
-      "相比尼泊尔预计所需的50亿美元修复资金，目前联合国损失和损害基金池里仅有4.85亿美元，且有大量悬而未决的申请。",
-      "在等待援助的过程中，一些家庭用草人代替逝去亲人举行告别仪式，而尼泊尔仍在等待未抵达的援助。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事",
-      "人道援助"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20260908-international-nepal-tibet-flood-aftermath/",
-      "originalTitle": "以草人代軀告別，特大洪災後尼泊爾仍在等待未抵達的援助",
-      "publishedAt": "Mon, 07 Sep 2026 23:00:07 GMT",
-      "retrievedAt": "2026-09-07T23:40:12.507Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:39:50.299Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Grass Effigies and Waiting Aid After Nepal's Flood",
-      "intro": "A couple set out for a sacred lake, but a sudden flood changed their family's story forever.",
-      "paragraphs": [
-        "On the morning of August 26, Kedar and his wife Sarita left for Gosainkunda Lake. It is a holy lake north of Kathmandu, in Rasuwa District near the Nepal-China border. The next day was Janai Purnima, one of the most important Hindu festivals. Families gather by the quiet lake to perform ancient rituals, share traditional bean sprout soup, and pray for family happiness and longevity.",
-        "But Kedar and Sarita never reached Gosainkunda. Their bus was swept away by a sudden flash flood along the Bhotekoshi-Trishuli riverbank. Kedar's brother identified his body at Western Regional Hospital in Pokhara. Sarita's body was taken over 100 kilometers south to Chitwan Province. Because her identity was unknown at the time, the government temporarily buried her after several days — keeping only her teeth so her family could hold a funeral.",
-        "Nepal expects to need about 5 billion dollars for recovery and repairs. The United Nations Loss and Damage Fund currently holds only 485 million dollars, with many applications still pending. So the aid families need has not yet arrived.",
-        "Some families are using grass effigies to say goodbye. When a real body cannot be found or recovered, a grass figure stands in its place for rituals. It is a way to grieve and honor the missing.",
-        "The story of Kedar and Sarita reminds us that disasters are not just numbers. Behind each missing person are relatives waiting, searching, and trying to say goodbye — often waiting too long for outside help."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:49:09.682Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-08-sfykiy",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "杨叔子：当理工遇见人文，他给出这样的答案",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-08",
-    "intro": "原华中理工大学校长杨叔子是中国科学院院士、机械工程专家，也是国内智能制造的首倡者。20世纪90年代，他在理工科校园里“逆流而行”，大办人文讲座，源于他对高等教育重技术、轻人文现象的深刻忧思。",
-    "paragraphs": [
-      "“一个国家、一个民族，没有现代科学，没有先进技术，就是落后，一打就垮；然而，一个国家、一个民族，没有民族传统，没有人文文化，就会异化，不打自垮。”20世纪90年代，我国理工科院校普遍存在重技术、轻人文的现象，而说出这句至理名言的原华中理工大学校长杨叔子，偏偏要在自己的校园里“逆流而行”。一位国内智能制造的首倡者，为何会在理工校园里大办人文讲座？",
-      "拥有多年教育教学经历的杨叔子对我国高等教育的弊病甚为明晰，他认为，我国高等教育的主旋律应是“育人”，而非“制器”，其真正使命是培养既有爱国情怀，又有创新意识的“现代中国人”。但长久以来国内高等教育却表现出过窄的专业教育、过弱的文化陶冶等问题，掣肘着我国高层次人才的培养质量。这是杨叔子倡导文化素质教育的根本原因。",
-      "让杨叔子下定决心推进文化素质教育，还与其亲身经历的两件“小事”有关。第一件事是他在美国做访问学者时，几位美籍华人教授质疑：“中国来美的留学生，ABC（英语）很好，XYZ（专业知识）很棒，可是对中国古典文化、民族历史、地理知识知之甚少，这种学生毕业以后能不能为自己的国家努力工作？”第二件事是他在1994年任校长时收到一封学生来信：“杨校长，有件事情我想不通。作为一个中国的大学生，英语四级过不了关就不能获得学位证书，这点我赞成。因为要改革开放，要中外交流。但是汉语错别字一大堆，用词不妥，句子不通，文章不顺，居然可以拿到学位证书。请问杨校长，这应作何解释？”",
-      "这两件事情引起了杨叔子的深思：如果一个人对自己国家的地理、历史知之甚少，对悠久的传统文化一无所知，甚至都不能掌握自己国家的语言，那怎么会对祖国产生深厚的感情呢？怎么会为民族服务呢？鉴于此，杨叔子希望通过实行文化素质教育，通过科学教育与人文教育的有机融合来培养爱国情怀与创新意识兼备的现代大学生。",
-      "为了将这一理念落到实处，杨叔子在华中理工大学领导班子的支持下，于1995年面向各层次学生首次举行了“中国语文水平达标测试”。随后，学校还通过开办人文讲座、首创大学生文化素质教育基地等多项有力措施，在全国高教界逐步掀起人文热潮。他先后在清华大学、北京大学等国内百余所院校举办人文讲座300余场，吸引听众30余万人次，在国内外产生了强烈反响。2003年，他致信教育部部长周济，建言将文化素质教育推向更广阔的天地。",
-      "二十余年过去，杨叔子虽已远去，但那些座无虚席的讲堂传递的思想力量，早已化作无数学子的精神底色。他倾尽一生回答了一个问题：科学丈量世界的广度，人文定义灵魂的深度。真正的卓越，从来是理性的锋芒与温度的情怀，在同一颗心里并肩生长，比翼翱翔。"
-    ],
-    "topics": [
-      "科学人文",
-      "通识教育",
-      "杨叔子"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/570929.shtm",
-      "originalTitle": "杨叔子：当理工遇见人文，他给出这样的答案",
-      "publishedAt": "2026-09-05 09:59",
-      "retrievedAt": "2026-09-07T23:44:18.518Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:44:04.530Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-07-ifnllk",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "实验室里藏着一片“海”，我国深海装备在这里提前接受考验",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-07",
-    "intro": "科学家在大连的海岸与海洋工程全国重点实验室里造出一片“模拟海洋”，用从南北极运回的真实海冰、可精准复制台风海况的造浪池、以及模拟海底“沙尘暴”的装置，为我国海上工程装备在投产前完成严苛的安全校验。",
-    "paragraphs": [
-      "你见过藏在大楼里的“大海”吗？在大连的海岸与海洋工程全国重点实验室里，科学家们造了这么一片模拟海洋。眼下，我国第16次北冰洋科考正在北冰洋中央冰区紧张推进；而在千里之外的大连，一场针对海冰的科研攻关也在同步进行。现在您看到的是科研人员正在对海冰进行强度测试，与之前用人工制海冰不同，现在实验室的冰样都是从南北极运回来的。摸清真实海冰的承压极限，未来对破冰船研发设计、极地航线规划都有着十分重要的意义。",
-      "海岸与海洋工程全国重点实验室教授卢鹏说：‘必须有海量的、大量的数据去支撑，这也是为什么我们反复做这个事情。’依托这些珍贵实地样本，实验室建起了我国的极地海冰物理与力学数据库。过去不少需要依赖国外的参数，如今我们自己就能测、就能算。摸透海冰特性，只是迈向大洋的第一步。",
-      "实验室的另一块试验区，一套漂浮式风机模型即将迎来海浪模拟考验。眼前这座造浪池，布设着波浪监测装置、光学测量系统、测力天平、应变传感器和压力传感器等多套设备，它可以精准复制极端台风海况，模拟出海上装备实际遭遇的复合极端工况。记者问：‘这个波，好像也没有想象中那种惊涛骇浪。’实验室副主任林毅峰回答：‘现在缩小了这个70倍的，这样子如果说我们换算到原型里面，就相当于现场我们模拟了3.5米的浪高。’",
-      "海洋带来的挑战不只来自海面，海底同样暗藏风险。眼前这套装置，正在模拟海底“沙尘暴”。湍急的水流冲刷海底泥沙，会造成风机海底电缆裸露，带来安全隐患。这个外形像红色大斗笠的装置，就是实验室自主研发的开孔圆台防护设施。当海底暗流涌来，它可以护住桩体周边泥沙不被冲走；更巧妙的是，水流经过装置会在后方形成泥沙淤积，把海底电缆埋得更深，进一步筑牢安全防线。",
-      "正是依靠这个人工搭建的“模拟海洋”，我国各类海上工程装备在投产前就能提前完成严苛的安全校验，为大国重器工程提供自主可控的试验支撑。就在不久前，依托试验数据，我国制造出同类装备当中离岸最远的漂浮式风电平台，作业离岸距离可达150公里，具备抵御17级超强台风的过硬实力。中国海油“海油安澜号”项目工程师冯东说：‘17级台风来了之后，我们整体平台的倾斜角能够控制在1度以内。’从港珠澳大桥，到深海钻井平台，再到海上丝绸之路沿线一批重大港口，实验室里的研究成果已经托举起了数十项国家重大海洋工程。再过几个月，世界上第一个全新海洋工程深水实验室就将在我国正式投运，它可以真实模拟出海下3000米的海底工况，为我国加速走向深远海提供坚实的技术支撑。"
-    ],
-    "topics": [
-      "工程与制造",
-      "全球时事"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/570978.shtm",
-      "originalTitle": "我国加速走向深远海，揭秘藏在实验室里的大海",
-      "publishedAt": "2026-09-06 21:04",
-      "retrievedAt": "2026-09-06T22:59:16.169Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-06T22:59:04.722Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 14,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How a Lab Recreates the Deep Ocean",
-      "intro": "China's push into deeper seas depends on a special lab that copies ocean conditions before real equipment is built.",
-      "paragraphs": [
-        "China's 16th Arctic Ocean expedition is underway in the central ice area. Far away in Dalian, another team is studying sea ice. They test the strength of real ice samples brought back from the polar regions. In the past, they used artificial ice. Now the lab uses actual polar ice. Knowing how much pressure real ice can take helps design better icebreakers and plan polar shipping routes. Professor Lu Peng says they need massive amounts of data. The lab has built China's polar sea ice physical and mechanical database. Before, engineers often relied on foreign parameters. Now they can measure and calculate these values themselves. Professor Lu Peng says understanding ice is core to polar engineering because ice's effect on structures is the most important factor in polar regions.",
-        "Understanding ice is only the first step. In another part of the lab, a floating wind turbine model faces wave simulation. The wave pool has wave monitoring devices, optical measurement systems, force balances, strain sensors, and pressure sensors. It can accurately replicate extreme typhoon sea conditions and simulate compound extreme working conditions for offshore equipment. A reporter notes the waves look small. Deputy Director Lin Yifeng explains the model is scaled down 70 times. So those waves equal 3.5-meter waves in full scale.",
-        "Ocean challenges come not only from the surface but also from the seabed. The lab simulates underwater 'sandstorms'. Strong currents scour seabed sediment, risking exposure of wind turbine submarine cables. A red conical device — the lab's self-developed perforated conical protective facility — shields sediment around pile foundations. When undercurrents hit it, flow patterns cause sediment to deposit behind the device, burying cables deeper and strengthening safety.",
-        "These simulated ocean tests allow strict safety verification of marine engineering equipment before deployment. They provide autonomous, controllable experimental support for major national projects. Recently, based on test data, China built the farthest-offshore floating wind platform of its kind — operating 150 kilometers offshore and capable of withstanding a Category 17 super typhoon. Engineer Feng Dong of the CNOOC 'Haiyou Anlan' project says the platform's tilt stays within one degree during such a storm. Lab results have supported dozens of national marine projects — including the Hong Kong–Zhuhai–Macao Bridge, deep-sea drilling platforms, and major ports along the Maritime Silk Road.",
-        "In a few months, the world's first new deep-water ocean engineering laboratory will officially begin operation in China. It can realistically simulate seabed conditions at 3000 meters depth. This will provide solid technical support for China's accelerated advance into the deep and distant sea."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-06T23:13:47.045Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 14,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-07/2026-09-07-ifnllk.webp",
-      "alt": "Indoor wave pool with machinery in a lab",
-      "caption": "实验室中的模拟海洋装置",
       "kind": "editorial"
     }
   }
