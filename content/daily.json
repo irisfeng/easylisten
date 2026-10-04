@@ -1,5 +1,274 @@
 [
   {
+    "slug": "2026-10-04-5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一块在库房躺了近40年的化石，改写了昆虫登陆演化史",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-04",
+    "intro": "博物馆库房里躺了近四十年的一块化石，因为一个本科生在二手教材上多看了一眼，成了改写昆虫登陆演化史的关键证据。",
+    "paragraphs": [
+      "在美国圣地亚哥自然历史博物馆的库房里，一块产自美国得克萨斯州的化石静静躺了近40年，一直被鉴定为“甲壳动物幼体”。直到2021年，还是本科生的捷克青年Erik Tihelka在一本二手俄语古生物教材上偶然瞥见它的照片，察觉形态异样；随后蔡晨阳团队联合国际同行，在《Nature》杂志发表研究，确认它是距今约3.24亿年的“先驱乔昔虫”。Erik是论文第一作者。",
+      "昆虫是地球上物种多样性最高的动物类群，但它们究竟何时、如何从水生走向陆地，长期是笔糊涂账。古生物学界存在著名的“六足动物空缺期”：分子钟推算显示，六足动物早在寒武—奥陶纪就与海洋甲壳动物分道扬镳，开启陆地适应进程；但全球已发现的无争议六足动物化石仅追溯至约4.05亿年前的早泥盆世，确凿的昆虫化石直到晚石炭世才大量出现——二者之间存在长达8000万年的化石记录缺失。先驱乔昔虫产自美国得克萨斯州西部，距今约3.24亿年（石炭纪中期），正好填补这一空白。",
+      "研究团队借助交叉偏振光成像技术看清了它的躯体形态：雌性成虫，体长32毫米，拖着1条中尾丝和2条尾须，加起来近50毫米；有产卵器，有终尾丝，胸部有分节的躯干和6条步行足——标准的昆虫配置。但它腹部第1到第9节每一节都长着分节的附肢，后面的几对还特化成了桨状。现生昆虫腹部没有附肢。桨状腹足意味着它会游泳；化石产出的地层是近岸浅水、三角洲滨岸环境——水陆交界处。因此，这只昆虫过的是半水生两栖生活。这个发现说明，昆虫登陆不是一蹴而就，而是在水陆之间进行了漫长、谨慎的来回“试探”，腹部附肢从游泳足一步步简化、消失，最后才形成今天昆虫的六足模式。研究团队还重新检查了苏格兰早泥盆世的莱弗休姆虫和美国伊利诺伊州马宗溪生物群的两类未命名化石，它们和先驱乔昔虫一起，构成了目前已知最古老的昆虫基干类群。",
+      "这块化石标本的经历比论文本身更曲折。“先驱乔昔虫”的正模标本已被美国圣地亚哥自然历史博物馆收藏近40年。曾有学者对其分类提出质疑，但无人跟进。直到2021年，Erik在二手俄语教材上看到其线条图（标本号：SDNHM 28852），凭昆虫形态敏感度觉得“不太对劲”，随即联系博物馆获取高清照片；蔡晨阳团队确认其潜在研究价值。在进一步联系中，他们发现另有年轻学者也在关注该标本，多方决定携手合作。研究团队于2025年首次向《Nature》投稿被拒，理由是PDF压缩导致关键形态细节模糊，且系统发育数据不完整；团队申诉后获修改机会，补全高质量数据；审稿人对“单一标本保存状态”存疑，团队在第三轮和第五轮修改中补充马宗溪生物群相关化石作为佐证，并由Erik完成大量系统发育编码分析，最终回应关切。一位审稿人写道：“关注这批标本已有相当长一段时间，一直在期待相关成果的问世。因此，能够终于见到该成果成文，我由衷感到高兴。”这也是近30年来《Nature》发表的极少数古昆虫学论文之一。",
+      "这段研究背后是一段跨国师徒的双向奔赴。2019年，还在捷克读高中的Erik因家庭从事养蜂业而痴迷昆虫，主动给当时在英国布里斯托大学做牛顿国际学者的蔡晨阳发邮件求教甲虫化石鉴定。蔡晨阳欣然同意，此后不仅提供标本、设计课题、开放实验室资源，还引荐顶尖专家指导。2019年6月，两人合作的第一篇论文发表在《古昆虫学》上。Erik最终选择布里斯托大学就读，后在蔡晨阳引荐下获得剑桥大学全奖博士名额。截至2026年，蔡晨阳与Erik已合著论文70余篇，其中Erik为第一作者、蔡晨阳为通讯作者的达30余篇。Erik微信昵称是中文“六子”，即将成为湖南女婿。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572469.shtm",
+      "originalTitle": "本科生在教材上多看了一眼，5年后改写演化史",
+      "publishedAt": "2026-10-03 20:44",
+      "retrievedAt": "2026-10-03T23:52:28.897Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:52:19.050Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-04/2026-10-04-5.webp",
+      "alt": "岩页中的昆虫化石印痕与一本翻开的旧书",
+      "caption": "库房里的化石，改写了昆虫登陆史",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-04-among-naked-mole-rats-a-royal-s-scent-keeps-the-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "裸鼹鼠女王的气味，怎样维持整个群体的和平",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-04",
+    "intro": "一项新研究显示，裸鼹鼠女王会释放一种特殊的化学物质，只要这种气味还在，同伴就不打架，也不交配。",
+    "paragraphs": [
+      "想象一种超能力：释放一种气味，就让正在争斗的对手立刻停手。在裸鼹鼠的地下群体里，女王就拥有这样的能力。裸鼹鼠过着分工明确的生活，有的外出寻找食物，有的留在巢里照顾幼崽，而整个群体中只有女王负责生育。她维持自己地位的办法，就是让其他成员无法交配。一旦女王死去，地位较高的裸鼹鼠就会开始交配，并凶狠地打斗，直到其中一只成为新的女王。",
+      "德国柏林马克斯·德尔布吕克中心的神经科学家加里·勒温，长期研究裸鼹鼠怎样使用感官。他曾发现，裸鼹鼠靠气味分辨同伴是不是来自自己这个群体。这让他产生了一个疑问：气味在群体内部是不是也起作用？他和团队找到了一种只由女王产生的化学物质，名叫肉豆蔻酸异丙酯（EYE-so-pro-puhl MEER-ih-stayt）。这种物质对人来说没有任何气味，但对裸鼹鼠非常强烈——研究者发现，它能激活动物的嗅觉皮层，即大脑中处理气味的区域。",
+      "为了验证这种气味的作用，研究团队把女王从群体中移走，然后每天给群体涂上肉豆蔻酸异丙酯，持续了三个月。‘In the entire three months, there was no fighting. Everybody was cool with each other … and there was no [mating],’ says Lewin。研究人员一停止添加这种气味，裸鼹鼠就开始打斗。‘Within a week we had the first death,’ Lewin says。‘A few weeks later, we saw mating events — and a new queen emerged.’ 研究团队于7月15日在《自然》杂志上发表了这项发现。",
+      "研究团队还做了另一组实验：把成对的雄性和雌性裸鼹鼠从群体中分开，让其中一些配对接触女王的气味，另一些则不接触。四个星期后，接触气味的雌性没有一只交配；而没有接触的六对中，有五对的雌性怀孕了。血液检测显示，肉豆蔻酸异丙酯会影响雌性裸鼹鼠体内的激素：它降低孕酮（Proh-JES-tur-own）水平，同时提高催乳素水平，正是这种变化阻止了它们怀孕。",
+      "研究还发现，女王只在怀孕或准备怀孕时才会产生肉豆蔻酸异丙酯。如果她停止产生，其他裸鼹鼠就会知道女王没有履行自己的职责——生育后代，于是会杀死她。勒温指出，这种程度的团队合作在哺乳动物中十分罕见。‘We think of that as something uniquely human. But it’s actually something that mole-rats have been doing for millions of years — before we even appeared on the scene.’",
+      "在这套系统里，气味不只是传递消息，它本身就是秩序：只要女王还在正常生育，气味就在，群体就安静；一旦气味消失，秩序便立刻由打斗重新决定。听完这件事，也许可以想一想，一个群体的和平，究竟建立在什么之上。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
+      "originalTitle": "Among naked mole-rats, a royal’s scent keeps the peace",
+      "publishedAt": "Fri, 02 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-03T23:53:42.740Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:53:38.014Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Queen's Scent Keeps the Peace Among Naked Mole-Rats",
+      "intro": "A naked mole-rat queen releases a calming scent that stops other mole-rats from fighting and mating — keeping order in her colony.",
+      "paragraphs": [
+        "Naked mole-rats live in underground colonies with one queen. She is the only one who reproduces. Others search for food or care for the young. The queen keeps her status by preventing others from mating. When she dies, high-ranking mole-rats start mating and fight viciously until one becomes the new queen.",
+        "The study was published July 15 in Nature. Gary Lewin is a neuroscientist at the Max Delbrück Center in Berlin, Germany. He studies how naked mole-rats use their senses. He previously discovered they use scent to identify mole-rats from other colonies. That made him wonder: Do odors matter within a colony, too?",
+        "Lewin’s team found a chemical made only by queen mole-rats. It is called isopropyl myristate. To people, it has no smell. But it must smell very strong to naked mole-rats. It sets off activity in the olfactory cortex — the brain region that processes smells.",
+        "To test the scent, the team removed a queen from her colony. Then they applied isopropyl myristate to the colony every day for three months. 'In the entire three months, there was no fighting. Everybody was cool with each other … and there was no [mating],' says Lewin. When researchers stopped adding the odor, the mole-rats started fighting. 'Within a week we had the first death,' Lewin says. 'A few weeks later, we saw mating events — and a new queen emerged.'",
+        "The team also found more clues about how the queen’s scent works. They separated pairs of male and female mole-rats. Some pairs were exposed to the queen scent; others were not. After four weeks, no female exposed to the scent had mated. Five of six females from the other pairs were pregnant. Blood tests showed isopropyl myristate lowers progesterone and raises prolactin in female mole-rats.",
+        "A queen only produces isopropyl myristate when she is pregnant or preparing to be. If she stops, other mole-rats know the queen is not doing her job — which is having babies, Lewin says. So they kill her. This level of teamwork is rare among mammals. 'We think of that as something uniquely human. But it’s actually something that mole-rats have been doing for millions of years — before we even appeared on the scene.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:58:16.437Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-04/2026-10-04-among-naked-mole-rats-a-royal-s-scent-keeps-the-.webp",
+      "alt": "抽象同心波纹与地下洞穴线条",
+      "caption": "一种气味，维持群体的和平",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-04-88njp9",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "香港狗咬人事故：從人寵共融到全城獵狗，狗隻管理鏈是如何斷裂的？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-04",
+    "intro": "一起致命袭击、一次绝育手术后的死亡，把香港的犬只管理制度推到公众面前。",
+    "paragraphs": [
+      "8月20日，香港新界打鼓岭一间宠物酒店及犬只训练中心外，33岁的中心负责人Jojo被发现倒卧在狗舍外草地，她的头部、下颚、颈及双臂疑被狗噬咬，当场死亡。警方翻查闭路电视，发现Jojo在餵飼後引導一隻30公斤重的混種犬「太陽」返回狗籠，狗突然狂咬事主約一分鐘，直到兩小時後被發現。",
+      "9月上旬，一位狗主在漁護署更新對危險犬的管制行動後，在憂慮下決定帶小狗矇豬絕育，但矇豬在絕育手術後死亡。",
+      "不論是致命襲擊，抑或是官方加強管制後出現的死亡事故，都將香港犬隻管理制度推到公眾眼前。隨後的格鬥犬分類爭議、以及對犬隻來源、主人責任，漁護署執法權等疑問，甚至最近的流浪狗襲擊人致死事件，接連事故暴露出犬隻管理的不同難題。",
+      "與此同時，香港正逐步打開城市對寵物的大門：食肆開始容許狗隻進入，「人寵共融」成為政府政策方向。當愈來愈多狗走進公共空間，一些更基本的問題變得緊迫：香港是否真的知道城市裡養著什麼狗？牠們從哪裡來？牠們過去有沒有攻擊紀錄？出事後，又由誰負責？",
+      "端傳媒從近日多宗狗隻事故出發，訪問狗主和動物團體，嘗試拼湊一隻狗由進入香港、申領牌照、日常飼養，到發生事故及接受執法的整條管理鏈，了解制度如何運作，又在哪些環節出現落差。"
+    ],
+    "topics": [
+      "城市与公共",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261002-hongkong-fighting-dog-controversy-after-fatal-attack/",
+      "originalTitle": "香港狗咬人事故：從人寵共融到全城獵狗，狗隻管理鏈是如何斷裂的？",
+      "publishedAt": "Thu, 01 Oct 2026 22:59:22 GMT",
+      "retrievedAt": "2026-10-03T23:54:15.874Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:54:11.284Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-04-580",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "难民署：580万难民儿童仍无法上学 资金削减威胁教育进展",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-04",
+    "intro": "联合国难民署最新年度教育报告显示，2025年全球1310万学龄难民儿童中，有580万人、占44%未能入学。",
+    "paragraphs": [
+      "联合国难民署周五发布最新年度教育报告《通往未来之路：教育、机遇与自力更生》，指出，2025年全球1310万学龄难民儿童中，有580万人、占44%未能入学。难民署警告，日益加剧的资金削减可能导致更多儿童无法进入课堂，并使难民教育领域多年来取得的进展受到影响。",
+      "报告显示，2025年有65%的学龄难民儿童接受小学教育，但进入中学的比例仅为32%。",
+      "难民女孩从小学向中学过渡面临更大困难。虽然男女儿童小学入学率大致相当，但进入中学后差距明显扩大，贫困、安全风险、早婚等因素迫使越来越多少女辍学。",
+      "报告指出，持续投资正在推动难民高等教育取得进展。2025年，难民高等教育入学率达到11%，高于2024年的9%；超过45万名难民进入高等教育阶段，创历史最高纪录。",
+      "在超过80%的报告国中，2025年难民高等教育入学率低于全国平均水平。在低收入和受冲突影响的国家，仅有2%的难民接受高等教育，而本国公民的比例为13%。",
+      "难民署指出，投资难民教育也意味着加强为难民和收容社区服务的国家教育体系。随着越来越多难民儿童与收容社区儿童共同学习，学校需要足够的教师、教室、学习材料和资金。难民署敦促国际社会和发展伙伴保障教育资金，并投资于难民收容国的国家教育体系。"
+    ],
+    "topics": [
+      "全球时事",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142932",
+      "originalTitle": "难民署：580万难民儿童仍无法上学 资金削减威胁教育进展",
+      "publishedAt": "Fri, 02 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-03T23:54:56.159Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:54:54.166Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "5.8 Million Refugee Children Still Out of School",
+      "intro": "A new United Nations report says funding cuts could push even more refugee children out of the classroom.",
+      "paragraphs": [
+        "Imagine losing your home and your school at the same time. For millions of refugee children, that is everyday life. A new report from the UN refugee agency looks at how many of them are missing out on education.",
+        "In 2025, there were 13.1 million school-age refugee children in the world. About 5.8 million of them were not in school. That means 44 percent had no classroom to go to. The agency warns that funding cuts could push even more children out of school. Years of progress could be lost.",
+        "Primary school is where most refugee children can still be found. About 65 percent of them attended primary school in 2025. But only 32 percent moved on to secondary school. Refugee girls face greater challenges making that transition. Poverty, safety risks, and early marriage force increasing numbers of girls to drop out.",
+        "There is good news from higher education. In 2025, 11 percent of refugees reached higher education. That was up from 9 percent in 2024. More than 450,000 refugees are now studying at that level — a record high. The agency aims to reach 15 percent by 2030 through expanded university access, vocational training, distance learning, scholarships, and third-country education pathways.",
+        "But the chances are not equal everywhere. In more than 80 percent of reporting countries, refugee higher education enrollment was below the national average. In low-income and conflict-affected countries, only 2 percent of refugees accessed higher education — compared with 13 percent of national citizens.",
+        "The refugee agency says investing in refugee education also strengthens national education systems. As more refugee children learn alongside host community children, schools need enough teachers, classrooms, learning materials, and funding. The agency urges the international community to protect education funding."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:57:42.439Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-04-04p6zt",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "亚运会霹雳舞比赛收官，中国选手郭朴获女子组冠军",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-04",
+    "intro": "爱知·名古屋亚运会霹雳舞比赛全部结束，中国选手郭朴获得女子组冠军。",
+    "paragraphs": [
+      "爱知·名古屋亚运会的霹雳舞比赛已经收官。中国选手郭朴获得了女子组冠军。",
+      "在本届亚运会霹雳舞女子组比赛中，郭朴夺得冠军。",
+      "随着霹雳舞比赛全部结束，该项目在本届亚运会上的赛程画上句号，女子组冠军是中国选手郭朴。"
+    ],
+    "topics": [
+      "体育",
+      "流行与网络文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-03/10707648.shtml",
+      "originalTitle": "（爱知·名古屋亚运会）亚运会霹雳舞比赛收官 中国选手郭朴获女子组冠军",
+      "publishedAt": "Sat, 3 Oct 2026 22:06:41 +0800",
+      "retrievedAt": "2026-10-03T23:55:21.747Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-03T23:55:20.361Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-03-sea-monkeys-show-scientists-how-to-rewrite-a-rul",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "海猴子游动的角度，能改变湍流中能量的方向",
@@ -3025,289 +3294,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-09-09-w6ra2e",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "合肥这束光，怎样让量子通信“绝对安全”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-09",
-    "intro": "在合肥，科学家们让一束光成为秘密的守护者，这束光如何让信息传递变得“绝对安全”？",
-    "paragraphs": [
-      "量子通信的安全性，来自光的最小单位——光子。发送信息时，科学家把信息编码在光子的量子状态里，比如偏振方向。只要有人想偷听，就必须去测量这个光子，而测量本身就会改变它的状态。",
-      "这就像在信封上用特殊墨水写字，只要有人拆开信封，墨水就会变色。发送者和接收者一对照，立刻就能发现有人偷看过，于是马上更换新的密钥，保证后面的通信依然安全。",
-      "合肥是中国量子技术研究的重要城市，那里的科学家一直在研究如何把量子密钥分发到更远的地方。",
-      "当然，“绝对安全”不是说永远不会出错，而是说在物理规律上，任何窃听行为都会留下痕迹，无法悄悄进行。"
-    ],
-    "topics": [
-      "量子通信",
-      "墨子号卫星",
-      "科技自立",
-      "青少年科普"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-08/10692471.shtml",
-      "originalTitle": "向新之翼｜科创中国行·合肥：这束光如何让量子通信“绝对安全”",
-      "publishedAt": "Tue, 8 Sep 2026 11:30:05 +0800",
-      "retrievedAt": "2026-09-08T23:37:00.734Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:36:42.420Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 4,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-09-your-perception-of-time-is-in-fact-warped",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "为什么时间越过越快？更深的问题可能是记忆方式的变化",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-09",
-    "intro": "越来越多的人感觉时间在加速，但这不只是错觉，背后是我们记忆方式的变化。",
-    "paragraphs": [
-      "你有没有发现，身边越来越多人在感叹：一年怎么又过完了？这种‘时间加速’的感觉，在疫情后似乎成了全球共鸣。在Reddit上，一位按季节劳作的农场主说‘不敢相信今年过得这么快’；一位中学老师回忆，她常和学生讨论‘生活速度令人困扰’；还有程序员说，‘疫情年份模糊成一片，之后一切感觉被压缩，像一个漫长季节而非独立年份’。",
-      "其实，科学家很早就注意到时间感知的弹性。19世纪90年代，法国哲学家保罗·雅内提出，人感受时间与年龄成比例：10岁时，一年是生命的十分之一，因此处理得缓慢而充实；50岁时，一年仅占生命的2%，体验相应变得短暂而轻飘。这一理论被称为‘对数时间感知’，也称‘生命时长理论’。心理学家威廉·詹姆斯在《心理学原理》中进一步指出，年轻人每天经历新鲜事物，注意力活跃、记忆保持强，因此回忆起来‘像一段快速而有趣的旅行’，显得‘繁复、丰富、绵长’；而成年后陷入重复模式，缺乏新信息输入、新技能习得或陌生情境刺激，意识趋于钝化，‘日子和星期在回忆中平滑为无内容的单位，年份变得空洞并坍塌’。",
-      "疫情加剧了这种扭曲。2023年，贝勒大学研究者利用盖洛普在疫情高峰期采集的数据发现，美国人经历了多向‘时间迷失’：时间有时加速、有时变慢、日子混杂到无法区分。2022年发表于《时间与社会》的一项针对乌拉圭大学生的研究显示，80%的受访者感到疫情期间时间变快或变慢。德国时间感知研究者马克·维特曼指出，封锁期间‘每天一模一样’——过去周一滑冰、周二见朋友，每个日子有专属标记；这些标记消失后，他称之为‘Blursday’（模糊日）。",
-      "为什么会有这种矛盾？关键在于记忆机制的双重性：我们当下对时间快慢的判断，取决于即时投入程度；而回溯性评估，则取决于是否形成可提取的记忆。疫情期间许多人居家隔离、无所事事，当下觉得时间‘拉长’‘扭曲’‘模糊’；但因日常高度重复，大脑未编码足够新记忆，导致事后回顾时，大段时光‘变得空洞并坍塌’——正如詹姆斯所描述。",
-      "所以，时间加速感背后，或许是我们正在失去那些安静、无聊却利于记忆形成的时刻。原文明确指出：‘更深层的问题是，我们正在遗忘它们——而正在失去的，正是那些安静、无聊、记忆得以沉淀的时刻。’"
-    ],
-    "topics": [
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Noema",
-      "region": "international",
-      "url": "https://www.noemamag.com/your-perception-of-time-is-in-fact-warped",
-      "originalTitle": "Your Perception Of Time Is, In Fact, Warped",
-      "publishedAt": "Thu, 03 Sep 2026 16:29:42 +0000",
-      "retrievedAt": "2026-09-08T23:38:36.230Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:38:11.721Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-09/2026-09-09-your-perception-of-time-is-in-fact-warped.webp",
-      "alt": "融化变形的座钟与飘散日历页",
-      "caption": "时间感知的扭曲与记忆重构",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-09-ixa3oz",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "历史移出中考计分，减负背后的经济学道理",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-09",
-    "intro": "辽宁等地把历史、生物、地理移出中考计分，作者用经济学里的边际收益递减解释：少考一科，学生的负担反而可能真正减轻。",
-    "paragraphs": [
-      "先看已经发生的事。2026年8月28日，辽宁省教育厅发布中考调整政策通知：自2026年秋季新初二起，生物、地理、历史三门学科由考试科目调整为考查科目，只评等级，不再计入中考总分。北京市从2025年开始实施中考改革方案，将历史、地理、化学、生物学统一调整为考查科目，成绩不计入中考总分。吉林省改革将于2027年正式施行，生物、地理转为开卷考查科目，仅公布等级结果，不再纳入中考计分范围。湖南省也将从2027年起，将毕业生的生物、地理成绩改为等级呈现，不再计入中考总分。但省级层面明确将历史学科移出中考计分的，仅有北京和辽宁两地。",
-      "有人担心，历史不计分了，学生会不会干脆不学、甚至忘记历史。文章作者刘远举认为，这种担心没有必要。历史也并没有从升学评价中消失，只是权重和形式变了，但仍有等级要求；比如，部分地方规定，报考优质高中，历史等级须达到B或C以上。而且，在新高考‘3+1+2’模式下，物理与历史是二选一的‘首选科目’，有高考指挥棒在，就不必担忧历史在整体教育中会失去地位。",
-      "那减负的效果从哪里来？作者用了一个经济学原理：边际收益递减效应。在技术水平和其他条件不变时，连续增加一种可变要素的投入，带来的产量增量会先递增，超过某个临界点后就开始递减，甚至可能变成负值。比如一块固定面积的土地，刚开始多施肥产量明显增加，但肥施到一定程度后，再多加化肥增产效果反而越来越小，甚至可能伤庄稼。",
-      "把这个道理放到考试上。如果中考突然增加一个新科目，投入到上面的时间，就在边际递增阶段——你花1天时间，就能从零分变为20分。但对于语文、数学、英语这些科目，从小学开始算，学生已经花了大量时间，处于边际收益递减阶段，同样花一天时间在语文、数学、英语上，几乎是没有什么影响的。相比之下，在历史上的投入更加高效。但如果没有历史科目了，学生虽然可以把这些时间转投入到语文、数学、英语，但因为这些科目已经在边际递减阶段，投入时间获得的效益更低。那么，低效的事情，就不值得做，学生的负担就可以减轻。",
-      "作者还进一步说，如果中考只考一科，语文，哪怕竞争再激烈，学生也因为‘无处努力’‘付出时间增分不明显’‘耽误一天几乎没影响’而减轻负担。中国的教育系统是一个环环相扣的筛选链条——好工作、好大学、好高中、好初中、小学，环环相扣的升学考试，把压力高效传导到童年。解决问题的方向是减少筛选环节、把筛选后移，比如通过教育均等化消除初中重点学校制度，最终把压力留在高中阶段，让初中小学减负。",
-      "也有人反对辽宁的做法，理由是‘辽宁是九一八事变的发生地，所以不该取消历史’。作者回应说，这种说法是从最简单的国家、民族角度出发，没有做复杂的技术性分析；相比教育系统贯彻落实国家政策、切实减轻孩子负担的努力，这些议论‘心中根本没有把我们的孩子，当作一个有血有肉的群体，对他们沉重的负担没有丝毫感知’。作者支持这轮改革，认为教育系统的官员是做了深思熟虑的考虑，是在为孩子着想。"
-    ],
-    "topics": [
-      "经济与商业",
-      "教育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "FT 中文网",
-      "region": "international",
-      "url": "https://www.ftchinese.com/story/001110813",
-      "originalTitle": "从“历史移出中考”，看教育减负背后的经济学逻辑",
-      "publishedAt": "Tue, 08 Sep 2026 16:00:00 GMT",
-      "retrievedAt": "2026-09-08T23:43:42.677Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:43:25.550Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why Cutting History from Exams Could Reduce Stress",
-      "intro": "What if dropping history from a big exam could actually lower student stress?",
-      "paragraphs": [
-        "Liaoning Province announced in August 2026 that, starting with new eighth graders in autumn 2026, biology, geography, and history will be changed from exam subjects to assessment subjects. They will be graded only by level, not counted in the high school entrance exam total score. Beijing began this change for biology and geography in 2025. Beijing also removed history, chemistry, geography, and biology from scoring. Liaoning and Beijing are the only provinces that have explicitly removed history from the scoring system. Some worry students will stop learning history. But history is still required. For example, some places require a B or C grade in history to apply to top high schools.",
-        "The concern about history disappearing is unnecessary. Under China’s new college entrance exam '3+1+2' model, students must choose either physics or history as a mandatory 'first-choice subject'. So history remains central in upper secondary education. The idea that removing history from the high school entrance exam would cause a 'break in continuity' between junior and senior high is unfounded. Because of the college entrance exam requirement, students can catch up on historical knowledge later.",
-        "This reform follows an economic principle: diminishing marginal returns. When students add study time to a subject they know little about — like history — early hours yield large score gains. But for Chinese, math, and English, students have already invested many years. Extra time brings diminishing returns. So history becomes a high-effort, high-return subject for exam preparation. Removing it eliminates that intense, last-minute cramming. Before history exams, students review until the final minute. Such all-night cramming is rarely seen before Chinese, math, or English exams.",
-        "If the high school entrance exam covered only one subject — say, Chinese — even fierce competition would not create the same burden. Students would have 'nowhere to push'. They would see 'no clear gain from extra effort'. And 'missing a day would almost have no impact'. China’s education system is a chain of selection steps — from primary school to jobs. Reducing screening at the junior high level moves pressure to high school. There, students are more mature and better able to cope. Officials made this change after careful technical analysis. Their goal is to reduce the screening function. They aim to narrow differences among high schools. And they want to ease pressure on younger students.",
-        "Some online critics argue history carries national memory and should stay. They cite, for example, that Liaoning is where the September 18 Incident occurred. But these critics often do not read history in their spare time. They demand students bear the cost. They contribute only comments. A thoughtful, technical policy is stronger than emotional, ideological reactions."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:47:27.130Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-09/2026-09-09-ixa3oz.webp",
-      "alt": "天平一端书堆一端羽毛",
-      "caption": "减负与教育负担的权衡",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-08-what-archaeology-reveals-about-the-rise-of-all-p",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "权力从哪来：考古学家发现专制国王并非农业发展的必然结果",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-08",
-    "intro": "过去人们常说，人类学会种地后就会自动走向贫富分化和专制统治，但芝加哥菲尔德博物馆考古学家加里·范曼说，这个说法太简单了。",
-    "paragraphs": [
-      "范曼长期在墨西哥和中国做考古发掘。他在墨西哥的古代房屋里发现，几乎每家每户都在制作用于交换的工具或陶器，而且使用着自家不生产、甚至可能来自其他聚落的物品。如果人人都做交换品，中央权力就很难控制经济；他们也没有找到能让首领囤积财富的大仓库。这让他开始怀疑‘国家控制经济、供养专制君主’的老说法。",
-      "当然，古代社会并不都一样。古典玛雅时期的国王被高度神化，住在比普通住宅大得多的宫殿里，死后也有豪华墓葬，这符合自上而下的专制模式。但特奥蒂瓦坎（今墨西哥城附近）和阿尔班山（今瓦哈卡市附近）就不一样：那里没有为单一统治者修建的奢华陵墓和纪念碑，反而有供公众集会的广场，壁画上描绘的是戴着面具的官员队伍，而不是名字显赫的国王，神庙顶部也设计成能容纳一群人，而不是只站一个王或祭司。",
-      "在中国山东的考古调查也给出了意外结果。秦始皇统一中国后，山东是最后被纳入帝国的地区之一。考古和历史数据显示，这个地区反而繁荣起来：人口大幅增加，新聚落出现，交通改善让各地联系更紧密，各种交换也更容易。这里并没有出现一个专制政权把被征服地区全部榨干的情况。",
-      "范曼参与的两项大型研究进一步检验了这些想法。一项2025年发表于《美国国家科学院院刊》（PNAS）的研究，通过比较上千个考古遗址中最大和最小房屋的差距，考察不平等与人口规模的关系；另一项由他领衔、2026年3月发表于《科学进展》（Science Advances）的研究，考察了四十个考古和历史情境中治理性质与规模的关系。结果发现，人口规模确实有影响，但它只能解释不平等或专制程度大约四分之一的差异。也就是说，人口越多并不必然越专制。古希腊和罗马的民主实践虽然对现代社会影响很大，但并非独一无二，其他地方也出现过类似做法。",
-      "范曼认为，权力是否集中，关键看资源怎样进入政治制度。如果国家要从大量农民或手工业者那里一点一点收税，就更容易形成更包容的治理形式，因为人们不满意可以搬走，统治者必须让人愿意贡献。但如果财富来自能被垄断的外部资源，比如贸易路线、战争战利品、矿山、种植园和奴隶制，统治者只需养少数人保护这些资源，不必依赖多数民众，专制就更容易出现。",
-      "农业和人口增长确实为专制创造了机会，但并没有让专制变得不可避免。理解权力从哪里来，也许能帮我们更好看清今天的社会。"
-    ],
-    "topics": [
-      "历史",
-      "社会与权力结构"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855/",
-      "originalTitle": "What Archaeology Reveals About the Rise of All-Powerful Rulers",
-      "publishedAt": "Mon, 07 Sep 2026 16:00:00 +0000",
-      "retrievedAt": "2026-09-07T23:36:49.058Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:36:27.408Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Archaeology and the Rise of All-Powerful Rulers",
-      "intro": "Have you ever wondered why some rulers end up with all the power?",
-      "paragraphs": [
-        "The old story says people lived in small groups and made decisions collectively. Then they invented agriculture, which tied them to land and allowed some to store and hoard resources. This led to inequality. As populations grew and villages became big cities, strong leaders seemed needed to keep order. But archaeologist Gary Feinman says this story is a vast oversimplification. His research shows autocratic governments are not inevitable when populations grow larger.",
-        "Feinman did fieldwork in Mexico and China. In Mexico, he excavated many houses. In almost every house, people made goods for exchange — like tools or pottery. They also used things they did not make — and that may not even have been made in their settlement. There were no storehouses for leaders to accumulate resources. So it would have been very hard, if not impossible, for a central authority to control the economy. In China’s eastern Shandong province, after incorporation into the empire of Qin Shi Huang, the area boomed. Population numbers went up dramatically. New settlements were established. Better transport infrastructure led to more integration and easier exchanges.",
-        "Some ancient cities looked very different. The Classic Maya had exalted rulers — like K’inich Janaab Pakal — who lived in large palaces and were buried in elaborate tombs. But Teotihuacan near Mexico City had open plazas for public assembly. Its murals showed processions of masked officials — not named kings. Its temples had wide tops designed to hold groups — not a single ruler or priest.",
-        "Feinman and colleagues tested these ideas in two large studies. One, published in 2025 in PNAS, looked at house sizes at over a thousand archaeological sites. The other, led by Feinman and published in March 2026 in Science Advances, examined governance across 40 archaeological and historic contexts. Population size mattered — but explained only about a quarter of the variability in equality or degree of autocracy.",
-        "The real key is how rulers get resources. When a state must collect tax by taking a little bit from many farmers or tradespeople — called 'internal resources' — it is probably more democratically organized. People can vote with their feet by moving away, so leaders must make them want to contribute. But when resources like trade routes, war booty, mines, or plantations with slavery can be monopolized — called 'external resources' — autocracy is easier. A small number of guards can protect the resource. Leaders do not have to depend on citizens — and can more or less ignore them."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:48:06.465Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 33,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-08/2026-09-08-what-archaeology-reveals-about-the-rise-of-all-p.webp",
-      "alt": "考古现场泥土中的陶片与谷物痕迹",
-      "caption": "考古揭示农业与权力的复杂关系。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-08-scientists-say-virga",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "还没落地就消失的雨或雪，叫维加",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-08",
-    "intro": "维加是一种还没落到地面就蒸发掉的雨或雪。",
-    "paragraphs": [
-      "你见过这样的景象吗？远处天空中有一些灰白色的、像幽灵一样的条带，从乌云里往下垂。它们看起来像雨，可地面上却没有一滴水。这种现象叫维加（Virga）。",
-      "维加其实就是雨或雪在降落过程中，穿过了干燥、通常也比较暖和的空气层。还没等落到地面，它们就蒸发掉了，变成了看不见的水汽。所以维加最常出现在沙漠，或者美国西部那些干旱的高原地区。",
-      "飞行员会特别留意维加。因为当雨滴或雪花蒸发时，周围的空气会变冷。冷空气比暖空气重，会往下沉。有时候，这种下沉来得又急又猛，只发生在很小的一片区域，形成一股向下的气流。飞机如果遇到这样突然的下沉气流，可能会猛地颠簸一下。",
-      "在地球上，维加是水变成的。但科学家在太阳系其他地方也看到了类似的现象。在木星的气体云里，就有一些往下掉的条带，还没到更下面的云层就蒸发了。这些条带里可能是氨，也可能是水，具体要看它们出现在木星大气的哪个高度。火星的大气里，科学家也注意到了一些像维加一样的痕迹。",
-      "在干燥的沙漠气候里，从幽灵般的维加，到像墙一样移动的沙尘云，都可能出现。所以，下次看到远方的云下面拖着灰白色的尾巴，别急着说下雨了。那可能是一场还没落地就消失的雨。"
-    ],
-    "topics": [
-      "气象与水文",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-virga-definition-pronunciation",
-      "originalTitle": "Scientists Say: Virga",
-      "publishedAt": "Mon, 07 Sep 2026 10:30:00 +0000",
-      "retrievedAt": "2026-09-07T23:38:00.130Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-07T23:37:40.550Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-08/2026-09-08-scientists-say-virga.webp",
-      "alt": "雨丝在落地前消散于干燥地面",
-      "caption": "维加：未及地面的雨雪。",
-      "kind": "editorial"
     }
   }
 ]
