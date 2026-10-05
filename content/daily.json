@@ -1,5 +1,237 @@
 [
   {
+    "slug": "2026-10-05-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中外剧作家在沪谈AI：可辅助创作，难以替代舞台艺术",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-05",
+    "intro": "据中新网文化报道，中外剧作家在上海探讨AI与戏剧的关系，一致认为AI可辅助创作，但难以替代舞台艺术。",
+    "paragraphs": [
+      "如果让人工智能来写一个剧本，它能写成什么样？据中新网文化报道，中外剧作家在上海就AI与戏剧的关系展开讨论。他们的看法理性而务实：AI可辅助创作，但难以替代舞台艺术。",
+      "所谓‘可辅助创作’，意味着AI可在戏剧创作过程中提供支持，例如文字处理、素材整理或结构建议等环节。剧作家并未将AI拒之门外，而是将其视为一种可用的工具。",
+      "而‘难以替代舞台艺术’强调的是舞台艺术的整体性——它不仅包含剧本文字，更涵盖演员表演、现场调度、声音语调、观众反应等不可复制的即时性体验。文字可以被生成，但一场戏必须在真实空间中由人与人共同完成。",
+      "这一判断划出清晰边界：AI擅长处理可编码、可生成的内容；而舞台艺术的核心在于不可预设、不可复刻的‘在场性’。二者性质不同，功能不可混淆。",
+      "对创作者而言，关键问题或许是：你希望AI帮你拓展可能性，还是替你做最终判断？剧作家们在上海所谈的，正是这条由创作主体自主界定的边界。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-04/10707983.shtml",
+      "originalTitle": "中外剧作家在沪谈AI：可辅助创作，难以替代舞台艺术",
+      "publishedAt": "Sun, 4 Oct 2026 22:58:32 +0800",
+      "retrievedAt": "2026-10-05T00:05:43.498Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:05:42.435Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Playwrights in Shanghai Talk About AI and the Stage",
+      "intro": "Playwrights from China and other countries met in Shanghai to talk about what AI can and cannot do for theater.",
+      "paragraphs": [
+        "Imagine a computer writing a play for you. Would you go and watch it? That is the kind of question some playwrights were thinking about in Shanghai. They came together to talk about AI and the stage.",
+        "According to China News Service, the group included playwrights from China and from other countries. They shared their ideas about how AI is changing creative work.",
+        "They said AI can help with creation. It can support writers as they work. But they also said it is hard for AI to replace stage art itself.",
+        "A play is not only words on a page. It happens in a room, with real actors and a real audience. Something small changes every single night.",
+        "So the message from Shanghai is not fear and not hype. AI may become a useful tool for writers. The stage, however, still belongs to people."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:12:14.674Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-05-9pd4c3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "李昊点球大战两度扑点，赛后称功劳在教练组",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-05",
+    "intro": "铜牌赛的点球大战里，他两次把球挡在门外；赛后他说，功劳在教练组。",
+    "paragraphs": [
+      "10月3日，在爱知·名古屋亚运会男足项目铜牌赛中，中国队经过点球大战击败乌兹别克斯坦队，时隔28年再获亚运会男足铜牌。点球大战中，门将李昊扑出两个点球。",
+      "足球淘汰赛若加时赛后仍平局，将通过点球大战决出胜负：双方轮流主罚，进球多者获胜。守门员是点球大战中唯一可直接阻止进球的球员。",
+      "赛后，李昊接受新华社记者专访时特别感谢了主教练安东尼奥和守门员教练托莫。他说：‘没有安东尼奥教练组，就没有这里的我。’",
+      "他透露，安东尼奥来到中国前，他只是国少队的第三、第四门将，从未想过成为职业球员。",
+      "托莫教练鼓励当时还不到15岁的他，说他是‘亚洲最好的门将’。正是在教练组的支持和鼓励下，他不断提高，成长为今天的自己。",
+      "一场点球大战，最终被记作一行比分和一块铜牌；但对李昊而言，更难忘的是在他尚未被看好、尚排在名单靠后时，有人率先相信了他。"
+    ],
+    "topics": [
+      "体育精神",
+      "青少年成长",
+      "教练影响",
+      "心理韧性"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261004/80f6fc6da69d492e9f100f8ff9a98f74/c.html",
+      "originalTitle": "李昊：没有安东尼奥教练组，就没有这里的我",
+      "publishedAt": "2026-10-04T23:30:24+08:00",
+      "retrievedAt": "2026-10-05T00:06:31.569Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:06:22.426Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Li Hao Thanks the Coaches Who Believed in Him",
+      "intro": "A young goalkeeper saved two penalties to win China a rare medal, then gave the credit to his coaches.",
+      "paragraphs": [
+        "On October 3, China's men's football team faced Uzbekistan in the men's football bronze medal match at the Asian Games in Aichi and Nagoya. The match ended in a draw, and China won the bronze medal in a penalty shootout.",
+        "Goalkeeper Li Hao saved two penalties during the shootout. This was China's first men's football bronze medal at the Asian Games in 28 years.",
+        "After the match, Li Hao spoke to Xinhua reporters. He gave special thanks to head coach Antonio and goalkeeper coach Tomo. He said: 'Without Antonio's coaching team, there would be no me here.'",
+        "Before Antonio came to China, Li Hao was only the third or fourth goalkeeper on the national youth team. He had never imagined becoming a professional player.",
+        "Tomo encouraged him when he was under 15 years old, saying he was 'the best goalkeeper in Asia.' With the support and encouragement of the coaching staff, Li Hao kept improving and grew into the player he is today."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:11:54.394Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-05-what-does-the-fourth-dimension-actually-look-lik",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "四维空间长什么样？数学家用拓扑学来想象",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-05",
+    "intro": "拓扑学不量距离，只问一个形状能不能在不撕断的前提下连续变成另一个；数学家用它来想象看不见的四维空间。",
+    "paragraphs": [
+      "先做个小实验：拿一条纸带，扭半圈，把两头粘起来做成一个环，再沿着纸带的中间剪一圈。你多半以为会剪出两个环，可它偏偏没有断开，还是一整圈连着。数学教授斯特罗加茨带小学生做这个实验时，有个孩子当场急哭了。他说，这差不多就是数学课一直在做的事。这个剪不断的纸环，属于数学里一个叫拓扑学的分支。今天要讲的，是拓扑学家眼里的第四个维度。",
+      "拓扑学到底研究什么？我们平常学的几何，关心的是怎么量距离，比如勾股定理。拓扑学不量长度，也不管角度，它关心的是一个形状整体上怎么连在一起。数学家米勒的解释很干脆：如果有两个形状，你能在不撕断、不粘合的前提下，把其中一个连续地揉成另一个，那么在拓扑学家看来，它们就是同一样东西。可以拉，可以扭，但不许弄破。",
+      "维度也是这样。我们习惯说自己活在长、宽、高三个方向上，也就是 X、Y、Z。可在拓扑学里，空间的维度可以是任意的。米勒举了一个最小的例子：一个圆。不是实心的圆盘，而是盘子边缘的那一圈。它是一维的——站在这一圈上，你只有一个方向可走，顺时针，或者逆时针。那么，如果拿一百万个圆，把它们粘在同一个点上呢？甚至把无穷多个圆粘在同一个点上呢？那就是一个更抽象的空间了。",
+      "那四维空间究竟长什么样？米勒的办法，是把它想成一叠三维的快照，像电影胶片那样一帧一帧连起来。她说，四维是数学家至今还没有完全弄懂的最低维度。四维里还会发生一些和直觉拧着来的事：我们熟悉的那些绳结，到了四维空间里总能被解开；反倒是球面这样普通的曲面，在四维里可以被打成解不开的结。数学家利文斯顿在1982年提出过一个关于打了结的曲面的问题，米勒和她的合作者把它解决了。",
+      "在米勒眼里，数学和画画有点像。她从小长年上美术课，还参加州里的评比。上大学时，她一度在数学和艺术之间摇摆，最后还是选了数学——那一直是她最喜欢的科目。她说，解一道数学题像解一个谜，画画也是：任何跟画幅比例较过劲的人都知道，把东西摆到该在的位置并不容易。她还提到，自己对视觉和绘画的兴趣，帮她发展出想象四维空间的方法。米勒现在是德克萨斯大学奥斯汀分校的助理教授，几年前获得过突破奖旗下的米尔扎哈尼新前沿奖。",
+      "我们大概永远没法真正“看见”四维空间。但就像那条扭过半圈、剪开也断不了的纸带，数学常常让人在最普通的东西上，撞见一件想不通、却又确实成立的事。"
+    ],
+    "topics": [
+      "物质与数学",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/",
+      "originalTitle": "What Does the Fourth Dimension Actually Look Like?",
+      "publishedAt": "Thu, 01 Oct 2026 13:20:29 +0000",
+      "retrievedAt": "2026-10-05T00:07:31.233Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:07:23.544Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-05/2026-10-05-what-does-the-fourth-dimension-actually-look-lik.webp",
+      "alt": "冷灰纸张背景上，细线网格构成的抽象曲面连续扭转变形。",
+      "caption": "形状在连续变形中，指向看不见的维度。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-05-was-there-really-a-female-king-in-ancient-egypt-",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "五千年前的古埃及，真的有一位女国王吗？",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-05",
+    "intro": "一张七十多年前的黑白照片，可能把一位女性的名字写进古埃及第一王朝的统治者名单。",
+    "paragraphs": [
+      "五千多年前，古埃及第一王朝时期，有一位名叫梅雷特尼特（也写作梅尔奈特）的王室女性，她可能是第一王朝第三位国王杰尔的女儿。她生活在上下埃及统一后的早期阶段。学者们知道她曾统治国家，因为她的墓葬群陪葬丰厚，规格完全符合男性统治者的标准。至少，她曾担任临时统治者或共治者。",
+      "要回答她是否以自己名义独立统治过埃及这一问题，需要找到明确称她为统治者的文字证据。目前唯一可能的文本证据，是一张黑白照片，上面拍的是一个泥塞上的象形文字铭文。泥塞是用于封堵陶罐等器物的塞子。1940年代，考古学家在萨卡拉一座不知名墓葬中发掘出13个这样的泥塞。仅存一张其中一件泥塞铭文的照片，保存在伦敦埃及探索协会收藏的埃及学家沃尔特·B·埃默里档案中。原始泥塞和该照片的玻璃底片下落不明。",
+      "照片上的文字是一行四个‘王名框’（serekhs）。这是一种象形符号，由王室建筑图案、守护神和统治者名字组合而成，是当时统治者身份的标记。埃默里称，只有第一个和第四个王名框属于国王杰尔；但当时许多学者拒绝接受他关于第二、第三个王名框书写的是梅雷特尼特名字的说法，理由是原始出版照片质量差，无法确认泥塞上符号的具体形态。",
+      "研究团队与悉尼麦考瑞大学数字技术员克里斯特尔·米勒合作，开发了一种新数字技术来增强图像：先将象形文字从背景中分离，再反转颜色，最后转换为基于数学公式的可缩放矢量图——效果类似高科技硬币拓印。处理后得到的数字复制品比埃默里1954年手绘的符号图更清晰、更准确。",
+      "增强图像显示，第二和第三个王名框中名字部分的符号，与书写梅雷特尼特名字的主要符号一致。研究团队据此认为，梅雷特尼特拥有该时期统治者的核心标志。这意味着她确实是一位女性国王（而非仅称‘王后’，而是与男性统治者真正对等的‘国王’），也是古埃及第二位名字被记录在王室王名框中的女性统治者。这项研究发表在《布拉格埃及学研究》期刊上。",
+      "其他证据也支持梅雷特尼特的统治地位：她在王室墓地拥有豪华的丧葬建筑群；铭文记载她的名字与行政头衔及部门并列；王室墓葬印章上留有她的印痕。有研究估计，她以某种身份统治埃及至少30年。本次研究提出新假说：她的政治生涯可分为不同阶段——王名框与杰尔并列，表明她是共治者；墓葬印章则证实她后来作为国王之母行使摄政权力；她还被后续统治者塞梅尔赫特在墓葬印章上署名纪念，表明其政治地位获正式承认；另有文本显示她掌管国库与官员，以无正式政治头衔的身份治理国家。研究者指出，她能根据政治环境需要进出权力中心，这种角色弹性源于她的性别及其在统治家族中的位置。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/was-there-really-a-female-king-in-ancient-egypt-5000-years-ago-1285520/",
+      "originalTitle": "Was There Really a Female King in Ancient Egypt 5,000 Years Ago?",
+      "publishedAt": "Sun, 04 Oct 2026 18:00:00 +0000",
+      "retrievedAt": "2026-10-05T00:08:40.985Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-05T00:08:38.912Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 35,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-05/2026-10-05-was-there-really-a-female-king-in-ancient-egypt-.webp",
+      "alt": "冷灰纸张背景上，一枚风化质感的抽象印章残片与碎片。",
+      "caption": "一枚残片，让一个名字重新被辨认。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-04-5",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "一块在库房躺了近40年的化石，改写了昆虫登陆演化史",
@@ -3076,224 +3308,6 @@
       "alt": "半透明屏幕与几何线条，铅笔和纸",
       "caption": "新期刊以视频承载数学论述",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-10-what-is-math-s-mysterious-langlands-program-real",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "朗兰兹纲领是什么？它能否揭示数学不同分支间的隐秘联系？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-10",
-    "intro": "数学的不同分支之间，是否藏着一条看不见的通道？朗兰兹纲领被称作‘数学的“ grand unified theory of mathematics ”’，正在寻找答案。",
-    "paragraphs": [
-      "在数学这片无边无际的宇宙里，不同的领域像相隔遥远的星系：这边研究数字和方程，那边研究形状和空间，还有研究变化与概率的。令人惊讶的是，有些领域之间竟藏着类似“虫洞”的隐秘连接。这种连接被称为朗兰兹对应，而几十年来数学家们努力扩展和利用这些对应的工作，就是朗兰兹程序。它暗示着，数学世界里各种看似无关的真理，可能来自同一个深层的统一结构。",
-      "这个程序的起点，可以追溯到1967年。数学家罗伯特·朗兰兹给同事写了一封信，把两个相隔很远的数学领域连在了一起：一边是研究数字的数论，另一边是研究信号和波的调和分析。朗兰兹猜想，这两边之间可能存在一系列对应关系，把一方的对象、对称和性质，映射到另一方完全不同的对象上。",
-      "要理解这种对应，可以先看一个具体例子。我们从有理数出发——也就是能写成分数的数，比如1、516、–5.3277等等。这些构成一个特殊的集合，叫有理数域Q。然后加入方程x²−2=0的解，即√2和−√2，得到新的数域Q(√2)。这个数域具有对称性：将其中所有√2替换为−√2（反之亦然），整个数域保持不变——就像镜像反射。这种对称操作的全体，称为该方程的伽罗瓦群。",
-      "再看一个稍微复杂一点的方程：x³−2=0。它有三个解，可想象为等边三角形的三个顶点。其伽罗瓦群S₃包含六种对称操作：两种三循环（对应绕中心旋转120°或240°），三种对换（对应翻转三角形、交换两个顶点），以及恒等操作。这个群是非阿贝尔群——操作顺序会影响结果。朗兰兹在1967年指出，每个这样的伽罗瓦表示都对应一个‘条形码式’的数据序列，该序列控制着另一个完全不同的数学对象的形式。",
-      "这个‘另一边’，就是调和分析中的模形式。模形式是一种具有高度对称性的数学函数，像声音和光波一样，可分解为简单振荡分量的叠加；它满足特定变换下的不变性（即‘自守性’）。朗兰兹程序最惊人的发现，正是将数论中抽象的伽罗瓦表示，与调和分析中规则优美的模形式建立起深刻联系。这条‘虫洞’般的对应，数学家已探索半个多世纪，但其最深层含义仍未被揭示——它似乎不仅关乎数学宇宙，还可能通向物理世界。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
-      "originalTitle": "What Is Math’s Mysterious Langlands Program Really About?",
-      "publishedAt": "Wed, 09 Sep 2026 14:44:13 +0000",
-      "retrievedAt": "2026-09-09T23:22:24.828Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:22:20.804Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-10-7kzc8r",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "龙舟在新疆下水、上冰、跑旱地",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-10",
-    "intro": "起源于江河的传统龙舟，正在新疆的沙漠边、冰湖上和陆地上热热闹闹地“活”起来。",
-    "paragraphs": [
-      "谁说赛龙舟只在水乡风靡？今年，龙舟（凤舟）首次成为新疆维吾尔自治区第十五届运动会暨第十一届民族传统体育运动会比赛项目，在喀什市火热进行。全疆有5支男子组、4支女子组、3支混合组参赛。和田地区于田县龙舟队队员阿地力江江·阿不都艾尼说：‘我们是奔着冠军来的，没想到头一天的比赛只拿了第四名。新疆龙舟的强队还真不少。’",
-      "于田县地处塔克拉玛干沙漠边缘，从2022年起，每年端午节都会如约上演龙舟竞渡。最开始，龙舟都是‘手搓’的——大家动手造船，长短都不相同，有的速度快，有的转弯难，甚至还会‘闹脾气’，划着划着就翻了。可群众对赛龙舟的热爱却格外高涨，小小的水塘边早早被围得都是人。阿地力江的队友中有装修工、农民、出租车司机，从前都是零基础，甚至不会游泳，但都热爱上了这项运动。",
-      "去年，他们受邀前往湖南参加中国汨罗江第二届龙舟超级联赛。第一次走出新疆的他们到赛场后才发现，别人用的是轻便的碳纤维船桨，而他们的是木桨；赛前，其他队伍主动借给了他们专业船桨。",
-      "新疆丰富的地貌也让龙舟拥有了更多舞台：在巴楚县红海景区胡杨林间的小河上，桨声与秋色相遇；在赛里木湖，龙舟则‘转行’了——从水上‘搬’到了冰面，船桨换成了冰钎，龙身‘踩’着冰刀；2025年3月15日，首届赛里木湖全国冰上龙舟邀请赛在赛里木湖举行，全国20支队伍体验了不一样的‘划龙舟’。冲过终点后，选手还要给‘巨龙’踩刹车。即使没有河湖，龙舟也能‘出发’——人们靠双脚前进、靠默契加速，它不只是竞技项目，更在欢笑和呐喊中让大家享受节庆之乐。",
-      "龙舟换的是赛道，没变的是‘同舟共济’。各族人民在运动中感受中华传统文化魅力，也在并肩前行中收获友谊。正如阿地力江所说：‘一个人划再快也走不远，只有大家同心，才能划得更快、更远。’"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260909/475c40db291e4e5ba4f7aa81579d5855/c.html",
-      "originalTitle": "追光丨下水、上冰、跑旱地，龙舟在新疆“卷”起来了",
-      "publishedAt": "2026-09-09T15:31:17+08:00",
-      "retrievedAt": "2026-09-09T23:24:28.715Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:24:25.877Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Dragon Boats Take Off in Xinjiang",
-      "intro": "Dragon boat racing is booming across Xinjiang — on water, on ice, and even on dry land.",
-      "paragraphs": [
-        "Dragon boats are no longer just for rivers and lakes. In Xinjiang, far from China’s traditional water towns, people are racing them everywhere. This year, dragon (feng) boat racing became an official sport at the Xinjiang Uygur Autonomous Region’s 15th Games and the 11th Ethnic Traditional Sports Games in Kashgar.",
-        "Teams from all over Xinjiang competed — five men’s teams, four women’s teams, and three mixed teams. One team from Yutian County came hoping to win gold. But on day one, they finished fourth. 'We came for the championship, but didn’t expect to finish fourth on the first day. There are really many strong dragon boat teams in Xinjiang,' said Adilijiang Abduaini of the Yutian County team.",
-        "Yutian sits near the edge of the Taklamakan Desert. Since 2022, it has held dragon boat races every Dragon Boat Festival. At first, locals built the boats themselves — by hand. Some were fast. Others turned poorly. A few tipped over mid-race!",
-        "The racers aren’t pros. They’re farmers, taxi drivers, and construction workers. Most couldn’t swim when they started. Last year, the Yutian team traveled to Hunan for the second Miluo River Dragon Boat Super League. They brought wooden paddles — while other teams used lightweight carbon fiber ones. Before the race, other teams lent them professional paddles.",
-        "Xinjiang’s diverse landscapes make dragon boating extra creative. In autumn, teams race among poplar trees beside small desert rivers. On frozen Lake Sayram, dragon boats glide on ice — with ice picks instead of paddles, and blades instead of hulls. The first national ice dragon boat invitational on Lake Sayram was held on March 15, 2025. Even without water or ice, people race on foot — using teamwork, rhythm, and loud cheers to keep going.",
-        "The boats change. The spirit stays the same. 'One person can’t go far,' says racer Adilijiang. 'But together, we move faster — and farther.' People of all ethnic groups paddle side by side. They’re learning tradition, building friendship, and having fun — one stroke at a time."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:36:29.150Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-10/2026-09-10-7kzc8r.webp",
-      "alt": "沙漠、冰面、陆地上的龙舟线条",
-      "caption": "龙舟适应不同环境",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-10-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "新加坡两位作者用AI画绘本：主动说清工具，故事和情感是人的",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-10",
-    "intro": "当AI开始画儿童绘本，新加坡两位作者选择把工具说清楚、把人放前面。",
-    "paragraphs": [
-      "在新加坡，有两本新出版的儿童绘本，插图全部由人工智能生成——但它们不是悄悄用的，而是明明白白写在书里：‘全书插图以草图为基础，运用人工智能作为辅助创作工具，经多次修改与调整完成’（《阿公》）和‘插画原稿：李太里、朱一宁’‘AI插画制作：李晓林’（《狮城水獭历险记》）。一本叫《阿公》，讲一位安静慈祥的祖父和孙女的日常；另一本叫《狮城水獭历险记》，主角是新加坡真实生活中的野生水獭。两本书的作者都不是专业插画师，却都花了大量时间打磨文字、设计细节、反复调整AI生成的画面，只为让故事更真、更暖、更像孩子身边的世界。",
-      "《阿公》的作者陈君宝，四年来一直想把女儿写的短文变成绘本，试过找新加坡、马来西亚、中国台湾等地区的四位画家合作，均未完成。今年五月，他决定试试AI：先以成型的草图和真实照片为基础，再与AI沟通、反复修改，两个月就完成了全部插图。他起初犹豫是否公开使用AI，直到朋友提醒：‘我记得你花四年反复讨论的细节：阿公炸虾球、买叉烧包、切水果；祖孙互动；医院病床比例、轮椅角度、灯光颜色、文字节奏，甚至一个轮子的透视。这些都不是AI产生的。AI没有阿公，不知道你的家庭，也不懂新加坡祖孙间那种安静却深厚的感情。真正决定《阿公》模样的，是你。’",
-      "另一本书《狮城水獭历险记》的作者李晓林，是新加坡华文教育工作者。她用AI画插图，是因为经费有限，但没因此降低对故事的要求。她请《联合早报》美术员为她起草水獭简笔画草图，在此基础上学习用AI工具制作插画，在上百张AI生成图片中选定效果最佳者，一边学一边完成整本书插图。书的版权页清楚标注：‘插画原稿：李太里、朱一宁’‘AI插画制作：李晓林’。她坦言：‘AI插画有优点，但是，我这些插画只在及格线上下，如果要有高品质的插画，还是插画师比较好。’并承认：‘如果没有AI，这本书也不会这么快面世。’",
-      "这两本书没有回避技术，也没有神化技术。它们不标榜‘AI创作’，而强调‘人在主导’：人定主题、人写故事、人选细节、人做取舍。陈君宝明确表示：‘我的答案仍是：陈君宝创作的绘本；AI是协助插画的工具，不是真正的创作者。我相信读者翻到最后一页，记住的不是“这是AI画的”，而是那个默默付出、沉默却深情的阿公。那份情感，才是这本书真正的价值。’",
-      "更特别的是，它们都在正式出版物中实践了‘主动披露’：《阿公》于2026年8月由新加坡行知文教中心和橙子华文教育联合出版；《狮城水獭历险记》于2025年12月由新加坡新阅出版社出版，并在2026年1月的发布会上由作者主动披露AI插图使用情况。这种诚实，让AI没有变成模糊的背景，反而成了孩子可以理解的一部分——就像我们不会因为铅笔是工厂造的，就说字不是你写的。"
-    ],
-    "topics": [
-      "文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "FT 中文网",
-      "region": "international",
-      "url": "https://www.ftchinese.com/story/001110835",
-      "originalTitle": "“人机协同+主动披露”：新加坡出版界如何应对AI焦虑？",
-      "publishedAt": "Thu, 10 Sep 2026 16:00:00 GMT",
-      "retrievedAt": "2026-09-09T23:26:43.984Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:26:37.832Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-09-agi",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AGI还没定论，大学教育已经需要变了",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-09",
-    "intro": "OpenAI发布的新模型再次引发‘通用人工智能是否到来’的讨论，但文章作者认为，无论结论如何，大学都需要开始调整培养目标。",
-    "paragraphs": [
-      "9月3日，美国人工智能（AI）公司OpenAI发布新款大模型GPT-6 Astra。据官方介绍，该模型能把推理、编程、计算机操作、研究与文档制作等能力结合起来，着重解决需要多个步骤才能解决的复杂问题。它的推出把一个讨论已久的问题再次带到人们眼前：通用人工智能（AGI）时代是否已经到来？Astra所体现的发展方向是从‘回答问题’变为‘参与工作’：用户可以交给AI一个需要逐步完成的目标，而非一句简单的回复。以准备一场学术讲座为例，教师可以提供讲座主题、听众情况、已有论文和时间要求，请Astra协助梳理材料、比较不同观点、拟定结构，再把内容整理成讲义或演示文稿。",
-      "很多人以为ChatGPT是一个知识面很广的对话者，而Astra所体现的发展方向却是从‘回答问题’变为‘参与工作’。所谓通用人工智能，是指一种系统能在广泛的任务中运用知识，面对不熟悉的问题也能学习、理解并寻找解决办法。今天的先进模型能处理越来越多不同类型的任务，但面对陌生情况是否可靠、连续工作时能否保持质量、遇到错误能否有效修正，这些都影响着人们的判断。就目前能核查的官方资料而言，还不能把‘Astra已经实现AGI’作为定论。不过，AGI是否得到确认与高等教育是否需要改变并非同一个问题。只要学生能借助AI完成过去需要独自完成的任务，只要职业世界开始要求人们与这些系统合作，大学的培养目标和教学安排就有重新审视的必要。",
-      "当AI能参与更完整的工作，大学应怎样判断学生究竟学会了什么？过去，教师看到一篇论证清楚的文章、一份分析完整的报告，通常会判断学生掌握了相应知识。但如今，一项同样的成果，却可能包含学生的努力与机器的帮助，甚至可能掩盖学生尚未理解的问题。作品质量与学生能力之间已不能再简单画等号。学生能把任务说清楚、比较不同方案、纠正系统错误，并形成可靠成果，这就是值得培养的能力。问题在于大学还要知道学生能否解释其中原理，能否面对追问，能否在条件改变时重新作出判断。从积极方面看，更强的AI为教学提供了新机会：一个班级里，学生的知识基础、理解速度和困难各不相同，经过适当设计的AI辅导可以尝试从不同角度解释概念，根据学生回答提出下一步问题，让不敢在课堂上发问的学生获得更多练习机会。教师的任务也将因此变化：当重复解释和材料准备能获得更多帮助，教师就有更多精力观察学生怎样思考，发现他们习惯性忽略的问题，组织有挑战的讨论，并给予针对性指导。但学校不能因此减少基础训练——不了解文学作品的人很难判断一段解读是否偏离原文；缺少数学基础的人也未必能看出答案错在哪里。判断力需要知识作为支撑。评价方式也应与之配合：有些任务可充分使用AI，考查学生如何组织合作、核验结果；有些环节则需要现场讨论、独立写作或实际操作，确认学生真正掌握了必要能力。",
-      "Astra代表的能力发展还可能影响研究怎样开展、青年人怎样成长，以及大学怎样证明自身价值。对于缺少大型团队的教师来说，多语材料的初步整理、代码编写和数据处理往往是开展项目的障碍；随着这些环节更易获得帮助，小团队有机会尝试更复杂的问题。但研究更易开展不等于有价值的研究必然增加——AI可以帮助快速整理材料，但真正值得追问的问题仍需要研究者发现。如果学校继续主要依据论文数量评价教师，技术带来的效率便可能被消耗在更多相似选题和重复论述中。查资料、核对引文、写初稿、修改程序等看似能交给机器的基础工作，却也是许多人学习专业判断的过程。资深教师觉得烦琐的环节，可能正是初学者积累经验的地方。如果未来只需要能够检查AI成果的专家，却不给年轻人足够的练习机会，新的专家从哪里来？教育公平也可能制造新的差距：有人能使用更强的系统，并获得教师的细致指导；有人虽然也接入AI，却主要依赖自动生成的回答。表面上，大家拥有了相似的工具，但获得的实质教育经验可能相差很大。高校既要为学生提供合理的技术条件，也要保障真实的师生互动，尤其不能出现‘资源充足的学生独享‘AI加教师’支持，资源不足的学生只能得到机器回应’的局面。大学还需要保有自己的判断和选择：把教学、研究和管理建立在智能平台上，涉及的不只是买一套软件这么简单，还包括数据怎样使用、服务能否持续、费用是否可承担等。录取、资助和教师评价等事项可以获得AI协助，但大学仍须说明理由，并对决定负责。",
-      "总之，Astra是否意味着AGI已经实现仍可继续讨论，但AI参与知识工作和日常生活的方式正在变化，高等教育需要认真回应这种变化。大学可以从具体课程和真实任务开始，组织教师试用，观察学生的学习，比较不同做法的效果，再逐步调整培养与评价方式。对一项新技术，既保持探索的热情，也保有判断的耐心，才能把新的可能转化为真实的教育进步。未来的大学，需要让学生看到世界正在发生怎样的改变，更需要帮助他们获得参与这种改变的能力。当机器越来越能够替人完成工作，大学更应帮助每一个人成为能够理解世界、作出选择并对他人有所贡献的人。这才是我们讨论AGI与高等教育时，最值得守住的目标。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "教育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571038.shtm",
-      "originalTitle": "AGI时代到来与否仍待定 教育变革已应开始",
-      "publishedAt": "2026-09-08 08:00",
-      "retrievedAt": "2026-09-08T23:29:50.199Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:29:22.155Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Should Schools Change Even Before True AGI Arrives?",
-      "intro": "A new AI model from OpenAI can handle complex multi-step tasks. That raises an urgent question for universities.",
-      "paragraphs": [
-        "On September 3, OpenAI released a new large model called GPT-6 Astra. According to official information, it combines reasoning, programming, computer operation, research, and document creation. It is designed to solve complex problems requiring multiple steps. For most people, technical parameters are less important. People care more about what the AI can help with. They want to know how it changes learning, work, and daily life.",
-        "Earlier models like ChatGPT acted as broadly knowledgeable conversational partners. Astra represents a shift from answering questions to participating in work. Officially, it can use user-provided materials and tools. It performs continuous tasks across different software and websites. It adjusts direction based on new requirements. For example, a teacher preparing an academic lecture can provide the topic, audience profile, existing papers, and time constraints. Astra can help organize materials. It can compare viewpoints. It can draft structure. It can produce handouts or presentation slides — all within one integrated task. It also checks its own results. It continues working based on user feedback.",
-        "So does this mean artificial general intelligence (AGI) has arrived? To answer, we must understand what 'general' means in 'general intelligence'. It means an AI can apply knowledge across diverse domains. It means it can adapt to unfamiliar problems. Past AI systems were narrow. A chess program could not analyze literature. A translation tool could not design experiments. AGI would operate broadly. Today’s advanced models handle more task types. That raises expectations. But whether they meet AGI criteria remains contested. Key concerns include reliability in novel situations. They include sustained quality during long tasks. They include effective error correction. Based on currently verifiable official information, 'Astra has achieved AGI' cannot be confirmed as fact.",
-        "The article makes a clear distinction. Whether AGI has arrived is not the same question as whether higher education must change. A university does not lose value because a new model is released. Nor should it delay reform just because AGI remains debated. Students can now use AI to complete tasks once done alone. Workplaces begin requiring human-AI collaboration. Universities must re-examine their goals and teaching methods. The article warns against letting debates about technical maturity become excuses for inaction. Change enters university life gradually. It appears in student assignments. It appears in teacher lesson planning. It appears in researchers’ data handling.",
-        "When AI can produce polished outputs, a well-structured essay or report no longer proves mastery. The quality of the final product and the student’s actual understanding are no longer equivalent. Human-AI collaboration still holds value. Students who can clearly define tasks hold value. Students who compare options hold value. Students who correct system errors hold value. Students who produce reliable outcomes hold value. These are important abilities. But universities must also assess whether students can explain underlying principles. They must assess whether students can respond to follow-up questions. They must assess whether students can re-evaluate when conditions change. Basic training must not be reduced. Without reading, practice, and independent reasoning, students cannot judge whether an AI-generated answer is accurate. Judgment depends on foundational knowledge.",
-        "Assessment methods should vary. Some tasks may allow full AI use. These test how students organize collaboration. They test how students verify results. Other tasks require live discussion. They require independent writing. They require hands-on work. These confirm essential capabilities. When AI assists with repetitive explanations and material preparation, teachers gain time. Teachers can observe student thinking. They can identify habitual blind spots. They can lead challenging discussions. They can give targeted guidance. This time must not be used to increase class size. It must not be used to increase workload. Universities must retain their own judgment. Deploying intelligent platforms involves data usage. It involves service sustainability. It involves cost. Decisions about admissions, funding, and faculty evaluation must remain transparent. They must remain accountable — even with AI support. As machines do more, universities must help every person become someone who understands the world. They must help every person make choices. They must help every person contribute meaningfully to others."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-08T23:45:47.123Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
     }
   }
 ]
