@@ -1,5 +1,237 @@
 [
   {
+    "slug": "2026-10-06-bif4hx",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "三位科学家把藻类“光控开关”装进神经细胞，获2026年诺贝尔生理学或医学奖",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-06",
+    "intro": "2026年诺贝尔生理学或医学奖颁给三位科学家，他们把来自藻类的“光控开关”装进了神经细胞。",
+    "paragraphs": [
+      "人脑不过1.3千克，却装着记忆、梦境、创造力和喜怒哀乐，也控制着呼吸、心跳和睡眠。一个世纪以来，科学家一直试图绘制大脑的“地图”，但传统方法往往只能说明某个脑区与某种功能有关，很难进一步弄清究竟是哪类神经细胞在发挥作用，更难证明它们是否直接导致了某种行为。2026年诺贝尔生理学或医学奖，颁给了三位在光控离子通道和光遗传学方面作出发现的科学家：美国科学家卡尔·戴塞洛特（Karl Deisseroth）、德国科学家彼得·赫格曼（Peter Hegemann）和德国科学家格奥尔格·纳格尔（Georg Nagel）。",
+      "故事从一种会追光的单细胞藻类——莱茵衣藻讲起。20世纪90年代初，赫格曼对一个看似简单的问题产生了兴趣：莱茵衣藻为什么能够朝着光线游动？这种单细胞藻类表面的“眼点”能够感知光线，那是细胞表面一个微小的橙色斑点，其中含有一种能够捕捉光线的分子，即视黄醛。实验显示，光打到眼点后仅约0.5毫秒，藻类细胞就会产生电信号；相比之下，人眼从感受到光线到产生相应反应，通常需要至少10毫秒。",
+      "赫格曼猜测，藻类体内或许存在一种特殊蛋白质，能够同时干两件事：既能感受光线，又充当离子通道，把光信号转化为电信号。这个想法起初并不好验证，因为相关蛋白质离开藻类细胞后很不稳定。直到莱茵衣藻基因组研究取得进展，赫格曼团队才发现了两个与光感受蛋白相关的基因。随后，赫格曼找到纳格尔合作。纳格尔将这两个基因分别注入蛙卵细胞，使蛙卵细胞大量产生相应蛋白质。实验结果终于揭示，这些蛋白质本身就是能够被光控制的离子通道。",
+      "其中一种蛋白质后来被称为“通道视紫红质-2”。它的特别之处在于，只要受到蓝光照射，通道就会迅速打开，带正电的离子随即流入细胞，引发电信号。更让人兴奋的是，它并不只在藻类细胞里管用。研究人员把编码通道视紫红质-2的基因导入原本不会感光的人类胚胎肾细胞和仓鼠肾细胞，结果，这些细胞也获得了对光的响应能力。2003年，赫格曼和纳格尔发表研究成果，提出可以利用通道视紫红质-2，通过光线在细胞中产生电信号。",
+      "这项发现恰好为科学家多年前的一个设想提供了现实工具。1962年诺贝尔生理学或医学奖得主弗朗西斯·克里克曾设想，如果能够让单个神经细胞对光产生反应，就有可能利用光控制它们的活动。关键问题随之而来：这种来自藻类的“光控开关”，能不能装到神经细胞上？答案由戴塞洛特给出。上世纪90年代，戴塞洛特在学医期间，曾接触过抑郁症、自闭症和精神分裂症患者。他逐渐意识到，想真正理解这些疾病，只观察大脑不同区域的活动远远不够。科学家需要知道，某一类神经细胞究竟如何影响具体行为。",
+      "戴塞洛特将编码通道视紫红质-2的基因导入大鼠神经细胞。结果，神经细胞能够正常产生通道视紫红质-2。蓝光一照，它们立即产生神经信号，并把信号传递出去。2005年，戴塞洛特团队发表了这一突破性成果。两年后，他进一步让这种由光控制的“开关”在活体小鼠的大脑中发挥作用。他们把通道视紫红质-2导入小鼠运动皮层中的特定神经细胞，再通过光纤向大脑传递蓝光，就能控制小鼠的胡须运动。",
+      "这种利用光来控制神经信号的方法，如今被称为“光遗传学”。光遗传学让科学家能够在活体大脑中，以毫秒级速度精准控制特定神经细胞。目前，光遗传学已用于研究抑郁症、焦虑症、精神分裂症、阿尔茨海默病和帕金森病等疾病的神经机制。在临床研究中，科学家还尝试将类似通道视紫红质的蛋白质导入视网膜，帮助视网膜色素变性患者恢复部分视力。一名患者借助特殊眼镜，已经能辨认并抓取物体。科学家还希望用光信号替代人工耳蜗中的电信号，更精准地刺激听觉神经。光遗传学从根本上改变了人们研究大脑的方式。如今，科学家能够借助这项技术精准控制特定神经细胞，进一步探索大脑的工作机制。"
+    ],
+    "topics": [
+      "脑与认知",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/05/content_591923.html",
+      "originalTitle": "诺奖解读丨神经元有了“光控开关”？三位科学家因此获诺奖！",
+      "publishedAt": "2026-10-05",
+      "retrievedAt": "2026-10-06T01:51:25.599Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T01:51:20.715Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Light Switch for Brain Cells: The 2026 Nobel Prize",
+      "intro": "Three scientists won the 2026 Nobel Prize in Physiology or Medicine for discoveries in light-controlled ion channels and optogenetics.",
+      "paragraphs": [
+        "Imagine turning one tiny brain cell on and off using only a beam of light. That sounds like science fiction, but it is now real. Three scientists won the 2026 Nobel Prize in Physiology or Medicine. They are Karl Deisseroth from the United States, Peter Hegemann from Germany, and Georg Nagel from Germany. Their discovery lets scientists give neurons a 'light-controlled switch'. The human brain weighs about 1.3 kilograms. It holds memory, dreams, creativity, emotions, and controls breathing, heartbeat, and sleep. For a century, scientists tried to map the brain. Older methods could link a brain region to a function. But they could not identify which specific nerve cells were involved. Nor could they prove those cells directly caused behavior.",
+        "The story starts with a tiny green alga called Chlamydomonas reinhardtii. In the early 1990s, Hegemann asked a simple question: Why does this alga swim toward light? The alga has a small orange spot, called an eyespot, that senses light. Inside it sits a molecule that catches light, called retinal. When light hits the eyespot, the cell makes an electrical signal in about 0.5 milliseconds. Human vision takes at least 10 milliseconds to produce a response. So Hegemann guessed the alga must have a special protein. It might both sense light and act as an ion channel. That idea was hard to test because the protein broke down outside the alga. Later, genome research found two related genes. Hegemann then collaborated with Nagel. Nagel injected those genes into frog egg cells. The frog cells produced the proteins. Experiments showed these proteins were themselves light-gated ion channels.",
+        "One of those proteins was later named channelrhodopsin-2. When blue light hits it, the channel opens quickly. Positive ions flow into the cell and trigger an electrical signal. It worked not just in algae — researchers put the gene into human embryonic kidney cells and hamster kidney cells. Those cells also became light-sensitive. In 2003, Hegemann and Nagel published their findings. They proposed using channelrhodopsin-2 to generate electrical signals in cells with light. In 1962, Nobel laureate Francis Crick had imagined controlling single nerve cells with light. Now that tool existed. The key question remained: Could this algal 'light switch' work in real nerve cells?",
+        "Deisseroth answered that question. In the 1990s, while studying medicine, he met patients with depression, autism, and schizophrenia. He realized observing brain regions was not enough. Scientists needed to know how specific nerve cells affect behavior. He inserted the channelrhodopsin-2 gene into rat nerve cells. The cells made the protein. Blue light triggered fast neural signals. In 2005, his team published this breakthrough. Two years later, they extended it to living mice. They inserted the gene into specific nerve cells in the motor cortex. They used a thin optical fiber to deliver blue light into the brain. The light triggered neural signals and caused whisker movement.",
+        "This method is now called optogenetics. It lets scientists control specific nerve cells in living brains with millisecond precision. Scientists use it to study depression, anxiety, schizophrenia, Alzheimer’s disease, and Parkinson’s disease. In clinical research, scientists have tried inserting similar proteins into the retina. This may help some patients with retinitis pigmentosa regain partial vision. One patient, wearing special glasses, could identify and grasp objects. Scientists also hope to use light instead of electricity in cochlear implants. That could stimulate the auditory nerve more precisely. Optogenetics has fundamentally changed how we study the brain. Scientists can now control selected nerve cells and explore how the brain works."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T02:00:16.780Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-06/2026-10-06-bif4hx.webp",
+      "alt": "抽象神经细胞与光敏开关符号，冷光斜射",
+      "caption": "光控开关与神经细胞的抽象示意",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-06-how-pond-algae-led-to-a-nobel-prize-and-a-new-wa",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "池塘藻类如何促成一项诺贝尔奖，并开启用光研究大脑的新方法",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-06",
+    "intro": "一种没有眼睛、只有一个细胞的池塘藻类，怎样帮助科学家找到了用光开关脑细胞的办法。",
+    "paragraphs": [
+      "池塘里生活着一种只有一个细胞的小藻类，叫衣藻（Chlamydomonas）。它没有眼睛，却总能朝着有光的方向游。科学家花了很多年，弄清楚了它究竟是怎么感觉到光的。这项研究，连同它后来引出的技术，获得了2026年诺贝尔生理学或医学奖。",
+      "感光并不是长着眼睛的动物才有的本领。从单细胞生物到我们熟悉的动物，很多生物都靠光来了解周围的环境，靠它朝着光或者背开光，靠它获取能量，也靠它应对一天里的昼夜变化。彼得·黑格曼和格奥尔格·纳格尔发现，衣藻的感光本领集中在一个叫通道视紫红质的蛋白质上。这个蛋白质嵌在细胞膜里，一部分朝外，一部分朝内，里面还带着一个能吸收光的小分子——视黄醛（retinaldehyde）。光一照到它，视黄醛改变形状，通道视紫红质跟着改变形状，细胞膜上就打开了一条细小的通道。带正电的粒子，包括钠离子，于是从外面的水里流进细胞。正是这股带电粒子的流动，给衣藻发出了信号，帮它游动。",
+      "有意思的是，神经细胞工作的方式跟它很像。神经细胞也是靠带电粒子（即离子）穿过细胞膜来控制自己的活动：带正电的粒子流进去，细胞就更容易活跃起来。于是研究者想到，如果把通道视紫红质放进神经细胞，是不是只要照一束光，就能把细胞‘打开’？黑格曼、纳格尔，以及加州斯坦福大学的精神科医生、生物工程师卡尔·戴塞尔罗斯，把这个设想变成了现实。用光来控制神经细胞，就是光遗传学（optogenetics）。",
+      "具体怎么做到呢？科学家先把通道视紫红质的基因送进想要研究的神经细胞，通常由经过改造、不会致病的病毒来携带。细胞于是自己造出这种蛋白质，从此对光有反应。在小鼠这类动物身上，研究人员把一根很细的光纤伸进大脑，光照到那些细胞，通道打开，细胞就活跃起来；旁边没有这种蛋白质的神经细胞，完全不受影响。光可以只对准很小的一块脑区，也可以极快地打开和关掉。想知道某群神经细胞是不是跟记忆、睡眠、感觉或者运动有关，用光把它们打开，看看会发生什么就行。",
+      "2012年，麻省理工学院的一个研究团队做过一个实验：他们在特定笼子里给小鼠一次轻微电击，同时用光遗传学标记出大脑记忆中心（海马体）中在惊吓时活跃的神经细胞。几天后，在另一个笼子里，他们用光激活那些被标记的细胞。小鼠立刻僵住不动，仿佛重新体验了电击带来的恐惧。而未受过电击的小鼠在同样光照下并不僵住，说明光特异性地重新激活了一段记忆。戴塞尔罗斯是那项研究的作者之一。",
+      "光遗传学也正在走向治疗。在视网膜退化的早期临床试验中，研究人员把光敏感蛋白导入视网膜中尚存的神经细胞——原本负责感光的视杆细胞和视锥细胞已丧失功能。这样，残留细胞能对光产生反应，从而恢复部分视力。研究者也在探索光遗传学未来是否可用于治疗帕金森病和癫痫。回头看，这一切都始于一个看似冷僻的问题：衣藻为什么朝着光游？它不解决紧迫的人类健康难题，也不通向财富。但知识会把人带到哪里，谁也没法预测。"
+    ],
+    "topics": [
+      "全球时事",
+      "科学与社会"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/how-pond-algae-led-to-a-nobel-prize-and-a-new-way-to-study-the-brain-293579",
+      "originalTitle": "How pond algae led to a Nobel prize and a new way to study the brain",
+      "publishedAt": "2026-10-05T14:59:27Z",
+      "retrievedAt": "2026-10-06T01:52:39.472Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T01:52:17.039Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How Pond Algae Led to a Nobel Prize",
+      "intro": "This year's Nobel Prize in physiology or medicine went to three scientists who learned to control brain cells with light.",
+      "paragraphs": [
+        "It started with a tiny pond alga called Chlamydomonas. Scientists wanted to know how this single-celled organism senses light. Light-sensing is not unique to animals with eyes. Organisms throughout the living world use light to detect their surroundings. They also use light to respond to changes in their environment. Even single-cell organisms have proteins that respond to light. These proteins help them move toward or away from light. They also help generate energy. And they help respond to the demands of a 24-hour day.",
+        "Peter Hegemann and Georg Nagel discovered that Chlamydomonas has a beautifully ingenious mechanism of light detection. It relies on a single protein called channelrhodopsin. Channelrhodopsin is built into the outer membrane of the algal cell. Part of the protein faces the water outside the cell. Part faces the inside. The protein contains a small molecule called retinaldehyde. Retinaldehyde is able to absorb light. When light hits the retinaldehyde, it changes shape. This makes the channelrhodopsin protein change shape too. That change opens a tiny passage through the cell membrane. Positively charged particles flow from the water outside into the cell. Sodium is one of those particles. This movement sends a signal inside the alga. The signal helps it swim.",
+        "Why did this win a Nobel Prize in physiology or medicine? Nerve cells use the movement of charged particles across their membranes to control activity. These particles are called ions. When positively charged particles flow into a nerve cell, it can become more active. The researchers realised they could put channelrhodopsin into nerve cells. Then they could switch those cells on by shining light on them. Hegemann, Nagel and Karl Deisseroth did exactly that. Deisseroth is a psychiatrist and bioengineer at Stanford University in California.",
+        "The ability to control nerve cells with light is called optogenetics. It has become a powerful research tool. Scientists can switch specific groups of nerve cells on and off. Then they can see what happens. First, scientists deliver the gene for channelrhodopsin to the nerve cells they want to study. The gene is usually carried by a virus. The virus has been altered so it cannot cause disease. The cells then make the channelrhodopsin protein. That makes them respond to light. In mice, scientists shine light into the brain through a thin optical fibre. When the light reaches the cells, channelrhodopsin opens. The cells become active. Nearby nerve cells without the protein are unaffected. Light can be aimed at a very small part of the brain. It can be switched on and off extremely quickly. This makes optogenetics a powerful way to investigate how the brain works.",
+        "For example, scientists can test whether a group of nerve cells is involved in memory, sleep, sensation or movement. They switch those cells on with light and watch what happens. In one experiment in 2012, a team at the Massachusetts Institute of Technology gave mice a mild electric shock in a particular cage. They used optogenetics to tag nerve cells in the brain’s memory centre. Those cells were active during the fear-conditioning experiment. Days later, in a different cage, they switched those cells on with light. The mice froze in fear, as if they remembered the shock. Mice that were not shocked did not freeze. This showed that the light was reactivating a specific memory. Deisseroth was one of the study’s authors. Optogenetics has transformed scientists’ ability to investigate how the brain and nervous system work.",
+        "Optogenetics is already in early-stage clinical trials for people with retinal degeneration. Researchers introduce light-sensitive proteins into nerve cells that remain in the retina. These cells stay after rods and cones — the normal light-detecting cells — have been lost. This can make surviving cells respond to light. It may restore some vision. Researchers are also investigating whether optogenetics could treat Parkinson’s and epilepsy. This year’s Nobel Prize celebrates work that started with a question: how do Chlamydomonas swim toward light? That question has no obvious practical importance. It does not address an urgent need in human health. It is not a clear route to riches. The success of optogenetics shows why it matters to ask questions simply to understand the world. It is impossible to predict where knowledge will take us."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T01:59:32.055Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-06/2026-10-06-how-pond-algae-led-to-a-nobel-prize-and-a-new-wa.webp",
+      "alt": "抽象单细胞藻类与穿过水面的冷光",
+      "caption": "池塘藻类与光，抽象示意",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-06-zdmi0i",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "极端高温使怀孕成为气候危机中“新的断层线”",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-06",
+    "intro": "随着极端高温加剧，怀孕和分娩已成为“全球气候危机中新的断层线”。这是《联合国气候变化框架公约》负责人西蒙·斯蒂尔发出的警告，他呼吁将孕产妇和新生儿健康纳入各国的气候计划。",
+    "paragraphs": [
+      "《联合国气候变化框架公约》负责人西蒙·斯蒂尔在斐济出席由韦尔科姆慈善基金会组织的活动时表示，对气候行动的真正考验“远比”温度、目标和资金要简单得多：“我们能否保护最脆弱的生命”。他在气变大会前的部长级会议上表示，“气温上升意味着孕期风险增加”，并指出怀孕和分娩已成为“全球气候危机中新的断层线”。",
+      "斯蒂尔援引了周一发布的新数据。这些数据来自韦尔科姆基金会委托开展的一项调查，调查对象为五大洲五个国家的孕产妇健康专业人员。约73%的受访者表示，过去五年中与高温相关的病例或并发症有所增加，而81%的受访者表示担心或非常担心，如果不采取更多行动，极端高温将使孕产妇、胎儿和新生儿的健康面临日益加剧的风险。几乎所有受访者都曾照料过一名孕妇或婴儿，他们认为这些人的健康受到了极端高温的影响。",
+      "斯蒂尔指出，孕期遭遇极端高温与早产、死产、低出生体重及孕产妇并发症之间的关联日益密切。他说：“这些数字背后是真实的人间故事：一位准妈妈因危险的高温而延误了前往诊所的行程；一位助产士在不安全的温度下坚持工作；一名新生儿需要专科护理”。",
+      "他强调，虽然没有人能幸免于难，但风险和影响并非平均分布。那些在户外工作、居住在无规范保障的住房中、需长途跋涉前往诊所，或依赖缺乏水、电及制冷设施的场所的人们，“仅靠建议是无法得到保护的”。他说：“当无处可去避暑时，‘保持凉爽’根本就不是一个选项。” “安全分娩本就常常受地理位置、收入和医疗可及性的制约。如果不采取行动，极端高温将加剧这种不公。”",
+      "斯蒂尔指出，计划中未提及的内容往往得不到资金支持、无法衡量，也得不到保护，“未被计入的危害极易被忽视”。为此，他提出了三项优先事项：将孕产妇和新生儿护理纳入适应、高温及健康规划；通过指导、培训、高温预警和更安全的设施，将证据转化为保护措施；完善数据，以显示风险正在加剧的领域以及哪些干预措施有效。他呼吁落实在巴西贝伦召开的第30届气变大会上商定的将适应资金增加三倍的承诺，并呼吁各国与整个金融体系合作，使每年为发展中国家提供1.3万亿美元的资金成为现实。他赞扬了土耳其作为下届大会的主席国以及澳大利亚作为谈判主席国，在巴西去年工作的基础上，将健康列为关键优先事项。",
+      "他说：“绝不能将气候变化视为孕产安全状况恶化的理由。” “新生儿的健康起步绝不能取决于家庭能否逃离酷热。”"
+    ],
+    "topics": [
+      "气候与能源",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142941",
+      "originalTitle": "极端高温使怀孕成为气候危机中“新的断层线”",
+      "publishedAt": "Mon, 05 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-06T01:55:25.450Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T01:55:23.755Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-06-8ogk90",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家识别出三种叫声最响亮的鸟",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-06",
+    "intro": "白钟雀叫声能达到125分贝，裸喉钟雀和红腿叫鹤叫声都超过120分贝；至于这些鸟如何演化出最响亮的叫声，则仍然是个谜。",
+    "paragraphs": [
+      "生物学家在巴西识别出三种叫声最响亮的鸟。根据精确的测量标准，这三种鸟都可以被视为叫声最响亮者。",
+      "这三种鸟分别是白钟雀（white bellbird）、裸喉钟雀（bare-throated bellbird）和红腿叫鹤（red-legged seriema）。白钟雀叫声能达到125分贝；裸喉钟雀和红腿叫鹤叫声都超过120分贝。研究人员表示，120分贝可能是鸟类发声的生理极限；巴西之外的地方无疑也存在叫声洪亮的鸟类，但其音量不太可能比这些鸟高出太多。",
+      "三种鸟类有着共同的生理特征：即宽大的喙口和肌肉厚实的大块头身体。",
+      "至于这些鸟如何演化出最响亮的叫声则仍然是个迷。",
+      "但对科学家而言，谁是赢家并不是重点。"
+    ],
+    "topics": [
+      "生物与技术",
+      "声音与感知"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Solidot 奇客",
+      "region": "mainland",
+      "url": "https://www.solidot.org/story?sid=85539",
+      "originalTitle": "科学家识别出三种叫声最响亮的鸟",
+      "publishedAt": "Mon, 05 Oct 2026 22:45:39 +0800",
+      "retrievedAt": "2026-10-06T01:55:59.147Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "discovery",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-06T01:55:57.735Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-05-ai",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "中外剧作家在沪谈AI：可辅助创作，难以替代舞台艺术",
@@ -3092,222 +3324,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-09-11-5q9oou",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "课间操跳反弹琵琶 敦煌文化“长”进校园",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-11",
-    "intro": "这篇候选只抓到标题与网站导航，正文缺失，按轻听的发布硬门槛暂不改写。",
-    "paragraphs": [
-      "这次从链接抓取到的内容，基本是中新网的页面框架：顶部导航、搜索框、各频道栏目链接和分享按钮，真正的报道正文没有出现在抓取结果里。我们能确认的只有标题本身——课间操跳“反弹琵琶”，敦煌文化“长”进校园。",
-      "仅凭这个标题，只能知道一件事：有学校把敦煌壁画里的“反弹琵琶”姿态编进了课间操，让敦煌文化进入校园日常。",
-      "轻听要求每篇听稿的事实、数字、因果和引语都能回到原文核验，也要求播放页能直达原文。抓不到全文、只剩一句标题时，硬写出来的一定是想象而不是报道，所以这一篇先放弃，不做改写。"
-    ],
-    "topics": [
-      "教育与文化",
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-10/10693850.shtml",
-      "originalTitle": "课间操跳反弹琵琶 敦煌文化“长”进校园",
-      "publishedAt": "Thu, 10 Sep 2026 11:54:49 +0800",
-      "retrievedAt": "2026-09-11T00:21:35.142Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-11T00:21:33.937Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-11-1kw6r3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "继马拉松之后，匹克球正在中国快速流行",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-11",
-    "intro": "一项三年前还鲜为人知的小众运动，如今在中国的大小城市里迅速铺开。",
-    "paragraphs": [
-      "有一种运动，被戏称为“在羽毛球场用乒乓球拍打网球”。三年前，它还鲜为人知；今天，它已经出现在中国许多城市的球场上。这就是匹克球。中国匹克球巡回赛（CPC）2024年刚创立时只有几十站，到2026年，这个数字已飙升至1000站。负责赛事整体运营的非凡领越体育事业部总经理宋鸿飞，此前见证过国内马拉松赛事从年均20多场猛增至千余场。在他看来，匹克球有可能成为下一个马拉松式的大众热门运动。",
-      "匹克球为什么能迅速被接受？答案不复杂：门槛低，社交性强。它比网球好上手，比羽毛球强度低，比乒乓球活动空间大。河南鹤壁第四中学60岁的语文老师牛建军，两年前开始接触这项运动。他的总结是：人群友好，老少都易学且不易受伤；场地友好，塑胶地、水泥地都行；户外友好，球重不太怕有风。学校里流传着一句话——“一分钟上手、五分钟上头、十分钟上瘾”。",
-      "除了谁都能玩，还有谁都玩得起。过去两年，羽毛球和球拍价格上涨了30%—60%，而匹克球损耗低、球拍更耐用、价格更亲民，李宁、红双喜等本土品牌均聚焦百元级大众市场。去年“618”促销期间，天猫平台匹克球装备销售暴涨超1100%。社交平台上，2025年“匹克球”在小红书的搜索量同比增长519%；仅去年春夏两季，抖音相关话题播放量突破3.7亿次；美团数据显示，“匹克球场地”搜索量同比增长922%。樊振东、郭晶晶等众多文体界名人跨界为匹克球站台。",
-      "地方上的热情同样明显。河南鹤壁自2023年起将匹克球作为城市转型突破口，连续三年承办全国锦标赛，现有1600多片匹克球场，各类活动累计吸引百万群众参与，被世界匹克球联盟授予“中国匹克球之城”称号。在场馆端，上海市民体育公园将部分篮球场改为匹克球场；“广州地铁匹克球中心”则把十几块场地铺到琶洲地铁站里，通勤、运动、社交“一站式满足”。业内普遍将2025年视为“中国匹克球元年”：这一年，匹克球成为全国全民健身大赛规定项目；今年，又有10个省（区、市）将匹克球纳入省级运动会。",
-      "不过，匹克球和马拉松融入城市的方式很不相同。北京体育大学教授白宇飞认为，马拉松的经济模式是“集中爆发”——数万人涌入一座城，住宿、餐饮、旅游、交通等消费在2—3天内集中释放。据《2025中国马拉松赛事蓝皮书》对全国284场A类马拉松赛事的分析，其场均直接经济影响约为6500万元。匹克球则是“细水长流”型。鹤壁仅举办第二届全国锦标赛就带动直接消费约1500万元，虽和马拉松相差较远，但优势是还可通过联赛等形式贯穿全年。一座城市一年通常只办一次马拉松，而匹克球可用各级联赛、巡回赛实现高频引流和日常消费，这也意味着场地运营、商业赞助、项目培训、装备复购等产业链条更持续。",
-      "从全球来看，匹克球的规模已经不小。国内现有800万人常态化参与匹克球运动，而全球活跃玩家已超4800万，其中美国市场占比最高。NBA名将勒布朗·詹姆斯、杜兰特和美式橄榄球传奇汤姆·布雷迪等均已投资布局匹克球；而该项目两大职业赛事合并成立母公司美国匹克球集团后，今年再度融资，估值已高达7.5亿美元。匹克球国际组织正在积极推动入奥进程。"
-    ],
-    "topics": [
-      "匹克球",
-      "运动潮流",
-      "体育产业与社会观察"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260910/85b7eca2dd9c4ba6a4b9a010ac16f36c/c.html",
-      "originalTitle": "大看台丨跑马热之后，下一个爆款运动来了？",
-      "publishedAt": "2026-09-10T17:19:22+08:00",
-      "retrievedAt": "2026-09-11T00:23:14.434Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-11T00:22:56.155Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-11/2026-09-11-1kw6r3.webp",
-      "alt": "冷灰色调下，一只球拍与带孔塑料球静置台面。",
-      "caption": "匹克球，正悄然进入城市日常。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-11-a-natural-solution-to-the-replication-crisis-in-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "实验结果难复现，蚂蚁觅食或提供自然解法",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-11",
-    "intro": "当实验结果反复无法重现，科学界正面临一场‘信任危机’——而答案，可能藏在一群每天找食物的蚂蚁身上。",
-    "paragraphs": [
-      "上世纪50年代，英国昆虫学家约翰·萨德在尼日利亚伊巴丹大学学院工作时，发现自家住宅里爬满了法老蚁。它们每天早上七到九点出发，在屋内外持续觅食。为了追踪它们的路径，萨德在地板上铺纸，用铅笔一路标记。他发现：蚂蚁倾向于每天重走同一条路，但这些路径会随时间缓慢变化，几周或几个月后逐渐偏移。",
-      "萨德在1960年发表研究指出，蚂蚁通过分泌信息素标记路径；信息素具有挥发性——当食物丰富、蚂蚁频繁往返时，路径被强化；当食物消失、不再有蚂蚁通行时，信息素自然衰减并消散。这形成一种动态更新机制：未被持续验证的路径会淡去，被反复证实的路径才得以保留。",
-      "人类科学家也依赖归纳推理——从过往经验推测未来趋势，这一逻辑自罗杰·培根时代起就是科学方法的核心。但科学论文（无论纸质或数字）不会自动失效；即使结论已被证伪，它仍保留在数据库中，继续被引用。而蚂蚁的信息素不同：不被重复使用就会挥发消散。这种‘随验证而存续’的信任机制提示我们：一个科学结论的可信度，不应只取决于首次发表的强度，而应取决于它最近一次被实证检验的时间。",
-      "不同领域中‘事实’的稳定性差异显著。例如营养学，其建议常在十年内多次更迭（受社会变迁与代谢研究进展影响）；而天文学的发现则往往跨越数代人仍保持稳定。若学术期刊能像蚂蚁巢穴一样，将‘上次验证时间’作为元数据标注在每项成果上，甚至让长期未经复现的研究在检索结果中逐步降低权重，知识更新就能更贴近真实世界的动态性。",
-      "有趣的是，蚂蚁觅食既依赖信息素路径（循迹），也依赖个体随机探索（无向游走）。后者虽低效，却是新食物源发现的关键。科学家同样可开展不预设假设的探索性实验——这类活动并非违背科学方法，而是为假说生成提供原始素材。人类并非唯一具备科学思维的物种：鸽子在蒙提霍尔问题中迅速学会最优策略，而人类却长期固守错误选择；黑猩猩在透明谜题箱实验中直接省略无用步骤，人类儿童却机械模仿全部动作。",
-      "我们当然不会真在实验室养一窝蚂蚁来审稿。但可以仿效其认知策略：赋予知识以‘保质期’，使验证过程可见可溯，让合理怀疑成为制度性权利。科学不是一套永恒正确的答案，而是一群人，以可修正、可更新的方式，共同逼近真相。"
-    ],
-    "topics": [
-      "物质与数学",
-      "科学方法"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/a-natural-solution-to-the-replication-crisis-in-science-1284942/",
-      "originalTitle": "A Natural Solution to the Replication Crisis in Science",
-      "publishedAt": "Thu, 10 Sep 2026 21:30:00 +0000",
-      "retrievedAt": "2026-09-11T00:26:22.255Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-11T00:26:13.240Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 35,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-11/2026-09-11-a-natural-solution-to-the-replication-crisis-in-.webp",
-      "alt": "冷灰纸面上，蚂蚁沿细线走向重复的几何圆点。",
-      "caption": "重复的路径，或许藏在自然里。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-10-n22408",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "陶哲轩参与创办新期刊：不收论文，只收讲座视频",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-10",
-    "intro": "今年8月，由菲尔兹奖得主陶哲轩参与创办的新期刊《数学论述》（Mathematical Discourse）上线——它不收论文，只收45到65分钟的数学讲座视频。",
-    "paragraphs": [
-      "你可能不知道，数学家交流想法，常常不是靠写论文，而是站在黑板前讲一场报告。今年8月，一本全新的线上同行评审数学期刊《数学论述》正式诞生，它不收文字论文，只接收高质量的数学研究报告视频；该刊属于钻石开放获取，即作者和读者均无需付费；陶哲轩是科学委员会成员，主编之一是菲尔兹奖得主阿克谢·文卡特什（Akshay Venkatesh）。它的目标很特别：让‘把数学讲清楚’这件事，也像发表论文一样，获得学术共同体的正式认可。",
-      "为什么一场报告值得被发表？数学家恽之玮解释说，一篇论文追求严谨和完整，但一场好报告追求的是理解与启发。它要讲清一个问题为什么重要、结论为什么让人惊讶、推理的关键在哪里。瑞士苏黎世理工学院的王艺霖副教授打了个比方：报告就像一部电影，要有铺垫、推进、高潮和收束；它不是复述论文，而是为听众重新组织知识，帮他们跟上思路、发现联系。她强调：‘报告人不是核心，观众才是。’",
-      "这种面对面的交流，有时真能改变研究方向。2022年，王艺霖在哈佛大学听一场关于三维双曲流形体积问题的报告，当时她研究的是曲线在曲面上的能量——两个话题表面上相距很远。但因为报告人把陌生问题讲得足够清楚，她渐渐捕捉到两者的相似性，‘当时觉得，好像可以follow（听懂）’。这次‘听懂’，后来催生了新的合作和一系列后续结果。数学里很多突破，就发生在会场走廊、午餐桌旁、咖啡机边的一次提问或一段即兴推导中。",
-      "那么，怎么判断一场报告好不好？编辑们不会用统一模板打分。陶哲轩说，关键看它是否增加了职业数学家对该主题的理解与研究动机，是否提升了其使用相关文献的能力；不同编辑可能更看重不同因素；期刊初期没有固定标准，而是通过第一批发表的报告，在编辑讨论和审稿反馈中逐步形成共识性标准。王艺霖补充道：不同编辑看重的点可能不同——有人喜欢深挖一个小结果，有人看重整体脉络；这种差异不是缺陷，反而让评价更丰富、更贴近真实的研究生态。",
-      "这本新期刊的出现，也和人工智能有关。AI能快速给出答案，但它未必能讲清‘为什么’。王艺霖担心，如果人们只满足于AI给的正确结果，却不再追问推理过程，数学就会变成又一个‘黑箱’。而数学家几十年来一直在做的，正是不断把这些‘黑箱’打开，把抽象对象转化为人类能够共同理解和讨论的内容。这样的价值，并不会因为AI变得更强大而消失。",
-      "《数学论述》不打算取代印刷期刊在验证正确性上的角色，结果对不对由讲者负责，审稿人只看三件事：清晰度、新颖性和数学趣味。它只是为数学共同体增加一个维度：让认真准备报告、善于阐释思想的人，获得更明确的认可和反馈。对年轻研究者，恽之玮建议从问题的本源出发，坚持‘第一性原则’；王艺霖则提醒：真正的理解，有时恰恰要经过一段不理解的、甚至有些黑暗的时间——在不断追问、试错和重新组织中，人才会形成自己的判断和品味。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571162.shtm",
-      "originalTitle": "不收论文，一份陶哲轩参与的新期刊诞生了",
-      "publishedAt": "2026-09-09 20:54",
-      "retrievedAt": "2026-09-09T23:21:06.901Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:20:55.849Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A New Math Journal That Publishes Lectures, Not Papers",
-      "intro": "Imagine a math journal that publishes filmed lectures instead of written papers.",
-      "paragraphs": [
-        "A ScienceNet report introduces a new journal called Mathematical Discourse. Terence Tao wrote about it on his blog in late August. He is on its scientific committee. The journal is fully online and peer reviewed. It accepts video recordings of high-quality mathematical lecture reports. It follows a diamond open access model, so no one pays to read or publish. It does not accept written papers.",
-        "Two mathematicians who joined as editors talk about why. Yilin Wang says a good lecture is a kind of art. It needs setup, momentum, a climax, and a closing. Yun Zhiwei nearly refused when Akshay Venkatesh invited him. Venkatesh is a Fields Medal winner and one of the journal’s editors-in-chief. Yun would have refused an ordinary journal immediately. But he decided to join. He calls the project a mathematicians’ effort to help themselves, especially in the face of AI’s impact.",
-        "The journal supports something papers cannot fully capture. Many math ideas are born in front of a blackboard. Written papers may stay useful for a hundred years. But a live talk can spark interest more quickly. Its main results must already have a written form, according to the journal’s submission guidelines. Therefore, this journal does not replace printed journals. Speakers are responsible for correctness. Reviewers judge clarity, novelty, and mathematical interest.",
-        "A lecture can also connect very distant ideas. Wang remembers attending a small seminar at Harvard in 2022. A speaker discussed volumes of three-dimensional hyperbolic manifolds. Her research dealt with the energy of curves on surfaces. The topics seemed far apart. But the talk was clear enough that she saw a possible connection. That experience later led to new collaboration and fresh results.",
-        "Artificial intelligence is not why the journal began. But it makes the change more urgent. Tao says lectures capture the human side of math. He expects that side to become even more important. Wang worries about machines creating new black boxes. A machine may produce a correct answer. Yet if no person can follow the reasoning, knowledge remains locked. Mathematicians have always tried to open such boxes. Clear communication turns hidden truths into shared understanding.",
-        "Who decides what makes a talk good? Editors and reviewers will build that standard gradually. Different people may value different things. Wang says this flexibility gives evaluation room to breathe. She once asked artificial intelligence to help write a recommendation letter. The result looked smooth and warm, but it did not sound like her. She rewrote the letter by hand. Real understanding often needs a slow, uncomfortable path."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-09T23:34:52.565Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-10/2026-09-10-n22408.webp",
-      "alt": "半透明屏幕与几何线条，铅笔和纸",
-      "caption": "新期刊以视频承载数学论述",
-      "kind": "editorial"
     }
   }
 ]
