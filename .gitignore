@@ -46,3 +46,6 @@ next-env.d.ts
 # Local Environment Variables
 .env.local
 content/candidates.json
+
+# 音频存放在对象存储，仓库只保留 public/audio/manifest.json（见 docs/audio-storage.md）
+/public/audio/**/*.mp3
