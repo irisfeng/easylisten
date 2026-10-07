@@ -133,6 +133,16 @@ export interface Piece {
   };
 }
 
+/**
+ * 首页用的稿件摘要：不含正文，时长在服务端算好。首页是客户端组件，直接引用
+ * 整份 daily.json 会把所有正文打进浏览器包里。
+ */
+export type PieceSummary = Omit<Piece, "paragraphs" | "en" | "source"> & {
+  minutes: number;
+  source?: Pick<SourceReference, "name" | "url" | "originalTitle">;
+  en?: { title: string; intro: string; minutes: number };
+};
+
 export type AgeBand = "6-9" | "10-12" | "13-16";
 
 const AGE_BAND_ORDER: AgeBand[] = ["6-9", "10-12", "13-16"];
@@ -145,7 +155,7 @@ export function formatAgeBands(ageBands?: readonly AgeBand[]): string {
   return labels.length ? labels.join("、") : "适龄信息待复核";
 }
 
-export function isPieceForAge(piece: Piece, ageBand: AgeBand): boolean {
+export function isPieceForAge(piece: Pick<Piece, "ageBands">, ageBand: AgeBand): boolean {
   return !piece.ageBands?.length || piece.ageBands.includes(ageBand);
 }
 

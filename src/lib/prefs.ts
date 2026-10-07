@@ -98,7 +98,9 @@ export function hasSignal(prefs: Prefs): boolean {
  * 个性化打分:兴趣标签命中 + 频道行为亲和 + 新鲜度,听过的靠后。
  * 候选池本身已是编辑精选,这里只做排序和配比,不做召回。
  */
-export function scorePiece(piece: Piece, prefs: Prefs): number {
+type Scorable = Pick<Piece, "slug" | "category" | "publishedAt" | "topics">;
+
+export function scorePiece(piece: Scorable, prefs: Prefs): number {
   let score = 0;
   const topicHits = (piece.topics ?? []).filter((t) =>
     prefs.interests.includes(t),
@@ -108,15 +110,19 @@ export function scorePiece(piece: Piece, prefs: Prefs): number {
   const ageDays =
     (Date.now() - Date.parse(piece.publishedAt)) / (24 * 3600 * 1000);
   if (ageDays < 2) score += 1;
-  if ((prefs.listened[piece.slug] ?? 0) > 0.8) score -= 10;
+  if (isListened(prefs, piece.slug)) score -= 10;
   return score;
 }
 
-/** "为你精选":个性化排序取前 n 篇。 */
-export function pickForYou(pieces: Piece[], prefs: Prefs, n: number): Piece[] {
-  return [...pieces]
-    .map((p) => ({ p, s: scorePiece(p, prefs) }))
-    .sort((a, b) => b.s - a.s)
-    .slice(0, n)
+/** 按个性化得分排序；同分保持原有(时间)顺序。 */
+export function rankForYou<T extends Scorable>(pieces: T[], prefs: Prefs): T[] {
+  return pieces
+    .map((p, order) => ({ p, s: scorePiece(p, prefs), order }))
+    .sort((a, b) => b.s - a.s || a.order - b.order)
     .map(({ p }) => p);
+}
+
+/** 这篇是否已经基本听完。 */
+export function isListened(prefs: Prefs, slug: string): boolean {
+  return (prefs.listened[slug] ?? 0) > 0.8;
 }
