@@ -152,6 +152,9 @@ jobs:
           REQUIRE_AUDIO_CONTRACT: "true"
           TARGET_AUDIO_SLUGS: ${{ inputs.repair_audio_slug }}
           FORCE_TARGET_AUDIO: ${{ inputs.repair_audio_slug != '' && 'true' || 'false' }}
+          # Edge 英文语音持续返回空音频时，整条英文轨改用 MiniMax 英文女声。
+          # 以前只有恢复任务这样做，结果是每次都先失败、发告警、晚一小时出刊。
+          ALLOW_MINIMAX_ENGLISH_FALLBACK: "true"
         run: node scripts/run-synthesis-with-recovery.mjs
 
       - name: 保存已生成的部分音轨
@@ -215,10 +218,10 @@ jobs:
           title="⚠️ 每日精选 ${ISSUE_DATE:-未知日期} 出刊失败"
           issue="$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)"
           if [ -n "$issue" ]; then
-            gh issue comment -R "$GITHUB_REPOSITORY" "$issue" --body "再次失败：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            gh issue comment -R "$GITHUB_REPOSITORY" "$issue" --body "${FAILURE_REASON:+原因：${FAILURE_REASON}。}再次失败：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           else
             gh issue create -R "$GITHUB_REPOSITORY" --title "$title" \
-              --body "定时出刊任务失败，自动恢复/补发将继续处理。运行日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+              --body "${FAILURE_REASON:+原因：${FAILURE_REASON}。}定时出刊任务失败，自动恢复/补发将继续处理。运行日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi
 
       - name: 出刊成功后关闭当日告警

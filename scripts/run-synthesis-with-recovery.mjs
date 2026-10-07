@@ -5,7 +5,7 @@
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
 
-import { resolveProcessRetryPlan } from "./lib/process-recovery.mjs";
+import { NON_RETRYABLE_EXIT_CODE, resolveProcessRetryPlan } from "./lib/process-recovery.mjs";
 
 const { attempts, delaysMs } = resolveProcessRetryPlan(process.env);
 const script = resolve(import.meta.dirname, "synthesize.mjs");
@@ -17,6 +17,10 @@ for (let attempt = 1; attempt <= attempts; attempt++) {
     stdio: "inherit",
   });
   if (result.status === 0) process.exit(0);
+  if (result.status === NON_RETRYABLE_EXIT_CODE) {
+    console.error("失败原因重试无法解决，不再继续补缺口");
+    process.exit(1);
+  }
   if (attempt < attempts) {
     const waitMs = delaysMs[attempt - 1];
     console.log(

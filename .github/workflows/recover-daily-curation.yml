@@ -136,7 +136,7 @@ jobs:
         run: |
           title="⚠️ 每日精选自动恢复仍未完成"
           issue="$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)"
-          body="自动恢复未完成；每日看门狗会在最终补发窗口再检查一次。恢复日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="${FAILURE_REASON:+原因：${FAILURE_REASON}。}自动恢复未完成；每日看门狗会在最终补发窗口再检查一次。恢复日志：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           if [ -n "$issue" ]; then
             gh issue comment -R "$GITHUB_REPOSITORY" "$issue" --body "$body"
           else

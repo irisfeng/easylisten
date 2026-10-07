@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
+import { NON_RETRYABLE_EXIT_CODE, miniMaxFailureKind } from "./lib/process-recovery.mjs";
+
 const dailyWorkflowUrl = new URL("../.github/workflows/daily-curation.yml", import.meta.url);
 const recoveryWorkflowUrl = new URL(
   "../.github/workflows/recover-daily-curation.yml",
@@ -119,4 +121,39 @@ test("所有会提交 manifest 的任务都先把音频上传到对象存储", a
     assert.ok(upload < commit, "必须先上传音频，再提交指向它的 manifest");
     assert.match(workflow, /AUDIO_S3_BUCKET: \$\{\{ vars\.AUDIO_S3_BUCKET \}\}/);
   }
+});
+
+test("MiniMax 余额不足是不可重试的失败，限流不是", () => {
+  assert.equal(
+    miniMaxFailureKind({ status_code: 1008, status_msg: "insufficient balance" }),
+    "account-blocked",
+  );
+  assert.equal(
+    miniMaxFailureKind({ status_code: 1002, status_msg: "rate limit exceeded" }),
+    "rate-limited",
+  );
+  assert.equal(miniMaxFailureKind({ status_code: 2013, status_msg: "invalid params" }), "other");
+  assert.equal(miniMaxFailureKind(undefined), "other");
+});
+
+test("不可重试的失败会跳过后续轮次，并把原因写进告警", async () => {
+  const wrapper = await readFile(
+    new URL("./run-synthesis-with-recovery.mjs", import.meta.url),
+    "utf8",
+  );
+  const synthesize = await readFile(new URL("./synthesize.mjs", import.meta.url), "utf8");
+  const daily = await readFile(dailyWorkflowUrl, "utf8");
+  const recovery = await readFile(recoveryWorkflowUrl, "utf8");
+
+  assert.ok(NON_RETRYABLE_EXIT_CODE > 1, "不能与普通失败的退出码 1 混淆");
+  assert.match(wrapper, /result\.status === NON_RETRYABLE_EXIT_CODE/);
+  assert.match(synthesize, /process\.exit\(NON_RETRYABLE_EXIT_CODE\)/);
+  assert.match(synthesize, /FAILURE_REASON=/);
+  assert.match(daily, /\$\{FAILURE_REASON:\+/);
+  assert.match(recovery, /\$\{FAILURE_REASON:\+/);
+});
+
+test("每日任务在 Edge 英文语音故障时直接改用 MiniMax 英文轨", async () => {
+  const daily = await readFile(dailyWorkflowUrl, "utf8");
+  assert.match(daily, /ALLOW_MINIMAX_ENGLISH_FALLBACK: "true"/);
 });
