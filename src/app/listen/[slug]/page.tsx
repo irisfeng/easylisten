@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { issueQueueFor, tracksFor } from "@/lib/audio-tracks";
 import { PIECES, pieceBySlug } from "@/lib/pieces";
 import Reader from "./Reader";
 
@@ -38,5 +39,5 @@ export default async function ListenPage({
   const { slug } = await params;
   const piece = pieceBySlug(slug);
   if (!piece) notFound();
-  return <Reader piece={piece} />;
+  return <Reader piece={piece} tracks={tracksFor(piece)} queue={issueQueueFor(piece)} />;
 }

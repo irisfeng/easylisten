@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   CaretDown,
@@ -10,6 +11,7 @@ import {
   Headphones,
   Pause,
   Play,
+  Queue,
   UserCircle,
 } from "@phosphor-icons/react";
 import {
@@ -38,11 +40,12 @@ import {
   setInterests,
   type Prefs,
 } from "@/lib/prefs";
+import { loadAgeBand, saveAgeBand } from "@/lib/playback";
+import { primeAudio } from "@/lib/tts";
 import { cn } from "@/lib/utils";
 
 type Playing = { slug: string; language: "zh" | "en" } | null;
 
-const AGE_KEY = "easylisten.age-band.v1";
 const AGE_BANDS: { value: AgeBand; label: string }[] = [
   { value: "6-9", label: "6-9 岁" },
   { value: "10-12", label: "10-12 岁" },
@@ -54,16 +57,16 @@ export default function Home() {
   const [prefs, setPrefs] = useState<Prefs | null>(null);
   const [ageBand, setAgeBand] = useState<AgeBand>("13-16");
   const [signedIn, setSignedIn] = useState(false);
+  const router = useRouter();
   const [playing, setPlaying] = useState<Playing>(null);
+  const [failed, setFailed] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const local = loadPrefs();
     setPrefs(local);
-    const savedAge = window.localStorage.getItem(AGE_KEY);
-    if (savedAge && AGE_BANDS.some((band) => band.value === savedAge)) {
-      setAgeBand(savedAge as AgeBand);
-    }
+    const savedAge = loadAgeBand();
+    if (savedAge) setAgeBand(savedAge);
     // 公开资料读取对匿名访客返回空状态，不让“不登录也能听”产生报错噪音。
     void fetch("/api/account/profile", { cache: "no-store" })
       .then((response) => response.json())
@@ -78,7 +81,7 @@ export default function Home() {
         }
         if (!profile?.ageBand) return;
         setAgeBand(profile.ageBand);
-        window.localStorage.setItem(AGE_KEY, profile.ageBand);
+        saveAgeBand(profile.ageBand);
       })
       .catch(() => {});
 
@@ -115,13 +118,43 @@ export default function Home() {
 
   function chooseAge(value: AgeBand) {
     setAgeBand(value);
-    window.localStorage.setItem(AGE_KEY, value);
+    saveAgeBand(value);
     if (!signedIn) return;
     void fetch("/api/account/profile", {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ ageBand: value }),
     }).catch(() => {});
+  }
+
+  const latestPiecesRef = useRef<Piece[]>([]);
+  latestPiecesRef.current = latestPieces;
+
+  function startAudio(piece: Piece, language: "zh" | "en") {
+    // 全程复用同一个元素：iOS 锁屏后只允许已被点击播放过的元素换 src 续播。
+    const audio = audioRef.current ?? new Audio();
+    audioRef.current = audio;
+    const folder = language === "en" ? `${piece.slug}-en` : piece.slug;
+    setFailed(null);
+    setPlaying({ slug: piece.slug, language });
+    audio.onended = () => {
+      // 中文稿听完接着播节目单里的下一篇，到当天最后一篇为止。
+      const list = latestPiecesRef.current;
+      const next = language === "zh" ? list[list.findIndex((p) => p.slug === piece.slug) + 1] : undefined;
+      if (next) startAudio(next, "zh");
+      else setPlaying(null);
+    };
+    audio.onerror = () => {
+      setPlaying(null);
+      setFailed(piece.slug);
+    };
+    audio.src = audioUrl(folder);
+    void audio.play().catch((error: unknown) => {
+      // AbortError 只是被下一次点击打断
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      setPlaying(null);
+      setFailed(piece.slug);
+    });
   }
 
   function toggleAudio(piece: Piece, language: "zh" | "en" = "zh") {
@@ -131,16 +164,18 @@ export default function Home() {
       setPlaying(null);
       return;
     }
+    startAudio(piece, language);
+  }
 
+  // 进入第一篇的阅读页并从头连续播放；阅读页有逐句高亮、进度和锁屏控制。
+  function playAll() {
+    const first = latestPieces[0];
+    if (!first) return;
     audioRef.current?.pause();
-    const folder = language === "en" ? `${piece.slug}-en` : piece.slug;
-    const audio = new Audio(audioUrl(folder));
-    audioRef.current = audio;
-    audio.addEventListener("ended", () => setPlaying(null), { once: true });
-    audio.addEventListener("error", () => setPlaying(null), { once: true });
-    void audio.play().then(() => setPlaying({ slug: piece.slug, language })).catch(() => {
-      setPlaying(null);
-    });
+    setPlaying(null);
+    const male = !first.en && loadPrefs().voiceGender === "m";
+    primeAudio(male ? `${first.slug}-m` : first.slug);
+    router.push(`/listen/${first.slug}`);
   }
 
   if (!latestIssue) return null;
@@ -198,13 +233,23 @@ export default function Home() {
           <h2 id="latest-heading" className="font-serif text-xl tracking-wide sm:text-2xl">
             今天，编辑部为你选了 {latestPieces.length} 篇
           </h2>
-          <p className="hidden shrink-0 text-xs text-ink-faint sm:block">
-            约 {latestPieces.reduce((sum, piece) => sum + listenMinutes(piece), 0)} 分钟
-          </p>
         </div>
         <p className="-mt-4 mb-5 text-xs text-ink-faint">
           当前节目单适合 {AGE_BANDS.find((band) => band.value === ageBand)?.label}，切换年龄会即时调整
         </p>
+        {latestPieces.length > 0 && (
+          <button
+            type="button"
+            onClick={playAll}
+            className="mb-2 inline-flex min-h-12 items-center gap-2.5 rounded-full bg-ink px-5 text-sm text-paper transition active:scale-[0.98]"
+          >
+            <Queue aria-hidden size={18} weight="fill" />
+            从第一篇连续播放
+            <span className="text-paper/70">
+              约 {latestPieces.reduce((sum, piece) => sum + listenMinutes(piece), 0)} 分钟
+            </span>
+          </button>
+        )}
 
         <ol>
           {latestPieces.map((piece, index) => (
@@ -213,6 +258,7 @@ export default function Home() {
               piece={piece}
               index={index}
               playing={playing?.slug === piece.slug && playing.language === "zh"}
+              failed={failed === piece.slug}
               onPlay={() => toggleAudio(piece)}
             />
           ))}
@@ -335,11 +381,13 @@ function IssueRow({
   piece,
   index,
   playing,
+  failed,
   onPlay,
 }: {
   piece: Piece;
   index: number;
   playing: boolean;
+  failed: boolean;
   onPlay: () => void;
 }) {
   const image = editorialImageFor(piece);
@@ -366,6 +414,11 @@ function IssueRow({
             {piece.en ? "　中英双语" : ""}
           </p>
         </Link>
+        {failed && (
+          <p role="status" className="mt-2 text-xs text-rose-deep">
+            音频没有加载出来，检查网络后再试一次
+          </p>
+        )}
       </div>
       <PlayButton label={`${playing ? "暂停" : "播放"}：${piece.title}`} playing={playing} onClick={onPlay} />
     </li>
