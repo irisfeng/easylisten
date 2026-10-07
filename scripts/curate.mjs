@@ -29,6 +29,7 @@ import {
   selectPublishableEntries,
 } from "./lib/curation-policy.mjs";
 import { fetchFullText } from "./lib/full-text.mjs";
+import { duplicateSlugs, uniquePieceSlug } from "./lib/piece-slug.mjs";
 import {
   buildEvidenceBlocks,
   findPublishedAuditLanguage,
@@ -223,6 +224,22 @@ const today =
 // 编排规则:连续 3 天缺席的领域提权,先从近三期日刊统计覆盖情况
 const existing = existsSync(DAILY) ? JSON.parse(readFileSync(DAILY, "utf8")) : [];
 const existingToday = existing.filter((piece) => piece.publishedAt === today);
+// slug 是阅读页地址和音频目录名。同日重跑会替换当天旧刊，所以只有补刊时
+// 才把今天已有的稿件算作占用。
+const takenSlugs = new Set(
+  [
+    ...existing.filter((piece) => IS_SUPPLEMENT || piece.publishedAt !== today),
+    ...JSON.parse(readFileSync(resolve(ROOT, "content/seeds.json"), "utf8")),
+  ].map((piece) => piece.slug),
+);
+function claimSlug(candidate) {
+  const slug = uniquePieceSlug(
+    { date: today, title: candidate.title, url: candidate.link },
+    takenSlugs,
+  );
+  takenSlugs.add(slug);
+  return slug;
+}
 if (IS_SUPPLEMENT && existingToday.length === 0) {
   throw new Error(`${today} 尚无已发日刊，不能执行补刊`);
 }
@@ -585,7 +602,7 @@ for (const pick of regularPicks) {
     script.title = await reviewTitle(script, c);
 
     const piece = {
-      slug: `${today}-${slugify(c.title)}`,
+      slug: claimSlug(c),
       editorialPolicyVersion: EDITORIAL_POLICY.version,
       title: script.title,
       category: pick.category,
@@ -714,7 +731,7 @@ if (deepValid) {
         script.paragraphs = factChecked.script.paragraphs;
         script.title = await reviewTitle(script, c);
         pieces.push({
-          slug: `${today}-${slugify(c.title)}`,
+          slug: claimSlug(c),
           editorialPolicyVersion: EDITORIAL_POLICY.version,
           title: script.title,
           category: ALL_CATS.includes(deep.category) ? deep.category : "humanities",
@@ -745,11 +762,6 @@ if (deepValid) {
   } catch (e) {
     console.log(`深读放弃(失败): ${c.title} — ${e.message}`);
   }
-}
-
-function slugify(s) {
-  const ascii = s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
-  return ascii || Math.random().toString(36).slice(2, 8);
 }
 
 // 每天精选 1-2 篇中英双语：英文是基于同一完整原文的独立听稿，并接受与
@@ -867,6 +879,10 @@ if (leakedAuditPieces.length) {
   throw new Error(
     `每日发布契约未满足：正式听稿含内部审稿话术\n- ${leakedAuditPieces.join("\n- ")}`,
   );
+}
+const repeatedSlugs = duplicateSlugs(merged);
+if (repeatedSlugs.length) {
+  throw new Error(`每日发布契约未满足：slug 重复 ${repeatedSlugs.join("、")}`);
 }
 writeFileSync(DAILY, JSON.stringify(merged, null, 2));
 console.log(`daily.json now has ${merged.length} pieces`);
