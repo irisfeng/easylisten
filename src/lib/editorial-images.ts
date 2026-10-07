@@ -32,6 +32,6 @@ const STORY_IMAGES: Record<string, EditorialImage> = {
   },
 };
 
-export function editorialImageFor(piece: Piece): EditorialImage | undefined {
+export function editorialImageFor(piece: Pick<Piece, "slug" | "image">): EditorialImage | undefined {
   return piece.image ?? STORY_IMAGES[piece.slug];
 }

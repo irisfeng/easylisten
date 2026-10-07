@@ -1,4 +1,5 @@
-import type { Piece } from "./content";
+import type { Piece, PieceSummary } from "./content";
+import { listenMinutes } from "./content";
 import daily from "../../content/daily.json";
 import seeds from "../../content/seeds.json";
 import editorialJson from "../../content/editorial.json";
@@ -26,6 +27,23 @@ export const EDITORIAL: EditorialNote[] = editorialJson as EditorialNote[];
 
 /** 最新一期的主编的话(没有出刊过则为空)。 */
 export const LATEST_NOTE: EditorialNote | undefined = EDITORIAL[0];
+
+/** 英文稿按 145 词/分钟估算时长。 */
+function englishMinutes(en: NonNullable<Piece["en"]>): number {
+  const words = `${en.intro} ${en.paragraphs.join(" ")}`.trim().split(/\s+/).length;
+  return Math.max(1, Math.round(words / 145));
+}
+
+export function summarize(piece: Piece): PieceSummary {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { paragraphs, en, source, ...rest } = piece;
+  return {
+    ...rest,
+    minutes: listenMinutes(piece),
+    source: source && { name: source.name, url: source.url, originalTitle: source.originalTitle },
+    en: en && { title: en.title, intro: en.intro, minutes: englishMinutes(en) },
+  };
+}
 
 export function pieceBySlug(slug: string): Piece | undefined {
   return PIECES.find((p) => p.slug === slug);

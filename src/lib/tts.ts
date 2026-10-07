@@ -29,6 +29,14 @@ export interface SpeechEngine {
   onSentence(cb: (index: number) => void): void;
   /** 全部读完时触发。 */
   onDone(cb: () => void): void;
+  /** 接管已在播放本音轨的音频(连续播放切到下一篇时)；接管成功返回 true。 */
+  attach?(): boolean;
+  /** 播放被外部暂停或恢复(来电、控制中心、自动播放被拦)时触发。 */
+  onPlayState?(cb: (playing: boolean) => void): void;
+  /** 网络缓冲开始/结束时触发。 */
+  onBuffering?(cb: (buffering: boolean) => void): void;
+  /** 音频加载或播放失败时触发。 */
+  onProblem?(cb: () => void): void;
 }
 
 /** 把段落切成朗读单位的句子,保留结尾标点。与 scripts/synthesize.mjs 保持一致。 */
@@ -37,6 +45,48 @@ export { splitSentences } from "./speech-text.js";
 /* ------------------------------------------------------------------ */
 /* 整篇单文件引擎:连续媒体流用于 iOS 锁屏/后台，时间轴驱动高亮与点句          */
 /* ------------------------------------------------------------------ */
+
+// 全站只用这一个 audio 元素。iOS 在后台/锁屏时会拒绝"没有用户手势加持的
+// 新元素"调 play()，但允许已被点击播放过的元素换 src 续播——连续播放下一篇
+// 靠的就是这一点，所以切换文章时元素不能销毁重建。
+let sharedAudio: HTMLAudioElement | null = null;
+
+function getSharedAudio(): HTMLAudioElement {
+  if (!sharedAudio) {
+    const audio = new Audio();
+    audio.preload = "auto";
+    audio.setAttribute("playsinline", "");
+    audio.setAttribute("data-easylisten-audio", "");
+    audio.hidden = true;
+    // 挂到文档中，让 Safari/WKWebView 稳定地把它登记为页面的主媒体元素。
+    // 未入 DOM 的音频在部分微信 WebView 中不会进入锁屏控制器。
+    document.body.append(audio);
+    sharedAudio = audio;
+  }
+  return sharedAudio;
+}
+
+function loadUnit(unit: string): HTMLAudioElement {
+  const audio = getSharedAudio();
+  if (audio.dataset.unit !== unit) {
+    audio.dataset.unit = unit;
+    audio.src = audioUrl(unit);
+    audio.load();
+  }
+  return audio;
+}
+
+/**
+ * 立刻开始播放某条音轨，之后再跳转到它的阅读页，由那里的引擎 attach() 接管。
+ * 必须在用户手势或上一篇的 ended 回调里同步调用：等页面跳转完成再 play()
+ * 已经脱离手势，锁屏时页面还可能在跳转途中被系统挂起。
+ */
+export function primeAudio(unit: string) {
+  if (typeof window === "undefined" || typeof Audio === "undefined") return;
+  const audio = loadUnit(unit);
+  if (audio.currentTime > 0) audio.currentTime = 0;
+  void audio.play().catch(() => {});
+}
 
 class FullAudioEngine implements SpeechEngine {
   private audio: HTMLAudioElement | null = null;
@@ -49,6 +99,9 @@ class FullAudioEngine implements SpeechEngine {
   private pendingSeek: number | null = null;
   private sentenceCb: (i: number) => void = () => {};
   private doneCb: () => void = () => {};
+  private playStateCb: (playing: boolean) => void = () => {};
+  private bufferingCb: (buffering: boolean) => void = () => {};
+  private problemCb: () => void = () => {};
 
   constructor(
     private slug: string,
@@ -65,21 +118,77 @@ class FullAudioEngine implements SpeechEngine {
     return available;
   }
 
+  /** 共享元素此刻是否还属于本音轨(下一篇接手后就不再是)。 */
+  private owns(audio: HTMLAudioElement) {
+    return audio.dataset.unit === this.slug;
+  }
+
   private ensureElement(): HTMLAudioElement {
-    if (!this.audio) {
-      const audio = new Audio(audioUrl(this.slug));
-      audio.preload = "auto";
-      audio.setAttribute("playsinline", "");
-      audio.setAttribute("data-easylisten-audio", "");
-      audio.hidden = true;
-      // 挂到文档中，让 Safari/WKWebView 稳定地把它登记为页面的主媒体元素。
-      // 仅保留 JS 创建但未入 DOM 的短音频，在部分微信 WebView 中不会进入锁屏控制器。
-      document.body.append(audio);
-      audio.addEventListener("timeupdate", this.sync);
-      audio.load();
+    const audio = loadUnit(this.slug);
+    if (this.audio !== audio) {
       this.audio = audio;
+      audio.addEventListener("timeupdate", this.sync);
+      audio.addEventListener("play", this.onPlay);
+      audio.addEventListener("pause", this.onPause);
+      audio.addEventListener("waiting", this.onWaiting);
+      audio.addEventListener("playing", this.onPlaying);
+      audio.addEventListener("error", this.onError);
+      audio.onended = () => {
+        if (this.stopped) return;
+        cancelAnimationFrame(this.raf);
+        this.doneCb();
+      };
     }
-    return this.audio;
+    this.applyRate(audio);
+    return audio;
+  }
+
+  private applyRate(audio: HTMLAudioElement) {
+    // 换 src 会把 playbackRate 重置为 defaultPlaybackRate，两个都要设。
+    audio.defaultPlaybackRate = this.rate;
+    audio.playbackRate = this.rate;
+  }
+
+  private onPlay = () => {
+    if (!this.stopped) this.playStateCb(true);
+  };
+
+  // 来电、拔耳机、系统控制中心都会直接暂停元素，界面要跟着变。
+  private onPause = () => {
+    if (this.stopped || !this.audio || !this.owns(this.audio) || this.audio.ended) return;
+    cancelAnimationFrame(this.raf);
+    this.playStateCb(false);
+  };
+
+  private onWaiting = () => {
+    if (!this.stopped) this.bufferingCb(true);
+  };
+
+  private onPlaying = () => {
+    if (this.stopped) return;
+    this.bufferingCb(false);
+    cancelAnimationFrame(this.raf);
+    this.raf = requestAnimationFrame(this.loop);
+  };
+
+  private onError = () => {
+    if (this.stopped || !this.audio || !this.owns(this.audio)) return;
+    this.bufferingCb(false);
+    this.problemCb();
+  };
+
+  private play(audio: HTMLAudioElement) {
+    if (audio.readyState < 3) this.bufferingCb(true);
+    void audio.play().catch((error: unknown) => {
+      if (this.stopped) return;
+      const name = error instanceof DOMException ? error.name : "";
+      // AbortError 只是被后一次 seek/换源打断，不是故障。
+      if (name === "AbortError") return;
+      this.bufferingCb(false);
+      // NotAllowedError 是浏览器拦下了自动播放，等用户自己点播放即可。
+      if (name === "NotAllowedError") this.playStateCb(false);
+      else this.problemCb();
+    });
   }
 
   private indexAt(time: number): number {
@@ -94,7 +203,7 @@ class FullAudioEngine implements SpeechEngine {
   }
 
   private sync = () => {
-    if (this.stopped || !this.audio || this.pendingSeek !== null) return;
+    if (this.stopped || !this.audio || !this.owns(this.audio) || this.pendingSeek !== null) return;
     const next = this.indexAt(this.audio.currentTime);
     if (next !== this.index) {
       this.index = next;
@@ -108,6 +217,18 @@ class FullAudioEngine implements SpeechEngine {
     this.raf = requestAnimationFrame(this.loop);
   };
 
+  attach() {
+    if (typeof window === "undefined" || !sharedAudio) return false;
+    if (!this.owns(sharedAudio) || sharedAudio.paused || sharedAudio.ended) return false;
+    const audio = this.ensureElement();
+    this.stopped = false;
+    this.sync();
+    cancelAnimationFrame(this.raf);
+    this.raf = requestAnimationFrame(this.loop);
+    if (audio.readyState < 3) this.bufferingCb(true);
+    return true;
+  }
+
   speak(sentences: string[], startIndex: number) {
     const audio = this.ensureElement();
     this.stopped = false;
@@ -119,32 +240,21 @@ class FullAudioEngine implements SpeechEngine {
     this.sentenceCb(index);
     this.pendingSeek = this.starts[index] + 0.001;
 
-    audio.onended = () => {
-      if (!this.stopped) {
-        cancelAnimationFrame(this.raf);
-        this.doneCb();
-      }
-    };
-
     const seekAndTrack = () => {
       if (this.pendingSeek === null) return;
       audio.onloadedmetadata = null;
       audio.currentTime = this.pendingSeek;
       this.pendingSeek = null;
-      audio.playbackRate = this.rate;
+      this.applyRate(audio);
       this.sync();
       cancelAnimationFrame(this.raf);
       this.raf = requestAnimationFrame(this.loop);
     };
 
-    if (audio.readyState >= 1) {
-      seekAndTrack();
-      void audio.play().catch(() => {});
-    } else {
-      audio.onloadedmetadata = seekAndTrack;
-      // iOS 首次播放必须发生在当前用户手势里；元数据到达后只负责 seek。
-      void audio.play().catch(() => {});
-    }
+    if (audio.readyState >= 1) seekAndTrack();
+    else audio.onloadedmetadata = seekAndTrack;
+    // iOS 首次播放必须发生在当前用户手势里；元数据到达后只负责 seek。
+    this.play(audio);
   }
 
   pause() {
@@ -153,7 +263,8 @@ class FullAudioEngine implements SpeechEngine {
   }
 
   resume() {
-    void this.audio?.play().catch(() => {});
+    if (!this.audio) return;
+    this.play(this.audio);
     cancelAnimationFrame(this.raf);
     this.raf = requestAnimationFrame(this.loop);
   }
@@ -162,20 +273,24 @@ class FullAudioEngine implements SpeechEngine {
     this.stopped = true;
     this.pendingSeek = null;
     cancelAnimationFrame(this.raf);
-    if (this.audio) {
-      this.audio.onended = null;
-      this.audio.onloadedmetadata = null;
-      this.audio.removeEventListener("timeupdate", this.sync);
-      this.audio.pause();
-      this.audio.removeAttribute("src");
-      this.audio.remove();
-      this.audio = null;
-    }
+    const audio = this.audio;
+    if (!audio) return;
+    audio.removeEventListener("timeupdate", this.sync);
+    audio.removeEventListener("play", this.onPlay);
+    audio.removeEventListener("pause", this.onPause);
+    audio.removeEventListener("waiting", this.onWaiting);
+    audio.removeEventListener("playing", this.onPlaying);
+    audio.removeEventListener("error", this.onError);
+    audio.onended = null;
+    audio.onloadedmetadata = null;
+    // 下一篇已经接手共享元素时不能把它也停掉。
+    if (this.owns(audio)) audio.pause();
+    this.audio = null;
   }
 
   setRate(rate: number) {
     this.rate = rate;
-    if (this.audio) this.audio.playbackRate = rate;
+    if (this.audio) this.applyRate(this.audio);
   }
 
   onSentence(cb: (i: number) => void) {
@@ -184,6 +299,18 @@ class FullAudioEngine implements SpeechEngine {
 
   onDone(cb: () => void) {
     this.doneCb = cb;
+  }
+
+  onPlayState(cb: (playing: boolean) => void) {
+    this.playStateCb = cb;
+  }
+
+  onBuffering(cb: (buffering: boolean) => void) {
+    this.bufferingCb = cb;
+  }
+
+  onProblem(cb: () => void) {
+    this.problemCb = cb;
   }
 }
 
