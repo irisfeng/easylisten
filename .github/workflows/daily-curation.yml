@@ -174,6 +174,17 @@ jobs:
           echo "音频仍不完整；已保存可续跑快照，等待自动恢复任务只补缺轨"
           exit 1
 
+      # 必须排在提交之前：上传失败就停止发布，manifest 不会指向对象存储里
+      # 不存在的音频。未配置 AUDIO_S3_BUCKET 时脚本直接跳过。
+      - name: 上传音频到对象存储
+        if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
+        env:
+          AUDIO_S3_BUCKET: ${{ vars.AUDIO_S3_BUCKET }}
+          AUDIO_S3_ENDPOINT: ${{ vars.AUDIO_S3_ENDPOINT }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AUDIO_S3_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AUDIO_S3_SECRET_ACCESS_KEY }}
+        run: bash scripts/upload-audio.sh
+
       - name: 提交今日日刊
         if: inputs.repair_audio_slug != '' || steps.cost_guard.outputs.should_run == 'true'
         env:

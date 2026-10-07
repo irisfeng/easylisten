@@ -22,6 +22,7 @@ import {
   type CategoryId,
   type Piece,
 } from "@/lib/content";
+import { audioUrl } from "@/lib/audio-url";
 import { editorialImageFor } from "@/lib/editorial-images";
 import {
   EVERGREEN_PIECES,
@@ -133,7 +134,7 @@ export default function Home() {
 
     audioRef.current?.pause();
     const folder = language === "en" ? `${piece.slug}-en` : piece.slug;
-    const audio = new Audio(`/audio/${folder}/full.mp3`);
+    const audio = new Audio(audioUrl(folder));
     audioRef.current = audio;
     audio.addEventListener("ended", () => setPlaying(null), { once: true });
     audio.addEventListener("error", () => setPlaying(null), { once: true });

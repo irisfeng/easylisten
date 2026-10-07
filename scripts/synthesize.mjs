@@ -1,6 +1,9 @@
 /**
  * 预生成神经语音:为每篇没有音频的听稿逐句合成 MP3,
- * 写入 public/audio/<slug>/<句序>.mp3,并更新 public/audio/manifest.json。
+ * 写入 public/audio/<slug>/<句序>.mp3,拼接成 full.mp3,并更新
+ * public/audio/manifest.json。逐句文件只是拼接用的中间产物；full.mp3 由
+ * scripts/upload-audio.sh 上传到对象存储，仓库只保存 manifest
+ * (见 docs/audio-storage.md)。
  *
  * 正式工作流按产品音频契约生成音轨：纯中文稿为 MiniMax 男女双声；
  * 中英双语稿为 MiniMax 中文女声与 Edge 英文女声；恢复任务可在 Edge
@@ -50,6 +53,7 @@ import {
   audioPlanForPiece,
   latestIssuePieces,
 } from "./lib/audio-policy.mjs";
+import { publishedUnitStatus } from "./lib/audio-publication.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const AUDIO_DIR = resolve(ROOT, "public/audio");
@@ -266,7 +270,12 @@ function voiceForUnit(unit) {
   if (unit.endsWith("-m")) return { engine: "minimax", voice: MM_MALE };
   // 基础中文单元固定 MiniMax 女声；存在 -m 兄弟目录的是双声篇。
   // 判断不能依赖本机是否配置 key，否则修复旧音频时会悄悄换回 Edge 音色。
-  if (miniMaxFemaleUnits.has(unit) || existsSync(resolve(AUDIO_DIR, `${unit}-m`))) {
+  // 音频迁出仓库后工作区不再有往期目录，兄弟音轨以 manifest 为准。
+  if (
+    miniMaxFemaleUnits.has(unit) ||
+    manifest.slugs.includes(`${unit}-m`) ||
+    existsSync(resolve(AUDIO_DIR, `${unit}-m`))
+  ) {
     return { engine: "minimax", voice: MM_FEMALE };
   }
   return { engine: "edge", voice: VOICE };
@@ -756,9 +765,25 @@ if (MM_KEY) {
 
 // 发布闸门：本轮要求生成/续传的每个音频单元，都必须具备完整句文件、
 // full.mp3 和逐句时间轴。任何半成品都让工作流失败，禁止再以绿色状态提交。
+//
+// 音频迁出 git 后，此前已发布的音轨只存在于对象存储，工作区没有它的目录。
+// 这类音轨以 manifest 的时间轴为准，不能因为本地没有文件就判为半成品。
 for (const [unit, paragraphs] of requiredUnits) {
   const expectedCount = splitSentences(paragraphs).length;
   const dir = resolve(AUDIO_DIR, unit);
+  const status = publishedUnitStatus({
+    manifest,
+    unit,
+    expectedSentences: expectedCount,
+    hasLocalFiles: existsSync(dir) && readdirSync(dir).some((file) => file.endsWith(".mp3")),
+  });
+  if (status === "published") continue;
+  if (status === "drifted") {
+    synthesisFailures.push(
+      `${unit}: 正文句数已变而工作区没有旧音轨，请用「已审核稿件音频修复」强制重做`,
+    );
+    continue;
+  }
   const missing = [];
   for (let i = 0; i < expectedCount; i++) {
     const file = resolve(dir, `${i}.mp3`);

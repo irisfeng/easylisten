@@ -2,14 +2,17 @@
  * 可插拔的朗读引擎,按句朗读并逐句回调,播放器据此高亮当前句。
  *
  * 两个实现,按有无预生成音频自动选择:
- * - AudioEngine:播放管线预生成的神经语音(public/audio/<slug>/<句序>.mp3,
- *   由 scripts/synthesize.mjs 产出),音质与设备无关。
+ * - FullAudioEngine:播放管线预生成的整篇神经语音(<音频根>/<slug>/full.mp3,
+ *   由 scripts/synthesize.mjs 产出),句级高亮与点句靠 manifest 里的时间轴。
+ *   音频根地址见 src/lib/audio-url.ts。
  * - WebSpeechEngine:浏览器内置语音,作为无音频时的兜底;按质量启发式
  *   自动挑选设备上最好的中文音色,也支持手动切换。
  *
  * 接入 VoxCPM 等自建 TTS 时,只需新增一个实现同接口的引擎(或让管线
- * 换用 VoxCPM 合成,AudioEngine 无需改动)。
+ * 换用 VoxCPM 合成,FullAudioEngine 无需改动)。
  */
+
+import { audioUrl } from "./audio-url";
 
 export interface SpeechEngine {
   /** 是否在当前环境可用。 */
@@ -64,7 +67,7 @@ class FullAudioEngine implements SpeechEngine {
 
   private ensureElement(): HTMLAudioElement {
     if (!this.audio) {
-      const audio = new Audio(`/audio/${this.slug}/full.mp3`);
+      const audio = new Audio(audioUrl(this.slug));
       audio.preload = "auto";
       audio.setAttribute("playsinline", "");
       audio.setAttribute("data-easylisten-audio", "");
@@ -172,117 +175,6 @@ class FullAudioEngine implements SpeechEngine {
 
   setRate(rate: number) {
     this.rate = rate;
-    if (this.audio) this.audio.playbackRate = rate;
-  }
-
-  onSentence(cb: (i: number) => void) {
-    this.sentenceCb = cb;
-  }
-
-  onDone(cb: () => void) {
-    this.doneCb = cb;
-  }
-}
-
-/* ------------------------------------------------------------------ */
-/* 逐句音频引擎:仅兼容没有整篇时间轴的旧内容                              */
-/* ------------------------------------------------------------------ */
-
-class AudioEngine implements SpeechEngine {
-  // 关键:全程复用同一个 audio 元素。iOS 在后台/锁屏时会拒绝"没有用户
-  // 手势加持的新元素"调 play(),但允许已被点击播放过的元素在 ended 回调里
-  // 换 src 续播——每句新建元素会导致锁屏后播完当前句就停。
-  private audio: HTMLAudioElement | null = null;
-  private preloader: HTMLAudioElement | null = null;
-  private total = 0;
-  private rate = 1;
-  private stopped = false;
-  private sentenceCb: (i: number) => void = () => {};
-  private doneCb: () => void = () => {};
-
-  constructor(private slug: string) {}
-
-  isAvailable() {
-    return typeof window !== "undefined" && typeof Audio !== "undefined";
-  }
-
-  private url(i: number) {
-    return `/audio/${this.slug}/${i}.mp3`;
-  }
-
-  private ensureElement(): HTMLAudioElement {
-    if (!this.audio) {
-      this.audio = new Audio();
-      this.audio.preload = "auto";
-      // iOS 上避免劫持成全屏播放
-      this.audio.setAttribute("playsinline", "");
-    }
-    return this.audio;
-  }
-
-  private playFrom(i: number) {
-    if (this.stopped) return;
-    if (i >= this.total) {
-      this.doneCb();
-      return;
-    }
-    this.sentenceCb(i);
-    const audio = this.ensureElement();
-    audio.onended = () => {
-      if (!this.stopped) this.playFrom(i + 1);
-    };
-    // 单句文件缺失或损坏时跳到下一句,不中断整篇
-    audio.onerror = () => {
-      if (!this.stopped) this.playFrom(i + 1);
-    };
-    // 部分浏览器换 src 后会重置播放速率,载入元数据后再钉一次
-    audio.onloadedmetadata = () => {
-      audio.playbackRate = this.rate;
-    };
-    audio.src = this.url(i);
-    audio.playbackRate = this.rate;
-    void audio.play().catch(() => {});
-    // 预取下一句,消除句间加载间隙(只热 HTTP 缓存,不参与播放)
-    if (i + 1 < this.total) {
-      if (!this.preloader) {
-        this.preloader = new Audio();
-        this.preloader.preload = "auto";
-      }
-      this.preloader.src = this.url(i + 1);
-    }
-  }
-
-  speak(sentences: string[], startIndex: number) {
-    this.stopped = true;
-    this.audio?.pause();
-    this.stopped = false;
-    this.total = sentences.length;
-    this.playFrom(startIndex);
-  }
-
-  pause() {
-    this.audio?.pause();
-  }
-
-  resume() {
-    void this.audio?.play().catch(() => {});
-  }
-
-  stop() {
-    this.stopped = true;
-    if (this.audio) {
-      this.audio.onended = null;
-      this.audio.onerror = null;
-      this.audio.onloadedmetadata = null;
-      this.audio.pause();
-      this.audio.removeAttribute("src");
-      this.audio = null;
-    }
-  }
-
-  setRate(rate: number) {
-    this.rate = rate;
-    // 音频变速即时生效,无需重播
     if (this.audio) this.audio.playbackRate = rate;
   }
 
@@ -431,6 +323,5 @@ export function createSpeechEngine(options: {
   if (options.hasAudio && options.timings && options.timings.length > 1) {
     return new FullAudioEngine(options.slug, options.timings);
   }
-  if (options.hasAudio) return new AudioEngine(options.slug);
   return new WebSpeechEngine(options.voiceURI);
 }
