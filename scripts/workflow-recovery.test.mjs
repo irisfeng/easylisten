@@ -102,3 +102,21 @@ test("已审核稿件修复任务支持只重做指定音轨", async () => {
   assert.match(workflow, /units:/);
   assert.match(workflow, /TARGET_AUDIO_UNITS: \$\{\{ inputs\.units \}\}/);
 });
+
+test("所有会提交 manifest 的任务都先把音频上传到对象存储", async () => {
+  const workflows = await Promise.all(
+    [
+      dailyWorkflowUrl,
+      recoveryWorkflowUrl,
+      repairWorkflowUrl,
+      new URL("../.github/workflows/synthesize-audio.yml", import.meta.url),
+    ].map((url) => readFile(url, "utf8")),
+  );
+  for (const workflow of workflows) {
+    const upload = workflow.indexOf("bash scripts/upload-audio.sh");
+    const commit = workflow.indexOf("git add ");
+    assert.ok(upload >= 0, "缺少上传步骤");
+    assert.ok(upload < commit, "必须先上传音频，再提交指向它的 manifest");
+    assert.match(workflow, /AUDIO_S3_BUCKET: \$\{\{ vars\.AUDIO_S3_BUCKET \}\}/);
+  }
+});

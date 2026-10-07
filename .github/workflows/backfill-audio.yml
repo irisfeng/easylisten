@@ -1,0 +1,47 @@
+name: 回填音频到对象存储
+
+# 一次性迁移：把仓库里现有的全部 full.mp3 上传到对象存储，再逐条核对公开地址
+# 可取。核对通过之后才能把音频移出仓库，步骤见 docs/audio-storage.md。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: backfill-audio
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 确认已配置对象存储
+        env:
+          AUDIO_S3_BUCKET: ${{ vars.AUDIO_S3_BUCKET }}
+          AUDIO_PUBLIC_BASE_URL: ${{ vars.AUDIO_PUBLIC_BASE_URL }}
+        run: |
+          test -n "$AUDIO_S3_BUCKET" || { echo "缺少仓库变量 AUDIO_S3_BUCKET"; exit 1; }
+          test -n "$AUDIO_PUBLIC_BASE_URL" || { echo "缺少仓库变量 AUDIO_PUBLIC_BASE_URL"; exit 1; }
+
+      - name: 上传全部音轨
+        env:
+          AUDIO_S3_BUCKET: ${{ vars.AUDIO_S3_BUCKET }}
+          AUDIO_S3_ENDPOINT: ${{ vars.AUDIO_S3_ENDPOINT }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AUDIO_S3_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AUDIO_S3_SECRET_ACCESS_KEY }}
+        run: bash scripts/upload-audio.sh --all
+
+      - name: 逐条核对公开地址
+        env:
+          AUDIO_PUBLIC_BASE_URL: ${{ vars.AUDIO_PUBLIC_BASE_URL }}
+        run: node scripts/verify-audio.mjs
