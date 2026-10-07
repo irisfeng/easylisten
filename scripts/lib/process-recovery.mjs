@@ -1,3 +1,18 @@
+/**
+ * synthesize.mjs 以这个退出码表示"重试也没用"的失败(例如 TTS 账户余额不足)。
+ * 外层重试脚本看到它就立刻停止，不再空等几轮。
+ */
+export const NON_RETRYABLE_EXIT_CODE = 3;
+
+/** 把 MiniMax 的业务错误码归类；它用 HTTP 200 + base_resp 表示失败。 */
+export function miniMaxFailureKind(baseResp) {
+  if (baseResp?.status_code === 1008) return "account-blocked";
+  if (baseResp?.status_code === 1002 && /rate limit/i.test(baseResp?.status_msg ?? "")) {
+    return "rate-limited";
+  }
+  return "other";
+}
+
 const DEFAULT_ATTEMPTS = 4;
 const DEFAULT_DELAYS_MS = [60_000, 180_000, 600_000];
 

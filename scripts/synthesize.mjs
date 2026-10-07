@@ -16,6 +16,7 @@
  */
 
 import {
+  appendFileSync,
   readFileSync,
   writeFileSync,
   copyFileSync,
@@ -38,6 +39,7 @@ import {
   splitSentences,
 } from "../src/lib/speech-text.js";
 import { synthesizeWithRetries } from "./lib/tts-recovery.mjs";
+import { NON_RETRYABLE_EXIT_CODE, miniMaxFailureKind } from "./lib/process-recovery.mjs";
 import {
   miniMaxBillingChars,
   miniMaxCharsForTracks,
@@ -104,6 +106,9 @@ const MM_MAX_CHARS_PER_RUN = Math.max(
 );
 let mmCharsRequested = 0;
 let mmNextRequestAt = 0;
+// 重试和换型号都救不回来的失败(目前只有账户余额不足)。一旦出现就不再发起
+// 任何付费请求，并让整轮以不可重试的退出码结束。
+let fatalReason = null;
 const MM_GROUP_ID = (() => {
   try {
     const payload = JSON.parse(Buffer.from(MM_KEY.split(".")[1], "base64").toString());
@@ -145,6 +150,7 @@ function budgetedVoiceForUnit(unit, paragraphs, preferredVoice) {
 }
 
 async function synthesizeMiniMaxWith(text, voiceId, model, language = "zh") {
+  if (fatalReason) throw new Error(fatalReason);
   const billedChars = miniMaxBillingChars(text);
   if (mmCharsRequested + billedChars > MM_MAX_CHARS_PER_RUN) {
     throw new Error(
@@ -180,8 +186,13 @@ async function synthesizeMiniMaxWith(text, voiceId, model, language = "zh") {
     );
     // MiniMax 用 HTTP 200 + 业务码 1002 表示 RPM 限流。它不是模型兼容性错误，
     // 不能因此降级型号；否则两个型号会被依次打满，产生一批半成品。
-    error.rateLimited =
-      detail?.status_code === 1002 && /rate limit/i.test(detail?.status_msg ?? "");
+    const kind = miniMaxFailureKind(detail);
+    error.rateLimited = kind === "rate-limited";
+    // 9 月曾因余额耗尽连续九天没有出刊，每天都在逐型号、逐轮地空转重试。
+    if (kind === "account-blocked") {
+      fatalReason = "MiniMax 账户余额不足，充值后重新运行出刊任务";
+      error.fatal = true;
+    }
     throw error;
   }
   return Buffer.from(hex, "hex");
@@ -202,7 +213,7 @@ async function synthesizeMiniMax(text, voiceId, language = "zh") {
           continue;
         }
         // 只有模型本身失败才尝试旧型号；RPM 限流在同一型号上等待重试。
-        if (e.rateLimited || mmModelIdx === MM_MODELS.length - 1) throw e;
+        if (e.rateLimited || e.fatal || fatalReason || mmModelIdx === MM_MODELS.length - 1) throw e;
         console.log(
           `minimax 型号降级 ${MM_MODELS[mmModelIdx]} → ${MM_MODELS[mmModelIdx + 1]}: ${e.message}`,
         );
@@ -797,6 +808,15 @@ for (const [unit, paragraphs] of requiredUnits) {
   if (missing.length) {
     synthesisFailures.push(`${unit}: 不完整 (${missing.slice(0, 8).join(", ")})`);
   }
+}
+
+if (fatalReason) {
+  console.error(`不可重试的失败：${fatalReason}`);
+  // 告警步骤据此写明原因，免得只看到一句笼统的"出刊失败"。
+  if (process.env.GITHUB_ENV) {
+    appendFileSync(process.env.GITHUB_ENV, `FAILURE_REASON=${fatalReason}\n`);
+  }
+  process.exit(NON_RETRYABLE_EXIT_CODE);
 }
 
 if (synthesisFailures.length) {
