@@ -1,5 +1,171 @@
 [
   {
+    "slug": "2026-10-08-a7dee3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "两位科学家因解开分子\"左右手\"之谜获得2026年诺贝尔化学奖",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-08",
+    "intro": "10月7日，2026年诺贝尔化学奖授予法国巴黎南大学的亨利·B·卡甘和日本东京理科大学的硤合宪三，他们的发现让化学反应能够只生成一种\"手性\"的分子。",
+    "paragraphs": [
+      "10月7日，2026年诺贝尔化学奖授予法国巴黎南大学亨利·B·卡甘（Henri B. Kagan）和日本东京理科大学硤合宪三（Kenso Soai），以表彰他们在不对称有机合成中发现非线性效应和自催化现象。瑞典皇家科学院表示，两位得主的发现使化学家得以驱动反应朝单一手性方向进行，打破了此前实验室中始终生成等量镜像分子的僵局。诺贝尔化学委员会主席Heiner Linke评价称，两人“提供了一个逾百年化学谜题的解答，他们所发展的化学反应令人叹为观止”。这一荣誉在制药、香料及农用化学品行业具有直接现实意义。",
+      "为什么非要只做出一种？浙江大学生命科学研究院研究员林世贤说：“常有人说上帝是左撇子，造出来的物种都是有特定手性的。如果手性搞错了的话，是个非常麻烦的事情。”他提到历史上“反应停”药物事件，在欧洲等地造成约一万名四肢严重残缺的海豹肢畸形儿。后来知道，这个药物的两种镜像作用不同，但在体内它们会互相转化，只给其中一种，并不能避免毒性，所以药物分子里面的手性一定要搞得非常清楚。",
+      "清华大学基础分子科学中心主任罗三中指出，卡甘不仅最早观察到非线性效应，还提出了多种解释机制和理论模型，成为后续研究不断修正、演化的起点。硤合宪三发现的Soai反应，则实现了非常卓越的不对称自催化放大。他几乎把能找到的所有手性物质都作为添加剂测试放大效应，从陨石、空气、尘埃，到碳12与碳13之间的微小差异，都能在反应体系中产生显著放大。当然，Soai反应体系非常独特，通常怕空气、怕潮气，与生命环境所要求的常温、常压、空气和水并不完全兼容。因此，寻找更适配生命环境的自催化体系，仍是该领域的重要挑战。",
+      "兰州大学化学化工学院、天然产物化学全国重点实验室教授樊春安介绍，2004年博士毕业后，他于2004年10月加入卡甘课题组，在巴黎第十一大学（现为巴黎萨克雷大学）跟随卡甘进行了为期一年的科研训练。在他印象中，卡甘个子很高，性格内向，几乎每天都穿着西装，是一个理性又儒雅的学者。他对化学研究非常专注。2008年，他们专门邀请卡甘来兰州大学进行学术交流，卡甘连续做了多场学术报告，分享不对称催化、非线性效应、二碘化钐化学等内容。他们还一起吃了很多顿中国菜。他在饮食方面包容度非常高，是一个开放、兼容并蓄的人。今年95岁的他，25年前与诺贝尔奖擦肩而过。",
+      "罗三中还表示，卡甘是一位“谦谦君子”，待人温和，但温和背后是非常坚韧的坚持；硤合宪三与卡甘个性相似：不追求热点，不追求文章数量，几十年如一日在一个方向上深度耕耘。中南大学化学化工学院教授张翼指出，目前比较活跃的方向之一，是AI与手性自催化、手性放大技术的结合。AlphaFold等工具已经广泛应用于生物、化学领域，国内多家课题组也在尝试把AI用于这类反应体系的筛选与设计。这类研究的意义，是借助手性放大效应降低反应对底物手性纯度的要求，简化合成流程、提升效率，让手性催化更接近工业化落地。",
+      "华东师范大学教授姜雪峰表示，目前我国手性化学研究已经走在世界前列，涌现出一大批顶尖学者和落地成果。中国科学院院士周其林已经发展了手性螺旋配体，在不对称氢化反应方面达到了世界领先的水平，很多成果已经工业化。南方科技大学副教授邓敏指出，此次获奖成果对生命起源研究有启示：为什么生命最终选择了左旋氨基酸、右旋糖，而没有选择完全镜像的另一种世界？卡甘的模型和Soai反应的揭示提供了重要线索。甚至进一步说，这有助于人类对外星生命的探索和思考，如果某个环境中分子的手性逐渐放大，是否意味着它正在朝生命演化？手性富集程度或许能成为判断生命存在与演化的工具。"
+    ],
+    "topics": [
+      "物质与数学",
+      "化学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572565.shtm",
+      "originalTitle": "他们提供了一个逾百年化学谜题的解答",
+      "publishedAt": "2026-10-08 07:26",
+      "retrievedAt": "2026-10-08T01:05:19.971Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-08T01:05:07.586Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Century-Old Chemistry Puzzle Gets an Answer",
+      "intro": "Two scientists who studied mirror-image molecules have won the 2026 Nobel Prize in Chemistry.",
+      "paragraphs": [
+        "On October 7, 2026, the Nobel Prize in Chemistry was awarded to Henri B. Kagan of Université Paris-Sud and Kenso Soai of Tokyo University of Science. They were honored for discovering nonlinear effects and autocatalysis in asymmetric organic synthesis. Heiner Linke, Chair of the Nobel Committee for Chemistry, said they 'provided an answer to a chemistry puzzle older than a hundred years'. He called their reactions 'astonishing'. This work has direct relevance to pharmaceuticals, fragrances, and agrochemicals.",
+        "Kagan was the first to observe nonlinear effects. He proposed multiple explanatory mechanisms and theoretical models. Soai discovered the Soai reaction. It achieves remarkable asymmetric autocatalytic amplification. Luo Sanzhong said Soai tested nearly all chiral substances he could find. These included meteorites, air, dust, and the minute difference between carbon-12 and carbon-13. Each produced significant amplification in the reaction. The Soai reaction is very sensitive to air and moisture. It is not compatible with life’s ambient conditions of room temperature, pressure, water, and oxygen.",
+        "Chirality matters critically in medicine. Lin Shixian cited the thalidomide tragedy in Europe. It caused about ten thousand babies to be born with severe limb deformities known as phocomelia. The two mirror-image forms of thalidomide have different biological activities. Inside the body, they interconvert. Giving only one form does not avoid toxicity. Therefore, molecular chirality must be precisely controlled in drug development.",
+        "Chinese research teams are advancing chiral chemistry and asymmetric catalysis. One emerging direction is integrating AI tools into screening and designing chiral autocatalytic systems. Zhang Yi noted this aims to reduce dependence on high enantiopurity of starting materials. It simplifies synthesis and improves industrial feasibility. Jiang Xuefeng stated that China now stands at the forefront of this field. Feng Xiaoming developed nitrogen–oxygen ligands. Ding Kuiling achieved efficient asymmetric hydrogenation of imines. Tang Yong pioneered the 'arm-effect' ligands. You Shuli advanced desymmetrizing dearomatization. Zhang Wanbin deployed chiral catalytic systems industrially. These systems enabled artemisinin synthesis and large-scale menthol production.",
+        "The discoveries relate to the origin of life. Deng Min explained that life on Earth uses left-handed amino acids and right-handed sugars. Kagan’s models and the Soai reaction provide key clues. They show how small initial chiral imbalances could be amplified. Lin Shixian added that such amplification offers a testable pathway for life’s emergence. Chiral enrichment may serve as a detectable signature in the search for extraterrestrial life."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-08T01:11:21.937Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 5,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-08/2026-10-08-a7dee3.webp",
+      "alt": "一对互为镜像的抽象分子结构，冷灰色调，纸张质感。",
+      "caption": "分子的左手与右手，互为镜像。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-08-penguin-poop-is-melting-antarctic-snow",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "企鹅粪便养出的彩色雪藻，让南极积雪融化得更快",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-08",
+    "intro": "南极雪面上的绿色和红色，来自企鹅粪便滋养的雪藻；颜色越深、吸热越多，雪也就化得越快。",
+    "paragraphs": [
+      "南极的雪不只是白的。在企鹅聚居的海岸附近，雪面会泛出一片绿色，有时候还会变成红色。这些颜色不是脏东西，而是一种长在雪里的藻类。研究发现，企鹅粪便（又称‘鸟粪’）是这些雪藻的重要养分来源。企鹅喜欢挤在一起，密密麻麻地蹲在冰面上，粪便就在脚下越堆越多，多到能从卫星照片上认出来。它们摇摇摆摆走动的时候，还会把粪便蹭到别处的雪上。",
+      "这项研究发表在《地球物理研究杂志：生物地球科学》上。为了拿到样本，研究团队穿越风浪很大的德雷克海峡——那是连接大西洋和太平洋的水道——去到西南极半岛，采集那里的雪藻。样本带回来以后，有的偏红，有的偏绿。研究者在实验室里从每一份样本中提取出色素和养分，进行分析。",
+      "差别很清楚。偏绿的样本里磷酸盐更多，而磷酸盐正来自企鹅粪便。有了这份养分，藻类细胞就能装下更多叶绿素，光合作用也随之增强。偏红的样本磷酸盐很少，它们靠红色色素呈现红色。这些红色素像一层防晒霜：当养分不足、藻类进入不活跃状态时，红色素替它们挡住强烈的阳光。",
+      "真正关键的一点在于：颜色越深，吸收的热量越多，所以带颜色的雪比纯白的雪化得更快。研究指出：红雪从阳光中吸收的能量，比白雪多约20%；绿雪比白雪多约40%。换句话说，企鹅粪便通过滋养雪藻，正在加速南极雪的融化。而随着气候变暖把企鹅一步步推向更南的地方，它们路线上的雪藻也会变得更绿。",
+      "论文的资深作者、科罗拉多大学博尔德分校的冰冻圈生物地球化学家阿莉娅·汗在新闻稿中表示：‘如果不把这些生物导致的雪面变暗效应算进去，我们很可能低估了沿海积雪融化的速度，也低估了南极无冰地表扩张的速度。’她的团队是第一组揭示企鹅粪便与雪藻生长节律之间联系的科学家，也是首次指出这一过程对南极融雪和‘变绿’潜在影响的研究团队。",
+      "南极的雪为什么会变绿、变红？答案里有一只鸟、一堆粪便和一群微小的藻类。听起来有点好笑，但它提醒我们：一片雪能反射多少阳光，不只取决于它是不是雪，还取决于有什么生活在它上面。"
+    ],
+    "topics": [
+      "生命与演化",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/penguin-poop-is-melting-antarctic-snow-1285601/",
+      "originalTitle": "Penguin Poop is Melting Antarctic Snow",
+      "publishedAt": "Wed, 07 Oct 2026 13:00:00 +0000",
+      "retrievedAt": "2026-10-08T01:06:34.445Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-08T01:06:31.962Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 17,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-08/2026-10-08-penguin-poop-is-melting-antarctic-snow.webp",
+      "alt": "抽象雪原上散布柔和的绿红色斑块，冷灰色调。",
+      "caption": "雪面上的颜色，让积雪融化得更快。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-08-5-19-1-7",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世卫组织：全球5至19岁患有肥胖症儿童和青少年超过1.7亿",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-08",
+    "intro": "世界卫生组织2026年10月7日发布报告指出，2024年全球5至19岁儿童和青少年中，患有肥胖症者超过1.7亿人。这是世卫组织首次针对该人群肥胖率急剧上升问题发布照护指南。",
+    "paragraphs": [
+      "世界卫生组织2026年10月7日发布的报告指出，2024年，全球有1.7亿5至19岁儿童和青少年患有肥胖症，其中包括7000万名5至9岁儿童和1亿名10至19岁青少年。自1990年以来，该年龄段的肥胖患病率已翻了两番，从2%上升至8%。",
+      "肥胖是一种慢性、易复发的疾病，可通过有效照护加以管理。其后果可能在生命早期就已出现，增加非传染性疾病的风险，包括2型糖尿病和心血管疾病。患有肥胖症的儿童和青少年还可能遭受污名、歧视和欺凌。预防和管理肥胖对于保护儿童和青少年的身心健康，以及支持其健康成长、教育、社会福祉和生活质量至关重要。",
+      "对于患有肥胖症的儿童和青少年，世卫组织强烈建议采取结构化的饮食、身体活动和行为改变干预措施，可单独实施，也可作为多模式方案的一部分。数字健康干预措施在父母或照护者监督下作为有条件推荐。世卫组织不建议对0至9岁儿童使用药物治疗、减重手术（改变胃或消化道的减肥手术）或减重设备。对于10至19岁青少年，只有在有监督的多模式生活方式方案未能达到预期效果时，才可考虑使用已获批药物进行治疗；对于患有严重肥胖症的青少年，可在严格条件下考虑减重手术。",
+      "世界卫生组织营养与食品安全司司长德雷吉尔表示，儿童和青少年肥胖照护的基础不是药物或手术，而是获得全面支持，从而实现健康饮食、身体活动和可持续的行为改变。相关建议强调，在应对肥胖的同时应重视心理健康。焦虑、抑郁、自尊心低下和情绪失调可能导致不健康饮食行为、缺乏身体活动和减少社会交往；而患有肥胖症的儿童和青少年可能遭受污名化和欺凌，损害其情绪健康。卫生工作者应及早并同步应对肥胖和心理健康问题，采用包容、符合发育阶段且家庭参与的策略。",
+      "该指南强调，肥胖管理应超越减重，着眼于改善健康、身体功能和生活质量。照护应以人为本、符合年龄特点，并回应每名儿童及其家庭的需求，确保长期随访和连续性。仅靠治疗无法扭转肥胖率上升的趋势。世卫组织继续呼吁制定相关政策和措施，使健康饮食和身体活动更加可及、更可负担，包括采取监管和财政措施，并在教育、城市规划、交通和社会保障等领域付诸行动。结合世卫组织现有的成人建议，新指南构成了肥胖照护全生命周期方法的一部分，为从儿童期到青春期再到成年期的肥胖管理和治疗提供了基于证据的建议。"
+    ],
+    "topics": [
+      "健康与医学",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142947",
+      "originalTitle": "世卫组织：全球5至19岁患有肥胖症儿童和青少年超过1.7亿",
+      "publishedAt": "Wed, 07 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-08T01:07:22.243Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-08T01:07:20.417Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-07-2026",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "2026年诺贝尔物理学奖揭晓：弗朗西斯·哈尔岑获奖",
@@ -3164,165 +3330,6 @@
       "src": "/editorial/2026-09-13/2026-09-13-plasma-whirlpools-on-the-sun-could-trigger-solar.webp",
       "alt": "冷灰底色上太阳圆盘与螺旋状等离子体漩涡的抽象插图",
       "caption": "太阳表面的旋涡，或许藏着耀斑的线索。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-13-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "不与AI赛跑 业界冀职业教育转向培育人类独有核心素养",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-13",
-    "intro": "抓取到的页面只有标题和网站导航，正文缺失；在无法回到原文核验的情况下，这篇候选稿不做听稿改写。",
-    "paragraphs": [
-      "这篇候选稿来自中新网教育，标题是《不与AI赛跑 业界冀职业教育转向培育人类独有核心素养》。但抓取回来的内容里，除了这个标题，其余部分是网站栏目、导航链接、搜索框和页面装饰图片，没有正文。",
-      "也就是说，稿件里没有出现任何一家机构、任何一位受访者，没有具体主张，也没有案例和数据。目前能确认的只有标题本身传达的一个态度：业界希望职业教育不要与人工智能比速度，而是转向培养人类独有的核心素养。",
-      "轻听的听稿要求事实、数字、因果和引语都能回到原文核验。如果现在动笔，人物、场合和做法都只能靠推测补上，那就变成了编造，也会让家长无法判断这段话到底是谁说的、在什么场合说的。",
-      "按照编辑标准，全文抓取失败时不生成正式听稿。这篇候选稿因此退回候补池，等取得完整原文、确认了发言者和具体主张之后，再决定是否改写。"
-    ],
-    "topics": [
-      "教育与职业",
-      "AI与社会"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-12/10695484.shtml",
-      "originalTitle": "不与AI赛跑 业界冀职业教育转向培育人类独有核心素养",
-      "publishedAt": "Sat, 12 Sep 2026 22:28:20 +0800",
-      "retrievedAt": "2026-09-12T23:10:13.864Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-12T23:10:12.150Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-13-2026-9-11",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "世界正在发生什么：联大开幕、最热8月、AI数据中心耗电逼近极限与世卫家庭提醒",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-13",
-    "intro": "今天，联合国大会新一届会议开幕；地球刚度过有记录以来最热的8月；人工智能数据中心耗电正逼近全球电力系统极限；世卫组织也发出一条和每个家庭都有关的提醒。",
-    "paragraphs": [
-      "9月11日，联合国大会第81届会议正式开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对联大的信任。在开幕仪式上，秘书长古特雷斯赞扬了第八十届会议主席、德国前外长贝尔伯克任内所取得的成就。",
-      "黎巴嫩南部奈拜提耶及其周边地区战事加剧，联合国驻黎巴嫩临时部队的记录显示，周四至周一期间，以色列共发射了528枚弹药，仅周日一天就发生了62起侵犯领空事件。秘书长古特雷斯发表声明，谴责由此导致黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出。联合国也门问题特使格伦德贝里周四向安理会表示，自2022年停火以来，也门再次出现大规模冲突的风险已经演变为现实。本周，也门多条战线的战斗均有所加剧，胡塞武装已经控制了重要港口城市莫卡。莫卡距离连接红海与亚丁湾的曼德海峡约75公里，这一事态发展引发国际社会对航行自由受到威胁的严重关切。",
-      "在‘9·11’恐怖袭击事件25周年之际，联合国秘书长发言人和联合国人权事务高级专员办事处分别发表声明，缅怀遇难者，向幸存者和救援人员致敬，并强调打击恐怖主义与维护人权是共同责任。安理会在9月11日当天举行会议，指出恐怖主义威胁正变得更加分散、隐蔽，并日益利用新技术。联合国强调，国际社会必须加强合作和预防，同时确保反恐行动符合国际法和人权。根据最新数据，地球刚刚经历了有记录以来最热的8月份。今年8月，全球海表温度达到有观测以来的最高值，北极和南极的海冰范围均低于平均水平。8月份，全球热带气旋活动高于平均水平，共产生了19场热带风暴。欧洲今年夏天的极端高温已夺去数万人的生命，并重创欧洲基础设施、企业及经济，损失1800亿欧元，相当于欧洲国内生产总值减少一个百分点。",
-      "联合国儿童基金会周三发布的一份最新分析报告显示，2025年全球有超过1.71亿名学龄儿童和青少年因风暴、洪水、热浪、干旱和野火等气候灾害而中断学业，相当于每10名学生中就有1名。世界卫生组织周二警告称，吸烟极有可能增加备孕难度，并强调吸烟女性的不孕风险比非吸烟者高出40%。全球每六人中就有一人受不孕症影响。吸烟不仅与女性不孕症有关，还会损害男性的精子质量和性功能。二手烟也会影响生育能力。",
-      "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧。据政府间组织国际能源署预测，到2030年，数据中心的电力消耗预计将几乎翻一番——从2025年的485太瓦时增至2030年的950太瓦时，相当于全球电力需求的3%。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球治理"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/09/1142779",
-      "originalTitle": "【世界进行时】2026年9月11日",
-      "publishedAt": "Fri, 11 Sep 2026 12:00:00 +0000",
-      "retrievedAt": "2026-09-12T23:12:25.259Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-12T23:12:20.623Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-12-why-do-these-fossil-shells-flip-their-spirals-ev",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "为什么化石壳每隔几千年就会翻转螺旋方向？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-12",
-    "intro": "一项汇总五十年数据的新研究提出，壳的螺旋方向也许不是对气候的适应，而是一场全球性进化事件留下的意外标记。",
-    "paragraphs": [
-      "在海洋里生活着一类叫有孔虫的微小生物。它们只有一个细胞，却会分泌出坚硬的壳，壳上布满细小的孔。许多有孔虫的壳像蜗牛一样盘旋，而在同一个物种里，绝大多数个体的盘旋方向是一致的：有的几乎全是左旋，有的几乎全是右旋，某些物种里同方向的个体比例高达百分之九十七。更奇怪的是，化石记录显示，这个方向有时会在全球范围内同时掉转——一个物种可能几百万年都朝同一个方向卷，然后突然整体翻过来，过一阵又翻回去。",
-      "有孔虫是地球上数量最多的真核生物之一，从热带到高纬度，所有海洋里都有。多数种类生活在海底，也有一些随洋流漂在表层。它们死后，壳一层层堆积，形成了一份能追溯到大约五亿六千万年前的自然档案，科学家靠它重建过去的气候和海洋环境。上世纪五十年代，海底取芯技术进步，瑞士微体古生物学家汉斯·博利第一次记录到，一些螺旋壳的有孔虫有明确的方向偏好，而且这种偏好会随时间改变。",
-      "一九五九年，哥伦比亚大学拉蒙特地质观测站（现为拉蒙特-多尔蒂地球观测站）的海洋地质学家戴维·埃里克森在北大西洋取出数百枚厚壁新方球虫（_Neogloboquadrina pachyderma_）的壳，发现冰期寒冷时多左旋，温暖时多右旋，于是推测温度是决定因素。这个假说后来被两项研究分别推翻。二〇〇六年，如今在斯特灵大学任荣誉教授的凯特·达林用基因证据说明，那其实不是一个种，而是两个各有自己螺旋方向的种。二〇一三年，日本高知大学教授、进化古生物学家由利香·氏家发现，多个海域的有孔虫螺旋方向与温度并不对应。也很难想象螺旋方向对一个没有明显左右之分的单细胞生物有什么好处。半个世纪后，掉转的原因重新变成一个谜。",
-      "伦敦大学学院的微体古生物学家布丽奇特·韦德研究沉积岩芯已经几十年。她的团队注意到，在大西洋、印度洋和太平洋的不同纬度上，好几个有孔虫物种似乎在差不多同一时期掉转了壳的方向；有一个物种，热带和高纬度的翻转几乎同时发生。这说明事情不止发生在一个海域。他们把过去五十年的数据汇总起来，分析了多个浮游有孔虫物种在过去五千六百万年间的螺旋变化，在每个物种身上都找到了跨越多个大洋盆地和气候带的翻转证据。例如，_Paragloborotalia siakensis_在一千五百万年前从混合螺旋变为以左旋为主；_Globorotalia scitula_先在一千五百万年前转向左旋，一千万年前又转回右旋。有一种至今仍然活着的热带浮游有孔虫_Pulleniatina obliquiloculata_，化石记录格外详细：过去八十六万年里它几乎全是右旋，而在这之前，它每隔几千年就在全球范围内换一次方向。",
-      "这些变化来得太快、范围太广，用缓慢的进化解释不通。韦德说，如果只是局部事件，还可以考虑局部环境的改变，可它同时在所有地方发生，背后应该是另一种机制。团队提出的猜想是‘隐存种’。海洋看起来连成一片，其实藏着温度、洋流、紫外线、化学和氧气各不相同的许多栖息地；一个表面全球分布的物种，内部也可能藏着好几个基因上不同的种。基因研究已经反复证明，过去仅凭壳形（包括螺旋方向）判断为同一个种的有孔虫，往往不止一个种。他们推测，如果其中一个隐存种获得了某种广泛的适应优势，它就可能随洋流扩散到全世界，完成一次规模巨大的种群扫荡，它单一的螺旋方向也一路被带到主导地位——这场进化事件就这样被意外地写进了化石记录。",
-      "法国微体古生物学家朱莉·梅扬没有参与这项研究。她说，这可能是第一次有做生物地层学（即深时研究）的人来碰这样的问题，把现代有孔虫的遗传和生物学与几千万年前的化石数据接起来，让人耳目一新。按照这个新假说，壳往哪边卷本身也许并不带来什么好处，它只是一个标记：地球上可能反复上演过一种极难观察的进化过程——一个新性状从一小群个体出发，扫过整个海洋。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
-      "originalTitle": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
-      "publishedAt": "Fri, 11 Sep 2026 14:14:40 +0000",
-      "retrievedAt": "2026-09-11T23:20:40.686Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-11T23:20:29.336Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
-      "intro": "For thousands and sometimes millions of years, marine plankton all over the world built their spiral shells in one direction. Then, suddenly, the spirals switched direction at the same time, everywhere. Only to switch back again later.",
-      "paragraphs": [
-        "These microorganisms are types of foraminifera, or forams. Found in all oceans, from the tropics to high latitudes, they’re among the most abundant eukaryotic organisms on Earth. The single-celled protists secrete a hard shell perforated with many small holes. Most species live on the seafloor. Some are planktonic. When they die, their shells blanket the seafloor across the world. This forms a natural archive of Earth’s history that goes back some 560 million years.",
-        "Among the many planktonic forams that have snail-like coiled shells, some species strongly prefer one spiral direction — left or right — over the other. As many as 97% of the individuals in a species coil in the same direction. Sometimes, a new coiling direction dominates everywhere across the oceans all at once in the fossil record. Ever since the 1950s, when this curiosity was observed, scientists have tried to figure out what causes shell direction to change in quadrillions of microorganisms in unison.",
-        "In 1959, the marine geologist David Ericson sifted through hundreds of coiled shells from Neogloboquadrina pachyderma collected from the North Atlantic. He observed that in cold climates during the ice ages, the shells tended to coil left. During warmer periods, they turned right. However, as more cores were retrieved from around the globe, and with advances in genetics, the temperature hypothesis didn’t hold up. In 2006, Kate Darling published genetic work. It showed that the variants of N. pachyderma are two distinct species. Each has its own coiling direction. In 2013, Yurika Ujiié found that shell chirality in different foram species did not correspond to temperature.",
-        "Bridget Wade is a micropaleontologist at University College London. She had been studying sediment cores for decades. Her team noticed a curious pattern. Several foram species seemed to flip their shell direction around the same time. This happened at different latitudes in the Atlantic, Indian, and Pacific oceans. In one species, the flips seemed almost instantaneous. They occurred in the tropics and in higher latitudes. To sate their curiosity, Wade’s team synthesized data from five decades of studies. They analyzed changes in coiling patterns in several planktonic foraminifera species. These spanned the past 56 million years. For each species, they found evidence of flipping across multiple ocean basins and climate belts.",
-        "Pulleniatina obliquiloculata was an especially useful example. It has an exceptionally detailed fossil record. It is still living today. It occurs throughout tropical oceans worldwide. For the past 860,000 years, its shell has coiled almost exclusively to the right. Before that, it went through rapid shell-coiling flips. These occurred globally every few thousand years. The shifts were far too sudden and widespread to be explained by gradual evolution.",
-        "The new study hypothesizes that shell direction is not itself an adaptive response. It is an accidental marker of a significant evolutionary event. That event starts in a small subpopulation. Then it sweeps across vast ocean basins. Julie Meilland is a researcher at Cerege in France. She was not involved in the study. She said it was very refreshing to see these worlds connect. People doing modern research don’t necessarily connect to people doing deep-time research. The work offers a new perspective on a decades-old mystery. It gives a rare glimpse into an obscure process. That process enables new traits to sweep across large populations."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-11T23:30:03.996Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-12/2026-09-12-why-do-these-fossil-shells-flip-their-spirals-ev.webp",
-      "alt": "冷灰色调下数枚螺旋方向交替的贝壳化石并排排列",
-      "caption": "螺旋方向交替，像一段被压缩的时间。",
       "kind": "editorial"
     }
   }
