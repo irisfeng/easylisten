@@ -1,5 +1,231 @@
 [
   {
+    "slug": "2026-10-09-10-5348e0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "“中国天眼”落成10周年，正值当打之年",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-09",
+    "intro": "2026年9月，位于贵州平塘县克度镇大窝凼的“中国天眼”FAST迎来落成十周年——它不是刚起步的新设备，而是设计寿命不少于30年、正值当打之年的科学利器。",
+    "paragraphs": [
+      "在贵州平塘县克度镇的大窝凼，群山环抱中静静卧着一口500米口径的银色‘巨锅’——这就是‘中国天眼’，全名是500米口径球面射电望远镜（FAST）。它不靠镜片反射光线，而是用一张巨大的金属网，捕捉来自遥远宇宙的微弱无线电波。为了不让手机、对讲机等具备无线电发射功能的设备干扰它‘听’宇宙的声音，整个区域被划为电磁波宁静区核心区，进山前必须关掉所有无线设备。",
+      "这台望远镜的建造，始于22年前的一次远见。天文学家南仁东带着青年科研人员，拄着竹竿、揣着馒头，在贵州喀斯特群峰深处跋涉多年，考察了数百个洼地，最终选中了天然漏斗状的大窝凼——这里既将土石方开挖量削减到极致，又凭借发育良好的喀斯特地下暗河解决暴雨排洪难题，四周耸立的峰丛更成为阻隔现代无线电电磁杂波的天然屏障。2011年破土动工，2016年9月落成；它没有现成经验可抄：由6670根主索编织成500米球冠状索网，6根长索悬吊30吨重的馈源舱，在140米高空、206米范围内动态定位。",
+      "建成后三年多，团队在阴湿多雾、落石滚落、进口核心部件故障频发等困难中调试系统，组织国内力量完成关键控制系统的升级换代与核心零部件的国产化替代，最终让FAST以年观测机时稳定在5300小时以上、设备运行可用率超过98%的表现，成为全球运行效率最高的大型地面射电望远镜之一。十年来，它已发现超1300颗脉冲星；它在对‘斯蒂芬五重星系’的观测中捕获到一个尺度延展达200万光年的巨型中性氢气体结构，其跨度达到银河系直径的20倍；它在对FRB 121102的监测中，于47天内记录到1600多次独立爆发，首次完整刻画出重复快速射电暴的能量分布律。",
+      "更关键的是，利用FAST运行仅3年5个月的高质量观测数据，中国脉冲星计时阵研究团队以4.6σ的统计显著性，在约14纳赫兹频率附近成功探测到了空间四极相关性的关键信号，为纳赫兹引力波背景的存在提供了重要观测证据。中国科学院院士韩占文说：‘你不知道你会有什么发现，但你肯定会有发现——我们期待着，一定有会有更多的发现。’",
+      "如今，它的二期工程已在推进：在FAST周边30公里范围内，建设数十台口径为40米的全可动射电望远镜，利用综合孔径干涉技术与现有的500米‘大锅’联合组阵。一旦完成组网，整个阵列的空间分辨率将直接提升200倍，实现真正意义上的‘既看得见，又看得清’。十岁的‘中国天眼’，正值当打之年。属于它的深空传奇，才刚刚开始。"
+    ],
+    "topics": [
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572590.shtm",
+      "originalTitle": "“中国天眼”落成10周年，正值当打之年",
+      "publishedAt": "2026-10-08 16:37",
+      "retrievedAt": "2026-10-09T01:18:53.760Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:18:46.863Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "China's Sky Eye Turns Ten",
+      "intro": "A giant radio telescope in the mountains of Guizhou just celebrated its tenth birthday, and scientists say its best years are still ahead.",
+      "paragraphs": [
+        "Deep in the mountains of Guizhou, China, there is a giant silver bowl. It is 500 meters wide. Scientists call it FAST, and many people call it China's Sky Eye. In September 2016, it was completed. Its designers planned for it to work for at least thirty years. So at ten, it is just getting started.",
+        "The idea began long before the telescope was built. In 1993, astronomers around the world talked about building the next big radio telescope. A Chinese astronomer named Nan Rendong saw a chance for China to lead. In 1994, he and other scientists suggested using a natural valley in Guizhou. The valley's bowl shape meant less digging. Underground rivers carried away heavy rain. The surrounding peaks blocked radio noise from people.",
+        "Finding the right valley took years. Nan Rendong and young researchers walked through the karst mountains, carrying bamboo sticks and steamed buns. They checked hundreds of valleys. They finally chose Dawodang in Pingtang County. Building started in 2011, and the telescope was completed in September 2016. Its reflector is made of 4450 panels. Cables move those panels to shape a 300-meter dish. A 30-ton feed cabin hangs 140 meters above the surface.",
+        "But completing the machine was not the same as using it. At first, five control systems did not work well together. The feed cabin has no solid connection to the dish below. Wind and fog made measurements harder. A transformer burned out, and repairs took a whole month. Falling rocks damaged parts of the dish. Some imported parts broke often, and fixing them was slow. So the team decided to build key parts themselves.",
+        "Their hard work paid off. By 2019, the telescope had passed all its tests ahead of schedule. Since then, it has found over 1300 pulsars. Before FAST, humans had found about 2500 pulsars. It also caught a huge cloud of hydrogen gas, stretching two million light years across. Its surveys recorded over 1600 bursts from FRB 121102. And it found strong evidence for nanohertz gravitational waves — using data from just 3 years and 5 months.",
+        "Today the telescope observes more than 5300 hours each year. It works more than 98 percent of the time. Now scientists want to build a second stage. They plan dozens of 40-meter telescopes around FAST, all within 30 kilometers. Working together, the group could make images 200 times sharper. Two test telescopes already stand on nearby ridges. So this ten-year-old Sky Eye may still have its biggest discoveries ahead of it."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:24:57.261Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-09/2026-10-09-10-5348e0.webp",
+      "alt": "灰色调抽象抛物面天线静卧群山洼地之中",
+      "caption": "十年，正值当打之年",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-09-these-clues-might-point-to-life-on-other-worlds",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "这些线索可能指向外星生命",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-09",
+    "intro": "金星云层里出现了可疑的化学信号，火星上则找到了能忍受类似恶劣环境的微生物——两条线索，指向同一个问题：生命可能藏在哪里。",
+    "paragraphs": [
+      "金星表面热得足以熔化铅，按我们熟悉的生命标准，那里不可能有生物。但在金星表面之上大约48到60公里（30到37英里）的高空，有一层云，那里的温度和气压与地球相似。科学家在这层云里检测到了氧气、甲烷和磷化氢气体的可能痕迹。于是有研究者猜测：云里会不会住着微生物？不过这些单细胞生命必须在偶尔下沉到更低、更热的大气层时，承受严酷条件。",
+      "2021年，美国麻省理工学院（位于剑桥）的研究人员诺埃尔·布莱恩、萨拉·西格和同事提出一个设想：这些微生物只要能短暂耐受脱水，当它们沉入较热云层时；之后被气流带回更冷、更湿润的云层，细胞就可能复苏。布莱恩这么想是有依据的。几年前，她曾从地球平流层收集微生物。这一区域位于地表之上数十公里，环境同样严酷，而她发现的微生物似乎能在极端干燥中存活——正如金星微生物可能需要做到的那样。",
+      "地球上有些细菌会产生彩色色素，这些分子能帮细胞抵御有害的紫外线辐射。如果其他星球上也出现类似色素，那可能就是生命的线索；外星细胞或许也用类似色素来防晒。美国康奈尔大学（位于纽约州伊萨卡）的天体生物学家莉吉娅·科埃略最近分析了布莱恩采集的平流层细菌中的色素，发现这些色素会吸收或反射特定波长的光。她希望将来能在遥远行星上寻找类似的光与颜色特征，从而发现那些星球云层中可能存在的微生物。",
+      "这些发现对想象火星生命尤其相关。毕竟，地球平流层中的细胞所承受的条件，与火星表面环境相似。美国佛罗里达大学（位于盖恩斯维尔）的安德鲁·舒尔格花了多年时间寻找可能适应火星环境的地球微生物。他最近与NASA及哈佛大学（位于马萨诸塞州剑桥）的天体生物学家蕾切尔·哈里斯合作，去年发现了一种似乎满足多项火星生存条件的微生物，名为巴氏甲烷八叠球菌（_Methanosarcina barkeri_）。它靠将二氧化碳和氢气转化为甲烷获取能量，通常生活在污水、垃圾填埋场、稻田和湖底。这些环境与火星稀薄、干燥的大气截然不同，但它有一个关键优势：不需要氧气——而火星大气中没有氧气。舒尔格和哈里斯还证明，即使在接近火星的低气压下，它仍能制造甲烷。",
+      "这很重要，因为火星轨道器和漫游车已探测到甲烷气体渗入火星大气。不过，产甲烷的微生物可能很难被发现。它们或许需深藏于地下才能在低气压下存活。但既然巴氏甲烷八叠球菌在低气压下仍具活性，舒尔格指出，生命可能离火星表面相当近——如果存在，漫游车或许只需向下钻探20厘米（8英寸），就可能接触到这些单细胞生物。",
+      "NASA艾姆斯研究中心（位于加利福尼亚州山景城）的天体生物学家林恩·罗思柴尔德认为，靠近火星表面的微生物可能数量极少且存续时间极短。她设想，微生物可能像利用地球平流层的高空物种一样，把火星表面当作一段短暂穿越的恶劣通道——从一个栖息地迁移到另一个栖息地途中暂时忍耐。如果属实，那么火星风暴扬起的就不只是尘土，还可能裹挟微生物。它们可能‘飘浮着，只待找到一处能存活并生长的地方落脚’。2024年，NASA的毅力号漫游车抵达一个绰号为‘切亚瓦瀑布’的地点，在那里探测到过去存在水、有机物质等迹象。去年，研究人员发表论文提出，该地点可能曾经支持过生命。"
+    ],
+    "topics": [
+      "生命与演化",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/clues-life-venus-mars",
+      "originalTitle": "These clues might point to life on other worlds",
+      "publishedAt": "Thu, 08 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-09T01:20:02.702Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:19:50.571Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-09/2026-10-09-these-clues-might-point-to-life-on-other-worlds.webp",
+      "alt": "灰色调抽象星球与云层中悬浮几何符号",
+      "caption": "线索，藏在云层与尘土里",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-09-a-73-average-decline-in-wildlife-populations-an",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "野生动物种群数量平均下降73%，但这个数字常被误读",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-09",
+    "intro": "2026年《地球生命力指数报告》发布，最醒目的数字是73%，但它说的并不是73%的物种灭绝了。",
+    "paragraphs": [
+      "2026年《地球生命力指数报告》今日发布。报告标题中包含‘Science of Hope’（希望的科学），但原文指出‘这依然是一份令人沮丧的阅读材料（despite this year’s title being about the “Science of Hope”）’。报告 headline 是：从1970年至2022年，被研究的野生动物种群数量平均下降了73%。该数据覆盖哺乳类、鸟类、爬行类、两栖类和鱼类；尚未包括无脊椎动物或植物。",
+      "报告作者反复强调，这一73%的平均下降值常被误解或误报。它不表示：已消失的物种数量；已消失的种群或个体数量；正在下降的物种或种群比例；或已发生的灭绝数量。文中明确指出：‘所有声称我们已失去73%的野生动物、73%的物种已灭绝、或73%的物种正在下降的标题，全部错误。’",
+      "该指标基于对35,803个野生动物种群的数据分析。研究人员计算每个种群在时间跨度内的数量变化率（可为正、负或零），再取所有变化率的几何平均值，并对不同种群施加不同权重，最终得出LPI数值。文中特别说明：‘非常少的种群拥有回溯至1970年的完整数据；许多种群仅有更短、更稀疏的时间序列。’",
+      "对比2022年（69%下降）、2024年（73%下降）与2026年（73%下降）三版报告，表面数字未变，但并非因近年趋势停滞。实际上，‘几乎没有任何变化发生在最近几年’；新版LPI不是旧版简单延伸，而是因新增数据导致整条趋势线重算。自上一版起，纳入种群数增加约1,000个（+3%），物种数增加约300个（+5%）；其中非洲种群数增加14%，物种数增加38%，系为弥补该区域长期数据严重不足而做的刻意补充。",
+      "听到‘平均下降73%’，易误以为大多数被监测种群都在减少。但实际数据显示：50%的种群数量下降，43%上升，7%稳定。文中明确指出：‘几乎同样多的种群在增加，正如在减少’；图表亦显示‘约一半野生动物种群数量下降，其余则上升或稳定’，且‘鸟类和两栖类中下降比例更高’。作者强调，这‘并非淡化许多种群正经历陡峭衰退的事实’，而是为‘更高效地将资源导向最需帮助的区域和种群’。",
+      "因此，73%的核心意义不在于警示强度，而在于驱动追问：为何有些种群衰退、有些却能恢复？差异根源何在？正如原文所言：‘如果我们知道一些种群状况良好、另一些却极度恶化，我们就想知道原因，从而理解它，并找出阻止恶化的办法。’"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Our World in Data",
+      "region": "international",
+      "url": "https://ourworldindata.org/2026-lpi-update",
+      "originalTitle": "A 73% average decline in wildlife populations: an overview of the 2026 Living Planet Index report",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "retrievedAt": "2026-10-09T01:21:44.361Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:21:30.500Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "What the 73% Wildlife Decline Really Means",
+      "intro": "A new wildlife report leads with a scary number, but the number is easy to misread.",
+      "paragraphs": [
+        "The 2026 Living Planet Index report is published today. This year’s title is 'The Science of Hope'. The headline figure is a 73% average decline in studied wildlife populations since 1970.",
+        "This number is often misunderstood or misreported. It does not mean we lost 73% of all wildlife. It does not tell us how many species were lost. It does not tell us how many populations or individuals were lost. It does not tell us how many species or populations are declining. And it does not tell us how many extinctions occurred.",
+        "Across the 35,803 wildlife populations studied, the average decline was 73% from 1970 through 2022. This covers mammals, birds, reptiles, amphibians, and fish. It does not yet include invertebrates or plants.",
+        "Roughly half of the studied populations are not declining. Exactly 50% were in decline, 43% were increasing, and 7% were stable. So not all populations are struggling. This helps direct resources more efficiently to those most in need.",
+        "To calculate the Living Planet Index, researchers collect data on change in wildlife numbers across tens of thousands of populations. For each population, they calculate a rate of change over time. Then they take the geometric mean of those rates. They also apply different weights to different populations.",
+        "The 2022 Living Planet Index reported an average decline of 69% since 1970. In 2024, it reported 73%. The 2026 report also reports 73%. This does not mean wildlife declined by four percentage points between 2022 and 2024. Almost none of this change happened recently. Instead, the entire trend line shifted as the dataset expanded: around 1,000 more populations (a 3% increase) and about 300 more species (a 5% increase) were added. Populations and species from Africa increased substantially — by 14% and 38%, respectively."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:25:33.783Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 21,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-09-fcd228",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-09",
+    "intro": "这篇候选抓取到的页面里只有标题和导航栏，正文缺失，无法在规定范围内转述，按编辑部规则不予发布。",
+    "paragraphs": [
+      "这篇候选来自中新网文化，标题是《辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴》。但系统取回的页面内容里，只有站内的栏目导航、分享按钮和这一行标题，正文在开头处就断了，没有留下任何可以核验的事实、数字、因果或引语。",
+      "按照编辑部的规则，听稿里的每一个事实、数字、因果和引语都必须能在原文中找到；全文抓取失败时，不生成正式听稿，也不允许用常识或推测把空缺补上。仅凭标题里的几个词反推考古发现，很容易把推测写成研究结论，这种风险不能接受。",
+      "所以这一篇暂不进入今天的节目单，也不做适龄标注——在正文缺失的情况下，任何年龄段判断都是空话。请补发完整原文，或给一个能直达正文的链接，我会马上按七百到一千二百字的听稿要求重写，并给出六到九岁、十到十二岁、十三到十六岁的适龄判断。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-08/10709354.shtml",
+      "originalTitle": "辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴",
+      "publishedAt": "Thu, 8 Oct 2026 21:42:29 +0800",
+      "retrievedAt": "2026-10-09T01:22:30.866Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-09T01:22:29.359Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-08-a7dee3",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "两位科学家因解开分子\"左右手\"之谜获得2026年诺贝尔化学奖",
@@ -3107,229 +3333,6 @@
       "src": "/editorial/2026-09-14/2026-09-14-spying-on-the-secret-lives-of-boobies.webp",
       "alt": "海鸟与微型记录器的抽象插图",
       "caption": "海鸟出海后的秘密生活",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-14-ma96fm",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "宁夏的地名里，藏着千年的变化",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-14",
-    "intro": "中新网文化的一篇报道，换了个入口认识宁夏——从地名的来历，看这片土地千年来被怎样一次次重新描述。",
-    "paragraphs": [
-      "提到宁夏，很多人会先想到一个词——‘塞上江南’。这四个字本身就是一个地名故事：一片被比作江南的地方，出现在西北。中新网文化的一篇报道，没有从风景或物产讲起，而是找了一个不太常见的入口：从地名入手，看看这些方寸之间的名字，怎样记录下这片土地上千年的变化。",
-      "地名常常被我们当成路牌，念过去就算了。但我们不妨换个角度想：一个地方叫什么，往往和它当时的样子有关——水从哪里来，人住在哪里，路通向哪里。名字换了，常常是因为这些条件变了。所以地名不只是标签，它更像一份被反复修改过的档案，改动的痕迹就留在名字里。",
-      "这篇报道做的，就是顺着这些名字往回走。‘塞上江南’这个说法，是宁夏在很长时间里被反复认识、反复描述的结果。报道沿着地名的线索，把不同时期的变化一段段接起来，让一个个看上去静止的名字，重新有了时间感：它们不是同时出现的，而是一层一层叠上去的。",
-      "这种读法对我们每个人其实都有用。你每天路过的那些名字——小区的名字、街道的名字、车站的名字、县城和外省的名字——都不是凭空掉下来的。它们背后可能是一片早就消失的水面，一条改了道的河，一次搬迁，或者一个曾经热闹过的地方。只要愿意查一查，方寸之间的几个字，就能牵出一长段来历。",
-      "地名是慢的。它不像新闻那样一天一变，而是可能几百年才被改一次、被叫顺一次。也正因为慢，它记住的东西反而更久。听完这篇报道，也许可以顺手查一查自己家乡名字的来历——那是一份属于你自己的、还没被读完的档案。"
-    ],
-    "topics": [
-      "历史",
-      "地理与文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-13/10695833.shtml",
-      "originalTitle": "从地名读懂宁夏：溯源方寸地名解锁“塞上江南”千年变迁",
-      "publishedAt": "Sun, 13 Sep 2026 21:08:44 +0800",
-      "retrievedAt": "2026-09-13T23:18:50.352Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-13T23:18:48.297Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-14-grlhzh",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "高文院士：中国科研体系应“四路并进”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-14",
-    "intro": "2026年9月13日，在上海举行的2026浦江创新论坛人工智能赋能科学研究专题论坛上，中国工程院院士、鹏城实验室主任高文通过视频连线作主旨报告，提出中国科研体系应通过“四路并进”——拥抱迭代科研范式、改革科研资助机制、强化“科研—制造”闭环、打造AI科研基础设施，以在新一轮科研竞赛中占得先机。",
-    "paragraphs": [
-      "2026年9月13日，在上海举行的2026浦江创新论坛人工智能赋能科学研究专题论坛上，中国工程院院士、鹏城实验室主任高文通过视频连线作主旨报告，提出中国科研体系应通过拥抱迭代科研范式、改革科研资助机制、强化“科研—制造”闭环、打造AI科研基础设施“四路并进”，以在新一轮科研竞赛中占得先机。",
-      "在拥抱迭代科研范式方面，高文院士指出，要突破“唯论文”的线性思维，推动应用驱动的基础研究与跨学科交叉攻关，实现从理论到应用的双向循环迭代，让科研真正服务于国家战略需求。",
-      "改革科研资助机制方面，他提出构建“快速响应+长周期支持+挑战悬赏”的多元资助体系，向顶尖科学家与使命型团队充分放权，大幅精简行政流程、减轻非科研负担，以灵活机制适配前沿探索的不确定性。",
-      "强化“科研—制造”闭环方面，他强调打通实验室成果向先进制造转化的关键堵点，依托中国超大规模市场与全产业链优势，将技术“发现”快速转化为工程“验证”与产业“量产”能力，抢占技术落地的主导权。",
-      "打造AI科研基础设施方面，他主张统筹算力集群、科学大数据与自动化实验平台，建设国家级AI科研底座，用智能化工具重构科研范式，实现从数据挖掘、模型推演到实验优化的全流程提速，构建自主可控的创新生态。"
-    ],
-    "topics": [
-      "经济与商业",
-      "科研政策"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻评论",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571377.shtm",
-      "originalTitle": "高文院士：中国科研体系应“四路并进”",
-      "publishedAt": "2026-09-13 22:54",
-      "retrievedAt": "2026-09-13T23:22:40.342Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-13T23:22:36.147Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Chinese Scientist Proposes Four Paths for Research Reform",
-      "intro": "A leading Chinese engineer says the country's research system needs four big changes to stay ahead in science.",
-      "paragraphs": [
-        "On September 13, 2026, Gao Wen gave a talk by video link. He is an academician of the Chinese Academy of Engineering. He is director of Pengcheng Laboratory. The event was the AI Empowering Scientific Research Special Forum of the 2026 Pujiang Innovation Forum. It was held in Shanghai.",
-        "Gao Wen said China's research system should advance along four paths at once. These are: embracing an iterative research paradigm. Reforming research funding mechanisms. Strengthening the 'research-to-manufacturing' closed loop. Building AI-based scientific research infrastructure.",
-        "He said embracing iterative research means moving beyond 'paper-only' thinking. It calls for application-driven basic research. It calls for cross-disciplinary collaboration. It enables two-way iteration between theory and application. This serves national strategic needs.",
-        "On funding reform, he proposed a diversified system. It combines rapid-response support. It includes long-term funding. It includes challenge-based rewards. Top scientists and mission-oriented teams should be granted more autonomy. Administrative procedures must be greatly simplified. Non-research burdens must be reduced.",
-        "To strengthen the research-to-manufacturing loop, he stressed removing bottlenecks. These bottlenecks block lab results from becoming advanced manufacturing. China has an ultra-large market. China has a full industrial chain. These help turn technical discoveries into engineering validation. They also help turn them into mass production.",
-        "For AI research infrastructure, he called for integrated planning. It covers computing clusters. It covers scientific big data. It covers automated experimental platforms. A national AI-powered scientific foundation should be built. It accelerates data mining. It accelerates model simulation. It accelerates experiment optimization. It builds a self-reliant innovation ecosystem."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-13T23:25:44.115Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-13-pk33s6",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "这几封书信，推动新中国通信学科迎来关键转向",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-13",
-    "intro": "中国科学家博物馆珍藏着数封20世纪50年代的书信，记录着通信工程专家张煦与苏联专家易果日夫的学术往来，真实留存了我国通信学科体系奠基的关键历程。",
-    "paragraphs": [
-      "中国科学家博物馆珍藏着数封20世纪50年代的书信，记录着通信工程专家张煦与苏联专家易果日夫的学术往来。它们真实留存了我国通信学科体系奠基的关键历程，也见证了张煦立足我国国情，探索勘定中国通信事业发展路径的远见与担当。",
-      "新中国成立初期，我国通信教育主要借鉴苏联模式。当时苏联学界认为无线电通信保密性差、发展前景有限，主张重点发展有线通信。受此影响，国内多所高校将电讯专业调整为有线电系。为了更好地学习苏联的先进技术，1952年，曾留美归国的张煦开始自学俄文，历时五年，他已能够独立阅读、翻译俄文电信文献。1955年底，经留苏学生牵线，张煦与苏联专家易果日夫副教授建立学术联系，围绕学科设置、人才培养等议题展开交流。",
-      "1956年前后，国内通信发展认知迎来关键转变。此时国际载波电话技术快速兴起，该技术把微波无线技术同有线电话体系相结合，单纯发展有线通信已无法满足技术迭代需求。与此同时，我国《十二年科学技术发展远景规划》颁布实施，导弹等国防重点项目启动研发，项目所需的遥控遥测技术，对微波、无线通信有着极强的现实需求。基于这两大现实背景，张煦在与易果日夫的通信中，重点探讨了有线电与无线电的学科设置问题。易果日夫提出，应该打破有线与无线的学科壁垒，这一观点和张煦的看法不谋而合。二人共同研讨确定：在“长途电话设备专业”下分设“载波电话电报专门化”“微波接力和波导设备专门化”；在“电话电报设备专业”下分设“电话设备专门化”“电报设备专门化”等。这套方案，为我国通信学科融合发展确立了科学办学方向。",
-      "1956年，怀揣建设中国自主通信产业的理想，张煦从上海交通大学调往刚刚筹建的成都电讯工程学院。建校初期办学条件艰苦，校园里连一条修好的路都没有，师生们只能挽着裤腿、一瘸一拐地走在泥泞土路上，戏称这里为“南泥湾”。办学过程中人才培养的难题摆在眼前：成都电讯工程学院主攻通信设备设计制造，但苏联可供参考的只有无线电制造教学计划，缺少电话、电报、长途通信完整成套的教学方案。为此，张煦致信易果日夫请教，询问人才培养与教学问题，例如“制造专业的教学计划与维护专业的教学计划应该设置多大差别”。易果日夫在回信中谈到，苏联虽区分工业电气工程师、结构工艺工程师，但他主张电路计算、设备设计工程师不应与维护工程师分开培养，应设立统一的电信工程师专业。设计人员要掌握设备维护知识，维护人员也要通晓设计制造逻辑，维护相关教程也需要纳入工艺、生产相关课程，反对专业划分过细。这一教育理念，与张煦留美时期重视基础、提倡全面育人的理念高度契合。",
-      "1957年，张煦参考苏联专家吉捷列夫教授的课堂笔记、油印讲义，结合自己在美国积累的英文技术资料，融会贯通编写出版《长途电话电路设计基础》，以适配国内教学需求。他将这本教材寄赠给易果日夫，易果日夫回信说看了学生翻译的序文很高兴，“希望以后写得更好更多”。这段跨越国界的学术书信往来，为我国通信学科体系搭建提供了重要参考，也让两位学者成为了学术上的好友。纵观张煦的一生，他始终走在中国通信技术迭代的最前沿。从20世纪50年代的一封封跨国书信，勘定融合发展的正确道路，到此后数十年紧跟全球技术浪潮，从零搭建起我国载波、晶体管、数字、光纤通信的教学与技术体系，他默默铺就了中国通信事业发展根基，堪称“中国通信元勋”。"
-    ],
-    "topics": [
-      "工程与制造",
-      "通信技术",
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571320.shtm",
-      "originalTitle": "这几封书信，推动新中国通信学科迎来关键转向",
-      "publishedAt": "2026-09-12 08:44",
-      "retrievedAt": "2026-09-12T23:08:47.635Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-12T23:08:43.278Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Letters That Changed China's Communication Science",
-      "intro": "Old letters between Chinese engineer Zhang Xu and Soviet expert Yiguo Rifu show how China's communication studies shifted toward integration in the 1950s.",
-      "paragraphs": [
-        "The China Scientist Museum preserves several letters from the 1950s. They record academic exchanges between communication engineer Zhang Xu and Soviet expert Yiguo Rifu. These letters document the founding of China's communication discipline. They also reflect Zhang Xu's vision for a development path suited to China's national conditions.",
-        "After the founding of New China, communication education mainly followed the Soviet model. At that time, Soviet scholars believed radio communication had poor confidentiality and limited prospects. They advocated focusing on wired communication. As a result, many universities adjusted their telecommunication programs into wired electronics departments.",
-        "Zhang Xu had studied in the United States. In 1952, he began teaching himself Russian. After five years, he could independently read and translate Russian telecommunications literature. In late 1955, through Chinese students studying in the Soviet Union, he established academic contact with Associate Professor Yiguo Rifu. They exchanged letters on curriculum design and talent training.",
-        "Around 1956, China's understanding of communication development underwent a key shift. Internationally, carrier telephone technology was rapidly emerging. It combined microwave wireless technology with wired telephone systems. Relying solely on wired communication could no longer meet technological demands. Meanwhile, China's Twelve-Year Science and Technology Development Plan was implemented. Missile-related defense projects started. These required remote control and telemetry technologies. Those technologies strongly needed microwave and wireless communication. Based on these realities, Zhang Xu and Yiguo Rifu discussed wired and wireless discipline settings. Yiguo Rifu proposed breaking down the barrier between wired and wireless disciplines. Zhang Xu agreed. They jointly proposed: under the 'long-distance telephone equipment' major, set up 'carrier telephone and telegraph specialization' and 'microwave relay and waveguide equipment specialization'. Under the 'telephone and telegraph equipment' major, set up 'telephone equipment specialization' and 'telegraph equipment specialization'. This plan established a scientific direction for integrated development of China's communication discipline.",
-        "In 1956, Zhang Xu moved from Shanghai Jiao Tong University to the newly founded Chengdu Institute of Radio Engineering. Campus construction was still underway. There was not even a paved road. Teachers and students walked through mud. They jokingly called the place 'Nanniwan'. A major challenge was talent training. The institute focused on communication equipment design and manufacturing. But Soviet reference materials only provided a radio manufacturing teaching plan. They lacked complete teaching plans for telephone, telegraph, and long-distance communication. Zhang Xu wrote to Yiguo Rifu seeking advice. He asked: 'How large should the difference be between manufacturing and maintenance curricula?' Yiguo Rifu replied that the Soviet Union distinguished between industrial electrical engineers and structural process engineers. But he opposed overly narrow specialization. He advocated a unified telecommunications engineer program. Circuit calculation and equipment design engineers should not be trained separately from maintenance engineers. Designers must understand maintenance. Maintainers must understand design and manufacturing logic. Maintenance courses should include technology and production content. This educational philosophy aligned closely with Zhang Xu's U.S.-influenced emphasis on foundational knowledge and holistic training.",
-        "In 1957, Zhang Xu compiled and published Fundamentals of Long-Distance Telephone Circuit Design. He based it on Soviet Professor Jidielefu's lecture notes and mimeographed handouts. He also used English technical materials he had accumulated in the U.S. He sent the textbook to Yiguo Rifu. Yiguo Rifu replied that he was pleased to read the student-translated preface. He hoped Zhang Xu would 'write better and more in the future'. This cross-border correspondence provided important reference for building China's communication discipline system. It also forged a lasting academic friendship. Zhang Xu later helped establish teaching and technical systems for carrier, transistor, digital, and optical fiber communication in China. He is widely regarded as the 'Pioneer of Chinese Communications'."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-12T23:13:52.325Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-13-plasma-whirlpools-on-the-sun-could-trigger-solar",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "太阳表面发现打旋的等离子体，它们可能触发太阳耀斑",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-13",
-    "intro": "迄今最清晰的太阳照片，在太阳表面拍到了高能漩涡。研究者认为，它们可能是太阳耀斑爆发的关键一环。",
-    "paragraphs": [
-      "人类拍到过的最清晰的太阳照片，让科学家在太阳表面发现了意料之外的东西：许多高能的漩涡。太阳是一颗巨大的球，由极热、带电的气体组成，这种气体叫做等离子体。新照片暗示，太阳表面并不安稳。这些打着旋的等离子体，可能会扭动太阳的磁场；而这样的扭动会积累能量，后来以太阳爆炸的形式释放出来。这可能解释太阳为何偶尔抛出剧烈的辐射爆发——即太阳耀斑。",
-      "太阳耀斑属于‘太空天气’现象，会影响地球及周围空间的技术设备。研究人员于8月5日在《自然》杂志上发表了这项新发现。",
-      "拍到这些照片的是位于美国夏威夷毛伊岛哈莱阿卡拉火山顶附近的丹尼尔·井上太阳望远镜。它是世界上最大的太阳望远镜，镜面直径4米（13英尺）。照片显示，太阳表面一块19公里（12英里）宽的区域中，存在磁化等离子体的漩涡状结构。参与研究的天体物理学家大卫·库里泽说，这是‘以前根本看不见的细节水平’。他来自科罗拉多州博尔德的美国国家太阳观测台。为获得如此清晰的图像，研究团队修正了地球大气造成的模糊，去除了会毁掉图像的畸变。",
-      "新图像使太阳表面高度磁化的区域变得清晰可见。这类区域有数百万个，称为太阳磁元。库里泽团队发现，这些磁元之间的边界存在一种特殊不稳定性——开尔文-亥姆霍兹不稳定性（KHI）。当两层流体（如等离子体）以不同速度并排流动时，微小扰动可引发卷曲运动，最终形成波浪。",
-      "科学家曾在地球海洋波浪、云层，以及木星和太阳的大气层中观测到KHI，但此前从未在太阳表面直接观测到它。KHI可能将旋转等离子体的能量转化为太阳爆发所需的能量。奥夫曼指出，这有助于解释能量如何从太阳内部传递至外部，从而‘影响地球上的我们，也影响更远的地方’。",
-      "太阳表面，比它看上去要不安分得多。下一次耀斑亮起时，它的起点也许就藏在这些小小的漩涡里。"
-    ],
-    "topics": [
-      "航天与宇宙",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/plasma-whirlpools-sun-solar-flares",
-      "originalTitle": "Plasma whirlpools on the sun could trigger solar flares",
-      "publishedAt": "Fri, 11 Sep 2026 10:30:00 +0000",
-      "retrievedAt": "2026-09-12T23:09:42.002Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-12T23:09:40.171Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 25,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-13/2026-09-13-plasma-whirlpools-on-the-sun-could-trigger-solar.webp",
-      "alt": "冷灰底色上太阳圆盘与螺旋状等离子体漩涡的抽象插图",
-      "caption": "太阳表面的旋涡，或许藏着耀斑的线索。",
       "kind": "editorial"
     }
   }
