@@ -1,5 +1,234 @@
 [
   {
+    "slug": "2026-10-11-inventing-pad-thai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "泰式炒河粉其实是一道政府推出来的国菜",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-11",
+    "intro": "全世界泰国餐厅里最常被点的一道菜，来历并不是什么传统名菜，而是一场政府主导的国家认同工程。",
+    "paragraphs": [
+      "在世界各地的泰国餐厅里，泰式炒河粉大概是最多人点的一道菜。它的味道很容易被接受：酸、甜、咸、辣混在一起，还有豆芽和花生的脆。可这道菜的来历，跟‘传统名菜’没什么关系。美食作家和评论家亚历山德拉·格里利写道，它从诞生起就是一道刻意用来表达国家认同的菜。",
+      "说它特别，是因为它其实不太‘泰国’。做这道菜用的是炒这种技法，主料是面条，而这两样都来自中国。最早在泰国做炒面、炒肉、炒菜的，很可能是从中国广东过去的人。",
+      "把炒河粉变成国菜的，是二十世纪中期泰国的总理銮披汶·颂堪（Plaek Phibunsongkhram，英文常称Phibun）。1938年他上台后不久，就把国名从‘暹罗’改成了‘泰国’。从1938年到1957年，除了中间有四年不在位，他一直在执政。他想让国家现代化，并创建一套‘Thai Great Tradition’，以在文化和政治上统一国家。",
+      "推广一道国菜，就是他的一步棋。这道菜要有营养：鸡蛋、豆芽、花生，这些东西泰国农民能种、能卖，自家院子也能长。它的正式名字叫kway teow pad Thai，意思是‘Thai-style stir-fried noodles’，后来大家就简称它‘pad Thai’。它凑齐了泰国菜最看重的三种味道——咸、酸、甜，再加上第四种，辣。口感上也讲究：豆芽和花生带一点脆，配上软软的面条和有嚼劲的虾。",
+      "1940年代，泰国发生大洪水，接着出现疾病流行。很多人担心细菌传播，而炒河粉是现炒的，端上桌时还滚烫，就被认为比较安全。政府把一份简单做法公布给公众，还鼓励摊贩推着小车做生意，车上配新的、容易清洗的厨具，好让每份都现点现做。",
+      "炒河粉先在曼谷流行，因为它是一顿方便的午饭，后来才传到农村。有的摊贩把炒好的河粉放在一片香蕉叶上，外面再用报纸一包，方便带走。再往后，泰国政府为了做国际公关，支持在别的国家开泰国餐厅，到2007年，全世界已经有将近一万两千家。有意思的是，在泰国国内，正经餐厅反而很少做这道菜——因为在泰国人眼里，它最好的样子就是街头小吃：摊贩一整天守着锅，现炒现卖。这恰恰就是当年Phibun想要的样子。"
+    ],
+    "topics": [
+      "历史",
+      "文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "JSTOR Daily",
+      "region": "international",
+      "url": "https://daily.jstor.org/inventing-pad-thai/",
+      "originalTitle": "Inventing Pad Thai",
+      "publishedAt": "Tue, 06 Oct 2026 13:33:25 +0000",
+      "retrievedAt": "2026-10-11T00:18:34.120Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:18:31.709Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Inventing Pad Thai",
+      "intro": "Pad Thai is famous around the world. But it started as a government project to build a national identity.",
+      "paragraphs": [
+        "Pad Thai is among the most popular offerings at Thai restaurants all over the world. It has a distinctive yet approachable sweet-sour-savory flavor profile. Food writer and critic Alexandra Greeley writes that it started out as a deliberately nationalistic dish.",
+        "Greeley notes that it is a bit of an odd choice for an iconic Thai food. Its cooking technique is stir-frying. Its main ingredient is noodles. Both come from China. People arriving from China’s Guangdong province probably made the first stir-fried noodles, meats, and vegetables in Thailand.",
+        "Thailand’s authoritarian mid-twentieth-century prime minister was Plaek Phibunsongkhram. He is usually known as Phibun in English. He created the pad Thai phenomenon. He took office in 1938. He changed the country’s name from Siam to Thailand. That means 'land of the free.' He was in office almost continuously from 1938 to 1957. He worked to modernize the country. He tried to create a 'Thai Great Tradition' to unify the country culturally and politically.",
+        "One move in this direction was creating a national dish. It contained nutritious ingredients like eggs, bean sprouts, and peanuts. These could be bought from Thai farmers or grown in home gardens. The dish is called kway teow pad Thai. That means Thai-style stir-fried noodles. It is often shortened to 'pad Thai.' It includes salty, sour, and sweet flavors. These are central to Thai cuisine. It also includes spicy flavor. Bean sprouts and peanuts add crunch. The noodles are soft. The shrimp are chewy.",
+        "In the 1940s, there were major floods in Thailand. They led to disease outbreaks. Many people worried about germs. Pad Thai was seen as relatively safe. It was served steaming hot. The government shared a simple recipe with the public. It encouraged vendors to use wheeled carts. The carts had new and easily cleaned cooking tools. This let the dish be made to order.",
+        "Greeley writes that pad Thai first became popular in Bangkok. It was a convenient lunch. Then it spread to rural areas. Some vendors served it on banana leaves. They wrapped it in newspaper for easy transportation. Later, the Thai government supported Thai restaurants abroad. By 2007, nearly 12,000 Thai restaurants were operating worldwide. At home, it remains unusual for restaurants to serve pad Thai. Vendors who make it all day long are seen as its ideal form. That is just as Phibun intended."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:26:19.390Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-11/2026-10-11-inventing-pad-thai.webp",
+      "alt": "冷灰纸纹背景上一口抽象炒锅与米粉线条，旁有极简食材轮廓。",
+      "caption": "一道被设计出来的国菜。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-11-ai-47da2c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "教育部：教师发展中心全新上线 教师AI素养全覆盖培训启动",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-11",
+    "intro": "一个新上线的教师发展中心，一项面向全体教师的AI素养培训——教育部把这两件事放在了一起。",
+    "paragraphs": [
+      "你每天在教室里见到的老师，可能也正在当学生。教育部宣布，教师发展中心全新上线，同时启动教师AI素养全覆盖培训。也就是说，学AI这件事，这次对象不是学生，而是站在讲台上的那批人。",
+      "两条消息放在一起看，一条是平台，一条是行动。教师发展中心从名称上看，服务的是教师自身的成长；而AI素养培训，则是往这个方向里填进的第一批具体内容。前者提供去处，后者提供内容，像是先把房子盖好，再往里搬东西。",
+      "真正值得停一下的，是“全覆盖”这三个字。它说的不是先挑一部分老师试点，而是面向全体教师。"
+    ],
+    "topics": [
+      "教育",
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-10/10710502.shtml",
+      "originalTitle": "教育部：教师发展中心全新上线 教师AI素养全覆盖培训启动",
+      "publishedAt": "Sat, 10 Oct 2026 16:18:25 +0800",
+      "retrievedAt": "2026-10-11T00:20:31.566Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:20:28.855Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "China's Education Ministry Opens a New Teacher Development Center",
+      "intro": "China's Ministry of Education has launched a new online center for teachers and started AI literacy training for all of them.",
+      "paragraphs": [
+        "This news comes from China News Service, which covers education. The Ministry of Education launched a new Teacher Development Center. It is online now. At the same time, a new training program about AI has begun.",
+        "The training is described as full coverage. That phrase matters. It means the plan is aimed at teachers everywhere, not just a few schools. Not a small experiment in one city.",
+        "So why does AI matter for teachers? These tools can write, translate, and explain things. They can also make mistakes and sound confident anyway. Teachers need to know both sides.",
+        "A new center and new training together point to one idea. Understanding technology is becoming part of a teacher's job. That job keeps changing, year after year.",
+        "Still, one announcement does not tell us everything. We do not yet know the courses, the schedule, or how teachers will be tested. Those details will matter later.",
+        "So here is a question worth keeping. What should a teacher learn about AI? And what should stay human? Classrooms may answer that soon."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:25:31.159Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-11-2a310f",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-11",
+    "intro": "在10月10日世界精神卫生日到来之际，世卫组织发布新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式。",
+    "paragraphs": [
+      "10月10日是世界精神卫生日。就在这个日子到来之际，世界卫生组织发布了一份新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式。世卫组织把这一转变称为“去机构化”。",
+      "世卫组织指出，目前许多精神健康问题患者仍生活在大中型精神病院和社会照护机构中。其中近半数人在这些机构中被非自愿收治，时间长达数月、数年甚至数十年，与外界隔绝。",
+      "从机构化照护转向社区精神卫生照护的过程被称为“去机构化”，旨在帮助那些在精神病院长期住院（六个月或以上）的人重返社区生活，并获得所需的照护、支持和机会，从而过上充实的生活。新指南为精神病院管理者实施“去机构化”列出了切实可行的行动，重点包括：减少精神病院入院人数和长期住院，改变机构做法以更好地保护人们的权利，以及帮助人们出院并在所需支持下重返社区生活。",
+      "指南还明确指出，去机构化不能仅靠医院实现。获得住房、医疗保健、社会支持、教育、就业机会以及家庭支持，对于帮助人们在社区中过好生活至关重要。",
+      "许多国家正在努力加强社区精神卫生服务，但进展仍不均衡。世卫组织《精神卫生地图集》显示，在报告数据的国家中，仅有9%已完全转向社区精神卫生照护，而超过半数（53%）仍处于改革初期阶段。在入住精神病院的人中，超过四分之一（28%）住院时间超过六个月。",
+      "这份新的去机构化指南与今年世界精神卫生日的主题“倾听亲身经历：以真实的声音推动真正的改变”相契合，并强调应确保有亲身经历者成为塑造影响其生活的政策、服务和决策的积极参与者。这份指南由来自世界各地的专家共同制定，其中包括有亲身经历者。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142970",
+      "originalTitle": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
+      "publishedAt": "Fri, 09 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-11T00:21:18.633Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:21:17.436Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-11-7-4509ce",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "哈佛商学院把7位老师的AI分身放进创业训练营，教授觉得瘆人，学生却喜欢",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-11",
+    "intro": "哈佛商学院把7位老师的AI分身放进了创业训练营：学员随时能练路演，教授自己觉得有点瘆人，学生却很喜欢。",
+    "paragraphs": [
+      "“我就是想要一个随时能说话的平台，哪怕对方是个克隆体。”美国波士顿大学机械工程博士生普拉纳夫·苏尔塔尼亚（Pranav Sultania）说。他一边攻读博士学位，一边推进创业项目，能够接受创业辅导的时间并不固定。今年4月，哈佛商学院上线为期8周的创业训练营HBS Foundry，其中的教师人工智能（AI）分身为他提供了一个可以随时交流、反复练习的对象。",
+      "这个项目最受关注的是7位哈佛教师和高级讲师的AI数字分身。据《财富》报道，这些教师均自愿参与制作，接受了专门访谈、录制和测试，并持续提供反馈。哈佛还与AI视频生成公司HeyGen合作，让学员能够通过视频通话，与以真实教授为原型制作的AI虚拟人物交流。花699美元上一期8周课程，学员可以带着自己的创业想法进入平台，在AI导师的指导下打磨商业模式、完善创业计划，并反复模拟投资人路演、销售电话和董事会会议。作为对比，哈佛商学院2026—2027学年工商管理硕士（MBA）一年的学费为84760美元，前者还不到后者的1%。不过，两者并非同一种教育产品：哈佛创业训练营不是MBA学位项目，不授予学位，也不计入学分，它仅仅面向创业者提供商业知识学习、创业辅导和模拟训练。",
+      "这些AI“教授”不仅能够反复回答问题，还被刻意训练得不那么“好说话”。哈佛创业训练营教师联合主席汤姆·艾森曼（Tom Eisenmann）说，团队有意让AI避免大语言模型常见的迎合倾向，主动质疑创业者的想法。几乎没有创业项目能在第一次提交时获得认可，甚至有人连续花费10个小时与AI反复交流，不断修改自己的方案。媒体记者莎拉·凯斯勒（Sarah Kessler）也亲自测试了这套系统。她故意向哈佛商学院高级讲师杰夫·巴斯甘（Jeff Bussgang）的AI分身推销一个荒诞的创业想法——打造一个让香蕉配送更快的“香蕉版Uber”。屏幕中的巴斯甘始终保持着礼貌的微笑，但并未被这个创业想法说服。随后，凯斯勒向真人巴斯甘介绍了同样的项目，得到的反应也并无二致。谈及自己的AI分身，巴斯甘承认，这种模拟确实让人觉得有点“瘆人”，但他随即补充道：“我的学生们很喜欢它。”",
+      "哈佛不是唯一这么做的学校。据报道，哈佛创业训练营已在全美50个州的100多所大学进行测试，2026年夏季约有760名创业者通过所在高校参与该项目。美国佐治亚理工学院便是其中之一。该校创业项目负责人哈罗德·所罗门（Harold Solomon）将哈佛创业训练营纳入面向博士生和教师的12周创业工作坊。他坦言，自己每周最多只能安排20至30场辅导会议，再多便力不从心。“我们无法一直靠面对面交流服务整个班级，更不用说整个校园了。”实际上，佐治亚理工早在2016年就开始使用AI助教吉尔·沃森（Jill Watson），在课程讨论区回答学生提问。2025年，该校教授大卫·乔伊纳（David Joyner）又为自己制作了名为“DAI-vid”的AI分身，并将其用于生成式AI在线课程。英国帝国理工商学院也开展了类似尝试。2024年，该校为教授戴维·施里尔（David Shrier）制作了名为“Davatar”的AI分身，将其用于AI创业课程。2025年，学院又推出3个教师数字分身，应用于在线MBA和高级管理人员MBA课程，为学生提供课程答疑等支持。美国伊利诺伊大学厄巴纳—香槟分校的实践则更进一步。据该校9月16日发布的报道，吉斯商学院已有约12名教师拥有声音或视频数字分身。教师只需接受一次约30分钟的录制，学校便可以根据其形象和声音生成数字讲师。此后，当课程内容发生变化时，教师只需修改文稿，就能生成由AI分身讲授的新视频，而无须重新录制。",
+      "当教授的知识、声音乃至形象都可以被AI复制，高等教育的价值是否也会随之改变？哈佛商学院认为，Foundry能够将创业支持扩展到更多人，包括那些可能永远无法进入哈佛学习、也难以接触主要创新生态系统资源的创业者。乔伊纳也认为，AI分身有助于扩大优质教育资源的覆盖范围，但教授本人必须深度参与制作，确保数字分身能够准确反映其教学理念。AI能够提供知识和指导，并不意味着它能复制完整的教育体验。美国斯坦福大学讲师基安·卡坦弗鲁什（Kian Katanforoosh）指出，AI可以回答无数问题，用不同方式解释同一个概念，却无法真正了解一名学生。真人教授能够长期观察学生的成长、发现其潜力，并凭借自身的声誉为学生提供推荐和支持，而AI目前难以承担这样的角色。对于被“克隆”的哈佛商学院教授希卡尔·高斯（Shikhar Ghosh）而言，AI分身的意义并不是取代自己，而是让创业者在与真人导师见面前充分准备，把有限的面对面交流时间留给更需要人类判断和对话的问题。",
+      "还有一个细节挺有意思：Foundry最受欢迎的功能之一，并非AI分身，而是供创业者彼此交流的同伴论坛。艾森曼表示：“他们喜欢AI，也在使用AI，从中学到了很多。但说到底，还是离不开人与人之间的交流。”"
+    ],
+    "topics": [
+      "AI 与计算",
+      "教育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572708.shtm",
+      "originalTitle": "哈佛“克隆”7位名师：有点瘆人但学生们喜欢",
+      "publishedAt": "2026-10-10 20:20",
+      "retrievedAt": "2026-10-11T00:24:20.694Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-11T00:24:14.769Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-11/2026-10-11-7-4509ce.webp",
+      "alt": "冷灰纸纹上长桌排列数个发光几何方块，细线相连。",
+      "caption": "课堂里的AI分身。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-10-anger-or-fear-dogs-may-be-able-to-read-it-on-you",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "狗可能从你的脸上分辨出你在生气还是害怕",
@@ -3095,212 +3324,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-09-26-nigeria-faces-the-world-s-highest-projected-deat",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "研究估算：超级厄尔尼诺或致尼日利亚高温死亡人数全球最高",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-26",
-    "intro": "芝加哥大学气候影响实验室的研究者结合温度预测与全球24,000多个地区的热致死亡率数据，估算出超级厄尔尼诺可能带来的额外死亡，并指出非洲萨赫勒地区风险最高。",
-    "paragraphs": [
-      "未来六个月，全球可能多出约45.1万例和高温有关的死亡。这是芝加哥大学气候影响实验室的一项新估算。研究者先使用欧洲中期天气预报中心的季节预报，判断接下来半年气温将比常年高出多少；再运用该实验室经同行评议的已有研究，将温度变化换算为预计增加的热相关死亡人数。结果显示，从现在到2027年2月底，全球预计多出451,000例高温死亡。",
-      "风险最集中的地方在非洲的萨赫勒地区。它是一条横跨非洲的干旱地带，从大西洋延伸到红海，北接撒哈拉沙漠，南邻热带草原，面积约305万平方公里，穿过毛里塔尼亚、马里、尼日尔、乍得、尼日利亚、苏丹、塞内加尔和厄立特里亚的部分地区。研究指出，2026年9月到2027年2月底，受影响最重的四个国家是尼日利亚、苏丹、尼日尔和乍得。",
-      "为什么是它们？因为高温要命，往往不是因为温度本身，而是因为人缺乏躲避高温的条件。尼日利亚2025年估计有超过60%人口生活在国家贫困线以下，即使家中通电，也常遭遇停电。苏丹因战争摧毁了商业、就业和电力供应，2025年约57%的人口处于极端贫困。尼日尔2021年有41%人口生活在国家贫困线以下，乍得2022年为44.8%。许多当地人依赖农业，易受干旱和歉收冲击。2024年，尼日尔仅21%人口有电力接入，乍得仅13%；没有电，连风扇都无法运行。研究还指出，在相似升温幅度下，贫困地区的热相关死亡通常多于富裕地区，因为低收入地区保护民众的资源更少。",
-      "具体到数字：与正常年份相比，这四个国家预计共多出66,800例高温死亡。其中近一半——31,400例——集中在人口最多的尼日利亚（2.375亿人），使其成为全球最可能面临最高热致死亡数的国家。苏丹预计17,500例，尼日尔10,000例，乍得8,000例。未来六个月，全球部分最大的气温异常将出现在萨赫勒地区，这也是该区域受超级厄尔尼诺冲击更重的原因。",
-      "谁最容易被高温伤害？这项研究本身未直接分析高危人群，但已有大量研究指出：65岁以上老人、0–4岁幼儿及患有慢性病者风险更高。在非洲，长期户外劳作（如农民）且缺乏室内降温条件的人群同样高度脆弱。另一项研究显示：低收入国家居民在高温天人均额外用电量，仅够支撑一盏LED灯亮四个月，远不足以驱动空调。研究者认为，全球变暖将加剧不平等——富裕国家会增加空调使用，而更热、更穷的国家则缺乏资金与稳定电力来保护民众。全球有18个国家正陷于‘极端高温+无制冷能力’的致命组合，多数位于撒哈拉以南非洲北部，包括尼日尔、马里、布基纳法索和乍得。",
-      "那么现在能做什么？研究团队建立了可搜索的‘适应清单’地图，汇总各国气候适应行动。他们认为，对今年高温最有效的短期措施，是已被实践验证的方案：建立高温预警系统，并配套实施热行动计划，帮助民众避暑；向老年人和脆弱群体开展针对性健康宣教；在高风险区域设立降温中心与饮水点；在一天中高温风险最高的时段，为户外劳动者提供保护；医院需提前增聘人员、储备物资、优化流程，以应对日射病与热射病患者激增。同样的高温落在不同地方，夺走的生命并不相同——有没有电、有没有预警、医院能否接住病人，最终决定了那条温度曲线会变成什么。"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/nigeria-faces-the-worlds-highest-projected-death-toll-from-super-el-nino-heat-what-could-save-lives-292786",
-      "originalTitle": "Nigeria faces the world’s highest projected death toll from super El Niño heat: what could save lives",
-      "publishedAt": "2026-09-25T09:50:36Z",
-      "retrievedAt": "2026-09-26T00:49:52.766Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-26T00:49:43.515Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 41,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-25-138c28",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家在果蝇体内找到一个衰老“开关”，关掉它，寿命明显延长",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-25",
-    "intro": "中国科学家发现，关闭果蝇体内一种名为Lsp2的蛋白质，可显著延长其寿命，且运动、生殖和抗应激能力均未受损。相关成果于2026年9月23日在线发表于《自然》杂志。",
-    "paragraphs": [
-      "如果有一种办法，让人不用少吃也能活得更久，那大概是很多人的愿望。科学界早有线索：减少饮食中蛋白质的摄入，能延长酵母、果蝇和小鼠等模式生物的寿命。可蛋白质是身体必需的营养，总不能一直不吃。科学家一直在追问：蛋白质营养究竟如何触发衰老信号？能不能只关闭其中促衰老的部分，让人们既能享受美食，又能活得久、活得好？湖南师范大学教授翟宗昭团队联合湖南大学副教授王奕蓉团队、中国科学院上海营养与健康研究所研究员陆炯明团队，在果蝇体内找到了答案。他们从黑腹果蝇体内一个名为Lsp2的氨基酸感应诱导因子入手，发现关闭Lsp2可精准降低核糖体蛋白翻译并延长寿命。相关成果9月23日在线发表于《自然》。",
-      "Lsp2不是新发现的蛋白。它早就在果蝇体内被科学家描述过，还被贴上“幼虫储存蛋白”的标签，功能似乎早已写清，因此并不受衰老研究青睐。美国布朗大学教授Marc Tatar的研究组也曾注意到Lsp2受蛋白质营养强烈诱导，但没太把它当回事。转机来自一次不期而遇。翟宗昭的博士生、该论文共同第一作者王骏原本研究免疫方向，进展并不顺利；翟宗昭建议他换个思路，探索蛋白质营养研究。王骏发现，Lsp2是一个特异受必需氨基酸诱导的脂肪因子——只有必需氨基酸配齐了才会被唤醒，缺一样都不行。果蝇脂肪体在功能上类似哺乳动物的脂肪组织和肝脏。",
-      "这个“蛋白质质检员”被唤醒后，到底在身体里干了什么？翟宗昭团队发现，它在给细胞的蛋白质翻译机器“踩油门”。机制性雷帕霉素靶蛋白复合物1（mTORC1）是连接氨基酸营养感知与机体合成代谢（包括蛋白质翻译）的核心枢纽。Lsp2被唤醒后，会反过来增强mTORC1的活力，让细胞优先翻译核糖体蛋白mRNA，多产零件加速合成代谢。短期看，这是身体在营养充足时“抓紧干活”；长期看，这个“油门”一直踩着，寿命反而缩短。",
-      "这个方向的最初线索，其实很偶然。王骏在做睡眠分析时，发现过表达Lsp2的果蝇明显比对照组死得快。这让他们怀疑Lsp2是不是一个寿命调控因子。翟宗昭团队与陆炯明团队联合开展研究，建立起Lsp2调控寿命的因果关系。实验结果很清楚：在含不同酵母（实验室果蝇的主要蛋白质来源）浓度的食物中，Lsp2突变体果蝇都活得更久，雌性果蝇中位寿命延长14%至28%；相反，过表达Lsp2则使寿命缩短。更值得注意的是，Lsp2突变体并未表现出常见的“延寿代价”，在运动、生殖和抗应激性等方面都表现正常。",
-      "研究中还有一个意外。翟宗昭团队在计划后续研究时，通过武汉大学教授宋威参加的国际学术会议得知，日本理化学研究所的Fumiaki Obata团队也在研究Lsp2。双方交流后发现结论相似，于是决定合作向《自然》投稿。最终，《自然》以背靠背形式于同一天发表两篇论文。两项成果均聚焦果蝇Lsp2蛋白，从不同角度共同揭示生理性蛋白质翻译调控机制在控制动物寿命中的关键作用。陆炯明表示，中国和日本科研团队，一个聚焦营养感应对成虫翻译机器的推动，一个关注幼虫储存蛋白对成虫翻译机器的塑造，两个角度拼在一起，让Lsp2-核糖体蛋白翻译这条通路与寿命的关系得到更全面、扎实的证实。翟宗昭表示，该研究把机体水平的氨基酸营养感知、选择性翻译与动物寿命直接联系了起来，提出衰老也许并非只能靠“少吃”来延缓，为打破营养与寿命之间的冲突提供了新思路。"
-    ],
-    "topics": [
-      "生命与演化",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/572037.shtm",
-      "originalTitle": "不挨饿也能长寿的“开关”找到了",
-      "publishedAt": "2026-09-24 08:38",
-      "retrievedAt": "2026-09-24T23:58:39.891Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-24T23:58:36.386Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-25/2026-09-25-138c28.webp",
-      "alt": "果蝇剪影停在关闭的开关上，冷灰纸纹背景",
-      "caption": "一个被关掉的开关，与延长的生命",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-25-when-we-were-prey",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "在成为猎手之前，人类也曾是猎物",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-25",
-    "intro": "一块带着咬痕的下颌骨，讲出人类在成为猎手之前，先当过猎物。",
-    "paragraphs": [
-      "将近两百万年前的非洲，一只豹子扑向一个早期人类，牙齿咬进了对方的脸，在下颌骨上留下细小的痕迹。这块骨头后来变成了化石，也留下了一段我们不太习惯提起的历史：在成为猎手之前，人类先当过猎物。这块下颌骨属于能人（_Homo habilis_），它是我们人属中最早的成员之一，人属包括现代人和我们最近的亲戚。乍一看，骨头上的痕迹像几道划痕，但一项新的细致分析得出了不一样的结论：这些咬痕更像是豹子捕猎留下的。",
-      "这块化石出自坦桑尼亚的奥杜威峡谷。从二十世纪三十年代起，研究者在那里挖出大量早期人类骨骼，包括这两块带咬痕的下颌骨，还有石器。锋利的石头可能被当作刀，动物骨头上的切痕说明早期人类吃过肉，于是不少人推断能人是猎人。但另一个可能是，他们吃的是从更强壮的猛兽那里捡来的剩饭。要分清这一点，得先知道是谁咬的。西班牙阿尔卡拉大学的玛丽娜·维加拉-里克尔梅和同事用人工智能分析这些骨头。鬣狗经常吃死掉的尸体，豹子却很少吃不是自己杀死的动物，所以咬痕属于谁，直接关系到这个人是被猎杀还是死后被啃食。区分豹子和鬣狗的咬痕，连专家都头疼，人工智能却能从上万个细节里找出人眼看不见的规律。研究团队用现代食肉动物的数千张咬痕图像训练它，再让它去看这些骨头，结果发现两件能人标本上的咬痕最可能来自豹子。论文合著者、马德里非洲演化研究所联合主任曼努埃尔·多明格斯-罗德里戈说：‘那个体是被猎杀的，不是被捡食的。’",
-      "那么，身边有狮子、豹子这样的邻居，能人的日子是什么样？在能人出现之前，我们的猿类祖先大部分时间待在树上，遇到危险就蹿回树上。到了能人生活的年代，人类已经能直立行走，在地面上待的时间长得多。开阔的草原给了他们新的机会：直立让他们走得更远，也更容易发现远处的食物。但站在空旷的地方，也更容易被猛兽盯上。美国南加州大学的演化生物学家克雷格·斯坦福研究灵长类中的捕食者和猎物关系，他在坦桑尼亚观察了很多年。他说，在开阔草原上生活对早期人类来说充满风险，即使猛兽只杀死很少的人，这种威胁也会影响早期物种怎么生活、怎么行动。斯坦福说：‘捕食也许很少发生，但这不代表它不重要，毫无疑问，捕食影响了我们的演化。’",
-      "很多猎物靠群居来保护自己。斯坦福解释说：‘你有更多眼睛来发现逼近的捕食者。’当一只动物发现危险并发出警报，其他同伴就能跑开或者爬到安全的地方。成群还有另一个好处，就是可以反击。在坦桑尼亚，斯坦福看到雄性疣猴一起对付威胁，它们会跳到威胁它们的黑猩猩身上。一只成年雄性黑猩猩大约54公斤（120磅），一只疣猴只有大约9公斤（20磅），但三只疣猴加起来的重量就有黑猩猩的一半，它们一起咬黑猩猩，这样的集体攻击能把黑猩猩赶走。草原上的早期人类也许同样从抱团中受益。面对大型猫科动物的威胁，那些更警觉、更愿意合作的个体可能更容易活下来，并且把这样的特点传给后代。",
-      "活下来不只是别成为别人的食物，还包括怎么吃到自己的食物，这里合作同样有用。美国史密森尼国家自然历史博物馆的布里安娜·波比纳研究古代人类吃什么、怎么获得食物。她说，化石骨头上的痕迹能说明很多问题。早期人类会从任何能拿到的地方割肉。想想那些没有多少肉的骨头，比如脚踝骨、脚和腿下部的骨头，上面留下的屠宰痕迹说明，人类主要是在猛兽吃完之后捡剩下的碎肉。面对大型猎物，早期人类很可能等大型食肉动物把好肉吃完之后才吃。这不代表他们不狩猎，他们可能自己捕猎小动物，但放倒大型猎物要难得多，也危险得多。波比纳说：‘早期人类能吃到肉的时候，大概只能拿到不太好的部位，最好的部分被猛兽拿走了。’不过她补充说，情况在某个时候变了。到大约一百五十万年前，化石显示大型猎物最肥美的部位上出现了石器切割的痕迹，从那时起，人类似乎不再只吃剩饭了。",
-      "化石不能直接告诉我们早期人类是否合作，但骨头上的痕迹指向一个画面：我们并不是天生的顶级捕食者。在很长一段时间里，人类一边在食物网中间小心翼翼地活着，一边学会了互相报警、互相保护、分享信息。成为猎物这件事，可能正是我们学会合作的原因之一。下次再说起人类站在食物链顶端，不妨想一想，为了走到那里，我们花了将近两百万年。"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/human-evolution-hunted-prey-predator",
-      "originalTitle": "When we were prey",
-      "publishedAt": "Thu, 24 Sep 2026 10:30:00 +0000",
-      "retrievedAt": "2026-09-24T23:59:34.403Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-24T23:59:32.259Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "When Humans Were Prey",
-      "intro": "Science News Explores reports that a new study of an ancient jawbone suggests early humans were sometimes hunted by leopards.",
-      "paragraphs": [
-        "Nearly 2 million years ago, a leopard in Africa sank its teeth into the face of an early human. This bite etched tiny tooth marks into the unlucky person’s jawbone. That bone belongs to Homo habilis. It’s one of the earliest members of our genus. At first glance, the bone marks look like scratches. But a recent, close analysis tells another story. The bite marks suggest leopards hunted these early folk. The fossil was found at Olduvai Gorge in Tanzania. Since the 1930s, researchers have unearthed many bones from our early ancestors at this site. They include a pair of tooth-marked jawbones. Other finds include tools made of stone or bone. Cut marks on animal bones suggest early humans ate meat. This led many scientists to assume H. habilis was a hunter. But these early people may have dined on leftovers scavenged from bigger, stronger predators.",
-        "Researchers used artificial intelligence to examine H. habilis bones. AI can compare thousands of details. It can spot patterns too subtle for the human eye to see. Her team used thousands of tooth-mark images from modern carnivores to train the AI. Then they showed it the bones in question. Two Homo habilis specimens show tooth marks most likely inflicted by leopards. Leopards rarely eat meat they didn’t kill. That makes it look less like scavenging. Study co-author Manuel Domínguez-Rodrigo says: 'That individual was preyed upon. Not scavenged.'",
-        "For millions of years before H. habilis, our ape ancestors spent most of their time in trees. When danger emerged, they’d dart into the trees and out of reach. By the time H. habilis evolved, humans were walking upright, spending far more time on the ground. An open savanna offered new opportunities. But being out in the open may have made them easier targets for powerful predators. Predation may have been rare, but there’s no question that predation influenced our evolution. Many prey species rely on group living for protection. You have more eyes to detect a predator coming. When one animal spots danger and yells an alarm, others can run or climb to safety. Safety in numbers isn’t just about watching. It can also help to fight back. In Tanzania, male colobus monkeys work together to fend off threats. Early humans on the open savanna may have similarly benefited from teaming up. Faced with threats from big cats, people who were more alert and willing to cooperate may have been more likely to survive. If so, they could have passed along those traits to their offspring.",
-        "Survival wasn’t just about not becoming someone else’s meal. It also was about getting access to your own high-quality food. Early humans would have cut meat from wherever they could get it. Consider butchery marks on bones that don’t have a lot of meat — like ankle bones and lower foot and leg bones. We think humans mostly got the scraps after the predators ate. Such a pattern suggests people were scavenging. But by around 1.5 million years ago, fossils show stone-tool cut marks on bones from some of the meatiest parts of big game. By then, people were no longer eating just the leftovers."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-25T00:05:54.946Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 52,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-25-gentle-exercise-may-be-more-effective-than-medic",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "温和运动缓解慢性疼痛，可能比常用药物更有效",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-25",
-    "intro": "一项涵盖近25万名参与者的伞形综述发现，运动可显著减轻急性和慢性疼痛；且短时、低强度的运动效果更佳。",
-    "paragraphs": [
-      "每五个人中就有一人经历某种形式的慢性疼痛，这是一个持续存在的全球健康问题。药物治疗存在获取不均、成瘾、不良副作用等问题；而所谓‘自然 remedies’（自然疗法）则未受监管、不可靠。除运动外，目前尚无其他被广泛验证的非药物干预方式。",
-      "由阿德莱德大学研究人员领衔的一组疼痛与运动专家开展了一项伞形综述（meta-meta-analysis）。团队共分析了158项系统综述，覆盖超过2700项随机对照试验，涉及近25万名参与者。此前多数研究仅聚焦特定疾病（如骨关节炎）或特定运动类型（如瑜伽），适用性受限。本研究目标不仅是确认运动是否缓解疼痛，更是为将运动作为临床治疗手段建立依据；研究者指出，目前医生极少将运动作为常规推荐方案。",
-      "运动可一致且显著减轻急性和慢性疼痛，不仅限于肌肉骨骼类疾病，神经性、炎症性和癌症相关疼痛患者也观察到获益。在1至10分疼痛量表上，运动平均降低疼痛评分1.1分。研究者称，这一改善幅度比常见药物在同类研究中报告的镇痛效果高出60%。运动时人体释放内源性阿片类物质（如内啡肽），可缓解疼痛、提高痛阈并改善情绪。",
-      "较短持续时间、较低强度的运动方案反而带来更大的疼痛减轻效果。阿德莱德大学研究作者本·辛格在声明中指出：‘我们的研究发现，运动与急慢性疼痛的大幅减轻相关，无论有氧运动、抗阻训练，还是瑜伽、普拉提或太极等温和运动；更重要的是，更多运动未必更好——事实上，短时、低强度项目显示出更大的疼痛减轻效果，表明人们无需练得更久、更狠，即可获得有意义的改善。’",
-      "研究作者卡罗尔·马赫表示：‘在我们寻求药物之外安全有效的止痛方式之际，这些发现为将运动纳入常规疼痛护理提供了有力证据。’团队希望推动医生将运动视为药物的替代方案，或更全面治疗策略的一部分。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/gentle-exercise-may-be-more-effective-than-medications-at-managing-chronic-pain-1285269/",
-      "originalTitle": "Gentle Exercise May be More Effective Than Medications at Managing Chronic Pain",
-      "publishedAt": "Thu, 24 Sep 2026 22:00:00 +0000",
-      "retrievedAt": "2026-09-25T00:00:40.220Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-25T00:00:38.083Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-25/2026-09-25-gentle-exercise-may-be-more-effective-than-medic.webp",
-      "alt": "纸面压痕形成的平缓起伏曲线，冷灰色调",
-      "caption": "温和的节奏，或许比药片更有效",
-      "kind": "editorial"
     }
   }
 ]
