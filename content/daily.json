@@ -1,5 +1,118 @@
 [
   {
+    "slug": "2026-10-12-ai-for-science",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI for Science重塑科技竞争底层逻辑",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-12",
+    "intro": "今年七月，美国发布《科学：新黄金时代》报告。上海科学院研究员李万认为，它不只是政策升级，而是一场围绕数据、算力和制造闭环的生态争夺。",
+    "paragraphs": [
+      "八十多年前，范内瓦·布什写下《科学：无尽的前沿》。这份报告为美国今日的科技强国地位奠定了思想基础，也深刻影响全球科技发展格局。今年7月，美国发布《科学：新黄金时代》报告，围绕科研组织方式、资助机制、产业协同创新以及AI驱动科学研究等方面提出一系列改革举措，旨在系统重塑美国科技战略布局。上海科学院研究员李万指出，从《无尽的前沿》到《新黄金时代》，本质上是应对新科技革命与产业变革复杂巨系统演进的‘生态重塑’。",
+      "李万指出，当前美国科技战略正在创新范式、科研组织、价值导向三方面发生历史性转变。一是创新范式从‘线性模型’向‘AI驱动的复杂生态系统’演进；二是科研组织从‘构建传统建制’向‘呼唤敏捷创新与破坏性重构’转变，1945年报告催生了美国国家科学基金会（NSF）等一系列‘遗产机构’，形成政府、工业界与学术界的传统铁三角，而2026年报告尖锐指出当前体制‘奖励从众而非大胆创新’，导致科学生产力放缓；三是价值导向从‘纯科学探索’转向‘科学与制造工艺的重新融合’，既要‘仰望星空’（重返月球、布局量子、核能等前沿），更要脚踏实地重构涵盖研发、中试、量产的完整产业创新生态体系。",
+      "这些转变受三大因素驱动：一是新科技革命与产业变革进入技术突变期叠加科学革命孕育期，重大科学突破、技术颠覆和创新破坏的不可预见性和涌现性大大增强；二是全球创新版图多极化趋势增强，美国科技霸主地位正受到前所未有的挑战；三是索洛悖论与创新活力萎缩迫使美国重新激发‘熊彼特式’企业家精神。报告也指出，虽然美国的研发投资增加了，但科技进步速度却放缓了；官僚主义、科研资源的集中化导致对颠覆性创新的排斥，即克里斯坦森所谓的‘创新者的窘境’。",
+      "《科学：新黄金时代》提出，美国不能只关心科学发现是否发生在本国，还要关心发现能否在本国完成验证、制造和规模化。李万认为，这不是简单的‘去全球化’退缩，而是大国对‘科技-产业’创新闭环和生态控制权的绝对争夺。在AI for Science（AI4S）范式下，研发与制造的边界正在剧烈消融，制造正在成为研发的一部分：AI模型的迭代高度依赖于制造现场的高质量数据、精密测量以及中试环节的工艺反馈。‘研造一体’是大国把握新科技革命与产业变革的必然选择。日本采取‘不对称防御’与‘Made with Japan’策略，欧盟强调‘战略自主’和‘技术主权’。",
+      "李万指出三个重要信号：第一，从‘分散式探索’向‘国家级平台工程’跃迁，如‘创世纪计划’尝试高度集中算力、算法、顶尖人才和跨学科资源，打造类似‘曼哈顿工程’或‘阿波罗计划’的超级AI科研引擎；第二，AI原生促进科研主体角色重定义——从‘工具’走向‘硅基科学家’，美国已不再把AI视为显微镜、望远镜那样的‘效率工具’，而是‘拥有自主发现能力的科研主体’，具备假设生成、自动实验验证、自我进化能力；第三，打响‘数据主权与数据质量’的底层控制战，防范AI幻觉，构建‘经过严格验证的知识库’以争夺未来科学发现的‘唯一解释权和黄金标准’。他特别提到日本教训：其在蛋白质折叠上积累的高质量晶体学数据被DeepMind大模型无偿吞噬并转化为美英商业壁垒。",
+      "李万建议中国加快AI原生自主科研体系发展，大力支持AI原生科学仪器、自主实验室等研发与迭代；加快建设全链条自主可控的集成电路和人工智能产业；改革科研评价体系，发展容忍失败、极度敏捷的进化型科研组织；推进科学数据有序开放共享、高质量科学数据集和智能可信科研生态建设；依托‘全产业链场景’，打造全球唯一的‘AI+科学+制造’超级试验场，让AI设计的新产品最快完成验证和量产，把世界上最大的科研与产业体系变成全球最大的‘自动物理实验室’；将‘Made in China’升级为‘Innovated with China’，强化开放合作，引领普惠性科技革命与产业变革。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "科技竞争"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572732.shtm",
+      "originalTitle": "AI for Science重塑科技竞争底层逻辑",
+      "publishedAt": "2026-10-11 12:18",
+      "retrievedAt": "2026-10-12T00:36:52.323Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-12T00:36:47.133Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "AI and the New Race in Science",
+      "intro": "A new report asks how artificial intelligence is changing the way countries compete in science and technology.",
+      "paragraphs": [
+        "In 1945, Vannevar Bush wrote 'Science: The Endless Frontier.' That report helped build America's powerful science system. In July 2026, the United States released 'Science: A New Golden Age.' It proposes changes in research organization, funding, industry collaboration, and AI-driven science. A reporter from Wen Hui Bao interviewed Li Wan, a researcher at Shanghai Academy of Sciences, about this shift. Li Wan said the change is not just a policy upgrade. It is a deeper attempt to reshape the whole science ecosystem.",
+        "Li Wan described three historic changes. First, innovation moves from a linear model to an AI-driven complex ecosystem. Second, research organization moves from traditional institutions to agile and disruptive rebuilding. Third, values shift from pure science toward combining science with manufacturing. He said three forces drive these changes: the new technology revolution, a more multipolar innovation map, and the Solow paradox. The report warns that American research investment has grown, but scientific progress has slowed. It says the system often rewards conformity instead of bold innovation.",
+        "The report says America should not only care whether discoveries happen at home. It should also care whether they are tested, manufactured, and scaled at home. Some people call this technology nationalism or a return of manufacturing. Li Wan said that view is too simple. He sees a bigger struggle over the whole innovation loop from science to industry. Japan is using 'asymmetric defense' and 'Made with Japan' in fields like precision manufacturing and materials. The European Union talks about strategic autonomy and technological sovereignty. This is about control over data, computing power, and manufacturing links.",
+        "Li Wan also talked about AI for Science, or AI4S. Under AI4S, the line between research and manufacturing is blurring. Factories can become part of research, because AI models need high-quality data and process feedback. He said countries must combine research and manufacturing. He cited Thomas Piketty, who argued that inequality in America comes from technological innovation. Li Wan said science should benefit many people, not just a few. He said China can use its large manufacturing ecosystem. China can build irreplaceable nodes in global science chains. It can move from 'Made in China' to 'Innovated with China.'",
+        "The report also treats AI as more than a tool. Li Wan said the United States wants AI to become a research subject with its own discovery ability. It proposes a Genesis plan, a national platform project like the Manhattan Project or Apollo program. It wants AI-native research infrastructure and autonomous laboratories. The report also warns about data quality and data sovereignty. It wants a strictly verified knowledge base for AI. Li Wan mentioned Japan's protein folding data, which was used without payment by DeepMind's model. He said China should share scientific data in an orderly way. It should build high-quality datasets and trusted research systems. It should use open-source AI to encourage more innovation. It can create a super test field for AI, science, and manufacturing."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-12T00:43:14.979Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-12-some-germs-ride-a-superhighway-at-the-edge-of-sp",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "微生物在太空边缘搭上超级高速公路",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-12",
+    "intro": "在离地几十公里的高空，本该没有生命，科学家却在那里发现了我们身边最常见的微生物。",
+    "paragraphs": [
+      "如果能把一个人悬停在离地面大约30公里的地方，他会看到什么？那里是平流层，夹在地球和太空之间。脚下，地平线开始显出弧度；头顶，天空是黑的。那里的气压只有海平面的百分之一，人会喘不上气，血液在体内沸腾。气温能低到零下60摄氏度，强烈的紫外线还会损伤DNA。按我们熟悉的标准，这足以杀死大多数生命。可那里偏偏住着一些活物，而且数量多得让人意外。",
+      "佛罗里达大学的微生物学家布伦特·克里斯特纳从2008年起在大气层里寻找生命。他想知道地球宜居区的上边界在哪里，也想知道火星那种寒冷、几乎没有空气、被辐射轰击的表面能不能留住生命。他当时的研究生诺埃尔·布莱恩把采样气球放到38公里（24英里）高。结果让她大吃一惊：‘我们没有碰到一个找不到活物的高度。’克里斯特纳说：‘如果你从平流层取一个微生物，把它放在火星表面，它甚至不会察觉有什么不同。’更让人意外的是2025年团队公布的结论：它们不是我们想象中生活在火山温泉里的极端环境微生物，而是常见于农作物、花园，甚至人的皮肤上的种类。这些微生物似乎过着秘密的双重生活，以客机飞行高度的两三倍在全世界移动。克里斯特纳形容，大气对它们来说就像一条高速公路，几周之内就能完成全球旅行，然后跨越大洋去寻找新的落脚点。",
+      "科学家往高处找生命，已经找了很久。1935年，美国陆军航空队在南达科他州上空放出一只氦气球，升到22公里（14英里），创下世界纪录。两名飞行员坐在加压吊舱里记录温度、磁场和辐射，还投下一个无菌采样器。样品后来培养出10种细菌和真菌。但那是在人们发现DNA之前，科学家除了这些细胞的形状和它们熬过的条件，几乎没能知道更多。将近40年后，苏联科学家用火箭把粘性采集器送到48到77公里（30到48英里）的中间层，回收后上面粘着几个活细胞。克里斯特纳说：‘但根本没法确认苏联人采到的是什么，那些微生物可能只是来自地面的污染。’2000年代初，美国航天局的飞机在20公里（12英里）高空收集宇宙尘埃，微生物学家戴尔·格里芬让粘性采集器搭了几次便车。他培养出几种细菌，并做了基因条形码检测——只看一个基因的一小段，就能大致判断它属于哪个属。这些微生物和已知生活在偏远岛屿、火山土壤里的种类是近亲。格里芬猜测，也许是火山喷发把它们送上了高空。",
+      "这些早期研究有个共同的短板：它们都依赖在实验室里培养。可自然界里99%的微生物根本培养不出来，科学家没法复制它们需要的环境。所以那些测试既数不清平流层里有多少活细胞，通常也认不出物种，更没检验过它们能不能扛住平流层的低温、干燥和紫外线。克里斯特纳和布莱恩换了个思路：既培养，也直接数活细胞的总数。他们估计，总会有一个高度，活细胞降到零，那里就是地球生命的外边界。布莱恩最初的采集器是用泡沫塑料和轻木自己做的，挂在得克萨斯州和路易斯安那州放出的氦气球上。每个采集器都带一个飞行中始终不开的对照舱，用来估算地面的微生物污染了多少。她最终把污染压到几乎为零。2013年，她换上了路易斯安那州立大学工程师格雷戈里·古齐克设计的系统，电路更结实，能升得更高。",
+      "那年8月21日清晨，布莱恩、古齐克和几位同伴戴着头盔，从新墨西哥州东部小镇萨姆纳堡的机库走出来，走进一片长着草和丝兰的干燥平原。他们拽着一只小象大小的白色氦气球，气球不耐烦地上下扯动。他们在这里完成了布莱恩博士研究的最后一批采样，也在这里得到了最大的意外。这些发现可能会改写我们对病原体如何在全球传播的理解，也可能改变我们在别的世界——从火星到几光年外的系外行星——寻找生命的方向。"
+    ],
+    "topics": [
+      "生命与演化",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/life-stratosphere-edge-of-space",
+      "originalTitle": "Some germs ride a superhighway at the edge of space",
+      "publishedAt": "Thu, 08 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-12T00:38:09.778Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-12T00:38:02.851Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-12/2026-10-12-some-germs-ride-a-superhighway-at-the-edge-of-sp.webp",
+      "alt": "灰蓝色大气层剖面中，一条由圆点构成的抽象气流带横贯画面。",
+      "caption": "高空并非空无一物，气流或成微小生命的通道。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-11-inventing-pad-thai",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "泰式炒河粉其实是一道政府推出来的国菜",
@@ -3209,118 +3322,6 @@
         "reviewedAt": "2026-09-26T00:50:59.741Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-26-gravity-seems-holographic-what-does-that-mean-fo",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "引力像全息图：空间可能只是表面的投影",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-26",
-    "intro": "科学家发现，描述一个空间区域里所有事情的信息，也许全藏在它的表面上——就像一张全息贴纸能‘装下’一只立体鸟。",
-    "paragraphs": [
-      "想象你面前有一个盒子。盒子里可能有气体分子乱撞，也可能有黑洞相撞。但根据‘全息原理’，你根本不用打开盒子，只要反复测量盒子表面的某些点，就能完全知道里面发生了什么。这听起来违反直觉：我们平时总认为，盒子有多大、多深，得看它的体积；可全息原理说，决定它能‘装多少信息’的，反而是它的表面积——就像画一只鸟，不是靠堆砌厚度，而是靠表面那层精细的图案。",
-      "为什么引力特别？因为其他力，比如电，有正负之分：正负电荷可以互相抵消，所以光看盒子外面的电场，你没法唯一确定里面电荷怎么排布。但引力只有‘正质量’，没有‘负质量’。质量只会让时空弯曲，而这种弯曲的方式，在盒子表面就已唯一确定了里面有什么。物理学家说，这是引力给我们的一个‘奇迹’——它让表面和内部之间，有了牢靠的对应关系。",
-      "这个想法最早来自黑洞。上世纪70年代，科学家用量子理论算出：黑洞的‘混乱程度’（叫熵）不随体积变大，而是随表面积增大。后来，斯坦福物理学家伦纳德·萨斯坎德提出：黑洞就像一张全息图——所有发生在黑洞内部的事，其实都编码在它的表面。更惊人的是，任何空间区域，只要塞进足够多质量，就能变成黑洞；所以如果黑洞是全息的，那我们坐的房间、窗外的街道，理论上也可能是全息的。",
-      "当然，也有物理学家提醒我们别太早下结论。爱丁堡大学的拉瑟姆·博伊尔指出：黑洞表面显示的‘熵’，可能有两种来源——一种真跟里面粒子数量有关（取决于体积），另一种叫‘纠缠熵’，来自盒子内外粒子之间的量子连接，它才真正取决于表面积。他说，这未必是空间‘消失’了，而可能是我们把两种不同性质的‘信息量’混在一起读了。",
-      "还有一条更坚实的线索，叫AdS/CFT对应。它设想了一种特殊形状的宇宙——像一个无限大的空间，却被巧妙地‘折进’一个有限的雪球里。在这个数学模型中，描述整个雪球内部的引力理论，竟然和只在雪球表面运行的另一种理论完全等价。这不是比喻，而是已被数千次引用验证的数学事实。它不直接告诉我们现实宇宙是不是全息的，但它证明：引力真的能让‘三维世界’和‘二维表面’成为同一事物的两种写法。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
-      "originalTitle": "Gravity Seems Holographic. What Does That Mean for Reality?",
-      "publishedAt": "Fri, 25 Sep 2026 14:40:26 +0000",
-      "retrievedAt": "2026-09-26T00:45:34.623Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-26T00:45:31.335Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-26/2026-09-26-gravity-seems-holographic-what-does-that-mean-fo.webp",
-      "alt": "浅灰纸面上方悬浮细线构成的立体轮廓，投影线汇聚于纸面边缘。",
-      "caption": "体积里的信息，也许都写在边界上。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-26-05-13",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "亚运会｜田径综合：“05后”问鼎“飞人大战” 女子铅球中国13连冠",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-26",
-    "intro": "在名古屋亚运会的百米跑道上，两位年轻人先后刷新赛会纪录；中国女子铅球则把亚运冠军连续延续到第十三次。",
-    "paragraphs": [
-      "9月25日，爱知·名古屋亚运会100米决赛中，17岁的中国选手陈妤颉以11秒06问鼎女子项目，20岁的泰国选手汶颂以9秒90加冕男子项目。两人均打破赛会纪录。汶颂出生于2006年，陈妤颉今年17岁，今年12月将满18岁。",
-      "作为本赛季亚洲女子100米最好成绩保持者，陈妤颉是最大夺冠热门。她直言决赛前非常紧张，“在训练场时腿都在抖，很害怕会抢跑”。但决赛场上，她拿出了一骑绝尘的表现。11秒06也是她自去年全运会至今第三度刷新个人最好成绩。赛后她说，今年12月自己将满18岁，“能在亚运会拿下这个冠军，是我送给自己最好的一份成人礼物”；“我会把目光放到世界舞台上，为中国和亚洲女子短跑取得更好的成绩。”",
-      "男子赛场，继前一天预赛跑出9秒95后，2006年出生的汶颂半决赛跑出9秒91，刷新赛会纪录。决赛他虽起跑处于劣势，但凭借强大的后程能力拿下冠军，并将赛会纪录改写为9秒90。赛后他说，下一个目标是挑战苏炳添9秒83的亚洲纪录。33岁的卫冕冠军、中国选手谢震业和队友曾克理分获第七、第六名。两人都表示很荣幸见证“破10”和新赛会纪录。",
-      "女子铅球比赛中，宋佳媛凭借第二投的19米40锁定冠军，张林茹获得银牌。这是自1978年以来，中国队连续第13次夺得该项目冠军。赛后，宋佳媛说，巴黎奥运会后接受了右肘手术，之后自己一度非常煎熬，“这场比赛给了我极大自信”。她还感谢了亚军张林茹的团队：“这次我教练没能来到前方，我的教练一直和张林茹教练线上连线，我们是个非常团结的团队。”",
-      "男子10000米比赛中，全国纪录保持者王文杰以28分38秒14获得第四名。巴林名将巴莱乌成功卫冕。赛后王文杰说：“最后四圈身体到了极限，目前竞技水平和巴林等队几位选手确实还存在差距。今晚已拼尽全力，没有遗憾。”女子撑杆跳高比赛中，日本选手诸田实咲以4米55夺冠，亚洲纪录保持者、中国选手牛春格在越过4米50之后再无建树，最终获银牌。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260926/381129f64dcd4dcc9b64eac5eb0693a2/c.html",
-      "originalTitle": "亚运会｜田径综合：“05后”问鼎“飞人大战” 女子铅球中国13连冠",
-      "publishedAt": "2026-09-26T01:12:35+08:00",
-      "retrievedAt": "2026-09-26T00:46:46.303Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-26T00:46:35.559Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "New Sprint Kings at the Asian Games",
-      "intro": "At the Asian Games in Nagoya, two young runners won the 100-meter titles and broke the meet records.",
-      "paragraphs": [
-        "On September 25, the Asian Games in Aichi and Nagoya held the 100-meter finals. In this race, the fastest men and women in Asia ran for gold.",
-        "In the women's final, 17-year-old Chen Yujie from China won in 11.06 seconds. That broke the Games record. She was the season's best Asian performer. She said she was very nervous before the final: 'My legs were shaking at the training track, and I was afraid of a false start.' In the final, she ran far ahead of everyone. The time was her third personal best since last year's National Games. She will turn 18 in December. She called the gold 'the best adult gift for myself' and said she aims to compete on the world stage for China and Asia.",
-        "In the men's final, 20-year-old Boonson from Thailand won in 9.90 seconds. He ran 9.95 in the heats and 9.91 in the semifinal — both new Games records. In the final, he started poorly but powered through the finish. His time broke the previous Games record. After the race, he said his next goal is Su Bingtian's Asian record of 9.83 seconds. China's defending champion Xie Zhenye, 33, finished seventh. His teammate Zeng Keli finished sixth. Both said they felt honored to witness a sub-10-second run and a new Games record.",
-        "In the women's shot put, Song Jiayuan of China won with a throw of 19.40 meters on her second attempt. Zhang Linru of China won silver. This was China's 13th consecutive Asian Games title in the event, dating back to 1978. Song said she had right-elbow surgery after the Paris Olympics and went through a hard time. This win gave her great confidence. Her coach could not attend, so her coach and Zhang Linru's coach coordinated online. She said, 'We are a very united team.'",
-        "In the men's 10,000 meters, China's national record holder Wang Wenjie finished fourth in 28 minutes 38.14 seconds. Bahrain's Balewu successfully defended his title. Wang said his body reached its limit in the final four laps. He admitted a gap remains between his level and those of top Bahraini and other international runners. He added, 'I gave everything tonight — no regrets.' In the women's pole vault, Japan's Misaki Morota won with a jump of 4.55 meters. China's Asian record holder Niu Chunge cleared 4.50 meters but failed at higher heights and took silver."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-26T00:51:39.453Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
         "correctionCount": 8,
         "attempts": 1
       }
