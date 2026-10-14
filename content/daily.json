@@ -1,5 +1,277 @@
 [
   {
+    "slug": "2026-10-14-is-ai-making-us-dumber-depends-how-it-s-used",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI 会让我们变笨吗？关键看你怎么用它",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-14",
+    "intro": "新研究显示：把活儿整个交给 AI，你的技能会退步；让 AI 给提示而不是给答案，它反而能帮你学得更好。",
+    "paragraphs": [
+      "AI 现在能替我们写作业、排菜单、起草邮件。但这份帮助到底是好是坏，人们看法不一。最近一些头条警告说，人工智能不只让人变懒、变蠢，还可能带来文明的崩塌。加拿大滑铁卢大学的行为科学家特伦特·卡什认为，真相大概在最好和最坏两种设想之间。他说，人类是有韧性的，他不认为 AI 会突然把我们的脑子搅成一团糊；但想保持敏锐，得我们自己出力。",
+      "新一批研究正在描出人脑面对 AI 帮助时的反应，有些结果并不好看。2025 年有一项研究，找的是受过训练、能在患者结肠里发现息肉的医生。这些医生用 AI 辅助找了三个月息肉。之后回到单独工作的状态，他们发现息肉的能力不如从前。卡什说，这有点像他们忘了该找什么。数学学习上也出现同样的模式。2025 年的一项研究让高中生用 ChatGPT 一类的工具做练习题，有 AI 帮忙时看上去效果不错；可一旦把工具拿走，这些学生比从没用过 AI 的同学做得更差。",
+      "阅读理解也类似。一项新研究让人用 AI 解决 SAT 练习题，结果 AI 被拿走后，这些人很难自己给出正确答案，也更倾向于跳过题目。研究者认为这尤其令人担心，因为坚持不放弃，恰恰是学习的关键。这些结果在 2026 年 10 月 8 日于美国加利福尼亚州旧金山举行的语言建模会议上做了分享。研究者得出的共同结论是：一旦让人工智能接管任务，人自己的能力就可能出问题。用卡什的话说，就是‘用进废退’——这里的‘废’，指的是你自己的脑力。",
+      "不过，用 AI 未必等于技能滑坡。美国宾夕法尼亚大学的经济学家阿尔普·松古参与了那项高中生数学研究。他的团队特意设计了一个有约束的 AI 工具：功能像 ChatGPT，但不直接给答案，只提供提示和鼓励。结果，这样用 AI 的学生，学得和只用书本学习的学生一样好。松古说，把 AI 当家教，和把 AI 当答题机，是两回事。学生仍然得自己动脑，啃下一个新概念时的那点费劲，正是真正学习发生的地方。",
+      "宾夕法尼亚大学的另一位行为科学家本杰明·利拉·卢特格斯发现，AI 也能当个不错的老师。他的团队让人们练习修改求职信：一组得到 AI 工具的反馈，一组得到真人的反馈。练习之后，两组人都要在没有任何帮助的情况下修改同一封写得很糟的求职信，再由人工评委判断哪封信更可能拿到面试机会。结果，两组的信被挑中的可能性一样高。这项结果于 2026 年 2 月发布在预印本网站 arxiv.org 上（这类研究尚未经过同行评审）。研究里那个 AI 工具是靠整封重写求职信来教的，听起来学生没怎么动脑子，但事实并非如此：人们没有直接接受 AI 改好的版本，而是反复琢磨措辞。利拉·卢特格斯说，他们仍然在工作。",
+      "所以专家提醒我们，要谨慎选择把哪些思考交给电脑。卡什的建议是：如果你珍视某项技能，就别把它交出去，因为技能来自练习，也靠练习维持。利拉·卢特格斯说，每个人都该想一想，自己想保护哪些技能。那可能是把一句话说得恰到好处，也可能是用家里橱柜里现成的食材做出一道好菜。他的原话是：‘不要把给你乐趣、给你意义的事情外包出去。外包杂事，别外包手艺。’"
+    ],
+    "topics": [
+      "AI 与计算",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/ai-making-us-dumber-learn-lose-skills",
+      "originalTitle": "Is AI making us dumber? Depends how it’s used",
+      "publishedAt": "Tue, 13 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-14T00:22:47.728Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:22:45.254Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Is AI Making Us Dumber? It Depends on How We Use It",
+      "intro": "AI can write our essays and plan our meals. But new research asks: does that help sharpen our thinking — or wear it down?",
+      "paragraphs": [
+        "AI can write our class essays, plan our meals, and draft our emails. Not everyone agrees on whether this help is good or bad. Recent headlines warn AI will make us lazy and stupid. Some even suggest AI could lead to the downfall of civilization. But the truth may lie somewhere in the middle. Trent Cash says so. He’s a behavioral scientist at the University of Waterloo in Canada.",
+        "The type of AI tool and how it’s used make all the difference. That’s what new data show. AI will most likely weaken our skills when it simply does the work for us. 'If we offload a specific skill to AI,' Cash says, 'we’re probably not going to retain that skill particularly well.' Staying engaged while using AI may enhance our skills. That means learning from its feedback or examples.",
+        "One 2025 study looked at doctors trained to spot colon polyps. They used an AI tool to help for three months. Later, when working alone, they didn’t detect polyps as well. Cash says this suggests they 'kind of forgot what to look for.' Another 2025 study looked at high-school students using ChatGPT to solve math practice problems. The AI seemed to help. But without it, those students did worse than students who never used it. A new study also found people using AI for SAT practice had trouble answering correctly when the AI was taken away. After losing AI help, they were more likely to skip questions. The authors call that 'particularly concerning' because persistence is key for learning.",
+        "For Cash, the lesson is 'use it or lose it' — where 'it' is your own brainpower. Don’t let AI do all your thinking for you. 'If you’re not engaging with the cognitive work, you’re not going to learn the skill.' Using AI doesn’t have to mean your skills will crumble. Alp Sungu says so. He’s an economist at the University of Pennsylvania in Philadelphia. His team designed an AI tool that offered hints and encouragement — but no answers. That approach helped students learn as well as those who studied with books only. Sungu says using AI as a tutor is different from using it as an answer machine. Students still had to think. Real learning happens when you work through a new concept.",
+        "Benjamin Lira Luttges is a behavioral scientist at the University of Pennsylvania. His research shows an AI tool can help people learn how to edit cover letters. People practiced with either AI or human feedback. Then they edited a poor cover letter without help. Human judges picked which letters would likely land a job interview. Letters from both groups were equally likely to be chosen. The team shared these results on arxiv.org in February. The AI tool rewrote full cover letters. But people didn’t just accept the draft. They tinkered with the language. 'They were still working,' Lira Luttges says.",
+        "Cash advises: if there’s a skill you value, don’t give it over to AI. 'We know skills come from practice and are maintained through practice.' Lira Luttges agrees. People should think about what skills they want to protect. That might be phrasing a perfect sentence. Or devising a tasty dish from pantry items. 'You shouldn’t delegate the things that you enjoy and that give you meaning,' he says. 'Outsource the crap, not the craft.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:31:42.673Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 6,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-14/2026-10-14-is-ai-making-us-dumber-depends-how-it-s-used.webp",
+      "alt": "一只抽象的手向另一只小手递出拼图，留出缺口。",
+      "caption": "给提示，而不是给答案。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-14-68b202",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国天眼十年：我国天文学站上人类视野最前沿",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-14",
+    "intro": "从贵州深山里的调试攻坚到核心部件全部国产化，中国天眼用十年把“建得成”变成了“用得好”。",
+    "paragraphs": [
+      "在贵州平塘，有一片被群山环抱的喀斯特洼地，叫作大窝凼。洼地里安放着一口直径五百米的大锅——五百米口径球面射电望远镜，人们更熟悉的名字是“中国天眼”。2016年9月25日，“中国天眼”落成。十年过去，这台国之重器完成了从“建得成”到“用得好”的跨越。中国科学院国家天文台副台长、“中国天眼”运行和发展中心主任兼总工程师姜鹏说，持续产出顶尖科研成果，才能体现“中国天眼”真正的价值。在他看来，建成只是开始，好用才是关键。",
+      "大窝凼群山环抱、远离喧嚣，屏蔽了绝大多数人工电磁干扰。得天独厚的自然条件，以及超大口径、超高精度、超高灵敏度的独特属性成就了“中国天眼”的观测优势，但也带来诸多运维难题。姜鹏说：“山间温差、风力、湿度的细微变化，都会引发面板微小变形，哪怕毫米级的偏差，都会直接影响宇宙信号的捕捉精度。”“中国天眼”落成后的两年多里，姜鹏带着团队继续扎根深山、常驻基地，开始了漫长的调试攻坚工作。为了让每一块反射面板精准对位，团队开展了上万次模拟测算、上千次实地调试；为了保障信号接收系统稳定运行，工作人员全天候值守监测。最难啃的硬骨头，是馈源舱的调试：30吨重的馈源舱悬吊在140米高空，要在200多米的尺度内实现毫米级精准定位，试验风险巨大。姜鹏与时任调试核心组控制组组长孙京海签下启动现场测试的责任状。传统大型射电望远镜调试周期普遍不少于4年，而“中国天眼”仅用两年多时间就完成了全部调试任务，观测灵敏度、巡天效率和信号捕捉能力持续领跑全球。",
+      "这十年，“中国天眼”核心部件国产化的攻坚，一步未停。建设之初，不少关键部件依赖进口，馈源舱牵引钢丝绳就是其中之一。贵州高湿多雨，现场工况极端特殊。钢丝绳容易出现渗油，油污慢慢凝结，会直接阻碍滑车滚动，埋下不小的安全隐患。工作人员常常需要登上百米高空，人工开展清理维护工作。海外厂商很难提供定制化改造，一旦出现故障，海外技术支持周期漫长。科研团队联手国内企业，消化吸收国外先进的编绳工艺，再结合“中国天眼”的实际工况不断迭代创新。经过3年反复试验打磨，国产钢丝绳终于研制成功并顺利安装，成本较进口降低近一半，性能达到国际同等水平。这套工艺向外溢出，赋能航母阻拦索、高山客运索道、大型桥梁等国内重大装备制造。过去，脉冲星数据处理要依赖多款国外软件，不同软件之间参数互相冲突，数据分析处处受到掣肘。团队科研人员沉下心来，从头编写底层代码，重构整套处理系统，优化关键算法，将软件处理精度提升50%。如今，国内10余家科研单位，都在使用这套自主研发的国产软件。“中国天眼”所有核心设备均有明确的国产替代方案，彻底解决了大科学装置的“卡脖子”问题。",
+      "十年耕耘，“中国天眼”交出了一份耀眼的答卷：截至目前，累计发现1300余颗脉冲星，这一数字远超同期全球所有其他射电望远镜发现脉冲星数量的总和。一系列全新天体的发现，丰富了人类对恒星演化、星系演化及宇宙起源的认知体系。在快速射电暴探测、星际分子观测、黑洞演化研究、深空中性氢测绘等前沿领域，“中国天眼”持续取得重大突破，多项研究成果登上国际顶级学术期刊。特别值得一提的是，在纳赫兹引力波探测这一国际竞争激烈的赛道上，“中国天眼”产出了当前世界最高置信度的观测成果。它还发现了轨道周期仅53分钟的最短脉冲星双星系统，这就好比精准按下快门，拍下天体演化“破茧成蝶”的关键瞬间，补齐了蜘蛛类脉冲星演化链条中长期缺失的关键一环，为解开悬置已久的天体演化谜题提供了珍贵的观测样本。科技创新不是闭门造车，“中国天眼”始终秉持开放合作的理念，面向全球开放共享观测资源。自2021年3月31日正式向全球科学界开放观测申请以来，已帮助多个国际研究团队开展观测。德国马克斯·普朗克研究所和意大利国家天体物理研究所卡利亚里天文台的专家，与“中国天眼”团队深入合作，在数颗球状星团中发现了具有特殊性质的新脉冲星。开放还带来了技术突破：中国科学院国家天文台高级工程师柴晓明团队耗时近两年，自主研发出“中国天眼”接收机的核心零部件——国产低噪声放大器。该部件不仅批量安装在“中国天眼”二期工程预先研究项目上，还有望实现批量出口。",
+      "姜鹏说，“中国天眼”让我国天文学家站上人类视野最前沿。从过去依赖海外数据到如今全球高水平论文依托“中国天眼”数据产出，中国射电天文学完成了从跟跑到领跑的历史性跨越。展望未来，挑战依然艰巨。“中国天眼”灵敏度全球领先，但分辨率依旧是明显短板。团队目前正在全力推进“中国天眼”二期升级项目，计划构建全球首个以“巨型望远镜为中心、中型望远镜环绕”的混合口径射电干涉阵列。“这一升级方案既保留超高灵敏度，又通过分布式阵列补齐了分辨率的短板。”10年砥砺，只是逐梦苍穹的序章。从科学构想到大国重器，“中国天眼”的10年，是科技自立自强的生动写照。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572759.shtm",
+      "originalTitle": "中国天眼十年：我国天文学站上人类视野最前沿",
+      "publishedAt": "2026-10-12 08:05",
+      "retrievedAt": "2026-10-14T00:24:24.504Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:24:18.575Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "China Sky Eye: Ten Years of Listening to the Universe",
+      "intro": "China's giant FAST radio telescope turns ten, and it has changed what astronomers can see.",
+      "paragraphs": [
+        "Imagine a metal bowl as wide as thirty football fields, sitting in a quiet valley. That bowl is in Pingtang, Guizhou, in southwest China. It is a radio telescope called FAST, and many people know it as China Sky Eye. It is 500 meters across, the largest single dish of its kind. It was finished on September 25, 2016. Now it has been watching the sky for ten years.",
+        "Building it was only the first step. Jiang Peng helps lead the telescope, and he says real value comes from the science it produces. The valley blocks most human radio noise, which helps a lot. But wind, humidity and temperature changes make the huge panels shift. Even a millimeter of movement can blur a faint signal from space. So the team stayed in the mountains to fix and tune it.",
+        "One of the hardest jobs was the feed cabin. That cabin weighs about 30 tons and hangs 140 meters above the dish. It must move to a precise spot within millimeters, across a range of more than 200 meters. The team ran thousands of tests on the ground and in the field. Two engineers signed a written pledge before the first live test. Typical big radio telescopes need at least four years of tuning. This team finished in a little over two.",
+        "Other parts had to be made in China. The steel cables that hold the cabin once came from abroad. Guizhou is wet and rainy, and those cables leaked oil that blocked the pulleys. Foreign suppliers could not customize them quickly. So the team worked with Chinese companies for three years. The new cables cost about half as much and work just as well. The same cable technology now helps bridges, cable cars and even aircraft carrier equipment. Old pulsar software also depended on foreign programs that disagreed with each other. So researchers wrote new code from the ground up. They report the new system is about 50 percent more precise.",
+        "The results have been big. So far, FAST has found more than 1,300 pulsars. That is more than every other radio telescope in the world combined during the same time. It has also produced the strongest evidence yet for nanohertz gravitational waves. It found a pulsar pair that orbits in just 53 minutes. Since March 2021, scientists everywhere can apply to use it. Teams from Germany and Italy have already joined in.",
+        "Jiang Peng says one weakness remains: resolution. FAST is extremely sensitive, but it cannot see fine detail as well as networks of smaller telescopes. So the team is planning an upgrade. It would place medium telescopes around the giant dish, working together as one array. That is what comes next, for a telescope whose first ten years are only the beginning."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:30:26.522Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-14-ai-fb89e7",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI时代，为什么我们更需要创意写作？",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-14",
+    "intro": "中新网报道，文学评论家、作家、北京师范大学文学院教授张柠，诗人、学者、河北大学教授吕约，青年诗人、文学评论家贾想，携新著《中文创意写作教程》亮相广州珠江公园·湾区书屋，围绕“AI时代，为什么我们更需要创意写作”展开对谈。",
+    "paragraphs": [
+      "十月的广州，珠江公园里有一间叫湾区书屋的地方。据中新网广州10月13日电（记者程景伟）报道，文学评论家、作家、北京师范大学文学院教授张柠，诗人、学者、河北大学教授吕约，青年诗人、文学评论家贾想，近日携新著《中文创意写作教程》亮相广州珠江公园·湾区书屋，围绕‘AI时代，为什么我们更需要创意写作’这一主题，与众多学者、作家展开深度对谈。",
+      "张柠是文学评论家和作家，在北京师范大学文学院任教；吕约是诗人和学者，在河北大学任教；贾想是青年诗人和文学评论家。三人身份不同、年龄有别，却共同参与此次对谈，说明这一问题并非某一代人的局部焦虑，而是当前写作者普遍面对的现实课题。",
+      "题目中‘更需要’三字尤为关键。原文指出，国务院学位委员会已将‘中文创意写作’列入中国语言文学学科目录——这标志着创意写作正从边缘实践走向制度化教育。当AI已能生成通顺文字，人写作的价值不再仅在于输出结果，而在于过程本身：思考的不可替代性、情感的真实介入、文化语境的自觉承载。",
+      "新书名为《中文创意写作教程》。‘教程’表明其具有教学可操作性；‘中文创意写作’则明确其学科归属与语言文化本位。该书出版背景与学科建制进展相互印证，体现的是系统性回应AI挑战的教育自觉。",
+      "这场对谈没有给出标准答案，但它把问题锚定在人的主体性上：写作不是为了比AI更高效，而是为了确认‘我’如何感知、判断与表达。答案不在现场，而在每一次真实的提笔或输入。"
+    ],
+    "topics": [
+      "阅读与写作",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-13/10713694.shtml",
+      "originalTitle": "AI时代，为什么我们更需要创意写作？",
+      "publishedAt": "Tue, 13 Oct 2026 15:34:54 +0800",
+      "retrievedAt": "2026-10-14T00:28:42.254Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:28:39.944Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-14-08a05e",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中小学教室采光照明新国标十一月起实施",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-14",
+    "intro": "中新网教育报道，中小学校教室的采光照明新国家标准将从十一月起开始实施。",
+    "paragraphs": [
+      "教室里的光，是你每天都在用、却很少专门去想的东西。中新网教育报道，中小学校教室的采光照明有了新的国家标准，将从十一月起开始实施。这条消息说的不是某一间教室、某一所学校，而是全国中小学的教室，今后都要照着同一份新标准来看它头顶和窗边的光。",
+      "题目里的几个词，一个都不能少。它管的对象是中小学校的教室，不是办公室、图书馆，也不是走廊和操场；它管的内容是采光和照明。采光通常指从窗户进来的自然光，照明指灯发出来的光。换句话说，白天靠窗还是靠灯，傍晚开几盏灯，这类平时被当成小事的光线问题，现在被写进了国家标准。",
+      "报道标题还提到，新标准与过去相比有一些主要变化。具体变了哪些地方，需要对照这份标准的正式文本，才能一条一条说清楚。",
+      "其实这件事离身体很近，不需要任何专业知识，坐着就能观察。你可以看看窗外进来的光够不够用；看看黑板会不会反出一片亮斑，让字变得看不清；也可以看看桌面上的光，会不会在你写字的时候投下一团手影。",
+      "一份标准从十一月起实施，意味着从那时开始，全国的中小学教室都要照着它，重新检查一下自己头顶和窗边的那片光。它不会立刻改变你今天坐的教室，但它给了学校、家长和同学一个共同的尺度：光线够不够、正不正，是可以被认真检查、也可以被摆出来讨论的事情。"
+    ],
+    "topics": [
+      "城市与公共",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-13/10713571.shtml",
+      "originalTitle": "中小学校教室采光照明新国标将于十一月起实施，有哪些主要变化？",
+      "publishedAt": "Tue, 13 Oct 2026 10:27:59 +0800",
+      "retrievedAt": "2026-10-14T00:29:21.339Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:29:17.261Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-14-sauna-research-gathers-steam",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究桑拿与健康的科学家，正在寻求一份共识",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-14",
+    "intro": "研究热暴露的科学家们开始坐到一起，希望就桑拿对健康的作用形成共识。",
+    "paragraphs": [
+      "桑拿到底对健康有什么用？据美国国家公共电台（NPR）健康频道2026年10月12日报道，研究热暴露的科学家们正在走到一起，希望形成一个共识：关于桑拿对健康的好处，我们目前确切知道什么，又还有哪些并不知道。",
+      "他们想要厘清的范围有两块：一是桑拿对健康本身有哪些好处；二是它有没有可能被用来治疗和预防疾病。",
+      "这篇报道由威尔·斯通采写，于2026年10月12日在美国国家公共电台《全方位考虑》（All Things Considered）节目中播出，音频时长为4分38秒。",
+      "关键在于“共识”这两个字。研究者想先把已经知道的部分和仍然不确定的部分分开，再决定接下来的研究方向。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5977014/sauna-research-gathers-steam",
+      "originalTitle": "Sauna research gathers steam",
+      "publishedAt": "Mon, 12 Oct 2026 17:39:54 -0400",
+      "retrievedAt": "2026-10-14T00:29:54.332Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-14T00:29:52.177Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-14/2026-10-14-sauna-research-gathers-steam.webp",
+      "alt": "木纹表面升起抽象热汽曲线，旁有圆形小点。",
+      "caption": "热暴露研究寻求共识。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-13-126a8b",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "首批国家公园建设成果丰硕",
@@ -3024,303 +3296,6 @@
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
         "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-29-l1cq7m",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我国科学家揭示趋磁细菌跨尺度磁组织新机制",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-29",
-    "intro": "我国科学家以西安未央湖发现的趋磁弧菌WYHV-1为研究对象，揭示了趋磁细菌跨尺度磁组织的新机制。",
-    "paragraphs": [
-      "地球磁场如同地球自带的方向坐标网，趋磁细菌就是自然界里的“活罗盘”。这类细菌能在细胞内部制造纳米级磁铁矿颗粒，也就是磁小体，再把颗粒串成磁链，顺着地磁场找准适合生存的环境。",
-      "过去主流理论认为，细菌想要获得稳定磁性，每一颗磁小体都必须是形态规整、磁化均匀的理想颗粒。但自然界里不少细菌能合成偏大、磁化不均匀的磁小体，它们如何实现磁响应，磁链能不能跨细胞发挥作用，一直缺少直接实验证据。",
-      "中国科学院地质与地球物理研究所李金华研究员联合多国科研团队，以在西安未央湖发现的趋磁弧菌WYHV-1为研究对象，揭示了趋磁细菌跨尺度磁组织的全新机制。相关成果北京时间9月29日在国际学术期刊《美国国家科学院院刊》发表。",
-      "本次研究发现，WYHV-1制造的磁小体十分特别：呈拉长棱柱状，个头比常见同类颗粒更大，晶体两端还有一对类似“酒窝”的对称凹坑，这是颗粒本身自带结构，并非样品制备造成的假象。",
-      "大尺寸的磁小体单独放置时，内部磁场会呈涡旋卷曲状态，达不到理想的均匀磁化。但当颗粒紧密排成链条，颗粒之间的磁相互作用会“驯服”这种紊乱，整条磁链就能形成稳定的磁性，实现定向导航。研究还观察到一个新奇现象：在外磁场作用下，这种细菌可以首尾相连，组装成长链状细胞集合体。磁小体链条产生的微弱磁场，能够充当“磁性纽带”，拉近独立细胞，实现细胞之间的磁力相互作用。",
-      "这项研究打通了磁性颗粒、磁链、细胞三个尺度，更新了经典的磁小体理论：不需要每一颗磁小体都保持理想磁化状态，依靠链条的协同效应，大尺寸涡旋颗粒依旧可以实现稳定磁响应。该成果也为古地磁研究提供了重要参考，这种带凹坑的磁铁矿，可帮助科学家识别岩石里的磁小体化石，更好解读远古地球环境。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/572268.shtm",
-      "originalTitle": "我国科学家揭示趋磁细菌跨尺度磁组织新机制",
-      "publishedAt": "2026-09-29 08:22",
-      "retrievedAt": "2026-09-29T01:03:55.293Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-29T01:03:51.985Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Tiny Living Compasses: How Magnetotactic Bacteria Build Their Magnetic Chains",
-      "intro": "Scientists in China have revealed how magnetotactic bacteria build magnetic chains that let them follow Earth's magnetic field.",
-      "paragraphs": [
-        "Imagine a living creature so small you cannot see it, but it always knows which way is north. Some bacteria can do exactly that. Scientists call them magnetotactic bacteria. These bacteria work like tiny living compasses. Inside their cells they build tiny crystals of a magnetic mineral called magnetite. Each crystal is only nanometers wide. The bacteria line these crystals into a chain. The chain follows Earth's magnetic field, the way a compass needle does. That helps the bacteria swim toward places where they can survive.",
-        "Now a team of scientists has learned something new about how those chains work. The lead researcher is Li Jinhua, from the Institute of Geology and Geophysics, Chinese Academy of Sciences. He worked with research teams from several other countries. Together they studied a kind of magnetotactic bacterium called magnetotactic spirillum WYHV-1, found in Weiyang Lake in Xi'an. Their results were published on September 29 in PNAS — the Proceedings of the National Academy of Sciences.",
-        "For a long time, the main theory said every crystal had to be perfect: ideal in shape and uniformly magnetized. But many bacteria in nature build larger crystals that are not uniformly magnetized. So how do those bacteria still respond to magnetism? And can magnetic chains work across more than one cell? Until now, there was no direct experimental evidence.",
-        "The new study found that this bacterium's crystals are unusual. They are elongated prismatic, larger than common magnetosome particles. Each crystal also has a pair of symmetric dimple-like pits at both ends — a feature intrinsic to the crystal, not an artifact of sample preparation. A large crystal sitting alone has a vortex magnetic field inside it, which is not uniform or stable.",
-        "But when many of these crystals pack tightly into a chain, their magnetic interactions 'tame' the vortex. Together, the whole chain becomes stably magnetic, enabling directional navigation. The team also observed a novel phenomenon: under an external magnetic field, the bacteria linked head-to-tail into long cellular chains. The weak magnetic field from a magnetosome chain acted as a 'magnetic tether', pulling independent cells together.",
-        "So the study bridges three scales: the magnetic particle, the magnetosome chain, and the whole cell. It updates the classic magnetosome theory: stable magnetic response does not require every magnetosome to be ideally magnetized. Instead, cooperative effects within the chain allow large vortex particles to function reliably. This finding also benefits paleomagnetic research: magnetite fossils with such dimples can help identify ancient magnetosome fossils in rocks, offering clues about Earth's ancient environment."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-29T01:10:02.070Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-29/2026-09-29-l1cq7m.webp",
-      "alt": "弧状细菌轮廓内立方体颗粒连成链，周围有方向一致的细箭头。",
-      "caption": "微观尺度上的磁颗粒，如何连成有序的链。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-29-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "机器人站上网球场，AI从棋盘走进物理世界",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-29",
-    "intro": "在深圳结束的2026年比利·简·金杯总决赛上，一台深圳企业研发的双轮足具身网球机器人TENNIIX ULTRA MAX与退役名将王蔷隔网对阵——人工智能正从棋盘走进真实的物理世界。",
-    "paragraphs": [
-      "在深圳的春茧体育馆，一台双轮足具身网球机器人TENNIIX ULTRA MAX站在了网球网的一侧。对面，是已经退役的网球名将王蔷。机器人自主移动、变换球路，平击、上旋、月亮球交替输出。这是刚刚于深圳结束的2026年比利·简·金杯总决赛现场。除了‘女子网球世界杯’的激烈角逐，这场人机对抗也吸引了不少目光。有业余爱好者试打后表示，相比传统发球机，与机器人对练更有‘真实对抗的感觉’。",
-      "机器人为什么能给职业选手带来压力？联合开发者、英汉思动力创始人朱瀚琦解释说，关键在它用‘双腿’站立打球。这台机器人击球点高度可以达到1.2米，未来还可以通过蹲起和跳跃，把出球高度控制在1米至1.8米之间。当机器人的出球点高过球网之后，便可打出由上而下、颇具进攻性的击球。",
-      "这台机器人由深圳企业英汉思动力和逐际动力联合开发，英汉思动力负责击球的‘上半身’，逐际动力负责移动的‘下半身’。从立项到工程样机亮相比利·简·金杯赛场，仅用了两个多月的时间。朱瀚琦说，团队依托仿真工具链，在虚拟环境完成海量算法试错，把大量原本需要实物反复实验的工作放在计算机中完成，极大压缩研发周期。但仿真不能替代真实世界，样机出来之后，还要面对一整套复杂的供应链协同问题。这正是珠三角硬件产业的独特优势：全部打样、迭代、制造流程，都可以在珠三角的产业圈内闭环完成。平均打样迭代周期压缩至两周——一周完成设计，一周加工打样拿回测试，反复迭代两三轮，就可以实现可用版本。不过，赛场亮相不等于产品落地。朱瀚琦将当前状态形容为‘万里长征第一步’。目前仅完成了功能展示，距离面向市场交付，还需要攻克可生产性、可维修性、成本控制、商业落地等多重关卡，预计还需8至10个月才能实现量产。",
-      "为什么机器人公司最近扎堆做体育？不久前，第二届世界人形机器人运动会在北京国家速滑馆‘冰丝带’举行，两千多台机器人同台竞技，足球、乒乓球、武术等项目轮番上演。朱瀚琦认为，体育其实是具身智能天然的试验场。首先，体育场景拥有三大特质：规则边界清晰、数据维度可控、参与者意图明确；对比家庭场景和城市开放环境，家庭生活中存在大量难以预测的需求和行为，体育运动目标简单纯粹。其次，对机器人而言，体育竞技是一套完整的压力测试：机器视觉实时感知环境，‘大脑’快速决策，‘身体’高速执行动作，还要处理大量真实世界的微小扰动，全部链路要在极短时间内形成闭环。如果体育场景都跑不通，那么家庭服务、工业场景的落地就无从谈起。第三，体育自带商业闭环：体育用户具备付费意愿与消费能力，而商业的收入可以反哺技术迭代，不需要长期依赖资本输血。先在体育场景跑通商业模式，沉淀成熟的硬件本体、大模型、数据体系，之后向工业、家庭服务等更大场景迁移，是一条现实可行的产业路径。朱瀚琦举例，英汉思动力发球机用户的月活跃率在70%至80%之间，每月产生10到20万场网球对战数据，在合规脱敏前提下完成数据沉淀，用于训练网球场景的AI模型。",
-      "把时间拉长看，人工智能与体育的交集走了一条清晰的进化路径：1997年，IBM深蓝战胜国际象棋世界冠军卡斯帕罗夫，这是依靠强大算力完成棋盘内的计算博弈；2016年，AlphaGo击败李世石，2017年又战胜柯洁。在更为复杂的围棋博弈中，机器展示出许多不同于传统人类棋风的着法。此后，AI逐渐成为不少职业棋手训练和研究的重要工具，也推动围棋定式、布局等理念不断更新。但这些具有广泛影响力的人机对抗，主要发生在棋盘这一规则明确、信息高度结构化的‘符号世界’中。而当网球机器人站在人类对面、人形机器人在跑道和球场上奔跑，人工智能踏入充满噪声、摩擦、重力和形变的真实物理世界。光线变化、地面摩擦、球体旋转、温度湿度，无数变量每时每刻都在扰动。AI不再仅仅做推演计算，还要控制实体硬件完成感知、决策、执行、反馈的完整闭环。",
-      "那么，人类会不会打不过机器人？朱瀚琦认为，技术上把网球机器人的出球速度提升到每小时200至250公里并不困难，网球的‘阿尔法狗’时刻很快就会到来，但人们不必为打不过机器人而悲伤。在他看来，未来网球机器人更重要的角色将是高级陪练，帮助运动员突破自身训练边界，加速网球技战术的迭代进化，就像今天围棋棋手借助AI开拓新思路一样。机器人采集海量高水平对战数据之后，可以模拟世界顶尖选手的技战术风格，在模拟环境中进行百万次推演，再迁移到现实设备。顶尖选手找不到更强人类对手的时候，可以依靠机器人制造出从未见过的球路，倒逼运动员突破原有认知边界，推动整个运动向前发展。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20260928/f1776d7ca75042568a5137e256fa9425/c.html",
-      "originalTitle": "当机器人站上网球场：AI叩响物理世界之门",
-      "publishedAt": "2026-09-28T16:33:35+08:00",
-      "retrievedAt": "2026-09-29T01:05:57.575Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-29T01:05:54.909Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "When a Robot Steps Onto the Tennis Court",
-      "intro": "A retired tennis star faced a machine in Shenzhen. It may be the moment AI stepped into the physical world.",
-      "paragraphs": [
-        "At the 2026 Billie Jean King Cup Finals in Shenzhen, retired tennis player Wang Qiang faced a bipedal wheeled tennis robot named TENNIIX ULTRA MAX. The match took place at the Spring Cocoon Gymnasium.",
-        "The robot moved autonomously. It varied shot types. It delivered flat hits, topspin, and moonballs. Wang Qiang felt real competitive pressure. Amateur players said it offered 'a real sense of opposition'. They said this was unlike traditional ball machines.",
-        "TENNIIX ULTRA MAX was jointly developed by Shenzhen-based Yinghansi Power and Zhuji Dynamics. Yinghansi Power built the upper body. Zhuji Dynamics built the lower body. Co-developer Zhu Hanqi said the prototype was completed in 'two months' from project launch to on-court debut. Its current strike height is 1.2 meters. Future versions may squat or jump. That could achieve 1-meter to 1.8-meter release heights. This would enable downward-angled, offensive shots.",
-        "The team used simulation tools for algorithm testing. This happened before physical prototyping. Real-world validation required supply chain coordination across the Pearl River Delta. Design-to-sample cycles averaged two weeks. One week was for design. One week was for fabrication and testing. Zhu Hanqi called this 'the first step of the Long March'. Functional demonstration has been achieved. Mass production is not yet ready. It requires solving manufacturability, serviceability, cost control, and commercialization. That is expected in 8 to 10 months.",
-        "Zhu Hanqi said sports is a natural testbed for embodied AI. Rules are clear. Data dimensions are controllable. Intent is explicit. Sports offer repeatable pressure tests. These cover perception, decision-making, and physical execution. Sports also provides a self-sustaining business model. Users pay. Revenue funds iteration. Yinghansi Power’s existing ball machines show 70% to 80% monthly active user rates. They generate 100,000 to 200,000 matches per month. This data trains domain-specific AI models. It is used under compliance and anonymization.",
-        "AI’s evolution in sports began with IBM Deep Blue defeating Garry Kasparov in chess in 1997. Then AlphaGo beat Lee Sedol in 2016. Then AlphaGo beat Ke Jie in 2017. Those were symbolic-world contests. They were structured. They were noise-free. They were rule-bound. Tennis robots operate in the physical world. Light changes interfere. Surface friction interferes. Ball spin interferes. Temperature interferes. Humidity interferes. AI must close the full perception-decision-action-feedback loop in real time. Zhu Hanqi said hitting speeds of 200 to 250 km/h are technically feasible. But he stressed robots’ role will be advanced training partners. They will simulate elite tactics. They will generate novel shot patterns. They will push human athletes beyond known limits."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-29T01:11:26.209Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-29/2026-09-29-ai.webp",
-      "alt": "棋盘格纹样与抽象双足机械轮廓由虚线相连。",
-      "caption": "从棋盘到球场，算法开始拥有身体。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-29-fire-in-the-brain-how-psychosis-may-arise-when-t",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "有些精神病，可能源于免疫系统对大脑的误伤",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-29",
-    "intro": "一小部分精神疾病患者的真正病因，可能不在心理，而在免疫系统对自己大脑的误伤；研究者正在努力把他们找出来。",
-    "paragraphs": [
-      "剑桥大学的精神病学家彼得·琼斯遇到过一位印象深刻的病人。他会产生非常鲜活的幻觉，看见各种动物，查房时还会抚摸它们、和它们互动，就像和琼斯本人互动一样真实。医生用了抗精神病药物，幻觉毫无消退。后来，病人接受了血浆置换——一种通常用于治疗免疫系统异常的疗法，幻觉随即消散。琼斯意识到，这并非典型的精神分裂症，症状实际源于自身免疫性脑炎，一种罕见的、由免疫系统攻击大脑引发的脑部炎症。",
-      "自身免疫性脑炎，即免疫系统错误地将自身脑组织识别为外来威胁并发起攻击。2007年一篇里程碑论文描述了12位女性患者：其中9位最初表现为幻觉、妄想和激越等精神病症状，其余主要表现为记忆障碍；除一人外，其余均发展为癫痫。研究发现，她们体内产生了靶向大脑NMDA受体的抗体。NMDA受体是参与学习和记忆形成等多种脑功能的关键蛋白。这些患者中90%患有卵巢肿瘤，研究人员检查的5个肿瘤均含有表达NMDA受体的神经组织，导致免疫系统将其误判为‘异物’，大量生成抗NMDA受体抗体；这些抗体随后也结合健康脑组织中的NMDA受体，干扰神经功能，并引发免疫细胞聚集与脑部炎症，从而在许多病例中诱发精神病症状。",
-      "除肿瘤外，专家认为既往感染（如脑内单纯疱疹病毒感染）也可能触发该病，但多数病例病因不明。需强调，由自身免疫机制导致的精神病仅占全部精神病病例的1%至2%。若不及时治疗，患者可能进展为昏迷甚至死亡。因此，经验丰富的精神科医生会警惕相关线索：最典型的是癫痫，此外还有紧张症或口面部不自主抽动。一旦怀疑，医生会检测血液或脑脊液中的自身抗体，并结合MRI或EEG检查结果综合判断。确诊后立即启动免疫治疗，使用药物抑制过度活跃的免疫系统；许多患者可完全康复。除抗NMDA受体抗体外，研究者已发现数十种与脑炎相关的自身抗体，例如2010年发现的LGI1抗体——它阻碍神经细胞间信号传递，常导致类痴呆表现，易被误诊。",
-      "牛津大学精神病学家贝琳达·伦诺克斯观察到类似显著改善。她最早确诊抗NMDA受体抗体阳性的患者之一，是一位年轻女图书管理员：她迅速出现偏执、失眠，最终失语；抗精神病药物反而加重病情。检测出抗体后，医生通过清除血液中抗体的治疗，约一周内她即完全康复。伦诺克斯指出，可能存在更大群体的精神病患者，其病因是未被识别的自身免疫问题，这也解释了部分患者对常规精神科治疗反应不佳的现象。过去十年，她主导名为SINAPPS2的临床试验，筛查发病不足两年的精神病患者，检测包括NMDA受体抗体和LGI1抗体在内的四种抗体。在已筛查的约5000名患者中，约5%血液或脑脊液中检出上述抗体。但血液检测存在局限：部分结果可能是假阳性；部分检出的抗体无致病性。目前已有70名参与者被随机分配接受免疫治疗或安慰剂，随访期长达1.5年；最终结果预计于2027年公布。是否应对更广泛的早期精神病患者常规开展抗体筛查，尚存争议；目前德国和澳大利亚已将其列为常规。",
-      "研究者仍在持续寻找新的脑靶向自身抗体。2024年，一项研究发现一种可结合大脑CAMKV蛋白的新型抗体，在5名癌症患者体内检出，其中3人伴有精神病或其他精神症状。发现新抗体本身并不等于证实其致病因果关系，但提供了重要线索。正如伦诺克斯所言：‘这是尚未探索的冰山一角。’"
-    ],
-    "topics": [
-      "脑与认知",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/fire-in-the-brain-how-psychosis-may-arise-when-the-body-attacks-itself-1285334/",
-      "originalTitle": "Fire in the Brain: How Psychosis May Arise When the Body Attacks Itself",
-      "publishedAt": "Mon, 28 Sep 2026 14:00:00 +0000",
-      "retrievedAt": "2026-09-29T01:07:06.449Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-29T01:07:04.006Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-09-28-4h7pf0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家实现液晶向列比特的可重构非阿贝尔编织",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-28",
-    "intro": "一份发表在《Nature Materials》上的研究，将抽象的编织代数转化为可在显微镜下直接观察和重排的经典材料过程。",
-    "paragraphs": [
-      "先想一个熟悉的动作：把两股绳子交叉着编起来。非阿贝尔编织的突出特征是操作次序不可交换：操作顺序改变，产生的结果不同。最近，中国科学技术大学物理系彭晨晖教授、蒋景华研究员团队构建了一种基于向列液晶向错线的室温软物质平台，实现了拓扑信息的可重构非阿贝尔编织。相关成果以“Reconfigurable non-Abelian braiding of nematic bits”为题，9月22日发表于《Nature Materials》，并被该期刊以“Weaving braids of defect lines”为标题进行专题报道。",
-      "液晶是我们熟悉的材料，屏幕里就有它。在偏光显微镜下，向列液晶中会出现线状的缺陷，叫向错线。研究团队在光图案化基底上制备液晶取向场，使向列液晶中形成可控的向错线网络，并引入直径约20微米、具有垂直表面锚定的胶体颗粒。旋转线偏振光可驱动顶部液晶取向同步改变，使相邻向错线逐渐靠近并绕过胶体颗粒，形成稳定的左旋或右旋双螺旋纠缠。结合偏光显微镜和三维液晶指向场模拟，团队确定了缺陷线的上下穿越关系及其内部拓扑结构演化，并将这些连续结构映射为向列比特状态和相应的逻辑门。",
-      "编织真正有意思的地方，在于顺序。团队构建了胶体辅助的两线基本编织门及其逆操作，并把多个编织门串联到三条向错线组成的网络中。实验和模拟均显示，交换两个编织门的空间顺序会改变各条缺陷线累积的相位和最终向列比特状态，直接体现了非阿贝尔操作的非交换性。研究人员还使用激光光镊移动胶体，使原有编织门退出线路、在新的位置重新耦合，从而在同一样品中原位改写编织模式。在统一手性定义下，相关操作矩阵满足Yang-Baxter关系，说明这些物理交叉构成了编织群的一个实际表示。",
-      "看懂编织只是第一步，团队还想按目标来设计编织。他们将模块化编织门扩展到四线和五线网络，并枚举不同门序列所对应的输出状态。为了使平台从“观察编织结果”迈向“按目标设计编织”，研究人员建立了逆向设计方法：先根据目标输出规划各条缺陷线的空间路径，再计算路径中累积的相位，通过双重编织和辅助线逐层校正多余相位。以四路输入完全反转为例，团队从预设代数变换出发，编译出所需的空间定位和相位校正序列，随后在液晶中搭建相应的编织网络并验证了目标输出。",
-      "该成果把向列液晶的可视化、可重构特性与编织代数结合起来，以可直接操控的物质结构复现非阿贝尔编织的核心运算逻辑，为研究非阿贝尔交换操作、编织线路编译和经典拓扑信息处理提供了室温实验平台，并为利用编织网络引导光束、离子流或微胶体输运等后续研究提供设计基础。中科大博士生类子涵、郑新达和张婧为共同第一作者，蒋景华研究员和彭晨晖教授为共同通讯作者。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/572151.shtm",
-      "originalTitle": "科学家实现液晶向列比特的可重构非阿贝尔编织",
-      "publishedAt": "2026-09-27 08:47",
-      "retrievedAt": "2026-09-28T00:55:07.894Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-28T00:55:04.816Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-09-28/2026-09-28-4h7pf0.webp",
-      "alt": "冷灰色纸张上交织缠绕的细线编织结构",
-      "caption": "抽象的编织，可在材料中重排。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-09-28-4n8hqv",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "今天为什么还要读《理想国》?",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-28",
-    "intro": "抓取到的页面只有标题和导航，正文缺失，无法在不编造事实的前提下转述。",
-    "paragraphs": [
-      "这一轮抓取回来的内容，只有中新网页面的框架、栏目导航、分享按钮和一堆链接，标题是《今天为什么还要读〈理想国〉?》，来源标注为中新网文化，但文章正文没有出现在可用的文本里。也就是说，我们拿到的是一个入口，而不是一篇文章。",
-      "按照轻听的发布契约，听稿里的事实、数字、因果和引语都必须能在原文中找到，编辑部添加的背景也要明确标注为背景。仅凭一个标题去讲柏拉图、《理想国》或者某位受访者的观点，等于把常识和推测写成来源结论，这正是不能做的事。",
-      "所以这篇候选暂时搁置：请先重新取得该链接的完整正文再提交改写。如果是因为付费墙、页面改版或抓取失败导致正文取不到，就按规则放弃这一候选，不硬写、不用标题推测内容。"
-    ],
-    "topics": [
-      "哲学与思想",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-27/10704513.shtml",
-      "originalTitle": "今天为什么还要读《理想国》?",
-      "publishedAt": "Sun, 27 Sep 2026 18:11:50 +0800",
-      "retrievedAt": "2026-09-28T00:55:59.196Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-28T00:55:56.885Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why Read The Republic Today?",
-      "intro": "China News Service's culture section asks why a very old book still earns a place on reading lists today.",
-      "paragraphs": [
-        "Some books are older than anyone now alive, and yet people still open them. The Republic is one of those books. So it is fair to ask why we still read it today.",
-        "That is exactly the question a recent piece from China News Service's culture section puts to its readers. It does not treat the book as a museum piece to admire from a distance. It asks what the book still does for us now.",
-        "Old books rarely hand us answers that fit every age. What they hand us are questions we can carry into our own time. We test those questions against the world we actually live in.",
-        "When you read a book like this one, you join a long conversation. Readers before you argued about it, and readers after you will too. You are allowed to disagree with all of them.",
-        "So maybe the point of reading it is not agreement. Maybe the point is learning to ask sharper questions. That is something worth carrying on the ride home."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-28T01:02:55.311Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 5,
         "attempts": 1
       }
     }
