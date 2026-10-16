@@ -1,5 +1,192 @@
 [
   {
+    "slug": "2026-10-16-how-do-fungi-keep-the-planet-healthy",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "地下看不见的真菌网络，怎样让地球保持健康？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-16",
+    "intro": "土壤不是一捧死掉的泥土，地下有一张真菌织成的网，正在和植物做一笔持续了四亿五千多万年的买卖。",
+    "paragraphs": [
+      "下一次你在公园或树林里走路，可以想一想鞋底下踩着的到底是什么。不只是一层泥土。在土壤里，有一张我们平时完全看不见的网——菌根真菌。这个名字拆开就是两个意思：myco 是真菌，rhizal 是根。它们和地球上超过百分之八十的植物结成了伙伴关系。这段关系非常古老，大约在四亿五千万年前就开始了。那时候植物还生活在水里，正是靠着真菌的帮助，才慢慢登上陆地。更让人意外的是，在很长一段时间里，真菌实际上替植物充当了根系，真正意义上的根，反倒是后来才演化出来的新发明。",
+      "那它们怎么合作呢？植物把光合作用造出来的碳送到地下，交给真菌；真菌则把自己找到的磷和氮还给植物。真菌特别擅长把岩石分解开，把植物够不着的矿物一点点消化出来，有时候还要请细菌来帮忙。它们消化的方式很特别，可以说是在身体外面“吃”，让岩石溶解成能够被吸收的形态。当然，真菌不是白干活。植物付给它们的报酬是糖和脂肪。正因为植物源源不断地把碳送进这张网，有人把它称作地球的循环系统之一。",
+      "这张网到底长什么样？你把一棵植物的根从土里拔出来，几乎看不到上面挂着什么。那些菌丝比头发还细，直径只有几微米。研究者最关注的一类叫丛枝菌根真菌，它们的网络像一套开放的管道，中间没有隔断把它切成一个个小格子，所以有人觉得，它们可能是地球上最大的细胞。想看清它们，实验室里要用近乎透明的土壤来种这些网络，再架上显微镜，还和荷兰阿姆斯特丹 AMOLF 生物物理研究所的科学家一起造了成像机器人。在一场实验里，他们同时追踪大约五十万个节点，看每一个节点是往左走、往右走，还是和旁边的连起来搭一座桥。",
+      "最让科学家好奇的是：这些既没有大脑、也没有中枢神经的生物，居然会做选择。托比·基尔斯是阿姆斯特丹自由大学的进化生物学家，也是麦克阿瑟奖得主。她的实验室借用了经济学和博弈论里的思路，还用上荧光量子点这样的工具，结果发现，真菌能分辨出哪些伙伴更好、哪些更差，并且会把资源挪到植物“出价”更高的地方去。",
+      "这件事不只关乎植物。研究者估计，真菌网络每年从大气中固定十三亿吨二氧化碳，大约相当于全世界化石燃料排放量的三分之一。它们把碳留在地下，也让土壤变得更肥沃。基尔斯还在推动一件更大的事：她联合世界各地的科学家，一起绘制地下真菌网络的多样性地图，并呼吁保护它们。而她的这些研究，也在追问一些更基本的问题——关于土壤，关于碳，甚至关于什么才算一个独立的生命个体。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
+      "originalTitle": "How Do Fungi Keep the Planet Healthy?",
+      "publishedAt": "Thu, 15 Oct 2026 13:40:13 +0000",
+      "retrievedAt": "2026-10-15T23:45:57.311Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-15T23:45:41.203Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "How Do Fungi Keep the Planet Healthy?",
+      "intro": "Under our feet, a vast network of mycorrhizal fungi is hard at work, trading minerals with plant roots.",
+      "paragraphs": [
+        "Soil is not just dirt. It is anything but inert. A vast network of mycorrhizal fungi trades minerals with plant roots. The word mycorrhizal means myco, which means fungus, and rhizal, which means root. Over 80% of all plant species on Earth form these partnerships. The relationship evolved some 450 million years ago. It was fundamental for plants in a wet, aquatic environment to start colonizing land hundreds of millions of years ago.",
+        "Plants send carbon they photosynthesize — and take out of the atmosphere — to fungal networks in the soil. In return, they get phosphorus and nitrogen. Fungi are very good at breaking up rocks and digesting hard-to-access minerals. They partner with bacteria to help break down rocks. Plants pay with sugar and lipids like fats. This partnership is almost ubiquitous across terrestrial ecosystems. Because plants constantly feed carbon down to these networks, scientists call it one of Earth’s circulatory systems.",
+        "These fungal networks sequester 13 billion tons of atmospheric carbon dioxide each year — roughly equivalent to one-third of the world’s fossil-fuel emissions. They enrich the soil, help farmers and biodiversity, and support agriculture. Fungi may not get much respect, but they are right up there with animals and plants in mattering to the world.",
+        "Fungi have no brain or central nervous system. Yet they behave strategically: discriminating between better and worse partners and shifting resources across the network to wherever a plant will ‘pay’ more for them. Toby Kiers is an evolutionary biologist at Vrije Universiteit Amsterdam. She uses economics and game theory — and tools from fluorescent quantum dots to imaging robots — to probe how fungi and plants conduct their trade.",
+        "Her lab grows fungal networks across transparent soil-like material. With imaging robots built with biophysicists at AMOLF in Amsterdam, they track individual nodes across the networks. In one experiment, they track about half a million nodes — fungal decisions to go left, right, or fuse into a bridge. The threads are thinner than hairs on a human head — just a few microns across. Arbuscular mycorrhizal fungi are like an open-pipe system. They don’t have septa that break them into compartments. Some people even say they’re the largest cells on Earth.",
+        "Kiers has built a worldwide community of researchers to map the biodiversity of these underground networks and advocate for their protection. The work raises new questions about soil, carbon, and even what counts as an individual organism. Next time you walk on soil, remember the wood wide web — not the worldwide web — beneath your feet."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-15T23:51:43.088Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-16/2026-10-16-how-do-fungi-keep-the-planet-healthy.webp",
+      "alt": "土壤剖面中真菌菌丝网络与植物根系交织相连的抽象插图",
+      "caption": "地下菌丝网络，连接植物与土壤。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-16-calls-of-the-wild-offer-sound-guidance-for-prote",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "听叫声辨识森林动物，生物声学成为保护濒危动物的新工具",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-16",
+    "intro": "把录音机挂在树上，就能听见森林里谁在说话。这门叫生物声学的学问，正在成为保护濒危动物的新工具。",
+    "paragraphs": [
+      "想找到一头狮子并不容易。科学家通常开车在草原上跑几个小时，找脚印、找粪便，或者把相机陷阱架在动物常经过的地方，等它自己入镜。但大型食肉动物研究员乔纳森·格罗科特觉得，这些办法漏掉了很重要的一件事：动物是会发声的。狮子、豹子和鬣狗的叫声是动物界最好认的声音之一，而且能传出好几公里。",
+      "会发声的远不止它们。鸟、哺乳动物、昆虫、爬行动物、两栖动物、鱼，连甲壳类动物都会发出声音。有的用叫声寻找配偶、守卫领地，有的用叫声吓退天敌。声音帮它们感知环境、和同伴联络，也能帮到科学家——前提是知道该听什么。越来越多研究者开始研究生物如何发出、传播和接收声音，这门学问叫生物声学。录音设备可以绑在树上，也可以放在海底，安静地收集声音，不打扰野生动物。研究者由此能知道这片地方有哪些物种、它们在做什么、种群大概有多少，也能减少动物和人的冲突。",
+      "格罗科特在英国埃克塞特大学读博士时，做了第一次大规模非洲食肉动物声学调查。他在坦桑尼亚的尼雷尔国家公园，把50台录音设备铺设在450平方公里范围内，并把录音机和相机陷阱配对放置。他先研究豹子。豹子独居、昼伏夜出、行踪隐秘，数量很难统计，但会发出低沉、像锯木头一样的吼声。团队把每只豹子的照片和吼声一一对应，发现每只豹子的吼声都不一样。一个计算机模型仅凭吼声就能分辨不同的豹子，准确率达到93%。‘你 can identify leopards not only by their spots, but also by their roars,’ Growcott reports。",
+      "轮到狮子，格罗科特发现吼声的模式并不一样：有的响亮、悠长、复杂，有的短而简单。他用人工智能分析后确认，狮子的吼声有两种。一种是我们熟悉的、在动物园或电影里听到的洪亮吼声；另一种更短、音调更低，此前没有被描述过，他叫它‘intermediary’ roar。他真正想做的，是认出具体的某一头狮子，于是创建了一个AI工具，用于识别个体狮子的洪亮吼声。AI能以超过95%的准确率识别具体狮子，比人类专家还高。把吼声和个体对应起来，研究者就能统计这些大猫的数量、追踪各自活动的范围，这是保护野生动物和当地人都需要的数据。",
+      "有些动物稀少又难见到，声音就更重要。地球上最后74只东黑冠长臂猿，生活在越南北部一片偏远的山地雨林里。这个物种一度被认为已经灭绝，直到2002年科学家才发现这一小群。它们一生都在树冠里活动，用肉眼几乎无法观察。好在它们爱唱歌，结成伴侣的长臂猿会合唱响亮的二重唱。美国迦太基学院的生物学家安杰拉·达索研究它们已有五年，团队在一片区域放置大约20台特制录音机。同一声鸣叫传到不同录音机的时间略有差别，计算机比较这些时间差，就能算出声音来自哪里。‘Our recording units don’t just tell us _if_ an animal is present,’ says Dassow. ‘They give us a GPS location of where that animal is, without putting a radio collar on it.’ 这些信息会分享给当地巡护员，用来保护长臂猿和它们的森林。",
+      "达索还把生物声学用在另一片亚洲森林，减少人和孟加拉虎的冲突。过去十年，保护项目让尼泊尔的老虎数量增加了。对濒危物种来说这是好消息，但人也更多遇到这种顶级捕食者，在依赖森林生活的农村尤其如此。她开发了一套声学警报系统，提醒村民有老虎正在靠近。难点是老虎很安静，很少叫；她想到的办法是借助花鹿——花鹿是老虎的猎物，也很擅长察觉附近的老虎，一旦发现老虎或其他捕食者，就会发出独特的警报叫声。Growcott notes: ‘At some point, we may better understand why animals make the sounds they do... Trying to work out what animals mean when they make noises is something that has fascinated people for a long time. I think it will continue to fascinate us for a long time to come.’"
+    ],
+    "topics": [
+      "生命与演化",
+      "声音与感知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
+      "originalTitle": "Calls of the wild offer sound guidance for protecting animals",
+      "publishedAt": "Thu, 15 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-15T23:47:47.858Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-15T23:47:38.990Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Listening to the Wild: How Animal Sounds Help Protect Them",
+      "intro": "Scientists are learning to protect animals by listening to the sounds they make.",
+      "paragraphs": [
+        "Jonathan Growcott calls the African savanna his happy place. He bounces across it in a 4×4 vehicle. As a large-carnivore biologist, he tracks predators in the wild. That work is tough; these animals can be hard to find. Common methods often involve driving for hours in search of footprints or droppings. Some researchers set up camera traps in hopes of snapping photos of passing animals. Growcott felt these still missed something. Maybe scientists could do more than just look for signs of critters. Perhaps they could listen for them, too. 'Species like lions, leopards and hyenas produce some of the most recognizable sounds in the animal kingdom,' notes Growcott. What’s more: 'These sounds travel many kilometers [miles].'",
+        "Birds, mammals and insects are sound-makers. So are reptiles, amphibians, fish — even crustaceans. Some call out to find mates or defend territories. Others use calls to scare off predators. Sounds help many creatures sense their environment and check in with each other. This cacophony of chirps, squeaks, rattles and roars can aid scientists, too — if they know what to listen for.",
+        "Bioacoustics is the study of how living things make, transmit and receive sounds. Audio recorders can be strapped to a tree or set on the ocean floor. Once placed, the devices capture bioacoustic data without disturbing wildlife. This can make them especially useful in conservation efforts. By eavesdropping on neighborhood chatter, researchers can find out which species are out there and what they’re up to. They can estimate the size of populations to keep tabs on how critters are doing. Knowing where animals are can also help limit their conflict with people.",
+        "Growcott ran the first large-scale bioacoustics survey of African carnivores. At the time, he was a PhD student at the University of Exeter in England. He and his team worked in East Africa at the Nyerere National Park in Tanzania. They deployed 50 acoustic recorders across 450 square kilometers (175 square miles). He focused on leopards first. These solitary cats are secretive and nocturnal. Such habits make monitoring their numbers challenging. Leopards produce deep 'sawing' roars that resemble the sound of cutting wood. Jonathan Growcott and colleagues found that each leopard’s roar was unique. So 'you can identify leopards not only by their spots, but also by their roars,' Growcott reports. A computer model was able to distinguish between leopards based on their roars with 93 percent accuracy. When Growcott turned to lions, he noticed patterns. Some of their roars were loud, long and complex. Others sounded shorter and simpler. Using artificial intelligence (AI), he analyzed those roars. It showed lions produce two distinct types. There’s the familiar, full-throated roar you may have heard at a zoo or in a movie. Then there’s a shorter, lower-pitched one. He called this previously unknown one an 'intermediary' roar. He created an AI tool that he calls 'Shazam for lions.' It analyzes just the full-throated roars — because they contain the most sound information. AI, he found, could identify a specific lion by its roar with more than 95 percent accuracy. That’s better than human experts can do!",
+        "Sound is especially useful when animals are rare or hard to see. The last 74 Cao-vit gibbons on Earth live in a remote part of Southeast Asia. They’re in a patch of mountainous rainforest in northern Vietnam. Their species was thought to be extinct until 2002. That’s when scientists discovered this small population. These critically endangered apes spend their lives in treetops. That makes them almost impossible to observe by eye. Fortunately, Cao-vit gibbons like to make themselves heard. Mated pairs sing loud, melodic duets. 'It is a privilege to hear one of the rarest primates on the planet giving their morning duet calls,' says Angela Dassow. These 'are kind of eerie,' she notes, 'but also beautiful to wake up to.' Dassow is a biologist at Carthage College in Kenosha, Wisc. For the past five years, she’s studied Cao-vit gibbons with partners in Vietnam. To locate the animals, the team uses specially designed acoustic recorders. Dassow places around 20 of them throughout a region. That way, a single gibbon call reaches different recorders at slightly different times. By comparing those times, computers can pinpoint where the sound came from. 'Our recording units don’t just tell us if an animal is present,' says Dassow. 'They give us a GPS location of where that animal is, without putting a radio collar on it.'",
+        "Dassow is using bioacoustics in another Asian forest to lessen conflicts between people and Bengal tigers. Over the past 10 years, conservation programs have increased the number of these tigers in Nepal. That’s great news for this endangered species. But it also has led to more encounters between people and these top predators. To help people coexist with the big cats, Dassow developed an acoustic alarm system. It alerts villagers to the presence of approaching tigers. Tigers tend to be quiet. Very rarely do you hear them vocalize. But there are a lot of chital deer in the area, and they are a prey source for tigers. As you might expect, these deer are excellent at detecting when a tiger is near. They make a distinctive alarm call when they spot a tiger or other predator."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-15T23:52:33.054Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-16/2026-10-16-calls-of-the-wild-offer-sound-guidance-for-prote.webp",
+      "alt": "森林枝头悬挂录音装置并扩散声波的抽象插图",
+      "caption": "树上的录音机，听见森林的声音。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-16-9429ec",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-16",
+    "intro": "这次抓取到的《国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”》只有标题与网页导航结构，正文内容完全缺失，无法提取任何可核查的事实信息。",
+    "paragraphs": [
+      "从中国新闻网抓取到的这份页面，仅包含网站标识、栏目导航链接、搜索功能入口和文章标题《国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”》，标题之后未出现任何正文段落、数据、人物、作品名或具体案例。",
+      "根据轻听改写规范，听稿中所有陈述必须能在原文中逐字找到依据。当前证据块中无一句描述‘四剑客’所指剧目、播出平台、覆盖国家、收视表现、观众反馈或行业影响等内容，因此无法构建任何事实性叙述。",
+      "该稿件暂不生成听稿。待获取含完整正文的原文后可重新提交；若正文需权限访问或已下线，则按规则放弃处理，不以推测、常识或外部知识补全。"
+    ],
+    "topics": [
+      "国产剧出海",
+      "文化输出",
+      "流媒体与译制",
+      "跨文化传播"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715366.shtml",
+      "originalTitle": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
+      "publishedAt": "Thu, 15 Oct 2026 23:18:45 +0800",
+      "retrievedAt": "2026-10-15T23:49:42.721Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-15T23:49:30.776Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 4,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-15-triplet-of-ghostly-galaxies-hints-at-what-dark-m",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "三个‘幽灵’星系几乎不含暗物质，为暗物质存在提供间接证据",
@@ -3124,184 +3311,6 @@
       "alt": "巨砗磲贝壳剖面，壳层呈同心弧线如年轮",
       "caption": "壳层如年轮，记录海水冷暖",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-01-cities-across-the-world-are-sinking-because-of-g",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "全球许多城市因抽地下水而下沉，大阪数据表明这一过程可能逆转",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-01",
-    "intro": "全球许多城市因为抽走地下的水而下沉，一项新研究用大阪几十年的数据说明，这个过程有可能反过来。",
-    "paragraphs": [
-      "世界上的许多城市正在下沉，而原因就藏在脚底下。城市下方的含水层里储存着地下水，当抽取的速度超过水自然补充的速度，地面就会慢慢塌下去。印度尼西亚首都雅加达的部分地区，每年下沉超过十厘米，政府已经在计划迁都。中国的沿海城市天津住着一千五百万人，同样是下沉的热点地区；如果下沉照这样继续下去，到二一一〇年，天津将有百分之十五的人口处在水面以下。在新西兰，最近的研究显示，大约百分之八十的城市海岸线都在下沉，克赖斯特彻奇和惠灵顿等地，地下水可能是原因之一。从圣迭戈到伊朗的主要城市，只要地下水被抽得比补充得快，类似的故事都在发生。",
-      "这件事在沿海城市格外要紧。地面在下沉，海平面同时在上升，两个方向合在一起，沿海城市面对的相对海平面就更高，气候变暖带来的影响也会来得更早。地下水抽取会让地面下沉，这一点科学家早就了解，做好地下水管理也一直被当作减缓或停止下沉的关键办法。但有一个问题始终没有答案：如果含水层长期得到恢复，地面会怎么反应？是像气球重新充气那样均匀地升回来，还是过程要复杂得多？",
-      "日本大阪提供了一个几乎完美的天然实验室。上世纪二十年代到六十年代，大阪大量抽取地下水，地下水位最多下降三十米，有些地方的地面下沉超过两米。日本政府在六十年代初出台了严格的地下水管理规定，此后几十年，地下水位一直在稳步回升。为了看清地面发生了什么，研究者查看了四十四口监测井的数据，有些井深达五百米，记录最早可以追溯到一九八五年。与此同时，他们用卫星雷达反复拍摄地面图像，再配合地面站的高精度卫星导航测量，捕捉毫米级的地面高度变化。结果相当惊人：在大阪都市圈，大约一千五百万人生活的地方，地面正在上升，平均每年约四毫米，有些地方高达每年十二毫米。地下水位也在稳步上升，最快的地方每年上升一米。水位上升最快的地方，地面抬升也最快。",
-      "但地面的抬升并不均匀。同一个城市里，一个街区可能上升得很快，不到一百米之外的另一个地方却慢得多。这些突然的变化并不是随机的，它们连成一条条狭窄而连续的走廊，横穿整座城市。研究者很快意识到一件意想不到的事：这些走廊几乎完美地对应着已知的构造断层线。",
-      "断层是地壳中的裂缝，人们通常只在讨论地震时想到它。但在这项研究里，断层扮演了另一个角色。你可以把断层想象成挂在地下的一幅帷幕，它竖着穿过含水层，挡住的不是光，而是水。它阻止地下水横向流动，像一座地下大坝。在大阪的上町断层，一侧的地下水位上升速度是另一侧的三倍。城市里其他断层也重复着同样的模式：水被挡在断层的上游一侧，不容易流走，那里的地下水恢复得更快，地面也抬升得更快；下游一侧则慢一些。",
-      "这项研究给沿海城市应对海平面上升提供了一个新的思路。在地下水抽取曾经导致地面下沉的地方，减少抽取、让含水层慢慢恢复，有可能减缓——甚至在某些地方逆转——地面的下沉。海平面还在继续上升，让沿海城市脚下的地面不再往下掉，也许会成为适应一个更暖世界的重要一环。"
-    ],
-    "topics": [
-      "城市与公共",
-      "气候与能源",
-      "地理科学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/cities-across-the-world-are-sinking-because-of-groundwater-depletion-but-the-process-can-be-reversed-292669",
-      "originalTitle": "Cities across the world are sinking because of groundwater depletion. But the process can be reversed",
-      "publishedAt": "2026-09-30T09:05:49Z",
-      "retrievedAt": "2026-10-01T00:42:49.502Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-01T00:42:41.863Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 31,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-01/2026-10-01-cities-across-the-world-are-sinking-because-of-g.webp",
-      "alt": "抽象城市剪影与地层剖面，一条线由下沉转为回升",
-      "caption": "地下水与地面的升降",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-01-yx4obv",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "欧阳明高：当技术革命家是我的追求",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-01",
-    "intro": "这篇报道的正文内容未能成功抓取。页面仅显示标题、导航栏和搜索功能，无采访实录、人物言论或具体事迹等可核验信息。",
-    "paragraphs": [
-      "当前获取的网页内容中，只有标题‘欧阳明高：当技术革命家是我的追求’及中新网教育栏目导航结构，未包含任何记者提问、欧阳明高回答、技术细节、时间地点或事件经过等实质性正文内容。",
-      "根据轻听编辑规范，人物报道必须基于可核查的具体引语、事实和过程；仅凭标题无法支撑真实、准确、可回溯的听稿。使用模糊表述如‘据报道’‘专家指出’将导致无法验证，违背事实审稿原则。",
-      "因此本次不生成正式听稿。待完整原文到位——包括采访场景、直接引语、所涉技术方向（如氢能、电池热管理等）、关键时间节点及个人经历细节后，方可启动制作。目前信息量不足以构成一篇面向青少年的可信人物报道。"
-    ],
-    "topics": [
-      "新能源技术",
-      "科学家访谈",
-      "技术产业化"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-30/10706214.shtml",
-      "originalTitle": "欧阳明高：当技术革命家是我的追求",
-      "publishedAt": "Wed, 30 Sep 2026 14:59:16 +0800",
-      "retrievedAt": "2026-10-01T00:44:37.567Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-01T00:44:36.260Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Ouyang Minggao: 'Being a Technology Revolutionary Is My Pursuit'",
-      "intro": "One short sentence in a headline gives us a chance to think about what the word 'revolutionary' really means.",
-      "paragraphs": [
-        "The China News Service education page shared a story about Ouyang Minggao. The headline is 'Ouyang Minggao: When Technology Revolutionary Is My Pursuit'.",
-        "The headline uses the phrase 'Technology Revolutionary'. It is presented as his personal aspiration.",
-        "The word 'pursuit' appears in the headline. It signals a long-term goal, not a one-time achievement."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-01T00:47:24.732Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-09-30-cuddling-helps-apes-keep-the-peace",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "喂食前互相拥抱的猿类，更可能和平地一起进食",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-09-30",
-    "intro": "一项新研究观察到，黑猩猩和倭黑猩猩在食物到来之前互相拥抱越多，之后越可能安静地分享食物。",
-    "paragraphs": [
-      "握手、拥抱、轻拍，甚至把手指伸进对方嘴里——这些是黑猩猩和倭黑猩猩之间常见的动作。它们和人类一样，属于没有尾巴的大型灵长类，也就是猿类。英国杜伦大学的灵长类研究者赞娜·克莱说，这些亲密的身体接触就像社会黏合剂，把群体里的成员粘在一起。科学家此前已知，黑猩猩和倭黑猩猩会用身体接触来解决冲突；但研究团队注意到，它们也会在没有打架时主动亲近，于是想探究：这类触碰是否也能预防冲突。",
-      "荷兰乌得勒支大学的灵长类研究者杰克·布鲁克参与了这项研究。他和赞娜·克莱等人观察了五个黑猩猩或倭黑猩猩群体，这些动物生活在赞比亚和刚果民主共和国的保护区里。研究者向它们提供花生——一种它们特别喜欢的零食。由于花生数量有限，猿类看到食物时既兴奋又紧张。",
-      "科学家拍摄并分析了喂食前、中、后的行为。结果发现：喂食前拥抱等友好身体接触越多，猿类之后越可能和平共食；这一现象在黑猩猩和倭黑猩猩中均被观察到。该研究于7月22日发表在《英国皇家学会学报B》上。",
-      "这个结果有些出人意料。克莱指出，黑猩猩常被描述为脾气暴躁、具有攻击性；而倭黑猩猩则被称为‘猿类世界里的自由恋爱嬉皮士’。但新发现表明，这两个物种在用身体接触维系和平方面，可能比人们以为的更相似。",
-      "不过，克莱强调，目前无法确定身体接触是否直接导致和平相处——也可能是原本更宽容的群体，本来就更常触碰彼此。她认为，更可能是双向作用：触碰缓解紧张，而放松的个体又更愿触碰他人。她还提出，人类或许可从中获得启发：‘身体靠近是一种非常有力的减压方式’，在体育赛事等紧张场合前增加身体接触，可能帮助人们更平静、更联结。",
-      "这是一个尚未完全解开的问题：是拥抱带来和平，还是和平催生拥抱？至少对黑猩猩和倭黑猩猩而言，食物来临前先抱一抱，看起来是个值得尝试的开始。"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/cuddling-apes-chimps-bonobos-peace",
-      "originalTitle": "Cuddling helps apes keep the peace",
-      "publishedAt": "Tue, 29 Sep 2026 10:30:00 +0000",
-      "retrievedAt": "2026-09-30T00:32:11.114Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-30T00:32:08.406Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 19,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Cuddling Helps Apes Keep the Peace",
-      "intro": "A new study suggests that chimpanzees and bonobos may use hugs and friendly touches to calm each other down.",
-      "paragraphs": [
-        "Hugs and kisses could help primates keep the peace. A new study shows that chimps and bonobos might use friendly physical touch to calm each other in stressful situations.",
-        "Chimpanzees and bonobos are part of a group of large tailless primates known as apes. They share embraces, pats and genital touches with their neighbors. They even hold hands and stick their fingers in each other’s mouths! Such buddy-buddy behaviors form the social glue that helps groups stick together, says Zanna Clay. A primate researcher, she works at Durham University in England.",
-        "Humans could learn a lesson about this love language from our ape relatives, she says. Physical touch might calm us and connect us more before intense moments. This could be useful for people attending sporting events or competitions. 'Physical closeness is a really powerful way of managing stress,' Clay says. Her team shared its findings on July 22 in Proceedings of the Royal Society B.",
-        "Scientists knew chimps and bonobos use physical touch to solve conflicts. But Clay’s team noticed that the apes were also getting friendly in the absence of fighting, says Jake Brooker. He studies primates at Utrecht University in the Netherlands. Brooker wondered if the apes were using cuddles to head off conflicts, not just resolve them. To answer this question, he, Clay and their co-workers observed five different groups of chimps or bonobos. These animals live in protected areas in Zambia and the Democratic Republic of Congo.",
-        "The scientists offered the animals peanuts, a favorite snack. When the apes saw the treats coming, they’d get nervous and excited, Brooker says. That’s because they could see there weren’t enough peanuts for everyone to eat their fill. The scientists filmed the animals before, during and after offering peanuts. The more the animals cuddled before feeding, the more likely they were to eat together in peace, they found. This was true for both bonobos and chimps.",
-        "Chimps often get a bad rap, Clay says; they’re known for being surly and aggressive. Bonobos, on the other hand, are considered the ape world’s free-loving hippies. But the team’s results suggest these species may be more similar than people think. Clay can’t say for sure if touchy-feely behaviors help apes get along. Maybe more tolerant groups just tend to touch each other more. In fact, she says, it’s probably a two-way street."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-09-30T00:37:41.189Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
