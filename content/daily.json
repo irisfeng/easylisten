@@ -1,5 +1,238 @@
 [
   {
+    "slug": "2026-10-17-8f2100",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究首次揭示神经元参与灵活决策的计算机制，或启发人工智能",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-17",
+    "intro": "中国科学院脑智卓越中心的科研团队首次揭示大脑神经元参与灵活决策的计算机制，这项发现可能启发下一代人工智能的底层算法。",
+    "paragraphs": [
+      "同样学一件事，为什么人脑比人工智能快那么多？大模型最擅长的语言和图像识别，训练量至少是人类的上万倍。答案就藏在大脑的基本结构——神经元里面。近日，中国科学院脑智卓越中心的科研团队，首次揭示了大脑神经元参与灵活决策的计算机制，填补了长期缺失的空白。这项成果，很可能启发下一代人工智能的底层算法。",
+      "大脑里有很多神经元，我们可以把它们想象成一个个小车站。车站和车站之间，靠“突触”连接，就好比车站之间的路。学习，本质就是让神经元之间的通路变得更加顺畅。",
+      "为了破解大脑灵活决策之谜，科学家设计了一套听觉抉择实验，训练小鼠玩猜规则游戏。小鼠会听到不同声音，需要找到隐藏的规律。等小鼠摸透当前规律后，科学家再悄悄更换这套规则，观察小鼠如何快速适应新逻辑。",
+      "科研团队利用双光子显微镜，观察小鼠听觉皮层的神经元。神经元并不是一个光秃秃的小圆点，它长出很多像树枝一样的突起，这就是树突，长长的那支远端分支叫作顶端树突。顶端树突负责承载推断出来的“抽象规则”，细胞本体也叫胞体、负责接收耳朵传来的感官信号。两套信息，在同一个细胞里就完成比对运算——相当于一边提出猜想，一边接收现实，当场判断猜想是否成立。",
+      "这个实验也就证明：单个神经元本身就是一台小型计算机，神经元的树突和胞体相互作用就能完成决策相关的认知计算。只有猜想经过多次验证、确认可靠之后，大脑才会慢慢加固突触，把这条规则永久保存下来。",
+      "现在的AI，只模拟了神经元之间的突触连接，也就是我们前面说的“车站之间的路”。如果能把这次新发现的神经元计算新机制融入算法，就有望打造出能快速提出假设、少量样本就能推理新规律的新一代人工智能。亿万年演化，把精巧的计算能力直接塞进人类大脑的单个神经元，我们现在，或许才刚刚揭开它奥秘的冰山一角。"
+    ],
+    "topics": [
+      "脑与认知",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573038.shtm",
+      "originalTitle": "神经元新发现或将重塑人工智能",
+      "publishedAt": "2026-10-16 17:20",
+      "retrievedAt": "2026-10-16T23:40:16.439Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:40:07.876Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "New Neuron Discovery May Reshape Artificial Intelligence",
+      "intro": "Chinese scientists have revealed how single neurons help the brain make flexible decisions. This finding could inspire the next generation of artificial intelligence.",
+      "paragraphs": [
+        "Have you ever wondered why your brain can learn so much faster than a giant AI model? Big AI models need at least ten thousand times more training data than humans. The answer lies in our neurons — the basic structure of the brain.",
+        "Neurons are like tiny stations in the brain. Synapses are the roads that connect them. Learning makes these roads smoother.",
+        "To crack the mystery of flexible decision-making, scientists trained mice to play a 'guess-the-rule' game with sounds.",
+        "Mice heard different sounds and searched for hidden patterns. After mastering the current rule, scientists quietly changed it. Then they observed how fast the mice adapted to the new logic.",
+        "Using a two-photon microscope, the team watched neurons in the mouse auditory cortex. Each neuron has branch-like dendrites. Its long apical dendrite carries inferred abstract rules. The cell body — or soma — receives sensory signals from the ears.",
+        "Both types of information meet and compare inside one cell. This is like making a guess and checking reality at the same time.",
+        "This proves a single neuron is itself a small computer. Dendrites and the cell body interact to perform cognitive computations for decision-making.",
+        "Only after repeated verification does the brain strengthen synapses to store the rule permanently.",
+        "Today’s AI only mimics synaptic connections between neurons — the 'roads' between stations. Adding this newly discovered intra-neuronal computation mechanism to algorithms could lead to AI that forms hypotheses quickly. It could also learn new rules from few examples.",
+        "Evolution packed exquisite computing power into each human neuron. We may have just glimpsed the tip of the iceberg."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:51:10.048Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 10,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-17/2026-10-17-8f2100.webp",
+      "alt": "冷灰色纸张质感上，抽象线条构成的神经元网络汇聚成分支路径。",
+      "caption": "神经元网络中的选择路径",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-17-he-wants-ai-benchmarking-to-be-a-science-not-a-d",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "计算机科学家莫里茨·哈特：AI基准测试有根本缺陷，应成为科学而非靠运气",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-17",
+    "intro": "计算机科学家莫里茨·哈特说，人工智能的基准测试从一开始就带着根本缺陷，它能推动进步，靠的其实是运气。",
+    "paragraphs": [
+      "给人工智能打分，是今天整个行业最热闹的比赛。每隔一阵就有公司宣布，自己的模型在某项测试上拿了高分，好像这张成绩单就等于模型的聪明程度。但计算机科学家莫里茨·哈特认为，这套打分方式从根子上就是坏的。他是德国马克斯·普朗克智能系统研究所的所长，2026年出版了一本专门讲机器学习基准测试的书。他的说法很尖锐：基准测试是‘the mistake that made machine learning’。不过他也认为，坏掉的东西并非修不好。",
+      "先说基准测试是什么。做法很简单：把数据分成两份，一份给做模型的人随便用，想怎么训练都行，没有规则；另一份只用来排队，谁第一、谁第二，列成一张排行榜。哈特提醒，它跟温度计不一样。按教科书上的说法，测试集应该锁起来、只用一次，像温度计一样客观地量出模型的本事。可现实中，基准测试更像一场体育比赛，或者一个市场：它定下游戏规则，大家围着它竞争，谁赢谁就被当成最好。",
+      "这件事的历史比很多人以为的长。1959年就有了第一个基准测试，是一批印在打孔卡上的数字和字母，用来比较不同扫描仪认字的本领。也是在那时，有人想出了训练集和测试集分开的办法，还挂出了排行榜。之后大约六十年，基准测试一直是人工智能进步的发动机。1987年，美国国防高级研究计划局（DARPA）的第一个语音转文字基准测试显示，当时最先进的人工智能无法超越所谓‘笨’的统计方法，这个结果助推了人工智能的寒冬，此后二十五年，研究兴趣消退，经费枯竭。到2012年，一个叫ImageNet的基准测试又把钟摆甩了回来：一个八层神经网络在图像分类上大胜其他算法，开启了深度学习革命。",
+      "那它坏在哪里？坏在机器学习这门学科根本没听教科书的警告。测试集被放到网上，人人可用，也很容易被塞进模型开发的循环里反复调。后果是，只要稍微改动测试集，同一个模型的准确率就会完全变样——在某个数据集上有90%，换一个就掉到73%。哈特说，这样一来，他根本不知道这个模型到底有多好。",
+      "奇怪的是，机器学习并没有因此陷入科学危机。哈特给出的解释是排名。绝对分数虽然不作数，模型之间的相对高低却很稳定：一个模型在某个测试集上拿到90%，另一个拿到80%，那么高分那个在现实中通常真的更好用，换成差别很大的其他数据集，它往往还是赢。排行榜能告诉你什么时候超过了此前的最好成绩，而这个‘improvement indicators are pretty reliable’的信号相当可靠，这是机器学习躲过危机的主要原因。但哈特强调，这其实是运气：我们本来没有理由指望会这样，至今也没有一套好理论解释它，只能说是个经验现象。",
+      "这份运气有一个前提：所有模型必须在同一份训练数据上学习。过去确实如此，可今天的大语言模型，我们并不知道它们训练时看过什么。更麻烦的是，做模型的人可以有策略地拼凑数据，专门迎合某项基准测试，有点像高中生应试复习。于是‘the better model necessarily wins’不再成立：差一点的模型，只要在准备某场特定考试上花更多力气，也可能拿到更好的名次，这就是当前基准测试危机的由来。哈特并不否认基准测试的功劳，它六十年里确实推动了真实的进步，只是推得侥幸。他真正想说的是，进步不该建立在运气上。让打分成为一门科学，意味着先弄清排行榜为什么有时可信、有时不可信，而不是继续把来路不明的分数当成智能的证明。"
+    ],
+    "topics": [
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "originalTitle": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+      "publishedAt": "Fri, 16 Oct 2026 13:25:08 +0000",
+      "retrievedAt": "2026-10-16T23:42:08.489Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:41:46.478Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-17-4739dc",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "看不见赛道，他们用一根陪跑绳并肩向前",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-17",
+    "intro": "10月15日是国际盲人日。走近成都黑暗跑团：一根橙色陪跑绳的两端，是视障跑者和陪跑志愿者并肩向前的脚步。",
+    "paragraphs": [
+      "每个周六，在成都锦城湖、四川大学华西校区风雨操场，常能看到这样一群人：两个人并排奔跑，中间连着一根橙色陪跑绳。这头是视障跑者，那头是陪跑志愿者。两人调整步伐、配合节奏，一起向前奔跑。这是成都黑暗跑团的每周六常规例跑。跑团成都站负责人张志宏介绍，目前跑团有190位视障成员、1500多名志愿者。每周六的例跑，是大家运动、交流、结识朋友的机会。",
+      "这群跑友眼下有了新的目标：即将到来的2026年成都马拉松，将成为他们又一次并肩奔跑的赛场。跑团计划组织23位视障跑者参赛，其中4位参加半程马拉松，其余挑战全程马拉松；还有70多名陪跑志愿者将一同上场护航。参赛队伍中，还有肢体障碍和听力障碍跑者。赛道之外，也有他们的伙伴：10位视障伙伴和30余名志愿者将在赛道旁为跑友加油助威。",
+      "为什么要成立‘黑暗跑团’？张志宏解释说，希望能帮助视障伙伴坦然接纳‘黑暗’这个真实的生命处境，再以奔跑的姿态冲破边界、打破偏见。而‘跑团’二字，是力量，是连接，是希望。一根陪跑绳的两端，是平等与信任，是彼此陪伴，一起向前，实现残健共融、双向奔赴。",
+      "但在跑团成立之初，邀请视障朋友来跑步并不是一件容易的事。有人心存疑虑，不相信会有人免费陪自己出门运动。从熟悉的环境走向户外，需要勇气，更需要信任。后来，跑友介绍跑友，成都市锦江区残联也帮助推动宣传，越来越多的视障跑者加入进来。2020年10月25日，张志宏组织了第一场黑暗跑团活动。",
+      "10月15日是国际盲人日。一根橙色陪跑绳，这头是视障跑者，那头是陪跑志愿者，两个人调整步伐、配合节奏，一起向前奔跑——在成都黑暗跑团，这样的并肩奔跑是每周六的约定。"
+    ],
+    "topics": [
+      "体育",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261015/cfc5923147b748c78db7be7d8fffa819/c.html",
+      "originalTitle": "追光丨他们看不见赛道，却偏要“冲破”黑暗",
+      "publishedAt": "2026-10-15T10:05:27+08:00",
+      "retrievedAt": "2026-10-16T23:43:22.457Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:43:14.960Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-17-3ac970",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "古特雷斯呼吁各方加快行动并增加投入，以遏制生物多样性丧失",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-17",
+    "intro": "联合国生物多样性大会第十七次缔约方大会将于下周在亚美尼亚首都埃里温开幕。联合国秘书长古特雷斯周五在当地举行的领导人峰会上表示，全球超过100万种物种面临灭绝风险，但保护行动进展缓慢，资金投入严重不足。",
+    "paragraphs": [
+      "全球有超过100万种物种面临灭绝风险。联合国秘书长古特雷斯周五在亚美尼亚首都埃里温举行的领导人峰会上指出，保护行动进展缓慢，资金投入严重不足，他敦促各国政府、企业和社会各界加快行动，遏制生物多样性丧失。联合国生物多样性大会第十七次缔约方大会将于下周在埃里温开幕。",
+      "四年前通过的《昆明-蒙特利尔全球生物多样性框架》推动了全球共同行动。近90%的缔约方已制定国家生物多样性目标，超过一半制定了国家行动路线图。自2022年以来，全球新增正式保护的陆地面积达130万平方公里，海洋面积达600万平方公里。但各国进展不均衡，行动速度仍然过慢。",
+      "目前，全球生物多样性融资不到《昆蒙框架》所商定的2000亿美元目标的一半。同时，各国在投入1美元用于保护自然的同时，就有30美元流向损害自然的活动。2023年，全球流入污染性重工业、破坏性农业经营和化石燃料等有损自然行业的资金达7.3万亿美元。古特雷斯敦促各国政府停止相关补贴，将节省下来的资金用于改善民生和保护地球。要实现全球生物多样性保护、应对气候变化和土地恢复目标，到2030年，全球每年需投入5710亿美元，这笔投资约占全球国内生产总值的0.5%。",
+      "即使现有承诺全部兑现，到2030年，受到保护的陆地生态系统和海洋生态系统比例也分别仅为26%和12%，低于早前设定的30%的保护目标。古特雷斯呼吁各国政府发挥领导作用，落实‘到2030年保护至少30%陆地和海洋’的目标，推动零废弃和循环经济、可持续耕作与再生农业，加强监测、提高透明度，并强化现有法律的执行。他还赞扬了《埃里温宣言》作出的将生物多样性纳入政府政策、预算和法规的承诺。",
+      "古特雷斯同时呼吁私营部门扩大参与，并指出，得到联合国支持的卡利基金，为从自然中获益的企业提供了资助生态保护的渠道。与此同时，他表示许多发展中国家受到债务负担、公共预算有限和国际金融体系不公平等因素制约，难以充分投资于自然保护和人的发展。他最后呼吁社会各界广泛参与，指出环境退化往往对最脆弱、环境破坏负有最少责任的群体造成最严重影响，而解决方案也常常来自这些群体。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143017",
+      "originalTitle": "古特雷斯呼吁各方加快行动并增加投入，以遏制生物多样性丧失",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-16T23:44:13.042Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:44:06.589Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Guterres Urges Faster Action to Protect Nature",
+      "intro": "World leaders are meeting in Armenia. The UN chief says the planet cannot wait any longer.",
+      "paragraphs": [
+        "More than one million species face extinction risk. UN Secretary-General António Guterres said this on Friday at a leaders' summit in Yerevan. Yerevan is the capital of Armenia. The UN Biodiversity Conference COP17 opens there next week. Guterres said protection efforts are progressing too slowly. Funding is severely insufficient.",
+        "Four years ago, countries adopted the Kunming-Montreal Global Biodiversity Framework. Nearly 90 percent of parties have set national biodiversity targets. Over half have developed national action roadmaps. Since 2022, newly protected land area reached 1.3 million square kilometers. Newly protected ocean area reached 6 million square kilometers.",
+        "Global biodiversity financing is less than half of the agreed 200 billion dollar target. Guterres highlighted a stark imbalance. For every one dollar spent protecting nature, thirty dollars flow to activities that harm it. In 2023, seven point three trillion dollars went to polluting heavy industry, destructive agriculture, and fossil fuels. He urged governments to end those harmful subsidies. They should redirect savings to people and the planet. To meet global goals by 2030, annual investment must reach 571 billion dollars. That is about 0.5 percent of global GDP.",
+        "Even if all current commitments are fulfilled, protected land would reach only 26 percent by 2030. Protected ocean would reach only 12 percent. Both are below the 30 percent target. Guterres called on governments to lead implementation of the '30 by 30' goal. They should advance zero-waste and circular economies. They should promote sustainable and regenerative agriculture. They should strengthen monitoring and transparency. They should enforce existing laws. He welcomed the Yerevan Declaration’s commitment. It integrates biodiversity into government policies, budgets, and regulations.",
+        "Guterres also urged the private sector to scale up involvement. He noted the UN-backed Cali Fund offers businesses a channel. These businesses benefit from nature. They can finance conservation. He stressed that many developing countries face constraints. Debt burdens limit them. Limited public budgets limit them. An unfair international financial system limits them. These constraints hinder investment in nature and human development. Environmental degradation harms the most vulnerable. Those people are least responsible. Solutions often emerge from these communities."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:52:48.811Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 5,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-17/2026-10-17-3ac970.webp",
+      "alt": "冷灰纸张质感上，层叠的抽象叶片轮廓，部分渐隐。",
+      "caption": "生物多样性的脆弱轮廓",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-16-how-do-fungi-keep-the-planet-healthy",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "地下看不见的真菌网络，怎样让地球保持健康？",
@@ -3122,195 +3355,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-10-02-y7bmfb",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "专访郭培：高定是高于现实的艺术 也是文明互鉴的表达",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-02",
-    "intro": "近日，中国当代高级定制设计师郭培在杭州接受专访，谈高定，谈东方与西方，也谈文化之间最好的状态。",
-    "paragraphs": [
-      "一件衣服能穿多久？一般人的答案可能是几年。而中国设计师郭培给出的答案，是四十年。近日，她在杭州接受专访，谈的正是这件事。",
-      "郭培是中国当代高级定制设计师。她有一个判断值得先记住：东方与西方不是对比，而是互补、相合相融。在她看来，文化最好的状态，是我中有你、你中有我。",
-      "她还有一句话，概括了自己做的事：高级定制是高于现实的艺术，也是文明互鉴的表达。这里说的“高定”，是高级定制的简称。它和商场里批量生产的成衣不是一回事，通常要照着穿着者的身形手工完成，做得慢，数量也少。也正因为不必迁就流水线，它更接近一件作品，而不是一件商品。",
-      "最近，“灵境花园——郭培服装艺术特展”在中国丝绸博物馆举行。展览从郭培四十年的创作中，甄选出两百余件高定作品，呈现她在服装结构、传统工艺和材料上的探索。",
-      "四十年，两百多件作品，摆在同一个展厅里。观众看到的不只是衣服的样式，还有一位设计师怎样把不同的工艺、材料，以及来自不同文化的线索，缝进同一件作品。下次你看到一件不太日常的衣服，也许可以多问一句：它想说什么。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-01/10706869.shtml",
-      "originalTitle": "专访郭培：高定是高于现实的艺术 也是文明互鉴的表达",
-      "publishedAt": "Thu, 1 Oct 2026 19:47:00 +0800",
-      "retrievedAt": "2026-10-02T00:59:04.616Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-02T00:59:02.930Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-02/2026-10-02-y7bmfb.webp",
-      "alt": "纸片叠成的抽象礼服轮廓",
-      "caption": "层叠之间，文明互鉴",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-02-control-i-m-not-coming-back",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "国庆假期推荐一款一小时就能打完的小游戏，讲的是出发和离开",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-02",
-    "intro": "国庆假期快到了，机核作者饼干_想推荐一款一小时就能打完的小游戏，它讲的是出发和离开。",
-    "paragraphs": [
-      "中秋节上三天班，紧接着又是国庆节。每年国庆假期结束的时候，都有人开玩笑说：滴滴！您的本年度假期已告罄！趁着最后的假期对自己好点，玩点游戏吧！这是机核作者饼干_写这篇文章的出发点。他推荐的游戏名字是 Control, I'm Not Coming Back。",
-      "游戏起于一场火箭发射，你和指挥官负责这次航天任务，你们嵌在航天飞机的座椅上，等待地面控制中心发来点火信号。剧情就讲这么多，因为整个游戏也就只有1小时左右的内容量，游戏里大部分都是一些对谈，有关出发的勇气，目的地，途中的景色之类的。",
-      "作者没有把这款游戏往‘深刻’上抬。他说，更多哲学隐喻或者艺术致敬他也不太懂，只是感觉玩完后心里暖暖的，有种强烈的想要分享的感觉。",
-      "这份分享里还有作者自己的一段经历。他和一位叫 Mars 的伙伴一起参与了这款游戏的中文本地化。Mars 是他们的本地化经理，作者说，很感谢 Mars 包容他的任性，和他一起完成了这次无偿翻译工作。（不过他倒是玩得也很开心就是，而且这游戏也没多少字）几周前，他们做的本地化终于和其他语种一起更新了。作者很开心，因为游戏的开发者在公告中表示他得到了各国志愿者的帮助，没有依赖AI，纯手工完成了那么多语言的更新。",
-      "最后是两个实用的提醒。这款游戏不支持存档，建议你一口气打完。而且，如果你也和他一样，面对所剩不多的、今年剩下的时间，不知所措的话，建议你试试这个游戏。调整心情，好好休息，节后再出发吧！加油！Traveler！"
-    ],
-    "topics": [
-      "影视与游戏",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/articles/220429",
-      "originalTitle": "Control, I'm Not Coming Back 国庆假期，想推荐给大家玩",
-      "publishedAt": "Wed, 30 Sep 2026 21:39:17 +0800",
-      "retrievedAt": "2026-10-02T01:00:20.794Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-02T01:00:15.077Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-01-1911-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "纪录片《汤寿潜1911》用AI“复活”百年档案致敬先贤",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-01",
-    "intro": "浙江广电集团首部AIGC剧情式纪录片，于2026年9月30日晚在浙江卫视播出并同步上线各平台。",
-    "paragraphs": [
-      "纪录片《汤寿潜1911》于2026年9月30日晚在浙江卫视播出，并同步上线各平台。该片是浙江广电集团首部AIGC（Artificial Intelligence Generated Content，即人工智能生成内容）剧情式纪录片。",
-      "AIGC是英文Artificial Intelligence Generated Content的缩写，中文意为‘人工智能生成内容’。该片被标注为‘AIGC剧情式纪录片’。",
-      "片名《汤寿潜1911》与报道标题一致，原文未对汤寿潜身份或1911年历史背景作解释，故仅保留片名本身。",
-      "原文标题使用‘用AI“复活”百年档案致敬先贤’的表述，其中‘复活’加引号，该说法直接来自原文标题。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "人工智能与文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-30/10706564.shtml",
-      "originalTitle": "纪录片《汤寿潜1911》用AI“复活”百年档案致敬先贤",
-      "publishedAt": "Wed, 30 Sep 2026 22:06:37 +0800",
-      "retrievedAt": "2026-10-01T00:40:25.066Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-01T00:40:23.095Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-01-one-giant-clam-contains-a-month-by-month-diary-o",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一只巨砗磲的贝壳里，藏着大堡礁两百年前逐月的气候记录",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-01",
-    "intro": "一只活了大约三十年的巨砗磲，把两百二十五年前大堡礁的海水温度和干湿变化，一层一层写进了自己的壳里。",
-    "paragraphs": [
-      "如果你在大堡礁的蓝色海水里潜水，海底有一样东西几乎不可能错过，那就是巨砗磲。它巨大的、带褶皱的壳里，藏着闪着电蓝色、绿色和金色光泽的软体。巨砗磲是世界上最大的双壳类动物，学名 _Tridacna gigas_，壳可以长到1.2米，重超过200公斤，能活一百多年。在漫长的一生里，它每天都在自己的壳里记日记。",
-      "这本日记是怎么写的？砗磲生长时，昼夜交替会在壳上留下极细的每日生长线，季节变化则留下更宽的年生长带，就像树的年轮。生长线标注日期，周围的海水则通过塑造每一层新壳的化学组成写下内容。地球化学就是这本日记的语言：研究者测量贝壳层里不同形态的氧和碳，也就是同位素。氧同位素用来推算过去的海水温度，碳同位素则给出降雨的线索。",
-      "这项研究发表在《Global and Planetary Change》杂志上，地点是大堡礁北部的吉古鲁（也称蜥蜴岛群）。研究是与Walmbaar Aboriginal Corporation和Nguurruumungu Indigenous Corporation合作完成的。吉古鲁对Dingaal和Ngurrumungu原住民社群有重要的文化意义，考古发掘显示，那里至少有6500年的原住民居住史。研究者分析的是一只从蓝潟湖采集的、长58厘米的巨砗磲壳。放射性碳定年显示，它生活在约1785年至1827年间，接近工业化前降温时期‘小冰期’的尾声。在显微镜下，研究者数出了将近10900条日生长线，说明它活了约30年。",
-      "把重建出的温度和1995至2015年在同一潟湖实测的海表温度相比，225年前的全年平均温度低了0.6–0.9°C；夏天低0.9–1.2°C，冬天却几乎相同。贝壳记下的还不止温度：碳同位素显示出湿季和干季之间清晰的节奏；温度记录还呈现反复的两至三年周期，与当地类似厄尔尼诺和拉尼娜的变化一致。1700年代末，偏厄尔尼诺型（更暖、更干）事件更常见；到1800年代初，偏拉尼娜型（更冷、更湿）条件变得更频繁，其中包括整份记录中最强的事件。只取一个平均值，这些细节全都看不见。",
-      "吉古鲁是孤例吗？其他记录说不是。大堡礁别处和澳大利亚西北部的珊瑚，也指向更冷的海水或海洋状况变化；南极冰和冰川记录显示同期出现降温和环流改变。更远处，加拉帕戈斯群岛的珊瑚显示1800年代初拉尼娜事件频繁，秘鲁北部的洞穴记录指示小冰期更湿润，澳大利亚东南部的湖泊当时水位也更高。放在一起看，这是一幅更广阔的南半球图景：很多地方更冷，但降雨和海洋环流以各不相同的方式改变，并不是一次整齐划一的事件。吉古鲁的降温幅度小于许多北半球的估算，这正是地方记录的价值。",
-      "今天，陆地、海洋和太空里的仪器在不停测量全球气候，但直接观测只覆盖了地球历史的一小段。要看得更远，研究者得依靠树轮、珊瑚、冰芯、湖泊和海洋沉积物，还有贝壳这些档案。目前最详细的工业化前记录大多来自北半球和高纬度地区，南半球热带海洋的记录要少得多。这只巨砗磲为南半球的气候故事补上了一个罕见的、逐月的海洋章节。印度—太平洋其他珊瑚礁里的巨砗磲，也许还藏着更多这样的气候日记。"
-    ],
-    "topics": [
-      "气候与能源",
-      "海洋科学",
-      "古气候学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/one-giant-clam-contains-a-month%e2%80%91by%e2%80%91month-diary-of-the-great-barrier-reefs-climate-200-years-ago-1285396/",
-      "originalTitle": "One Giant Clam Contains a Month‑by‑Month Diary of the Great Barrier Reef’s Climate 200 Years Ago",
-      "publishedAt": "Wed, 30 Sep 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-01T00:41:41.787Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-01T00:41:39.851Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 41,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-01/2026-10-01-one-giant-clam-contains-a-month-by-month-diary-o.webp",
-      "alt": "巨砗磲贝壳剖面，壳层呈同心弧线如年轮",
-      "caption": "壳层如年轮，记录海水冷暖",
-      "kind": "editorial"
     }
   }
 ]
