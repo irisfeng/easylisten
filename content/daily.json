@@ -1,5 +1,281 @@
 [
   {
+    "slug": "2026-10-19-bees-may-survive-a-swim-by-heading-for-the-dark",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "蜜蜂落水后朝暗处游，可能更容易回到岸上",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-19",
+    "intro": "一项新研究发现，落水的蜜蜂更愿意朝暗处游，这可能是它们找到岸边、避免淹死的一种办法。",
+    "paragraphs": [
+      "蜜蜂最出名的本领是在空中飞，但它们也是令人惊讶的游泳好手。这些昆虫能用翅膀的底面划水。一项新研究发现，落水的蜜蜂偏好游向暗处，这一策略可能帮助它们避免溺亡。",
+      "美国密歇根州立大学东兰辛分校的蜂类研究员扎克·黄（Zach Huang）和同事研究了蜜蜂和壁蜂的这种行为。他们与广州的研究人员合作，在实验室中将蜜蜂放入装满水的玻璃碗中。碗外包裹白纸，纸上印有一块黑色区域。研究人员仔细追踪了85只蜜蜂游向碗边缘的路径。结果表明，蜜蜂更倾向于游向黑色区域，而非明亮区域。这种被暗处吸引的行为被称为‘趋暗性’（skototaxis）。",
+      "黄推测，如果蜜蜂能在水中游向陆地，它们会朝黑暗处游去——因为阴影可能提示岸边有悬垂植物，或标示出任何盛水容器的边缘。实验结果证实了他的猜测：蜜蜂在野外落入水中时，很可能会游向阴影覆盖的水岸边缘，从而活下来继续飞行。",
+      "研究团队还测试了另一种蜂类——壁蜂。壁蜂在游泳时对黑暗的吸引力比蜜蜂更强。这暗示两种蜂类的游泳能力可能源自一个古老的共同祖先，时间可追溯至约1亿年前。其他一些昆虫落入水中时也会朝暗处游，因此这种生存技能可能在昆虫中广泛存在。",
+      "但这些生存技能可能被削弱。研究团队还测试了接触过一种常见杀虫剂的蜜蜂。杀虫剂是用于杀死危害农作物及其他植物的害虫的化学物质，但也可能伤害蜜蜂等非目标昆虫。结果显示，受农药影响的蜜蜂无法找到通往暗处的路径。因此，杀虫剂可能增加蜜蜂溺亡的风险。了解杀虫剂对蜜蜂行为的这类影响，对保护农场和花园周围的蜜蜂至关重要。",
+      "这一发现也可能对养蜂人有实用价值。养蜂人常使用大桶盛装糖浆，为蜜蜂提供水分和食物。有时他们会往桶中放置漂浮物，防止掉入桶中的蜜蜂溺亡。既然蜜蜂会本能地游向暗处，那么在桶内壁添加一条黑色标记，或许就能引导这些‘嗡嗡泳者’游向安全区域。"
+    ],
+    "topics": [
+      "生命与演化",
+      "动物行为"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
+      "originalTitle": "Bees may survive a swim by heading for the dark [COMIC]",
+      "publishedAt": "Wed, 14 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-18T23:17:50.602Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:17:49.037Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Bees May Swim Toward Darkness to Survive",
+      "intro": "A bee in a pool may look helpless, but new research suggests it has a survival plan.",
+      "paragraphs": [
+        "Bees are famous for flying, but they are also surprisingly good swimmers. They can paddle through water using the bottoms of their wings. A new study shows that waterborne bees prefer to swim toward dark areas. This strategy might save them from drowning. The team shared its findings February 10 in Communications Biology.",
+        "Zach Huang is a bee researcher at Michigan State University in East Lansing. He and others studied this behavior in honeybees and mason bees. Huang figured that if bees could swim toward land, they would move toward darkness. Shadows would be a clue of shorelines with overhanging plants up ahead, or the edge of any basin filled with water.",
+        "To test this idea, Huang teamed up with researchers in Guangzhou, China. The team took honeybees into the lab and put them in glass bowls filled with water. They wrapped the bowls with white paper that had a section of black printed on it. Then, they carefully tracked 85 bees’ swimming paths to the bowl’s edge. Sure enough, the honeybees were more likely to swim toward the dark section of paper than to light areas. This type of attraction to darkness is called 'skototaxis.'",
+        "Huang and his team also tested a different bee species: the mason bee. These bees were even more attracted to darkness while swimming than the honeybees were. This hints that the two species’ swimming skills may trace back to an ancient common ancestor. Some other insects are known to swim toward darkness when they fall into water, too. So it’s possible this survival skill is widespread.",
+        "But these survival skills can be shaken. Huang’s team also tested bees that had been exposed to a common pesticide. Pesticides are chemicals used to kill bugs that eat crops and other plants, but they can also harm other insects such as bees. Sick bees couldn’t find their way to the dark. So pesticides might make bees more likely to drown. Understanding this and other possible changes to bee behavior from pesticides is important to avoid harming bees around farms and gardens.",
+        "The findings may be useful for beekeepers, too. Bees are often watered and fed with a big bucket of sugar syrup. Sometimes beekeepers put floating items in the bucket to prevent fallen bees from drowning. If bees automatically swim toward the dark, maybe a black stripe inside the bucket could steer the buzzy bathers to safety instead."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:24:03.175Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 24,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-19/2026-10-19-bees-may-survive-a-swim-by-heading-for-the-dark.webp",
+      "alt": "一只抽象蜜蜂浮在水面，朝较暗的一侧游去。",
+      "caption": "落水的蜜蜂，似乎会朝暗处游。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-19-920c4d",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "建成12年才通车的鸭绿江新公路大桥",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-19",
+    "intro": "10月15日，建成后搁置了12年的中朝鸭绿江新公路大桥正式通车。一座桥为什么等了这么久？",
+    "paragraphs": [
+      "10月15日，连接中国和朝鲜的鸭绿江新公路大桥正式通车。这座桥有一个特别的地方：它的主体工程早在2014年就完工了，却一直空在那里，等了12年。一座桥建好却不用，背后往往不是技术问题，而是政治因素。",
+      "建桥的计划是2009年定下来的。那一年，中国总理时隔17年第一次访问朝鲜，在平壤与朝鲜劳动党总书记金正日举行会谈期间，两国达成了修建大桥的协议。大桥建设始终由中国方面主导，中方负责整体设计，并承担了包括朝鲜境内桥梁部分在内的总投资额22亿元人民币中的绝大部分费用。2014年，大桥主体工程竣工。但当时朝方主导对中国经贸的负责人是金正恩的姑父张成泽，随着张成泽被金正恩处决和清理，大桥的通车被长期搁置了。",
+      "转折出现在2022年。俄乌冲突爆发后，处于国际制裁和对华关系冷淡期的金正恩开始主动地充分利用这一机会；而因俄乌战争也遭到国际制裁、单凭自身实力已难以为继的俄罗斯，也同意与朝鲜探讨合作。2023年金正恩访问俄罗斯东方航天发射场，同俄罗斯初步达成合作意向；当年，朝鲜开始向俄罗斯供应大口径炮弹和短程弹道导弹。2024年6月，普京访问朝鲜，与金正恩共同签署《全面战略伙伴关系条约》，明确约定‘一方遭受侵略进入战争状态时，另一方需立即提供军事援助’。当年10月，朝鲜派出约1.4万名士兵赴俄库尔斯克地区参战；同年12月，俄罗斯国家杜马迅速完成了批准条约的法律程序。随后自2025年开始，俄罗斯开始供应朝鲜能源和粮食。",
+      "中国的态度也随之变化。国际媒体介绍说：转折点出现在2025年9月，当月金正恩访华，并在时隔5年之后与中国领导人举行会谈；2026年6月，中国领导人时隔6年访问朝鲜，在平壤与金正恩会面。根据中国海关总署的数据，2026年1至8月中朝两国贸易总额达19亿美元，比去年同期增长了2成。最后，新大桥于2026年10月15日正式通车。",
+      "专栏作者曹辛认为，至此朝鲜事实上实现了在中俄两大盟国之间的战略平衡，成为中朝俄三方最大的获利者。他指出，中国本来有两种战略选择：一是保持战略定力，不主动与朝鲜走近；另一种则是通过拉近朝鲜且给予帮助，以平衡朝俄关系——而当前呈现的显然是后者。作者还写道，朝鲜还劝说俄罗斯放弃其一贯的‘朝鲜半岛无核化’政策。",
+      "不过，桥通了，贸易能走多远是另一回事。受制于至今仍然有效的联合国安理会涉朝核制裁决议，以及朝鲜自己为落实‘主体思想’外交、避免过于依赖中俄任何一国的需要，中朝经贸的发展仍将是有限的。韩国国家安保战略研究院副研究委员金圭范撰文指出：大桥通车虽有助提高物流效率，却可能加剧朝鲜对华贸易失衡；由于朝鲜的煤炭、矿产及水产品等主要出口商品仍受国际制裁限制，而中国商品却可持续流入，这恐进一步扩大朝鲜去年已达18亿5000万美元的对华贸易逆差。韩国开发研究院（KDI）的数据显示，朝鲜对外贸易中对华占比已经达到95%左右。",
+      "一座桥等了12年才通车，它记下的不只是工程进度，还有几个国家之间关系的冷和热。作者认为，无论中国是想靠经贸增加影响力、平衡朝俄关系，还是想以经贸影响力对朝核施加影响，作用恐怕都有限，因为问题的根子来自朝鲜自己，即其平衡外交和拒绝弃核的国家政策。"
+    ],
+    "topics": [
+      "国际关系",
+      "基础设施",
+      "地缘经济"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "FT 中文网",
+      "region": "international",
+      "url": "https://www.ftchinese.com/story/001111136",
+      "originalTitle": "一周世界舆论聚焦：鸭绿江新大桥通车的启示",
+      "publishedAt": "Sun, 18 Oct 2026 16:00:00 GMT",
+      "retrievedAt": "2026-10-18T23:18:55.944Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:18:48.926Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Bridge That Waited Twelve Years",
+      "intro": "A finished-but-empty bridge over the Yalu River finally opened, and one columnist says it reveals a quiet shift between China, North Korea and Russia.",
+      "paragraphs": [
+        "Imagine a bridge that was finished and then left standing empty for twelve years. That is what happened on the Yalu River, which divides China and North Korea. The new road bridge finally opened on October 15, 2026. In FT Chinese, columnist Cao Xin asks what its opening actually tells us.",
+        "The plan was agreed back in 2009, when China's premier visited Pyongyang and met Kim Jong Il. China led the design and paid most of the 2.2 billion yuan cost. The main structure was completed by 2014. Then nothing happened. Cao Xin links the long delay to the purge of Jang Song Thaek, who had handled trade with China.",
+        "While the bridge sat idle, North Korea moved closer to Russia. After the Ukraine war began in 2022, it cut ties with Ukraine. In 2023, Kim Jong Un visited a Russian space launch site, and North Korea began supplying artillery shells and short-range ballistic missiles. In June 2024, Putin visited Pyongyang and signed the Comprehensive Strategic Partnership Treaty. In October 2024, North Korea sent about 14,000 soldiers to Russia's Kursk region. In December 2024, Russia ratified the treaty. From 2025, Russia began supplying energy and food to North Korea.",
+        "Then China's approach changed. Kim Jong Un visited China in September 2025, and China's leader visited Pyongyang in June 2026. According to China's General Administration of Customs, bilateral trade reached $1.9 billion in the first eight months of 2026 — up 20 percent year-on-year. Cao Xin argues North Korea gained the most, because both large neighbours now want to help it.",
+        "But an open bridge does not mean unlimited trade. United Nations Security Council sanctions on North Korea's nuclear programme remain in force. Coal, minerals and seafood exports are still restricted. A researcher cited by international media — Kim Gyu-beom of the Korea National Institute for Security Strategy — warns that Chinese goods may flow in faster than North Korean goods flow out. That could widen a trade gap that already reached $1.85 billion last year.",
+        "North Korea also worries about leaning too far toward any single partner. About 95 percent of its trade goes to China, so it keeps building ties with Russia too. In 2024, North Korea–Russia trade rose from about $34 million in 2023 to $100–200 million. In September 2026, the first car bridge between the two countries opened. Cao Xin says China hoped the bridge would add influence, yet that lever has limits. The lesson is simple: watch what actually crosses the bridge, not just the ribbon cutting."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:24:41.421Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-19-ai-b67d2c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "韩国学者田炳郁：AI时代朱子学“修身”仍有现实意义",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-19",
+    "intro": "当AI越来越能替人写、替人算、替人回答，人该怎么管好自己，这件事反而更需要练——一位韩国学者把目光投回了朱子学。",
+    "paragraphs": [
+      "AI能写文章、能算题、能一口气给出好几个答案。那么，人自己还剩下什么必须亲自去做的功课？据中新网文化报道，韩国学者田炳郁提出了一个看法：在AI时代，朱子学所讲的“修身”，仍然有现实意义。",
+      "先补一点背景。朱子学是南宋思想家朱熹集大成的儒学传统，后来传到朝鲜半岛、日本等地，成为东亚共通的学问。它讲的“修身”，不是背条文，也不是把自己训得规规矩矩。用今天的话说，它更像一种长期的自我照看：我今天说的话做到了没有，生气的时候有没有被情绪牵着走，我知道的道理有没有真的落到行动上。",
+      "田炳郁的判断，恰恰是把这个问题重新摆到了技术面前。修身讲的正是从知道，到做到。"
+    ],
+    "topics": [
+      "哲学与思想",
+      "AI与人文"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-18/10716889.shtml",
+      "originalTitle": "韩国学者田炳郁：AI时代朱子学“修身”仍有现实意义",
+      "publishedAt": "Sun, 18 Oct 2026 22:44:23 +0800",
+      "retrievedAt": "2026-10-18T23:19:39.073Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:19:37.894Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-19-53e583",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "人痘术由印度传入中国？国际期刊论文辟谣",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-19",
+    "intro": "中国人痘术更可能在本土医学理论与预防实践中发展形成，中国学者相关考证成果发表于美国疾控中心主办的国际期刊《突发急性传染病》。",
+    "paragraphs": [
+      "天花曾经是一种让人闻之色变的传染病。中国古代的医者探索出一种主动预防方法：通过接种天花患者痘痂、痘浆或穿其衣物等方式，使人感染轻症，从而获得对重症天花的免疫力。这种技术称为人痘术。它究竟是中国本土摸索出来的，还是从别的地方传入的？这个问题长期存在争议。",
+      "近日，中国学者关于中国古代人痘接种术的研究成果在美国疾病预防控制中心主办的《Emerging Infectious Diseases》（《突发急性传染病》）上正式发表。该研究由浙江中医药大学公共卫生学院管琳玉、顾沈嘉、傅传喜等完成，系统分析了8部明清痘疹专书、12部汉至清代涉及天花防治的古医籍，以及至少35篇印度人痘接种研究。",
+      "现存可相互印证的史料表明，最迟在明代成化至隆庆年间（1465—1572），中国已施行人痘接种，早于其他国家现存的记录；而本次检索范围内，印度现存可确证的人痘术文字记录主要始于18世纪。",
+      "针对‘人痘术由印度传入中国’的说法，团队通过文献比对发现，相关说法主要源于较晚转述的传说，缺少可靠记录支持。研究认为，中国人痘术更可能在本土医学理论与预防实践中发展形成，同时不排除不同地区平行发展或相互交流的可能。",
+      "研究梳理发现，中国人痘术从痘衣法、痘浆法逐步发展到痘痂法，古代医者通过筛选痘苗、连续传种等方法，探索提高预防效果、降低接种风险，并形成主动接种、诱发轻症以预防重症的思路。",
+      "论文通讯作者、浙江中医药大学传染病与疫苗研究所所长傅传喜表示，团队希望推动中国史料进入国际学术讨论，以可核查的证据讲清中国贡献，为全球预防接种史提供更加完整的视角。去年9月，国家疾控局发布通知，明确提出‘探索对适宜人群开具疫苗处方’，目前我国多地已启动试点，将疾病风险评估与接种建议纳入诊疗环节。从古籍中的种痘实践，到诊室里的预防建议，中国主动防病的历史探索，在今天有了新的实践内涵。"
+    ],
+    "topics": [
+      "人痘术",
+      "医学史",
+      "史料证据"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/18/content_598371.html",
+      "originalTitle": "人痘术由印度传入中国？国际期刊论文辟谣",
+      "publishedAt": "2026-10-18",
+      "retrievedAt": "2026-10-18T23:20:24.629Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:20:22.651Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 8,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-19-meet-loki-the-sea-cucumber-one-of-57-newly-disco",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "阿根廷深海科考发现五十七个新物种，其中包括一只名叫“洛基”的海参",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-19",
+    "intro": "一次二十一日的深海科考，发现五十七个此前未被科学记录的海洋物种，其中包括一只可捧在手心、名叫‘洛基’的海参。",
+    "paragraphs": [
+      "在阿根廷外海，有一条叫马尔德尔普拉塔的海底峡谷，那里的水深几乎相当于科罗拉多大峡谷的两倍。2025年8月，海洋普查网络和施密特海洋研究所的科学家开展了为期21天的考察，使用遥控潜水器（ROV）探入该峡谷。此次考察共发现57个新海洋物种和5个新属——属是生物分类中高于‘种’的层级。",
+      "在这些新发现中，最引人注目的是一个新种海参，研究团队将其命名为‘洛基海参’，因其具有短粗、带角状的附肢。它身体半透明、泛着微光，体长约3.9英寸（约10厘米），宽约1.2英寸（约3厘米），单手即可托起。它安静地生活在海底，缓慢移动，靠吸食营养维生。",
+      "这座峡谷位于温暖的亚热带洋流与来自南极的寒冷洋流交汇处，持续为海底输送丰富营养，因此尽管终年黑暗、阳光无法抵达，这里仍生机勃勃。",
+      "除洛基海参外，科学家还确认了一种新的竹珊瑚，属于Orstomisis属，其枝条呈鲜明的橙红色，用于捕捉水中漂浮的食物；还有一种新种海笔，是本次潜水器下潜所达最深处采集到的海洋动物。",
+      "这次科考曾通过网络直播向公众开放，三周内累计观看量达1750万次，平均每场直播约50万人次观看。",
+      "但考察也发现了令人忧心的现象：在如此深度，研究人员仍观测到鞋子、塑料袋和渔具等人类活动遗弃物，表明人类影响已深入远洋海底。尽管一次考察就发现57个新物种，这恰恰提醒我们——对深海，我们所知仍然极少。"
+    ],
+    "topics": [
+      "生命与演化",
+      "海洋生物"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/meet-loki-the-sea-cucumber-one-of-57-newly-discovered-deep-sea-species-1285856/",
+      "originalTitle": "Meet Loki the Sea Cucumber, One of 57 Newly Discovered Deep-Sea Species",
+      "publishedAt": "Fri, 16 Oct 2026 17:00:00 +0000",
+      "retrievedAt": "2026-10-18T23:23:22.567Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-18T23:23:20.303Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 13,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-19/2026-10-19-meet-loki-the-sea-cucumber-one-of-57-newly-disco.webp",
+      "alt": "一只抽象海参静卧在深海沉积物上。",
+      "caption": "深海科考新记录的一只海参。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-18-bea839",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "香港的超级珊瑚：践踏和白化中不断「复原」的它们，万一有天不再回来？",
@@ -3095,257 +3371,6 @@
       "factReview": {
         "status": "verified",
         "reviewedAt": "2026-10-03T23:57:42.439Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-04-04p6zt",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "亚运会霹雳舞比赛收官，中国选手郭朴获女子组冠军",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-04",
-    "intro": "爱知·名古屋亚运会霹雳舞比赛全部结束，中国选手郭朴获得女子组冠军。",
-    "paragraphs": [
-      "爱知·名古屋亚运会的霹雳舞比赛已经收官。中国选手郭朴获得了女子组冠军。",
-      "在本届亚运会霹雳舞女子组比赛中，郭朴夺得冠军。",
-      "随着霹雳舞比赛全部结束，该项目在本届亚运会上的赛程画上句号，女子组冠军是中国选手郭朴。"
-    ],
-    "topics": [
-      "体育",
-      "流行与网络文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-03/10707648.shtml",
-      "originalTitle": "（爱知·名古屋亚运会）亚运会霹雳舞比赛收官 中国选手郭朴获女子组冠军",
-      "publishedAt": "Sat, 3 Oct 2026 22:06:41 +0800",
-      "retrievedAt": "2026-10-03T23:55:21.747Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:55:20.361Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-03-sea-monkeys-show-scientists-how-to-rewrite-a-rul",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "海猴子游动的角度，能改变湍流中能量的方向",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-03",
-    "intro": "科学家一直以为，湍流里的能量只朝一个固定方向传递。直到他们在一缸盐水里养上海猴子，才发现只要改变这种小虾游动的角度，能量的流向就会反过来。",
-    "paragraphs": [
-      "上世纪六七十年代，美国纽约市Transcience公司出版的漫画书广告承诺：寄去现金、支票或汇票，就能收到‘满满一碗快乐’——实际是一个装着冻干卵的小纸包。把卵倒入盐水，会孵化出卤虫，俗称‘海猴子’。卤虫长约10毫米，倒着游泳，疯狂摆动腿部，拖着细长腹部如尾巴。科学家最近发现，它们能做的事远不只是‘自己移动’。",
-      "湍流到处都是：瀑布底部翻滚的白沫、破碎浪头的浪尖、飞机颠簸、牛奶在咖啡中形成的漩涡，以及太阳表面等离子体的翻腾。意大利巴里理工大学水动力学专家弗朗切斯卡·德塞里奥说：‘我们日常生活中处处可见湍流，比如去海滩或洗手时。’湍流很复杂，但常始于简单情形：流动的流体遇到障碍物，局部流速改变，从而产生涡旋或涡流。例如河水因河岸摩擦而减速，速度差异形成涡旋；水流绕过岩石时速度变化、出现空腔，水层相互覆盖并开始旋转。",
-      "在这类系统中，能量在不同尺度间传递。1922年，英国数学物理学家刘易斯·弗莱·理查森用诗句描述这一过程：‘大漩涡里套着小漩涡，小漩涡喂养自身速度；小漩涡里还有更小的漩涡，如此直至黏性接管，能量最终耗散为热。’上世纪四十年代起，苏联数学家安德雷·柯尔莫哥洛夫为三维湍流建立了严格数学基础——在三维系统中，能量通常从大尺度流向小尺度。六十年代末，物理学家罗伯特·克赖奇南和乔治·巴切洛将研究扩展到二维系统，如木星大红斑：在二维湍流中，能量反向级联，从小尺度涡旋流向大尺度结构。此后几十年，物理学家并未深入探究这种能量流向是否不可改变。",
-      "匹兹堡大学方雷的实验室研究‘活性物质’——能自主运动并向环境注入能量的系统，包括细菌和微型机器人等。约2021年，当时在方雷实验室做学生的司新宇开始研究卤虫。他在玻璃表面铺一层薄盐水膜，下方放置磁铁；对导电盐水施加电流后，水在通道一侧单向流动，另一侧反向流动，中间形成速度梯度；随后加入卤虫。",
-      "反复实验后，他们观察到异常现象：当一只卤虫游动方向与水流‘最大拉伸方向’夹角小于45度时，能量按二维系统预期从小尺度流向大尺度，反哺整体流动；当夹角大于45度时，能量流向逆转，从大尺度流向小尺度，激发微小扰动。他们用张量几何解释该现象：一个张量描述大尺度剪切对能量通量的影响，另一个描述小尺度游动对能量通量的塑造；游动方向决定两个张量的对齐方式，进而决定能量流向。方雷说：‘几何形状很重要。’该成果于2024年发表于《PNAS Nexus》。",
-      "以色列魏茨曼科学研究所物理学家格雷戈里·法尔科维奇长期研究二维湍流，称这项工作是‘一项漂亮而娴熟的实验工作’。研究者指出，该发现可能推广至更大、更混沌的系统（包括三维系统），有助于深化对流体动力学的理解，并在污染控制、药物设计等领域具潜在应用价值。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
-      "originalTitle": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
-      "publishedAt": "Fri, 02 Oct 2026 14:45:02 +0000",
-      "retrievedAt": "2026-10-03T00:36:50.298Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T00:36:37.624Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 47,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-03/2026-10-03-sea-monkeys-show-scientists-how-to-rewrite-a-rul.webp",
-      "alt": "一只抽象小虾在水中倾斜游动，周围是弯曲的湍流线条。",
-      "caption": "改变游动角度，湍流中的能量方向随之反转。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-03-4q7mxc",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "国际留守儿童「团聚」之后，在父母身边当异乡人",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-03",
-    "intro": "有些孩子从小被留在国内，由祖辈抚养，父母远赴欧洲务工；十七年后终于团聚，却发现自己和父母、和那个叫‘家’的地方，都像初遇的异乡人。",
-    "paragraphs": [
-      "小芮高三那年，决定不参加高考，搭上单程飞机，在「国际留守」17年后，和在欧洲务工的父母团聚。她说：‘这是我妈，我知道。我学过妈妈这个概念，是生我的人，应该是我最亲近的人。’",
-      "在著名的侨乡浙江省青田县，从幼儿园到高中，每个阶段都有同学中途离开中国教育体系，到异国他乡打工谋生。‘考不上好高中就出国打工’、‘考不上好大学就出国打工’这些话伴随着侨乡儿童的童年，有时是底气，有时是威胁。",
-      "对于像小芮这样的侨乡青少年来说，大陆的另一端，有让他们从小异国留守的父母，有第一代移民已经建立的支持网络，有只在视频中见过的‘远方的家’。",
-      "团聚之后，并不自动等于团圆。小芮发现，父母习惯了用工资单说话，而她习惯了靠自己做决定；父母觉得‘出国就是出路’，她却在深夜查大学申请资料，悄悄想留下读书。语言、习惯、对时间的理解、甚至吃饭的节奏，都在提醒她：血缘很近，生活却很远。",
-      "这不是谁的错，也不是谁不够爱。它是一群人在跨国流动中，用尽力气托举下一代时，不得不暂时放下的那些日常——那些本该在早餐桌上、放学路上、生病发烧时，一点一滴长出来的亲密。当孩子终于站在父母面前，他们带去的不只是行李，还有17年独自长大的全部逻辑。"
-    ],
-    "topics": [
-      "全球时事",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261003-strangers-transnational-left-behind-children/",
-      "originalTitle": "國際留守兒童「團聚」之後，在父母身邊當異鄉人",
-      "publishedAt": "Fri, 02 Oct 2026 23:00:04 GMT",
-      "retrievedAt": "2026-10-03T00:38:04.759Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T00:38:02.864Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-03-cfypux",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "两面特殊的五星红旗，记录两位科学家回国的选择",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-03",
-    "intro": "1949年，两位正在美国的年轻科学家，各自用身边能找到的材料做出一面五星红旗，也做出了同一个选择。",
-    "paragraphs": [
-      "1949年9月23日，梁思礼在旧金山登上‘克利夫兰总统号’邮轮回国。邮轮航行在茫茫大海上，广播传来新中国成立的喜讯，同时还播报了新中国国旗为五星红旗。一群满怀热血的留美学子欣喜若狂，要举办一场海上庆祝会。彼时大家并未见过国旗实物，没有现成红旗，他们找来白布，用红墨水染成红色，再剪下黄纸，剪出一大四小五颗五角星，凭想象把大五角星放在旗面中间，小五角星放在四角。简陋的布料，粗糙的剪纸，这面并不标准的国旗，却盛满海外游子对祖国最炽热的祝福。",
-      "梁思礼刚取得自动控制专业博士学位，美国无线电公司向他递来优厚的工作邀约，但他心中牵挂的只有新生的祖国。1949年9月24日，梁思礼登上‘克利夫兰总统号’，踏上回国的航程。历经二十多天风浪颠簸，梁思礼先是抵达了香港，随后乘船北上，终于踏上天津码头，回到阔别八年的祖国怀抱。‘我离开（美国）时的感情，只有期望，没有留恋。’这是梁思礼的心声。",
-      "昔日同窗留在美国，参与研制洲际导弹，拥有优渥的物质生活；梁思礼扎根国内，住着普通单元楼，投身中国导弹事业。面对外界疑惑，他掷地有声：‘他干的导弹是瞄准中国的，我干的导弹是保卫我们祖国的！’此后，东风系列导弹、神舟飞船等诸多国之重器，都凝聚着他的心血与付出。",
-      "几乎同一时间，远在美国普渡大学的洪朝生，也听闻新中国成立的喜讯。当时纽约《华侨时报》转载了《人民日报》刊发的五星红旗标准图样及制作说明。怀着对新生祖国的无限热忱，洪朝生当即决定亲手绘制五星红旗。他拿出实验用的专业坐标纸，反复校准每一颗五角星的比例与位置，一笔一画绘出标准的五星红旗图样，小心翼翼珍藏数十载。如今，这份图纸陈列在中国科学家博物馆，纸页泛黄，初心依旧滚烫。",
-      "当时的洪朝生，已在半导体领域取得重大突破，提出著名的杂质能级导电理论，研究成果在国际学界备受关注。荷兰、英国、美国多家机构向他伸出橄榄枝，高薪、优越的科研条件，都没能留住他。他心中记挂的，是国内尚属空白的低温物理事业。在征求国内对研究方向的需求后，洪朝生根据国内的反馈和建议去西欧做了一年多的低温物理研究，并协调联系购买国内急缺的一些研究设备和实验材料。1952年，洪朝生毅然回到百废待兴的祖国，从零搭建起中国低温物理研究体系，助力‘两弹一星’工程，主持建设大型航天空间模拟设备，为我国超导、低温技术筑牢根基。",
-      "曾有学生问他，如果当年留在国外，是否有机会获得诺贝尔奖。洪朝生只是轻轻摇头：‘没有如果。我从未动摇和后悔回国的决定！’一句‘没有如果’，道尽老一辈科学家把个人理想完全融入国家命运的坚定抉择。从1949年8月至1950年底，上千名留美学子冲破重重阻碍回到祖国。他们放弃海外优渥生活，带回知识与技术，在一穷二白的土地上拓荒前行，其中很多人成为国内各个学科的奠基人。两面特殊的五星红旗，承载的不仅是海外游子对新生祖国的热切向往，更是老一辈科研工作者以身许国的无悔抉择。"
-    ],
-    "topics": [
-      "历史",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572444.shtm",
-      "originalTitle": "两面特殊的国旗背后，藏着怎样的归国故事？",
-      "publishedAt": "2026-10-02 08:57",
-      "retrievedAt": "2026-10-03T00:39:01.495Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T00:38:55.662Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Return Stories Behind Two Special Flags",
-      "intro": "A news report from ScienceNet tells how two unusual five-star red flags connect to Chinese scientists who returned home.",
-      "paragraphs": [
-        "In 1949, news of New China reached abroad. Liang Sili had just earned a PhD in automatic control. An American radio company offered him a good job, but he wanted to return. On September 24, 1949, he boarded the President Cleveland. On the ship, the radio announced the founding of New China and that the national flag would be the Five-Star Red Flag. Students were excited and planned a celebration at sea. They had never seen the real flag. They used white cloth, red ink, and yellow paper to make one. They put one big star in the center and four small stars in the corners. It was rough and not standard, but it held their warm wishes for the motherland.",
-        "After more than twenty days at sea, Liang reached Hong Kong and then traveled north to Tianjin. He had been away for eight years. He said he left America with only expectation, not attachment. A former classmate stayed in the United States and helped build intercontinental missiles. That classmate had a rich material life. Liang lived in an ordinary apartment and worked on China's missile program. He said his classmate's missile aimed at China, while his missile protected China. Later, Dongfeng missiles and Shenzhou spacecraft carried his hard work.",
-        "Around the same time, Hong Chaosheng was at Purdue University in America. He heard the news of New China. The New York-based Overseas Chinese Times reprinted the standard Five-Star Red Flag design and production instructions from People's Daily. Hong decided to draw the flag by hand. He used professional coordinate paper from his lab. He checked each star's size and position again and again. He kept the drawing carefully for many years. Today it is in the Chinese Scientists Museum. The paper has turned yellow, but his original wish is still strong.",
-        "At that time, Hong had made a major breakthrough in semiconductors. He proposed the famous impurity energy level conduction theory. His work drew international attention. Institutions in the Netherlands, Britain, and the United States invited him. They offered high pay and good research conditions. But he remembered that low-temperature physics was still blank in China. After consulting domestic needs, he went to Western Europe for over a year to study low-temperature physics. He also helped buy urgent equipment and materials for China. In 1952, he returned to a country rebuilding from scratch. He built China's low-temperature physics system from zero. He helped the 'Two Bombs, One Satellite' project. He led the building of large space simulation equipment. He laid foundations for superconductivity and low-temperature technology. A student once asked if staying abroad could have won him a Nobel Prize. He shook his head and said, 'No if. I never wavered and never regretted returning.'",
-        "From August 1949 to the end of 1950, over a thousand Chinese students in the United States returned home. They broke through many obstacles. They gave up comfortable lives abroad. They brought back knowledge and technology. They worked on poor land and many became founders of Chinese fields. The two special flags show more than longing for New China. They show older scientists' choice to give their lives to the country. Patriotism is not just a slogan. It means joining personal ideals with national development and using what you have learned to protect this land."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T00:45:19.017Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-03/2026-10-03-cfypux.webp",
-      "alt": "桌面上平铺一面手工缝制的抽象旗帜，旁有剪刀与线轴。",
-      "caption": "用身边材料缝出的旗帜，也是一次选择。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-03-dhq7ty",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "红海危局背后：破碎的也门与强势的胡塞，从何而来？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-03",
-    "intro": "红海航道再起波澜。9月以来，胡塞武装发动大规模军事攻势，迅速占据曼德海峡周边多个战略要地，全球能源与航运市场随之剧烈震荡。",
-    "paragraphs": [
-      "红海航道再起波澜。9月以来，胡塞武装发动大规模军事攻势，迅速占据曼德海峡周边多个战略要地，全球能源与航运市场随之剧烈震荡。也门这一轮冲突升级，究竟因何爆发？也门局势未来又可能会走向何方？本期节目，中东研究专家朱泉钢将为大家介绍当前也门内战和胡塞武装-沙特冲突的来龙去脉与最新变化，分析域外各利益相关方在此次冲突中的选择及其原因。",
-      "为了帮助我们更深入地理解也门为什么会形成当前这种支离破碎的政治军事格局，朱老师还简要梳理了它的近现代历史，并着重介绍了频频搅动也门局势的胡塞武装的发展历史和组织机制。也门失败的现代国家建设：殖民遗产、三次内战、部落政治；英国对也门的殖民主要在南部区域；1990年前的南北也门。",
-      "胡塞武装的诞生和早期经历；与也门中央政府之间矛盾的加剧，以及胡塞军事能力与复合身份的形成；2014年以来也门内战的几个阶段：速推—推回—僵局；2023年新一轮巴以冲突以来，胡塞越来越国际化。",
-      "胡塞的组织架构与治理机制：胡塞家族，监察员制，委员会制；胡塞并非伊朗的代理人：二者战略目标的同异。",
-      "反胡塞集团是个大杂烩；美国仍未下场：美沙之间“石油换安全”的承诺是否还有效？《麦加共同防务协议》成色的试炼：沙特的新安全伙伴土耳其、巴基斯坦会介入也门局势吗？沙特、土耳其、巴基斯坦安全合作的历史背景和政治经济原因；沙特、阿联酋在也门；本轮也门冲突的三种可能走向。",
-      "也门并不遥远。它的破碎来自殖民遗产、内战和部落政治；胡塞的强势来自组织机制和身份的变化；红海的动荡，则把这些线索一路连到了全球的航运和能源市场上。想听懂红海的新闻，恐怕得先听懂也门。"
-    ],
-    "topics": [
-      "全球时事",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/radios/220465",
-      "originalTitle": "红海危局背后：破碎的也门与强势的胡塞，从何而来？",
-      "publishedAt": "Fri, 02 Oct 2026 10:00:00 +0800",
-      "retrievedAt": "2026-10-03T00:39:51.150Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T00:39:49.539Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
         "correctionCount": 8,
