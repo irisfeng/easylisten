@@ -1,5 +1,275 @@
 [
   {
+    "slug": "2026-10-20-walking-may-improve-your-attention-span",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "走路更多的人，注意力和自控力测试表现更好",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-20",
+    "intro": "一项追踪三千多名成年人十四年的研究，把每天走多少步和注意力、自控力的测试成绩联系在了一起。",
+    "paragraphs": [
+      "“Walking is a great way to clear your head—or so anecdotes would have you believe.” 一项发表在《科学报告》上的长期研究，为这种经验性说法提供了数据支持。但研究者也明确指出：该研究仅揭示步数与认知表现之间的关联，无法证明增加步行能直接提升专注力。",
+      "研究由贝勒医学院的研究者完成。他们分析了美国国立卫生研究院‘All of Us’研究项目中超过3000名18至93岁成年人的14年健康数据。步数来自Fitbit设备自动记录，而非自我报告；参与者还接受了认知评估，测量持续注意力（sustained attention）、认知控制（cognitive control，即过滤干扰的能力）、延迟满足（delay discounting）和情绪识别（emotion recognition，即识别人脸表情的能力）。",
+      "研究者将参与者按日均步数分为三组：A组平均5100步，B组约8900步，C组约14200步。在控制年龄、教育程度和收入等因素后，B组和C组在持续注意力、认知控制和延迟满足三项测试中普遍优于A组；每增加1000步（相对于个人平均步数），这三项能力呈渐进式改善；情绪识别能力则未发现与步数相关。",
+      "由于整个14年期间仅进行了一次认知评估，研究者无法判断步数增减是否会导致认知能力变化。因此，该研究确立的是关联性，而非因果关系。",
+      "走路的身体益处早已被熟知，而它与大脑功能之间的联系，正通过这类大规模长期数据逐步显现。研究未设定‘有效步数阈值’，也未宣称步数差异带来显著或决定性认知提升。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/walking-may-improve-your-attention-span-1285936/",
+      "originalTitle": "Walking May Improve Your Attention Span",
+      "publishedAt": "Mon, 19 Oct 2026 23:00:00 +0000",
+      "retrievedAt": "2026-10-20T01:13:34.902Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:13:31.215Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-20/2026-10-20-walking-may-improve-your-attention-span.webp",
+      "alt": "冷灰纸面上一条细线小径与同心圆波纹的抽象插图",
+      "caption": "脚步的节律，也许正对应注意力的节律。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-20-5-608a8e",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-20",
+    "intro": "据中新网教育报道，5个专业试点推行以实践成果替代论文申请硕士、博士学位。",
+    "paragraphs": [
+      "据中新网教育报道，5个专业试点推行以实践成果替代论文申请硕士、博士学位。",
+      "原文标题明确指出‘打破“唯论文”标尺’，并点明‘5个专业推行用实践成果申请硕博学位’。",
+      "该政策由中新网教育频道报道，标题为《打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位》。"
+    ],
+    "topics": [
+      "教育与政策",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-20/10717568.shtml",
+      "originalTitle": "打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位",
+      "publishedAt": "Tue, 20 Oct 2026 07:54:36 +0800",
+      "retrievedAt": "2026-10-20T01:14:20.777Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:14:18.595Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Practical Work as a Path to Graduate Degrees",
+      "intro": "China News Service Education reports that five majors will let students use practical results in master's and doctoral degree applications.",
+      "paragraphs": [
+        "For many students, the road to a higher degree has meant one thing: papers. A headline from China News Service Education challenges that idea. It says five majors are breaking the 'only papers' standard.",
+        "Under this change, practical results can count when students apply for master's and doctoral degrees. That means hands-on work may carry real weight in the process. The report presents this as a move away from a single ruler.",
+        "The phrase 'only papers' points to an old worry. If papers are the only measure, other kinds of work can be hard to see. This change gives those other kinds of work a place in the conversation.",
+        "The focus is on five majors. The core idea is to look beyond one kind of proof. A student's work should be seen in more than one way.",
+        "So the next time you hear 'paper' and 'degree' in one sentence, pause. Ask what else a student might build, test, or solve. That question is where the real story begins."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:20:42.367Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-20-90-e38a01",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "鲁迅逝世90周年 鲁迅文学版本馆千余册典籍对外开放",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-20",
+    "intro": "鲁迅逝世90周年之际，鲁迅文学版本馆将馆藏千余册典籍面向公众开放。",
+    "paragraphs": [
+      "鲁迅于1936年逝世；2025年是其逝世90周年。中新网文化报道，鲁迅文学版本馆将馆藏千余册典籍对外开放，公众可查阅这批典籍。",
+      "‘版本’指同一作品在不同年代、由不同出版社出版所形成的差异文本，包括开本、封面、纸张、字体、字句乃至译文等区别。初版、再版、修订版及不同译本均构成独立版本。版本馆系统收藏同一著作的多种版本，使研究者得以通过横向比对，观察文本在时间中的演变轨迹。",
+      "本次对外开放的典籍共计千余册。这些典籍多为历史积累所得，保存难度大，其存续依赖长期、专业的收集、整理与保护工作。",
+      "版本研究意义在于还原文字的真实流变：作者可能在再版时修改字句，选集编者可能删节段落，排印过程也可能产生讹误。通过比对不同版本，可辨析作者定稿原貌与后人干预痕迹。这对理解鲁迅文本的原始意图具有基础性价值。",
+      "鲁迅逝世90年来，其著作持续被出版、阅读与阐释。此次典籍开放，为公众提供了接触原始文献的机会：读者可对照自己手中的版本，思考同一文章为何存在多种面貌；尚未读过鲁迅的读者，亦可从短篇入手，开启这段文字溯源之旅。"
+    ],
+    "topics": [
+      "历史",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-19/10717469.shtml",
+      "originalTitle": "鲁迅逝世90周年 鲁迅文学版本馆千余册典籍对外开放",
+      "publishedAt": "Mon, 19 Oct 2026 21:53:35 +0800",
+      "retrievedAt": "2026-10-20T01:15:03.898Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:15:02.226Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-20/2026-10-20-90-e38a01.webp",
+      "alt": "冷灰纸面上抽象书脊与叠放册页的静物插图",
+      "caption": "典籍开放，是让文字重新被翻阅。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-20-1b2dcd",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "各国首次检查生物多样性保护承诺落实得怎样",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-20",
+    "intro": "《生物多样性公约》第十七次缔约方大会在亚美尼亚首都埃里温开幕，各国将首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展。",
+    "paragraphs": [
+      "会议从周一在亚美尼亚首都埃里温开始，会期两周。《生物多样性公约》第十七次缔约方大会要做的第一件大事，是首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展。重点讨论资金筹措、行动落实和成效监测，推动保护承诺转化为可衡量的成果。",
+      "联合国秘书长古特雷斯上周五在埃里温表示，全球超过100万种物种面临灭绝风险，污染、生物多样性丧失和气候变化三重地球危机正在加剧。自2022年以来，全球新增正式保护的陆地面积达130万平方公里，海洋面积达600万平方公里。到2030年保护全球至少30%的陆地和海洋是《昆蒙框架》中最广受关注的一项目标。但各国进展不均衡、行动速度过慢，照此下去，到2030年仍可能与这一目标存在较大差距。",
+      "《生物多样性公约》执行秘书绍马克周一表示，生物多样性丧失的影响遍及所有国家、经济体和社会。公约致力于妥善应对土地和海洋利用方式变化、物种过度开发、气候变化、污染以及外来物种入侵等导致生物多样性丧失的主要因素。她呼吁，将土著人民和地方社区、妇女及青年的知识、经验和创意纳入决策，并推动城市、企业和金融机构更深入地参与。她同时强调，各国行动计划应与国际目标相衔接，资金投入应满足实际需求，生产和消费方式也必须适应地球资源有限的现实。",
+      "亚美尼亚常驻联合国代表霍夫汉尼斯扬表示，大会的核心任务之一，是将承诺转化为切实、可衡量的进展。这需要政府、国际组织、私营部门和民间社会协调行动，加强落实、筹集充足资源，并完善监测与问责机制。",
+      "各国将在埃里温重点讨论以下议题：审查落实进展；弥合行动差距；筹集充足资金；推进卡利基金运作；加强监测评估；推动经济领域变革。其中，审查落实进展是首次对框架的集体成果开展全球审查，通过各国提交的国家报告及更新后的国家生物多样性战略和行动计划，评估2022年以来取得的成果，明确需要加快行动的领域。",
+      "筹集充足资金方面，按照框架要求，到2030年，每年从各种来源筹集的生物多样性资金至少达到2000亿美元，其中国际生物多样性资金至少达到300亿美元。推进卡利基金运作：该基金在哥伦比亚卡利举行的第十六次缔约方大会上商定设立，旨在向利用数字化遗传信息开展业务的企业筹集资金，用于保护生物多样性并支持土著人民。本次大会将推进基金的具体运作安排。加强监测评估：完善监测和数据收集，加强能力建设与合作，检验各国承诺是否取得实际成效。推动经济领域变革：金融、商业、可持续消费和取消对破坏自然行业的补贴等领域的进展尤为滞后，需要环境部门以外的相关部门共同推动。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143027",
+      "originalTitle": "亚美尼亚会议聚焦保护地球脆弱的生物多样性",
+      "publishedAt": "Mon, 19 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-20T01:15:47.600Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:15:45.498Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-20-4144f8",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究实现量子网络跨节点散粒噪声极限相位锁定",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-20",
+    "intro": "中国科大团队用多波长联合追踪加贝叶斯估计，在极弱的参考光下实现了跨节点的相位锁定，为远程量子纠缠和未来的量子网络打下技术基础。",
+    "paragraphs": [
+      "要建量子网络，一个关键动作，是让相隔很远的两个量子节点纠缠起来。可两边离得越远，就越难把节奏对上：光的相位必须同步，纠缠才能建立。中国科学技术大学潘建伟、张强等与济南量子技术研究院陈玖朋等合作，提出一种‘多波长联合相位锁定’架构，并结合贝叶斯相位估计，实现了跨节点、达到散粒噪声极限的高精度相位锁定。相关成果于10月14日发表于《物理评论快报》。",
+      "为什么相位这么难锁？在构建远程量子纠缠时，基于散射光子的单光子干涉方案只需探测单个光子，就能消除路径可分辨性并建立纠缠。相比需要两个光子符合测量的方案，它更能抵抗信道损耗。但这条路有个核心瓶颈：跨节点的高精度相位锁定。一方面，散射光子会‘继承’操控激光、变频泵浦光以及长光纤一路累积的复合相位，必须对整个链路统一追踪；另一方面，用来追踪相位的参考光必须非常弱，否则会干扰量子存储态。",
+      "可光越弱，光子到达的随机涨落越明显。这就是散粒噪声，会限制相位估计的速度和精度。达到散粒噪声极限，意味着在这样弱的光强下，测量精度已经逼近理论允许的最好水平。",
+      "针对这些难题，团队基于两个远程单离子（40Ca+）节点，搭建了‘时分-波分’多波长联合相位演化追踪架构，并发展了实时贝叶斯相位估计技术。在时间上，团队让729nm与854nm操控光通过和频产生393nm参考光脉冲，并与离子散射光交替发射；参考光复用操控光的初相位，经历相同的传输信道，还在527nm泵浦下进行量子频率转换，转到1550nm通信波段，从而原位追踪整个系统的复合相位演化。",
+      "在频率上，引入一束失谐约2nm的1548nm连续弱参考光，实时捕捉并补偿光纤链路的快速抖动。针对微弱参考光带来的统计涨落，团队用FPGA实时运行贝叶斯估计，使动态相位解调精度达到散粒噪声极限。",
+      "基于上述突破，系统在极低参考光强下，实现了10公里与100公里光纤链路上的跨节点高精度相位锁定。远程单光子干涉可见度均保持在97%以上，纠缠宇称对比度超过85%，这为构建可扩展量子中继、迈向未来量子网络奠定了技术基础。"
+    ],
+    "topics": [
+      "脑与认知",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573122.shtm",
+      "originalTitle": "研究实现量子网络跨节点散粒噪声极限相位锁定",
+      "publishedAt": "2026-10-18 08:35",
+      "retrievedAt": "2026-10-20T01:16:38.656Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:16:36.017Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Keeping Quantum Nodes in Step With Faint Light",
+      "intro": "A Chinese research team has shown how to keep distant quantum network nodes in step using very faint reference light.",
+      "paragraphs": [
+        "A team from the University of Science and Technology of China, Jinan Institute of Quantum Technology, and collaborators achieved cross-node phase locking at the shot-noise limit. They proposed a 'multi-wavelength joint phase locking' architecture and combined it with Bayesian phase estimation. The work was published in Physical Review Letters on October 14.",
+        "The method targets remote quantum entanglement via single-photon interference from scattered photons. Unlike two-photon coincidence schemes, this approach resists channel loss better but faces a core bottleneck: high-precision phase locking across nodes. Scattered photons inherit composite phase from control lasers, frequency-conversion pump light, and long fibers. Reference light must be extremely weak to avoid disturbing quantum memory — yet weak light suffers strong photon arrival fluctuations: shot noise.",
+        "Shot noise limits phase estimation speed and precision. Reaching the shot-noise limit means achieving the best theoretically allowed precision at that low light level. To overcome this, the team used two remote single-ion (40Ca+) nodes. They built a 'time-division–wavelength-division' multi-wavelength joint phase evolution tracking architecture and developed real-time Bayesian phase estimation.",
+        "In time, 729 nm and 854 nm control light generated 393 nm reference pulses via sum-frequency generation. These pulses alternated with ion-scattered light. The reference light reused the control light’s initial phase and traveled the same channel. Under 527 nm pumping, it underwent quantum frequency conversion to the 1550 nm telecom band — enabling in-situ tracking of the full system’s composite phase evolution.",
+        "In frequency, a weak continuous 1548 nm reference light — detuned by ~2 nm — captured and compensated fast fiber-link jitter. To handle statistical fluctuations from weak light, the team ran Bayesian estimation in real time on an FPGA. This achieved dynamic phase demodulation precision at the shot-noise limit.",
+        "The system achieved high-precision phase locking over 10 km and 100 km fiber links under very weak reference light. Remote single-photon interference visibility remained above 97%. Entanglement parity contrast exceeded 85%. This provides key technical support for scalable quantum repeaters and future quantum networks. Co-first authors are Liu Guangcheng, Xue Chaohui, and Chen Faxi."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-20T01:20:12.047Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-19-bees-may-survive-a-swim-by-heading-for-the-dark",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蜜蜂落水后朝暗处游，可能更容易回到岸上",
@@ -3098,284 +3368,6 @@
       "alt": "冷灰纸张背景上，细线网格构成的抽象曲面连续扭转变形。",
       "caption": "形状在连续变形中，指向看不见的维度。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-05-was-there-really-a-female-king-in-ancient-egypt-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "五千年前的古埃及，真的有一位女国王吗？",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-05",
-    "intro": "一张七十多年前的黑白照片，可能把一位女性的名字写进古埃及第一王朝的统治者名单。",
-    "paragraphs": [
-      "五千多年前，古埃及第一王朝时期，有一位名叫梅雷特尼特（也写作梅尔奈特）的王室女性，她可能是第一王朝第三位国王杰尔的女儿。她生活在上下埃及统一后的早期阶段。学者们知道她曾统治国家，因为她的墓葬群陪葬丰厚，规格完全符合男性统治者的标准。至少，她曾担任临时统治者或共治者。",
-      "要回答她是否以自己名义独立统治过埃及这一问题，需要找到明确称她为统治者的文字证据。目前唯一可能的文本证据，是一张黑白照片，上面拍的是一个泥塞上的象形文字铭文。泥塞是用于封堵陶罐等器物的塞子。1940年代，考古学家在萨卡拉一座不知名墓葬中发掘出13个这样的泥塞。仅存一张其中一件泥塞铭文的照片，保存在伦敦埃及探索协会收藏的埃及学家沃尔特·B·埃默里档案中。原始泥塞和该照片的玻璃底片下落不明。",
-      "照片上的文字是一行四个‘王名框’（serekhs）。这是一种象形符号，由王室建筑图案、守护神和统治者名字组合而成，是当时统治者身份的标记。埃默里称，只有第一个和第四个王名框属于国王杰尔；但当时许多学者拒绝接受他关于第二、第三个王名框书写的是梅雷特尼特名字的说法，理由是原始出版照片质量差，无法确认泥塞上符号的具体形态。",
-      "研究团队与悉尼麦考瑞大学数字技术员克里斯特尔·米勒合作，开发了一种新数字技术来增强图像：先将象形文字从背景中分离，再反转颜色，最后转换为基于数学公式的可缩放矢量图——效果类似高科技硬币拓印。处理后得到的数字复制品比埃默里1954年手绘的符号图更清晰、更准确。",
-      "增强图像显示，第二和第三个王名框中名字部分的符号，与书写梅雷特尼特名字的主要符号一致。研究团队据此认为，梅雷特尼特拥有该时期统治者的核心标志。这意味着她确实是一位女性国王（而非仅称‘王后’，而是与男性统治者真正对等的‘国王’），也是古埃及第二位名字被记录在王室王名框中的女性统治者。这项研究发表在《布拉格埃及学研究》期刊上。",
-      "其他证据也支持梅雷特尼特的统治地位：她在王室墓地拥有豪华的丧葬建筑群；铭文记载她的名字与行政头衔及部门并列；王室墓葬印章上留有她的印痕。有研究估计，她以某种身份统治埃及至少30年。本次研究提出新假说：她的政治生涯可分为不同阶段——王名框与杰尔并列，表明她是共治者；墓葬印章则证实她后来作为国王之母行使摄政权力；她还被后续统治者塞梅尔赫特在墓葬印章上署名纪念，表明其政治地位获正式承认；另有文本显示她掌管国库与官员，以无正式政治头衔的身份治理国家。研究者指出，她能根据政治环境需要进出权力中心，这种角色弹性源于她的性别及其在统治家族中的位置。"
-    ],
-    "topics": [
-      "历史",
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/was-there-really-a-female-king-in-ancient-egypt-5000-years-ago-1285520/",
-      "originalTitle": "Was There Really a Female King in Ancient Egypt 5,000 Years Ago?",
-      "publishedAt": "Sun, 04 Oct 2026 18:00:00 +0000",
-      "retrievedAt": "2026-10-05T00:08:40.985Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:08:38.912Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 35,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-05/2026-10-05-was-there-really-a-female-king-in-ancient-egypt-.webp",
-      "alt": "冷灰纸张背景上，一枚风化质感的抽象印章残片与碎片。",
-      "caption": "一枚残片，让一个名字重新被辨认。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-04-5",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一块在库房躺了近40年的化石，改写了昆虫登陆演化史",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-04",
-    "intro": "博物馆库房里躺了近四十年的一块化石，因为一个本科生在二手教材上多看了一眼，成了改写昆虫登陆演化史的关键证据。",
-    "paragraphs": [
-      "在美国圣地亚哥自然历史博物馆的库房里，一块产自美国得克萨斯州的化石静静躺了近40年，一直被鉴定为“甲壳动物幼体”。直到2021年，还是本科生的捷克青年Erik Tihelka在一本二手俄语古生物教材上偶然瞥见它的照片，察觉形态异样；随后蔡晨阳团队联合国际同行，在《Nature》杂志发表研究，确认它是距今约3.24亿年的“先驱乔昔虫”。Erik是论文第一作者。",
-      "昆虫是地球上物种多样性最高的动物类群，但它们究竟何时、如何从水生走向陆地，长期是笔糊涂账。古生物学界存在著名的“六足动物空缺期”：分子钟推算显示，六足动物早在寒武—奥陶纪就与海洋甲壳动物分道扬镳，开启陆地适应进程；但全球已发现的无争议六足动物化石仅追溯至约4.05亿年前的早泥盆世，确凿的昆虫化石直到晚石炭世才大量出现——二者之间存在长达8000万年的化石记录缺失。先驱乔昔虫产自美国得克萨斯州西部，距今约3.24亿年（石炭纪中期），正好填补这一空白。",
-      "研究团队借助交叉偏振光成像技术看清了它的躯体形态：雌性成虫，体长32毫米，拖着1条中尾丝和2条尾须，加起来近50毫米；有产卵器，有终尾丝，胸部有分节的躯干和6条步行足——标准的昆虫配置。但它腹部第1到第9节每一节都长着分节的附肢，后面的几对还特化成了桨状。现生昆虫腹部没有附肢。桨状腹足意味着它会游泳；化石产出的地层是近岸浅水、三角洲滨岸环境——水陆交界处。因此，这只昆虫过的是半水生两栖生活。这个发现说明，昆虫登陆不是一蹴而就，而是在水陆之间进行了漫长、谨慎的来回“试探”，腹部附肢从游泳足一步步简化、消失，最后才形成今天昆虫的六足模式。研究团队还重新检查了苏格兰早泥盆世的莱弗休姆虫和美国伊利诺伊州马宗溪生物群的两类未命名化石，它们和先驱乔昔虫一起，构成了目前已知最古老的昆虫基干类群。",
-      "这块化石标本的经历比论文本身更曲折。“先驱乔昔虫”的正模标本已被美国圣地亚哥自然历史博物馆收藏近40年。曾有学者对其分类提出质疑，但无人跟进。直到2021年，Erik在二手俄语教材上看到其线条图（标本号：SDNHM 28852），凭昆虫形态敏感度觉得“不太对劲”，随即联系博物馆获取高清照片；蔡晨阳团队确认其潜在研究价值。在进一步联系中，他们发现另有年轻学者也在关注该标本，多方决定携手合作。研究团队于2025年首次向《Nature》投稿被拒，理由是PDF压缩导致关键形态细节模糊，且系统发育数据不完整；团队申诉后获修改机会，补全高质量数据；审稿人对“单一标本保存状态”存疑，团队在第三轮和第五轮修改中补充马宗溪生物群相关化石作为佐证，并由Erik完成大量系统发育编码分析，最终回应关切。一位审稿人写道：“关注这批标本已有相当长一段时间，一直在期待相关成果的问世。因此，能够终于见到该成果成文，我由衷感到高兴。”这也是近30年来《Nature》发表的极少数古昆虫学论文之一。",
-      "这段研究背后是一段跨国师徒的双向奔赴。2019年，还在捷克读高中的Erik因家庭从事养蜂业而痴迷昆虫，主动给当时在英国布里斯托大学做牛顿国际学者的蔡晨阳发邮件求教甲虫化石鉴定。蔡晨阳欣然同意，此后不仅提供标本、设计课题、开放实验室资源，还引荐顶尖专家指导。2019年6月，两人合作的第一篇论文发表在《古昆虫学》上。Erik最终选择布里斯托大学就读，后在蔡晨阳引荐下获得剑桥大学全奖博士名额。截至2026年，蔡晨阳与Erik已合著论文70余篇，其中Erik为第一作者、蔡晨阳为通讯作者的达30余篇。Erik微信昵称是中文“六子”，即将成为湖南女婿。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572469.shtm",
-      "originalTitle": "本科生在教材上多看了一眼，5年后改写演化史",
-      "publishedAt": "2026-10-03 20:44",
-      "retrievedAt": "2026-10-03T23:52:28.897Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:52:19.050Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-04/2026-10-04-5.webp",
-      "alt": "岩页中的昆虫化石印痕与一本翻开的旧书",
-      "caption": "库房里的化石，改写了昆虫登陆史",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-04-among-naked-mole-rats-a-royal-s-scent-keeps-the-",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "裸鼹鼠女王的气味，怎样维持整个群体的和平",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-04",
-    "intro": "一项新研究显示，裸鼹鼠女王会释放一种特殊的化学物质，只要这种气味还在，同伴就不打架，也不交配。",
-    "paragraphs": [
-      "想象一种超能力：释放一种气味，就让正在争斗的对手立刻停手。在裸鼹鼠的地下群体里，女王就拥有这样的能力。裸鼹鼠过着分工明确的生活，有的外出寻找食物，有的留在巢里照顾幼崽，而整个群体中只有女王负责生育。她维持自己地位的办法，就是让其他成员无法交配。一旦女王死去，地位较高的裸鼹鼠就会开始交配，并凶狠地打斗，直到其中一只成为新的女王。",
-      "德国柏林马克斯·德尔布吕克中心的神经科学家加里·勒温，长期研究裸鼹鼠怎样使用感官。他曾发现，裸鼹鼠靠气味分辨同伴是不是来自自己这个群体。这让他产生了一个疑问：气味在群体内部是不是也起作用？他和团队找到了一种只由女王产生的化学物质，名叫肉豆蔻酸异丙酯（EYE-so-pro-puhl MEER-ih-stayt）。这种物质对人来说没有任何气味，但对裸鼹鼠非常强烈——研究者发现，它能激活动物的嗅觉皮层，即大脑中处理气味的区域。",
-      "为了验证这种气味的作用，研究团队把女王从群体中移走，然后每天给群体涂上肉豆蔻酸异丙酯，持续了三个月。‘In the entire three months, there was no fighting. Everybody was cool with each other … and there was no [mating],’ says Lewin。研究人员一停止添加这种气味，裸鼹鼠就开始打斗。‘Within a week we had the first death,’ Lewin says。‘A few weeks later, we saw mating events — and a new queen emerged.’ 研究团队于7月15日在《自然》杂志上发表了这项发现。",
-      "研究团队还做了另一组实验：把成对的雄性和雌性裸鼹鼠从群体中分开，让其中一些配对接触女王的气味，另一些则不接触。四个星期后，接触气味的雌性没有一只交配；而没有接触的六对中，有五对的雌性怀孕了。血液检测显示，肉豆蔻酸异丙酯会影响雌性裸鼹鼠体内的激素：它降低孕酮（Proh-JES-tur-own）水平，同时提高催乳素水平，正是这种变化阻止了它们怀孕。",
-      "研究还发现，女王只在怀孕或准备怀孕时才会产生肉豆蔻酸异丙酯。如果她停止产生，其他裸鼹鼠就会知道女王没有履行自己的职责——生育后代，于是会杀死她。勒温指出，这种程度的团队合作在哺乳动物中十分罕见。‘We think of that as something uniquely human. But it’s actually something that mole-rats have been doing for millions of years — before we even appeared on the scene.’",
-      "在这套系统里，气味不只是传递消息，它本身就是秩序：只要女王还在正常生育，气味就在，群体就安静；一旦气味消失，秩序便立刻由打斗重新决定。听完这件事，也许可以想一想，一个群体的和平，究竟建立在什么之上。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
-      "originalTitle": "Among naked mole-rats, a royal’s scent keeps the peace",
-      "publishedAt": "Fri, 02 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-03T23:53:42.740Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:53:38.014Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Queen's Scent Keeps the Peace Among Naked Mole-Rats",
-      "intro": "A naked mole-rat queen releases a calming scent that stops other mole-rats from fighting and mating — keeping order in her colony.",
-      "paragraphs": [
-        "Naked mole-rats live in underground colonies with one queen. She is the only one who reproduces. Others search for food or care for the young. The queen keeps her status by preventing others from mating. When she dies, high-ranking mole-rats start mating and fight viciously until one becomes the new queen.",
-        "The study was published July 15 in Nature. Gary Lewin is a neuroscientist at the Max Delbrück Center in Berlin, Germany. He studies how naked mole-rats use their senses. He previously discovered they use scent to identify mole-rats from other colonies. That made him wonder: Do odors matter within a colony, too?",
-        "Lewin’s team found a chemical made only by queen mole-rats. It is called isopropyl myristate. To people, it has no smell. But it must smell very strong to naked mole-rats. It sets off activity in the olfactory cortex — the brain region that processes smells.",
-        "To test the scent, the team removed a queen from her colony. Then they applied isopropyl myristate to the colony every day for three months. 'In the entire three months, there was no fighting. Everybody was cool with each other … and there was no [mating],' says Lewin. When researchers stopped adding the odor, the mole-rats started fighting. 'Within a week we had the first death,' Lewin says. 'A few weeks later, we saw mating events — and a new queen emerged.'",
-        "The team also found more clues about how the queen’s scent works. They separated pairs of male and female mole-rats. Some pairs were exposed to the queen scent; others were not. After four weeks, no female exposed to the scent had mated. Five of six females from the other pairs were pregnant. Blood tests showed isopropyl myristate lowers progesterone and raises prolactin in female mole-rats.",
-        "A queen only produces isopropyl myristate when she is pregnant or preparing to be. If she stops, other mole-rats know the queen is not doing her job — which is having babies, Lewin says. So they kill her. This level of teamwork is rare among mammals. 'We think of that as something uniquely human. But it’s actually something that mole-rats have been doing for millions of years — before we even appeared on the scene.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:58:16.437Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-04/2026-10-04-among-naked-mole-rats-a-royal-s-scent-keeps-the-.webp",
-      "alt": "抽象同心波纹与地下洞穴线条",
-      "caption": "一种气味，维持群体的和平",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-04-88njp9",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "香港狗咬人事故：從人寵共融到全城獵狗，狗隻管理鏈是如何斷裂的？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-04",
-    "intro": "一起致命袭击、一次绝育手术后的死亡，把香港的犬只管理制度推到公众面前。",
-    "paragraphs": [
-      "8月20日，香港新界打鼓岭一间宠物酒店及犬只训练中心外，33岁的中心负责人Jojo被发现倒卧在狗舍外草地，她的头部、下颚、颈及双臂疑被狗噬咬，当场死亡。警方翻查闭路电视，发现Jojo在餵飼後引導一隻30公斤重的混種犬「太陽」返回狗籠，狗突然狂咬事主約一分鐘，直到兩小時後被發現。",
-      "9月上旬，一位狗主在漁護署更新對危險犬的管制行動後，在憂慮下決定帶小狗矇豬絕育，但矇豬在絕育手術後死亡。",
-      "不論是致命襲擊，抑或是官方加強管制後出現的死亡事故，都將香港犬隻管理制度推到公眾眼前。隨後的格鬥犬分類爭議、以及對犬隻來源、主人責任，漁護署執法權等疑問，甚至最近的流浪狗襲擊人致死事件，接連事故暴露出犬隻管理的不同難題。",
-      "與此同時，香港正逐步打開城市對寵物的大門：食肆開始容許狗隻進入，「人寵共融」成為政府政策方向。當愈來愈多狗走進公共空間，一些更基本的問題變得緊迫：香港是否真的知道城市裡養著什麼狗？牠們從哪裡來？牠們過去有沒有攻擊紀錄？出事後，又由誰負責？",
-      "端傳媒從近日多宗狗隻事故出發，訪問狗主和動物團體，嘗試拼湊一隻狗由進入香港、申領牌照、日常飼養，到發生事故及接受執法的整條管理鏈，了解制度如何運作，又在哪些環節出現落差。"
-    ],
-    "topics": [
-      "城市与公共",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261002-hongkong-fighting-dog-controversy-after-fatal-attack/",
-      "originalTitle": "香港狗咬人事故：從人寵共融到全城獵狗，狗隻管理鏈是如何斷裂的？",
-      "publishedAt": "Thu, 01 Oct 2026 22:59:22 GMT",
-      "retrievedAt": "2026-10-03T23:54:15.874Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:54:11.284Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-04-580",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "难民署：580万难民儿童仍无法上学 资金削减威胁教育进展",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-04",
-    "intro": "联合国难民署最新年度教育报告显示，2025年全球1310万学龄难民儿童中，有580万人、占44%未能入学。",
-    "paragraphs": [
-      "联合国难民署周五发布最新年度教育报告《通往未来之路：教育、机遇与自力更生》，指出，2025年全球1310万学龄难民儿童中，有580万人、占44%未能入学。难民署警告，日益加剧的资金削减可能导致更多儿童无法进入课堂，并使难民教育领域多年来取得的进展受到影响。",
-      "报告显示，2025年有65%的学龄难民儿童接受小学教育，但进入中学的比例仅为32%。",
-      "难民女孩从小学向中学过渡面临更大困难。虽然男女儿童小学入学率大致相当，但进入中学后差距明显扩大，贫困、安全风险、早婚等因素迫使越来越多少女辍学。",
-      "报告指出，持续投资正在推动难民高等教育取得进展。2025年，难民高等教育入学率达到11%，高于2024年的9%；超过45万名难民进入高等教育阶段，创历史最高纪录。",
-      "在超过80%的报告国中，2025年难民高等教育入学率低于全国平均水平。在低收入和受冲突影响的国家，仅有2%的难民接受高等教育，而本国公民的比例为13%。",
-      "难民署指出，投资难民教育也意味着加强为难民和收容社区服务的国家教育体系。随着越来越多难民儿童与收容社区儿童共同学习，学校需要足够的教师、教室、学习材料和资金。难民署敦促国际社会和发展伙伴保障教育资金，并投资于难民收容国的国家教育体系。"
-    ],
-    "topics": [
-      "全球时事",
-      "教育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142932",
-      "originalTitle": "难民署：580万难民儿童仍无法上学 资金削减威胁教育进展",
-      "publishedAt": "Fri, 02 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-03T23:54:56.159Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:54:54.166Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "5.8 Million Refugee Children Still Out of School",
-      "intro": "A new United Nations report says funding cuts could push even more refugee children out of the classroom.",
-      "paragraphs": [
-        "Imagine losing your home and your school at the same time. For millions of refugee children, that is everyday life. A new report from the UN refugee agency looks at how many of them are missing out on education.",
-        "In 2025, there were 13.1 million school-age refugee children in the world. About 5.8 million of them were not in school. That means 44 percent had no classroom to go to. The agency warns that funding cuts could push even more children out of school. Years of progress could be lost.",
-        "Primary school is where most refugee children can still be found. About 65 percent of them attended primary school in 2025. But only 32 percent moved on to secondary school. Refugee girls face greater challenges making that transition. Poverty, safety risks, and early marriage force increasing numbers of girls to drop out.",
-        "There is good news from higher education. In 2025, 11 percent of refugees reached higher education. That was up from 9 percent in 2024. More than 450,000 refugees are now studying at that level — a record high. The agency aims to reach 15 percent by 2030 through expanded university access, vocational training, distance learning, scholarships, and third-country education pathways.",
-        "But the chances are not equal everywhere. In more than 80 percent of reporting countries, refugee higher education enrollment was below the national average. In low-income and conflict-affected countries, only 2 percent of refugees accessed higher education — compared with 13 percent of national citizens.",
-        "The refugee agency says investing in refugee education also strengthens national education systems. As more refugee children learn alongside host community children, schools need enough teachers, classrooms, learning materials, and funding. The agency urges the international community to protect education funding."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-03T23:57:42.439Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
