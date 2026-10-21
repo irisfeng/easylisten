@@ -1,5 +1,238 @@
 [
   {
+    "slug": "2026-10-21-sliding-down-surfaces-can-make-rainwater-corrosi",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "雨滴滑过表面带电，可能腐蚀金属",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-21",
+    "intro": "新研究发现，滑过树叶、玻璃等表面而带上电荷的雨滴，落在金属上会腐蚀其表面，甚至穿透保护涂层。",
+    "paragraphs": [
+      "下雨时，雨滴会不断砸在汽车、桥梁、纪念碑等户外结构上。科学家早已知道，水滴反复撞击会造成物理磨损，雨水也可能含有少量腐蚀性化合物，如酸。但新数据显示，还有一种此前不明确的损伤机制：当雨滴先带上电荷，再落到某些金属上，就可能引发腐蚀。这项研究发表在9月10日的《自然》杂志上。",
+      "发现这一现象有一定偶然性。在德国美因茨的马克斯·普朗克高分子研究所工作的物理学家钟远宁（Zhongyuan Ni）说，早期实验中，他用数百颗水滴持续冲击铜表面，未观察到损伤。但有一天他让实验继续运行，自己去喝咖啡或做别的事，回来后发现铜表面已发生变化。一位同事提出这可能是某种损伤，由此促使团队展开深入研究。",
+      "为验证假设，研究人员将水滴持续滴在涂有特氟龙涂层的铜片上。铜比许多金属更耐腐蚀，而特氟龙是一种强效保护涂层。他们推断：若带电水滴能破坏这种双重防护，就很可能也会腐蚀其他金属。实验中，部分水滴先沿树叶或建筑材料表面滑落以获取电荷；另一些则未经滑动、直接滴落，作为未带电对照。",
+      "显微镜下观察显示，所有被带电水滴冲击的铜表面均出现损伤：带电水滴穿透了特氟龙涂层，并开始腐蚀下方的铜；而未带电水滴未造成此类损伤。类似效应也出现在涂有聚苯乙烯涂层的铜片和金片上。这表明，带电水滴的腐蚀能力不仅限于特氟龙涂层。",
+      "水滴可通过多种方式带电，例如在云中形成时，或滑过树叶、玻璃、建筑物等常见表面时。钟远宁指出，这无需恐慌，因为单次作用极小；但汽车、船舶、纪念碑和机械设备长期暴露于自然环境中，微小效应可能逐年累积。未参与该研究的德国斯图加特大学物理学家斯特凡·韦伯（Stefan Weber）表示，该发现或有助于开发更优的防腐蚀涂层。",
+      "钟远宁强调，尽管单个水滴所带电荷极小，‘有时它们将发挥重要作用’。"
+    ],
+    "topics": [
+      "物质与数学",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
+      "originalTitle": "Sliding down surfaces can make rainwater corrosive",
+      "publishedAt": "Tue, 20 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-21T00:45:24.790Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:45:22.941Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 18,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-21/2026-10-21-sliding-down-surfaces-can-make-rainwater-corrosi.webp",
+      "alt": "雨滴沿曲面滑下，下方金属出现蚀痕",
+      "caption": "滑落的雨滴，带着电荷侵蚀金属。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-21-ai-proved-the-quasi-riemann-hypothesis-what-happ",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI 证明黎曼猜想弱版本，数学家开始核读其含义",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-21",
+    "intro": "黎曼猜想的一个弱版本被 AI 证明，专家逐段核读之后，开始回答它到底意味着什么。",
+    "paragraphs": [
+      "2026 年 10 月 6 日，OpenAI 公布了 377 项成果，其中一项宣称解决了‘quasi-Riemann hypothesis’——一个比黎曼猜想更弱的命题。斯坦福大学的 Jared Duker Lichtman 称这是‘the most significant AI-for-math achievement so far, by quite a margin.’ 与近期其他 AI 证明不同，这一证明已被人类专家 unpack（拆解分析）。纽约大学的 Maksym Radziwiłł 表示其含义‘staggering’。",
+      "要听懂这件事，得先知道黎曼猜想在问什么。黎曼猜想是关于质数分布的基本命题。质数是只能被 1 和自身整除的整数，被许多数学家称为‘atoms of arithmetic’。1859 年黎曼提出，质数如何变稀疏，本质上由一个叫作 Riemann zeta (ζ) 函数的复变函数的零点位置决定。该函数输入为复数 s，其平凡零点出现在负偶数（−2, −4, −6, …）处；而黎曼猜想断言：所有非平凡零点的实部都等于 1/2。数学家已数值验证前 12 万亿个非平凡零点均满足此条件，但尚未完成一般性证明。Enrico Bombieri 指出：‘The failure of the Riemann hypothesis would create havoc in the distribution of prime numbers.’",
+      "准黎曼猜想是它的弱化形式：它不要求所有非平凡零点落在实部为 1/2 的直线上，而只要求它们全部落在一个比已知范围（实部介于 0 与 1 之间）更窄的竖直条带内。Maksym Radziwiłł 表示，‘In a sense, the vast majority of consequences of RH already follow from quasi-RH.’",
+      "OpenAI 给出两个版本的证明。第一版发布于 2026 年 9 月 30 日，声称所有非平凡零点实部介于 1/8 与 7/8 之间，并经 Lean 编程语言形式化验证；全文 199 页。第二版完成于约一周后（2026 年 10 月 5 日），结论较弱：实部介于 1/12 与 11/12 之间，尚未形式化验证，全文 49 页。两篇论文均被 Radziwiłł 评价为‘horribly written (in a way that would lead to immediate rejection at any mathematical journal)’，‘fall short of the standard of exposition and clarity in our area by a wide margin.’ 因此数学家聚焦于更短的第二版，因其技术路径与第一版相似，且蕴含相近的数学后果。",
+      "最令数学家意外的是，该证明未引入新概念，而是揭示了旧有思想之间的隐藏联系。佐治亚理工学院的 Alexander Dunn 称其为‘a surprising synthesis of well-known ideas’。该结果部分依赖于 Radziwiłł 与 Dunn 早年发展的技术，二人对此亦感惊讶。普林斯顿大学的 Peter Sarnak 已将本学期一门课程改为专门研读该论文；Radziwiłł 称自己现在可用半页纸勾勒其论证主干，其他数学家的详细整理稿则长 7 至 13 页，目前尚未正式发表，仅在同行间私下传阅。",
+      "值得注意的是，在 OpenAI 于 2026 年 10 月 6 日发布的全部 722 篇论文中，这是唯一一篇经人工编辑的。OpenAI 未说明编辑者身份或编辑原因；回应《Quanta》时仅表示：‘The paper is the result of work from everyone at OpenAI.’"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "originalTitle": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "publishedAt": "Mon, 19 Oct 2026 15:40:26 +0000",
+      "retrievedAt": "2026-10-21T00:47:16.429Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:47:12.318Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "AI Proved a Slice of Math's Biggest Question. Now Humans Are Checking It.",
+      "intro": "An AI system claimed a proof about prime numbers that one expert calls a landmark. Now mathematicians are reading it line by line.",
+      "paragraphs": [
+        "On October 6, 2026, OpenAI announced 377 results. One of them stood out. It claimed to settle the 'quasi-Riemann hypothesis' — a weaker version of the Riemann hypothesis, which is arguably the biggest open question in math. Jared Duker Lichtman of Stanford University called it 'the most significant AI-for-math achievement so far, by quite a margin.' The Riemann hypothesis has been an open problem for over 160 years.",
+        "The Riemann hypothesis is a fundamental statement about the distribution of prime numbers — integers divisible only by 1 and themselves that many mathematicians call the 'atoms of arithmetic.' As you move along the number line, the primes thin out. Riemann showed that exactly how the primes thin out is, in a sense, governed by the zeta function — in particular by the places where it equals zero.",
+        "It's straightforward to prove that if s is a negative even number (−2, −4, −6, …), then ζ(s) = 0. These are called trivial zeros. The Riemann hypothesis says that the only other zeros — the nontrivial ones — occur when s has a real part of 1/2. Mathematicians have numerically verified that the first 12 trillion nontrivial zeros are on the 1/2 line. But even one solitary outlier would land like an earthquake.",
+        "The quasi-Riemann hypothesis asks only that all nontrivial zeros be contained in a vertical strip narrower than the known strip between zero and 1. Maksym Radziwiłł of New York University said 'in a sense, the vast majority of consequences of RH already follow from quasi-RH.' He called the implications 'staggering.'",
+        "OpenAI announced two versions of their quasi-Riemann hypothesis proof. The first, dated September 30, 2026, claimed zeros must be between 1/8 and 7/8, was formally verified using Lean, and is 199 pages long. The second, completed almost a week later, claimed a weaker result — real part between 1/12 and 11/12 — and is 49 pages long. Radziwiłł said both papers 'are horribly written' and 'fall short of the standard of exposition and clarity in our area by a wide margin.' Mathematicians set aside the 7/8 paper to focus on the 11/12 one, which seems to involve similar techniques and consequences.",
+        "The 11/12 result is the only one of the 722 OpenAI papers released on October 6 to have been edited by a person. OpenAI has not addressed inquiries about who that person is. In response to questions from Quanta, the company said, 'The paper is the result of work from everyone at OpenAI.' Peter Sarnak of Princeton University has repurposed a course he’s teaching this semester to study it. Radziwiłł says he can now sketch the proof’s arguments in half a page, while other mathematicians’ write-ups range from seven to 13 pages. Experts largely agree that the result is correct — and that its novelty lies in the way it brings together ideas from number theory that have been around for some time."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:53:20.533Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-21-4979b3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "良渚这样的文化遗产，为什么能让人专程跑一趟",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-21",
+    "intro": "中新网文化的一篇文化观察，借良渚提出了一个问题：文化遗产是怎么点亮大众旅游的。",
+    "paragraphs": [
+      "假期里，越来越多家庭的旅行清单上出现了新选项：不是乐园，不是商场，而是一处几千年前的遗址。中新网文化的一篇文化观察，把目光放在良渚，提出了一个问题——文化遗产，是怎么点亮大众旅游的。",
+      "先要弄清这篇文章在做什么。它不是旅游攻略，也不是简单的客流播报，而是一篇“文化观察”。它关心的不是某个假期来了多少人，而是一个更慢的问题：一处遗址，凭什么让人愿意专程跑一趟。",
+      "“点亮”这两个字，其实有来有回。一头是遗产给旅游一个非来不可的理由。山水到处都有，可一段只在书上读到过的历史，只有站到现场才看得见、摸得着。另一头是反过来的：旅游也让遗产被重新看见。一处遗址被更多人知道、惦记，它才不只是一个写在报告里的地名。",
+      "但两头之间，也有需要小心的地方。来的人多了，路要修，展馆要建，讲解要做，遗址本身的安静和安全就得反复权衡。所以真正难的，往往不是把人请来，而是人来了之后，还能看懂。",
+      "看懂这件事，靠的常常不是一圈土坡和几块说明牌，而是讲述。一处遗址要变成能听懂的现场，需要有人把它还原成生活：人们住在哪里，吃什么，怎么做出手里的器物，为什么愿意一起修那么大的工程。这些具体的细节，比抽象的概括更能留住一个孩子。",
+      "所以下次旅行如果路过一处遗址，不妨带着问题走进去：这里的人当年怎么生活？我们今天看到的，哪些是原来的，哪些是后来补上的？这些问题没有标准答案，但它们会让你离开之后，还惦记着它。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-20/10718207.shtml",
+      "originalTitle": "文化观察：从良渚看文化遗产如何点亮大众旅游？",
+      "publishedAt": "Tue, 20 Oct 2026 23:27:03 +0800",
+      "retrievedAt": "2026-10-21T00:49:10.211Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:49:08.393Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-21-ai-fb2ab3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "没人教也没定规则，AI智能体能自己形成一套共同词汇",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-21",
+    "intro": "比利时布鲁塞尔自由大学人工智能实验室和那慕尔大学团队在一项大规模研究中证明，即使没有人类教授语言，也没有预设交流规则，AI智能体仍能通过反复互动，自发形成一套共享的、彼此能够理解的词汇体系。",
+    "paragraphs": [
+      "如果让一群AI互相聊天，没有人教它们该用什么词，也没有事先规定语法，它们能聊得起来吗？比利时布鲁塞尔自由大学人工智能实验室和那慕尔大学团队在一项大规模研究中证明，AI智能体可以通过反复互动，自发形成一套共享的、彼此能够理解的词汇体系。相关成果发表于最新一期《计算语言学学报》。",
+      "为什么机器需要一套自己的说法？像ChatGPT这样的大型语言模型，主要是通过训练来学习和使用英语等人类语言。但人类语言植根于人的感官体验，未必适合描述机器感知到的所有信息。比如激光雷达获取距离数据、红外传感器捕捉热辐射、声呐探测周围物体、化学传感器分析物质成分等。即使两台机器配备相同类型的传感器，实际测量结果也可能存在偏差，进一步增加彼此交流的难度。",
+      "这次研究中，团队没有给AI智能体准备现成的词汇表，也没有设置一套固定的通信编码，而是让它们在互动中逐步摸索。智能体可自行创造词语、调整词语对应的概念，并根据交流是否成功来修正表达方式。两个智能体先进行局部交流，随着越来越多的互动不断累积，整个群体逐渐形成共同遵循的语言规则。这有点像一群人，在没有统一教材的情况下，通过一次次交流慢慢约定某个词代表什么。不过，AI智能体形成的语言并不需要模仿人类的表达习惯，而是直接服务于它们所感知的数据和需要完成的任务。",
+      "团队在37组不同类型、复杂程度各异的数据集上验证了这一方法的适用性。数据涉及葡萄酒的物理化学性质、美国国家航空航天局的系外行星数据、视觉信息，以及鸟类和人脸图像。测试表明，AI智能体成功发展出自己的词汇体系，用于交流多种数据的信息。这种语言也并非人类完全无法理解的“黑话”。由于每个词语对应的概念原型能够与底层传感器数据建立联系，人们可以进一步分析词语表达的含义，了解机器究竟在交流什么。",
+      "这一方法有望为自动驾驶汽车、机器人和工业传感器等自主系统之间的通信提供新思路。科技日报记者张佳欣报道，总编辑圈点指出：人们总在调侃，如果两个AI聊天，它们还会说人话吗？这次，科研人员试了一下。他们让一群AI智能体在没有人教、也没有预设沟通规则的情况下自行互动。有趣的事情发生了，它们摸索出了一套自己的共同语言。未来，我们有望让自动驾驶汽车、机器人、工业传感器这些设备实现自主沟通。不过需要注意的是，人类要时刻关注机器沟通语言的可理解性，要保证有办法对它们的沟通进行干预和校正。"
+    ],
+    "topics": [
+      "人工智能",
+      "多智能体",
+      "语言涌现",
+      "词汇体系"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/21/content_599514.html",
+      "originalTitle": "总编辑圈点 | 没有人类教授语言，没有预设交流规则， AI智能体可自发形成一套词汇体系",
+      "publishedAt": "2026-10-21",
+      "retrievedAt": "2026-10-21T00:49:50.202Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:49:48.307Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "When Machines Invent Their Own Words",
+      "intro": "A new study shows that AI agents can build a shared vocabulary without any human teacher.",
+      "paragraphs": [
+        "Imagine two machines meet for the first time. No one hands them a dictionary. No one sets rules for how they should talk. Could they still learn to understand each other? A new study suggests yes.",
+        "Researchers at the AI lab of the Free University of Brussels and the University of Namur conducted a large-scale study. Their results appeared in the latest issue of the Journal of Computational Linguistics.",
+        "Most large language models, like ChatGPT, learn human languages through training. But human words grow from human sensory experience. They may not fit everything a machine senses. Machines use lidar to get distance data, infrared sensors to capture thermal radiation, sonar to detect surrounding objects, and chemical sensors to analyze substance composition. Even two machines with the same sensor type can produce slightly different measurements — increasing communication difficulty.",
+        "In the experiment, the agents had no pre-made vocabulary list. They had no fixed communication code. They had to figure things out by interacting. They could invent words, adjust what concepts those words represented, and revise their expressions based on whether communication succeeded. Two agents began with local exchanges. As more interactions accumulated, the whole group gradually formed shared language rules.",
+        "It is a bit like strangers slowly agreeing on what a word means, with no textbook. But the AI language did not need to copy human expression habits. It served the data they sensed and the tasks they needed to complete. The team tested the method on 37 datasets of varying types and complexity. These included wine’s physical and chemical properties, NASA’s exoplanet data, visual information, and images of birds and human faces. The AI agents successfully developed their own vocabularies to communicate information across all these domains.",
+        "This language was not a totally mysterious code. Because each word’s concept prototype could be linked to underlying sensor data, people could analyze what the words meant and understand what the machines were communicating. The method may help autonomous systems — such as self-driving cars, robots, and industrial sensors — communicate with each other. Humans must remain able to monitor machine communication for intelligibility and retain the ability to intervene and correct it."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-21T00:52:38.389Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-21/2026-10-21-ai-fb2ab3.webp",
+      "alt": "抽象节点网络间浮现趋同的符号块",
+      "caption": "没有老师，它们也长出了共同语言。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-20-walking-may-improve-your-attention-span",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "走路更多的人，注意力和自控力测试表现更好",
@@ -3142,232 +3375,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-10-06-8ogk90",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家识别出三种叫声最响亮的鸟",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-06",
-    "intro": "白钟雀叫声能达到125分贝，裸喉钟雀和红腿叫鹤叫声都超过120分贝；至于这些鸟如何演化出最响亮的叫声，则仍然是个谜。",
-    "paragraphs": [
-      "生物学家在巴西识别出三种叫声最响亮的鸟。根据精确的测量标准，这三种鸟都可以被视为叫声最响亮者。",
-      "这三种鸟分别是白钟雀（white bellbird）、裸喉钟雀（bare-throated bellbird）和红腿叫鹤（red-legged seriema）。白钟雀叫声能达到125分贝；裸喉钟雀和红腿叫鹤叫声都超过120分贝。研究人员表示，120分贝可能是鸟类发声的生理极限；巴西之外的地方无疑也存在叫声洪亮的鸟类，但其音量不太可能比这些鸟高出太多。",
-      "三种鸟类有着共同的生理特征：即宽大的喙口和肌肉厚实的大块头身体。",
-      "至于这些鸟如何演化出最响亮的叫声则仍然是个迷。",
-      "但对科学家而言，谁是赢家并不是重点。"
-    ],
-    "topics": [
-      "生物与技术",
-      "声音与感知"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "region": "mainland",
-      "url": "https://www.solidot.org/story?sid=85539",
-      "originalTitle": "科学家识别出三种叫声最响亮的鸟",
-      "publishedAt": "Mon, 05 Oct 2026 22:45:39 +0800",
-      "retrievedAt": "2026-10-06T01:55:59.147Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "discovery",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T01:55:57.735Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-05-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中外剧作家在沪谈AI：可辅助创作，难以替代舞台艺术",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-05",
-    "intro": "据中新网文化报道，中外剧作家在上海探讨AI与戏剧的关系，一致认为AI可辅助创作，但难以替代舞台艺术。",
-    "paragraphs": [
-      "如果让人工智能来写一个剧本，它能写成什么样？据中新网文化报道，中外剧作家在上海就AI与戏剧的关系展开讨论。他们的看法理性而务实：AI可辅助创作，但难以替代舞台艺术。",
-      "所谓‘可辅助创作’，意味着AI可在戏剧创作过程中提供支持，例如文字处理、素材整理或结构建议等环节。剧作家并未将AI拒之门外，而是将其视为一种可用的工具。",
-      "而‘难以替代舞台艺术’强调的是舞台艺术的整体性——它不仅包含剧本文字，更涵盖演员表演、现场调度、声音语调、观众反应等不可复制的即时性体验。文字可以被生成，但一场戏必须在真实空间中由人与人共同完成。",
-      "这一判断划出清晰边界：AI擅长处理可编码、可生成的内容；而舞台艺术的核心在于不可预设、不可复刻的‘在场性’。二者性质不同，功能不可混淆。",
-      "对创作者而言，关键问题或许是：你希望AI帮你拓展可能性，还是替你做最终判断？剧作家们在上海所谈的，正是这条由创作主体自主界定的边界。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-04/10707983.shtml",
-      "originalTitle": "中外剧作家在沪谈AI：可辅助创作，难以替代舞台艺术",
-      "publishedAt": "Sun, 4 Oct 2026 22:58:32 +0800",
-      "retrievedAt": "2026-10-05T00:05:43.498Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:05:42.435Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Playwrights in Shanghai Talk About AI and the Stage",
-      "intro": "Playwrights from China and other countries met in Shanghai to talk about what AI can and cannot do for theater.",
-      "paragraphs": [
-        "Imagine a computer writing a play for you. Would you go and watch it? That is the kind of question some playwrights were thinking about in Shanghai. They came together to talk about AI and the stage.",
-        "According to China News Service, the group included playwrights from China and from other countries. They shared their ideas about how AI is changing creative work.",
-        "They said AI can help with creation. It can support writers as they work. But they also said it is hard for AI to replace stage art itself.",
-        "A play is not only words on a page. It happens in a room, with real actors and a real audience. Something small changes every single night.",
-        "So the message from Shanghai is not fear and not hype. AI may become a useful tool for writers. The stage, however, still belongs to people."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:12:14.674Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-05-9pd4c3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "李昊点球大战两度扑点，赛后称功劳在教练组",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-05",
-    "intro": "铜牌赛的点球大战里，他两次把球挡在门外；赛后他说，功劳在教练组。",
-    "paragraphs": [
-      "10月3日，在爱知·名古屋亚运会男足项目铜牌赛中，中国队经过点球大战击败乌兹别克斯坦队，时隔28年再获亚运会男足铜牌。点球大战中，门将李昊扑出两个点球。",
-      "足球淘汰赛若加时赛后仍平局，将通过点球大战决出胜负：双方轮流主罚，进球多者获胜。守门员是点球大战中唯一可直接阻止进球的球员。",
-      "赛后，李昊接受新华社记者专访时特别感谢了主教练安东尼奥和守门员教练托莫。他说：‘没有安东尼奥教练组，就没有这里的我。’",
-      "他透露，安东尼奥来到中国前，他只是国少队的第三、第四门将，从未想过成为职业球员。",
-      "托莫教练鼓励当时还不到15岁的他，说他是‘亚洲最好的门将’。正是在教练组的支持和鼓励下，他不断提高，成长为今天的自己。",
-      "一场点球大战，最终被记作一行比分和一块铜牌；但对李昊而言，更难忘的是在他尚未被看好、尚排在名单靠后时，有人率先相信了他。"
-    ],
-    "topics": [
-      "体育精神",
-      "青少年成长",
-      "教练影响",
-      "心理韧性"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261004/80f6fc6da69d492e9f100f8ff9a98f74/c.html",
-      "originalTitle": "李昊：没有安东尼奥教练组，就没有这里的我",
-      "publishedAt": "2026-10-04T23:30:24+08:00",
-      "retrievedAt": "2026-10-05T00:06:31.569Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:06:22.426Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Li Hao Thanks the Coaches Who Believed in Him",
-      "intro": "A young goalkeeper saved two penalties to win China a rare medal, then gave the credit to his coaches.",
-      "paragraphs": [
-        "On October 3, China's men's football team faced Uzbekistan in the men's football bronze medal match at the Asian Games in Aichi and Nagoya. The match ended in a draw, and China won the bronze medal in a penalty shootout.",
-        "Goalkeeper Li Hao saved two penalties during the shootout. This was China's first men's football bronze medal at the Asian Games in 28 years.",
-        "After the match, Li Hao spoke to Xinhua reporters. He gave special thanks to head coach Antonio and goalkeeper coach Tomo. He said: 'Without Antonio's coaching team, there would be no me here.'",
-        "Before Antonio came to China, Li Hao was only the third or fourth goalkeeper on the national youth team. He had never imagined becoming a professional player.",
-        "Tomo encouraged him when he was under 15 years old, saying he was 'the best goalkeeper in Asia.' With the support and encouragement of the coaching staff, Li Hao kept improving and grew into the player he is today."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:11:54.394Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-05-what-does-the-fourth-dimension-actually-look-lik",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "四维空间长什么样？数学家用拓扑学来想象",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-05",
-    "intro": "拓扑学不量距离，只问一个形状能不能在不撕断的前提下连续变成另一个；数学家用它来想象看不见的四维空间。",
-    "paragraphs": [
-      "先做个小实验：拿一条纸带，扭半圈，把两头粘起来做成一个环，再沿着纸带的中间剪一圈。你多半以为会剪出两个环，可它偏偏没有断开，还是一整圈连着。数学教授斯特罗加茨带小学生做这个实验时，有个孩子当场急哭了。他说，这差不多就是数学课一直在做的事。这个剪不断的纸环，属于数学里一个叫拓扑学的分支。今天要讲的，是拓扑学家眼里的第四个维度。",
-      "拓扑学到底研究什么？我们平常学的几何，关心的是怎么量距离，比如勾股定理。拓扑学不量长度，也不管角度，它关心的是一个形状整体上怎么连在一起。数学家米勒的解释很干脆：如果有两个形状，你能在不撕断、不粘合的前提下，把其中一个连续地揉成另一个，那么在拓扑学家看来，它们就是同一样东西。可以拉，可以扭，但不许弄破。",
-      "维度也是这样。我们习惯说自己活在长、宽、高三个方向上，也就是 X、Y、Z。可在拓扑学里，空间的维度可以是任意的。米勒举了一个最小的例子：一个圆。不是实心的圆盘，而是盘子边缘的那一圈。它是一维的——站在这一圈上，你只有一个方向可走，顺时针，或者逆时针。那么，如果拿一百万个圆，把它们粘在同一个点上呢？甚至把无穷多个圆粘在同一个点上呢？那就是一个更抽象的空间了。",
-      "那四维空间究竟长什么样？米勒的办法，是把它想成一叠三维的快照，像电影胶片那样一帧一帧连起来。她说，四维是数学家至今还没有完全弄懂的最低维度。四维里还会发生一些和直觉拧着来的事：我们熟悉的那些绳结，到了四维空间里总能被解开；反倒是球面这样普通的曲面，在四维里可以被打成解不开的结。数学家利文斯顿在1982年提出过一个关于打了结的曲面的问题，米勒和她的合作者把它解决了。",
-      "在米勒眼里，数学和画画有点像。她从小长年上美术课，还参加州里的评比。上大学时，她一度在数学和艺术之间摇摆，最后还是选了数学——那一直是她最喜欢的科目。她说，解一道数学题像解一个谜，画画也是：任何跟画幅比例较过劲的人都知道，把东西摆到该在的位置并不容易。她还提到，自己对视觉和绘画的兴趣，帮她发展出想象四维空间的方法。米勒现在是德克萨斯大学奥斯汀分校的助理教授，几年前获得过突破奖旗下的米尔扎哈尼新前沿奖。",
-      "我们大概永远没法真正“看见”四维空间。但就像那条扭过半圈、剪开也断不了的纸带，数学常常让人在最普通的东西上，撞见一件想不通、却又确实成立的事。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/",
-      "originalTitle": "What Does the Fourth Dimension Actually Look Like?",
-      "publishedAt": "Thu, 01 Oct 2026 13:20:29 +0000",
-      "retrievedAt": "2026-10-05T00:07:31.233Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-05T00:07:23.544Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-05/2026-10-05-what-does-the-fourth-dimension-actually-look-lik.webp",
-      "alt": "冷灰纸张背景上，细线网格构成的抽象曲面连续扭转变形。",
-      "caption": "形状在连续变形中，指向看不见的维度。",
-      "kind": "editorial"
     }
   }
 ]
