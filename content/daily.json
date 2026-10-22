@@ -1,5 +1,278 @@
 [
   {
+    "slug": "2026-10-22-explainer-what-is-an-equation",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "方程是什么，等号两边为什么必须相等",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-22",
+    "intro": "等号并非天生就有；它用两条等长的横线，把数学变成了一句简洁而平衡的话。",
+    "paragraphs": [
+      "你可能每天都在用等号，却未必想过它为什么长这样。方程是一句用数学写成的陈述：它把两样东西放在等号两边，表示这两边的值完全一样。比如 5×4=20。这个写法并不是从一开始就存在，等号本身也只是四百多年前才出现。",
+      "在符号出现之前，数学是‘写出来’的。英国数学家罗宾·威尔逊说，古人把加法、减法以及数字之间的关系用日常词语表达，这叫‘rhetorical algebra’（修辞代数）。他在 2025 年出版了《Sum Stories: Equations and Their Origins》（《总和的故事：方程及其起源》）。书里有一个例子：一艘船运了 200 条鱼到港口，其中 50 条是比目鱼，75 条是鲷鱼，27 条是鲨鱼，48 条是 anchovies（凤尾鱼）。换成今天的写法就是 50+75+27+48=200。",
+      "等号第一次公开亮相是在 1557 年，出现在威尔士数学家罗伯特·雷科德的书《The Whetstone of Witte》（《智慧的磨刀石》）里，书名直译是‘sharpening your wits’（磨砺你的才智）。雷科德不想每次都啰嗦地写‘is equal to’，于是画了两条一样长的横线。他的理由很朴素：‘no two things can be more equal’（没有两样东西能比这两条线更相等）。加减号出现得更早，大约在 14 世纪末到 15 世纪初；乘号‘×’则要等到 1631 年，由英国数学家威廉·奥特雷德引入。",
+      "新西兰坎特伯雷大学的数学史家克莱门西·蒙泰尔说，等号和加、减、乘、除不一样。它不要求你计算什么，而是在说明一种关系：一边的东西和另一边完全相同，哪怕它们看起来并不一样。在 4+1=5 里，左边的两个数字和右边的 5 长得不同，值却相等。威尔逊说，等号像一架天平，两边保持平衡。",
+      "正因为有这种平衡，我们才能求出未知数，这也是代数的起点。丹尼尔和爱丽丝从后院树上摘了 9 个苹果，丹尼尔有 5 个，爱丽丝有几个？写成 5 加一个未知数等于 9，两边同时减去 5，就知道答案是 4。数学家通常用字母表示未知数，最常见的是 x。历史上不同文化各有办法：古印度人用表示颜色的词的缩写来代表未知量，古代美索不达米亚人则用表示长度、宽度和面积的词。",
+      "在方程出现之前，天文学家靠一张张数字表追踪行星、月相和日食，做表要耗费大量计算。方程像一个更紧凑的替代品：把已知的日期和位置代进去，就能算出想知道的距离。今天工程师用它设计更安全的建筑，飞行员用它计算需要多少燃料，连做蛋糕都能用它把 2.75 杯面粉按比例放大或缩小。蒙泰尔说，方程看起来有点枯燥，但它揭示的是藏在数字背后的结构，那些原本只能一个一个写出来的规律。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/what-is-math-equation",
+      "originalTitle": "Explainer: What is an equation?",
+      "publishedAt": "Wed, 21 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-22T00:05:09.409Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:05:05.977Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "What Is an Equation?",
+      "intro": "Science News Explores explains how a simple equal sign made equations possible and why they still matter today.",
+      "paragraphs": [
+        "Here is a small symbol that made modern equations possible: the equal sign. An equation is a mathematical statement written linearly — in a straight line. It has two parts separated by an equal sign (=). What appears on either side of it has the exact same value. For example: 5 x 4 = 20.",
+        "Math goes back millennia. But the symbols used in equations are relatively recent. Centuries ago, math used to be written out in words. British mathematician Robin Wilson calls this rhetorical algebra. Someone might have written: 'Ship one brought two hundred fish to port. Fifty were flounder, seventy-five were bream, twenty-seven were sharks and forty-eight were anchovies.' Now it might be shortened to 50 flounder + 75 bream + 27 sharks + 48 anchovies = 200 fish.",
+        "The equal sign made its world debut in 1557. That was in the book *The Whetstone of Witte*. Its author was Welsh mathematician Robert Recorde. He introduced the equal sign to avoid having to tediously repeat the words 'is equal to.' He chose two horizontal lines of the same length because, he argued, no two things can be more equal. The plus (+) and minus (−) signs appeared around the late 1300s and early 1400s. The 'x' mark for multiplication was introduced in 1631 by William Oughtred in *Clavis Mathematicae*.",
+        "Math historian Clemency Montelle says the equal sign is quite interesting and is slightly different from an operator like plus, minus, divide or multiply. It is not saying calculate anything. It is indicating a relationship. That relationship is: one thing on one side is identical to the other side — even if they don’t look the same. In 4 + 1 = 5, the two digits on the left-hand side don’t look identical to the digit on the right. Still, they have the exact same value.",
+        "The equal sign signifies a balance — like on a scale — between the quantities on the left and right sides. Knowing that balance allows us to solve for something unknown. Suppose Daniel and Alice picked 9 apples from their backyard tree. Daniel has 5 apples. We can write: 5 + unknown quantity = 9. By subtracting 5 from each side, we find the unknown quantity must be 4. Mathematicians generally refer to such an unknown with a letter. Often it’s an 'x'.",
+        "Equations offer a compact substitute for long tables of numbers. Ancient astronomers used tables to track a planet’s motion. They also used tables to observe phases of the moon and predict eclipses. Each equation describes the relationship between features of interest — such as a planet’s motion over time. Engineers use equations to design safer buildings. Airline pilots use them to calculate fuel needed. They do this knowing distance and average speed. You could also use an equation to scale a cake recipe. For example, to make one two and a half times as big — or just a mini-cake one-quarter the normal size."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:11:39.554Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-22/2026-10-22-explainer-what-is-an-equation.webp",
+      "alt": "冷灰色纸纹背景上，一架保持水平的极简天平，两端托盘各放一块抽象几何块。",
+      "caption": "两条等长的横线，让两边保持平衡。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-22-180-8f0861",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "舞剧《长联·大观》昆明首演",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-22",
+    "intro": "抓取到的原文只剩标题和网站导航，正文为空，按发布门槛不能生成正式听稿。",
+    "paragraphs": [
+      "中新网网页显示标题为‘舞剧《长联·大观》昆明首演 180字“天下第一长联”跃然舞台’，但该页面未提供任何正文内容。",
+      "页面其余部分均为网站通用导航栏、频道链接（如‘文娱’‘体育’‘云南’等）、搜索功能入口、图片占位符及分享按钮，无演出时间、地点、主创人员、剧情简介、艺术特色或观众反响等可核查信息。",
+      "依据轻听发布规范，听稿中所有事实陈述必须有原文逐字支撑。当前仅存标题字符串，无法提取比分、日期、人物、引语、因果关系或比较级等可验证要素，不满足三段式独立听稿的最低事实密度要求。"
+    ],
+    "topics": [
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718803.shtml",
+      "originalTitle": "舞剧《长联·大观》昆明首演 180字“天下第一长联”跃然舞台",
+      "publishedAt": "Wed, 21 Oct 2026 23:21:37 +0800",
+      "retrievedAt": "2026-10-22T00:06:11.686Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:06:09.557Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-22-12d1f0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "他把加氢实验反着做，用电主动抽走氢气",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-22",
+    "intro": "哈尔滨工业大学（深圳）教授曾瑞把原本用于加氢的实验反过来做，变成用电主动抽走氢气，这项研究发表在《自然》上。",
+    "paragraphs": [
+      "2026年8月18日，曾瑞回到国内，加入哈尔滨工业大学（深圳）。仅仅22天后的9月9日，他以第一作者身份在《自然》发表论文。研究的核心，是给氢气装一台“电泵”：不是靠压力差把氢气挤过去，而是用电把氢气主动从混合气体里抽出来。",
+      "这项成果的起点，却是一个做不下去的“加氢”实验。2023年春节前后，曾瑞还在美国麻省理工学院做博士后。他接手一个由日本企业资助的项目，想用钯膜装置把空气中的二氧化碳变成乙烯。麻烦在于，钯膜表面的氢原子复合得太快，还没来得及和二氧化碳反应就跑掉了，转化效率一直上不去。一天夜里，导师Yogesh Surendranath发来信息：既然加氢不理想，不如反过来，研究怎么脱氢，用同样的装置把氢气主动抽走。曾瑞查文献后发现，类似思路基本没有人报道过。",
+      "传统脱氢，靠的是钯膜两边的压力差，把氢气“挤”过去。可这种方式受动力学限制，速度慢，费时间也费能量；氢气浓度很低时，想提纯、浓缩更难。而利用电化学的方式脱氢，在领域内几乎还是空白。曾瑞和团队自主设计了电化学钯膜提氢分离装置，使用钯合金制备的薄膜，对氢气具有选择透过性，施加低于0.3伏特的阳极电位，让氢原子更快透过膜。实验中最难的是装置密封性问题——如果有一点电解液泄漏，后续实验就会报废，需要从头再来。",
+      "结果很亮眼。在300℃下，氢气的分离速率提高约4倍；能把1%的氢气浓缩到100%。将该策略用于氨裂解、甲基环己烷脱氢等脱氢体系中，其在250℃下的脱氢转化率最高分别达到约91%和94%，并实现了超100小时的稳定氢移除。氨裂解会产生氢气和氮气，氢气会抑制催化剂，导致反应速率难以进一步提高；及时移除氢气，就能有效提升反应速率。甲基环己烷是一种公认的重要氢载体。",
+      "这项方法能做什么？在汽车、公交与船舶等交通领域，该方法提供了一种按需制氢的装置思路，在用氢端实现更高效、更灵活地获得氢气。另外，在半导体制造、精细化工等对氢气纯度有更高要求的领域，通过钯膜透氢的策略，有望提供超纯氢平台。这项研究从2025年6月开始投稿，经过将近14个月的时间被接收。过程中，审稿人要求补充更长时间的稳定性数据，研究团队随即进行了超过100小时的稳定性测试。曾瑞说，科研没有白走的路——最初只是他的支线任务，主线任务是开展日本企业资助的工程导向项目；但那段经历让他面对装置密封等工程问题时能快速应对。"
+    ],
+    "topics": [
+      "科研方法",
+      "材料科学",
+      "青年科学家"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573243.shtm",
+      "originalTitle": "他把实验反着做，回国不到一个月发表重磅论文",
+      "publishedAt": "2026-10-19 20:32",
+      "retrievedAt": "2026-10-22T00:07:40.078Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:07:36.931Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-22/2026-10-22-12d1f0.webp",
+      "alt": "冷灰纸纹背景上，一块多孔灰色方块向外逸出细小颗粒，旁有反向箭头。",
+      "caption": "把加氢的过程反过来，用电抽走氢气。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-22-ea-bioware",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "EA关闭BioWare，《质量效应》新作被砍",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-22",
+    "intro": "一家做了三十年角色扮演游戏的工作室，在母公司的一轮成本削减中关门了。",
+    "paragraphs": [
+      "做《质量效应》和《龙腾世纪》的那间工作室，没有了。美国艺电公司（EA）宣布将关闭旗下老牌游戏工作室BioWare，并裁员约400人，约占EA总员工数的3%，其中包括BioWare约50名员工。正处于早期开发阶段的《质量效应》新作已被取消。",
+      "EA首席运营官David Tinson和首席工作室官Cam Weber在致员工的内部信中表示，公司在过去几个月审视了各项业务，并决定削减部分项目。这家游戏巨头今年8月在沙特阿拉伯投资基金主导的550亿美元杠杆收购后转为私有制，背负了约180亿美元债务。此前，公司曾告知投资者计划通过削减研发成本等方式节省高达7亿美元开支。",
+      "BioWare于1995年创立，并在2007年被EA收购。该工作室曾推出多部热门角色扮演游戏，但近年来的《质量效应：仙女座》和《圣歌》等作品反响平平。其最新作品《龙腾世纪：影障守护者》销量未达预期，EA去年已对该工作室进行了大幅精简。",
+      "EA表示，未来将继续投资体育游戏、《Apex英雄》以及动作冒险项目，包括下一部《星球大战 绝地》游戏和一款以漫威钢铁侠为主角的新作。公司还将继续推进《战地》系列，而旗下Respawn与DICE工作室将合作开发新项目，这很可能是《星球大战：前线》系列的新作。此前，EA取消了一款代号为Project Lotus的《模拟人生》系列游戏，转而优先推进代号为Project Evergreen的项目。同时，滑板游戏《skate》将继续开发，但开发团队规模将会缩减。",
+      "BioWare就关闭一事发布声明。工作室表示，过去三十多年里，这里一直是讲故事的人、开发者和玩家的家园。一代代BioWare员工共同创造的成果值得庆祝，也值得铭记。正是因为玩家游玩这些游戏、为其中的抉择争论、爱上游戏角色，并让这些世界成为自己的世界，这些游戏才有了超越游戏本身的意义。工作室最后代表全体员工感谢玩家，称他们是BioWare故事中最有意义的部分。"
+    ],
+    "topics": [
+      "游戏产业",
+      "EA",
+      "BioWare",
+      "裁员与项目取消"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "机核 GCores",
+      "region": "mainland",
+      "url": "https://www.gcores.com/articles/221281",
+      "originalTitle": "EA关闭BioWare，《质量效应》新作被砍",
+      "publishedAt": "Thu, 22 Oct 2026 01:17:38 +0800",
+      "retrievedAt": "2026-10-22T00:08:08.912Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:08:06.906Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-22-were-two-ancient-chinese-astronomers-beheaded-fo",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "两位中国古代天文学家因漏报日食被砍头？这个故事可能是传说",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-22",
+    "intro": "一个流传四千多年的故事说，失职的天文学家掉了脑袋。它也许是神话，却照出了天文与政治之间真实的关系。",
+    "paragraphs": [
+      "这是一个流传了很久的故事。公元前2134年10月22日，两位皇家天文学家——现代文献中常称作‘羲和’（Hsi and Ho）——据称因疏忽职守而醉酒游荡，既未预报日食，也未主持相应仪式。统治者震怒。一段后世转述写道：‘所以愚蠢地偏离了天象职责，使自己触犯前代君王所定死罪’；法令称：‘预报提前，处死不赦；预报延后，亦处死不赦。’于是二人被处决。",
+      "这个故事最早见于《尚书》等早期中国典籍，后辗转传入期刊、报纸、学术论文、书籍乃至社交媒体。1970年《纽约时报》一篇报道称其为‘现存最早的日全食书面记录’。但理海大学荣休汉学家戴维·潘克尼尔（David Pankenier）直言：‘这显然是神话。’他指出，没有任何证据表明故事中提到的两人真实存在。",
+      "可它为何历久不衰？因为它折射出宫廷天文学家的真实处境。印第安纳大学伯明顿分校宗教研究学者亚历克瑟斯·麦克劳德（Alexus McLeod）指出：宫廷天文学家的职责之一，是理解社会世界与‘天’（tian，即‘天命’或‘上天意志’）之间的关联，以助君主使二者协调。在古代中国，天北极被视为皇帝象征；宇宙与人间被视作彼此映照，这种观念甚至影响城市规划——都城常按星图布局。麦克劳德说，正因如此，中国天文观测记录早在公元前四世纪至前三世纪就已‘相当精确’，古人‘是出色的观测天文学家’。",
+      "但问题在于：公元前2134年时，中国天文学家尚不具备预测日食的能力。直到汉朝（公元前206年—公元220年），专家才开始‘有一定成功’地预判日食。例如公元170年代一则记载显示，一位皇家天文学家通过分析过往日食记录，正确预报了12月8日的日食，但预报地点偏差较大。剑桥大学荣休科学史家克里斯托弗·卡伦（Christopher Cullen）进一步指出：早期记载（可溯至公元前一千纪晚期）对事件性质语焉不详；他认为原故事更可能指向‘阴阳历管理失当’，而非日食——古人当时等待的新月并未如期出现。",
+      "不过麦克劳德认为，该传说未必全然脱离历史。他说：‘我觉得它不像听起来那么荒谬，因为宫廷天文学家的处境与政治紧密捆绑。’日食突至确属重大事件：潘克尼尔描述道，人们‘喧哗鼓噪、敲击器物’，竭尽所能驱赶‘遮蔽太阳之物’。他将此故事视为‘一种神话式范例’，用以强调天官责任之重，它可能经由口耳相传延续数代。",
+      "至于它为何在英语世界广泛传播，学者只能推测。麦克劳德指出，除跨世纪‘以讹传讹’外，还掺杂‘异域想象’——即预设‘中国之事必与西方迥异’。但他同时强调，类似叙事亦见于现代中国社会：宫廷天文学家职位高度敏感——日常或平淡无奇，一旦遭遇超新星、彗星等异常天象，解读方式极易迅速政治化。因此，‘或许在某个时刻、出于某种政治原因，真有皇家天文学家因未能满足君主期待而丧命。’"
+    ],
+    "topics": [
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Smithsonian History",
+      "region": "international",
+      "url": "https://www.smithsonianmag.com/history/were-two-chinese-astronomers-were-beheaded-for-failing-to-predict-an-eclipse-2134-bce-the-story-may-be-a-myth-but-it-underscores-the-real-risks-of-interpreting-celestial-events-180989715/",
+      "originalTitle": "Were Two Ancient Chinese Astronomers Beheaded for Failing to Predict an Eclipse in 2134 B.C.E.? The Story May Be a Myth, but It Underscores the Real Risks of Interpreting Celestial Events",
+      "publishedAt": "Wed, 21 Oct 2026 11:45:00 +0000",
+      "retrievedAt": "2026-10-22T00:09:26.189Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:09:21.055Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 42,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Two Astronomers, One Eclipse, and a Myth With a Warning",
+      "intro": "An old Chinese story says two royal astronomers were executed for missing an eclipse. Historians say it’s likely mythical. But it highlights real political risks of interpreting celestial events.",
+      "paragraphs": [
+        "Ancient people linked eclipses to military defeats and the deaths of kings. One Chinese tale names October 22, 2134 B.C.E. as the date. Two royal astronomers, often called Hsi and Ho, are said to have neglected their duties. They reportedly went drinking instead of watching the sky. They failed to predict an eclipse or perform proper rituals — or maybe both. The ruler was not happy. One retelling says they 'so stupidly went astray in the matter of the heavenly appearances'. It adds that old statutes demanded death for such failure. An execution followed.",
+        "But is the story true? David Pankenier, an emeritus Sinologist at Lehigh University, says it’s clearly mythical. He adds that no evidence supports the idea that the two men even existed. Still, the tale spread widely. It appears in early Chinese texts, periodicals, newspapers, journal articles, books, and social media. A 1970 New York Times article called it 'the earliest written record of a total solar eclipse to survive through the ages'.",
+        "Why did the story stick? Royal astronomers had serious responsibilities. Alexus McLeod, a religious studies scholar at Indiana University Bloomington, says part of their role was to understand the connection between society and heaven — or tian. This helped the ruler align the two. Ancient Chinese people saw the cosmos and human society as mirrors. They viewed the celestial north pole as a symbol of the emperor. Cities were sometimes mapped to resemble constellations. McLeod says Chinese astronomical records were 'pretty exact' as far back as the third or fourth century B.C.E. He adds that ancient Chinese were 'excellent observational astronomers'.",
+        "Still, historians doubt the eclipse story’s reliability. In 2134 B.C.E., Chinese astronomers did not know how to predict eclipses. Such predictions only achieved some success under the Han dynasty. That dynasty lasted from 206 B.C.E. to 220 C.E. One account from the 170s C.E. says a royal astronomer correctly predicted a December 8 solar eclipse. He used earlier eclipse observations. But his predicted location was rather off. Some scholars dispute that the legend is about an eclipse at all. Christopher Cullen, an emeritus historian of science at the University of Cambridge, says early records are ambiguous. He thinks the original story may refer to poor management of the lunisolar calendar. Perhaps the astronomers expected a new moon that did not appear.",
+        "McLeod says the myth isn’t necessarily ahistorical. Court astronomers were heavily tied to politics. It’s not out of the question that they could be harshly punished for neglecting duty during an eclipse. When eclipses arrived unexpectedly, people made noise. They banged on things. They tried to make 'whatever is blocking the sun disappear'. Pankenier sees the story as a 'sort of mythic example of the importance of their responsibility'. He says it may have been passed down across many generations. McLeod notes that court astronomy could be routine. But comets or supernovae could quickly turn political.",
+        "Why has the tale traveled so far? McLeod says stories crossing centuries can grow through a game of telephone. He also points to 'a layer of exoticism'. That is the idea that things in China are 'wild and different' from the West. He notes similar stories appear in modern Chinese society. So while the beheading story may be myth, its warning is real. Court astronomers served rulers directly. Failure could carry political risk."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-22T00:13:18.581Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 52,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-10-21-sliding-down-surfaces-can-make-rainwater-corrosi",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "雨滴滑过表面带电，可能腐蚀金属",
@@ -3090,290 +3363,6 @@
         "evidenceCount": 5,
         "correctionCount": 8,
         "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-07-100-3-47",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "儿基会警告：近100个国家超过3.47亿儿童面临极端天气威胁",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-07",
-    "intro": "联合国儿童基金会表示，受2026至2027年厄尔尼诺现象影响，2026年10月至12月期间，近100个国家和地区的超过3.47亿儿童将经历异常湿润或干旱状况，加剧洪水、干旱等极端天气风险。",
-    "paragraphs": [
-      "你也许听过“厄尔尼诺”这个词，但它到底会带来什么？联合国儿童基金会指出：2026年10月至12月，近100个国家和地区的超过3.47亿儿童将经历异常湿润或异常干旱状况，这将增加极端洪水和严重干旱的风险。",
-      "厄尔尼诺是一种反复出现的气候模式，会导致太平洋部分海域升温，并扰乱全球天气系统。儿基会表示，2026至2027年厄尔尼诺现象预计将成为有记录以来最强的厄尔尼诺事件之一。异常湿润和干旱状况预计将增加极端天气事件的发生概率，包括严重洪水和严重干旱，威胁近100个国家和地区儿童的生命、健康和教育。儿基会执行主任拉塞尔表示，对儿童而言，厄尔尼诺远不只是一种天气现象，它可能意味着更多流离失所、营养不良、水资源短缺和疾病暴发；儿童还面临学校停课的风险，家庭也可能承受额外的经济困难。",
-      "最可能经历上述状况的儿童人数最多的地区是亚洲及太平洋地区（1.9亿），其次是东部和南部非洲以及拉丁美洲和加勒比地区（各4100万）。哥伦比亚、斐济、巴布亚新几内亚和菲律宾的儿童预计将经历与厄尔尼诺相关的干旱状况，可能导致农业干旱和水资源短缺，进而加剧流离失所并加重急性营养不良。与此同时，大非洲之角地区——尤其是索马里——的儿童将面临比正常情况更湿润的状况，这种状况可能引发河流洪水和山洪爆发，传播水媒疾病，并扰乱学校教育。",
-      "对于生活在阿富汗或乍得等受危机和冲突影响国家的儿童而言，厄尔尼诺可能直接威胁其生存。在冲突、流离失所和基本服务获取受限已使儿童极度脆弱的情况下，饥饿和营养不良可能进一步加剧。随着极端天气事件日益频繁和广泛，儿童可能面临家庭分离、暴力、剥削和童婚等风险加剧的局面。例如，2022年非洲之角干旱期间，埃塞俄比亚受灾地区的童婚率平均上升了119%。在全球范围内，11亿儿童——接近世界儿童总数的一半——已经面临至少三种相互叠加的气候相关危害，如干旱、极端高温或洪水，而厄尔尼诺预计将使这些冲击更加严重。",
-      "2016年至2023年间，与天气相关的灾害已导致每天超过2万名儿童流离失所。2025年，与气候相关的事件使全球约1.71亿学生的学业中断。随着厄尔尼诺使干旱和洪水加剧，学校停课、出勤受到干扰以及儿童辍学风险可能进一步上升，这一数字预计还将继续攀升。",
-      "由于预报可提供数月的预警时间，儿基会敦促各国政府、捐助方和合作伙伴在需求升级之前尽早行动，在影响达到高峰之前进行干预；加强气候韧性系统；保护儿童的基本服务，并确保人道主义援助能够进入受影响社区。研究表明，在减少和预防灾害风险方面每投入1美元，就可节省高达15美元的恢复成本，但目前不到1%的人道主义资金用于预期性行动。"
-    ],
-    "topics": [
-      "气候与能源",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142945",
-      "originalTitle": "儿基会：近100个国家超过3.47亿儿童面临极端天气威胁",
-      "publishedAt": "Tue, 06 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-07T00:49:54.310Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-07T00:49:52.759Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-07-2026-4825b3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "2026年诺贝尔生理学或医学奖授予三位研究光遗传学的科学家",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-07",
-    "intro": "一束蓝光就能让神经细胞发出信号——三位科学家用藻类里的蛋白质做到了这件事。",
-    "paragraphs": [
-      "把一种来自藻类的蛋白质放进神经细胞，再照一束蓝光，细胞就会发出电信号。2026年的诺贝尔生理学或医学奖，颁给了让这件事成为可能的三位科学家。",
-      "三位获奖者分别是：美国斯坦福-霍华德·休斯医学研究所的Karl Deisseroth、德国柏林洪堡大学的Peter Hegemann和维尔茨堡大学的Georg Nagel。诺贝尔奖表彰他们在光门控离子通道和光遗传学方面的发现。",
-      "大脑如何掌管情感、行为和身体功能，长期以来一直是个谜。20世纪，研究人员开始探究大脑的哪些区域影响哪些功能，但所用的方法意味着他们无法证明因果关系。",
-      "光遗传学——一种能揭示神经细胞如何在活体大脑中塑造记忆、情感和行为的方法——改变了这一状况。",
-      "Peter Hegemann和Georg Nagel发现了通道视紫红质——一种具有独特性质的藻类蛋白质，存在于细胞表面。当它被蓝光照射时，蛋白质上会打开一个通道，带电离子随即流入细胞，产生电脉冲。他们发现，无论将这种蛋白质放入哪种细胞，那些细胞都会变得对光敏感。",
-      "Karl Deisseroth将通道视紫红质的基因导入大鼠的神经细胞中。通过用蓝光照射这些细胞，他能够触发神经信号。",
-      "从藻类到活体大脑，三位科学家把一束光变成了研究大脑的工具。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Solidot 奇客",
-      "region": "mainland",
-      "url": "https://www.solidot.org/story?sid=85537",
-      "originalTitle": "2026 年诺贝尔生理学或医学奖授予了三位研究光遗传学的科学家",
-      "publishedAt": "Mon, 05 Oct 2026 21:37:48 +0800",
-      "retrievedAt": "2026-10-07T00:54:03.463Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "discovery",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-07T00:54:01.801Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-07/2026-10-07-2026.webp",
-      "alt": "深色水体中一束蓝光穿过悬浮的微小粒子",
-      "caption": "一束光穿过冰层，指向宇宙深处",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-06-bif4hx",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "三位科学家把藻类“光控开关”装进神经细胞，获2026年诺贝尔生理学或医学奖",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-06",
-    "intro": "2026年诺贝尔生理学或医学奖颁给三位科学家，他们把来自藻类的“光控开关”装进了神经细胞。",
-    "paragraphs": [
-      "人脑不过1.3千克，却装着记忆、梦境、创造力和喜怒哀乐，也控制着呼吸、心跳和睡眠。一个世纪以来，科学家一直试图绘制大脑的“地图”，但传统方法往往只能说明某个脑区与某种功能有关，很难进一步弄清究竟是哪类神经细胞在发挥作用，更难证明它们是否直接导致了某种行为。2026年诺贝尔生理学或医学奖，颁给了三位在光控离子通道和光遗传学方面作出发现的科学家：美国科学家卡尔·戴塞洛特（Karl Deisseroth）、德国科学家彼得·赫格曼（Peter Hegemann）和德国科学家格奥尔格·纳格尔（Georg Nagel）。",
-      "故事从一种会追光的单细胞藻类——莱茵衣藻讲起。20世纪90年代初，赫格曼对一个看似简单的问题产生了兴趣：莱茵衣藻为什么能够朝着光线游动？这种单细胞藻类表面的“眼点”能够感知光线，那是细胞表面一个微小的橙色斑点，其中含有一种能够捕捉光线的分子，即视黄醛。实验显示，光打到眼点后仅约0.5毫秒，藻类细胞就会产生电信号；相比之下，人眼从感受到光线到产生相应反应，通常需要至少10毫秒。",
-      "赫格曼猜测，藻类体内或许存在一种特殊蛋白质，能够同时干两件事：既能感受光线，又充当离子通道，把光信号转化为电信号。这个想法起初并不好验证，因为相关蛋白质离开藻类细胞后很不稳定。直到莱茵衣藻基因组研究取得进展，赫格曼团队才发现了两个与光感受蛋白相关的基因。随后，赫格曼找到纳格尔合作。纳格尔将这两个基因分别注入蛙卵细胞，使蛙卵细胞大量产生相应蛋白质。实验结果终于揭示，这些蛋白质本身就是能够被光控制的离子通道。",
-      "其中一种蛋白质后来被称为“通道视紫红质-2”。它的特别之处在于，只要受到蓝光照射，通道就会迅速打开，带正电的离子随即流入细胞，引发电信号。更让人兴奋的是，它并不只在藻类细胞里管用。研究人员把编码通道视紫红质-2的基因导入原本不会感光的人类胚胎肾细胞和仓鼠肾细胞，结果，这些细胞也获得了对光的响应能力。2003年，赫格曼和纳格尔发表研究成果，提出可以利用通道视紫红质-2，通过光线在细胞中产生电信号。",
-      "这项发现恰好为科学家多年前的一个设想提供了现实工具。1962年诺贝尔生理学或医学奖得主弗朗西斯·克里克曾设想，如果能够让单个神经细胞对光产生反应，就有可能利用光控制它们的活动。关键问题随之而来：这种来自藻类的“光控开关”，能不能装到神经细胞上？答案由戴塞洛特给出。上世纪90年代，戴塞洛特在学医期间，曾接触过抑郁症、自闭症和精神分裂症患者。他逐渐意识到，想真正理解这些疾病，只观察大脑不同区域的活动远远不够。科学家需要知道，某一类神经细胞究竟如何影响具体行为。",
-      "戴塞洛特将编码通道视紫红质-2的基因导入大鼠神经细胞。结果，神经细胞能够正常产生通道视紫红质-2。蓝光一照，它们立即产生神经信号，并把信号传递出去。2005年，戴塞洛特团队发表了这一突破性成果。两年后，他进一步让这种由光控制的“开关”在活体小鼠的大脑中发挥作用。他们把通道视紫红质-2导入小鼠运动皮层中的特定神经细胞，再通过光纤向大脑传递蓝光，就能控制小鼠的胡须运动。",
-      "这种利用光来控制神经信号的方法，如今被称为“光遗传学”。光遗传学让科学家能够在活体大脑中，以毫秒级速度精准控制特定神经细胞。目前，光遗传学已用于研究抑郁症、焦虑症、精神分裂症、阿尔茨海默病和帕金森病等疾病的神经机制。在临床研究中，科学家还尝试将类似通道视紫红质的蛋白质导入视网膜，帮助视网膜色素变性患者恢复部分视力。一名患者借助特殊眼镜，已经能辨认并抓取物体。科学家还希望用光信号替代人工耳蜗中的电信号，更精准地刺激听觉神经。光遗传学从根本上改变了人们研究大脑的方式。如今，科学家能够借助这项技术精准控制特定神经细胞，进一步探索大脑的工作机制。"
-    ],
-    "topics": [
-      "脑与认知",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-10/05/content_591923.html",
-      "originalTitle": "诺奖解读丨神经元有了“光控开关”？三位科学家因此获诺奖！",
-      "publishedAt": "2026-10-05",
-      "retrievedAt": "2026-10-06T01:51:25.599Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T01:51:20.715Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Light Switch for Brain Cells: The 2026 Nobel Prize",
-      "intro": "Three scientists won the 2026 Nobel Prize in Physiology or Medicine for discoveries in light-controlled ion channels and optogenetics.",
-      "paragraphs": [
-        "Imagine turning one tiny brain cell on and off using only a beam of light. That sounds like science fiction, but it is now real. Three scientists won the 2026 Nobel Prize in Physiology or Medicine. They are Karl Deisseroth from the United States, Peter Hegemann from Germany, and Georg Nagel from Germany. Their discovery lets scientists give neurons a 'light-controlled switch'. The human brain weighs about 1.3 kilograms. It holds memory, dreams, creativity, emotions, and controls breathing, heartbeat, and sleep. For a century, scientists tried to map the brain. Older methods could link a brain region to a function. But they could not identify which specific nerve cells were involved. Nor could they prove those cells directly caused behavior.",
-        "The story starts with a tiny green alga called Chlamydomonas reinhardtii. In the early 1990s, Hegemann asked a simple question: Why does this alga swim toward light? The alga has a small orange spot, called an eyespot, that senses light. Inside it sits a molecule that catches light, called retinal. When light hits the eyespot, the cell makes an electrical signal in about 0.5 milliseconds. Human vision takes at least 10 milliseconds to produce a response. So Hegemann guessed the alga must have a special protein. It might both sense light and act as an ion channel. That idea was hard to test because the protein broke down outside the alga. Later, genome research found two related genes. Hegemann then collaborated with Nagel. Nagel injected those genes into frog egg cells. The frog cells produced the proteins. Experiments showed these proteins were themselves light-gated ion channels.",
-        "One of those proteins was later named channelrhodopsin-2. When blue light hits it, the channel opens quickly. Positive ions flow into the cell and trigger an electrical signal. It worked not just in algae — researchers put the gene into human embryonic kidney cells and hamster kidney cells. Those cells also became light-sensitive. In 2003, Hegemann and Nagel published their findings. They proposed using channelrhodopsin-2 to generate electrical signals in cells with light. In 1962, Nobel laureate Francis Crick had imagined controlling single nerve cells with light. Now that tool existed. The key question remained: Could this algal 'light switch' work in real nerve cells?",
-        "Deisseroth answered that question. In the 1990s, while studying medicine, he met patients with depression, autism, and schizophrenia. He realized observing brain regions was not enough. Scientists needed to know how specific nerve cells affect behavior. He inserted the channelrhodopsin-2 gene into rat nerve cells. The cells made the protein. Blue light triggered fast neural signals. In 2005, his team published this breakthrough. Two years later, they extended it to living mice. They inserted the gene into specific nerve cells in the motor cortex. They used a thin optical fiber to deliver blue light into the brain. The light triggered neural signals and caused whisker movement.",
-        "This method is now called optogenetics. It lets scientists control specific nerve cells in living brains with millisecond precision. Scientists use it to study depression, anxiety, schizophrenia, Alzheimer’s disease, and Parkinson’s disease. In clinical research, scientists have tried inserting similar proteins into the retina. This may help some patients with retinitis pigmentosa regain partial vision. One patient, wearing special glasses, could identify and grasp objects. Scientists also hope to use light instead of electricity in cochlear implants. That could stimulate the auditory nerve more precisely. Optogenetics has fundamentally changed how we study the brain. Scientists can now control selected nerve cells and explore how the brain works."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T02:00:16.780Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-06/2026-10-06-bif4hx.webp",
-      "alt": "抽象神经细胞与光敏开关符号，冷光斜射",
-      "caption": "光控开关与神经细胞的抽象示意",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-06-how-pond-algae-led-to-a-nobel-prize-and-a-new-wa",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "池塘藻类如何促成一项诺贝尔奖，并开启用光研究大脑的新方法",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-06",
-    "intro": "一种没有眼睛、只有一个细胞的池塘藻类，怎样帮助科学家找到了用光开关脑细胞的办法。",
-    "paragraphs": [
-      "池塘里生活着一种只有一个细胞的小藻类，叫衣藻（Chlamydomonas）。它没有眼睛，却总能朝着有光的方向游。科学家花了很多年，弄清楚了它究竟是怎么感觉到光的。这项研究，连同它后来引出的技术，获得了2026年诺贝尔生理学或医学奖。",
-      "感光并不是长着眼睛的动物才有的本领。从单细胞生物到我们熟悉的动物，很多生物都靠光来了解周围的环境，靠它朝着光或者背开光，靠它获取能量，也靠它应对一天里的昼夜变化。彼得·黑格曼和格奥尔格·纳格尔发现，衣藻的感光本领集中在一个叫通道视紫红质的蛋白质上。这个蛋白质嵌在细胞膜里，一部分朝外，一部分朝内，里面还带着一个能吸收光的小分子——视黄醛（retinaldehyde）。光一照到它，视黄醛改变形状，通道视紫红质跟着改变形状，细胞膜上就打开了一条细小的通道。带正电的粒子，包括钠离子，于是从外面的水里流进细胞。正是这股带电粒子的流动，给衣藻发出了信号，帮它游动。",
-      "有意思的是，神经细胞工作的方式跟它很像。神经细胞也是靠带电粒子（即离子）穿过细胞膜来控制自己的活动：带正电的粒子流进去，细胞就更容易活跃起来。于是研究者想到，如果把通道视紫红质放进神经细胞，是不是只要照一束光，就能把细胞‘打开’？黑格曼、纳格尔，以及加州斯坦福大学的精神科医生、生物工程师卡尔·戴塞尔罗斯，把这个设想变成了现实。用光来控制神经细胞，就是光遗传学（optogenetics）。",
-      "具体怎么做到呢？科学家先把通道视紫红质的基因送进想要研究的神经细胞，通常由经过改造、不会致病的病毒来携带。细胞于是自己造出这种蛋白质，从此对光有反应。在小鼠这类动物身上，研究人员把一根很细的光纤伸进大脑，光照到那些细胞，通道打开，细胞就活跃起来；旁边没有这种蛋白质的神经细胞，完全不受影响。光可以只对准很小的一块脑区，也可以极快地打开和关掉。想知道某群神经细胞是不是跟记忆、睡眠、感觉或者运动有关，用光把它们打开，看看会发生什么就行。",
-      "2012年，麻省理工学院的一个研究团队做过一个实验：他们在特定笼子里给小鼠一次轻微电击，同时用光遗传学标记出大脑记忆中心（海马体）中在惊吓时活跃的神经细胞。几天后，在另一个笼子里，他们用光激活那些被标记的细胞。小鼠立刻僵住不动，仿佛重新体验了电击带来的恐惧。而未受过电击的小鼠在同样光照下并不僵住，说明光特异性地重新激活了一段记忆。戴塞尔罗斯是那项研究的作者之一。",
-      "光遗传学也正在走向治疗。在视网膜退化的早期临床试验中，研究人员把光敏感蛋白导入视网膜中尚存的神经细胞——原本负责感光的视杆细胞和视锥细胞已丧失功能。这样，残留细胞能对光产生反应，从而恢复部分视力。研究者也在探索光遗传学未来是否可用于治疗帕金森病和癫痫。回头看，这一切都始于一个看似冷僻的问题：衣藻为什么朝着光游？它不解决紧迫的人类健康难题，也不通向财富。但知识会把人带到哪里，谁也没法预测。"
-    ],
-    "topics": [
-      "全球时事",
-      "科学与社会"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/how-pond-algae-led-to-a-nobel-prize-and-a-new-way-to-study-the-brain-293579",
-      "originalTitle": "How pond algae led to a Nobel prize and a new way to study the brain",
-      "publishedAt": "2026-10-05T14:59:27Z",
-      "retrievedAt": "2026-10-06T01:52:39.472Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T01:52:17.039Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Pond Algae Led to a Nobel Prize",
-      "intro": "This year's Nobel Prize in physiology or medicine went to three scientists who learned to control brain cells with light.",
-      "paragraphs": [
-        "It started with a tiny pond alga called Chlamydomonas. Scientists wanted to know how this single-celled organism senses light. Light-sensing is not unique to animals with eyes. Organisms throughout the living world use light to detect their surroundings. They also use light to respond to changes in their environment. Even single-cell organisms have proteins that respond to light. These proteins help them move toward or away from light. They also help generate energy. And they help respond to the demands of a 24-hour day.",
-        "Peter Hegemann and Georg Nagel discovered that Chlamydomonas has a beautifully ingenious mechanism of light detection. It relies on a single protein called channelrhodopsin. Channelrhodopsin is built into the outer membrane of the algal cell. Part of the protein faces the water outside the cell. Part faces the inside. The protein contains a small molecule called retinaldehyde. Retinaldehyde is able to absorb light. When light hits the retinaldehyde, it changes shape. This makes the channelrhodopsin protein change shape too. That change opens a tiny passage through the cell membrane. Positively charged particles flow from the water outside into the cell. Sodium is one of those particles. This movement sends a signal inside the alga. The signal helps it swim.",
-        "Why did this win a Nobel Prize in physiology or medicine? Nerve cells use the movement of charged particles across their membranes to control activity. These particles are called ions. When positively charged particles flow into a nerve cell, it can become more active. The researchers realised they could put channelrhodopsin into nerve cells. Then they could switch those cells on by shining light on them. Hegemann, Nagel and Karl Deisseroth did exactly that. Deisseroth is a psychiatrist and bioengineer at Stanford University in California.",
-        "The ability to control nerve cells with light is called optogenetics. It has become a powerful research tool. Scientists can switch specific groups of nerve cells on and off. Then they can see what happens. First, scientists deliver the gene for channelrhodopsin to the nerve cells they want to study. The gene is usually carried by a virus. The virus has been altered so it cannot cause disease. The cells then make the channelrhodopsin protein. That makes them respond to light. In mice, scientists shine light into the brain through a thin optical fibre. When the light reaches the cells, channelrhodopsin opens. The cells become active. Nearby nerve cells without the protein are unaffected. Light can be aimed at a very small part of the brain. It can be switched on and off extremely quickly. This makes optogenetics a powerful way to investigate how the brain works.",
-        "For example, scientists can test whether a group of nerve cells is involved in memory, sleep, sensation or movement. They switch those cells on with light and watch what happens. In one experiment in 2012, a team at the Massachusetts Institute of Technology gave mice a mild electric shock in a particular cage. They used optogenetics to tag nerve cells in the brain’s memory centre. Those cells were active during the fear-conditioning experiment. Days later, in a different cage, they switched those cells on with light. The mice froze in fear, as if they remembered the shock. Mice that were not shocked did not freeze. This showed that the light was reactivating a specific memory. Deisseroth was one of the study’s authors. Optogenetics has transformed scientists’ ability to investigate how the brain and nervous system work.",
-        "Optogenetics is already in early-stage clinical trials for people with retinal degeneration. Researchers introduce light-sensitive proteins into nerve cells that remain in the retina. These cells stay after rods and cones — the normal light-detecting cells — have been lost. This can make surviving cells respond to light. It may restore some vision. Researchers are also investigating whether optogenetics could treat Parkinson’s and epilepsy. This year’s Nobel Prize celebrates work that started with a question: how do Chlamydomonas swim toward light? That question has no obvious practical importance. It does not address an urgent need in human health. It is not a clear route to riches. The success of optogenetics shows why it matters to ask questions simply to understand the world. It is impossible to predict where knowledge will take us."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T01:59:32.055Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-06/2026-10-06-how-pond-algae-led-to-a-nobel-prize-and-a-new-wa.webp",
-      "alt": "抽象单细胞藻类与穿过水面的冷光",
-      "caption": "池塘藻类与光，抽象示意",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-06-zdmi0i",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "极端高温使怀孕成为气候危机中“新的断层线”",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-06",
-    "intro": "随着极端高温加剧，怀孕和分娩已成为“全球气候危机中新的断层线”。这是《联合国气候变化框架公约》负责人西蒙·斯蒂尔发出的警告，他呼吁将孕产妇和新生儿健康纳入各国的气候计划。",
-    "paragraphs": [
-      "《联合国气候变化框架公约》负责人西蒙·斯蒂尔在斐济出席由韦尔科姆慈善基金会组织的活动时表示，对气候行动的真正考验“远比”温度、目标和资金要简单得多：“我们能否保护最脆弱的生命”。他在气变大会前的部长级会议上表示，“气温上升意味着孕期风险增加”，并指出怀孕和分娩已成为“全球气候危机中新的断层线”。",
-      "斯蒂尔援引了周一发布的新数据。这些数据来自韦尔科姆基金会委托开展的一项调查，调查对象为五大洲五个国家的孕产妇健康专业人员。约73%的受访者表示，过去五年中与高温相关的病例或并发症有所增加，而81%的受访者表示担心或非常担心，如果不采取更多行动，极端高温将使孕产妇、胎儿和新生儿的健康面临日益加剧的风险。几乎所有受访者都曾照料过一名孕妇或婴儿，他们认为这些人的健康受到了极端高温的影响。",
-      "斯蒂尔指出，孕期遭遇极端高温与早产、死产、低出生体重及孕产妇并发症之间的关联日益密切。他说：“这些数字背后是真实的人间故事：一位准妈妈因危险的高温而延误了前往诊所的行程；一位助产士在不安全的温度下坚持工作；一名新生儿需要专科护理”。",
-      "他强调，虽然没有人能幸免于难，但风险和影响并非平均分布。那些在户外工作、居住在无规范保障的住房中、需长途跋涉前往诊所，或依赖缺乏水、电及制冷设施的场所的人们，“仅靠建议是无法得到保护的”。他说：“当无处可去避暑时，‘保持凉爽’根本就不是一个选项。” “安全分娩本就常常受地理位置、收入和医疗可及性的制约。如果不采取行动，极端高温将加剧这种不公。”",
-      "斯蒂尔指出，计划中未提及的内容往往得不到资金支持、无法衡量，也得不到保护，“未被计入的危害极易被忽视”。为此，他提出了三项优先事项：将孕产妇和新生儿护理纳入适应、高温及健康规划；通过指导、培训、高温预警和更安全的设施，将证据转化为保护措施；完善数据，以显示风险正在加剧的领域以及哪些干预措施有效。他呼吁落实在巴西贝伦召开的第30届气变大会上商定的将适应资金增加三倍的承诺，并呼吁各国与整个金融体系合作，使每年为发展中国家提供1.3万亿美元的资金成为现实。他赞扬了土耳其作为下届大会的主席国以及澳大利亚作为谈判主席国，在巴西去年工作的基础上，将健康列为关键优先事项。",
-      "他说：“绝不能将气候变化视为孕产安全状况恶化的理由。” “新生儿的健康起步绝不能取决于家庭能否逃离酷热。”"
-    ],
-    "topics": [
-      "气候与能源",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142941",
-      "originalTitle": "极端高温使怀孕成为气候危机中“新的断层线”",
-      "publishedAt": "Mon, 05 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-06T01:55:25.450Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-06T01:55:23.755Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
       }
     }
   }
