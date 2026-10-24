@@ -1,5 +1,169 @@
 [
   {
+    "slug": "2026-10-24-your-skin-s-chemistry-may-affect-which-mosquitoe",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "蚊子为什么偏爱某些人，线索可能在皮肤气味和细菌里",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-24",
+    "intro": "一项新研究发现，不同种类的蚊子偏爱不同的人，原因或许藏在皮肤气味和皮肤上的细菌里。",
+    "paragraphs": [
+      "夏天里常能看到这样的场面：同一群人待在一起，有人被蚊子咬得满腿是包，有人却几乎没事。一项新研究发现，这或许和每个人皮肤上的化学物质以及住在皮肤上的微生物有关。而且，不同种类的蚊子，口味还不一样。",
+      "蚊子寻找吸血对象，靠的是视觉、气味线索，还有人体的热量。可一个人的气味里，能包含超过一千种化学物质，想弄清哪一种最影响蚊子的选择并不容易。为了找出答案，位于迈阿密的佛罗里达国际大学的研究者马修·德詹纳罗和同事招募了一百一十九位志愿者，让三种蚊子分别‘闻’他们的气味。",
+      "实验用的装置能让笼子里的蚊子闻到人的气味，却咬不到人。埃及伊蚊（_Aedes aegypti_）和白纹伊蚊（_Aedes albopictus_）在白天进食，志愿者可以白天到实验室，把手臂伸进装置。致倦库蚊（_Culex quinquefasciatus_）只在夜里出来觅食，研究者就让志愿者先戴上尼龙袖套几个小时，收集他们的气味，到了晚上再把袖套放进装置。研究者数一数有多少蚊子凑过来，以此判断它们对每个人气味的兴趣有多大。研究结果于8月21日发表在期刊《iScience》上。",
+      "三种蚊子挑中的人并不相同。有的人能同时吸引不止一种蚊子，但没有哪一位志愿者是三种蚊子共同的最爱。埃及伊蚊和致倦库蚊更喜欢皮肤气味较淡的人；白纹伊蚊则被13种闻起来像植物的化学物质吸引。这种差别说明，每种蚊子可能各自演化出了找吸血对象的办法。",
+      "不过，人体气味非常复杂。研究蚊子气味的玛丽亚·埃莱娜·德奥巴尔迪亚说，要把其中的化学物质一种一种检测出来很难，所以可能还有别的有吸引力的化合物没被这项研究找到。另一位研究者艾丽西亚·舒韦林则提醒，每种蚊子吸食哪些动物、又在什么时间觅食，都可能影响它们的选择。",
+      "研究团队还把目光转向皮肤上的细菌。我们气味里的很多化学物质，正是微生物制造出来的。他们擦拭志愿者的皮肤取样，发现某些细菌对三种蚊子都有吸引力。接下来，他们想弄清楚这些细菌怎样造出影响蚊子选择的气味，这或许能带来新的驱蚊办法：比如让人的气味不那么招蚊子，或者用最有吸引力的化学物质做诱饵，把蚊子引进陷阱。‘我们都在努力弄清楚怎样阻止人们生病，’研究主要作者凯莉·马雷罗说，‘弄清蚊子为什么咬人，是实现这个目标的最佳途径。’"
+    ],
+    "topics": [
+      "健康与医学",
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/skin-chemistry-attract-mosquito-bites",
+      "originalTitle": "Your skin’s chemistry may affect which mosquitoes you attract",
+      "publishedAt": "Fri, 23 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-23T23:58:01.161Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-23T23:57:59.511Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-24/2026-10-24-your-skin-s-chemistry-may-affect-which-mosquitoe.webp",
+      "alt": "冷灰色调抽象蚊子剪影与漂浮的圆形色块",
+      "caption": "气味与微生物，或许在悄悄决定蚊子的选择。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-24-4d9cb4",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国科学家破解丹尼索瓦人辨识难题",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-24",
+    "intro": "中国科学院古脊椎动物与古人类研究所科研人员结合古蛋白质组学与化石形态对比，确认河北阳原许家窑人属于丹尼索瓦人，并首次建立起丹尼索瓦人的形态识别标准。",
+    "paragraphs": [
+      "有一支古人类，科学家认识他们已经快十六年了，却一直不知道他们究竟长什么样。现在，这个问题第一次有了答案。记者从中国科学院古脊椎动物与古人类研究所获悉，该所科研人员确认，河北阳原的许家窑人，就是丹尼索瓦人。",
+      "丹尼索瓦人是一支已经灭绝的古老人类支系。2010年，科学家依靠西伯利亚丹尼索瓦洞化石的DNA证据发现了这一人群。后续分子证据显示，丹尼索瓦人曾广泛分布在亚洲多地，生存时间大约在距今30万年至4.5万年前。长久以来，一个难题困扰学界：丹尼索瓦人只能靠分子信号识别，我们不知道丹尼索瓦人到底长什么样，没有一套像尼安德特人、现代人那样清晰的外形判定标准，东亚大量同时期古人类化石到底是不是丹尼索瓦人，一直没有明确答案。",
+      "位于河北阳原的许家窑遗址，是东亚中更新世晚期最重要的古人类遗址之一，距今19.9万到13.8万年。这里出土了20件古人类化石，至少代表16个不同个体，还伴生大量石球等石制品与动物化石，地层清楚、材料丰富，是解开谜题的理想材料。由于年代久远，化石里的古DNA已经很难保存，于是中国科学院古脊椎动物与古人类研究所付巧妹、邢松等科研人员联合南京师范大学、北京大学等单位，转向古蛋白质组学开展攻关研究。",
+      "科研团队从许家窑人头骨、下颌骨化石微量骨粉中提取了古蛋白，找到丹尼索瓦人独有的蛋白变异位点，系统发育分析证实，许家窑人就是丹尼索瓦人。以此为锚点，团队对比哈尔滨人、夏河人等已确认的丹尼索瓦人化石，梳理出颅骨、下颌骨、牙齿上一套独有的形态组合特征，区分于直立人、尼安德特人和现代人。",
+      "研究团队进一步比对了金牛山、大荔、华龙洞等多处东亚古人类化石发现，这些中更新世晚期古人类，形态特征和许家窑丹尼索瓦人高度契合，大概率同属这一支古人类。这意味着丹尼索瓦人的活动范围几乎覆盖整个东亚大陆，适应能力远超此前认知。相关研究成果10月21日在国际学术期刊《自然》发表。",
+      "这项研究首次建立起丹尼索瓦人的形态识别标准，为厘清东亚中更新世人类演化格局补上关键一环。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573452.shtm",
+      "originalTitle": "我国科学家破解丹尼索瓦人辨识难题",
+      "publishedAt": "2026-10-23 10:26",
+      "retrievedAt": "2026-10-23T23:58:56.617Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-23T23:58:54.840Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-24-everyone-hates-oxford-street-will-pedestrianisat",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "伦敦牛津街将对车辆关闭，希望重新变成人们愿意停留的街道",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-24",
+    "intro": "欧洲最繁忙的购物街即将对车辆关门，伦敦希望这条几乎没人说喜欢的街道，能重新变成人们愿意停留的地方。",
+    "paragraphs": [
+      "伦敦人几乎没人愿意承认自己喜欢牛津街。可这条街每天有超过五十万人经过，相当于把整个爱丁堡的人口搬上来一次。它是欧洲最繁忙的购物街，贡献伦敦经济产出的百分之五；每年两千两百万到伦敦的外国游客，多数大概都在某个时刻踩上过它。就是这样一条街，下周一，10月26日，要对车辆关门了。",
+      "禁行范围是牛津街1.2英里中的一半——0.6英里，从牛津 Circus 交叉口附近一直向西，到塞尔福里奇百货。汽车、货车、面包车、出租车、公交、自行车、电动自行车、滑板车一律禁止进入，只留行人和紧急车辆。这是至少自2003年特拉法加广场从一个大环岛改造成公共空间以来，伦敦市中心街景最显著的变化。伦敦市长萨迪克·汗在2026年2月宣布了这个决定。三年前他出版回忆录《呼吸》，书中将自己从小患哮喘归因于在伦敦吸入受污染的空气。",
+      "牛津街确实需要一次大修。它窄，两边楼高，形成一个‘城市峡谷’，把公交和出租车排出的柴油废气闷在里头。2014年，这里的二氧化氮浓度被测得是全球最高。同一年，犯罪严重到阿联酋政府警告本国公民避开这个区域。疫情和网购又给了它一击：店铺空置率从2019年的4.5%，涨到2023年初的16.9%。填补空铺的，是一些来历不明的美国糖果店和空荡荡的纪念品店，据称靠逃税维持。汗在2024年承认，这是一种‘管理式衰退’。",
+      "接下改造设计的是伦敦一家叫East的建筑事务所。他们不做房子，做房子外面的世界：标识、长椅、路缘、铺装、灯光、花箱、树，还有公共艺术。近三十年，他们做了近三十个高街改造项目。负责人朱利安·刘易斯和阿尔奇·巴什福德去年中标后，第一件事是翻档案。他们找到一个起点：1932年，弗吉尼亚·伍尔夫在《好管家》杂志上写过一篇关于牛津街的文章。伍尔夫把它比作‘一条巨大的滚动丝带’，‘一条河的卵石河床’，被‘明亮的溪流’冲刷。她嫌它俗艳，但也觉得它闪耀、刺激、让人招架不住，而这一切来自街上杂乱人群的不停流动。设计团队把这个河流的意象，落成了很具体的决定：光怎么落在表面上，长椅和柱子怎么微微反光。他们打算先摆一些盆栽的小树，加上新的座椅。从下周到2027年春天是测试期，看看人们怎么用这些树：会不会变成约见面的地方，歇脚的地方，认路的地标。",
+      "人行化是一件事，让牛津街变成人们真想待着的地方是另一件事。刘易斯对分隔人行区的路桩很有意见，他把路桩当人来说。他说，路桩通常是可怕的东西，太常显得‘抱歉’。一条歪掉的、塑料感的反光条，传递的信息是‘对不起，我其实不想在这儿，但我得让你知道附近有车’。他说，路桩应该说：‘我很高兴在这儿，因为我在做一份工作。’"
+    ],
+    "topics": [
+      "城市与公共"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it",
+      "originalTitle": "Everyone hates Oxford Street. Will pedestrianisation save it?",
+      "publishedAt": "Thu, 22 Oct 2026 04:00:07 GMT",
+      "retrievedAt": "2026-10-24T00:00:12.609Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T00:00:09.244Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Oxford Street Goes Car-Free",
+      "intro": "A Guardian Long Read looks at London's plan to close Europe's busiest shopping street to traffic.",
+      "paragraphs": [
+        "Oxford Street is the busiest shopping street in Europe. On Monday, 26 October, half of its 1.2-mile stretch will be closed to traffic. Cars, lorries, vans, taxis, buses, bicycles, e-bikes, and scooters will be banned. Only pedestrians and emergency vehicles will be allowed in. The mayor of London, Sadiq Khan, announced the pedestrianisation plan in February. To the surprise of many Londoners, it is actually happening.",
+        "This change marks the most remarkable transformation to central London's streetscape since at least 2003, when Trafalgar Square was turned into one of London's most recognisable public spaces. It will form the most visible part of the mayor’s legacy. Khan attributes his asthma to growing up inhaling London’s polluted air. For him, pedestrianising Oxford Street is the culmination of a mission to create a greener city oriented around public health, walking and cycling. In 2014, Oxford Street was found to have the highest concentration of nitrogen dioxide pollution in the world. Its narrow streetway and tall buildings trap diesel fumes from buses and taxis.",
+        "Pedestrianisation is one thing; making Oxford Street somewhere anyone actually wants to spend time is another. Its primary associations are crowds, stress, dirt, noise, tacky consumer capitalism, and crime. A police officer said pedestrianisation would be both good for the street and make her job harder. Oxford Street receives more than 500,000 visitors every day — equivalent to the population of Edinburgh. It generates 5% of the capital’s economic output. And yet, nobody loves Oxford Street. During the course of writing this article, the author did not meet anyone who would even admit to liking it.",
+        "Vacancy levels on Oxford Street soared from 4.5% in 2019 to 16.9% by early 2023. Covid and internet shopping hit it hard. Raids have hauled in counterfeit goods and illegal vapes. US candy stores and empty souvenir shops have appeared. In 2024, Khan conceded the street was in 'managed decline'. His gamble is that pedestrianisation will reverse that decline and flood the street with life again.",
+        "The design team East is leading the redesign. They studied a 1932 article by Virginia Woolf in Good Housekeeping. She described Oxford Street as a 'great rolling ribbon … the pebbly bed of a river … washed by a bright stream'. The pedestrianised zone will run from close to the Oxford Circus crossing to Selfridges — 0.6 miles. The test phase lasts until spring 2027. The plan includes young trees in pots and new places to sit. The team will learn how people respond: will the trees become meeting points, rest stops, or landmarks for wayfinding? Bollards will mark the edges. One architect said bollards should look 'happy to be here, because I’m doing a job.'",
+        "The real test begins after the traffic disappears. Can Oxford Street become a place where people want to linger?"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T00:08:09.171Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 31,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-24/2026-10-24-everyone-hates-oxford-street-will-pedestrianisat.webp",
+      "alt": "冷灰色调抽象街道俯视图与步行区域色块",
+      "caption": "当街道交还给行人，停留或许重新成为可能。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-23-circular-cities-go-green-by-reusing-things-over",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "循环城市：让旧物反复重生的绿色方法",
@@ -3207,182 +3371,6 @@
       "src": "/editorial/2026-10-09/2026-10-09-these-clues-might-point-to-life-on-other-worlds.webp",
       "alt": "灰色调抽象星球与云层中悬浮几何符号",
       "caption": "线索，藏在云层与尘土里",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-09-a-73-average-decline-in-wildlife-populations-an",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "野生动物种群数量平均下降73%，但这个数字常被误读",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-09",
-    "intro": "2026年《地球生命力指数报告》发布，最醒目的数字是73%，但它说的并不是73%的物种灭绝了。",
-    "paragraphs": [
-      "2026年《地球生命力指数报告》今日发布。报告标题中包含‘Science of Hope’（希望的科学），但原文指出‘这依然是一份令人沮丧的阅读材料（despite this year’s title being about the “Science of Hope”）’。报告 headline 是：从1970年至2022年，被研究的野生动物种群数量平均下降了73%。该数据覆盖哺乳类、鸟类、爬行类、两栖类和鱼类；尚未包括无脊椎动物或植物。",
-      "报告作者反复强调，这一73%的平均下降值常被误解或误报。它不表示：已消失的物种数量；已消失的种群或个体数量；正在下降的物种或种群比例；或已发生的灭绝数量。文中明确指出：‘所有声称我们已失去73%的野生动物、73%的物种已灭绝、或73%的物种正在下降的标题，全部错误。’",
-      "该指标基于对35,803个野生动物种群的数据分析。研究人员计算每个种群在时间跨度内的数量变化率（可为正、负或零），再取所有变化率的几何平均值，并对不同种群施加不同权重，最终得出LPI数值。文中特别说明：‘非常少的种群拥有回溯至1970年的完整数据；许多种群仅有更短、更稀疏的时间序列。’",
-      "对比2022年（69%下降）、2024年（73%下降）与2026年（73%下降）三版报告，表面数字未变，但并非因近年趋势停滞。实际上，‘几乎没有任何变化发生在最近几年’；新版LPI不是旧版简单延伸，而是因新增数据导致整条趋势线重算。自上一版起，纳入种群数增加约1,000个（+3%），物种数增加约300个（+5%）；其中非洲种群数增加14%，物种数增加38%，系为弥补该区域长期数据严重不足而做的刻意补充。",
-      "听到‘平均下降73%’，易误以为大多数被监测种群都在减少。但实际数据显示：50%的种群数量下降，43%上升，7%稳定。文中明确指出：‘几乎同样多的种群在增加，正如在减少’；图表亦显示‘约一半野生动物种群数量下降，其余则上升或稳定’，且‘鸟类和两栖类中下降比例更高’。作者强调，这‘并非淡化许多种群正经历陡峭衰退的事实’，而是为‘更高效地将资源导向最需帮助的区域和种群’。",
-      "因此，73%的核心意义不在于警示强度，而在于驱动追问：为何有些种群衰退、有些却能恢复？差异根源何在？正如原文所言：‘如果我们知道一些种群状况良好、另一些却极度恶化，我们就想知道原因，从而理解它，并找出阻止恶化的办法。’"
-    ],
-    "topics": [
-      "气候与能源"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Our World in Data",
-      "region": "international",
-      "url": "https://ourworldindata.org/2026-lpi-update",
-      "originalTitle": "A 73% average decline in wildlife populations: an overview of the 2026 Living Planet Index report",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "retrievedAt": "2026-10-09T01:21:44.361Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:21:30.500Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "What the 73% Wildlife Decline Really Means",
-      "intro": "A new wildlife report leads with a scary number, but the number is easy to misread.",
-      "paragraphs": [
-        "The 2026 Living Planet Index report is published today. This year’s title is 'The Science of Hope'. The headline figure is a 73% average decline in studied wildlife populations since 1970.",
-        "This number is often misunderstood or misreported. It does not mean we lost 73% of all wildlife. It does not tell us how many species were lost. It does not tell us how many populations or individuals were lost. It does not tell us how many species or populations are declining. And it does not tell us how many extinctions occurred.",
-        "Across the 35,803 wildlife populations studied, the average decline was 73% from 1970 through 2022. This covers mammals, birds, reptiles, amphibians, and fish. It does not yet include invertebrates or plants.",
-        "Roughly half of the studied populations are not declining. Exactly 50% were in decline, 43% were increasing, and 7% were stable. So not all populations are struggling. This helps direct resources more efficiently to those most in need.",
-        "To calculate the Living Planet Index, researchers collect data on change in wildlife numbers across tens of thousands of populations. For each population, they calculate a rate of change over time. Then they take the geometric mean of those rates. They also apply different weights to different populations.",
-        "The 2022 Living Planet Index reported an average decline of 69% since 1970. In 2024, it reported 73%. The 2026 report also reports 73%. This does not mean wildlife declined by four percentage points between 2022 and 2024. Almost none of this change happened recently. Instead, the entire trend line shifted as the dataset expanded: around 1,000 more populations (a 3% increase) and about 300 more species (a 5% increase) were added. Populations and species from Africa increased substantially — by 14% and 38%, respectively."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:25:33.783Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 21,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-09-fcd228",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-09",
-    "intro": "这篇候选抓取到的页面里只有标题和导航栏，正文缺失，无法在规定范围内转述，按编辑部规则不予发布。",
-    "paragraphs": [
-      "这篇候选来自中新网文化，标题是《辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴》。但系统取回的页面内容里，只有站内的栏目导航、分享按钮和这一行标题，正文在开头处就断了，没有留下任何可以核验的事实、数字、因果或引语。",
-      "按照编辑部的规则，听稿里的每一个事实、数字、因果和引语都必须能在原文中找到；全文抓取失败时，不生成正式听稿，也不允许用常识或推测把空缺补上。仅凭标题里的几个词反推考古发现，很容易把推测写成研究结论，这种风险不能接受。",
-      "所以这一篇暂不进入今天的节目单，也不做适龄标注——在正文缺失的情况下，任何年龄段判断都是空话。请补发完整原文，或给一个能直达正文的链接，我会马上按七百到一千二百字的听稿要求重写，并给出六到九岁、十到十二岁、十三到十六岁的适龄判断。"
-    ],
-    "topics": [
-      "历史",
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-08/10709354.shtml",
-      "originalTitle": "辽上京考古：实证宋元时期农耕文明与草原文明交融互鉴",
-      "publishedAt": "Thu, 8 Oct 2026 21:42:29 +0800",
-      "retrievedAt": "2026-10-09T01:22:30.866Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:22:29.359Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-08-a7dee3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "两位科学家因解开分子\"左右手\"之谜获得2026年诺贝尔化学奖",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-08",
-    "intro": "10月7日，2026年诺贝尔化学奖授予法国巴黎南大学的亨利·B·卡甘和日本东京理科大学的硤合宪三，他们的发现让化学反应能够只生成一种\"手性\"的分子。",
-    "paragraphs": [
-      "10月7日，2026年诺贝尔化学奖授予法国巴黎南大学亨利·B·卡甘（Henri B. Kagan）和日本东京理科大学硤合宪三（Kenso Soai），以表彰他们在不对称有机合成中发现非线性效应和自催化现象。瑞典皇家科学院表示，两位得主的发现使化学家得以驱动反应朝单一手性方向进行，打破了此前实验室中始终生成等量镜像分子的僵局。诺贝尔化学委员会主席Heiner Linke评价称，两人“提供了一个逾百年化学谜题的解答，他们所发展的化学反应令人叹为观止”。这一荣誉在制药、香料及农用化学品行业具有直接现实意义。",
-      "为什么非要只做出一种？浙江大学生命科学研究院研究员林世贤说：“常有人说上帝是左撇子，造出来的物种都是有特定手性的。如果手性搞错了的话，是个非常麻烦的事情。”他提到历史上“反应停”药物事件，在欧洲等地造成约一万名四肢严重残缺的海豹肢畸形儿。后来知道，这个药物的两种镜像作用不同，但在体内它们会互相转化，只给其中一种，并不能避免毒性，所以药物分子里面的手性一定要搞得非常清楚。",
-      "清华大学基础分子科学中心主任罗三中指出，卡甘不仅最早观察到非线性效应，还提出了多种解释机制和理论模型，成为后续研究不断修正、演化的起点。硤合宪三发现的Soai反应，则实现了非常卓越的不对称自催化放大。他几乎把能找到的所有手性物质都作为添加剂测试放大效应，从陨石、空气、尘埃，到碳12与碳13之间的微小差异，都能在反应体系中产生显著放大。当然，Soai反应体系非常独特，通常怕空气、怕潮气，与生命环境所要求的常温、常压、空气和水并不完全兼容。因此，寻找更适配生命环境的自催化体系，仍是该领域的重要挑战。",
-      "兰州大学化学化工学院、天然产物化学全国重点实验室教授樊春安介绍，2004年博士毕业后，他于2004年10月加入卡甘课题组，在巴黎第十一大学（现为巴黎萨克雷大学）跟随卡甘进行了为期一年的科研训练。在他印象中，卡甘个子很高，性格内向，几乎每天都穿着西装，是一个理性又儒雅的学者。他对化学研究非常专注。2008年，他们专门邀请卡甘来兰州大学进行学术交流，卡甘连续做了多场学术报告，分享不对称催化、非线性效应、二碘化钐化学等内容。他们还一起吃了很多顿中国菜。他在饮食方面包容度非常高，是一个开放、兼容并蓄的人。今年95岁的他，25年前与诺贝尔奖擦肩而过。",
-      "罗三中还表示，卡甘是一位“谦谦君子”，待人温和，但温和背后是非常坚韧的坚持；硤合宪三与卡甘个性相似：不追求热点，不追求文章数量，几十年如一日在一个方向上深度耕耘。中南大学化学化工学院教授张翼指出，目前比较活跃的方向之一，是AI与手性自催化、手性放大技术的结合。AlphaFold等工具已经广泛应用于生物、化学领域，国内多家课题组也在尝试把AI用于这类反应体系的筛选与设计。这类研究的意义，是借助手性放大效应降低反应对底物手性纯度的要求，简化合成流程、提升效率，让手性催化更接近工业化落地。",
-      "华东师范大学教授姜雪峰表示，目前我国手性化学研究已经走在世界前列，涌现出一大批顶尖学者和落地成果。中国科学院院士周其林已经发展了手性螺旋配体，在不对称氢化反应方面达到了世界领先的水平，很多成果已经工业化。南方科技大学副教授邓敏指出，此次获奖成果对生命起源研究有启示：为什么生命最终选择了左旋氨基酸、右旋糖，而没有选择完全镜像的另一种世界？卡甘的模型和Soai反应的揭示提供了重要线索。甚至进一步说，这有助于人类对外星生命的探索和思考，如果某个环境中分子的手性逐渐放大，是否意味着它正在朝生命演化？手性富集程度或许能成为判断生命存在与演化的工具。"
-    ],
-    "topics": [
-      "物质与数学",
-      "化学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572565.shtm",
-      "originalTitle": "他们提供了一个逾百年化学谜题的解答",
-      "publishedAt": "2026-10-08 07:26",
-      "retrievedAt": "2026-10-08T01:05:19.971Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-08T01:05:07.586Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Century-Old Chemistry Puzzle Gets an Answer",
-      "intro": "Two scientists who studied mirror-image molecules have won the 2026 Nobel Prize in Chemistry.",
-      "paragraphs": [
-        "On October 7, 2026, the Nobel Prize in Chemistry was awarded to Henri B. Kagan of Université Paris-Sud and Kenso Soai of Tokyo University of Science. They were honored for discovering nonlinear effects and autocatalysis in asymmetric organic synthesis. Heiner Linke, Chair of the Nobel Committee for Chemistry, said they 'provided an answer to a chemistry puzzle older than a hundred years'. He called their reactions 'astonishing'. This work has direct relevance to pharmaceuticals, fragrances, and agrochemicals.",
-        "Kagan was the first to observe nonlinear effects. He proposed multiple explanatory mechanisms and theoretical models. Soai discovered the Soai reaction. It achieves remarkable asymmetric autocatalytic amplification. Luo Sanzhong said Soai tested nearly all chiral substances he could find. These included meteorites, air, dust, and the minute difference between carbon-12 and carbon-13. Each produced significant amplification in the reaction. The Soai reaction is very sensitive to air and moisture. It is not compatible with life’s ambient conditions of room temperature, pressure, water, and oxygen.",
-        "Chirality matters critically in medicine. Lin Shixian cited the thalidomide tragedy in Europe. It caused about ten thousand babies to be born with severe limb deformities known as phocomelia. The two mirror-image forms of thalidomide have different biological activities. Inside the body, they interconvert. Giving only one form does not avoid toxicity. Therefore, molecular chirality must be precisely controlled in drug development.",
-        "Chinese research teams are advancing chiral chemistry and asymmetric catalysis. One emerging direction is integrating AI tools into screening and designing chiral autocatalytic systems. Zhang Yi noted this aims to reduce dependence on high enantiopurity of starting materials. It simplifies synthesis and improves industrial feasibility. Jiang Xuefeng stated that China now stands at the forefront of this field. Feng Xiaoming developed nitrogen–oxygen ligands. Ding Kuiling achieved efficient asymmetric hydrogenation of imines. Tang Yong pioneered the 'arm-effect' ligands. You Shuli advanced desymmetrizing dearomatization. Zhang Wanbin deployed chiral catalytic systems industrially. These systems enabled artemisinin synthesis and large-scale menthol production.",
-        "The discoveries relate to the origin of life. Deng Min explained that life on Earth uses left-handed amino acids and right-handed sugars. Kagan’s models and the Soai reaction provide key clues. They show how small initial chiral imbalances could be amplified. Lin Shixian added that such amplification offers a testable pathway for life’s emergence. Chiral enrichment may serve as a detectable signature in the search for extraterrestrial life."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-08T01:11:21.937Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 5,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-08/2026-10-08-a7dee3.webp",
-      "alt": "一对互为镜像的抽象分子结构，冷灰色调，纸张质感。",
-      "caption": "分子的左手与右手，互为镜像。",
       "kind": "editorial"
     }
   }
