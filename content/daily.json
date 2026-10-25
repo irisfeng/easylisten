@@ -1,5 +1,237 @@
 [
   {
+    "slug": "2026-10-25-de4912",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "不用贵金属，分子筛也能给分子加上碳和氧",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-25",
+    "intro": "中国科学家用分子筛直接催化烯烃羰基化，绕开了铑、铱等贵金属，新反应连续稳定运行750小时。",
+    "paragraphs": [
+      "给一个分子同时装上一个碳和一个氧，化学上叫“羰基化”。这道“加法题”听起来轻巧，却能创造出诸多高附加值的化学品。从医药中间体到可降解塑料单体、从溶剂到香料，羰基化反应撑起了现代化学工业的一大片天。百余年来，工业上主流的方法是依赖铑、铱等贵金属配合物催化，还需卤素助剂参与，体系复杂、配体昂贵、催化剂与产物难分离。",
+      "有没有可能换一条路，不用金属也能把碳和氧“装”上去？10月21日，《自然》发表了中国科学院大连化学物理研究所（以下简称大连化物所）研究员刘中民团队的研究，给出了一个肯定的答案：他们通过分子筛空间限域调控的催化策略，实现了水参与的分子筛直接催化的乙烯羰基化到丙酸和丙烯羰基化到异丁酸两个反应。",
+      "团队为什么盯上烯烃？我国煤基甲醇制烯烃产业布局迅速，烯烃来源丰富、成本可控。从烯烃切入羰基化，有利于布局煤基高附加值含氧化合物的生产路线，能够把丰富的烯烃变成丙酸、异丁酸这些精细化学品。但烯烃在分子筛的酸性位上容易聚合，副反应会迅速让催化剂失活，因此既要让羰基化容易发生，又要抑制副反应。",
+      "分子筛是一类具有规整孔道结构的无机多孔晶体材料，具有精准的孔道筛选能力，在石油炼制、气体分离和化工生产中发挥着不可替代的作用。2017年，刘中民团队就成功利用分子筛催化的二甲醚羰基化反应，实现无水乙醇的大规模工业化生产，验证了分子筛在羰基化上的巨大潜力。这一次，他们提出利用分子筛的限域效应：孔道的空间约束如同一双“巧手”，将反应物摆放在合适的位置，让一氧化碳能够精准插入，而不给聚合反应留出空间。他们尝试了大量可能的分子筛结构，最终发现镁碱沸石（FER）在当前探索的体系中最为适宜。",
+      "团队在FER上实现了乙烯与一氧化碳、水反应生成丙酸，丙烯与一氧化碳、水反应生成异丁酸。小试实验确认了两个反应在高压条件下可连续运行750小时，丙酸选择性约80%，异丁酸选择性高达95%。该反应属于首次报道，领域内没有类似的工作可供参照。从工业化角度看，性能仍有待进一步提升和优化，但750小时的稳定性已经展现出很好的应用潜力。2025年6月，团队首次将成果投稿至《自然》，16个月后被正式接收。",
+      "这项工作的意义远不止于两个新反应。丙酸和异丁酸都是重要精细化学品，也都是甲基丙烯酸甲酯的潜在前驱体，而甲基丙烯酸甲酯是生产有机玻璃的大宗单体。如果技术后续放大落地，可能带来丙酸和异丁酸的新生产工艺，下游衍生物具备更高价值。相较于传统液体酸催化，分子筛非均相体系可实现连续、高效生产，而且不用处理含酸废水，环保优势明显。",
+      "团队还在努力回答一个更大的问题——能否建立通用框架，反过来预测并设计更多分子筛催化的羰基化新过程。烯烃羰基化的成功，为搭建该通用框架补上了关键拼图。一旦这套通用框架成功建立，分子筛催化羰基化反应就不再依赖经验试错，而是走向理性设计与精准预测，为含氧化合物的高效、绿色制备打开更广阔的空间。"
+    ],
+    "topics": [
+      "物质与数学",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573373.shtm",
+      "originalTitle": "摆脱贵金属依赖！百年催化难题有了新解法",
+      "publishedAt": "2026-10-22 08:16",
+      "retrievedAt": "2026-10-24T23:21:41.719Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:21:32.199Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-25/2026-10-25-de4912.webp",
+      "alt": "冷灰色纸张质感上，多孔网格结构与穿行的小分子球体。",
+      "caption": "多孔结构中的分子穿行。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-25-200kw-e93d98",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "重要里程碑！中国散裂中子源束流功率突破200kW",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-25",
+    "intro": "据中新网教育报道，中国散裂中子源束流功率突破200kW，被称作一个重要里程碑。",
+    "paragraphs": [
+      "据中新网教育报道，中国散裂中子源束流功率突破200kW，被称作一个重要里程碑。",
+      "中国散裂中子源是一种大科学装置。它通过将质子加速后轰击靶材，使原子核发生散裂，从而产生中子。中子不带电，能穿透多种材料，与原子核相互作用后改变运动方向和能量；科学家通过探测这些中子的飞行路径和能量分布，反推材料内部原子结构。",
+      "束流功率指单位时间内质子束输送给靶材的能量，单位为kW。功率越高，产生的中子通量通常越大，有助于缩短实验时间、提升测量精度和信噪比。因此，束流功率是衡量散裂中子源性能的核心指标之一。",
+      "提高束流功率需同步提升加速器稳定性、靶站耐辐照能力、束流控制精度及辐射防护水平，涉及多系统协同优化，技术难度大、周期长。此次突破200kW，标志着装置性能实现重要跃升。",
+      "该装置能力提升后，将支撑更多前沿科学研究，包括新型能源材料、高温超导机制、生物大分子结构解析等领域。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-24/10720414.shtml",
+      "originalTitle": "重要里程碑！中国散裂中子源束流功率突破200kW",
+      "publishedAt": "Sat, 24 Oct 2026 18:15:45 +0800",
+      "retrievedAt": "2026-10-24T23:22:20.281Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:22:19.334Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-25-the-art-of-the-thousand-bloom-chrysanthemum",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一棵菊花，怎样开出一千朵花",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-25",
+    "intro": "在美国宾夕法尼亚州的长木花园，上千朵菊花其实长在同一棵植物上；园艺师花了大约十八个月，才把它一点点变成这个样子。",
+    "paragraphs": [
+      "在美国宾夕法尼亚州的长木花园，游客常常在一株植物前停下脚步，猜它到底是什么。远远看过去，它是一个巨大的花团：上百——甚至上千——朵菊花，每一朵都待在该在的位置上，从边缘向顶部一圈一圈升起来，创造一种丰盛到近乎奢侈的印象。很多人第一反应是：这一定是用许多盆菊花拼起来的。但答案出人意料：这一整团花，全都长在同一棵菊花上（Chrysanthemum x morifolium）。花团底下，几百根枝条汇聚到同一根茎、同一套根系统。看上去成千上万，其实只有一棵。",
+      "要把一棵菊花变成这样，大约需要十八个月。长木花园每年六月开始动手，起点是十根扦插的枝条。秋天夜里越来越长，园艺师就用人工灯光把长夜打断，让植株保持营养生长状态，不急着开花。接着是掐尖：掐掉一根枝条的顶端，它就分成两根；再掐，两根变四根，就这样一路分下去，直到超过一千根枝条。到了十一月，他们从十棵里挑出两棵最强壮的，同时养着，互为备份。花盆和支架跟着植株一起变大，枝条被绑在定制的框架上，光照、水分、养分、温度和生长都要仔细平衡。直到展览前不久，才从这两棵里定下最终上场的那一棵。",
+      "枝条够多了，重点就转到花上。每根枝条会长出好几个花蕾，园艺师只留下最顶端的那一个，把旁边的侧蕾全部摘掉，这一步叫摘蕾（disbudding）。养分集中到一朵花上，花才会开得又大又整齐。整个培养过程，绑结可能用掉四千多个。有时候为了让枝条弯到合适的位置又不至于折断，他们会故意让枝条暂时萎蔫一点，软下来再定型。",
+      "展览前大约一个月，进入最后阶段。每一朵花都要装上一个用金属丝做的托架，日语里叫 rindai，用来托住花的重量，也用来精确调整每朵花的朝向。一千多个 rindai，一个一个装上去，光这一项就要花掉大约十天。而所有这些反复的调整，最后看起来必须毫不费力。",
+      "这种做法在日本有个名字，叫 ōzukuri， commonly translated as “large cultivation”。菊花原产中国，栽培技术几百年前传到日本，日本园艺师发展出一整套方法，把植株训练成特定的正式形状。1884 年，东京的新宿御苑第一次做出这种形式：一棵植物，几百朵花，排成一个比例讲究的宽大花团，后来的千朵菊都以它为样板。这个年份也有讲究：十九世纪末的日本正处于快速变革期，明治政府在推动现代化的同时，也在寻找能向世界展示本国文化的象征形式；菊花因与皇室渊源深厚，因而格外突出。",
+      "和石头刻成的雕像不同，千朵菊一直在生长，也一直在衰败。它的活体组织持续生长、蒸腾、响应环境并老化。园艺师不是把一张完成的图样按在一棵植物上；他是在和一个活的形状反复商量：未来可以影响，却没法完全控制。所以每一次掐尖，都是对还没长出来的部分下注；每一次剪掉一根枝条、一个花蕾，都是放弃一种可能，让另一种可能长大。秋天你看到的那棵菊花，既由培育出来的部分组成，也由一路上被舍掉的部分组成。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "历史"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "JSTOR Daily",
+      "region": "international",
+      "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+      "originalTitle": "The Art of the Thousand Bloom Chrysanthemum",
+      "publishedAt": "Thu, 22 Oct 2026 13:52:00 +0000",
+      "retrievedAt": "2026-10-24T23:25:54.170Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:25:51.634Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "One Plant, a Thousand Blooms",
+      "intro": "A garden in Pennsylvania grows more than a thousand chrysanthemum flowers on a single plant. This uses a centuries-old Japanese tradition.",
+      "paragraphs": [
+        "From a distance, the plant appears to be an immense floral dome. It is composed of hundreds—if not a thousand—of carefully matched chrysanthemums. Each flower occupies its own place in a near-perfect pattern. Visitors often wonder if multitudes of plants have been assembled. Then comes the revelation: every blossom belongs to a single chrysanthemum.",
+        "Beneath the dome, hundreds of branches converge toward a single stem and root system. What appears to be a multitude is actually one plant. Its scientific name is Chrysanthemum x morifolium. It is cultivated over approximately eighteen months. It is guided through thousands of individual decisions. At Longwood, the annual creation begins with ten vegetative cuttings. These are started each June. Artificial light interrupts the long autumn nights. This keeps the chrysanthemums vegetative. Horticulturists pinch the growing tips. This encourages one stem to divide into two, then four, until reaching over one thousand stems. By November, the two strongest plants are selected. They are carried forward in parallel.",
+        "Both plants are continually trained and tied to custom-made frames. The frames support the increasing weight of the stems. They also help establish the balance and form of the eventual dome. Shoots are selected or removed. Light, water, nutrition, temperature, and growth are carefully balanced. As more than one thousand stems begin to set buds, the focus shifts. It shifts from increasing their number to perfecting the flowers they will bear. Through disbudding, competing lateral buds are removed from each stem. This leaves a single terminal bud to develop. This concentrates the plant’s resources. It helps produce large, uniform blooms.",
+        "Once the final display plant is selected, about a month before exhibition, the work enters its last stage. Each developing flower is fitted with an individual wire support. This support is called a rindai. The rindai bears the weight of the bloom. It allows horticulturists to orient the flower precisely within the dome. More than one thousand rindai may be individually attached. This process alone can take about ten days. The work requires constant adjustment. Yet the completed form must look effortless.",
+        "The Japanese name for the Thousand Bloom form is ōzukuri. It is commonly translated as 'large cultivation.' The chrysanthemum originated in China. Its cultivation traveled to Japan centuries ago. Japanese growers developed new systems for training the plant. They trained it into distinctive formal shapes. The ōzukuri form was first created at Shinjuku Gyoen National Garden in Tokyo in 1884. It established a model for the Thousand Bloom Chrysanthemum. That model has hundreds of flowers. They grow from a single plant. They are arranged into a broad and carefully proportioned dome. In Japan, chrysanthemums came to signify autumn, renewal, refined taste, and imperial authority.",
+        "For approximately eighteen months, time accumulates in the plant. Then, for only a few weeks each fall, time becomes visible. This happens when the Thousand Bloom is displayed. Unlike sculptures carved from stone, the Thousand Bloom is always becoming—or ceasing to be. Its living tissue continues to grow. It transpires. It responds. It ages. The horticulturist who trains it is not imposing a finished image. They are negotiating with a living form. The future of that form can be influenced. But it can never be completely controlled. Every pinch is performed in expectation of growth that has not yet occurred. Every selected branch commits the horticulturist to a future arrangement. Every removed shoot or bud sacrifices one possibility. Another possibility may flourish. The plant visitors see in the autumn is composed of what was cultivated. It is also composed of what was deliberately relinquished."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:30:18.595Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-25/2026-10-25-the-art-of-the-thousand-bloom-chrysanthemum.webp",
+      "alt": "冷灰色纸张质感上，一株分枝众多的抽象菊花。",
+      "caption": "一株之上，千朵同开。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-25-unlocking-the-secrets-of-the-dragon-man-skull-an",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "哈尔滨头骨被藏枯井后，为何有了龙人和丹尼索瓦人两个名字",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-25",
+    "intro": "1933年被工人藏进枯井的哈尔滨头骨，如今有了两个名字：龙人（Homo longi），和丹尼索瓦人。",
+    "paragraphs": [
+      "2018年9月，《中国日报》的一篇报道摆到了研究人类起源的学者桌上。照片里是一具保存得异常完好的头骨化石，眉骨粗壮得惊人。当时的图注猜测它属于海德堡人（Homo heidelbergensis），这个猜测后来被证明是错的。报道讲述了它被发现的故事：1933年，日军占领哈尔滨，命令一队本地工人在松花江上修铁路桥。工人们在河床沉积物里挖出了这具头骨，其中一人为了不让日本人拿走，把它吊进一口废弃的水井里藏了起来。他因为给敌人干活而感到羞耻，很多年没有作声。直到大约八十年后，临终前他才把这件事告诉儿子和孙子，头骨因此被找回，后来捐给了北京附近的河北地质大学。这个故事很难核实，甚至有过这具化石是赝品的传言。但2018年底，作者受邀和中国研究者一起研究它，亲眼确认了它是真的。",
+      "要理解它的意义，得先放下一个旧印象：人类演化不是从原始形态一步步走向现代人的单线阶梯。我们和黑猩猩的祖先大约七百万年前分开，之后约五百万年，人类祖先一直在非洲演化，大约两百万年前才开始向亚洲和欧洲扩散。自然界在几百万年里反复试验‘怎样才算成为人’，结果是出现了一大群不同的人种，有时同时存在，甚至住在同一片地区。我们是这些试验里唯一的幸存者。就在最近三十万年里，人种数量也令人吃惊。海德堡人三十万年前还生活在欧洲；更古老的直立人（Homo erectus）脑子更小、头顶扁平，至少十万年前还留在印度尼西亚的部分地区；尼安德特人（Homo neanderthalensis）至少在四十万年前到四万年前生活在欧亚西部；我们智人（Homo sapiens）至少三十万年前出现在非洲，最近五万年内走向全球。此外还有三种体型很小的人——纳莱迪人（Homo naledi）、弗洛勒斯人（Homo floresiensis）和吕宋人（Homo luzonensis）——分别生活在南非、印尼的弗洛勒斯岛和菲律宾的吕宋岛，看起来都像是更古老阶段的遗存。",
+      "哈尔滨这具头骨给这份名单又添了一个物种。中国同事给作者寄来全尺寸的3D打印件时，他不敢相信自己的眼睛。他见过几百具人类头骨化石，这是最大的一具。分析显示，它和智人、尼安德特人、海德堡人、直立人都明显不同：脑容量很大，眉脊巨大；脑颅又大又低，但表面比较平滑，没有直立人和海德堡人头上那些骨脊；面部很大却相当现代，颧骨细致、朝前，鼻子很宽，眼窝很大。2021年，中国同事把它命名为龙人（Homo longi），名字来自黑龙江（Heilongjiang River）。这个物种至少在三十万年前到大约四万五千年前生活在东亚。",
+      "头骨还解开了别的谜。关键是它唯一保留下来的那颗牙：一颗非常大的第二臼齿，后面没有第三臼齿的齿槽。换句话说，龙人没有智齿。这个牙齿特征把中国境内另外一些不完整的化石联系了起来，它们也是大臼齿、没有智齿。这说明它们同样属于龙人，推翻了此前两种猜测：它们可能属于海德堡人的亚洲分支，或者属于直立人和现代亚洲人之间的过渡类型。",
+      "它还解释了丹尼索瓦人的身份。丹尼索瓦人得名于阿尔泰山脉俄罗斯一侧的丹尼索瓦洞。考古学家在那里挖了几十年，找到成千上万件动物骨骼和石器，人类骨骼却只有碎片和几颗大臼齿。2010年，其中一块小指骨碎片产出了质量堪比现代骨骼的古DNA，而它已有大约六万年；这说明西伯利亚南部那个寒冷干燥的洞穴保存遗骸的能力多么惊人。靠着其他化石甚至洞穴沉积物里的DNA，我们知道丹尼索瓦人断断续续住在洞里，从二十多万年前一直到大约四万五千年前，之后智人接管。同样在2010年，科学家从欧洲化石里重建出高质量的尼安德特人基因组，而丹尼索瓦人的基因组和尼安德特人、和现代人都相当不同。十年后，分析表明丹尼索瓦洞里那些大臼齿也属于和龙人头骨同一个物种。更近一些，研究者从哈尔滨头骨中提取DNA和化石蛋白，确认了它和丹尼索瓦洞、以及中国其他化石的联系：青藏高原高处洞穴里的下颌骨、台湾渔民从海里捞上来的骨头，还有中国西南一个洞穴里最近描述的遗存。",
+      "所以这具头骨，是古人类学家追踪了很久的那个物种目前最完整的标本。它现在有两个名字：丹尼索瓦人，和更正式的龙人（Homo longi）。一具在废井里躺了八十年的头骨，最终让人看到：成为人从来不是一条独木桥，而是一条分叉很多的河，我们只是其中侥幸流到今天的那一支。"
+    ],
+    "topics": [
+      "历史",
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/unlocking-the-secrets-of-the-dragon-man-skull-and-what-it-reveals-about-human-evolution-291321",
+      "originalTitle": "Unlocking the secrets of the ‘Dragon Man’ skull – and what it reveals about human evolution",
+      "publishedAt": "2026-10-23T09:03:28Z",
+      "retrievedAt": "2026-10-24T23:27:34.401Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:27:30.081Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 58,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Dragon Man Skull and Our Human Story",
+      "intro": "A remarkably complete skull from China is helping scientists piece together a lost chapter of human evolution.",
+      "paragraphs": [
+        "In September 2018, a China Daily story about a fossil skull reached the desk of a scientist who studies human origins. The skull had been found in Harbin, in north-eastern China, in 1933. Japanese forces were occupying the city and ordered local workers to help build a railway bridge across the Songhua River. The workers uncovered the skull in river deposits. One of them hid it from the Japanese by lowering it down a disused well. Feeling ashamed of having worked for the enemy, he kept quiet about the find for many years. Finally, some 80 years later, he told his son and grandson as he lay dying. That led to the almost intact skull being recovered and later donated to Hebei Geo University near Beijing.",
+        "That origin story is difficult to verify, and there were rumours that the fossil was actually a fake. The scientist was invited to join Chinese researchers in studying this astonishing relic at the end of 2018. He confirmed first hand that it was real. It was one of the most complete human fossils ever found. He jumped at this wonderful opportunity to help put it in its proper place in human evolution.",
+        "Human evolution was not a simple straight line from primitive forms to modern humans. Hominins split from the ancestors of chimpanzees about 7 million years ago. For the next 5 million years or so, hominins continued their evolution in Africa. About 2 million years ago, they began to disperse across Asia and Europe. Nature conducted multiple experiments over millions of years in how to become human. Different kinds of humans sometimes lived at the same time and even in the same regions. We are the sole survivors of all those experiments.",
+        "The Harbin skull was the biggest fossil human skull the scientist had ever seen. Analyses showed it was clearly different from fossils of Homo sapiens, Homo neanderthalensis, Homo heidelbergensis and Homo erectus. It had a very large brain size, a massive brow-ridge, and a large, low but rather smooth braincase. It also had a big but modern-looking face with delicate forward-facing cheekbones, a very wide nose, and large eye sockets. In 2021, Chinese colleagues named the new species Homo longi, named after the Black Dragon River (Heilongjiang). Ever since, the skull has been known as Dragon Man. This species appears to have lived in eastern Asia from at least 300,000 until about 45,000 years ago.",
+        "The skull’s single preserved tooth was a very large second molar, with no sign of a socket behind it for a third molar. In other words, Dragon Man did not have wisdom teeth. These dental features provided a link with other less complete fossils from China that also had large molars but no wisdom teeth. This and other resemblances indicated that those fossils were also Homo longi. It also shed light on the mysterious Denisovans, named after Denisova Cave in the Russian part of the Altai Mountains. A finger bone from the cave yielded ancient DNA matching the quality of modern bones — despite being about 60,000 years old. The Denisovans occupied the cave intermittently from more than 200,000 until about 45,000 years ago. Later analyses of the Harbin skull for DNA and fossil proteins confirmed both the connection to Denisova Cave and various other fossils found in China. The skull is now known by both names: Denisovan and the more formal Homo longi."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-24T23:31:00.077Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-24-your-skin-s-chemistry-may-affect-which-mosquitoe",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "蚊子为什么偏爱某些人，线索可能在皮肤气味和细菌里",
@@ -3161,216 +3393,6 @@
       "src": "/editorial/2026-10-10/2026-10-10-as-ai-closed-in-on-unique-games-proof-researcher.webp",
       "alt": "由细线连接的抽象节点网络，一侧有速度线。",
       "caption": "一道数学猜想与追赶它的时间。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-10-d85085",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "《三体》里的“不要回答”会成真吗？刘慈欣这样看",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-10",
-    "intro": "这篇候选本次只取到标题与网页框架，正文缺失，无法在可核验的前提下改写为听稿。",
-    "paragraphs": [
-      "这篇候选来自中新网文化，标题是《〈三体〉里的“不要回答”会成真吗？刘慈欣这样看》。",
-      "但本次抓取的原文内容仅包含网站导航栏、栏目链接、图片占位符及页面元信息（如搜索提示、Logo、频道分类等），未包含任何正文文字、刘慈欣的言论、采访实录或分析性内容。",
-      "听稿的每一条事实、引语、观点归属和因果判断都必须能在原文中逐字核验。当前证据块中没有任何一段文字提及刘慈欣的回答、‘黑暗森林’‘费米悖论’‘外星文明探测’或任何实质性讨论，因此无法构建可验证的儿童/家长向科普听稿。",
-      "按轻听审稿规则：无正文即无事实基础；不可用常识、记忆或外部知识补全；不产出推测性内容。本篇不具备改写为合格听稿的条件，应退回等待完整正文。",
-      "若后续获取到含刘慈欣原话的正文，核心价值将在于厘清：一个虚构警告为何引发真实科学讨论？它关联哪些已被观测或正在推进的搜寻地外文明计划（如SETI）？刘慈欣本人如何界定科幻想象与科学边界的分野？"
-    ],
-    "topics": [
-      "科幻文学",
-      "科学伦理",
-      "青少年思辨"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-10/10709989.shtml",
-      "originalTitle": "《三体》里的“不要回答”会成真吗？刘慈欣这样看",
-      "publishedAt": "Sat, 10 Oct 2026 07:50:31 +0800",
-      "retrievedAt": "2026-10-10T01:02:24.454Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-10T01:02:22.040Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-10-19bb6d",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "多地陆续公布中小学春秋假安排",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-10",
-    "intro": "中新网教育报道，近日多地陆续公布中小学春秋假安排。",
-    "paragraphs": [
-      "最近，多地陆续对外公布了中小学春秋假的安排。这条消息来自中新网教育。",
-      "需要说明的是，这些安排由各地分别公布；目前公开信息仅表明多个地方正在推进此事，但具体涉及哪些城市、适用年级、放假时段及天数，各地情况并不相同，最终以当地教育部门和学校发布的正式通知为准。",
-      "因此，听到这一消息后，最实际的做法是及时关注自己所在城市和学校的通知。对孩子们来说，假期本身不是重点，重点在于这段时间如何被有意义地使用——等安排正式落地，不妨提前想一想：这个春天或秋天，想去哪里看看，想做点什么。"
-    ],
-    "topics": [
-      "教育政策",
-      "儿童时间权",
-      "公共生活参与"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-10/10709987.shtml",
-      "originalTitle": "近日，多地陆续官宣中小学春秋假安排→",
-      "publishedAt": "Sat, 10 Oct 2026 07:46:25 +0800",
-      "retrievedAt": "2026-10-10T01:02:55.369Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-10T01:02:53.482Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-09-10-5348e0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "“中国天眼”落成10周年，正值当打之年",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-09",
-    "intro": "2026年9月，位于贵州平塘县克度镇大窝凼的“中国天眼”FAST迎来落成十周年——它不是刚起步的新设备，而是设计寿命不少于30年、正值当打之年的科学利器。",
-    "paragraphs": [
-      "在贵州平塘县克度镇的大窝凼，群山环抱中静静卧着一口500米口径的银色‘巨锅’——这就是‘中国天眼’，全名是500米口径球面射电望远镜（FAST）。它不靠镜片反射光线，而是用一张巨大的金属网，捕捉来自遥远宇宙的微弱无线电波。为了不让手机、对讲机等具备无线电发射功能的设备干扰它‘听’宇宙的声音，整个区域被划为电磁波宁静区核心区，进山前必须关掉所有无线设备。",
-      "这台望远镜的建造，始于22年前的一次远见。天文学家南仁东带着青年科研人员，拄着竹竿、揣着馒头，在贵州喀斯特群峰深处跋涉多年，考察了数百个洼地，最终选中了天然漏斗状的大窝凼——这里既将土石方开挖量削减到极致，又凭借发育良好的喀斯特地下暗河解决暴雨排洪难题，四周耸立的峰丛更成为阻隔现代无线电电磁杂波的天然屏障。2011年破土动工，2016年9月落成；它没有现成经验可抄：由6670根主索编织成500米球冠状索网，6根长索悬吊30吨重的馈源舱，在140米高空、206米范围内动态定位。",
-      "建成后三年多，团队在阴湿多雾、落石滚落、进口核心部件故障频发等困难中调试系统，组织国内力量完成关键控制系统的升级换代与核心零部件的国产化替代，最终让FAST以年观测机时稳定在5300小时以上、设备运行可用率超过98%的表现，成为全球运行效率最高的大型地面射电望远镜之一。十年来，它已发现超1300颗脉冲星；它在对‘斯蒂芬五重星系’的观测中捕获到一个尺度延展达200万光年的巨型中性氢气体结构，其跨度达到银河系直径的20倍；它在对FRB 121102的监测中，于47天内记录到1600多次独立爆发，首次完整刻画出重复快速射电暴的能量分布律。",
-      "更关键的是，利用FAST运行仅3年5个月的高质量观测数据，中国脉冲星计时阵研究团队以4.6σ的统计显著性，在约14纳赫兹频率附近成功探测到了空间四极相关性的关键信号，为纳赫兹引力波背景的存在提供了重要观测证据。中国科学院院士韩占文说：‘你不知道你会有什么发现，但你肯定会有发现——我们期待着，一定有会有更多的发现。’",
-      "如今，它的二期工程已在推进：在FAST周边30公里范围内，建设数十台口径为40米的全可动射电望远镜，利用综合孔径干涉技术与现有的500米‘大锅’联合组阵。一旦完成组网，整个阵列的空间分辨率将直接提升200倍，实现真正意义上的‘既看得见，又看得清’。十岁的‘中国天眼’，正值当打之年。属于它的深空传奇，才刚刚开始。"
-    ],
-    "topics": [
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572590.shtm",
-      "originalTitle": "“中国天眼”落成10周年，正值当打之年",
-      "publishedAt": "2026-10-08 16:37",
-      "retrievedAt": "2026-10-09T01:18:53.760Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:18:46.863Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "China's Sky Eye Turns Ten",
-      "intro": "A giant radio telescope in the mountains of Guizhou just celebrated its tenth birthday, and scientists say its best years are still ahead.",
-      "paragraphs": [
-        "Deep in the mountains of Guizhou, China, there is a giant silver bowl. It is 500 meters wide. Scientists call it FAST, and many people call it China's Sky Eye. In September 2016, it was completed. Its designers planned for it to work for at least thirty years. So at ten, it is just getting started.",
-        "The idea began long before the telescope was built. In 1993, astronomers around the world talked about building the next big radio telescope. A Chinese astronomer named Nan Rendong saw a chance for China to lead. In 1994, he and other scientists suggested using a natural valley in Guizhou. The valley's bowl shape meant less digging. Underground rivers carried away heavy rain. The surrounding peaks blocked radio noise from people.",
-        "Finding the right valley took years. Nan Rendong and young researchers walked through the karst mountains, carrying bamboo sticks and steamed buns. They checked hundreds of valleys. They finally chose Dawodang in Pingtang County. Building started in 2011, and the telescope was completed in September 2016. Its reflector is made of 4450 panels. Cables move those panels to shape a 300-meter dish. A 30-ton feed cabin hangs 140 meters above the surface.",
-        "But completing the machine was not the same as using it. At first, five control systems did not work well together. The feed cabin has no solid connection to the dish below. Wind and fog made measurements harder. A transformer burned out, and repairs took a whole month. Falling rocks damaged parts of the dish. Some imported parts broke often, and fixing them was slow. So the team decided to build key parts themselves.",
-        "Their hard work paid off. By 2019, the telescope had passed all its tests ahead of schedule. Since then, it has found over 1300 pulsars. Before FAST, humans had found about 2500 pulsars. It also caught a huge cloud of hydrogen gas, stretching two million light years across. Its surveys recorded over 1600 bursts from FRB 121102. And it found strong evidence for nanohertz gravitational waves — using data from just 3 years and 5 months.",
-        "Today the telescope observes more than 5300 hours each year. It works more than 98 percent of the time. Now scientists want to build a second stage. They plan dozens of 40-meter telescopes around FAST, all within 30 kilometers. Working together, the group could make images 200 times sharper. Two test telescopes already stand on nearby ridges. So this ten-year-old Sky Eye may still have its biggest discoveries ahead of it."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:24:57.261Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-09/2026-10-09-10-5348e0.webp",
-      "alt": "灰色调抽象抛物面天线静卧群山洼地之中",
-      "caption": "十年，正值当打之年",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-09-these-clues-might-point-to-life-on-other-worlds",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "这些线索可能指向外星生命",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-09",
-    "intro": "金星云层里出现了可疑的化学信号，火星上则找到了能忍受类似恶劣环境的微生物——两条线索，指向同一个问题：生命可能藏在哪里。",
-    "paragraphs": [
-      "金星表面热得足以熔化铅，按我们熟悉的生命标准，那里不可能有生物。但在金星表面之上大约48到60公里（30到37英里）的高空，有一层云，那里的温度和气压与地球相似。科学家在这层云里检测到了氧气、甲烷和磷化氢气体的可能痕迹。于是有研究者猜测：云里会不会住着微生物？不过这些单细胞生命必须在偶尔下沉到更低、更热的大气层时，承受严酷条件。",
-      "2021年，美国麻省理工学院（位于剑桥）的研究人员诺埃尔·布莱恩、萨拉·西格和同事提出一个设想：这些微生物只要能短暂耐受脱水，当它们沉入较热云层时；之后被气流带回更冷、更湿润的云层，细胞就可能复苏。布莱恩这么想是有依据的。几年前，她曾从地球平流层收集微生物。这一区域位于地表之上数十公里，环境同样严酷，而她发现的微生物似乎能在极端干燥中存活——正如金星微生物可能需要做到的那样。",
-      "地球上有些细菌会产生彩色色素，这些分子能帮细胞抵御有害的紫外线辐射。如果其他星球上也出现类似色素，那可能就是生命的线索；外星细胞或许也用类似色素来防晒。美国康奈尔大学（位于纽约州伊萨卡）的天体生物学家莉吉娅·科埃略最近分析了布莱恩采集的平流层细菌中的色素，发现这些色素会吸收或反射特定波长的光。她希望将来能在遥远行星上寻找类似的光与颜色特征，从而发现那些星球云层中可能存在的微生物。",
-      "这些发现对想象火星生命尤其相关。毕竟，地球平流层中的细胞所承受的条件，与火星表面环境相似。美国佛罗里达大学（位于盖恩斯维尔）的安德鲁·舒尔格花了多年时间寻找可能适应火星环境的地球微生物。他最近与NASA及哈佛大学（位于马萨诸塞州剑桥）的天体生物学家蕾切尔·哈里斯合作，去年发现了一种似乎满足多项火星生存条件的微生物，名为巴氏甲烷八叠球菌（_Methanosarcina barkeri_）。它靠将二氧化碳和氢气转化为甲烷获取能量，通常生活在污水、垃圾填埋场、稻田和湖底。这些环境与火星稀薄、干燥的大气截然不同，但它有一个关键优势：不需要氧气——而火星大气中没有氧气。舒尔格和哈里斯还证明，即使在接近火星的低气压下，它仍能制造甲烷。",
-      "这很重要，因为火星轨道器和漫游车已探测到甲烷气体渗入火星大气。不过，产甲烷的微生物可能很难被发现。它们或许需深藏于地下才能在低气压下存活。但既然巴氏甲烷八叠球菌在低气压下仍具活性，舒尔格指出，生命可能离火星表面相当近——如果存在，漫游车或许只需向下钻探20厘米（8英寸），就可能接触到这些单细胞生物。",
-      "NASA艾姆斯研究中心（位于加利福尼亚州山景城）的天体生物学家林恩·罗思柴尔德认为，靠近火星表面的微生物可能数量极少且存续时间极短。她设想，微生物可能像利用地球平流层的高空物种一样，把火星表面当作一段短暂穿越的恶劣通道——从一个栖息地迁移到另一个栖息地途中暂时忍耐。如果属实，那么火星风暴扬起的就不只是尘土，还可能裹挟微生物。它们可能‘飘浮着，只待找到一处能存活并生长的地方落脚’。2024年，NASA的毅力号漫游车抵达一个绰号为‘切亚瓦瀑布’的地点，在那里探测到过去存在水、有机物质等迹象。去年，研究人员发表论文提出，该地点可能曾经支持过生命。"
-    ],
-    "topics": [
-      "生命与演化",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/clues-life-venus-mars",
-      "originalTitle": "These clues might point to life on other worlds",
-      "publishedAt": "Thu, 08 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-09T01:20:02.702Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-09T01:19:50.571Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-09/2026-10-09-these-clues-might-point-to-life-on-other-worlds.webp",
-      "alt": "灰色调抽象星球与云层中悬浮几何符号",
-      "caption": "线索，藏在云层与尘土里",
       "kind": "editorial"
     }
   }
