@@ -1,5 +1,276 @@
 [
   {
+    "slug": "2026-10-26-d89204",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究发现土壤病毒调控深层土壤微生物碳泵",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-26",
+    "intro": "科学家把目光投向地下700厘米，发现病毒也许是深层土壤能长期存住碳的一环。",
+    "paragraphs": [
+      "地球陆地上超过一半的有机碳并不在地表，而在深层土壤里。它们能存很久，一个常被提到的原因是那里的微生物好像都在“休眠”，代谢很慢，碳分解也慢。可后来科学家发现，深层土壤里其实住着一批具备降解几丁质、纤维素和肽聚糖等复杂有机化合物功能的微生物类群，包括CPR细菌和CSP1-3谱系。既然有能把碳拆开的微生物在场，深层土壤的碳为什么还能长期留下来？这个问题一直没解开。",
+      "中国科学院生态环境研究中心土壤环境生物学团队联合国内外多家科研机构，在国际期刊《Nature Ecology and Evolution》发表研究论文，揭示了土壤病毒在深层土壤碳持久性中的关键调控机制。研究通过原位土壤剖面调查（0–700 cm）与全球宏基因组数据整合分析，采集并分析了216个宏基因组样本，并结合全球138个土壤剖面、涵盖0–1800 cm深度的1169个扩增子数据和503个宏基因组数据，构建了全球深层土壤病毒数据库（DSVR-DB）。",
+      "研究发现，随着土壤深度增加，病毒丰富度显著升高；病毒群落生态策略发生显著性转变，表现为溶原性病毒比例大幅上升。这表明在碳资源极度匮乏的深层环境中，病毒选择“搭便车”策略，通过与宿主细菌协同生存来应对资源限制。",
+      "研究发现，深层土壤中的病毒携带大量碳水化合物活性酶（CAZys）辅助代谢基因（AMGs），其中糖苷水解酶（GHs）和内溶素编码基因的丰度随深度增加而显著升高。这些病毒AMGs能够增强宿主细菌对几丁质等复杂聚合物的降解能力，从而缓解深层土壤中的碳限制。研究团队从453个高质量微生物基因组中鉴定出263个携带前病毒的基因组，并发现代表性前病毒通过编码GH23、GH108等降解酶以及热休克蛋白（HSP）、超氧化物歧化酶（SOD）等胁迫响应基因，显著增强了宿主在650–700 cm深层的碳获取能力和环境适应性。",
+      "为期16周的微宇宙培养实验结果表明，活性病毒处理组的病毒内溶素活性显著促进了微生物残体碳的积累，进而推动了矿物结合态有机碳（MAOC）的形成。偏最小二乘路径模型（PLS-PM）揭示，病毒裂解对微生物残体碳形成的贡献度（12%）显著高于其他因素。同时，深层土壤中微生物残体与MAOC之间表现为显著正相关，这凸显了病毒介导的微生物碳泵在深层碳封存中的核心作用。",
+      "中国科学院生态环境研究中心吴兴杰博士后与河北师范大学韩婉雪博士为论文共同第一作者，肖可青研究员与河北师范大学王凤花副教授为论文共同通讯作者，朱永官研究员参与并提供了关键指导。本研究还与浙江农林大学、中国科学院地球环境研究所、中国科学院城市环境研究所、中国科学院遗传与发育生物学研究所农业资源研究中心、法国里昂大学、德国柏林自由大学等国内外科研机构开展合作。本研究得到中国科学院先导专项和国家自然科学基金等项目资助。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573544.shtm",
+      "originalTitle": "研究发现土壤病毒调控深层土壤微生物碳泵",
+      "publishedAt": "2026-10-25 08:47",
+      "retrievedAt": "2026-10-25T23:20:54.267Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:20:51.794Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Soil Viruses Regulate the Deep Soil Microbial Carbon Pump",
+      "intro": "A new study reveals that soil viruses help stabilize carbon in deep soil by partnering with bacteria.",
+      "paragraphs": [
+        "Deep soil stores over half of the terrestrial organic carbon. For a long time, microbiologists believed microbes in deep soil were largely dormant, and their low metabolic activity explained the long-term persistence of soil organic carbon (SOC). However, recent studies found active microbial groups in deep soil capable of degrading complex organic compounds like chitin, cellulose, and peptidoglycan—including CPR bacteria and CSP1–3 lineages. This created a long-standing paradox: how does carbon remain stable if degrading microbes are active?",
+        "The study was published in Nature Ecology and Evolution. It was led by the Soil Environmental Biology Team at the Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, in collaboration with domestic and international institutions. The team conducted in situ soil profile surveys across four farmland ecosystems, covering 18 soil layers from 0 to 700 cm depth, and analyzed 216 metagenomic samples. They integrated these with global data: 138 soil profiles (0–1800 cm depth), 1,169 amplicon sequences, and 503 metagenomes—building the Deep Soil Virus Resource Database (DSVR-DB).",
+        "The study found virus richness significantly increased with soil depth. Viral community ecological strategies shifted markedly: the proportion of temperate (lysogenic) viruses rose substantially. This suggests viruses adopt a 'hitchhiking' strategy in carbon-poor deep environments—coexisting with bacterial hosts rather than lysing them immediately. Viruses carried abundant auxiliary metabolic genes (AMGs), especially carbohydrate-active enzymes (CAZys), including glycoside hydrolases (GHs) and endolysin-encoding genes—whose abundances increased significantly with depth.",
+        "From 453 high-quality microbial genomes, the team identified 263 prophage-carrying genomes. Representative prophages encoded GH23, GH108, heat shock protein (HSP), and superoxide dismutase (SOD) genes—enhancing host carbon acquisition and environmental adaptability at 650–700 cm depth. In a 16-week microcosm experiment, active virus treatment significantly increased endolysin activity, promoting accumulation of microbial necromass carbon and formation of mineral-associated organic carbon (MAOC).",
+        "Partial least squares path modeling (PLS-PM) revealed viral lysis contributed 12% to microbial necromass carbon formation—significantly higher than other factors. Critically, microbial necromass showed a significant positive correlation with MAOC—highlighting the central role of virus-mediated microbial carbon pump in deep carbon sequestration."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:25:51.780Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-26/2026-10-26-d89204.webp",
+      "alt": "抽象土层剖面中散布着细小颗粒与细线网络",
+      "caption": "地下深处，微小颗粒连成网络",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-26-in-northeastern-north-america-alpine-zones-are-t",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "北美东北部的高山，四十年间悄悄变绿",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-26",
+    "intro": "一项用41年卫星影像完成的研究发现，北美东北部88%的高山地带正在变绿，但强风让其中一些山头慢了下来。",
+    "paragraphs": [
+      "从二十世纪八十年代起，地球整体在变绿。变绿发生在多种生态系统中，包括人口密集区和北极圈以上人迹罕至的区域。高山也在变绿：阿尔卑斯山和落基山脉的植物群落随气候变暖而改变，变得更为葱郁。但在北美东北部，此前尚无系统性、大范围的地理尺度观测。",
+      "一项新研究补上了这一空白。该研究发表在《Ecosphere》上，由达特茅斯学院地理学家乔纳森·奇普曼领衔。研究团队使用1984至2024年间近1000幅陆地卫星（Landsat）影像，覆盖新罕布什尔州的白山、纽约州的阿迪朗达克山，以及魁北克加斯佩半岛的山地。他们利用归一化植被指数（NDVI）将影像颜色转化为‘绿度’值并逐年分析。结果显示：这些地区88%的高山区域（约11,352公顷）呈现显著绿化趋势；没有任何站点出现褐化。",
+      "奇普曼强调，这是一项遥感研究，并未实地鉴定具体植物种类。但绿度上升表明，植物群落组成很可能正在变化——正从叶片面积小、低矮的高山植物，转向更绿、更灌木状的物种。这种变化可能有多种路径：适应寒冷的高山植物可能逐渐衰退；适应温暖气候的低海拔植物可能向高处迁移并扩大分布；某些高山植物可能因更耐暖而排挤邻近物种；徒步者无意带入的外来种也可能参与其中。此外，二十世纪后期，研究区上风向发电厂排放的大量大气氮沉降，可能曾促进高山植物生长；尽管《清洁空气法》实施后此类排放已大幅减少，其生态影响或仍持续。",
+      "瑞士日内瓦大学生态学家阿蒂尔·巴伊尔（Arthur Bayle）未参与本研究。他在邮件中表示，令他惊讶的是，绿化现象在树线以上很高处也尤为显著，说明绿化不仅源于树木向上迁移，还涉及草本、灌木等多类植被本身的转变。他还指出：‘相似的绿化模式，并不意味着相同的生态过程在起作用。’",
+      "绿化并非均匀发生。北美东北部以强风著称——例如新罕布什尔州华盛顿山曾记录地面直接观测到的最高风速：每小时231英里（372公里/小时）。奇普曼指出，当地山峰常年受强风影响，使高山区降温，降低绿化敏感性；冬季强风携带冰粒，还会对高山植物造成类似‘喷砂’的物理损伤。因此，在温度主导型高山，变暖常导致更高海拔开始绿化；而在东北部，这一过程更为复杂。巴伊尔认为，强风抑制绿化这一假说‘值得进一步调查’。",
+      "这些发现可为保护工作提供依据。绿化速率较慢的区域，环境变化尚未深入，可能仍存留敏感或稀有的高山植物。奇普曼建议：‘例如高度迎风、受绿化影响较小的区域，或许应避免新建步道或基础设施，因为它们未来可能成为高山生物多样性的关键庇护所。’研究团队计划继续追踪绿化缓慢的地点，探究差异成因。奇普曼同时强调：‘这项遥感研究是野外科学的补充，而非替代。’"
+    ],
+    "topics": [
+      "气候与能源",
+      "地球与空间"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/articles/in-northeastern-north-america-alpine-zones-are-turning-green",
+      "originalTitle": "In Northeastern North America, Alpine Zones Are Turning Green",
+      "publishedAt": "Fri, 23 Oct 2026 13:25:03 +0000",
+      "retrievedAt": "2026-10-25T23:22:27.438Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:22:23.833Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Green Peaks: Northeastern Alpine Zones Are Turning Green",
+      "intro": "A new satellite study finds that 88% of alpine areas in northeastern North America have been greening since 1984. Strong winds may explain why some peaks are changing more slowly.",
+      "paragraphs": [
+        "Earth has been getting greener since at least the 1980s. This greening is happening in highly populated areas. It is also happening in largely uninhabited regions above the Arctic Circle. Alpine areas are greening too. Ecosystems in the Alps and the Rocky Mountains have become more verdant. A new study expands scientists’ understanding of this phenomenon in northeastern North America.",
+        "Researchers used 41 years of satellite data from 1984 to 2024. They analyzed alpine areas in the White Mountains of New Hampshire. They also analyzed the Adirondacks in New York. And they analyzed the mountains of Quebec’s Gaspé Peninsula. Researchers used nearly 1,000 Landsat images. They used the normalized difference vegetation index. They converted colors into a greenness value. They found that 88% of the alpine area was experiencing significant greening. That is about 11,352 hectares. None of the sites were getting browner.",
+        "The study was a remote sensing study. It did not draw conclusions about which plant species were present. Still, the results suggest the composition of plant ecosystems is likely changing. It is shifting from smaller alpine plants with less leaf area to greener, shrubbier species. This can happen in several ways. Cold-adapted alpine plants may slowly die out. Lower-elevation plants adapted to warmer weather may move up in elevation. Some alpine plants may be more resilient. They may outcompete their less resilient neighbors. Invasive species carried by hikers may also contribute. Atmospheric nitrogen from past industrial emissions may have fertilized some peaks.",
+        "Arthur Bayle is an ecologist at the Université de Genève. He studies greening in the Alps. He said the study connects satellite observations with deep knowledge of the landscape. He was surprised that greening was pronounced well above the tree line. That suggests greening involved a variety of vegetation. It was not simply upward expansion of trees. The phenomenon was not uniform. One reason may be strong winds. Mount Washington in New Hampshire holds the land record for the highest wind speed ever directly observed. That speed is 231 miles per hour. High winds keep alpine areas cooler. High winds in winter can carry ice particles. That leaves alpine plants essentially sandblasted.",
+        "Land managers could use the study’s information. They could identify priority sites for conservation. Places where greening is slower may still host sensitive or rare alpine plants. Highly wind-exposed areas are less subject to greening. Those areas might become important reservoirs of alpine biodiversity in the future. Managers may want to avoid building new infrastructure or trails there. The research team plans to study slower-greening places next. Jonathan Chipman is the study’s lead author. He emphasized that field studies of plant communities are necessary. Satellite studies complement field science. They do not replace it."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:27:00.060Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-26-2b38eb",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "西双版纳傣陶女陶艺师的新纹样",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-26",
+    "intro": "这次抓取返回的是中新网页面框架和导航，没有拿到正文，因此按轻听的规矩不硬写听稿。",
+    "paragraphs": [
+      "抓取回来的内容只有网页导航、搜索框、栏目链接和图片地址，正文部分是空的：文章在开头标题之后就被截断了。也就是说，除了标题里“西双版纳”“傣陶”“女陶艺师”“新纹样”“千年技艺”这几个词，我没有拿到任何可以核对的事实。",
+      "轻听的听稿要求每个事实、数字、因果和引语都能回到原文核对，编辑部补的背景也必须和来源分开标清楚。现在连原文都没有，任何展开都只能靠猜，而猜出来的手工艺故事听起来最像真的，也最容易骗人。",
+      "重新抓取时，只要补上三段关键信息就能动笔：一是人物和地点，她是谁、在哪里做陶；二是工艺，傣陶从采土、制坯到烧制大致怎么走；三是纹样，新纹样改了什么、为什么改、当地人怎么反应。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "文化传承"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720844.shtml",
+      "originalTitle": "守千年技艺 绘傣陶新章：一位西双版纳女陶艺师的“新纹样”",
+      "publishedAt": "Sun, 25 Oct 2026 21:14:01 +0800",
+      "retrievedAt": "2026-10-25T23:23:16.423Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:23:15.072Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-26-u-s-measles-cases-more-than-double-what-they-wer",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "美国今年麻疹病例已是去年全年的两倍多，疫情持续扩散",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-26",
+    "intro": "一种本可用两针疫苗几乎完全预防的疾病，今年在美国重新扩散，宾夕法尼亚州成为疫情最严重的一州。",
+    "paragraphs": [
+      "一种本可用两针疫苗几乎完全预防的疾病，今年在美国重新扩散。美国疾病控制与预防中心（CDC）数据显示，截至10月22日，全美已报告超过4580例麻疹病例，是2025年全年病例数的两倍多。NPR报道指出，这是美国几十年来最严重的麻疹 resurgence（回升）。",
+      "疫情最严重的是宾夕法尼亚州。据宾州卫生部上周五通报，今年已在44个县确诊至少1338例麻疹；截至10月21日，新增21例。已有250多人住院，5人死亡。全美范围内，2026年感染麻疹者中96%为‘未接种或接种情况不明’。",
+      "在病例最集中的兰开斯特县和米夫林县，受影响最大的是当地阿米什社区——这些社区疫苗接种率偏低。5名死者中，3人居住在兰开斯特县。上周四，宾州卫生部长德布拉·博根博士与米夫林县医护人员举行圆桌会，评估当地防控需求。她说：‘我们的州级指标和数据只讲了这次疫情的一部分故事，而倾听一线照护者讲述受疫情影响社区的真实情况，对完善公共卫生响应至关重要。’",
+      "卫生官员表示，接种疫苗是预防麻疹最有效的方式之一。麻疹、腮腺炎、风疹三联疫苗（MMR）接种两剂对麻疹的保护效力近97%，单剂约93%。宾州卫生部门称，10月前三周全州共接种超3.9万剂麻疹疫苗，高于平常一个月约2.5万剂的平均接种量。",
+      "其他州也在应对疫情。纽约州州长凯西·霍楚尔本月宣布该州进入灾难紧急状态；截至10月20日，纽约州已确诊超160例麻疹。犹他州今年确诊超700例，但据该州卫生与人类服务部称，最近三周无新发诊断。南卡罗来纳州2026年至少报告997例，疫情已于4月结束。"
+    ],
+    "topics": [
+      "健康与医学",
+      "流行与网络文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
+      "originalTitle": "U.S. measles cases more than double what they were last year as outbreak spreads",
+      "publishedAt": "Sun, 25 Oct 2026 16:35:35 -0400",
+      "retrievedAt": "2026-10-25T23:24:06.392Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:24:03.384Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 23,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-26-2026-fd509e",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "渣土和淤泥，怎样变成建筑用的石头",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-26",
+    "intro": "城市挖出的渣土和淤泥，除了填埋和焚烧，还能在本地变成建筑用的石头。",
+    "paragraphs": [
+      "10月24日，2026世界青年科学家峰会在浙江温州园博园拉开帷幕。在峰会展示交流活动现场，一块块由工程渣土、河道淤泥转化而来的生态石材整齐陈列，观感和质地与天然石料别无二致。从会场走向园博园，这种‘变废为宝’的体验愈发真切：脚下的铺地石、路边的路沿石、错落的假山与桥梁，大多由园区自身产出的建筑渣土就地加工再造而成。就地消纳、就地生产、就地应用，一条‘点废成金’的循环链条在此形成完整闭环。",
+      "固体废弃物价值化、资源化利用，是当前我国推进绿色低碳转型的重要命题。城市建设和工业生产每天产生大量固废，如煤矸石、粉煤灰、工业尾矿渣、农作物秸秆等，种类繁多、体量庞大。长期以来，对这些大宗固废，最主要的处置方式是填埋和焚烧。填埋虽然简单，却持续占用土地，堆存产生的渗滤液与扬尘还可能污染土壤和地下水；焚烧则依赖高温，能耗高、碳排放可观。并且，无论填埋还是焚烧，都绕不开远距离运输，途中产生的废气、废水与扬尘，又给城市添上一重负担。今年初，国务院颁布《固体废物综合治理行动计划》，进一步把大宗固废物综合利用提上重要日程，治理思路也从‘能处置、少污染’转向‘减量化、资源化’并重。",
+      "浙江星创环保集团总裁邵璋介绍这项全国首创的‘淤泥制石’核心技术，做的正是让渣土‘重回’岩石状态。研发团队历时五年攻关，从血浆分离技术中获得启发，通过纳米级改性改变淤泥的亲水性，实现固液高效分离，并模拟自然界岩石风化的逆过程，使废弃渣土在低温高压下重新结晶。整套生产工艺摒弃了传统建材的高温烧制流程，依托千吨级真空压制设备完成固废物料的标准化处理。",
+      "生态石产品售价较天然石材降低30%左右，制品中固废含量可达40%以上，高于行业平均水平。在温州园博园项目中，生态石应用总量超过1万立方米，相较外购天然石材节约建设成本600余万元。目前，该成套技术已形成规模化应用能力，可对建筑渣土、盾构泥、河道淤泥、市政污泥、油泥尾渣、焚烧飞灰、煤矸石等18大类固废进行资源化处置，成功转化出无机生态石、护坡石、固化土、仿木板材、生物质燃料等八大类高附加值绿色产品，覆盖市政建设、园林景观、基础建材等多个应用领域。",
+      "‘渣土制石’，为地球少开一座山，让青山常在。这种‘本地产生、本地处理、本地利用’的闭环已从温州走向全国，在杭州、上海、深圳、重庆等70余座城市落地生根。面向未来，星创环保规划在全国100座城市落地500条生产线，朝着百亿级循环产业集群目标稳步迈进；同时联动泰国、越南、印度尼西亚、哈萨克斯坦等国家，对外输出中国固废资源化成套解决方案。"
+    ],
+    "topics": [
+      "工程与制造",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "光明网科技",
+      "region": "mainland",
+      "url": "https://tech.gmw.cn/2026-10/25/content_39064453.htm",
+      "originalTitle": "2026青科会观察：渣土变石点废成金，固废资源化有新解法",
+      "publishedAt": "2026-10-25T18:25:21+08:00",
+      "retrievedAt": "2026-10-25T23:25:05.882Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-25T23:25:03.441Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 13,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-26/2026-10-26-2026-fd509e.webp",
+      "alt": "松散颗粒逐渐过渡为规整几何块体的抽象图",
+      "caption": "从松散泥土到规整石块",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-25-de4912",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "不用贵金属，分子筛也能给分子加上碳和氧",
@@ -3114,285 +3385,6 @@
       "src": "/editorial/2026-10-11/2026-10-11-inventing-pad-thai.webp",
       "alt": "冷灰纸纹背景上一口抽象炒锅与米粉线条，旁有极简食材轮廓。",
       "caption": "一道被设计出来的国菜。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-11-ai-47da2c",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "教育部：教师发展中心全新上线 教师AI素养全覆盖培训启动",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-11",
-    "intro": "一个新上线的教师发展中心，一项面向全体教师的AI素养培训——教育部把这两件事放在了一起。",
-    "paragraphs": [
-      "你每天在教室里见到的老师，可能也正在当学生。教育部宣布，教师发展中心全新上线，同时启动教师AI素养全覆盖培训。也就是说，学AI这件事，这次对象不是学生，而是站在讲台上的那批人。",
-      "两条消息放在一起看，一条是平台，一条是行动。教师发展中心从名称上看，服务的是教师自身的成长；而AI素养培训，则是往这个方向里填进的第一批具体内容。前者提供去处，后者提供内容，像是先把房子盖好，再往里搬东西。",
-      "真正值得停一下的，是“全覆盖”这三个字。它说的不是先挑一部分老师试点，而是面向全体教师。"
-    ],
-    "topics": [
-      "教育",
-      "数字生活"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-10/10710502.shtml",
-      "originalTitle": "教育部：教师发展中心全新上线 教师AI素养全覆盖培训启动",
-      "publishedAt": "Sat, 10 Oct 2026 16:18:25 +0800",
-      "retrievedAt": "2026-10-11T00:20:31.566Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:20:28.855Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "China's Education Ministry Opens a New Teacher Development Center",
-      "intro": "China's Ministry of Education has launched a new online center for teachers and started AI literacy training for all of them.",
-      "paragraphs": [
-        "This news comes from China News Service, which covers education. The Ministry of Education launched a new Teacher Development Center. It is online now. At the same time, a new training program about AI has begun.",
-        "The training is described as full coverage. That phrase matters. It means the plan is aimed at teachers everywhere, not just a few schools. Not a small experiment in one city.",
-        "So why does AI matter for teachers? These tools can write, translate, and explain things. They can also make mistakes and sound confident anyway. Teachers need to know both sides.",
-        "A new center and new training together point to one idea. Understanding technology is becoming part of a teacher's job. That job keeps changing, year after year.",
-        "Still, one announcement does not tell us everything. We do not yet know the courses, the schedule, or how teachers will be tested. Those details will matter later.",
-        "So here is a question worth keeping. What should a teacher learn about AI? And what should stay human? Classrooms may answer that soon."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:25:31.159Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-11-2a310f",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-11",
-    "intro": "在10月10日世界精神卫生日到来之际，世卫组织发布新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式。",
-    "paragraphs": [
-      "10月10日是世界精神卫生日。就在这个日子到来之际，世界卫生组织发布了一份新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式。世卫组织把这一转变称为“去机构化”。",
-      "世卫组织指出，目前许多精神健康问题患者仍生活在大中型精神病院和社会照护机构中。其中近半数人在这些机构中被非自愿收治，时间长达数月、数年甚至数十年，与外界隔绝。",
-      "从机构化照护转向社区精神卫生照护的过程被称为“去机构化”，旨在帮助那些在精神病院长期住院（六个月或以上）的人重返社区生活，并获得所需的照护、支持和机会，从而过上充实的生活。新指南为精神病院管理者实施“去机构化”列出了切实可行的行动，重点包括：减少精神病院入院人数和长期住院，改变机构做法以更好地保护人们的权利，以及帮助人们出院并在所需支持下重返社区生活。",
-      "指南还明确指出，去机构化不能仅靠医院实现。获得住房、医疗保健、社会支持、教育、就业机会以及家庭支持，对于帮助人们在社区中过好生活至关重要。",
-      "许多国家正在努力加强社区精神卫生服务，但进展仍不均衡。世卫组织《精神卫生地图集》显示，在报告数据的国家中，仅有9%已完全转向社区精神卫生照护，而超过半数（53%）仍处于改革初期阶段。在入住精神病院的人中，超过四分之一（28%）住院时间超过六个月。",
-      "这份新的去机构化指南与今年世界精神卫生日的主题“倾听亲身经历：以真实的声音推动真正的改变”相契合，并强调应确保有亲身经历者成为塑造影响其生活的政策、服务和决策的积极参与者。这份指南由来自世界各地的专家共同制定，其中包括有亲身经历者。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142970",
-      "originalTitle": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
-      "publishedAt": "Fri, 09 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-11T00:21:18.633Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:21:17.436Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-11-7-4509ce",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "哈佛商学院把7位老师的AI分身放进创业训练营，教授觉得瘆人，学生却喜欢",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-11",
-    "intro": "哈佛商学院把7位老师的AI分身放进了创业训练营：学员随时能练路演，教授自己觉得有点瘆人，学生却很喜欢。",
-    "paragraphs": [
-      "“我就是想要一个随时能说话的平台，哪怕对方是个克隆体。”美国波士顿大学机械工程博士生普拉纳夫·苏尔塔尼亚（Pranav Sultania）说。他一边攻读博士学位，一边推进创业项目，能够接受创业辅导的时间并不固定。今年4月，哈佛商学院上线为期8周的创业训练营HBS Foundry，其中的教师人工智能（AI）分身为他提供了一个可以随时交流、反复练习的对象。",
-      "这个项目最受关注的是7位哈佛教师和高级讲师的AI数字分身。据《财富》报道，这些教师均自愿参与制作，接受了专门访谈、录制和测试，并持续提供反馈。哈佛还与AI视频生成公司HeyGen合作，让学员能够通过视频通话，与以真实教授为原型制作的AI虚拟人物交流。花699美元上一期8周课程，学员可以带着自己的创业想法进入平台，在AI导师的指导下打磨商业模式、完善创业计划，并反复模拟投资人路演、销售电话和董事会会议。作为对比，哈佛商学院2026—2027学年工商管理硕士（MBA）一年的学费为84760美元，前者还不到后者的1%。不过，两者并非同一种教育产品：哈佛创业训练营不是MBA学位项目，不授予学位，也不计入学分，它仅仅面向创业者提供商业知识学习、创业辅导和模拟训练。",
-      "这些AI“教授”不仅能够反复回答问题，还被刻意训练得不那么“好说话”。哈佛创业训练营教师联合主席汤姆·艾森曼（Tom Eisenmann）说，团队有意让AI避免大语言模型常见的迎合倾向，主动质疑创业者的想法。几乎没有创业项目能在第一次提交时获得认可，甚至有人连续花费10个小时与AI反复交流，不断修改自己的方案。媒体记者莎拉·凯斯勒（Sarah Kessler）也亲自测试了这套系统。她故意向哈佛商学院高级讲师杰夫·巴斯甘（Jeff Bussgang）的AI分身推销一个荒诞的创业想法——打造一个让香蕉配送更快的“香蕉版Uber”。屏幕中的巴斯甘始终保持着礼貌的微笑，但并未被这个创业想法说服。随后，凯斯勒向真人巴斯甘介绍了同样的项目，得到的反应也并无二致。谈及自己的AI分身，巴斯甘承认，这种模拟确实让人觉得有点“瘆人”，但他随即补充道：“我的学生们很喜欢它。”",
-      "哈佛不是唯一这么做的学校。据报道，哈佛创业训练营已在全美50个州的100多所大学进行测试，2026年夏季约有760名创业者通过所在高校参与该项目。美国佐治亚理工学院便是其中之一。该校创业项目负责人哈罗德·所罗门（Harold Solomon）将哈佛创业训练营纳入面向博士生和教师的12周创业工作坊。他坦言，自己每周最多只能安排20至30场辅导会议，再多便力不从心。“我们无法一直靠面对面交流服务整个班级，更不用说整个校园了。”实际上，佐治亚理工早在2016年就开始使用AI助教吉尔·沃森（Jill Watson），在课程讨论区回答学生提问。2025年，该校教授大卫·乔伊纳（David Joyner）又为自己制作了名为“DAI-vid”的AI分身，并将其用于生成式AI在线课程。英国帝国理工商学院也开展了类似尝试。2024年，该校为教授戴维·施里尔（David Shrier）制作了名为“Davatar”的AI分身，将其用于AI创业课程。2025年，学院又推出3个教师数字分身，应用于在线MBA和高级管理人员MBA课程，为学生提供课程答疑等支持。美国伊利诺伊大学厄巴纳—香槟分校的实践则更进一步。据该校9月16日发布的报道，吉斯商学院已有约12名教师拥有声音或视频数字分身。教师只需接受一次约30分钟的录制，学校便可以根据其形象和声音生成数字讲师。此后，当课程内容发生变化时，教师只需修改文稿，就能生成由AI分身讲授的新视频，而无须重新录制。",
-      "当教授的知识、声音乃至形象都可以被AI复制，高等教育的价值是否也会随之改变？哈佛商学院认为，Foundry能够将创业支持扩展到更多人，包括那些可能永远无法进入哈佛学习、也难以接触主要创新生态系统资源的创业者。乔伊纳也认为，AI分身有助于扩大优质教育资源的覆盖范围，但教授本人必须深度参与制作，确保数字分身能够准确反映其教学理念。AI能够提供知识和指导，并不意味着它能复制完整的教育体验。美国斯坦福大学讲师基安·卡坦弗鲁什（Kian Katanforoosh）指出，AI可以回答无数问题，用不同方式解释同一个概念，却无法真正了解一名学生。真人教授能够长期观察学生的成长、发现其潜力，并凭借自身的声誉为学生提供推荐和支持，而AI目前难以承担这样的角色。对于被“克隆”的哈佛商学院教授希卡尔·高斯（Shikhar Ghosh）而言，AI分身的意义并不是取代自己，而是让创业者在与真人导师见面前充分准备，把有限的面对面交流时间留给更需要人类判断和对话的问题。",
-      "还有一个细节挺有意思：Foundry最受欢迎的功能之一，并非AI分身，而是供创业者彼此交流的同伴论坛。艾森曼表示：“他们喜欢AI，也在使用AI，从中学到了很多。但说到底，还是离不开人与人之间的交流。”"
-    ],
-    "topics": [
-      "AI 与计算",
-      "教育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572708.shtm",
-      "originalTitle": "哈佛“克隆”7位名师：有点瘆人但学生们喜欢",
-      "publishedAt": "2026-10-10 20:20",
-      "retrievedAt": "2026-10-11T00:24:20.694Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:24:14.769Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-11/2026-10-11-7-4509ce.webp",
-      "alt": "冷灰纸纹上长桌排列数个发光几何方块，细线相连。",
-      "caption": "课堂里的AI分身。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-10-anger-or-fear-dogs-may-be-able-to-read-it-on-you",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "狗可能从你的脸上分辨出你在生气还是害怕",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-10",
-    "intro": "一项新研究提示，狗只靠看人的脸，就能分辨出不同的情绪，甚至能把生气、悲伤和害怕区分开。",
-    "paragraphs": [
-      "钥匙一晃、牵引绳一抖，很多狗立刻就知道要出门了。狗读懂人的本事，也许比我们以为的还要强。一项新研究提示，狗光看人的脸，就能分辨出不同的情绪。",
-      "过去的研究已经发现，狗能判断一张脸是正面情绪还是负面情绪，而且这两种情绪似乎会点亮狗脑的不同区域。但还有问题没答案：生气和害怕都属于负面情绪，狗能分清这两者的差别吗？要读出情绪，那张脸必须是它认识的人吗？",
-      "奥地利维也纳大学的神经科学家劳拉·库阿亚和她的团队，招募了14只家养犬，先训练它们一动不动地待在核磁共振（MRI）扫描仪里。库阿亚说：‘它们是非常、非常棒的受试者。’然后，机器会记录狗在看人脸图片时的大脑活动。",
-      "在一个实验里，狗看的是陌生人的脸，表情要么开心，要么中性。结果，开心的脸让狗脑中的奖赏区域，比中性表情时更活跃。在另一个实验里，研究者测试了几种负面情绪。面对生气或悲伤的脸，和面对害怕的脸，狗脑的反应不一样。研究者把这些发现发表在8月10日的《iScience》上。",
-      "库阿亚说，这是第一份证据，说明狗能区分人脸上的不同负面情绪。这也意味着，狗处理情绪信息时的细致程度，比科学家过去以为的更高。不过她提醒，结果不一定适用于所有狗，因为这项研究的对象主要是边境牧羊犬和金毛寻回犬。",
-      "研究团队现在正在做另一项核磁共振研究，看狗脑如何回应狗发出的一种特定声音，那被认为相当于狗版本的‘笑’。至于猫，库阿亚的团队暂时没有计划开展MRI研究，因为猫可能更难被哄着坐稳接受脑部扫描。"
-    ],
-    "topics": [
-      "生命与演化",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
-      "originalTitle": "Anger or fear? Dogs may be able to read it on your face",
-      "publishedAt": "Fri, 09 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-10T00:56:35.798Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-10T00:56:27.885Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Can Dogs Read Anger or Fear on Your Face?",
-      "intro": "A new study suggests dogs can tell the difference between anger and fear just by looking at human faces.",
-      "paragraphs": [
-        "If you have a dog, you likely know how good these animals are at reading subtle cues. Jangle a key or dangle a leash and many pooches know it’s time to go outside. But man’s best friend may be even more in touch with our feelings than we realize. Dogs can distinguish between certain emotions just by looking at our faces, a new study suggests.",
-        "Past studies had shown dogs can tell if someone’s face is wearing a positive or negative expression. The two emotions seem to trigger activity in different areas of a dog’s brain. But many questions remained. Could dogs tell the difference between two negative emotions, such as anger versus fear? And to read those emotions, did the faces need to be familiar to the dog?",
-        "To find out, Cuaya and her team started by training 14 family dogs to stay still inside an MRI scanner. 'They are very, very good at the task,' Cuaya says. The machine would then track the dogs’ brain activity.",
-        "In one experiment, dogs looked at images of unfamiliar faces with happy or neutral expressions. Happy faces lit up a reward region in the animals’ brain more than neutral faces did. In another experiment, the researchers tested several negative emotions. The dogs’ brains reacted differently to angry or sad faces versus fearful ones. The researchers shared these findings August 10 in iScience.",
-        "This is the first evidence that dogs can distinguish between negative emotions on our faces, Cuaya says. It suggests dogs can process emotional information in more detail than scientists once thought. But the findings might not be the same in all dogs, Cuaya cautions. Her group focused on border collies and golden retrievers.",
-        "Her team is now working on another MRI study in dogs. This one looks at how the canine brain responds to a certain sound that dogs make. It’s thought to be their version of laughter. What about cats? Cuaya’s team is not planning any MRI studies in them. Our feline friends may be a bit harder to coax into sitting still for brain scans."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-10T01:10:20.662Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-10/2026-10-10-anger-or-fear-dogs-may-be-able-to-read-it-on-you.webp",
-      "alt": "一只狗的侧脸剪影，前方漂浮着几片抽象几何色块。",
-      "caption": "狗或许能读懂表情里的情绪。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-10-as-ai-closed-in-on-unique-games-proof-researcher",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "听说 AI 要证明「唯一游戏猜想」，研究者三天赶出论文",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-10",
-    "intro": "一份原本要写几个月的论文，最后三天就挂到了网上——因为传闻说，AI 马上就要证明同一道题。",
-    "paragraphs": [
-      "2026 年 9 月 11 日早上，麻省理工学院的 Dor Minzer 收到朋友发来的短信，问他是不是快要解决理论计算机科学里最有名的一个悬而未决问题了。他起初以为是玩笑，可消息一条接一条地涌进来，传闻渐渐拼出了形状：刚刚宣布过一项流体难题证明的 OpenAI，据称又找到了「唯一游戏猜想」的证明，随时可能公开。如果手上有自己的成果，最好现在发。Minzer 并没有证明这个猜想，但他和研究生 Yumou Fei、Shuo Wang 刚刚证明了与之密切相关的一个里程碑式结果。论文通常要写上几个月甚至更久，他们只用三天，就把一份 95 页的稿子挂到了网上，首页写着：‘The current version of the manuscript is complete mathematically, but it is not in the shape we wished to share in.’ 这个仓促的决定很快被证明是对的——10 月 6 日，OpenAI 宣布证明了唯一游戏猜想，同时公布数学各领域另外 376 项结果。",
-      "要听懂他们在证明什么，得先知道这类问题长什么样。它的核心是「同时满足很多条互相牵制的条件」。生活里到处都是：填一张数独，或者给婚礼排座位——你想让朋友坐在一起，又得让合不来的人分到不同桌，而且每张桌子都得坐满。这类问题要找到精确解，有时很难，甚至根本不存在。如果条件互相冲突，完美方案就没有；就算完美方案存在，已知的找法也可能慢得让人绝望。于是研究者退一步，去找「能满足大部分条件」的近似解。问题就变成了：为什么有的近似解好找，有的难找？卡内基梅隆大学的 Ryan O’Donnell 说：‘He’s put out many great papers on this topic. This is another truly great one.’",
-      "「唯一游戏猜想」就长在这条边界上。它由 Subhash Khot 在 2002 年提出，那时他还是个研究生。猜想针对的是一类关于「图」的问题：图是由节点和连接节点的边组成的网络，你要给节点上色，每条边带一条规则，规定两端节点的颜色关系。比如某条边要求两端同色；另一条边规定一端是红色，另一端就必须是蓝色，一端是绿色，另一端就必须是黄色。问题难不难，取决于图的形状、可用的颜色数量和这些规则。Khot 关心的是这样一种情形：最好的上色方案能满足大约 99% 的规则，可就是这剩下的 1% 让它极难找到。直觉上，退一步去找只满足 1%、甚至 0.001% 规则的上色方案，应该容易得多。唯一游戏猜想说，这个直觉是错的——无论你把标准放松到什么程度，总有一些情况，连这么差的方案也难找。",
-      "这个猜想真正的价值，是它牵着一大串看似无关的问题。研究者用它去攻关于泡沫几何、投票系统性质的问题。2008 年，Prasad Raghavendra 证明：如果这个猜想成立，某个经典算法对每一个「不存在完美解」的约束满足问题都是最佳策略——你没法利用某个具体问题的特殊性做得更好。但它有个盲点：它只管「最好方案能满足大部分约束」的情况，对存在完美解、也就是 100% 满足的情况，什么也没说。",
-      "为了补上这块，Khot 定义了「2 对 1 游戏」问题，把规则放得更松：原来一条边一端的颜色定了，另一端只剩一种选择；新版本允许两种。他猜想，这里存在最佳方案能满足全部条件、但要找到满足任意极小比例条件的方案仍然很难的情况。证明它，还能带出一批不属于唯一游戏猜想范围的问题。Minzer 和两位学生九月的论文，证明的正是这个第二猜想的一个轻微变体，后果几乎一样。这项工作他做了七年：2018 年他还是研究生时，参与过一项备受瞩目的成果，那是朝证明 Khot 两个猜想迈进的第一个重要进展，此后他的进展停滞了。2025 年，他和刚读完一年级研究生的 Fei、Wang 聊起 2 对 1 问题。Minzer 说：‘I gave them two options of which problem to choose. They were brave enough to choose this one.’ 要拿下它，他们得从这道题搭一座桥，通向另一个难度已经被弄清楚的问题——而在 Minzer 早年的工作里，搭桥的第一步，是把图的上色问题转换成关于「纠错码」的问题：一种给信息编码、让接收方能够发现并修正传输错误的方法。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
-      "originalTitle": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
-      "publishedAt": "Wed, 07 Oct 2026 15:08:46 +0000",
-      "retrievedAt": "2026-10-10T00:57:55.503Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-10T00:57:49.956Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-10/2026-10-10-as-ai-closed-in-on-unique-games-proof-researcher.webp",
-      "alt": "由细线连接的抽象节点网络，一侧有速度线。",
-      "caption": "一道数学猜想与追赶它的时间。",
       "kind": "editorial"
     }
   }
