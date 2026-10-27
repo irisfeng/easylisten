@@ -1,5 +1,277 @@
 [
   {
+    "slug": "2026-10-27-the-bloody-palette-of-the-animal-kingdom",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "动物血液不只有红色：章鱼血呈蓝色，南极冰鱼血几乎透明",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-27",
+    "intro": "从章鱼的蓝血到南极冰鱼近乎透明的血，动物界的血液颜色比我们想的丰富得多，而每一种颜色背后都对应一套运送氧气的办法。",
+    "paragraphs": [
+      "鼻子碰破了，手指扎破了，流出来的血总是红的。可要是把整个动物界看一遍，红色只是众多答案里的一个。有的动物血是蓝的，有的是紫的，有的是绿的，还有的是乳白色、几乎透明的。同样是运送氧气的液体，为什么颜色能差这么多？",
+      "先说我们自己。血液的红色来自血红蛋白，它是红细胞里的一种蛋白质，里面装着铁原子。铁原子抓住氧气，血就显得鲜红；氧气少了，颜色就变成发暗的褐红。章鱼、鱿鱼，还有虾和蟹，用的是一种叫血蓝蛋白的蛋白质，里面装的是铜原子。铜原子抓住氧气会发蓝，它们的血因此是蓝色的，鲎也就是马蹄蟹，同样是一身蓝血。血蓝蛋白抓氧的效率不如血红蛋白，但它在低温下工作得特别好，深海正合适。研究还提示，它可能不只负责运氧，比如参与免疫、帮助伤口愈合。",
+      "腕足动物和生活在海底的花生虫，血是紫色的，它们用的是一种含铁、本身发紫的蛋白质，叫血赤蛋白。海鞘这种软软的、像土豆一样的海洋动物，血是黄绿色的，原因目前还有争论：一种说法和它们血液里富集的钒有关，另一种说法和吃有关，它们消化海水里的浮游植物时会产生类胡萝卜素，这类色素是黄、红或者橙色的。",
+      "新几内亚有几种蜥蜴，运送氧气用的还是血红蛋白，但它们会把血红蛋白分解成一种天生的绿色色素，叫胆绿素。人得黄疸时皮肤呈现黄绿色，也是这个分子在高浓度下的效果。多数脊椎动物会继续把胆绿素分解成别的、颜色暗淡的物质，这几种蜥蜴不这么做，色素在血液里越积越多，最后绿色盖过了血红蛋白的红色。",
+      "南极冰鱼是目前已知唯一不制造血红蛋白、也没有红细胞的脊椎动物，血液是乳白半透明的，研究者形容它们像幽灵一样。它们不靠任何抓住氧气的蛋白质，而是让氧气直接溶进血液。它们的身体也做了配套改动：心脏和毛细血管比别的南极鱼更大，能泵出和循环更多的血；捕食时不追不跑，埋伏着等猎物靠近，耗能少，需要的氧也少。冰鱼的血红蛋白基因为什么会从DNA里消失？这仍是谜，研究者连先失去红细胞还是先失去血红蛋白都还说不清。一个猜想是：南大洋的水又冷又富含氧气，氧气足够直接进入血液，血红蛋白这个中间人就显得多余了。",
+      "海拔越高，氧气越稀薄，鹿鼠却能生活在海拔约四千多米的地方，比很多人开始出现高原反应的高度还高得多。它的血红蛋白和氧结合得特别紧，安第斯山的蜂鸟和高原上的黑斑蛙也有类似的改变。不过适应总有代价，结合得太紧，氧气就不容易松开、送进组织。鹿鼠的补偿办法是让肌肉纤维里多一些能释放氧的线粒体。研究这些奇怪的血，也可能帮到人：鹿鼠的血红蛋白演化或许能启发慢阻肺这类缺氧疾病的治疗；而对全球近二十亿贫血的人来说，那身透明血的南极冰鱼，也许藏着线索。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/the-bloody-palette-of-the-animal-kingdom-1286077/",
+      "originalTitle": "The Bloody Palette of the Animal Kingdom",
+      "publishedAt": "Mon, 26 Oct 2026 15:00:00 +0000",
+      "retrievedAt": "2026-10-27T00:31:03.724Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:30:59.900Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why Animal Blood Comes in So Many Colors",
+      "intro": "Blood is not always red. The colors reveal how different animals survive in their environments.",
+      "paragraphs": [
+        "When you scrape your knee, the blood you see is red. But red is not the only color for blood in the animal kingdom. Some creatures bleed blue. Some bleed green or yellow. Antarctic blackfin icefish bleed ghostly white. Scientists have studied these colors to understand how blood works.",
+        "In humans and many animals, a protein called hemoglobin carries oxygen. Hemoglobin contains iron atoms. When iron binds oxygen, blood is bright cherry red. When less oxygen is bound, it’s a muddier brown-red. Octopuses, squid, shrimp, and crabs use hemocyanin instead. It contains copper atoms, which look blue when bound to oxygen.",
+        "Some marine creatures — like clam-like brachiopods and peanut worms — bleed violet. They use hemerythrin, an iron-rich purple protein. Some sea squirts bleed greenish yellow. One candidate for the color is vanadium. Another theory points to diet: metabolizing marine phytoplankton creates yellow-orange carotenoids. Several lizard species in New Guinea have green blood. They break down hemoglobin into biliverdin — a green pigment — and accumulate it so highly that it overwhelms the red of hemoglobin.",
+        "Antarctic blackfin icefish of the family Channichthyidae are the only known vertebrates that do not make hemoglobin and do not have red blood cells. Their blood is milky, translucent white. Instead of hemoglobin, oxygen dissolves directly into their bloodstream. They have larger hearts and capillaries, and they are patient ambush predators — lying in wait rather than darting, so they expend less energy and need less oxygen.",
+        "In high-altitude ecosystems, some species have evolved hemoglobin that binds oxygen more tightly. The deer mouse lives up to 14,000 feet above sea level. Its hemoglobin makes extra tight bonds with oxygen. But this makes it harder to release oxygen into tissues. To compensate, the mouse has higher quantities of oxygen-releasing mitochondria in its muscle fibers.",
+        "These unusual blood systems may inform human health. Deer mouse hemoglobin evolution could inspire therapies for hypoxia-inducing diseases, including chronic obstructive pulmonary disease. Icefish — transparent bleeders — may hold clues for treating anemia. As Postlethwait says, 'the icefish have figured it out.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:40:09.886Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-27/2026-10-27-the-bloody-palette-of-the-animal-kingdom.webp",
+      "alt": "三支盛有蓝、红、透明液体的玻璃试管静置在浅灰台面上",
+      "caption": "同一种氧气，不同的颜色。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-27-feeling-nervous-work-that-system-to-calm-it-down",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "紧张时身体会自动加速，科学家正研究如何主动让它慢下来",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-27",
+    "intro": "压力来的时候，身体会自动加速；科学家正在弄清楚，我们怎样主动踩下那脚刹车。",
+    "paragraphs": [
+      "考试前，或者要上台前，你可能有过这样的体验：压力激素涌进血液，心跳变快，血压升高，呼吸也变急。这些反应都不经过思考，由交感神经系统自动启动。不管你面对的是真正的危险，还是一场大考，它都会出手。交感神经的另一套系统叫副交感神经系统，负责把身体带回休息状态：降低压力激素、放慢心跳、降低血压。纽约大学朗格尼医学中心的神经科医生帕特里西奥·米拉尔·韦尔内蒂说：‘ consciously, you can’t tell your heart to slow down.’ 但通过一些干预，你能多一点掌控。",
+      "其中一个关键角色是迷走神经。它从脑干延伸到腹部，呼吸练习可以激活它，冷水疗法也可能有同样作用。有一项小研究：科学家让25人做心算，其中12人此前戴过一种面部冷却面罩，用来模拟把脸浸入冷水中——这是已知的刺激迷走神经的方法。所有人都因心算而紧张，但戴过面罩的人释放的皮质醇更少，恢复得也更快。皮质醇是一种压力激素。这项研究发表在《Scientific Reports》上。",
+      "哼唱也进入了研究者的视线。2025年10月的一项研究显示，慢呼吸加上哼唱可以提升心率变异性——即心跳间隔时间的波动程度。高心率变异性是神经系统调节良好的标志之一，物理治疗师卡琳·斯蒂尔解释说，这表示‘你的身体内部正在减少自我对抗’，也更能灵活切换压力与放松状态。她在华盛顿州塔科马市的普吉特海湾大学工作。",
+      "还有一种做法是轻拍皮肤特定部位。研究显示，这种拍打可降低压力激素水平，也能减缓心率和降低血压。它甚至被用于某些状况的辅助治疗，比如创伤后应激障碍（PTSD）。2025年的一篇综述提出，拍打可能向大脑发送信号，促使副交感神经系统接管。",
+      "那么哪一种方法最好？波士顿麻省总医院本森—亨利身心医学研究所的达尔尚·梅塔说：‘There’s really no one best way.’ 他指出，网上几乎每种流行技巧都能找到支持它的小型、一次性研究。真正重要的是找到适合自己的方法并坚持练习。他说：‘It’s not important which practice [people adopt]… What’s important… is that people do practice [it].’ 帕特里西奥·米拉尔·韦尔内蒂补充说，哼唱和吟诵等做法早已存在于古老的精神实践中，‘People have been doing [them] for centuries.’",
+      "这些方法不是魔法开关，而是给身体多一个调节选项。它们背后的研究大多规模较小，效果也因人而异。慢而深的呼吸，也许是你早就用过的那一个。那么下一次紧张来临，你愿意先试哪一个？"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
+      "originalTitle": "Feeling nervous? Work that system to calm it down",
+      "publishedAt": "Mon, 26 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-27T00:32:12.117Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:32:06.292Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 34,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-27-6dd5e0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "铁三世界杯韩国统营站：中国选手包揽女子冠、亚军",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-27",
+    "intro": "在2026年10月24日举行的铁人三项世界杯韩国统营站比赛中，中国选手林鑫瑜和黄安琪包揽女子优秀组冠、亚军，总成绩分别为56分42秒和56分45秒。",
+    "paragraphs": [
+      "先记住两个数字：56分42秒，56分45秒。这是10月24日铁人三项世界杯韩国统营站女子优秀组的冠军和亚军成绩，拿到它们的，是两位中国选手——林鑫瑜和黄安琪。第三名是法国选手玛蒂尔德·戈蒂埃（从左至右：黄安琪、林鑫瑜、戈蒂埃）。一场国际比赛，领奖台上最高的两级同时站着中国选手，这是中国铁人三项的历史时刻。",
+      "铁人三项要先游泳，再骑自行车，最后跑步，三个项目连着完成，中间不停表。统营站这天，林鑫瑜和黄安琪在游泳和自行车赛段都待在第一集团中。在跑步赛段中，黄安琪最先建立起领跑优势，但在第一圈结束时因罚时10秒而落后；前方，林鑫瑜与葡萄牙选手玛丽安娜·瓦尔热姆展开激烈角逐。在一个上坡阶段，林鑫瑜发力实现超越，一路领先至终点。",
+      "凭借出众的跑步能力，黄安琪在后方持续追击，反超多名选手，最终以总成绩56分45秒收获亚军，刷新个人在此项赛事中的最好成绩。虽然比赛过程曲折，但她始终保持了平稳的心态。她在赛后说：“能和队友一起站上领奖台我非常开心，这是中国铁三的历史时刻。下一步我们依然会打好每一场积分赛，全力冲击奥运资格。”",
+      "林鑫瑜赛后表示：“（我）延续了北京世界杯时的身体状态和感觉，做好了赛中决策，把整个周期的训练成果都在比赛中发挥出来了。”上一站世界杯为中国队首夺该系列赛事金牌后，林鑫瑜在统营站以总成绩56分42秒蝉联冠军。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261026/27a87decdc2a49399593f83654d2d1bd/c.html",
+      "originalTitle": "铁三世界杯韩国统营站：中国选手包揽女子冠、亚军",
+      "publishedAt": "2026-10-26T09:34:29+08:00",
+      "retrievedAt": "2026-10-27T00:32:55.554Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:32:53.865Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-27-272ab4",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "银鳕鱼被下架后，要厘清的是鱼被误读还是吃鱼规则",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-27",
+    "intro": "一位母亲的网上发帖，让银鳕鱼从高档辅食变成了被下架的商品，也让“汞”这个字进了很多家庭的餐桌对话。",
+    "paragraphs": [
+      "9月27日，杭州一位母親在網上發帖：過去8個月，她每週給2歲的孩子吃兩到三次從盒馬買的「兒童裝」銀鱈魚，本是看重商家宣傳的銀鱈魚營養好，孩子多吃魚更健康，結果卻導致孩子血汞超標，需要做排汞治療。",
+      "帖子發出後，家長們紛紛翻出自己的購物訂單，擔心孩子也被「投毒」。盒馬在內的多個平臺下架了銀鱈魚，或者刪去商品頁上的「兒童」、「寶寶」字樣。據澎湃新聞報道，十一假期前後，上海新華醫院的「環境污染物中毒」門診出現就診高峰，家長們紛紛帶着1至3歲的孩子來查血汞，門診還臨時加開了一天，不少孩子——他們大多沒有任何症狀，在醫生的建議下接受藥物排汞。",
+      "10月5日，國家食品安全風險評估中心發布《關於人群食用深海魚類的消費提示》，提醒孕哺期婦女和嬰幼兒儘量避免汞含量高的魚種，並把銀鱈魚列入甲基汞含量通常較高的大型肉食性魚類。一週之內，一條魚從高檔輔食變成了「投毒」嫌疑犯。",
+      "但這場爭議裏有太多概念被混淆：「銀鱈」和「鱈魚」是什麼關係？汞超標到底有多嚴重？低汞魚是不是就可以放開吃？釐清這些，才能看清風波真正暴露的問題。",
+      "撰稿人把這場風波裡被混淆的概念，歸成了三個問題。第一，「銀鱈」和「鱈魚」到底是什么關係，名字裡都帶鱈，是不是同一種魚？第二，汞超標到底有多嚴重，超到什麼程度、吃多久才算危險？第三，低汞的魚是不是就可以放開吃？文章說，只有把這三個問題釐清，才能看清風波真正暴露出來的東西。",
+      "這場風波里，我們真正缺少的是一套讓所有人都用得上的規則。一條魚能不能吃，背後其實是一整套規則：哪種魚適合哪個年齡的人吃，吃多少，多久吃一次；包裝上寫下「兒童」兩個字時，依據的是什麼；出了問題，家長去哪裡查、找誰問。餐桌上的「銀鱈魚」也許會回來，但如果缺一套拿起來就能用的規則，下次換一個魚的名字，同樣的慌亂還會再來一遍。"
+    ],
+    "topics": [
+      "食物与日常",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261026-mainland-silver-cod-mercury-poisoning-scare/",
+      "originalTitle": "「銀鱈魚汞中毒」風波：被誤讀的是魚，還是吃魚的規則？",
+      "publishedAt": "Sun, 25 Oct 2026 22:59:00 GMT",
+      "retrievedAt": "2026-10-27T00:34:00.192Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:33:55.366Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Silver Cod Scare: Was It the Fish or the Rules?",
+      "intro": "When one mother's online post about her toddler and a fish called silver cod spread, parents across China started checking their freezers and rushing to hospitals.",
+      "paragraphs": [
+        "In about one week, a fish went from a fancy food for babies to a suspect. In late September, a mother in Hangzhou wrote a post online about her two-year-old child. For eight months, she had given the child silver cod two or three times a week. She bought it from a Chinese grocery chain called Hema, sold in a package meant for children. She chose it because the marketing said silver cod was nutritious, and that children who eat more fish are healthier. Then came the result she did not expect. Her child's blood mercury was above the standard, and the child needed treatment to clear it.",
+        "Other parents read the post and began searching their own order histories. Many feared their children had been harmed too. Hema and other platforms took silver cod off their shelves. Some simply deleted the words 'children' and 'baby' from the product pages. According to reporting by The Paper, around the National Day holiday, Shanghai Xinhua Hospital's clinic for poisoning by environmental pollutants had a rush of visits. Parents brought children between one and three years old to have their blood mercury checked. The clinic even opened one extra day. Many of those children had no symptoms at all, and still received medicine to remove mercury on doctors' advice.",
+        "Then, on October 5, the National Center for Food Safety Risk Assessment published a consumer notice about eating deep-sea fish. It advised pregnant and breastfeeding women, and infants and young children, to avoid fish that carry high levels of mercury. The notice named silver cod among large predatory fish that usually contain more methylmercury. But the article points out how much got mixed together in the argument. People were not sure what the real link is between silver cod and ordinary cod. They were not sure how serious it is when blood mercury goes above the line. And they were not sure whether low-mercury fish can simply be eaten without limits.",
+        "The author, a genetics PhD and science writer, argues that clearing up these confusions is the only way to see what the scare really exposed. A mother shared a real experience. A warning was issued about which fish some people should avoid. Between those two things, a lot of questions are still open. A fish did not suddenly change. Our understanding of it did.",
+        "Maybe the real question is not which fish to fear. Maybe it is whether families have clear rules they can actually use. Rules about how often to eat which fish, and who should be extra careful. Without those rules, every worried post turns into a shopping panic. With them, parents could make a calm choice at the counter. And children could keep eating fish, without anyone needing to be scared of dinner."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:41:43.227Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-27-0e1a41",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "甘肃肃北牧区立法守护千年岩画",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-27",
+    "intro": "甘肃肃北的牧区决定用一部法律，把散落在旷野里的千年岩画纳入保护。",
+    "paragraphs": [
+      "在甘肃肃北的牧区，有一些图画比文字还要老。它们不是画在纸上，而是留在旷野的岩石上，一留就是上千年。最近，当地决定用一部法律来守护它们。",
+      "先说背景。岩画，就是古人在岩石上凿刻或者画下的图像。它和博物馆里的文物有个最大的不同：它通常留在自己被创作出来的那个地方，山坡上、河谷边、牧场的石壁上。它没法被搬进恒温恒湿的展柜，只能和风、雨、日光，还有一代代从这里经过的人待在一起。",
+      "那“立法守护”是什么意思？法律和一句口号的区别，在于它把话写下来，并且公开：什么可以做，什么不可以做，出了事该找谁。它不依赖某个人的记性，也不依赖某一届人一时的重视——换一批人来做，条文还在。对一件还要在原地待上很多个世纪的东西来说，这种写下来的稳定，可能比一时的热情更有用。",
+      "这件事有意思的地方，是它其实回答了三个问题：这些东西在哪里？它们值不值得留下来？我们愿意为“留住”承担多少不方便？岩画在牧区，就意味着放牧、修路、来往的人流都和它共处。一旦决定保护，某些地方可能就不能随便动，某些事就要绕着走。",
+      "“千年”这个说法，讲的是时间，也是在讲人。刻下这些图像的人不会想到，许多个世纪之后，会有一群人坐下来，为这些石头写一条规定。下次你在野外看到一块带刻痕的石头，不妨多看一眼——那可能是某个人在很久很久以前，想说的一句话。"
+    ],
+    "topics": [
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-26/10721276.shtml",
+      "originalTitle": "甘肃肃北牧区立法守护千年岩画",
+      "publishedAt": "Mon, 26 Oct 2026 19:35:56 +0800",
+      "retrievedAt": "2026-10-27T00:39:39.287Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-27T00:39:37.273Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-27/2026-10-27-0e1a41.webp",
+      "alt": "旷野岩石上刻着抽象的螺旋与动物线条",
+      "caption": "旷野里的刻痕，被法律轻轻围住。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-26-d89204",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "研究发现土壤病毒调控深层土壤微生物碳泵",
@@ -3086,306 +3358,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-10-13-773a90",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "迅速响应与数字治理：从北京“接诉即办”看全球城市公共服务的新范式",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-13",
-    "intro": "一位驻外十四年的记者回到北京，从一笔两元钱的餐具费开始，重新认识了城市公共服务。",
-    "paragraphs": [
-      "城市里路灯坏了、噪音扰民、路面有坑，居民该找谁？FT中文网专栏作家杜毓斌和团队在巴黎、纽约、伦敦、马德里的街头做了采访。在巴黎，受访市民对当地的市政沟通渠道知之甚少，这种“无渠道感”折射出底层声音向上反馈的某种断裂。纽约居民描述了著名的311非紧急服务热线——理论上可处理路灯损坏、社区纠纷等民生问题，但现实中因人员配备不足、资源紧张，原本承诺的“24小时到48小时内回复”，常被拉长成三到四周的等待。马德里市民肯定当地数字化进步，习惯用市政App举报破损设施或预约健康检查，但普遍指出致命缺陷：缺乏跟进与反馈闭环；提交路灯故障投诉后，无法知晓是否已被查看，更不知何时能解决。伦敦受访者分享了分化体验：除各区市政渠道外，最常接触的是医疗服务热线；999用于紧急情况，111用于轻微健康问题，但接线员为规避医疗责任风险，常采取“防御性”指导策略——无论症状轻重，最终建议多为“直接去医院”，造成公共医疗资源浪费。",
-      "在中国北京、上海、深圳，同一组问题得到的回答很不一样。作者说，2025年秋，在华盛顿和伦敦度过了长达14年的驻外记者生涯后回到北京，他遭遇了一次强烈的逆向文化冲击。最直观的一次发生在天津：一家饭店结账时要求他必须支付一笔“消毒餐具”费用，他拒绝后拨打了类似于北京12345的市长服务热线。按他过去的海外经验，这类关乎一两块钱的微小投诉，大概率会被记录在案，然后进入漫长的排队等待期，或许几周后会有一封官方邮件的例行回复。结果不到两个小时，当地负责市场监管的工作人员就直接打来电话，明确表示饭店做法违规，监管部门将立刻进行纠正督查，并要求饭店向他本人道歉。当天下午，他果然接到饭店负责人致歉电话；傍晚，工商局再次来电回访，详细询问饭店是否已道歉，以及他对整个处理流程是否满意。在短短一天之内，一个微小的消费摩擦，经历了“接诉、派单、执法、整改、当事人反馈、监管部门核销”的完整闭环。",
-      "此后，作者又反映过几处基础设施问题：太原市高铁站去往二层餐饮区的扶梯只有上行方向而缺乏下行通道，导致携带大件行李的旅客上楼消费容易下楼难；绿皮火车连接处依然存在吸烟现象，影响车厢内空气质量；某公园出口处的公交站点设计存在严重安全隐患，没有设立人行道，乘客只能站在机动车道的边缘候车。客观来讲，这些涉及工程改造或跨部门协同的复杂问题，并没有像那两元钱的餐具费一样在几小时内得到物理层面的彻底解决。但这些投诉无一例外都得到了极其迅速的响应：相关责任部门与他进行了电话沟通，详细解释成因，并清晰展示了正在推进的解决方案和努力方向；有些问题因权责归属或法律法规限制（如绿皮火车车厢处吸烟问题），也无法立刻解决。但这种态度上的重视和过程的透明化，给予了市民极大的尊严感与参与感——它传递出的核心信息是：你的声音被听到了，也有人在汇聚你的意见，争取尽快解决问题。",
-      "为什么会有这样的差别？作者认为，根源在于行政权力架构与数字化演进路径的根本分野。在以美国和英国为代表的西方体系中，公共治理呈现高度扁平化与碎片化：权力大量下放到州政府（市政府），甚至郡县（County），初衷是防止权力过度集中并确保本地事务由最了解情况的人决策；但面对现代城市复杂的综合性治理诉求，其弊端显露——无论在伦敦还是纽约，都很难找到一个能集中受理并调度所有相关公共服务机构的单一入口；市民需在各种分散的应用程序、不同服务专线之间摸索，或依靠给地方议员写信、向区县政府发邮件等传统方式。在北京，12345“接诉即办”机制依托中国的垂直管理体系与横向网格化治理的深度融合；它不是一个单纯呼叫中心，而是一个“民生指挥部”。作者今年走进了北京的12345政务服务大厅，看到市民拨通电话的那一刻，一个以工单为核心的行政流程便启动了；工单被精准派发到具体的街道或委办局，而最终考核这些政府部门绩效的“打分权”，直接交到了拨打电话的市民手中：做不好、解决慢、态度差，都会直接影响该部门的年终考评。",
-      "作者也提醒，中西方在个人隐私保护、数据采集边界以及办事流程偏好上存在客观差异。例如，西方国家在推进集中式数字政务时，往往遭遇民众对政府过度掌握个人数据的强烈抵触。但提升办事效率、优化公共服务获取途径这一根本目标，双方却有高度共识。近期有媒体指出，美国政府也正在尝试利用人工智能技术，打造一个旨在集成所有公共服务的统一入口，试图打破原有的信息孤岛。作者办理国内户籍事务时，原以为这项复杂业务免不了要在线下多个部门之间来回奔波、提交繁杂的纸质证明；结果出乎意料，整个流程全部可通过线上政务平台完成，他甚至没有去户籍所在地办理任何证件就完成了全部手续。在街头采访中，西方民众展现浓厚兴趣：纽约人想知道接线员接受了何种培训以保证专业度，并好奇中国如何利用技术缩短等待时间；伦敦人则直接发问，想了解中国政府是否以及如何使用人工智能来分析市民数据以改进服务。",
-      "作者认为，西方大城市在社区自治、弱势群体关怀等方面的历史积淀，仍有值得东方借鉴之处；而中国在利用数字技术重塑政府流程、建立严密的问题督办与反馈闭环上的成功实践，也为其他国家提供了可借鉴之处。城市不仅是钢筋水泥的丛林，更是无数个微小生活诉求的集合体。一个运行正常的城市，不仅取决于它拥有多少摩天大楼，更取决于它能以多快的速度、多大程度的共情，去回应一位普通市民对一顿饭、一班车、一盏路灯的关切。"
-    ],
-    "topics": [
-      "城市与公共",
-      "数字治理"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "FT 中文网",
-      "region": "international",
-      "url": "https://www.ftchinese.com/story/001111069",
-      "originalTitle": "迅速响应与数字治理：从北京“接诉即办”看全球城市公共服务的新范式",
-      "publishedAt": "Mon, 12 Oct 2026 16:00:00 GMT",
-      "retrievedAt": "2026-10-13T03:20:33.517Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:20:28.529Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Cities Answer a Call: Beijing vs. the West",
-      "intro": "A recent FT Chinese column compares how cities in China and the West handle everyday public complaints.",
-      "paragraphs": [
-        "Imagine a broken streetlight. Who do you call? In Paris, many people do not know the municipal contact channel. In London, New York, and Madrid, people know the number but wait three to four weeks. The writer, Du Yubin, interviewed people there. He is a CGTN journalist, producer, and editor. He lived in Washington and London for 14 years — six years in each city. He wrote this for FT Chinese.",
-        "After returning to Beijing, he called a hotline in Tianjin about a restaurant charging for sterilized dishes. Within two hours, a market regulator called back. The regulator said the practice was illegal. The restaurant was ordered to correct it and apologize. That afternoon, the restaurant manager called to apologize. Later that evening, the regulator called again to ask if the apology had been made and if he was satisfied with the process.",
-        "He also reported other issues. An escalator at Taiyuan high-speed rail station only went up. People with heavy luggage could go up but not down. He reported smoking on green trains. He also reported a bus stop with no sidewalk — passengers stood on the edge of the motor vehicle lane. These were complex issues involving engineering or cross-department coordination. They were not solved in hours. But officials called him, explained the causes, and shared their solution plans. Some issues, like smoking on green trains, could not be fixed immediately due to jurisdiction or laws. Still, the transparency and respect gave him dignity and a sense of participation.",
-        "Why the difference? In the US and UK, power is highly decentralized. There is no single entry point for all city services. People use different apps, hotlines, or email local councils. In Beijing, 12345 works as a 'people's livelihood command center'. When a citizen calls, a work order is sent to a specific street office or bureau. The citizen who called gives the final rating. That rating directly affects the department’s annual performance review.",
-        "This system combines top-down administrative pressure with bottom-up public supervision. Western countries worry about privacy and centralized data collection. But they also want faster service. The US government is trying to use AI to build a unified portal for all public services. The writer renewed his household registration online without visiting any office. New Yorkers asked how operators are trained. Londoners asked if China uses AI to analyze citizen data to improve services.",
-        "A city is not just buildings. It is a collection of small daily needs — a meal, a bus, a streetlight. A good city answers those needs quickly and with empathy. Learning from each other is the only path to a better public life."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:23:55.664Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-13/2026-10-13-773a90.webp",
-      "alt": "冷灰色调城市网格与路径汇聚节点的抽象插画",
-      "caption": "一条路径，连接城市与它的回应。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-13-24-b11c52",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "世卫组织大流行病中心设定目标：24小时内发现新发疫情",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-13",
-    "intro": "世卫组织为其大流行病和流行病情报中心启动新的五年战略，目标是到2030年，每个国家都能在新发卫生威胁出现后24小时内将其发现并加以研判。",
-    "paragraphs": [
-      "一种新的病毒或者细菌刚刚出现的时候，最宝贵的东西是时间。如果能在它扩散之前就发现，可能只需要处理几例病例；如果等到医院里挤满病人，代价就完全不同了。世卫组织表示，加强快速检测是全球卫生安全的基石，有助于各国在疫情升级为更大规模流行病或向国际扩散之前将其遏制。世卫组织大流行病和流行病情报中心的新战略目标是：到2030年，每个国家都能在新发卫生威胁出现后24小时内将其发现并加以研判。",
-      "世卫组织大流行病和流行病情报中心于2021年在德国政府的大力支持下成立，以应对新冠大流行所暴露出的关键缺口。该中心既是世卫组织突发卫生事件规划的重要支柱，也是全球集体应对突发事件能力的重要支撑。它发挥着凝聚合作伙伴、推动创新、调动专业知识和资源的作用。在周日于柏林举行的世界卫生峰会开幕式上，世卫组织总干事谭德塞回顾了该中心成立五年来的成就：“世卫组织大流行病和流行病情报中心成立五年后，已成为全球卫生安全体系不可或缺的组成部分。其新战略为通往2030年规划了清晰路径，将各国政府和合作伙伴团结在一个共同目标周围：一个每个国家都能在卫生威胁演变为重大危机之前迅速作出应对的世界。”",
-      "自成立以来，该中心已与160个世卫组织会员国、190个伙伴组织以及数千名科学家和政策制定者合作，检测新发疫情威胁、对病原体进行测序和鉴定，并支持采取快速行动保护世界各地社区。",
-      "在下一个五年战略下，该中心将通过五项优先举措推进工作：第一项是开源流行病情报——利用人工智能每天实时扫描数千个公开来源，识别潜在卫生威胁的信号，该举措汇聚了全球4000多名专家，已有超过125个会员国和30个区域及国际组织使用；第二项是国际病原体监测网络——加强基因组测序和生物信息学能力，以识别和研判新发病原体，助力加快检测方法、治疗手段和疫苗的研发。",
-      "第三项是协作平台——连接2000多名建模和数据科学领域的专家，可在新威胁出现时迅速动员；第四项是协作监测倡议——正在“同一健康”理念之下，在80多个国家实施，支持各国有关机构、系统和工作队伍监测卫生威胁；第五项是公共卫生情报数字赋能倡议——将开发安全的数字系统，使各国和合作伙伴能够共享、分析和使用数据，同时支持负责任地采用人工智能。",
-      "世卫组织强调，要实现该战略的雄心，离不开持续投资、可信的伙伴关系，以及跨部门、跨学科、跨国界的紧密合作。"
-    ],
-    "topics": [
-      "全球卫生",
-      "公共卫生"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1142983",
-      "originalTitle": "世卫组织大流行病中心设定目标：24小时内发现新发疫情",
-      "publishedAt": "Mon, 12 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-13T03:21:18.965Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:21:16.757Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-12-ai-for-science",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI for Science重塑科技竞争底层逻辑",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-12",
-    "intro": "今年七月，美国发布《科学：新黄金时代》报告。上海科学院研究员李万认为，它不只是政策升级，而是一场围绕数据、算力和制造闭环的生态争夺。",
-    "paragraphs": [
-      "八十多年前，范内瓦·布什写下《科学：无尽的前沿》。这份报告为美国今日的科技强国地位奠定了思想基础，也深刻影响全球科技发展格局。今年7月，美国发布《科学：新黄金时代》报告，围绕科研组织方式、资助机制、产业协同创新以及AI驱动科学研究等方面提出一系列改革举措，旨在系统重塑美国科技战略布局。上海科学院研究员李万指出，从《无尽的前沿》到《新黄金时代》，本质上是应对新科技革命与产业变革复杂巨系统演进的‘生态重塑’。",
-      "李万指出，当前美国科技战略正在创新范式、科研组织、价值导向三方面发生历史性转变。一是创新范式从‘线性模型’向‘AI驱动的复杂生态系统’演进；二是科研组织从‘构建传统建制’向‘呼唤敏捷创新与破坏性重构’转变，1945年报告催生了美国国家科学基金会（NSF）等一系列‘遗产机构’，形成政府、工业界与学术界的传统铁三角，而2026年报告尖锐指出当前体制‘奖励从众而非大胆创新’，导致科学生产力放缓；三是价值导向从‘纯科学探索’转向‘科学与制造工艺的重新融合’，既要‘仰望星空’（重返月球、布局量子、核能等前沿），更要脚踏实地重构涵盖研发、中试、量产的完整产业创新生态体系。",
-      "这些转变受三大因素驱动：一是新科技革命与产业变革进入技术突变期叠加科学革命孕育期，重大科学突破、技术颠覆和创新破坏的不可预见性和涌现性大大增强；二是全球创新版图多极化趋势增强，美国科技霸主地位正受到前所未有的挑战；三是索洛悖论与创新活力萎缩迫使美国重新激发‘熊彼特式’企业家精神。报告也指出，虽然美国的研发投资增加了，但科技进步速度却放缓了；官僚主义、科研资源的集中化导致对颠覆性创新的排斥，即克里斯坦森所谓的‘创新者的窘境’。",
-      "《科学：新黄金时代》提出，美国不能只关心科学发现是否发生在本国，还要关心发现能否在本国完成验证、制造和规模化。李万认为，这不是简单的‘去全球化’退缩，而是大国对‘科技-产业’创新闭环和生态控制权的绝对争夺。在AI for Science（AI4S）范式下，研发与制造的边界正在剧烈消融，制造正在成为研发的一部分：AI模型的迭代高度依赖于制造现场的高质量数据、精密测量以及中试环节的工艺反馈。‘研造一体’是大国把握新科技革命与产业变革的必然选择。日本采取‘不对称防御’与‘Made with Japan’策略，欧盟强调‘战略自主’和‘技术主权’。",
-      "李万指出三个重要信号：第一，从‘分散式探索’向‘国家级平台工程’跃迁，如‘创世纪计划’尝试高度集中算力、算法、顶尖人才和跨学科资源，打造类似‘曼哈顿工程’或‘阿波罗计划’的超级AI科研引擎；第二，AI原生促进科研主体角色重定义——从‘工具’走向‘硅基科学家’，美国已不再把AI视为显微镜、望远镜那样的‘效率工具’，而是‘拥有自主发现能力的科研主体’，具备假设生成、自动实验验证、自我进化能力；第三，打响‘数据主权与数据质量’的底层控制战，防范AI幻觉，构建‘经过严格验证的知识库’以争夺未来科学发现的‘唯一解释权和黄金标准’。他特别提到日本教训：其在蛋白质折叠上积累的高质量晶体学数据被DeepMind大模型无偿吞噬并转化为美英商业壁垒。",
-      "李万建议中国加快AI原生自主科研体系发展，大力支持AI原生科学仪器、自主实验室等研发与迭代；加快建设全链条自主可控的集成电路和人工智能产业；改革科研评价体系，发展容忍失败、极度敏捷的进化型科研组织；推进科学数据有序开放共享、高质量科学数据集和智能可信科研生态建设；依托‘全产业链场景’，打造全球唯一的‘AI+科学+制造’超级试验场，让AI设计的新产品最快完成验证和量产，把世界上最大的科研与产业体系变成全球最大的‘自动物理实验室’；将‘Made in China’升级为‘Innovated with China’，强化开放合作，引领普惠性科技革命与产业变革。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "科技竞争"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/572732.shtm",
-      "originalTitle": "AI for Science重塑科技竞争底层逻辑",
-      "publishedAt": "2026-10-11 12:18",
-      "retrievedAt": "2026-10-12T00:36:52.323Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-12T00:36:47.133Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "AI and the New Race in Science",
-      "intro": "A new report asks how artificial intelligence is changing the way countries compete in science and technology.",
-      "paragraphs": [
-        "In 1945, Vannevar Bush wrote 'Science: The Endless Frontier.' That report helped build America's powerful science system. In July 2026, the United States released 'Science: A New Golden Age.' It proposes changes in research organization, funding, industry collaboration, and AI-driven science. A reporter from Wen Hui Bao interviewed Li Wan, a researcher at Shanghai Academy of Sciences, about this shift. Li Wan said the change is not just a policy upgrade. It is a deeper attempt to reshape the whole science ecosystem.",
-        "Li Wan described three historic changes. First, innovation moves from a linear model to an AI-driven complex ecosystem. Second, research organization moves from traditional institutions to agile and disruptive rebuilding. Third, values shift from pure science toward combining science with manufacturing. He said three forces drive these changes: the new technology revolution, a more multipolar innovation map, and the Solow paradox. The report warns that American research investment has grown, but scientific progress has slowed. It says the system often rewards conformity instead of bold innovation.",
-        "The report says America should not only care whether discoveries happen at home. It should also care whether they are tested, manufactured, and scaled at home. Some people call this technology nationalism or a return of manufacturing. Li Wan said that view is too simple. He sees a bigger struggle over the whole innovation loop from science to industry. Japan is using 'asymmetric defense' and 'Made with Japan' in fields like precision manufacturing and materials. The European Union talks about strategic autonomy and technological sovereignty. This is about control over data, computing power, and manufacturing links.",
-        "Li Wan also talked about AI for Science, or AI4S. Under AI4S, the line between research and manufacturing is blurring. Factories can become part of research, because AI models need high-quality data and process feedback. He said countries must combine research and manufacturing. He cited Thomas Piketty, who argued that inequality in America comes from technological innovation. Li Wan said science should benefit many people, not just a few. He said China can use its large manufacturing ecosystem. China can build irreplaceable nodes in global science chains. It can move from 'Made in China' to 'Innovated with China.'",
-        "The report also treats AI as more than a tool. Li Wan said the United States wants AI to become a research subject with its own discovery ability. It proposes a Genesis plan, a national platform project like the Manhattan Project or Apollo program. It wants AI-native research infrastructure and autonomous laboratories. The report also warns about data quality and data sovereignty. It wants a strictly verified knowledge base for AI. Li Wan mentioned Japan's protein folding data, which was used without payment by DeepMind's model. He said China should share scientific data in an orderly way. It should build high-quality datasets and trusted research systems. It should use open-source AI to encourage more innovation. It can create a super test field for AI, science, and manufacturing."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-12T00:43:14.979Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-12-some-germs-ride-a-superhighway-at-the-edge-of-sp",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "微生物在太空边缘搭上超级高速公路",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-12",
-    "intro": "在离地几十公里的高空，本该没有生命，科学家却在那里发现了我们身边最常见的微生物。",
-    "paragraphs": [
-      "如果能把一个人悬停在离地面大约30公里的地方，他会看到什么？那里是平流层，夹在地球和太空之间。脚下，地平线开始显出弧度；头顶，天空是黑的。那里的气压只有海平面的百分之一，人会喘不上气，血液在体内沸腾。气温能低到零下60摄氏度，强烈的紫外线还会损伤DNA。按我们熟悉的标准，这足以杀死大多数生命。可那里偏偏住着一些活物，而且数量多得让人意外。",
-      "佛罗里达大学的微生物学家布伦特·克里斯特纳从2008年起在大气层里寻找生命。他想知道地球宜居区的上边界在哪里，也想知道火星那种寒冷、几乎没有空气、被辐射轰击的表面能不能留住生命。他当时的研究生诺埃尔·布莱恩把采样气球放到38公里（24英里）高。结果让她大吃一惊：‘我们没有碰到一个找不到活物的高度。’克里斯特纳说：‘如果你从平流层取一个微生物，把它放在火星表面，它甚至不会察觉有什么不同。’更让人意外的是2025年团队公布的结论：它们不是我们想象中生活在火山温泉里的极端环境微生物，而是常见于农作物、花园，甚至人的皮肤上的种类。这些微生物似乎过着秘密的双重生活，以客机飞行高度的两三倍在全世界移动。克里斯特纳形容，大气对它们来说就像一条高速公路，几周之内就能完成全球旅行，然后跨越大洋去寻找新的落脚点。",
-      "科学家往高处找生命，已经找了很久。1935年，美国陆军航空队在南达科他州上空放出一只氦气球，升到22公里（14英里），创下世界纪录。两名飞行员坐在加压吊舱里记录温度、磁场和辐射，还投下一个无菌采样器。样品后来培养出10种细菌和真菌。但那是在人们发现DNA之前，科学家除了这些细胞的形状和它们熬过的条件，几乎没能知道更多。将近40年后，苏联科学家用火箭把粘性采集器送到48到77公里（30到48英里）的中间层，回收后上面粘着几个活细胞。克里斯特纳说：‘但根本没法确认苏联人采到的是什么，那些微生物可能只是来自地面的污染。’2000年代初，美国航天局的飞机在20公里（12英里）高空收集宇宙尘埃，微生物学家戴尔·格里芬让粘性采集器搭了几次便车。他培养出几种细菌，并做了基因条形码检测——只看一个基因的一小段，就能大致判断它属于哪个属。这些微生物和已知生活在偏远岛屿、火山土壤里的种类是近亲。格里芬猜测，也许是火山喷发把它们送上了高空。",
-      "这些早期研究有个共同的短板：它们都依赖在实验室里培养。可自然界里99%的微生物根本培养不出来，科学家没法复制它们需要的环境。所以那些测试既数不清平流层里有多少活细胞，通常也认不出物种，更没检验过它们能不能扛住平流层的低温、干燥和紫外线。克里斯特纳和布莱恩换了个思路：既培养，也直接数活细胞的总数。他们估计，总会有一个高度，活细胞降到零，那里就是地球生命的外边界。布莱恩最初的采集器是用泡沫塑料和轻木自己做的，挂在得克萨斯州和路易斯安那州放出的氦气球上。每个采集器都带一个飞行中始终不开的对照舱，用来估算地面的微生物污染了多少。她最终把污染压到几乎为零。2013年，她换上了路易斯安那州立大学工程师格雷戈里·古齐克设计的系统，电路更结实，能升得更高。",
-      "那年8月21日清晨，布莱恩、古齐克和几位同伴戴着头盔，从新墨西哥州东部小镇萨姆纳堡的机库走出来，走进一片长着草和丝兰的干燥平原。他们拽着一只小象大小的白色氦气球，气球不耐烦地上下扯动。他们在这里完成了布莱恩博士研究的最后一批采样，也在这里得到了最大的意外。这些发现可能会改写我们对病原体如何在全球传播的理解，也可能改变我们在别的世界——从火星到几光年外的系外行星——寻找生命的方向。"
-    ],
-    "topics": [
-      "生命与演化",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/life-stratosphere-edge-of-space",
-      "originalTitle": "Some germs ride a superhighway at the edge of space",
-      "publishedAt": "Thu, 08 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-12T00:38:09.778Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-12T00:38:02.851Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-12/2026-10-12-some-germs-ride-a-superhighway-at-the-edge-of-sp.webp",
-      "alt": "灰蓝色大气层剖面中，一条由圆点构成的抽象气流带横贯画面。",
-      "caption": "高空并非空无一物，气流或成微小生命的通道。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-11-inventing-pad-thai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "泰式炒河粉其实是一道政府推出来的国菜",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-11",
-    "intro": "全世界泰国餐厅里最常被点的一道菜，来历并不是什么传统名菜，而是一场政府主导的国家认同工程。",
-    "paragraphs": [
-      "在世界各地的泰国餐厅里，泰式炒河粉大概是最多人点的一道菜。它的味道很容易被接受：酸、甜、咸、辣混在一起，还有豆芽和花生的脆。可这道菜的来历，跟‘传统名菜’没什么关系。美食作家和评论家亚历山德拉·格里利写道，它从诞生起就是一道刻意用来表达国家认同的菜。",
-      "说它特别，是因为它其实不太‘泰国’。做这道菜用的是炒这种技法，主料是面条，而这两样都来自中国。最早在泰国做炒面、炒肉、炒菜的，很可能是从中国广东过去的人。",
-      "把炒河粉变成国菜的，是二十世纪中期泰国的总理銮披汶·颂堪（Plaek Phibunsongkhram，英文常称Phibun）。1938年他上台后不久，就把国名从‘暹罗’改成了‘泰国’。从1938年到1957年，除了中间有四年不在位，他一直在执政。他想让国家现代化，并创建一套‘Thai Great Tradition’，以在文化和政治上统一国家。",
-      "推广一道国菜，就是他的一步棋。这道菜要有营养：鸡蛋、豆芽、花生，这些东西泰国农民能种、能卖，自家院子也能长。它的正式名字叫kway teow pad Thai，意思是‘Thai-style stir-fried noodles’，后来大家就简称它‘pad Thai’。它凑齐了泰国菜最看重的三种味道——咸、酸、甜，再加上第四种，辣。口感上也讲究：豆芽和花生带一点脆，配上软软的面条和有嚼劲的虾。",
-      "1940年代，泰国发生大洪水，接着出现疾病流行。很多人担心细菌传播，而炒河粉是现炒的，端上桌时还滚烫，就被认为比较安全。政府把一份简单做法公布给公众，还鼓励摊贩推着小车做生意，车上配新的、容易清洗的厨具，好让每份都现点现做。",
-      "炒河粉先在曼谷流行，因为它是一顿方便的午饭，后来才传到农村。有的摊贩把炒好的河粉放在一片香蕉叶上，外面再用报纸一包，方便带走。再往后，泰国政府为了做国际公关，支持在别的国家开泰国餐厅，到2007年，全世界已经有将近一万两千家。有意思的是，在泰国国内，正经餐厅反而很少做这道菜——因为在泰国人眼里，它最好的样子就是街头小吃：摊贩一整天守着锅，现炒现卖。这恰恰就是当年Phibun想要的样子。"
-    ],
-    "topics": [
-      "历史",
-      "文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "JSTOR Daily",
-      "region": "international",
-      "url": "https://daily.jstor.org/inventing-pad-thai/",
-      "originalTitle": "Inventing Pad Thai",
-      "publishedAt": "Tue, 06 Oct 2026 13:33:25 +0000",
-      "retrievedAt": "2026-10-11T00:18:34.120Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:18:31.709Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Inventing Pad Thai",
-      "intro": "Pad Thai is famous around the world. But it started as a government project to build a national identity.",
-      "paragraphs": [
-        "Pad Thai is among the most popular offerings at Thai restaurants all over the world. It has a distinctive yet approachable sweet-sour-savory flavor profile. Food writer and critic Alexandra Greeley writes that it started out as a deliberately nationalistic dish.",
-        "Greeley notes that it is a bit of an odd choice for an iconic Thai food. Its cooking technique is stir-frying. Its main ingredient is noodles. Both come from China. People arriving from China’s Guangdong province probably made the first stir-fried noodles, meats, and vegetables in Thailand.",
-        "Thailand’s authoritarian mid-twentieth-century prime minister was Plaek Phibunsongkhram. He is usually known as Phibun in English. He created the pad Thai phenomenon. He took office in 1938. He changed the country’s name from Siam to Thailand. That means 'land of the free.' He was in office almost continuously from 1938 to 1957. He worked to modernize the country. He tried to create a 'Thai Great Tradition' to unify the country culturally and politically.",
-        "One move in this direction was creating a national dish. It contained nutritious ingredients like eggs, bean sprouts, and peanuts. These could be bought from Thai farmers or grown in home gardens. The dish is called kway teow pad Thai. That means Thai-style stir-fried noodles. It is often shortened to 'pad Thai.' It includes salty, sour, and sweet flavors. These are central to Thai cuisine. It also includes spicy flavor. Bean sprouts and peanuts add crunch. The noodles are soft. The shrimp are chewy.",
-        "In the 1940s, there were major floods in Thailand. They led to disease outbreaks. Many people worried about germs. Pad Thai was seen as relatively safe. It was served steaming hot. The government shared a simple recipe with the public. It encouraged vendors to use wheeled carts. The carts had new and easily cleaned cooking tools. This let the dish be made to order.",
-        "Greeley writes that pad Thai first became popular in Bangkok. It was a convenient lunch. Then it spread to rural areas. Some vendors served it on banana leaves. They wrapped it in newspaper for easy transportation. Later, the Thai government supported Thai restaurants abroad. By 2007, nearly 12,000 Thai restaurants were operating worldwide. At home, it remains unusual for restaurants to serve pad Thai. Vendors who make it all day long are seen as its ideal form. That is just as Phibun intended."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-11T00:26:19.390Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-11/2026-10-11-inventing-pad-thai.webp",
-      "alt": "冷灰纸纹背景上一口抽象炒锅与米粉线条，旁有极简食材轮廓。",
-      "caption": "一道被设计出来的国菜。",
-      "kind": "editorial"
     }
   }
 ]
