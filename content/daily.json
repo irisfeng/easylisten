@@ -1,5 +1,216 @@
 [
   {
+    "slug": "2026-10-28-farm-plants-may-help-fight-infections-teen-finds",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "女孩拿农场里的24种植物做实验，看它们能不能杀死细菌",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-28",
+    "intro": "美国俄克拉何马州的一位切罗基族女孩，把自家农场里的24种植物煮成提取液，测试它们的抗菌能力：没有一种强过现有药物，但其中13种确实杀死了一部分细菌。",
+    "paragraphs": [
+      "美国俄克拉何马州的一座农场里，14岁的洛克琳·沃德有个傍晚在帮家里喂牛。喂着喂着，她的目光落到了田里那些自生的植物上。她知道，科学家一直在寻找对付感染的新办法，于是冒出一个念头：长在我家农场的这些植物，能不能杀死细菌？",
+      "她挑了24种植物，其中12种是俄克拉何马州的本土植物。她把植物切成一克（约0.04盎司）的小块，再分别用水煮，把里面的化学物质提取出来。接着，她拿两种细菌做试验：大肠杆菌（_Escherichia coli_）和表皮葡萄球菌（_Staphylococcus epidermidis_）。她也测试了目前用来治疗感染的抗生素作为对照。",
+      "方法很直观：她把小纸片泡在植物提取液或抗生素中，再把纸片放到含细菌的培养皿里。如果提取液有抗菌作用，纸片周围的细菌就会死亡。结果是：没有一种农场植物的提取物比现有抗生素更有效。不过，24种植物中有13种确实杀灭了一部分细菌，其中包括7种本土植物。",
+      "这离‘新药’还很远，但洛克琳希望这个结果能指向新的思路。当前抗生素被过度使用，导致越来越多的细菌产生耐药性，因此急需新方案。",
+      "洛克琳是切罗基族公民。她说：‘Growing up, my grandmother often talked with me about how plants and herbs can be used for medicine and healing,’ ‘And as a citizen of the Cherokee Nation, I’ve always been interested in learning more about plants and their traditional and potential medicinal uses.’ 这个项目是她在俄克拉何马州格罗夫市格罗夫中学读八年级时完成的，后来让她入围了2026年Thermo Fisher Scientific Junior Innovators Challenge决赛。该挑战赛由科学学会（Society for Science）主办，该机构也出版《Science News Explores》。",
+      "被问到最大的困难是什么，洛克琳说：‘Managing my time, because I’m involved in many extracurriculars.’ 她提到教会活动和体育运动让日程很紧张，研究只能靠周末和放学后的零散时间，有时还得推掉其他有趣安排；她用谷歌日历管理时间，‘That helped a lot.’ 她最重要的资源是科学展指导老师：‘She’s the one if I got bad results, she’d be like, “It’s okay, Locklyn, just keep going.”’ 她给科学展新手的建议是：找一位像这样的导师，在困难和压力时期帮你保持动力。"
+    ],
+    "topics": [
+      "生命与演化",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/farm-plants-fight-bacteria-jic",
+      "originalTitle": "Farm plants may help fight infections, teen finds",
+      "publishedAt": "Tue, 27 Oct 2026 10:30:00 +0000",
+      "retrievedAt": "2026-10-28T00:37:31.685Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-28T00:37:27.510Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Teen Tests Farm Plants for Germ-Fighting Power",
+      "intro": "Science News Explores reports that a fourteen-year-old in Oklahoma turned a farm chore into a science-fair project about plants and bacteria.",
+      "paragraphs": [
+        "Locklyn Ward, 14, lives on a farm in Oklahoma. One evening while she was helping feed the cows, she got curious about the plants growing in the field. She knew that scientists are always searching for new ways to fight infections. So she set out to see if any of the plants growing on her family’s farm could take down bacteria.",
+        "Locklyn picked 24 plants; 12 were native to her state. She cut the plants into one-gram (four hundredths of an ounce) pieces and boiled each to extract chemicals from it. Then, she tested those extracts against two types of bacteria: _Escherichia coli_ and _Staphylococcus epidermidis_. Locklyn also tested antibiotics that are currently used to treat infections.",
+        "The test involved paper disks soaked in either the plant extracts or current antibiotics. Locklyn placed those soaked disks into dishes containing bacteria. If chemicals from the farm plants had antibiotic powers, the bacteria around those paper disks would die. No farm-plant extract worked as well as current medicines. But 13 of the 24 plants did kill some bacteria. These included seven native plants.",
+        "Locklyn hopes her results may point to new ways to fight germs. Overuse of current antibiotics is leading to more drug-resistant bacteria, so new solutions are much needed. Locklyn did this project as an eighth grader at Grove Middle School in Grove, Okla. Her research earned her a finalist spot in the 2026 Thermo Fisher Scientific Junior Innovators Challenge.",
+        "Growing up, her grandmother often talked with her about how plants and herbs can be used for medicine and healing. And as a citizen of the Cherokee Nation, Locklyn has always been interested in learning more about plants and their traditional and potential medicinal uses. Managing her time was the biggest challenge, because she’s involved in many extracurriculars — including church activities and sports. She used Google Calendar to help. Her science-fair teacher encouraged her after bad results, saying, 'It’s okay, Locklyn, just keep going.' Locklyn’s biggest piece of advice for science fair newbies is to find a mentor like this to help stay motivated."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-28T00:48:23.607Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-28-b098af",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一块人造玻璃标样，帮科学家读懂嫦娥六号月壤里的撞击者",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-28",
+    "intro": "中国科学院广州地球化学研究所的团队在实验室合成含铂族元素的玻璃标样PGE-BG1，用它对嫦娥六号月壤熔结玻璃开展原位微区分析，估算出其中约1.1–4.6 wt%的陨石物质，并推测撞击体主要为球粒陨石和IIAB铁陨石。",
+    "paragraphs": [
+      "月球上没有空气，也没有水，几十亿年来，无数小天体直接撞在月面上。撞击的一瞬间，岩石被熔化，又迅速冷却，结成熔结玻璃。这些玻璃里留着撞击者的化学痕迹。但痕迹极淡，而月壤每一克都极其珍贵。中国科学院广州地球化学研究所月球样品研究小组硕士研究生高佳俊在该所正高级工程师张乐指导下，根据嫦娥五号/六号熔结玻璃的主量元素组成配置初始物，采用高温马弗炉熔融法，在实验室合成含铂族元素（PGEs）的玻璃标样PGE-BG1。",
+      "他们关注的是铂族元素，包括钌（Ru）、铑（Rh）、钯（Pd）、锇（Os）、铱（Ir）、铂（Pt）和铼（Re）。这七种元素均属强亲铁元素，是示踪陨石物质、撞击事件和行星演化的重要‘地球化学指纹’。传统溶液法分析PGEs常需数百毫克至数克样品，难以满足月壤等珍贵地外样品的微区分析需求；LA-ICP-MS虽可实现几十微米尺度原位分析，却依赖基体匹配、组成均一的参考物质。现有NIST、USGS系列玻璃标样的PGEs含量约束不足，均匀性也有争议。",
+      "研究团队发现，使用铂金坩埚会使除铂外的PGEs强烈扩散进入坩埚而丢失；改用刚玉坩埚后避免了这一损失。初始物先在1000℃保温10小时去除二氧化碳，再在1500℃保温4小时后在去离子水中淬火。合成玻璃与坩埚接触界面存在约500微米成分扩散剖面，团队切除边部和底部，选取未受影响区域分析。电子探针显示，PGE-BG1主量元素2RSD小于3.3%；溶液ICP-MS定值与LA-ICP-MS微区结果在误差范围内一致，Rh、Pd、Ir、Pt、Re的2RSD小于15%。受高温挥发影响，Ru和Os几乎完全丢失，推测被氧化为RuO₄和OsO₄挥发；Re丢失超过90%，说明PGEs在高温熔融中存在明显元素间分馏。",
+      "以PGE-BG1为外标，团队测试了常用玻璃标样GSD-1G和NIST 610，并对嫦娥六号月壤熔结玻璃开展原位微区分析。结果显示，嫦娥六号熔结玻璃成分变化较大：FeO为8.8–26.2 wt%，Al₂O₃为8.1–20.4 wt%，Th从低于检出限至5.7 μg/g。多数测试点在FeO–Al₂O₃和FeO–Th关系图中位于高地斜长岩与月海玄武岩之间并靠近月海玄武岩端元，表明其主要物质来源为本地月海玄武岩，同时混入高地物质和少量KREEP组分。",
+      "熔结玻璃Ni含量为215–887 μg/g，显著高于本地月海玄武岩（约15 μg/g），且Ir与Ni明显正相关。质量平衡计算显示，其中含约1.1–4.6 wt%的陨石物质；Co–Ni关系指示撞击体可能主要为球粒陨石和IIAB铁陨石。样品未检测到Ru和Os信号，说明撞击形成熔结玻璃过程中PGEs发生了显著分馏，采用PGEs示踪撞击体类型时需考虑这一影响。",
+      "该研究合成的PGE-BG1硅酸盐玻璃标样，为嫦娥六号月壤熔结玻璃PGEs和Re的微区分析提供了可靠外标，也为识别撞击体性质、理解月表撞击与空间风化过程提供了新的分析支撑。相关成果发表于《分析原子光谱学杂志》，论文信息：https://doi.org/10.1039/d6ja00343e。"
+    ],
+    "topics": [
+      "嫦娥六号月球样品",
+      "铂族元素玻璃标样",
+      "月球科学研究方法"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573703.shtm",
+      "originalTitle": "铂族元素玻璃标样示踪嫦娥六号月外物质",
+      "publishedAt": "2026-10-27 15:51",
+      "retrievedAt": "2026-10-28T00:42:38.813Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-28T00:42:35.685Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-28/2026-10-28-b098af.webp",
+      "alt": "一块半透明玻璃薄片与微小暗色颗粒并置的抽象插图",
+      "caption": "玻璃标样里的微小痕迹，指向月壤中的撞击者。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-28-545401",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "全新岗位快速涌现 职业教育如何“跟得上”？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-28",
+    "intro": "新技术带来一批以前没有的工作，学校教的内容要怎样追上岗位变化的速度？",
+    "paragraphs": [
+      "有些职业的名字，几年前还几乎没人提起，如今已经出现在身边。新岗位在快速涌现，这是中新网教育这篇文章标题里点出的变化。它同时留下了一个问题：职业教育，要怎么“跟得上”？",
+      "难点首先在时间上。一个专业从设立、招生，到学生学成走向岗位，通常要经过好几年；而外面的岗位还在继续变化。如果课程完全照着今天的需求来定，等学生毕业，面对的可能是另一批工作。",
+      "这又牵出一个更细的选择：哪些内容要教得具体，哪些要教得通用。具体到某一种工具、某一套流程，学的时候上手快，可工具一换就得重新学；而理解背后的道理、会动手排查问题、能和别人配合，这些本领换到别的岗位上也能继续用。",
+      "还有一层在学校之外：行业里正在发生什么变化，谁把消息带给学校，学校又怎样据此调整课程。这条通道顺不顺畅，决定了调整是早一步还是晚一步。新技术还会不断冒出新岗位，而一门课要陪一个学生走好几年，这个时间差恐怕没有一次就能解决的答案。"
+    ],
+    "topics": [
+      "职业教育",
+      "产业升级与新岗位",
+      "专业动态调整机制"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-26/10721086.shtml",
+      "originalTitle": "全新岗位快速涌现 职业教育如何“跟得上”？",
+      "publishedAt": "Mon, 26 Oct 2026 13:53:20 +0800",
+      "retrievedAt": "2026-10-28T00:44:24.049Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-28T00:44:22.470Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-28-podcast-the-future-of-electronics-goes-beyond-ci",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "未来的电路，也许不必长在平板电路板上",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-28",
+    "intro": "美国国家科学基金会支持的研究者伊桑·塞科尔介绍一种专门的增材制造技术、它所涉及的材料，以及由此做出、可以针对复杂三维表面定制的电路。",
+    "paragraphs": [
+      "我们身边的电子设备，几乎都建立在一块平板电路板上。手机、耳机、汽车仪表盘，拆开来看，核心往往是一片薄薄的、平的板子。可真实世界的表面很少是平的：手腕是圆的，机翼是弯的，很多东西的形状都不规整。于是问题来了——电路一定要长在平板上吗？",
+      "美国国家科学基金会（NSF）在2026年10月27日发布的一期播客里，讨论了这个问题。受访者是受NSF支持的研究者伊桑·塞科尔（Ethan Secor）。这期节目属于NSF的播客《NSF Discovery Files》，可以在各播客平台收听。",
+      "按NSF的介绍，塞科尔在节目里讲了三件事：一种专门的增材制造技术、这种技术涉及的材料，以及用它们做出来的电路——这些电路可以针对复杂的三维表面进行定制。",
+      "NSF的表述是，这些电路可以针对复杂的三维表面做定制。也就是说，被讨论的不只是一种新的制造手段，还有电路与承载它的形状之间的关系：当表面不再是平板，电路要如何跟着形状来安排。",
+      "NSF在页面开头写了一句很大的话：新的、有雄心的想法，是下一代技术的地基。这句话放在这里并不空。",
+      "如果想继续追下去，可以顺着两条线自己想：一是形状，为什么平面限制了设计；二是材料，一种材料要满足什么条件，才能既被“添加”上去，又能导电。"
+    ],
+    "topics": [
+      "工程与制造",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NSF News",
+      "region": "international",
+      "url": "https://www.nsf.gov/news/podcast-future-electronics-goes-beyond-circuit-boards",
+      "originalTitle": "Podcast: The future of electronics goes beyond circuit boards",
+      "publishedAt": "Tue, 27 Oct 2026 16:23:58 -0400",
+      "retrievedAt": "2026-10-28T00:45:57.800Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-28T00:45:54.791Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-28/2026-10-28-podcast-the-future-of-electronics-goes-beyond-ci.webp",
+      "alt": "灰色三维曲面上延伸着细密线路的抽象插图",
+      "caption": "电路不必平铺，也可以贴着曲面生长。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-27-the-bloody-palette-of-the-animal-kingdom",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "动物血液不只有红色：章鱼血呈蓝色，南极冰鱼血几乎透明",
@@ -3148,213 +3359,6 @@
         "reviewedAt": "2026-10-14T00:28:39.944Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-14-08a05e",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中小学教室采光照明新国标十一月起实施",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-14",
-    "intro": "中新网教育报道，中小学校教室的采光照明新国家标准将从十一月起开始实施。",
-    "paragraphs": [
-      "教室里的光，是你每天都在用、却很少专门去想的东西。中新网教育报道，中小学校教室的采光照明有了新的国家标准，将从十一月起开始实施。这条消息说的不是某一间教室、某一所学校，而是全国中小学的教室，今后都要照着同一份新标准来看它头顶和窗边的光。",
-      "题目里的几个词，一个都不能少。它管的对象是中小学校的教室，不是办公室、图书馆，也不是走廊和操场；它管的内容是采光和照明。采光通常指从窗户进来的自然光，照明指灯发出来的光。换句话说，白天靠窗还是靠灯，傍晚开几盏灯，这类平时被当成小事的光线问题，现在被写进了国家标准。",
-      "报道标题还提到，新标准与过去相比有一些主要变化。具体变了哪些地方，需要对照这份标准的正式文本，才能一条一条说清楚。",
-      "其实这件事离身体很近，不需要任何专业知识，坐着就能观察。你可以看看窗外进来的光够不够用；看看黑板会不会反出一片亮斑，让字变得看不清；也可以看看桌面上的光，会不会在你写字的时候投下一团手影。",
-      "一份标准从十一月起实施，意味着从那时开始，全国的中小学教室都要照着它，重新检查一下自己头顶和窗边的那片光。它不会立刻改变你今天坐的教室，但它给了学校、家长和同学一个共同的尺度：光线够不够、正不正，是可以被认真检查、也可以被摆出来讨论的事情。"
-    ],
-    "topics": [
-      "城市与公共",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-13/10713571.shtml",
-      "originalTitle": "中小学校教室采光照明新国标将于十一月起实施，有哪些主要变化？",
-      "publishedAt": "Tue, 13 Oct 2026 10:27:59 +0800",
-      "retrievedAt": "2026-10-14T00:29:21.339Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-14T00:29:17.261Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-14-sauna-research-gathers-steam",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "研究桑拿与健康的科学家，正在寻求一份共识",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-14",
-    "intro": "研究热暴露的科学家们开始坐到一起，希望就桑拿对健康的作用形成共识。",
-    "paragraphs": [
-      "桑拿到底对健康有什么用？据美国国家公共电台（NPR）健康频道2026年10月12日报道，研究热暴露的科学家们正在走到一起，希望形成一个共识：关于桑拿对健康的好处，我们目前确切知道什么，又还有哪些并不知道。",
-      "他们想要厘清的范围有两块：一是桑拿对健康本身有哪些好处；二是它有没有可能被用来治疗和预防疾病。",
-      "这篇报道由威尔·斯通采写，于2026年10月12日在美国国家公共电台《全方位考虑》（All Things Considered）节目中播出，音频时长为4分38秒。",
-      "关键在于“共识”这两个字。研究者想先把已经知道的部分和仍然不确定的部分分开，再决定接下来的研究方向。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "region": "international",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5977014/sauna-research-gathers-steam",
-      "originalTitle": "Sauna research gathers steam",
-      "publishedAt": "Mon, 12 Oct 2026 17:39:54 -0400",
-      "retrievedAt": "2026-10-14T00:29:54.332Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-14T00:29:52.177Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-14/2026-10-14-sauna-research-gathers-steam.webp",
-      "alt": "木纹表面升起抽象热汽曲线，旁有圆形小点。",
-      "caption": "热暴露研究寻求共识。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-13-126a8b",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "首批国家公园建设成果丰硕",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-13",
-    "intro": "五个国家公园走过五年，动物种群回来了，当地人也多了新的收入来源。",
-    "paragraphs": [
-      "2021年，我国正式设立三江源、大熊猫、东北虎豹、海南热带雨林、武夷山5个国家公园。五年来，首批国家公园建设取得丰硕成果。中国特色国家公园制度体系基本建成，重点区域自然生态系统质量持续向好，旗舰物种种群数量稳步增长。评估显示，首批国家公园生态效益评估指标优秀比例达75%，水源涵养、固碳释氧、水土保持等核心生态服务功能有效提升。",
-      "首批5个国家公园总面积达23万平方公里，整合优化120余个各级各类自然保护地，将江河源头、高山森林、温带针阔混交林、热带雨林、中亚热带森林等代表性重要生态系统纳入保护范畴，实现重要生态空间大尺度、全要素、整体性保护修复。五年来，各国家公园统筹推进山水林田湖草沙一体化保护和系统治理，实施栖息地修复、生态廊道连通、人为活动管控等系列举措，区域生态本底持续巩固。",
-      "三江源藏羚羊种群恢复至7万余只；东北虎豹国家公园野生东北虎由设立之初的27只增至72只、野生东北豹由42只增至115只；海南长臂猿种群扩大至7群44只，是全球唯一种群持续增长的长臂猿类群；大熊猫国家公园保护了全国70%以上的野生大熊猫；武夷山国家公园先后发现雨神角蟾、武夷林蛙、福建天麻等多个新物种。大熊猫国家公园打通13个野生大熊猫局域种群生态通道，栖息地连通性大幅提升；东北虎豹国家公园实施生态保护修复工程60万亩，畅通跨境生态廊道，助力野生种群迁徙交流。",
-      "近5万名当地群众受聘成为国家公园生态管护员，人均每年获得1.2万至2.1万元工资性收入。各国家公园因地制宜发展生态友好型产业，不断拓宽社区增收渠道。海南热带雨林国家公园入选国家生态产品价值实现机制试点，园区生态系统生产总值达2089.66亿元。五年来累计接待群众超1400万人次，让广大群众实实在在共享生态保护红利。",
-      "我国出台国家公园空间布局方案，布局建设全世界最大的国家公园体系；颁布实施自然保护地领域首部专门法律《国家公园法》，修订发布自然保护区条例、风景名胜区条例，以国家公园为主体的自然保护地体系建设迈入法治化、规范化新阶段；构建财政投入为主、社会力量广泛参与的机制，基本形成多元资金投入格局。国家公园感知系统上线运行，重点区域实现实时监测。各国家公园搭建天空地一体化监测网络，综合运用卫星遥感、无人机、红外相机、人工智能等技术，实现生态变化、野生动物活动、人为扰动动态监测预警，东北虎豹国家公园建成世界领先的监测体系。",
-      "国家林业和草原局相关负责人表示，“十五五”期间，我国将持续推进国家公园高质量建设，稳妥有序设立新的国家公园。将强化规划引领，规范空间秩序；科学实施栖息地和生态廊道建设、生物多样性保护重大工程，系统修复生境；完善生态补偿、野生动物致害补偿、经营性服务等政策，持续促进民生改善。"
-    ],
-    "topics": [
-      "气候与能源",
-      "生态与保护"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "光明网科技",
-      "region": "mainland",
-      "url": "https://tech.gmw.cn/2026-10/13/content_39042711.htm",
-      "originalTitle": "首批国家公园建设成果丰硕",
-      "publishedAt": "2026-10-13T09:51:57+08:00",
-      "retrievedAt": "2026-10-13T03:15:38.791Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:15:36.496Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "China's First National Parks Turn Five",
-      "intro": "Five years ago, China set up its first national parks. Here is what has happened since.",
-      "paragraphs": [
-        "October 12 marks five years since China created its first national parks. Back in 2021, the country formally established five of them: Sanjiangyuan, Giant Panda, Northeast Tiger and Leopard, Hainan Tropical Rainforest, and Wuyishan. Together they cover 230,000 square kilometers. They integrate and optimize more than 120 protected areas of different levels and types.",
-        "According to the National Forestry and Grassland Administration, the results have been strong. The Chinese national park system is basically complete. An assessment found that 75 percent of ecological benefit indicators rated excellent. Water conservation, carbon storage, oxygen release, and soil protection all improved. At Sanjiangyuan — known as the 'Chinese water tower' — annual water delivery downstream reached 80 billion cubic meters. In Maduo County at the Yellow River source, thousands of lakes have reappeared. The Giant Panda Park connected 13 isolated wild panda populations. The Northeast Tiger and Leopard Park carried out ecological restoration on 600,000 mu. Hainan Tropical Rainforest Park strengthened strict protection of natural forests. Wuyishan Park introduced a mechanism to buy back commercial forests in key areas.",
-        "Wild animals have responded too. Tibetan antelope in Sanjiangyuan recovered to over 70,000. Wild Amur tigers in the Northeast Tiger and Leopard Park increased from 27 to 72. Wild Amur leopards increased from 42 to 115. Hainan gibbons now form 7 groups totaling 44 individuals — the only gibbon population in the world still growing. The Giant Panda Park protects more than 70 percent of all wild giant pandas. Wuyishan Park discovered new species including the Yushen horned toad, Wuyi forest frog, and Fujian gastrodia.",
-        "People living nearby are part of the story too. Nearly 50,000 local residents have been hired as ecological rangers. Each earns between 12,000 and 21,000 yuan per year. The parks support eco-friendly industries, nature education, and ecological experiences. Over five years, they welcomed more than 14 million visitors. Hainan Tropical Rainforest Park joined a national pilot program on ecosystem value realization. Its gross ecosystem product reached 208.966 billion yuan.",
-        "Support systems have grown stronger too. China released a national park spatial layout plan. It passed the first specialized law for this field: the National Park Law. Regulations for nature reserves and scenic spots were revised. Funding relies mainly on government investment, with broad social participation. A national park perception system is now operational in key zones. Parks use satellites, drones, infrared cameras, and artificial intelligence to monitor ecological changes, wildlife activity, and human disturbance. The Northeast Tiger and Leopard Park built a world-leading monitoring system.",
-        "Officials say the 'Fifteenth Five-Year Plan' period will continue high-quality national park development. New parks will be established steadily and orderly. Plans include better habitat and corridor construction, biodiversity protection projects, improved ecological compensation policies, and continued livelihood support for local communities."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:21:59.664Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-13/2026-10-13-126a8b.webp",
-      "alt": "冷灰色调的山林溪流与动物剪影插画",
-      "caption": "国家公园五年，山林与生灵一同归来。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-13-21cca7",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中新网评：“不烧心”火了，别让“良心”凉了",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-13",
-    "intro": "抓取到的页面只有导航栏和标题，正文缺失，无法在不编造事实的前提下改写成听稿。",
-    "paragraphs": [
-      "这次抓取返回的内容里，能确认的只有一条标题——《中新网评：“不烧心”火了，别让“良心”凉了》，来源标注为中新网文化，以及一个可以直达的原文链接。标题以下的新闻正文没有出现在返回结果中，页面底部只剩下一段被截断的图片地址。",
-      "按轻听的编辑标准，听稿里的事实、数字、因果和引语都必须能在原文中逐条核验，编辑部添加的背景也要明确标注为背景。在看不到正文的情况下，任何关于“不烧心”指什么、它为什么流行、评论针对的是哪些商家或现象的叙述，都只能靠推测，这会把一篇评论改写成编造，违背来源可追溯的底线。",
-      "因此本篇暂不进入听稿流程，也不降低标准凑成一篇。可行的下一步是重新取得完整原文，或换用同一事件的另一篇有全文可核验的报道；如果原文确实无法获取，就按规则直接淘汰这个候选，改由同分候补接替。"
-    ],
-    "topics": [
-      "语言与文学",
-      "社会心理"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-13/10713536.shtml",
-      "originalTitle": "中新网评：“不烧心”火了，别让“良心”凉了",
-      "publishedAt": "Tue, 13 Oct 2026 10:06:40 +0800",
-      "retrievedAt": "2026-10-13T03:19:15.138Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-13T03:19:12.815Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
         "correctionCount": 8,
         "attempts": 1
       }
