@@ -1,5 +1,273 @@
 [
   {
+    "slug": "2026-10-31-61887c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "欢迎来到法国：我在法国街头参加的三场游行",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "今年十月，法国多地爆发游行，作者参与其中，记录下不同背景的人各自走上街头的诉求。",
+    "paragraphs": [
+      "今年十月以来，法国多地出现游行示威。10月17日之后，马克龙政府为了快速恢复秩序，采取了罕见的严厉干预，并在多个城镇实施宵禁。到10月28日晚上，部分市镇对无陪同未成年人的宵禁仍在持续。",
+      "可是，10月24日，人们还是再次走上街头。这一次，少了打砸抢烧，它的可見度也大幅度減少。",
+      "法國大學生、臺裔父母的高中生、來讀預科的中國人，人生背景各不相同的人們走上街頭，他們都有怎樣的訴求？",
+      "編者按裡提出一個問題：如果平靜難以收穫回應，暴力是否就因此獲得合法性？今年十月以來，作者多次在法國參與示威遊行，置身於不熟悉的『遊行文化』，她試圖聽見暴力之外，人們想要發出的聲音。"
+    ],
+    "topics": [
+      "全球时事",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261031-international-three-protests-in-france/",
+      "originalTitle": "「歡迎來到法國」：我在法國街頭的三場遊行",
+      "publishedAt": "Fri, 30 Oct 2026 23:00:00 GMT",
+      "retrievedAt": "2026-10-31T00:53:31.929Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T00:53:08.461Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-31-a-new-map-of-8216-empty-8217-space-challenges-a",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "星际空间新地图，打破银河系平静印象",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "天文学家曾长期把星际介质当成静止背景，但新的三维地图发现，这片看似空荡的空间其实充满动态变化，挑战了教科书中的宁静图景。",
+    "paragraphs": [
+      "太空看起来空荡荡，但那里其实飘着一层极稀薄的‘雾’。2020年，美国宇航局的‘新视野号’探测器飞过冥王星轨道后，测得银河系恒星之间区域——即‘星际介质’（ISM）——每升空间约有130个氢原子。这些氢，加上一些氦和其它分子，大多来自宇宙大爆炸，并持续被新生恒星喷出的气体尘埃、垂死恒星抛出的外层物质所补充。因其极其稀薄且变化缓慢，过去半个世纪里，天文学家大多忽略其细节，将其视为静止背景。但最近的研究表明，这片‘空’间远比想象中复杂。",
+      "1969年，乔治·菲尔德、唐纳德·戈德史密斯和哈姆·哈宾格提出一个模型：星际介质存在两种稳定状态——冷态与暖态。冷气体云因引力聚集并冷却至约100开尔文（约零下173摄氏度）；而受附近恒星紫外线加热的弥散云则维持在约8000开尔文。该模型认为，原子几乎会瞬时进入冷或暖态，基本不存留于中间的不稳定态。1977年，克里斯·麦基与杰里米亚·奥斯特里克补充第三种相：超新星激波前沿的气体可被加热至约50万开尔文，形成炽热等离子体。即便如此，爆炸区以外的原子气体仍被假定处于平静、压力平衡的状态。",
+      "验证这一理论极为困难。冷原子氢不发射可见光；最易探测的方式是捕捉其电子与质子自旋翻转时发出的波长为21厘米的微弱射电波。但地球单一线视方向接收到的是不同距离云团信号的叠加，如同观察一摞半透明彩色塑料片，颜色混叠，难以分辨各层。2013年升空的盖亚望远镜改变了局面：它通过视差法——类似轮流闭左右眼看近处拇指时其相对背景发生位移——测定了近20亿颗恒星的距离。科学家再分析这些恒星光线穿过星际介质时的消光与红化程度，结合距离数据，逐步推演出恒星间尘埃密度的三维分布。",
+      "将上述信息转化为星际介质的三维地图并不直接。同一组观测数据可能对应多种物理上可行的介质结构排列。过去十年，研究者构建了先进统计框架来应对这一难题。2024年，一个团队利用这些方法，绘制出太阳周围超过4000光年范围内的星际尘埃三维密度图。该图揭示了稠密尘埃云的空间位置，却无法反映其温度。要全面理解星际介质的热状态，还需第二张图——显示紫外线辐射如何加热介质。2024年，以色列理工学院本科生乔纳森·谢莱斯特在课堂上看到星际气体与尘埃图像后深受触动，主动加入教授什穆埃尔·比亚利的研究组。他们的计划是将尘埃密度图与紫外线辐射图结合。比亚利恰在一次会议上与天体物理学家特洛伊·波特交谈，获知后者正参与构建这样一张紫外辐射图。目前，研究者正推进两图融合，以首次系统揭示星际介质的温度结构。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+      "originalTitle": "A New Map of &#8216;Empty&#8217; Space Challenges a Tranquil Picture of the Galaxy",
+      "publishedAt": "Fri, 30 Oct 2026 14:52:05 +0000",
+      "retrievedAt": "2026-10-31T00:55:36.886Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T00:55:22.879Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 57,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A New Map of 'Empty' Space Challenges a Tranquil Picture of the Galaxy",
+      "intro": "Astronomers used to think the space between stars was calm and nearly empty. New 3D maps reveal it is surprisingly active and unstable.",
+      "paragraphs": [
+        "Imagine the space between stars. It looks empty. But it contains a thin fog of hydrogen and other neutral atoms. NASA's New Horizons spacecraft measured around 130 hydrogen atoms per liter of space. This happened after it passed the orbit of Pluto. The hydrogen comes mostly from the Big Bang. Stars add gas and dust as they form and die. For decades, astronomers treated the interstellar medium as a stationary backdrop.",
+        "In 1969, researchers George Field, Donald Goldsmith, and Harm Habing proposed a model. It had two stable states. Cold clouds are at about 100 kelvins. Warm diffuse clouds are near 8,000 kelvins. In 1977, Chris McKee and Jeremiah Ostriker added a third phase. Gas heated by supernova shock fronts reaches half a million kelvins. Yet atomic gas outside blast zones was assumed to achieve a calm, pressure-balanced existence.",
+        "Cold atomic hydrogen emits no visible light. Astronomers detect it using a rare 21-centimeter radio wave. This wave is emitted when the electron and proton flip spin states. From Earth, radio observations along one line of sight collect tangled signals. These signals come from overlapping clouds. It is like looking through stacked semitransparent colored plastic sheets. Only in recent years have astronomers been able to probe the space between stars in enough detail. They can now separate these layers.",
+        "The Gaia telescope launched in 2013. It observed almost 2 billion stars. It used parallax to determine their distances. Scientists studied how starlight dimmed and reddened while passing through interstellar dust. They used that data and distance information. They built a 3D map of dust density. In 2024, a team created a continuous three-dimensional map. It shows dust density within a sphere more than 4,000 light-years wide around our sun.",
+        "That dust map revealed where interstellar dust was concentrated. Dense clouds are scattered between stars. But it could not tell researchers how hot or cold the dust was. Jonathan Shelest is an undergraduate at the Technion in Haifa, Israel. He joined professor Shmuel Bialy’s research group in 2024. They combined the dust map with a map of ultraviolet radiation. Ultraviolet radiation heats the interstellar medium. Their result showed much of the interstellar medium is unstable. This contradicts textbook models. This instability may help resolve long-unanswered questions about star formation rates."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:09:10.739Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-31/2026-10-31-a-new-map-of-8216-empty-8217-space-challenges-a.webp",
+      "alt": "冷灰色调抽象层叠纹理，表现星际空间的三维动态结构",
+      "caption": "看似空荡之处，也有自己的起伏。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-31-it-could-knock-a-whole-street-down-the-art-of-de",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一枚能炸毁整条街的二战炸弹，拆弹专家如何拆除",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "今年1月14日，英国两处地点同时发现二战遗留炸弹，军队和海军拆弹小组面临紧急挑战。",
+    "paragraphs": [
+      "1月14日，陆军和海军小队面临前所未有的挑战：一枚炸弹位于普利茅斯一处建筑工地，另一枚则漂浮在埃克斯茅斯一艘挖泥船上。",
+      "参与行动的是第11爆炸物处理与搜索团（11EOD）的利亚姆·基德曼上尉和安德鲁·博伊斯少校。",
+      "当天下午，倒计时开始。这些二战时期遗留的炸弹仍具极高危险性，需由专业人员谨慎处置。"
+    ],
+    "topics": [
+      "全球时事",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/30/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb-podcast",
+      "originalTitle": "‘It could knock a whole street down’: the art of defusing a second world war bomb – podcast",
+      "publishedAt": "Fri, 30 Oct 2026 05:00:44 GMT",
+      "retrievedAt": "2026-10-31T00:57:46.919Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T00:57:38.834Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Art of Defusing a Second World War Bomb",
+      "intro": "Two old bombs found in one day put army and navy teams in a race against time.",
+      "paragraphs": [
+        "On 14 January this year, army and navy squads faced an unprecedented challenge: one bomb on a Plymouth building site, another floating on a dredger in Exmouth. That afternoon, the clock started ticking.",
+        "These were not new bombs. They were old weapons left over from the second world war. Even after many years, they can still explode. One bomb could knock down a whole street.",
+        "Facing two bombs at once was unprecedented for the squads. Normally they might handle one device at a time. This time they had to split their attention.",
+        "Defusing a bomb is an art. The army and navy squads each faced a dangerous task. They had to make the bombs safe. They had to do it quickly.",
+        "Next time you hear about a wartime bomb found during building work, remember this story. The people who defuse these bombs may not be famous. But their careful work lets a whole street stay standing."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:08:00.925Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-31-cd3051",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "不缺冠军的地方 把校园变成“冠军摇篮”",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "河北保定是6位奥运冠军、25位世界冠军的诞生地。在体教融合推动下，这里正从单纯“比金牌”转向“育新才”，让体育好苗子一茬又一茬地从校园里“长”出来。",
+    "paragraphs": [
+      "今年中网男单决赛上，焦科维奇牵手一位来自保定市竞秀学校的12岁小姑娘入场。她叫滕诗琪，在2026钻石杯青少年网球挑战赛年度总决赛中斩获U12女单冠军；她的同学许沫辰夺得U14男单冠军。作为6位奥运冠军、25位世界冠军的诞生地，保定并不缺少金牌。更具长远价值的变化是，在体教融合的大背景下，保定体育积极转型，从单纯的“比金牌”转向“育新才”，“好苗子”正一茬又一茬地从校园里“长”出来。",
+      "这一转变的关键，在于打掉体育与教育之间的“分治”之墙。在很多地方，体校招生与教育学籍存在衔接不畅问题，校园体育和专业赛事各成体系，资源共享难、协同效率低，根子在体育、教育分属两个系统。2019年，保定市在县级层面全面推进体育与教育职能合并，组建教育和体育局，从机构设置上实现“一个部门管到底”。2021年6月，保定市体育局、教育局联合印发《关于深化体教融合 促进青少年健康发展的实施意见》，在全省率先出台市级配套文件，将体育科目正式纳入中考计分体系并逐步提高分值，并建立体育教师与教练员职称双向评定机制。截至目前，全市已有近百名基层体育教师、体校教练员实现职称双向评定。",
+      "落实体教融合还需“因校而异”。保定采取“市队校办”模式，全市累计挂牌新型体校250余所，建成省级体育传统特色学校125所、市级360所。保定市第七中学2019年挂牌竞秀区体校，共开设38个体育项目，橄榄球、赛艇等多个市级专业队（初中、高中都有）落在学校；学校合理安排训练时间，充分利用有限场地设施，已向省队、国家队输送体育人才三十多名。另一所九年一贯制学校——保定市竞秀学校，拥有配置标准400米跑道的风雨操场，以及游泳馆、体操馆等室内设施；全校5000多名学生中，超过五分之一参与网球、乒乓球、游泳、体操4种传统项目班及19个体育类社团课程；学校将足球“班超”、游泳联赛、乒乓球联赛、网球联赛、篮BA合称为“五大联赛”。",
+      "实现体教融合，必须有好教练。竞秀学校游泳馆里的教练多为省队、市队退役专业运动员，通过竞秀区教体局体教融合资源库遴选推荐。保定市近年来深入实施“冠军回乡”计划，面向全国选聘保定籍高水平退役运动员回乡任教。在竞秀区，2023年以来已选聘射击亚洲冠军宋程等15名全国以上赛事冠军进入校园，组建6个项目的区级运动队，同时成立“奥运冠军工作室”，邀请庞伟、李冰洁等奥运冠军入驻，带动校园体育训练专业化水平整体提升。",
+      "为化解“学训矛盾”，保定市第一中学构建小学—初中—高中贯通的6个完整梯队，与金瑞中学等3所中学、址舫头小学等6所小学衔接布点，拥有150余名队员；队员们文化课全部随班就读，训练安排在课后、周末与假期错峰进行。该校女足已8次夺得全国高中女子足球总冠军；2026年7月，夺得2025-2026赛季全国青少年校园足球四级联赛高中女子组全国总冠军。毕业生王丹彤小学四年级进入保定一中女足梯队，2023年随队获河北省中学生校园足球联赛冠军，之后征战世界中学生足球锦标赛获亚军；2024年1月首次入选U17国家女子足球队集训名单，之后入选U20女足多期集训名单，还进入波兰U20女足世界杯出征名单。保定整合校内、校际、区域三级赛事资源，常态化举办“奥运冠军之城杯”U系列赛、全市青少年三大球运动会等品牌赛事；2025年举办各级青少年赛事超1000场，实现“月月有比赛、全年不断档”；2025年全市共输送223名优秀苗子赴省队集训；截至2026年8月，全市青少年注册运动员突破1.3万人。"
+    ],
+    "topics": [
+      "体教融合",
+      "校园网球",
+      "保定体育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261029/cb68a9855f6443bda3f81a7ea6ed76e0/c.html",
+      "originalTitle": "不缺冠军的地方 把校园变成“冠军摇篮”",
+      "publishedAt": "2026-10-29T17:41:38+08:00",
+      "retrievedAt": "2026-10-31T01:00:37.669Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:00:19.225Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-31-449689",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "磁州窑历千年不衰：从古人“朋友圈”到今人“生活圈”",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "一只瓷器，为什么能从千年前一直用到今天？磁州窑的故事，说的不只是手艺。",
+    "paragraphs": [
+      "在没有手机的时代，人们也会想把自己的心情留下来。古人用的办法，是画在烧制瓷器的泥坯上。磁州窑的工匠和百姓，把想说的话、看见的事，写成诗、画成画，烧进一只碗、一个瓶。",
+      "磁州窑最特别的地方，是它没有把自己锁在高高在上的宫廷审美里。它用黑、白两色，在瓷器表面画出生动的线条，花草、鱼鸟、人物、故事，都来自普通人看得懂的日常。这种风格被叫作白地黑花。",
+      "为什么很多古代名窑流传到今天就断了，磁州窑却能烧上千年？一个重要的原因是，它始终和老百姓的生活绑在一起。家里盛饭的盘、喝水的碗、插花的瓶，磁州窑都能做，而且做得耐用又好看。",
+      "到了今天，磁州窑并没有只躺在历史的影子里。它走进了现在人的生活圈。有设计师把磁州窑的纹样做成现代餐具，有年轻人学着用白地黑花画自己身边的故事。",
+      "从记录心事的瓷器，到摆上餐桌的器皿，磁州窑走过了漫长的时间。它提醒我们，真正有生命力的东西，往往不是最贵重的，而是最愿意陪伴普通人过日子的。"
+    ],
+    "topics": [
+      "磁州窑",
+      "陶瓷文化",
+      "非遗传承"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-30/10723586.shtml",
+      "originalTitle": "（文化新纪行）从古人“朋友圈”到今人“生活圈”：磁州窑历千年不衰",
+      "publishedAt": "Fri, 30 Oct 2026 20:01:56 +0800",
+      "retrievedAt": "2026-10-31T01:01:40.842Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:01:23.313Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-31/2026-10-31-449689.webp",
+      "alt": "冷灰色调瓷器剪影，表面有细密裂纹与柔和阴影",
+      "caption": "一只瓷器，连接古人与今人的日常。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-10-30-862415",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "丁一汇院士：一辈子都在琢磨风雨的脾气",
@@ -3089,307 +3357,6 @@
         "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-17-4739dc",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "看不见赛道，他们用一根陪跑绳并肩向前",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-17",
-    "intro": "10月15日是国际盲人日。走近成都黑暗跑团：一根橙色陪跑绳的两端，是视障跑者和陪跑志愿者并肩向前的脚步。",
-    "paragraphs": [
-      "每个周六，在成都锦城湖、四川大学华西校区风雨操场，常能看到这样一群人：两个人并排奔跑，中间连着一根橙色陪跑绳。这头是视障跑者，那头是陪跑志愿者。两人调整步伐、配合节奏，一起向前奔跑。这是成都黑暗跑团的每周六常规例跑。跑团成都站负责人张志宏介绍，目前跑团有190位视障成员、1500多名志愿者。每周六的例跑，是大家运动、交流、结识朋友的机会。",
-      "这群跑友眼下有了新的目标：即将到来的2026年成都马拉松，将成为他们又一次并肩奔跑的赛场。跑团计划组织23位视障跑者参赛，其中4位参加半程马拉松，其余挑战全程马拉松；还有70多名陪跑志愿者将一同上场护航。参赛队伍中，还有肢体障碍和听力障碍跑者。赛道之外，也有他们的伙伴：10位视障伙伴和30余名志愿者将在赛道旁为跑友加油助威。",
-      "为什么要成立‘黑暗跑团’？张志宏解释说，希望能帮助视障伙伴坦然接纳‘黑暗’这个真实的生命处境，再以奔跑的姿态冲破边界、打破偏见。而‘跑团’二字，是力量，是连接，是希望。一根陪跑绳的两端，是平等与信任，是彼此陪伴，一起向前，实现残健共融、双向奔赴。",
-      "但在跑团成立之初，邀请视障朋友来跑步并不是一件容易的事。有人心存疑虑，不相信会有人免费陪自己出门运动。从熟悉的环境走向户外，需要勇气，更需要信任。后来，跑友介绍跑友，成都市锦江区残联也帮助推动宣传，越来越多的视障跑者加入进来。2020年10月25日，张志宏组织了第一场黑暗跑团活动。",
-      "10月15日是国际盲人日。一根橙色陪跑绳，这头是视障跑者，那头是陪跑志愿者，两个人调整步伐、配合节奏，一起向前奔跑——在成都黑暗跑团，这样的并肩奔跑是每周六的约定。"
-    ],
-    "topics": [
-      "体育",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261015/cfc5923147b748c78db7be7d8fffa819/c.html",
-      "originalTitle": "追光丨他们看不见赛道，却偏要“冲破”黑暗",
-      "publishedAt": "2026-10-15T10:05:27+08:00",
-      "retrievedAt": "2026-10-16T23:43:22.457Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:43:14.960Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-17-3ac970",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "古特雷斯呼吁各方加快行动并增加投入，以遏制生物多样性丧失",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-17",
-    "intro": "联合国生物多样性大会第十七次缔约方大会将于下周在亚美尼亚首都埃里温开幕。联合国秘书长古特雷斯周五在当地举行的领导人峰会上表示，全球超过100万种物种面临灭绝风险，但保护行动进展缓慢，资金投入严重不足。",
-    "paragraphs": [
-      "全球有超过100万种物种面临灭绝风险。联合国秘书长古特雷斯周五在亚美尼亚首都埃里温举行的领导人峰会上指出，保护行动进展缓慢，资金投入严重不足，他敦促各国政府、企业和社会各界加快行动，遏制生物多样性丧失。联合国生物多样性大会第十七次缔约方大会将于下周在埃里温开幕。",
-      "四年前通过的《昆明-蒙特利尔全球生物多样性框架》推动了全球共同行动。近90%的缔约方已制定国家生物多样性目标，超过一半制定了国家行动路线图。自2022年以来，全球新增正式保护的陆地面积达130万平方公里，海洋面积达600万平方公里。但各国进展不均衡，行动速度仍然过慢。",
-      "目前，全球生物多样性融资不到《昆蒙框架》所商定的2000亿美元目标的一半。同时，各国在投入1美元用于保护自然的同时，就有30美元流向损害自然的活动。2023年，全球流入污染性重工业、破坏性农业经营和化石燃料等有损自然行业的资金达7.3万亿美元。古特雷斯敦促各国政府停止相关补贴，将节省下来的资金用于改善民生和保护地球。要实现全球生物多样性保护、应对气候变化和土地恢复目标，到2030年，全球每年需投入5710亿美元，这笔投资约占全球国内生产总值的0.5%。",
-      "即使现有承诺全部兑现，到2030年，受到保护的陆地生态系统和海洋生态系统比例也分别仅为26%和12%，低于早前设定的30%的保护目标。古特雷斯呼吁各国政府发挥领导作用，落实‘到2030年保护至少30%陆地和海洋’的目标，推动零废弃和循环经济、可持续耕作与再生农业，加强监测、提高透明度，并强化现有法律的执行。他还赞扬了《埃里温宣言》作出的将生物多样性纳入政府政策、预算和法规的承诺。",
-      "古特雷斯同时呼吁私营部门扩大参与，并指出，得到联合国支持的卡利基金，为从自然中获益的企业提供了资助生态保护的渠道。与此同时，他表示许多发展中国家受到债务负担、公共预算有限和国际金融体系不公平等因素制约，难以充分投资于自然保护和人的发展。他最后呼吁社会各界广泛参与，指出环境退化往往对最脆弱、环境破坏负有最少责任的群体造成最严重影响，而解决方案也常常来自这些群体。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143017",
-      "originalTitle": "古特雷斯呼吁各方加快行动并增加投入，以遏制生物多样性丧失",
-      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-16T23:44:13.042Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:44:06.589Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Guterres Urges Faster Action to Protect Nature",
-      "intro": "World leaders are meeting in Armenia. The UN chief says the planet cannot wait any longer.",
-      "paragraphs": [
-        "More than one million species face extinction risk. UN Secretary-General António Guterres said this on Friday at a leaders' summit in Yerevan. Yerevan is the capital of Armenia. The UN Biodiversity Conference COP17 opens there next week. Guterres said protection efforts are progressing too slowly. Funding is severely insufficient.",
-        "Four years ago, countries adopted the Kunming-Montreal Global Biodiversity Framework. Nearly 90 percent of parties have set national biodiversity targets. Over half have developed national action roadmaps. Since 2022, newly protected land area reached 1.3 million square kilometers. Newly protected ocean area reached 6 million square kilometers.",
-        "Global biodiversity financing is less than half of the agreed 200 billion dollar target. Guterres highlighted a stark imbalance. For every one dollar spent protecting nature, thirty dollars flow to activities that harm it. In 2023, seven point three trillion dollars went to polluting heavy industry, destructive agriculture, and fossil fuels. He urged governments to end those harmful subsidies. They should redirect savings to people and the planet. To meet global goals by 2030, annual investment must reach 571 billion dollars. That is about 0.5 percent of global GDP.",
-        "Even if all current commitments are fulfilled, protected land would reach only 26 percent by 2030. Protected ocean would reach only 12 percent. Both are below the 30 percent target. Guterres called on governments to lead implementation of the '30 by 30' goal. They should advance zero-waste and circular economies. They should promote sustainable and regenerative agriculture. They should strengthen monitoring and transparency. They should enforce existing laws. He welcomed the Yerevan Declaration’s commitment. It integrates biodiversity into government policies, budgets, and regulations.",
-        "Guterres also urged the private sector to scale up involvement. He noted the UN-backed Cali Fund offers businesses a channel. These businesses benefit from nature. They can finance conservation. He stressed that many developing countries face constraints. Debt burdens limit them. Limited public budgets limit them. An unfair international financial system limits them. These constraints hinder investment in nature and human development. Environmental degradation harms the most vulnerable. Those people are least responsible. Solutions often emerge from these communities."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:52:48.811Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 5,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-17/2026-10-17-3ac970.webp",
-      "alt": "冷灰纸张质感上，层叠的抽象叶片轮廓，部分渐隐。",
-      "caption": "生物多样性的脆弱轮廓",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-16-how-do-fungi-keep-the-planet-healthy",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "地下看不见的真菌网络，怎样让地球保持健康？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-16",
-    "intro": "土壤不是一捧死掉的泥土，地下有一张真菌织成的网，正在和植物做一笔持续了四亿五千多万年的买卖。",
-    "paragraphs": [
-      "下一次你在公园或树林里走路，可以想一想鞋底下踩着的到底是什么。不只是一层泥土。在土壤里，有一张我们平时完全看不见的网——菌根真菌。这个名字拆开就是两个意思：myco 是真菌，rhizal 是根。它们和地球上超过百分之八十的植物结成了伙伴关系。这段关系非常古老，大约在四亿五千万年前就开始了。那时候植物还生活在水里，正是靠着真菌的帮助，才慢慢登上陆地。更让人意外的是，在很长一段时间里，真菌实际上替植物充当了根系，真正意义上的根，反倒是后来才演化出来的新发明。",
-      "那它们怎么合作呢？植物把光合作用造出来的碳送到地下，交给真菌；真菌则把自己找到的磷和氮还给植物。真菌特别擅长把岩石分解开，把植物够不着的矿物一点点消化出来，有时候还要请细菌来帮忙。它们消化的方式很特别，可以说是在身体外面“吃”，让岩石溶解成能够被吸收的形态。当然，真菌不是白干活。植物付给它们的报酬是糖和脂肪。正因为植物源源不断地把碳送进这张网，有人把它称作地球的循环系统之一。",
-      "这张网到底长什么样？你把一棵植物的根从土里拔出来，几乎看不到上面挂着什么。那些菌丝比头发还细，直径只有几微米。研究者最关注的一类叫丛枝菌根真菌，它们的网络像一套开放的管道，中间没有隔断把它切成一个个小格子，所以有人觉得，它们可能是地球上最大的细胞。想看清它们，实验室里要用近乎透明的土壤来种这些网络，再架上显微镜，还和荷兰阿姆斯特丹 AMOLF 生物物理研究所的科学家一起造了成像机器人。在一场实验里，他们同时追踪大约五十万个节点，看每一个节点是往左走、往右走，还是和旁边的连起来搭一座桥。",
-      "最让科学家好奇的是：这些既没有大脑、也没有中枢神经的生物，居然会做选择。托比·基尔斯是阿姆斯特丹自由大学的进化生物学家，也是麦克阿瑟奖得主。她的实验室借用了经济学和博弈论里的思路，还用上荧光量子点这样的工具，结果发现，真菌能分辨出哪些伙伴更好、哪些更差，并且会把资源挪到植物“出价”更高的地方去。",
-      "这件事不只关乎植物。研究者估计，真菌网络每年从大气中固定十三亿吨二氧化碳，大约相当于全世界化石燃料排放量的三分之一。它们把碳留在地下，也让土壤变得更肥沃。基尔斯还在推动一件更大的事：她联合世界各地的科学家，一起绘制地下真菌网络的多样性地图，并呼吁保护它们。而她的这些研究，也在追问一些更基本的问题——关于土壤，关于碳，甚至关于什么才算一个独立的生命个体。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
-      "originalTitle": "How Do Fungi Keep the Planet Healthy?",
-      "publishedAt": "Thu, 15 Oct 2026 13:40:13 +0000",
-      "retrievedAt": "2026-10-15T23:45:57.311Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-15T23:45:41.203Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Do Fungi Keep the Planet Healthy?",
-      "intro": "Under our feet, a vast network of mycorrhizal fungi is hard at work, trading minerals with plant roots.",
-      "paragraphs": [
-        "Soil is not just dirt. It is anything but inert. A vast network of mycorrhizal fungi trades minerals with plant roots. The word mycorrhizal means myco, which means fungus, and rhizal, which means root. Over 80% of all plant species on Earth form these partnerships. The relationship evolved some 450 million years ago. It was fundamental for plants in a wet, aquatic environment to start colonizing land hundreds of millions of years ago.",
-        "Plants send carbon they photosynthesize — and take out of the atmosphere — to fungal networks in the soil. In return, they get phosphorus and nitrogen. Fungi are very good at breaking up rocks and digesting hard-to-access minerals. They partner with bacteria to help break down rocks. Plants pay with sugar and lipids like fats. This partnership is almost ubiquitous across terrestrial ecosystems. Because plants constantly feed carbon down to these networks, scientists call it one of Earth’s circulatory systems.",
-        "These fungal networks sequester 13 billion tons of atmospheric carbon dioxide each year — roughly equivalent to one-third of the world’s fossil-fuel emissions. They enrich the soil, help farmers and biodiversity, and support agriculture. Fungi may not get much respect, but they are right up there with animals and plants in mattering to the world.",
-        "Fungi have no brain or central nervous system. Yet they behave strategically: discriminating between better and worse partners and shifting resources across the network to wherever a plant will ‘pay’ more for them. Toby Kiers is an evolutionary biologist at Vrije Universiteit Amsterdam. She uses economics and game theory — and tools from fluorescent quantum dots to imaging robots — to probe how fungi and plants conduct their trade.",
-        "Her lab grows fungal networks across transparent soil-like material. With imaging robots built with biophysicists at AMOLF in Amsterdam, they track individual nodes across the networks. In one experiment, they track about half a million nodes — fungal decisions to go left, right, or fuse into a bridge. The threads are thinner than hairs on a human head — just a few microns across. Arbuscular mycorrhizal fungi are like an open-pipe system. They don’t have septa that break them into compartments. Some people even say they’re the largest cells on Earth.",
-        "Kiers has built a worldwide community of researchers to map the biodiversity of these underground networks and advocate for their protection. The work raises new questions about soil, carbon, and even what counts as an individual organism. Next time you walk on soil, remember the wood wide web — not the worldwide web — beneath your feet."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-15T23:51:43.088Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-16/2026-10-16-how-do-fungi-keep-the-planet-healthy.webp",
-      "alt": "土壤剖面中真菌菌丝网络与植物根系交织相连的抽象插图",
-      "caption": "地下菌丝网络，连接植物与土壤。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-16-calls-of-the-wild-offer-sound-guidance-for-prote",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "听叫声辨识森林动物，生物声学成为保护濒危动物的新工具",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-16",
-    "intro": "把录音机挂在树上，就能听见森林里谁在说话。这门叫生物声学的学问，正在成为保护濒危动物的新工具。",
-    "paragraphs": [
-      "想找到一头狮子并不容易。科学家通常开车在草原上跑几个小时，找脚印、找粪便，或者把相机陷阱架在动物常经过的地方，等它自己入镜。但大型食肉动物研究员乔纳森·格罗科特觉得，这些办法漏掉了很重要的一件事：动物是会发声的。狮子、豹子和鬣狗的叫声是动物界最好认的声音之一，而且能传出好几公里。",
-      "会发声的远不止它们。鸟、哺乳动物、昆虫、爬行动物、两栖动物、鱼，连甲壳类动物都会发出声音。有的用叫声寻找配偶、守卫领地，有的用叫声吓退天敌。声音帮它们感知环境、和同伴联络，也能帮到科学家——前提是知道该听什么。越来越多研究者开始研究生物如何发出、传播和接收声音，这门学问叫生物声学。录音设备可以绑在树上，也可以放在海底，安静地收集声音，不打扰野生动物。研究者由此能知道这片地方有哪些物种、它们在做什么、种群大概有多少，也能减少动物和人的冲突。",
-      "格罗科特在英国埃克塞特大学读博士时，做了第一次大规模非洲食肉动物声学调查。他在坦桑尼亚的尼雷尔国家公园，把50台录音设备铺设在450平方公里范围内，并把录音机和相机陷阱配对放置。他先研究豹子。豹子独居、昼伏夜出、行踪隐秘，数量很难统计，但会发出低沉、像锯木头一样的吼声。团队把每只豹子的照片和吼声一一对应，发现每只豹子的吼声都不一样。一个计算机模型仅凭吼声就能分辨不同的豹子，准确率达到93%。‘你 can identify leopards not only by their spots, but also by their roars,’ Growcott reports。",
-      "轮到狮子，格罗科特发现吼声的模式并不一样：有的响亮、悠长、复杂，有的短而简单。他用人工智能分析后确认，狮子的吼声有两种。一种是我们熟悉的、在动物园或电影里听到的洪亮吼声；另一种更短、音调更低，此前没有被描述过，他叫它‘intermediary’ roar。他真正想做的，是认出具体的某一头狮子，于是创建了一个AI工具，用于识别个体狮子的洪亮吼声。AI能以超过95%的准确率识别具体狮子，比人类专家还高。把吼声和个体对应起来，研究者就能统计这些大猫的数量、追踪各自活动的范围，这是保护野生动物和当地人都需要的数据。",
-      "有些动物稀少又难见到，声音就更重要。地球上最后74只东黑冠长臂猿，生活在越南北部一片偏远的山地雨林里。这个物种一度被认为已经灭绝，直到2002年科学家才发现这一小群。它们一生都在树冠里活动，用肉眼几乎无法观察。好在它们爱唱歌，结成伴侣的长臂猿会合唱响亮的二重唱。美国迦太基学院的生物学家安杰拉·达索研究它们已有五年，团队在一片区域放置大约20台特制录音机。同一声鸣叫传到不同录音机的时间略有差别，计算机比较这些时间差，就能算出声音来自哪里。‘Our recording units don’t just tell us _if_ an animal is present,’ says Dassow. ‘They give us a GPS location of where that animal is, without putting a radio collar on it.’ 这些信息会分享给当地巡护员，用来保护长臂猿和它们的森林。",
-      "达索还把生物声学用在另一片亚洲森林，减少人和孟加拉虎的冲突。过去十年，保护项目让尼泊尔的老虎数量增加了。对濒危物种来说这是好消息，但人也更多遇到这种顶级捕食者，在依赖森林生活的农村尤其如此。她开发了一套声学警报系统，提醒村民有老虎正在靠近。难点是老虎很安静，很少叫；她想到的办法是借助花鹿——花鹿是老虎的猎物，也很擅长察觉附近的老虎，一旦发现老虎或其他捕食者，就会发出独特的警报叫声。Growcott notes: ‘At some point, we may better understand why animals make the sounds they do... Trying to work out what animals mean when they make noises is something that has fascinated people for a long time. I think it will continue to fascinate us for a long time to come.’"
-    ],
-    "topics": [
-      "生命与演化",
-      "声音与感知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
-      "originalTitle": "Calls of the wild offer sound guidance for protecting animals",
-      "publishedAt": "Thu, 15 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-15T23:47:47.858Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-15T23:47:38.990Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Listening to the Wild: How Animal Sounds Help Protect Them",
-      "intro": "Scientists are learning to protect animals by listening to the sounds they make.",
-      "paragraphs": [
-        "Jonathan Growcott calls the African savanna his happy place. He bounces across it in a 4×4 vehicle. As a large-carnivore biologist, he tracks predators in the wild. That work is tough; these animals can be hard to find. Common methods often involve driving for hours in search of footprints or droppings. Some researchers set up camera traps in hopes of snapping photos of passing animals. Growcott felt these still missed something. Maybe scientists could do more than just look for signs of critters. Perhaps they could listen for them, too. 'Species like lions, leopards and hyenas produce some of the most recognizable sounds in the animal kingdom,' notes Growcott. What’s more: 'These sounds travel many kilometers [miles].'",
-        "Birds, mammals and insects are sound-makers. So are reptiles, amphibians, fish — even crustaceans. Some call out to find mates or defend territories. Others use calls to scare off predators. Sounds help many creatures sense their environment and check in with each other. This cacophony of chirps, squeaks, rattles and roars can aid scientists, too — if they know what to listen for.",
-        "Bioacoustics is the study of how living things make, transmit and receive sounds. Audio recorders can be strapped to a tree or set on the ocean floor. Once placed, the devices capture bioacoustic data without disturbing wildlife. This can make them especially useful in conservation efforts. By eavesdropping on neighborhood chatter, researchers can find out which species are out there and what they’re up to. They can estimate the size of populations to keep tabs on how critters are doing. Knowing where animals are can also help limit their conflict with people.",
-        "Growcott ran the first large-scale bioacoustics survey of African carnivores. At the time, he was a PhD student at the University of Exeter in England. He and his team worked in East Africa at the Nyerere National Park in Tanzania. They deployed 50 acoustic recorders across 450 square kilometers (175 square miles). He focused on leopards first. These solitary cats are secretive and nocturnal. Such habits make monitoring their numbers challenging. Leopards produce deep 'sawing' roars that resemble the sound of cutting wood. Jonathan Growcott and colleagues found that each leopard’s roar was unique. So 'you can identify leopards not only by their spots, but also by their roars,' Growcott reports. A computer model was able to distinguish between leopards based on their roars with 93 percent accuracy. When Growcott turned to lions, he noticed patterns. Some of their roars were loud, long and complex. Others sounded shorter and simpler. Using artificial intelligence (AI), he analyzed those roars. It showed lions produce two distinct types. There’s the familiar, full-throated roar you may have heard at a zoo or in a movie. Then there’s a shorter, lower-pitched one. He called this previously unknown one an 'intermediary' roar. He created an AI tool that he calls 'Shazam for lions.' It analyzes just the full-throated roars — because they contain the most sound information. AI, he found, could identify a specific lion by its roar with more than 95 percent accuracy. That’s better than human experts can do!",
-        "Sound is especially useful when animals are rare or hard to see. The last 74 Cao-vit gibbons on Earth live in a remote part of Southeast Asia. They’re in a patch of mountainous rainforest in northern Vietnam. Their species was thought to be extinct until 2002. That’s when scientists discovered this small population. These critically endangered apes spend their lives in treetops. That makes them almost impossible to observe by eye. Fortunately, Cao-vit gibbons like to make themselves heard. Mated pairs sing loud, melodic duets. 'It is a privilege to hear one of the rarest primates on the planet giving their morning duet calls,' says Angela Dassow. These 'are kind of eerie,' she notes, 'but also beautiful to wake up to.' Dassow is a biologist at Carthage College in Kenosha, Wisc. For the past five years, she’s studied Cao-vit gibbons with partners in Vietnam. To locate the animals, the team uses specially designed acoustic recorders. Dassow places around 20 of them throughout a region. That way, a single gibbon call reaches different recorders at slightly different times. By comparing those times, computers can pinpoint where the sound came from. 'Our recording units don’t just tell us if an animal is present,' says Dassow. 'They give us a GPS location of where that animal is, without putting a radio collar on it.'",
-        "Dassow is using bioacoustics in another Asian forest to lessen conflicts between people and Bengal tigers. Over the past 10 years, conservation programs have increased the number of these tigers in Nepal. That’s great news for this endangered species. But it also has led to more encounters between people and these top predators. To help people coexist with the big cats, Dassow developed an acoustic alarm system. It alerts villagers to the presence of approaching tigers. Tigers tend to be quiet. Very rarely do you hear them vocalize. But there are a lot of chital deer in the area, and they are a prey source for tigers. As you might expect, these deer are excellent at detecting when a tiger is near. They make a distinctive alarm call when they spot a tiger or other predator."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-15T23:52:33.054Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-16/2026-10-16-calls-of-the-wild-offer-sound-guidance-for-prote.webp",
-      "alt": "森林枝头悬挂录音装置并扩散声波的抽象插图",
-      "caption": "树上的录音机，听见森林的声音。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-16-9429ec",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-16",
-    "intro": "这次抓取到的《国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”》只有标题与网页导航结构，正文内容完全缺失，无法提取任何可核查的事实信息。",
-    "paragraphs": [
-      "从中国新闻网抓取到的这份页面，仅包含网站标识、栏目导航链接、搜索功能入口和文章标题《国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”》，标题之后未出现任何正文段落、数据、人物、作品名或具体案例。",
-      "根据轻听改写规范，听稿中所有陈述必须能在原文中逐字找到依据。当前证据块中无一句描述‘四剑客’所指剧目、播出平台、覆盖国家、收视表现、观众反馈或行业影响等内容，因此无法构建任何事实性叙述。",
-      "该稿件暂不生成听稿。待获取含完整正文的原文后可重新提交；若正文需权限访问或已下线，则按规则放弃处理，不以推测、常识或外部知识补全。"
-    ],
-    "topics": [
-      "国产剧出海",
-      "文化输出",
-      "流媒体与译制",
-      "跨文化传播"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715366.shtml",
-      "originalTitle": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
-      "publishedAt": "Thu, 15 Oct 2026 23:18:45 +0800",
-      "retrievedAt": "2026-10-15T23:49:42.721Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-15T23:49:30.776Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 4,
-        "attempts": 1
       }
     }
   }
