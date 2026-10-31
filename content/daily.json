@@ -1,242 +1,24 @@
 [
   {
-    "slug": "2026-10-31-61887c",
+    "slug": "2026-10-31-90-06ca20",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "欢迎来到法国：我在法国街头参加的三场游行",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "今年十月，法国多地爆发游行，作者参与其中，记录下不同背景的人各自走上街头的诉求。",
-    "paragraphs": [
-      "今年十月以来，法国多地出现游行示威。10月17日之后，马克龙政府为了快速恢复秩序，采取了罕见的严厉干预，并在多个城镇实施宵禁。到10月28日晚上，部分市镇对无陪同未成年人的宵禁仍在持续。",
-      "可是，10月24日，人们还是再次走上街头。这一次，少了打砸抢烧，它的可見度也大幅度減少。",
-      "法國大學生、臺裔父母的高中生、來讀預科的中國人，人生背景各不相同的人們走上街頭，他們都有怎樣的訴求？",
-      "編者按裡提出一個問題：如果平靜難以收穫回應，暴力是否就因此獲得合法性？今年十月以來，作者多次在法國參與示威遊行，置身於不熟悉的『遊行文化』，她試圖聽見暴力之外，人們想要發出的聲音。"
-    ],
-    "topics": [
-      "全球时事",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261031-international-three-protests-in-france/",
-      "originalTitle": "「歡迎來到法國」：我在法國街頭的三場遊行",
-      "publishedAt": "Fri, 30 Oct 2026 23:00:00 GMT",
-      "retrievedAt": "2026-10-31T00:53:31.929Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T00:53:08.461Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-31-a-new-map-of-8216-empty-8217-space-challenges-a",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "星际空间新地图，打破银河系平静印象",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "天文学家曾长期把星际介质当成静止背景，但新的三维地图发现，这片看似空荡的空间其实充满动态变化，挑战了教科书中的宁静图景。",
-    "paragraphs": [
-      "太空看起来空荡荡，但那里其实飘着一层极稀薄的‘雾’。2020年，美国宇航局的‘新视野号’探测器飞过冥王星轨道后，测得银河系恒星之间区域——即‘星际介质’（ISM）——每升空间约有130个氢原子。这些氢，加上一些氦和其它分子，大多来自宇宙大爆炸，并持续被新生恒星喷出的气体尘埃、垂死恒星抛出的外层物质所补充。因其极其稀薄且变化缓慢，过去半个世纪里，天文学家大多忽略其细节，将其视为静止背景。但最近的研究表明，这片‘空’间远比想象中复杂。",
-      "1969年，乔治·菲尔德、唐纳德·戈德史密斯和哈姆·哈宾格提出一个模型：星际介质存在两种稳定状态——冷态与暖态。冷气体云因引力聚集并冷却至约100开尔文（约零下173摄氏度）；而受附近恒星紫外线加热的弥散云则维持在约8000开尔文。该模型认为，原子几乎会瞬时进入冷或暖态，基本不存留于中间的不稳定态。1977年，克里斯·麦基与杰里米亚·奥斯特里克补充第三种相：超新星激波前沿的气体可被加热至约50万开尔文，形成炽热等离子体。即便如此，爆炸区以外的原子气体仍被假定处于平静、压力平衡的状态。",
-      "验证这一理论极为困难。冷原子氢不发射可见光；最易探测的方式是捕捉其电子与质子自旋翻转时发出的波长为21厘米的微弱射电波。但地球单一线视方向接收到的是不同距离云团信号的叠加，如同观察一摞半透明彩色塑料片，颜色混叠，难以分辨各层。2013年升空的盖亚望远镜改变了局面：它通过视差法——类似轮流闭左右眼看近处拇指时其相对背景发生位移——测定了近20亿颗恒星的距离。科学家再分析这些恒星光线穿过星际介质时的消光与红化程度，结合距离数据，逐步推演出恒星间尘埃密度的三维分布。",
-      "将上述信息转化为星际介质的三维地图并不直接。同一组观测数据可能对应多种物理上可行的介质结构排列。过去十年，研究者构建了先进统计框架来应对这一难题。2024年，一个团队利用这些方法，绘制出太阳周围超过4000光年范围内的星际尘埃三维密度图。该图揭示了稠密尘埃云的空间位置，却无法反映其温度。要全面理解星际介质的热状态，还需第二张图——显示紫外线辐射如何加热介质。2024年，以色列理工学院本科生乔纳森·谢莱斯特在课堂上看到星际气体与尘埃图像后深受触动，主动加入教授什穆埃尔·比亚利的研究组。他们的计划是将尘埃密度图与紫外线辐射图结合。比亚利恰在一次会议上与天体物理学家特洛伊·波特交谈，获知后者正参与构建这样一张紫外辐射图。目前，研究者正推进两图融合，以首次系统揭示星际介质的温度结构。"
-    ],
-    "topics": [
-      "航天与宇宙",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
-      "originalTitle": "A New Map of &#8216;Empty&#8217; Space Challenges a Tranquil Picture of the Galaxy",
-      "publishedAt": "Fri, 30 Oct 2026 14:52:05 +0000",
-      "retrievedAt": "2026-10-31T00:55:36.886Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T00:55:22.879Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 57,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A New Map of 'Empty' Space Challenges a Tranquil Picture of the Galaxy",
-      "intro": "Astronomers used to think the space between stars was calm and nearly empty. New 3D maps reveal it is surprisingly active and unstable.",
-      "paragraphs": [
-        "Imagine the space between stars. It looks empty. But it contains a thin fog of hydrogen and other neutral atoms. NASA's New Horizons spacecraft measured around 130 hydrogen atoms per liter of space. This happened after it passed the orbit of Pluto. The hydrogen comes mostly from the Big Bang. Stars add gas and dust as they form and die. For decades, astronomers treated the interstellar medium as a stationary backdrop.",
-        "In 1969, researchers George Field, Donald Goldsmith, and Harm Habing proposed a model. It had two stable states. Cold clouds are at about 100 kelvins. Warm diffuse clouds are near 8,000 kelvins. In 1977, Chris McKee and Jeremiah Ostriker added a third phase. Gas heated by supernova shock fronts reaches half a million kelvins. Yet atomic gas outside blast zones was assumed to achieve a calm, pressure-balanced existence.",
-        "Cold atomic hydrogen emits no visible light. Astronomers detect it using a rare 21-centimeter radio wave. This wave is emitted when the electron and proton flip spin states. From Earth, radio observations along one line of sight collect tangled signals. These signals come from overlapping clouds. It is like looking through stacked semitransparent colored plastic sheets. Only in recent years have astronomers been able to probe the space between stars in enough detail. They can now separate these layers.",
-        "The Gaia telescope launched in 2013. It observed almost 2 billion stars. It used parallax to determine their distances. Scientists studied how starlight dimmed and reddened while passing through interstellar dust. They used that data and distance information. They built a 3D map of dust density. In 2024, a team created a continuous three-dimensional map. It shows dust density within a sphere more than 4,000 light-years wide around our sun.",
-        "That dust map revealed where interstellar dust was concentrated. Dense clouds are scattered between stars. But it could not tell researchers how hot or cold the dust was. Jonathan Shelest is an undergraduate at the Technion in Haifa, Israel. He joined professor Shmuel Bialy’s research group in 2024. They combined the dust map with a map of ultraviolet radiation. Ultraviolet radiation heats the interstellar medium. Their result showed much of the interstellar medium is unstable. This contradicts textbook models. This instability may help resolve long-unanswered questions about star formation rates."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:09:10.739Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-31/2026-10-31-a-new-map-of-8216-empty-8217-space-challenges-a.webp",
-      "alt": "冷灰色调抽象层叠纹理，表现星际空间的三维动态结构",
-      "caption": "看似空荡之处，也有自己的起伏。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-31-it-could-knock-a-whole-street-down-the-art-of-de",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一枚能炸毁整条街的二战炸弹，拆弹专家如何拆除",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "今年1月14日，英国两处地点同时发现二战遗留炸弹，军队和海军拆弹小组面临紧急挑战。",
-    "paragraphs": [
-      "1月14日，陆军和海军小队面临前所未有的挑战：一枚炸弹位于普利茅斯一处建筑工地，另一枚则漂浮在埃克斯茅斯一艘挖泥船上。",
-      "参与行动的是第11爆炸物处理与搜索团（11EOD）的利亚姆·基德曼上尉和安德鲁·博伊斯少校。",
-      "当天下午，倒计时开始。这些二战时期遗留的炸弹仍具极高危险性，需由专业人员谨慎处置。"
-    ],
-    "topics": [
-      "全球时事",
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Guardian Long Read",
-      "region": "international",
-      "url": "https://www.theguardian.com/news/audio/2026/oct/30/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb-podcast",
-      "originalTitle": "‘It could knock a whole street down’: the art of defusing a second world war bomb – podcast",
-      "publishedAt": "Fri, 30 Oct 2026 05:00:44 GMT",
-      "retrievedAt": "2026-10-31T00:57:46.919Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T00:57:38.834Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Art of Defusing a Second World War Bomb",
-      "intro": "Two old bombs found in one day put army and navy teams in a race against time.",
-      "paragraphs": [
-        "On 14 January this year, army and navy squads faced an unprecedented challenge: one bomb on a Plymouth building site, another floating on a dredger in Exmouth. That afternoon, the clock started ticking.",
-        "These were not new bombs. They were old weapons left over from the second world war. Even after many years, they can still explode. One bomb could knock down a whole street.",
-        "Facing two bombs at once was unprecedented for the squads. Normally they might handle one device at a time. This time they had to split their attention.",
-        "Defusing a bomb is an art. The army and navy squads each faced a dangerous task. They had to make the bombs safe. They had to do it quickly.",
-        "Next time you hear about a wartime bomb found during building work, remember this story. The people who defuse these bombs may not be famous. But their careful work lets a whole street stay standing."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:08:00.925Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-31-cd3051",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "不缺冠军的地方 把校园变成“冠军摇篮”",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "河北保定是6位奥运冠军、25位世界冠军的诞生地。在体教融合推动下，这里正从单纯“比金牌”转向“育新才”，让体育好苗子一茬又一茬地从校园里“长”出来。",
-    "paragraphs": [
-      "今年中网男单决赛上，焦科维奇牵手一位来自保定市竞秀学校的12岁小姑娘入场。她叫滕诗琪，在2026钻石杯青少年网球挑战赛年度总决赛中斩获U12女单冠军；她的同学许沫辰夺得U14男单冠军。作为6位奥运冠军、25位世界冠军的诞生地，保定并不缺少金牌。更具长远价值的变化是，在体教融合的大背景下，保定体育积极转型，从单纯的“比金牌”转向“育新才”，“好苗子”正一茬又一茬地从校园里“长”出来。",
-      "这一转变的关键，在于打掉体育与教育之间的“分治”之墙。在很多地方，体校招生与教育学籍存在衔接不畅问题，校园体育和专业赛事各成体系，资源共享难、协同效率低，根子在体育、教育分属两个系统。2019年，保定市在县级层面全面推进体育与教育职能合并，组建教育和体育局，从机构设置上实现“一个部门管到底”。2021年6月，保定市体育局、教育局联合印发《关于深化体教融合 促进青少年健康发展的实施意见》，在全省率先出台市级配套文件，将体育科目正式纳入中考计分体系并逐步提高分值，并建立体育教师与教练员职称双向评定机制。截至目前，全市已有近百名基层体育教师、体校教练员实现职称双向评定。",
-      "落实体教融合还需“因校而异”。保定采取“市队校办”模式，全市累计挂牌新型体校250余所，建成省级体育传统特色学校125所、市级360所。保定市第七中学2019年挂牌竞秀区体校，共开设38个体育项目，橄榄球、赛艇等多个市级专业队（初中、高中都有）落在学校；学校合理安排训练时间，充分利用有限场地设施，已向省队、国家队输送体育人才三十多名。另一所九年一贯制学校——保定市竞秀学校，拥有配置标准400米跑道的风雨操场，以及游泳馆、体操馆等室内设施；全校5000多名学生中，超过五分之一参与网球、乒乓球、游泳、体操4种传统项目班及19个体育类社团课程；学校将足球“班超”、游泳联赛、乒乓球联赛、网球联赛、篮BA合称为“五大联赛”。",
-      "实现体教融合，必须有好教练。竞秀学校游泳馆里的教练多为省队、市队退役专业运动员，通过竞秀区教体局体教融合资源库遴选推荐。保定市近年来深入实施“冠军回乡”计划，面向全国选聘保定籍高水平退役运动员回乡任教。在竞秀区，2023年以来已选聘射击亚洲冠军宋程等15名全国以上赛事冠军进入校园，组建6个项目的区级运动队，同时成立“奥运冠军工作室”，邀请庞伟、李冰洁等奥运冠军入驻，带动校园体育训练专业化水平整体提升。",
-      "为化解“学训矛盾”，保定市第一中学构建小学—初中—高中贯通的6个完整梯队，与金瑞中学等3所中学、址舫头小学等6所小学衔接布点，拥有150余名队员；队员们文化课全部随班就读，训练安排在课后、周末与假期错峰进行。该校女足已8次夺得全国高中女子足球总冠军；2026年7月，夺得2025-2026赛季全国青少年校园足球四级联赛高中女子组全国总冠军。毕业生王丹彤小学四年级进入保定一中女足梯队，2023年随队获河北省中学生校园足球联赛冠军，之后征战世界中学生足球锦标赛获亚军；2024年1月首次入选U17国家女子足球队集训名单，之后入选U20女足多期集训名单，还进入波兰U20女足世界杯出征名单。保定整合校内、校际、区域三级赛事资源，常态化举办“奥运冠军之城杯”U系列赛、全市青少年三大球运动会等品牌赛事；2025年举办各级青少年赛事超1000场，实现“月月有比赛、全年不断档”；2025年全市共输送223名优秀苗子赴省队集训；截至2026年8月，全市青少年注册运动员突破1.3万人。"
-    ],
-    "topics": [
-      "体教融合",
-      "校园网球",
-      "保定体育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261029/cb68a9855f6443bda3f81a7ea6ed76e0/c.html",
-      "originalTitle": "不缺冠军的地方 把校园变成“冠军摇篮”",
-      "publishedAt": "2026-10-29T17:41:38+08:00",
-      "retrievedAt": "2026-10-31T01:00:37.669Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:00:19.225Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-31-449689",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "磁州窑历千年不衰：从古人“朋友圈”到今人“生活圈”",
+    "title": "个碧石铁路全线通车90周年影像展开幕 讲述“赤子家国情”",
     "category": "humanities",
     "author": "轻听编辑部",
     "publishedAt": "2026-10-31",
-    "intro": "一只瓷器，为什么能从千年前一直用到今天？磁州窑的故事，说的不只是手艺。",
+    "intro": "一条铁路通车九十年后，人们用影像重新讲起它和人的关系。",
     "paragraphs": [
-      "在没有手机的时代，人们也会想把自己的心情留下来。古人用的办法，是画在烧制瓷器的泥坯上。磁州窑的工匠和百姓，把想说的话、看见的事，写成诗、画成画，烧进一只碗、一个瓶。",
-      "磁州窑最特别的地方，是它没有把自己锁在高高在上的宫廷审美里。它用黑、白两色，在瓷器表面画出生动的线条，花草、鱼鸟、人物、故事，都来自普通人看得懂的日常。这种风格被叫作白地黑花。",
-      "为什么很多古代名窑流传到今天就断了，磁州窑却能烧上千年？一个重要的原因是，它始终和老百姓的生活绑在一起。家里盛饭的盘、喝水的碗、插花的瓶，磁州窑都能做，而且做得耐用又好看。",
-      "到了今天，磁州窑并没有只躺在历史的影子里。它走进了现在人的生活圈。有设计师把磁州窑的纹样做成现代餐具，有年轻人学着用白地黑花画自己身边的故事。",
-      "从记录心事的瓷器，到摆上餐桌的器皿，磁州窑走过了漫长的时间。它提醒我们，真正有生命力的东西，往往不是最贵重的，而是最愿意陪伴普通人过日子的。"
+      "九十年，对一条铁路来说是很长的时间。中新网文化报道，个碧石铁路全线通车90周年影像展开幕，展览讲述的主题是“赤子家国情”。",
+      "一条铁路可以用很多种方式被记住。个碧石铁路的九十周年纪念，选的是影像方式。",
+      "“赤子”通常指的是对故土怀着赤诚之心的人。一条铁路为什么会和“家国”连在一起？因为铁路改变的是距离。",
+      "九十年是一个很长的刻度。个碧石铁路通车九十年后还有人专门为它办展览，说明它在很多人的记忆里并没有被拆掉。",
+      "展览的名字里，“赤子”两个字最轻，也最重。它把注意力从一个工程转向了人：转向那些把心血放在一条铁路上的人，也转向后来靠着这条路生活的人。"
     ],
     "topics": [
-      "磁州窑",
-      "陶瓷文化",
-      "非遗传承"
+      "历史",
+      "艺术与设计"
     ],
     "ageBands": [
-      "6-9",
       "10-12",
       "13-16"
     ],
@@ -244,16 +26,16 @@
     "source": {
       "name": "中新网文化",
       "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-30/10723586.shtml",
-      "originalTitle": "（文化新纪行）从古人“朋友圈”到今人“生活圈”：磁州窑历千年不衰",
-      "publishedAt": "Fri, 30 Oct 2026 20:01:56 +0800",
-      "retrievedAt": "2026-10-31T01:01:40.842Z",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-31/10723775.shtml",
+      "originalTitle": "个碧石铁路全线通车90周年影像展开幕 讲述“赤子家国情”",
+      "publishedAt": "Sat, 31 Oct 2026 09:33:41 +0800",
+      "retrievedAt": "2026-10-31T01:43:58.586Z",
       "basis": "full-text",
       "lang": "zh",
       "profile": "analysis",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-10-31T01:01:23.313Z",
+        "reviewedAt": "2026-10-31T01:43:56.836Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 5,
         "correctionCount": 8,
@@ -261,9 +43,189 @@
       }
     },
     "image": {
-      "src": "/editorial/2026-10-31/2026-10-31-449689.webp",
-      "alt": "冷灰色调瓷器剪影，表面有细密裂纹与柔和阴影",
-      "caption": "一只瓷器，连接古人与今人的日常。",
+      "src": "/editorial/2026-10-31/2026-10-31-90-06ca20.webp",
+      "alt": "冷灰色调的铁轨向远方延伸，旁有无字旧站牌与淡雾山影。",
+      "caption": "九十年后，铁轨仍在讲述人与路的关系。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-10-31-45d9bc",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世卫组织认证：巴巴多斯消除艾滋病母婴传播",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "世界卫生组织确认，这个加勒比岛国已消除艾滋病母婴传播这一公共卫生问题，成为全球第二十六个获得这类认可的国家和地区。",
+    "paragraphs": [
+      "2026年10月30日，世卫组织宣布，加勒比岛国巴巴多斯已成功消除艾滋病母婴传播这一公共卫生问题，成为全球第26个在消除艾滋病毒、梅毒或乙型肝炎母婴传播方面获得世卫组织认可的国家和地区。这一认证针对艾滋病毒、梅毒或乙型肝炎三种疾病中的至少一种，巴巴多斯实现的是艾滋病母婴传播的消除。",
+      "巴巴多斯通过公立诊所和医院提供全民医疗服务，所有孕妇均可免费接受艾滋病毒检测和治疗，不受国籍限制。检测以自愿和保密为原则，感染艾滋病毒的孕妇所生婴儿也能获得早期检测和后续护理。经过独立评估，2022年至2024年，该国没有报告新生儿因母婴传播感染艾滋病毒的病例；同期，孕妇产前保健服务覆盖率、艾滋病毒检测率，以及感染艾滋病毒的孕妇接受抗逆转录病毒治疗的比例均达到98%。",
+      "世卫组织总干事谭德塞当天发表声明，祝贺巴巴多斯保护一代儿童免受艾滋病毒感染。他指出，该国向所有孕妇免费提供医疗服务，不论其国籍如何，并尊重她们的权利和隐私，展现了全民健康覆盖在实践中的意义。巴巴多斯卫生与健康部长卡明斯表示，这一成果意味着儿童能够在没有感染艾滋病毒的情况下出生，也意味着感染艾滋病毒的母亲能够在孕期获得必要治疗，从而帮助母亲和孩子拥有更健康的生活。",
+      "泛美卫生组织主任兼世卫组织美洲区域主任巴尔博萨指出，只要妇女和儿童能够无障碍地获得优质医疗服务，消除艾滋病母婴传播就是可以实现的。这一成果不仅是巴巴多斯和加勒比地区的重要时刻，也为全球防止儿童感染艾滋病毒提供了有力示范。目前，全球已有26个国家和地区获得世卫组织认可，其中15个位于美洲，使该地区成为全球在这一领域取得进展最多的地区。",
+      "世卫组织指出，巴巴多斯要维持这一成果，仍需持续投入资源，更新防治指南，完善卫生信息系统，加强艾滋病毒和梅毒联合检测，并改善对妇女和儿童的后续随访。"
+    ],
+    "topics": [
+      "全球时事",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143099",
+      "originalTitle": "世卫组织认证：巴巴多斯消除艾滋病母婴传播",
+      "publishedAt": "Fri, 30 Oct 2026 12:00:00 +0000",
+      "retrievedAt": "2026-10-31T01:44:44.094Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:44:41.708Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Barbados Eliminates Mother-to-Child HIV Transmission",
+      "intro": "The World Health Organization has recognized Barbados for eliminating mother-to-child transmission of HIV as a public health problem.",
+      "paragraphs": [
+        "The World Health Organization announced on Friday, October 30, 2026, that Barbados has eliminated mother-to-child transmission of HIV. Barbados is the 26th country or territory globally to receive WHO validation for eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B.",
+        "WHO Director-General Tedros Adhanom Ghebreyesus issued a statement congratulating Barbados. He said the country protects a generation of children from HIV infection. The country provides free health services to all pregnant women, regardless of nationality. It respects their rights and privacy.",
+        "Barbados provides universal health care through public clinics and hospitals. All pregnant women receive free HIV testing and treatment. Testing is voluntary and confidential. Infants born to mothers living with HIV receive early testing and follow-up care. From 2022 to 2024, no newborns in Barbados were infected with HIV through mother-to-child transmission.",
+        "An independent assessment confirmed that Barbados met the global targets. Between 2022 and 2024, antenatal care coverage, HIV testing among pregnant women, and antiretroviral treatment uptake among HIV-positive pregnant women all reached 98%. Health Minister Cummings said children can be born without HIV. Mothers with HIV can access essential treatment during pregnancy.",
+        "Dr. Jarbas Barbosa is Director of the Pan American Health Organization and WHO Regional Director for the Americas. He said eliminating mother-to-child transmission is achievable when women and children have barrier-free access to quality health services. He called the achievement a milestone for Barbados and the Caribbean. It also provides a powerful global example.",
+        "Fifteen of the 26 WHO-validated countries and territories are in the Americas. This makes the Americas the region with the most progress in eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B. To sustain this success, Barbados must continue investing resources. It must update prevention guidelines. It must strengthen health information systems. It must expand combined HIV and syphilis testing. It must improve follow-up for women and children."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:50:08.226Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-31-nearly-2-out-of-3-teens-and-tweens-use-ai-chatbo",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新调查显示，近三分之二的美国青少年和儿童使用AI聊天机器人",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "两项新调查显示，AI聊天机器人已深度融入美国青少年与儿童的日常生活。他们如何使用它，与心理健康状况存在统计关联——但研究者反复强调：关联不等于因果。",
+    "paragraphs": [
+      "AI聊天机器人正在成为美国青少年和儿童日常生活的一部分。两项新调查发现，近三分之二的青少年和儿童使用AI聊天机器人。其中一项由关注儿童网络安全的倡导机构Common Sense Media开展，数据显示：AI使用开始得很早——近一半9至12岁的儿童已使用过AI聊天机器人或AI伴侣；到13岁时，近四分之三的儿童已使用过。而多数主流聊天机器人设定的最低使用年龄正是13岁。",
+      "另一项调查由心理健康倡导机构JED基金会开展，覆盖全美学校中5500名9至17岁的学生。结果显示：90%的学生使用过AI聊天机器人；近三分之二的人既用它辅助学习，也在压力大、孤独、焦虑或不堪重负时将其作为陪伴或情绪支持来源。北卡罗来纳大学教堂山分校发育心理学家安妮·马厄（Anne Maheux）未参与这两项调查，她称这一变化‘引人注目’：‘好像就在几年前还没人用，而现在，用AI做作业的孩子中，差不多同样多的人也在用它获取情感支持或应对压力。’",
+      "孩子们具体怎么用？15岁的阿琼·夏尔达（Arjun Sharda）住在得克萨斯州圆石市，他用聊天机器人练习模拟试题，也用它理解课堂外的概念；他同时使用ChatGPT和Google Gemini，近期更偏好后者。17岁的麦肯齐·克雷格（McKenzie Craig）来自马萨诸塞州雷纳姆，从八年级起就使用聊天机器人：任务繁重时请它帮自己排序优先级；写完作文后，会用Grammarly或ChatGPT获取反馈并据此修改。阿琼还提到，他和朋友在压力大、焦虑时也会转向聊天机器人——例如一次化学考试前，他因担心‘换算与摩尔’内容不及格而反复向ChatGPT提问：‘我会没事吗？我的GPA还能保住吗？’",
+      "JED基金会的调查还同步评估了学生的整体福祉与心理健康指标。研究者发现：当年轻人处于情绪困扰状态时使用AI，更可能报告较差的心理健康与福祉水平，也更常报告有自杀意念或尝试史。但研究者明确指出：这些数据‘无法表明因果关系’。凯拉·安德森（Kayla Anderson）博士解释：‘尚不清楚是AI使用导致心理健康恶化，还是本就处于困扰中的学生更倾向于求助AI。’",
+      "其他研究者的初步数据提示，这种关联可能是双向的。马厄与北卡罗来纳大学同事即将发表的一项针对某州中学生的研究发现：将聊天机器人主要用作陪伴的学生，随时间推移孤独感加剧；类似结果也在年轻成人研究中被观察到。马厄指出：‘那些更依赖AI解决情绪或认知问题的人，心理健康随时间推移趋于恶化。’一种可能机制是：AI虽能即时缓解孤独、焦虑与压力，但过度依赖会减少年轻人练习承受和应对日常压力的机会——而这恰恰是心理韧性发展的关键过程。她强调：‘这可能导致更差的心理健康。’",
+      "同一个工具，用于查作业与用于替代人际陪伴，可能是性质截然不同的两种使用方式。马厄表示，要真正厘清长期影响，还需更多纵向追踪研究。在那之前，这些数据至少清晰表明：对相当一部分孩子而言，聊天机器人已不只是学习助手，更是他们在情绪困境中主动打开的‘对话对象’。"
+    ],
+    "topics": [
+      "心理与情绪",
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6022278/ai-artificial-intelligence-teens-jed-common-sense-media",
+      "originalTitle": "Nearly 2 out of 3 teens and tweens use AI chatbots, new research shows",
+      "publishedAt": "Fri, 30 Oct 2026 05:00:00 -0400",
+      "retrievedAt": "2026-10-31T01:46:07.788Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:46:04.337Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 28,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-10-31-51421f",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "古菌‘单干’，吃脂肪酸吐甲烷",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-31",
+    "intro": "中国团队分离出一种嗜热古菌新种AA-75，证实单一古菌细胞能在纯培养条件下独立完成中长链脂肪酸氧化并生成甲烷，这是科学家揭示的第六条古菌产甲烷途径——‘脂基型产甲烷途径’。",
+    "paragraphs": [
+      "一瓶来自胜利油田地下油藏的微生物培养物，在70多摄氏度的培养箱里静静放两三个月，瓶内的变化肉眼几乎察觉不到。但中国农业科学院厌氧微生物前沿交叉研究中心研究员承磊知道，古菌正在瓶内慢慢生长。承磊团队与北京大学教授陆雅海团队合作，从胜利油田地下油藏样品中分离得到嗜热古菌新种Methanoglobus dolicholipophagus AA-75。他们在纯培养条件下证实，单一古菌细胞能够独立完成中长链脂肪酸氧化并生成甲烷。这是科学家揭示的第六条古菌产甲烷途径——‘脂基型产甲烷途径’。相关研究成果近日在线发表于《自然》。",
+      "产甲烷古菌是一种独特的厌氧微生物，35亿年前就存在于地球上，是最古老的微生物类群之一。甲烷是全球碳循环的关键节点，也是第二大温室气体。过去学界认为，复杂有机物厌氧降解时，细菌先把大分子拆成乙酸、氢气、二氧化碳，而古菌只是接过‘最后一棒’，把这些简单底物变成甲烷。5年前，承磊联合国内外团队发现了第五条古菌产甲烷途径——利用长链烷烃产甲烷，推翻了上述传统认知。",
+      "论文第一作者、农业农村部成都沼气科学研究所（以下简称沼科所）助理研究员易悦告诉《中国科学报》，古菌通常在空气中暴露几分钟就会死亡。此外，它们生长缓慢，需要与其他微生物互相交换营养物质或代谢产物，通过共培养或者共生才能生存。这种生存方式使厌氧微生物在实验室环境中难以存活，想把它们培养成纯菌状态就更难了。沼科所40多年积累的厌氧微生物保藏平台共保存了1500多种厌氧微生物模式物种。2023年前后，承磊团队对保存数十年的地下油藏样品进行了宏基因组测序。易悦就是在那时加入团队的。她发现样品中有一种具有降解脂肪酸产甲烷潜力的古菌。这种古菌喜欢生存在75摄氏度的高温环境里，他们暂且给它编号AA-75。真正让AA-75从复杂群落里‘走出来’，靠的是团队自创的‘鸡尾酒法’。传统思路是让目标菌一开始就长得最快，一步压垮所有竞争者。但这种方法并不适用于AA-75这样的‘慢热型’古菌，它们往往一开始就被快生长的杂菌淹没了。后来，承磊团队反其道而行之，他们让所有菌的生长一起慢下来，只要目标菌在每个阶段都比伴生菌快一点点，就能逐步占据相对优势。团队把生长曲线当‘指挥棒’，定期监测目标菌和杂菌的数量变化，再像调鸡尾酒一样，通过组合稀释、限氧、控温、控气、加抑制剂等手段，逐步把非目标微生物‘请走’。该方法2025年发表于《自然-方法学》。",
+      "易悦和曹佐蓉用硬脂酸作为它的唯一碳源，结果发现AA-75产出了甲烷。而在稳定同位素标记实验里，硬脂酸分子中的13C直接出现在古菌的最终产物13C甲烷中。这表明，AA-75真的可以靠‘吃’硬脂酸产生甲烷。系统测定底物谱发现，这株古菌能吃C7到C18的多种饱和、不饱和中长链脂肪酸，也能利用甲醇，但氢气/二氧化碳、乙酸、甲酸、甲胺这些经典产甲烷底物反而‘养’不活它。论文共同第一作者、沼科所博士后丁恒武介绍，他们通过基因组研究揭示了背后的机制：AA-75的基因组编码了完整的脂肪酸β-氧化与产甲烷代谢通路的全套基因，可在同一个细胞内实现这两套代谢过程。同时，AA-75还携带甲醇-甲醛代谢模块，作为辅助通路与经典代谢并行。转录组数据显示，这些基因在培养过程中均高度活跃。‘原来需要细菌和古菌联手干的活儿，现在一种古菌就全干了。’承磊说。",
+      "从应用看，AA-75给高油脂废弃物处理、地下油藏‘油变气’提供了新的想象空间。传统采油物理驱替、化学驱替后，仍有过半原油留在地下。产甲烷古菌的研究有可能带来延长油藏寿命、提高采收率的应用前景。餐厨废油、藻脂、污泥里也有大量中长链脂肪酸，能单菌独立完成降解脂肪酸产甲烷的古菌，有成为合成生物学底盘微生物的潜力。‘我们做的基础研究工作离落地还有很长的路要走。’承磊跟团队成员说，‘在我退休的时候能看到工程化的可能，就知足了。’所有产甲烷途径最后都会汇到一个共同中间体——甲基辅酶M。甲基辅酶M还原酶（Mcr）要做的就是形成碳氢键，放出甲烷。甲烷的碳氢键是自然界最惰性的化学键之一，常规条件下几乎没法直接生成。Mcr的厉害之处在于能在温和、含水、厌氧、近中性的生理环境里完成碳氢键的定向形成。‘这个过程到底是怎么发生的，还有很多未解之谜。’承磊说，这可能涉及地球早期生命起源的一些问题。"
+    ],
+    "topics": [
+      "古菌",
+      "甲烷生成",
+      "脂肪酸氧化",
+      "微生物代谢"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573739.shtm",
+      "originalTitle": "古菌“单干”，吃脂肪酸吐甲烷",
+      "publishedAt": "2026-10-28 09:12",
+      "retrievedAt": "2026-10-31T01:47:38.782Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:47:36.252Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Heat-Loving Microbe That Turns Fat Into Methane",
+      "intro": "Scientists have found a single heat-loving microbe that can turn fatty acids into methane all by itself.",
+      "paragraphs": [
+        "A research team in China has isolated a new species of heat-loving archaeon, Methanoglobus dolicholipophagus AA-75, from underground oil reservoir samples in the Shengli Oilfield. In pure culture, this single archaeon independently completes oxidation of medium- and long-chain fatty acids and generates methane. This is the sixth known methanogenesis pathway in archaea — named the 'lipid-based methanogenesis pathway'. The study was published online in Nature.",
+        "For decades, scientists believed methanogenic archaea could only use simple substrates: hydrogen and carbon dioxide, acetate, formate, methylamines, and other C1 compounds. Complex organic matter was thought to require bacterial breakdown first — into acetate, H2, and CO2 — before archaea performed the final step to methane. Five years ago, the same team discovered the fifth pathway: direct methane production from long-chain alkanes. The new finding challenges that textbook view.",
+        "These archaea are extremely difficult to culture. They die within minutes when exposed to air. They grow slowly and typically require co-culture or syntrophic partnerships with other microbes for nutrients or metabolites. To isolate AA-75, the team developed a method called the 'cocktail method'. It slows all microbes down and gradually removes non-target ones by adjusting dilution, oxygen levels, temperature, gas composition, and inhibitors — guided by growth curve monitoring. Using stearic acid as the sole carbon source, the purified AA-75 culture produced methane. In stable isotope labeling experiments, 13C from stearic acid appeared directly in the resulting 13C-methane. AA-75 uses saturated and unsaturated fatty acids from C7 to C18, and methanol — but cannot grow on hydrogen/CO2, acetate, formate, or methylamines.",
+        "Genome analysis revealed AA-75 encodes the complete set of genes for both fatty acid β-oxidation and methanogenesis — enabling both processes inside a single cell. It also carries a methanol–formaldehyde metabolic module that operates in parallel. Transcriptome data show these genes are highly active during growth. As researcher Cheng Lei said: 'What used to require teamwork between bacteria and archaea can now be done entirely by one archaeon.' Applications may include treatment of high-fat waste (e.g., cooking oil, algal lipids, sludge) and microbial 'oil-to-gas' conversion in oil reservoirs. AA-75 also shows potential as a synthetic biology chassis microbe — though the team stresses engineering applications remain distant.",
+        "A key mystery remains at the final step: the enzyme methyl-coenzyme M reductase (Mcr) forms the carbon–hydrogen bond that releases methane. This bond is among the most chemically inert in nature. Mcr achieves this under mild, aqueous, anaerobic, near-neutral physiological conditions. How exactly this occurs is still unknown — and may relate to questions about early life on Earth. Reviewers noted the study further supports that methanogenic archaea are far more diverse in taxonomy, substrate range, and habitat distribution than previously assumed."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-31T01:52:56.575Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-10-31/2026-10-31-51421f.webp",
+      "alt": "冷灰纸纹背景上，抽象单细胞轮廓与漂浮的分子符号。",
+      "caption": "一种古菌独自完成从脂肪酸到甲烷的转化。",
       "kind": "editorial"
     }
   },
@@ -3357,6 +3319,51 @@
         "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-10-17-4739dc",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "看不见赛道，他们用一根陪跑绳并肩向前",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-10-17",
+    "intro": "10月15日是国际盲人日。走近成都黑暗跑团：一根橙色陪跑绳的两端，是视障跑者和陪跑志愿者并肩向前的脚步。",
+    "paragraphs": [
+      "每个周六，在成都锦城湖、四川大学华西校区风雨操场，常能看到这样一群人：两个人并排奔跑，中间连着一根橙色陪跑绳。这头是视障跑者，那头是陪跑志愿者。两人调整步伐、配合节奏，一起向前奔跑。这是成都黑暗跑团的每周六常规例跑。跑团成都站负责人张志宏介绍，目前跑团有190位视障成员、1500多名志愿者。每周六的例跑，是大家运动、交流、结识朋友的机会。",
+      "这群跑友眼下有了新的目标：即将到来的2026年成都马拉松，将成为他们又一次并肩奔跑的赛场。跑团计划组织23位视障跑者参赛，其中4位参加半程马拉松，其余挑战全程马拉松；还有70多名陪跑志愿者将一同上场护航。参赛队伍中，还有肢体障碍和听力障碍跑者。赛道之外，也有他们的伙伴：10位视障伙伴和30余名志愿者将在赛道旁为跑友加油助威。",
+      "为什么要成立‘黑暗跑团’？张志宏解释说，希望能帮助视障伙伴坦然接纳‘黑暗’这个真实的生命处境，再以奔跑的姿态冲破边界、打破偏见。而‘跑团’二字，是力量，是连接，是希望。一根陪跑绳的两端，是平等与信任，是彼此陪伴，一起向前，实现残健共融、双向奔赴。",
+      "但在跑团成立之初，邀请视障朋友来跑步并不是一件容易的事。有人心存疑虑，不相信会有人免费陪自己出门运动。从熟悉的环境走向户外，需要勇气，更需要信任。后来，跑友介绍跑友，成都市锦江区残联也帮助推动宣传，越来越多的视障跑者加入进来。2020年10月25日，张志宏组织了第一场黑暗跑团活动。",
+      "10月15日是国际盲人日。一根橙色陪跑绳，这头是视障跑者，那头是陪跑志愿者，两个人调整步伐、配合节奏，一起向前奔跑——在成都黑暗跑团，这样的并肩奔跑是每周六的约定。"
+    ],
+    "topics": [
+      "体育",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261015/cfc5923147b748c78db7be7d8fffa819/c.html",
+      "originalTitle": "追光丨他们看不见赛道，却偏要“冲破”黑暗",
+      "publishedAt": "2026-10-15T10:05:27+08:00",
+      "retrievedAt": "2026-10-16T23:43:22.457Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-10-16T23:43:14.960Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
       }
     }
   }
