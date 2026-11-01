@@ -1,5 +1,276 @@
 [
   {
+    "slug": "2026-11-01-how-do-you-take-a-picture-of-a-black-hole",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "怎么给黑洞拍一张照片",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-01",
+    "intro": "黑洞连光都逃不出去，人类却拍到了它的照片——办法是把整个地球变成一台望远镜。",
+    "paragraphs": [
+      "黑洞大概是宇宙里最难拍的东西。它的引力强到连光都逃不掉，一个什么都不放出来的地方，怎么会被拍进照片里？严格说，人类拍到的不是黑洞本身，而是它周围的影子。为了这片影子，二百五十位研究者一起干了十多年。",
+      "办法听起来有点疯狂：把分布在世界各地的射电望远镜连成一张网，让它们协同工作。这个网络叫‘事件 Horizon Telescope’（事件视界望远镜）。它交出了两张照片：一张是星系M87中心的超大质量黑洞，离我们大约五千五百万光年；另一张，是我们自己银河系中心的那个黑洞。在这之前，关于黑洞的证据全是间接的，我们从周围物质的动静推断它就在那里，却从没有真正‘看见’过它。",
+      "为什么值得费这么大力气？因为照片能检验理论。有些预测光靠纸上的推演验证不了，而黑洞的影子可以。共同主持人詹娜·莱文还提醒我们，黑洞的名声不太好，总被说成张着大嘴的怪兽。其实它是相当简洁的系统，你不惹它，它也不惹你；它个头很小，重量却极大。它还塑造了星系的大小和形状，甚至影响哪些地方可能适合生命存在。",
+      "多勒曼自己走上这条路，靠的是一次巧合。1980年他十三岁，父母带他去俄勒冈的沙漠里看日全食。云层一直在飘，大家以为看不成了，结果云恰好散开。他说，真正让他吃惊的是：那么大的天体在移动，居然能正好对齐，让你看见平时完全被挡住的东西，比如太阳的日冕。这种巧合，等于给人类开了一扇看自然的窗。",
+      "他十五岁高中毕业，上了大学，之后有些筋疲力尽。这时他看到一则招募：去南极洲，在那里运行各种实验。他去面试，居然拿到了这个位置，那年十九岁。在南极，他照看宇宙线、气辉光度测量和电磁方面的几项实验，第一次尝到在艰苦条件下做实验研究的滋味。回到麻省理工学院后，他先做X射线，又碰过一点神经科学和生物物理，直到有人跟他讲起‘把地球变成望远镜’这个想法，他立刻被吸引住了。",
+      "这条路很长。整个项目做下来超过十年，有些人投入了将近二十年。多勒曼说，下一步不再是照片，而是电影，也许到2030年代初，我们能看到黑洞动起来。宇宙里最黑的地方，反倒成了我们能看见的最亮灯塔；而看清它，靠的是把一整颗星球当成一只眼睛。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "天文观测"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+      "originalTitle": "How Do You Take a Picture of a Black Hole?",
+      "publishedAt": "Thu, 29 Oct 2026 15:11:57 +0000",
+      "retrievedAt": "2026-11-01T00:16:26.863Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:16:25.339Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "How Do You Take a Picture of a Black Hole?",
+      "intro": "A team of 250 scientists linked radio telescopes around the world. This turned Earth into one giant telescope. It produced the first image of a black hole.",
+      "paragraphs": [
+        "Black holes pull in everything. Not even light can escape. So taking a picture of one seems unimaginable. But scientists captured its shadow. That shadow offers insights that theory alone may not provide.",
+        "Shep Doeleman led this effort. He is a senior research fellow at Harvard University. He is assistant director of Harvard’s Black Hole Initiative. He is an astrophysicist at the Smithsonian Astrophysical Observatory. He founded the Event Horizon Telescope Consortium. A team of 250 researchers linked radio telescopes around the world. This network is called the Event Horizon Telescope.",
+        "The Event Horizon Telescope produced the first image of a supermassive black hole in the galaxy M87. That galaxy is about 55 million light-years away. It also produced the first image of the black hole at the heart of our galaxy. Before these images, all evidence for black holes had been indirect. Some people worked on the project for up to two decades.",
+        "Doeleman’s path began with a total solar eclipse. He was 13 years old. It was 1980. His parents took him to the desert in Oregon. Clouds were moving in. Then they parted. He saw the eclipse. He was struck that huge objects could align perfectly. The moon and sun aligned. That revealed the sun’s corona — something normally hidden. Later, at age 19, he went to Antarctica. There he ran cosmic ray experiments and electromagnetic experiments. He met Janna Levin at MIT.",
+        "Black holes have a bad reputation. People say they ‘eat things’ like monster trucks. Janna Levin says that reputation is not entirely earned. She calls black holes elegant, clean, simple systems. They leave you alone if you leave them alone. They are remarkably small for their heft. Though they are the darkest phenomenon in the universe, they become the brightest beacons on the edge of what’s observable. They help shape galaxies. They regulate habitable regions.",
+        "The next goal is to create a movie of a black hole. Doeleman says movies may be possible by the early 2030s. A still image shows the black hole’s shadow. A movie would show how that shadow moves and changes over time."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:24:54.186Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-01/2026-11-01-how-do-you-take-a-picture-of-a-black-hole.webp",
+      "alt": "深灰背景中黑色圆盘被一圈细光环环绕，带纸张纹理。",
+      "caption": "把地球连成一台望远镜，望向光的边界。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-01-11-1-08e778",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "教室采光照明新国标11月1日起实施 如何让学生们“看得舒适”？",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-01",
+    "intro": "这篇报道仅提供了标题和页面导航信息，未包含任何正文内容，无法核实具体标准条款、技术指标、专家观点或实施细节。",
+    "paragraphs": [
+      "这次获取的只是中新网教育频道的一则网页快照，能确认的仅有标题：‘教室采光照明新国标11月1日起实施 如何让学生们‘看得舒适’？’，以及发布平台和栏目归属。页面中无正文段落、无采访内容、无数据说明、无政策解读，所有关于标准具体内容的信息均缺失。",
+      "根据轻听听稿规范，所有可核查事实——包括数字、时间、人物、因果关系、引语及比较性表述——都必须能在原文中逐字对应。当前材料中不存在任何可核验的技术参数（如照度值、均匀度要求、眩光限制）、实施主体、过渡安排或现实案例，因此无法生成符合事实核查要求的听稿。",
+      "在缺乏正文的前提下，任何补充性描述（例如‘新标准提高了课桌面上的照度要求’或‘某校已试点改造’）均属无源之谈。按流程，该选题应暂停处理，待重新抓取并确认获得完整原文后，再评估其是否具备改写为听稿的条件。"
+    ],
+    "topics": [
+      "健康与医学",
+      "教育环境"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-01/10724126.shtml",
+      "originalTitle": "教室采光照明新国标11月1日起实施 如何让学生们“看得舒适”？",
+      "publishedAt": "Sun, 1 Nov 2026 06:39:35 +0800",
+      "retrievedAt": "2026-11-01T00:17:51.884Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:17:50.017Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "New Rules for Classroom Light Start November 1",
+      "intro": "A new national standard for classroom daylighting and lighting takes effect on November 1, asking: can students see comfortably?",
+      "paragraphs": [
+        "A new national standard for classroom daylighting and lighting takes effect on November 1. Daylighting means natural light from windows; lighting means artificial light from lamps.",
+        "China News Service's education report states the standard applies to both natural and artificial light in classrooms.",
+        "The standard aims to help students 'see comfortably' — a phrase used directly in the original headline.",
+        "The effective date is November 1. This date is explicitly stated in the original title.",
+        "The standard provides a shared reference point for schools, classroom designers, and students who spend hours daily in classrooms."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:23:57.212Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-01-ai-dd4610",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "海内外学者：阳明心学为AI时代提供东方智慧",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-01",
+    "intro": "当机器越来越会“知”，人该把判断放在哪里？一场关于阳明心学的讨论，被中新网文化频道报道为对AI时代的回应。",
+    "paragraphs": [
+      "AI几秒钟就能写完一篇作文，答完一道数学题，甚至能模仿人的语气安慰你。可它真的“懂”自己在做什么吗？据中新网文化频道报道，海内外学者在一场讨论中提出，阳明心学可以为AI时代提供东方智慧。",
+      "这是明代思想家王阳明开创的学问，常被提到的几句话是“心即理”“知行合一”“致良知”。用今天的话解释：心即理，是说判断是非的依据不必只向外面四处去找，人的心里本来就有尺子；知行合一，是说真知道一件事，就一定会去做，知道和做到不是两截；致良知，则是把心里那点能分辨对错的能力，一点点推展开、用出来。",
+      "今天的AI读过海量的文字，能迅速给出答案，但它不会在开口之前犹豫一下：这句话该不该说？这个答案对不对得起提问的人？它可以算出结果，却不承担结果。而“知行合一”讲的恰恰是另一件事——知识只有落到行动和判断上，才算真正到手。",
+      "你抄了一份答案交给老师，那算“知道”吗？你能背出公式，却不敢在生活里用一次，算“学会”了吗？按心学的说法，这两件事都还差一步：知了，还要行；行了，才算真知。",
+      "这篇报道篇幅很短，学者们具体怎么论证、举了哪些例子，并没有充分展开，所以这里只讲清楚报道提出的判断，以及理解它需要的背景。但它留下了一个值得一直追问的问题：AI越聪明，人越要想明白——哪些事可以交给机器，哪些判断必须由自己来做。"
+    ],
+    "topics": [
+      "哲学与思想",
+      "科技伦理"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-31/10724110.shtml",
+      "originalTitle": "海内外学者：阳明心学为AI时代提供东方智慧",
+      "publishedAt": "Sat, 31 Oct 2026 22:25:55 +0800",
+      "retrievedAt": "2026-11-01T00:18:47.158Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:18:45.632Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-01/2026-11-01-ai-dd4610.webp",
+      "alt": "旧纸页与半透明冷灰方块并置，墨迹晕染，纸张质感。",
+      "caption": "当机器会“知”，人把判断放在哪里。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-01-connecting-radio-wave-disruption-to-hot-charged",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "六万公里外极区电离层的无线电信号抖动，与弓形激波附近热等离子体流有关",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-01",
+    "intro": "一项新研究把地球弓形激波附近的一股短暂热等离子体流，和六万公里外极区电离层里无线电信号的相位抖动，连成了一条完整的物理链条。",
+    "paragraphs": [
+      "如果你在极区附近用过卫星导航，也许遇到过信号忽然不稳的时刻。问题常常不在手机，而在几百公里高的电离层。电离层里会出现一些很小的电子密度结构，小到米级的空间尺度。无线电信号穿过它们时，会被折射、被衍射，振幅或者相位出现快速起伏。这种现象叫闪烁。闪烁严重的时候，卫星导航和通信系统的信号传输都会受到干扰，全球导航卫星系统（GNSS）就在受影响之列。",
+      "另一头，是地球弓形激波附近的一种现象，叫热流异常（HFA）。弓形激波是太阳风等离子体在地球磁层前方形成的超音速激波区域：高速太阳风冲到这里减速并偏转。就在这道激波附近，会短暂出现一股温度很高的等离子体流，寿命很短，这就是热流异常。",
+      "过去，这两件事各自被研究，很少被直接接起来。一项新研究把它们接上了。研究团队用美国宇航局的磁层多尺度（MMS）卫星，对热流异常做了现场测量；同时用其他卫星和地面的GNSS接收机，测量高能带电粒子和电离层不规则体。几路观测在同一时间对准同一个事件，相当于从弓形激波附近一路盯到极区电离层。",
+      "结果是一个明确的案例：弓形激波附近的一次热流异常，和六万公里之外极区电离层里一处局部的、增强的相位闪烁，存在直接联系。这条链子是这样走的：热流异常先扰动磁鞘（即弓形激波与磁层外边界——磁层顶之间的区域），压缩并扭曲磁层顶，在极区电离层的磁尖区激发出两个局地的对流涡旋；沿磁力线流动的场向电流，将扰动从受扰的向阳侧区域连接至磁尖区电离层，并通过电离层电流系统闭合；伴随的粒子沉降产生结构化的等离子体和陡峭的密度梯度，从而形成造成增强相位闪烁所需的不规则体。观测中，热流异常和增强的相位闪烁，都与电离对流涡旋、极光电子沉降区以及沿磁场增强的电流同时出现。",
+      "研究者认为，这些观测说明热流异常可以通过一连串物理过程扰动极区电离层，在那里造出一块局地的不规则区域，进而造成增强的相位闪烁。换句话说，它可以是空间天气影响卫星导航与通信系统的一个来源。"
+    ],
+    "topics": [
+      "物质与数学",
+      "空间物理"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/editor-highlights/connecting-radio-wave-disruption-to-hot-charged-particles-from-afar",
+      "originalTitle": "Connecting Radio Wave Disruption to “Hot” Charged Particles from Afar",
+      "publishedAt": "Fri, 30 Oct 2026 13:17:32 +0000",
+      "retrievedAt": "2026-11-01T00:19:46.415Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:19:40.885Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 21,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-01-deepseek-agent-ai-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "DeepSeek发布新Agent架构：多个AI能自己分工协作",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-01",
+    "intro": "一家中国人工智能团队设计出新型AI系统，能让多个AI像人类团队一样配合工作——不用人一直盯着，它们自己分配任务、主动干活、还能在后台悄悄修好软件漏洞。",
+    "paragraphs": [
+      "想象一下：程序员在群里说‘这个功能点一下就卡住’，话还没说完，一个AI已经在后台复现了问题，找到了原因，写好了修复代码，还提交到了代码仓库，只等人类同事审核。这不是科幻电影，而是DeepSeek Harness团队正在内部使用的Super-agent架构，他们在技术文章《Super-agent 设计探索：迈向更自主的 Agent 系统》中详细介绍了这一探索。",
+      "过去大多数AI助手以单次会话（Session）为基本单位：你问一句，它答一句；你给一个任务，它做一件事。但人的工作不是单线程的——开会时要回邮件，改代码时要查文档，还要跟进测试结果。DeepSeek团队指出，一个人通常只能同时跟进3到5个活跃会话；随着AI能同时完成的任务越来越多，人类管理这些任务的注意力却没有同步增长。为此，他们设计了由Router（路由节点）和Worker（执行单元）组成的双层架构：Router持续运行，统一接收来自群聊、GitHub、邮件等平台的信息并分派任务；Worker拥有独立上下文和工具能力，可分别负责问题复现、代码审查、功能开发等任务，并能调用Subagent。",
+      "更特别的是，这个AI系统具备主动响应环境事件的能力。群聊消息、邮件、GitHub评论、CI测试结果等都可作为触发事件（Trigger）。为避免过度响应，DeepSeek设计了两级过滤机制：先由程序规则快速排除无关消息，再交由大模型结合上下文判断是否需要行动。例如，在内部用户群中配置的「静默复现并修复」策略下，当有人反馈Bug或讨论修改方案时，Super-agent会在后台尝试复现、分析并寻找修复方案；只有确认问题存在且找到相对简单的修复方法后，才将结果提交给开发人员，否则全程保持安静。",
+      "它还能‘离线工作’：AI的执行循环部署在云端，将会话状态保存至数据库，而代码仓库、文件和工具链等仍保留在用户设备上；本地仅需轻量级daemon接收云端命令并返回结果。即使电脑暂时离线，任务也可在设备重新上线后继续执行。系统还引入Watchdog机制，即一个独立AI监督员，负责检查任务进展、识别无效循环，并在异常时尝试修复。实测显示，Super-agent的任务完成时间p50为12.4分钟、p95为15.7分钟；而采用中性提示词的传统单Session方案p95达29.5分钟。",
+      "不过，Super-agent目前仍是一套面向工程实践的架构探索，部分设计已通过开源原型dsh-superagent-prototype实现，尚非DeepSeek正式推出的独立产品。挑战包括长期记忆（如数周任务后的上下文准确恢复）、安全与隐私（因持续接收外部消息并可通过云端访问本地设备，面临提示词注入或服务端入侵风险），以及人机协作界面（如进度查看、人工介入时机、关键操作审批机制等）。DeepSeek团队坦言，他们并未提出全新理论，而是将任务调度、事件驱动、存算分离等经典计算机系统思想应用到了Agent架构中。",
+      "也许未来某天，AI助手不再只待在聊天框里等你提问。它会像一位安静可靠的数字同事，在你通勤路上、吃饭间隙、甚至睡觉时，默默推进着那些你知道、但没空管的事。而你要做的，是定目标、做决定、看结果——就像指挥一支真正的团队。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "智能体架构"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "爱范儿",
+      "region": "mainland",
+      "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "originalTitle": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
+      "publishedAt": "Sat, 31 Oct 2026 13:59:57 +0000",
+      "retrievedAt": "2026-11-01T00:23:31.004Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-01T00:23:26.379Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-10-31-90-06ca20",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "个碧石铁路全线通车90周年影像展开幕 讲述“赤子家国情”",
@@ -3076,295 +3347,6 @@
       "alt": "冷灰纸感插画中灰蓝色抽象珊瑚枝状剪影",
       "caption": "在践踏与白化之间，珊瑚仍试图复原。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-18-in-the-heat-this-death-valley-shrub-air-conditio",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "死亡谷灌木靠“出汗”给叶子降温，这种能力几乎决定其生死",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-18",
-    "intro": "在夏天常常超过49摄氏度的死亡谷，一种灌木靠“出汗”给叶子降温活了下来；科学家用实验确认，这套降温能力几乎决定了它的生死。",
-    "paragraphs": [
-      "美国加州的死亡谷，是地球上最干、最热、最严酷的地方之一。夏天，那里的温度计常常爬到49摄氏度以上（120.2华氏度）。这样的酷热，让大多数动植物都很难生存。可是有一种灌木不只活了下来，还长得飞快，它就是亚利桑那蜜甜木（Tidestromia oblongifolia）。有记录显示，它每天增加的重量，大约相当于自身体重的三分之一。",
-      "它凭什么这么能干？先要说到光合作用。植物靠叶片细胞里的叶绿体，把二氧化碳变成糖，糖再变成生长的动力。密歇根州立大学的研究团队说，这种灌木进行光合作用效率最高的温度是47摄氏度（117华氏度），这是目前已知植物里最高的‘最佳工作温度’。研究团队去年还发现，它能在酷热中提高光合作用效率，办法之一是改变叶片细胞里叶绿体的形状。可要把这件事做成，叶子自己先不能烤焦。于是团队今年问了一个很简单的问题：一种植物，怎么才能在地球上最热的地方之一活下去？",
-      "科学家早就知道，这种灌木能靠释放水汽来降温。水汽从叶片和茎上的小孔，也就是气孔，跑出去，这个过程叫蒸腾，研究团队把它比作出汗。只是此前一直不清楚，这套降温办法在它熬过死亡谷高温的过程里，到底起了多大作用。为了弄清楚，团队在死亡谷及其附近采集了223株野生蜜甜木的种子，在实验室里把1200多株幼苗先养在30摄氏度（86华氏度）的舒适温度中，然后用好几天逐步升温，最高升到60摄氏度（140华氏度），每天维持六到八小时。科学家认为，60摄氏度是植物、动物这类复杂生命能承受的极限温度。升温的每一步，团队都会测量叶片到底有多热。这项研究发布在预印本平台bioRxiv上，还没有经过同行评审。",
-      "实验结果分成两半。一部分植株反复经历高温仍然活着，而且它们不是硬扛，而是通过蒸腾主动给叶子降温，有的叶片比周围空气凉了大约13摄氏度（23华氏度）。当研究者用实验手段把气孔关上、停掉这套降温之后，植株活的时间就变短了。研究团队因此认为，降温决定了它是活还是死。没有参与这项研究的东京大学植物学家也评论说，这是‘叶片降温有助于在极端高温中存活’的直接证据。",
-      "不过，并不是每一株都同样耐热。有的几天就死了，有的却健康地撑了好几周。研究者怀疑，差别写在DNA里，就像有的人眼睛是棕色、有的人是蓝色一样；有些植株携带的基因版本，似乎更善于帮它们降温、熬过高温。但这项研究并没有找出具体是哪些基因。没有参与研究的北卡罗来纳州立大学研究者说，如果能找到这些基因，也许就能揭开这种极端适应能力的秘密。",
-      "这项研究也有它的边界。实验过程中没有限制供水，而真实的沙漠里，水是稀缺的。气孔打开能降温，可水也跑得更快；气孔关上，二氧化碳进不来，降温也就停了。所以这种植物必须在降温、吸收二氧化碳和保住水分之间找平衡，它在自然界里究竟怎么做，还需要继续研究。研究团队还想到了更远的地方：要在月球或火星上种植物，得先向地球上最顽强的植物学习。死亡谷恰好是《星球大战》里沙漠星球的取景地之一。",
-      "这项研究也有它的边界。实验过程中没有限制供水，而真实的沙漠里，水是稀缺的。气孔打开能降温，可水也跑得更快；气孔关上，二氧化碳进不来，降温也就停了。所以这种植物必须在降温、吸收二氧化碳和保住水分之间找平衡，它在自然界里究竟怎么做，还需要继续研究。研究团队还想到了更远的地方：要在月球或火星上种植物，得先向地球上最顽强的植物学习。死亡谷恰好是《星球大战》里沙漠星球的取景地之一。"
-    ],
-    "topics": [
-      "植物与演化",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/extreme-heat-plant-cools-leaves",
-      "originalTitle": "In the heat, this Death Valley shrub air conditions its leaves",
-      "publishedAt": "Fri, 16 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-17T23:13:23.635Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-17T23:13:20.870Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 39,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Desert Shrub's Built-In Air Conditioning",
-      "intro": "In Death Valley, one desert shrub survives extreme heat by cooling its own leaves, scientists say.",
-      "paragraphs": [
-        "Death Valley is one of the driest, hottest and harshest places on Earth. In summer, thermometers there often climb above 49° Celsius (120.2° Fahrenheit). Such extreme heat can make it hard for desert dwellers to survive. But one shrub has found a curious way not only to survive Death Valley, but also to thrive. The Arizona honeysweet essentially sweats. 'This plant has evolved a way to survive temperatures that would kill most other plants and animals,' says botanist Seung Yon Rhee. This plant scientist at Michigan State University worked on the new study. The team shared its new findings August 3 in bioRxiv. Studies posted there have not yet been peer reviewed by other scientists.",
-        "The Arizona honeysweet performs photosynthesis best at a blazing 47 °C (117 °F). That’s the highest peak-performance temperature for any plant, says Karine Prado, a plant biologist at MSU. 'These plants wait [for] the hottest month just to grow fast,' she told Science News. It can add about one-third to its weight every day. This 'in itself is an amazing biological phenomenon,' says Joanna Feehan. Last year, the team showed the plant boosts photosynthesis in blistering heat by changing the shape of chloroplasts in its leaf cells. These are the structures that convert carbon dioxide (CO2) into sugar. That sugar fuels the plant’s growth.",
-        "To cool itself, the plant releases water vapor through stomata — tiny pores on its leaves and stems. Called transpiration, this process is like sweating, Feehan says. The MSU team collected seeds from 223 wild honeysweets growing in and near Death Valley. Then they grew more than 1,200 seedlings in the lab at a comfortable 30 °C (86 °F). Over several more days, the researchers gradually turned up the heat. They maxed out at 60 °C (140 °F) for six to eight hours daily. At each step, the team measured how hot the plants got.",
-        "Some plants survived repeated exposures to high temperatures. And they didn’t simply tolerate the heat. They actively cooled their leaves through transpiration. Some leaves were able to stay roughly 13 degrees C (23 degrees F) cooler than the surrounding air! When the team experimentally closed the leaves’ stomata, shutting down this cooling, the plants didn’t live as long. Clearly, Rhee concludes, 'This cooling makes the difference between life and death.' Not all the honeysweets survived. Some died after only a few days. Others remained healthy for weeks. These differences may trace to their DNA, Rhee suspects. Some carry versions of genes that appear to more effectively help them cool off and survive extreme heat. The new study did not pinpoint which genes bring better cooling relief.",
-        "An outside plant biologist called this 'direct evidence that leaf cooling contributes to survival under extreme heat.' He is Wataru Yamori at the University of Tokyo and did not take part in this work. One limit in this study was water availability, Yamori says. The experiment was done without water restrictions. Opening the stomata can cool the leaf, but it also increases water loss. So the plant must balance cooling and CO2 intake as it conserves water, says Feehan. Further work will need to explore how it does this in nature. To grow plants on the moon or Mars, scientists say 'we’ll need to learn from the toughest plants on our own planet first.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-17T23:21:11.362Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 31,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-18-2026-800",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "2026年全国青少年户外运动大赛总决赛开赛，800余名青少年开启户外挑战",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-18",
-    "intro": "据中新网体育报道，2026年全国青少年户外运动大赛总决赛已开赛。",
-    "paragraphs": [
-      "据中新网体育报道，2026年全国青少年户外运动大赛总决赛开赛，800余名青少年开启户外挑战。",
-      "这是一场全国性赛事的总决赛，参赛者为来自各地的青少年；‘总决赛’表明此前已进行过选拔或分站赛，能晋级者均已通过前期考验。800余名参赛者规模较大，体现广泛参与性。",
-      "户外运动区别于室内项目的关键在于环境不可控——天气、地形、体能状态均实时变化，要求青少年在真实不确定条件下观察、判断并自主决策。因此，这项赛事不仅锻炼体能，更培养应对复杂情境的能力。",
-      "目前报道仅确认赛事开赛及参赛人数，尚未公布赛程安排、具体项目、地点、持续时间或后续结果。对观众而言，这场赛事提示我们：青少年体育的价值，不仅在于名次，更在于亲历风与路的过程中所获得的真实成长。"
-    ],
-    "topics": [
-      "健康与医学",
-      "出行与旅行"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-17/10716416.shtml",
-      "originalTitle": "2026年全国青少年户外运动大赛总决赛开赛 800余名青少年开启户外挑战",
-      "publishedAt": "Sat, 17 Oct 2026 20:45:40 +0800",
-      "retrievedAt": "2026-10-17T23:15:40.675Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-17T23:15:38.961Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "800 Young Athletes Take On the Great Outdoors",
-      "intro": "The finals of the 2026 National Youth Outdoor Sports Competition have started. More than 800 young people are taking part.",
-      "paragraphs": [
-        "The finals of the 2026 National Youth Outdoor Sports Competition have begun.",
-        "More than 800 young people are taking part.",
-        "This event is held outdoors."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-17T23:19:13.208Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-17-8f2100",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "研究首次揭示神经元参与灵活决策的计算机制，或启发人工智能",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-17",
-    "intro": "中国科学院脑智卓越中心的科研团队首次揭示大脑神经元参与灵活决策的计算机制，这项发现可能启发下一代人工智能的底层算法。",
-    "paragraphs": [
-      "同样学一件事，为什么人脑比人工智能快那么多？大模型最擅长的语言和图像识别，训练量至少是人类的上万倍。答案就藏在大脑的基本结构——神经元里面。近日，中国科学院脑智卓越中心的科研团队，首次揭示了大脑神经元参与灵活决策的计算机制，填补了长期缺失的空白。这项成果，很可能启发下一代人工智能的底层算法。",
-      "大脑里有很多神经元，我们可以把它们想象成一个个小车站。车站和车站之间，靠“突触”连接，就好比车站之间的路。学习，本质就是让神经元之间的通路变得更加顺畅。",
-      "为了破解大脑灵活决策之谜，科学家设计了一套听觉抉择实验，训练小鼠玩猜规则游戏。小鼠会听到不同声音，需要找到隐藏的规律。等小鼠摸透当前规律后，科学家再悄悄更换这套规则，观察小鼠如何快速适应新逻辑。",
-      "科研团队利用双光子显微镜，观察小鼠听觉皮层的神经元。神经元并不是一个光秃秃的小圆点，它长出很多像树枝一样的突起，这就是树突，长长的那支远端分支叫作顶端树突。顶端树突负责承载推断出来的“抽象规则”，细胞本体也叫胞体、负责接收耳朵传来的感官信号。两套信息，在同一个细胞里就完成比对运算——相当于一边提出猜想，一边接收现实，当场判断猜想是否成立。",
-      "这个实验也就证明：单个神经元本身就是一台小型计算机，神经元的树突和胞体相互作用就能完成决策相关的认知计算。只有猜想经过多次验证、确认可靠之后，大脑才会慢慢加固突触，把这条规则永久保存下来。",
-      "现在的AI，只模拟了神经元之间的突触连接，也就是我们前面说的“车站之间的路”。如果能把这次新发现的神经元计算新机制融入算法，就有望打造出能快速提出假设、少量样本就能推理新规律的新一代人工智能。亿万年演化，把精巧的计算能力直接塞进人类大脑的单个神经元，我们现在，或许才刚刚揭开它奥秘的冰山一角。"
-    ],
-    "topics": [
-      "脑与认知",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573038.shtm",
-      "originalTitle": "神经元新发现或将重塑人工智能",
-      "publishedAt": "2026-10-16 17:20",
-      "retrievedAt": "2026-10-16T23:40:16.439Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:40:07.876Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "New Neuron Discovery May Reshape Artificial Intelligence",
-      "intro": "Chinese scientists have revealed how single neurons help the brain make flexible decisions. This finding could inspire the next generation of artificial intelligence.",
-      "paragraphs": [
-        "Have you ever wondered why your brain can learn so much faster than a giant AI model? Big AI models need at least ten thousand times more training data than humans. The answer lies in our neurons — the basic structure of the brain.",
-        "Neurons are like tiny stations in the brain. Synapses are the roads that connect them. Learning makes these roads smoother.",
-        "To crack the mystery of flexible decision-making, scientists trained mice to play a 'guess-the-rule' game with sounds.",
-        "Mice heard different sounds and searched for hidden patterns. After mastering the current rule, scientists quietly changed it. Then they observed how fast the mice adapted to the new logic.",
-        "Using a two-photon microscope, the team watched neurons in the mouse auditory cortex. Each neuron has branch-like dendrites. Its long apical dendrite carries inferred abstract rules. The cell body — or soma — receives sensory signals from the ears.",
-        "Both types of information meet and compare inside one cell. This is like making a guess and checking reality at the same time.",
-        "This proves a single neuron is itself a small computer. Dendrites and the cell body interact to perform cognitive computations for decision-making.",
-        "Only after repeated verification does the brain strengthen synapses to store the rule permanently.",
-        "Today’s AI only mimics synaptic connections between neurons — the 'roads' between stations. Adding this newly discovered intra-neuronal computation mechanism to algorithms could lead to AI that forms hypotheses quickly. It could also learn new rules from few examples.",
-        "Evolution packed exquisite computing power into each human neuron. We may have just glimpsed the tip of the iceberg."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:51:10.048Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 10,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-17/2026-10-17-8f2100.webp",
-      "alt": "冷灰色纸张质感上，抽象线条构成的神经元网络汇聚成分支路径。",
-      "caption": "神经元网络中的选择路径",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-17-he-wants-ai-benchmarking-to-be-a-science-not-a-d",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "计算机科学家莫里茨·哈特：AI基准测试有根本缺陷，应成为科学而非靠运气",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-17",
-    "intro": "计算机科学家莫里茨·哈特说，人工智能的基准测试从一开始就带着根本缺陷，它能推动进步，靠的其实是运气。",
-    "paragraphs": [
-      "给人工智能打分，是今天整个行业最热闹的比赛。每隔一阵就有公司宣布，自己的模型在某项测试上拿了高分，好像这张成绩单就等于模型的聪明程度。但计算机科学家莫里茨·哈特认为，这套打分方式从根子上就是坏的。他是德国马克斯·普朗克智能系统研究所的所长，2026年出版了一本专门讲机器学习基准测试的书。他的说法很尖锐：基准测试是‘the mistake that made machine learning’。不过他也认为，坏掉的东西并非修不好。",
-      "先说基准测试是什么。做法很简单：把数据分成两份，一份给做模型的人随便用，想怎么训练都行，没有规则；另一份只用来排队，谁第一、谁第二，列成一张排行榜。哈特提醒，它跟温度计不一样。按教科书上的说法，测试集应该锁起来、只用一次，像温度计一样客观地量出模型的本事。可现实中，基准测试更像一场体育比赛，或者一个市场：它定下游戏规则，大家围着它竞争，谁赢谁就被当成最好。",
-      "这件事的历史比很多人以为的长。1959年就有了第一个基准测试，是一批印在打孔卡上的数字和字母，用来比较不同扫描仪认字的本领。也是在那时，有人想出了训练集和测试集分开的办法，还挂出了排行榜。之后大约六十年，基准测试一直是人工智能进步的发动机。1987年，美国国防高级研究计划局（DARPA）的第一个语音转文字基准测试显示，当时最先进的人工智能无法超越所谓‘笨’的统计方法，这个结果助推了人工智能的寒冬，此后二十五年，研究兴趣消退，经费枯竭。到2012年，一个叫ImageNet的基准测试又把钟摆甩了回来：一个八层神经网络在图像分类上大胜其他算法，开启了深度学习革命。",
-      "那它坏在哪里？坏在机器学习这门学科根本没听教科书的警告。测试集被放到网上，人人可用，也很容易被塞进模型开发的循环里反复调。后果是，只要稍微改动测试集，同一个模型的准确率就会完全变样——在某个数据集上有90%，换一个就掉到73%。哈特说，这样一来，他根本不知道这个模型到底有多好。",
-      "奇怪的是，机器学习并没有因此陷入科学危机。哈特给出的解释是排名。绝对分数虽然不作数，模型之间的相对高低却很稳定：一个模型在某个测试集上拿到90%，另一个拿到80%，那么高分那个在现实中通常真的更好用，换成差别很大的其他数据集，它往往还是赢。排行榜能告诉你什么时候超过了此前的最好成绩，而这个‘improvement indicators are pretty reliable’的信号相当可靠，这是机器学习躲过危机的主要原因。但哈特强调，这其实是运气：我们本来没有理由指望会这样，至今也没有一套好理论解释它，只能说是个经验现象。",
-      "这份运气有一个前提：所有模型必须在同一份训练数据上学习。过去确实如此，可今天的大语言模型，我们并不知道它们训练时看过什么。更麻烦的是，做模型的人可以有策略地拼凑数据，专门迎合某项基准测试，有点像高中生应试复习。于是‘the better model necessarily wins’不再成立：差一点的模型，只要在准备某场特定考试上花更多力气，也可能拿到更好的名次，这就是当前基准测试危机的由来。哈特并不否认基准测试的功劳，它六十年里确实推动了真实的进步，只是推得侥幸。他真正想说的是，进步不该建立在运气上。让打分成为一门科学，意味着先弄清排行榜为什么有时可信、有时不可信，而不是继续把来路不明的分数当成智能的证明。"
-    ],
-    "topics": [
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
-      "originalTitle": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
-      "publishedAt": "Fri, 16 Oct 2026 13:25:08 +0000",
-      "retrievedAt": "2026-10-16T23:42:08.489Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:41:46.478Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-17-4739dc",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "看不见赛道，他们用一根陪跑绳并肩向前",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-17",
-    "intro": "10月15日是国际盲人日。走近成都黑暗跑团：一根橙色陪跑绳的两端，是视障跑者和陪跑志愿者并肩向前的脚步。",
-    "paragraphs": [
-      "每个周六，在成都锦城湖、四川大学华西校区风雨操场，常能看到这样一群人：两个人并排奔跑，中间连着一根橙色陪跑绳。这头是视障跑者，那头是陪跑志愿者。两人调整步伐、配合节奏，一起向前奔跑。这是成都黑暗跑团的每周六常规例跑。跑团成都站负责人张志宏介绍，目前跑团有190位视障成员、1500多名志愿者。每周六的例跑，是大家运动、交流、结识朋友的机会。",
-      "这群跑友眼下有了新的目标：即将到来的2026年成都马拉松，将成为他们又一次并肩奔跑的赛场。跑团计划组织23位视障跑者参赛，其中4位参加半程马拉松，其余挑战全程马拉松；还有70多名陪跑志愿者将一同上场护航。参赛队伍中，还有肢体障碍和听力障碍跑者。赛道之外，也有他们的伙伴：10位视障伙伴和30余名志愿者将在赛道旁为跑友加油助威。",
-      "为什么要成立‘黑暗跑团’？张志宏解释说，希望能帮助视障伙伴坦然接纳‘黑暗’这个真实的生命处境，再以奔跑的姿态冲破边界、打破偏见。而‘跑团’二字，是力量，是连接，是希望。一根陪跑绳的两端，是平等与信任，是彼此陪伴，一起向前，实现残健共融、双向奔赴。",
-      "但在跑团成立之初，邀请视障朋友来跑步并不是一件容易的事。有人心存疑虑，不相信会有人免费陪自己出门运动。从熟悉的环境走向户外，需要勇气，更需要信任。后来，跑友介绍跑友，成都市锦江区残联也帮助推动宣传，越来越多的视障跑者加入进来。2020年10月25日，张志宏组织了第一场黑暗跑团活动。",
-      "10月15日是国际盲人日。一根橙色陪跑绳，这头是视障跑者，那头是陪跑志愿者，两个人调整步伐、配合节奏，一起向前奔跑——在成都黑暗跑团，这样的并肩奔跑是每周六的约定。"
-    ],
-    "topics": [
-      "体育",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261015/cfc5923147b748c78db7be7d8fffa819/c.html",
-      "originalTitle": "追光丨他们看不见赛道，却偏要“冲破”黑暗",
-      "publishedAt": "2026-10-15T10:05:27+08:00",
-      "retrievedAt": "2026-10-16T23:43:22.457Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-16T23:43:14.960Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
