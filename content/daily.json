@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "冷聚变未实现，物理学家却在残骸中找到稀有原子",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-03",
+    "intro": "1989年那场轰动世界的冷聚变风波几个月就垮了，可顺着它的残骸往下挖，物理学家找到了一批自然界几乎不存在的原子。",
+    "paragraphs": [
+      "1989年3月，两位化学家召开新闻发布会，宣布一个简单的桌面实验释放出的能量太多，多到不可能是化学反应。他们说，那只能是核反应——氢原子核聚合成氦。这意味着无限、清洁又便宜的电力。物理学家惊呆了，因为那样的条件本不该发生这种事；政界人士则宣布，人类的能源烦恼到此结束。可接下来，全世界的实验室都去重复这个实验，谁也重复不出来。短短几个月，整件事就垮了：支持结论的实验被撤回，其中一起还出现了往结果里掺入假聚变产物的迹象；关键图表被修饰过；面对质疑者，他们还威胁要打官司。",
+      "写这篇报道的记者说，他对聚变的兴趣就是从这种梦想里长出来的。他小时候照着《Make》杂志在地下室做了一个“聚变器”，高压电把气体变成炽热的等离子体，撞在一起。他那台并没有真的实现聚变。后来一位在私营聚变公司工作的朋友带他参观了真正的实验反应堆，幻想一点点碎掉：装置复杂又昂贵，便宜谈不上；运行时放出强烈的、致命的中子辐射，清洁谈不上；燃料要用氚，而氚在自然界并不存在，必须人工制造，‘只要一点海水’也谈不上。",
+      "2026年春天，剑桥大学的哲学家休·普莱斯让这个话题重新回到记者眼前。普莱斯认为，科学家对冷聚变过于轻蔑了，甚至连‘科学家过于轻蔑’这个说法本身也被轻蔑。他把冷聚变和他研究的存在性风险放在一起看：核冬天、人造生物武器、超级火山、人工智能失控——这些事看起来都不太可能，研究它们的人孤独甚至边缘，可一旦成真，后果巨大，所以值得比表面上更大的重视。记者不完全同意：世上或许还有上千种异常现象，看起来和冷聚变一样可能成真、一样能改变世界，为什么单单盯着这一个？他觉得，唯一的原因是1989年有人说了不实的话，那句话像锚一样把人钉在了这个可能性上。就像有人说在后院看见了传说中的大脚怪，后来承认看错了，人们却还是在附近年年开会。",
+      "不过既然已经钻进了这个洞，记者决定继续往下走。他找到帕洛阿尔托的风险投资人马特·特雷维西克。十年前在谷歌工作时，特雷维西克组织了一个项目，重新评估冷聚变，成果是2019年发表在《自然》上的一篇论文。他们没有发现任何异常的核反应或其它异常现象。但他说，目标本来就不止于此：1989年的闹剧给一些研究课题蒙上了阴影，而这些课题不该被这么轻易地否定。比如当年冷聚变研究者用到的元素钯，它能像海绵一样吸收氢，这种本领不会因为跟一场科学歧途扯上关系就不再奇妙。这个项目最终产出了28篇学术论文，研究含氢金属和其他现象。特雷维西克对记者说：‘我们给一个领域去了污名。’",
+      "顺着论文的参考文献，记者被一个词吸引住了：μ子催化聚变。在被1989年那场风波占用之前，这才是‘冷聚变’一词最初的意思。它的核心想法出奇简单。普通原子是带正电的原子核，外面绕着带负电的电子。但没有任何理由说，绕着的必须是电子。在粒子物理的标准模型里，电子有个兄弟叫μ子，完全可以顶替它的位置；物理学家还换用过其他家族的粒子，比如K介子、π介子和Ξ重子，甚至造出了物质与反物质的混合体——中间是含质子的原子核，外面绕着带负电的反质子。于是就有了普通氢、μ子氢、K介子氢、反质子氢。区别在于这些替身重得多：一个μ子的质量是电子的207倍，一个反质子是电子的1800倍。美国国家标准与技术研究所的物理学家丹尼尔·斯韦茨专门造超高精度的探测器，测量这些奇异原子放出的辐射。他说，这就像另一张元素周期表，几乎是在第三个维度上把它搭出来。",
+      "那场发布会许诺的无限电力，至今没有到来；‘冷聚变’这个词，也仍然带着1989年的味道。但在这条被谎言开启的路上，真实留下来的不是免费能源，而是一批自然界几乎不存在的原子，和一片还在扩展的物理学前沿。也许更值得想一想的是：面对下一个听起来像冷聚变的新主张，我们该怎样既不轻信，也不轻易关上门。"
+    ],
+    "topics": [
+      "物质与数学",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
+      "originalTitle": "Is There Anything Left in the Dream of Cold Fusion?",
+      "publishedAt": "Mon, 02 Nov 2026 15:48:57 +0000",
+      "retrievedAt": "2026-11-03T03:01:58.984Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-03T03:01:53.398Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "What's Left of the Cold Fusion Dream?",
+      "intro": "In 1989, two chemists promised endless clean power from a tabletop experiment. Quanta Magazine asks what, if anything, still survives of that promise.",
+      "paragraphs": [
+        "In March 1989, two chemists held a press conference. They said a simple tabletop experiment released too much energy to be a mere chemical reaction. They said it had to be nuclear: hydrogen nuclei fusing to form helium. It promised limitless clean, cheap power. Physicists were stunned. That sort of thing wasn’t supposed to be possible under such pedestrian conditions. Politicians proclaimed the end of all our energy woes. But then labs across the globe tried to replicate the experiment and couldn’t. The whole thing only lasted a few months. Some experiments that initially corroborated the results were retracted, in one case amid indications of deliberate spiking with fake fusion products.",
+        "George Musser missed the episode in real time. He was backpacking off the grid for six months. By the time he caught up on the news, it was over. He initially sympathized with the plucky maverick scientists. But then he read about their rookie mistakes, their fudging of a crucial graph, and their threats of lawsuits against skeptics. Although cold fusion was a pathological case, fusion in general has been a graveyard of dreams. Musser once built a 'fusor' in his basement based on an article in Make magazine. Fusors are real, the one legitimate tabletop fusion technology. In them, a high voltage creates a hot plasma that smashes nuclei together. His unit didn’t achieve fusion, but with work it could have, although it would have produced negligible power. Later, a friend at a private fusion company gave him a tour of an actual experimental fusion reactor. It was complex and costly. It produced intense, deadly neutron radiation. It required tritium fuel, which does not occur naturally and has to be manufactured.",
+        "So why would a serious philosopher defend open-mindedness about cold fusion? Huw Price of Trinity College at the University of Cambridge told Musser his interest dates to 2011. He and other luminaries were hatching the idea for the Center for the Study of Existential Risk. That group frets over nuclear winter, engineered bioweapons, massive volcanic eruptions, and artificial intelligence takeover. Price sees parallels between doomsday scenarios and cold fusion. They may seem improbable, and studying them is a lonely or even fringe activity. Yet the consequences are huge. So we should give more weight to them than might strictly seem warranted.",
+        "Musser finds that argument troubling. There must be a thousand other anomalous phenomena that are as likely to be real as cold fusion and, if they are, to transform the world. Why focus on this one? The only reason we are talking about cold fusion at all is that we were lied to in 1989. The initial mistruth created a kind of psychological anchoring effect. It is as if someone said they saw Bigfoot in their backyard, then confessed they hadn’t — yet people started holding annual cryptozoological conferences nearby anyway. Musser finds it jarring that a deception could conjure an entire academic research program. He asks how this differs from the antivax movement, which also started with data that turned out to be faked and should have just packed up once that became known.",
+        "Musser kept digging and spoke to Matt Trevithick, a co-founder of Leitmotif, a venture capital firm in Palo Alto. A decade ago, while working at Google, Trevithick organized a project to reevaluate cold fusion. It culminated in a Nature paper in 2019. It didn’t find any unexpected nuclear reactions or other anomalies. But Trevithick said the 1989 debacle had cast a pall over certain research topics that perhaps shouldn’t be so easily dismissed. For instance, cold fusioneers used the element palladium, and it has a wondrous ability to absorb hydrogen like a sponge. Trevithick sought to lift this taboo. The project ultimately produced 28 academic papers on hydrogenated metals and other phenomena. 'George,' he said, 'We destigmatized a field.'",
+        "That trail led Musser to muon-catalyzed fusion. He recognized it as the original meaning of the term 'cold fusion' before it was co-opted by the 1989 studies. Ordinary atoms consist of a positively charged nucleus orbited by negatively charged electrons. But there’s no reason they have to be electrons. Other negatively charged particles serve just as well. In the Standard Model of particle physics, the electron has a sibling called the muon that can stand in for it. Physicists have also swapped in particles from other families, such as kaons, pions, and Xi baryons. They have even created hybrids of matter and antimatter, in which a nucleus containing protons is orbited by negatively charged antiprotons. Daniel Swetz of the National Institute of Standards and Technology in Boulder, Colorado, calls this 'like a new periodic table.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-03T03:08:39.943Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-03/2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi.webp",
+      "alt": "烧杯剪影与细线原子轨道，冷灰色纸质感插图",
+      "caption": "失败的实验，留下意外的原子。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-03-scientists-say-fibonacci-sequence",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "斐波那契数列：从第三个数起，每个数都是前两个数之和，常出现在植物中",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-03",
+    "intro": "从零和一出发，每个数都是前两个数相加，这串数字反复出现在花瓣数量、松果鳞片和向日葵花盘的排列里。",
+    "paragraphs": [
+      "先来玩一个数字游戏。从零和一开头，把前两个数加起来，得到下一个数。零加一等于一，一加一等于二，一加二等于三，二加三等于五，三加五等于八，五加八等于十三。就这样一直加下去：零、一、一、二、三、五、八、十三、二十一、三十四……这串数字可以永远写下去，它叫斐波那契数列。规则只有一条：每个数，都是它前面两个数的和。",
+      "这个规则简单得有点像脑筋急转弯，可它在自然界里出现得非常频繁。斐波那契数常出现在生物的身体结构中，植物是最容易观察的一类。植物当然不懂数学，但很多花的花瓣数正好落在斐波那契数列上。百合和鸢尾常常有三片花瓣，木槿有五片，雏菊往往有二十一片。三、五、二十一，都出现在从零和一开始的斐波那契数列中。",
+      "更明显的是螺旋。把松果倒过来，看上面的鳞片，它们从松果底部开始螺旋生长。你可以数一数向左转的螺旋有几条，向右转的又有几条。通常，这两个数都是斐波那契数。比如一个小松果，向左的螺旋有三条，向右的有五条。向日葵的种子和花瓣也从花盘中心向外螺旋排列，这些螺旋的条数，几乎总是斐波那契数。",
+      "这串数字还能生成一个比值。把相邻的两个数相除：十三除以八等于一点六二五；二十一除以十三约等于一点六一五。越往后取相邻两数相除，结果越接近‘黄金比例’，大约是一点六一八。黄金比例是个无理数，小数点后的数字无限不循环。这种比值的稳定性意味着，斐波那契数列中的数字能以非常规则的方式嵌套排列。",
+      "这种规则带来的好处很实际。由斐波那契模式形成的螺旋，能紧密排列而不浪费空间。叶子或花瓣因此能均匀分布、重叠很少，每一片都能获得尽可能多的阳光。",
+      "科学家还在研究为什么这个模式在自然界里这么常见。一种想法是：当生物生长新细胞时，这些细胞会以最节省空间的方式排列，而这种高效填充的结果，往往就形成了斐波那契式的排列。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/scientists-say-fibonacci-sequence-definition-pronunciation",
+      "originalTitle": "Scientists Say: Fibonacci sequence",
+      "publishedAt": "Mon, 02 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-03T03:02:40.349Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-03T03:02:36.356Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Scientists Say: Fibonacci Sequence",
+      "intro": "Science News Explores explains a simple number pattern that keeps showing up in flower petals, pine cones and sunflower seeds.",
+      "paragraphs": [
+        "Here is a number pattern you can build in seconds. It is called a Fibonacci sequence. Each number is the sum of the two numbers before it. Start with 0 and 1. Add them and you get 1. Then 1 plus 1 makes 2. Then 3, 5, 8, 13, 21 and 34. The numbers could go on forever.",
+        "This simple pattern appears often in nature, especially in plants. Flowers often have petal numbers that follow the sequence. Lilies and irises often have three petals. Hibiscus flowers come with five petals. Daisies tend to sport 21 petals. These numbers all occur on a Fibonacci sequence starting with 0 and 1.",
+        "Fibonacci numbers also appear in nature’s spiraling structures. Turn a pine cone upside down and look at the scales. The scales grow in a spiral that starts from the bottom of the pine cone. You can count the number of spirals that emerge toward the left and toward the right. Usually, the spiral numbers are Fibonacci numbers. For example, a small pine cone has three spirals going toward the left and five toward the right. Sunflower seeds and petals also grow in spirals from the flower’s center. These spiral numbers are nearly always Fibonacci numbers.",
+        "This pattern can also appear as a ratio. If you take two neighboring numbers of the sequence and divide them, you get a ratio. For instance, 13 divided by 8 equals 1.625. And 21 divided by 13 equals 1.615. The further along the sequence you go, the closer that ratio gets to the ‘golden ratio.’ The golden ratio is about 1.618. We cannot write it out completely because it is an irrational number — the numbers after the decimal go on forever.",
+        "The consistency of this ratio means that the numbers of a Fibonacci sequence fit inside one another in a very regular way. That consistency means spirals built from Fibonacci patterns can pack together without wasting space. Leaves or petals fill up space evenly and with little overlap. That lets each leaf or petal get the most sunlight.",
+        "Scientists are working to figure out why this pattern shows up so often in nature. One idea is that as a living thing makes new cells, those new cells will pack together in the most efficient way possible. That tends to fill space in a Fibonacci pattern."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-03T03:09:03.268Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-03/2026-11-03-scientists-say-fibonacci-sequence.webp",
+      "alt": "松果与向日葵花盘的抽象螺旋排列，冷灰色纸质感插图",
+      "caption": "螺旋的秩序，藏在花与鳞片之间。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-03-2-0-7a8f9c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "“苏超”2.0落幕：不再刷屏热搜，13座城市球场热闹起来",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-03",
+    "intro": "第二届江苏省城市足球联赛落幕了，它不再刷屏热搜，却让13座城市的球场和广场真正热闹起来。",
+    "paragraphs": [
+      "2026年10月31日，无锡队捧起了‘苏超’冠军奖杯。这场历时6个多月、共91场较量的联赛，是2026江苏省城市足球联赛（‘苏超’），于10月31日落下帷幕。和首届‘苏超’相比，网络声浪小了，那些层出不穷的‘热梗’不再是最热门话题。但若在比赛日前后走进13座城市的任何一个主场，或参与过球票抽签，就会对‘苏超’2.0版本的‘火’有另一重认知。",
+      "官方数据显示，本赛季91场比赛球票平均中签率是9.6%，决赛创下赛季最低的2.7%。‘苏超’依旧一票难求。赛场之外，几百个官方‘第二现场’观者如堵，例如常州文化广场、连云港市连云新城海鸥广场等观赛点，市民在吃喝玩乐中一起看球、一起加油。尤为难得的是，预约观赛人群中少年儿童占比高达23.7%，比去年增加3.1个百分点，带着孩子看‘苏超’正成为越来越多江苏家庭的周末‘日常’。",
+      "2.0版本的‘苏超’还有多项变化：赛制更优化，4月11日开幕，比上赛季多了足足1个月；比赛日统一定在每个周六，将单轮次拆分进行，基本保证周周有比赛，也保障队伍休息调整时间；赛期覆盖‘五一’、端午、中秋、国庆等节假日。新赛季规定每队必须至少同时上场6名U22球员，全赛季球员平均年龄22.32岁，较上赛季下降1.77岁。组委会面向全省遴选32家小微企业，仅需5万元就可享受官方赞助商同等权益。",
+      "‘苏超’邀请劳模、老师、冠军们到现场观赛，也邀请用落叶扫出‘苏超’图案的环卫大爷、见义勇为的普通市民、怀揣梦想的脑瘫青年。2026赛季呈现每座城市文化底蕴与精神内核的‘一城一衣’深受球迷喜爱。阿迪达斯宣布成为2027赛季‘苏超’官方战略合作伙伴，将为‘苏超’打造城市专属球衣。",
+      "‘苏超’的变，是赛制、是人群、是方式；它的不变，是初心——以城为名，为城市荣耀而战。这份‘初心’在线下的热度就不会退散。它始终秉承的是为人民群众提供最好的体育公共服务产品：让比赛更好看、观赛更便利、‘苏超’的溢出效应能触及更多人群和企业。"
+    ],
+    "topics": [
+      "苏超",
+      "城市足球联赛",
+      "地方体育文化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261102/fe9c22e409804b4f8c74e8d13e5c70a6/c.html",
+      "originalTitle": "追光｜“苏超”2.0的变与不变",
+      "publishedAt": "2026-11-02T17:30:48+08:00",
+      "retrievedAt": "2026-11-03T03:06:12.332Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-03T03:06:08.520Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-02-giant-sea-spiders-emit-eerie-glow-deep-below-the",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "深海巨型海蜘蛛被证实会发光",
@@ -3180,186 +3366,6 @@
       "src": "/editorial/2026-10-20/2026-10-20-90-e38a01.webp",
       "alt": "冷灰纸面上抽象书脊与叠放册页的静物插图",
       "caption": "典籍开放，是让文字重新被翻阅。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-20-1b2dcd",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "各国首次检查生物多样性保护承诺落实得怎样",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-20",
-    "intro": "《生物多样性公约》第十七次缔约方大会在亚美尼亚首都埃里温开幕，各国将首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展。",
-    "paragraphs": [
-      "会议从周一在亚美尼亚首都埃里温开始，会期两周。《生物多样性公约》第十七次缔约方大会要做的第一件大事，是首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展。重点讨论资金筹措、行动落实和成效监测，推动保护承诺转化为可衡量的成果。",
-      "联合国秘书长古特雷斯上周五在埃里温表示，全球超过100万种物种面临灭绝风险，污染、生物多样性丧失和气候变化三重地球危机正在加剧。自2022年以来，全球新增正式保护的陆地面积达130万平方公里，海洋面积达600万平方公里。到2030年保护全球至少30%的陆地和海洋是《昆蒙框架》中最广受关注的一项目标。但各国进展不均衡、行动速度过慢，照此下去，到2030年仍可能与这一目标存在较大差距。",
-      "《生物多样性公约》执行秘书绍马克周一表示，生物多样性丧失的影响遍及所有国家、经济体和社会。公约致力于妥善应对土地和海洋利用方式变化、物种过度开发、气候变化、污染以及外来物种入侵等导致生物多样性丧失的主要因素。她呼吁，将土著人民和地方社区、妇女及青年的知识、经验和创意纳入决策，并推动城市、企业和金融机构更深入地参与。她同时强调，各国行动计划应与国际目标相衔接，资金投入应满足实际需求，生产和消费方式也必须适应地球资源有限的现实。",
-      "亚美尼亚常驻联合国代表霍夫汉尼斯扬表示，大会的核心任务之一，是将承诺转化为切实、可衡量的进展。这需要政府、国际组织、私营部门和民间社会协调行动，加强落实、筹集充足资源，并完善监测与问责机制。",
-      "各国将在埃里温重点讨论以下议题：审查落实进展；弥合行动差距；筹集充足资金；推进卡利基金运作；加强监测评估；推动经济领域变革。其中，审查落实进展是首次对框架的集体成果开展全球审查，通过各国提交的国家报告及更新后的国家生物多样性战略和行动计划，评估2022年以来取得的成果，明确需要加快行动的领域。",
-      "筹集充足资金方面，按照框架要求，到2030年，每年从各种来源筹集的生物多样性资金至少达到2000亿美元，其中国际生物多样性资金至少达到300亿美元。推进卡利基金运作：该基金在哥伦比亚卡利举行的第十六次缔约方大会上商定设立，旨在向利用数字化遗传信息开展业务的企业筹集资金，用于保护生物多样性并支持土著人民。本次大会将推进基金的具体运作安排。加强监测评估：完善监测和数据收集，加强能力建设与合作，检验各国承诺是否取得实际成效。推动经济领域变革：金融、商业、可持续消费和取消对破坏自然行业的补贴等领域的进展尤为滞后，需要环境部门以外的相关部门共同推动。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143027",
-      "originalTitle": "亚美尼亚会议聚焦保护地球脆弱的生物多样性",
-      "publishedAt": "Mon, 19 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-20T01:15:47.600Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:15:45.498Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-20-4144f8",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "研究实现量子网络跨节点散粒噪声极限相位锁定",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-20",
-    "intro": "中国科大团队用多波长联合追踪加贝叶斯估计，在极弱的参考光下实现了跨节点的相位锁定，为远程量子纠缠和未来的量子网络打下技术基础。",
-    "paragraphs": [
-      "要建量子网络，一个关键动作，是让相隔很远的两个量子节点纠缠起来。可两边离得越远，就越难把节奏对上：光的相位必须同步，纠缠才能建立。中国科学技术大学潘建伟、张强等与济南量子技术研究院陈玖朋等合作，提出一种‘多波长联合相位锁定’架构，并结合贝叶斯相位估计，实现了跨节点、达到散粒噪声极限的高精度相位锁定。相关成果于10月14日发表于《物理评论快报》。",
-      "为什么相位这么难锁？在构建远程量子纠缠时，基于散射光子的单光子干涉方案只需探测单个光子，就能消除路径可分辨性并建立纠缠。相比需要两个光子符合测量的方案，它更能抵抗信道损耗。但这条路有个核心瓶颈：跨节点的高精度相位锁定。一方面，散射光子会‘继承’操控激光、变频泵浦光以及长光纤一路累积的复合相位，必须对整个链路统一追踪；另一方面，用来追踪相位的参考光必须非常弱，否则会干扰量子存储态。",
-      "可光越弱，光子到达的随机涨落越明显。这就是散粒噪声，会限制相位估计的速度和精度。达到散粒噪声极限，意味着在这样弱的光强下，测量精度已经逼近理论允许的最好水平。",
-      "针对这些难题，团队基于两个远程单离子（40Ca+）节点，搭建了‘时分-波分’多波长联合相位演化追踪架构，并发展了实时贝叶斯相位估计技术。在时间上，团队让729nm与854nm操控光通过和频产生393nm参考光脉冲，并与离子散射光交替发射；参考光复用操控光的初相位，经历相同的传输信道，还在527nm泵浦下进行量子频率转换，转到1550nm通信波段，从而原位追踪整个系统的复合相位演化。",
-      "在频率上，引入一束失谐约2nm的1548nm连续弱参考光，实时捕捉并补偿光纤链路的快速抖动。针对微弱参考光带来的统计涨落，团队用FPGA实时运行贝叶斯估计，使动态相位解调精度达到散粒噪声极限。",
-      "基于上述突破，系统在极低参考光强下，实现了10公里与100公里光纤链路上的跨节点高精度相位锁定。远程单光子干涉可见度均保持在97%以上，纠缠宇称对比度超过85%，这为构建可扩展量子中继、迈向未来量子网络奠定了技术基础。"
-    ],
-    "topics": [
-      "脑与认知",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573122.shtm",
-      "originalTitle": "研究实现量子网络跨节点散粒噪声极限相位锁定",
-      "publishedAt": "2026-10-18 08:35",
-      "retrievedAt": "2026-10-20T01:16:38.656Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:16:36.017Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Keeping Quantum Nodes in Step With Faint Light",
-      "intro": "A Chinese research team has shown how to keep distant quantum network nodes in step using very faint reference light.",
-      "paragraphs": [
-        "A team from the University of Science and Technology of China, Jinan Institute of Quantum Technology, and collaborators achieved cross-node phase locking at the shot-noise limit. They proposed a 'multi-wavelength joint phase locking' architecture and combined it with Bayesian phase estimation. The work was published in Physical Review Letters on October 14.",
-        "The method targets remote quantum entanglement via single-photon interference from scattered photons. Unlike two-photon coincidence schemes, this approach resists channel loss better but faces a core bottleneck: high-precision phase locking across nodes. Scattered photons inherit composite phase from control lasers, frequency-conversion pump light, and long fibers. Reference light must be extremely weak to avoid disturbing quantum memory — yet weak light suffers strong photon arrival fluctuations: shot noise.",
-        "Shot noise limits phase estimation speed and precision. Reaching the shot-noise limit means achieving the best theoretically allowed precision at that low light level. To overcome this, the team used two remote single-ion (40Ca+) nodes. They built a 'time-division–wavelength-division' multi-wavelength joint phase evolution tracking architecture and developed real-time Bayesian phase estimation.",
-        "In time, 729 nm and 854 nm control light generated 393 nm reference pulses via sum-frequency generation. These pulses alternated with ion-scattered light. The reference light reused the control light’s initial phase and traveled the same channel. Under 527 nm pumping, it underwent quantum frequency conversion to the 1550 nm telecom band — enabling in-situ tracking of the full system’s composite phase evolution.",
-        "In frequency, a weak continuous 1548 nm reference light — detuned by ~2 nm — captured and compensated fast fiber-link jitter. To handle statistical fluctuations from weak light, the team ran Bayesian estimation in real time on an FPGA. This achieved dynamic phase demodulation precision at the shot-noise limit.",
-        "The system achieved high-precision phase locking over 10 km and 100 km fiber links under very weak reference light. Remote single-photon interference visibility remained above 97%. Entanglement parity contrast exceeded 85%. This provides key technical support for scalable quantum repeaters and future quantum networks. Co-first authors are Liu Guangcheng, Xue Chaohui, and Chen Faxi."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:20:12.047Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-19-bees-may-survive-a-swim-by-heading-for-the-dark",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蜜蜂落水后朝暗处游，可能更容易回到岸上",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-19",
-    "intro": "一项新研究发现，落水的蜜蜂更愿意朝暗处游，这可能是它们找到岸边、避免淹死的一种办法。",
-    "paragraphs": [
-      "蜜蜂最出名的本领是在空中飞，但它们也是令人惊讶的游泳好手。这些昆虫能用翅膀的底面划水。一项新研究发现，落水的蜜蜂偏好游向暗处，这一策略可能帮助它们避免溺亡。",
-      "美国密歇根州立大学东兰辛分校的蜂类研究员扎克·黄（Zach Huang）和同事研究了蜜蜂和壁蜂的这种行为。他们与广州的研究人员合作，在实验室中将蜜蜂放入装满水的玻璃碗中。碗外包裹白纸，纸上印有一块黑色区域。研究人员仔细追踪了85只蜜蜂游向碗边缘的路径。结果表明，蜜蜂更倾向于游向黑色区域，而非明亮区域。这种被暗处吸引的行为被称为‘趋暗性’（skototaxis）。",
-      "黄推测，如果蜜蜂能在水中游向陆地，它们会朝黑暗处游去——因为阴影可能提示岸边有悬垂植物，或标示出任何盛水容器的边缘。实验结果证实了他的猜测：蜜蜂在野外落入水中时，很可能会游向阴影覆盖的水岸边缘，从而活下来继续飞行。",
-      "研究团队还测试了另一种蜂类——壁蜂。壁蜂在游泳时对黑暗的吸引力比蜜蜂更强。这暗示两种蜂类的游泳能力可能源自一个古老的共同祖先，时间可追溯至约1亿年前。其他一些昆虫落入水中时也会朝暗处游，因此这种生存技能可能在昆虫中广泛存在。",
-      "但这些生存技能可能被削弱。研究团队还测试了接触过一种常见杀虫剂的蜜蜂。杀虫剂是用于杀死危害农作物及其他植物的害虫的化学物质，但也可能伤害蜜蜂等非目标昆虫。结果显示，受农药影响的蜜蜂无法找到通往暗处的路径。因此，杀虫剂可能增加蜜蜂溺亡的风险。了解杀虫剂对蜜蜂行为的这类影响，对保护农场和花园周围的蜜蜂至关重要。",
-      "这一发现也可能对养蜂人有实用价值。养蜂人常使用大桶盛装糖浆，为蜜蜂提供水分和食物。有时他们会往桶中放置漂浮物，防止掉入桶中的蜜蜂溺亡。既然蜜蜂会本能地游向暗处，那么在桶内壁添加一条黑色标记，或许就能引导这些‘嗡嗡泳者’游向安全区域。"
-    ],
-    "topics": [
-      "生命与演化",
-      "动物行为"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
-      "originalTitle": "Bees may survive a swim by heading for the dark [COMIC]",
-      "publishedAt": "Wed, 14 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-18T23:17:50.602Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-18T23:17:49.037Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Bees May Swim Toward Darkness to Survive",
-      "intro": "A bee in a pool may look helpless, but new research suggests it has a survival plan.",
-      "paragraphs": [
-        "Bees are famous for flying, but they are also surprisingly good swimmers. They can paddle through water using the bottoms of their wings. A new study shows that waterborne bees prefer to swim toward dark areas. This strategy might save them from drowning. The team shared its findings February 10 in Communications Biology.",
-        "Zach Huang is a bee researcher at Michigan State University in East Lansing. He and others studied this behavior in honeybees and mason bees. Huang figured that if bees could swim toward land, they would move toward darkness. Shadows would be a clue of shorelines with overhanging plants up ahead, or the edge of any basin filled with water.",
-        "To test this idea, Huang teamed up with researchers in Guangzhou, China. The team took honeybees into the lab and put them in glass bowls filled with water. They wrapped the bowls with white paper that had a section of black printed on it. Then, they carefully tracked 85 bees’ swimming paths to the bowl’s edge. Sure enough, the honeybees were more likely to swim toward the dark section of paper than to light areas. This type of attraction to darkness is called 'skototaxis.'",
-        "Huang and his team also tested a different bee species: the mason bee. These bees were even more attracted to darkness while swimming than the honeybees were. This hints that the two species’ swimming skills may trace back to an ancient common ancestor. Some other insects are known to swim toward darkness when they fall into water, too. So it’s possible this survival skill is widespread.",
-        "But these survival skills can be shaken. Huang’s team also tested bees that had been exposed to a common pesticide. Pesticides are chemicals used to kill bugs that eat crops and other plants, but they can also harm other insects such as bees. Sick bees couldn’t find their way to the dark. So pesticides might make bees more likely to drown. Understanding this and other possible changes to bee behavior from pesticides is important to avoid harming bees around farms and gardens.",
-        "The findings may be useful for beekeepers, too. Bees are often watered and fed with a big bucket of sugar syrup. Sometimes beekeepers put floating items in the bucket to prevent fallen bees from drowning. If bees automatically swim toward the dark, maybe a black stripe inside the bucket could steer the buzzy bathers to safety instead."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-18T23:24:03.175Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 24,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-19/2026-10-19-bees-may-survive-a-swim-by-heading-for-the-dark.webp",
-      "alt": "一只抽象蜜蜂浮在水面，朝较暗的一侧游去。",
-      "caption": "落水的蜜蜂，似乎会朝暗处游。",
       "kind": "editorial"
     }
   }
