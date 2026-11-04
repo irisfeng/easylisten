@@ -1,5 +1,239 @@
 [
   {
+    "slug": "2026-11-04-8eb1f3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "机器人登泰山：跑赢人类后，还得学会走得稳",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-04",
+    "intro": "首届机器人登泰山大赛上，机器狗一路向上，工程师在后面追得直喘气。已经跑赢人类的机器人，为什么还要来爬三千多级台阶？",
+    "paragraphs": [
+      "泰山盘道，石阶层叠。机器狗如履平地、一路向上，工程师在后追得累出表情包。网友评论：“狗在前面哒哒哒，人在后面啊啊啊。”这是首届机器人登泰山大赛中最出圈的场面。11月2日，机器人“选手”们来到泰山，现代具身智能在千年山岳的石阶上，于摔打中展开一场修炼进阶之旅。两个多月前的第二届人形机器人运动会上，“天工Ultra”以8秒64将人类百米纪录远远甩在身后。",
+      "因为登泰山比赛不能简单理解为机器人赛跑的“山地版”。本次赛道设置在泰山红门至中天门登山步道，全程约3.9公里，共3100余级台阶。“尤其有2.6公里的路段垂直高差约400米，是攀爬难度较高的区域。”山东优宝特智能机器人有限公司副总经理周彤说，泰山赛道是实打实的野外场景，台阶有高有低、有宽有窄，石板路、石阶、陡坡交替出现，部分路段弯曲狭窄，对机器人是很大挑战。",
+      "机器人面对的问题不再只是跑多快，而是每走一步都要回答，脚下的台阶有多高，落脚面是否足够宽，背负的物品是否会发生位移，怎样调整身体才能避免摔倒等问题。参赛机器人取得的成绩仍然突出：智身凌岳队以27分26秒获得人形机器人竞速赛冠军；北京灵翌科技队以43分41秒夺得足式机器人竞速冠军；灵锶智能灵狮队获得足式机器人负重赛冠军，时间为1小时51分29秒。但现场也有机器人跌跌撞撞、撞到山壁；不少人形机器人还不能完全脱离人工操控。智身科技（北京）有限公司市场营销经理李劲翔说：“途中我们的机器人也因电机过热重启了两次。”",
+      "宇泛智能科技股份有限公司解决方案专家王樱潼说，机器人的核心能力在于其“大脑”和“小脑”。“大脑”主要体现为自主导航和算法能力，包括机器人对环境的识别、路径规划以及自主决策；“小脑”则主要涉及关节电机和运动控制能力，机器人要完成复杂动作，需要各关节之间实现精准协调，也需要整机具备较强的动力和控制能力。参赛企业普遍表示，此次以挑战极限为目的的登山赛事，将技术能力转化为具体、明确、可比较的竞技任务，为技术提供了一个直观的检验平台。",
+      "那爬完泰山，机器人要去哪儿？负重比赛中，足式机器人背负的物资包括矿泉水、方便面、鸡蛋、西瓜、暖水瓶等，不仅要把东西运上山，还要尽可能保证物资完好。“从感知、决策到平衡、续航，这次比赛是一次全考。”宇树科技股份有限公司市场经理陈希韫说，这是为了更加贴近真实生活。“泰山游客众多，目前机器人已经承担了物资补给和垃圾清运中部分重复性、劳动强度较大的运输任务。”泰山文旅物业南天门区域副主管王云鹏说。企业还希望把这些经验用到电力、工业园区巡检以及抗灾救援等工作场景中，这些场景往往存在地形复杂、任务繁重或对工作人员有一定危险性等特点。",
+      "但要实现这一远景，让机器人远离人工控制是难点。“如果想在运输、巡检、救灾等场景中发挥较大作用，机器人必须逐步摆脱人工近距离操控，依靠自身感知、算法和大模型完成运动。”李劲翔说。业内人士说，可这样形容机器人产业：赛道上的摔倒，是平衡算法亟待优化的信号；身后的人工干预，是自主能力尚未覆盖的边界。机器人摔倒的瞬间，正是技术进步的起点。那座“登高必自”的石碑，就矗立在本次比赛的赛道旁。具身智能的发展如同攀登泰山，在漫长攀登中的每一步，都是人类走向未来的足迹。"
+    ],
+    "topics": [
+      "体育",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261103/0bc4dddc2e204cff97a72c8a9c54da08/c.html",
+      "originalTitle": "大看台｜跑赢人类后，机器人为啥还要去泰山“修炼”",
+      "publishedAt": "2026-11-03T18:08:51+08:00",
+      "retrievedAt": "2026-11-04T01:29:34.435Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:29:30.924Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Why Robots Climbed Mount Tai After Beating Humans",
+      "intro": "A robot dog raced up stone stairs while the engineers chasing it fell far behind. That funny scene tells us something serious about how machines learn.",
+      "paragraphs": [
+        "A robot dog moved easily up the stone steps of Mount Tai. Engineers struggled to keep up. Their exhausted expressions went viral online. This scene came from the first Robot Ascending Mount Tai Competition. It was held on November 2nd. Xinhua News Agency reported it.",
+        "Two months earlier, at the second Humanoid Robot Sports Meeting, 'Tiangong Ultra' ran 100 meters in 8.64 seconds. That is faster than the human world record. On November 2nd, robot 'athletes' gathered again on Mount Tai’s ancient stone steps.",
+        "The race route ran from Hongmen to Zhongtianmen. It covered about 3.9 kilometers. It had over 3,100 stone steps. A 2.6-kilometer section had a vertical height difference of about 400 meters. The path included uneven stone steps. It had narrow bends. It had steep slopes. It had alternating surfaces.",
+        "Zhishen Lingyue team won the humanoid robot speed race. Their time was 27 minutes and 26 seconds. Beijing Lingyi Technology won the legged robot speed race. Their time was 43 minutes and 41 seconds. Lingsi Intelligent’s 'Lingshi Lion' team won the legged robot load-carrying race. Their time was 1 hour, 51 minutes and 29 seconds.",
+        "Some robots stumbled. Some collided with rock walls. Many humanoid robots still needed close human supervision during the climb. Zhou Tong said lab benchmarks like 3 meters per second are insufficient. In competition, teams pushed speeds to 6 or even 7 meters per second. Wang Yingtong said a robot’s 'brain' handles navigation and decision-making. Its 'cerebellum' manages joint motors and motion control.",
+        "In the load-carrying race, robots carried bottled water. They carried instant noodles. They carried eggs. They carried watermelons. They carried thermoses. Wang Yunpeng said robots already help with supply delivery and garbage collection on Mount Tai. Applications inspired by the climb include power line inspection. They include industrial park patrol. They include disaster rescue.",
+        "A key challenge remains: reducing reliance on nearby human operators. Li Jinxian said robots must rely on onboard perception, algorithms, and large models. Liu Wenqiang said competition-tested tech must become safe, affordable, real-world products. A stone tablet beside the route reads 'Deng Gao Bi Zi'. It means 'To ascend high, one must begin from below.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:36:08.633Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-04/2026-11-04-8eb1f3.webp",
+      "alt": "一只四足机器狗沿抽象石阶向上攀爬，冷灰色调纸感插画。",
+      "caption": "台阶之上，机器与山。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-04-10-steam-ai",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "Steam 十月上架的新游戏，约一半标明了使用 AI",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-04",
+    "intro": "一位 Reddit 用户的统计显示，2026年10月 Steam 新作中约 49.9% 披露使用了生成式 AI，创下单月新高。",
+    "paragraphs": [
+      "在 Steam 上，有些游戏的商店页面会多出一行小字，说明这款游戏用到了生成式 AI。Reddit 用户 ploz 对此做了统计：2026年10月在 Steam 上架的新游戏里，约 49.9% 在页面上披露使用了生成式 AI 内容。接近一半，这也是这项统计开始以来的最高单月纪录。",
+      "这条曲线上升得很快。Valve 在 2024 年 1 月开始实施 AI 内容披露制度，制度刚启动时，只有 1.7% 的游戏披露使用了 AI。2024 年全年有 13.2% 的游戏披露使用 AI，2025 年增至 24%，2026 年至今达到 40.1%。而 2026 年 10 月的 49.9%，约为 2025 年同期 26.4% 的两倍。",
+      "用得多的是哪些游戏？统计显示，小型游戏和高产开发者披露的比例更高。2026 年发售、玩家评价低于 10 条的游戏里，47% 披露使用了 AI；而在评价不少于 1000 条的游戏里，这个比例降至 14%。2026 年发售不少于 10 款游戏的开发者，有 68% 的作品披露了 AI 使用；仅发售一款游戏的开发者，披露比例为 37%。同时，只有 3% 的游戏在玩家游玩过程中使用实时生成的 AI 内容。",
+      "具体用在哪儿？在披露使用 AI 的游戏里，美术素材是使用最多的项目，占 63%；文字与翻译占 30%；商店页与宣传素材占 26%；音乐占 21%；代码占 16%；语音占 7%（同一款游戏可涉及多种用途）。",
+      "这些游戏的玩家反馈如何？在评价不少于 50 条的游戏中，披露使用 AI 的游戏平均好评率为 77%，低于未披露游戏的 83%。",
+      "需要留意的是，上述统计依赖开发者的自我披露。实际上的比例，尤其是代码部分可能要高得多。Valve 在今年 1 月修订了规定，仅要求披露玩家可直接接触的 AI 内容，不涵盖开发幕后使用的辅助工具。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "互联网产品"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "机核 GCores",
+      "region": "mainland",
+      "url": "https://www.gcores.com/articles/221856",
+      "originalTitle": "10月Steam新作近半数披露使用AI",
+      "publishedAt": "Tue, 03 Nov 2026 17:54:54 +0800",
+      "retrievedAt": "2026-11-04T01:31:15.731Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:31:12.953Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-04-greece-has-its-own-pompeii-and-the-ruins-tell-a",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "希腊也有一座「庞贝」，火山灰封住了一座青铜时代的港口城市",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-04",
+    "intro": "锡拉火山喷发埋掉了阿克罗蒂里，也把一座青铜时代海港城市的日常生活原样保存了下来。",
+    "paragraphs": [
+      "地面震动了好几天。阿克罗蒂里的居民望着远处的锡拉火山冒出烟柱——那是一座沉睡很久的火山，就在今天的圣托里尼岛上。人们收拾家当，把带不走的贵重物品仔细藏好，然后乘船逃往附近的岛屿。等那些小规模的地震和喷发平息下来，他们又回到阿克罗蒂里，收集材料，动手修补受损的房屋。可是大地仍在颤抖。情况越来越糟，他们不得不再次离开，希望家园能够挺过即将到来的灾难。当锡拉火山再次喷发时，爆炸威力巨大，摧毁了阿克罗蒂里，将整座城市（以及共享火山名称的岛屿）掩埋在约200英尺厚的火山灰和浮石之下。",
+      "喷发的确切年代学界争论激烈，但学者们一般把它定在公元前1620年到公元前1530年之间。这是有记录以来规模最大的火山喷发之一：它喷出的火山物质，约是1883年喀拉喀托火山喷发的四倍，而后者在今天的印度尼西亚造成三万六千人以上死亡。火山灰飘得很远，一直落到今天的埃及和以色列。考古堆积之间夹着的沙砾层显示，当时发生了多次海啸。喷发几天之后，一部分火山口塌陷进爱琴海，永久改变了圣托里尼的地貌。",
+      "因此有人说，阿克罗蒂里就是柏拉图在公元前360年左右描述的那座沉没之岛——亚特兰蒂斯。不过大多数现代学者认为，柏拉图创作亚特兰蒂斯故事是作为寓言，警告权力与腐化带来的危险，并强调良善的重要性。真正让考古学家着迷的，是火山灰做的另一件事：它把整座城市完整封存了起来。研究圣托里尼史前地貌的考古学家佐尔佐斯说：‘一切都绝对被摧毁，并完全包裹在岛上。’这与庞贝古城被维苏威火山埋没的情形很像，但阿克罗蒂里属于中青铜时代的基克拉迪文明——这个文明大约在公元前3000年到公元前1000年间繁荣于爱琴海诸岛。它留下了一座罕见的时间胶囊，让人得以窥见那个航海社会里普通人的日常生活。",
+      "这座城市在地下沉睡了约700年。喷发之后，圣托里尼约有700年无人居住；古希腊历史学家希罗多德记载，腓尼基人在公元前9世纪开始重新定居这座岛。1866年，锡拉西亚岛的矿工在开采浮石时发现了史前建筑——那些火山灰原本要运去为苏伊士运河做隔热材料。1870年，法国雅典学院在那里做过一次小规模发掘，但真正的大规模考古要等到近一个世纪之后：1967年，考古学家马里纳托斯开始主持阿克罗蒂里的发掘工作。",
+      "马里纳托斯此前研究过克里特岛克诺索斯宫出土的遗址。他把克里特岛上发现的一些浮石追溯到锡拉喷发，第一次将阿克罗蒂里的毁灭与米诺斯文明的衰落直接联系起来。米诺斯文明常被称为欧洲最早的发达文明。他推测，锡拉引发的地震范围极广，推倒了克里特岛上的建筑和宫殿；随之而来的海啸破坏了沿海聚落，并使海上贸易中断。但这个理论今天已不被广泛接受。许多历史学家认为，米诺斯文明的衰落不能归因于单一因素，而是环境变化、贸易衰退、政治动荡，以及同正在崛起的迈锡尼文明之间的冲突共同造成的结果。",
+      "发掘这样一座保存得出奇完整的古城，本身就是一道难题。佐尔佐斯说：‘当你发掘时，你是在摧毁一层土，移走那层正把一切固定在一起的土壤。’面对保存得这么好的遗址，你必须换一种做法。所以马里纳托斯在正式动土之前，先要在遗址上方建起一座保护棚。"
+    ],
+    "topics": [
+      "考古",
+      "青铜时代",
+      "火山遗址",
+      "地中海文明"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Smithsonian History",
+      "region": "international",
+      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
+      "originalTitle": "Greece Has Its Own Pompeii, and the Ruins Tell a Captivating Story of a Sophisticated, Seafaring Bronze Age Society",
+      "publishedAt": "Tue, 03 Nov 2026 12:45:00 +0000",
+      "retrievedAt": "2026-11-04T01:32:10.601Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:32:08.507Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Greece's Own Pompeii: The Buried Town of Akrotiri",
+      "intro": "A buried Bronze Age town on Santorini offers a rare look at a seafaring society frozen by a massive volcano.",
+      "paragraphs": [
+        "The earth rumbled for days. Inhabitants of the seafaring Bronze Age settlement of Akrotiri watched smoke plume from Thera, a long-dormant volcano on what is now the Greek island of Santorini. People gathered their belongings and safely stored the valuables they were forced to leave behind. Then they fled by boat to nearby islands.",
+        "When these minor earthquakes and eruptions subsided, residents returned to Akrotiri, collecting materials for reconstruction and beginning the arduous process of repairing the damage. But the ground continued to tremble. As conditions worsened, they made the difficult decision to flee once more, hopeful that their homes would survive the coming devastation.",
+        "When Thera erupted again, the explosion was so powerful that it destroyed Akrotiri, burying the settlement in some 200 feet of ash and pumice stone. The timing of the disaster is the subject of intense debate, but scholars generally date it to between 1620 and 1530 B.C.E. The event was one of the largest volcanic eruptions in recorded history: Thera released about four times more volcanic material than the infamous Krakatau eruption.",
+        "The ash cloud formed by the Thera eruption completely transformed the island’s lush, humid environment into an arid one. Ash from the volcano was so widespread that it rained down as far as modern-day Egypt and Israel. Layers of sand and pebbles found between archaeological deposits suggest that multiple tsunamis also contributed to the destruction. A portion of the volcanic caldera collapsed into the sea a few days after the eruption, forever changing the landscape of Santorini.",
+        "Like the Roman city of Pompeii, which was destroyed when Mount Vesuvius erupted in 79 C.E., Akrotiri was preserved beneath the ash. 'Everything was absolutely annihilated and completely encapsulated on the island,' says Lefteris Zorzos, an archaeologist whose research focuses on the prehistoric landscape of Santorini. This created a rare time capsule that provides an unprecedented look into the daily life of this Middle Bronze Age Cycladic civilization. Santorini remained uninhabited for some 700 years. In 1866, miners working in pumice quarries on the island of Therasia discovered a prehistoric building while collecting ash to insulate the Suez Canal.",
+        "A large-scale dig at Akrotiri only commenced nearly a century later, in 1967, under the leadership of archaeologist Spyridon Marinatos. Marinatos had previously studied the excavated ruins of the Minoan Palace of Knossos in Crete, tracing pumice found on the island to the Thera eruption. His research marked the first time that the destruction of Akrotiri was directly linked to the decline of the Minoans. Marinatos posited that the earthquakes from Thera were so widespread, they toppled buildings and palaces on Crete. He also suggested that the resulting tsunamis damaged Minoan coastal settlements and halted shipping trade. But this theory is no longer widely accepted, and many historians now believe that the Minoans’ decline can’t be attributed to a single factor. Instead, they point to a combination of environmental changes, declining trade, political instability and conflicts with the ascendant Mycenaean civilization. 'When you excavate, you’re destroying a layer, removing the earth that’s keeping it all together,' Zorzos says."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:37:50.258Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-04-let-s-learn-about-how-particles-act-like-waves",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "粒子为什么有时像小球，有时又像水波？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-04",
+    "intro": "宇宙里最小的东西，为什么有时像小球，有时又像水波？",
+    "paragraphs": [
+      "宇宙里最小的东西，行为常常出人意料。量子物理就是研究这些怪现象的科学。它最奇怪的发现之一，是光或物质的基本粒子也能表现得像波。科学家把这叫作‘波粒二象性’。电子、光子这样的基本粒子是这样，原子、分子，甚至反物质，也是这样。同一件东西，可以像扔过池塘的棒球那样在空中飞行，也可以像水面上的波纹那样向前传播。",
+      "这听起来像不可能的事，但科学家真的在实验室里看到了。最著名的实验之一，叫双缝实验。想象一面挡板，上面开了两条狭缝。挡板前面有一台发射电子的装置，后面是一块接收电子的屏幕。打开装置，让电子飞向挡板。如果电子只像粒子，它们应该从两条缝里穿过，在屏幕上留下两簇痕迹，每条缝后面各一簇。可实际结果不是这样。电子在屏幕上堆出了一系列条纹。",
+      "这些条纹叫‘干涉图样’。当两列波相遇，它们会互相干涉。波峰和波峰叠在一起的地方，振动加强；波峰和波谷相遇的地方，振动抵消。于是屏幕上就出现明暗相间的条纹。电子以波的方式穿过狭缝，在飞向屏幕的路上相互干涉，最后留下条纹。用绿色激光把光子射向双缝，屏幕上也会出现类似的明暗条纹。",
+      "更奇怪的事情还在后面。假设在每条狭缝旁边放一个传感器，看电子究竟从哪条缝经过。再打开装置，结果变了：每个电子只从两条缝中的一条穿过，像一个粒子。屏幕上的干涉图样消失了，电子堆成两簇。也就是说，当我们不观测狭缝时，电子表现得像波；当我们观测时，它表现得像粒子。观测方式的改变似乎改变了电子的行为。",
+      "这正是最让人费解的悖论。同一个电子，为什么能根据我们是否观测狭缝，表现出两种截然不同的行为？它提醒我们，在肉眼看不见的尺度上，世界并不像日常经验那样运转。下次看到水面泛起波纹，你也许会想起屏幕上那些条纹：看似完全不同的两件事，背后都有波的身影。"
+    ],
+    "topics": [
+      "物质与数学",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/lets-learn-about-how-particles-act-like-waves",
+      "originalTitle": "Let’s learn about how particles act like waves",
+      "publishedAt": "Tue, 03 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-04T01:33:14.564Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-04T01:33:10.514Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-04/2026-11-04-let-s-learn-about-how-particles-act-like-waves.webp",
+      "alt": "左侧圆点与右侧波纹以柔和过渡相连的抽象冷灰插画。",
+      "caption": "小球，还是水波？",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "冷聚变未实现，物理学家却在残骸中找到稀有原子",
@@ -3134,239 +3368,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-10-21-ai-fb2ab3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "没人教也没定规则，AI智能体能自己形成一套共同词汇",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-21",
-    "intro": "比利时布鲁塞尔自由大学人工智能实验室和那慕尔大学团队在一项大规模研究中证明，即使没有人类教授语言，也没有预设交流规则，AI智能体仍能通过反复互动，自发形成一套共享的、彼此能够理解的词汇体系。",
-    "paragraphs": [
-      "如果让一群AI互相聊天，没有人教它们该用什么词，也没有事先规定语法，它们能聊得起来吗？比利时布鲁塞尔自由大学人工智能实验室和那慕尔大学团队在一项大规模研究中证明，AI智能体可以通过反复互动，自发形成一套共享的、彼此能够理解的词汇体系。相关成果发表于最新一期《计算语言学学报》。",
-      "为什么机器需要一套自己的说法？像ChatGPT这样的大型语言模型，主要是通过训练来学习和使用英语等人类语言。但人类语言植根于人的感官体验，未必适合描述机器感知到的所有信息。比如激光雷达获取距离数据、红外传感器捕捉热辐射、声呐探测周围物体、化学传感器分析物质成分等。即使两台机器配备相同类型的传感器，实际测量结果也可能存在偏差，进一步增加彼此交流的难度。",
-      "这次研究中，团队没有给AI智能体准备现成的词汇表，也没有设置一套固定的通信编码，而是让它们在互动中逐步摸索。智能体可自行创造词语、调整词语对应的概念，并根据交流是否成功来修正表达方式。两个智能体先进行局部交流，随着越来越多的互动不断累积，整个群体逐渐形成共同遵循的语言规则。这有点像一群人，在没有统一教材的情况下，通过一次次交流慢慢约定某个词代表什么。不过，AI智能体形成的语言并不需要模仿人类的表达习惯，而是直接服务于它们所感知的数据和需要完成的任务。",
-      "团队在37组不同类型、复杂程度各异的数据集上验证了这一方法的适用性。数据涉及葡萄酒的物理化学性质、美国国家航空航天局的系外行星数据、视觉信息，以及鸟类和人脸图像。测试表明，AI智能体成功发展出自己的词汇体系，用于交流多种数据的信息。这种语言也并非人类完全无法理解的“黑话”。由于每个词语对应的概念原型能够与底层传感器数据建立联系，人们可以进一步分析词语表达的含义，了解机器究竟在交流什么。",
-      "这一方法有望为自动驾驶汽车、机器人和工业传感器等自主系统之间的通信提供新思路。科技日报记者张佳欣报道，总编辑圈点指出：人们总在调侃，如果两个AI聊天，它们还会说人话吗？这次，科研人员试了一下。他们让一群AI智能体在没有人教、也没有预设沟通规则的情况下自行互动。有趣的事情发生了，它们摸索出了一套自己的共同语言。未来，我们有望让自动驾驶汽车、机器人、工业传感器这些设备实现自主沟通。不过需要注意的是，人类要时刻关注机器沟通语言的可理解性，要保证有办法对它们的沟通进行干预和校正。"
-    ],
-    "topics": [
-      "人工智能",
-      "多智能体",
-      "语言涌现",
-      "词汇体系"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-10/21/content_599514.html",
-      "originalTitle": "总编辑圈点 | 没有人类教授语言，没有预设交流规则， AI智能体可自发形成一套词汇体系",
-      "publishedAt": "2026-10-21",
-      "retrievedAt": "2026-10-21T00:49:50.202Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:49:48.307Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "When Machines Invent Their Own Words",
-      "intro": "A new study shows that AI agents can build a shared vocabulary without any human teacher.",
-      "paragraphs": [
-        "Imagine two machines meet for the first time. No one hands them a dictionary. No one sets rules for how they should talk. Could they still learn to understand each other? A new study suggests yes.",
-        "Researchers at the AI lab of the Free University of Brussels and the University of Namur conducted a large-scale study. Their results appeared in the latest issue of the Journal of Computational Linguistics.",
-        "Most large language models, like ChatGPT, learn human languages through training. But human words grow from human sensory experience. They may not fit everything a machine senses. Machines use lidar to get distance data, infrared sensors to capture thermal radiation, sonar to detect surrounding objects, and chemical sensors to analyze substance composition. Even two machines with the same sensor type can produce slightly different measurements — increasing communication difficulty.",
-        "In the experiment, the agents had no pre-made vocabulary list. They had no fixed communication code. They had to figure things out by interacting. They could invent words, adjust what concepts those words represented, and revise their expressions based on whether communication succeeded. Two agents began with local exchanges. As more interactions accumulated, the whole group gradually formed shared language rules.",
-        "It is a bit like strangers slowly agreeing on what a word means, with no textbook. But the AI language did not need to copy human expression habits. It served the data they sensed and the tasks they needed to complete. The team tested the method on 37 datasets of varying types and complexity. These included wine’s physical and chemical properties, NASA’s exoplanet data, visual information, and images of birds and human faces. The AI agents successfully developed their own vocabularies to communicate information across all these domains.",
-        "This language was not a totally mysterious code. Because each word’s concept prototype could be linked to underlying sensor data, people could analyze what the words meant and understand what the machines were communicating. The method may help autonomous systems — such as self-driving cars, robots, and industrial sensors — communicate with each other. Humans must remain able to monitor machine communication for intelligibility and retain the ability to intervene and correct it."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:52:38.389Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-21/2026-10-21-ai-fb2ab3.webp",
-      "alt": "抽象节点网络间浮现趋同的符号块",
-      "caption": "没有老师，它们也长出了共同语言。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-20-walking-may-improve-your-attention-span",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "走路更多的人，注意力和自控力测试表现更好",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-20",
-    "intro": "一项追踪三千多名成年人十四年的研究，把每天走多少步和注意力、自控力的测试成绩联系在了一起。",
-    "paragraphs": [
-      "“Walking is a great way to clear your head—or so anecdotes would have you believe.” 一项发表在《科学报告》上的长期研究，为这种经验性说法提供了数据支持。但研究者也明确指出：该研究仅揭示步数与认知表现之间的关联，无法证明增加步行能直接提升专注力。",
-      "研究由贝勒医学院的研究者完成。他们分析了美国国立卫生研究院‘All of Us’研究项目中超过3000名18至93岁成年人的14年健康数据。步数来自Fitbit设备自动记录，而非自我报告；参与者还接受了认知评估，测量持续注意力（sustained attention）、认知控制（cognitive control，即过滤干扰的能力）、延迟满足（delay discounting）和情绪识别（emotion recognition，即识别人脸表情的能力）。",
-      "研究者将参与者按日均步数分为三组：A组平均5100步，B组约8900步，C组约14200步。在控制年龄、教育程度和收入等因素后，B组和C组在持续注意力、认知控制和延迟满足三项测试中普遍优于A组；每增加1000步（相对于个人平均步数），这三项能力呈渐进式改善；情绪识别能力则未发现与步数相关。",
-      "由于整个14年期间仅进行了一次认知评估，研究者无法判断步数增减是否会导致认知能力变化。因此，该研究确立的是关联性，而非因果关系。",
-      "走路的身体益处早已被熟知，而它与大脑功能之间的联系，正通过这类大规模长期数据逐步显现。研究未设定‘有效步数阈值’，也未宣称步数差异带来显著或决定性认知提升。"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/walking-may-improve-your-attention-span-1285936/",
-      "originalTitle": "Walking May Improve Your Attention Span",
-      "publishedAt": "Mon, 19 Oct 2026 23:00:00 +0000",
-      "retrievedAt": "2026-10-20T01:13:34.902Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:13:31.215Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-20/2026-10-20-walking-may-improve-your-attention-span.webp",
-      "alt": "冷灰纸面上一条细线小径与同心圆波纹的抽象插图",
-      "caption": "脚步的节律，也许正对应注意力的节律。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-20-5-608a8e",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-20",
-    "intro": "据中新网教育报道，5个专业试点推行以实践成果替代论文申请硕士、博士学位。",
-    "paragraphs": [
-      "据中新网教育报道，5个专业试点推行以实践成果替代论文申请硕士、博士学位。",
-      "原文标题明确指出‘打破“唯论文”标尺’，并点明‘5个专业推行用实践成果申请硕博学位’。",
-      "该政策由中新网教育频道报道，标题为《打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位》。"
-    ],
-    "topics": [
-      "教育与政策",
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-20/10717568.shtml",
-      "originalTitle": "打破“唯论文”标尺！5个专业推行用实践成果申请硕博学位",
-      "publishedAt": "Tue, 20 Oct 2026 07:54:36 +0800",
-      "retrievedAt": "2026-10-20T01:14:20.777Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:14:18.595Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "Practical Work as a Path to Graduate Degrees",
-      "intro": "China News Service Education reports that five majors will let students use practical results in master's and doctoral degree applications.",
-      "paragraphs": [
-        "For many students, the road to a higher degree has meant one thing: papers. A headline from China News Service Education challenges that idea. It says five majors are breaking the 'only papers' standard.",
-        "Under this change, practical results can count when students apply for master's and doctoral degrees. That means hands-on work may carry real weight in the process. The report presents this as a move away from a single ruler.",
-        "The phrase 'only papers' points to an old worry. If papers are the only measure, other kinds of work can be hard to see. This change gives those other kinds of work a place in the conversation.",
-        "The focus is on five majors. The core idea is to look beyond one kind of proof. A student's work should be seen in more than one way.",
-        "So the next time you hear 'paper' and 'degree' in one sentence, pause. Ask what else a student might build, test, or solve. That question is where the real story begins."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:20:42.367Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-20-90-e38a01",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "鲁迅逝世90周年 鲁迅文学版本馆千余册典籍对外开放",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-20",
-    "intro": "鲁迅逝世90周年之际，鲁迅文学版本馆将馆藏千余册典籍面向公众开放。",
-    "paragraphs": [
-      "鲁迅于1936年逝世；2025年是其逝世90周年。中新网文化报道，鲁迅文学版本馆将馆藏千余册典籍对外开放，公众可查阅这批典籍。",
-      "‘版本’指同一作品在不同年代、由不同出版社出版所形成的差异文本，包括开本、封面、纸张、字体、字句乃至译文等区别。初版、再版、修订版及不同译本均构成独立版本。版本馆系统收藏同一著作的多种版本，使研究者得以通过横向比对，观察文本在时间中的演变轨迹。",
-      "本次对外开放的典籍共计千余册。这些典籍多为历史积累所得，保存难度大，其存续依赖长期、专业的收集、整理与保护工作。",
-      "版本研究意义在于还原文字的真实流变：作者可能在再版时修改字句，选集编者可能删节段落，排印过程也可能产生讹误。通过比对不同版本，可辨析作者定稿原貌与后人干预痕迹。这对理解鲁迅文本的原始意图具有基础性价值。",
-      "鲁迅逝世90年来，其著作持续被出版、阅读与阐释。此次典籍开放，为公众提供了接触原始文献的机会：读者可对照自己手中的版本，思考同一文章为何存在多种面貌；尚未读过鲁迅的读者，亦可从短篇入手，开启这段文字溯源之旅。"
-    ],
-    "topics": [
-      "历史",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-19/10717469.shtml",
-      "originalTitle": "鲁迅逝世90周年 鲁迅文学版本馆千余册典籍对外开放",
-      "publishedAt": "Mon, 19 Oct 2026 21:53:35 +0800",
-      "retrievedAt": "2026-10-20T01:15:03.898Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-20T01:15:02.226Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-20/2026-10-20-90-e38a01.webp",
-      "alt": "冷灰纸面上抽象书脊与叠放册页的静物插图",
-      "caption": "典籍开放，是让文字重新被翻阅。",
-      "kind": "editorial"
     }
   }
 ]
