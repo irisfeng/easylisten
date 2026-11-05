@@ -1,5 +1,271 @@
 [
   {
+    "slug": "2026-11-05-ab015b",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家首次实时追踪石墨烯中电子的超快量子跃迁",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-05",
+    "intro": "德国雷根斯堡大学、马尔堡大学和于利希研究中心的科学家将激光技术与电子显微技术相结合，首次实时追踪了石墨烯中电子在强光场驱动下穿越能隙的量子跃迁过程，发现隧穿概率最高可达100%。相关研究发表于最新一期《自然》杂志。",
+    "paragraphs": [
+      "在固体材料中，电子只能占据特定的能量范围，这些范围被称为能带。一般情况下，电子被限制在各自的能带中。但在强电场作用下，电子可以发生朗道—齐纳—马约拉纳跃迁，穿越能隙进入另一能带。这一过程发生得极快，传统显微镜难以呈现其能量状态的瞬时变化。德国雷根斯堡大学、马尔堡大学和于利希研究中心的科学家将激光技术与电子显微技术相结合，首次实时追踪了这一超快量子过程。相关研究发表于最新一期《自然》杂志。",
+      "研究团队开发了一种结合激光技术与光电子动量显微镜的测量方法。这种显微镜并不直接放大物体图像，而是记录电子的能量和运动状态，绘制电子在不同能量状态下的分布图。论文第一作者文森特·埃格斯打了个比方：‘如果想知道一场比赛谁赢了，就必须观察所有参赛者。’要捕捉发生量子跃迁的电子，科学家同样需要尽可能多地同时观察电子的运动。",
+      "实验中，光脉冲产生极强电场，加速电子并推动它们在不同能带之间切换。研究使用了于利希研究中心制备的高纯度原子级石墨烯材料，其中包括经过旋转处理的石墨烯结构。这些材料能够减少杂质干扰，使电子的量子运动过程更加清晰。",
+      "测量结果显示，在强光场作用下，电子穿越能隙的隧穿概率最高可达100%。即使相关能态之间存在明显的能量间隔，跃迁仍然可能以很高的概率发生。研究还发现，电子接近能隙的速度是影响跃迁的重要因素。这种由电子动态运动引发的跃迁，与通常所说的电子穿过空间能量势垒的量子隧穿有所不同。",
+      "该实验为观察量子世界打开了一扇全景窗口。这种测量方法未来有望用于多种量子材料，为利用光有选择性地调控材料的电子性质开辟全新的可能性。"
+    ],
+    "topics": [
+      "物质与数学",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-11/05/content_608245.html",
+      "originalTitle": "石墨烯中超快量子过程实现实时追踪",
+      "publishedAt": "2026-11-05",
+      "retrievedAt": "2026-11-05T01:32:46.097Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:32:44.508Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Filming the Fastest Race: Electrons Jumping Inside Graphene",
+      "intro": "Scientists have watched, for the first time in real time, electrons leaping between energy bands in graphene. The tunneling probability can reach one hundred percent.",
+      "paragraphs": [
+        "Imagine trying to film a race where the runners cross the finish line in a tiny slice of a second. That is the challenge scientists faced with electrons in graphene. Now a team has pulled it off. They tracked electrons jumping between energy bands as it happened.",
+        "In a solid material, electrons fit into specific energy ranges called energy bands. Normally electrons stay in their own band. But a strong electric field can push an electron across the gap into another band. This is called a Landau–Zener–Majorana transition.",
+        "Ordinary microscopes cannot capture such fast shifts in an electron's energy state. So researchers from the University of Regensburg, the University of Marburg and the Jülich Research Centre combined laser technology with a photoelectron momentum microscope. This instrument records electron energy and motion. It does not magnify images.",
+        "First author Vincent Eggers compared it to a race. He said: 'If you want to know who won, you must observe all participants.' The team used high-purity atomic-level graphene made at Jülich. It included twisted graphene structures. Fewer impurities made quantum motion clearer.",
+        "Under strong light, electrons crossed the gap with tunneling probability up to one hundred percent. Even with a clear energy gap, the transition still occurred at high probability. Electron speed near the gap matters. This process differs from usual spatial quantum tunneling.",
+        "The study appeared in the latest issue of Nature. The experiment opens a panoramic window into the quantum world. The method may apply to other quantum materials. Light could one day selectively control electronic properties."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:40:07.312Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-05/2026-11-05-ab015b.webp",
+      "alt": "冷灰纸张质感背景上，细线六边形晶格与斜射光束，光斑柔和。",
+      "caption": "光穿过晶格，微观世界的瞬间被捕捉。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-05-d09486",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "从计生到改革开放，中国跨国送养三十年：访国际儿福工作者张雯",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-05",
+    "intro": "这篇访谈的正文被订阅墙截断，能核验的只剩标题、作者、刊登时间、一句引语和一张图片说明，不足以支撑一篇听稿。",
+    "paragraphs": [
+      "本次抓取到的页面里，只有导航、栏目、订阅推广和评论区框架，正文部分被付费墙挡住。可以确认的信息有三项：标题是《從計生到改革開放，中國跨國送養三十年：訪國際兒福工作者張雯》，作者张洪凌，刊登时间是2026年11月5日；此外，文中单独标出一句受访者张雯的引语，并配有一张2005年12月17日在青海西宁孤儿及残障儿童福利院拍摄的照片。",
+      "那句引语是：如果一个体系开始由成年人的收养需要推动，去寻找、分类甚至制造‘可以被收养的孩子’，收养和伤害之间的距离就不远了。这句话本身有分量，但它缺少上下文——张雯是针对哪一段历史、哪些案例、什么材料说这番话的，原文里看不到。",
+      "按照编辑规则，全文抓取失败、或只剩含混摘要时，不生成正式听稿；事实、数字、因果和引语都必须能回到原文核验。仅凭一句引语改写，等于替受访者补出她没说过的话，也替这三十年补出一套没有来源的解释。",
+      "处理建议：这篇候选退稿，等取得全文后重新评估。如果之后拿到完整原文，这个题目本身适合13-16岁听众——它牵涉政策变迁、跨国送养的运作方式和儿童权益，但需要原文提供具体的人、时间与制度细节，才能组织成一条孩子能跟得上的线性叙事。"
+    ],
+    "topics": [
+      "全球时事",
+      "历史"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261105-mainland-international-adoption-in-china/",
+      "originalTitle": "從計生到改革開放，中國跨國送養三十年：訪國際兒福工作者張雯",
+      "publishedAt": "Wed, 04 Nov 2026 23:00:00 GMT",
+      "retrievedAt": "2026-11-05T01:33:22.623Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:33:20.468Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-05-160-28cfdf",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世卫组织：采取气候相关健康措施每年有望挽救160万人生命",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-05",
+    "intro": "世界卫生组织发布报告评估六项气候相关健康措施，认为在全球扩大覆盖可同时改善健康、减少排放并带来经济和财政收益。",
+    "paragraphs": [
+      "气候变暖不只影响天气，也会影响人的健康。世界卫生组织于2026年11月4日周三发布报告《气候变化与健康优先行动的全球收益与成本》，首次全面评估了推广六项措施的经济和财政回报。报告指出，这些行动有望带来三重收益：改善健康、减少排放和促进经济发展。世卫组织总干事谭德塞表示，气候危机也是健康危机，但许多危害可以通过现有措施加以预防。在新一轮气候谈判即将举行之际，各国应将保护健康作为气候行动的核心目标。",
+      "这六项措施分别是：建立高温健康预警系统；增强饮用水服务应对气候冲击的能力；提供基本环境卫生服务；改善个人卫生和洗手设施；推广更清洁的烹饪、取暖燃料及技术；以及完善化石燃料定价政策。根据模型预测，在全球扩大这些措施的覆盖范围，每年有望避免160万人死亡，相当于全球死亡总人数的约四十分之一。",
+      "此外，这些措施还可帮助减少167亿吨二氧化碳排放，相当于全球年度温室气体排放量的31%，这一比较不包括土地利用、土地利用变化和林业相关排放。",
+      "报告对其中五项措施进行了投入回报估算，结果显示，每投入1美元，预计可产生约24美元的收益。报告还指出，低收入和中等收入国家预计获益更大，有助于缩小健康和经济差距。其中，高温健康预警系统是所评估措施中成本效益最突出的措施之一，每投入1美元，预计可产生835美元的收益。这类系统能够利用现有设施，以相对较低的成本预防高温相关疾病。",
+      "另外，完善化石燃料定价政策，包括取消低效补贴并对化石燃料适当征税，预计可带来最大的总体收益。此类政策每年有望避免120万人死亡，产生约3万亿美元的经济福利收益和5.4万亿美元的财政收益。2026年，世界各国正面临破纪录的气候冲击。世卫组织呼吁各国政府、发展伙伴和金融机构加大对上述措施的投资，保护公众健康，并促进气候和经济目标的实现。"
+    ],
+    "topics": [
+      "健康与医学",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143127",
+      "originalTitle": "世卫组织：采取气候相关健康措施每年有望挽救160万人生命",
+      "publishedAt": "Wed, 04 Nov 2026 12:00:00 +0000",
+      "retrievedAt": "2026-11-05T01:35:45.074Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:35:42.991Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 12,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-05-analyze-this-microbes-can-make-valuable-chemical",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家研究用细菌生产药品、化妆品和清洁剂原料",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-05",
+    "intro": "药品、化妆品和清洁剂里的某些原料，通常来自棕榈油和椰子油；科学家正在研究，能不能改让细菌来生产。",
+    "paragraphs": [
+      "药品、化妆品和清洁剂里，常有一种叫中链羧酸（MCCAs）的成分。它通常从棕榈油和椰子油里提取。可是种植这些作物，往往要先砍掉树木、腾出土地。许多野生动物的家因此消失，导致生物多样性损失。加拿大微生物学家伊恩·戈伊斯说：‘目前最大的问题就是这些化学品的生产方式多么不可持续。’",
+      "人和动物肠道里的某些细菌，能制造中链羧酸。中链羧酸的分子含有6到8个碳原子。还有一类叫链延伸细菌的微生物，能吃进小分子（如乙酸和乳酸），再拼出更大的分子。但它们产出的分子不一定都够长——只有含6至8个碳原子的才属于中链羧酸。细菌造出什么分子、链有多长，取决于它们吃的食物种类和不同食物之间的比例。过去，人们并不清楚，要满足什么条件，才能让细菌稳定产出中链羧酸长度的分子。",
+      "戈伊斯的团队做了实验。他们给链延伸细菌 _Pseudoramibacter alactolyticus_ 喂不同比例的乙酸和乳酸。这两种小分子是有机物分解时形成的，可能来自被丢进垃圾桶的植物或动物残余。研究人员发现，当乙酸含量较低时，一些细菌制造出了更长的分子，包括中链羧酸。为了看清过程，他们用含较重碳原子的乙酸做标记，追踪其去向。结果显示，有一种链延伸细菌从环境中摄取的乙酸变少了；它能用乳酸自己制造乙酸，而这样做时，产生的中链羧酸更多。这项研究发表在2026年6月的《自然·微生物学》上。",
+      "这些发现，能帮人们更好地利用链延伸细菌来生产化学品。工程师还可以通过基因改造，让微生物更擅长制造有用的分子。戈伊斯团队里的其他研究者，正在研究如何让微生物从食物废弃物中制造有价值的化学品。这样生产出来的，可能不只是通常来自棕榈油和椰子油的中链羧酸，还可能包括原本来自化石燃料的化学品。那就有望减少化石燃料的使用，而化石燃料正是推动气候变化的原因之一。",
+      "戈伊斯说，微生物‘很酷且多才多艺’——我们将在应对气候变化的过程中，需要它们做盟友。下次看到清洁剂或化妆品时，也许可以想一想：这些产品的原料，未来会不会来自肉眼看不见的细菌。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/microbes-make-green-chemicals",
+      "originalTitle": "Analyze This: Microbes can make valuable chemicals more sustainable",
+      "publishedAt": "Wed, 04 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-05T01:36:39.206Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:36:33.671Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-05/2026-11-05-analyze-this-microbes-can-make-valuable-chemical.webp",
+      "alt": "冷灰纸张背景上，细线勾勒的细菌轮廓与几何分子结构相连。",
+      "caption": "微生物被设想为原料的生产者。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-05-ai-76ee05",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI赋能高校招生、培养、就业工作 兼顾效率与育人温度",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-05",
+    "intro": "抓取到的页面只有标题、网站导航和搜索框，没有可以核验的正文内容。",
+    "paragraphs": [
+      "本次抓取仅包含标题《AI加速赋能高校招培就工作 兼顾效率与育人温度》，以及中新网教育频道的页面框架：顶部导航栏、多级栏目链接（如时政、财经、国际、社会、教育等）、AI搜索助手提示语、分享按钮和底部友情链接。全文正文、具体案例、数据、人物引语及技术细节均未出现。",
+      "根据轻听编辑规范，听稿中所有可核查事实——包括机构名称、系统功能、量化效果、人物身份与直接引语——必须在原文中有逐字对应依据。当前材料中无任何关于高校名称、AI工具名称、应用场景描述、成效数据或受访者发言的内容，因此无法支撑任何实质性陈述。",
+      "本篇暂不进入改写流程。需获取该标题所对应的完整新闻正文（例如通过有效URL打开后的HTML正文内容），方可开展后续事实核验与儿童友好型转述。仅有标题和导航页结构，不足以构成一篇独立、真实、可播的教育类听稿。"
+    ],
+    "topics": [
+      "教育",
+      "AI 与计算"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-04/10726289.shtml",
+      "originalTitle": "AI加速赋能高校招培就工作 兼顾效率与育人温度",
+      "publishedAt": "Wed, 4 Nov 2026 22:03:40 +0800",
+      "retrievedAt": "2026-11-05T01:37:27.714Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:37:25.221Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "AI Helps Universities Move Faster, but Can It Stay Warm?",
+      "intro": "A China News Service education report looks at AI speeding up university admissions, training and job placement, while asking what should stay human.",
+      "paragraphs": [
+        "Think about everything a university has to do. It has to find new students. It has to teach them well. And it has to help them find work after they graduate. That is a lot of work, and much of it is slow.",
+        "A report from the education section of China News Service looks at a new helper. It says AI is speeding up this work in universities. The headline points to three areas: admissions, training and employment.",
+        "The second half of that headline is the interesting part. It talks about keeping the warmth of education. Faster tools can take over repeated tasks and heavy paperwork. But helping a young person build a future is not a paperwork problem."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-05T01:41:41.498Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-04-8eb1f3",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "机器人登泰山：跑赢人类后，还得学会走得稳",
@@ -3097,277 +3363,6 @@
       "alt": "冷灰纸纹背景上，一块多孔灰色方块向外逸出细小颗粒，旁有反向箭头。",
       "caption": "把加氢的过程反过来，用电抽走氢气。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-22-ea-bioware",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "EA关闭BioWare，《质量效应》新作被砍",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-22",
-    "intro": "一家做了三十年角色扮演游戏的工作室，在母公司的一轮成本削减中关门了。",
-    "paragraphs": [
-      "做《质量效应》和《龙腾世纪》的那间工作室，没有了。美国艺电公司（EA）宣布将关闭旗下老牌游戏工作室BioWare，并裁员约400人，约占EA总员工数的3%，其中包括BioWare约50名员工。正处于早期开发阶段的《质量效应》新作已被取消。",
-      "EA首席运营官David Tinson和首席工作室官Cam Weber在致员工的内部信中表示，公司在过去几个月审视了各项业务，并决定削减部分项目。这家游戏巨头今年8月在沙特阿拉伯投资基金主导的550亿美元杠杆收购后转为私有制，背负了约180亿美元债务。此前，公司曾告知投资者计划通过削减研发成本等方式节省高达7亿美元开支。",
-      "BioWare于1995年创立，并在2007年被EA收购。该工作室曾推出多部热门角色扮演游戏，但近年来的《质量效应：仙女座》和《圣歌》等作品反响平平。其最新作品《龙腾世纪：影障守护者》销量未达预期，EA去年已对该工作室进行了大幅精简。",
-      "EA表示，未来将继续投资体育游戏、《Apex英雄》以及动作冒险项目，包括下一部《星球大战 绝地》游戏和一款以漫威钢铁侠为主角的新作。公司还将继续推进《战地》系列，而旗下Respawn与DICE工作室将合作开发新项目，这很可能是《星球大战：前线》系列的新作。此前，EA取消了一款代号为Project Lotus的《模拟人生》系列游戏，转而优先推进代号为Project Evergreen的项目。同时，滑板游戏《skate》将继续开发，但开发团队规模将会缩减。",
-      "BioWare就关闭一事发布声明。工作室表示，过去三十多年里，这里一直是讲故事的人、开发者和玩家的家园。一代代BioWare员工共同创造的成果值得庆祝，也值得铭记。正是因为玩家游玩这些游戏、为其中的抉择争论、爱上游戏角色，并让这些世界成为自己的世界，这些游戏才有了超越游戏本身的意义。工作室最后代表全体员工感谢玩家，称他们是BioWare故事中最有意义的部分。"
-    ],
-    "topics": [
-      "游戏产业",
-      "EA",
-      "BioWare",
-      "裁员与项目取消"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/articles/221281",
-      "originalTitle": "EA关闭BioWare，《质量效应》新作被砍",
-      "publishedAt": "Thu, 22 Oct 2026 01:17:38 +0800",
-      "retrievedAt": "2026-10-22T00:08:08.912Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:08:06.906Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-22-were-two-ancient-chinese-astronomers-beheaded-fo",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "两位中国古代天文学家因漏报日食被砍头？这个故事可能是传说",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-22",
-    "intro": "一个流传四千多年的故事说，失职的天文学家掉了脑袋。它也许是神话，却照出了天文与政治之间真实的关系。",
-    "paragraphs": [
-      "这是一个流传了很久的故事。公元前2134年10月22日，两位皇家天文学家——现代文献中常称作‘羲和’（Hsi and Ho）——据称因疏忽职守而醉酒游荡，既未预报日食，也未主持相应仪式。统治者震怒。一段后世转述写道：‘所以愚蠢地偏离了天象职责，使自己触犯前代君王所定死罪’；法令称：‘预报提前，处死不赦；预报延后，亦处死不赦。’于是二人被处决。",
-      "这个故事最早见于《尚书》等早期中国典籍，后辗转传入期刊、报纸、学术论文、书籍乃至社交媒体。1970年《纽约时报》一篇报道称其为‘现存最早的日全食书面记录’。但理海大学荣休汉学家戴维·潘克尼尔（David Pankenier）直言：‘这显然是神话。’他指出，没有任何证据表明故事中提到的两人真实存在。",
-      "可它为何历久不衰？因为它折射出宫廷天文学家的真实处境。印第安纳大学伯明顿分校宗教研究学者亚历克瑟斯·麦克劳德（Alexus McLeod）指出：宫廷天文学家的职责之一，是理解社会世界与‘天’（tian，即‘天命’或‘上天意志’）之间的关联，以助君主使二者协调。在古代中国，天北极被视为皇帝象征；宇宙与人间被视作彼此映照，这种观念甚至影响城市规划——都城常按星图布局。麦克劳德说，正因如此，中国天文观测记录早在公元前四世纪至前三世纪就已‘相当精确’，古人‘是出色的观测天文学家’。",
-      "但问题在于：公元前2134年时，中国天文学家尚不具备预测日食的能力。直到汉朝（公元前206年—公元220年），专家才开始‘有一定成功’地预判日食。例如公元170年代一则记载显示，一位皇家天文学家通过分析过往日食记录，正确预报了12月8日的日食，但预报地点偏差较大。剑桥大学荣休科学史家克里斯托弗·卡伦（Christopher Cullen）进一步指出：早期记载（可溯至公元前一千纪晚期）对事件性质语焉不详；他认为原故事更可能指向‘阴阳历管理失当’，而非日食——古人当时等待的新月并未如期出现。",
-      "不过麦克劳德认为，该传说未必全然脱离历史。他说：‘我觉得它不像听起来那么荒谬，因为宫廷天文学家的处境与政治紧密捆绑。’日食突至确属重大事件：潘克尼尔描述道，人们‘喧哗鼓噪、敲击器物’，竭尽所能驱赶‘遮蔽太阳之物’。他将此故事视为‘一种神话式范例’，用以强调天官责任之重，它可能经由口耳相传延续数代。",
-      "至于它为何在英语世界广泛传播，学者只能推测。麦克劳德指出，除跨世纪‘以讹传讹’外，还掺杂‘异域想象’——即预设‘中国之事必与西方迥异’。但他同时强调，类似叙事亦见于现代中国社会：宫廷天文学家职位高度敏感——日常或平淡无奇，一旦遭遇超新星、彗星等异常天象，解读方式极易迅速政治化。因此，‘或许在某个时刻、出于某种政治原因，真有皇家天文学家因未能满足君主期待而丧命。’"
-    ],
-    "topics": [
-      "历史"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Smithsonian History",
-      "region": "international",
-      "url": "https://www.smithsonianmag.com/history/were-two-chinese-astronomers-were-beheaded-for-failing-to-predict-an-eclipse-2134-bce-the-story-may-be-a-myth-but-it-underscores-the-real-risks-of-interpreting-celestial-events-180989715/",
-      "originalTitle": "Were Two Ancient Chinese Astronomers Beheaded for Failing to Predict an Eclipse in 2134 B.C.E.? The Story May Be a Myth, but It Underscores the Real Risks of Interpreting Celestial Events",
-      "publishedAt": "Wed, 21 Oct 2026 11:45:00 +0000",
-      "retrievedAt": "2026-10-22T00:09:26.189Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:09:21.055Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 42,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Two Astronomers, One Eclipse, and a Myth With a Warning",
-      "intro": "An old Chinese story says two royal astronomers were executed for missing an eclipse. Historians say it’s likely mythical. But it highlights real political risks of interpreting celestial events.",
-      "paragraphs": [
-        "Ancient people linked eclipses to military defeats and the deaths of kings. One Chinese tale names October 22, 2134 B.C.E. as the date. Two royal astronomers, often called Hsi and Ho, are said to have neglected their duties. They reportedly went drinking instead of watching the sky. They failed to predict an eclipse or perform proper rituals — or maybe both. The ruler was not happy. One retelling says they 'so stupidly went astray in the matter of the heavenly appearances'. It adds that old statutes demanded death for such failure. An execution followed.",
-        "But is the story true? David Pankenier, an emeritus Sinologist at Lehigh University, says it’s clearly mythical. He adds that no evidence supports the idea that the two men even existed. Still, the tale spread widely. It appears in early Chinese texts, periodicals, newspapers, journal articles, books, and social media. A 1970 New York Times article called it 'the earliest written record of a total solar eclipse to survive through the ages'.",
-        "Why did the story stick? Royal astronomers had serious responsibilities. Alexus McLeod, a religious studies scholar at Indiana University Bloomington, says part of their role was to understand the connection between society and heaven — or tian. This helped the ruler align the two. Ancient Chinese people saw the cosmos and human society as mirrors. They viewed the celestial north pole as a symbol of the emperor. Cities were sometimes mapped to resemble constellations. McLeod says Chinese astronomical records were 'pretty exact' as far back as the third or fourth century B.C.E. He adds that ancient Chinese were 'excellent observational astronomers'.",
-        "Still, historians doubt the eclipse story’s reliability. In 2134 B.C.E., Chinese astronomers did not know how to predict eclipses. Such predictions only achieved some success under the Han dynasty. That dynasty lasted from 206 B.C.E. to 220 C.E. One account from the 170s C.E. says a royal astronomer correctly predicted a December 8 solar eclipse. He used earlier eclipse observations. But his predicted location was rather off. Some scholars dispute that the legend is about an eclipse at all. Christopher Cullen, an emeritus historian of science at the University of Cambridge, says early records are ambiguous. He thinks the original story may refer to poor management of the lunisolar calendar. Perhaps the astronomers expected a new moon that did not appear.",
-        "McLeod says the myth isn’t necessarily ahistorical. Court astronomers were heavily tied to politics. It’s not out of the question that they could be harshly punished for neglecting duty during an eclipse. When eclipses arrived unexpectedly, people made noise. They banged on things. They tried to make 'whatever is blocking the sun disappear'. Pankenier sees the story as a 'sort of mythic example of the importance of their responsibility'. He says it may have been passed down across many generations. McLeod notes that court astronomy could be routine. But comets or supernovae could quickly turn political.",
-        "Why has the tale traveled so far? McLeod says stories crossing centuries can grow through a game of telephone. He also points to 'a layer of exoticism'. That is the idea that things in China are 'wild and different' from the West. He notes similar stories appear in modern Chinese society. So while the beheading story may be myth, its warning is real. Court astronomers served rulers directly. Failure could carry political risk."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:13:18.581Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 52,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-21-sliding-down-surfaces-can-make-rainwater-corrosi",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "雨滴滑过表面带电，可能腐蚀金属",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-21",
-    "intro": "新研究发现，滑过树叶、玻璃等表面而带上电荷的雨滴，落在金属上会腐蚀其表面，甚至穿透保护涂层。",
-    "paragraphs": [
-      "下雨时，雨滴会不断砸在汽车、桥梁、纪念碑等户外结构上。科学家早已知道，水滴反复撞击会造成物理磨损，雨水也可能含有少量腐蚀性化合物，如酸。但新数据显示，还有一种此前不明确的损伤机制：当雨滴先带上电荷，再落到某些金属上，就可能引发腐蚀。这项研究发表在9月10日的《自然》杂志上。",
-      "发现这一现象有一定偶然性。在德国美因茨的马克斯·普朗克高分子研究所工作的物理学家钟远宁（Zhongyuan Ni）说，早期实验中，他用数百颗水滴持续冲击铜表面，未观察到损伤。但有一天他让实验继续运行，自己去喝咖啡或做别的事，回来后发现铜表面已发生变化。一位同事提出这可能是某种损伤，由此促使团队展开深入研究。",
-      "为验证假设，研究人员将水滴持续滴在涂有特氟龙涂层的铜片上。铜比许多金属更耐腐蚀，而特氟龙是一种强效保护涂层。他们推断：若带电水滴能破坏这种双重防护，就很可能也会腐蚀其他金属。实验中，部分水滴先沿树叶或建筑材料表面滑落以获取电荷；另一些则未经滑动、直接滴落，作为未带电对照。",
-      "显微镜下观察显示，所有被带电水滴冲击的铜表面均出现损伤：带电水滴穿透了特氟龙涂层，并开始腐蚀下方的铜；而未带电水滴未造成此类损伤。类似效应也出现在涂有聚苯乙烯涂层的铜片和金片上。这表明，带电水滴的腐蚀能力不仅限于特氟龙涂层。",
-      "水滴可通过多种方式带电，例如在云中形成时，或滑过树叶、玻璃、建筑物等常见表面时。钟远宁指出，这无需恐慌，因为单次作用极小；但汽车、船舶、纪念碑和机械设备长期暴露于自然环境中，微小效应可能逐年累积。未参与该研究的德国斯图加特大学物理学家斯特凡·韦伯（Stefan Weber）表示，该发现或有助于开发更优的防腐蚀涂层。",
-      "钟远宁强调，尽管单个水滴所带电荷极小，‘有时它们将发挥重要作用’。"
-    ],
-    "topics": [
-      "物质与数学",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
-      "originalTitle": "Sliding down surfaces can make rainwater corrosive",
-      "publishedAt": "Tue, 20 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-21T00:45:24.790Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:45:22.941Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 18,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-21/2026-10-21-sliding-down-surfaces-can-make-rainwater-corrosi.webp",
-      "alt": "雨滴沿曲面滑下，下方金属出现蚀痕",
-      "caption": "滑落的雨滴，带着电荷侵蚀金属。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-21-ai-proved-the-quasi-riemann-hypothesis-what-happ",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI 证明黎曼猜想弱版本，数学家开始核读其含义",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-21",
-    "intro": "黎曼猜想的一个弱版本被 AI 证明，专家逐段核读之后，开始回答它到底意味着什么。",
-    "paragraphs": [
-      "2026 年 10 月 6 日，OpenAI 公布了 377 项成果，其中一项宣称解决了‘quasi-Riemann hypothesis’——一个比黎曼猜想更弱的命题。斯坦福大学的 Jared Duker Lichtman 称这是‘the most significant AI-for-math achievement so far, by quite a margin.’ 与近期其他 AI 证明不同，这一证明已被人类专家 unpack（拆解分析）。纽约大学的 Maksym Radziwiłł 表示其含义‘staggering’。",
-      "要听懂这件事，得先知道黎曼猜想在问什么。黎曼猜想是关于质数分布的基本命题。质数是只能被 1 和自身整除的整数，被许多数学家称为‘atoms of arithmetic’。1859 年黎曼提出，质数如何变稀疏，本质上由一个叫作 Riemann zeta (ζ) 函数的复变函数的零点位置决定。该函数输入为复数 s，其平凡零点出现在负偶数（−2, −4, −6, …）处；而黎曼猜想断言：所有非平凡零点的实部都等于 1/2。数学家已数值验证前 12 万亿个非平凡零点均满足此条件，但尚未完成一般性证明。Enrico Bombieri 指出：‘The failure of the Riemann hypothesis would create havoc in the distribution of prime numbers.’",
-      "准黎曼猜想是它的弱化形式：它不要求所有非平凡零点落在实部为 1/2 的直线上，而只要求它们全部落在一个比已知范围（实部介于 0 与 1 之间）更窄的竖直条带内。Maksym Radziwiłł 表示，‘In a sense, the vast majority of consequences of RH already follow from quasi-RH.’",
-      "OpenAI 给出两个版本的证明。第一版发布于 2026 年 9 月 30 日，声称所有非平凡零点实部介于 1/8 与 7/8 之间，并经 Lean 编程语言形式化验证；全文 199 页。第二版完成于约一周后（2026 年 10 月 5 日），结论较弱：实部介于 1/12 与 11/12 之间，尚未形式化验证，全文 49 页。两篇论文均被 Radziwiłł 评价为‘horribly written (in a way that would lead to immediate rejection at any mathematical journal)’，‘fall short of the standard of exposition and clarity in our area by a wide margin.’ 因此数学家聚焦于更短的第二版，因其技术路径与第一版相似，且蕴含相近的数学后果。",
-      "最令数学家意外的是，该证明未引入新概念，而是揭示了旧有思想之间的隐藏联系。佐治亚理工学院的 Alexander Dunn 称其为‘a surprising synthesis of well-known ideas’。该结果部分依赖于 Radziwiłł 与 Dunn 早年发展的技术，二人对此亦感惊讶。普林斯顿大学的 Peter Sarnak 已将本学期一门课程改为专门研读该论文；Radziwiłł 称自己现在可用半页纸勾勒其论证主干，其他数学家的详细整理稿则长 7 至 13 页，目前尚未正式发表，仅在同行间私下传阅。",
-      "值得注意的是，在 OpenAI 于 2026 年 10 月 6 日发布的全部 722 篇论文中，这是唯一一篇经人工编辑的。OpenAI 未说明编辑者身份或编辑原因；回应《Quanta》时仅表示：‘The paper is the result of work from everyone at OpenAI.’"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-      "originalTitle": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-      "publishedAt": "Mon, 19 Oct 2026 15:40:26 +0000",
-      "retrievedAt": "2026-10-21T00:47:16.429Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:47:12.318Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "AI Proved a Slice of Math's Biggest Question. Now Humans Are Checking It.",
-      "intro": "An AI system claimed a proof about prime numbers that one expert calls a landmark. Now mathematicians are reading it line by line.",
-      "paragraphs": [
-        "On October 6, 2026, OpenAI announced 377 results. One of them stood out. It claimed to settle the 'quasi-Riemann hypothesis' — a weaker version of the Riemann hypothesis, which is arguably the biggest open question in math. Jared Duker Lichtman of Stanford University called it 'the most significant AI-for-math achievement so far, by quite a margin.' The Riemann hypothesis has been an open problem for over 160 years.",
-        "The Riemann hypothesis is a fundamental statement about the distribution of prime numbers — integers divisible only by 1 and themselves that many mathematicians call the 'atoms of arithmetic.' As you move along the number line, the primes thin out. Riemann showed that exactly how the primes thin out is, in a sense, governed by the zeta function — in particular by the places where it equals zero.",
-        "It's straightforward to prove that if s is a negative even number (−2, −4, −6, …), then ζ(s) = 0. These are called trivial zeros. The Riemann hypothesis says that the only other zeros — the nontrivial ones — occur when s has a real part of 1/2. Mathematicians have numerically verified that the first 12 trillion nontrivial zeros are on the 1/2 line. But even one solitary outlier would land like an earthquake.",
-        "The quasi-Riemann hypothesis asks only that all nontrivial zeros be contained in a vertical strip narrower than the known strip between zero and 1. Maksym Radziwiłł of New York University said 'in a sense, the vast majority of consequences of RH already follow from quasi-RH.' He called the implications 'staggering.'",
-        "OpenAI announced two versions of their quasi-Riemann hypothesis proof. The first, dated September 30, 2026, claimed zeros must be between 1/8 and 7/8, was formally verified using Lean, and is 199 pages long. The second, completed almost a week later, claimed a weaker result — real part between 1/12 and 11/12 — and is 49 pages long. Radziwiłł said both papers 'are horribly written' and 'fall short of the standard of exposition and clarity in our area by a wide margin.' Mathematicians set aside the 7/8 paper to focus on the 11/12 one, which seems to involve similar techniques and consequences.",
-        "The 11/12 result is the only one of the 722 OpenAI papers released on October 6 to have been edited by a person. OpenAI has not addressed inquiries about who that person is. In response to questions from Quanta, the company said, 'The paper is the result of work from everyone at OpenAI.' Peter Sarnak of Princeton University has repurposed a course he’s teaching this semester to study it. Radziwiłł says he can now sketch the proof’s arguments in half a page, while other mathematicians’ write-ups range from seven to 13 pages. Experts largely agree that the result is correct — and that its novelty lies in the way it brings together ideas from number theory that have been around for some time."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:53:20.533Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-21-4979b3",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "良渚这样的文化遗产，为什么能让人专程跑一趟",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-21",
-    "intro": "中新网文化的一篇文化观察，借良渚提出了一个问题：文化遗产是怎么点亮大众旅游的。",
-    "paragraphs": [
-      "假期里，越来越多家庭的旅行清单上出现了新选项：不是乐园，不是商场，而是一处几千年前的遗址。中新网文化的一篇文化观察，把目光放在良渚，提出了一个问题——文化遗产，是怎么点亮大众旅游的。",
-      "先要弄清这篇文章在做什么。它不是旅游攻略，也不是简单的客流播报，而是一篇“文化观察”。它关心的不是某个假期来了多少人，而是一个更慢的问题：一处遗址，凭什么让人愿意专程跑一趟。",
-      "“点亮”这两个字，其实有来有回。一头是遗产给旅游一个非来不可的理由。山水到处都有，可一段只在书上读到过的历史，只有站到现场才看得见、摸得着。另一头是反过来的：旅游也让遗产被重新看见。一处遗址被更多人知道、惦记，它才不只是一个写在报告里的地名。",
-      "但两头之间，也有需要小心的地方。来的人多了，路要修，展馆要建，讲解要做，遗址本身的安静和安全就得反复权衡。所以真正难的，往往不是把人请来，而是人来了之后，还能看懂。",
-      "看懂这件事，靠的常常不是一圈土坡和几块说明牌，而是讲述。一处遗址要变成能听懂的现场，需要有人把它还原成生活：人们住在哪里，吃什么，怎么做出手里的器物，为什么愿意一起修那么大的工程。这些具体的细节，比抽象的概括更能留住一个孩子。",
-      "所以下次旅行如果路过一处遗址，不妨带着问题走进去：这里的人当年怎么生活？我们今天看到的，哪些是原来的，哪些是后来补上的？这些问题没有标准答案，但它们会让你离开之后，还惦记着它。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-20/10718207.shtml",
-      "originalTitle": "文化观察：从良渚看文化遗产如何点亮大众旅游？",
-      "publishedAt": "Tue, 20 Oct 2026 23:27:03 +0800",
-      "retrievedAt": "2026-10-21T00:49:10.211Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-21T00:49:08.393Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
     }
   }
 ]
