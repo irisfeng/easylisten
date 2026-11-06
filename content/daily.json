@@ -1,5 +1,189 @@
 [
   {
+    "slug": "2026-11-06-c9cfab",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国科学家造出已知最冷人造物质",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-06",
+    "intro": "在中国空间站梦天舱的超冷原子物理实验柜中，科研团队将铷原子云冷却至9.7皮开尔文，制备出目前已知最冷的人造物质。",
+    "paragraphs": [
+      "今天（11月6日），中国科学院空间应用工程与技术中心发布中国空间站最新科研成果。我国科研团队利用中国空间站梦天舱的超冷原子物理实验柜，制造出已知最冷人造物质，刷新人类最低温物质纪录，朝着绝对零度再进一步。该研究成果今天在国际学术期刊《科学》发表。",
+      "在本次探索极低温实验中，科研团队利用全光阱冷却技术，成功将中国空间站超冷原子实验柜中的铷原子云等效温度降至9.7皮开尔文，这是室温下物质温度的约一百万亿分之一，并持续观测了7秒。这比2021年德国科研团队创造的铷原子云等效温度38皮开尔文要更加接近绝对零度，制备出目前已知最冷人造物质。",
+      "在地球上做类似实验最大阻碍就是重力，重力会拉着原子往下掉，使其很难充分降温。而中国空间站微重力环境里，原子可以悬浮起来，不用很强的外力束缚就能冷却到更低温度。我国科研团队正是利用这一优势，从地面远程操控空间站超冷原子实验柜的设备，实现了这一基础研究领域的重要突破。",
+      "绝对零度，即零下273.15摄氏度，是宇宙里最低温度的下限。按照热力学第三定律，人类只能无限接近它，却永远无法真正达到。常温下，原子会不停地碰撞、振动，做着无规则热运动。但是科学家发现，当温度不断降低时，原子的运动会逐渐减慢，温度降低到接近温度的下限——绝对零度，零下273.15摄氏度，也就是0开尔文时，原子才会被“冻”到几乎静止。温度越低，原子运动速度就越慢，当原子慢到一定程度，就会涌现出很多奇妙的物理现象，帮助科学家看清微观世界里平时难以捕捉的规律。",
+      "中国空间站超冷原子物理实验柜2022年研制成功，并随梦天舱运送至中国空间站。超冷原子物理实验柜既是一台“超级冰箱”，同时又是一个前沿科学“微型实验室”。在这里，金属铷先经过加热蒸发、释放出铷蒸汽，借助磁光阱、光学黏团技术对蒸汽中的铷原子进行初步冷却，再利用两级交叉光阱技术进行蒸发冷却和深度冷却。我国科研团队历经多年艰苦攻关，攻克超高真空环境获取、高功率光纤激光器研制等一系列关键技术，把原本地面上20立方米、重达10吨的实验系统，集成压缩至0.7立方米、500公斤，相当于把一间屋子大小的实验装置装进了冰箱大小的空间里。",
+      "我国科研团队这项新突破将有力推动早期宇宙模拟、超轻暗物质探测等前沿课题的研究，同时相关技术也可用于研制更高精度的原子干涉仪、量子传感器和空间原子钟，服务于地球微重力测量、惯性导航以及基本物理常数检验。"
+    ],
+    "topics": [
+      "物质与数学",
+      "航天与宇宙"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574295.shtm",
+      "originalTitle": "我国科学家造出已知最冷人造物质",
+      "publishedAt": "2026-11-06 07:44",
+      "retrievedAt": "2026-11-06T01:38:13.868Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-06T01:38:11.426Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Record Cold Made in Space",
+      "intro": "Chinese scientists have created the coldest artificial material ever recorded, using a special lab on the China Space Station.",
+      "paragraphs": [
+        "What is the coldest thing humans have ever made? A new answer comes from a laboratory orbiting Earth. Chinese scientists cooled a cloud of rubidium atoms to a record low temperature using the ultracold atom physics experimental cabinet on the China Space Station. The result was published in the journal Science today (November 6, 2026).",
+        "The team cooled rubidium atoms to an equivalent temperature of 9.7 picokelvin. That is about one hundred trillionth of room temperature. They observed the atom cloud for 7 seconds. This is colder than the 38 picokelvin record set by a German team in 2021 with rubidium atoms. It is the coldest artificial substance known to date.",
+        "On Earth, gravity pulls atoms downward, making full cooling difficult. In the microgravity environment of the China Space Station, atoms can float without strong external confinement. This allows deeper cooling. Scientists operated the experimental cabinet remotely from the ground.",
+        "The ultracold atom physics experimental cabinet was developed in 2022 and launched aboard the Mengtian module. It functions as both a 'super refrigerator' and a frontier science 'miniature laboratory'. Rubidium metal is first heated to produce vapor. Then magnetic-optical trapping and optical molasses cool the atoms preliminarily. Finally, two-stage crossed optical dipole traps perform evaporative and deep cooling.",
+        "Absolute zero is minus 273.15 degrees Celsius — the theoretical lower limit of temperature. According to the third law of thermodynamics, it can only be approached, never reached. As temperature drops, atomic motion slows. Near absolute zero, atoms nearly stop moving, revealing quantum phenomena that help scientists uncover hidden rules of the microscopic world.",
+        "This breakthrough will advance research on early universe simulation and ultralight dark matter detection. Related technologies may improve atomic interferometers, quantum sensors, and space atomic clocks — supporting high-precision Earth microgravity measurement, inertial navigation, and fundamental physical constant tests."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-06T01:47:53.760Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-06/2026-11-06-c9cfab.webp",
+      "alt": "抽象玻璃腔体中悬浮一小团点阵状雾状原子云，周围有细弧线。",
+      "caption": "冷却到极致的原子云，安静地悬在腔体里。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-06-static-electricity-remains-shockingly-mysterious",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "静电很常见，科学家却还没弄懂它怎样产生",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-06",
+    "intro": "从一只猫粘满泡沫颗粒说起，静电每天都在身边出现，但它最基础的细节仍让科学家困惑。",
+    "paragraphs": [
+      "一只叫库珀的猫跳进装满泡沫包装颗粒的纸箱，出来时从头到尾粘满了颗粒。主人把它拉出来，拍下照片，后来这张照片进了维基百科，还出现在教科书和大学课堂里。科学家常用这个例子解释静电：猫毛和泡沫颗粒摩擦，交换了电荷，猫毛带上正电，泡沫颗粒带上负电，异种电荷相吸，颗粒就粘在猫身上。气球在头发上摩擦也类似，气球带负电，头发带正电，头发之间同种电荷相斥，于是蓬乱地翘起来。电荷积累太多，再摸门把手，就可能突然被电一下。",
+      "科学家已经有一些基本共识。两个物体接触或摩擦时，会交换电荷。电荷来自电子和质子，电子带负电，质子带正电。物体里电子和质子数量相等时，整体不带电；一接触，电荷平衡就发生变化。实验还给出一个叫摩擦电序列的排序，某些材料像气球乳胶，容易带负电；另一些像头发，容易带正电。这个序列能预测两种材料接触后，正负电荷往哪边走。但再往下追问，问题就来了。",
+      "通常说电流，是电子在电路里移动。静电却不一样，它发生在物体表面非常薄的一层。猫毛和泡沫颗粒接触时，到底是电子移动了，还是带电的原子或分子，也就是离子移动了，还是更大块的猫毛或泡沫带着电荷移动了？在大多数静电现象里，科学家并不知道哪个答案正确。甚至教科书也可能画错，把电荷移动简单标成电子。研究起来也很难，因为带电的地方非常稀少。假如把自己缩到原子大小，沿着带电材料表面走，大约每十万个原子才碰上一个多余或缺失的电子。研究者说，要追踪这么少数的东西，正是困难所在。",
+      "摩擦电序列本身也有未解的问题。它把猫毛排在泡沫颗粒上面，所以预测猫毛带正电、颗粒带负电。但没人知道这些材料为什么按这个顺序排列，也没人知道究竟是什么让一种材料更容易带正电或负电。这个序列还不能解释，为什么两个完全相同的物体接触也会带电。静电研究几乎和科学本身一样古老，哲学家柏拉图在大约公元前360年就写过它。有物理学家说，它这么古老，我们却仍弄不明白，这很有诗意。",
+      "静电塑造着我们的世界。它引发闪电，增强沙尘暴，帮花粉粘在蜜蜂和蝴蝶身上。在早期太阳系里，尘埃颗粒碰撞后会带电，科学家认为，静电力可能帮助它们粘在一起，最终形成行星。静电也会造成麻烦，它点燃火灾，干扰制造，烧坏精密电子电路。到了太空，湿度低，重力弱，静电力显得更重要。带电的月尘可能粘在月球车车轮或太阳能板上，宇航员在月尘上走动也可能带电，不小心电到敏感设备，或者把月尘带进航天器。美国航空航天局因此很重视研究静电。猫身上的泡沫颗粒只是小麻烦，但它指向一个每天都在发生、却仍藏着许多谜的问题。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/static-electricity-shock-mysterious",
+      "originalTitle": "Static electricity remains shockingly mysterious",
+      "publishedAt": "Thu, 05 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-06T01:39:36.334Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-06T01:39:31.341Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 65,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-06/2026-11-06-static-electricity-remains-shockingly-mysterious.webp",
+      "alt": "深灰毛绒轮廓旁，浅色小颗粒被细弧线牵引悬浮。",
+      "caption": "看不见的力，让轻小的颗粒自己靠过来。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-06-lab-grown-meat-was-supposed-to-save-the-world-wh",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "实验室里长出的肉，为什么还没端上餐桌",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-06",
+    "intro": "2013年8月5日，一个造价25万欧元的汉堡在伦敦被公开品尝，人们以为食品革命要来了。十多年过去，全世界只有一家店能买到这种肉。",
+    "paragraphs": [
+      "2013年8月5日，伦敦Riverside Studios摄影棚里，两位志愿者分吃了一个汉堡。这个汉堡花了两年才做出来，成本25万欧元（约21万英镑），由谷歌联合创始人谢尔盖·布林出资。肉不是从牛身上割下来的。荷兰马斯特里赫特大学血管生理学教授马克·波斯特从一头活牛的肩部肌肉中提取干细胞，在装满含胎牛血清（源自牛胎儿）的营养液的塑料容器中培养。细胞最终长成20,000条组织，压制成一个140克的肉饼。现场有200名记者出席，并向数千人直播。厨师理查德·麦吉翁用葵花籽油和黄油将肉饼煎熟。两位品尝者分别是芝加哥作家乔希·舍恩瓦尔德（《明日之味》作者）和奥地利营养科学家汉妮·吕茨勒。舍恩瓦尔德说：‘我可以说它介于Boca Burger和麦当劳之间。缺少脂肪影响很大。它有质地，这是我没想到的——像一块动物蛋白蛋糕。’吕茨勒对《科学》杂志记者表示：‘这里还有改进空间。’活动结束时，约11.3万欧元价值的汉堡未被吃完。",
+      "波斯特相信，这样生产的牛肉能大幅减少温室气体排放、减缓气候危机。养牛需占用大量土地和水，还需种植高环境成本的饲料。他预计全球肉类需求将很快超出传统方式的供给能力，导致食物系统不可持续；但他认为这不必意味着人类集体放弃红肉——实验室培育肉将在十年内成为消费品。该事件引发‘淘金热’：六大洲涌现140家公司，尝试将同类技术用于鸡、猪、鱼甚至鹌鹑。行业共获约30亿美元投资。支持者宣称细胞农业不仅能应对气候危机与全球粮食不安全，还能减缓人畜共患病传播和抗生素耐药性。Upside Foods称要‘树立肉类新标准’；Vow公司制作了巨型猛犸象肉丸（DNA来自化石），但因安全性未知，无人被允许食用。智库RethinkX预测，到2030年，培养肉将使美国牛肉需求下降70%，并称这是‘自一万年前动植物首次被驯化以来，食品与农业领域最深刻、最快、最具后果性的颠覆’。",
+      "然而，尽管热潮涌动，培养肉始终未能上市。挑战包括：建造生产设施的巨额前期投入、运行所需惊人能耗、难以实现足量且低价量产、缺乏熟练操作新技术的劳动力、美国食品药品监督管理局（FDA）与农业部（USDA）多轮严格审查，以及曾有公司（Upside和Eat Just）在研究样本中检出啮齿动物DNA。投资于2021年见顶，此后下滑；2023年，全行业全球仅募资1.77亿美元。质疑不仅来自投资人——培养肉迅速成为美国保守派攻击目标。佛罗里达、阿拉巴马、密西西比、印第安纳、蒙大拿、内布拉斯加和得克萨斯七州接连立法禁止其销售、生产或两者皆禁。佛罗里达州长罗恩·德桑蒂斯签署该法时站在血迹斑斑、堆满牛排的砧板前拍照，并说：‘把你们的假实验室肉拿到别处去。我们在佛罗里达不干这个。’",
+      "2024年，工业生物技术顾问乔尔·斯通对《纽约时报》表示，若押注概率，‘该行业在可预见未来供应哪怕10%肉类的可能性为零’。目前，培养肉仅在一家商店有售：新加坡胡伯肉铺（Huber’s Butchery），销售GOOD Meat公司生产的培养鸡肉丝。",
+      "但故事尚未终结。2024年5月，在同行纷纷撤资之际，杰夫·贝索斯通过其地球基金向北卡罗来纳州立大学捐赠3000万美元，设立贝索斯可持续蛋白中心，致力于开发‘环境友好、健康、美味且实惠的膳食蛋白’。此举巩固该州作为全球培养肉新中心的地位。商业层面，以色列公司Believer Meats已在北卡威尔逊市破土建设一座20万平方英尺的工厂——公司宣称其为全球最大培养肉设施，设计年产能为950万公斤工程化鸡肉。2025年9月，美国FDA向其发出‘无问题’信函，表明对其产品安全性审查未发现疑虑。十三年前那个汉堡提出的问题其实很简单：如果能去除部分弊端，让肉更少破坏、更少瑕疵，我们还有什么理由不吃它？这个问题至今没有答案——但答案已不在实验室里，而在工厂、法规与价格之中。"
+    ],
+    "topics": [
+      "经济与商业",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/05/lab-grown-meat-save-the-world-food-revolution-climate-crisis-food-system",
+      "originalTitle": "Lab-grown meat was supposed to save the world. What happened?",
+      "publishedAt": "Thu, 05 Nov 2026 05:00:54 GMT",
+      "retrievedAt": "2026-11-06T01:41:00.985Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-06T01:40:58.515Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 56,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Lab-Grown Meat: A Promise That Stalled",
+      "intro": "A lab-made burger once promised to change the world. But the meat revolution stalled.",
+      "paragraphs": [
+        "On 5 August 2013, a man and a woman ate a burger. It was the world’s first lab-grown burger. Mark Post led the project. He is a professor of vascular physiology at Maastricht University in the Netherlands. The burger took two years to produce. It cost €250,000. Sergey Brin funded it. He is the Google co-founder. The tasting happened at Riverside Studios in London. Two hundred members of the press attended.",
+        "Post extracted stem cells from the shoulder muscle of a living cow. He cultivated them in plastic containers. They were filled with foetal bovine serum. This supplement comes from cow foetuses. The cells became 20,000 strands of tissue. Those strands formed a single 140g patty. Chef Richard McGeown pan-fried it. He is from Cornwall. Two tasters tried it: Josh Schonwald and Hanni Rützler. Schonwald said it was 'somewhere on the spectrum between a Boca Burger and McDonald’s'. He added: 'The absence of fat makes a big difference.' Rützler called it bland. She said: 'There is room for improvement here.'",
+        "Post predicted lab-grown meat would become a consumer product within the decade. The event triggered a gold rush. One hundred and forty companies sprang up. They worked across six continents. They tried to replicate the beef work with chicken, pork, fish and even quail. Investment totalled $3bn. True believers claimed cellular agriculture would fight the climate crisis. It would also fight global food insecurity. It would slow zoonotic disease. It would slow antibiotic resistance. RethinkX predicted cultivated meat would decimate the US beef industry by 2030. It would reduce demand for conventional beef by 70%.",
+        "But the meat did not arrive. Building manufacturing facilities cost too much. Running them used too much energy. Companies could not make enough meat. They could not sell it cheaply enough. There was not enough skilled workforce. The FDA and USDA did many inspections. Rodent DNA appeared in research samples. This happened at Upside Foods and Eat Just. Investment peaked in 2021. It fell after that. In 2023, the industry raised only $177m globally.",
+        "Conservatives targeted the technology. Florida, Alabama, Mississippi, Indiana, Montana, Nebraska and Texas passed laws. They banned sale, production or both. Ron DeSantis signed Florida’s law. He posed for photos. He stood in front of a blood-stained cutting board. Steaks were piled high. He said: 'Take your fake lab-grown meat elsewhere.' Joel Stone told the New York Times in 2024: 'The likelihood ... would be zero.' He meant the chance of supplying even 10% of meat in the foreseeable future. Today, cultivated meat is sold in just one store. It is Huber’s Butchery in Singapore. It sells lab-grown chicken shreds. The maker is GOOD Meat.",
+        "The writer had been a vegetarian for almost 20 years. The last meat he ate was a hotdog. It was at Shea Stadium in New York. That was in 2007. In May 2024, Jeff Bezos gave $30m. He gave it through his Earth Fund. It funded the Bezos Center for Sustainable Protein. The center is at North Carolina State University. Believer Meats broke ground on a plant. It is in Wilson, North Carolina. The plant is 200,000 sq ft. It is the largest cultivated-meat facility in the world. It will produce 9.5m kilos of engineered chicken per year. In September 2025, Believer got a 'no questions' letter from the FDA. The FDA found no safety concerns."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-06T01:49:05.051Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-05-ab015b",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "科学家首次实时追踪石墨烯中电子的超快量子跃迁",
@@ -3200,169 +3384,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-10-22-explainer-what-is-an-equation",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "方程是什么，等号两边为什么必须相等",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-22",
-    "intro": "等号并非天生就有；它用两条等长的横线，把数学变成了一句简洁而平衡的话。",
-    "paragraphs": [
-      "你可能每天都在用等号，却未必想过它为什么长这样。方程是一句用数学写成的陈述：它把两样东西放在等号两边，表示这两边的值完全一样。比如 5×4=20。这个写法并不是从一开始就存在，等号本身也只是四百多年前才出现。",
-      "在符号出现之前，数学是‘写出来’的。英国数学家罗宾·威尔逊说，古人把加法、减法以及数字之间的关系用日常词语表达，这叫‘rhetorical algebra’（修辞代数）。他在 2025 年出版了《Sum Stories: Equations and Their Origins》（《总和的故事：方程及其起源》）。书里有一个例子：一艘船运了 200 条鱼到港口，其中 50 条是比目鱼，75 条是鲷鱼，27 条是鲨鱼，48 条是 anchovies（凤尾鱼）。换成今天的写法就是 50+75+27+48=200。",
-      "等号第一次公开亮相是在 1557 年，出现在威尔士数学家罗伯特·雷科德的书《The Whetstone of Witte》（《智慧的磨刀石》）里，书名直译是‘sharpening your wits’（磨砺你的才智）。雷科德不想每次都啰嗦地写‘is equal to’，于是画了两条一样长的横线。他的理由很朴素：‘no two things can be more equal’（没有两样东西能比这两条线更相等）。加减号出现得更早，大约在 14 世纪末到 15 世纪初；乘号‘×’则要等到 1631 年，由英国数学家威廉·奥特雷德引入。",
-      "新西兰坎特伯雷大学的数学史家克莱门西·蒙泰尔说，等号和加、减、乘、除不一样。它不要求你计算什么，而是在说明一种关系：一边的东西和另一边完全相同，哪怕它们看起来并不一样。在 4+1=5 里，左边的两个数字和右边的 5 长得不同，值却相等。威尔逊说，等号像一架天平，两边保持平衡。",
-      "正因为有这种平衡，我们才能求出未知数，这也是代数的起点。丹尼尔和爱丽丝从后院树上摘了 9 个苹果，丹尼尔有 5 个，爱丽丝有几个？写成 5 加一个未知数等于 9，两边同时减去 5，就知道答案是 4。数学家通常用字母表示未知数，最常见的是 x。历史上不同文化各有办法：古印度人用表示颜色的词的缩写来代表未知量，古代美索不达米亚人则用表示长度、宽度和面积的词。",
-      "在方程出现之前，天文学家靠一张张数字表追踪行星、月相和日食，做表要耗费大量计算。方程像一个更紧凑的替代品：把已知的日期和位置代进去，就能算出想知道的距离。今天工程师用它设计更安全的建筑，飞行员用它计算需要多少燃料，连做蛋糕都能用它把 2.75 杯面粉按比例放大或缩小。蒙泰尔说，方程看起来有点枯燥，但它揭示的是藏在数字背后的结构，那些原本只能一个一个写出来的规律。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/what-is-math-equation",
-      "originalTitle": "Explainer: What is an equation?",
-      "publishedAt": "Wed, 21 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-22T00:05:09.409Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:05:05.977Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "What Is an Equation?",
-      "intro": "Science News Explores explains how a simple equal sign made equations possible and why they still matter today.",
-      "paragraphs": [
-        "Here is a small symbol that made modern equations possible: the equal sign. An equation is a mathematical statement written linearly — in a straight line. It has two parts separated by an equal sign (=). What appears on either side of it has the exact same value. For example: 5 x 4 = 20.",
-        "Math goes back millennia. But the symbols used in equations are relatively recent. Centuries ago, math used to be written out in words. British mathematician Robin Wilson calls this rhetorical algebra. Someone might have written: 'Ship one brought two hundred fish to port. Fifty were flounder, seventy-five were bream, twenty-seven were sharks and forty-eight were anchovies.' Now it might be shortened to 50 flounder + 75 bream + 27 sharks + 48 anchovies = 200 fish.",
-        "The equal sign made its world debut in 1557. That was in the book *The Whetstone of Witte*. Its author was Welsh mathematician Robert Recorde. He introduced the equal sign to avoid having to tediously repeat the words 'is equal to.' He chose two horizontal lines of the same length because, he argued, no two things can be more equal. The plus (+) and minus (−) signs appeared around the late 1300s and early 1400s. The 'x' mark for multiplication was introduced in 1631 by William Oughtred in *Clavis Mathematicae*.",
-        "Math historian Clemency Montelle says the equal sign is quite interesting and is slightly different from an operator like plus, minus, divide or multiply. It is not saying calculate anything. It is indicating a relationship. That relationship is: one thing on one side is identical to the other side — even if they don’t look the same. In 4 + 1 = 5, the two digits on the left-hand side don’t look identical to the digit on the right. Still, they have the exact same value.",
-        "The equal sign signifies a balance — like on a scale — between the quantities on the left and right sides. Knowing that balance allows us to solve for something unknown. Suppose Daniel and Alice picked 9 apples from their backyard tree. Daniel has 5 apples. We can write: 5 + unknown quantity = 9. By subtracting 5 from each side, we find the unknown quantity must be 4. Mathematicians generally refer to such an unknown with a letter. Often it’s an 'x'.",
-        "Equations offer a compact substitute for long tables of numbers. Ancient astronomers used tables to track a planet’s motion. They also used tables to observe phases of the moon and predict eclipses. Each equation describes the relationship between features of interest — such as a planet’s motion over time. Engineers use equations to design safer buildings. Airline pilots use them to calculate fuel needed. They do this knowing distance and average speed. You could also use an equation to scale a cake recipe. For example, to make one two and a half times as big — or just a mini-cake one-quarter the normal size."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:11:39.554Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-22/2026-10-22-explainer-what-is-an-equation.webp",
-      "alt": "冷灰色纸纹背景上，一架保持水平的极简天平，两端托盘各放一块抽象几何块。",
-      "caption": "两条等长的横线，让两边保持平衡。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-22-180-8f0861",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "舞剧《长联·大观》昆明首演",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-22",
-    "intro": "抓取到的原文只剩标题和网站导航，正文为空，按发布门槛不能生成正式听稿。",
-    "paragraphs": [
-      "中新网网页显示标题为‘舞剧《长联·大观》昆明首演 180字“天下第一长联”跃然舞台’，但该页面未提供任何正文内容。",
-      "页面其余部分均为网站通用导航栏、频道链接（如‘文娱’‘体育’‘云南’等）、搜索功能入口、图片占位符及分享按钮，无演出时间、地点、主创人员、剧情简介、艺术特色或观众反响等可核查信息。",
-      "依据轻听发布规范，听稿中所有事实陈述必须有原文逐字支撑。当前仅存标题字符串，无法提取比分、日期、人物、引语、因果关系或比较级等可验证要素，不满足三段式独立听稿的最低事实密度要求。"
-    ],
-    "topics": [
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718803.shtml",
-      "originalTitle": "舞剧《长联·大观》昆明首演 180字“天下第一长联”跃然舞台",
-      "publishedAt": "Wed, 21 Oct 2026 23:21:37 +0800",
-      "retrievedAt": "2026-10-22T00:06:11.686Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:06:09.557Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-22-12d1f0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "他把加氢实验反着做，用电主动抽走氢气",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-22",
-    "intro": "哈尔滨工业大学（深圳）教授曾瑞把原本用于加氢的实验反过来做，变成用电主动抽走氢气，这项研究发表在《自然》上。",
-    "paragraphs": [
-      "2026年8月18日，曾瑞回到国内，加入哈尔滨工业大学（深圳）。仅仅22天后的9月9日，他以第一作者身份在《自然》发表论文。研究的核心，是给氢气装一台“电泵”：不是靠压力差把氢气挤过去，而是用电把氢气主动从混合气体里抽出来。",
-      "这项成果的起点，却是一个做不下去的“加氢”实验。2023年春节前后，曾瑞还在美国麻省理工学院做博士后。他接手一个由日本企业资助的项目，想用钯膜装置把空气中的二氧化碳变成乙烯。麻烦在于，钯膜表面的氢原子复合得太快，还没来得及和二氧化碳反应就跑掉了，转化效率一直上不去。一天夜里，导师Yogesh Surendranath发来信息：既然加氢不理想，不如反过来，研究怎么脱氢，用同样的装置把氢气主动抽走。曾瑞查文献后发现，类似思路基本没有人报道过。",
-      "传统脱氢，靠的是钯膜两边的压力差，把氢气“挤”过去。可这种方式受动力学限制，速度慢，费时间也费能量；氢气浓度很低时，想提纯、浓缩更难。而利用电化学的方式脱氢，在领域内几乎还是空白。曾瑞和团队自主设计了电化学钯膜提氢分离装置，使用钯合金制备的薄膜，对氢气具有选择透过性，施加低于0.3伏特的阳极电位，让氢原子更快透过膜。实验中最难的是装置密封性问题——如果有一点电解液泄漏，后续实验就会报废，需要从头再来。",
-      "结果很亮眼。在300℃下，氢气的分离速率提高约4倍；能把1%的氢气浓缩到100%。将该策略用于氨裂解、甲基环己烷脱氢等脱氢体系中，其在250℃下的脱氢转化率最高分别达到约91%和94%，并实现了超100小时的稳定氢移除。氨裂解会产生氢气和氮气，氢气会抑制催化剂，导致反应速率难以进一步提高；及时移除氢气，就能有效提升反应速率。甲基环己烷是一种公认的重要氢载体。",
-      "这项方法能做什么？在汽车、公交与船舶等交通领域，该方法提供了一种按需制氢的装置思路，在用氢端实现更高效、更灵活地获得氢气。另外，在半导体制造、精细化工等对氢气纯度有更高要求的领域，通过钯膜透氢的策略，有望提供超纯氢平台。这项研究从2025年6月开始投稿，经过将近14个月的时间被接收。过程中，审稿人要求补充更长时间的稳定性数据，研究团队随即进行了超过100小时的稳定性测试。曾瑞说，科研没有白走的路——最初只是他的支线任务，主线任务是开展日本企业资助的工程导向项目；但那段经历让他面对装置密封等工程问题时能快速应对。"
-    ],
-    "topics": [
-      "科研方法",
-      "材料科学",
-      "青年科学家"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573243.shtm",
-      "originalTitle": "他把实验反着做，回国不到一个月发表重磅论文",
-      "publishedAt": "2026-10-19 20:32",
-      "retrievedAt": "2026-10-22T00:07:40.078Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-22T00:07:36.931Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-22/2026-10-22-12d1f0.webp",
-      "alt": "冷灰纸纹背景上，一块多孔灰色方块向外逸出细小颗粒，旁有反向箭头。",
-      "caption": "把加氢的过程反过来，用电抽走氢气。",
-      "kind": "editorial"
     }
   }
 ]
