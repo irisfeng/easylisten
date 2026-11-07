@@ -1,5 +1,230 @@
 [
   {
+    "slug": "2026-11-07-a-strange-quantum-theorem-has-killed-einstein-s",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "爱因斯坦相信的“现实”，为什么被量子定理排除了",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-07",
+    "intro": "从爱因斯坦到贝尔，再到PBR定理，物理学家一步步发现：量子力学与我们熟悉的日常现实并不相容。",
+    "paragraphs": [
+      "婴儿很早就会明白：大人用手遮住脸，并不是消失了。这种理解被称为‘客体永久性’。它一般在不到一岁内形成，表明婴儿意识到——世界中存在比我们感知更多的东西。这暗示，或至少对爱因斯坦而言意味着：世界是‘真实’的——一个红球即使在黑暗里、即使没人看，它的红色也属于球本身，而不属于测量仪器，也不属于操作仪器的人。",
+      "可量子力学给出的却是一套概率。测量一个球之前，波函数只能告诉你：它有77%的可能是红色，23%的可能是绿色。量子力学的一些创始人因此认为，在某种意义上，并不存在一个单一、客观的现实。1935年，爱因斯坦提出著名思想实验反对这种解释；1964年，贝尔又用思想实验证明，现实必须比爱因斯坦设想的更奇怪。后续实验验证了贝尔。",
+      "爱因斯坦和波多尔斯基、罗森提出的EPR思想实验，让两个粒子相互作用，之后测量其中一个走了多远，就能知道另一个走了多远。他们论证：另一个粒子的位置既然可以被知道，就应当是真实存在的；它的动量也一样。可波函数不允许一个物体同时拥有确定的位置和动量。于是他们得出结论：波函数并不反映粒子的真实状态，量子态不是实在的。这个论证依赖两个假设：粒子有真实状态，即‘实在性’；这个状态只存在于粒子内部，只能通过与粒子相互作用来改变，即‘定域性’。玻尔随后质疑第一个假设，他说‘不存在量子世界，只有抽象的量子物理描述’。这就是哥本哈根解释。",
+      "贝尔之后50年，当时在帝国理工学院读研究生的马修·普西，与乔纳森·巴雷特、特里·鲁道夫一起提出了PBR定理。普西原本并不是要给爱因斯坦的现实观致命一击。2012年PBR发表后，许多理论物理学家逐渐接受：它排除了我们对现实最常识的理解。物理学家皮纳尔回忆，PBR一出来大家就知道它会是里程碑；他当时意识到，沿着爱因斯坦思路的那套研究纲领已经死了。",
+      "三个定理连起来，证明量子力学与我们感知的世界并不相容。实验又一再确认量子力学成立，包括最近对PBR的一次实现。于是，总得有什么关于现实的想法被放弃。剩下的问题是：我们到底要放弃多少？"
+    ],
+    "topics": [
+      "物质与数学",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+      "originalTitle": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+      "publishedAt": "Fri, 06 Nov 2026 15:48:54 +0000",
+      "retrievedAt": "2026-11-07T01:03:50.191Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:03:46.230Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-07/2026-11-07-a-strange-quantum-theorem-has-killed-einstein-s.webp",
+      "alt": "冷灰纸面上，一枚半透明棱镜将光线散成波纹，旁有空白圆环。",
+      "caption": "光穿过棱镜，现实不再唯一。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-07-89e1c9",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一年内两起重大事故，西班牙「高铁奇迹」为何失速？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-07",
+    "intro": "十个月内两起重大事故、逾110人罹难，还有数十人下落不明——西班牙引以为傲的高铁网正被重新追问：这是偶发的故障？还是系统性的沉疴？",
+    "paragraphs": [
+      "10月28日早上，西班牙发生了本国历史上伤亡最惨重的高铁事故。一列从马德里开往塞维亚的 Renfe AVE 2080 次高铁列车，在小镇乌尔达（Urda）附近，从后方撞上一列停在同一轨道上的 Iryo 列车。Iryo 的最后两节车厢被撞出轨道，跌落路旁。据报道，Iryo 当时正因列车控制系统 LZB 故障而停车。截至10月30日，官方公布的死亡人数为69人，另有约70人被通报失踪。",
+      "这已经是西班牙今年第二场高铁悲剧。时间倒回1月18日晚上，一列从马拉加开往马德里的 Iryo 列车，在科尔多瓦省阿达穆斯（Adamuz）车站入口处出轨，最后两节车厢侵入相邻轨道，与迎面驶来、开往韦尔瓦的 Renfe Alvia 列车相撞。Alvia 的车厢跌下约四公尺高的路堤，事故最终夺走46条人命。仅仅两天后，一列 Rodalies 通勤列车撞上一堵被暴雨冲垮、倒在轨道上的挡土墙，一名28岁的实习驾驶员丧生，数十人受伤。同一天，加泰隆尼亞還有另一列 Rodalies 出軌。",
+      "在今年之前，西班牙高铁几乎是安全与现代化的同义词。从1992年为塞维亚世博会开通第一条 AVE 起，三十多年来，西班牙建成了规模仅次于中国的高铁网，班次密、票价亲民，是西班牙人引以为傲的国家名片，也是不少国家取经的对象。不料仅仅在过去十个月中，同一條路線在一年內兩度釀成慘劇，罹難者超過110人，還有數十人下落不明。",
+      "这是偶发的故障？还是系统性的沉痾？吃緊的人力、老化的控制系統、失衡的資源分配，在在考驗著全球第二大高鐵網。",
+      "高铁是那种平时几乎感觉不到的存在：准点、安静，看起来永远可靠。可正是这种可靠，需要每天有人维护、检修、调度，需要钱一直花在旅客看不见的地方。一条线路建成通车只要几年，让它天天安全地跑下去，靠的是此后每一年都不松手。西班牙这两起事故最终会查明原因，但真正的考验是查明之后，还愿不愿意继续为那些看不见的部分花人、花钱。"
+    ],
+    "topics": [
+      "城市与公共",
+      "经济与商业"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "端传媒",
+      "region": "international",
+      "url": "https://theinitium.com/20261106-international-spain-high-speed-train-collision-explainer/",
+      "originalTitle": "一年內兩起重大事故，西班牙「高鐵奇蹟」為何失速？",
+      "publishedAt": "Thu, 05 Nov 2026 22:59:00 GMT",
+      "retrievedAt": "2026-11-07T01:06:29.220Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:06:26.184Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-07-nature-5beb9c",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一篇Nature论文背后的师生署名之争",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-07",
+    "intro": "一项合成六氮分子N6的研究登上Nature后，第一作者钱伟煜与导师Peter R. Schreiner对通讯作者归属各执一词：一方称自己独立构思、实验并完成初稿，却被排除在通讯作者之外；另一方称署名安排经全体作者确认，符合出版规范与实际贡献。",
+    "paragraphs": [
+      "2025年6月11日，德国吉森大学博士生钱伟煜以第一作者身份在Nature发表论文，报道制备出仅由6个氮原子构成的中性分子N6。美国南加州大学多氮化合物领域权威专家Karl Christe评价：‘这项研究令人惊叹，在我看来完全值得获得诺贝尔奖。’这本该是高光时刻。可钱伟煜说，从署名争执爆发到论文发表的那段日子，是他‘将近30年的人生中最难受的时期’。矛头指向论文的第一通讯作者——他的导师、曾任德国化学学会主席的Peter R. Schreiner。",
+      "钱伟煜说，自己2021年到德国吉森大学读博，工资由青年研究员Artur Mardyukov的项目支出，实际由Artur指导；四年间在实验室只见过Peter四次，两次是让他帮忙买面纸，另两次是媒体采访。2023年10月，他提出合成全氮分子的构想，Peter回应：‘我不相信它能够成功，但是你想做就去做吧。’连购买1200欧元氯气的申请也被Peter和Artur共同拒绝。他最终使用其他课题组遗留的陈年氯气开展实验。他独立构思项目核心想法并设计实验方案，2024年1月首次观察到未知光谱信号，3月获得可重复结果。初稿中他是第一作者，Artur是通讯作者，Peter是普通第二作者；但Peter在审阅时将自己改为第一通讯作者，并修改作者贡献声明，称‘所有人构思了该项目’。钱伟煜去办公室争取署名，被要求‘滚出我的办公室’。他告诉《中国科学报》，这是一起典型的学术霸凌。",
+      "Schreiner在书面答复中给出另一版本。他否认曾以‘只有永久教职人员才能担任通讯作者’为由回绝钱伟煜，坚称项目由三人共同构思，署名在首次投稿时即已确定，此后从未改动。他承认曾请钱伟煜离开办公室，理由是对方‘言行与语气带有不敬’；并质疑钱伟煜的实验记录本有大量空白页，‘没有任何记录能够证明成功制备出N6’。Schreiner主动将争议提交给吉森大学副科研诚信监察员，后者评估认为：‘Schreiner一方的陈述逻辑自洽；投稿之前钱博士就已经被告知通讯作者人选；现有材料不足以支持钱博士独立主张通讯作者身份。’",
+      "争议的核心在于通讯作者的定义与归属依据。Schreiner援引Nature期刊定义：‘通讯作者负责稿件的投稿、同行评审以及出版全流程相关事宜’，并指出其职责还包括‘确保所有共同作者认可稿件内容’‘长期稳定接收沟通问询’，因此通常由在职状态稳定、隶属于研究机构的资深研究者担任；而‘第一作者一般为论文的主要贡献者’。据此，团队确定钱伟煜为第一作者，Artur Mardyukov与Schreiner共同担任通讯作者。该署名设置于2024年9月18日Nature首次投稿版本即已确定，后续修订版与2025年5月23日校样版均未改动。",
+      "钱伟煜还指出，2023年9月，150名德国教授联名发布公开信《德国学术体系结构实为权力滥用之温床》，指出终身教职制度使教授成为‘无法罢免的学术君主’，学术雇员面临生存压力，教授同时掌控科研经费、设备使用权和人事任免权，导致权力缺乏制衡。他坦言：‘可悲的是，3年过去了，这种乱象并没有改观。’论文已于2025年6月11日发表，署名已成定局。但关于谁真正主导了这项开创性工作——从最初构想到实验突破、数据验证与论文撰写——双方说法仍无交集。对听众而言，这件事留下的问题或许比一个名字更沉重：当科研中的权力、资源与贡献不对称时，规则是否真能被看见、被遵循、被捍卫？"
+    ],
+    "topics": [
+      "学术署名",
+      "科研伦理",
+      "Nature论文"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574321.shtm",
+      "originalTitle": "一篇Nature论文背后的师生署名之争",
+      "publishedAt": "2026-11-06 20:41",
+      "retrievedAt": "2026-11-07T01:10:25.319Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:10:23.788Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Authorship Fight Behind a Nature Paper",
+      "intro": "A China Science Daily report describes a public dispute over credit for a Nature paper about a six-nitrogen molecule.",
+      "paragraphs": [
+        "In June 2025, PhD student Qian Weiyu of the University of Giessen published a paper in Nature. It reported the preparation of a neutral molecule made only of six nitrogen atoms: N6. Karl Christe, a leading expert in polynitrogen compounds at the University of Southern California, called the work 'astonishing' and said 'in my view it fully deserves a Nobel Prize.'",
+        "Qian Weiyu was the first author. He says he conceived the core idea in October 2023, designed the experiment, and obtained the first spectral signal in January 2024. He says his supervisor, Peter R. Schreiner, doubted the project would succeed, visited the lab only four times in four years, and refused to approve essential reagents. After success was confirmed in March 2024, Qian says Schreiner changed himself to first corresponding author without consent and dismissed him from his office when he objected.",
+        "Schreiner denies Qian’s account. He states the project was jointly conceived by Qian, Artur Mardyukov, and himself. He says the author order—including himself as first corresponding author—was fixed in the initial ChemRxiv submission on August 19, 2024, and unchanged thereafter. He says he asked Qian to leave his office due to disrespectful tone, and notes Qian’s lab notebook contains many blank pages with no record proving N6 synthesis.",
+        "Schreiner submitted the dispute to Giessen University’s deputy research integrity officer. The officer concluded existing materials were insufficient to support Qian’s independent claim to corresponding authorship. The officer noted Schreiner’s version was logically consistent and that Qian had been informed of the author list before submission. The article presents both accounts and leaves judgment to readers.",
+        "The case highlights broader concerns about academic power. In September 2023, 150 German professors signed an open letter titled 'The German Academic System Is Structurally a Breeding Ground for Abuse of Power.' They warned that lifetime professorships create unaccountable 'academic monarchs,' leaving early-career researchers vulnerable and silent."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:12:39.113Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-07-daad26",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "重归冬牧场：一部田野笔记的二十年回响",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-07",
+    "intro": "中新网文化的一篇报道，聚焦李娟《冬牧场》这部田野笔记——二十年后，它为何仍被重提、重读、重思。",
+    "paragraphs": [
+      "一本写冬牧场的田野笔记，为什么二十年后还会被想起？中新网文化这篇报道的标题里，“重归”和“回响”两个词，把时间拉成了一条线：一头是当年在牧场上的记录，另一头是二十年后的重新提起。",
+      "田野笔记不是坐在书房里凭想象写出来的文章，而是人走到现场，在一个地方待下来，跟着当地人一起过日子，把看到的、听到的、问到的都记下来。柴火怎么劈，牲畜怎么放，冬天怎么熬过去，邻里之间怎么来往，这些琐碎的日常就是它的材料。",
+      "田野笔记的价值常常是往后才显出来的。一种生活方式变化得快，当年的记录就会慢慢变成证据：那些日子到底是怎么过的，后来可能只有在文字里才找得到。它保存下来的还是一个个具体的人，而不是一串统计数字。",
+      "报道用“重归”来形容这次回望，说明好记录不怕放。真正耐读的东西，往往不是当时最响的那一篇，而是愿意慢下来、把日子看清楚的那一本。二十年后还有人愿意回头翻开它，这本身就是对写作者最大的回应。",
+      "冬牧场会一年一年地迎来冬天，而写下来的文字，能让那些冬天不被轻易忘掉。"
+    ],
+    "topics": [
+      "历史",
+      "阅读与写作"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/11-06/10727665.shtml",
+      "originalTitle": "重归冬牧场：一部田野笔记的二十年回响",
+      "publishedAt": "Fri, 6 Nov 2026 23:18:28 +0800",
+      "retrievedAt": "2026-11-07T01:11:54.224Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:11:52.263Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Return to the Winter Pasture: A Field Notebook's Twenty-Year Echo",
+      "intro": "A writer goes back to a winter pasture two decades later, and asks what a notebook can hold.",
+      "paragraphs": [
+        "Twenty years is a long time to keep one notebook. The culture desk of China News Service recently published a piece with a title that already tells a story. It reads: Return to the Winter Pasture, a field notebook's twenty-year echo.",
+        "So what is a field notebook? It is not a diary kept at a desk at the end of the day. It is written where things actually happen, outdoors, in wind and cold, among animals and people. Notes taken on the spot later become evidence you can check.",
+        "And why say return? Because going back to the same place after twenty years lets a writer compare. Memory alone quietly drifts and softens. A written page stays fixed where it was. Change becomes visible when old notes meet new eyes.",
+        "Winter is the season that tests anyone living off the land. Grass is scarce, weather is harsh, and daily work takes longer. A notebook kept there records small, ordinary things. Years later, those small things add up to a picture of how life shifted.",
+        "The title carries one more idea worth sitting with. Some stories cannot be told in a day or a single visit. They need decades of looking, and someone willing to come back. A notebook is really a promise to return."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-07T01:13:04.221Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-07/2026-11-07-daad26.webp",
+      "alt": "冷灰纸面上摊开的空白笔记本、铅笔与干草，远处有低矮屋影。",
+      "caption": "二十年后再翻开，牧场仍在纸页间。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-11-06-c9cfab",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "我国科学家造出已知最冷人造物质",
@@ -3161,229 +3386,6 @@
       "alt": "冷灰色调抽象街道俯视图与步行区域色块",
       "caption": "当街道交还给行人，停留或许重新成为可能。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-23-circular-cities-go-green-by-reusing-things-over",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "循环城市：让旧物反复重生的绿色方法",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-23",
-    "intro": "有些城市正在尝试一种新方式：不把用坏的东西直接扔掉，而是修好它、改造它、再利用它，让资源像水一样循环流动。",
-    "paragraphs": [
-      "想象一下：你的运动鞋开线了，或者玩具坏了——先别急着丢。很多东西其实能修好，既省钱，也减少对环境的伤害。现在，全球约100个社区正把这种想法放大到整个社区，它们自称‘循环城市’：把原本会变成垃圾或污染的材料，重新变成新产品，或用在其他生产过程中。就像那句老话——‘浪费不得，匮乏不来’。",
-      "美国得克萨斯州奥斯汀市就是其中之一。当地市政部门下属的奥斯汀资源回收局开设玩具修理诊所、家庭修缮工作坊，还发布在线维修视频，教大家怎么修家电、电子玩具等。助理主任温迪·里金斯说：‘Just because something is broken doesn’t mean that [its] use stops, that you have to throw it away。’他们希望到2040年，把90%的城市垃圾从填埋场转移出来——因为填埋场不仅占地方，还会释放加剧气候变化的甲烷气体，甚至渗出有毒化学物质。",
-      "今天大多数商品走的是‘直线旅程’：开采原料→制造产品→使用→丢弃。只有极少数被回收。而循环城市追求的是‘闭环’：让产品尽可能长久地被使用；实在不能用了，就把材料完整回收，再做成新东西。理想情况下，这些产品从一开始就被设计成容易拆解、方便回收的样子。",
-      "实现这个目标需要科学和工程的支持。比如在荷兰阿姆斯特丹，人工草坪下的排水系统不再只是把雨水排走，而是收集雨水，让它慢慢蒸发，从而给塑料草皮降温，让运动员更舒适；同时减轻城市暴雨排水系统的压力。再比如，肯尼亚内罗毕的‘翻找工作室’专门收购别人不要的旧衣服，尤其是牛仔布、灯芯绒和皮革，把它们改造成设计师款背包和手袋——创意总监哈利德·阿瓦莱说：‘We try to use as much of it as we can，because landfills wind up just hurting the environment。’他常能利用原衣物95%的部分。",
-      "就连电动车退役的电池也在焕发第二春。当电池容量降到80%左右，多数司机开始注意到续航下降，但它仍能储存大量电能。美国博尔德市RMI能源经理玛丽·麦克纳马拉指出，这些旧电池可被移出车辆，组成大型储能电池组，储存太阳能板或风力发电机发的电，供夜间或无风时使用。美国内华达州斯帕克斯市的Redwood Materials公司已建成此类项目：用回收的电动车电池组为数据中心供电，并将多余电力供给自身工厂；等电池彻底报废后，该公司还能回收其中金属用于新电池制造。"
-    ],
-    "topics": [
-      "城市与公共",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/circular-cities-go-green-reuse-recycle",
-      "originalTitle": "Circular cities go ‘green’ by reusing things over and over again",
-      "publishedAt": "Thu, 22 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-23T00:47:36.149Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:47:33.931Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-23/2026-10-23-circular-cities-go-green-by-reusing-things-over.webp",
-      "alt": "修补物件与循环弧线组成的抽象闭环插图",
-      "caption": "旧物修复与再利用，让资源循环流动。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-23-415e2c",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "原创纪录电影《象行记》今起登陆院线 讲述中国亚洲象保护故事",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-23",
-    "intro": "据中新网文化报道，原创纪录电影《象行记》从今天起登陆院线，讲述中国亚洲象保护的故事。",
-    "paragraphs": [
-      "今天起，原创纪录电影《象行记》登陆院线，讲述中国亚洲象保护的故事。",
-      "纪录电影拍摄的是真实发生的事，镜头对准真实的人与真实的亚洲象。它不依赖剧本和演员，而是记录现实中正在发生的保护行动。",
-      "片名《象行记》中的“象”指亚洲象，“行”寓意行走、同行、记录行程，整体呼应影片跟随亚洲象迁徙与保护实践展开的纪实路径。",
-      "影片聚焦亚洲象保护这一具体议题：包括栖息地状况、食物保障、人象共居等现实挑战。这些需要长期观察与真实呈现的问题，正是纪录电影擅长表达的内容。",
-      "相比居家观看，电影院提供更大的银幕与更沉浸的声效，能更真切传递亚洲象的体量感与现场感；同时，影院环境有助于观众专注投入一段节奏舒缓、注重细节的纪实影像。",
-      "《象行记》于今日起在全国院线上映。它提醒我们：在中国西南边陲，一群野生亚洲象正真实生活着，而它们的故事，值得被看见、被理解。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-23/10719481.shtml",
-      "originalTitle": "原创纪录电影《象行记》今起登陆院线 讲述中国亚洲象保护故事",
-      "publishedAt": "Fri, 23 Oct 2026 08:22:28 +0800",
-      "retrievedAt": "2026-10-23T00:48:13.217Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:48:11.915Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-23-65439a",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "尼泊尔致命冰川洪灾敲响全球气候危机警钟",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-23",
-    "intro": "联合国项目事务署负责人表示，2026年8月尼泊尔发生的致命山洪灾害，对该国和整个国际社会都具有重要警示意义。",
-    "paragraphs": [
-      "2026年8月26日，尼泊尔努瓦科特地区发生山洪暴发，泥浆覆盖了大地。联合国项目事务署执行主任达席尔瓦在与该署驻尼泊尔团队共同开展实地工作后，通过视频连线向驻纽约总部的各国记者介绍了灾情。他表示，8月26日发生的冰川崩塌引发了破坏性最大、死亡人数最多的气候灾害之一。幸存者向他描述，一道超过100米高的洪水以每小时180公里的速度奔涌而下，在短短几秒钟内摧毁了长达60公里的河谷地区。",
-      "此次灾害已造成1500多人死亡，另有5600人仍然失踪。约10万人受到影响，其中包括3万多名儿童。洪灾导致100多座桥梁倒塌，13座水电大坝和23所学校被毁。约220万吨瓦砾和泥沙覆盖了原本的住宅、学校、道路和河道。达席尔瓦表示，由于大量桥梁被毁，过去步行几分钟就能走完的路程，如今可能需要12个小时。尽管如此，流离失所的社区居民仍展现出坚韧精神和重返家园的决心。",
-      "据估计，灾后恢复所需资金高达48亿美元，相当于尼泊尔国内生产总值的10%。如果按美国的经济规模计算，这一比例相当于超过3万亿美元。联合国此前发出紧急募捐呼吁，计划筹集5000万美元用于紧急援助，但迄今仅筹集到2450万美元。达席尔瓦表示，国际社会已经认识到向尼泊尔提供援助的必要性，但仅有这种认识远远不够，还需要作出坚定的承诺。他补充说，尼泊尔正计划召开一次援助认捐会议。",
-      "达席尔瓦指出，此次灾害是气候正义问题最为直观的体现之一。尼泊尔是最不发达国家之一，其温室气体排放量仅占全球总量的0.08%，却受到气候变化不成比例的严重影响。他强调，尼泊尔对造成当前的气候危机几乎不负有责任，却要承担灾后恢复的巨大成本，这并不公平。",
-      "目前，在联合国和多边开发银行的支持下，尼泊尔政府正完成灾后需求评估，并制定恢复计划。达席尔瓦表示，要实现更高质量的灾后重建，必须加大对早期预警系统、气候韧性基础设施以及相关规划工作的投资。他还敦促发达国家履行承诺，到2035年每年向发展中国家提供1.3万亿美元的气候融资，并呼吁所有国家减少温室气体排放，使全球升温幅度控制在1.5摄氏度以内的目标仍有望实现。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143052",
-      "originalTitle": "尼泊尔致命冰川洪灾敲响全球气候危机警钟",
-      "publishedAt": "Thu, 22 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-23T00:49:04.105Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:49:01.751Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Nepal's Deadly Glacier Flood: A Global Warning",
-      "intro": "A glacier collapse in Nepal caused one of the most destructive and deadly climate disasters. The United Nations says it is a warning for the whole world.",
-      "paragraphs": [
-        "The disaster began on August 26. A glacier collapsed in Nuwakot District, Nepal. Jorge Moreira da Silva, Executive Director of the United Nations Office for Project Services, said it triggered one of the most destructive and deadly climate-related disasters. Survivors described a flood wall over 100 meters high. It rushed at 180 kilometers per hour. It destroyed a 60-kilometer stretch of river valley in seconds. He stressed this was not an ordinary flood.",
-        "More than 1,500 people died. 5,600 people remain missing. Around 100,000 people were affected. That includes more than 30,000 children. Over 100 bridges collapsed. Thirteen hydropower dams were destroyed. Twenty-three schools were destroyed. About 2.2 million tons of rubble and mud covered homes, schools, roads, and rivers. Due to bridge destruction, journeys that once took minutes now take up to 12 hours.",
-        "Recovery is estimated to cost 4.8 billion US dollars. That equals 10% of Nepal’s GDP. If scaled to the U.S. economy, it would be over 3 trillion US dollars. The United Nations launched an emergency appeal for 50 million US dollars. So far, only 24.5 million US dollars have been raised. Nepal plans to hold a donor conference.",
-        "The disaster highlights climate justice. Nepal is a least developed country. It contributes only 0.08% of global greenhouse gas emissions. Yet it suffers disproportionate climate impacts. Da Silva said Nepal bears almost no responsibility for the climate crisis. But it must bear huge recovery costs. He called this unfair.",
-        "With support from the United Nations and multilateral development banks, Nepal’s government is completing a post-disaster needs assessment. It is also developing a recovery plan. Da Silva said higher-quality reconstruction requires greater investment. That includes early warning systems. It includes climate-resilient infrastructure. It includes planning work. He urged developed countries to fulfill their pledge. They pledged 1.3 trillion US dollars per year in climate finance by 2035. He called on all nations to cut emissions. That is needed to keep global warming within 1.5°C.",
-        "This flood is a warning. It shows how climate change affects real people. It especially affects children in vulnerable places. It shows why early warnings matter. Strong infrastructure matters. Keeping climate promises matters — for everyone."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:55:02.031Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-23-a3a518",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "康振生院士团队：分区防控让小麦条锈病可防可控",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-23",
-    "intro": "被称为“小麦癌症”的条锈病，曾让全国小麦减产四成，康振生团队用分区防控把它压到了可防可控。",
-    "paragraphs": [
-      "1950年，小麦条锈病大流行，造成60亿公斤小麦减产，占当时全国小麦总产量的41.4%，举国震动。这种病被称为“小麦癌症”，是气传性病害，病菌可随气流传播到全国所有小麦种植区。中国工程院院士、西北农林科技大学教授康振生，40余年扎根西部，带领团队摸清病害流行规律，提出分区防控策略，使条锈病发生面积减少50%以上。",
-      "条锈菌需在冷凉地区越夏。导师李振岐先生从上世纪50年代起开展研究，用6年时间发现海拔1600米以上的冷凉地区是条锈菌越夏场所，秋季再由西向东传播至东部麦区。康振生团队据此将全国麦区划分为三大区域：越夏区（陕甘宁川交界海拔1600米以上区域）、冬繁区（湖北、四川、陕西南部等温暖地带）、春季流行区（黄淮海主产麦区）。防控核心思路是‘重点治理越夏区、持续控制冬繁区、全面防控春季流行区’：越夏区调整种植结构，压缩小麦面积，增加果树、蔬菜和马铃薯；冬繁区通过药剂拌种和早期喷药压低菌源基数；春季流行区合理布局不同抗病品种，形成生物屏障。如今，全国条锈病发生面积降低50%以上，年均挽回20亿公斤小麦损失，达到‘可防可控、有病无灾’。",
-      "研究中最关键的突破之一，是挑战学界常识。过去文献记载小檗仅为小麦秆锈菌转主寄主，与条锈菌无关。但团队在田间发现麦田旁小檗同步发病，遂带回样本，经室内人工接种与逐项鉴定，确认小麦条锈菌确可在小檗上完成有性生殖。为摸清小檗在全国分布与种类，团队坐马车、爬山涉水，历时10年跑遍主要麦区。这一发现解释了越夏区为何被称为‘病窝子’、新小种为何不断产生、抗病品种为何总在此率先丧失抗性——答案指向小檗是条锈菌有性生殖发生的场所。团队由此提出‘有性阻滞’措施：用塑料布捂严麦草垛，阻止冬孢子飞散侵染小檗；同时配合结构调整与抗病基因多样化布局。康振生强调：‘我们从未想过将小檗赶尽杀绝’，目标是将条锈菌控制在危害水平以下，即产量损失不超过3%，实现生态平衡。",
-      "2025年，康振生团队联合多家单位绘制出全球首张小麦抗条锈病基因全景图谱。该图谱涵盖431个遗传位点，将抗病基因在染色体上的位置一一标注，相当于为育种工作者提供‘基因导航图’。过去育种家是‘瞎子摸象’，如今可开展分子设计育种。已验证三个突破性抗病基因：Yr5x对当前流行的强毒菌株表现出显著抗性；Yr6/Pm1首次实现了条锈病与白粉病的双重防控；YrKB则同时抵御条锈病和叶锈病，并首次实现抗病性与产量协同提升。这些基因已通过标记技术设计到基因芯片上，平台转化收益达2000万元。图谱有望将品种抗病寿命从3到5年延长至10年以上。田间变化印证成效：越夏区小麦面积已压低将近50%，农民改种马铃薯、油菜、蔬菜后收入提高，病害减少，农业生态结构持续优化。",
-      "康振生常提起导师李振岐先生的影响。1992年，70岁的李振岐与团队乘火车赴陇南调查，晚上9点上车、坐一夜硬座，次日清晨6点到站后立即下地。西北农林科技大学‘东南窑’原是废弃窑洞，上世纪70年代末李振岐发现其冬暖夏凉、温度恒定，适合条锈菌低温研究，便率队改造为实验室；无设备时，用煤油灯照显微镜观察菌斑。康振生接手后在此工作十余年。如今团队培养研究生300多名，其中国家级领军人才11人、青年人才13人。他对年轻人说：要把个人发展与国家需求结合；不要迷信权威，要敢于挑战常识——正如当年发现小檗角色一样。未来目标包括：实现测报预警从定性走向定量、科学配置抗病基因组合、贯穿绿色理念推进生态调控与生物屏障建设。他说：‘只要地里还有病，研究就不能停。’"
-    ],
-    "topics": [
-      "健康与医学",
-      "农业"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573324.shtm",
-      "originalTitle": "中国工程院院士康振生：分区防控降低小麦癌症",
-      "publishedAt": "2026-10-21 07:59",
-      "retrievedAt": "2026-10-23T00:52:47.717Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:52:44.303Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Scientist's Plan to Protect Wheat From 'Wheat Cancer'",
-      "intro": "A Chinese plant scientist explains how his team fights a fast-spreading fungal disease that threatens wheat harvests.",
-      "paragraphs": [
-        "Wheat feeds billions of people. But a fungal disease can sweep across fields and cut harvests. In China, scientists call wheat stripe rust 'wheat cancer.' Kang Zhensheng is a plant pathologist and an academician of the Chinese Academy of Engineering. He has studied this disease for more than 40 years.",
-        "Stripe rust spreads through the air. Its spores can travel to wheat areas across the country. In 1950, a major outbreak cut wheat output by 6 billion kilograms. That was 41.4 percent of China's wheat output at the time. Kang's mentor, Li Zhenqi, began studying the disease in the 1950s. He spent six years finding the source in cool highland areas above 1,600 meters. There, the fungus survives summer and spreads east in autumn.",
-        "Kang's team divided China's wheat areas into three zones. The summering zone is in the high-altitude areas of Shaanxi, Gansu, Ningxia, and Sichuan — above 1,600 meters — where the fungus survives summer. The wintering zone includes Hubei, Sichuan, and southern Shaanxi — warm areas where the fungus survives winter. The spring epidemic zone is the Huang-Huai-Hai main wheat belt. The team's plan focuses on 'key governance of the summering zone, continuous control of the wintering zone, and full-scale prevention in the spring epidemic zone.' In the summering zone, farmers grow less wheat and more fruit, vegetables, and potatoes. This lowers the initial inoculum and raises income. In the wintering zone, seed treatment and early spraying reduce inoculum. In the spring epidemic zone, different resistant varieties are planted to form a biological barrier. Nationwide stripe rust occurrence area has decreased by over 50 percent. The team saves about 2 billion kilograms of wheat per year.",
-        "Kang's team challenged a long-held belief. Scientists thought stripe rust reproduced only asexually. The team discovered that the fungus can reproduce sexually on barberry — a wild shrub. They observed infected wheat and infected barberry growing side by side. Lab tests confirmed barberry hosts sexual reproduction. Barberry seeds spread by birds, mostly on mid- to high-elevation slopes. The team spent ten years surveying major wheat regions to map barberry distribution and species. Sexual reproduction on barberry explains why new pathogen races emerge and why resistant varieties lose effectiveness quickly in the summering zone. To block this, the team proposed 'sexual suppression.' They cover wheat straw stacks with plastic to prevent spores from reaching barberry. Crop structure adjustment and diversified resistance gene deployment are also key. Kang says the goal is not eradication. The goal is to keep yield loss below 3 percent — achieving ecological balance.",
-        "In 2025, Kang's team drew the world's first panoramic map of wheat stripe rust resistance genes. The map covers 431 genetic loci. It pinpoints resistance gene locations on chromosomes. This is like a 'gene navigation chart' for breeders. Three resistance genes have been validated. Yr5x shows strong resistance to current virulent strains. Yr6/Pm1 provides dual resistance to stripe rust and powdery mildew. YrKB confers resistance to stripe rust and leaf rust. YrKB also improves yield. These genes are now embedded in gene chips to guide molecular breeding. The map may extend variety resistance lifespan from 3–5 years to over 10 years. Platform conversion revenue reached 20 million yuan.",
-        "Kang learned from Li Zhenqi to take problems from the field and return to the field. He describes the work as 'head down sweating, legs covered in mud.' He tells young scientists to align their work with national needs. He encourages them to question authority and challenge common beliefs. His team has trained over 300 graduate students. Among them, 11 are national-level leading talents. Thirteen are young talents. Chinese stripe rust control methods have been shared with over 20 countries and regions. Kang stresses that each country must study its own disease patterns. Each country must build tailored solutions. Future goals include more precise forecasting. They aim to deploy diverse resistance genes. They seek green, sustainable control — not relying on pesticides. They use ecology, biology, and smart variety layout."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T00:56:35.890Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
     }
   }
 ]
