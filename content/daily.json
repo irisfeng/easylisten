@@ -1,5 +1,231 @@
 [
   {
+    "slug": "2026-11-08-mystery-solved-why-sleeping-ants-suddenly-explod",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "休眠蚂蚁为何会突然集体出动",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-08",
+    "intro": "一个计算机模型提出，蚁群突然集体行动，可能只需要一只蚂蚁和三个条件。",
+    "paragraphs": [
+      "有些蚂蚁的群体可以安静很久，像全体睡着了；然后，没有谁下命令，活动却像多米诺骨牌一样突然传遍整个巢。这种集体行为让科学家困惑了三十多年。现在，一个由美国纽约大学两位工程师（迈克尔·纳波利和毛里齐奥·波尔菲里）和新泽西理工学院一位生物学家（西蒙·加尼耶）组成的研究团队，用计算机模型提出了一个可能的解释，成果发表在2026年8月5日的《PRX Life》上。",
+      "研究者在模型里先让蚁群保持安静，再随机让一只蚂蚁开始走动。它碰到邻居，邻居也跟着动；被带动起来的蚂蚁再去碰别的蚂蚁，活动就这样一步步扩散。模型还设定：一只蚂蚁停下后，要先休息一段时间，才能再次被带动起来。",
+      "要让一只蚂蚁真正带动整个蚁群，模型发现需要三个条件同时成立。第一，活动要传得够快：蚂蚁走得够快，能不断碰到同伴，或者巢里足够拥挤，大家很容易彼此碰撞，就像玩抓人游戏时操场挤满了人。第二，被碰到的蚂蚁要容易被带动；如果它们很难被激起，最初那点动静就会熄灭。第三，整个蚁群要先彻底安静下来，进入休息状态，下一次活动才容易形成。安静得太慢，蚁群一直松松散散；安静得太快，最初的动静又可能在传开前就消失。",
+      "三个条件都满足的蚁群，在模型里出现了突然爆发；缺少任何一个，爆发就没有发生。研究者把这种从‘不会爆发’到‘会爆发’的转变叫作相变，类似液态水结成固态冰。模型使用的部分数据来自真实的橡果蚁（_Temnothorax rugatulus_）：它们走得多快、走多久会停；但休息时长等特征，只能根据整个蚁群的行为来估算。这项研究尚未经过真实蚁群实验验证。",
+      "没有参与这项研究的生物学家柯尔斯滕·普赖尔（宾汉姆顿大学）说：‘Instead, this study suggests bursts come down to simply speed and contact rate.’——这项研究提示，爆发可能只取决于速度和接触频率。生态学家埃尔娃·罗宾逊（英国约克大学）则关心：这种爆发对蚁群到底有什么用？模型打开了‘如何发生’的黑箱，却没有探索‘什么目的’。研究团队还猜测，同样的条件可能适用于其他会互相触发的群体。2015年一项关于放牧羊群的研究就发现，一只羊靠近邻居，可能引发连锁反应，让整群羊挤得更紧。蚂蚁的突然忙碌，也许并不是谁叫醒了谁，而是它们相遇的方式，刚好让动静传遍了整个巢。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
+      "originalTitle": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
+      "publishedAt": "Fri, 06 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-08T00:41:51.941Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:41:42.928Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "How One Ant Wakes a Whole Colony",
+      "intro": "Some acorn ant colonies snap from stillness to action with no leader. A new computer model shows how one ant can start it all.",
+      "paragraphs": [
+        "Some ant colonies spend long stretches resting quietly — like everyone is asleep. Then, suddenly, a massive spike of activity sweeps through the nest. Scientists have puzzled over this leaderless burst for more than 30 years. A biologist and two engineers built a computer model to test what triggers it.",
+        "Their model confirms that a single ant is all it takes to get things moving. Its motion kick-starts activity in the ants it meets, who in turn do the same to every ant they meet. But once an ant stops moving, it must rest before it can become active again. The initial ant sparks activity throughout the colony only when three conditions line up.",
+        "First, activity must travel fast enough. That happens when ants move fast enough to keep bumping into nestmates or when the nest is crowded. Second, ants must respond easily to being bumped — if they are hard to stir, the spark fizzles. Third, the whole colony must switch off and go into rest mode before the next spark. If ants settle down too slowly, the colony never fully settles. If they settle too quickly, early motions die out before spreading.",
+        "The team built the model using measurements from real acorn ants — including how fast they walk and how long they walk before stopping. Some features, such as the resting period, had to be estimated from the behavior of whole colonies. The model shows a sudden switch — from a colony that never bursts to one that does. Scientists call this a phase transition, like liquid water freezing into solid ice.",
+        "Kirsten Prior, an ant biologist at Binghamton University, expected a chemical signal or decision-making. She says the study suggests bursts come down to speed and contact rate. Grant Navid Doering, a biologist at Bilkent University, says experiments with real colonies will be necessary to test the model. Elva Robinson, an ecologist at the University of York, asks what purpose the bursts serve for the colony.",
+        "The researchers suspect the same conditions could apply beyond ants. A 2015 study of grazing sheep found that one animal moving close to its neighbor started a chain reaction. Soon the whole herd packed tightly together — with no order from a leader."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:51:12.005Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-08/2026-11-08-mystery-solved-why-sleeping-ants-suddenly-explod.webp",
+      "alt": "冷灰色纸纹背景上一只线条构成的抽象蚂蚁与几粒圆点",
+      "caption": "一只蚂蚁，或许就是群体行动的开关。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-08-8dba65",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "在喀什，足球不缺土壤",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-08",
+    "intro": "本次无法生成听稿：抓取到的原文仅有网页框架和标题，无任何正文内容。",
+    "paragraphs": [
+      "这次收到的材料是一个网页快照，能确认的只有标题《在喀什，足球不缺土壤》和发布平台——中国新闻网体育频道。",
+      "其余部分均为网站导航栏、搜索入口、图片占位符、分享按钮及大量未加载的链接。",
+      "依据审稿规则，听稿中每一句陈述都必须能在原文中找到明确依据。当前材料不包含任何可用于构建事实性叙述的内容。",
+      "需补充完整可读的正文全文，才能启动听稿制作流程。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/11-07/10727972.shtml",
+      "originalTitle": "在喀什，足球不缺土壤",
+      "publishedAt": "Sat, 7 Nov 2026 17:27:54 +0800",
+      "retrievedAt": "2026-11-08T00:44:17.621Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:44:15.260Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 4,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-08-earth-s-rocks-have-a-missing-layer-spanning-up-t",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "地球岩石记录缺失数亿年岩层，原因是什么？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-08",
+    "intro": "大峡谷里，5.4亿多年的沉积岩直接压在20亿年的老岩石上——中间那数亿年的岩层，去哪了？",
+    "paragraphs": [
+      "打开一本历史书，却发现中间被撕掉了好几章。19世纪70年代，研究地球岩石记录的地质学家就在好几个大陆上发现了这样的事。他们给这个现象起了个名字，叫‘大不整合’。正常情况下，岩层从下到上由老到新，一层压一层，像书页一样整齐。但在世界上很多地方，两层岩石之间，硬生生缺了数亿年。",
+      "最著名的例子在美国大峡谷。你伸手就能同时摸到两个时代：上面是大约540百万年（即5.4亿年）或更年轻的沉积岩，平平地铺着；下面直接是年龄可达20亿年的结晶‘基底’。中间那一大段，没了。有估算认为，这样丢失的时间加起来，最多能占地球历史的四分之一。而那段时间并不是什么都没发生——大不整合上方的年轻沉积层，正好出现在大约540百万年前开始的‘寒武纪大爆发’时期，地球生命的形态在那时急剧多样起来。科学家曾推测，大不整合期间整块整块的大陆被侵蚀，可能改变了海水的化学平衡，为动物生命的繁荣创造了条件。",
+      "问题是，什么力量能侵蚀掉这么多岩石？过去有人提出，是7.2亿到6.35亿年前‘雪球地球’时期的巨大冰盖刮掉的；也有人把它归因于大陆块的重新拼合、造山运动、地球内部热量引起的运动、火山活动，或者全球海平面变化。验证这些猜想并不容易，因为最关键的证据，恰恰是那些已经不存在的岩石。研究者只能从已知的东西出发，去补这些缺口。",
+      "这项发表在《自然》上的新研究，把目光投向了地幔。地幔是地球内部约2900公里厚的一层炽热固体岩石，会在数千万到数亿年的时间里极缓慢地流动。热的上升，冷的下沉，推拉着上方地表，能让地表升高或降低几百米。研究团队用澳大利亚的超级计算机‘加迪’，模拟了过去十亿年里地幔运动对大陆的影响。结果一致显示：从大约10亿年前到540百万年前，几块古老的大陆块被地幔顶了起来，包括如今构成北美洲大部分的劳伦大陆、北欧的波罗的大陆，以及华北；而过去540百万年里，它们又被往下拉。",
+      "这一升一降，正好凑成了大不整合形成和保存的条件。大陆被抬高时，深处的结晶基底暴露到地表，上面的沉积层被剥掉；等它再沉下去，新的沉积层开始堆积，一直保存到今天。更关键的是，抬升的时间与‘雪球地球’时期重合：巨大的冰盖在抬高的陆地上缓慢滑过，一刮就是数千万年。冰盖比河流更能侵蚀大陆，哪怕坡度很缓。研究还发现，澳大利亚和南美洲从9亿年前起只经历了两次这样的升降，条件不合适——那里确实也几乎看不到大不整合。",
+      "所以在研究者看来，大不整合像是深部地球过程留下的一枚指纹。我们脚下的力量，在地质记录里刻下了行星尺度的痕迹，也塑造了复杂生命最初演化时所处的环境。"
+    ],
+    "topics": [
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
+      "originalTitle": "Earth’s Rocks Have a Missing Layer Spanning Up to a Billion Years",
+      "publishedAt": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "retrievedAt": "2026-11-08T00:47:54.506Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:47:49.323Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Missing Rock Layer",
+      "intro": "Earth's rock record has a huge gap. Scientists now think they know what erased it.",
+      "paragraphs": [
+        "Imagine opening a history book and finding several chapters torn out. This was what geologists looking into the rock records of Earth's past discovered on several continents in the 1870s. They dubbed it the Great Unconformity. Layers of rock often stack up in chronological order. The oldest layers are at the bottom. The youngest layers are at the top.",
+        "You can see it in America's Grand Canyon. Neat layers of sediment lie directly on top of much older solid rock. A flat layer of sedimentary rock, about 540 million years old or younger, rests directly atop a crystalline 'basement' up to two billion years old. Somewhere in between, a considerable chunk of Earth's history has simply vanished.",
+        "The sedimentary layers on the younger side of the Great Unconformity appear at the same time as a huge diversification in the forms of life on Earth. This is the so-called Cambrian explosion. It began around 540 million years ago. Scientists have speculated entire continents were eroded during the Great Unconformity. That erosion may have altered the chemical balance of seawater. It may have allowed animal life to flourish.",
+        "For 150 years, nobody has known what erased those missing chapters. New research published today in Nature provides an explanation. Deep processes inside Earth lifted some continents high above the sea. Their surfaces were scoured down by enormous sheets of ice.",
+        "We used the Australian supercomputer Gadi to model how the movement of the mantle had affected continents over the past billion years. Our results showed that mantle convection caused ancient continental blocks to be lifted up. These blocks include Laurentia, Baltica, and North China. Uplift happened from around a billion years ago to 540 million years ago. Over the past 540 million years, they have been pulled downward.",
+        "The uplift predicted by our models coincided with the Snowball Earth period. That period lasted from 720 million years to 635 million years ago. During this time, enormous ice sheets scraped over the surface of continents for tens of millions of years. Glaciers and ice sheets are more efficient than rivers at eroding continents. This is true even on gentle slopes.",
+        "In contrast to Laurentia, Baltica and North China, Australia and South America experienced only two cycles of uplift and subsidence from 900 million years ago. This scenario is not conducive to the formation and preservation of the Great Unconformity. We see little evidence of it on these continents. Our research suggests the missing pages in Earth's geological archive may be due to slow mantle convection. That convection gently lifted entire continents. Then it made them subside over hundreds of millions of years."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:52:22.764Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-08/2026-11-08-earth-s-rocks-have-a-missing-layer-spanning-up-t.webp",
+      "alt": "冷灰纸纹上抽象岩层色带中间留有一段空白缺口",
+      "caption": "岩层之间，藏着一段消失的时间。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-08-05-36cdd5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "一个05后少年的数码成长记",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-08",
+    "intro": "从iPod touch到墨水屏手机，一位2005年出生的少年用亲身经历，讲出了数字设备如何悄悄塑造了他的童年和思考。",
+    "paragraphs": [
+      "他第一次接触电子设备，是一台没有Lightning接口的iPod touch。那时他还在上幼儿园，连软件都不会安装，只能反复玩爸爸提前下载好的《极品飞车》——也是在这游戏里，他第一次认识了‘菜鸟’这个词。后来Home键按坏了，他仍坚持用虚拟Home键继续使用。小学时，家里只有一部诺基亚106功能机，除了打电话，他只反反复复玩自带的贪吃蛇；直到四五年级，才终于拥有一台下放的小米4，开始自己折腾Java版《我的世界》、尝试运行CS1.6，虽然只能在超平坦模式流畅运行、进‘末地’就只有每秒四帧，却乐此不疲。",
+      "Kindle是他最重要的阅读伙伴。寒暑假，他常被带到法院图书馆，爸爸就把自己的Kindle借给他，还开通了Kindle Unlimited会员。他读完了东野圭吾全部小说，最喜欢神探伽利略系列和加贺恭一郎系列；也翻遍免费的《知乎周刊》，第一次读到朱利安·阿桑奇的故事，第一次知道硅谷有人用Soylent代替吃饭。他还读过《科学松鼠会》《我们台湾这些年》《一寸河山一寸血》《明朝那些事儿》《写给上班族的世界史》……这些书未必都适合今天的他重读，但正是Kindle，用轻便、随时可取的方式，在他心里种下了阅读的种子。",
+      "他见过最优雅的电子设备，是索尼DPT-RP1电子纸。爸爸在它一发售就花了大几千块钱从日本海淘回来，纯黑薄如蝉翼，手写触感宛若铅笔落在纸上。他带着它去英语补习班，别人写在纸上，他写在电子纸上，无敌吸引眼球；2020年疫情上网课时，他直接在上面写作业、生成PDF发给老师，觉得自己‘优雅得不行’。后来屏幕出现坏死区域、边角开裂、触控屏失灵，它最终静静躺在书桌最底层的抽屉里，成了一件少年时代的纪念品。",
+      "他用过很多手机：Surface Duo2圆了高中时的折叠屏梦，却因又宽又厚、单手使用体验差、双屏实用性低而早早‘阵亡’——大一升大二那个暑假，他在安吉漂流时把它掉进水里，它死得非常彻底；Fairphone5在解BL锁时出问题，3个月后才收到模板邮件回复，后来NFC坏了，又因在美国找不到备件无法维修；最后选了一台Minimal Phone——这款墨水屏手机完全足以日用：能用微信小程序点餐拿外卖、回微信和QQ消息、用NFC碰一碰支付；但它也‘完美地卡在了你可以使用但又不想主动使用的区间’：地铁上他开始发呆，吃饭时只能吃饭。他没想到，这部手机已经陪他整整一年，对他的Doomscrolling（无意识滑动）真的给彻底根治了。",
+      "他不是反对科技，而是不断追问：科技应该是什么样？他记得高二看奈飞纪录片《The Social Dilemma》后，深受触动，发QQ空间转发给朋友；有同学评论说想研究怎么拒绝手机和社交媒体，但大家最终还是拥抱了社交媒体。他记得好朋友Andy初中时用最爆的语言批评抖音‘点一个赞刷一分钟’，转头就在帖子下说自己‘刷不下去’，每次出门吃饭却都在看抖音。他曾是数码爱好者，天天刷IT之家、订《电脑报》、听李如一的《一天世界》播客，甚至充过会员；但自高中之后就再没看过《电脑报》或IT之家。他说：‘我依然有互联网的乌托邦情结——大概是在我初次邂逅互联网的少年年代，在贴吧、在QQ群，大家用网盘和群文件分享资源，有人手把手教装软件：我知道了手机上要用ZArchiver解压7z，学会了装谷歌框架，学会了在贴吧靠“与佛论禅”和“与熊论道”获取链接；看到人们说1024，就懂那是好人的暗号。’"
+    ],
+    "topics": [
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "少数派",
+      "region": "mainland",
+      "url": "https://sspai.com/post/116750",
+      "originalTitle": "一个 05 后的个人数码编年史",
+      "publishedAt": "Sat, 07 Nov 2026 17:05:06 +0800",
+      "retrievedAt": "2026-11-08T00:50:23.375Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-08T00:50:21.813Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-07-a-strange-quantum-theorem-has-killed-einstein-s",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "爱因斯坦相信的“现实”，为什么被量子定理排除了",
@@ -3157,234 +3383,6 @@
       "src": "/editorial/2026-10-25/2026-10-25-the-art-of-the-thousand-bloom-chrysanthemum.webp",
       "alt": "冷灰色纸张质感上，一株分枝众多的抽象菊花。",
       "caption": "一株之上，千朵同开。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-25-unlocking-the-secrets-of-the-dragon-man-skull-an",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "哈尔滨头骨被藏枯井后，为何有了龙人和丹尼索瓦人两个名字",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-25",
-    "intro": "1933年被工人藏进枯井的哈尔滨头骨，如今有了两个名字：龙人（Homo longi），和丹尼索瓦人。",
-    "paragraphs": [
-      "2018年9月，《中国日报》的一篇报道摆到了研究人类起源的学者桌上。照片里是一具保存得异常完好的头骨化石，眉骨粗壮得惊人。当时的图注猜测它属于海德堡人（Homo heidelbergensis），这个猜测后来被证明是错的。报道讲述了它被发现的故事：1933年，日军占领哈尔滨，命令一队本地工人在松花江上修铁路桥。工人们在河床沉积物里挖出了这具头骨，其中一人为了不让日本人拿走，把它吊进一口废弃的水井里藏了起来。他因为给敌人干活而感到羞耻，很多年没有作声。直到大约八十年后，临终前他才把这件事告诉儿子和孙子，头骨因此被找回，后来捐给了北京附近的河北地质大学。这个故事很难核实，甚至有过这具化石是赝品的传言。但2018年底，作者受邀和中国研究者一起研究它，亲眼确认了它是真的。",
-      "要理解它的意义，得先放下一个旧印象：人类演化不是从原始形态一步步走向现代人的单线阶梯。我们和黑猩猩的祖先大约七百万年前分开，之后约五百万年，人类祖先一直在非洲演化，大约两百万年前才开始向亚洲和欧洲扩散。自然界在几百万年里反复试验‘怎样才算成为人’，结果是出现了一大群不同的人种，有时同时存在，甚至住在同一片地区。我们是这些试验里唯一的幸存者。就在最近三十万年里，人种数量也令人吃惊。海德堡人三十万年前还生活在欧洲；更古老的直立人（Homo erectus）脑子更小、头顶扁平，至少十万年前还留在印度尼西亚的部分地区；尼安德特人（Homo neanderthalensis）至少在四十万年前到四万年前生活在欧亚西部；我们智人（Homo sapiens）至少三十万年前出现在非洲，最近五万年内走向全球。此外还有三种体型很小的人——纳莱迪人（Homo naledi）、弗洛勒斯人（Homo floresiensis）和吕宋人（Homo luzonensis）——分别生活在南非、印尼的弗洛勒斯岛和菲律宾的吕宋岛，看起来都像是更古老阶段的遗存。",
-      "哈尔滨这具头骨给这份名单又添了一个物种。中国同事给作者寄来全尺寸的3D打印件时，他不敢相信自己的眼睛。他见过几百具人类头骨化石，这是最大的一具。分析显示，它和智人、尼安德特人、海德堡人、直立人都明显不同：脑容量很大，眉脊巨大；脑颅又大又低，但表面比较平滑，没有直立人和海德堡人头上那些骨脊；面部很大却相当现代，颧骨细致、朝前，鼻子很宽，眼窝很大。2021年，中国同事把它命名为龙人（Homo longi），名字来自黑龙江（Heilongjiang River）。这个物种至少在三十万年前到大约四万五千年前生活在东亚。",
-      "头骨还解开了别的谜。关键是它唯一保留下来的那颗牙：一颗非常大的第二臼齿，后面没有第三臼齿的齿槽。换句话说，龙人没有智齿。这个牙齿特征把中国境内另外一些不完整的化石联系了起来，它们也是大臼齿、没有智齿。这说明它们同样属于龙人，推翻了此前两种猜测：它们可能属于海德堡人的亚洲分支，或者属于直立人和现代亚洲人之间的过渡类型。",
-      "它还解释了丹尼索瓦人的身份。丹尼索瓦人得名于阿尔泰山脉俄罗斯一侧的丹尼索瓦洞。考古学家在那里挖了几十年，找到成千上万件动物骨骼和石器，人类骨骼却只有碎片和几颗大臼齿。2010年，其中一块小指骨碎片产出了质量堪比现代骨骼的古DNA，而它已有大约六万年；这说明西伯利亚南部那个寒冷干燥的洞穴保存遗骸的能力多么惊人。靠着其他化石甚至洞穴沉积物里的DNA，我们知道丹尼索瓦人断断续续住在洞里，从二十多万年前一直到大约四万五千年前，之后智人接管。同样在2010年，科学家从欧洲化石里重建出高质量的尼安德特人基因组，而丹尼索瓦人的基因组和尼安德特人、和现代人都相当不同。十年后，分析表明丹尼索瓦洞里那些大臼齿也属于和龙人头骨同一个物种。更近一些，研究者从哈尔滨头骨中提取DNA和化石蛋白，确认了它和丹尼索瓦洞、以及中国其他化石的联系：青藏高原高处洞穴里的下颌骨、台湾渔民从海里捞上来的骨头，还有中国西南一个洞穴里最近描述的遗存。",
-      "所以这具头骨，是古人类学家追踪了很久的那个物种目前最完整的标本。它现在有两个名字：丹尼索瓦人，和更正式的龙人（Homo longi）。一具在废井里躺了八十年的头骨，最终让人看到：成为人从来不是一条独木桥，而是一条分叉很多的河，我们只是其中侥幸流到今天的那一支。"
-    ],
-    "topics": [
-      "历史",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "The Conversation",
-      "region": "international",
-      "url": "https://theconversation.com/unlocking-the-secrets-of-the-dragon-man-skull-and-what-it-reveals-about-human-evolution-291321",
-      "originalTitle": "Unlocking the secrets of the ‘Dragon Man’ skull – and what it reveals about human evolution",
-      "publishedAt": "2026-10-23T09:03:28Z",
-      "retrievedAt": "2026-10-24T23:27:34.401Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:27:30.081Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 58,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Dragon Man Skull and Our Human Story",
-      "intro": "A remarkably complete skull from China is helping scientists piece together a lost chapter of human evolution.",
-      "paragraphs": [
-        "In September 2018, a China Daily story about a fossil skull reached the desk of a scientist who studies human origins. The skull had been found in Harbin, in north-eastern China, in 1933. Japanese forces were occupying the city and ordered local workers to help build a railway bridge across the Songhua River. The workers uncovered the skull in river deposits. One of them hid it from the Japanese by lowering it down a disused well. Feeling ashamed of having worked for the enemy, he kept quiet about the find for many years. Finally, some 80 years later, he told his son and grandson as he lay dying. That led to the almost intact skull being recovered and later donated to Hebei Geo University near Beijing.",
-        "That origin story is difficult to verify, and there were rumours that the fossil was actually a fake. The scientist was invited to join Chinese researchers in studying this astonishing relic at the end of 2018. He confirmed first hand that it was real. It was one of the most complete human fossils ever found. He jumped at this wonderful opportunity to help put it in its proper place in human evolution.",
-        "Human evolution was not a simple straight line from primitive forms to modern humans. Hominins split from the ancestors of chimpanzees about 7 million years ago. For the next 5 million years or so, hominins continued their evolution in Africa. About 2 million years ago, they began to disperse across Asia and Europe. Nature conducted multiple experiments over millions of years in how to become human. Different kinds of humans sometimes lived at the same time and even in the same regions. We are the sole survivors of all those experiments.",
-        "The Harbin skull was the biggest fossil human skull the scientist had ever seen. Analyses showed it was clearly different from fossils of Homo sapiens, Homo neanderthalensis, Homo heidelbergensis and Homo erectus. It had a very large brain size, a massive brow-ridge, and a large, low but rather smooth braincase. It also had a big but modern-looking face with delicate forward-facing cheekbones, a very wide nose, and large eye sockets. In 2021, Chinese colleagues named the new species Homo longi, named after the Black Dragon River (Heilongjiang). Ever since, the skull has been known as Dragon Man. This species appears to have lived in eastern Asia from at least 300,000 until about 45,000 years ago.",
-        "The skull’s single preserved tooth was a very large second molar, with no sign of a socket behind it for a third molar. In other words, Dragon Man did not have wisdom teeth. These dental features provided a link with other less complete fossils from China that also had large molars but no wisdom teeth. This and other resemblances indicated that those fossils were also Homo longi. It also shed light on the mysterious Denisovans, named after Denisova Cave in the Russian part of the Altai Mountains. A finger bone from the cave yielded ancient DNA matching the quality of modern bones — despite being about 60,000 years old. The Denisovans occupied the cave intermittently from more than 200,000 until about 45,000 years ago. Later analyses of the Harbin skull for DNA and fossil proteins confirmed both the connection to Denisova Cave and various other fossils found in China. The skull is now known by both names: Denisovan and the more formal Homo longi."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:31:00.077Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-24-your-skin-s-chemistry-may-affect-which-mosquitoe",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蚊子为什么偏爱某些人，线索可能在皮肤气味和细菌里",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-24",
-    "intro": "一项新研究发现，不同种类的蚊子偏爱不同的人，原因或许藏在皮肤气味和皮肤上的细菌里。",
-    "paragraphs": [
-      "夏天里常能看到这样的场面：同一群人待在一起，有人被蚊子咬得满腿是包，有人却几乎没事。一项新研究发现，这或许和每个人皮肤上的化学物质以及住在皮肤上的微生物有关。而且，不同种类的蚊子，口味还不一样。",
-      "蚊子寻找吸血对象，靠的是视觉、气味线索，还有人体的热量。可一个人的气味里，能包含超过一千种化学物质，想弄清哪一种最影响蚊子的选择并不容易。为了找出答案，位于迈阿密的佛罗里达国际大学的研究者马修·德詹纳罗和同事招募了一百一十九位志愿者，让三种蚊子分别‘闻’他们的气味。",
-      "实验用的装置能让笼子里的蚊子闻到人的气味，却咬不到人。埃及伊蚊（_Aedes aegypti_）和白纹伊蚊（_Aedes albopictus_）在白天进食，志愿者可以白天到实验室，把手臂伸进装置。致倦库蚊（_Culex quinquefasciatus_）只在夜里出来觅食，研究者就让志愿者先戴上尼龙袖套几个小时，收集他们的气味，到了晚上再把袖套放进装置。研究者数一数有多少蚊子凑过来，以此判断它们对每个人气味的兴趣有多大。研究结果于8月21日发表在期刊《iScience》上。",
-      "三种蚊子挑中的人并不相同。有的人能同时吸引不止一种蚊子，但没有哪一位志愿者是三种蚊子共同的最爱。埃及伊蚊和致倦库蚊更喜欢皮肤气味较淡的人；白纹伊蚊则被13种闻起来像植物的化学物质吸引。这种差别说明，每种蚊子可能各自演化出了找吸血对象的办法。",
-      "不过，人体气味非常复杂。研究蚊子气味的玛丽亚·埃莱娜·德奥巴尔迪亚说，要把其中的化学物质一种一种检测出来很难，所以可能还有别的有吸引力的化合物没被这项研究找到。另一位研究者艾丽西亚·舒韦林则提醒，每种蚊子吸食哪些动物、又在什么时间觅食，都可能影响它们的选择。",
-      "研究团队还把目光转向皮肤上的细菌。我们气味里的很多化学物质，正是微生物制造出来的。他们擦拭志愿者的皮肤取样，发现某些细菌对三种蚊子都有吸引力。接下来，他们想弄清楚这些细菌怎样造出影响蚊子选择的气味，这或许能带来新的驱蚊办法：比如让人的气味不那么招蚊子，或者用最有吸引力的化学物质做诱饵，把蚊子引进陷阱。‘我们都在努力弄清楚怎样阻止人们生病，’研究主要作者凯莉·马雷罗说，‘弄清蚊子为什么咬人，是实现这个目标的最佳途径。’"
-    ],
-    "topics": [
-      "健康与医学",
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/skin-chemistry-attract-mosquito-bites",
-      "originalTitle": "Your skin’s chemistry may affect which mosquitoes you attract",
-      "publishedAt": "Fri, 23 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-23T23:58:01.161Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T23:57:59.511Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-24/2026-10-24-your-skin-s-chemistry-may-affect-which-mosquitoe.webp",
-      "alt": "冷灰色调抽象蚊子剪影与漂浮的圆形色块",
-      "caption": "气味与微生物，或许在悄悄决定蚊子的选择。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-24-4d9cb4",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我国科学家破解丹尼索瓦人辨识难题",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-24",
-    "intro": "中国科学院古脊椎动物与古人类研究所科研人员结合古蛋白质组学与化石形态对比，确认河北阳原许家窑人属于丹尼索瓦人，并首次建立起丹尼索瓦人的形态识别标准。",
-    "paragraphs": [
-      "有一支古人类，科学家认识他们已经快十六年了，却一直不知道他们究竟长什么样。现在，这个问题第一次有了答案。记者从中国科学院古脊椎动物与古人类研究所获悉，该所科研人员确认，河北阳原的许家窑人，就是丹尼索瓦人。",
-      "丹尼索瓦人是一支已经灭绝的古老人类支系。2010年，科学家依靠西伯利亚丹尼索瓦洞化石的DNA证据发现了这一人群。后续分子证据显示，丹尼索瓦人曾广泛分布在亚洲多地，生存时间大约在距今30万年至4.5万年前。长久以来，一个难题困扰学界：丹尼索瓦人只能靠分子信号识别，我们不知道丹尼索瓦人到底长什么样，没有一套像尼安德特人、现代人那样清晰的外形判定标准，东亚大量同时期古人类化石到底是不是丹尼索瓦人，一直没有明确答案。",
-      "位于河北阳原的许家窑遗址，是东亚中更新世晚期最重要的古人类遗址之一，距今19.9万到13.8万年。这里出土了20件古人类化石，至少代表16个不同个体，还伴生大量石球等石制品与动物化石，地层清楚、材料丰富，是解开谜题的理想材料。由于年代久远，化石里的古DNA已经很难保存，于是中国科学院古脊椎动物与古人类研究所付巧妹、邢松等科研人员联合南京师范大学、北京大学等单位，转向古蛋白质组学开展攻关研究。",
-      "科研团队从许家窑人头骨、下颌骨化石微量骨粉中提取了古蛋白，找到丹尼索瓦人独有的蛋白变异位点，系统发育分析证实，许家窑人就是丹尼索瓦人。以此为锚点，团队对比哈尔滨人、夏河人等已确认的丹尼索瓦人化石，梳理出颅骨、下颌骨、牙齿上一套独有的形态组合特征，区分于直立人、尼安德特人和现代人。",
-      "研究团队进一步比对了金牛山、大荔、华龙洞等多处东亚古人类化石发现，这些中更新世晚期古人类，形态特征和许家窑丹尼索瓦人高度契合，大概率同属这一支古人类。这意味着丹尼索瓦人的活动范围几乎覆盖整个东亚大陆，适应能力远超此前认知。相关研究成果10月21日在国际学术期刊《自然》发表。",
-      "这项研究首次建立起丹尼索瓦人的形态识别标准，为厘清东亚中更新世人类演化格局补上关键一环。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573452.shtm",
-      "originalTitle": "我国科学家破解丹尼索瓦人辨识难题",
-      "publishedAt": "2026-10-23 10:26",
-      "retrievedAt": "2026-10-23T23:58:56.617Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-23T23:58:54.840Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-24-everyone-hates-oxford-street-will-pedestrianisat",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "伦敦牛津街将对车辆关闭，希望重新变成人们愿意停留的街道",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-24",
-    "intro": "欧洲最繁忙的购物街即将对车辆关门，伦敦希望这条几乎没人说喜欢的街道，能重新变成人们愿意停留的地方。",
-    "paragraphs": [
-      "伦敦人几乎没人愿意承认自己喜欢牛津街。可这条街每天有超过五十万人经过，相当于把整个爱丁堡的人口搬上来一次。它是欧洲最繁忙的购物街，贡献伦敦经济产出的百分之五；每年两千两百万到伦敦的外国游客，多数大概都在某个时刻踩上过它。就是这样一条街，下周一，10月26日，要对车辆关门了。",
-      "禁行范围是牛津街1.2英里中的一半——0.6英里，从牛津 Circus 交叉口附近一直向西，到塞尔福里奇百货。汽车、货车、面包车、出租车、公交、自行车、电动自行车、滑板车一律禁止进入，只留行人和紧急车辆。这是至少自2003年特拉法加广场从一个大环岛改造成公共空间以来，伦敦市中心街景最显著的变化。伦敦市长萨迪克·汗在2026年2月宣布了这个决定。三年前他出版回忆录《呼吸》，书中将自己从小患哮喘归因于在伦敦吸入受污染的空气。",
-      "牛津街确实需要一次大修。它窄，两边楼高，形成一个‘城市峡谷’，把公交和出租车排出的柴油废气闷在里头。2014年，这里的二氧化氮浓度被测得是全球最高。同一年，犯罪严重到阿联酋政府警告本国公民避开这个区域。疫情和网购又给了它一击：店铺空置率从2019年的4.5%，涨到2023年初的16.9%。填补空铺的，是一些来历不明的美国糖果店和空荡荡的纪念品店，据称靠逃税维持。汗在2024年承认，这是一种‘管理式衰退’。",
-      "接下改造设计的是伦敦一家叫East的建筑事务所。他们不做房子，做房子外面的世界：标识、长椅、路缘、铺装、灯光、花箱、树，还有公共艺术。近三十年，他们做了近三十个高街改造项目。负责人朱利安·刘易斯和阿尔奇·巴什福德去年中标后，第一件事是翻档案。他们找到一个起点：1932年，弗吉尼亚·伍尔夫在《好管家》杂志上写过一篇关于牛津街的文章。伍尔夫把它比作‘一条巨大的滚动丝带’，‘一条河的卵石河床’，被‘明亮的溪流’冲刷。她嫌它俗艳，但也觉得它闪耀、刺激、让人招架不住，而这一切来自街上杂乱人群的不停流动。设计团队把这个河流的意象，落成了很具体的决定：光怎么落在表面上，长椅和柱子怎么微微反光。他们打算先摆一些盆栽的小树，加上新的座椅。从下周到2027年春天是测试期，看看人们怎么用这些树：会不会变成约见面的地方，歇脚的地方，认路的地标。",
-      "人行化是一件事，让牛津街变成人们真想待着的地方是另一件事。刘易斯对分隔人行区的路桩很有意见，他把路桩当人来说。他说，路桩通常是可怕的东西，太常显得‘抱歉’。一条歪掉的、塑料感的反光条，传递的信息是‘对不起，我其实不想在这儿，但我得让你知道附近有车’。他说，路桩应该说：‘我很高兴在这儿，因为我在做一份工作。’"
-    ],
-    "topics": [
-      "城市与公共"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Guardian Long Read",
-      "region": "international",
-      "url": "https://www.theguardian.com/news/2026/oct/22/everyone-hates-oxford-street-will-pedestrianisation-save-it",
-      "originalTitle": "Everyone hates Oxford Street. Will pedestrianisation save it?",
-      "publishedAt": "Thu, 22 Oct 2026 04:00:07 GMT",
-      "retrievedAt": "2026-10-24T00:00:12.609Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T00:00:09.244Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Oxford Street Goes Car-Free",
-      "intro": "A Guardian Long Read looks at London's plan to close Europe's busiest shopping street to traffic.",
-      "paragraphs": [
-        "Oxford Street is the busiest shopping street in Europe. On Monday, 26 October, half of its 1.2-mile stretch will be closed to traffic. Cars, lorries, vans, taxis, buses, bicycles, e-bikes, and scooters will be banned. Only pedestrians and emergency vehicles will be allowed in. The mayor of London, Sadiq Khan, announced the pedestrianisation plan in February. To the surprise of many Londoners, it is actually happening.",
-        "This change marks the most remarkable transformation to central London's streetscape since at least 2003, when Trafalgar Square was turned into one of London's most recognisable public spaces. It will form the most visible part of the mayor’s legacy. Khan attributes his asthma to growing up inhaling London’s polluted air. For him, pedestrianising Oxford Street is the culmination of a mission to create a greener city oriented around public health, walking and cycling. In 2014, Oxford Street was found to have the highest concentration of nitrogen dioxide pollution in the world. Its narrow streetway and tall buildings trap diesel fumes from buses and taxis.",
-        "Pedestrianisation is one thing; making Oxford Street somewhere anyone actually wants to spend time is another. Its primary associations are crowds, stress, dirt, noise, tacky consumer capitalism, and crime. A police officer said pedestrianisation would be both good for the street and make her job harder. Oxford Street receives more than 500,000 visitors every day — equivalent to the population of Edinburgh. It generates 5% of the capital’s economic output. And yet, nobody loves Oxford Street. During the course of writing this article, the author did not meet anyone who would even admit to liking it.",
-        "Vacancy levels on Oxford Street soared from 4.5% in 2019 to 16.9% by early 2023. Covid and internet shopping hit it hard. Raids have hauled in counterfeit goods and illegal vapes. US candy stores and empty souvenir shops have appeared. In 2024, Khan conceded the street was in 'managed decline'. His gamble is that pedestrianisation will reverse that decline and flood the street with life again.",
-        "The design team East is leading the redesign. They studied a 1932 article by Virginia Woolf in Good Housekeeping. She described Oxford Street as a 'great rolling ribbon … the pebbly bed of a river … washed by a bright stream'. The pedestrianised zone will run from close to the Oxford Circus crossing to Selfridges — 0.6 miles. The test phase lasts until spring 2027. The plan includes young trees in pots and new places to sit. The team will learn how people respond: will the trees become meeting points, rest stops, or landmarks for wayfinding? Bollards will mark the edges. One architect said bollards should look 'happy to be here, because I’m doing a job.'",
-        "The real test begins after the traffic disappears. Can Oxford Street become a place where people want to linger?"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T00:08:09.171Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 31,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-24/2026-10-24-everyone-hates-oxford-street-will-pedestrianisat.webp",
-      "alt": "冷灰色调抽象街道俯视图与步行区域色块",
-      "caption": "当街道交还给行人，停留或许重新成为可能。",
       "kind": "editorial"
     }
   }
