@@ -1,5 +1,194 @@
 [
   {
+    "slug": "2026-11-09-we-need-to-talk-about-meta-political-interferenc",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "巴西研究：Meta 大选期间违规投放境外资金政治广告，静默期仍传播竞选内容",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-09",
+    "intro": "巴西研究团队 NetLab UFRJ 在2026年大选期间监测 Meta 平台，发现其违规投放境外资金广告、在投票静默期持续传播竞选内容，并存在卢拉与博索纳罗阵营间显著的广告定价差异。",
+    "paragraphs": [
+      "今年一月，就在特朗普重返美国总统职位前夕（2025年1月），Meta 创始人兼 CEO 扎克伯格宣布将修改公司内容审核政策，称此举是为了捍卫‘言论自由’，并指该自由正受到全球范围内被其视为‘审查’的压力威胁。这一宣布被原文描述为‘标志着 Meta 与极右翼围绕共同目标——大型科技行业去监管化——的接近’。此后，大型科技公司与美国特朗普政府之间的联系日益紧密，显示一小群人的私人利益可能凌驾于公共利益之上。在巴西，近期不断累积的指控称，大型科技公司、尤其是 Meta，干预了2026年大选，意图削弱总统卢拉（劳工党）的连任。此类指控并非首次出现；过去十年大量研究已揭示数字平台在外国干预全球选举中所起的中介作用，并指出追究企业责任的困难。",
+      "巴西研究团队 NetLab UFRJ 多年来持续调查主要数字平台如何塑造公共辩论、影响人们对现实的认知，且常游离于巴西现行监管与规范框架之外。Meta 尤其成为虚假信息和欺诈广告的温床；路透社调查显示，此类欺诈广告已占其年收入的10%。尽管巴西当局已对 Meta 提起诉讼和行政行动，民间社会也多次要求调查，媒体亦发布多篇报道，该公司仍既未表现出有效治理此类内容所需的意愿，也未展现必要勤勉。",
+      "NetLab UFRJ 在2026年选举活动期间设立‘大型科技公司观察站’，旨在监测 Meta 等平台在算法推荐与政治广告两大关键领域的表现，检验其是否遵守巴西最高选举法院（TSE）制定的现行法律。分析结果显示：2026年7月至9月间，Meta 收入约200万雷亚尔（合40万美元），用于运行1613条从巴西境外下单的广告，这些广告旨在支持或损害特定候选人；全部以外币支付，由声明所在地为其他国家的页面推广。巴西选举法明文禁止候选人接受境外现金或实物捐赠。但该禁令未能阻止这些广告向巴西用户展示；据可得信息，这些广告可能获得高达1.71亿次浏览。",
+      "违规行为不止于此。巴西选举规则明确禁止在投票前48小时至投票后24小时内投放竞选广告。但研究人员在2026年两轮选举中均发现数百条支持或反对特定候选人的广告在 Meta 平台上流通，且无明显限制。Meta 甚至允许假冒巴西最高选举法院（TSE）官方账号的虚假主页推广关于所谓‘数字投票’的虚假信息，声称选民可在第一轮投票日居家投票——而该制度在巴西选举体系中根本不存在。此外，卢拉政治竞选主页曾被 Meta 无解释地临时停用，致其无法投放选举广告；2026年9月23日，其所属劳工党（PT）报告称已被禁止在 Meta 平台投放广告。Meta 于2026年10月16日发表声明，否认干预选举，将此次停用归因为一次‘错误的反欺诈审核’，称该审核系依据其与巴西联邦政府合作打击公共项目欺诈的协议执行。然而，NetLab UFRJ 的分析显示，2026年9月23日前后，涉及联邦公共政策的数百条欺诈广告仍在流通，表明上述反欺诈措施未能在此期间有效拦截同类内容。",
+      "另一项发现是广告定价存在差异。根据 Meta 公布的数据，研究团队估算：在第一轮选举中，卢拉阵营为触达同等数量用户，可能比其极右翼对手弗拉维奥·博索纳罗阵营多支付33%至43%的费用。但受限于 Meta 透明度政策的缺陷，无法精确识别其广告定价所依据的具体参数与标准，因而无法就该价差成因得出确定性结论。即便如此，美国、印度与荷兰等地的研究同样提供了该平台存在歧视性广告定价实践的证据。其他争议亦佐证整体失职：WhatsApp（由 Meta 运营）的 AI 图像生成服务被用户报告可轻易生成有利于弗拉维奥·博索纳罗竞选的内容，却难以生成同等效果的卢拉相关内容；纪录片频道 Revelando 发布的数条批评弗拉维奥·博索纳罗的视频，在 Instagram 上发布后不久即遭删除，Meta 未提供清晰说明。",
+      "这些事件令人质疑 Meta 内容审核与管控系统的前后一致性，暴露其在广告处理、内容推荐、广告定价、账号及帖文审核等环节缺乏透明标准与平等保障。无论选举某一方是否被刻意偏袒，无可争议的是：大型数字平台持续行使决定何者可见、何者边缘化的权力，却无透明准则，亦无问责机制。对这些平台而言，维护经济利益与利润最大化，优先于用户权利、公共利益乃至民主本身。"
+    ],
+    "topics": [
+      "全球时事",
+      "数字生活",
+      "政治与社会"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/we-need-to-talk-about-meta-political-interference-and-interests-in-the-brazilian-elections-296102",
+      "originalTitle": "We need to talk about Meta: Political interference and interests in the Brazilian elections",
+      "publishedAt": "2026-11-06T17:53:34Z",
+      "retrievedAt": "2026-11-09T01:04:04.759Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-09T01:04:00.717Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 72,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Meta and Brazil's Election: Ads, Rules, and Power",
+      "intro": "A Brazilian research group says Meta profited from election ads that broke Brazilian rules and reached millions of voters.",
+      "paragraphs": [
+        "NetLab UFRJ, a research group at the Federal University of Rio de Janeiro, monitored Meta during Brazil's 2026 election campaign. Their analysis found Meta's platforms shaped public debate. They also influenced people's perceptions of reality. This often happened outside Brazilian regulatory frameworks. Meta rejects accusations of election interference.",
+        "Between July and September, NetLab found Meta received approximately R$ 2 million (US$ 400,000) for 1,613 election ads. These ads were placed from outside Brazil. All were paid in foreign currencies. They were boosted by pages declaring locations in other countries. Some ads aimed to favor or harm candidates. Brazilian electoral law prohibits candidates from receiving cash or in-kind donations from abroad. These ads were displayed to Brazilian users. They may have reached up to 171 million views.",
+        "Brazilian electoral rules prohibit election advertising from 48 hours before voting until 24 hours after. NetLab identified hundreds of candidate-targeted ads on Meta’s platforms. These ads circulated during both rounds of the 2026 election. There were no apparent restrictions. Fake profiles posed as official Electoral Supreme Court channels. They boosted disinformation about a supposed 'digital vote'. This falsely claimed people could vote from home on the first round. That system does not exist in Brazil.",
+        "On September 23, Meta temporarily disabled Lula’s political campaign page. This blocked it from running electoral ads. His Workers’ Party (PT) reported being blocked from advertising on Meta’s platforms. Meta rejected claims of election interference. It attributed the deactivation to an 'incorrect anti-fraud review'. This review was carried out under an agreement with the federal government. NetLab identified hundreds of fraudulent ads involving federal public policies. These ads circulated before and after September 23. That indicates the same anti-fraud measures failed to stop such content.",
+        "NetLab estimates that for the first round, Lula’s campaign may have paid between 33% and 43% more than Flávio Bolsonaro’s campaign. This was to reach the same number of users on Meta’s platforms. Meta’s transparency limitations make it impossible to identify precisely which parameters price ads. So researchers cannot draw definitive conclusions about the mechanism. Studies in the United States, India, and the Netherlands also point to evidence of discriminatory pricing practices.",
+        "Users reported WhatsApp’s Meta AI generated content favorable to Flávio Bolsonaro more easily than for Lula. Meta acknowledged a 'gap in the AI system'. It said the problem was corrected. Instagram removed videos criticizing Flávio Bolsonaro from the documentary channel _Revelando_. This happened shortly after posting. There was no clear justification from the company. These episodes cast doubt on the consistency of Meta’s moderation systems. They expose failures that call for greater investment and improvement. NetLab stresses that Meta’s systems determine visibility. There is no transparency over their criteria. There is no mechanism for accountability. Profit prevails over user rights and democracy."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-09T01:13:45.831Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-09-a-neuropsychologist-explains-the-importance-of-e",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "神经心理学家：规律运动有助中老年人保护记忆力，降低近半痴呆风险",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-09",
+    "intro": "一位神经心理学家发现：坚持规律运动，能实实在在帮助中老年人保护记忆力，降低近一半患痴呆的风险。",
+    "paragraphs": [
+      "你可能听过阿尔茨海默病，也就是常说的‘老年痴呆’。科学家每年投入数十亿美元，寻找能治愈它的特效药。但蒙特利尔大学医学教授路易·贝尔赫博士说：真正有效的‘药’，可能就藏在我们每天的走路、骑车和抬腿里——坚持运动，能让患痴呆的风险下降最多达45%。",
+      "贝尔赫博士在蒙特利尔心脏病研究所的实验室里，带着50到95岁的志愿者做研究。他们每周运动三次，包括骑固定自行车、快走、肌肉训练，还配合手机上的记忆小游戏。三个月后，很多原本注意力变差、反应变慢的人，变得警觉多了；半年后，连记忆力也明显改善。脑部扫描还显示，负责记忆的关键区域——海马体，血流更充足了，结构也更健康。",
+      "为什么运动对大脑这么有用？原来，当我们活动肌肉时，身体会释放一类叫‘肌源因子’（myokines）和‘运动因子’（exerkines）的蛋白质。它们像信使一样，从肌肉出发，一路跑到大脑，帮助神经细胞建立新连接、修复旧损伤——这个过程，就叫‘神经可塑性’。物理训练刺激这些蛋白产生，从而促进神经可塑性。",
+      "有人觉得：‘我都六七十岁了，现在开始锻炼，还来得及吗？’贝尔赫博士的回答很肯定：来得及。他说：‘它从来都不晚’，即使教育等早年因素已定型，晚年仍可通过运动干预。而且，心脏和大脑是‘搭档’——血压高、睡眠差、久坐不动、饮食不健康，这些习惯都在拖累大脑健康。",
+      "当然，光有好想法还不够。研究发现，如果停止运动，积极效果会在一个月或一个半月内消失。所以，选一项你能长期坚持的运动更重要：比如快走，它非常完整、容易开展、成本低；再补充些增强肌肉力量、改善姿势与活动能力的练习。平衡和姿势控制训练，如瑜伽，对维持老年人独立生活能力有显著帮助。",
+      "最后要提醒的是：这篇讲的是‘预防’，不是‘治疗’。它说的是，健康习惯能降低风险，而不是说运动可以代替医生或药物。如果你或家人已有明显记忆问题，一定要及时找专业医生评估——而日常动起来，正是我们每个人今天就能送给未来自己的一份可靠礼物。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪",
+      "脑与认知"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369/",
+      "originalTitle": "A Neuropsychologist Explains the Importance of Exercise in Fighting Dementia",
+      "publishedAt": "Fri, 06 Nov 2026 17:00:00 +0000",
+      "retrievedAt": "2026-11-09T01:05:54.832Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-09T01:05:50.019Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 26,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Exercise and a Healthy Brain",
+      "intro": "A neuropsychologist says exercise and other healthy habits may cut dementia risk far more than many people realize.",
+      "paragraphs": [
+        "What if one of the best medicines for your brain is a brisk walk? Dr. Louis Bherer studies how lifestyle affects brain health in older adults. He says healthy habits could prevent nearly half of dementia cases.",
+        "Billions of dollars are spent searching for a drug to cure Alzheimer's disease. Bherer says public health has neglected lifestyle. The gap between how long we live and how long we stay healthy is widening. Nine out of ten people over 65 have at least one cardiovascular risk factor.",
+        "Many people think 65 or 70 is too late for new habits. Bherer says it is never too late. Heart and brain health go hand in hand. What's good for the heart is good for the brain.",
+        "His laboratory works with people aged 50 to 95. They combine memory games on phones with physical exercise. That includes stationary bikes, treadmills, and muscle strengthening. Participants become more alert after just a few weeks. Improvements in attention, alertness, and response speed appear after six months of training.",
+        "Exercise three times a week stimulates the production of proteins that promote neuroplasticity. Muscles release myokines and exerkines — molecules that affect metabolism, inflammation, mood, and brain health. Brain imaging shows improvements in blood flow and hippocampal structure — a region key to memory. But benefits fade within a month or a month and a half if training stops. And the older we get, the faster this happens.",
+        "So choose activities that fit easily into daily life. Running is a very complete, easy, and inexpensive exercise. Brisk walking is also good — aim to work up a bit of a sweat. Add muscle-strengthening, balance, and posture exercises like yoga. These help maintain independence and reduce fear of falling."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-09T01:14:17.952Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-09/2026-11-09-a-neuropsychologist-explains-the-importance-of-e.webp",
+      "alt": "冷灰纸感背景上，双手拼合带脑回纹理的拼图，旁有叶片与步道线条。",
+      "caption": "运动与记忆之间，可以被慢慢拼合。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-09-4b6f33",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "曾苏民：加工厂走出的模锻大师",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-09",
+    "intro": "他没受过规范完整的大学教育，却用一万吨水压机造出三万吨水压机才能生产的锻件，让波音专家惊呼“东方魔术”。",
+    "paragraphs": [
+      "1987年，美国波音公司的专家眼看就要回国了。西南铝加工厂的验收结果刚刚出来：七个低倍试验样品里，有一个不合格。曾苏民恳请他们再留48小时，随后召集工程技术人员找出原因，指挥生产线24小时连轴转。仅仅30小时后，新锻制的样品便成功通过验收。波音专家们不禁惊呼：‘简直是东方魔术！’曾苏民是我国金属压力加工专家、中国工程院院士，毕生从事精密模锻工程技术研究。",
+      "1932年2月14日，曾苏民生于湖南一个偏僻的山村。小学时，他须翻越一座山、穿过布满荆棘的‘毛狗路’，才能抵达离家三公里的学校，也从未缺课。直到日军敌机肆虐，他仍是坚持到校的唯一学生，在炮火声中完成了学业。听闻太多乡亲被炸死的消息，他从小便立誓：读完书就去造飞机保卫祖国。15岁那年，他步行三天三夜赴长沙求学，从3000多人中脱颖而出，以初中学历跨级考入国立中央技艺专科学校机械科。",
+      "毕业后，他被分配到东北工业部有色金属管理局，成为一名见习技术员。1952年，工作出色的他被推荐至抚顺俄语训练班，次年即被派往苏联乌拉尔卡明斯克铝加工厂学习。铝加工制造领域当时在中国是一片空白。他把舍不得买的书全本手抄，硬是啃下了400多页的《压力加工原理》，以优异成绩被评为四名优秀学员之一。归国后，他进入哈尔滨新风加工厂（即101厂，后更名为东北轻合金加工厂）。在国家重点工程材料研制一线拼搏的几十年中，他曾带队锻造出新中国第一批五种导弹的关键结构材料，是第一架国产战斗机、第一颗原子弹、第一颗氢弹、第一颗人造卫星、第一枚长征火箭、第一艘神舟宇宙飞船等所用关键材料的领衔研制者。他曾用10天与同事们赶制出20枚合格的氢弹内壳；亦曾大胆独创‘高温多次分部模锻’法，用一万吨水压机奇迹般造出了三万吨水压机才能生产的特大型铝合金锻件，为国家节约外汇1800万美元。",
+      "1966年，曾苏民被调至‘三线’的112厂（即重庆西南铝加工厂）。到20世纪80年代，时任该厂总工程师的曾苏民已是响当当的‘模锻王’。彼时，中国铝加工业迎来打入国际市场的重要机遇——四川省要进口一批民用飞机，西南铝加工厂在各方争取下得以与美国波音公司进行补偿贸易，为其提供模锻件。我国铝加工水平虽已大幅提升，却仍落后于世界顶级工艺三十年；而波音飞机的精密模锻件，当时被公认制作难度最高，其质量规范巨细无遗、不容偏差。面对挑战，曾苏民责无旁贷冲在前列。经过多次赴美考察和一千多个艰难攻关的日子，1987年，他和团队迎来验收阶段。7个低倍试验样品中有1个不合格。他恳请波音专家组再留48小时，30小时后新样品通过验收。半年多后，波音公司代表捧着沉甸甸的波音铜牌——锻件生产许可证重回中国，授予西南铝加工厂。截至2005年，西南铝共获得波音公司的5个生产许可证，可为其供应两种合金18个品种的锻件。曾苏民牵头制造的零部件和组件，至今已被5700多架波音飞机采用。",
+      "1990年，长征二号E运载火箭发射‘亚洲一号’卫星，曾苏民领衔研制的巨型运载火箭转接框整体铝锻环起到关键作用，被称为‘亚洲第一环’；1996年，西南铝为中国首艘飞船‘神舟’号生产锻坯和外壳，曾苏民与团队发明双级除氢过滤技术，研制出高镁铝合金LF5材料，此后该材料便一直应用于‘神舟’飞船上。他完成工作的同时，还考入101厂的职工业余大学本科班，利用休息时间勤学六年，获取了文凭。班上许多同学甚至教师都称他为‘小曾老师’。从技术员到教授级高工，这位没受过正规高等教育的院士，靠一生的自我鞭策与钻研精神，攻克下一道道看似不可逾越的难关，为我国有色金属加工事业奋斗终生。他带队成功为我国105颗卫星研发关键部件，先后获15项国家级科技奖。"
+    ],
+    "topics": [
+      "科学家成长史",
+      "技术报国",
+      "非学院路径的卓越"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574373.shtm",
+      "originalTitle": "曾苏民：加工厂走出的模锻大师",
+      "publishedAt": "2026-11-08 08:03",
+      "retrievedAt": "2026-11-09T01:08:38.563Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-09T01:08:35.206Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-09/2026-11-09-4b6f33.webp",
+      "alt": "冷灰纸感背景上，抽象水压机轮廓压塑发亮金属坯料成弧形。",
+      "caption": "压力之下，金属被塑成形状。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-11-08-mystery-solved-why-sleeping-ants-suddenly-explod",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "休眠蚂蚁为何会突然集体出动",
@@ -3215,174 +3404,6 @@
       "src": "/editorial/2026-10-26/2026-10-26-2026-fd509e.webp",
       "alt": "松散颗粒逐渐过渡为规整几何块体的抽象图",
       "caption": "从松散泥土到规整石块",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-25-de4912",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "不用贵金属，分子筛也能给分子加上碳和氧",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-25",
-    "intro": "中国科学家用分子筛直接催化烯烃羰基化，绕开了铑、铱等贵金属，新反应连续稳定运行750小时。",
-    "paragraphs": [
-      "给一个分子同时装上一个碳和一个氧，化学上叫“羰基化”。这道“加法题”听起来轻巧，却能创造出诸多高附加值的化学品。从医药中间体到可降解塑料单体、从溶剂到香料，羰基化反应撑起了现代化学工业的一大片天。百余年来，工业上主流的方法是依赖铑、铱等贵金属配合物催化，还需卤素助剂参与，体系复杂、配体昂贵、催化剂与产物难分离。",
-      "有没有可能换一条路，不用金属也能把碳和氧“装”上去？10月21日，《自然》发表了中国科学院大连化学物理研究所（以下简称大连化物所）研究员刘中民团队的研究，给出了一个肯定的答案：他们通过分子筛空间限域调控的催化策略，实现了水参与的分子筛直接催化的乙烯羰基化到丙酸和丙烯羰基化到异丁酸两个反应。",
-      "团队为什么盯上烯烃？我国煤基甲醇制烯烃产业布局迅速，烯烃来源丰富、成本可控。从烯烃切入羰基化，有利于布局煤基高附加值含氧化合物的生产路线，能够把丰富的烯烃变成丙酸、异丁酸这些精细化学品。但烯烃在分子筛的酸性位上容易聚合，副反应会迅速让催化剂失活，因此既要让羰基化容易发生，又要抑制副反应。",
-      "分子筛是一类具有规整孔道结构的无机多孔晶体材料，具有精准的孔道筛选能力，在石油炼制、气体分离和化工生产中发挥着不可替代的作用。2017年，刘中民团队就成功利用分子筛催化的二甲醚羰基化反应，实现无水乙醇的大规模工业化生产，验证了分子筛在羰基化上的巨大潜力。这一次，他们提出利用分子筛的限域效应：孔道的空间约束如同一双“巧手”，将反应物摆放在合适的位置，让一氧化碳能够精准插入，而不给聚合反应留出空间。他们尝试了大量可能的分子筛结构，最终发现镁碱沸石（FER）在当前探索的体系中最为适宜。",
-      "团队在FER上实现了乙烯与一氧化碳、水反应生成丙酸，丙烯与一氧化碳、水反应生成异丁酸。小试实验确认了两个反应在高压条件下可连续运行750小时，丙酸选择性约80%，异丁酸选择性高达95%。该反应属于首次报道，领域内没有类似的工作可供参照。从工业化角度看，性能仍有待进一步提升和优化，但750小时的稳定性已经展现出很好的应用潜力。2025年6月，团队首次将成果投稿至《自然》，16个月后被正式接收。",
-      "这项工作的意义远不止于两个新反应。丙酸和异丁酸都是重要精细化学品，也都是甲基丙烯酸甲酯的潜在前驱体，而甲基丙烯酸甲酯是生产有机玻璃的大宗单体。如果技术后续放大落地，可能带来丙酸和异丁酸的新生产工艺，下游衍生物具备更高价值。相较于传统液体酸催化，分子筛非均相体系可实现连续、高效生产，而且不用处理含酸废水，环保优势明显。",
-      "团队还在努力回答一个更大的问题——能否建立通用框架，反过来预测并设计更多分子筛催化的羰基化新过程。烯烃羰基化的成功，为搭建该通用框架补上了关键拼图。一旦这套通用框架成功建立，分子筛催化羰基化反应就不再依赖经验试错，而是走向理性设计与精准预测，为含氧化合物的高效、绿色制备打开更广阔的空间。"
-    ],
-    "topics": [
-      "物质与数学",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573373.shtm",
-      "originalTitle": "摆脱贵金属依赖！百年催化难题有了新解法",
-      "publishedAt": "2026-10-22 08:16",
-      "retrievedAt": "2026-10-24T23:21:41.719Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:21:32.199Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-25/2026-10-25-de4912.webp",
-      "alt": "冷灰色纸张质感上，多孔网格结构与穿行的小分子球体。",
-      "caption": "多孔结构中的分子穿行。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-25-200kw-e93d98",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "重要里程碑！中国散裂中子源束流功率突破200kW",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-25",
-    "intro": "据中新网教育报道，中国散裂中子源束流功率突破200kW，被称作一个重要里程碑。",
-    "paragraphs": [
-      "据中新网教育报道，中国散裂中子源束流功率突破200kW，被称作一个重要里程碑。",
-      "中国散裂中子源是一种大科学装置。它通过将质子加速后轰击靶材，使原子核发生散裂，从而产生中子。中子不带电，能穿透多种材料，与原子核相互作用后改变运动方向和能量；科学家通过探测这些中子的飞行路径和能量分布，反推材料内部原子结构。",
-      "束流功率指单位时间内质子束输送给靶材的能量，单位为kW。功率越高，产生的中子通量通常越大，有助于缩短实验时间、提升测量精度和信噪比。因此，束流功率是衡量散裂中子源性能的核心指标之一。",
-      "提高束流功率需同步提升加速器稳定性、靶站耐辐照能力、束流控制精度及辐射防护水平，涉及多系统协同优化，技术难度大、周期长。此次突破200kW，标志着装置性能实现重要跃升。",
-      "该装置能力提升后，将支撑更多前沿科学研究，包括新型能源材料、高温超导机制、生物大分子结构解析等领域。"
-    ],
-    "topics": [
-      "航天与宇宙",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-24/10720414.shtml",
-      "originalTitle": "重要里程碑！中国散裂中子源束流功率突破200kW",
-      "publishedAt": "Sat, 24 Oct 2026 18:15:45 +0800",
-      "retrievedAt": "2026-10-24T23:22:20.281Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:22:19.334Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-25-the-art-of-the-thousand-bloom-chrysanthemum",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一棵菊花，怎样开出一千朵花",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-25",
-    "intro": "在美国宾夕法尼亚州的长木花园，上千朵菊花其实长在同一棵植物上；园艺师花了大约十八个月，才把它一点点变成这个样子。",
-    "paragraphs": [
-      "在美国宾夕法尼亚州的长木花园，游客常常在一株植物前停下脚步，猜它到底是什么。远远看过去，它是一个巨大的花团：上百——甚至上千——朵菊花，每一朵都待在该在的位置上，从边缘向顶部一圈一圈升起来，创造一种丰盛到近乎奢侈的印象。很多人第一反应是：这一定是用许多盆菊花拼起来的。但答案出人意料：这一整团花，全都长在同一棵菊花上（Chrysanthemum x morifolium）。花团底下，几百根枝条汇聚到同一根茎、同一套根系统。看上去成千上万，其实只有一棵。",
-      "要把一棵菊花变成这样，大约需要十八个月。长木花园每年六月开始动手，起点是十根扦插的枝条。秋天夜里越来越长，园艺师就用人工灯光把长夜打断，让植株保持营养生长状态，不急着开花。接着是掐尖：掐掉一根枝条的顶端，它就分成两根；再掐，两根变四根，就这样一路分下去，直到超过一千根枝条。到了十一月，他们从十棵里挑出两棵最强壮的，同时养着，互为备份。花盆和支架跟着植株一起变大，枝条被绑在定制的框架上，光照、水分、养分、温度和生长都要仔细平衡。直到展览前不久，才从这两棵里定下最终上场的那一棵。",
-      "枝条够多了，重点就转到花上。每根枝条会长出好几个花蕾，园艺师只留下最顶端的那一个，把旁边的侧蕾全部摘掉，这一步叫摘蕾（disbudding）。养分集中到一朵花上，花才会开得又大又整齐。整个培养过程，绑结可能用掉四千多个。有时候为了让枝条弯到合适的位置又不至于折断，他们会故意让枝条暂时萎蔫一点，软下来再定型。",
-      "展览前大约一个月，进入最后阶段。每一朵花都要装上一个用金属丝做的托架，日语里叫 rindai，用来托住花的重量，也用来精确调整每朵花的朝向。一千多个 rindai，一个一个装上去，光这一项就要花掉大约十天。而所有这些反复的调整，最后看起来必须毫不费力。",
-      "这种做法在日本有个名字，叫 ōzukuri， commonly translated as “large cultivation”。菊花原产中国，栽培技术几百年前传到日本，日本园艺师发展出一整套方法，把植株训练成特定的正式形状。1884 年，东京的新宿御苑第一次做出这种形式：一棵植物，几百朵花，排成一个比例讲究的宽大花团，后来的千朵菊都以它为样板。这个年份也有讲究：十九世纪末的日本正处于快速变革期，明治政府在推动现代化的同时，也在寻找能向世界展示本国文化的象征形式；菊花因与皇室渊源深厚，因而格外突出。",
-      "和石头刻成的雕像不同，千朵菊一直在生长，也一直在衰败。它的活体组织持续生长、蒸腾、响应环境并老化。园艺师不是把一张完成的图样按在一棵植物上；他是在和一个活的形状反复商量：未来可以影响，却没法完全控制。所以每一次掐尖，都是对还没长出来的部分下注；每一次剪掉一根枝条、一个花蕾，都是放弃一种可能，让另一种可能长大。秋天你看到的那棵菊花，既由培育出来的部分组成，也由一路上被舍掉的部分组成。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "历史"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "JSTOR Daily",
-      "region": "international",
-      "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
-      "originalTitle": "The Art of the Thousand Bloom Chrysanthemum",
-      "publishedAt": "Thu, 22 Oct 2026 13:52:00 +0000",
-      "retrievedAt": "2026-10-24T23:25:54.170Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:25:51.634Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "One Plant, a Thousand Blooms",
-      "intro": "A garden in Pennsylvania grows more than a thousand chrysanthemum flowers on a single plant. This uses a centuries-old Japanese tradition.",
-      "paragraphs": [
-        "From a distance, the plant appears to be an immense floral dome. It is composed of hundreds—if not a thousand—of carefully matched chrysanthemums. Each flower occupies its own place in a near-perfect pattern. Visitors often wonder if multitudes of plants have been assembled. Then comes the revelation: every blossom belongs to a single chrysanthemum.",
-        "Beneath the dome, hundreds of branches converge toward a single stem and root system. What appears to be a multitude is actually one plant. Its scientific name is Chrysanthemum x morifolium. It is cultivated over approximately eighteen months. It is guided through thousands of individual decisions. At Longwood, the annual creation begins with ten vegetative cuttings. These are started each June. Artificial light interrupts the long autumn nights. This keeps the chrysanthemums vegetative. Horticulturists pinch the growing tips. This encourages one stem to divide into two, then four, until reaching over one thousand stems. By November, the two strongest plants are selected. They are carried forward in parallel.",
-        "Both plants are continually trained and tied to custom-made frames. The frames support the increasing weight of the stems. They also help establish the balance and form of the eventual dome. Shoots are selected or removed. Light, water, nutrition, temperature, and growth are carefully balanced. As more than one thousand stems begin to set buds, the focus shifts. It shifts from increasing their number to perfecting the flowers they will bear. Through disbudding, competing lateral buds are removed from each stem. This leaves a single terminal bud to develop. This concentrates the plant’s resources. It helps produce large, uniform blooms.",
-        "Once the final display plant is selected, about a month before exhibition, the work enters its last stage. Each developing flower is fitted with an individual wire support. This support is called a rindai. The rindai bears the weight of the bloom. It allows horticulturists to orient the flower precisely within the dome. More than one thousand rindai may be individually attached. This process alone can take about ten days. The work requires constant adjustment. Yet the completed form must look effortless.",
-        "The Japanese name for the Thousand Bloom form is ōzukuri. It is commonly translated as 'large cultivation.' The chrysanthemum originated in China. Its cultivation traveled to Japan centuries ago. Japanese growers developed new systems for training the plant. They trained it into distinctive formal shapes. The ōzukuri form was first created at Shinjuku Gyoen National Garden in Tokyo in 1884. It established a model for the Thousand Bloom Chrysanthemum. That model has hundreds of flowers. They grow from a single plant. They are arranged into a broad and carefully proportioned dome. In Japan, chrysanthemums came to signify autumn, renewal, refined taste, and imperial authority.",
-        "For approximately eighteen months, time accumulates in the plant. Then, for only a few weeks each fall, time becomes visible. This happens when the Thousand Bloom is displayed. Unlike sculptures carved from stone, the Thousand Bloom is always becoming—or ceasing to be. Its living tissue continues to grow. It transpires. It responds. It ages. The horticulturist who trains it is not imposing a finished image. They are negotiating with a living form. The future of that form can be influenced. But it can never be completely controlled. Every pinch is performed in expectation of growth that has not yet occurred. Every selected branch commits the horticulturist to a future arrangement. Every removed shoot or bud sacrifices one possibility. Another possibility may flourish. The plant visitors see in the autumn is composed of what was cultivated. It is also composed of what was deliberately relinquished."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-24T23:30:18.595Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-25/2026-10-25-the-art-of-the-thousand-bloom-chrysanthemum.webp",
-      "alt": "冷灰色纸张质感上，一株分枝众多的抽象菊花。",
-      "caption": "一株之上，千朵同开。",
       "kind": "editorial"
     }
   }
