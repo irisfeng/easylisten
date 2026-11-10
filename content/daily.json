@@ -1,5 +1,191 @@
 [
   {
+    "slug": "2026-11-10-480656",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "1.3亿光年外两颗中子星合并，人类2017年接住其引力波与电磁信号",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-10",
+    "intro": "两颗中子星在1.3亿光年外合并，发出的引力波与电磁信号穿越漫长时空，2017年被人类接住，全球约70台观测设备随即接力观测。",
+    "paragraphs": [
+      "先想象这样一件事：一封信在路上走了1.3亿年，而收信的人只用了不到11个小时，就把它找了出来。2026年11月9日晚，在2026文化科技产业发展论坛之2026年科普之夜暨全国优秀科普微视频作品展演活动现场，中国科学院国家天文台研究员、中国科学院大学教授苟利军，讲述了一场浪漫的宇宙邂逅。",
+      "故事的开头在2017年。那一年，人类捕捉到来自1.3亿光年外两颗中子星合并发出的引力波与电磁信号。信号“启程”之时，地球尚处在恐龙时代；抵达地球后，科学家就向全球发出通报，不到11小时便锁定目标。",
+      "随后，全球约70台观测设备接力观测。同一件事在宇宙深处发生，人类在一天之内完成了告知、定位和联合观测。",
+      "苟利军把它称作一场浪漫的宇宙邂逅——一边是1.3亿年的漫长旅途，一边是不到11小时的迅速反应。两个时间尺度摆在一起，这个故事才有了它的形状。",
+      "信号出发时，地球上还是恐龙；信号抵达时，抬头看天的人已经能接住它。1.3亿年，和11个小时，写在同一封信上。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科技日报",
+      "region": "mainland",
+      "url": "https://www.stdaily.com/web/gdxw/2026-11/10/content_611081.html",
+      "originalTitle": "苟利军：一亿年的宇宙来信，人类一天“签收”",
+      "publishedAt": "2026-11-10",
+      "retrievedAt": "2026-11-10T03:40:17.613Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-10T03:40:10.033Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-10/2026-11-10-480656.webp",
+      "alt": "两枚暗银色球体在灰色虚空中旋近，周围有同心弧线扩散。",
+      "caption": "两颗致密星体旋近时，时空泛起涟漪。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-10-74cd1d",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "中国空间站造出已知最冷人造物质，温度约比绝对零度高千亿分之一开尔文",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-10",
+    "intro": "中国空间站里的铷原子云被冷却到9.7皮开尔文，成为人类已知最冷人造物质，也为更精密的时钟和传感器打下基础。",
+    "paragraphs": [
+      "7秒，只挪了约500微米，比一根头发丝的直径多不了多少。这不是慢动作回放，而是中国空间站里一团铷原子云的真实状态。它的温度只有9.7皮开尔文，比室温低了整整14个数量级，成为目前人类已知最冷人造物质。成果发布后，这团最冷人造物质迅速引发关注：它到底有多冷？为什么非要到太空去做？造出的最冷物质和普通人的生活究竟有什么关系？",
+      "先看9.7皮开尔文有多冷。物理学里有一个绝对零度，是零下273.15摄氏度，也就是0开尔文，理论上原子在这一刻才会完全静止。9.7皮开尔文，就是9.7×10⁻¹²开尔文，写成小数是0.0000000000097开尔文，约等于千亿分之一开尔文。换句话说，这团原子云只比绝对零度高约千亿分之一开尔文，已经极端接近绝对零度。北京大学电子学院教授周小计解释：“9.7皮开尔文比我们的室温下降了14个数量级，这是人类获得的最低温度，是一个新的世界纪录，也是宇宙中已知最低温度。”",
+      "温度的本质是原子跑动的剧烈程度，常温下，原子像一群乱窜的人。温度越低，它们跑得越慢。冷到9.7皮开尔文，这团铷原子云几乎“静止”了。一个更形象的说法是：如果普通原子在一场赛跑里已经冲出去两公里，这团冷原子在同样的7秒里只挪动了大约500微米，比一根头发丝的直径多不了多少。它不只是“冷”，而是冷到原子几乎被“冻” in原地，日常世界里任何东西都达不到这种状态。",
+      "那为什么非要把实验搬到太空？不是地面完全做不了超冷原子，而是地面做不到这么冷、看不了这么久。核心障碍是重力。北京大学电子学院教授陈徐宗解释：“地面上，重力会拉扯原子云向下坠落，想要深度冷却，就要施加更强束缚，反过来带入多余能量，限制温度继续下探，地面观测仅能维持0.05秒。在空间站微重力环境下，原子云自在漂浮，只需极弱约束，就能实现深度冷却。”打个比方：你想让一团原子安静下来，地面重力总把它们往下拽，你不得不使劲“兜住”它们；可你用的“兜子”越紧，本身就会给原子带入额外能量，温度就很难降到底。在空间站的微重力环境里，原子几乎可以自由漂浮，只需要很弱的束缚就能继续冷却，温度因此能压到地面达不到的皮开尔文量级。同时，没有重力“催着”原子往下掉，观测窗口从地面的约0.05秒一下子拉长到7秒，原子有足够的时间“待着不动”，让科学家从容捕捉那些转瞬即逝的量子现象。",
+      "造出的最冷物质会用于日常生活吗？现阶段，这团最冷物质不会直接变成消费品，但它支撑的是下一代精密测量技术，而这类技术恰恰藏在很多日常系统的底层。超冷原子可以被做成灵敏度极高的原子钟、原子干涉仪和量子传感器，用来测量时间、重力和惯性。“手机里的导航，依赖卫星上原子钟提供的精确时间；金融交易的时间戳、电网的同步控制，底层同样是高精度授时。原子钟越稳，定位和同步就越可靠。”中国科学院上海光学精密机械研究所研究员李唐说，在重力测量上，冷原子重力仪可以察觉极微小的重力变化，未来可用于资源勘探、地质灾害监测，甚至在没有GPS信号的环境下做惯性导航。",
+      "往更远处看，9.7皮开尔文带来的超长自由演化时间，还能帮助科学家检验基本物理规律以及寻找暗物质、暗能量的蛛丝马迹。周小计提到，基于这一成果，原子干涉仪的精度有望进一步提升。所以，最冷物质眼下是科学纪录，长远看，它是在给更准的时钟、更灵敏的传感器和更可靠的位置服务打地基。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574423.shtm",
+      "originalTitle": "中国空间站造出的已知最冷物质有什么用",
+      "publishedAt": "2026-11-09 08:57",
+      "retrievedAt": "2026-11-10T03:42:00.791Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-10T03:41:57.907Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why China's Space Station Made the Coldest Matter Ever",
+      "intro": "A cloud of rubidium atoms on China's space station reached 9.7 picokelvin. This is the coldest human-made matter ever recorded.",
+      "paragraphs": [
+        "On China's space station, a cloud of rubidium atoms moved only about 500 micrometers in 7 seconds. That is barely wider than a human hair. Its temperature was 9.7 picokelvin. This is the coldest known human-made matter.",
+        "Absolute zero is minus 273.15 degrees Celsius. That equals zero kelvin. At absolute zero, atoms would theoretically stop moving completely. 9.7 picokelvin equals 9.7 × 10⁻¹² kelvin. It is about one trillionth of a kelvin above absolute zero.",
+        "Temperature reflects how fast atoms move. At room temperature, atoms move rapidly. At 9.7 picokelvin, they are nearly motionless. Zhou Xiaoji said this temperature is 14 orders of magnitude lower than room temperature. He called it a new world record. He also called it the lowest temperature known in the universe.",
+        "Gravity prevents such extreme cooling on Earth. On the ground, gravity pulls the atom cloud down. Stronger traps are needed to hold it. Those traps add extra energy. That limits how cold the atoms can get. Ground observation lasts only about 0.05 seconds. In microgravity, atoms float freely. Weak confinement allows deeper cooling. Observation time extends to 7 seconds.",
+        "This ultracold matter will not become a consumer product. But it supports next-generation precision measurement technology. Ultracold atoms can be used to build highly sensitive atomic clocks. They can also be used in atom interferometers and quantum sensors. These tools measure time, gravity, and inertia.",
+        "Phone navigation depends on satellite atomic clocks. Financial transaction timestamps depend on precise timing. Power grid synchronization also depends on precise timing. Cold atom gravimeters can detect tiny gravity changes. They may help with resource exploration. They may help monitor geological hazards. They may enable inertial navigation where GPS is unavailable.",
+        "For now, 9.7 picokelvin is a scientific record. Long-term, it lays the foundation for more accurate clocks. It also supports more sensitive sensors. And it improves positioning reliability. The long free-evolution time helps test fundamental physics. It may help search for dark matter and dark energy."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-10T03:46:52.153Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-10/2026-11-10-74cd1d.webp",
+      "alt": "灰色实验腔体内悬浮一团淡蓝灰雾状原子云，周围有同心圆环。",
+      "caption": "被冷却的原子云，逼近绝对零度。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-10-many-regions-have-warmed-beyond-1-5-c-and-some-b",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新研究发现，地球多数地区升温已超过1.5摄氏度",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-10",
+    "intro": "一项新研究首次在区域尺度上分析指出，全球多达94%的地区自工业化前以来升温已突破1.5°C；加拿大和欧洲大部分地区升温超2°C。",
+    "paragraphs": [
+      "你可能听过一个数字：1.5摄氏度。2016年，各国在巴黎签署《巴黎协定》，目标是将全球升温控制在比工业化前水平高1.5°C以内。现在，一项新研究给出了更具体、也更严峻的答案：在我们生活的这张地图上，大多数地方已经越过了这条线。",
+      "这项研究发表在《自然·气候变化》上。过去谈升温，科学家常用‘全球平均’这一个数字，目前约为1.44°C。可平均值会掩盖差异：有的地方升得多，有的地方升得少。要把事情说清楚，就得看区域。麻烦在于，很多地方没有完整的历史气候记录。研究作者之一、加拿大维多利亚大学的气候学家张雪斌说：‘在世界一些地方，历史记录稀少甚至不存在。’另一位作者弗朗西斯·兹维尔斯指出，加拿大的充分气候观测仅能追溯到1948年，‘许多国家和地区也是如此。’",
+      "研究团队综合分析了区域内观测、全球观测以及对过去气候变化的模拟数据，覆盖范围是联合国政府间气候变化专门委员会（IPCC）第六次评估报告中列出的几十个区域。这是首项通过填补数据空白方式，在区域尺度上系统评估升温程度的研究。",
+      "补上空白之后，结果是这样的：自工业化前以来，多达94%的区域升温已突破1.5°C（2.7°F）。加拿大和欧洲大部分地区升温超2°C（3.6°F）；一些高纬度地区升温超2.5°C（4.5°F）；俄罗斯北极地区升温达3.3°C（5.9°F）。兹维尔斯在记者会上表示：‘今天全球平均气候已统计上无法与一个升温1.5°C的世界区分。’",
+      "未参与该研究的英国埃克塞特大学气候学家彼得·斯托特在《自然·气候变化》的评论中写道：‘我们实际上已经生活在一个1.5°C的世界里。这意味着我们正开始看到当年巴黎决策者们极力希望避免的那些气候影响。’",
+      "研究还预测了全球平均温度突破阈值的时间：在高排放情景（SSP5-8.5）下，全球平均升温将在2029年达到1.5°C（2.7°F），2042年达到2°C（3.6°F）。兹维尔斯说：‘那不过是距今16年。’他同时强调：‘仍有可能将升温限制在不超过2°C，但这需要从当前水平非常迅速地减排。’张雪斌则指出：‘持续的气候监测和高质量观测极为重要；它们帮助我们追踪气候如何变化、理解其对人类和生态系统的影响，并为适应决策提供所需证据。’"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/research-and-developments/many-regions-have-warmed-beyond-1-5c-and-some-beyond-2c-new-study-finds",
+      "originalTitle": "Many Regions Have Warmed Beyond 1.5°C and Some Beyond 2°C, New Study Finds",
+      "publishedAt": "Mon, 09 Nov 2026 16:01:54 +0000",
+      "retrievedAt": "2026-11-10T03:42:41.089Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-10T03:42:38.599Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 16,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Many Regions Have Already Passed 1.5°C of Warming, Study Finds",
+      "intro": "A new study finds that many regions have already warmed past 1.5 degrees Celsius since preindustrial times. Some regions have warmed more than 2 degrees.",
+      "paragraphs": [
+        "Countries agreed in Paris in 2016 to limit warming to 1.5°C above preindustrial levels. Global temperatures have warmed about 1.44°C since preindustrial times. Scientists are confident the world has likely already entered the 20-year period in which it will breach the 1.5°C limit. A United Nations report stated the world has virtually no chance to stay below that limit.",
+        "A new study published in Nature Climate Change analyzed regional warming. It found many places on Earth have already surpassed 1.5°C of warming. Some regions have warmed as much as 2°C due to human-caused climate change. The study is the first to provide such an analysis by filling in data gaps for regions lacking historic climate observations.",
+        "In some parts of the world, historical records are sparse or even nonexistent. Xuebin Zhang said this at a press conference. He is a climate scientist at the University of Victoria and coauthor of the paper. Francis Zwiers also spoke at the press conference. He is a climate scientist at the University of Victoria and coauthor. He said adequate climate observations in Canada only stretch back to 1948. The same is true in many countries and regions.",
+        "The authors analyzed in-region climate observations, global climate observations, and simulations of past climate change. They used dozens of regions from the IPCC’s Sixth Assessment Report. After filling in the gaps, researchers found current warming has breached 1.5°C in up to 94% of regions. In Canada and large portions of Europe, temperatures have already warmed more than 2°C. In some very high-latitude regions, warming exceeded 2.5°C. The Russian Arctic has warmed 3.3°C.",
+        "The authors projected when global average temperatures will cross the Paris Agreement limits. Under a high-emissions scenario (SSP5-8.5), they estimate 1.5°C will be reached in 2029. They estimate 2°C will be reached in 2042. Zwiers said: 'That’s only 16 years from now.' Peter Stott wrote in a commentary: 'We are effectively already living in a 1.5°C world.' He added: 'This means that we are starting to see the impacts of climate change that policymakers in Paris were keen to avoid if at all possible.'",
+        "Zwiers said it is still possible to limit warming to no more than 2°C. This would require very rapid emissions reductions from current levels. Zhang emphasized the need for more climate observations. He said: 'The need for better climate information remains as important as ever.' He added: 'Sustained climate monitoring and high-quality observations are so important.' They help track how the climate is changing. They help understand impacts on people and ecosystems. They provide evidence for informed adaptation decisions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-10T03:48:00.604Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-09-we-need-to-talk-about-meta-political-interferenc",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "巴西研究：Meta 大选期间违规投放境外资金政治广告，静默期仍传播竞选内容",
@@ -3268,143 +3454,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-10-26-2b38eb",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "西双版纳傣陶女陶艺师的新纹样",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-26",
-    "intro": "这次抓取返回的是中新网页面框架和导航，没有拿到正文，因此按轻听的规矩不硬写听稿。",
-    "paragraphs": [
-      "抓取回来的内容只有网页导航、搜索框、栏目链接和图片地址，正文部分是空的：文章在开头标题之后就被截断了。也就是说，除了标题里“西双版纳”“傣陶”“女陶艺师”“新纹样”“千年技艺”这几个词，我没有拿到任何可以核对的事实。",
-      "轻听的听稿要求每个事实、数字、因果和引语都能回到原文核对，编辑部补的背景也必须和来源分开标清楚。现在连原文都没有，任何展开都只能靠猜，而猜出来的手工艺故事听起来最像真的，也最容易骗人。",
-      "重新抓取时，只要补上三段关键信息就能动笔：一是人物和地点，她是谁、在哪里做陶；二是工艺，傣陶从采土、制坯到烧制大致怎么走；三是纹样，新纹样改了什么、为什么改、当地人怎么反应。"
-    ],
-    "topics": [
-      "艺术与设计",
-      "文化传承"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720844.shtml",
-      "originalTitle": "守千年技艺 绘傣陶新章：一位西双版纳女陶艺师的“新纹样”",
-      "publishedAt": "Sun, 25 Oct 2026 21:14:01 +0800",
-      "retrievedAt": "2026-10-25T23:23:16.423Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-25T23:23:15.072Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 3,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-26-u-s-measles-cases-more-than-double-what-they-wer",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "美国今年麻疹病例已是去年全年的两倍多，疫情持续扩散",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-26",
-    "intro": "一种本可用两针疫苗几乎完全预防的疾病，今年在美国重新扩散，宾夕法尼亚州成为疫情最严重的一州。",
-    "paragraphs": [
-      "一种本可用两针疫苗几乎完全预防的疾病，今年在美国重新扩散。美国疾病控制与预防中心（CDC）数据显示，截至10月22日，全美已报告超过4580例麻疹病例，是2025年全年病例数的两倍多。NPR报道指出，这是美国几十年来最严重的麻疹 resurgence（回升）。",
-      "疫情最严重的是宾夕法尼亚州。据宾州卫生部上周五通报，今年已在44个县确诊至少1338例麻疹；截至10月21日，新增21例。已有250多人住院，5人死亡。全美范围内，2026年感染麻疹者中96%为‘未接种或接种情况不明’。",
-      "在病例最集中的兰开斯特县和米夫林县，受影响最大的是当地阿米什社区——这些社区疫苗接种率偏低。5名死者中，3人居住在兰开斯特县。上周四，宾州卫生部长德布拉·博根博士与米夫林县医护人员举行圆桌会，评估当地防控需求。她说：‘我们的州级指标和数据只讲了这次疫情的一部分故事，而倾听一线照护者讲述受疫情影响社区的真实情况，对完善公共卫生响应至关重要。’",
-      "卫生官员表示，接种疫苗是预防麻疹最有效的方式之一。麻疹、腮腺炎、风疹三联疫苗（MMR）接种两剂对麻疹的保护效力近97%，单剂约93%。宾州卫生部门称，10月前三周全州共接种超3.9万剂麻疹疫苗，高于平常一个月约2.5万剂的平均接种量。",
-      "其他州也在应对疫情。纽约州州长凯西·霍楚尔本月宣布该州进入灾难紧急状态；截至10月20日，纽约州已确诊超160例麻疹。犹他州今年确诊超700例，但据该州卫生与人类服务部称，最近三周无新发诊断。南卡罗来纳州2026年至少报告997例，疫情已于4月结束。"
-    ],
-    "topics": [
-      "健康与医学",
-      "流行与网络文化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "region": "international",
-      "url": "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
-      "originalTitle": "U.S. measles cases more than double what they were last year as outbreak spreads",
-      "publishedAt": "Sun, 25 Oct 2026 16:35:35 -0400",
-      "retrievedAt": "2026-10-25T23:24:06.392Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-25T23:24:03.384Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 23,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-26-2026-fd509e",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "渣土和淤泥，怎样变成建筑用的石头",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-26",
-    "intro": "城市挖出的渣土和淤泥，除了填埋和焚烧，还能在本地变成建筑用的石头。",
-    "paragraphs": [
-      "10月24日，2026世界青年科学家峰会在浙江温州园博园拉开帷幕。在峰会展示交流活动现场，一块块由工程渣土、河道淤泥转化而来的生态石材整齐陈列，观感和质地与天然石料别无二致。从会场走向园博园，这种‘变废为宝’的体验愈发真切：脚下的铺地石、路边的路沿石、错落的假山与桥梁，大多由园区自身产出的建筑渣土就地加工再造而成。就地消纳、就地生产、就地应用，一条‘点废成金’的循环链条在此形成完整闭环。",
-      "固体废弃物价值化、资源化利用，是当前我国推进绿色低碳转型的重要命题。城市建设和工业生产每天产生大量固废，如煤矸石、粉煤灰、工业尾矿渣、农作物秸秆等，种类繁多、体量庞大。长期以来，对这些大宗固废，最主要的处置方式是填埋和焚烧。填埋虽然简单，却持续占用土地，堆存产生的渗滤液与扬尘还可能污染土壤和地下水；焚烧则依赖高温，能耗高、碳排放可观。并且，无论填埋还是焚烧，都绕不开远距离运输，途中产生的废气、废水与扬尘，又给城市添上一重负担。今年初，国务院颁布《固体废物综合治理行动计划》，进一步把大宗固废物综合利用提上重要日程，治理思路也从‘能处置、少污染’转向‘减量化、资源化’并重。",
-      "浙江星创环保集团总裁邵璋介绍这项全国首创的‘淤泥制石’核心技术，做的正是让渣土‘重回’岩石状态。研发团队历时五年攻关，从血浆分离技术中获得启发，通过纳米级改性改变淤泥的亲水性，实现固液高效分离，并模拟自然界岩石风化的逆过程，使废弃渣土在低温高压下重新结晶。整套生产工艺摒弃了传统建材的高温烧制流程，依托千吨级真空压制设备完成固废物料的标准化处理。",
-      "生态石产品售价较天然石材降低30%左右，制品中固废含量可达40%以上，高于行业平均水平。在温州园博园项目中，生态石应用总量超过1万立方米，相较外购天然石材节约建设成本600余万元。目前，该成套技术已形成规模化应用能力，可对建筑渣土、盾构泥、河道淤泥、市政污泥、油泥尾渣、焚烧飞灰、煤矸石等18大类固废进行资源化处置，成功转化出无机生态石、护坡石、固化土、仿木板材、生物质燃料等八大类高附加值绿色产品，覆盖市政建设、园林景观、基础建材等多个应用领域。",
-      "‘渣土制石’，为地球少开一座山，让青山常在。这种‘本地产生、本地处理、本地利用’的闭环已从温州走向全国，在杭州、上海、深圳、重庆等70余座城市落地生根。面向未来，星创环保规划在全国100座城市落地500条生产线，朝着百亿级循环产业集群目标稳步迈进；同时联动泰国、越南、印度尼西亚、哈萨克斯坦等国家，对外输出中国固废资源化成套解决方案。"
-    ],
-    "topics": [
-      "工程与制造",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "光明网科技",
-      "region": "mainland",
-      "url": "https://tech.gmw.cn/2026-10/25/content_39064453.htm",
-      "originalTitle": "2026青科会观察：渣土变石点废成金，固废资源化有新解法",
-      "publishedAt": "2026-10-25T18:25:21+08:00",
-      "retrievedAt": "2026-10-25T23:25:05.882Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-25T23:25:03.441Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 13,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-26/2026-10-26-2026-fd509e.webp",
-      "alt": "松散颗粒逐渐过渡为规整几何块体的抽象图",
-      "caption": "从松散泥土到规整石块",
-      "kind": "editorial"
     }
   }
 ]
