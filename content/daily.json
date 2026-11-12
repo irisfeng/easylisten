@@ -1,5 +1,233 @@
 [
   {
+    "slug": "2026-11-12-how-a-metabolic-spark-could-have-jump-started-li",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "生命的起点，也许是一团会自己转起来的化学反应",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-12",
+    "intro": "有研究者认为，在基因和细胞出现之前，能量驱动的化学反应循环可能已经点亮了生命的第一缕光。",
+    "paragraphs": [
+      "今天每一个活着的细胞都在做同一件事：从周围收集化学能，把它们转化、储存、再利用。这套本领叫代谢。它已经在地球上不间断地烧了四十多亿年，驱动着维系生命的那张无比复杂的化学反应网。但有些研究者提出了一个更大胆的想法：代谢不只是生命的功能，它也许就是生命开始的地方。",
+      "它的核心论点很朴素：如果没有一个能自我维持、持续提供能量的反应，那么细胞生命所需的那种又大又复杂的分子，根本没法被造出来。德国杜塞尔多夫海因里希·海涅大学的进化生物学家威廉·马丁说：“It synthesizes genes that contain the information to produce the catalysts that keep this reaction going, and those catalysts have changed over time.” 早在1968年，美国生物物理学家哈罗德·莫罗维茨提出：能量流过系统，会把系统组织起来；他将这一思想应用于“proto-metabolism”概念，认为来自太阳或地质过程的能量，可推动化学网络进入热力学上更有利的自我维持反应，久而久之，这些反应就可能变成生物反应。",
+      "那么，最初的那种反应可能长什么样？一个很简单的版本，是今天某些微生物仍在使用的乙酰辅酶A途径。它们用氢和二氧化碳作为原料，一边制造复杂的有机分子，一边获得化学能。问题是，什么样的环境能点燃这类像生命一样的反应？1970年代末，深海潜水器第一次发现了海底热液喷口——那是海底的裂口，被地热加热、富含溶解金属的水从那里涌进海水。1980年代末到1990年代初，拥有化学博士学位的专利律师金特·韦希特斯豪泽提出了“iron-sulfur world”的设想：在那种早期地球环境里，喷口周围聚集的铁硫矿物，可以像催化剂一样推动乙酰辅酶A这样的反应自我维持下去。二氧化碳和氢先被转化成乙酸、丙酮酸这类含碳化合物，同时把能量释放回环境。氢提供能量，金属催化剂让这个循环不断转下去。",
+      "为了检验这条路是否真的走得通，马丁和同事在实验室里模拟了热液喷口附近的温度和压力。2020年，他们报告说，喷口里常见的二氧化碳和氢，加上那里同样常见的镍和铁矿物，可以结合起来生成甲酸、乙酸和丙酮酸。这项研究的第一作者、德国马克斯·普朗克陆地微生物研究所的生物化学家玛蒂娜·普赖纳说，这些化合物本质上是乙酰辅酶A途径的“spine”。她指出：“show that it’s possible to start these reactions before you have anything else,” including RNA or proteins.",
+      "不过，也有科学家认为热液喷口那种高温高压未必是必需的。同样在2020年，美国加州斯克里普斯研究所有机化学家拉马纳拉亚南·克里希纳穆尔蒂和同事展示：早期地球环境中可能存在的两种小分子，丙酮酸和乙醛酸，能够互相反应，生成逆向柠檬酸循环的几乎所有组分。这个循环与乙酰辅酶A循环类似。关键在于，这一过程不需要任何金属催化剂，温度和水环境也远远没有那么极端。换句话说，代谢的第一把火，也许是在一汪温热的水洼里点起来的，而不一定是在深海的高压锅里。",
+      "剩下的是最难的部分。无论是哪种环境点的火，人们都还不清楚，最初的代谢反应是怎么变得足够稳定，又是怎么一步步长出复杂性的。能够存储和复制信息的遗传物质，可能是必要的，因为只有它才能把原始代谢反应中出现的一点改进，一代代传下去。研究者还需要弄清代谢和遗传信息之间是怎么接上线的，以及这些原始代谢反应被包进细胞膜以后，怎样才能共存而不彼此破坏。克里希纳穆尔蒂说：“How best can we mix them together so that we don’t get a complete mess that we can’t analyze?” “That is the challenge.”",
+      "整篇听下来，代谢先行说最迷人的地方不是它给出了结论，而是它把问题倒过来问：也许不是生命学会了利用能量，而是能量的流动先组织出了某种东西，然后那种东西慢慢活了起来。"
+    ],
+    "topics": [
+      "生命与演化",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
+      "originalTitle": "How a Metabolic Spark Could Have Jump-Started Life",
+      "publishedAt": "Wed, 11 Nov 2026 15:10:30 +0000",
+      "retrievedAt": "2026-11-12T02:22:00.576Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:21:54.807Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-12/2026-11-12-how-a-metabolic-spark-could-have-jump-started-li.webp",
+      "alt": "冷灰纸面上，细线环形箭头首尾相接，环内点缀微光粒子。",
+      "caption": "能量循环，或许先于生命。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-12-some-video-games-offer-mental-health-benefits",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "青少年玩心理健康游戏六周，一年后抑郁症状少于玩普通游戏的同学",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-12",
+    "intro": "一项随机对照试验发现，青少年玩专门设计的心理健康游戏六周后，一年后的抑郁症状比玩普通游戏的同学更少。",
+    "paragraphs": [
+      "想象一下，你最好的朋友渐渐疏远你，你觉得是你的错。在一款叫 PlaySmart 的游戏里，你可以扮演这位朋友的朋友，回到过去，看看是什么把她推远，再试试不一样的选择。选对了，故事会变，你们仍然是朋友。",
+      "这不是普通的娱乐游戏。它想教青少年一件具体的事：当朋友或自己遇到心理健康困扰，甚至卷入阿片类药物滥用时，什么时候该求助、该怎么求助。游戏由达特茅斯大学 Geisel 医学院的医生和行为科学家 Lynn Fiellin 参与开发。Fiellin 说，玩家能‘看到会发生什么——好的和坏的’。",
+      "游戏到底有没有用？Fiellin 的团队没有只凭感觉判断。他们把游戏带进康涅狄格州 15 所高中，让学生随机分成两组：一组玩 PlaySmart，另一组玩其他未专为健康教育设计的游戏，比如《模拟人生》。两组都每周玩一两次，持续六周。结果发表在 8 月 17 日的《JAMA Network Open》。一年后，玩 PlaySmart 的青少年报告的抑郁症状更少。",
+      "为什么会有这种差别？研究里有一条线索。刚玩完时，PlaySmart 组对阿片类药物了解更多，也更觉得它危险。三个月后，他们还记得不少知识，但那种危险感在减弱。变化更持久的是另一件事：他们更愿意把找治疗师或辅导员帮忙看成一件好事。这种态度在研究期间一直比较稳定。研究者认为，这可能有助于解释抑郁症状为什么减少。Fiellin 说，光是知道‘有帮助的机会和选择存在’，也许就起了作用。",
+      "没有参与这项研究的韦尔斯利学院研究者 Linda Charmaraman 说，这类‘严肃游戏’不少，但效果能持续一年以上的很少见。她也强调，知道如何和何时求助对抑郁的干预和预防非常重要。很多青少年觉得，必须等到非常严重的事情发生才值得求助，其实不是这样，越早开口越好。",
+      "PlaySmart 出自 2009 年成立的 play2PREVENT 实验室。Fiellin 说自己看到孩子沉浸在游戏里，想到可以用屏幕来传递健康知识和技能。团队和游戏设计师合作，还让青少年给早期版本挑毛病，比如衣服不真实、俚语太过时。游戏不放在应用商店，而是由学校或教师联系项目方引入。另一个防烟游戏 Smokescreen 目前有近一万名活跃玩家。团队还在做两款新游戏，一款面向自闭症孩子和家庭，聚焦识别神经多样性人群的优势；另一款关注社交媒体与心理健康，目标是帮助孩子和家长更好地使用社交媒体并做出更好选择。"
+    ],
+    "topics": [
+      "心理与情绪",
+      "影视与游戏"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/video-games-help-mental-health",
+      "originalTitle": "Some video games offer mental-health benefits",
+      "publishedAt": "Wed, 11 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-12T02:23:03.543Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:22:59.807Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-12-1e1d31",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "科学家找到玉米的镍转运关键蛋白",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-12",
+    "intro": "中科院团队首次锁定玉米的镍转运蛋白，成果登上《细胞》，改写了教科书中镍运输机制的认识。",
+    "paragraphs": [
+      "庄稼生长也有‘木桶短板’：除了氮磷钾，任何一种微量元素不足，产量都可能被卡住，镍就是其中之一。长期以来，镍在禾本科作物里的运输规律一直是谜团。近日，中国科学院分子植物科学卓越创新中心联合上海张江智种中心、华中农业大学组成的科研团队，首次找到玉米负责向籽粒转运镍的关键蛋白，相关成果11月11日在国际学术期刊《细胞》发表。",
+      "科学家早在1975年就发现镍在植物体内承担生理功能，但镍怎么从植株运到籽粒、对作物有多大影响，一直没有清晰答案。科研人员从1404份玉米材料中筛选对比，锁定了关键转运蛋白ZmNAET1。",
+      "ZmNAET1就像镍运输通道上的重要‘出口’，能释放烟胺小分子。烟胺如同小夹子，牢牢抓住镍，再由其他转运蛋白接力，把镍送到籽粒和生长点。镍是玉米代谢尿素必不可少的一环，镍不足，尿素就没法正常转化，蛋白质合成受阻，直接拖累玉米生长、籽粒发育和种子萌发。",
+      "实验证实，ZmNAET1基因失效后，玉米籽粒镍含量明显变少，穗重、籽粒大小、淀粉含量同步下降，种子存放后的发芽率也大幅降低。给缺镍种子补镍能恢复发芽能力，补锌却不起作用；田间叶面喷施镍，也能修复植株长势和脲酶活性。科研人员还在水稻中找到同源基因，说明这套转运机制在禾本科作物中普遍存在。",
+      "过去学界普遍认为，禾本科作物对镍需求很低，缺镍现象十分少见。这项研究拿出了遗传学证据，证明镍是禾本科作物不可或缺的元素，还发现了一条独立于传统麦根酸途径的镍分配通路，改写了原有认识，填补了教科书中镍运输机制的空白。",
+      "该成果有很强的实用价值。在碱性土壤等容易缺镍的地块，或是本身籽粒镍含量偏低的玉米品种，如果出现减产、出苗不齐等问题，未来可通过适度补镍改善。育种专家也可以利用该基因的天然差异，选育镍转运效率更高的新品种，借助营养调控和分子育种，提升禾本科作物产量和种子活力，为粮食稳产增产开辟新路径。"
+    ],
+    "topics": [
+      "生命与演化",
+      "食物与日常"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574550.shtm",
+      "originalTitle": "我国科研团队破解植物微量元素营养重要谜题",
+      "publishedAt": "2026-11-11 08:43",
+      "retrievedAt": "2026-11-12T02:23:55.504Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:23:52.400Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Tiny Nickel Highway in Corn",
+      "intro": "Chinese researchers have found how corn moves a tiny nutrient called nickel from its leaves into its seeds.",
+      "paragraphs": [
+        "Plants need more than the three big nutrients. They also need tiny amounts of metals like nickel. For a long time, scientists did not know how nickel travels in corn and other grasses. A new study gives us the first clear map. The results appeared in the journal Cell on November 11.",
+        "A team from the Chinese Academy of Sciences Molecular Plant Science Innovation Center worked with Shanghai Zhangjiang Smart Breeding Center and Huazhong Agricultural University. They studied 1,404 corn lines and found a key protein called ZmNAET1. This protein works like an exit gate for nickel. It releases a small molecule called nicotianamine. That molecule grabs nickel like a tiny clip. Other proteins then carry the nickel to seeds and growing points.",
+        "Nickel helps corn break down urea. Without enough nickel, urea cannot change normally. That blocks protein building and slows plant growth. It also hurts seed development and germination. When the ZmNAET1 gene failed, seeds held less nickel. Ear weight, seed size, and starch content all dropped. Stored seeds also sprouted much less often.",
+        "Adding nickel to low-nickel seeds restored their ability to sprout. Adding zinc did not do the same. Spraying nickel on leaves in the field also repaired plant growth and the activity of urease. The team found a similar gene in rice. This suggests the transport system is common in grasses.",
+        "For years, many scientists thought grasses needed very little nickel. This study gives genetic evidence that nickel is essential for them. It also finds a nickel route that is separate from the old known pathway. In alkaline soils that often lack nickel, or in corn types with low seed nickel, modest nickel addition may help in the future. Breeders could also use natural differences in this gene to develop crops that move nickel more efficiently."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:26:48.781Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 5,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-12/2026-11-12-1e1d31.webp",
+      "alt": "冷灰纸面上，细线勾勒的叶片旁悬浮圆形颗粒，以虚线相连。",
+      "caption": "微量元素，悄然进入植物。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-12-6e7ba3",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "第十三届产教融合发展战略国际论坛亮相武汉",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-12",
+    "intro": "这篇稿子暂不改成听稿：原文正文没有取到",
+    "paragraphs": [
+      "这次抓取到的页面里，除了标题‘第十三届产教融合发展战略国际论坛亮相武汉’、发布信息‘2026年11月11日 20:25，来源中国新闻网，作者张令旗’之外，剩下几乎全是网站导航、栏目链接和分享按钮。",
+      "按轻听的规矩，听稿里的事实、数字、因果和引语都必须能回到原文核验；编辑部补充的背景也要标明是背景，不能把推断写成来源结论。",
+      "所以这篇暂时不进入改写。它可以退回候选池，等拿到完整正文再重新评分；如果拿不到正文，就直接按‘全文抓取失败’淘汰，不占当天的节目名额。",
+      "顺带说一句，产教融合这个题目本身是值得讲给孩子听的。学校和企业怎么合作培养学生，职业学校的学生怎么一边上课一边进车间，这类机制用具体的例子讲清楚，十三到十六岁的孩子完全能听懂。但那要等一篇真正写清楚了事情经过的报道。"
+    ],
+    "topics": [
+      "教育",
+      "城市与公共"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-11/10730457.shtml",
+      "originalTitle": "第十三届产教融合发展战略国际论坛亮相武汉",
+      "publishedAt": "Wed, 11 Nov 2026 20:25:53 +0800",
+      "retrievedAt": "2026-11-12T02:24:44.851Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:24:42.976Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Forum in Wuhan on Schools and Workplaces Learning Together",
+      "intro": "The thirteenth International Forum on Industry-Education Integration Development Strategy took place in Wuhan.",
+      "paragraphs": [
+        "The thirteenth International Forum on Industry-Education Integration Development Strategy took place in Wuhan.",
+        "The forum's name is 'International Forum on Industry-Education Integration Development Strategy'.",
+        "China News Service reported the event."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-12T02:27:27.117Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-11-50-65cd3c",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "陈文新：50多岁开始建起全球最大根瘤菌资源库",
@@ -3190,215 +3418,6 @@
         "reviewer": "qwen-plus",
         "evidenceCount": 4,
         "correctionCount": 0,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-28-podcast-the-future-of-electronics-goes-beyond-ci",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "未来的电路，也许不必长在平板电路板上",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-28",
-    "intro": "美国国家科学基金会支持的研究者伊桑·塞科尔介绍一种专门的增材制造技术、它所涉及的材料，以及由此做出、可以针对复杂三维表面定制的电路。",
-    "paragraphs": [
-      "我们身边的电子设备，几乎都建立在一块平板电路板上。手机、耳机、汽车仪表盘，拆开来看，核心往往是一片薄薄的、平的板子。可真实世界的表面很少是平的：手腕是圆的，机翼是弯的，很多东西的形状都不规整。于是问题来了——电路一定要长在平板上吗？",
-      "美国国家科学基金会（NSF）在2026年10月27日发布的一期播客里，讨论了这个问题。受访者是受NSF支持的研究者伊桑·塞科尔（Ethan Secor）。这期节目属于NSF的播客《NSF Discovery Files》，可以在各播客平台收听。",
-      "按NSF的介绍，塞科尔在节目里讲了三件事：一种专门的增材制造技术、这种技术涉及的材料，以及用它们做出来的电路——这些电路可以针对复杂的三维表面进行定制。",
-      "NSF的表述是，这些电路可以针对复杂的三维表面做定制。也就是说，被讨论的不只是一种新的制造手段，还有电路与承载它的形状之间的关系：当表面不再是平板，电路要如何跟着形状来安排。",
-      "NSF在页面开头写了一句很大的话：新的、有雄心的想法，是下一代技术的地基。这句话放在这里并不空。",
-      "如果想继续追下去，可以顺着两条线自己想：一是形状，为什么平面限制了设计；二是材料，一种材料要满足什么条件，才能既被“添加”上去，又能导电。"
-    ],
-    "topics": [
-      "工程与制造",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NSF News",
-      "region": "international",
-      "url": "https://www.nsf.gov/news/podcast-future-electronics-goes-beyond-circuit-boards",
-      "originalTitle": "Podcast: The future of electronics goes beyond circuit boards",
-      "publishedAt": "Tue, 27 Oct 2026 16:23:58 -0400",
-      "retrievedAt": "2026-10-28T00:45:57.800Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-28T00:45:54.791Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-28/2026-10-28-podcast-the-future-of-electronics-goes-beyond-ci.webp",
-      "alt": "灰色三维曲面上延伸着细密线路的抽象插图",
-      "caption": "电路不必平铺，也可以贴着曲面生长。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-27-the-bloody-palette-of-the-animal-kingdom",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "动物血液不只有红色：章鱼血呈蓝色，南极冰鱼血几乎透明",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-27",
-    "intro": "从章鱼的蓝血到南极冰鱼近乎透明的血，动物界的血液颜色比我们想的丰富得多，而每一种颜色背后都对应一套运送氧气的办法。",
-    "paragraphs": [
-      "鼻子碰破了，手指扎破了，流出来的血总是红的。可要是把整个动物界看一遍，红色只是众多答案里的一个。有的动物血是蓝的，有的是紫的，有的是绿的，还有的是乳白色、几乎透明的。同样是运送氧气的液体，为什么颜色能差这么多？",
-      "先说我们自己。血液的红色来自血红蛋白，它是红细胞里的一种蛋白质，里面装着铁原子。铁原子抓住氧气，血就显得鲜红；氧气少了，颜色就变成发暗的褐红。章鱼、鱿鱼，还有虾和蟹，用的是一种叫血蓝蛋白的蛋白质，里面装的是铜原子。铜原子抓住氧气会发蓝，它们的血因此是蓝色的，鲎也就是马蹄蟹，同样是一身蓝血。血蓝蛋白抓氧的效率不如血红蛋白，但它在低温下工作得特别好，深海正合适。研究还提示，它可能不只负责运氧，比如参与免疫、帮助伤口愈合。",
-      "腕足动物和生活在海底的花生虫，血是紫色的，它们用的是一种含铁、本身发紫的蛋白质，叫血赤蛋白。海鞘这种软软的、像土豆一样的海洋动物，血是黄绿色的，原因目前还有争论：一种说法和它们血液里富集的钒有关，另一种说法和吃有关，它们消化海水里的浮游植物时会产生类胡萝卜素，这类色素是黄、红或者橙色的。",
-      "新几内亚有几种蜥蜴，运送氧气用的还是血红蛋白，但它们会把血红蛋白分解成一种天生的绿色色素，叫胆绿素。人得黄疸时皮肤呈现黄绿色，也是这个分子在高浓度下的效果。多数脊椎动物会继续把胆绿素分解成别的、颜色暗淡的物质，这几种蜥蜴不这么做，色素在血液里越积越多，最后绿色盖过了血红蛋白的红色。",
-      "南极冰鱼是目前已知唯一不制造血红蛋白、也没有红细胞的脊椎动物，血液是乳白半透明的，研究者形容它们像幽灵一样。它们不靠任何抓住氧气的蛋白质，而是让氧气直接溶进血液。它们的身体也做了配套改动：心脏和毛细血管比别的南极鱼更大，能泵出和循环更多的血；捕食时不追不跑，埋伏着等猎物靠近，耗能少，需要的氧也少。冰鱼的血红蛋白基因为什么会从DNA里消失？这仍是谜，研究者连先失去红细胞还是先失去血红蛋白都还说不清。一个猜想是：南大洋的水又冷又富含氧气，氧气足够直接进入血液，血红蛋白这个中间人就显得多余了。",
-      "海拔越高，氧气越稀薄，鹿鼠却能生活在海拔约四千多米的地方，比很多人开始出现高原反应的高度还高得多。它的血红蛋白和氧结合得特别紧，安第斯山的蜂鸟和高原上的黑斑蛙也有类似的改变。不过适应总有代价，结合得太紧，氧气就不容易松开、送进组织。鹿鼠的补偿办法是让肌肉纤维里多一些能释放氧的线粒体。研究这些奇怪的血，也可能帮到人：鹿鼠的血红蛋白演化或许能启发慢阻肺这类缺氧疾病的治疗；而对全球近二十亿贫血的人来说，那身透明血的南极冰鱼，也许藏着线索。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/the-bloody-palette-of-the-animal-kingdom-1286077/",
-      "originalTitle": "The Bloody Palette of the Animal Kingdom",
-      "publishedAt": "Mon, 26 Oct 2026 15:00:00 +0000",
-      "retrievedAt": "2026-10-27T00:31:03.724Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-27T00:30:59.900Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why Animal Blood Comes in So Many Colors",
-      "intro": "Blood is not always red. The colors reveal how different animals survive in their environments.",
-      "paragraphs": [
-        "When you scrape your knee, the blood you see is red. But red is not the only color for blood in the animal kingdom. Some creatures bleed blue. Some bleed green or yellow. Antarctic blackfin icefish bleed ghostly white. Scientists have studied these colors to understand how blood works.",
-        "In humans and many animals, a protein called hemoglobin carries oxygen. Hemoglobin contains iron atoms. When iron binds oxygen, blood is bright cherry red. When less oxygen is bound, it’s a muddier brown-red. Octopuses, squid, shrimp, and crabs use hemocyanin instead. It contains copper atoms, which look blue when bound to oxygen.",
-        "Some marine creatures — like clam-like brachiopods and peanut worms — bleed violet. They use hemerythrin, an iron-rich purple protein. Some sea squirts bleed greenish yellow. One candidate for the color is vanadium. Another theory points to diet: metabolizing marine phytoplankton creates yellow-orange carotenoids. Several lizard species in New Guinea have green blood. They break down hemoglobin into biliverdin — a green pigment — and accumulate it so highly that it overwhelms the red of hemoglobin.",
-        "Antarctic blackfin icefish of the family Channichthyidae are the only known vertebrates that do not make hemoglobin and do not have red blood cells. Their blood is milky, translucent white. Instead of hemoglobin, oxygen dissolves directly into their bloodstream. They have larger hearts and capillaries, and they are patient ambush predators — lying in wait rather than darting, so they expend less energy and need less oxygen.",
-        "In high-altitude ecosystems, some species have evolved hemoglobin that binds oxygen more tightly. The deer mouse lives up to 14,000 feet above sea level. Its hemoglobin makes extra tight bonds with oxygen. But this makes it harder to release oxygen into tissues. To compensate, the mouse has higher quantities of oxygen-releasing mitochondria in its muscle fibers.",
-        "These unusual blood systems may inform human health. Deer mouse hemoglobin evolution could inspire therapies for hypoxia-inducing diseases, including chronic obstructive pulmonary disease. Icefish — transparent bleeders — may hold clues for treating anemia. As Postlethwait says, 'the icefish have figured it out.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-27T00:40:09.886Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-27/2026-10-27-the-bloody-palette-of-the-animal-kingdom.webp",
-      "alt": "三支盛有蓝、红、透明液体的玻璃试管静置在浅灰台面上",
-      "caption": "同一种氧气，不同的颜色。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-27-feeling-nervous-work-that-system-to-calm-it-down",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "紧张时身体会自动加速，科学家正研究如何主动让它慢下来",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-27",
-    "intro": "压力来的时候，身体会自动加速；科学家正在弄清楚，我们怎样主动踩下那脚刹车。",
-    "paragraphs": [
-      "考试前，或者要上台前，你可能有过这样的体验：压力激素涌进血液，心跳变快，血压升高，呼吸也变急。这些反应都不经过思考，由交感神经系统自动启动。不管你面对的是真正的危险，还是一场大考，它都会出手。交感神经的另一套系统叫副交感神经系统，负责把身体带回休息状态：降低压力激素、放慢心跳、降低血压。纽约大学朗格尼医学中心的神经科医生帕特里西奥·米拉尔·韦尔内蒂说：‘ consciously, you can’t tell your heart to slow down.’ 但通过一些干预，你能多一点掌控。",
-      "其中一个关键角色是迷走神经。它从脑干延伸到腹部，呼吸练习可以激活它，冷水疗法也可能有同样作用。有一项小研究：科学家让25人做心算，其中12人此前戴过一种面部冷却面罩，用来模拟把脸浸入冷水中——这是已知的刺激迷走神经的方法。所有人都因心算而紧张，但戴过面罩的人释放的皮质醇更少，恢复得也更快。皮质醇是一种压力激素。这项研究发表在《Scientific Reports》上。",
-      "哼唱也进入了研究者的视线。2025年10月的一项研究显示，慢呼吸加上哼唱可以提升心率变异性——即心跳间隔时间的波动程度。高心率变异性是神经系统调节良好的标志之一，物理治疗师卡琳·斯蒂尔解释说，这表示‘你的身体内部正在减少自我对抗’，也更能灵活切换压力与放松状态。她在华盛顿州塔科马市的普吉特海湾大学工作。",
-      "还有一种做法是轻拍皮肤特定部位。研究显示，这种拍打可降低压力激素水平，也能减缓心率和降低血压。它甚至被用于某些状况的辅助治疗，比如创伤后应激障碍（PTSD）。2025年的一篇综述提出，拍打可能向大脑发送信号，促使副交感神经系统接管。",
-      "那么哪一种方法最好？波士顿麻省总医院本森—亨利身心医学研究所的达尔尚·梅塔说：‘There’s really no one best way.’ 他指出，网上几乎每种流行技巧都能找到支持它的小型、一次性研究。真正重要的是找到适合自己的方法并坚持练习。他说：‘It’s not important which practice [people adopt]… What’s important… is that people do practice [it].’ 帕特里西奥·米拉尔·韦尔内蒂补充说，哼唱和吟诵等做法早已存在于古老的精神实践中，‘People have been doing [them] for centuries.’",
-      "这些方法不是魔法开关，而是给身体多一个调节选项。它们背后的研究大多规模较小，效果也因人而异。慢而深的呼吸，也许是你早就用过的那一个。那么下一次紧张来临，你愿意先试哪一个？"
-    ],
-    "topics": [
-      "健康与医学",
-      "心理与情绪"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
-      "originalTitle": "Feeling nervous? Work that system to calm it down",
-      "publishedAt": "Mon, 26 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-27T00:32:12.117Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-27T00:32:06.292Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 34,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-27-6dd5e0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "铁三世界杯韩国统营站：中国选手包揽女子冠、亚军",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-27",
-    "intro": "在2026年10月24日举行的铁人三项世界杯韩国统营站比赛中，中国选手林鑫瑜和黄安琪包揽女子优秀组冠、亚军，总成绩分别为56分42秒和56分45秒。",
-    "paragraphs": [
-      "先记住两个数字：56分42秒，56分45秒。这是10月24日铁人三项世界杯韩国统营站女子优秀组的冠军和亚军成绩，拿到它们的，是两位中国选手——林鑫瑜和黄安琪。第三名是法国选手玛蒂尔德·戈蒂埃（从左至右：黄安琪、林鑫瑜、戈蒂埃）。一场国际比赛，领奖台上最高的两级同时站着中国选手，这是中国铁人三项的历史时刻。",
-      "铁人三项要先游泳，再骑自行车，最后跑步，三个项目连着完成，中间不停表。统营站这天，林鑫瑜和黄安琪在游泳和自行车赛段都待在第一集团中。在跑步赛段中，黄安琪最先建立起领跑优势，但在第一圈结束时因罚时10秒而落后；前方，林鑫瑜与葡萄牙选手玛丽安娜·瓦尔热姆展开激烈角逐。在一个上坡阶段，林鑫瑜发力实现超越，一路领先至终点。",
-      "凭借出众的跑步能力，黄安琪在后方持续追击，反超多名选手，最终以总成绩56分45秒收获亚军，刷新个人在此项赛事中的最好成绩。虽然比赛过程曲折，但她始终保持了平稳的心态。她在赛后说：“能和队友一起站上领奖台我非常开心，这是中国铁三的历史时刻。下一步我们依然会打好每一场积分赛，全力冲击奥运资格。”",
-      "林鑫瑜赛后表示：“（我）延续了北京世界杯时的身体状态和感觉，做好了赛中决策，把整个周期的训练成果都在比赛中发挥出来了。”上一站世界杯为中国队首夺该系列赛事金牌后，林鑫瑜在统营站以总成绩56分42秒蝉联冠军。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261026/27a87decdc2a49399593f83654d2d1bd/c.html",
-      "originalTitle": "铁三世界杯韩国统营站：中国选手包揽女子冠、亚军",
-      "publishedAt": "2026-10-26T09:34:29+08:00",
-      "retrievedAt": "2026-10-27T00:32:55.554Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-27T00:32:53.865Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
         "attempts": 1
       }
     }
