@@ -1,5 +1,285 @@
 [
   {
+    "slug": "2026-11-13-d8dfce",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "达喀尔青奥会上多位少年夺金",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-13",
+    "intro": "2026年11月，非洲首次举办青奥会，来自全球的青少年运动员在达喀尔同场竞技，多位少年用坚持、逆转与突破，拿下属于自己的国际大赛金牌。",
+    "paragraphs": [
+      "本届青奥会是奥林匹克系列赛事第一次走进非洲，也是武术、滑板、沙滩摔跤等项目首次成为正式比赛项目。14天里，来自世界各地的15至18岁运动员，在高温、时差和人生首次国际大赛的压力下比拼。他们不是职业选手，但每一块奖牌背后，都有反复练习、带病上场、从垫底到夺冠的真实故事。",
+      "中国15岁游泳选手常墨涵，在最后一天顶着高温和感冒，‘一日游三枪’，在200米自由泳和200米蝶泳中双双夺金，以2金2银成为本届赛事奖牌最多的中国选手之一；16岁的谢以忱出现高烧、腹泻，被迫退出男子200米个人混合泳，但仍坚持带病上场，摘得100米蛙泳和50米蛙泳金牌；15岁的滑板选手朱沅铃在女子街式滑板决赛中前两轮走线分别获得25.72分和17.84分，排名垫底，最后一轮走线获67.44分，大绝招第三轮拿下全场最高82.38分，最终以总分149.82分夺冠。",
+      "17岁的田径选手张可依在女子100米栏决赛中以13秒17夺冠，刷新个人最好成绩，也改写了该项目的亚洲少年纪录；她说：‘很荣幸与妮姐相提并论，但我不想成为任何人，我只想做自己。’15岁的林益磊参加男子长拳全能比赛，长拳、棍术两项均列第一，总分18.796分夺得冠军，这是奥运赛事的首枚武术金牌；他说：‘我经过激烈的选拔赛来到这里，我要把好消息分享给家人和队友。’",
+      "日本17岁游泳选手石川真菜在达喀尔参加女子200米蛙泳、100米蛙泳、200米个人混合泳、50米蛙泳四项比赛，全部夺冠，是截至目前本届青奥会夺金最多的选手；17岁的川上流星搭档13岁的松岛美空拿下混双金牌，又在男单比赛中夺冠；他说：‘希望今年世界排名能提升到前30名，未来争取参加世锦赛和奥运会。’塞内加尔选手迪亚塔在女子沙滩摔跤55公斤级决赛中以5:1战胜日本选手小岛怜纱，为东道主赢得奥林匹克系列赛事首金；她说：‘我感觉太棒了，我想告诉塞内加尔人民要相信自己的梦想，也要告诉女孩们，摔跤并不只是男孩的运动。’",
+      "常墨涵表示：‘自己的经验、技术、有氧能力还有差距，将努力训练、弥补不足，向世界展示更好的自己。’羽毛球女单决赛中，章艺馨对阵印度选手帕特里，前两局战成1:1，决胜局一度以19:10领先，被对手连追5分；以20:15拿到赛点时，对手又连得6分实现反超；她最终以26:24获胜；中国队教练郭振东说：‘年轻人的比赛就是起伏大，但她最后还能顶得住，这非常难得。’体操选手杨兰斌在本届青奥会资格赛、男团、全能、混团决赛中共完成21套动作，获得男团和混团两枚金牌；他说：‘才刚刚开始。’"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261112/76a24aafe7114f3faa9b1ce8a1724b86/c.html",
+      "originalTitle": "追光丨青奥会上，那些冉冉升起的未来之星",
+      "publishedAt": "2026-11-12T19:27:59+08:00",
+      "retrievedAt": "2026-11-13T01:57:02.464Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T01:56:58.839Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Rising Stars at the Dakar Youth Olympics",
+      "intro": "At the Dakar Youth Olympics, young athletes gave the world a look at the next generation of sports stars.",
+      "paragraphs": [
+        "The Youth Olympic flame in Dakar is about to be extinguished. A group of future stars has risen. They shone on the Youth Olympic stage and declared their ambition to become the future protagonists of world sport. This was the first Youth Olympics held in Africa.",
+        "Fifteen-year-old swimmer Chang Mohan was one of China's opening ceremony flag bearers. After missing gold in the women's 200-meter breaststroke and individual medley, she felt upset and cried. On the final day, she competed in three races under high temperature and while suffering from a cold. She won gold in the 200-meter freestyle and the 200-meter butterfly. She earned two golds and two silvers — one of the most decorated Chinese athletes at these Games. She said her experience, technique, and aerobic capacity still need improvement.",
+        "Sixteen-year-old Xie Yichen had a high fever and diarrhea in Dakar. He withdrew from the men's 200-meter individual medley. But he refused to miss the Youth Olympics — a once-in-a-lifetime event. He competed while ill and won gold in the 100-meter and 50-meter breaststroke.",
+        "Fifteen-year-old Zhu Yuanling won the women's street skateboard final. Skateboarding was included as an official Youth Olympic sport for the first time. In her first two runs, she made mistakes and scored 25.72 and 17.84 points — last among all competitors. She told herself, 'The competition isn't over yet, so there's still a chance.' In her final run, she scored 67.44 points. In the best-trick round, she fell in her second attempt and scored zero. In her third attempt, she scored 82.38 points — the highest score of that round. Her total was 149.82 points — enough for gold. Her next goal is the Los Angeles Olympics, where she hopes to win a medal and compete for gold.",
+        "Seventeen-year-old Zhang Keyi won the women's 100-meter hurdles final. Her time of 13.17 seconds was a personal best and set a new Asian youth record. She said she was not fully satisfied because she did not give her absolute best. When compared to Wu Yanni, she said: 'It's an honor to be mentioned alongside Sister Ni, but I don't want to be anyone else — I just want to be myself.'",
+        "In the badminton women's singles final, Zhang Yixin faced Indian player Patil. The match was tied 1–1 after two games. In the deciding game, Zhang led 19–10 and later held a match point at 20–15. Her opponent then won six straight points to take the lead. Zhang held her nerve and won 26–24. Coach Guo Zhendong said: 'Young players' matches are full of ups and downs, but she held on — that's very rare.'",
+        "Wushu made its debut on the Olympic series stage at the Dakar Youth Olympics. Fifteen-year-old Lin Yilei competed in the men's changquan all-around. He ranked first in both changquan and cudgel, with a total score of 18.796 points — winning the gold. This was the first wushu gold medal in Olympic-series history. Lin said: 'I came here through fierce selection trials. I want to share this good news with my family and teammates.'",
+        "Yang Lanbin was the most active Chinese gymnast at these Games. Across qualification, men's team, all-around, and mixed team finals, he performed 21 routines. He won gold with the men's team and the mixed team. His dream is to become an Olympic champion. With two Youth Olympic golds, he said: 'It's only the beginning.'",
+        "Seventeen-year-old Mana Ishikawa of Japan won four swimming golds in Dakar: women's 200-meter breaststroke, 100-meter breaststroke, 200-meter individual medley, and 50-meter breaststroke. She is the top gold medalist at these Youth Olympics so far. She said: 'Winning four golds surprised even me.'",
+        "Seventeen-year-old Ryusei Kawakami of Japan won the mixed doubles title with 13-year-old Miku Matsushima. He also won the men's singles table tennis title. He said he hopes to reach the world top 30 this year and later compete at world championships and the Olympics.",
+        "Diata of host nation Senegal won the women's 55-kilogram beach wrestling final 5–1 against Japanese athlete Risa Koijima. Beach wrestling was a new event at these Youth Olympics. It was Senegal's first-ever gold medal in an Olympic-series event. After winning, Diata said: 'I feel amazing. I want to tell the people of Senegal to believe in their dreams — and tell girls that wrestling is not only for boys.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T02:02:45.403Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 11,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-13-ce8bd5",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "“外婆家的美术馆”影像展在浙江桐乡开展 留存江南小镇变迁史",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-13",
+    "intro": "一场名为“外婆家的美术馆”的影像展，近日在浙江桐乡开展，旨在留存江南小镇的变迁史。",
+    "paragraphs": [
+      "据中国新闻网2026年11月12日报道，‘外婆家的美术馆’影像展在浙江桐乡开展，它要留存的是江南小镇的变迁史。这里展出的不是油画和雕塑，而是照片等影像记录。",
+      "所谓‘变迁史’，指的是小镇这些年发生的渐进式变化：房屋翻新、老街改造、生活方式更迭。这类变化往往缓慢而细微，身处其中的人未必察觉，回望时才发觉原貌已难寻。影像的价值正在于定格某一时刻，使后来者仍可看见。",
+      "展览名称中‘外婆家’三字尤为关键——它将‘美术馆’这一看似疏离的概念，拉回到每个家庭那本泛黄的旧相册里。一个小镇的历史，未必载于典籍，而常藏于外婆家的相册、抽屉、灶台边。当这些零散的日常被系统收集、并置呈现，普通人的生活便成为可被看见的历史。",
+      "地方发展加速时，人容易遗忘它原本的模样。这样的展览，是帮人在变化中辨认来路，也让孩子知道：脚下这条街，曾经是什么样子。",
+      "该报道未提及展览具体展品、展期、策展人或开幕时间等细节。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "历史"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/11-12/10731152.shtml",
+      "originalTitle": "“外婆家的美术馆”影像展在浙江桐乡开展 留存江南小镇变迁史",
+      "publishedAt": "Thu, 12 Nov 2026 21:08:46 +0800",
+      "retrievedAt": "2026-11-13T01:57:42.450Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T01:57:40.631Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-13/2026-11-13-ce8bd5.webp",
+      "alt": "江南老屋一角，木窗旁放着旧相框与泛黄照片",
+      "caption": "影像留存小镇旧时光",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-13-from-the-archive-weizenbaum-s-nightmares-how-the",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "造出第一个聊天机器人的人，后来为什么反对人工智能",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-13",
+    "intro": "他让机器学会了对话，也最早提醒人们：机器不是人。",
+    "paragraphs": [
+      "今天，和一台机器说话已经不算新鲜事。你在手机里敲一行字，它就像一个很有耐心的人，一句一句回你。可是在人工智能刚刚起步的时候，第一个能这样陪人对话的程序被造出来，造它的人却没有为此高兴。后来，他成了人工智能最尖锐的批评者之一。",
+      "这个人叫约瑟夫·魏岑鲍姆，是一位计算机科学家。《卫报》长读栏目重播的这篇人物回顾说，他亲身站在人工智能的起点上。他写出的那个程序叫ELIZA，被称作世界上第一个聊天机器人。",
+      "但魏岑鲍姆后来调转了方向，站到了人工智能的对面，态度非常坚决。他反复强调一条界线：我们永远不能把计算机和人混为一谈。",
+      "这条界线说起来像常识，守住却很难。一个程序能接住你的话，能顺着你的语气往下说，你的心里就会自动补上一些东西。比如你说一句今天很难过，它回你一句安慰的话，你会忍不住想：它听懂了吗？它在意吗？它是不是有点像我？机器模仿得越像，这个自动补上的动作就越难刹住。魏岑鲍姆要挡住的，正是人把机器当成人的那一步。",
+      "这件事放到今天更有分量。聊天机器人已经走进课堂和家庭，孩子也会对着它说话、向它提问。这时候真正该问的，也许不是机器还能聪明到什么程度，而是哪些事可以交给它，哪些必须留给人。一个答案是从哪里来的，谁来判断它对不对，出了错由谁负责——这些问题，机器自己回答不了。",
+      "魏岑鲍姆留下的故事有一点耐人寻味。他造出了一个让人以为在跟人说话的东西，然后又花了很长时间提醒别人：它不是人。技术在往前走，这条线画在哪里，仍然要由人来定。"
+    ],
+    "topics": [
+      "人工智能伦理",
+      "聊天机器人历史",
+      "技术家的责任"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Guardian Long Read",
+      "region": "international",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/11/from-the-archive-weizenbaums-nightmares-how-the-inventor-of-the-first-chatbot-turned-against-ai-podcast",
+      "originalTitle": "From the archive: Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI – podcast",
+      "publishedAt": "Wed, 11 Nov 2026 05:00:31 GMT",
+      "retrievedAt": "2026-11-13T01:58:31.107Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T01:58:28.369Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Man Who Built the First Chatbot, Then Turned Against AI",
+      "intro": "One computer scientist stood at the very beginning of artificial intelligence. He built the first chatbot. Then he spent years warning people about it.",
+      "paragraphs": [
+        "Imagine you are in a room with a machine that answers you in words. You type something. Words come back. It feels like a conversation. Now imagine the person who built that machine telling you to be careful. That is the story here. It is from a Guardian Long Read piece. It was written by Ben Tarnoff. It comes from the archive.",
+        "Joseph Weizenbaum was a computer scientist. He was there at the dawn of artificial intelligence. He was also the inventor of the first chatbot. By Ben Tarnoff. Read by Sam Peter Jackson.",
+        "Weizenbaum was adamant that we must never confuse computers with humans. He was firm and clear about that point. He kept drawing that line again and again.",
+        "A machine that answers in ordinary words invites you to treat it like a person. It is easy to forget what is actually happening. Something is producing text that fits your question.",
+        "This matters more now than ever. Chatbots are part of daily life. We talk to them casually. So Weizenbaum's warning is not a museum piece.",
+        "Next time you use a chatbot, pause for a second. Ask yourself what the machine can actually do. Ask yourself what it cannot. The man who made the first one wanted you to keep asking that."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T02:03:32.998Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-13-the-evolving-story-of-how-chemistry-became-biolo",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "化学怎样一步步变成了生命",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-13",
+    "intro": "科学家花了七十多年，用实验和推理一点点拼出地球上的生命最初是怎么从普通分子中诞生的。",
+    "paragraphs": [
+      "大约46亿年前，太阳系诞生了。地球刚形成时像一个滚烫的火球，被陨石不停撞击。后来它慢慢冷却，出现了酸性的海洋，天空是粉红色的二氧化碳气体——但那时还没有生命。直到约3亿年后，地球条件变得合适，一些分子开始自发地组合、复制、传递信息，形成了能自我维持的系统。这，就是生命最原始的起点。",
+      "过去几十年，科学家一直在争论：最早出现的是哪一类分子？是能储存遗传信息的RNA，还是包裹细胞的脂质泡泡？是构成蛋白质的氨基酸，还是参与能量转化的代谢小分子？争论了很久，却始终没有统一答案。有人甚至觉得，这个领域正处在‘危机’之中——但正是这种困惑，推动新一代研究者换了一种思路：不执着于‘谁第一个’，而是去理解‘化学反应怎样一步步演变成有生命的系统’。",
+      "1952年，23岁的研究生斯坦利·米勒做了一个著名实验：他用玻璃装置模拟早期地球环境——烧瓶里装水代表原始海洋，混合甲烷、氨气、水蒸气和氢气等气体代表原始大气，再用电火花模拟闪电。一天后，瓶底出现了深褐色的黏稠物，里面含有五种氨基酸——而氨基酸正是组成蛋白质的基本单元。这是人类第一次用实验证明：生命的基础材料，可以在远古地球的自然条件下自己产生。",
+      "不久之后，DNA双螺旋结构被发现，大家意识到：遗传信息的传递可能才是关键。于是研究焦点转向‘基因分子怎么起源’。但后来科学家越来越清楚：生命不是靠某一种分子单打独斗建成的，而是需要三样东西一起工作——能存信息的基因、能供能量的新陈代谢、还有能把它们包起来的细胞膜。这三者如何在没有生命的世界里协同出现，才是真正的难题。",
+      "今天的科学家不再只从化学或生物单方面出发。有的从现存生命倒推，用基因技术探索古老分子；有的从无机世界出发，混合各种化学物质，看哪些组合能表现出类似生命的特征；还有的在实验室里设计全新的、地球上从未存在过的生化系统。他们问的问题也变了：不只‘生命是什么’，更关心‘生命做了什么’——在远古地球上，在培养皿里，甚至在别的星球上。"
+    ],
+    "topics": [
+      "生命起源",
+      "化学与生物学",
+      "科学争论"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+      "originalTitle": "The Evolving Story of How Chemistry Became Biology",
+      "publishedAt": "Thu, 12 Nov 2026 15:45:27 +0000",
+      "retrievedAt": "2026-11-13T02:00:01.680Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T01:59:58.759Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-13/2026-11-13-the-evolving-story-of-how-chemistry-became-biolo.webp",
+      "alt": "分子结构线条渐变为细胞轮廓的抽象图示",
+      "caption": "从分子到生命的漫长拼图",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-13-2026-a5157a",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "2026泉州南少林功夫精英赛开幕 逾千名海内外选手参赛",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-13",
+    "intro": "2026年11月12日，2026泉州南少林功夫精英赛在福建泉州开幕，逾千名海内外选手参赛。",
+    "paragraphs": [
+      "2026年11月12日，福建泉州，2026泉州南少林功夫精英赛开幕。中国新闻网报道指出，逾千名海内外选手参赛。",
+      "这是一场以‘南少林功夫’为项目的比赛，举办地在泉州，赛事名称明确标注年份‘2026’，已正式开幕。",
+      "逾千名选手——即超过一千人，规模相当于一所普通小学的全体学生。他们从中国各地及境外赶来参赛。",
+      "‘海内外’表明参赛者不仅来自中国大陆，还包括境外选手，体现南少林功夫的跨地域影响力。",
+      "目前报道仅披露赛事开幕及参赛规模，尚未公布比赛结果。但可推知：台上数分钟的展示，背后是选手经年累月的坚持与训练。"
+    ],
+    "topics": [
+      "体育",
+      "文化"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/11-12/10731137.shtml",
+      "originalTitle": "2026泉州南少林功夫精英赛开幕 逾千名海内外选手参赛",
+      "publishedAt": "Thu, 12 Nov 2026 20:45:31 +0800",
+      "retrievedAt": "2026-11-13T02:00:45.377Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-13T02:00:43.797Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-12-how-a-metabolic-spark-could-have-jump-started-li",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "生命的起点，也许是一团会自己转起来的化学反应",
@@ -3144,282 +3424,6 @@
       "alt": "抽象网格与细线叠加在器械剪影上的示意",
       "caption": "多角度回看，为裁判提供参考信息。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-29-how-spiders-spin-silk-dope-into-nature-s-toughes",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "蜘蛛怎样把蛋白浆纺成自然界最坚韧的丝",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-29",
-    "intro": "科学家首次在原子尺度看清，蜘蛛丝在变成固体纤维前，先经历一个液滴状的中间阶段——分子凝聚体。",
-    "paragraphs": [
-      "一只蜘蛛被人从墙上碰落，不会掉太久。就在几毫秒里，它把一包汤一样的蛋白质纺成一根结实的绳子，顺着这缕发亮的细丝爬回原处。这丝比防弹背心里那种叫凯夫拉的合成纤维更韧，强度也超过钢，还能弯曲，与人体相容。科学家一直想拿它做安全带、头盔、舰船材料，甚至做成帮助修复脑细胞的支架。可实验室里怎么都造不出同样好的蜘蛛丝，因为大家并不真正清楚，蜘蛛是怎样把丝腺里那包‘丝浆’纺成一根丝的。",
-      "丝浆不是现成的丝，而是蛋白质、水和盐混在一起的液体。一只蜘蛛能纺出多达七种丝：有的用来把猎物裹起来，有的做成有弹性的螺旋线吸收冲击，还有的当牵引丝，把网和蜘蛛固定在墙上。这些丝都由一类长条状的蛋白质构成，叫蛛丝蛋白，和胶原蛋白、角蛋白属于同一族。早在1907年，科学家就知道蜘蛛丝是蛋白质做的；又过了半个多世纪，X射线让人看到它的内部：排列整齐的蛋白薄片（称为β片层），嵌在一团不那么有序的非晶质基质里。",
-      "奇怪的地方在溶液里。把蛛丝蛋白溶开再看，它们并没有大多数蛋白质那样固定的形状，一大段一大段地飘来飘去，聚成形状又散开。这么一团乱糟糟的东西，怎么变成那么结实的纤维？早先有两种猜测：一种说这些蛋白质会像液晶那样彼此对齐，同时还能活动；另一种说它像蚕丝，先聚成一个个小圆球（即胶束），再压成丝。",
-      "要理解这团乱，得先绕到生物学的另一个地方去。2009年，科学家在受精的线虫卵里发现了一些浓缩着RNA的小液滴，后来这类东西被叫做‘凝聚体’。它是液体或者胶状的小泡，把分子攒在一起，却不把分子像固体那样锁死。因为它是流动的，生物可以把它捏成想要的形状。此后人们发现，活细胞里到处在用凝聚体：组织DNA、调控基因表达、打包蛋白质。在更大的尺度上，鱿鱼的喙靠它做出从硬到软的过渡，贻贝靠它牢牢粘在岩石上，沙堡虫靠它造出保护自己的管子。",
-      "2020年，京都大学的沼田圭司提出，蜘蛛丝从液体变成固体的过程中，也要经过凝聚体这一步，丝腺中部的磷酸盐可能启动了分子之间的相互作用。但原子层面到底怎么发生，还没有人讲清楚。圣地亚哥州立大学的化学家格雷戈里·霍兰带队去看了。研究生汉娜·约翰逊每隔几个月就收到一包雌性黑寡妇蜘蛛。黑寡妇有毒，但它们的牵引丝蛋白被研究得最透，而且全年都拿得到。他们用二氧化碳把蜘蛛麻醉，用镊子从蜘蛛腹部末端的纺器（即丝腺出口的细小孔道）上轻轻拉出丝，绕到由马达带动的小瓶上收起来；同时喂蜘蛛混了特定同位素的氨基酸，等于给蛋白质做上记号，好让仪器认出来。",
-      "约翰逊用核磁共振去看液体丝浆，以及从丝腺壶腹里取出的凝聚体；另一位研究者凯文·查莱克则测固体纤维里蛋白质的原子结构。他们想把两幅图对上：蛋白质在蜘蛛体内和在蜘蛛体外，明明是同一个东西，为什么表现如此不同。这项研究给出的答案是，丝浆里的分子先重组成半液体的凝聚体，再变成固体的丝纤维。霍兰说，搞清楚这套机制，是这个领域真正的‘圣杯’。麦吉尔大学的马修·哈林顿指出，凝聚体是许多生物反复使用的通用策略——看懂它，人们才有希望造出自然界最结实的那些材料。"
-    ],
-    "topics": [
-      "生命与演化",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
-      "originalTitle": "How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material",
-      "publishedAt": "Wed, 28 Oct 2026 16:04:18 +0000",
-      "retrievedAt": "2026-10-29T01:56:45.230Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-29T01:56:41.396Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "How Spiders Turn Liquid Silk Into Tough Fiber",
-      "intro": "Scientists are learning how a liquid mix inside a spider becomes one of nature's toughest fibers.",
-      "paragraphs": [
-        "When a spider is knocked off a wall, it spins a soup of proteins into sturdy climbing gear within milliseconds. It uses a thin, shimmering strand of silk to haul itself back up. That strand is tougher than Kevlar. It is stronger than steel. It is flexible. It is biocompatible with human bodies. Scientists dream of making spider silk into seat belts, helmets, naval materials, and scaffolds to help repair brain cells. But lab attempts have fallen short. Researchers don’t know enough about how spiders spin 'silk dope'. Silk dope is a liquid blend of proteins, water, and salt. It comes from the spider’s silk glands. It turns into solid silk fiber.",
-        "Gregory Holland is a chemist and spectroscopist at San Diego State University. He called mapping the molecular mechanisms behind this process 'really the holy grail' for the field. He led research that described how molecules in liquid spider dope reorganize into semiliquid droplets. These droplets are called condensates. They form before turning into solid silk fiber. The result is an atomic-level look into the spider’s silk factory.",
-        "Condensates are used repeatedly by nature. They organize molecules for genetic processes. They help create impressively strong biological materials. Matthew Harrington is a biological materials scientist at McGill University. He was not involved in the study. He said it’s becoming clear that condensates are a common strategy across different organisms. Because they’re fluid, they’re malleable. Biology can shape them into whatever it wants.",
-        "Spiders are incredible natural factories. They can spin up to seven types of silks. Dragline silk anchors webs and spiders to walls. Spider silk is made of long, modular proteins. These proteins are called spidroins. The silk fiber contains flat sheets of protein. These sheets are known as beta sheets. They are embedded in a less ordered, non-crystalline matrix.",
-        "For decades, scientists wondered how a soup of unstructured proteins could organize into strong, solid fibers. Early theories included alignment in a dynamic 'liquid crystal' state. Another theory compared it to silkworm silk, where proteins organize into micelles. In 2020, Keiji Numata suggested spider silk undergoes a condensate phase. This happens during its transition from liquid dope to solid thread. Condensates form by 'liquid-liquid phase separation'. In this process, molecules in a liquid start to interact weakly. They form bonds easily. They break bonds easily. This can be triggered by a change in pH, chemicals, or temperature. Numata proposed phosphate in the ampulla might initiate these interactions. The ampulla is the middle section of a spider’s silk gland.",
-        "Hannah Johnson was a graduate student in Holland’s lab. She studied black widow spiders. Every few months in 2023 and 2024, packages of female black widows arrived at San Diego State University. The spiders were knocked unconscious by carbon dioxide. Johnson and several students 'silked' the spiders. They used tweezers to gently pull silk from the spinnerets. They wound the silk around a vial with a spinning motor. The team fed the spiders amino acids enriched with particular isotopes. Johnson called them 'protein shakes'. Nuclear magnetic resonance (NMR) spectroscopy can map the structure of a molecule. Johnson used NMR on liquid spider dope. She also used it on condensates collected from the spiders’ ampullae. Kevin Chalek was a postdoctoral researcher in Holland’s lab. He mapped the atomic structure of the proteins in the solid fiber. They aimed to bridge the gap between what happens when the protein is inside the spider and when it’s outside."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-29T02:05:50.073Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 45,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-29/2026-10-29-how-spiders-spin-silk-dope-into-nature-s-toughes.webp",
-      "alt": "一滴液体拉出细丝并凝成纤维的抽象示意",
-      "caption": "从液滴到纤维，丝的形成有一个中间态。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-29-an-avalanche-inspired-this-forecaster-to-keep-ot",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "他亲身遭遇雪崩，后来成了雪崩预报员",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-29",
-    "intro": "一场把自己埋住的雪崩，把一名环境科学学生推上了研究雪、预报雪崩的路。",
-    "paragraphs": [
-      "2017年5月19日，克里斯·迪克森在科罗拉多州西南部的圣胡安山脉滑雪。他特意去试最近几场暴风雪积下的新雪。可那层新雪并不稳定，他遇上了雪崩，被雪部分埋住。他用 crunching motion（挤压挣脱）的方式让自己脱身。他说：‘That was a very scary eye-opener to the potential hazard of avalanches.’ 当时他搬到科罗拉多是为了学环境科学，这场雪崩改变了他的目标。他说：‘[It] inspired me to want to help other people avoid having that experience.’",
-      "他先成为雪崩教育者，教人们冬天如何在山里安全行动。后来他更想弄懂雪崩背后的科学，想花更多时间挖雪、分析雪。现在，他在丹佛的科罗拉多雪崩信息中心做雪崩预报员，每天制作预报，帮助公众在出发前了解雪崩风险。他说：‘I’m incredibly lucky that I survived. I took that lesson as a real learning opportunity.’",
-      "他提到，很多人误以为这份工作主要靠实地经验，其实非常依赖电脑。电脑建模和技术帮他们预测无法徒步抵达区域的雪况，也是向公众传达危险的主要方式。他主要看气象站的风和降水读数，也读公众提交的观察记录。他说：‘I actually spend more time at the computer than I do in the mountains. I’d say I enjoy them both, but it’s much nicer to be in the mountains than at the computer.’",
-      "在野外工作的日子，他出发前先用电脑数据做一份计划，包括大量地图作业来规划路线，并与同事共享计划，由同事进行野外作业检查。他要说明当天想重点观测的目标、地点、同行者，以及如何管理风险。然后进山四到八小时收集数据。很多是肉眼观察：找最近雪崩的痕迹，看脚下的地形；也专门去朝向特定方向、处于特定海拔的坡面。他会挖雪坑观察雪层结构，也会做稳定性测试：隔离雪柱后敲击雪层施加应力。这些数据用于撰写预报，公众当晚就能看到，用来计划第二天的野外活动。",
-      "最难忘的经历，往往是调查已经发生的雪崩。只要事件涉及人，他们就会去查，尤其是有人受伤、被埋甚至死亡的时候。去年冬天，他的一位朋友在滑雪场外被一场很大的雪崩卷走，被带过悬崖，经历非常可怕，幸好活了下来。这让他特别想弄明白为什么会发生。人们常问自己是不是做错了什么。有时自然雪崩会困住人，他们可能根本不知道自己身处危险区；有时则是人走进了风险更高的地方。分析朋友那次雪崩后，他告诉朋友：‘you could’ve avoided triggering the avalanche by skiing about 30 feet [9 meters] to either side.’ 他说那是‘an unlucky situation of being in the wrong place at the wrong time’。这样的调查能给人交代，也总能让人学到东西。",
-      "如果给年轻的自己建议，他会说：‘do the work you want to be paid for eventually.’ 他发起播客项目‘San Juan Stormcast’，因为他感觉人们想要一种不同于传统渠道的信息形式。雪崩信息很严肃，通常讲得非常直接，播客让他能多一点趣味，也发展自己的表达方式。他决定把公共安全信息分享给尽可能多的人，当时没人付钱给他。但这份工作给了他后来得到现在职位的基础技能和曝光。他说：‘If you wish you had a resource that no one else has created, just go ahead and build it yourself.’"
-    ],
-    "topics": [
-      "气候与能源",
-      "工程与制造"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/avalanche-forecaster-snow-science",
-      "originalTitle": "An avalanche inspired this forecaster to keep others safe",
-      "publishedAt": "Wed, 28 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-29T01:57:53.400Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-29T01:57:51.147Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 33,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-28-farm-plants-may-help-fight-infections-teen-finds",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "女孩拿农场里的24种植物做实验，看它们能不能杀死细菌",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-28",
-    "intro": "美国俄克拉何马州的一位切罗基族女孩，把自家农场里的24种植物煮成提取液，测试它们的抗菌能力：没有一种强过现有药物，但其中13种确实杀死了一部分细菌。",
-    "paragraphs": [
-      "美国俄克拉何马州的一座农场里，14岁的洛克琳·沃德有个傍晚在帮家里喂牛。喂着喂着，她的目光落到了田里那些自生的植物上。她知道，科学家一直在寻找对付感染的新办法，于是冒出一个念头：长在我家农场的这些植物，能不能杀死细菌？",
-      "她挑了24种植物，其中12种是俄克拉何马州的本土植物。她把植物切成一克（约0.04盎司）的小块，再分别用水煮，把里面的化学物质提取出来。接着，她拿两种细菌做试验：大肠杆菌（_Escherichia coli_）和表皮葡萄球菌（_Staphylococcus epidermidis_）。她也测试了目前用来治疗感染的抗生素作为对照。",
-      "方法很直观：她把小纸片泡在植物提取液或抗生素中，再把纸片放到含细菌的培养皿里。如果提取液有抗菌作用，纸片周围的细菌就会死亡。结果是：没有一种农场植物的提取物比现有抗生素更有效。不过，24种植物中有13种确实杀灭了一部分细菌，其中包括7种本土植物。",
-      "这离‘新药’还很远，但洛克琳希望这个结果能指向新的思路。当前抗生素被过度使用，导致越来越多的细菌产生耐药性，因此急需新方案。",
-      "洛克琳是切罗基族公民。她说：‘Growing up, my grandmother often talked with me about how plants and herbs can be used for medicine and healing,’ ‘And as a citizen of the Cherokee Nation, I’ve always been interested in learning more about plants and their traditional and potential medicinal uses.’ 这个项目是她在俄克拉何马州格罗夫市格罗夫中学读八年级时完成的，后来让她入围了2026年Thermo Fisher Scientific Junior Innovators Challenge决赛。该挑战赛由科学学会（Society for Science）主办，该机构也出版《Science News Explores》。",
-      "被问到最大的困难是什么，洛克琳说：‘Managing my time, because I’m involved in many extracurriculars.’ 她提到教会活动和体育运动让日程很紧张，研究只能靠周末和放学后的零散时间，有时还得推掉其他有趣安排；她用谷歌日历管理时间，‘That helped a lot.’ 她最重要的资源是科学展指导老师：‘She’s the one if I got bad results, she’d be like, “It’s okay, Locklyn, just keep going.”’ 她给科学展新手的建议是：找一位像这样的导师，在困难和压力时期帮你保持动力。"
-    ],
-    "topics": [
-      "生命与演化",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/farm-plants-fight-bacteria-jic",
-      "originalTitle": "Farm plants may help fight infections, teen finds",
-      "publishedAt": "Tue, 27 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-28T00:37:31.685Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-28T00:37:27.510Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Teen Tests Farm Plants for Germ-Fighting Power",
-      "intro": "Science News Explores reports that a fourteen-year-old in Oklahoma turned a farm chore into a science-fair project about plants and bacteria.",
-      "paragraphs": [
-        "Locklyn Ward, 14, lives on a farm in Oklahoma. One evening while she was helping feed the cows, she got curious about the plants growing in the field. She knew that scientists are always searching for new ways to fight infections. So she set out to see if any of the plants growing on her family’s farm could take down bacteria.",
-        "Locklyn picked 24 plants; 12 were native to her state. She cut the plants into one-gram (four hundredths of an ounce) pieces and boiled each to extract chemicals from it. Then, she tested those extracts against two types of bacteria: _Escherichia coli_ and _Staphylococcus epidermidis_. Locklyn also tested antibiotics that are currently used to treat infections.",
-        "The test involved paper disks soaked in either the plant extracts or current antibiotics. Locklyn placed those soaked disks into dishes containing bacteria. If chemicals from the farm plants had antibiotic powers, the bacteria around those paper disks would die. No farm-plant extract worked as well as current medicines. But 13 of the 24 plants did kill some bacteria. These included seven native plants.",
-        "Locklyn hopes her results may point to new ways to fight germs. Overuse of current antibiotics is leading to more drug-resistant bacteria, so new solutions are much needed. Locklyn did this project as an eighth grader at Grove Middle School in Grove, Okla. Her research earned her a finalist spot in the 2026 Thermo Fisher Scientific Junior Innovators Challenge.",
-        "Growing up, her grandmother often talked with her about how plants and herbs can be used for medicine and healing. And as a citizen of the Cherokee Nation, Locklyn has always been interested in learning more about plants and their traditional and potential medicinal uses. Managing her time was the biggest challenge, because she’s involved in many extracurriculars — including church activities and sports. She used Google Calendar to help. Her science-fair teacher encouraged her after bad results, saying, 'It’s okay, Locklyn, just keep going.' Locklyn’s biggest piece of advice for science fair newbies is to find a mentor like this to help stay motivated."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-28T00:48:23.607Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-28-b098af",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一块人造玻璃标样，帮科学家读懂嫦娥六号月壤里的撞击者",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-28",
-    "intro": "中国科学院广州地球化学研究所的团队在实验室合成含铂族元素的玻璃标样PGE-BG1，用它对嫦娥六号月壤熔结玻璃开展原位微区分析，估算出其中约1.1–4.6 wt%的陨石物质，并推测撞击体主要为球粒陨石和IIAB铁陨石。",
-    "paragraphs": [
-      "月球上没有空气，也没有水，几十亿年来，无数小天体直接撞在月面上。撞击的一瞬间，岩石被熔化，又迅速冷却，结成熔结玻璃。这些玻璃里留着撞击者的化学痕迹。但痕迹极淡，而月壤每一克都极其珍贵。中国科学院广州地球化学研究所月球样品研究小组硕士研究生高佳俊在该所正高级工程师张乐指导下，根据嫦娥五号/六号熔结玻璃的主量元素组成配置初始物，采用高温马弗炉熔融法，在实验室合成含铂族元素（PGEs）的玻璃标样PGE-BG1。",
-      "他们关注的是铂族元素，包括钌（Ru）、铑（Rh）、钯（Pd）、锇（Os）、铱（Ir）、铂（Pt）和铼（Re）。这七种元素均属强亲铁元素，是示踪陨石物质、撞击事件和行星演化的重要‘地球化学指纹’。传统溶液法分析PGEs常需数百毫克至数克样品，难以满足月壤等珍贵地外样品的微区分析需求；LA-ICP-MS虽可实现几十微米尺度原位分析，却依赖基体匹配、组成均一的参考物质。现有NIST、USGS系列玻璃标样的PGEs含量约束不足，均匀性也有争议。",
-      "研究团队发现，使用铂金坩埚会使除铂外的PGEs强烈扩散进入坩埚而丢失；改用刚玉坩埚后避免了这一损失。初始物先在1000℃保温10小时去除二氧化碳，再在1500℃保温4小时后在去离子水中淬火。合成玻璃与坩埚接触界面存在约500微米成分扩散剖面，团队切除边部和底部，选取未受影响区域分析。电子探针显示，PGE-BG1主量元素2RSD小于3.3%；溶液ICP-MS定值与LA-ICP-MS微区结果在误差范围内一致，Rh、Pd、Ir、Pt、Re的2RSD小于15%。受高温挥发影响，Ru和Os几乎完全丢失，推测被氧化为RuO₄和OsO₄挥发；Re丢失超过90%，说明PGEs在高温熔融中存在明显元素间分馏。",
-      "以PGE-BG1为外标，团队测试了常用玻璃标样GSD-1G和NIST 610，并对嫦娥六号月壤熔结玻璃开展原位微区分析。结果显示，嫦娥六号熔结玻璃成分变化较大：FeO为8.8–26.2 wt%，Al₂O₃为8.1–20.4 wt%，Th从低于检出限至5.7 μg/g。多数测试点在FeO–Al₂O₃和FeO–Th关系图中位于高地斜长岩与月海玄武岩之间并靠近月海玄武岩端元，表明其主要物质来源为本地月海玄武岩，同时混入高地物质和少量KREEP组分。",
-      "熔结玻璃Ni含量为215–887 μg/g，显著高于本地月海玄武岩（约15 μg/g），且Ir与Ni明显正相关。质量平衡计算显示，其中含约1.1–4.6 wt%的陨石物质；Co–Ni关系指示撞击体可能主要为球粒陨石和IIAB铁陨石。样品未检测到Ru和Os信号，说明撞击形成熔结玻璃过程中PGEs发生了显著分馏，采用PGEs示踪撞击体类型时需考虑这一影响。",
-      "该研究合成的PGE-BG1硅酸盐玻璃标样，为嫦娥六号月壤熔结玻璃PGEs和Re的微区分析提供了可靠外标，也为识别撞击体性质、理解月表撞击与空间风化过程提供了新的分析支撑。相关成果发表于《分析原子光谱学杂志》，论文信息：https://doi.org/10.1039/d6ja00343e。"
-    ],
-    "topics": [
-      "嫦娥六号月球样品",
-      "铂族元素玻璃标样",
-      "月球科学研究方法"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573703.shtm",
-      "originalTitle": "铂族元素玻璃标样示踪嫦娥六号月外物质",
-      "publishedAt": "2026-10-27 15:51",
-      "retrievedAt": "2026-10-28T00:42:38.813Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-28T00:42:35.685Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-28/2026-10-28-b098af.webp",
-      "alt": "一块半透明玻璃薄片与微小暗色颗粒并置的抽象插图",
-      "caption": "玻璃标样里的微小痕迹，指向月壤中的撞击者。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-28-545401",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "全新岗位快速涌现 职业教育如何“跟得上”？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-28",
-    "intro": "新技术带来一批以前没有的工作，学校教的内容要怎样追上岗位变化的速度？",
-    "paragraphs": [
-      "有些职业的名字，几年前还几乎没人提起，如今已经出现在身边。新岗位在快速涌现，这是中新网教育这篇文章标题里点出的变化。它同时留下了一个问题：职业教育，要怎么“跟得上”？",
-      "难点首先在时间上。一个专业从设立、招生，到学生学成走向岗位，通常要经过好几年；而外面的岗位还在继续变化。如果课程完全照着今天的需求来定，等学生毕业，面对的可能是另一批工作。",
-      "这又牵出一个更细的选择：哪些内容要教得具体，哪些要教得通用。具体到某一种工具、某一套流程，学的时候上手快，可工具一换就得重新学；而理解背后的道理、会动手排查问题、能和别人配合，这些本领换到别的岗位上也能继续用。",
-      "还有一层在学校之外：行业里正在发生什么变化，谁把消息带给学校，学校又怎样据此调整课程。这条通道顺不顺畅，决定了调整是早一步还是晚一步。新技术还会不断冒出新岗位，而一门课要陪一个学生走好几年，这个时间差恐怕没有一次就能解决的答案。"
-    ],
-    "topics": [
-      "职业教育",
-      "产业升级与新岗位",
-      "专业动态调整机制"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网教育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-26/10721086.shtml",
-      "originalTitle": "全新岗位快速涌现 职业教育如何“跟得上”？",
-      "publishedAt": "Mon, 26 Oct 2026 13:53:20 +0800",
-      "retrievedAt": "2026-10-28T00:44:24.049Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-28T00:44:22.470Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 0,
-        "attempts": 1
-      }
     }
   }
 ]
