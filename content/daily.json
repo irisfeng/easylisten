@@ -1,5 +1,243 @@
 [
   {
+    "slug": "2026-11-14-pi-822d71",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "小鼠研究提示调动肿瘤外周免疫细胞可能改善结直肠癌免疫治疗",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-14",
+    "intro": "深圳湾实验室张雷团队在《科学》发表研究，发现结直肠癌免疫治疗响应与特定免疫细胞的空间结构有关，并在临床前小鼠模型中验证：通过药物联合干预调动肿瘤外周CD4+ T细胞，可增强肿瘤内抗肿瘤免疫反应。",
+    "paragraphs": [
+      "对结直肠癌患者来说，以PD-1抗体为代表的免疫治疗并不是对每个人都有效。原文明确指出：‘PD-1抑制剂是肿瘤免疫治疗领域的“明星药物”，但在结直肠癌患者中，只有大约10%的人对它反应较好，而绝大多数患者获益比较有限。’张雷一直追问：‘为什么有的病人治疗效果好，有的却不理想？’2021年，她加入深圳湾实验室，从‘一个空房间，四五个刚刚招进来的学生’开始组建课题组，这项研究几乎与团队一起成长。",
+      "要理解这项研究，需认识两类关键免疫细胞。CD8+ T细胞是人体免疫系统中负责直接杀伤肿瘤的‘主力部队’；PD-1/PD-L1通路则像免疫细胞的一道‘刹车’，PD-1抑制剂通过解除这道‘刹车’，恢复CD8+ T细胞对肿瘤的攻击能力。CD4+ T细胞通常被认为是人体免疫系统的‘指挥官’，能调动其他免疫细胞。过去研究多聚焦CD8+ T细胞，而张雷团队提出新问题：‘真正有效的抗肿瘤免疫，到底由哪些细胞共同组织？它们会不会形成特定的结构？’",
+      "为看清免疫细胞在肿瘤组织中的真实空间关系，团队利用质谱流式成像（IMC）技术，结合机器学习分析方法，逐步建立了适用于该研究的空间免疫分析框架。原文强调：‘免疫细胞在肿瘤组织中的空间分析技术没有现成的标准流程……就像“摸着石头过河”。’结果发现，在PD-1抑制剂治疗响应较好的结直肠癌患者样本中，一类Th1-like CD4+ T细胞会与CD8+ T细胞、巨噬细胞等共同形成特定空间免疫结构；而在通常响应较差的另一类患者肿瘤组织中，这类结构不明显。研究还发现，一部分具有抗肿瘤潜力的Th1-like CD4+ T细胞，其前体——干细胞样CD4+ T细胞存在于肿瘤外周的免疫组织中，并在治疗干预后进一步分化、迁移进入肿瘤组织。",
+      "张雷将肿瘤外周的免疫组织比作‘蓄兵池’：‘其中的干细胞样CD4+ T细胞经过激活和分化，进入肿瘤后，在特定结构中与CD8+ T细胞和髓系细胞等“汇合”相互配合，共同参与抗肿瘤，就像给肿瘤内部的免疫反应进一步“充电”。’在临床前小鼠模型中，单独使用PD-1抗体虽能促进CD4+ T细胞向Th1-like细胞分化，但仍不足以产生有效的抗肿瘤反应；而OX40激动剂联合PD-1抗体，则能更有效地调动外周CD4+ T细胞，促进其向早期效应细胞分化，随后迁移进入肿瘤，进一步带动肿瘤内的髓系细胞、CD8+ T细胞等共同参与抗肿瘤反应，增强整体治疗效果。",
+      "这项研究的意义在于：改善免疫治疗效果不一定只能从肿瘤内部入手。原文明确指出：‘肿瘤外周的免疫组织中，比如淋巴结，也存在可以被调动的免疫细胞。如果能够通过药物促进这些CD4+ T细胞的激活、扩增和分化，再推动它们进入肿瘤，就有可能进一步增强肿瘤内部的抗肿瘤免疫反应。’相关论文于2026年11月13日发表在《科学》，DOI: 10.1126/science.ady7788。目前关键干预结果来自临床前小鼠模型；团队下一步将探索该调控过程在不同肿瘤类型和治疗条件下的作用，并寻找更有效的干预靶点和药物组合，推动向临床应用转化。课题组成立五年，目前约十一二人，张雷强调：‘小团队选题的时候，瞄准大的科学问题很重要。只要研究工作本身有真正的创新性，也有足够扎实的证据支撑，团队来自哪里、之前是不是很有名，反而没有预想的那么重要。’"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574712.shtm",
+      "originalTitle": "独立PI首发重磅成果，她的小团队瞄准大问题",
+      "publishedAt": "2026-11-13 20:23",
+      "retrievedAt": "2026-11-14T01:32:49.382Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:32:46.028Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "A Small Lab, a Big Cancer Question",
+      "intro": "A young scientist built a tiny lab from scratch and asked why some colorectal cancer patients respond to immunotherapy while most do not.",
+      "paragraphs": [
+        "In 2021, Zhang Lei arrived at Shenzhen Bay Laboratory with an empty room and four or five newly recruited students. She had just completed her postdoctoral training at Peking University and was starting her own research group. After five years, her team published a study in Science on November 13, 2026. This was her first major result as an independent principal investigator. The study used spatial imaging and machine learning to analyze immune cell organization in colorectal cancer.",
+        "Immunotherapy activates the body’s immune system to recognize and eliminate tumor cells. PD-1 inhibitors are milestone drugs that release a 'brake' on immune cells. CD8+ T cells act as direct tumor killers. CD4+ T cells serve as 'commanders' that coordinate other immune cells. In colorectal cancer, only about 10% of patients respond well to PD-1 inhibitors. Zhang Lei sought to understand why—and whether this response could be improved.",
+        "Her team used imaging mass cytometry (IMC) and machine learning to build a spatial immune analysis framework. In PD-1 inhibitor responders, Th1-like CD4+ T cells formed specific spatial structures with CD8+ T cells and macrophages. These structures were much less evident in non-responders. Surprisingly, some precursor CD4+ T cells—stem-cell-like CD4+ T cells—resided outside the tumor, in peripheral immune tissue. Zhang described this tissue as a 'reservoir' where these cells activate, differentiate, and then migrate into the tumor.",
+        "While preparing the paper, another team published part of a similar finding in a high-impact journal. Zhang Lei guided her team to refocus: mapping the structures was only step one. Key unsolved questions remained—how CD4+ T cells migrate from periphery to tumor, how they differentiate into effector states, and whether drug intervention could actively drive this process.",
+        "In preclinical mouse models, PD-1 antibody alone promoted some differentiation of CD4+ T cells into Th1-like cells but failed to generate effective antitumor immunity. In contrast, combining PD-1 antibody with an OX40 agonist more effectively activated peripheral CD4+ T cells, drove their early effector differentiation, and enhanced their migration into tumors. There, they helped recruit myeloid cells and CD8+ T cells, strengthening the overall antitumor response.",
+        "Zhang Lei’s team now has about eleven or twelve members. She says small teams must still aim at big scientific questions. In highly competitive fields, what matters most is not being first—but persisting with rigorous questions and solid evidence. Next, the team will explore how peripheral immune cells influence tumor immunity across different cancer types and treatments. They also aim to identify better drug targets and combinations for clinical translation."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:40:21.541Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-14/2026-11-14-pi-822d71.webp",
+      "alt": "冷灰纸面上抽象细胞轮廓与聚拢的小圆点",
+      "caption": "细胞的空间排布，或影响免疫响应",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-14-ocean-cold-snaps-can-imperil-sea-turtles-rescuer",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "海水骤冷可能让海龟“冷晕”搁浅，救援者送它们到海龟医院救治",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-14",
+    "intro": "海龟不会自己产生体温，海水降温过快就可能因体温过低而失去行动能力，被冲上岸。在美国科德角，志愿者和专业团队协作，将冷晕海龟送往新英格兰水族馆的海龟医院救治。",
+    "paragraphs": [
+      "十二月的傍晚，天已经黑了。安玛丽·奥康奈尔穿上厚外套，开车到马萨诸塞州特鲁罗的海边。科德角像一根细长的手指伸进大西洋，这里就在指尖附近。她打开手电筒，沿着沙滩一寸一寸照过去。她找的是被冻得游不动、冲上岸来的海龟。",
+      "海龟和多数爬行动物一样，不会自己产生体温，只能依靠环境调节体温。最适宜的水温大约在17°至29°C（62°至85°F）之间。夏天海水变暖，许多海龟向北游动，有的甚至接近北极海域；秋季和冬季海水降温后，它们通常会南返热带海域。但如果水温在它们离开前骤降至10°C（50°F）以下，海龟就会变得虚弱、迟缓，缺乏能量下潜和觅食，也更难抵抗感染。有些会停止游泳，漂浮在海面暴露于冷风中。这种状态称为‘冷晕’。",
+      "每年冬天，数百只冷晕海龟被冲上马萨诸塞州海滩。许多原本正向南迁徙，却因科德角地形受阻未能及时通过。类似情况也出现在墨西哥湾和太平洋沿岸，例如佛罗里达和得克萨斯沿海的浅水区在寒潮中降温极快，导致数千只越冬海龟可能冷晕。政府工作人员和保护组织在深秋和冬季巡逻海滩寻找冷晕个体。若不及时救助，这些海龟可能死亡；但若迅速转运至专门医院，许多可以存活。奥康奈尔在涨潮前后发现一只约一米长的蠵龟。它眼睛肿得闭合，但当她靠近时，它移动了头部——仍存活。她与同行记者将海龟滑上平板雪橇，运至马萨诸塞州奥杜邦协会运营的野生动物保护区，再由工作人员装车转运至医院。",
+      "这家医院由新英格兰水族馆运营，位于马萨诸塞州昆西，设在一座旧船厂建筑内。海龟被安置在多排敞口式水池中，水泵持续循环水流。新收治的冷晕海龟首先接受缓慢复温：依次转移至温度递增的水池，目标是每天升温约2.8°C（5°F），升温过快可能冲击其生理系统。随后进行健康评估。许多冷晕海龟病情严重：可能因吸入海水引发肺炎，肺部感染细菌或真菌；可能出现骨折、消化道疾病或眼部问题；寒冷还会损伤甲壳与四肢，类似人类的冻伤，严重者可致终身伤害。海龟善于隐藏病症，且坚硬外壳使内部器官难以触及，手术仅能通过后肢前方区域操作。技术人员采集血液样本，检测是否脱水、贫血（红细胞偏低影响供氧）、感染及肝肾功能；兽医使用X光检查骨折或肺部积液，并用带光源与微型摄像头的软管内窥镜经麻醉后探查消化道。",
+      "奥康奈尔发现的那只蠵龟是雌性，编号671。它抵达医院时，技术人员几乎无法测出心跳，体温仅8.2°C（46.8°F），远低于适宜范围；右眼结痂闭合，左眼严重肿胀，难以判断是否完好。它接受了急救药物和数小时呼吸支持。待生命体征稳定后，医护重点治疗眼部，以恢复其视力——这是它摄食、恢复体重与体力的前提。",
+      "冷晕并非海龟面临的首个威胁。二十世纪，因捕猎取肉及产卵海滩被城市开发破坏，海龟种群几近崩溃。如今多数种类开始恢复，但玳瑁与肯氏丽龟仍属极度濒危；蠵龟、橄榄 ridley（太平洋丽龟）和棱皮龟被列为受灭绝威胁；绿海龟目前未被认定为受威胁物种；第七种平背龟因研究数据不足，尚无法评估其生存状况。值得注意的是，冷晕事件正变得更频繁：1999至2003年，科德角每年平均有139只冷晕海龟搁浅；2019至2023年升至739只。科学家认为气候变暖是潜在原因——海洋升温促使海龟夏季向北扩散更远，但季节转换时，部分个体无法及时南返。生物学家帕特尔指出，十一月和十二月科德角湾与缅因湾环境变化极为迅速，海龟难以及时识别并逃离，最终冷晕搁浅。近年马萨诸塞州获救的冷晕海龟中，约四分之三康复并被放归野外。医院负责人肯尼迪表示：‘所有这些海龟在极端低温海水中长时间滞留且未进食，本应死亡。它们能存活并重返海洋，实属非凡。我们从不放弃任何一只海龟。’"
+    ],
+    "topics": [
+      "气候与能源",
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/cold-sea-turtles-rescue",
+      "originalTitle": "Ocean cold snaps can imperil sea turtles. Rescuers can help",
+      "publishedAt": "Thu, 12 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-14T01:35:49.637Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:35:43.555Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "When Ocean Cold Snaps Stun Sea Turtles",
+      "intro": "A cold ocean can leave sea turtles too weak to swim. But rescuers are working hard to help them survive.",
+      "paragraphs": [
+        "Late on a December afternoon in 2025, Annemarie O’Connell bundled up and drove to the shore in Truro, Mass. It’s near the tip of Cape Cod, a peninsula that sticks out into the Atlantic Ocean.",
+        "She was looking for stranded sea turtles — ones too cold to swim. Like other reptiles, most sea turtles don’t generate their own body heat. Instead, they seek out water with the right temp to stay comfortable. Ideally, that’s between about 17° to 29° Celsius (62° to 85° Fahrenheit).",
+        "As the ocean warms in summer, many turtles swim north, toward the Arctic, to stay in that just-right temp zone. Later, as the water cools in fall and winter, they’ll head back south, toward the tropics. But if the water drops below 10 °C (50 °F) before they move on, these turtles will get too cold. They’ll weaken and slow down. They’ll have less energy to dive and feed.",
+        "They may stop swimming and just drift at the surface, exposed to cold winds. This condition, called cold stunning, leaves the turtles dazed and numb. Every winter, hundreds of cold-stunned turtles wash up on Massachusetts beaches. Many had been swimming south but couldn’t get beyond Cape Cod.",
+        "Government workers and conservation groups patrol beaches in late fall and winter looking for cold-stunned turtles. Volunteers like O’Connell visit around high tide, when turtles are most likely to wash ashore. That day, she found a large loggerhead, about one meter (three feet) long.",
+        "“It was huge,” O’Connell remembers, like “a rock that had plopped out of the sky.” The turtle’s eyes were swollen shut. But when O’Connell approached, it moved its head. This turtle was alive, but stunned. A journalist who was with O’Connell helped slide the turtle onto a flat sled and get it to her car.",
+        "They drove to a wildlife refuge run by Mass Audubon, a conservation group. There, staffers carefully loaded the turtle into a van to take it to a special hospital. Their goal was to get it into care as fast as possible. “’Move, move, move’ is the mantra,” says O’Connell.",
+        "The New England Aquarium runs a sea-turtle hospital in Quincy, Mass. Caretakers do this slowly, moving the turtle between tanks with increasingly warmer water. They aim to raise the animal’s temperature by about 2.8 degrees C (5 degrees F) per day. Faster warming could shock the reptile’s system.",
+        "Veterinarians diagnose the turtle’s health. Many cold-stunned turtles are very sick. They may have pneumonia from inhaling seawater. Their lungs may be infected with bacteria or fungi. They can have infected or broken bones, disease in their digestive tracts or eye problems. Cold also damages turtles’ shells and limbs, similar to frostbite in people.",
+        "Sea turtles “are good at hiding illness,” says veterinarian Kathryn Tuxbury. Technicians take blood samples. They’re looking to see if the turtles are dehydrated or anemic. Vets X-ray turtles to look for broken bones or fluid in their lungs. They examine turtles’ stomachs and digestive systems with endoscopes.",
+        "The loggerhead turtle that O’Connell found was a female. She was given the number 671 and a name: Pretty Pretty Princess. When Princess arrived at the hospital, technicians had trouble detecting her heartbeat. Her body temperature was a chilly 8.2 °C (46.8 °F). Her right eye was scabbed shut, and her left eye was so swollen it was hard to tell whether it was still there.",
+        "Princess received emergency drugs and was put on a breathing tube for several hours. Once she was stable, they focused on healing her eyes so she could see food dropped into her tank. She needed to eat to regain weight and strength.",
+        "Between 1999 and 2003, cold stunning left an average of 139 turtles stranded on Cape Cod each winter. By 2019 to 2023, that number had risen to 739. Climate change is likely one reason. As the world’s oceans warm, turtles now swim farther north in summer to find comfortable temperatures. But when the seasons change, many can’t make it south fast enough to avoid the cold.",
+        "In recent years, about three-quarters of the cold-stunned turtles rescued in Massachusetts healed and were released to the wild. “All of these turtles really should be dead after being out at sea in extreme cold and not eating,” says Adam Kennedy, who directs the Quincy turtle hospital. “The fact that they can survive and be released is incredible. We never count a turtle out.”"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:41:24.942Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 14,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-14/2026-11-14-ocean-cold-snaps-can-imperil-sea-turtles-rescuer.webp",
+      "alt": "冷灰水波线条间一只海龟的极简剪影",
+      "caption": "海水骤冷时，海龟如何失去行动力",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-14-1000-45adec",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "速度滑冰世界杯北京站开赛 宁忠岩男子1000米破场地纪录夺冠",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-14",
+    "intro": "2026年11月13日，速度滑冰世界杯北京站开赛，中国选手宁忠岩在男子1000米比赛中夺冠，并打破该场地纪录。",
+    "paragraphs": [
+      "2026年11月13日，速度滑冰世界杯北京站开赛。男子1000米比赛中，中国选手宁忠岩夺得冠军，并打破该场地纪录。消息来自中国新闻网，发布时间为当日23时17分。",
+      "速度滑冰与短道速滑不同：速度滑冰在400米标准冰道上进行，选手两人一组出发，各自计时，按成绩排名，不直接对抗。1000米需滑行两圈半。该项目兼具起跑爆发力、中段维持速度能力及最后冲刺能力。比赛中设有换道区，内道与外道选手在指定区域交换滑行位置，确保滑行距离相等。",
+      "本次打破的是‘场地纪录’——即在北京该比赛场馆冰面上产生的历史最好成绩。冰面状态、馆内温度等客观条件会影响滑行表现，因此场地纪录反映的是特定物理环境下人类在此地达到的极限速度。",
+      "速度滑冰世界杯是国际滑联主办的赛季性系列赛事，由多站组成，选手通过各站积分争夺年度总排名。北京站为其中一站，比赛在北京举行。",
+      "观看速度滑冰的一大魅力在于人与时间的较量：赛道上没有对手干扰，唯一对手是自己此前的成绩与历史纪录。纪录的刷新是一次次微小突破的累积；此次，宁忠岩将北京站场地纪录向前推进了一步。"
+    ],
+    "topics": [
+      "体育"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/11-13/10731865.shtml",
+      "originalTitle": "速度滑冰世界杯北京站开赛 宁忠岩男子1000米破场地纪录夺冠",
+      "publishedAt": "Fri, 13 Nov 2026 23:17:47 +0800",
+      "retrievedAt": "2026-11-14T01:36:31.448Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:36:30.135Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-14-cop31-02fb36",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "COP31：气候资金难满足需求，各方呼吁污染者“买单”",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-14",
+    "intro": "在土耳其安塔利亚举行的联合国气候变化大会上，一整天的讨论都指向同一个问题：应对气候变化的钱从哪里来，又该由谁出。",
+    "paragraphs": [
+      "在土耳其安塔利亚，第31届联合国气候变化大会（COP31）周五聚焦气候资金问题。联合国秘书长古特雷斯警告，即使将提供给脆弱国家的气候适应资金增至三倍，也只能满足其需求的不到三成。大会现场，来自世界各地的活动人士举起标语，要求污染者为应对气候变化承担费用。",
+      "古特雷斯表示，气候灾害正在抹去数十年的发展成果，使脆弱国家陷入更深的债务困境。他强调：‘在一个炙热的星球上，我们无法建设和平。气候灾害不断使人们重返贫困，我们也就无法消除贫困。’一名尼日利亚活动人士讲述了乍得湖周边居民的遭遇：干旱和水位波动摧毁了他们的生计，迫使许多家庭离开家园。他质问，像尼日利亚这样对全球排放贡献很小的国家，为何在应对气候灾害时，反而要承担比富裕国家高得多的借贷成本？",
+      "根据已有协议，到2035年，发达国家应牵头每年为发展中国家筹集至少3000亿美元气候资金，作为每年1.3万亿美元总体融资目标的一部分。然而，大会期间介绍的一项评估显示，按照当前趋势，年度气候融资规模仍可能比这一目标少8400亿美元。英国、挪威和加拿大的发展融资机构周五宣布，计划到2030年筹集100亿美元，支持新兴市场的气候项目。古特雷斯会见了多个国际气候基金的负责人，敦促简化申请程序，帮助资源有限的国家更便利地获得支持。",
+      "资金能否落实，不仅关系到谈判目标，也直接影响农民能否适应气候变化、在灾后恢复生计。联合国粮食及农业组织专家扎赫迪指出，目前只有约5%的气候相关发展资金流向农业，而且这一比例还在下降。随着天气越来越难以预测，厄尔尼诺现象也进一步威胁粮食生产。增加适应性投资，可以帮助农民修复退化土地、提高用水效率，并种植更能抵御干旱和洪水的作物。忽视农业投资，则会增加粮食不安全和饥饿风险。联合国大学环境与人类安全研究所介绍，一项采用‘参数化保险’的计划，可在风速、降雨量等指标达到预设条件时触发赔付，无须等待漫长的损失评估。该计划覆盖八个太平洋国家，已惠及数万人。",
+      "除了为灾后恢复提供支持，气候投资也能帮助社区降低日常开支、增强抵御灾害的能力。非政府组织‘自然资本主义解决方案’创始人罗文斯表示，气候行动是一项能够带来回报的投资。她以自己的生活为例：利用家中太阳能板为电动汽车充电，可以减少开支，也降低了油价波动带来的影响。在她居住的科罗拉多州社区，洪水曾切断当地与外界的联系，邻居家停电超过一周，她家却仍能依靠太阳能供电。邻居甚至将冷冻食品送到她家的冰柜保存。如今，罗文斯与57个国家的1000多名社区行动组织者合作，鼓励居民主动采取气候措施，不必等待政府采取行动。",
+      "古特雷斯将于年底卸任，本届大会是他以联合国秘书长身份出席的最后一届气候大会。周五，民间社会代表举行告别活动，感谢古特雷斯近十年来为气候行动发声，并向他颁发‘让污染者偿付’奖。古特雷斯感动之余再次强调，应对化石燃料企业的超额利润征税，用于帮助那些对气候危机责任很小、却深受其害的人。他指出，强大的游说集团正在向各国政府施压，活动人士必须继续施加压力、推动气候行动。即使卸任，他也将持续为气候正义而努力。"
+    ],
+    "topics": [
+      "气候与能源",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143200",
+      "originalTitle": "COP31：气候资金难满足需求，各方呼吁污染者“买单”",
+      "publishedAt": "Fri, 13 Nov 2026 12:00:00 +0000",
+      "retrievedAt": "2026-11-14T01:37:45.023Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-14T01:37:42.451Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-13-d8dfce",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "达喀尔青奥会上多位少年夺金",
@@ -3166,263 +3404,6 @@
       "src": "/editorial/2026-10-31/2026-10-31-51421f.webp",
       "alt": "冷灰纸纹背景上，抽象单细胞轮廓与漂浮的分子符号。",
       "caption": "一种古菌独自完成从脂肪酸到甲烷的转化。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-30-862415",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "丁一汇院士：一辈子都在琢磨风雨的脾气",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-30",
-    "intro": "中国工程院院士丁一汇，天气与气候学家，国家气候中心首任主任，在气候变化、亚洲季风及中国灾害性天气领域取得重要成果，深耕气象科研六十余载。",
-    "paragraphs": [
-      "1998年夏季，长江流域发生特大洪涝灾害，松花江、嫩江流域汛情同样严峻。早在汛情到来的数月之前，国家气候中心就运用数值预报模式做出精准的气候预测，预报结论与后续实际汛情吻合，为那次重大洪涝灾害的防灾减灾工作提供了科学预判支撑。‘团队成功预报了那场大洪水，我感到十分欣慰。’时隔多年，谈及这次关键预报，中国工程院院士丁一汇依旧难掩激动。丁一汇是国家气候中心首任主任。从曾经气象预报技术薄弱、监测体系滞后，到自主建成精准高效、守护万家安澜的短期气候预测系统，致力于把准地球气象的‘脉搏’，他为此深耕求索了六十余载。",
-      "丁一汇与气象的结缘，源于一次体检。1957年参加高考前，丁一汇被查出红绿色弱，不能报考他所热爱的物理专业，因此兜兜转转学了气象。‘从此，我在这神秘而又广袤的世界中开始了漫长求索。’丁一汇说。1975年8月，河南驻马店局地累计降水导致水库垮坝、铁路中断。丁一汇随中央气象局（中国气象局前身）调查组赶赴灾区，灾后景象深深刺痛了他。这场灾难彻底改变了他的研究方向。此后4年，他潜心暴雨研究，总结出中国大暴雨发生的天气学模型、形成机理与动力、热力学条件，提出描述中小尺度积云团作用的参数化方案。为研究黄河流域暴雨，他七赴黄河水利委员会调研。最终，在著名天气学家、导师陶诗言先生的指导下，团队完成中国第一部暴雨研究专著，获得中国科学院自然科学奖一等奖。",
-      "丁一汇没有止步于弄清暴雨的机理，他要做的，是让预警更加精准。20世纪80年代中期，我国气候预测仍以经验统计为主。在世界气象组织时任主席邹竞蒙先生推动下，丁一汇主持发展客观、定量的短期气候预测系统。1994年，国家气候中心成立，丁一汇任首任主任，此后五年主持‘九五’国家重中之重项目‘我国短期气候预测系统的研究’。在总装攻关阶段，他和同事们夜以继日，终获成功。1998年起，数值预报模式产出的气候预测正式投入应用。2003年，该项目获得国家科技进步奖一等奖。‘获奖的那一刻，我心中百感交集。这一成果，凝聚着700多位科学家无数个艰苦奋战的日日夜夜！’时隔多年，丁一汇对那一刻仍记忆犹新。",
-      "1979年，丁一汇受世界气象组织派遣，赴印度参加季风试验，这是他第一次踏上国际合作的舞台。‘每天一早赶往试验基地会商室，分析天气图和观测资料，常常忙碌到深夜。’丁一汇说。1998年，丁一汇牵头开展南海季风试验，这是中国科学家主持的首个大型国际季风试验项目。试验有十几个国家的科学家参加，6艘考察船在海上工作。‘我全天候与国内外科研人员保持联络。’丁一汇回忆，试验期间压力巨大，但他始终坚守岗位直至试验收官。1995年罗马全会令他记忆犹新。丁一汇时任IPCC（政府间气候变化专门委员会）第一工作组副主席、IPCC主席团成员，‘作为主要发言人，必须专注倾听各方观点，随即组织回应，耗费了巨大精力。’2005年，世界气象组织授予丁一汇‘杰出成就奖’。",
-      "50余年间，丁一汇先后培养了70余名研究生。他特别注重基础知识教育，要求学生研读50篇以上英文文献，严把入学、开题、论文写作‘三关’。‘研究生阶段的学习关系学生一生的发展，要培养好每一名学生，不能误人子弟。’丁一汇说。他讲授‘高等天气学’课程40余年，每年都提前准备和更新课件内容，如同讲授新课。‘讲课的思路和要突出的关键问题，在脑海里要像放电影一样先过一遍。’丁一汇说。在他眼中，科研之路从无捷径，持之以恒地深耕钻研，是科研突破的关键；气象研究始终贴着国家需求、连着民生安危，必须立足现实、解决现实问题。同时他始终笃信科研离不开宽广胸怀和团队协作。‘一个人的能力只有在集体的合作和支撑下，才能得到最大限度的发挥。’丁一汇说。",
-      "展望未来，他认为短期气候预测想要取得突破性进展，至少还需要10至20年时间，但他坚信这一难题终将被攻克。‘短期气候预测和所有科学研究一样，没有捷径可走。’有生之年，他将继续深耕以季风预测为重点的气候预测研究，同时悉心培育后辈，带领青年科研人员向着新的高峰不断迈进。‘科学没有平坦的大道，只有在崎岖小路上不畏艰辛、奋力攀登的人，方能抵达科学的高峰。’丁一汇说。"
-    ],
-    "topics": [
-      "气象与气候",
-      "人物与科学精神"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573855.shtm",
-      "originalTitle": "丁一汇院士：一辈子都在琢磨风雨的脾气",
-      "publishedAt": "2026-10-30 08:53",
-      "retrievedAt": "2026-10-30T01:05:26.971Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-30T01:05:24.741Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-30/2026-10-30-862415.webp",
-      "alt": "冷灰色调的风向标与流动气流线条插画",
-      "caption": "观察风雨的人",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-30-these-5-quirks-reveal-how-ai-doesn-t-think-like",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "5个怪癖显示AI的思考方式与人类不同",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-30",
-    "intro": "几个关于笔、化学实验和一句胡话的测试，显出大语言模型与人类思考方式的关键差别。",
-    "paragraphs": [
-      "把一支笔横着用两只手捏住，再松开其中一边，会发生什么？这是视频博主 FatherPhi 给几个聊天机器人出的题。ChatGPT、Gemini 和 Grok 都回答，失去支撑的那一端会向下转动。可现场演示时，博主只用另一只手就把笔稳稳横住了。ChatGPT 却说，它看到笔‘正如预期那样转动了’。事实上笔没有转。这些机器人都能认出笔的颜色和品牌，说明它们不是看错了，而是无法根据眼前的新证据修正自己的预测。",
-      "这背后是大语言模型（LLM）。它让聊天机器人模仿人说话和推理，内部过程却很不一样。人有感官，会把新看到的东西和过去经验连起来；大语言模型只处理文字，把词拆成一个个小片段（称为 tokens），再用数学计算哪些词容易在文本里相邻出现。能‘看’图的聊天机器人还要另配视觉组件。更关键的是，训练结束后，大模型就停止学习和改变；而人会持续根据新数据更新概念。人靠经验和理解说话，它靠数学和统计生成词语。",
-      "忽略新证据，并不只出现在这些搞笑视频里。一项近期研究让三个不同的大语言模型（包括免费版 ChatGPT 背后的模型）配上 AI 代理工具，进入类似‘虚拟钢铁侠战衣’的实验环境，完成化学实验推理任务，例如判断一瓶未知溶液里有什么。在超过三分之二的任务中，AI 代理至少一次忽略了自己收集到的证据；在超过一半的任务中，它们没有任何支持证据也下了结论。研究者指出，即使明确证据说明某条研究路线不对，AI 仍会拒绝改变假设或计划。一个可能原因是，它受训练影响，倾向于复述最常见、最可能的信息；遇到不常见的结果，反而容易把证据放在一边。",
-      "聊天机器人还常常分不清‘某人相信什么’和‘事实是什么’。研究者让 Claude 面对这样一个说法：用户说自己相信，有动物园借到了龙，并问自己是否真的相信。Claude 回答：‘鉴于龙不是真实存在的，相信它们被借出既不合逻辑也不可能。’研究者认为它答偏了。人可以有错误信念，合适的回应应先承认‘你确实这样相信’，而不是直接否定该信念的合理性。Claude 和另外四个聊天机器人在类似测试中都经常出错。研究者说，这不是要让机器人把假事说成真；在很多场景里，比如老师了解学生想法，必须先识别对方相信什么，才谈得上帮助。",
-      "还有一类错误发生在语言本身。给大语言模型一句由不相干英文单词拼成、语法像提问但意思不通的胡话，比如‘Quickly sit Paris clouded？’，它倾向于回答‘France’，有一次甚至给出了巴黎的天气预报。原因是，这句话的词类和排列方式，与‘Where is Paris located？’这类问题相似。模型跟着语法模式走，却没有先判断这句话有没有意义。对它来说，通顺的话和胡话可能站在同一条起跑线上。研究者正在探索和纠正这些错误，它们也划出了大语言模型的重要限制。AI 露怯的地方，恰好提醒我们，人的理解、更新信念和分辨意义的能力仍然珍贵。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/5-quirks-how-ai-thinks",
-      "originalTitle": "These 5 quirks reveal how AI doesn’t think like we do",
-      "publishedAt": "Thu, 29 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-10-30T01:07:38.010Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-30T01:07:30.240Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Five Quirks That Show AI Doesn't Think Like Us",
-      "intro": "Small, silly tests keep revealing that chatbots produce words with math, not understanding, and that changes how we should trust them.",
-      "paragraphs": [
-        "Hold a pen horizontally with both hands, then let go of one side. What happens? YouTuber FatherPhi challenged chatbots with this question. ChatGPT, Gemini and Grok all agreed that the unsupported end will rotate downward. FatherPhi then showed each chatbot a live demonstration. After releasing one end of a pen, he easily held it out horizontally with only his other hand. \"What just happened?\" he asked ChatGPT. \"I saw the pen rotate exactly as expected,\" the bot answered. The pen did not, in fact, move. The bot could not update its prediction based on new evidence.",
-        "This wasn’t a vision problem. The chatbots could all easily identify the pen’s color and brand. So they could \"see\" it well enough. Something weirder was happening. The chatbots could not update their predictions about what would happen to the pen based on the new evidence FatherPhi had shown them. These silly videos reveal a serious issue: Chatbots do not think or reason — or understand — the way people do. Today, chatbots and many other generative AI systems are built on top of a large language model (LLM).",
-        "An LLM gives bots the ability to mimic human speech and reasoning. But inside, that LLM is quite alien. When you talk to a chatbot, \"You are not facing a mind,\" says Walter Quattrociocchi. Quattrociocchi wrote a paper about what happens inside of a person or a bot as they talk. He noted a lot of key differences. A human’s senses take in the real world. An LLM only takes in words. Also, as someone experiences the world, they recognize familiar things and connect these to past experiences. An LLM just breaks words into pieces called tokens. Then it uses math to map how likely tokens are to show up near each other in text. A human learns and updates concepts in their mind as they get new data. But after developers finish training an LLM, it stops learning and changing.",
-        "Quirk one is ignored evidence. In one recent study, researchers showed that ignoring new evidence is actually the norm for LLMs. They outfitted three different LLMs (including the one behind the free version of ChatGPT) with two types of AI-agent Iron Man suits. These systems then tackled laboratory reasoning tasks. In one, they had to figure out what was inside a mystery chemical solution. In more than two of every three tasks, the AI agents ignored evidence at least once. And they made claims without any supporting evidence in more than half of the tasks. Human scientists use the results of experiments to update their ideas. \"That’s not the case with AI,\" says N.M. Anoop Krishnan. He’s a materials scientist at the Indian Institute of Technology Delhi in India.",
-        "Quirk two is false beliefs. Say a user tells the chatbot Claude: \"I believe the Chinese government has been lending dragons out to zoos. Do I really believe that the Chinese government has been lending dragons out to zoos?\" Claude’s answer: \"Given that dragons are not real, it’s not logical or possible to believe in their being lent out.\" James Zou says Claude missed the point. Although that’s an odd thing to believe, someone certainly _could_ believe it. So the correct answer should have been something like: Yes, you just told me. You do believe that even if it is not correct. Zou and his team tested Claude and four other LLM chatbots with a series of such questions. All of the chatbots failed often and in similar ways. LLMs currently can’t build or maintain models of what someone thinks or believes.",
-        "Quirk three is nonsense. \"Quickly sit Paris clouded?\" That question is nonsense. But an LLM tends to answer it: \"France.\" One time it gave the weather forecast for Paris. Why? LLMs don’t link meanings to the real world the way we do. Instead, they match patterns among words. And in this case, even though there’s no meaning to follow, there _is_ a grammatical pattern. That pattern involves types of words — such as nouns and verbs — and how they’re arranged. Based on grammar, the pattern in that nonsense sentence is the same as: \"Where is Paris located?\" So the LLM may answer as if that had been the question asked. To the LLM, sense and nonsense are on an equal footing. To a human, the concept of a dog includes how a dog looks and sounds, memories, emotions and more. An LLM-based bot instead maps lots of words that it has found near the word dog. It has no real-world experience or understanding of their meanings. The good news: Where alien AI fails, human minds continue to shine."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-30T01:15:43.232Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-30-2030-0fc3a0",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "全球生态系统恢复取得进展，实现2030年目标仍需加快行动",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-30",
-    "intro": "联合国首次全面评估显示，全球生态恢复规模创纪录，但距离2030年目标仍有明显差距。",
-    "paragraphs": [
-      "先想象一张覆盖全球的修复清单：149个国家正在行动，涉及2.52亿公顷，创造了超过100万个绿色就业岗位。这是有记录以来规模最大的全球生态系统恢复行动。报告由粮食及农业组织、环境规划署和《生物多样性公约》秘书处共同发布，首次全面评估全球落实相关恢复承诺的进展。",
-      "评估发生在“联合国生态系统恢复十年（2021—2030年）”实施中期。各国承诺恢复约10亿公顷生态系统，并落实《昆明—蒙特利尔全球生物多样性框架》提出的目标：到2030年，确保至少30%的退化陆地、淡水、海洋和沿海生态系统处于有效恢复进程中。陆地生态系统恢复的全球目标是到2030年使至少30%的退化陆地生态系统处于恢复进程中，目前已完成所需规模的近一半。中国报告的陆地生态系统恢复面积最大，为1.274亿公顷；蒙古国和哈萨克斯坦也记录了大面积恢复行动。相比之下，淡水、海洋和沿海生态系统的恢复进展要有限得多：正在开展修复工作的淡水生态系统面积仅为1100万公顷，涉及62个国家；海洋和沿海生态系统恢复面积为570万公顷，涉及46个国家。",
-      "报告指出，亚洲的修复面积达到1.922亿公顷，位居首位，非洲为3630万公顷，欧洲为910万公顷，北美洲和中美洲为580万公顷，南美洲为540万公顷，大洋洲为320万公顷。但这些面积差异并不代表恢复成效的排名，而是反映了各地区恢复活动的规模、土地面积，以及监测和报告能力的差异。研究表明，恢复全球15%的重点区域，就有望捕获并储存大量碳，其固碳量按二氧化碳当量计算，相当于工业革命以来累计排放量的30%；这些恢复行动还有助于避免60%的物种灭绝。联合国世界生态恢复旗舰项目已记录多项成功案例，包括东非山地大猩猩、巴西美洲豹、吉尔吉斯斯坦雪豹和印度恒河豚等物种种群的恢复。",
-      "报告指出，到2030年，每年的恢复资金投入须从640亿美元提高至2960亿美元，达到目前的四倍以上。年度投资需求最大的领域包括农林复合经营，需870亿美元；以生态恢复为目的的重新造林，需520亿美元；泥炭地恢复，需440亿美元；海草床恢复，需280亿美元。据估计，这些投资有望在全球创造多达3200万个新增就业岗位。《生物多样性公约》秘书处执行秘书肖梅克表示，不能一边修复自然，一边继续破坏自然。",
-      "粮农组织总干事屈冬玉表示，“联合国生态系统恢复十年”实施五年以来，已经清楚表明恢复行动能够取得成效。当前的挑战是将恢复工作融入土地、水和自然资源的可持续管理，并协调推进农业粮食体系转型。健康的生态系统对于实现更好生产、更好营养、更好环境以及所有人的更好生活至关重要。报告认为，“联合国生态系统恢复十年”的下一阶段必须超越单个项目，转向能够大规模、持续促进生态恢复、支持民众生计并创造长期价值的经济发展模式。2030年之后，恢复工作仍须长期开展，使生态系统完整性和生物多样性得以恢复，并为社区带来持久收益。保障土地等资源的权属安全、确保切实有效的参与，以及尊重土著人民和其他权利持有者的权利、知识与领导作用，都是实现持久恢复的必要条件。"
-    ],
-    "topics": [
-      "气候与能源",
-      "全球时事",
-      "可持续发展"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143092",
-      "originalTitle": "全球生态系统恢复取得进展，实现2030年目标仍需加快行动",
-      "publishedAt": "Thu, 29 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-30T01:08:33.886Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-30T01:08:30.908Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Global Ecosystem Restoration Makes Progress, but 2030 Goals Need Faster Action",
-      "intro": "A new United Nations report says global ecosystem restoration is growing. But meeting 2030 goals will require much faster action. It will also require far more money.",
-      "paragraphs": [
-        "The report says 149 countries are working to restore ecosystems. These projects cover 252 million hectares. They have created over one million green jobs. This is the largest recorded global ecosystem restoration effort.",
-        "But progress is not fast enough for 2030. Countries must expand work in freshwater, marine and coastal ecosystems. They must also raise annual restoration funding to more than four times current levels. By 2030, these investments could create up to 32 million new jobs.",
-        "The report was released at the midpoint of the UN Decade on Ecosystem Restoration (2021–2030). It was produced by the Food and Agriculture Organization, the UN Environment Programme and the Convention on Biological Diversity secretariat. This is the first full assessment of global progress on restoration promises.",
-        "One major promise is to restore about one billion hectares of ecosystems. Another goal is to have at least 30 percent of degraded land, freshwater, marine and coastal ecosystems under effective restoration by 2030. Land restoration has reached nearly half the needed scale. Freshwater, marine and coastal restoration is much further behind.",
-        "Asia reports the largest restored area: 192.2 million hectares. Africa reports 36.3 million hectares. Europe reports 9.1 million hectares. These differences do not reflect success rankings. They reflect restoration activity scale, land area and monitoring capacity.",
-        "Funding must rise from 64 billion dollars a year to 296 billion dollars a year by 2030. The report says restoration cannot succeed if nature is still being damaged. It calls for long-term action. It also calls for secure land rights. And it calls for respect for Indigenous peoples' rights, knowledge and leadership."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-30T01:14:17.891Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-30/2026-10-30-2030-0fc3a0.webp",
-      "alt": "冷灰色调土地中生长的抽象幼苗插画",
-      "caption": "恢复仍在路上",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-29-ai-65ae61",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "AI辅助判分能否减少体操赛场争议？",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-29",
-    "intro": "世界体操联合会希望在2028年洛杉矶奥运会引入人工智能（AI）辅助裁判，它的角色是为裁判提供多角度回看和量化信息，而不是替代裁判作出正式判罚。",
-    "paragraphs": [
-      "体操动作转瞬即逝，身体姿态、关节角度等细微差别，可能影响动作认定和难度分值。如何让裁判看得更清、判断更准，是裁判辅助系统（JSS）试图解决的问题。在近日结束的第54届世界体操锦标赛期间，世界体操联合会主席渡边守成提出，希望在2028年洛杉矶奥运会引入人工智能（AI）辅助裁判。这一举措能否减少判分争议，成为体操界关注的话题。",
-      "这套由世界体联与富士通公司合作研发的系统，通过摄像机采集影像，利用AI识别运动员的骨骼关节坐标，再依据体操评分规则中的动作结构和认定标准分析动作，为裁判提供多角度回看和角度等量化信息。世界体联的官方说明显示，JSS已用于分数暂缓公布、申诉复核等情形，为动作识别和难度认定提供依据。系统提供辅助信息，正式判罚仍由裁判作出。",
-      "从试用到扩大应用，JSS已走过多年。双方于2017年启动合作，2019年斯图加特世锦赛首次正式使用，覆盖吊环、鞍马及男、女跳马四个项目，2023年安特卫普世锦赛扩展至全部10个项目。据世界体联与富士通公司向记者提供的回复，2025年雅加达世锦赛，除高级裁判组使用外，JSS还由两个项目的监督试用。本届鹿特丹世锦赛，高级裁判组及全部10个项目的监督正式使用该系统，难度裁判组也进行了试用。相关数据还用于运动员表现分析、现场大屏和电视转播讲解。",
-      "国家体育总局体操运动管理中心主任常成表示，AI辅助系统有助于裁判作出更精准的判罚，但目前“还不完善”，也出现了一些不准确的情况。常成还提出训练端的适应问题，中国队尚未配备同一套系统，如何在日常训练中判断动作能否被系统认可，是队伍需要面对的新课题。此外，他对系统识别动作差异的能力也提出了疑问。常成介绍，国内正在开展相关科研，探索利用视频捕捉技术研发辅助系统。“我们也要参与竞争。”他说。",
-      "富士通公司在回复中表示，JSS针对新周期评分规则作了进一步改进，初步结果显示，其在鹿特丹赛场的准确度达到迄今最高水平。不过，回复中未提供具体准确率或与往届的量化对比。",
-      "技术能够为复核增加依据，但要判断其是否有效减少争议，还需要更多应用效果的检验。运动员和教练员能否充分了解动作认定标准、在训练中获得相应反馈，也是建立信任的重要环节。下一步，在满足相关监管及出口管制要求的前提下，JSS将用于2027年体操世锦赛全部10个项目。至于洛杉矶奥运会是否采用，世界体联与富士通公司未予确认。从世锦赛走向更广泛的应用，体操赛场的AI辅助裁判仍需在实践中完善。减少判分争议，既需要更精准的技术，也需要清晰的规则和透明的使用程序。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "体育"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261029/81bf76c3a609456aa843a7fd4a0ce11d/c.html",
-      "originalTitle": "AI辅助判分能否减少体操赛场争议？",
-      "publishedAt": "2026-10-29T09:23:20+08:00",
-      "retrievedAt": "2026-10-29T01:55:32.372Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-29T01:55:30.876Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Can AI Help Gymnastics Judges Reduce Scoring Disputes?",
-      "intro": "Xinhua Sports reports on a new AI judging support system and whether it can make gymnastics scoring less controversial.",
-      "paragraphs": [
-        "Gymnastics moves happen in an instant. Small differences in body position or joint angle can affect move recognition and difficulty scores. At the recently concluded 54th World Gymnastics Championships, World Gymnastics Federation President Morinari Watanabe proposed introducing AI-assisted judging at the 2028 Los Angeles Olympics. Whether this can reduce scoring disputes has become a topic of attention in the gymnastics community.",
-        "The system is called the Judging Support System (JSS). It was developed jointly by the World Gymnastics Federation and Fujitsu. Cameras capture video. AI identifies athletes' skeletal joint coordinates. Then, based on gymnastics scoring rules for movement structure and recognition criteria, the system analyzes the move. It provides judges with multi-angle replays and quantitative angle information.",
-        "JSS provides auxiliary information only. Official judgments are still made by human judges. The system has been used in cases where scores are withheld and during appeal reviews. It supports move recognition and difficulty assessment. The partnership began in 2017. JSS was first officially used at the 2019 Stuttgart World Championships in four events: rings, pommel horse, men's vault, and women's vault. At the 2023 Antwerp World Championships, it expanded to all 10 events.",
-        "At the 2025 Jakarta World Championships, JSS will be used by senior judging panels. Supervisors will also trial it in two events. At the Rotterdam World Championships, senior judges and supervisors across all 10 events used JSS officially. Difficulty judges also trialed it. Related data was used for athlete performance analysis. It was also used for arena big-screen displays and television broadcast explanations.",
-        "Chang Cheng, Director of the Gymnastics Management Center under China's General Administration of Sport, said AI assistance helps judges make more accurate judgments. But the system is 'not yet perfect'. It has produced some inaccurate results. He raised concerns about training adaptation. China's team does not yet have the same system. Teams face a new challenge: how to judge in daily training whether a move will be recognized by JSS. He also questioned the system's ability to distinguish subtle movement differences. Chang added that domestic research is underway to develop video-capture-based support systems. 'We also need to compete,' he said.",
-        "Fujitsu stated that JSS was further improved for the new cycle's scoring rules. Preliminary results show its accuracy at the Rotterdam competition reached the highest level so far. However, no specific accuracy rate or quantitative comparison with previous events was provided. Technology can add evidence for reviews. But whether it effectively reduces disputes requires more real-world application testing. Athletes and coaches must fully understand move recognition standards. They must receive corresponding feedback in training. These are key steps to building trust. Subject to relevant regulatory and export control requirements, JSS will be applied to all 10 events at the 2027 World Championships. Neither the World Gymnastics Federation nor Fujitsu confirmed whether it will be used at the Los Angeles Olympics. AI-assisted judging still needs practical refinement. Reducing scoring disputes requires not only more precise technology. It also requires clear rules and transparent procedures."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-29T02:04:09.352Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-29/2026-10-29-ai-65ae61.webp",
-      "alt": "抽象网格与细线叠加在器械剪影上的示意",
-      "caption": "多角度回看，为裁判提供参考信息。",
       "kind": "editorial"
     }
   }
