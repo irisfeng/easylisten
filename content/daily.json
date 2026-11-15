@@ -1,5 +1,214 @@
 [
   {
+    "slug": "2026-11-15-2bf2eb",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "张发起和团队在青藏高原采集标本、保存种子",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-15",
+    "intro": "十五年间，张发起和团队在青藏高原采集标本、保存种子，也为一种野外成熟个体不足八百株的金黄色小花——华福花，寻找活下去的办法。",
+    "paragraphs": [
+      "青藏高原是地球上海拔最高的高原，被誉为“世界屋脊”“中华水塔”。这里氧气含量不足平原地区的60%，气候多变，山路崎岖，却是全球高寒生物多样性最富集的区域之一。过去15年，中国科学院西北高原生物研究所研究员、青藏高原生物标本馆馆长张发起和团队，在这里收集了大量植物标本，为青藏高原植物多样性保护提供了珍贵的基础资料。前不久，张发起获评2026年青海省“最美科技工作者”。",
+      "回忆野外科考经历，张发起对一种名为华福花的金黄色小花记忆深刻。它被誉为“中华有福之花”，是高原特有物种，对生长环境要求极为苛刻。受全球气候变暖影响，华福花在青藏高原的生存空间持续压缩，最低分布海拔从3900米攀升至4500米以上，野外成熟个体不足800株。",
+      "华福花生长在流石坡上，那里地形陡峭、碎石遍布。张发起说：“我们攀上一个坡面就要两三个小时，一天最多只能考察两个坡面。”那里车辆无法通行，张发起和团队便携带监测设备、干粮，徒步抵达监测位点。他们在监测位点架设红外相机与气象站，采集土壤样品，分析生境变化。晚上回到驻地，整理监测数据、梳理疑点。",
+      "通过红外相机，张发起和团队发现青海省玉树藏族自治州囊谦县的华福花被岩羊踩踏、被高原鼠兔啃食的情况严重，花序折断率超过80%，影响种群自然扩繁。基于此，张发起积极推动在华福花的核心分布区设置防护围栏，以防范外界干扰。同时，张发起启动华福花基因组及群体重测序工作。经对比分析，他发现，与分布较广的近缘物种五福花相比，华福花基因多样性偏低，不同区域种群间几乎无基因交流。“这可能是华福花种群持续衰退的根本原因。”",
+      "基于这些发现，张发起团队制定了保护方案，将华福花种子存入种质资源库，并开展迁地保护实验，为这一物种的延续留存希望。除此之外，张发起团队还系统开展青藏高原植物资源调查、标本采集和种质保存，广泛收集植物DNA材料。他们计划将青藏高原60%以上物种的DNA材料保存起来，建设库容量为150万的青藏高原种质资源库。这个库可提供从零下196摄氏度到15摄氏度的差异化保存条件。张发起形象地称之为“种子共享库”。“科研人员按流程提交申请并经审批，即可调用库内种质资源，有效提升工作效率。”",
+      "在张发起看来，把种质资源保存下来只是第一步，还要让更多人认识高原植物、理解保护意义。“植物保护面临的最大挑战不是不重视，而是不认识。”张发起说，大多数人不知道青藏高原有哪些植物，更不清楚该保护哪一种。为此，他坚持“科研赋能科普、科普反哺保护”的理念，将在野外科考积累的丰富经验和科研成果转化为可传播、可落地的科普内容。2025年，张发起牵头组织“中国科学院标本馆科普工作协作科普进校园活动”，在青海省18所中小学举办了20场科普讲座，惠及5000余名牧区、乡村中小学生。此外，他还作为嘉宾录制《守护中华水塔》《生命树》等纪录片，参与出版《三江秘境——三江源国家公园自然科普大全》《走进三江源国家公园——万物竞生高寒地区的植物博物馆》等科普读物。在青藏高原生物标本馆，400多件高原特有动植物标本陈列展示。一有时间，张发起就当起讲解员。",
+      "夕阳西下，青藏高原生物标本馆的灯依然亮着。张发起仍在伏案整理标本，同时规划新一轮野外科考行程。“我们要抓紧时间，每年物种分布都在变化，有些居群今年不去，明年可能就找不到了。”他说，“把标本采好、把种质存好、把保护故事讲好，才能给后人留下一份高原植物的‘账本’。”"
+    ],
+    "topics": [
+      "生命与演化",
+      "出行与旅行"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574735.shtm",
+      "originalTitle": "张发起：在青藏高原收种子",
+      "publishedAt": "2026-11-14 16:32",
+      "retrievedAt": "2026-11-15T01:09:17.339Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-15T01:09:06.888Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-15/2026-11-15-2bf2eb.webp",
+      "alt": "高原剖面上一枚种子与一株小花的抽象剪影",
+      "caption": "在高原保存种子，也为小花寻找未来",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-15-can-network-science-transform-health-and-nutriti",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "网络科学能否改变健康与营养？",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-15",
+    "intro": "从互联网到细胞，网络科学家相信，很多系统只有连起来看才讲得通。",
+    "paragraphs": [
+      "几乎没有什么东西是孤立存在的。神经元连在一起，才有意识；基因和蛋白质一起工作，才有生命；人彼此连接，才有社会。上世纪90年代，研究者开始给现实中的网络画图，从万维网到由电影合作连起来的好莱坞演员网。他们发现，很多看起来完全不同的系统，在结构上有相似的建筑特征，而这些特征没法只靠研究单个零件解释。",
+      "在这期对谈里，网络科学先驱巴拉巴西和主持人斯特罗加茨回顾了这门学科的形成。巴拉巴西说，90年代有两个变化很关键：一是数据变多了，互联网革命让人们能把细胞里的代谢物、好莱坞演员等关系真正拼成网络地图；二是从网络角度看，真实系统的相似之处比差异更多——细胞代谢网络、社会网络、大脑布线，目的、尺度和连接单位都不同，却共享一些组织方式。",
+      "网络里还有一些连接特别多的节点，巴拉巴西把它们叫作枢纽，比如社交圈里认识所有人的人：他一个人就能把许多小圈子连起来，也会影响整个网络的行为。理解网络不只对人类社会有用，也能帮助理解疾病如何在人群中传播、大脑怎样布线、基因调控网络怎样连接，甚至发电厂怎样为家庭和商业供电。",
+      "巴拉巴西指出，与疾病相关的基因会在网络里聚成‘网络邻里’，即彼此连接较密的一小片区域。这种聚集可能帮助识别更好的药物靶点，也可能帮助预测哪些病人会对哪些药物有反应。",
+      "后来，他发起名为 Foodome 的项目，想编目我们吃下去的食物里到底有哪些分子，并追问这些分子进入细胞后做什么。巴拉巴西统计，大约有13.5万种化合物落在传统营养学之外。传统营养学主要关注能量、构建身体的材料和维生素。他把这些化合物称为营养里的‘暗物质’。它们对身体有什么影响，科学家才刚刚开始理解。"
+    ],
+    "topics": [
+      "物质与数学",
+      "健康与医学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
+      "originalTitle": "Can Network Science Transform Health and Nutrition?",
+      "publishedAt": "Thu, 12 Nov 2026 19:40:54 +0000",
+      "retrievedAt": "2026-11-15T01:11:21.125Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-15T01:11:18.429Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 21,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Networks Inside Us",
+      "intro": "A network scientist explains how connections inside our bodies might change the way we study disease and nutrition.",
+      "paragraphs": [
+        "Imagine a map where the important thing is not each dot but the lines between the dots. That is what network science studies. It looks at how genes, neurons, people, and even websites connect. In the 1990s, researchers began mapping real-world networks — from the World Wide Web to Hollywood actors linked by films. They found that wildly different systems shared architectural features that their components alone could not explain.",
+        "Albert-László Barabási is a network scientist at Northeastern University. He also has appointments with Harvard Medical School and the Central European University in Budapest, Hungary. He spoke about the field on Quanta Magazine's podcast The Joy of Why. He argues that a gene, a neuron, or a human doesn’t make sense in isolation. Consciousness arises from what neurons do together, life from what genes and proteins do together, and society from what we do together.",
+        "Barabási explains that disease-related genes cluster in 'network neighborhoods', which may help identify better drug targets and predict which patients will respond to which drugs.",
+        "That work led him to his Foodome project, which catalogs the molecules found in the food we eat and asks what they do inside our cells. By his count, around 135,000 compounds lie outside conventional nutrition, which concerns itself mainly with energy, building blocks, and vitamins.",
+        "Barabási calls these compounds the 'dark matter of nutrition', and their effects on the body are only beginning to be understood."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-15T01:16:24.286Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-15/2026-11-15-can-network-science-transform-health-and-nutriti.webp",
+      "alt": "抽象网络节点与连线组成的拓扑结构",
+      "caption": "把系统连起来看，才讲得通",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-15-2-2-8e53ca",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "速度滑冰世界杯北京站第二日 中国队收获2金2铜",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-15",
+    "intro": "在北京举行的速度滑冰世界杯进入第二个比赛日，中国队当天收获2枚金牌和2枚铜牌。",
+    "paragraphs": [
+      "速度滑冰世界杯北京站的比赛进入第二日。据中新网体育报道，中国队在这一天收获2枚金牌、2枚铜牌。",
+      "速度滑冰世界杯由多个分站在不同城市轮流举办，北京站是其中一站。选手成绩累计计算。",
+      "速度滑冰比的是完成规定距离所用时间：运动员在标准400米椭圆形冰道上单独出发，用时越短名次越高。它不同于短道速滑的多人同场竞速，更强调与时间及自我的较量。",
+      "中国队在第二日收获2金2铜。下一站比赛将在另一城市举行。"
+    ],
+    "topics": [
+      "体育",
+      "出行与旅行"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网体育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/ty/2026/11-14/10732205.shtml",
+      "originalTitle": "速度滑冰世界杯北京站第二日 中国队收获2金2铜",
+      "publishedAt": "Sat, 14 Nov 2026 22:55:15 +0800",
+      "retrievedAt": "2026-11-15T01:11:42.719Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-15T01:11:41.330Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-15-us-has-lost-measles-elimination-status-global-he",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "美国失去麻疹消除国地位",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-15",
+    "intro": "全球卫生组织确认，美国已不再符合‘麻疹消除’标准——这意味着麻疹病毒正在国内持续传播，不再是偶发输入病例。",
+    "paragraphs": [
+      "麻疹是一种传染性极强的病毒性疾病，高烧、皮疹、咳嗽是常见症状，严重时可能引发脑炎、失明甚至死亡。2000年，美国曾被正式认定为‘麻疹消除国’，意思是：病毒在国内没有长期、连续的传播链，偶尔出现的病例都来自境外输入，并且能在一年内被迅速扑灭。但2026年11月，泛美卫生组织（PAHO）经评估确认：这一状态已经结束。",
+      "过去两年，美国共报告超过8,000例麻疹感染，其中830多人住院治疗；13人因此死亡，包括纽约一名7个月大的婴儿，以及宾夕法尼亚州和威斯康星州的多名未满周岁的婴儿。这些婴儿太小，还不能接种疫苗，只能依靠周围人群打疫苗形成的‘群体免疫’来保护。而当社区中95%以上的人完成两剂麻疹-腮腺炎-风疹（MMR）疫苗接种时，病毒才难以找到新宿主、无法持续传播。",
+      "数据显示，2025年1月以来确诊的7,600多例中，97%的患者未接种或接种情况不明，仅3%已全程接种。这说明麻疹几乎只影响未受保护的人群。问题不在于疫苗无效——两剂MMR疫苗对预防感染的有效率约为97%；而在于越来越多孩子没能按时接种。CDC数据显示，儿童常规疫苗接种率自新冠疫情后持续下降。",
+      "这次转变并非突然发生。2025年6月，犹他州一场疫情持续超一年，成为关键转折点。此前，联邦政府在历次疫情中都会快速响应：发布临床指南、召开新闻发布会、通过《发病率与死亡率周报》（MMWR）向医生和公共卫生人员发出预警，甚至设立‘儿童疫苗计划’为经济困难家庭免费提供疫苗。但2025年特朗普政府上台后，大幅削减州级免疫项目资金，终止疫苗犹豫研究经费；时任卫生部长罗伯特·F·肯尼迪 Jr. 在2025年8月解雇CDC主任苏珊·莫纳雷兹，后者在国会作证时表示，自己被解职是因为拒绝在未审查证据前提前批准疫苗建议修改。",
+      "值得留意的是，这不是第一次警钟。1989至1991年美国最后一波大规模麻疹疫情中，明尼苏达州一家儿童医院曾整层病房收治麻疹患儿，两名孩子因并发症去世——这段经历促使当时政府推动两剂疫苗策略和全民免疫支持政策。而今天，一位公共卫生护士在犹他州学校注册现场为孩子接种疫苗时，旁边一位医生妈妈正忧心地看着自己4个月大、尚不能打针的宝宝熟睡——窗外，麻疹仍在社区中悄然蔓延。"
+    ],
+    "topics": [
+      "健康与医学",
+      "全球时事"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "NPR Health",
+      "region": "international",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+      "originalTitle": "US has lost measles elimination status, global health authorities say",
+      "publishedAt": "Sat, 14 Nov 2026 17:15:02 -0500",
+      "retrievedAt": "2026-11-15T01:13:36.709Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-15T01:13:34.779Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-14-pi-822d71",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "小鼠研究提示调动肿瘤外周免疫细胞可能改善结直肠癌免疫治疗",
@@ -3175,236 +3384,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-10-31-90-06ca20",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "个碧石铁路全线通车90周年影像展开幕 讲述“赤子家国情”",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "一条铁路通车九十年后，人们用影像重新讲起它和人的关系。",
-    "paragraphs": [
-      "九十年，对一条铁路来说是很长的时间。中新网文化报道，个碧石铁路全线通车90周年影像展开幕，展览讲述的主题是“赤子家国情”。",
-      "一条铁路可以用很多种方式被记住。个碧石铁路的九十周年纪念，选的是影像方式。",
-      "“赤子”通常指的是对故土怀着赤诚之心的人。一条铁路为什么会和“家国”连在一起？因为铁路改变的是距离。",
-      "九十年是一个很长的刻度。个碧石铁路通车九十年后还有人专门为它办展览，说明它在很多人的记忆里并没有被拆掉。",
-      "展览的名字里，“赤子”两个字最轻，也最重。它把注意力从一个工程转向了人：转向那些把心血放在一条铁路上的人，也转向后来靠着这条路生活的人。"
-    ],
-    "topics": [
-      "历史",
-      "艺术与设计"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-31/10723775.shtml",
-      "originalTitle": "个碧石铁路全线通车90周年影像展开幕 讲述“赤子家国情”",
-      "publishedAt": "Sat, 31 Oct 2026 09:33:41 +0800",
-      "retrievedAt": "2026-10-31T01:43:58.586Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:43:56.836Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-31/2026-10-31-90-06ca20.webp",
-      "alt": "冷灰色调的铁轨向远方延伸，旁有无字旧站牌与淡雾山影。",
-      "caption": "九十年后，铁轨仍在讲述人与路的关系。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-10-31-45d9bc",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "世卫组织认证：巴巴多斯消除艾滋病母婴传播",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "世界卫生组织确认，这个加勒比岛国已消除艾滋病母婴传播这一公共卫生问题，成为全球第二十六个获得这类认可的国家和地区。",
-    "paragraphs": [
-      "2026年10月30日，世卫组织宣布，加勒比岛国巴巴多斯已成功消除艾滋病母婴传播这一公共卫生问题，成为全球第26个在消除艾滋病毒、梅毒或乙型肝炎母婴传播方面获得世卫组织认可的国家和地区。这一认证针对艾滋病毒、梅毒或乙型肝炎三种疾病中的至少一种，巴巴多斯实现的是艾滋病母婴传播的消除。",
-      "巴巴多斯通过公立诊所和医院提供全民医疗服务，所有孕妇均可免费接受艾滋病毒检测和治疗，不受国籍限制。检测以自愿和保密为原则，感染艾滋病毒的孕妇所生婴儿也能获得早期检测和后续护理。经过独立评估，2022年至2024年，该国没有报告新生儿因母婴传播感染艾滋病毒的病例；同期，孕妇产前保健服务覆盖率、艾滋病毒检测率，以及感染艾滋病毒的孕妇接受抗逆转录病毒治疗的比例均达到98%。",
-      "世卫组织总干事谭德塞当天发表声明，祝贺巴巴多斯保护一代儿童免受艾滋病毒感染。他指出，该国向所有孕妇免费提供医疗服务，不论其国籍如何，并尊重她们的权利和隐私，展现了全民健康覆盖在实践中的意义。巴巴多斯卫生与健康部长卡明斯表示，这一成果意味着儿童能够在没有感染艾滋病毒的情况下出生，也意味着感染艾滋病毒的母亲能够在孕期获得必要治疗，从而帮助母亲和孩子拥有更健康的生活。",
-      "泛美卫生组织主任兼世卫组织美洲区域主任巴尔博萨指出，只要妇女和儿童能够无障碍地获得优质医疗服务，消除艾滋病母婴传播就是可以实现的。这一成果不仅是巴巴多斯和加勒比地区的重要时刻，也为全球防止儿童感染艾滋病毒提供了有力示范。目前，全球已有26个国家和地区获得世卫组织认可，其中15个位于美洲，使该地区成为全球在这一领域取得进展最多的地区。",
-      "世卫组织指出，巴巴多斯要维持这一成果，仍需持续投入资源，更新防治指南，完善卫生信息系统，加强艾滋病毒和梅毒联合检测，并改善对妇女和儿童的后续随访。"
-    ],
-    "topics": [
-      "全球时事",
-      "健康与医学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/10/1143099",
-      "originalTitle": "世卫组织认证：巴巴多斯消除艾滋病母婴传播",
-      "publishedAt": "Fri, 30 Oct 2026 12:00:00 +0000",
-      "retrievedAt": "2026-10-31T01:44:44.094Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:44:41.708Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Barbados Eliminates Mother-to-Child HIV Transmission",
-      "intro": "The World Health Organization has recognized Barbados for eliminating mother-to-child transmission of HIV as a public health problem.",
-      "paragraphs": [
-        "The World Health Organization announced on Friday, October 30, 2026, that Barbados has eliminated mother-to-child transmission of HIV. Barbados is the 26th country or territory globally to receive WHO validation for eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B.",
-        "WHO Director-General Tedros Adhanom Ghebreyesus issued a statement congratulating Barbados. He said the country protects a generation of children from HIV infection. The country provides free health services to all pregnant women, regardless of nationality. It respects their rights and privacy.",
-        "Barbados provides universal health care through public clinics and hospitals. All pregnant women receive free HIV testing and treatment. Testing is voluntary and confidential. Infants born to mothers living with HIV receive early testing and follow-up care. From 2022 to 2024, no newborns in Barbados were infected with HIV through mother-to-child transmission.",
-        "An independent assessment confirmed that Barbados met the global targets. Between 2022 and 2024, antenatal care coverage, HIV testing among pregnant women, and antiretroviral treatment uptake among HIV-positive pregnant women all reached 98%. Health Minister Cummings said children can be born without HIV. Mothers with HIV can access essential treatment during pregnancy.",
-        "Dr. Jarbas Barbosa is Director of the Pan American Health Organization and WHO Regional Director for the Americas. He said eliminating mother-to-child transmission is achievable when women and children have barrier-free access to quality health services. He called the achievement a milestone for Barbados and the Caribbean. It also provides a powerful global example.",
-        "Fifteen of the 26 WHO-validated countries and territories are in the Americas. This makes the Americas the region with the most progress in eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B. To sustain this success, Barbados must continue investing resources. It must update prevention guidelines. It must strengthen health information systems. It must expand combined HIV and syphilis testing. It must improve follow-up for women and children."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:50:08.226Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-10-31-nearly-2-out-of-3-teens-and-tweens-use-ai-chatbo",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "新调查显示，近三分之二的美国青少年和儿童使用AI聊天机器人",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "两项新调查显示，AI聊天机器人已深度融入美国青少年与儿童的日常生活。他们如何使用它，与心理健康状况存在统计关联——但研究者反复强调：关联不等于因果。",
-    "paragraphs": [
-      "AI聊天机器人正在成为美国青少年和儿童日常生活的一部分。两项新调查发现，近三分之二的青少年和儿童使用AI聊天机器人。其中一项由关注儿童网络安全的倡导机构Common Sense Media开展，数据显示：AI使用开始得很早——近一半9至12岁的儿童已使用过AI聊天机器人或AI伴侣；到13岁时，近四分之三的儿童已使用过。而多数主流聊天机器人设定的最低使用年龄正是13岁。",
-      "另一项调查由心理健康倡导机构JED基金会开展，覆盖全美学校中5500名9至17岁的学生。结果显示：90%的学生使用过AI聊天机器人；近三分之二的人既用它辅助学习，也在压力大、孤独、焦虑或不堪重负时将其作为陪伴或情绪支持来源。北卡罗来纳大学教堂山分校发育心理学家安妮·马厄（Anne Maheux）未参与这两项调查，她称这一变化‘引人注目’：‘好像就在几年前还没人用，而现在，用AI做作业的孩子中，差不多同样多的人也在用它获取情感支持或应对压力。’",
-      "孩子们具体怎么用？15岁的阿琼·夏尔达（Arjun Sharda）住在得克萨斯州圆石市，他用聊天机器人练习模拟试题，也用它理解课堂外的概念；他同时使用ChatGPT和Google Gemini，近期更偏好后者。17岁的麦肯齐·克雷格（McKenzie Craig）来自马萨诸塞州雷纳姆，从八年级起就使用聊天机器人：任务繁重时请它帮自己排序优先级；写完作文后，会用Grammarly或ChatGPT获取反馈并据此修改。阿琼还提到，他和朋友在压力大、焦虑时也会转向聊天机器人——例如一次化学考试前，他因担心‘换算与摩尔’内容不及格而反复向ChatGPT提问：‘我会没事吗？我的GPA还能保住吗？’",
-      "JED基金会的调查还同步评估了学生的整体福祉与心理健康指标。研究者发现：当年轻人处于情绪困扰状态时使用AI，更可能报告较差的心理健康与福祉水平，也更常报告有自杀意念或尝试史。但研究者明确指出：这些数据‘无法表明因果关系’。凯拉·安德森（Kayla Anderson）博士解释：‘尚不清楚是AI使用导致心理健康恶化，还是本就处于困扰中的学生更倾向于求助AI。’",
-      "其他研究者的初步数据提示，这种关联可能是双向的。马厄与北卡罗来纳大学同事即将发表的一项针对某州中学生的研究发现：将聊天机器人主要用作陪伴的学生，随时间推移孤独感加剧；类似结果也在年轻成人研究中被观察到。马厄指出：‘那些更依赖AI解决情绪或认知问题的人，心理健康随时间推移趋于恶化。’一种可能机制是：AI虽能即时缓解孤独、焦虑与压力，但过度依赖会减少年轻人练习承受和应对日常压力的机会——而这恰恰是心理韧性发展的关键过程。她强调：‘这可能导致更差的心理健康。’",
-      "同一个工具，用于查作业与用于替代人际陪伴，可能是性质截然不同的两种使用方式。马厄表示，要真正厘清长期影响，还需更多纵向追踪研究。在那之前，这些数据至少清晰表明：对相当一部分孩子而言，聊天机器人已不只是学习助手，更是他们在情绪困境中主动打开的‘对话对象’。"
-    ],
-    "topics": [
-      "心理与情绪",
-      "数字生活"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "NPR Health",
-      "region": "international",
-      "url": "https://www.npr.org/2026/10/30/nx-s1-6022278/ai-artificial-intelligence-teens-jed-common-sense-media",
-      "originalTitle": "Nearly 2 out of 3 teens and tweens use AI chatbots, new research shows",
-      "publishedAt": "Fri, 30 Oct 2026 05:00:00 -0400",
-      "retrievedAt": "2026-10-31T01:46:07.788Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:46:04.337Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 28,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-10-31-51421f",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "古菌‘单干’，吃脂肪酸吐甲烷",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-10-31",
-    "intro": "中国团队分离出一种嗜热古菌新种AA-75，证实单一古菌细胞能在纯培养条件下独立完成中长链脂肪酸氧化并生成甲烷，这是科学家揭示的第六条古菌产甲烷途径——‘脂基型产甲烷途径’。",
-    "paragraphs": [
-      "一瓶来自胜利油田地下油藏的微生物培养物，在70多摄氏度的培养箱里静静放两三个月，瓶内的变化肉眼几乎察觉不到。但中国农业科学院厌氧微生物前沿交叉研究中心研究员承磊知道，古菌正在瓶内慢慢生长。承磊团队与北京大学教授陆雅海团队合作，从胜利油田地下油藏样品中分离得到嗜热古菌新种Methanoglobus dolicholipophagus AA-75。他们在纯培养条件下证实，单一古菌细胞能够独立完成中长链脂肪酸氧化并生成甲烷。这是科学家揭示的第六条古菌产甲烷途径——‘脂基型产甲烷途径’。相关研究成果近日在线发表于《自然》。",
-      "产甲烷古菌是一种独特的厌氧微生物，35亿年前就存在于地球上，是最古老的微生物类群之一。甲烷是全球碳循环的关键节点，也是第二大温室气体。过去学界认为，复杂有机物厌氧降解时，细菌先把大分子拆成乙酸、氢气、二氧化碳，而古菌只是接过‘最后一棒’，把这些简单底物变成甲烷。5年前，承磊联合国内外团队发现了第五条古菌产甲烷途径——利用长链烷烃产甲烷，推翻了上述传统认知。",
-      "论文第一作者、农业农村部成都沼气科学研究所（以下简称沼科所）助理研究员易悦告诉《中国科学报》，古菌通常在空气中暴露几分钟就会死亡。此外，它们生长缓慢，需要与其他微生物互相交换营养物质或代谢产物，通过共培养或者共生才能生存。这种生存方式使厌氧微生物在实验室环境中难以存活，想把它们培养成纯菌状态就更难了。沼科所40多年积累的厌氧微生物保藏平台共保存了1500多种厌氧微生物模式物种。2023年前后，承磊团队对保存数十年的地下油藏样品进行了宏基因组测序。易悦就是在那时加入团队的。她发现样品中有一种具有降解脂肪酸产甲烷潜力的古菌。这种古菌喜欢生存在75摄氏度的高温环境里，他们暂且给它编号AA-75。真正让AA-75从复杂群落里‘走出来’，靠的是团队自创的‘鸡尾酒法’。传统思路是让目标菌一开始就长得最快，一步压垮所有竞争者。但这种方法并不适用于AA-75这样的‘慢热型’古菌，它们往往一开始就被快生长的杂菌淹没了。后来，承磊团队反其道而行之，他们让所有菌的生长一起慢下来，只要目标菌在每个阶段都比伴生菌快一点点，就能逐步占据相对优势。团队把生长曲线当‘指挥棒’，定期监测目标菌和杂菌的数量变化，再像调鸡尾酒一样，通过组合稀释、限氧、控温、控气、加抑制剂等手段，逐步把非目标微生物‘请走’。该方法2025年发表于《自然-方法学》。",
-      "易悦和曹佐蓉用硬脂酸作为它的唯一碳源，结果发现AA-75产出了甲烷。而在稳定同位素标记实验里，硬脂酸分子中的13C直接出现在古菌的最终产物13C甲烷中。这表明，AA-75真的可以靠‘吃’硬脂酸产生甲烷。系统测定底物谱发现，这株古菌能吃C7到C18的多种饱和、不饱和中长链脂肪酸，也能利用甲醇，但氢气/二氧化碳、乙酸、甲酸、甲胺这些经典产甲烷底物反而‘养’不活它。论文共同第一作者、沼科所博士后丁恒武介绍，他们通过基因组研究揭示了背后的机制：AA-75的基因组编码了完整的脂肪酸β-氧化与产甲烷代谢通路的全套基因，可在同一个细胞内实现这两套代谢过程。同时，AA-75还携带甲醇-甲醛代谢模块，作为辅助通路与经典代谢并行。转录组数据显示，这些基因在培养过程中均高度活跃。‘原来需要细菌和古菌联手干的活儿，现在一种古菌就全干了。’承磊说。",
-      "从应用看，AA-75给高油脂废弃物处理、地下油藏‘油变气’提供了新的想象空间。传统采油物理驱替、化学驱替后，仍有过半原油留在地下。产甲烷古菌的研究有可能带来延长油藏寿命、提高采收率的应用前景。餐厨废油、藻脂、污泥里也有大量中长链脂肪酸，能单菌独立完成降解脂肪酸产甲烷的古菌，有成为合成生物学底盘微生物的潜力。‘我们做的基础研究工作离落地还有很长的路要走。’承磊跟团队成员说，‘在我退休的时候能看到工程化的可能，就知足了。’所有产甲烷途径最后都会汇到一个共同中间体——甲基辅酶M。甲基辅酶M还原酶（Mcr）要做的就是形成碳氢键，放出甲烷。甲烷的碳氢键是自然界最惰性的化学键之一，常规条件下几乎没法直接生成。Mcr的厉害之处在于能在温和、含水、厌氧、近中性的生理环境里完成碳氢键的定向形成。‘这个过程到底是怎么发生的，还有很多未解之谜。’承磊说，这可能涉及地球早期生命起源的一些问题。"
-    ],
-    "topics": [
-      "古菌",
-      "甲烷生成",
-      "脂肪酸氧化",
-      "微生物代谢"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573739.shtm",
-      "originalTitle": "古菌“单干”，吃脂肪酸吐甲烷",
-      "publishedAt": "2026-10-28 09:12",
-      "retrievedAt": "2026-10-31T01:47:38.782Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:47:36.252Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Heat-Loving Microbe That Turns Fat Into Methane",
-      "intro": "Scientists have found a single heat-loving microbe that can turn fatty acids into methane all by itself.",
-      "paragraphs": [
-        "A research team in China has isolated a new species of heat-loving archaeon, Methanoglobus dolicholipophagus AA-75, from underground oil reservoir samples in the Shengli Oilfield. In pure culture, this single archaeon independently completes oxidation of medium- and long-chain fatty acids and generates methane. This is the sixth known methanogenesis pathway in archaea — named the 'lipid-based methanogenesis pathway'. The study was published online in Nature.",
-        "For decades, scientists believed methanogenic archaea could only use simple substrates: hydrogen and carbon dioxide, acetate, formate, methylamines, and other C1 compounds. Complex organic matter was thought to require bacterial breakdown first — into acetate, H2, and CO2 — before archaea performed the final step to methane. Five years ago, the same team discovered the fifth pathway: direct methane production from long-chain alkanes. The new finding challenges that textbook view.",
-        "These archaea are extremely difficult to culture. They die within minutes when exposed to air. They grow slowly and typically require co-culture or syntrophic partnerships with other microbes for nutrients or metabolites. To isolate AA-75, the team developed a method called the 'cocktail method'. It slows all microbes down and gradually removes non-target ones by adjusting dilution, oxygen levels, temperature, gas composition, and inhibitors — guided by growth curve monitoring. Using stearic acid as the sole carbon source, the purified AA-75 culture produced methane. In stable isotope labeling experiments, 13C from stearic acid appeared directly in the resulting 13C-methane. AA-75 uses saturated and unsaturated fatty acids from C7 to C18, and methanol — but cannot grow on hydrogen/CO2, acetate, formate, or methylamines.",
-        "Genome analysis revealed AA-75 encodes the complete set of genes for both fatty acid β-oxidation and methanogenesis — enabling both processes inside a single cell. It also carries a methanol–formaldehyde metabolic module that operates in parallel. Transcriptome data show these genes are highly active during growth. As researcher Cheng Lei said: 'What used to require teamwork between bacteria and archaea can now be done entirely by one archaeon.' Applications may include treatment of high-fat waste (e.g., cooking oil, algal lipids, sludge) and microbial 'oil-to-gas' conversion in oil reservoirs. AA-75 also shows potential as a synthetic biology chassis microbe — though the team stresses engineering applications remain distant.",
-        "A key mystery remains at the final step: the enzyme methyl-coenzyme M reductase (Mcr) forms the carbon–hydrogen bond that releases methane. This bond is among the most chemically inert in nature. Mcr achieves this under mild, aqueous, anaerobic, near-neutral physiological conditions. How exactly this occurs is still unknown — and may relate to questions about early life on Earth. Reviewers noted the study further supports that methanogenic archaea are far more diverse in taxonomy, substrate range, and habitat distribution than previously assumed."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-10-31T01:52:56.575Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-10-31/2026-10-31-51421f.webp",
-      "alt": "冷灰纸纹背景上，抽象单细胞轮廓与漂浮的分子符号。",
-      "caption": "一种古菌独自完成从脂肪酸到甲烷的转化。",
-      "kind": "editorial"
     }
   }
 ]
