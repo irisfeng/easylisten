@@ -1,5 +1,168 @@
 [
   {
+    "slug": "2026-11-19-69c074",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "我国发现已知年代最晚直立人化石",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-19",
+    "intro": "在广西崇左相距约15公里的两处洞穴遗址中，科学家鉴定出8颗直立人牙齿化石，年代为距今32.4万年至18.4万年，是我国迄今已知年代最晚的直立人化石记录。",
+    "paragraphs": [
+      "在广西壮族自治区崇左市江州区岜仙洞、那线洞遗址，中外科学家共出土9枚古人类牙齿化石，其中8枚被确认为直立人，年代为距今32.4万年至18.4万年，是迄今中国已知年代最晚的直立人化石记录。这项成果由中国科学院古脊椎动物与古人类研究所张颖奇研究员等联合山东大学等6个国家10余个科研机构的科学家合作完成，相关论文以姊妹篇形式于北京时间11月19日凌晨在国际学术期刊《自然》（Nature）上线发表。",
+      "此前，中国的直立人化石地点大多位于北方和中部地区，且年代均早于距今40万年；华南地区特别是广西长期缺乏可靠直立人化石证据，构成古人类演化研究的关键空白。本次发现将直立人在中国的存续年代比此前认识至少后推了8万年，使崇左成为研究中国境内直立人种群走向消亡的关键地区。",
+      "为确定年代，研究团队采用5种相互独立的测年技术，对两个洞穴的沉积物和伴生哺乳动物化石进行测定：岜仙洞直立人年代为距今32.4万—18.4万年，那线洞为距今31.9万—24.1万年；综合表明，在距今32.4万—18.4万年间，至少有一个时期崇左地区存在直立人。研究团队还对5颗牙齿（含PA1796）开展古蛋白质分析，结果显示，除PA1796外，其余个体在分子证据上与直立人有关，但属于一个不同于北京周口店、安徽和县等东亚中更新世直立人的新群体。",
+      "岜仙洞PA1796号牙齿标本在形态学上不同于直立人、尼安德特人和现代人，其身份尚待进一步确认；研究团队认为，它可能属于一个尚未被充分描述的非直立人种群。这一悬而未决的问题，与岜仙洞和那线洞直立人年代区间（32.4万—18.4万年前）共同引出一个科学问题：直立人与丹尼索瓦人是否在年代和地理分布上存在重叠？",
+      "进一步分析发现，岜仙洞和那线洞的直立人生活在林冠郁闭的雨林环境中，并在童年时期曾进行远距离移动。这表明直立人能够利用郁闭雨林环境并在其中远距离移动，从而扭转了长期以来认为直立人只能栖息于开放稀树草原或疏林环境的传统观点。崇左直立人群体可能与亚洲南部的丹尼索瓦人在邻近的时空范围内共存；崇左乃至东亚，是研究多个共域人类种群演化、交流与融合的关键区域。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574984.shtm",
+      "originalTitle": "我国发现已知年代最晚直立人化石",
+      "publishedAt": "2026-11-19 09:05",
+      "retrievedAt": "2026-11-19T02:42:08.177Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-19T02:42:06.380Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Youngest Known Homo Erectus Fossils Found in China",
+      "intro": "Scientists have found the youngest known Homo erectus fossils in China. The teeth may change how we understand this ancient human’s survival, environment, and extinction.",
+      "paragraphs": [
+        "Homo erectus is one of the longest-lasting ancient human species. It lived from about 1.9 million to 108,000 years ago. Its range stretched from Africa to eastern Eurasia. But before this discovery, fossil records in southern China — especially Guangxi — had a major gap. That gap made it hard to understand Homo erectus’ presence and fate in the region.",
+        "Researchers found nine ancient human teeth in two caves in Guangxi: Baxian Cave and Naxian Cave. The caves are about 15 kilometers apart. Eight of the nine teeth were confirmed as Homo erectus. Their age is 324,000 to 184,000 years ago. This is the youngest known Homo erectus fossil record in China. It pushes back Homo erectus’ known survival in China by at least 80,000 years.",
+        "The study was published in Nature on November 19. It was led by researchers from the Chinese Academy of Sciences’ Institute of Vertebrate Paleontology and Paleoanthropology (IVPP), with Shandong University and the Guangxi Museum of Nationalities. Scientists from six countries and over ten institutions collaborated. IVPP discovered and studied Baxian Cave. The Guangxi Museum of Nationalities discovered Naxian Cave, and Shandong University led its study.",
+        "The team used five independent dating methods on cave sediments and associated mammal fossils. Baxian Cave’s Homo erectus teeth date to 324,000–184,000 years ago. Naxian Cave’s date to 319,000–241,000 years ago. Together, they show Homo erectus lived in Chongzuo between 324,000 and 184,000 years ago — at least during one period. This changes earlier views about Homo erectus’ geographic and temporal limits in China.",
+        "The researchers found these Homo erectus groups lived in a closed-canopy rainforest. Evidence from teeth also shows some individuals moved long distances during childhood. This challenges the long-held idea that Homo erectus could only live in open savanna or woodland environments. It proves they could adapt to and move through dense rainforests.",
+        "One tooth, PA1796, does not match Homo erectus, Neanderthals, or modern humans in morphology. Its identity remains unknown. Ancient protein analysis of five teeth — including PA1796 — confirmed the other four belong to Homo erectus. But they represent a group distinct from other East Asian Homo erectus, such as those from Zhoukoudian or Hexian. This raises the possibility of overlap with Denisovans in time and space. More fossils from Chongzuo may help answer this question."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-19T02:49:58.719Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-19/2026-11-19-69c074.webp",
+      "alt": "洞穴岩层剖面中嵌着几枚牙齿化石的抽象插图",
+      "caption": "岩层深处的时间刻度",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-19-31-6994f1",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "气候大会临近闭幕，各国启动新一轮“气候承诺核查”",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-19",
+    "intro": "第31届联合国气候变化大会在土耳其安塔利亚举行，闭幕时限日益临近，谈判桌上仍有21个问题悬而未决。",
+    "paragraphs": [
+      "在土耳其安塔利亚举行的第31届联合国气候变化大会闭幕时限日益临近。各国于2026年11月18日星期三启动了一项新的全球性核查，以检验气候承诺是否得到履行。与此同时，各国部长在峰会的一些最棘手问题上仍陷于僵局：谁来买单、全球摆脱化石燃料的速度有多快，以及如果较贫穷国家无力承担，更绿色的未来能否被称为‘公正’。",
+      "这项核查是《巴黎协定》框架下第二次五年期集体进展评估，即‘全球盘点’。其实质是每五年一次的现实检验，旨在评估各国的计划和承诺是否足以形成切实行动，以削减排放、适应气候变化并支持最需要帮助的国家。2023年在迪拜举行的第28届气候变化大会上完成的首轮全球盘点，推动各方达成协议：将可再生能源装机容量增加三倍，将能效提升幅度翻一番，并加速能源系统摆脱化石燃料的转型。本次评估将于2028年结束——这是2030年之前的最后一次评估。联合国气候事务负责人西蒙·斯蒂尔表示：‘我们还有两年时间’，并呼吁各国政府将首次评估的目标转化为实际进展；他说：‘地缘政治的逆风十分猛烈，但雄心勃勃的成果触手可及。’",
+      "核查能否建立在最新科学成果基础上，正引发争议。作为联合国支持的、负责评估气候研究的机构，政府间气候变化专门委员会正面临关于时间安排的争议。一些易受气候变化影响的国家希望其下一份重要报告能及时完成，以便为评估进程提供依据；而包括俄罗斯、沙特阿拉伯和中国在内的其他国家则认为，时间安排过于紧迫，可能会限制发展中国家科学家的实质性参与。该委员会主席吉姆·斯基亚解释说，第二工作组的报告将阐明在实现全球适应目标方面取得的集体进展，该报告将首次涉及适应融资以及对损失和损害的应对措施。本周早些时候，出席第31届缔约方大会的科学家和气候领袖呼吁，应为政府间气候变化专门委员会及其独立性提供资金支持并予以捍卫。",
+      "目前仍有21个问题悬而未决，包括适应、资金、减缓和公正转型。关于这些‘谈判议题’的新文本定于周四早些时候提交，而留给延期的余地已所剩无几。土耳其提出的‘35x35’目标——即到2035年将电力在全球终端能源消费中的占比提高到35%——目前已获得75个国家的支持。会场外，民间社会团体向谈判代表传达直截了当的信息。印度科学与环境中心的塞赫尔·拉赫贾指出，在某间会议室里，整份文本仍处于方括号中——这是缔约方会议中表示‘完全未达成协议’的惯用缩写；她说：‘这无异于把问题推给下一届会议，你们不能一边要求发展中国家展现雄心，一边又吝于提供实现这一目标的手段。’国际气候行动网络的普贾·戴夫说：‘你们曾许下承诺，作出过保证，而现在却在违背这一承诺，这实际上关乎我们的生存。’她质疑：‘如果实地没有适应措施，我们到底在监测什么？’",
+      "周三的议程聚焦‘人类、社会发展与性别平等日’，围绕‘公正转型’与性别公平展开。经济学家玛丽安娜·马祖卡托指出，这场辩论往往被简化为寻找更多资金的问题；她说：‘我们不是在修复市场，而是在塑造市场，以实现包容性和可持续的增长。’她强调，锂对电气化或许至关重要，但如果开采锂会耗尽水资源、剥削工人或边缘化土著人社区，‘这些行为本身就是问题的一部分’；她的结论是：‘气候行动应当是我们实现更美好经济的方式。’巴西气候谈判代表莉莉安·查加斯指出，将女性排除在气候规划之外，不仅会降低行动的公平性，还会削弱其有效性；她说：‘如果不支持女性从事科学研究，我们就有可能使各国丧失限制全球气温上升所需的解决方案。如果不评估气候变化对女性健康的具体影响，我们的适应政策就有可能失败。’图瓦卢总理费莱蒂·特奥通过该国首都富纳富提女性的经历说明：她们正监测贝类资源的消失，配给雨水，并在海平面上升时将农作物向内陆迁移；他说：‘财政部不会为无人测量的项目提供资金，谈判代表也无法为无人描述的人群发声。这场危机并非她们造成的。韧性是有极限的。而超越这个极限的，便是生存。’联合国大学副校长兼联合国大学环境与人类安全研究所所长沈晓萌指出，发展不应仅靠经济增长；她说：‘我们往往认为发展总是好事，但我觉得这有点像一架飞机起飞了，却不知道该在哪里降落。’她强调：‘最终目标是让人类不仅能够生存，还能蓬勃发展。这实际上关乎人民的福祉，但这一福祉必须建立在地球福祉的基础上。’"
+    ],
+    "topics": [
+      "气候与能源"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143225",
+      "originalTitle": "第31届气候变化大会僵局持续，各国启动新一轮“气候承诺核查”",
+      "publishedAt": "Wed, 18 Nov 2026 12:00:00 +0000",
+      "retrievedAt": "2026-11-19T02:45:43.143Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-19T02:45:41.277Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-19/2026-11-19-31-6994f1.webp",
+      "alt": "抽象会议桌上层叠文件的极简插图",
+      "caption": "谈判桌上未决的议题",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-19-app-c2a4d7",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "上课点名、体育长跑、饭卡充值……校园App为何越装越多？",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-19",
+    "intro": "这篇报道标题来自中新网教育频道，但抓取到的内容仅含标题、栏目导航、发布时间（2026年11月19日）、作者（曲克）及来源标注（半月谈微信公众号），正文全文缺失。",
+    "paragraphs": [
+      "这次抓取回来的内容，只有标题《上课点名、体育长跑、饭卡充值……校园App为何越装越多？》，以及来源、作者、发布时间等页面信息；正文部分在抓到四张配图的链接之后就中断了，没有任何段落留下。",
+      "标题本身能提供的，只是三个校园App的使用场景和一个疑问式的方向：点名、长跑记录、饭卡充值分别对应着不同的校园事务，而“越装越多”指向的是数量增长这个现象。但现象背后是谁在推动，学校、家长、学生各自遇到什么具体麻烦，有没有采访和案例，有没有数据或政策背景，这些都属于正文内容，目前一条也拿不到。",
+      "按照轻听的编辑规则，听稿里的每一个事实、数字、因果和引语都必须能回到原文核对。如果只凭一个标题就动笔，写出来的学校场景、App数量和各方说法都只能靠推测，那就不是转述，而是自己编内容，会直接损害家长对来源和适龄标注的信任。",
+      "所以这一篇暂时不进入改写和录音环节。可行的处理是重新抓取一次半月谈微信公众号的原文；如果仍然只能拿到标题和摘要，就按候选处理规则放弃，由候补顶上，不为了凑够篇数降低标准。",
+      "另外，从选题方向看，校园数字化、学生日常被多个应用分割，是一个孩子能切身感受到、也值得解释的话题：它关系到工具是怎么被引入的、谁承担了使用的成本。等拿到完整正文，再判断它适合哪些年龄段，以及是否能形成一条清楚的解释线索。"
+    ],
+    "topics": [
+      "校园App臃肿",
+      "智慧校园",
+      "数字化管理"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-19/10734464.shtml",
+      "originalTitle": "上课点名、体育长跑、饭卡充值……校园App为何越装越多？",
+      "publishedAt": "Thu, 19 Nov 2026 08:30:29 +0800",
+      "retrievedAt": "2026-11-19T02:46:21.294Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-19T02:46:18.708Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-18-e9c9b9",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "守着一片城市边上的原始森林，他们读出了碳的答案",
@@ -3279,171 +3442,6 @@
       "src": "/editorial/2026-11-03/2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi.webp",
       "alt": "烧杯剪影与细线原子轨道，冷灰色纸质感插图",
       "caption": "失败的实验，留下意外的原子。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-03-scientists-say-fibonacci-sequence",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "斐波那契数列：从第三个数起，每个数都是前两个数之和，常出现在植物中",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-03",
-    "intro": "从零和一出发，每个数都是前两个数相加，这串数字反复出现在花瓣数量、松果鳞片和向日葵花盘的排列里。",
-    "paragraphs": [
-      "先来玩一个数字游戏。从零和一开头，把前两个数加起来，得到下一个数。零加一等于一，一加一等于二，一加二等于三，二加三等于五，三加五等于八，五加八等于十三。就这样一直加下去：零、一、一、二、三、五、八、十三、二十一、三十四……这串数字可以永远写下去，它叫斐波那契数列。规则只有一条：每个数，都是它前面两个数的和。",
-      "这个规则简单得有点像脑筋急转弯，可它在自然界里出现得非常频繁。斐波那契数常出现在生物的身体结构中，植物是最容易观察的一类。植物当然不懂数学，但很多花的花瓣数正好落在斐波那契数列上。百合和鸢尾常常有三片花瓣，木槿有五片，雏菊往往有二十一片。三、五、二十一，都出现在从零和一开始的斐波那契数列中。",
-      "更明显的是螺旋。把松果倒过来，看上面的鳞片，它们从松果底部开始螺旋生长。你可以数一数向左转的螺旋有几条，向右转的又有几条。通常，这两个数都是斐波那契数。比如一个小松果，向左的螺旋有三条，向右的有五条。向日葵的种子和花瓣也从花盘中心向外螺旋排列，这些螺旋的条数，几乎总是斐波那契数。",
-      "这串数字还能生成一个比值。把相邻的两个数相除：十三除以八等于一点六二五；二十一除以十三约等于一点六一五。越往后取相邻两数相除，结果越接近‘黄金比例’，大约是一点六一八。黄金比例是个无理数，小数点后的数字无限不循环。这种比值的稳定性意味着，斐波那契数列中的数字能以非常规则的方式嵌套排列。",
-      "这种规则带来的好处很实际。由斐波那契模式形成的螺旋，能紧密排列而不浪费空间。叶子或花瓣因此能均匀分布、重叠很少，每一片都能获得尽可能多的阳光。",
-      "科学家还在研究为什么这个模式在自然界里这么常见。一种想法是：当生物生长新细胞时，这些细胞会以最节省空间的方式排列，而这种高效填充的结果，往往就形成了斐波那契式的排列。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/scientists-say-fibonacci-sequence-definition-pronunciation",
-      "originalTitle": "Scientists Say: Fibonacci sequence",
-      "publishedAt": "Mon, 02 Nov 2026 11:30:00 +0000",
-      "retrievedAt": "2026-11-03T03:02:40.349Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-03T03:02:36.356Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Scientists Say: Fibonacci Sequence",
-      "intro": "Science News Explores explains a simple number pattern that keeps showing up in flower petals, pine cones and sunflower seeds.",
-      "paragraphs": [
-        "Here is a number pattern you can build in seconds. It is called a Fibonacci sequence. Each number is the sum of the two numbers before it. Start with 0 and 1. Add them and you get 1. Then 1 plus 1 makes 2. Then 3, 5, 8, 13, 21 and 34. The numbers could go on forever.",
-        "This simple pattern appears often in nature, especially in plants. Flowers often have petal numbers that follow the sequence. Lilies and irises often have three petals. Hibiscus flowers come with five petals. Daisies tend to sport 21 petals. These numbers all occur on a Fibonacci sequence starting with 0 and 1.",
-        "Fibonacci numbers also appear in nature’s spiraling structures. Turn a pine cone upside down and look at the scales. The scales grow in a spiral that starts from the bottom of the pine cone. You can count the number of spirals that emerge toward the left and toward the right. Usually, the spiral numbers are Fibonacci numbers. For example, a small pine cone has three spirals going toward the left and five toward the right. Sunflower seeds and petals also grow in spirals from the flower’s center. These spiral numbers are nearly always Fibonacci numbers.",
-        "This pattern can also appear as a ratio. If you take two neighboring numbers of the sequence and divide them, you get a ratio. For instance, 13 divided by 8 equals 1.625. And 21 divided by 13 equals 1.615. The further along the sequence you go, the closer that ratio gets to the ‘golden ratio.’ The golden ratio is about 1.618. We cannot write it out completely because it is an irrational number — the numbers after the decimal go on forever.",
-        "The consistency of this ratio means that the numbers of a Fibonacci sequence fit inside one another in a very regular way. That consistency means spirals built from Fibonacci patterns can pack together without wasting space. Leaves or petals fill up space evenly and with little overlap. That lets each leaf or petal get the most sunlight.",
-        "Scientists are working to figure out why this pattern shows up so often in nature. One idea is that as a living thing makes new cells, those new cells will pack together in the most efficient way possible. That tends to fill space in a Fibonacci pattern."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-03T03:09:03.268Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-03/2026-11-03-scientists-say-fibonacci-sequence.webp",
-      "alt": "松果与向日葵花盘的抽象螺旋排列，冷灰色纸质感插图",
-      "caption": "螺旋的秩序，藏在花与鳞片之间。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-03-2-0-7a8f9c",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "“苏超”2.0落幕：不再刷屏热搜，13座城市球场热闹起来",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-03",
-    "intro": "第二届江苏省城市足球联赛落幕了，它不再刷屏热搜，却让13座城市的球场和广场真正热闹起来。",
-    "paragraphs": [
-      "2026年10月31日，无锡队捧起了‘苏超’冠军奖杯。这场历时6个多月、共91场较量的联赛，是2026江苏省城市足球联赛（‘苏超’），于10月31日落下帷幕。和首届‘苏超’相比，网络声浪小了，那些层出不穷的‘热梗’不再是最热门话题。但若在比赛日前后走进13座城市的任何一个主场，或参与过球票抽签，就会对‘苏超’2.0版本的‘火’有另一重认知。",
-      "官方数据显示，本赛季91场比赛球票平均中签率是9.6%，决赛创下赛季最低的2.7%。‘苏超’依旧一票难求。赛场之外，几百个官方‘第二现场’观者如堵，例如常州文化广场、连云港市连云新城海鸥广场等观赛点，市民在吃喝玩乐中一起看球、一起加油。尤为难得的是，预约观赛人群中少年儿童占比高达23.7%，比去年增加3.1个百分点，带着孩子看‘苏超’正成为越来越多江苏家庭的周末‘日常’。",
-      "2.0版本的‘苏超’还有多项变化：赛制更优化，4月11日开幕，比上赛季多了足足1个月；比赛日统一定在每个周六，将单轮次拆分进行，基本保证周周有比赛，也保障队伍休息调整时间；赛期覆盖‘五一’、端午、中秋、国庆等节假日。新赛季规定每队必须至少同时上场6名U22球员，全赛季球员平均年龄22.32岁，较上赛季下降1.77岁。组委会面向全省遴选32家小微企业，仅需5万元就可享受官方赞助商同等权益。",
-      "‘苏超’邀请劳模、老师、冠军们到现场观赛，也邀请用落叶扫出‘苏超’图案的环卫大爷、见义勇为的普通市民、怀揣梦想的脑瘫青年。2026赛季呈现每座城市文化底蕴与精神内核的‘一城一衣’深受球迷喜爱。阿迪达斯宣布成为2027赛季‘苏超’官方战略合作伙伴，将为‘苏超’打造城市专属球衣。",
-      "‘苏超’的变，是赛制、是人群、是方式；它的不变，是初心——以城为名，为城市荣耀而战。这份‘初心’在线下的热度就不会退散。它始终秉承的是为人民群众提供最好的体育公共服务产品：让比赛更好看、观赛更便利、‘苏超’的溢出效应能触及更多人群和企业。"
-    ],
-    "topics": [
-      "苏超",
-      "城市足球联赛",
-      "地方体育文化"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "新华体育",
-      "region": "mainland",
-      "url": "https://www.news.cn/sports/20261102/fe9c22e409804b4f8c74e8d13e5c70a6/c.html",
-      "originalTitle": "追光｜“苏超”2.0的变与不变",
-      "publishedAt": "2026-11-02T17:30:48+08:00",
-      "retrievedAt": "2026-11-03T03:06:12.332Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-03T03:06:08.520Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-02-giant-sea-spiders-emit-eerie-glow-deep-below-the",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "深海巨型海蜘蛛被证实会发光",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-02",
-    "intro": "在永远黑暗的深海里，一种腿展开有二十五厘米长的海蜘蛛被证实会发光，而它为什么发光，至今还是个谜。",
-    "paragraphs": [
-      "在澳大利亚东南方向的外海，海面下将近5000米（超过3英里）的地方，阳光到不了，四周一片漆黑。那里生活着一种海蜘蛛，身体大小约如人手指，腿张开可达25厘米（10英寸）。科学家在黑暗中用氯化钾刺激它，它的腿就明亮地亮了起来，可持续数分钟。",
-      "海蜘蛛并不是真正的蜘蛛。在节肢动物家族树上，它们约5亿年前就从共同祖先分出，成为独立支系。2026年10月，《深海研究第一部分：海洋学研究论文》发表了比利时鲁汶天主教大学海洋生物学家热罗姆·马拉费团队的研究，首次正式描述了这些海蜘蛛的生物发光现象。马拉费说：‘对怕蜘蛛的人来说，这挺让人印象深刻的。’",
-      "这些海蜘蛛是2017年一次科考中捕获的。考察队在澳大利亚东南外海的深海海沟中拖网作业，从近5000米深处带回了25000个标本。当时科考船名为RV ‘Investigator’（调查者号）。马拉费在船上一个又黑又冷的房间里测试这些深海生物的发光能力。他回忆说：‘我花了大部分时间待在那个黑暗寒冷的房间里。我相信我当时有点疯，但我喜欢那样。’",
-      "测试时，仅触碰最大的海蜘蛛种类——塔斯马尼亚巨足海蜘蛛（_Colossendeis tasmanica_），只能引发微弱的暗光；但加入氯化钾（一种盐）后，其发光细胞被激发，腿可明亮发光。另一种巨型海蜘蛛——小巨足海蜘蛛（_C. minor_）则能自发发光。它们的腿并非持续发光，似乎需要某种触发条件。",
-      "深海中约76%的生物能产生清晰可见的光，这种能力称为生物发光，其演化历史可追溯至5.4亿年前。此外，当马拉费用紫外光和蓝光照射时，三种海蜘蛛表现出绿色荧光——即受特定波长光照后发出不同颜色的光，这与生物发光不同。一个多世纪前就有记载称：‘那生物仰卧时如星闪耀，整条腿表面泛着奇异的蓝光。’海蜘蛛的腿内含有消化道，团队据此推测，其发光物质可能来自所食猎物，例如海葵。",
-      "发光对海蜘蛛有何生存价值，马拉费尚无定论。他推测，这光或许用于吸引配偶；又或因光位于长腿上，可充当‘探照灯’搜寻海底猎物——一旦发现目标，海蜘蛛可能收拢长腿围住猎物，再用针状口器刺入，将组织液化后吸食。验证这些假说，需依赖下一代深海视频成像技术。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/giant-sea-spiders-emit-eerie-glow",
-      "originalTitle": "Giant sea spiders emit eerie glow deep below the ocean waves",
-      "publishedAt": "Fri, 30 Oct 2026 10:30:00 +0000",
-      "retrievedAt": "2026-11-02T00:50:17.198Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-02T00:50:13.772Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-02/2026-11-02-giant-sea-spiders-emit-eerie-glow-deep-below-the.webp",
-      "alt": "深色背景中一只细长腿海蜘蛛剪影，腿端有微弱冷光。",
-      "caption": "深海之中，微光未解。",
       "kind": "editorial"
     }
   }
