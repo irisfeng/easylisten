@@ -1,5 +1,249 @@
 [
   {
+    "slug": "2026-11-20-41e4ac",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "给核燃料发掘“新矿藏”，让核废料重新发电",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-20",
+    "intro": "中国科学院提出的ADANES方案，可将铀资源利用率提升150倍，放射性废物压减至千分之一。",
+    "paragraphs": [
+      "从广东惠州市区向东南驱车两小时，便来到惠东县黄埠镇。山海环绕下，国家重大科技基础设施加速器驱动嬗变研究装置（CiADS）正在加速建设中。它要验证的是中国科学院原创性提出的加速器驱动先进核能系统（ADANES）。CiADS总设计师、近代物理所副所长何源介绍，该装置如同给反应堆装上‘外挂’，能够把乏燃料、贫铀变废为宝，有望实现核燃料‘吃粗粮、吃干榨净’。乏燃料，就是核电站卸出的已使用核燃料。",
+      "现有商业压水堆里真正能直接燃烧发电的原子核仅有铀-235，占天然铀总量的0.7%。因此，现有核电站对铀资源的整体利用率还不到1%。而全球经济可开采的铀资源总量不足800万吨，我国铀资源对外依存度高达80%以上。同时，核电站卸出的乏燃料带有大量长寿命高放射性核素，放射性衰减周期长达数万年。ADANES技术路线可将铀资源利用率提升150倍，放射性废物压减至千分之一。",
+      "这套装置由高功率质子超导直线加速器、高功率散裂靶、铅铋冷却次临界反应堆三大板块构成。加速器将质子加速至约光速的80%，轰击散裂靶产生海量外源中子送入次临界反应堆，同步实现发电、燃料增殖、核废料嬗变。ADANES采用次临界运行模式，加速器就是整套系统总开关，束流一旦停止输出，链式裂变反应即刻终止；即便全装置断电，依靠非能动空气冷却系统也可以带走衰变余热，保障堆本体安全。",
+      "超导加速腔体要维持零下271摄氏度的极低温超导状态，运行在极高的电场下，一粒微小尘埃就可能造成部件性能失效，关键装配必须在极高级别超净间内完成。高功率束流传输要求束流损失控制到极低水平，每秒六亿亿级别的粒子流，只允许极少数粒子掉队，这曾被国际同行视作难以战胜的拦路虎。团队改变传统后端补救思路，选择在加速器前段识别、剔除状态不佳的粒子，只保留合格粒子向后传输，从源头上化解束流损失风险。保障超导加速器低温工况的核心设备——18千瓦大型液氦制冷机曾一度受到海外限制；中国科学院理化技术研究所和近代物理所合作开展国产化攻关，使我国成为全球第三个具备该装备和系统制造能力的国家。CiADS近百分百国产化。",
+      "CiADS于2021年启动建设，2026年和2027年分别完成加速器和高功率散裂靶的预验收；2028年完成全系统设备安装；2029年开展设备集成调试；2030年冲击满功率运行；2031年开展乏燃料再生燃料棒堆内耦合实验，力争在国际上第一次打通完整核燃料闭式循环链路。项目总指挥、中国科学院院士詹文龙表示：项目已经走入‘无人区’，没有成熟的国外标准可以套用，从工程工艺到安全监管体系都需要一边研究、一边探索完善；尽管技术已经在物理原理上得到验证，系统的安全性、经济性、规模化推广等方面还需进一步研究和论证。他坦言：‘我们有望在本世纪中叶看到ADANES规模化推广的曙光。’"
+    ],
+    "topics": [
+      "物质与数学",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575026.shtm",
+      "originalTitle": "给核燃料发掘“新矿藏”，让核废料重新发电",
+      "publishedAt": "2026-11-20 08:35",
+      "retrievedAt": "2026-11-20T02:26:17.490Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:26:12.216Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-20/2026-11-20-41e4ac.webp",
+      "alt": "冷灰色纸上由细线与几何块构成的闭合循环图形",
+      "caption": "让能量再走一圈。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-20-ai-isn-t-replacing-your-job-it-s-turning-it-into",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "AI没有抢走你的工作，而是把它变成了低薪零工",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-20",
+    "intro": "当医生、律师和博士被平台按小时雇来训练AI时，他们和委内瑞拉一位前计算机教师罗格里奥，其实面对的是同一种规则：工资随时下调，任务突然消失，自己却毫无发言权。",
+    "paragraphs": [
+      "你可能听过‘AI正在取代人类工作’的说法。但一篇来自全球深度媒体Rest of World的报道指出：AI真正改变的，不是工作有没有，而是工作的样子——它正把许多专业工作，变成一种没有合同、没有保障、按件计酬的零工。比如美国的心脏病医生，被平台Outlier邀请每小时180美元设计复杂心脏病例、审核人工智能生成的报告、并对模型输出进行排序；而同样任务，在菲律宾用他加禄语完成，时薪是7.50美元；在坦桑尼亚用斯瓦希里语完成，时薪是12.50美元。",
+      "这种差异不是偶然。平台先在某个国家开出高薪吸引人加入，等队伍建起来，就逐步压价，再把新任务转移到人工成本更低的地方。委内瑞拉一位前计算机教师罗格里奥，就是这么被卷入的。2020年，他和13岁的儿子用 Hugo Chávez 政府十年前发放给学童的笔记本电脑，在平台Hive和Scale AI的Remotasks上标注汽车和道路图片，儿子干几小时赚18美分，他第一天赚了略超2美元。后来有个叫‘Beast Mode’的任务，全家一起干一天曾挣到20美元——那是他们最高的一次收入。可到2021年初，这个任务就消失了，他们的收入也跌到了Hive每周5美元的最低发放线以下。",
+      "平台的条款写得很清楚：如果怀疑某位工作者的任务有问题，公司可以暂停或中止付款，并在‘公司单方面认定’存在违规时，扣发‘部分或全部应得报酬’；也可以‘无需事先通知’立即停用账户。这些条款，从委内瑞拉到肯尼亚、尼日利亚、巴基斯坦，几乎一模一样。2024年，Scale AI旗下Remotasks在肯尼亚、尼日利亚和巴基斯坦突然关停业务，理由是‘加强安全协议’，但后来承认因‘运营错误’，肯尼亚工人并未收到提前三周的通知，多数工人表示账号被直接冻结。",
+      "这种模式有个名字，叫‘提取主义’——就像过去开采石油或矿产，把资源从一个地方抽走，价值却留在别处。不同的是，油井不会搬家，而AI平台可以随时把下一批任务派给另一个国家的工人。一位靠委内瑞拉国家石油公司养老金生活的妇女告诉我，2021年她的养老金每月只剩约1美元，连半打鸡蛋都买不起；她靠在Hive标注数据补贴家用，但这份收入比养老金更不稳定。",
+      "更值得注意的是，这类工作正在覆盖越来越多的专业人群：被裁员的律师、科学家、编剧、设计师，都在平台上接单。有人为Meta标注视频，起初每小时21美元，项目因‘范围调整’终止后，同类型任务几天后以新名字上线，时薪降到了16美元——和五年前罗格里奥家经历的，完全一样。平台说‘你可以随时离开’，但留下的人，常常是因为真的走不了：有人因健康原因无法出门，有人全家只靠这一份收入。",
+      "目前，美国已有针对Scale AI平台的集体诉讼，已获旧金山法院初步批准和解；肯尼亚法院曾在2023年3月暂时阻止Meta解雇260名内容审核员，并禁止Meta及其承包商Majorel将工人列入黑名单。但案件仍在进行中。无论你是拿三位数时薪的心脏病医生，还是每天标注几百张图的委内瑞拉中学教师，你们共有的处境是：工资可以突然变，任务可以突然没，而决定权，从来不在你手里。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "数字生活"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Rest of World",
+      "region": "international",
+      "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "originalTitle": "AI isn’t replacing your job. It’s turning it into low-paid gig work",
+      "publishedAt": "Thu, 19 Nov 2026 11:00:00 +0000",
+      "retrievedAt": "2026-11-20T02:29:50.528Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:29:41.908Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Gig Work Behind AI",
+      "intro": "A Rest of World essay argues that AI is reshaping some expert work into platform-controlled gigs rather than simply replacing jobs.",
+      "paragraphs": [
+        "The essay's author is Julián Posada. He is an assistant professor at Yale University. He wrote 'Platform Extractivism: Data Work and the People Powering Artificial Intelligence.' Platforms like Outlier recruit physicians, lawyers, and Ph.D.s. Outlier is run by Scale AI. Workers generate and annotate data. They rank model answers. They verify outputs. Higher credentials can raise advertised rates. But platforms control payment and working conditions.",
+        "Outlier advertised up to $180 an hour for U.S. cardiologists. They designed cardiac scenarios. It advertised up to $7.50 an hour for Tagalog work in the Philippines. It advertised up to $12.50 an hour for Swahili work in Tanzania.",
+        "Posada spent six years interviewing data workers. Most were in Venezuela. One worker was Rogelio. He taught computer science. Economic collapse and the pandemic left his family without work.",
+        "His 13-year-old son found image-labeling tasks. He used a laptop issued by the Hugo Chávez government. The boy earned 18 cents for a few hours of work. Rogelio joined him. He made just over $2 on his first day.",
+        "A task called Beast Mode paid more than any other work the family had done. Workers labeled objects in people’s homes. In December 2020, the whole family worked. Schools were closed. They earned $20 in a single day. That was the most they would ever make.",
+        "By early 2021, Beast Mode had disappeared. Their earnings fell below Hive’s $5 weekly payout threshold.",
+        "Posada calls this pattern extractivism. It is a system that takes resources and value from people and places. Value goes to others elsewhere. Terms are set by the buyer—not the worker.",
+        "Platforms often begin by paying well. They build a workforce. Then they cut rates. Then they move on.",
+        "Remotasks ended its hourly program in Venezuela in 2021. It made a splash in Kenya the same year. In March 2024, it discontinued operations in Kenya, Nigeria, and Pakistan.",
+        "Scale AI attributed the closures to 'enhanced security protocols.' It said notices had gone out three weeks ahead. It later acknowledged Kenyan workers never received them. It cited 'operational errors.' Most workers who spoke to Rest of World said the platform froze them out.",
+        "Outlier’s terms let it delay or suspend payment. This can happen during an investigation. It can withhold 'some or all amounts accrued.' It does so if it finds a violation 'in the company’s sole determination.' It may deactivate an account 'immediately without prior notice for any reason.'",
+        "The same language appeared word for word in the Remotasks terms. Rogelio’s family worked under those terms in 2021.",
+        "Josh Dzieza reported on laid-off lawyers, scientists, and screenwriters. They now fill these platforms. He interviewed more than 30 workers. Nearly all described increasing demands. Target times shrank. Pay fell as projects went on.",
+        "One designer tagged videos for Meta at $21 an hour. The project ended for 'scope changes.' Days later, the same job reappeared. It was under a new name. The pay was $16 an hour.",
+        "Workers can leave. Many do. But those who stay are often those who cannot leave. One woman was confined to her home. She had a health condition. She could not risk losing the job. She said, 'This is my only source of income.'",
+        "In a 2024 meeting, AI companies said they did not employ the data workers. Outsourcing firms said their operations were determined by the prices AI companies expected. Everyone agreed pay should be better. When representation came up, the room went quiet. No workers were present.",
+        "In March 2023, a judge in Kenya temporarily halted the dismissal of 260 Facebook content moderators. It prevented Meta from moving their work to another contractor. It barred Meta and contractor Majorel from blacklisting workers.",
+        "As workers fought in Kenya, Meta moved the work to West Africa.",
+        "Claims by workers on Scale AI’s platforms led to a proposed settlement. It has received preliminary approval in San Francisco. The company denies wrongdoing.",
+        "A separate class action suit alleges Mercor misclassified more than 30,000 lawyers, doctors, and engineers. Mercor set their pay. Mercor reviewed their work. Mercor’s clients included OpenAI, Anthropic, and Meta. Those companies are not named as defendants. The case is ongoing.",
+        "A U.S. cardiologist offered a three-digit hourly rate is not in the same position as Rogelio and his family. What connects them is that 'the rate can change suddenly, the task can disappear without warning, and they have no say over any of it.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:36:44.708Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 21,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-20-how-m-c-escher-s-art-creates-bizarre-mathematica",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "数学从没及格的画家埃舍尔，用鱼、鸟和蜥蜴画出数学世界",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-20",
+    "intro": "荷兰画家埃舍尔上学时数学从未及格，后来却用鱼、鸟和蜥蜴铺满画面，走进了数学的领域。",
+    "paragraphs": [
+      "如果告诉你，有位画家上学时数学从未及格，后来却成了数学家最喜欢的艺术家，你会不会觉得有点奇怪？他叫毛里茨·科内利斯·埃舍尔，1898年出生在荷兰的吕伐登，一座有运河穿城而过的小城。他曾经说，自己‘从未得到一个及格分’。后来他去学装饰艺术和版画，用画笔去研究他在身边发现的自然的奇怪规则。",
+      "埃舍尔发现，自然有时候会造出看起来不可能的图像：扭曲的倒影、奇怪的角度、叠在一起的两个世界。就像池塘的水面，你既能看到水下的鱼，也能看到岸上树的倒影。他后来说：‘By keenly confronting the enigmas that surround us, and by considering and analyzing the observations that I had made, I ended up in the domain of mathematics,’",
+      "这条路的起点，是他对‘铺满’的着迷。1922年结束艺术学习后，埃舍尔去了西班牙的格拉纳达，被阿尔罕布拉宫墙上的瓷砖图案吸引住了。他开始系统地研究一个问题：怎样用重复的形状铺满一张纸，又不留下一丝缝隙。",
+      "多年以后，他同父异母的哥哥、地质学家贝伦德，给他寄来一篇论文，作者是数学家乔治·波利亚。论文把‘用瓷砖铺满平面’的所有方式分了类，一共17组，每组的对称方式都不一样。埃舍尔正在凭直觉摸索的，其实是一个数学问题；这篇文章给了他一个数学的答案。他把论文里的图一张张描下来仔细研究，慢慢整理出自己的一套办法。研究埃舍尔的数学家多丽丝·沙茨施奈德说，他把这套办法叫作‘外行人的理论’，靠它，他知道哪条边必须和哪条边对上。于是他不用方砖，改用鱼、鸟、蝙蝠、蜥蜴这些不规则形状，把整张画面铺得满满当当。",
+      "他还自己摸到了‘颜色对称’的门道：铺在一起的两块相邻形状，永远用不同的颜色。荷兰晶体学家卡罗琳娜·麦吉拉弗里注意到了这一点，1965年专门出书分析他的画。沙茨施奈德说，麦吉拉弗里发现，在颜色对称这件事上，埃舍尔懂得比所有晶体学家都多，而这一切是他凭直觉发现的。1954年，他的作品在阿姆斯特丹的国际数学家大会上展出，他在那里认识了几何学家哈罗德·斯科特·麦克唐纳·科克斯特，两人一直通信，直到1972年埃舍尔去世。这些往来，启发了他后来一些数学上最复杂的作品。比如1945年的《阳台》，画面像被什么东西从里面顶出来一样鼓起来。今天电脑几秒钟就能做出这种扭曲，可埃舍尔是手工画出一套网格，把原画一格一格搬到变形的图上。",
+      "不过，同时走在两条路上并不轻松。1959年，他在给儿子的信里写道：‘I’m starting to speak a language which is understood by very few people. It makes me feel increasingly lonely.’ 今天在纽约的国家数学博物馆（MoMath），有一个叫‘数学与埃舍尔的艺术’的展览，会一直开到2027年2月8日。也许看完你会明白，数学不只在课本里，它也可以是一张让你看很久的画。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "物质与数学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
+      "originalTitle": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+      "publishedAt": "Wed, 18 Nov 2026 15:51:40 +0000",
+      "retrievedAt": "2026-11-20T02:31:28.796Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:31:20.641Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "The Artist Who Found Mathematics in Art",
+      "intro": "A new exhibition at the National Museum of Mathematics in New York City explores how M.C. Escher became an inspiration to mathematicians.",
+      "paragraphs": [
+        "M.C. Escher was born in 1898 in Leeuwarden in the Netherlands. He struggled with mathematics as a student. He once remarked that he 'never got a pass mark.' He studied decorative arts and printmaking. He used his artwork to explore the strange rules of nature around him. He saw distorted reflections. He saw odd perspectives. He saw superimposed worlds. He saw the surface of a pond where you can see images of both the fish below and the trees reflected from above. His artwork took on unmistakably mathematical qualities.",
+        "Escher’s path toward math started with his love of tilings. After completing his arts education in 1922, he visited Granada, Spain. He was taken with the tile patterns at the Alhambra. He began to study how to fill a sheet of paper with repeating shapes without gaps. Years later, his half-brother Berend sent him a paper by George Pólya. The paper categorized ways to cover flat space with tiles. It broke them into 17 groups. Each group had different symmetries. Escher carefully traced the paper’s diagrams. He studied them meticulously. He developed his own system for tessellating space. He covered prints with irregular shapes. Those shapes resembled fish, birds, bats, and lizards.",
+        "Doris Schattschneider said: 'He had worked out a whole theory that he called his layman’s theory, so he knew which edges had to match which edges.' Carolina MacGillavry published a book in 1965 analyzing his drawings. She took notice of his mastery of color symmetry. Color symmetry means adjacent shapes in a tessellation are always different colors. Schattschneider said: 'She realized that [Escher] knew more than all the crystallographers about color symmetry. It was something he discovered very intuitively.'",
+        "In 1954, his work was exhibited at the International Congress of Mathematicians in Amsterdam. There, he met the geometer H.S.M. Coxeter. They exchanged letters until Escher’s death in 1972. Those exchanges inspired some of his most mathematically complex work. His artworks became more mathematically intricate. They inspired later mathematicians. Living his double life wasn’t always easy. He wrote in a letter to his son in 1959: 'I’m starting to speak a language which is understood by very few people. It makes me feel increasingly lonely.'",
+        "In _Sun and Moon_, April 1948, woodcut printed from four blocks, Escher uses tessellation. He covers the print with irregularly shaped birds. He uses two color schemes. One scheme shows a sunny day. The other shows a moonlit night. This gives the impression of night and day coexisting. In _Metamorphosis II_, November 1939–March 1940, woodcut printed from twenty blocks on three combined sheets, he adds time to his tessellations. The woodcut is more than 12 feet long. As you scroll left to right, his tessellations distort. They unfold into a story. In _Balcony_, July 1945, lithograph, he creates the illusion of a bulge pushing through the print. He worked by hand. He used a system of grids. He mapped his original image onto a warped one, square by square. In _Three Spheres I_, September 1945, wood engraving, what appears to be a three-dimensional sphere is really a flat, two-dimensional image."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:34:51.145Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-20/2026-11-20-how-m-c-escher-s-art-creates-bizarre-mathematica.webp",
+      "alt": "冷灰色纸上鱼鸟蜥蜴轮廓相互咬合的抽象密铺图案",
+      "caption": "图案之间，藏着秩序。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-20-z-411677",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "打城戏迎来“新话事人”，“Z世代”接续守护稀有剧种",
+    "category": "humanities",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-20",
+    "intro": "本次抓取的原文只有页面导航、标题、发布时间、作者信息，未包含正文内容，无法据实改写成听稿。",
+    "paragraphs": [
+      "这篇候选先退回，原因只有一条：原文没有拿到。抓取回来的内容里，是中国新闻网的栏目导航、文章标题、发布时间、作者和责任编辑，再往下就断了，正文一个字都没有。",
+      "标题能确认的信息只有两点——打城戏这个稀有剧种有了新的“话事人”，接手的是“Z世代”的年轻人。打城戏是什么、这位年轻人是谁、他或她具体做了什么、为什么被称作新话事人，这些真正值得讲给孩子听的部分，都在没能取得的正文里。",
+      "轻听的规矩是，事实、数字、因果和引语都要能回到原文逐句核验。没有正文，就没有可核验的句子，也就写不出一篇七百字以上、段段有出处的听稿。",
+      "这一篇先放回候补池。等完整原文取得，再按听稿要求重新核对、重新改写，讲清楚一个地方剧种怎样在年轻人手里被接住。"
+    ],
+    "topics": [
+      "艺术与设计",
+      "历史"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/11-19/10734756.shtml",
+      "originalTitle": "打城戏迎来“新话事人” “Z世代”接续守护稀有剧种",
+      "publishedAt": "Thu, 19 Nov 2026 17:32:15 +0800",
+      "retrievedAt": "2026-11-20T02:32:22.099Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-20T02:32:19.489Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 4,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-19-69c074",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "我国发现已知年代最晚直立人化石",
@@ -3209,239 +3453,6 @@
       "src": "/editorial/2026-11-04/2026-11-04-8eb1f3.webp",
       "alt": "一只四足机器狗沿抽象石阶向上攀爬，冷灰色调纸感插画。",
       "caption": "台阶之上，机器与山。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-04-10-steam-ai",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "Steam 十月上架的新游戏，约一半标明了使用 AI",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-04",
-    "intro": "一位 Reddit 用户的统计显示，2026年10月 Steam 新作中约 49.9% 披露使用了生成式 AI，创下单月新高。",
-    "paragraphs": [
-      "在 Steam 上，有些游戏的商店页面会多出一行小字，说明这款游戏用到了生成式 AI。Reddit 用户 ploz 对此做了统计：2026年10月在 Steam 上架的新游戏里，约 49.9% 在页面上披露使用了生成式 AI 内容。接近一半，这也是这项统计开始以来的最高单月纪录。",
-      "这条曲线上升得很快。Valve 在 2024 年 1 月开始实施 AI 内容披露制度，制度刚启动时，只有 1.7% 的游戏披露使用了 AI。2024 年全年有 13.2% 的游戏披露使用 AI，2025 年增至 24%，2026 年至今达到 40.1%。而 2026 年 10 月的 49.9%，约为 2025 年同期 26.4% 的两倍。",
-      "用得多的是哪些游戏？统计显示，小型游戏和高产开发者披露的比例更高。2026 年发售、玩家评价低于 10 条的游戏里，47% 披露使用了 AI；而在评价不少于 1000 条的游戏里，这个比例降至 14%。2026 年发售不少于 10 款游戏的开发者，有 68% 的作品披露了 AI 使用；仅发售一款游戏的开发者，披露比例为 37%。同时，只有 3% 的游戏在玩家游玩过程中使用实时生成的 AI 内容。",
-      "具体用在哪儿？在披露使用 AI 的游戏里，美术素材是使用最多的项目，占 63%；文字与翻译占 30%；商店页与宣传素材占 26%；音乐占 21%；代码占 16%；语音占 7%（同一款游戏可涉及多种用途）。",
-      "这些游戏的玩家反馈如何？在评价不少于 50 条的游戏中，披露使用 AI 的游戏平均好评率为 77%，低于未披露游戏的 83%。",
-      "需要留意的是，上述统计依赖开发者的自我披露。实际上的比例，尤其是代码部分可能要高得多。Valve 在今年 1 月修订了规定，仅要求披露玩家可直接接触的 AI 内容，不涵盖开发幕后使用的辅助工具。"
-    ],
-    "topics": [
-      "AI 与计算",
-      "互联网产品"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "机核 GCores",
-      "region": "mainland",
-      "url": "https://www.gcores.com/articles/221856",
-      "originalTitle": "10月Steam新作近半数披露使用AI",
-      "publishedAt": "Tue, 03 Nov 2026 17:54:54 +0800",
-      "retrievedAt": "2026-11-04T01:31:15.731Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-04T01:31:12.953Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-04-greece-has-its-own-pompeii-and-the-ruins-tell-a",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "希腊也有一座「庞贝」，火山灰封住了一座青铜时代的港口城市",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-04",
-    "intro": "锡拉火山喷发埋掉了阿克罗蒂里，也把一座青铜时代海港城市的日常生活原样保存了下来。",
-    "paragraphs": [
-      "地面震动了好几天。阿克罗蒂里的居民望着远处的锡拉火山冒出烟柱——那是一座沉睡很久的火山，就在今天的圣托里尼岛上。人们收拾家当，把带不走的贵重物品仔细藏好，然后乘船逃往附近的岛屿。等那些小规模的地震和喷发平息下来，他们又回到阿克罗蒂里，收集材料，动手修补受损的房屋。可是大地仍在颤抖。情况越来越糟，他们不得不再次离开，希望家园能够挺过即将到来的灾难。当锡拉火山再次喷发时，爆炸威力巨大，摧毁了阿克罗蒂里，将整座城市（以及共享火山名称的岛屿）掩埋在约200英尺厚的火山灰和浮石之下。",
-      "喷发的确切年代学界争论激烈，但学者们一般把它定在公元前1620年到公元前1530年之间。这是有记录以来规模最大的火山喷发之一：它喷出的火山物质，约是1883年喀拉喀托火山喷发的四倍，而后者在今天的印度尼西亚造成三万六千人以上死亡。火山灰飘得很远，一直落到今天的埃及和以色列。考古堆积之间夹着的沙砾层显示，当时发生了多次海啸。喷发几天之后，一部分火山口塌陷进爱琴海，永久改变了圣托里尼的地貌。",
-      "因此有人说，阿克罗蒂里就是柏拉图在公元前360年左右描述的那座沉没之岛——亚特兰蒂斯。不过大多数现代学者认为，柏拉图创作亚特兰蒂斯故事是作为寓言，警告权力与腐化带来的危险，并强调良善的重要性。真正让考古学家着迷的，是火山灰做的另一件事：它把整座城市完整封存了起来。研究圣托里尼史前地貌的考古学家佐尔佐斯说：‘一切都绝对被摧毁，并完全包裹在岛上。’这与庞贝古城被维苏威火山埋没的情形很像，但阿克罗蒂里属于中青铜时代的基克拉迪文明——这个文明大约在公元前3000年到公元前1000年间繁荣于爱琴海诸岛。它留下了一座罕见的时间胶囊，让人得以窥见那个航海社会里普通人的日常生活。",
-      "这座城市在地下沉睡了约700年。喷发之后，圣托里尼约有700年无人居住；古希腊历史学家希罗多德记载，腓尼基人在公元前9世纪开始重新定居这座岛。1866年，锡拉西亚岛的矿工在开采浮石时发现了史前建筑——那些火山灰原本要运去为苏伊士运河做隔热材料。1870年，法国雅典学院在那里做过一次小规模发掘，但真正的大规模考古要等到近一个世纪之后：1967年，考古学家马里纳托斯开始主持阿克罗蒂里的发掘工作。",
-      "马里纳托斯此前研究过克里特岛克诺索斯宫出土的遗址。他把克里特岛上发现的一些浮石追溯到锡拉喷发，第一次将阿克罗蒂里的毁灭与米诺斯文明的衰落直接联系起来。米诺斯文明常被称为欧洲最早的发达文明。他推测，锡拉引发的地震范围极广，推倒了克里特岛上的建筑和宫殿；随之而来的海啸破坏了沿海聚落，并使海上贸易中断。但这个理论今天已不被广泛接受。许多历史学家认为，米诺斯文明的衰落不能归因于单一因素，而是环境变化、贸易衰退、政治动荡，以及同正在崛起的迈锡尼文明之间的冲突共同造成的结果。",
-      "发掘这样一座保存得出奇完整的古城，本身就是一道难题。佐尔佐斯说：‘当你发掘时，你是在摧毁一层土，移走那层正把一切固定在一起的土壤。’面对保存得这么好的遗址，你必须换一种做法。所以马里纳托斯在正式动土之前，先要在遗址上方建起一座保护棚。"
-    ],
-    "topics": [
-      "考古",
-      "青铜时代",
-      "火山遗址",
-      "地中海文明"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Smithsonian History",
-      "region": "international",
-      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
-      "originalTitle": "Greece Has Its Own Pompeii, and the Ruins Tell a Captivating Story of a Sophisticated, Seafaring Bronze Age Society",
-      "publishedAt": "Tue, 03 Nov 2026 12:45:00 +0000",
-      "retrievedAt": "2026-11-04T01:32:10.601Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-04T01:32:08.507Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Greece's Own Pompeii: The Buried Town of Akrotiri",
-      "intro": "A buried Bronze Age town on Santorini offers a rare look at a seafaring society frozen by a massive volcano.",
-      "paragraphs": [
-        "The earth rumbled for days. Inhabitants of the seafaring Bronze Age settlement of Akrotiri watched smoke plume from Thera, a long-dormant volcano on what is now the Greek island of Santorini. People gathered their belongings and safely stored the valuables they were forced to leave behind. Then they fled by boat to nearby islands.",
-        "When these minor earthquakes and eruptions subsided, residents returned to Akrotiri, collecting materials for reconstruction and beginning the arduous process of repairing the damage. But the ground continued to tremble. As conditions worsened, they made the difficult decision to flee once more, hopeful that their homes would survive the coming devastation.",
-        "When Thera erupted again, the explosion was so powerful that it destroyed Akrotiri, burying the settlement in some 200 feet of ash and pumice stone. The timing of the disaster is the subject of intense debate, but scholars generally date it to between 1620 and 1530 B.C.E. The event was one of the largest volcanic eruptions in recorded history: Thera released about four times more volcanic material than the infamous Krakatau eruption.",
-        "The ash cloud formed by the Thera eruption completely transformed the island’s lush, humid environment into an arid one. Ash from the volcano was so widespread that it rained down as far as modern-day Egypt and Israel. Layers of sand and pebbles found between archaeological deposits suggest that multiple tsunamis also contributed to the destruction. A portion of the volcanic caldera collapsed into the sea a few days after the eruption, forever changing the landscape of Santorini.",
-        "Like the Roman city of Pompeii, which was destroyed when Mount Vesuvius erupted in 79 C.E., Akrotiri was preserved beneath the ash. 'Everything was absolutely annihilated and completely encapsulated on the island,' says Lefteris Zorzos, an archaeologist whose research focuses on the prehistoric landscape of Santorini. This created a rare time capsule that provides an unprecedented look into the daily life of this Middle Bronze Age Cycladic civilization. Santorini remained uninhabited for some 700 years. In 1866, miners working in pumice quarries on the island of Therasia discovered a prehistoric building while collecting ash to insulate the Suez Canal.",
-        "A large-scale dig at Akrotiri only commenced nearly a century later, in 1967, under the leadership of archaeologist Spyridon Marinatos. Marinatos had previously studied the excavated ruins of the Minoan Palace of Knossos in Crete, tracing pumice found on the island to the Thera eruption. His research marked the first time that the destruction of Akrotiri was directly linked to the decline of the Minoans. Marinatos posited that the earthquakes from Thera were so widespread, they toppled buildings and palaces on Crete. He also suggested that the resulting tsunamis damaged Minoan coastal settlements and halted shipping trade. But this theory is no longer widely accepted, and many historians now believe that the Minoans’ decline can’t be attributed to a single factor. Instead, they point to a combination of environmental changes, declining trade, political instability and conflicts with the ascendant Mycenaean civilization. 'When you excavate, you’re destroying a layer, removing the earth that’s keeping it all together,' Zorzos says."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-04T01:37:50.258Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-04-let-s-learn-about-how-particles-act-like-waves",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "粒子为什么有时像小球，有时又像水波？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-04",
-    "intro": "宇宙里最小的东西，为什么有时像小球，有时又像水波？",
-    "paragraphs": [
-      "宇宙里最小的东西，行为常常出人意料。量子物理就是研究这些怪现象的科学。它最奇怪的发现之一，是光或物质的基本粒子也能表现得像波。科学家把这叫作‘波粒二象性’。电子、光子这样的基本粒子是这样，原子、分子，甚至反物质，也是这样。同一件东西，可以像扔过池塘的棒球那样在空中飞行，也可以像水面上的波纹那样向前传播。",
-      "这听起来像不可能的事，但科学家真的在实验室里看到了。最著名的实验之一，叫双缝实验。想象一面挡板，上面开了两条狭缝。挡板前面有一台发射电子的装置，后面是一块接收电子的屏幕。打开装置，让电子飞向挡板。如果电子只像粒子，它们应该从两条缝里穿过，在屏幕上留下两簇痕迹，每条缝后面各一簇。可实际结果不是这样。电子在屏幕上堆出了一系列条纹。",
-      "这些条纹叫‘干涉图样’。当两列波相遇，它们会互相干涉。波峰和波峰叠在一起的地方，振动加强；波峰和波谷相遇的地方，振动抵消。于是屏幕上就出现明暗相间的条纹。电子以波的方式穿过狭缝，在飞向屏幕的路上相互干涉，最后留下条纹。用绿色激光把光子射向双缝，屏幕上也会出现类似的明暗条纹。",
-      "更奇怪的事情还在后面。假设在每条狭缝旁边放一个传感器，看电子究竟从哪条缝经过。再打开装置，结果变了：每个电子只从两条缝中的一条穿过，像一个粒子。屏幕上的干涉图样消失了，电子堆成两簇。也就是说，当我们不观测狭缝时，电子表现得像波；当我们观测时，它表现得像粒子。观测方式的改变似乎改变了电子的行为。",
-      "这正是最让人费解的悖论。同一个电子，为什么能根据我们是否观测狭缝，表现出两种截然不同的行为？它提醒我们，在肉眼看不见的尺度上，世界并不像日常经验那样运转。下次看到水面泛起波纹，你也许会想起屏幕上那些条纹：看似完全不同的两件事，背后都有波的身影。"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/lets-learn-about-how-particles-act-like-waves",
-      "originalTitle": "Let’s learn about how particles act like waves",
-      "publishedAt": "Tue, 03 Nov 2026 11:30:00 +0000",
-      "retrievedAt": "2026-11-04T01:33:14.564Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-04T01:33:10.514Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-04/2026-11-04-let-s-learn-about-how-particles-act-like-waves.webp",
-      "alt": "左侧圆点与右侧波纹以柔和过渡相连的抽象冷灰插画。",
-      "caption": "小球，还是水波？",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "冷聚变未实现，物理学家却在残骸中找到稀有原子",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-03",
-    "intro": "1989年那场轰动世界的冷聚变风波几个月就垮了，可顺着它的残骸往下挖，物理学家找到了一批自然界几乎不存在的原子。",
-    "paragraphs": [
-      "1989年3月，两位化学家召开新闻发布会，宣布一个简单的桌面实验释放出的能量太多，多到不可能是化学反应。他们说，那只能是核反应——氢原子核聚合成氦。这意味着无限、清洁又便宜的电力。物理学家惊呆了，因为那样的条件本不该发生这种事；政界人士则宣布，人类的能源烦恼到此结束。可接下来，全世界的实验室都去重复这个实验，谁也重复不出来。短短几个月，整件事就垮了：支持结论的实验被撤回，其中一起还出现了往结果里掺入假聚变产物的迹象；关键图表被修饰过；面对质疑者，他们还威胁要打官司。",
-      "写这篇报道的记者说，他对聚变的兴趣就是从这种梦想里长出来的。他小时候照着《Make》杂志在地下室做了一个“聚变器”，高压电把气体变成炽热的等离子体，撞在一起。他那台并没有真的实现聚变。后来一位在私营聚变公司工作的朋友带他参观了真正的实验反应堆，幻想一点点碎掉：装置复杂又昂贵，便宜谈不上；运行时放出强烈的、致命的中子辐射，清洁谈不上；燃料要用氚，而氚在自然界并不存在，必须人工制造，‘只要一点海水’也谈不上。",
-      "2026年春天，剑桥大学的哲学家休·普莱斯让这个话题重新回到记者眼前。普莱斯认为，科学家对冷聚变过于轻蔑了，甚至连‘科学家过于轻蔑’这个说法本身也被轻蔑。他把冷聚变和他研究的存在性风险放在一起看：核冬天、人造生物武器、超级火山、人工智能失控——这些事看起来都不太可能，研究它们的人孤独甚至边缘，可一旦成真，后果巨大，所以值得比表面上更大的重视。记者不完全同意：世上或许还有上千种异常现象，看起来和冷聚变一样可能成真、一样能改变世界，为什么单单盯着这一个？他觉得，唯一的原因是1989年有人说了不实的话，那句话像锚一样把人钉在了这个可能性上。就像有人说在后院看见了传说中的大脚怪，后来承认看错了，人们却还是在附近年年开会。",
-      "不过既然已经钻进了这个洞，记者决定继续往下走。他找到帕洛阿尔托的风险投资人马特·特雷维西克。十年前在谷歌工作时，特雷维西克组织了一个项目，重新评估冷聚变，成果是2019年发表在《自然》上的一篇论文。他们没有发现任何异常的核反应或其它异常现象。但他说，目标本来就不止于此：1989年的闹剧给一些研究课题蒙上了阴影，而这些课题不该被这么轻易地否定。比如当年冷聚变研究者用到的元素钯，它能像海绵一样吸收氢，这种本领不会因为跟一场科学歧途扯上关系就不再奇妙。这个项目最终产出了28篇学术论文，研究含氢金属和其他现象。特雷维西克对记者说：‘我们给一个领域去了污名。’",
-      "顺着论文的参考文献，记者被一个词吸引住了：μ子催化聚变。在被1989年那场风波占用之前，这才是‘冷聚变’一词最初的意思。它的核心想法出奇简单。普通原子是带正电的原子核，外面绕着带负电的电子。但没有任何理由说，绕着的必须是电子。在粒子物理的标准模型里，电子有个兄弟叫μ子，完全可以顶替它的位置；物理学家还换用过其他家族的粒子，比如K介子、π介子和Ξ重子，甚至造出了物质与反物质的混合体——中间是含质子的原子核，外面绕着带负电的反质子。于是就有了普通氢、μ子氢、K介子氢、反质子氢。区别在于这些替身重得多：一个μ子的质量是电子的207倍，一个反质子是电子的1800倍。美国国家标准与技术研究所的物理学家丹尼尔·斯韦茨专门造超高精度的探测器，测量这些奇异原子放出的辐射。他说，这就像另一张元素周期表，几乎是在第三个维度上把它搭出来。",
-      "那场发布会许诺的无限电力，至今没有到来；‘冷聚变’这个词，也仍然带着1989年的味道。但在这条被谎言开启的路上，真实留下来的不是免费能源，而是一批自然界几乎不存在的原子，和一片还在扩展的物理学前沿。也许更值得想一想的是：面对下一个听起来像冷聚变的新主张，我们该怎样既不轻信，也不轻易关上门。"
-    ],
-    "topics": [
-      "物质与数学",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
-      "originalTitle": "Is There Anything Left in the Dream of Cold Fusion?",
-      "publishedAt": "Mon, 02 Nov 2026 15:48:57 +0000",
-      "retrievedAt": "2026-11-03T03:01:58.984Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-03T03:01:53.398Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "What's Left of the Cold Fusion Dream?",
-      "intro": "In 1989, two chemists promised endless clean power from a tabletop experiment. Quanta Magazine asks what, if anything, still survives of that promise.",
-      "paragraphs": [
-        "In March 1989, two chemists held a press conference. They said a simple tabletop experiment released too much energy to be a mere chemical reaction. They said it had to be nuclear: hydrogen nuclei fusing to form helium. It promised limitless clean, cheap power. Physicists were stunned. That sort of thing wasn’t supposed to be possible under such pedestrian conditions. Politicians proclaimed the end of all our energy woes. But then labs across the globe tried to replicate the experiment and couldn’t. The whole thing only lasted a few months. Some experiments that initially corroborated the results were retracted, in one case amid indications of deliberate spiking with fake fusion products.",
-        "George Musser missed the episode in real time. He was backpacking off the grid for six months. By the time he caught up on the news, it was over. He initially sympathized with the plucky maverick scientists. But then he read about their rookie mistakes, their fudging of a crucial graph, and their threats of lawsuits against skeptics. Although cold fusion was a pathological case, fusion in general has been a graveyard of dreams. Musser once built a 'fusor' in his basement based on an article in Make magazine. Fusors are real, the one legitimate tabletop fusion technology. In them, a high voltage creates a hot plasma that smashes nuclei together. His unit didn’t achieve fusion, but with work it could have, although it would have produced negligible power. Later, a friend at a private fusion company gave him a tour of an actual experimental fusion reactor. It was complex and costly. It produced intense, deadly neutron radiation. It required tritium fuel, which does not occur naturally and has to be manufactured.",
-        "So why would a serious philosopher defend open-mindedness about cold fusion? Huw Price of Trinity College at the University of Cambridge told Musser his interest dates to 2011. He and other luminaries were hatching the idea for the Center for the Study of Existential Risk. That group frets over nuclear winter, engineered bioweapons, massive volcanic eruptions, and artificial intelligence takeover. Price sees parallels between doomsday scenarios and cold fusion. They may seem improbable, and studying them is a lonely or even fringe activity. Yet the consequences are huge. So we should give more weight to them than might strictly seem warranted.",
-        "Musser finds that argument troubling. There must be a thousand other anomalous phenomena that are as likely to be real as cold fusion and, if they are, to transform the world. Why focus on this one? The only reason we are talking about cold fusion at all is that we were lied to in 1989. The initial mistruth created a kind of psychological anchoring effect. It is as if someone said they saw Bigfoot in their backyard, then confessed they hadn’t — yet people started holding annual cryptozoological conferences nearby anyway. Musser finds it jarring that a deception could conjure an entire academic research program. He asks how this differs from the antivax movement, which also started with data that turned out to be faked and should have just packed up once that became known.",
-        "Musser kept digging and spoke to Matt Trevithick, a co-founder of Leitmotif, a venture capital firm in Palo Alto. A decade ago, while working at Google, Trevithick organized a project to reevaluate cold fusion. It culminated in a Nature paper in 2019. It didn’t find any unexpected nuclear reactions or other anomalies. But Trevithick said the 1989 debacle had cast a pall over certain research topics that perhaps shouldn’t be so easily dismissed. For instance, cold fusioneers used the element palladium, and it has a wondrous ability to absorb hydrogen like a sponge. Trevithick sought to lift this taboo. The project ultimately produced 28 academic papers on hydrogenated metals and other phenomena. 'George,' he said, 'We destigmatized a field.'",
-        "That trail led Musser to muon-catalyzed fusion. He recognized it as the original meaning of the term 'cold fusion' before it was co-opted by the 1989 studies. Ordinary atoms consist of a positively charged nucleus orbited by negatively charged electrons. But there’s no reason they have to be electrons. Other negatively charged particles serve just as well. In the Standard Model of particle physics, the electron has a sibling called the muon that can stand in for it. Physicists have also swapped in particles from other families, such as kaons, pions, and Xi baryons. They have even created hybrids of matter and antimatter, in which a nucleus containing protons is orbited by negatively charged antiprotons. Daniel Swetz of the National Institute of Standards and Technology in Boulder, Colorado, calls this 'like a new periodic table.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-03T03:08:39.943Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-03/2026-11-03-is-there-anything-left-in-the-dream-of-cold-fusi.webp",
-      "alt": "烧杯剪影与细线原子轨道，冷灰色纸质感插图",
-      "caption": "失败的实验，留下意外的原子。",
       "kind": "editorial"
     }
   }
