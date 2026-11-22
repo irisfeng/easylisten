@@ -1,5 +1,240 @@
 [
   {
+    "slug": "2026-11-22-0b3c52",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "零下几十摄氏度，机器人将在哈尔滨冰面自己看路、自己决定",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-22",
+    "intro": "2027年1月，哈尔滨的冰面上会出现一批特殊的选手：它们没有心跳，却要在零下几十摄氏度的环境里自己看路、自己决定。",
+    "paragraphs": [
+      "零下几十摄氏度的哈尔滨，冰面上站着的不只有运动员。第二届黑龙江省冰雪运动超级联赛（以下简称“冰超”）将于2026年11月至2027年3月举办，在410项、5700余场赛事活动中，机器人冰雪竞赛首次登场，成为本次“冰超”最大亮点。比赛设在哈尔滨冰雪大世界等地，北京航空航天大学、华中科技大学等高校团队，以及宇树科技、启元等企业将带来各自的机器人产品与技术成果亮相。",
+      "赛事紧扣寒地冰雪真实应用场景，共设置冰上竞技赛、水下场景赛以及寒地表演赛三大类别，共计12个竞赛项目、50余场竞赛和展示活动。冰上竞技赛在速滑馆进行，设置人形机器人、极品飞车、四足机器人等5个组别，在冰道上进行50米和80米竞速，在冰面上绕桩、爬雪坡等项目，比拼冰面防滑制动、姿态稳定控制等技术。水下场景赛将在冬泳场地举办，其中仿生水下机器人展演比拼造型巧、游得稳等，冰下探测、障碍穿越、目标抓取等寒地水下作业任务，考验水下控制、视觉识别、作业抓取等能力。寒地表演赛聚焦创意与低温适配能力，冰雪环境采集转运冰雪样本、四足机器人“拉爬犁”等将趣味上演。",
+      "各类机器人比赛怎么算输赢？“全自主”是关键。冰上竞速看时间，谁用时短谁得分高，途中碰倒锥桶、撞到围栏都要扣分；水下机器人必须把规定动作全部做完才算有效成绩，再按用时排名；表演赛则从寒地适配度、技术创新、完成度等多个方面综合打分，还会设置观众投票。最重要的是全程自己看、自己想、自己做——不遥控的全自主机器人会比非全自主机器人更有评分优势。",
+      "赛事定于2027年1月9日至11日举办，共有数十所国内外高校以及十余家高新技术企业参加，总参赛规模超过1000人。组委会介绍，这是冰雪运动与人工智能、机器人产业深度融合的创新实践，依托黑龙江的高寒冰雪条件，把极寒低温、光滑冰面、冰下水域变成机器人的天然试验场，把赛场变成寒地机器人技术验证、性能测试、迭代优化的载体，以赛事牵引寒地特种机器人技术攻关。国内顶尖高校、科创企业同台竞技交流，也助力打通研发、测试、展示、转化链条，助力寒地巡检、应急搜救、冰下探测等场景机器人成果落地。",
+      "赛事不仅将通过全媒体矩阵直播，还开设“我与机器人合个影”全民打卡、“小小工程师”科普体验日等活动，邀请观众从“看客”变成参与者。免费开放、预约观赛模式，配套科普体验和互动活动，也让前沿科创走进大众，激发青少年科学兴趣，并助力实现体育、科技、文旅进一步融合。与首届相比，这届“冰超”在项目数量、参与覆盖面、玩法等方面实现全面升级，雪地足球等大众联赛和高水平专业赛事同步举办，还配套开发“跟着冰超去旅行”产品，参赛、观赛、游玩同步进行，观众凭票根还可享受消费优惠。",
+      "过去我们看机器人，多半是在视频里看它跑、跳、翻跟头。这一次，它要在真实的寒风里、真实的冰面上，自己判断该往哪走、该怎么站稳。技术是在实验室里造出来的，却往往是在这样的场地上，被逼着长大。"
+    ],
+    "topics": [
+      "体育",
+      "机器人",
+      "冰雪运动"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261120/94661680b0954da9962b459af7657da7/c.html",
+      "originalTitle": "追光丨零下几十摄氏度 看机器人如何“冰雪总动员”",
+      "publishedAt": "2026-11-20T17:00:54+08:00",
+      "retrievedAt": "2026-11-22T01:25:11.547Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:25:08.152Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Robots Take On the Ice and Snow",
+      "intro": "A new winter sports league in China will give robots their own cold-weather test on ice and under water.",
+      "paragraphs": [
+        "China's second Heilongjiang Ice and Snow Sports Super League will run from November 2026 to March 2027. It will include 410 events and more than 5,700 competitions and activities. For the first time, a robot ice and snow competition will be part of the league. Organizers call it the biggest highlight of this 'Ice Super' event.",
+        "The robot events will take place at places such as Harbin Ice and Snow World. University teams from Beihang University and Huazhong University of Science and Technology, and companies including Unitree Robotics and Qiyuan, will bring their robots and technical achievements. The events are tied to real cold-region and icy scenarios. There are three categories: ice racing, underwater tasks, and cold-region performances. In total, there will be 12 competition items and more than 50 competitions and demonstration activities.",
+        "Cold-region performances focus on creativity and low-temperature adaptability. Robots will collect and transport snow and ice samples. A quadruped robot will pull a sled. Ice racing will be held in a speed skating rink. It includes five categories: humanoid robots, 'Extreme Racing Cars', and quadruped robots. They will race 50 meters and 80 meters on ice, weave around poles, and climb snowy slopes. These test anti-slip braking and posture stability control on ice.",
+        "Underwater events will be held at a winter swimming site. Bionic underwater robots will demonstrate shape design and stable swimming. They will also perform under-ice detection, obstacle crossing, and target grabbing. These test underwater control, visual recognition, and operation grasping. The robot competition is set for January 9 to 11, 2027. Dozens of universities from home and abroad, and more than ten high-tech enterprises, will take part. The total number of participants will exceed 1,000.",
+        "Winning depends on full autonomy. In ice racing, the shortest time wins. Knocking over cones or hitting barriers incurs deductions. Underwater robots must complete all required actions to earn a valid score, then rank by time. Performance robots are scored on cold-region adaptability, technological innovation, and completion. Audience voting is also included. Fully autonomous robots — those that see, think, and act without remote control — receive scoring advantages.",
+        "The event will be live-streamed across multimedia platforms. Activities include 'Take a Photo with a Robot' and a 'Little Engineer' science experience day. Organizers say the goal is to integrate ice sports with AI and robotics. Heilongjiang’s extreme cold, smooth ice, and icy waters become natural test fields. The event aims to drive technical breakthroughs for cold-region inspection, emergency rescue, and under-ice detection. It also helps connect sports, technology, and tourism."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:31:44.703Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-22-bepicolombo-arrives-at-mercury",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "飞行八年后，BepiColombo进入水星轨道",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-22",
+    "intro": "欧洲与日本联合的水星探测器终于抵达目的地，接下来要看它如何解开这颗行星的磁场与身世之谜。",
+    "paragraphs": [
+      "水星是内太阳系里最少被探访的行星。经过八年飞行，欧洲空间局与日本宇宙航空研究开发机构联合的BepiColombo任务已进入水星轨道，将在那里至少进行一年的科学观测。在此之前，只有两个探测器到过水星：1973年美国的Mariner 10飞掠水星，2011年至2015年NASA的MESSENGER环绕水星运行。BepiColombo是第三个造访水星的航天任务。",
+      "到达水星，难的不是飞近太阳，而是减速并匹配轨道。欧洲空间局运行中心的Azul Pinochet-Barros说，抵达水星其实比抵达冥王星更难，真正的挑战是失去足够多的能量，让自己的路径与水星绕太阳的轨道吻合。BepiColombo于2018年发射后，先后九次飞越地球、金星和水星，每一次都借引力卸掉一点动量，逐渐向内螺旋靠近。2024年，探测器的推进器出现故障，无法满功率工作，团队因此调整轨道，将抵达时间从2025年12月推迟至2026年11月。",
+      "这次任务的特别之处在于，它首次在一次任务中将两台轨道器送入水星轨道：欧洲空间局的水星行星轨道器（MPO）和日本宇宙航空研究开发机构的水星磁层轨道器（Mio）。MPO将测绘水星布满陨石坑的表面地质，用多波段光谱仪绘制表面成分和温度地图，用测高仪测绘地形，用加速度计和重力仪测绘引力场，并通过射电科学实验测定水星核心大小；另一台仪器将研究水星的外逸层及其与太阳风等离子体的相互作用。Mio将测绘水星的磁层、磁场和等离子体环境。水星有磁场但科学家尚不清楚其维持机制，也不理解其为何偏离行星中心，Mio正是为回答这些问题而设计。",
+      "这两台轨道器此前由水星转移模块（MTM）运送，并依靠隔热罩抵御太阳高温。MTM已于2026年9月3日与轨道器分离。接下来的一步将在2026年12月9日至10日：MPO和Mio将彼此分离，并各自进入极轨道。科学观测计划于2027年4月开始，主任务为期一年，并计划延长至2029年。",
+      "水星是内太阳系中被了解得最少的行星。一个表面布满陨石坑的世界，为什么会保有自己的磁场？它的核心又是什么模样？这些问题的答案，要等两台轨道器正式开始工作之后，才会一点点展开。"
+    ],
+    "topics": [
+      "航天与宇宙",
+      "行星科学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Eos Earth & Space Science",
+      "region": "international",
+      "url": "https://eos.org/research-and-developments/bepicolombo-arrives-at-mercury",
+      "originalTitle": "BepiColombo Arrives at Mercury",
+      "publishedAt": "Sat, 21 Nov 2026 18:48:40 +0000",
+      "retrievedAt": "2026-11-22T01:26:18.360Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:26:12.056Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 29,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-22/2026-11-22-bepicolombo-arrives-at-mercury.webp",
+      "alt": "灰色探测器剪影悬浮在浅灰弧面与星点背景之上",
+      "caption": "飞行八年，探测器抵达水星附近",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-22-b2a7e0",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "记者与科学家、青少年走近八一冰川，探寻“固体水库”的变化",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-22",
+    "intro": "联合国新闻的记者走进祁连山深处的八一冰川，和科学家、一群青少年一起，探寻这座高山“固体水库”正在发生的变化。",
+    "paragraphs": [
+      "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。在中国西北部的祁连山深处，海拔4500多米的八一冰川正经历着这样的变化。联合国新闻记者走近八一冰川，与科学家和青年探险家同行，探寻这座高山“固体水库”的奥秘，了解全球变暖背景下冰川消融的严峻现实。",
+      "八一冰川位于黑河源头地区，为绵延821公里的黑河水系提供着珍贵的水源。从高山冰雪到河西走廊，再到内蒙古额济纳旗，冰川与远方的人类生活息息相关。",
+      "随着全球气温持续上升，世界各地的冰川正在加速消融。这不仅意味着壮丽自然景观的消失，更牵动着淡水资源、生态系统和数以亿计依赖冰川融水的人们的未来。",
+      "科学家通过长期监测，为水资源管理和防灾减灾提供科学依据。联合国新闻记者此行也聚焦于科学家如何通过长期监测，了解冰川消融的严峻现实，并为应对气候变化提供数据支撑。",
+      "在由中科院西北院和公益机构极地未来共同发起的“少年冰川大使”研学活动中，一群青少年走出课堂，走进科研实验室和冰川现场，在科学家的引导下亲眼观察冰川、学习科学知识，并尝试用自己的视角讲述冰川的故事。",
+      "2025年至2034年是联合国“冰冻圈科学行动十年”。面对全球冰冻圈正在发生的深刻变化，科学研究固然重要，让年轻一代认识自然、理解气候变化，并从中找到行动的动力，同样不可或缺。当一颗探索自然的种子在年轻的心中生根发芽，保护冰川的希望，也便有了延续的力量。"
+    ],
+    "topics": [
+      "气候与能源",
+      "青年参与",
+      "地理与环境"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "联合国新闻中文",
+      "region": "international",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
+      "originalTitle": "走近冰川：一场关于地球未来的青春探索",
+      "publishedAt": "Sat, 21 Nov 2026 12:00:00 +0000",
+      "retrievedAt": "2026-11-22T01:27:05.768Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:27:02.219Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Glacier and the Next Generation",
+      "intro": "UN News traveled to the Bayi Glacier in China to hear what its melting ice means for young people and the planet.",
+      "paragraphs": [
+        "A huge ice wall in northwest China is slowly disappearing. It is called the Bayi Glacier, and it sits high in the Qilian Mountains. Glaciers like this are among the most sensitive witnesses of climate change. As global temperatures rise, glaciers around the world are melting faster.",
+        "The Bayi Glacier sits more than 4,500 meters above sea level. It sits near the source of the Heihe River. That river system runs for 821 kilometers. Its water reaches the Hexi Corridor and Ejin Banner in Inner Mongolia. So the glacier is linked to life far beyond the mountains.",
+        "Melting glaciers are not just about losing beautiful landscapes. They also affect freshwater supplies and ecosystems. Hundreds of millions of people depend on meltwater from glaciers. For them, the ice acts like a frozen reservoir.",
+        "UN News joined scientists and young explorers near the glacier. The young people were part of a program called Young Glacier Ambassadors. It was organized by the Northwest Institute of the Chinese Academy of Sciences and the public welfare organization Polar Future. The young people left the classroom to visit labs and the glacier itself. With scientists guiding them, they observed the ice and learned how research works.",
+        "Scientists monitor the glacier over a long time. Their long-term monitoring helps with water management and disaster prevention. It also helps people understand what is happening as the climate warms. The United Nations marked 2025 to 2034 as the Decade of Action for Cryospheric Sciences.",
+        "Science matters, but so does helping young people understand nature. When young minds connect with a place like the Bayi Glacier, they may find their own reasons to act. A small seed of curiosity can grow into a lasting wish to protect glaciers."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:32:19.084Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-22/2026-11-22-b2a7e0.webp",
+      "alt": "层叠的灰白冰体切面与远处浅灰山脊轮廓",
+      "caption": "高山冰川的层叠切面",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-22-0-3-78e8f7",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世界儿童日：专家呼吁关注0-3岁儿童早期发展",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-22",
+    "intro": "世界儿童日这天，专家提醒：0到3岁是人一生中大脑发育最迅速的阶段。",
+    "paragraphs": [
+      "11月20日是世界儿童日。今年这一天，照亮0-3中国儿童早期发展共建项目总干事、中国乡村发展基金会副秘书长秦伟呼吁全社会关注0-3岁儿童早期发展。",
+      "秦伟指出：‘0-3岁是人一生中大脑发育最迅速的阶段，这一时期的养育质量，深刻影响孩子此后的认知、情感与社会能力发展。’",
+      "他强调，这一影响体现在认知（认识和理解世界的能力）、情感（感受和表达情绪的能力）以及社会能力（与人相处、合作及理解他人）三方面——这些能力的基础，都在0-3岁阶段开始奠定。",
+      "‘最迅速’意味着大脑发育在此阶段高度集中；‘此后’则表明，这一时期的发展成果不会即时显现，而将在孩子成长后续多年中持续显现。因此，早期发展不是入学后才开始的事。",
+      "秦伟表示，项目从政策研究、项目创新、公众教育三个板块推动0-3岁儿童早期发展，并已在江西婺源、石城和北京平谷建成3个养育中心、60个服务站点，服务1300余名0-3岁儿童及其家庭。",
+      "世界儿童日每年都有，而今年的倡导特别聚焦于最小的孩子，也指向照看他们的成人。我们可带着一个问题去观察：身边0-3岁的孩子，正在被怎样养育？",
+      "儿童日不只是给孩子的一天，更是提醒成人回望起点、重视最初三年的日子。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪",
+      "儿童发展"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-20/10735434.shtml",
+      "originalTitle": "世界儿童日：专家呼吁关注0-3岁儿童早期发展",
+      "publishedAt": "Fri, 20 Nov 2026 19:03:08 +0800",
+      "retrievedAt": "2026-11-22T01:28:40.538Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-22T01:28:39.429Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 7,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
     "slug": "2026-11-21-90be55",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "杨起：荒山野岭中他被狼尾随了一路",
@@ -3217,228 +3452,6 @@
       "alt": "深灰毛绒轮廓旁，浅色小颗粒被细弧线牵引悬浮。",
       "caption": "看不见的力，让轻小的颗粒自己靠过来。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-06-lab-grown-meat-was-supposed-to-save-the-world-wh",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "实验室里长出的肉，为什么还没端上餐桌",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-06",
-    "intro": "2013年8月5日，一个造价25万欧元的汉堡在伦敦被公开品尝，人们以为食品革命要来了。十多年过去，全世界只有一家店能买到这种肉。",
-    "paragraphs": [
-      "2013年8月5日，伦敦Riverside Studios摄影棚里，两位志愿者分吃了一个汉堡。这个汉堡花了两年才做出来，成本25万欧元（约21万英镑），由谷歌联合创始人谢尔盖·布林出资。肉不是从牛身上割下来的。荷兰马斯特里赫特大学血管生理学教授马克·波斯特从一头活牛的肩部肌肉中提取干细胞，在装满含胎牛血清（源自牛胎儿）的营养液的塑料容器中培养。细胞最终长成20,000条组织，压制成一个140克的肉饼。现场有200名记者出席，并向数千人直播。厨师理查德·麦吉翁用葵花籽油和黄油将肉饼煎熟。两位品尝者分别是芝加哥作家乔希·舍恩瓦尔德（《明日之味》作者）和奥地利营养科学家汉妮·吕茨勒。舍恩瓦尔德说：‘我可以说它介于Boca Burger和麦当劳之间。缺少脂肪影响很大。它有质地，这是我没想到的——像一块动物蛋白蛋糕。’吕茨勒对《科学》杂志记者表示：‘这里还有改进空间。’活动结束时，约11.3万欧元价值的汉堡未被吃完。",
-      "波斯特相信，这样生产的牛肉能大幅减少温室气体排放、减缓气候危机。养牛需占用大量土地和水，还需种植高环境成本的饲料。他预计全球肉类需求将很快超出传统方式的供给能力，导致食物系统不可持续；但他认为这不必意味着人类集体放弃红肉——实验室培育肉将在十年内成为消费品。该事件引发‘淘金热’：六大洲涌现140家公司，尝试将同类技术用于鸡、猪、鱼甚至鹌鹑。行业共获约30亿美元投资。支持者宣称细胞农业不仅能应对气候危机与全球粮食不安全，还能减缓人畜共患病传播和抗生素耐药性。Upside Foods称要‘树立肉类新标准’；Vow公司制作了巨型猛犸象肉丸（DNA来自化石），但因安全性未知，无人被允许食用。智库RethinkX预测，到2030年，培养肉将使美国牛肉需求下降70%，并称这是‘自一万年前动植物首次被驯化以来，食品与农业领域最深刻、最快、最具后果性的颠覆’。",
-      "然而，尽管热潮涌动，培养肉始终未能上市。挑战包括：建造生产设施的巨额前期投入、运行所需惊人能耗、难以实现足量且低价量产、缺乏熟练操作新技术的劳动力、美国食品药品监督管理局（FDA）与农业部（USDA）多轮严格审查，以及曾有公司（Upside和Eat Just）在研究样本中检出啮齿动物DNA。投资于2021年见顶，此后下滑；2023年，全行业全球仅募资1.77亿美元。质疑不仅来自投资人——培养肉迅速成为美国保守派攻击目标。佛罗里达、阿拉巴马、密西西比、印第安纳、蒙大拿、内布拉斯加和得克萨斯七州接连立法禁止其销售、生产或两者皆禁。佛罗里达州长罗恩·德桑蒂斯签署该法时站在血迹斑斑、堆满牛排的砧板前拍照，并说：‘把你们的假实验室肉拿到别处去。我们在佛罗里达不干这个。’",
-      "2024年，工业生物技术顾问乔尔·斯通对《纽约时报》表示，若押注概率，‘该行业在可预见未来供应哪怕10%肉类的可能性为零’。目前，培养肉仅在一家商店有售：新加坡胡伯肉铺（Huber’s Butchery），销售GOOD Meat公司生产的培养鸡肉丝。",
-      "但故事尚未终结。2024年5月，在同行纷纷撤资之际，杰夫·贝索斯通过其地球基金向北卡罗来纳州立大学捐赠3000万美元，设立贝索斯可持续蛋白中心，致力于开发‘环境友好、健康、美味且实惠的膳食蛋白’。此举巩固该州作为全球培养肉新中心的地位。商业层面，以色列公司Believer Meats已在北卡威尔逊市破土建设一座20万平方英尺的工厂——公司宣称其为全球最大培养肉设施，设计年产能为950万公斤工程化鸡肉。2025年9月，美国FDA向其发出‘无问题’信函，表明对其产品安全性审查未发现疑虑。十三年前那个汉堡提出的问题其实很简单：如果能去除部分弊端，让肉更少破坏、更少瑕疵，我们还有什么理由不吃它？这个问题至今没有答案——但答案已不在实验室里，而在工厂、法规与价格之中。"
-    ],
-    "topics": [
-      "经济与商业",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Guardian Long Read",
-      "region": "international",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/05/lab-grown-meat-save-the-world-food-revolution-climate-crisis-food-system",
-      "originalTitle": "Lab-grown meat was supposed to save the world. What happened?",
-      "publishedAt": "Thu, 05 Nov 2026 05:00:54 GMT",
-      "retrievedAt": "2026-11-06T01:41:00.985Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-06T01:40:58.515Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 56,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Lab-Grown Meat: A Promise That Stalled",
-      "intro": "A lab-made burger once promised to change the world. But the meat revolution stalled.",
-      "paragraphs": [
-        "On 5 August 2013, a man and a woman ate a burger. It was the world’s first lab-grown burger. Mark Post led the project. He is a professor of vascular physiology at Maastricht University in the Netherlands. The burger took two years to produce. It cost €250,000. Sergey Brin funded it. He is the Google co-founder. The tasting happened at Riverside Studios in London. Two hundred members of the press attended.",
-        "Post extracted stem cells from the shoulder muscle of a living cow. He cultivated them in plastic containers. They were filled with foetal bovine serum. This supplement comes from cow foetuses. The cells became 20,000 strands of tissue. Those strands formed a single 140g patty. Chef Richard McGeown pan-fried it. He is from Cornwall. Two tasters tried it: Josh Schonwald and Hanni Rützler. Schonwald said it was 'somewhere on the spectrum between a Boca Burger and McDonald’s'. He added: 'The absence of fat makes a big difference.' Rützler called it bland. She said: 'There is room for improvement here.'",
-        "Post predicted lab-grown meat would become a consumer product within the decade. The event triggered a gold rush. One hundred and forty companies sprang up. They worked across six continents. They tried to replicate the beef work with chicken, pork, fish and even quail. Investment totalled $3bn. True believers claimed cellular agriculture would fight the climate crisis. It would also fight global food insecurity. It would slow zoonotic disease. It would slow antibiotic resistance. RethinkX predicted cultivated meat would decimate the US beef industry by 2030. It would reduce demand for conventional beef by 70%.",
-        "But the meat did not arrive. Building manufacturing facilities cost too much. Running them used too much energy. Companies could not make enough meat. They could not sell it cheaply enough. There was not enough skilled workforce. The FDA and USDA did many inspections. Rodent DNA appeared in research samples. This happened at Upside Foods and Eat Just. Investment peaked in 2021. It fell after that. In 2023, the industry raised only $177m globally.",
-        "Conservatives targeted the technology. Florida, Alabama, Mississippi, Indiana, Montana, Nebraska and Texas passed laws. They banned sale, production or both. Ron DeSantis signed Florida’s law. He posed for photos. He stood in front of a blood-stained cutting board. Steaks were piled high. He said: 'Take your fake lab-grown meat elsewhere.' Joel Stone told the New York Times in 2024: 'The likelihood ... would be zero.' He meant the chance of supplying even 10% of meat in the foreseeable future. Today, cultivated meat is sold in just one store. It is Huber’s Butchery in Singapore. It sells lab-grown chicken shreds. The maker is GOOD Meat.",
-        "The writer had been a vegetarian for almost 20 years. The last meat he ate was a hotdog. It was at Shea Stadium in New York. That was in 2007. In May 2024, Jeff Bezos gave $30m. He gave it through his Earth Fund. It funded the Bezos Center for Sustainable Protein. The center is at North Carolina State University. Believer Meats broke ground on a plant. It is in Wilson, North Carolina. The plant is 200,000 sq ft. It is the largest cultivated-meat facility in the world. It will produce 9.5m kilos of engineered chicken per year. In September 2025, Believer got a 'no questions' letter from the FDA. The FDA found no safety concerns."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-06T01:49:05.051Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-11-05-ab015b",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "科学家首次实时追踪石墨烯中电子的超快量子跃迁",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-05",
-    "intro": "德国雷根斯堡大学、马尔堡大学和于利希研究中心的科学家将激光技术与电子显微技术相结合，首次实时追踪了石墨烯中电子在强光场驱动下穿越能隙的量子跃迁过程，发现隧穿概率最高可达100%。相关研究发表于最新一期《自然》杂志。",
-    "paragraphs": [
-      "在固体材料中，电子只能占据特定的能量范围，这些范围被称为能带。一般情况下，电子被限制在各自的能带中。但在强电场作用下，电子可以发生朗道—齐纳—马约拉纳跃迁，穿越能隙进入另一能带。这一过程发生得极快，传统显微镜难以呈现其能量状态的瞬时变化。德国雷根斯堡大学、马尔堡大学和于利希研究中心的科学家将激光技术与电子显微技术相结合，首次实时追踪了这一超快量子过程。相关研究发表于最新一期《自然》杂志。",
-      "研究团队开发了一种结合激光技术与光电子动量显微镜的测量方法。这种显微镜并不直接放大物体图像，而是记录电子的能量和运动状态，绘制电子在不同能量状态下的分布图。论文第一作者文森特·埃格斯打了个比方：‘如果想知道一场比赛谁赢了，就必须观察所有参赛者。’要捕捉发生量子跃迁的电子，科学家同样需要尽可能多地同时观察电子的运动。",
-      "实验中，光脉冲产生极强电场，加速电子并推动它们在不同能带之间切换。研究使用了于利希研究中心制备的高纯度原子级石墨烯材料，其中包括经过旋转处理的石墨烯结构。这些材料能够减少杂质干扰，使电子的量子运动过程更加清晰。",
-      "测量结果显示，在强光场作用下，电子穿越能隙的隧穿概率最高可达100%。即使相关能态之间存在明显的能量间隔，跃迁仍然可能以很高的概率发生。研究还发现，电子接近能隙的速度是影响跃迁的重要因素。这种由电子动态运动引发的跃迁，与通常所说的电子穿过空间能量势垒的量子隧穿有所不同。",
-      "该实验为观察量子世界打开了一扇全景窗口。这种测量方法未来有望用于多种量子材料，为利用光有选择性地调控材料的电子性质开辟全新的可能性。"
-    ],
-    "topics": [
-      "物质与数学",
-      "AI 与计算"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-11/05/content_608245.html",
-      "originalTitle": "石墨烯中超快量子过程实现实时追踪",
-      "publishedAt": "2026-11-05",
-      "retrievedAt": "2026-11-05T01:32:46.097Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-05T01:32:44.508Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Filming the Fastest Race: Electrons Jumping Inside Graphene",
-      "intro": "Scientists have watched, for the first time in real time, electrons leaping between energy bands in graphene. The tunneling probability can reach one hundred percent.",
-      "paragraphs": [
-        "Imagine trying to film a race where the runners cross the finish line in a tiny slice of a second. That is the challenge scientists faced with electrons in graphene. Now a team has pulled it off. They tracked electrons jumping between energy bands as it happened.",
-        "In a solid material, electrons fit into specific energy ranges called energy bands. Normally electrons stay in their own band. But a strong electric field can push an electron across the gap into another band. This is called a Landau–Zener–Majorana transition.",
-        "Ordinary microscopes cannot capture such fast shifts in an electron's energy state. So researchers from the University of Regensburg, the University of Marburg and the Jülich Research Centre combined laser technology with a photoelectron momentum microscope. This instrument records electron energy and motion. It does not magnify images.",
-        "First author Vincent Eggers compared it to a race. He said: 'If you want to know who won, you must observe all participants.' The team used high-purity atomic-level graphene made at Jülich. It included twisted graphene structures. Fewer impurities made quantum motion clearer.",
-        "Under strong light, electrons crossed the gap with tunneling probability up to one hundred percent. Even with a clear energy gap, the transition still occurred at high probability. Electron speed near the gap matters. This process differs from usual spatial quantum tunneling.",
-        "The study appeared in the latest issue of Nature. The experiment opens a panoramic window into the quantum world. The method may apply to other quantum materials. Light could one day selectively control electronic properties."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-05T01:40:07.312Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-05/2026-11-05-ab015b.webp",
-      "alt": "冷灰纸张质感背景上，细线六边形晶格与斜射光束，光斑柔和。",
-      "caption": "光穿过晶格，微观世界的瞬间被捕捉。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-05-d09486",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "从计生到改革开放，中国跨国送养三十年：访国际儿福工作者张雯",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-05",
-    "intro": "这篇访谈的正文被订阅墙截断，能核验的只剩标题、作者、刊登时间、一句引语和一张图片说明，不足以支撑一篇听稿。",
-    "paragraphs": [
-      "本次抓取到的页面里，只有导航、栏目、订阅推广和评论区框架，正文部分被付费墙挡住。可以确认的信息有三项：标题是《從計生到改革開放，中國跨國送養三十年：訪國際兒福工作者張雯》，作者张洪凌，刊登时间是2026年11月5日；此外，文中单独标出一句受访者张雯的引语，并配有一张2005年12月17日在青海西宁孤儿及残障儿童福利院拍摄的照片。",
-      "那句引语是：如果一个体系开始由成年人的收养需要推动，去寻找、分类甚至制造‘可以被收养的孩子’，收养和伤害之间的距离就不远了。这句话本身有分量，但它缺少上下文——张雯是针对哪一段历史、哪些案例、什么材料说这番话的，原文里看不到。",
-      "按照编辑规则，全文抓取失败、或只剩含混摘要时，不生成正式听稿；事实、数字、因果和引语都必须能回到原文核验。仅凭一句引语改写，等于替受访者补出她没说过的话，也替这三十年补出一套没有来源的解释。",
-      "处理建议：这篇候选退稿，等取得全文后重新评估。如果之后拿到完整原文，这个题目本身适合13-16岁听众——它牵涉政策变迁、跨国送养的运作方式和儿童权益，但需要原文提供具体的人、时间与制度细节，才能组织成一条孩子能跟得上的线性叙事。"
-    ],
-    "topics": [
-      "全球时事",
-      "历史"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261105-mainland-international-adoption-in-china/",
-      "originalTitle": "從計生到改革開放，中國跨國送養三十年：訪國際兒福工作者張雯",
-      "publishedAt": "Wed, 04 Nov 2026 23:00:00 GMT",
-      "retrievedAt": "2026-11-05T01:33:22.623Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-05T01:33:20.468Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-05-160-28cfdf",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "世卫组织：采取气候相关健康措施每年有望挽救160万人生命",
-    "category": "living",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-05",
-    "intro": "世界卫生组织发布报告评估六项气候相关健康措施，认为在全球扩大覆盖可同时改善健康、减少排放并带来经济和财政收益。",
-    "paragraphs": [
-      "气候变暖不只影响天气，也会影响人的健康。世界卫生组织于2026年11月4日周三发布报告《气候变化与健康优先行动的全球收益与成本》，首次全面评估了推广六项措施的经济和财政回报。报告指出，这些行动有望带来三重收益：改善健康、减少排放和促进经济发展。世卫组织总干事谭德塞表示，气候危机也是健康危机，但许多危害可以通过现有措施加以预防。在新一轮气候谈判即将举行之际，各国应将保护健康作为气候行动的核心目标。",
-      "这六项措施分别是：建立高温健康预警系统；增强饮用水服务应对气候冲击的能力；提供基本环境卫生服务；改善个人卫生和洗手设施；推广更清洁的烹饪、取暖燃料及技术；以及完善化石燃料定价政策。根据模型预测，在全球扩大这些措施的覆盖范围，每年有望避免160万人死亡，相当于全球死亡总人数的约四十分之一。",
-      "此外，这些措施还可帮助减少167亿吨二氧化碳排放，相当于全球年度温室气体排放量的31%，这一比较不包括土地利用、土地利用变化和林业相关排放。",
-      "报告对其中五项措施进行了投入回报估算，结果显示，每投入1美元，预计可产生约24美元的收益。报告还指出，低收入和中等收入国家预计获益更大，有助于缩小健康和经济差距。其中，高温健康预警系统是所评估措施中成本效益最突出的措施之一，每投入1美元，预计可产生835美元的收益。这类系统能够利用现有设施，以相对较低的成本预防高温相关疾病。",
-      "另外，完善化石燃料定价政策，包括取消低效补贴并对化石燃料适当征税，预计可带来最大的总体收益。此类政策每年有望避免120万人死亡，产生约3万亿美元的经济福利收益和5.4万亿美元的财政收益。2026年，世界各国正面临破纪录的气候冲击。世卫组织呼吁各国政府、发展伙伴和金融机构加大对上述措施的投资，保护公众健康，并促进气候和经济目标的实现。"
-    ],
-    "topics": [
-      "健康与医学",
-      "气候与能源"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "联合国新闻中文",
-      "region": "international",
-      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143127",
-      "originalTitle": "世卫组织：采取气候相关健康措施每年有望挽救160万人生命",
-      "publishedAt": "Wed, 04 Nov 2026 12:00:00 +0000",
-      "retrievedAt": "2026-11-05T01:35:45.074Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-05T01:35:42.991Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 12,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
