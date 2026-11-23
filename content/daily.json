@@ -1,5 +1,232 @@
 [
   {
+    "slug": "2026-11-23-7e0e12",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "植物识破昆虫“偷袭”？水稻抗虫新机制获揭示",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-23",
+    "intro": "稻绿蝽吸食水稻时，其唾液中的T2型核糖核酸酶NVR1降解植物RNA，产生2′,3′-环核苷酸单磷酸（2′,3′-cNMP）；水稻通过RNA结合蛋白NIB1识别该分子，启动免疫防御。",
+    "paragraphs": [
+      "你被蚊子叮了一口，马上伸手拍打——因为皮肤感受到了刺痛和痒。可水稻扎根在土里，不会动、不能喊，怎么对付偷偷趴在叶子上吸汁的稻绿蝽呢？近日，中国科学院院士、中国科学院大学博士生导师陈晓亚团队与国科大博士生导师万里研究团队合作，揭示了植物感知昆虫取食并启动免疫防御的新机制。相关成果发表于国际学术期刊Nature。植物并非被动承受，而是能区分机械损伤与昆虫取食，并利用昆虫取食过程中产生的特殊分子信号启动防御。",
+      "稻绿蝽用细长口针刺进水稻叶片时，会释放含多种消化酶的口腔分泌物，帮助分解植物组织。研究团队从其口腔分泌物中筛选出关键的T2型核糖核酸酶——稻绿蝽核糖核酸酶1（NVR1）。这种酶能够降解RNA，产生2′,3′-环核苷酸单磷酸（2′,3′-cNMP）等核酸降解产物。这些原本伴随着昆虫取食产生的物质，竟能成为植物感知侵害的“预警信号”。",
+      "水稻中的一种富含甘氨酸的RNA结合蛋白——NVR1相互作用RNA结合蛋白1（NIB1），能够直接识别这些核酸降解产物。当信号分子与NIB1结合后，NIB1通过相分离在细胞核内形成凝聚体，并招募植物免疫系统中的关键调节蛋白EDS1。随后，植物体内的防御相关基因表达上调，茉莉酸（JA）、水杨酸（SA）等防御相关激素水平升高，植物抵御昆虫取食的能力也得到增强。",
+      "研究团队在实验中发现，向水稻喷施一种环核苷酸类似物8-Br-2′,3′-cAMP，能够显著增强植物的抗虫能力。这种物质能够模拟植物体内特定的免疫信号，帮助植物启动自身的防御反应。这一效果不仅在实验室条件下得到验证，也在稻田试验中获得了支持，为新型植物免疫诱导剂的开发提供了实验依据。",
+      "研究人员发现，过表达昆虫来源的NVR1或植物自身的NIB1，虽然能够增强水稻的抗虫能力，但也会导致植株分蘖减少，部分植株还出现生长受抑制的现象。陈晓亚指出，这一发现为作物抗虫性改良和农业病虫害绿色防控带来了新的可能。植物与昆虫的博弈，是在长期互作中演化出的精妙平衡。"
+    ],
+    "topics": [
+      "生命与演化",
+      "植物与昆虫"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575137.shtm",
+      "originalTitle": "植物识破昆虫“偷袭”？水稻抗虫新机制获揭示",
+      "publishedAt": "2026-11-22 08:19",
+      "retrievedAt": "2026-11-23T01:51:30.172Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T01:51:27.118Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "Rice Turns a Bug's Spit Into an Alarm",
+      "intro": "Scientists in China have traced how rice detects a stink bug's saliva and turns it into an immune alarm.",
+      "paragraphs": [
+        "A green stink bug lands on a rice leaf. It pushes a needle-like mouthpart into the plant to feed. Its saliva carries digestive enzymes that help it eat. But those enzymes may also give the insect away. Scientists have now found how rice notices this quiet attack.",
+        "Plants cannot run from danger. Yet they can tell a simple tear from an insect bite. The researchers asked what special signal an insect leaves behind. They looked at the bug's saliva. One key enzyme is called NVR1 — rice green stink bug ribonuclease 1. It cuts RNA into small molecules including 2′,3′-cNMP. Those small molecules act as warning signals for the plant.",
+        "Rice has a protein called NIB1 — NVR1-interacting RNA-binding protein 1. NIB1 recognizes those small molecules. Then NIB1 forms condensates via phase separation in the nucleus. This recruits EDS1, a key immune regulator. Defense-related genes are upregulated. Jasmonic acid (JA) and salicylic acid (SA) levels rise. The plant becomes more resistant to insect feeding. NIB1 also enhances NVR1’s catalytic activity, creating a positive feedback loop.",
+        "The team tested a molecule called 8-Br-2′,3′-cAMP. Spraying it on rice significantly enhanced resistance. This effect was confirmed in lab experiments and field trials. It suggests a way to activate a crop’s own defenses. But defense has a cost. Overexpressing NVR1 or NIB1 increased resistance yet reduced tillering and caused growth inhibition in some plants. The study was published in Nature.",
+        "Guo Xiaoxiang was the first author. He said the most memorable moment was confirming that NIB1 recognizes the catalytic product of NVR1. The work combined plant–insect interaction biology, protein function analysis, intracellular phase separation, and immune signaling. Chen Xiaoya often says: 'Plants are smart, and insects are smart.' This study shows both. The bug’s saliva helps it feed. The plant uses that saliva to sound an alarm. A chewed leaf holds a molecular conversation we cannot hear."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T01:58:27.198Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-23/2026-11-23-7e0e12.webp",
+      "alt": "抽象水稻叶片与昆虫口器，内部有断裂RNA链和环状分子线条",
+      "caption": "植物在分子层面识别昆虫唾液信号",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-23-network-researchers-nail-down-theory-of-perfect",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "研究者找齐四种最小网络结构：网络含任一种就无法实现“完美韧性”",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-23",
+    "intro": "一项新证明找齐了四种最小网络结构：只要网络包含其中任一结构，就无法实现‘完美韧性’；若网络不包含这四种结构，则总能设计出本地化路由规则，确保任意非全局中断下的数据包可靠送达。",
+    "paragraphs": [
+      "1969年秋天，洛杉矶的一台计算机向加州门洛帕克的另一台计算机发出了一条历史性的消息。准确地说，只发出了“LOGIN”里的前两个字母“L”和“O”，网络就崩溃了。那是现代互联网的前身阿帕网（ARPANET）的第一条链路。快六十年过去，网络可靠多了，但我们对它的要求也高得多。",
+      "你在网上看电影时，视频数据会被切成一个个很小的数据包，在路由器之间一跳一跳地传到你的电脑。路由器之间的链路有时会坏。视频没有一直卡住，一个重要原因是每台路由器都有一套备用规则：某条链路断了，数据包该往哪儿改道，规则里写着。可如果故障切断了两个点之间的所有通路，数据包当然过不去。研究者关心的是比这好一点的情况：除了这种最坏局面，其他任何链路故障组合，网络都能扛住。这个性质叫‘完美 resilience’。",
+      "难点在于路由器不能慢慢算。算出全局最短路径要掌握整张网络，可能花上几秒；而路由器必须在不到一毫秒内做决定。所以它只能看眼前的信息：数据包要去哪、它从哪条链路来、哪些相邻链路坏了。2012年，Michael Schapira和其他五位研究者正式定义了‘perfect resilience’，并建立数学模型研究其可行性。他们假设路由规则只能依赖三个因素：数据包的目的地、它到达的入口链路、以及哪些邻接链路已失效。在此模型下，他们证明perfect resilience并非总能实现，并构造了一个反例网络：无论怎样设定规则，总存在某种链路故障模式，导致某些数据包陷入循环。",
+      "但那个反例相当复杂。它是罕见的个例，还是说明很多网络都不行？2020年，柏林工业大学的Stefan Schmid和同事把问题接上了数学中‘graph minors’的概念——即通过删节点、删边或合并相邻节点等操作，从原图简化得到的子结构。关键性质是：若一个图具有perfect resilience，则其所有minors也具有perfect resilience。由此，罗伯逊-西摩定理指出：不具perfect resilience的图，必归约到某个有限集合的‘forbidden minors’之一；找出全部forbidden minors，就完全刻画了perfect resilience的可实现条件。",
+      "该定理未给出forbidden minors的数量。合作者Matthias Bentert说：‘We know such a finite set exists,’ but we don’t know, does it contain one or two graphs, or does it contain 100,000 graphs?’ 2020年Schmid团队只找到两个forbidden minors，随后停滞。2025年，Bentert结束在挪威的博士后研究，加入Schmid在柏林的团队。他很快找到第三个forbidden minor；随后尝试反向证明：若网络不含这三个结构，则必具perfect resilience——结果失败，因他发现了第四个。再以同样方法验证不含这四个结构的网络是否总具perfect resilience，这次成功了。最终确认：forbidden minors恰好有且仅有四个。",
+      "未参与这项工作的希伯来大学计算机科学家Michael Schapira评价说：‘It’s a very elegant contribution,’ said Michael Schapira … ‘It’s pretty rare that you get a complete understanding of something.’ Bentert自己也没料到答案这么简单，他说：‘I would have stopped if I reached 50 or so, but that it’s really …’ 四种结构，一纸证明，为持续十余年的追问画上句点。它表明：perfect resilience首先取决于网络本身的拓扑结构——只要不含这四种forbidden minors，就总能设计出满足本地决策约束、且对任意非全局中断故障均鲁棒的转发规则。"
+    ],
+    "topics": [
+      "AI 与计算",
+      "网络科学"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+      "originalTitle": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+      "publishedAt": "Fri, 20 Nov 2026 14:50:41 +0000",
+      "retrievedAt": "2026-11-23T01:53:11.064Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T01:53:03.450Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-23/2026-11-23-network-researchers-nail-down-theory-of-perfect.webp",
+      "alt": "抽象网络节点连线图，四种局部结构以灰色块面标出",
+      "caption": "四种最小结构决定网络的韧性边界",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-23-you-likely-have-genes-that-affect-how-well-your",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "同一种药为什么有人吃了有效有人没效，线索可能藏在基因里",
+    "category": "living",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-23",
+    "intro": "近十万人的基因数据提示，一种药在身体里怎么代谢、能起多大作用，有一部分由我们的DNA决定。",
+    "paragraphs": [
+      "同样一种药、同样的剂量，两个人一起吃：一个人慢慢好转，另一个人却出现副作用，或者几乎看不到效果。医生开药时常常要靠试错。而两个人反应不同的部分原因，就写在我们每个人的DNA里。研究基因与药物关系的学问叫‘药物基因组学’，它关注的是：DNA上的差异，怎样影响身体处理和回应药物。比如，基因可以影响肝脏分解一种药的速度，也能影响这种药在血液里停留多久。",
+      "按理说，如果提前知道这些差异，开药可以更准。但用基因检测来指导处方，目前还不是常规做法。一个原因是缺少足够大的人群数据，让研究者和医生看清这件事在真实人群里到底是什么样；另一个原因是，医生还不太确定，什么时候最值得为病人安排这样的检测。还有一层历史遗留问题：过去的基因研究大多是在欧洲血统的人群中做的，其他人群里那些关键基因变异到底有多常见，研究者知道得要少得多。",
+      "为了补上这块空白，作者所在的团队分析了‘All of Us研究项目’中近10万名参与者的全基因组序列和健康记录。这是美国国立卫生研究院发起的一个项目，计划研究100万或更多美国人及其属地居民的健康状况，并特别关注过去常被生物医学研究漏掉的群体。团队考察了16个与药物反应有明确关联的基因，并将这些基因数据与电子健康记录配对，识别参与者已服用的药物。",
+      "结果发现：每一位参与者都至少携带一个与药物反应相关的遗传变异，许多人携带多个。约99.5%的参与者携带至少一种遗传变异——针对某些药物，美国食品药品监督管理局（FDA）或临床指南建议更换药物或调整剂量。更有说服力的是，约24%的参与者已经服用了受自身所携遗传变异影响的药物。常见例子包括用于减少胃酸的奥美拉唑和泮托拉唑，以及用于降低胆固醇的他汀类药物。由于健康记录可能不完整，实际发生率很可能高于这一比例。",
+      "这项研究还发现了17,704个此前未被报告过的遗传变异，它们位于这16个基因中编码蛋白质的区域。计算机模型预测，其中约四分之一可能显著影响身体处理药物的方式。团队同时报告了数百种与药物反应相关的遗传变异在不同遗传背景人群中的出现频率，填补了此前数据不足的空白。",
+      "需要说明的是，这项研究并未证明对个体开展基因检测就一定能改善其治疗效果。基因只是影响药物反应的因素之一；年龄、肾功能、肝功能以及同时使用的其他药物，也都会影响身体对药物的处理。尽管如此，作者认为方向是明确的：药物基因组学可能为许多用药者带来切实益处。医生开药时那场漫长的试错，也许有一天能少走几步。"
+    ],
+    "topics": [
+      "健康与医学",
+      "心理与情绪"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/",
+      "originalTitle": "You Likely Have Genes That Affect How Well Your Medications Work— Testing for Them Could Improve Treatment",
+      "publishedAt": "Sun, 22 Nov 2026 17:00:00 +0000",
+      "retrievedAt": "2026-11-23T01:54:30.763Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T01:54:28.137Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "Why Medicines Work Differently",
+      "intro": "A new study reported by Nautilus explains how DNA differences can change how people respond to medicines.",
+      "paragraphs": [
+        "Have you ever wondered why the same medicine helps one person but causes side effects in another? Doctors often try one prescription, then another, until something fits. Two people take the same medicine at the same dose. One starts feeling better, but the other experiences side effects or sees little benefit. For some medications, part of the reason behind that difference in response is written in a person’s DNA.",
+        "The field is called pharmacogenomics. It studies how variations in your DNA contribute to how your body processes and responds to medicines. Genes can influence how quickly your liver breaks down a drug and how long it stays in your bloodstream. Moreover, 1 in 4 already take a medication their body processes differently because of their genetics.",
+        "Genetic testing to guide prescriptions is not yet routine. Part of the problem is a lack of large population data to study this approach more broadly. Clinicians don’t know when it’s best to order genetic testing. And because most genetic research has been done on people of European ancestry, researchers know less about how common key gene variants are in everyone else.",
+        "To improve the diversity of pharmacogenomic data, my team analyzed the whole genome sequences and health records of nearly 100,000 participants in the All of Us Research Program. We examined 16 genes with well-established links to how someone responds to different medications. Every participant carried at least one relevant genetic variant, and many carried several. Around 99.5% of participants had a genetic variant for which the Food and Drug Administration or medical guidelines recommend a different drug or change in dose for certain medications. Even more telling, about 24% had taken a drug that is affected by a genetic variant they carried. Common examples included drugs used to reduce excess stomach acid, such as omeprazole and pantoprazole, and statins used to lower cholesterol levels.",
+        "Because health records can be incomplete, our results likely underestimate the actual prevalence of these gene-drug interactions. We identified 17,704 previously unreported variants in the regions of these genes that encode proteins. Computer models predicted that about a quarter may have significant effects on how the body processes drugs. Our team also reported the frequencies of hundreds of genetic variants linked to drug response for people from genetic ancestries that previously had incomplete data.",
+        "Overall, our research shows that DNA variation is very common, and broader genetic testing may help optimize the medications clinicians prescribe to patients. However, this study doesn’t prove testing would improve outcomes for each of these people. Additionally, genes are only one factor; age, kidney and liver function, and other medications also affect how the body processes drugs. Still, I believe the direction of the research is clear. Pharmacogenomics can provide potentially relevant benefits for many people who take medications."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T02:00:46.449Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 27,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-23-0a3cf9",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "浙大团队为钙钛矿稳定性难题提供新思路",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-23",
+    "intro": "中新网教育频道报道，浙江大学一支团队针对钙钛矿材料的稳定性难题提出了一种新思路。",
+    "paragraphs": [
+      "中国新闻网教育频道报道，浙江大学一支团队为钙钛矿材料的稳定性难题提供了一种新思路。",
+      "钙钛矿是一类在光伏与光电子领域备受关注的材料，其稳定性问题长期制约实际应用。",
+      "稳定性难题关注的是材料能否在真实环境中长期保持性能，而非仅在实验室条件下实现功能。"
+    ],
+    "topics": [
+      "材料科学",
+      "能源技术"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网教育",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-20/10735363.shtml",
+      "originalTitle": "浙大团队为钙钛矿稳定性难题提供新思路",
+      "publishedAt": "Fri, 20 Nov 2026 17:57:05 +0800",
+      "retrievedAt": "2026-11-23T01:57:39.822Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-23T01:57:38.287Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-22-0b3c52",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "零下几十摄氏度，机器人将在哈尔滨冰面自己看路、自己决定",
@@ -3200,258 +3427,6 @@
         "correctionCount": 8,
         "attempts": 2
       }
-    }
-  },
-  {
-    "slug": "2026-11-07-nature-5beb9c",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一篇Nature论文背后的师生署名之争",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-07",
-    "intro": "一项合成六氮分子N6的研究登上Nature后，第一作者钱伟煜与导师Peter R. Schreiner对通讯作者归属各执一词：一方称自己独立构思、实验并完成初稿，却被排除在通讯作者之外；另一方称署名安排经全体作者确认，符合出版规范与实际贡献。",
-    "paragraphs": [
-      "2025年6月11日，德国吉森大学博士生钱伟煜以第一作者身份在Nature发表论文，报道制备出仅由6个氮原子构成的中性分子N6。美国南加州大学多氮化合物领域权威专家Karl Christe评价：‘这项研究令人惊叹，在我看来完全值得获得诺贝尔奖。’这本该是高光时刻。可钱伟煜说，从署名争执爆发到论文发表的那段日子，是他‘将近30年的人生中最难受的时期’。矛头指向论文的第一通讯作者——他的导师、曾任德国化学学会主席的Peter R. Schreiner。",
-      "钱伟煜说，自己2021年到德国吉森大学读博，工资由青年研究员Artur Mardyukov的项目支出，实际由Artur指导；四年间在实验室只见过Peter四次，两次是让他帮忙买面纸，另两次是媒体采访。2023年10月，他提出合成全氮分子的构想，Peter回应：‘我不相信它能够成功，但是你想做就去做吧。’连购买1200欧元氯气的申请也被Peter和Artur共同拒绝。他最终使用其他课题组遗留的陈年氯气开展实验。他独立构思项目核心想法并设计实验方案，2024年1月首次观察到未知光谱信号，3月获得可重复结果。初稿中他是第一作者，Artur是通讯作者，Peter是普通第二作者；但Peter在审阅时将自己改为第一通讯作者，并修改作者贡献声明，称‘所有人构思了该项目’。钱伟煜去办公室争取署名，被要求‘滚出我的办公室’。他告诉《中国科学报》，这是一起典型的学术霸凌。",
-      "Schreiner在书面答复中给出另一版本。他否认曾以‘只有永久教职人员才能担任通讯作者’为由回绝钱伟煜，坚称项目由三人共同构思，署名在首次投稿时即已确定，此后从未改动。他承认曾请钱伟煜离开办公室，理由是对方‘言行与语气带有不敬’；并质疑钱伟煜的实验记录本有大量空白页，‘没有任何记录能够证明成功制备出N6’。Schreiner主动将争议提交给吉森大学副科研诚信监察员，后者评估认为：‘Schreiner一方的陈述逻辑自洽；投稿之前钱博士就已经被告知通讯作者人选；现有材料不足以支持钱博士独立主张通讯作者身份。’",
-      "争议的核心在于通讯作者的定义与归属依据。Schreiner援引Nature期刊定义：‘通讯作者负责稿件的投稿、同行评审以及出版全流程相关事宜’，并指出其职责还包括‘确保所有共同作者认可稿件内容’‘长期稳定接收沟通问询’，因此通常由在职状态稳定、隶属于研究机构的资深研究者担任；而‘第一作者一般为论文的主要贡献者’。据此，团队确定钱伟煜为第一作者，Artur Mardyukov与Schreiner共同担任通讯作者。该署名设置于2024年9月18日Nature首次投稿版本即已确定，后续修订版与2025年5月23日校样版均未改动。",
-      "钱伟煜还指出，2023年9月，150名德国教授联名发布公开信《德国学术体系结构实为权力滥用之温床》，指出终身教职制度使教授成为‘无法罢免的学术君主’，学术雇员面临生存压力，教授同时掌控科研经费、设备使用权和人事任免权，导致权力缺乏制衡。他坦言：‘可悲的是，3年过去了，这种乱象并没有改观。’论文已于2025年6月11日发表，署名已成定局。但关于谁真正主导了这项开创性工作——从最初构想到实验突破、数据验证与论文撰写——双方说法仍无交集。对听众而言，这件事留下的问题或许比一个名字更沉重：当科研中的权力、资源与贡献不对称时，规则是否真能被看见、被遵循、被捍卫？"
-    ],
-    "topics": [
-      "学术署名",
-      "科研伦理",
-      "Nature论文"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574321.shtm",
-      "originalTitle": "一篇Nature论文背后的师生署名之争",
-      "publishedAt": "2026-11-06 20:41",
-      "retrievedAt": "2026-11-07T01:10:25.319Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:10:23.788Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Authorship Fight Behind a Nature Paper",
-      "intro": "A China Science Daily report describes a public dispute over credit for a Nature paper about a six-nitrogen molecule.",
-      "paragraphs": [
-        "In June 2025, PhD student Qian Weiyu of the University of Giessen published a paper in Nature. It reported the preparation of a neutral molecule made only of six nitrogen atoms: N6. Karl Christe, a leading expert in polynitrogen compounds at the University of Southern California, called the work 'astonishing' and said 'in my view it fully deserves a Nobel Prize.'",
-        "Qian Weiyu was the first author. He says he conceived the core idea in October 2023, designed the experiment, and obtained the first spectral signal in January 2024. He says his supervisor, Peter R. Schreiner, doubted the project would succeed, visited the lab only four times in four years, and refused to approve essential reagents. After success was confirmed in March 2024, Qian says Schreiner changed himself to first corresponding author without consent and dismissed him from his office when he objected.",
-        "Schreiner denies Qian’s account. He states the project was jointly conceived by Qian, Artur Mardyukov, and himself. He says the author order—including himself as first corresponding author—was fixed in the initial ChemRxiv submission on August 19, 2024, and unchanged thereafter. He says he asked Qian to leave his office due to disrespectful tone, and notes Qian’s lab notebook contains many blank pages with no record proving N6 synthesis.",
-        "Schreiner submitted the dispute to Giessen University’s deputy research integrity officer. The officer concluded existing materials were insufficient to support Qian’s independent claim to corresponding authorship. The officer noted Schreiner’s version was logically consistent and that Qian had been informed of the author list before submission. The article presents both accounts and leaves judgment to readers.",
-        "The case highlights broader concerns about academic power. In September 2023, 150 German professors signed an open letter titled 'The German Academic System Is Structurally a Breeding Ground for Abuse of Power.' They warned that lifetime professorships create unaccountable 'academic monarchs,' leaving early-career researchers vulnerable and silent."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:12:39.113Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-07-daad26",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "重归冬牧场：一部田野笔记的二十年回响",
-    "category": "humanities",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-07",
-    "intro": "中新网文化的一篇报道，聚焦李娟《冬牧场》这部田野笔记——二十年后，它为何仍被重提、重读、重思。",
-    "paragraphs": [
-      "一本写冬牧场的田野笔记，为什么二十年后还会被想起？中新网文化这篇报道的标题里，“重归”和“回响”两个词，把时间拉成了一条线：一头是当年在牧场上的记录，另一头是二十年后的重新提起。",
-      "田野笔记不是坐在书房里凭想象写出来的文章，而是人走到现场，在一个地方待下来，跟着当地人一起过日子，把看到的、听到的、问到的都记下来。柴火怎么劈，牲畜怎么放，冬天怎么熬过去，邻里之间怎么来往，这些琐碎的日常就是它的材料。",
-      "田野笔记的价值常常是往后才显出来的。一种生活方式变化得快，当年的记录就会慢慢变成证据：那些日子到底是怎么过的，后来可能只有在文字里才找得到。它保存下来的还是一个个具体的人，而不是一串统计数字。",
-      "报道用“重归”来形容这次回望，说明好记录不怕放。真正耐读的东西，往往不是当时最响的那一篇，而是愿意慢下来、把日子看清楚的那一本。二十年后还有人愿意回头翻开它，这本身就是对写作者最大的回应。",
-      "冬牧场会一年一年地迎来冬天，而写下来的文字，能让那些冬天不被轻易忘掉。"
-    ],
-    "topics": [
-      "历史",
-      "阅读与写作"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网文化",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/cul/2026/11-06/10727665.shtml",
-      "originalTitle": "重归冬牧场：一部田野笔记的二十年回响",
-      "publishedAt": "Fri, 6 Nov 2026 23:18:28 +0800",
-      "retrievedAt": "2026-11-07T01:11:54.224Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:11:52.263Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Return to the Winter Pasture: A Field Notebook's Twenty-Year Echo",
-      "intro": "A writer goes back to a winter pasture two decades later, and asks what a notebook can hold.",
-      "paragraphs": [
-        "Twenty years is a long time to keep one notebook. The culture desk of China News Service recently published a piece with a title that already tells a story. It reads: Return to the Winter Pasture, a field notebook's twenty-year echo.",
-        "So what is a field notebook? It is not a diary kept at a desk at the end of the day. It is written where things actually happen, outdoors, in wind and cold, among animals and people. Notes taken on the spot later become evidence you can check.",
-        "And why say return? Because going back to the same place after twenty years lets a writer compare. Memory alone quietly drifts and softens. A written page stays fixed where it was. Change becomes visible when old notes meet new eyes.",
-        "Winter is the season that tests anyone living off the land. Grass is scarce, weather is harsh, and daily work takes longer. A notebook kept there records small, ordinary things. Years later, those small things add up to a picture of how life shifted.",
-        "The title carries one more idea worth sitting with. Some stories cannot be told in a day or a single visit. They need decades of looking, and someone willing to come back. A notebook is really a promise to return."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:13:04.221Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-07/2026-11-07-daad26.webp",
-      "alt": "冷灰纸面上摊开的空白笔记本、铅笔与干草，远处有低矮屋影。",
-      "caption": "二十年后再翻开，牧场仍在纸页间。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-06-c9cfab",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "我国科学家造出已知最冷人造物质",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-06",
-    "intro": "在中国空间站梦天舱的超冷原子物理实验柜中，科研团队将铷原子云冷却至9.7皮开尔文，制备出目前已知最冷的人造物质。",
-    "paragraphs": [
-      "今天（11月6日），中国科学院空间应用工程与技术中心发布中国空间站最新科研成果。我国科研团队利用中国空间站梦天舱的超冷原子物理实验柜，制造出已知最冷人造物质，刷新人类最低温物质纪录，朝着绝对零度再进一步。该研究成果今天在国际学术期刊《科学》发表。",
-      "在本次探索极低温实验中，科研团队利用全光阱冷却技术，成功将中国空间站超冷原子实验柜中的铷原子云等效温度降至9.7皮开尔文，这是室温下物质温度的约一百万亿分之一，并持续观测了7秒。这比2021年德国科研团队创造的铷原子云等效温度38皮开尔文要更加接近绝对零度，制备出目前已知最冷人造物质。",
-      "在地球上做类似实验最大阻碍就是重力，重力会拉着原子往下掉，使其很难充分降温。而中国空间站微重力环境里，原子可以悬浮起来，不用很强的外力束缚就能冷却到更低温度。我国科研团队正是利用这一优势，从地面远程操控空间站超冷原子实验柜的设备，实现了这一基础研究领域的重要突破。",
-      "绝对零度，即零下273.15摄氏度，是宇宙里最低温度的下限。按照热力学第三定律，人类只能无限接近它，却永远无法真正达到。常温下，原子会不停地碰撞、振动，做着无规则热运动。但是科学家发现，当温度不断降低时，原子的运动会逐渐减慢，温度降低到接近温度的下限——绝对零度，零下273.15摄氏度，也就是0开尔文时，原子才会被“冻”到几乎静止。温度越低，原子运动速度就越慢，当原子慢到一定程度，就会涌现出很多奇妙的物理现象，帮助科学家看清微观世界里平时难以捕捉的规律。",
-      "中国空间站超冷原子物理实验柜2022年研制成功，并随梦天舱运送至中国空间站。超冷原子物理实验柜既是一台“超级冰箱”，同时又是一个前沿科学“微型实验室”。在这里，金属铷先经过加热蒸发、释放出铷蒸汽，借助磁光阱、光学黏团技术对蒸汽中的铷原子进行初步冷却，再利用两级交叉光阱技术进行蒸发冷却和深度冷却。我国科研团队历经多年艰苦攻关，攻克超高真空环境获取、高功率光纤激光器研制等一系列关键技术，把原本地面上20立方米、重达10吨的实验系统，集成压缩至0.7立方米、500公斤，相当于把一间屋子大小的实验装置装进了冰箱大小的空间里。",
-      "我国科研团队这项新突破将有力推动早期宇宙模拟、超轻暗物质探测等前沿课题的研究，同时相关技术也可用于研制更高精度的原子干涉仪、量子传感器和空间原子钟，服务于地球微重力测量、惯性导航以及基本物理常数检验。"
-    ],
-    "topics": [
-      "物质与数学",
-      "航天与宇宙"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574295.shtm",
-      "originalTitle": "我国科学家造出已知最冷人造物质",
-      "publishedAt": "2026-11-06 07:44",
-      "retrievedAt": "2026-11-06T01:38:13.868Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-06T01:38:11.426Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "A Record Cold Made in Space",
-      "intro": "Chinese scientists have created the coldest artificial material ever recorded, using a special lab on the China Space Station.",
-      "paragraphs": [
-        "What is the coldest thing humans have ever made? A new answer comes from a laboratory orbiting Earth. Chinese scientists cooled a cloud of rubidium atoms to a record low temperature using the ultracold atom physics experimental cabinet on the China Space Station. The result was published in the journal Science today (November 6, 2026).",
-        "The team cooled rubidium atoms to an equivalent temperature of 9.7 picokelvin. That is about one hundred trillionth of room temperature. They observed the atom cloud for 7 seconds. This is colder than the 38 picokelvin record set by a German team in 2021 with rubidium atoms. It is the coldest artificial substance known to date.",
-        "On Earth, gravity pulls atoms downward, making full cooling difficult. In the microgravity environment of the China Space Station, atoms can float without strong external confinement. This allows deeper cooling. Scientists operated the experimental cabinet remotely from the ground.",
-        "The ultracold atom physics experimental cabinet was developed in 2022 and launched aboard the Mengtian module. It functions as both a 'super refrigerator' and a frontier science 'miniature laboratory'. Rubidium metal is first heated to produce vapor. Then magnetic-optical trapping and optical molasses cool the atoms preliminarily. Finally, two-stage crossed optical dipole traps perform evaporative and deep cooling.",
-        "Absolute zero is minus 273.15 degrees Celsius — the theoretical lower limit of temperature. According to the third law of thermodynamics, it can only be approached, never reached. As temperature drops, atomic motion slows. Near absolute zero, atoms nearly stop moving, revealing quantum phenomena that help scientists uncover hidden rules of the microscopic world.",
-        "This breakthrough will advance research on early universe simulation and ultralight dark matter detection. Related technologies may improve atomic interferometers, quantum sensors, and space atomic clocks — supporting high-precision Earth microgravity measurement, inertial navigation, and fundamental physical constant tests."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-06T01:47:53.760Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-06/2026-11-06-c9cfab.webp",
-      "alt": "抽象玻璃腔体中悬浮一小团点阵状雾状原子云，周围有细弧线。",
-      "caption": "冷却到极致的原子云，安静地悬在腔体里。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-06-static-electricity-remains-shockingly-mysterious",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "静电很常见，科学家却还没弄懂它怎样产生",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-06",
-    "intro": "从一只猫粘满泡沫颗粒说起，静电每天都在身边出现，但它最基础的细节仍让科学家困惑。",
-    "paragraphs": [
-      "一只叫库珀的猫跳进装满泡沫包装颗粒的纸箱，出来时从头到尾粘满了颗粒。主人把它拉出来，拍下照片，后来这张照片进了维基百科，还出现在教科书和大学课堂里。科学家常用这个例子解释静电：猫毛和泡沫颗粒摩擦，交换了电荷，猫毛带上正电，泡沫颗粒带上负电，异种电荷相吸，颗粒就粘在猫身上。气球在头发上摩擦也类似，气球带负电，头发带正电，头发之间同种电荷相斥，于是蓬乱地翘起来。电荷积累太多，再摸门把手，就可能突然被电一下。",
-      "科学家已经有一些基本共识。两个物体接触或摩擦时，会交换电荷。电荷来自电子和质子，电子带负电，质子带正电。物体里电子和质子数量相等时，整体不带电；一接触，电荷平衡就发生变化。实验还给出一个叫摩擦电序列的排序，某些材料像气球乳胶，容易带负电；另一些像头发，容易带正电。这个序列能预测两种材料接触后，正负电荷往哪边走。但再往下追问，问题就来了。",
-      "通常说电流，是电子在电路里移动。静电却不一样，它发生在物体表面非常薄的一层。猫毛和泡沫颗粒接触时，到底是电子移动了，还是带电的原子或分子，也就是离子移动了，还是更大块的猫毛或泡沫带着电荷移动了？在大多数静电现象里，科学家并不知道哪个答案正确。甚至教科书也可能画错，把电荷移动简单标成电子。研究起来也很难，因为带电的地方非常稀少。假如把自己缩到原子大小，沿着带电材料表面走，大约每十万个原子才碰上一个多余或缺失的电子。研究者说，要追踪这么少数的东西，正是困难所在。",
-      "摩擦电序列本身也有未解的问题。它把猫毛排在泡沫颗粒上面，所以预测猫毛带正电、颗粒带负电。但没人知道这些材料为什么按这个顺序排列，也没人知道究竟是什么让一种材料更容易带正电或负电。这个序列还不能解释，为什么两个完全相同的物体接触也会带电。静电研究几乎和科学本身一样古老，哲学家柏拉图在大约公元前360年就写过它。有物理学家说，它这么古老，我们却仍弄不明白，这很有诗意。",
-      "静电塑造着我们的世界。它引发闪电，增强沙尘暴，帮花粉粘在蜜蜂和蝴蝶身上。在早期太阳系里，尘埃颗粒碰撞后会带电，科学家认为，静电力可能帮助它们粘在一起，最终形成行星。静电也会造成麻烦，它点燃火灾，干扰制造，烧坏精密电子电路。到了太空，湿度低，重力弱，静电力显得更重要。带电的月尘可能粘在月球车车轮或太阳能板上，宇航员在月尘上走动也可能带电，不小心电到敏感设备，或者把月尘带进航天器。美国航空航天局因此很重视研究静电。猫身上的泡沫颗粒只是小麻烦，但它指向一个每天都在发生、却仍藏着许多谜的问题。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/static-electricity-shock-mysterious",
-      "originalTitle": "Static electricity remains shockingly mysterious",
-      "publishedAt": "Thu, 05 Nov 2026 11:30:00 +0000",
-      "retrievedAt": "2026-11-06T01:39:36.334Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-06T01:39:31.341Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 65,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-06/2026-11-06-static-electricity-remains-shockingly-mysterious.webp",
-      "alt": "深灰毛绒轮廓旁，浅色小颗粒被细弧线牵引悬浮。",
-      "caption": "看不见的力，让轻小的颗粒自己靠过来。",
-      "kind": "editorial"
     }
   }
 ]
