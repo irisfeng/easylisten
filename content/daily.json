@@ -1,5 +1,125 @@
 [
   {
+    "slug": "2026-11-24-the-incredible-elegant-dna-repair-system-makes-g",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "DNA每天都会损坏，细胞自带的修复系统让基因编辑成为可能",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-24",
+    "intro": "DNA是生命的说明书，却是一本天天摊在灶台上、天天被弄脏的说明书，细胞必须一边使用它，一边修补它。",
+    "paragraphs": [
+      "如果把DNA想成一本菜谱，它绝不是锁在玻璃柜里的珍藏本，而是摊在厨房台面上、一日三餐都要翻的那一本。油点会溅上去，纸页甚至会被撕破。细胞里的DNA正是如此。它装着建造一个细胞、维持一个身体所需要的全部信息，却一直暴露在伤害之中。科隆大学的分子生物学家比约恩·舒马赫估计，有些细胞一天之内会经历多达十万次DNA损伤。他说：‘DNA损伤 occurs all the time’；‘Damage to the DNA is the default’。",
+      "要理解DNA为什么这么容易受伤，得先看它的结构。大部分DNA被紧紧缠在蛋白质上，打包成染色体。如果把双螺旋解开，你会看到一架由核苷酸搭成的梯子。四种核苷酸分别写作A、T、G、C，一条链上的每个字母，在对面那条链上都有一个固定的搭档，A配T，G配C。梯子的横档靠相对微弱、可以拆开的化学键连在一起，所以双螺旋能像拉链一样打开又合上。酶要读它、复制它，必须真的伸出手去碰它、改它。萨塞克斯大学的分子生物学家佩妮·耶戈说：‘DNA has all that clever structure to it, to enable it to come apart and replicate’；‘a consequence of [that structure] is that it’s sensitive to damage, and unlike proteins or RNA, it actually matters if it gets damaged’。纪念斯隆-凯特琳癌症中心的玛丽亚·亚辛说：‘DNA is a working molecule’；‘so just by its nature, DNA is going to be subject to chemical forces that will modify it’。",
+      "针对不同程度的损伤，细胞有不同的修法。如果只是某一个碱基出了问题，酶会把这个坏掉的分子从链上取下来，换上一个完好的，这叫碱基切除修复。如果紫外线或者致癌化学物质让相邻的两个碱基粘在一起，DNA骨架鼓起一块，酶就会剪掉这一小段，再照着对面那条互补链把缺口补上，这叫核苷酸切除修复。",
+      "最严重的一种是双链断裂。两条链同时断开，基因组被切成两截，两边的信息都可能丢失。这时细胞会启动一整套损伤应答，由五百多种蛋白质组成的网络先赶去稳住断口，同时暂时叫停DNA复制和RNA转录，免得细胞照着错误的代码干活。实在危险时，细胞宁可选择自我毁灭，也不愿把严重的突变传下去。不过大多数断裂还是能修好，靠的是两条主要路径。一条叫非同源末端连接，简单直接，人体细胞用得更多：把断口清理干净、修齐，然后接回去。代价是会永久丢掉一些核苷酸，也可能因此产生突变。另一条叫同源重组，精确得多，但只在细胞分裂的那个短暂窗口里可用。那时DNA已经复制完毕，细胞还没分开，细胞核里每条染色体都有两个一模一样的副本，也就是姐妹染色单体。如果断裂正好发生在这段时间，丢失的代码可以从没损坏的那一份里照抄回来。耶戈形容说：‘One is beautiful in its simplicity’；‘the other one is just as beautiful or elegant in its complexity’。",
+      "同源重组的精确程度高到科学家直接把它拿来用。1994年，亚辛的团队在小鼠基因组里故意制造了一处双链断裂，同时送进一段带着新基因的DNA，两端的序列专门设计成能引导细胞用同源重组把它缝进去。结果新基因确实被装进了断裂发生的位置。原文明确指出：‘In 1994, Maria Jasin’s team first showed that intentionally introducing a double-strand break could compel DNA to repair the injury with an introduced gene sequence’；‘Indeed, the new gene was added to the existing DNA sequence right where the strand had been broken’。基因编辑之所以行得通，并不是因为人类凭空造出了一把剪刀，而是因为细胞本来就有识别损伤、剪掉坏处、再补上新代码的本事。今天用来研究基因功能、尝试治疗遗传病的编辑技术，都建立在这套天然机制之上。",
+      "回到那本菜谱。溅上的汤汁可以擦掉，撕破的纸页可以粘回去，有时候一抹污渍遮住了某个奇怪的配料，反而让这道菜变得更好。四亿年来，生命就是靠这套修补机制，把同一份说明书一代代传了下来。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Quanta Magazine",
+      "region": "international",
+      "url": "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/",
+      "originalTitle": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
+      "publishedAt": "Mon, 23 Nov 2026 15:27:11 +0000",
+      "retrievedAt": "2026-11-24T05:26:33.409Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-24T05:26:29.260Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "DNA's Repair Crew Makes Gene Editing Possible",
+      "intro": "Today we look at why DNA needs constant repair and how those natural repair tools make gene editing possible.",
+      "paragraphs": [
+        "Imagine a cookbook that is always open in a busy kitchen. It gets splattered, and sometimes a page tears. DNA is a little like that. It holds the instructions for life, but it is not locked away. Cells must open and use it all the time. That makes DNA vulnerable to damage from cell chemistry, sunlight, X-rays, alcohol, and pesticides.",
+        "Molecular biologist Björn Schumacher estimates that some cells suffer up to 100,000 DNA damage events each day. He calls damage the default. A small injury can change a base in the DNA code. Worse, a double-strand break can cut the DNA molecule in two. Such damage can make cells malfunction, die, or become cancerous.",
+        "Cells fight back with repair systems that recognize and replace faulty DNA. Schumacher says stable genetic information cannot exist without DNA repair. For a single damaged base, enzymes remove the bad piece and put in a healthy one. For bulky distortions, enzymes cut out a larger chunk and use the opposite strand as a template. These processes are called base excision repair and nucleotide excision repair.",
+        "A double-strand break is the most serious injury. It can cause a dangerous loss of information. The cell sends in a network of more than 500 proteins. They stabilize the broken ends and pause DNA copying and reading. Cells can repair most breaks in two main ways. One is simpler and more common in human cells, though it may lose a few nucleotides. The other is more accurate and uses an identical sister copy during cell division.",
+        "The accurate pathway is called homologous recombination. In 1994, Maria Jasin's team tested it in mice. They made a deliberate double-strand break and supplied a new gene. The cell stitched the gene into the broken spot. That showed scientists could use natural repair for gene editing. Today, gene editing still depends on the elegant repair systems that keep life going."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-24T05:32:00.789Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 0,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-24/2026-11-24-the-incredible-elegant-dna-repair-system-makes-g.webp",
+      "alt": "摊开的旧书与修补工具，纸张质感冷灰插图",
+      "caption": "一边使用，一边修补。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-24-1c7b84",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "小城肇庆接连办大赛，如何算好“办赛账”",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-24",
+    "intro": "一个周末里，高台跳水世界杯、三项国家级轮滑赛和国足比赛接连上演，肇庆把“办赛账”算到了赛场之外。",
+    "paragraphs": [
+      "11月21日至22日，世界泳联高台跳水世界杯在肇庆举行，来自17个国家和地区的运动员凌空腾跃、挑战极限；同一周末，近2000名轮滑运动员在此角逐三项国家级轮滑赛；几天前，中国男足也是在这里对阵马来西亚和巴林队。接下来，肇庆马拉松、亚洲柔道公开赛还将陆续开赛……诸多高水平体育赛事，接连落地位于粤港澳大湾区西北角的肇庆。这座三线小城，怎么算好这笔“办赛账”？",
+      "近年来，借承办省运会、十五运会等重大赛事之机，肇庆加大场馆建设与改造力度，一批高标准场馆相继投用。其中，2018年竣工的肇庆新区体育中心专业足球场不设田径跑道，成为广东首座专业足球场。专业场地叠加适宜气候，肇庆进入国家队视野。2025年1月，中国女足把年度首期集训放在肇庆；今年1月，中国男足新帅邵佳一上任后的首训也来到这里。截至目前，这片场地先后承接5批次国家队集训。11月的肇庆国际足球邀请赛上，有解说员评价——球迷离球场很近，气氛火爆。",
+      "赛事落幕，场馆不闲。越来越多改造升级后的场馆向市民开放。如今年9月起，位于中心城区的市体育中心体育馆、体育场启动常态化免费、低收费开放。肇庆市文广旅体局副局长刘慧表示，高水平赛事的建设投入，正转化为市民触手可及的健身福利。",
+      "另外，当地在“赛事+”上持续发力，每逢大型赛事开赛前，肇庆多部门联动景区、酒店、餐饮、交通等经营主体推出专属优惠，让观众凭一张票根游一座城。以肇庆国际足球邀请赛为例，球迷凭赛事票根可享七星岩、鼎湖山首道门票5折优惠，以及全市合作酒店专属折扣、特色餐饮礼遇等。对许多省外观众来说，肇庆也许本非旅游首选地，高水平比赛成了他们认识这里的窗口。安徽的张先生表示：“趁着秋假带孩子专程来看国足比赛，顺道打卡山水风光。”湖南球迷丁女士说：“对七星岩印象最深的是一大片落羽杉林，感觉很美。”广东省城市篮球联赛（“粤BA”）、城市足球超级联赛（“粤超”）肇庆队主场比赛期间，当地开通高铁站至赛场的接驳专线，方便周边城市球迷“一下高铁，直奔赛场”，并推出凭赛事票根免费乘坐城区公交、指定时段五折打车等优惠。观众拿着低至8.8元的门票，衔接各类票根优惠，进景区、进街区、进商圈，因赛而来、为景而留。数据显示，截至10月31日，“粤BA”“粤超”联赛期间，通过免票政策进入星湖景区的游客超20万人次，并有效带动景区二次消费。",
+      "“高端赛事引领、特色赛事支撑、基层赛事筑底”，三级赛事体系，让当地市民既能在家门口欣赏高水平比赛，也能参与群众赛事。而随着篮球场、羽毛球场、网球场、匹克球场、五人制足球场等各类公共健身场地陆续投用，“15分钟健身圈”逐渐成形，越来越多人在家门口动起来。",
+      "体育的带动不止于赛场。贵州“村超”全国赛上，来自肇庆的草根球队高要金利诚峻队2025年、2026年两度夺得总冠军。主教练黄友彬说，政府、热心企业和球迷都很支持球队，是一座城、一条心做一件事。“好五金，金利造”随球衣广告曝光，区域五金产业品牌知名度更响亮。当地还与贵州榕江探索“东部制造+西部品牌”合作，开发联名五金工具和体育装备，把赛事关注度引向产业端。在肇庆高新区，一条“制造企业办赛事、赛事反哺制造”的路径也逐步打通。落户在此的广东库旺运动用品有限公司专注生产轮滑鞋等产品，围绕主业，企业携手当地升级轮滑场馆，承办国际级和国家级轮滑赛事，并签约建设国际轮滑中心，重点布局轮滑球训练与赛事承办。赛事带来的关注度，让更多群众关注轮滑、参与轮滑，促进装备销售增长，赛场热度回流制造端。以竞技扬名、以健身惠民、以赛事营城。这座岭南小城正在擦亮“粤港澳大湾区运动之城”的新名片。"
+    ],
+    "topics": [
+      "城市与公共",
+      "体育"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261124/8d13063891ae4dc1922cc2e3bbd66214/c.html",
+      "originalTitle": "大赛接连落地 小城肇庆如何算好“办赛账”",
+      "publishedAt": "2026-11-24T09:24:44+08:00",
+      "retrievedAt": "2026-11-24T05:28:52.790Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-24T05:28:48.176Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-24/2026-11-24-1c7b84.webp",
+      "alt": "抽象城市街区与体育场几何轮廓插图",
+      "caption": "赛场之外，另有一本账。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-11-23-7e0e12",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "植物识破昆虫“偷袭”？水稻抗虫新机制获揭示",
@@ -3333,99 +3453,6 @@
         "evidenceCount": 5,
         "correctionCount": 8,
         "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-07-a-strange-quantum-theorem-has-killed-einstein-s",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "爱因斯坦相信的“现实”，为什么被量子定理排除了",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-07",
-    "intro": "从爱因斯坦到贝尔，再到PBR定理，物理学家一步步发现：量子力学与我们熟悉的日常现实并不相容。",
-    "paragraphs": [
-      "婴儿很早就会明白：大人用手遮住脸，并不是消失了。这种理解被称为‘客体永久性’。它一般在不到一岁内形成，表明婴儿意识到——世界中存在比我们感知更多的东西。这暗示，或至少对爱因斯坦而言意味着：世界是‘真实’的——一个红球即使在黑暗里、即使没人看，它的红色也属于球本身，而不属于测量仪器，也不属于操作仪器的人。",
-      "可量子力学给出的却是一套概率。测量一个球之前，波函数只能告诉你：它有77%的可能是红色，23%的可能是绿色。量子力学的一些创始人因此认为，在某种意义上，并不存在一个单一、客观的现实。1935年，爱因斯坦提出著名思想实验反对这种解释；1964年，贝尔又用思想实验证明，现实必须比爱因斯坦设想的更奇怪。后续实验验证了贝尔。",
-      "爱因斯坦和波多尔斯基、罗森提出的EPR思想实验，让两个粒子相互作用，之后测量其中一个走了多远，就能知道另一个走了多远。他们论证：另一个粒子的位置既然可以被知道，就应当是真实存在的；它的动量也一样。可波函数不允许一个物体同时拥有确定的位置和动量。于是他们得出结论：波函数并不反映粒子的真实状态，量子态不是实在的。这个论证依赖两个假设：粒子有真实状态，即‘实在性’；这个状态只存在于粒子内部，只能通过与粒子相互作用来改变，即‘定域性’。玻尔随后质疑第一个假设，他说‘不存在量子世界，只有抽象的量子物理描述’。这就是哥本哈根解释。",
-      "贝尔之后50年，当时在帝国理工学院读研究生的马修·普西，与乔纳森·巴雷特、特里·鲁道夫一起提出了PBR定理。普西原本并不是要给爱因斯坦的现实观致命一击。2012年PBR发表后，许多理论物理学家逐渐接受：它排除了我们对现实最常识的理解。物理学家皮纳尔回忆，PBR一出来大家就知道它会是里程碑；他当时意识到，沿着爱因斯坦思路的那套研究纲领已经死了。",
-      "三个定理连起来，证明量子力学与我们感知的世界并不相容。实验又一再确认量子力学成立，包括最近对PBR的一次实现。于是，总得有什么关于现实的想法被放弃。剩下的问题是：我们到底要放弃多少？"
-    ],
-    "topics": [
-      "物质与数学",
-      "脑与认知"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Quanta Magazine",
-      "region": "international",
-      "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
-      "originalTitle": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
-      "publishedAt": "Fri, 06 Nov 2026 15:48:54 +0000",
-      "retrievedAt": "2026-11-07T01:03:50.191Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:03:46.230Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-07/2026-11-07-a-strange-quantum-theorem-has-killed-einstein-s.webp",
-      "alt": "冷灰纸面上，一枚半透明棱镜将光线散成波纹，旁有空白圆环。",
-      "caption": "光穿过棱镜，现实不再唯一。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-07-89e1c9",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一年内两起重大事故，西班牙「高铁奇迹」为何失速？",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-07",
-    "intro": "十个月内两起重大事故、逾110人罹难，还有数十人下落不明——西班牙引以为傲的高铁网正被重新追问：这是偶发的故障？还是系统性的沉疴？",
-    "paragraphs": [
-      "10月28日早上，西班牙发生了本国历史上伤亡最惨重的高铁事故。一列从马德里开往塞维亚的 Renfe AVE 2080 次高铁列车，在小镇乌尔达（Urda）附近，从后方撞上一列停在同一轨道上的 Iryo 列车。Iryo 的最后两节车厢被撞出轨道，跌落路旁。据报道，Iryo 当时正因列车控制系统 LZB 故障而停车。截至10月30日，官方公布的死亡人数为69人，另有约70人被通报失踪。",
-      "这已经是西班牙今年第二场高铁悲剧。时间倒回1月18日晚上，一列从马拉加开往马德里的 Iryo 列车，在科尔多瓦省阿达穆斯（Adamuz）车站入口处出轨，最后两节车厢侵入相邻轨道，与迎面驶来、开往韦尔瓦的 Renfe Alvia 列车相撞。Alvia 的车厢跌下约四公尺高的路堤，事故最终夺走46条人命。仅仅两天后，一列 Rodalies 通勤列车撞上一堵被暴雨冲垮、倒在轨道上的挡土墙，一名28岁的实习驾驶员丧生，数十人受伤。同一天，加泰隆尼亞還有另一列 Rodalies 出軌。",
-      "在今年之前，西班牙高铁几乎是安全与现代化的同义词。从1992年为塞维亚世博会开通第一条 AVE 起，三十多年来，西班牙建成了规模仅次于中国的高铁网，班次密、票价亲民，是西班牙人引以为傲的国家名片，也是不少国家取经的对象。不料仅仅在过去十个月中，同一條路線在一年內兩度釀成慘劇，罹難者超過110人，還有數十人下落不明。",
-      "这是偶发的故障？还是系统性的沉痾？吃緊的人力、老化的控制系統、失衡的資源分配，在在考驗著全球第二大高鐵網。",
-      "高铁是那种平时几乎感觉不到的存在：准点、安静，看起来永远可靠。可正是这种可靠，需要每天有人维护、检修、调度，需要钱一直花在旅客看不见的地方。一条线路建成通车只要几年，让它天天安全地跑下去，靠的是此后每一年都不松手。西班牙这两起事故最终会查明原因，但真正的考验是查明之后，还愿不愿意继续为那些看不见的部分花人、花钱。"
-    ],
-    "topics": [
-      "城市与公共",
-      "经济与商业"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261106-international-spain-high-speed-train-collision-explainer/",
-      "originalTitle": "一年內兩起重大事故，西班牙「高鐵奇蹟」為何失速？",
-      "publishedAt": "Thu, 05 Nov 2026 22:59:00 GMT",
-      "retrievedAt": "2026-11-07T01:06:29.220Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-07T01:06:26.184Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
       }
     }
   }
