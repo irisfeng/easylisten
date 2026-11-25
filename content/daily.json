@@ -1,5 +1,194 @@
 [
   {
+    "slug": "2026-11-25-997560",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "合肥稳态强磁场装置两次刷新世界纪录",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-25",
+    "intro": "合肥科学岛上的一组装置把稳态磁场做到了世界最强，两次刷新世界纪录，也把一种极端的实验条件交到了科学家手里。",
+    "paragraphs": [
+      "磁场看不见、摸不着，但你并不陌生。地球就是一个巨大的磁体，产生的0.5高斯的地磁场像一把隐形伞，保护着生物免遭太空宇宙射线的侵袭，地球上的很多生物还会利用地磁场辨别方向。而在安徽合肥市区往西30分钟、三面环水的小岛——科学岛上，稳态强磁场实验装置能产生45.22万高斯稳态磁场，和地磁场完全不在一个量级。物质的特性在很大程度上由电子运动状态及其相互作用决定：当电子在磁场下运动时，磁场越强，电子运动的半径就越小；当磁场强到一定程度时，电子运动会进入一种全新状态。例如，整数和分数量子霍尔效应就是通过强磁场揭示的。全球已有10多项与强磁场有关的成果获得诺贝尔奖，强磁场因此被誉为“诺贝尔奖的摇篮”。",
+      "但在2007年前，全球仅美国、法国、荷兰和日本拥有稳态强磁场实验条件。那时，国内科学家要做强磁场实验不得不远赴海外，但获批的机时非常少，只占总机时的约2%。科学家即使有好的想法也得不到好的数据。除前沿科学研究外，生命健康领域同样需要强磁场：医院里的核磁共振设备的分辨率与强磁场密切相关，磁场强度越高，看得就越清晰，这对于疾病的早发现、早治疗具有重要意义。2007年，国家正式批复在科学岛建设稳态强磁场实验装置；2008年5月装置开工，法人单位是中国科学院合肥物质科学研究院，中国科学技术大学参与共建。团队白手起家，设备不够就多方借用、自主研制，资料不够就搜集文献、集中编制，人才不够就内招外引。仅用8年时间，于2016年研制出40万高斯混合磁体，一举跻身世界第二。2017年9月，装置通过国家验收，包含5台水冷磁体、4台超导磁体和1台混合磁体，中国成为全球第五个拥有稳态强磁场装置的国家。",
+      "装置通过国家验收后，团队向更高磁场发起挑战。混合磁体是国际上技术难度最高的磁体，也是能够产生最高稳态磁场的磁体，由外超导磁体和内水冷磁体组合而成；超导磁体像稳定的基座，而水冷磁体则在基座上“冲刺”。混合磁体性能提升的关键，在于水冷磁体。每台水冷磁体的线圈由几千片比特片叠连而成。为实现“极限+稳定升场”，房震与团队成员通过理论计算发展出一个全新三维模型，表征比特片之间相互耦合对线圈稳定性的影响；基于该模型，团队进一步发明了全新的自稳定线圈结构，利用线圈自身电磁力排布方式的变化，大幅提高线圈力学稳定性。2022年8月12日，中控大厅屏幕上出现“混合磁体总场强：45.22特斯拉”（1特斯拉=1万高斯），刷新了美国此前保持了23年的45万高斯的世界纪录，成为世界可开展科学研究的最高稳态磁场。两年后的2024年9月22日，团队自主研制的水冷磁体产生了42.02万高斯稳态磁场，打破了2017年由美国水冷磁体产生的41.4万高斯的世界纪录。",
+      "获得极限磁场从来不只靠磁体本身。磁体要在数十兆瓦功率下反复冲击极限，离不开水冷、电源、低温、中控等支撑系统同步升级、协同运转。装置外矗立着两个蓄水罐，用于储存5至6摄氏度的低温冷冻水，为磁体提供冷源。水冷磁体属于电阻型磁体，根据焦耳定律，其发热功率与电流的平方成正比；磁体运行时工作电流非常大，会产生巨大的焦耳热，需要依靠水冷系统把热量带走。以42.02万高斯水冷磁体为例，最大电流达5万安培、运行功率达32.3兆瓦，这相当于5000户人家同时吃火锅、开空调产生的热量被放置在1立方米的体积内。水冷系统利用大量冷却水迅速将这些热量转移出来，保障水冷磁体稳定运行。团队还调整了运行模式，实现了供冷水的同时蓄冷水，将装置运行时间从约10小时延长至14小时。",
+      "两项世界纪录让中国稳态强磁场站上了技术高点，但稳态强磁场实验装置的价值最终要在用户的实验里兑现。截至目前，装置累计运行超过74万小时，已为国内外228家用户单位的4100余项课题提供了实验条件，支撑产出论文3200余篇，其中18篇在《自然》《科学》《细胞》发表。复旦大学教授修发贤团队首次发现基于外尔轨道导致的三维量子霍尔效应，迈出了从二维到三维的关键一步；上海大学教授钟云波团队利用强磁场改善高端特种钢的强度和韧性；中国科学技术大学教授熊伟团队揭示了日光照射改善学习记忆的机制，为了解大脑工作机理以及探索相关疾病发生奠定了基础。今年4月23日，《自然》以加速预览形式刊发了香港城市大学李丹枫副教授与南方科技大学薛其坤院士、陈卓昱副教授等合作的研究成果。他们依托混合磁体极低温电输运测试系统，在镍基超导材料中首次观测到一种全新现象——低磁场下超导消失，磁场升高后超导态重新出现，为探索磁性关联与非常规超导的耦合机制提供了重要线索。",
+      "面向未来，强磁场科学中心主任杜海峰规划的路线图很清晰：“更高的强磁场是团队永恒的追求。在强磁场建设方面，短期内，希望在不改变水冷、电源等支撑系统的前提下，通过材料创新实现更高的强磁场；同时，将强磁场与极低温、超高压两种极端实验条件密切结合起来，进一步发挥强磁场的功能。”从全国版图看，稳态强磁场实验装置与武汉脉冲强磁场实验装置、北京怀柔综合极端条件实验装置、杭州极弱磁场装置以及哈尔滨空间环境地面模拟装置互补。“从弱到强，从快到慢，中国已经形成了一条相对完整的磁场科学研究链条，中国科学家由此获得了更便捷，也更具竞争力的实验条件。”"
+    ],
+    "topics": [
+      "物质与数学",
+      "工程与制造"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575228.shtm",
+      "originalTitle": "冲击更高强磁场 为科学研究“加速”",
+      "publishedAt": "2026-11-24 08:34",
+      "retrievedAt": "2026-11-25T04:17:45.275Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T04:17:39.075Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "The Record-Breaking Magnets on Science Island",
+      "intro": "On a small island near Hefei, a huge machine creates some of the world's strongest steady magnetic fields. It set two world records. It gives scientists a rare place to test matter.",
+      "paragraphs": [
+        "Drive west from Hefei in China for about thirty minutes. You reach a small island. Water wraps around it on three sides. People call it Science Island. A huge machine sits on that quiet island. It looks more like factory equipment than science fiction. Tall tanks and pipes fill the space. Screens show jumping numbers. This machine gives scientists a rare extreme experimental condition: a steady strong magnetic field.",
+        "You cannot see a magnetic field. But you know it exists. Earth itself is a giant magnet. It produces a 0.5-gauss field. That field protects life from cosmic rays. It helps many animals navigate. In labs, stronger steady magnetic fields are extreme experimental conditions. More than ten Nobel Prize-winning results are linked to strong magnetic field research. Before 2007, only the United States, France, the Netherlands, and Japan had steady high-field facilities. Chinese scientists had to travel overseas for experiments. They got only about 2% of total available machine time.",
+        "China approved the facility in 2007. Construction began in May 2008. The team borrowed equipment. They gathered literature. They recruited talent. In 2016, they built a hybrid magnet reaching 400,000 gauss. That made China second globally. The facility passed national acceptance in September 2017. It included five water-cooled magnets, four superconducting magnets, and one hybrid magnet. China became the fifth country with a steady high-field facility. In 2022, the hybrid magnet achieved 452,200 gauss. That broke a 23-year-old U.S. record. In 2024, a water-cooled magnet reached 420,200 gauss. That broke the 2017 U.S. record of 414,000 gauss.",
+        "The hybrid magnet combines an outer superconducting magnet and an inner water-cooled magnet. The superconducting part provides a stable base. The water-cooled part delivers the final boost. Engineer Fang Zhen joined the team in 2018. He shifted focus to water-cooled magnet technology. The magnet ramps up 20–30 times per day. That is nearly 1,000 times per year. Each water-cooled magnet coil consists of thousands of ‘bit pieces’. Fang’s team developed a new 3D model. They invented a self-stabilizing coil structure. These help the coil withstand extreme electromagnetic force and heat. The water-cooling system uses 5–6°C water. At peak operation, the 420,200-gauss water-cooled magnet draws 50,000 amps. It runs at 32.3 megawatts. That equals the heat output of 5,000 homes packed into one cubic meter. Upgrades extended continuous run time from about 10 hours to 14 hours.",
+        "Records matter. But the real value lies in scientific use. So far, the facility has run over 740,000 hours. It has served 228 user institutions. It has supported over 4,100 projects. These produced more than 3,200 papers. Eighteen of those papers appeared in Nature, Science, or Cell. A Fudan University team discovered the 3D quantum Hall effect via Weyl orbits. A Shanghai University team used strong fields to improve strength and toughness of high-end special steel. Researchers from Beihang University observed giant magneto-superelastic effects in metal crystals. A University of Science and Technology of China team revealed how sunlight improves learning and memory. On April 23, 2024, Nature published work by City University of Hong Kong, Southern University of Science and Technology, and others. They used the hybrid magnet’s low-temperature transport system. They observed superconductivity vanishing then reappearing as field increased in nickel-based superconductors.",
+        "In August 2024, Nobel laureate Klaus von Klitzing visited. He said: ‘China’s steady-state high-field facility has reached world-leading infrastructure capability.’ Director Du Haifeng says higher fields remain the team’s eternal goal. Short-term plans include pushing field strength further using new materials. They will not change water-cooling or power systems. They also aim to integrate strong magnetic fields with extreme low temperature and ultra-high pressure. Nationally, this facility complements Wuhan’s pulsed-field lab. It complements Beijing’s comprehensive extreme-condition facility. It complements Hangzhou’s ultra-weak-field lab. It complements Harbin’s space-environment simulation facility. Together, they form a relatively complete magnetic-field research chain. That chain goes from weak to strong. It goes from fast to slow. It gives Chinese scientists more convenient and competitive experimental conditions."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T04:22:28.527Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 0,
+        "attempts": 2
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-25/2026-11-25-997560.webp",
+      "alt": "冷灰色调下抽象圆环与圆柱构成的科学装置插图",
+      "caption": "极端实验条件的抽象轮廓",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-25-earth-s-water-may-have-formed-in-this-fiery-furn",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "新研究：地球的水可能由含铁岩石与大气氢反应生成",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-25",
+    "intro": "一项新研究提出，地球的水可能并非由彗星或陨石从太空送来；它更可能是在地球形成过程中，由含铁岩石与大气中的氢反应生成。",
+    "paragraphs": [
+      "四十多亿年前的地球没有海洋，天空滚烫，像一座巨大的熔炉。我们每天喝的水、从海里舀起的水，究竟从哪里来？这个问题至今没有定论。一种解释是‘外送’：带冰的彗星或陨石撞上地球，把水一起带了过来。另一种是地球自身化学作用产生水——这项新研究聚焦于此，成果发表在《Nature Geoscience》上。",
+      "研究者把这个过程叫作‘pebble rain’（卵石雨），也叫‘pebble accretion’（卵石吸积）。地球早期质量增大、引力增强，吸引大量含铁硅酸盐岩石向地表高速坠落；这些岩石与大气中的氢发生反应。在高温度、高压和高通量条件下，氢会剥离岩石中铁氧化物中的氧，释放出水蒸气——氧来自岩石，氢来自大气，水是化学反应的副产物。",
+      "研究团队估计，这一过程可能释放出约200个地球海洋水量的H₂O，为生命提供了关键成分。这些卵石本身来自地球之外，类似陨石；但水并非在太空以冰形式存在后被运来，而是在地球上现场生成。",
+      "为了验证这个想法，研究者在实验室模拟早期地球条件：温度高达2552°F（约1400°C），让氢气流过硅酸盐岩石。结果，样本中近80%的氧化铁被还原为金属铁，并同步产生水蒸气。",
+      "这项研究的意义不止于地球。研究作者扎卡里·夏普在声明中指出：‘过去关于地球水来源的想法都依赖彗星或陨石这样的外部来源；而我们表明，几乎任何地球大小的行星都应能通过这一新机制拥有水。’这为寻找地外生命开辟了新可能。",
+      "夏普还说：‘望着眼前大片的水，很难想象它可能是在四十五亿年前、地狱般的大气里产生的，但事实很可能就是这样。’"
+    ],
+    "topics": [
+      "地球水的起源",
+      "行星科学",
+      "岩浆海洋"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Nautilus",
+      "region": "international",
+      "url": "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019/",
+      "originalTitle": "Earth’s Water May Have Formed in This Fiery Furnace",
+      "publishedAt": "Tue, 24 Nov 2026 21:00:00 +0000",
+      "retrievedAt": "2026-11-25T04:18:47.584Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "depth",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T04:18:43.962Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-25/2026-11-25-earth-s-water-may-have-formed-in-this-fiery-furn.webp",
+      "alt": "冷灰色调下岩石层与水滴气泡的抽象剖面插图",
+      "caption": "水或许诞生于岩石与气体的相遇",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-25-justice-is-elusive-for-the-rohingya-even-after-t",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "国际法院裁定缅甸对罗兴亚人实施种族灭绝，但正义依然遥远",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-25",
+    "intro": "国际法院以九票对六票裁定缅甸在2017年若开邦‘清除行动’中对罗兴亚人实施种族灭绝，但超过120万罗兴亚人仍滞留在孟加拉国难民营，缺乏公民权、无有效执行机制、若开邦控制权更迭，使安全返乡与实质正义遥不可及。",
+    "paragraphs": [
+      "国际法院以九票对六票裁定：缅甸在2017年若开邦的‘clearance operations’中对罗兴亚人实施了种族灭绝。这一裁决具有里程碑意义。但判决之后，超过120万罗兴亚人仍生活在孟加拉国科克斯巴扎尔附近的难民营中，没有任何切实可行的返乡前景。\n\n而且，2017年并非罗兴亚人首次大规模流亡。早在1978年，以及1991至1992年间，数十万罗兴亚人就曾为逃避国家迫害涌入孟加拉国。许多人曾返回缅甸，又在新一轮暴力爆发后被迫再度逃离。",
+      "他们为何无法返乡？最核心的障碍是公民身份。自1982年缅甸剥夺罗兴亚人公民权起，他们长期生活在类似种族隔离的境况下：行动、教育、医疗均受限制，部分家庭还被强制实行两孩政策。多数罗兴亚人希望返乡，但拒绝在缺乏安全保障的前提下回去——而安全的前提，正是公民权的恢复。",
+      "缅甸军方政权几乎不可能让步。2021年政变后，军方独掌政府。敏昂莱自2011年起任缅甸国防军总司令，被指为罗兴亚种族灭绝的策划者；他于2026年卸任后，由军方主导的议会选举其出任总统。在此政治格局下，罗兴亚人安全、有尊严地遣返已近乎不可能。",
+      "另一重现实障碍来自若开邦本身。自2023年底起，若开邦大片地区已由若开军实际控制。该组织是缅甸最大、最具实力的非国家武装团体，正谋求若开地区独立。它公开敌视罗兴亚人，其控制区内罗兴亚人所面临的限制，与过去缅甸政府施加的如出一辙。",
+      "国际法院虽已确认缅甸对种族灭绝负有责任，并命令其提供赔偿与补偿（具体细节尚待确定），但法院本身没有独立执行机制，只能依赖各国自愿遵守国际法。唯一可采取强制行动的机构是联合国安理会，而拥有否决权的中国和俄罗斯极可能反对——两国多年来持续向敏昂莱政权提供政治、外交与军事支持。",
+      "裁决带来的最直接积极影响，是重新唤起国际关注。这有望带动捐款，缓解难民营日益严峻的人道危机。新冠疫情后，加之美国国际开发署（USAID）被解散，援助资金持续萎缩。目前，孟加拉国境内的罗兴亚难民每人每月仅获7至12美元食品援助。叠加缺乏创收机会，口粮削减已被难民普遍视为营地中最严峻的挑战。",
+      "关注升温也可能转化为政治压力，不仅针对缅甸，也延伸至区域国家。例如，马来西亚自2026年9月起开始将难民遣返缅甸，但缅甸政府持续拒绝联合国难民署等国际机构接触相关人群，因此这些遣返是否真正自愿，无法核实。国际压力或可促使马来西亚停止此类行动，避免进一步伤害本已脆弱的罗兴亚难民群体。",
+      "最根本的转变在于‘承认’：这是国际法院首次在正式裁决中明确认定罗兴亚人为一个独特群体。裁决直接驳斥了缅甸长期宣称的‘罗兴亚人是来自孟加拉国的非法移民’这一说法——该说法否认罗兴亚人对若开邦土地与权利的合法主张。尽管裁决本身不保证正义实现，但它构成了通向修复性正义的必要前提。"
+    ],
+    "topics": [
+      "全球时事",
+      "气候与能源"
+    ],
+    "ageBands": [
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "The Conversation",
+      "region": "international",
+      "url": "https://theconversation.com/justice-is-elusive-for-the-rohingya-even-after-the-icjs-landmark-genocide-ruling-against-myanmar-297125",
+      "originalTitle": "Justice is elusive for the Rohingya even after the ICJ’s landmark genocide ruling against Myanmar",
+      "publishedAt": "2026-11-24T16:49:44Z",
+      "retrievedAt": "2026-11-25T04:21:04.263Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T04:21:01.756Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 42,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Genocide Ruling, But Justice Is Still Far Away",
+      "intro": "The International Court of Justice ruled Myanmar committed genocide. Yet the Rohingya still wait for justice.",
+      "paragraphs": [
+        "The International Court of Justice ruled, by nine votes to six, that Myanmar committed genocide against the Rohingya people. This was in connection with its 2017 'clearance operations' in Rakhine State. The ruling is an alarm bell for all states accused of genocide.",
+        "The year 2017 was not the first Rohingya exodus from Myanmar. In 1978 and again in 1991–92, hundreds of thousands of Rohingya fled to Bangladesh. They did so to escape state persecution. Many returned. Then they were forced to flee again when new violence erupted. Today, more than 1.2 million Rohingya are in refugee camps in Bangladesh. They have no concrete prospect to return to Myanmar. Most Rohingya want to return. But not without conditions that ensure their safety.",
+        "The most crucial condition is citizenship rights. Myanmar stripped the Rohingya of their citizenship in 1982. Since then, they have lived under apartheid-like conditions. Discriminatory policies restrict their movement, education, and health care. Families were restricted to a two-child limit. Returning to Myanmar just to face the same conditions is not an option for many Rohingya. It is unlikely Myanmar will agree to grant citizenship to the Rohingya. Since the 2021 coup d'état, the military has had sole control of the government.",
+        "Since late 2023, vast swaths of Rakhine State have been under control of the Arakan Army. Most Rohingya lived there until 2017. The Arakan Army is the largest and most powerful non-state armed group in the country. It is vying for the independence of the Arakan region. The Arakan Army is openly hostile to the Rohingya. Those living in its territory face many of the same restrictions previously imposed by the state.",
+        "The ICJ established Myanmar’s responsibility for the genocide. It ordered Myanmar to provide reparations and compensation. Details are still to be decided. But in practice, the court cannot compel Myanmar to act. The ICJ has no independent enforcement mechanism. It relies only on states’ willingness to obey international law. Only the UN Security Council could take coercive action. China and Russia hold veto power. They are likely to oppose such action.",
+        "The ICJ ruling has brought attention to the plight of the Rohingya. Renewed interest may draw donations. These could help meet pressing needs. Funding for the refugee camps has dwindled. This followed the COVID-19 pandemic. It also followed the dismantlement of USAID. Currently, the Rohingya in Bangladesh receive US$7–$12 per person per month in food assistance. Refugees frequently identify ration cuts as their most severe challenge. More attention could increase political pressure. This applies to Myanmar and its regional partners. Malaysia began deporting refugees back to Myanmar in September 2026. The government denies access to international agencies. This includes the UN High Commissioner for Refugees. So it could not be verified whether returns were voluntary. Finally, the ruling gives formal recognition of the Rohingya as a distinct people. It contradicts Myanmar’s claim that they are 'illegal immigrants from Bangladesh'."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T04:24:00.972Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    }
+  },
+  {
     "slug": "2026-11-24-the-incredible-elegant-dna-repair-system-makes-g",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "DNA每天都会损坏，细胞自带的修复系统让基因编辑成为可能",
@@ -3297,163 +3486,6 @@
       "alt": "冷灰色纸纹背景上一只线条构成的抽象蚂蚁与几粒圆点",
       "caption": "一只蚂蚁，或许就是群体行动的开关。",
       "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-08-8dba65",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "在喀什，足球不缺土壤",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-08",
-    "intro": "本次无法生成听稿：抓取到的原文仅有网页框架和标题，无任何正文内容。",
-    "paragraphs": [
-      "这次收到的材料是一个网页快照，能确认的只有标题《在喀什，足球不缺土壤》和发布平台——中国新闻网体育频道。",
-      "其余部分均为网站导航栏、搜索入口、图片占位符、分享按钮及大量未加载的链接。",
-      "依据审稿规则，听稿中每一句陈述都必须能在原文中找到明确依据。当前材料不包含任何可用于构建事实性叙述的内容。",
-      "需补充完整可读的正文全文，才能启动听稿制作流程。"
-    ],
-    "topics": [
-      "体育"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/11-07/10727972.shtml",
-      "originalTitle": "在喀什，足球不缺土壤",
-      "publishedAt": "Sat, 7 Nov 2026 17:27:54 +0800",
-      "retrievedAt": "2026-11-08T00:44:17.621Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:44:15.260Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 4,
-        "attempts": 2
-      }
-    }
-  },
-  {
-    "slug": "2026-11-08-earth-s-rocks-have-a-missing-layer-spanning-up-t",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "地球岩石记录缺失数亿年岩层，原因是什么？",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-08",
-    "intro": "大峡谷里，5.4亿多年的沉积岩直接压在20亿年的老岩石上——中间那数亿年的岩层，去哪了？",
-    "paragraphs": [
-      "打开一本历史书，却发现中间被撕掉了好几章。19世纪70年代，研究地球岩石记录的地质学家就在好几个大陆上发现了这样的事。他们给这个现象起了个名字，叫‘大不整合’。正常情况下，岩层从下到上由老到新，一层压一层，像书页一样整齐。但在世界上很多地方，两层岩石之间，硬生生缺了数亿年。",
-      "最著名的例子在美国大峡谷。你伸手就能同时摸到两个时代：上面是大约540百万年（即5.4亿年）或更年轻的沉积岩，平平地铺着；下面直接是年龄可达20亿年的结晶‘基底’。中间那一大段，没了。有估算认为，这样丢失的时间加起来，最多能占地球历史的四分之一。而那段时间并不是什么都没发生——大不整合上方的年轻沉积层，正好出现在大约540百万年前开始的‘寒武纪大爆发’时期，地球生命的形态在那时急剧多样起来。科学家曾推测，大不整合期间整块整块的大陆被侵蚀，可能改变了海水的化学平衡，为动物生命的繁荣创造了条件。",
-      "问题是，什么力量能侵蚀掉这么多岩石？过去有人提出，是7.2亿到6.35亿年前‘雪球地球’时期的巨大冰盖刮掉的；也有人把它归因于大陆块的重新拼合、造山运动、地球内部热量引起的运动、火山活动，或者全球海平面变化。验证这些猜想并不容易，因为最关键的证据，恰恰是那些已经不存在的岩石。研究者只能从已知的东西出发，去补这些缺口。",
-      "这项发表在《自然》上的新研究，把目光投向了地幔。地幔是地球内部约2900公里厚的一层炽热固体岩石，会在数千万到数亿年的时间里极缓慢地流动。热的上升，冷的下沉，推拉着上方地表，能让地表升高或降低几百米。研究团队用澳大利亚的超级计算机‘加迪’，模拟了过去十亿年里地幔运动对大陆的影响。结果一致显示：从大约10亿年前到540百万年前，几块古老的大陆块被地幔顶了起来，包括如今构成北美洲大部分的劳伦大陆、北欧的波罗的大陆，以及华北；而过去540百万年里，它们又被往下拉。",
-      "这一升一降，正好凑成了大不整合形成和保存的条件。大陆被抬高时，深处的结晶基底暴露到地表，上面的沉积层被剥掉；等它再沉下去，新的沉积层开始堆积，一直保存到今天。更关键的是，抬升的时间与‘雪球地球’时期重合：巨大的冰盖在抬高的陆地上缓慢滑过，一刮就是数千万年。冰盖比河流更能侵蚀大陆，哪怕坡度很缓。研究还发现，澳大利亚和南美洲从9亿年前起只经历了两次这样的升降，条件不合适——那里确实也几乎看不到大不整合。",
-      "所以在研究者看来，大不整合像是深部地球过程留下的一枚指纹。我们脚下的力量，在地质记录里刻下了行星尺度的痕迹，也塑造了复杂生命最初演化时所处的环境。"
-    ],
-    "topics": [
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Nautilus",
-      "region": "international",
-      "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
-      "originalTitle": "Earth’s Rocks Have a Missing Layer Spanning Up to a Billion Years",
-      "publishedAt": "Sat, 07 Nov 2026 15:00:00 +0000",
-      "retrievedAt": "2026-11-08T00:47:54.506Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:47:49.323Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "The Missing Rock Layer",
-      "intro": "Earth's rock record has a huge gap. Scientists now think they know what erased it.",
-      "paragraphs": [
-        "Imagine opening a history book and finding several chapters torn out. This was what geologists looking into the rock records of Earth's past discovered on several continents in the 1870s. They dubbed it the Great Unconformity. Layers of rock often stack up in chronological order. The oldest layers are at the bottom. The youngest layers are at the top.",
-        "You can see it in America's Grand Canyon. Neat layers of sediment lie directly on top of much older solid rock. A flat layer of sedimentary rock, about 540 million years old or younger, rests directly atop a crystalline 'basement' up to two billion years old. Somewhere in between, a considerable chunk of Earth's history has simply vanished.",
-        "The sedimentary layers on the younger side of the Great Unconformity appear at the same time as a huge diversification in the forms of life on Earth. This is the so-called Cambrian explosion. It began around 540 million years ago. Scientists have speculated entire continents were eroded during the Great Unconformity. That erosion may have altered the chemical balance of seawater. It may have allowed animal life to flourish.",
-        "For 150 years, nobody has known what erased those missing chapters. New research published today in Nature provides an explanation. Deep processes inside Earth lifted some continents high above the sea. Their surfaces were scoured down by enormous sheets of ice.",
-        "We used the Australian supercomputer Gadi to model how the movement of the mantle had affected continents over the past billion years. Our results showed that mantle convection caused ancient continental blocks to be lifted up. These blocks include Laurentia, Baltica, and North China. Uplift happened from around a billion years ago to 540 million years ago. Over the past 540 million years, they have been pulled downward.",
-        "The uplift predicted by our models coincided with the Snowball Earth period. That period lasted from 720 million years to 635 million years ago. During this time, enormous ice sheets scraped over the surface of continents for tens of millions of years. Glaciers and ice sheets are more efficient than rivers at eroding continents. This is true even on gentle slopes.",
-        "In contrast to Laurentia, Baltica and North China, Australia and South America experienced only two cycles of uplift and subsidence from 900 million years ago. This scenario is not conducive to the formation and preservation of the Great Unconformity. We see little evidence of it on these continents. Our research suggests the missing pages in Earth's geological archive may be due to slow mantle convection. That convection gently lifted entire continents. Then it made them subside over hundreds of millions of years."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:52:22.764Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-08/2026-11-08-earth-s-rocks-have-a-missing-layer-spanning-up-t.webp",
-      "alt": "冷灰纸纹上抽象岩层色带中间留有一段空白缺口",
-      "caption": "岩层之间，藏着一段消失的时间。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-08-05-36cdd5",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "一个05后少年的数码成长记",
-    "category": "tech",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-08",
-    "intro": "从iPod touch到墨水屏手机，一位2005年出生的少年用亲身经历，讲出了数字设备如何悄悄塑造了他的童年和思考。",
-    "paragraphs": [
-      "他第一次接触电子设备，是一台没有Lightning接口的iPod touch。那时他还在上幼儿园，连软件都不会安装，只能反复玩爸爸提前下载好的《极品飞车》——也是在这游戏里，他第一次认识了‘菜鸟’这个词。后来Home键按坏了，他仍坚持用虚拟Home键继续使用。小学时，家里只有一部诺基亚106功能机，除了打电话，他只反反复复玩自带的贪吃蛇；直到四五年级，才终于拥有一台下放的小米4，开始自己折腾Java版《我的世界》、尝试运行CS1.6，虽然只能在超平坦模式流畅运行、进‘末地’就只有每秒四帧，却乐此不疲。",
-      "Kindle是他最重要的阅读伙伴。寒暑假，他常被带到法院图书馆，爸爸就把自己的Kindle借给他，还开通了Kindle Unlimited会员。他读完了东野圭吾全部小说，最喜欢神探伽利略系列和加贺恭一郎系列；也翻遍免费的《知乎周刊》，第一次读到朱利安·阿桑奇的故事，第一次知道硅谷有人用Soylent代替吃饭。他还读过《科学松鼠会》《我们台湾这些年》《一寸河山一寸血》《明朝那些事儿》《写给上班族的世界史》……这些书未必都适合今天的他重读，但正是Kindle，用轻便、随时可取的方式，在他心里种下了阅读的种子。",
-      "他见过最优雅的电子设备，是索尼DPT-RP1电子纸。爸爸在它一发售就花了大几千块钱从日本海淘回来，纯黑薄如蝉翼，手写触感宛若铅笔落在纸上。他带着它去英语补习班，别人写在纸上，他写在电子纸上，无敌吸引眼球；2020年疫情上网课时，他直接在上面写作业、生成PDF发给老师，觉得自己‘优雅得不行’。后来屏幕出现坏死区域、边角开裂、触控屏失灵，它最终静静躺在书桌最底层的抽屉里，成了一件少年时代的纪念品。",
-      "他用过很多手机：Surface Duo2圆了高中时的折叠屏梦，却因又宽又厚、单手使用体验差、双屏实用性低而早早‘阵亡’——大一升大二那个暑假，他在安吉漂流时把它掉进水里，它死得非常彻底；Fairphone5在解BL锁时出问题，3个月后才收到模板邮件回复，后来NFC坏了，又因在美国找不到备件无法维修；最后选了一台Minimal Phone——这款墨水屏手机完全足以日用：能用微信小程序点餐拿外卖、回微信和QQ消息、用NFC碰一碰支付；但它也‘完美地卡在了你可以使用但又不想主动使用的区间’：地铁上他开始发呆，吃饭时只能吃饭。他没想到，这部手机已经陪他整整一年，对他的Doomscrolling（无意识滑动）真的给彻底根治了。",
-      "他不是反对科技，而是不断追问：科技应该是什么样？他记得高二看奈飞纪录片《The Social Dilemma》后，深受触动，发QQ空间转发给朋友；有同学评论说想研究怎么拒绝手机和社交媒体，但大家最终还是拥抱了社交媒体。他记得好朋友Andy初中时用最爆的语言批评抖音‘点一个赞刷一分钟’，转头就在帖子下说自己‘刷不下去’，每次出门吃饭却都在看抖音。他曾是数码爱好者，天天刷IT之家、订《电脑报》、听李如一的《一天世界》播客，甚至充过会员；但自高中之后就再没看过《电脑报》或IT之家。他说：‘我依然有互联网的乌托邦情结——大概是在我初次邂逅互联网的少年年代，在贴吧、在QQ群，大家用网盘和群文件分享资源，有人手把手教装软件：我知道了手机上要用ZArchiver解压7z，学会了装谷歌框架，学会了在贴吧靠“与佛论禅”和“与熊论道”获取链接；看到人们说1024，就懂那是好人的暗号。’"
-    ],
-    "topics": [
-      "数字生活"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "少数派",
-      "region": "mainland",
-      "url": "https://sspai.com/post/116750",
-      "originalTitle": "一个 05 后的个人数码编年史",
-      "publishedAt": "Sat, 07 Nov 2026 17:05:06 +0800",
-      "retrievedAt": "2026-11-08T00:50:23.375Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:50:21.813Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
     }
   }
 ]
