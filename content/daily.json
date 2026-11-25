@@ -1,23 +1,23 @@
 [
   {
-    "slug": "2026-11-25-997560",
+    "slug": "2026-11-25-d9f825",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "合肥稳态强磁场装置两次刷新世界纪录",
+    "title": "没有卫星的年代，陈述彭靠想象自己飞在天上，一笔一笔画出中国地形",
     "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-25",
-    "intro": "合肥科学岛上的一组装置把稳态磁场做到了世界最强，两次刷新世界纪录，也把一种极端的实验条件交到了科学家手里。",
+    "intro": "在没有卫星、没有高空照片的年代，一位地理学家靠想象自己飞在天上，一笔一笔画出了整个中国的地形。",
     "paragraphs": [
-      "磁场看不见、摸不着，但你并不陌生。地球就是一个巨大的磁体，产生的0.5高斯的地磁场像一把隐形伞，保护着生物免遭太空宇宙射线的侵袭，地球上的很多生物还会利用地磁场辨别方向。而在安徽合肥市区往西30分钟、三面环水的小岛——科学岛上，稳态强磁场实验装置能产生45.22万高斯稳态磁场，和地磁场完全不在一个量级。物质的特性在很大程度上由电子运动状态及其相互作用决定：当电子在磁场下运动时，磁场越强，电子运动的半径就越小；当磁场强到一定程度时，电子运动会进入一种全新状态。例如，整数和分数量子霍尔效应就是通过强磁场揭示的。全球已有10多项与强磁场有关的成果获得诺贝尔奖，强磁场因此被誉为“诺贝尔奖的摇篮”。",
-      "但在2007年前，全球仅美国、法国、荷兰和日本拥有稳态强磁场实验条件。那时，国内科学家要做强磁场实验不得不远赴海外，但获批的机时非常少，只占总机时的约2%。科学家即使有好的想法也得不到好的数据。除前沿科学研究外，生命健康领域同样需要强磁场：医院里的核磁共振设备的分辨率与强磁场密切相关，磁场强度越高，看得就越清晰，这对于疾病的早发现、早治疗具有重要意义。2007年，国家正式批复在科学岛建设稳态强磁场实验装置；2008年5月装置开工，法人单位是中国科学院合肥物质科学研究院，中国科学技术大学参与共建。团队白手起家，设备不够就多方借用、自主研制，资料不够就搜集文献、集中编制，人才不够就内招外引。仅用8年时间，于2016年研制出40万高斯混合磁体，一举跻身世界第二。2017年9月，装置通过国家验收，包含5台水冷磁体、4台超导磁体和1台混合磁体，中国成为全球第五个拥有稳态强磁场装置的国家。",
-      "装置通过国家验收后，团队向更高磁场发起挑战。混合磁体是国际上技术难度最高的磁体，也是能够产生最高稳态磁场的磁体，由外超导磁体和内水冷磁体组合而成；超导磁体像稳定的基座，而水冷磁体则在基座上“冲刺”。混合磁体性能提升的关键，在于水冷磁体。每台水冷磁体的线圈由几千片比特片叠连而成。为实现“极限+稳定升场”，房震与团队成员通过理论计算发展出一个全新三维模型，表征比特片之间相互耦合对线圈稳定性的影响；基于该模型，团队进一步发明了全新的自稳定线圈结构，利用线圈自身电磁力排布方式的变化，大幅提高线圈力学稳定性。2022年8月12日，中控大厅屏幕上出现“混合磁体总场强：45.22特斯拉”（1特斯拉=1万高斯），刷新了美国此前保持了23年的45万高斯的世界纪录，成为世界可开展科学研究的最高稳态磁场。两年后的2024年9月22日，团队自主研制的水冷磁体产生了42.02万高斯稳态磁场，打破了2017年由美国水冷磁体产生的41.4万高斯的世界纪录。",
-      "获得极限磁场从来不只靠磁体本身。磁体要在数十兆瓦功率下反复冲击极限，离不开水冷、电源、低温、中控等支撑系统同步升级、协同运转。装置外矗立着两个蓄水罐，用于储存5至6摄氏度的低温冷冻水，为磁体提供冷源。水冷磁体属于电阻型磁体，根据焦耳定律，其发热功率与电流的平方成正比；磁体运行时工作电流非常大，会产生巨大的焦耳热，需要依靠水冷系统把热量带走。以42.02万高斯水冷磁体为例，最大电流达5万安培、运行功率达32.3兆瓦，这相当于5000户人家同时吃火锅、开空调产生的热量被放置在1立方米的体积内。水冷系统利用大量冷却水迅速将这些热量转移出来，保障水冷磁体稳定运行。团队还调整了运行模式，实现了供冷水的同时蓄冷水，将装置运行时间从约10小时延长至14小时。",
-      "两项世界纪录让中国稳态强磁场站上了技术高点，但稳态强磁场实验装置的价值最终要在用户的实验里兑现。截至目前，装置累计运行超过74万小时，已为国内外228家用户单位的4100余项课题提供了实验条件，支撑产出论文3200余篇，其中18篇在《自然》《科学》《细胞》发表。复旦大学教授修发贤团队首次发现基于外尔轨道导致的三维量子霍尔效应，迈出了从二维到三维的关键一步；上海大学教授钟云波团队利用强磁场改善高端特种钢的强度和韧性；中国科学技术大学教授熊伟团队揭示了日光照射改善学习记忆的机制，为了解大脑工作机理以及探索相关疾病发生奠定了基础。今年4月23日，《自然》以加速预览形式刊发了香港城市大学李丹枫副教授与南方科技大学薛其坤院士、陈卓昱副教授等合作的研究成果。他们依托混合磁体极低温电输运测试系统，在镍基超导材料中首次观测到一种全新现象——低磁场下超导消失，磁场升高后超导态重新出现，为探索磁性关联与非常规超导的耦合机制提供了重要线索。",
-      "面向未来，强磁场科学中心主任杜海峰规划的路线图很清晰：“更高的强磁场是团队永恒的追求。在强磁场建设方面，短期内，希望在不改变水冷、电源等支撑系统的前提下，通过材料创新实现更高的强磁场；同时，将强磁场与极低温、超高压两种极端实验条件密切结合起来，进一步发挥强磁场的功能。”从全国版图看，稳态强磁场实验装置与武汉脉冲强磁场实验装置、北京怀柔综合极端条件实验装置、杭州极弱磁场装置以及哈尔滨空间环境地面模拟装置互补。“从弱到强，从快到慢，中国已经形成了一条相对完整的磁场科学研究链条，中国科学家由此获得了更便捷，也更具竞争力的实验条件。”"
+      "1954年，一本特殊的地图集《中国地形鸟瞰图》在中华书局出版。翻开这本地图集，映入眼帘的不是传统地图上密密麻麻的等高线，而是一幅幅仿佛从高空俯瞰大地的立体画面。山脉、河谷、平原和高原，以直观的方式呈现在纸上。这些逼真、形象的立体地图，全部由一位地理学家手绘而成。在那个年代，还没有人造卫星，他是靠着把自己想象成一只鸟，在脑海中俯瞰山河，再把平面地形资料一点点转化为具有透视感的立体画面。这位地理学家，就是陈述彭。",
+      "这项创作的念头，早在1947年便已萌生。当时，陈述彭因患肾结核刚刚接受右肾切除手术，身体虚弱，经济也十分拮据。可就在这一年，他开始构思绘制一套中国鸟瞰地图。由于连购买毛笔和绘图纸张的钱都没有，他写信向地图学家曾世英求助。曾世英被他的构思打动，资助了8000元作为启动经费。陈述彭仅用一个星期就画出了一幅图。此后，他又坚持多年，终于完成《中国地形鸟瞰图》。",
+      "这本图集出版后，却引起了不小的争议。一些持传统地图观念的同行认为，这种鸟瞰地图违背了惯常的读图习惯，甚至质疑它的科学性。直到1957年人造卫星上天，卫星图像逐渐普及，人们才开始重新理解这种从高空视角认识地球的方式。1998年，美国地理学会授予陈述彭奥·米勒地图科学金质奖章，以表彰他在人造卫星出现之前对鸟瞰地图的开创性探索。不过，手绘鸟瞰图也有它的局限，因为它难以准确表达地形的数量特征和比例关系。如何让地图既看得清地貌，又能准确反映地理信息，成为陈述彭此后持续思考的问题。",
+      "1963年，国家科委向陈述彭提出了一项实际任务：能否利用航空照片，对海南热带资源开发与农业生产基本条件进行考察，调查橡胶林场与公社农田之间的用地矛盾？为此，陈述彭率领多学科科研小组三下海南，开展航空像片系列制图实验。但实验首先遇到了资料难题。当时的航空照片属于军用绝密资料，海南又处于海防前线，要把这些照片带到考察现场用于科研，并不容易。经过多方协调，陈述彭才争取到航空像片，带领团队开展工作。此后，科研人员在海南进行了为期三个月的野外考察。他们将航空照片判读与实地调查结合起来，分析地貌、土壤、植被和土地利用状况，最终编制出微地貌、坡度组合、土壤土质、植被、土地利用和农用地形等六种专题地图。这项实验探索出航空像片系列制图的方法，也为当地农业规划、橡胶种植和热带雨林保护提供了依据。",
+      "1972年，经周恩来总理批示，“陈述彭与朱震达、刘瑞玉组成代表团，参加在墨西哥召开的‘人类与科学’大会。”在会上，他了解到国外遥感技术迅速发展。回国后，1975年，他率先引进美国陆地卫星影像，用于编制全国影像地图。随后，他开始推动遥感技术在实际问题中的应用。1978—1985年，在陈述彭的倡导和组织推动下，全国多家科研院所、高校和有关部门共同开展了云南腾冲遥感综合试验、天津城市环境遥感监测和四川二滩水电站遥感试验。这三次试验被称为中国遥感应用的“三大战役”，推动了遥感技术在资源调查、环境监测和能源开发等领域的应用。1980年，他参与筹建的中国科学院遥感应用研究所正式成立。1984年，他出任资源与环境信息系统国家重点实验室筹建组组长；实验室成立后又担任第一届学术委员会主任，把研究视野拓展到地球信息科学和数字地球。",
+      "陈述彭（1920年2月28日—2008年11月25日），中国共产党优秀党员，中国科学院学部委员（院士），地理学家，地图学家，遥感地学专家。他长期从事地图学、遥感应用和地理信息系统研究，是中国现代地图学、遥感应用和地球信息科学的重要开拓者，带领我国遥感和地理信息系统研究跻身于世界先进行列。"
     ],
     "topics": [
-      "物质与数学",
-      "工程与制造"
+      "历史",
+      "艺术与设计"
     ],
     "ageBands": [
       "10-12",
@@ -27,36 +27,36 @@
     "source": {
       "name": "科学网新闻头条",
       "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575228.shtm",
-      "originalTitle": "冲击更高强磁场 为科学研究“加速”",
-      "publishedAt": "2026-11-24 08:34",
-      "retrievedAt": "2026-11-25T04:17:45.275Z",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575299.shtm",
+      "originalTitle": "陈述彭：没有卫星的时代，用画笔“俯瞰”中国",
+      "publishedAt": "2026-11-25 08:50",
+      "retrievedAt": "2026-11-25T04:59:59.446Z",
       "basis": "full-text",
       "lang": "zh",
       "profile": "realtime",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-25T04:17:39.075Z",
+        "reviewedAt": "2026-11-25T04:59:55.390Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
-        "correctionCount": 8,
+        "correctionCount": 0,
         "attempts": 1
       }
     },
     "en": {
-      "title": "The Record-Breaking Magnets on Science Island",
-      "intro": "On a small island near Hefei, a huge machine creates some of the world's strongest steady magnetic fields. It set two world records. It gives scientists a rare place to test matter.",
+      "title": "Chen Shuopeng: Drawing China from the Sky—Before Satellites Existed",
+      "intro": "Before satellites, one Chinese scientist used only a brush and his imagination to show what Earth looks like from above.",
       "paragraphs": [
-        "Drive west from Hefei in China for about thirty minutes. You reach a small island. Water wraps around it on three sides. People call it Science Island. A huge machine sits on that quiet island. It looks more like factory equipment than science fiction. Tall tanks and pipes fill the space. Screens show jumping numbers. This machine gives scientists a rare extreme experimental condition: a steady strong magnetic field.",
-        "You cannot see a magnetic field. But you know it exists. Earth itself is a giant magnet. It produces a 0.5-gauss field. That field protects life from cosmic rays. It helps many animals navigate. In labs, stronger steady magnetic fields are extreme experimental conditions. More than ten Nobel Prize-winning results are linked to strong magnetic field research. Before 2007, only the United States, France, the Netherlands, and Japan had steady high-field facilities. Chinese scientists had to travel overseas for experiments. They got only about 2% of total available machine time.",
-        "China approved the facility in 2007. Construction began in May 2008. The team borrowed equipment. They gathered literature. They recruited talent. In 2016, they built a hybrid magnet reaching 400,000 gauss. That made China second globally. The facility passed national acceptance in September 2017. It included five water-cooled magnets, four superconducting magnets, and one hybrid magnet. China became the fifth country with a steady high-field facility. In 2022, the hybrid magnet achieved 452,200 gauss. That broke a 23-year-old U.S. record. In 2024, a water-cooled magnet reached 420,200 gauss. That broke the 2017 U.S. record of 414,000 gauss.",
-        "The hybrid magnet combines an outer superconducting magnet and an inner water-cooled magnet. The superconducting part provides a stable base. The water-cooled part delivers the final boost. Engineer Fang Zhen joined the team in 2018. He shifted focus to water-cooled magnet technology. The magnet ramps up 20–30 times per day. That is nearly 1,000 times per year. Each water-cooled magnet coil consists of thousands of ‘bit pieces’. Fang’s team developed a new 3D model. They invented a self-stabilizing coil structure. These help the coil withstand extreme electromagnetic force and heat. The water-cooling system uses 5–6°C water. At peak operation, the 420,200-gauss water-cooled magnet draws 50,000 amps. It runs at 32.3 megawatts. That equals the heat output of 5,000 homes packed into one cubic meter. Upgrades extended continuous run time from about 10 hours to 14 hours.",
-        "Records matter. But the real value lies in scientific use. So far, the facility has run over 740,000 hours. It has served 228 user institutions. It has supported over 4,100 projects. These produced more than 3,200 papers. Eighteen of those papers appeared in Nature, Science, or Cell. A Fudan University team discovered the 3D quantum Hall effect via Weyl orbits. A Shanghai University team used strong fields to improve strength and toughness of high-end special steel. Researchers from Beihang University observed giant magneto-superelastic effects in metal crystals. A University of Science and Technology of China team revealed how sunlight improves learning and memory. On April 23, 2024, Nature published work by City University of Hong Kong, Southern University of Science and Technology, and others. They used the hybrid magnet’s low-temperature transport system. They observed superconductivity vanishing then reappearing as field increased in nickel-based superconductors.",
-        "In August 2024, Nobel laureate Klaus von Klitzing visited. He said: ‘China’s steady-state high-field facility has reached world-leading infrastructure capability.’ Director Du Haifeng says higher fields remain the team’s eternal goal. Short-term plans include pushing field strength further using new materials. They will not change water-cooling or power systems. They also aim to integrate strong magnetic fields with extreme low temperature and ultra-high pressure. Nationally, this facility complements Wuhan’s pulsed-field lab. It complements Beijing’s comprehensive extreme-condition facility. It complements Hangzhou’s ultra-weak-field lab. It complements Harbin’s space-environment simulation facility. Together, they form a relatively complete magnetic-field research chain. That chain goes from weak to strong. It goes from fast to slow. It gives Chinese scientists more convenient and competitive experimental conditions."
+        "In 1954, a special atlas called 'Bird’s-Eye View of China’s Terrain' was published by Zhonghua Book Company. It did not use dense contour lines like traditional maps. Instead, it showed mountains, valleys, plains, and plateaus as if viewed from high above.",
+        "The geographer behind it was Chen Shuopeng. In that era, there were no artificial satellites. He imagined himself as a bird flying over China. Then he transformed flat topographic data into perspective-rich, lifelike drawings by hand.",
+        "He first conceived this idea in 1947. At that time, he had just undergone right kidney removal due to renal tuberculosis. He was physically weak and financially strained. He could not afford brushes or drawing paper. He wrote to cartographer Zeng Shiyin for help. Zeng was moved and provided 8,000 yuan as startup funding. Chen completed his first drawing in just one week.",
+        "After publication, the atlas sparked controversy. Some peers holding traditional map views believed the bird’s-eye maps violated conventional reading habits and even questioned their scientific validity. Not until 1957—when artificial satellites were launched and satellite imagery became widespread—did people begin to reappreciate this aerial perspective. In 1998, the American Geographical Society awarded Chen the O. M. Miller Gold Medal for Cartographic Science, honoring his pioneering work on bird’s-eye maps before satellites existed.",
+        "Chen recognized the limitations of hand-drawn bird’s-eye maps: they could not accurately express quantitative terrain features or scale relationships. How to make maps both visually clear and scientifically precise became his ongoing concern. In 1963, the State Science and Technology Commission assigned him a practical task: to assess land-use conflicts between rubber plantations and communes in Hainan using aerial photographs. He led a multidisciplinary team on three field trips to Hainan.",
+        "In 1975, he introduced U.S. Landsat satellite imagery to produce China’s national satellite image map. From 1978 to 1985, under Chen’s advocacy and organization, major remote-sensing experiments were conducted in Tengchong (Yunnan), Tianjin, and Ertan (Sichuan). These were called China’s 'Three Major Campaigns' in remote-sensing application. In 1980, he helped found the Institute of Remote Sensing Applications, Chinese Academy of Sciences. In 1984, he became founding head of the State Key Laboratory of Resources and Environmental Information Systems."
       ],
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-25T04:22:28.527Z",
+        "reviewedAt": "2026-11-25T05:06:50.224Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
         "correctionCount": 0,
@@ -64,32 +64,29 @@
       }
     },
     "image": {
-      "src": "/editorial/2026-11-25/2026-11-25-997560.webp",
-      "alt": "冷灰色调下抽象圆环与圆柱构成的科学装置插图",
-      "caption": "极端实验条件的抽象轮廓",
+      "src": "/editorial/2026-11-25/2026-11-25-d9f825.webp",
+      "alt": "冷灰纸面上层叠的手绘等高线地形图，旁有铅笔与描图纸。",
+      "caption": "一笔一笔，把大地画成线。",
       "kind": "editorial"
     }
   },
   {
-    "slug": "2026-11-25-earth-s-water-may-have-formed-in-this-fiery-furn",
+    "slug": "2026-11-25-meet-the-first-new-living-cat-species-described",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "新研究：地球的水可能由含铁岩石与大气氢反应生成",
+    "title": "科学家确认百年来第一种新猫科物种，体重约两公斤",
     "category": "science",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-25",
-    "intro": "一项新研究提出，地球的水可能并非由彗星或陨石从太空送来；它更可能是在地球形成过程中，由含铁岩石与大气中的氢反应生成。",
+    "intro": "一种体重约两公斤、毛皮带斑的小型猫科动物，被确认是此前从未被科学描述过的物种，也是百年来第一例。",
     "paragraphs": [
-      "四十多亿年前的地球没有海洋，天空滚烫，像一座巨大的熔炉。我们每天喝的水、从海里舀起的水，究竟从哪里来？这个问题至今没有定论。一种解释是‘外送’：带冰的彗星或陨石撞上地球，把水一起带了过来。另一种是地球自身化学作用产生水——这项新研究聚焦于此，成果发表在《Nature Geoscience》上。",
-      "研究者把这个过程叫作‘pebble rain’（卵石雨），也叫‘pebble accretion’（卵石吸积）。地球早期质量增大、引力增强，吸引大量含铁硅酸盐岩石向地表高速坠落；这些岩石与大气中的氢发生反应。在高温度、高压和高通量条件下，氢会剥离岩石中铁氧化物中的氧，释放出水蒸气——氧来自岩石，氢来自大气，水是化学反应的副产物。",
-      "研究团队估计，这一过程可能释放出约200个地球海洋水量的H₂O，为生命提供了关键成分。这些卵石本身来自地球之外，类似陨石；但水并非在太空以冰形式存在后被运来，而是在地球上现场生成。",
-      "为了验证这个想法，研究者在实验室模拟早期地球条件：温度高达2552°F（约1400°C），让氢气流过硅酸盐岩石。结果，样本中近80%的氧化铁被还原为金属铁，并同步产生水蒸气。",
-      "这项研究的意义不止于地球。研究作者扎卡里·夏普在声明中指出：‘过去关于地球水来源的想法都依赖彗星或陨石这样的外部来源；而我们表明，几乎任何地球大小的行星都应能通过这一新机制拥有水。’这为寻找地外生命开辟了新可能。",
-      "夏普还说：‘望着眼前大片的水，很难想象它可能是在四十五亿年前、地狱般的大气里产生的，但事实很可能就是这样。’"
+      "爱猫的听众可以留意一下：猫科动物的家族树上，刚刚多出了一根新枝。科学家给这种动物起的学名是 Leopardus tilcayo。它体型细长，毛皮上布满斑点，尾巴上有一圈一圈的环纹。体重只有两公斤左右（约4.4磅），和一只四个月大的家猫差不多重。它是在玻利维亚被发现的，看起来原产于安第斯山脉中部的永加斯森林。",
+      "这项研究发表在十月五日的《Current Biology》（《当代生物学》）上。这是科学家第一次为这种猫命名并正式描述。它也由此成为一百多年来，科学家记录到的第一种新的、仍然生活在野外的猫科物种。上一次出现这样的情况，还是一九二三年描述的乌拉圭潘帕斯猫（Leopardus fasciatus）。对这么小的一种动物来说，它引起的动静可不小，消息很快登上了世界各地媒体的标题。研究团队成员、比利时安特卫普大学的进化生物学家莱斯克罗阿特说：‘我完全没有想到会引来这么大范围的关注。’",
+      "有意思的是，研究团队一开始并没有打算发现新猫。他们想弄清楚的是：虎猫到底有几种。虎猫生活在美洲热带，个子小，彼此长得非常像。于是团队分析了豹猫属（Leopardus）38个物种的遗传信息。他们原本预计虎猫可能是两个种，最多四个种。分析结果却指向五个种，其中一个，在科学记录里从来没有被描述过——就是 L. tilcayo。",
+      "关于这种新猫，目前的数据只来自两个个体。其中一只是雌性，曾在玻利维亚的一处保护区短暂接受过伤病治疗，后来被放回野外。另一只是雄性，至今还住在那个保护区里，名叫Tigrino，大约十岁。他曾经作为家养宠物生活过一年，之后被转到保护区。研究者的同事保拉·诺加莱斯-阿斯卡伦斯在那里见到了Tigrino。她发现，这只猫和当地本该出现的猫长得不太一样。她长期从事猫科动物保护工作，也是国家地理学会探险家，于是给Tigrino做了基因检测，随后把数据分享给了研究团队。",
+      "这项研究提醒人们：即使是被研究得很透的动物，比如猫，也可能藏着还没被认出来的多样性。莱斯克罗阿特说：‘我不确定下一个新物种是不是还要再等一百年。’不过团队也承认，目前他们手上并没有其他奇怪的小猫在等待确认。"
     ],
     "topics": [
-      "地球水的起源",
-      "行星科学",
-      "岩浆海洋"
+      "生命与演化"
     ],
     "ageBands": [
       "10-12",
@@ -97,94 +94,139 @@
     ],
     "form": "pick",
     "source": {
-      "name": "Nautilus",
+      "name": "Science News Explores",
       "region": "international",
-      "url": "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019/",
-      "originalTitle": "Earth’s Water May Have Formed in This Fiery Furnace",
-      "publishedAt": "Tue, 24 Nov 2026 21:00:00 +0000",
-      "retrievedAt": "2026-11-25T04:18:47.584Z",
+      "url": "https://www.snexplores.org/article/new-living-cat-species",
+      "originalTitle": "Meet the first new living cat species described in more than a century",
+      "publishedAt": "Tue, 24 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-25T05:00:52.951Z",
       "basis": "full-text",
       "lang": "en",
-      "profile": "depth",
+      "profile": "analysis",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-25T04:18:43.962Z",
+        "reviewedAt": "2026-11-25T05:00:45.672Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 5,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    }
+  },
+  {
+    "slug": "2026-11-25-8c5be8",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "世界帆联在青岛开年会，会场外办起非遗体验和艺术展",
+    "category": "culture",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-25",
+    "intro": "一场讨论奥运会帆船项目的国际会议，为什么同时在会场外办起了非遗体验和艺术展？",
+    "paragraphs": [
+      "近日，2026年世界帆船联合会年会在青岛举行，其间来自世界各地的数百名帆船界代表围绕2032年布里斯班奥运会帆船项目设置、残疾人帆船分级规则及可持续发展议程展开讨论。",
+      "会场之外，“没有议程表”的对话也在同步发生：11项胶东非遗与传统手工艺引得嘉宾驻足体验，市民队伍献上传统武术与健身气功展演，“航行之美”航海文化艺术展搭起中西丹青与海洋美学交流的平台。",
+      "对于高度依赖水域、气象与器材的帆船运动而言，观赏门槛与参与成本制约着大众普及，如何让更多人从“看比赛”走向“懂帆船、近海洋”，成为世界帆船界必须破解的课题。今年初，世界帆船联合会成立首个文化与艺术委员会，将保护、弘扬帆船文化、艺术与遗产纳入常设治理架构。世界帆联首席执行官大卫·格雷汉姆说：“成立这一委员会，正是为了加强帆船运动与文化艺术的结合，进一步提升这项运动的全球知名度。”这一探索也呼应了现代奥林匹克运动长期倡导的理念——《奥林匹克宪章》明确提出将体育与文化和教育融为一体。百余年前顾拜旦复兴现代奥林匹克运动时，便力推艺术与体育相融。",
+      "在青岛国际会议中心民俗展示区，代表与外宾们尝试剪纸、糖画，触摸螺钿纹样，借助手势与翻译交流心得。对于常年与风浪打交道的航海人而言，语言隔阂在共同的自然感知中消融，人们从“向海而生、依海造物”的民间技艺里读懂海滨城市的生活智慧。登台展演的中国武术与健身气功，则以身心调和的东方哲思，呼应着帆船“顺应自然、与风浪协奏”的精神内核。“航行之美”航海文化艺术展厅呈现出跨越东西方的艺术共创。展览沿“溯源—观物—对话—创新—在场—共航未来”动线展开，融合国画、油画、水墨精品与数字艺术，展现东方航海美学。徐悲鸿长孙、徐悲鸿艺术馆馆长徐小阳题写“一马当先”“马到成功”，齐白石孙女、齐派艺术第三代传人齐慧娟创作墨虾等水墨画作赠予世界帆联；世界帆联副主席科琳·米格海恩以青岛海图为底作画，回赠组委会。世界帆联主席李全海表示，艺术家们将中国传统艺术与体育有机结合，丰富了年会内涵，加深了中外帆船界的理解。格雷汉姆也表示“已观赏过多次”，盛赞中国文化与帆船运动交融的感染力。",
+      "自2008年北京奥运会帆船比赛在浮山湾留下被业界誉为“青岛模式”的办赛经验以来，这座城市没有让奥运场馆止步于“打卡地”——连续20年牵手克利伯环球帆船赛并承建国际赛事标准远洋大帆船，创办“远东杯”、城市俱乐部国际帆船赛等20余项自主品牌赛事，走出郭川、宋坤、徐京坤等航海领军人物，2006年启动“帆船进校园”至今命名114所帆船特色学校、32所特色示范学校，累计培训青少年超11万人次。",
+      "海风掠过浮山湾，点点白帆与岸上的笔墨、匠心彼此映照。现代体育锚定人文价值与文化连接，世界帆船运动从青岛扬起的，不仅是一届年会的风帆，更是一条通往更广阔公共视野与文明互鉴的远航之路。"
+    ],
+    "topics": [
+      "体育",
+      "艺术与设计",
+      "文化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "新华体育",
+      "region": "mainland",
+      "url": "https://www.news.cn/sports/20261124/29511a3dc3624ad1add17095f69e2360/c.html",
+      "originalTitle": "体育可以有更丰富的文化表达——世界帆联青岛年会观察",
+      "publishedAt": "2026-11-24T17:20:52+08:00",
+      "retrievedAt": "2026-11-25T05:01:47.927Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T05:01:44.177Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 1
       }
     },
+    "en": {
+      "title": "Sailing Beyond the Race: Inside the World Sailing Conference in Qingdao",
+      "intro": "A World Sailing conference in Qingdao talked about Olympic rules inside its meeting rooms. It also celebrated paper cutting, martial arts and ink painting just outside them.",
+      "paragraphs": [
+        "The 2026 World Sailing annual conference took place in Qingdao. Hundreds of sailing representatives from around the world attended. They discussed sailing events for the Brisbane 2032 Olympics. They reviewed classification rules for para sailing. They debated sustainability on the sailing agenda.",
+        "Outside the meeting rooms, an unstructured cultural exchange unfolded. Eleven Jiaodong intangible cultural heritage items and traditional crafts drew guests to try paper cutting and sugar painting. Local residents performed traditional martial arts and fitness qigong. The 'Beauty of Sailing' nautical art exhibition brought together Chinese and Western painting and digital art.",
+        "World Sailing established its first Culture and Art Committee earlier this year. Chief Executive David Graham said its purpose is to strengthen the link between sailing and culture and art. This aligns with the Olympic Charter. The Charter states sport must be united with culture and education. Over a century ago, Pierre de Coubertin advocated integrating art and sport.",
+        "At the Qingdao exhibition, Xu Xiaoyang inscribed 'One Horse Leads the Way' and 'Success Upon Arrival'. He is the grandson of Xu Beihong and director of the Xu Beihong Art Museum. Qi Huijuan created ink-shrimp paintings as gifts to World Sailing. She is the granddaughter of Qi Baishi and third-generation inheritor of the Qi School. World Sailing Vice President Corinne Miggheen painted on a Qingdao sea chart. She presented it to the organizing committee.",
+        "Qingdao hosted the 2008 Beijing Olympic sailing events in Fushan Bay. Since then, it has maintained active use of Olympic venues. It has partnered with the Clipper Round the World Yacht Race for 20 years. It built international-standard offshore yachts. It launched over 20 homegrown sailing events. It has produced sailors including Guo Chuan, Song Kun, and Xu Jingkun. Since 2006, the 'Sailing into Schools' program has named 114 sailing-specialty schools. It has named 32 model schools. More than 110,000 young people have been trained.",
+        "The exhibition included Xu Lijia’s signed award suit from the 2012 London Olympics. On August 6, 2012, she won gold in the women’s Laser Radial class. She scored 35 points. Her victory opened a new chapter for Chinese and Asian Olympic sailing."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-25T05:08:02.942Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
     "image": {
-      "src": "/editorial/2026-11-25/2026-11-25-earth-s-water-may-have-formed-in-this-fiery-furn.webp",
-      "alt": "冷灰色调下岩石层与水滴气泡的抽象剖面插图",
-      "caption": "水或许诞生于岩石与气体的相遇",
+      "src": "/editorial/2026-11-25/2026-11-25-8c5be8.webp",
+      "alt": "冷灰纸面上帆船剪影与剪纸织物纹样色块并置。",
+      "caption": "会场内外，帆影与手艺相遇。",
       "kind": "editorial"
     }
   },
   {
-    "slug": "2026-11-25-justice-is-elusive-for-the-rohingya-even-after-t",
+    "slug": "2026-11-25-this-group-of-seamstresses-mends-shirts-to-make",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "国际法院裁定缅甸对罗兴亚人实施种族灭绝，但正义依然遥远",
-    "category": "society",
+    "title": "缝纫志愿者给衬衫缝上拉链，帮助癌症患者更舒适地接受化疗",
+    "category": "living",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-25",
-    "intro": "国际法院以九票对六票裁定缅甸在2017年若开邦‘清除行动’中对罗兴亚人实施种族灭绝，但超过120万罗兴亚人仍滞留在孟加拉国难民营，缺乏公民权、无有效执行机制、若开邦控制权更迭，使安全返乡与实质正义遥不可及。",
+    "intro": "在俄亥俄州及美国其他州，一群缝纫志愿者把捐来的T恤改成胸前带拉链的款式，帮助癌症患者更舒适地接受化疗。",
     "paragraphs": [
-      "国际法院以九票对六票裁定：缅甸在2017年若开邦的‘clearance operations’中对罗兴亚人实施了种族灭绝。这一裁决具有里程碑意义。但判决之后，超过120万罗兴亚人仍生活在孟加拉国科克斯巴扎尔附近的难民营中，没有任何切实可行的返乡前景。\n\n而且，2017年并非罗兴亚人首次大规模流亡。早在1978年，以及1991至1992年间，数十万罗兴亚人就曾为逃避国家迫害涌入孟加拉国。许多人曾返回缅甸，又在新一轮暴力爆发后被迫再度逃离。",
-      "他们为何无法返乡？最核心的障碍是公民身份。自1982年缅甸剥夺罗兴亚人公民权起，他们长期生活在类似种族隔离的境况下：行动、教育、医疗均受限制，部分家庭还被强制实行两孩政策。多数罗兴亚人希望返乡，但拒绝在缺乏安全保障的前提下回去——而安全的前提，正是公民权的恢复。",
-      "缅甸军方政权几乎不可能让步。2021年政变后，军方独掌政府。敏昂莱自2011年起任缅甸国防军总司令，被指为罗兴亚种族灭绝的策划者；他于2026年卸任后，由军方主导的议会选举其出任总统。在此政治格局下，罗兴亚人安全、有尊严地遣返已近乎不可能。",
-      "另一重现实障碍来自若开邦本身。自2023年底起，若开邦大片地区已由若开军实际控制。该组织是缅甸最大、最具实力的非国家武装团体，正谋求若开地区独立。它公开敌视罗兴亚人，其控制区内罗兴亚人所面临的限制，与过去缅甸政府施加的如出一辙。",
-      "国际法院虽已确认缅甸对种族灭绝负有责任，并命令其提供赔偿与补偿（具体细节尚待确定），但法院本身没有独立执行机制，只能依赖各国自愿遵守国际法。唯一可采取强制行动的机构是联合国安理会，而拥有否决权的中国和俄罗斯极可能反对——两国多年来持续向敏昂莱政权提供政治、外交与军事支持。",
-      "裁决带来的最直接积极影响，是重新唤起国际关注。这有望带动捐款，缓解难民营日益严峻的人道危机。新冠疫情后，加之美国国际开发署（USAID）被解散，援助资金持续萎缩。目前，孟加拉国境内的罗兴亚难民每人每月仅获7至12美元食品援助。叠加缺乏创收机会，口粮削减已被难民普遍视为营地中最严峻的挑战。",
-      "关注升温也可能转化为政治压力，不仅针对缅甸，也延伸至区域国家。例如，马来西亚自2026年9月起开始将难民遣返缅甸，但缅甸政府持续拒绝联合国难民署等国际机构接触相关人群，因此这些遣返是否真正自愿，无法核实。国际压力或可促使马来西亚停止此类行动，避免进一步伤害本已脆弱的罗兴亚难民群体。",
-      "最根本的转变在于‘承认’：这是国际法院首次在正式裁决中明确认定罗兴亚人为一个独特群体。裁决直接驳斥了缅甸长期宣称的‘罗兴亚人是来自孟加拉国的非法移民’这一说法——该说法否认罗兴亚人对若开邦土地与权利的合法主张。尽管裁决本身不保证正义实现，但它构成了通向修复性正义的必要前提。"
+      "化疗可以很漫长，也很难熬——治疗本身、副作用、不确定性，都让人身心俱疲。连换衣服这样的小事，也可能变成巨大负担。有些患者需要通过埋在胸口皮肤下的输液港接受化疗，普通T恤没有开口，他们只能脱下自己的衣服，换上病号服，治疗结束再一件件穿回去。在俄亥俄州及美国其他州，一群会踩缝纫机的志愿者想解决这件小事。",
+      "事情从2018年开始。帕特·科克伦的朋友丹尼斯·西格要做化疗，他告诉科克伦：自己不想穿病号服——人本来就冷，还要脱衣服，治疗完再全部穿回去。科克伦是个有经验的裁缝，她为西格做了三件T恤，在胸前横着缝上一条拉链，方便护士接触输液港。西格穿着这三件衣服去了每一次化疗。后来他回来说：‘护士们想问你，能不能也给我们做一些？’",
+      "科克伦叫上朋友一起做。如今，这个志愿团体每年收到约7000件新捐来的T恤，并将它们改造成‘化疗友好型’衬衫。她们自称‘缝纫帮’（Gangstresses），科克伦喜欢这样称呼伙伴们。除俄亥俄州外，佛罗里达、威斯康星、印第安纳和北卡罗来纳州也已形成类似志愿小组。",
+      "每隔几个月，科克伦家那间颜色鲜亮的手工房就变成教室，她管它叫‘拉链学校’。帕蒂·卢瑟从俄亥俄中部开车一小时来学习：拉链要缝好、熨平，但顶端要留一小段不缝。科克伦还建议在拉链齿下方加一层柔软的泳衣面料，因为许多患者皮肤变得敏感。卢瑟把学到的方法带回自己教堂，成立了新小组。就这样，科克伦教一个人，那个人再教下一个人，队伍逐渐扩大。",
+      "做好的T恤由志愿者送到癌症治疗中心，由护士分发给患者。每件衣服里都附有一张手写卡片，写着缝制者的名字。希拉·森内特的丈夫丹收到过一件简单的蓝色T恤。她说：‘输液中心里能让人高兴的事不多（笑声），但那件衬衫真让丹那天心情很好。’丹在2023年因癌症去世，但希拉说，她一直记得那件衬衫如何让他在笑容稀缺的时候露出微笑——‘你相信我，那件衬衫每次化疗前都得洗干净、准备好（笑声）。他简直把它穿到不能再穿了。’",
+      "科克伦的缝纫机旁放着一张照片：丹尼斯·西格穿着一件带拉链的图案T恤，笑得很开。他在2019年去世。科克伦说，有时候某个尺码的衬衫快用完了，几天或一周内，新衣服就会寄到。‘这就是我想说的全部。’她仍坚持每周缝纫——一次缝一条拉链，把衣服变成安慰，让患者在接受治疗的几个小时里，还能穿着属于自己的衣服。"
     ],
     "topics": [
-      "全球时事",
-      "气候与能源"
+      "健康与医学",
+      "心理与情绪"
     ],
     "ageBands": [
+      "10-12",
       "13-16"
     ],
     "form": "pick",
     "source": {
-      "name": "The Conversation",
+      "name": "NPR Health",
       "region": "international",
-      "url": "https://theconversation.com/justice-is-elusive-for-the-rohingya-even-after-the-icjs-landmark-genocide-ruling-against-myanmar-297125",
-      "originalTitle": "Justice is elusive for the Rohingya even after the ICJ’s landmark genocide ruling against Myanmar",
-      "publishedAt": "2026-11-24T16:49:44Z",
-      "retrievedAt": "2026-11-25T04:21:04.263Z",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6044239-e1/this-group-of-seamstresses-mends-shirts-to-make-chemo-easier-for-cancer-patients",
+      "originalTitle": "This group of seamstresses mends shirts to make chemo easier for cancer patients",
+      "publishedAt": "Tue, 24 Nov 2026 16:19:27 -0500",
+      "retrievedAt": "2026-11-25T05:04:46.901Z",
       "basis": "full-text",
       "lang": "en",
       "profile": "analysis",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-25T04:21:01.756Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 42,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Genocide Ruling, But Justice Is Still Far Away",
-      "intro": "The International Court of Justice ruled Myanmar committed genocide. Yet the Rohingya still wait for justice.",
-      "paragraphs": [
-        "The International Court of Justice ruled, by nine votes to six, that Myanmar committed genocide against the Rohingya people. This was in connection with its 2017 'clearance operations' in Rakhine State. The ruling is an alarm bell for all states accused of genocide.",
-        "The year 2017 was not the first Rohingya exodus from Myanmar. In 1978 and again in 1991–92, hundreds of thousands of Rohingya fled to Bangladesh. They did so to escape state persecution. Many returned. Then they were forced to flee again when new violence erupted. Today, more than 1.2 million Rohingya are in refugee camps in Bangladesh. They have no concrete prospect to return to Myanmar. Most Rohingya want to return. But not without conditions that ensure their safety.",
-        "The most crucial condition is citizenship rights. Myanmar stripped the Rohingya of their citizenship in 1982. Since then, they have lived under apartheid-like conditions. Discriminatory policies restrict their movement, education, and health care. Families were restricted to a two-child limit. Returning to Myanmar just to face the same conditions is not an option for many Rohingya. It is unlikely Myanmar will agree to grant citizenship to the Rohingya. Since the 2021 coup d'état, the military has had sole control of the government.",
-        "Since late 2023, vast swaths of Rakhine State have been under control of the Arakan Army. Most Rohingya lived there until 2017. The Arakan Army is the largest and most powerful non-state armed group in the country. It is vying for the independence of the Arakan region. The Arakan Army is openly hostile to the Rohingya. Those living in its territory face many of the same restrictions previously imposed by the state.",
-        "The ICJ established Myanmar’s responsibility for the genocide. It ordered Myanmar to provide reparations and compensation. Details are still to be decided. But in practice, the court cannot compel Myanmar to act. The ICJ has no independent enforcement mechanism. It relies only on states’ willingness to obey international law. Only the UN Security Council could take coercive action. China and Russia hold veto power. They are likely to oppose such action.",
-        "The ICJ ruling has brought attention to the plight of the Rohingya. Renewed interest may draw donations. These could help meet pressing needs. Funding for the refugee camps has dwindled. This followed the COVID-19 pandemic. It also followed the dismantlement of USAID. Currently, the Rohingya in Bangladesh receive US$7–$12 per person per month in food assistance. Refugees frequently identify ration cuts as their most severe challenge. More attention could increase political pressure. This applies to Myanmar and its regional partners. Malaysia began deporting refugees back to Myanmar in September 2026. The government denies access to international agencies. This includes the UN High Commissioner for Refugees. So it could not be verified whether returns were voluntary. Finally, the ruling gives formal recognition of the Rohingya as a distinct people. It contradicts Myanmar’s claim that they are 'illegal immigrants from Bangladesh'."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-25T04:24:00.972Z",
+        "reviewedAt": "2026-11-25T05:04:43.404Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 6,
         "correctionCount": 8,
-        "attempts": 2
+        "attempts": 1
       }
     }
   },
@@ -3416,75 +3458,6 @@
       "src": "/editorial/2026-11-09/2026-11-09-4b6f33.webp",
       "alt": "冷灰纸感背景上，抽象水压机轮廓压塑发亮金属坯料成弧形。",
       "caption": "压力之下，金属被塑成形状。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-08-mystery-solved-why-sleeping-ants-suddenly-explod",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "休眠蚂蚁为何会突然集体出动",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-08",
-    "intro": "一个计算机模型提出，蚁群突然集体行动，可能只需要一只蚂蚁和三个条件。",
-    "paragraphs": [
-      "有些蚂蚁的群体可以安静很久，像全体睡着了；然后，没有谁下命令，活动却像多米诺骨牌一样突然传遍整个巢。这种集体行为让科学家困惑了三十多年。现在，一个由美国纽约大学两位工程师（迈克尔·纳波利和毛里齐奥·波尔菲里）和新泽西理工学院一位生物学家（西蒙·加尼耶）组成的研究团队，用计算机模型提出了一个可能的解释，成果发表在2026年8月5日的《PRX Life》上。",
-      "研究者在模型里先让蚁群保持安静，再随机让一只蚂蚁开始走动。它碰到邻居，邻居也跟着动；被带动起来的蚂蚁再去碰别的蚂蚁，活动就这样一步步扩散。模型还设定：一只蚂蚁停下后，要先休息一段时间，才能再次被带动起来。",
-      "要让一只蚂蚁真正带动整个蚁群，模型发现需要三个条件同时成立。第一，活动要传得够快：蚂蚁走得够快，能不断碰到同伴，或者巢里足够拥挤，大家很容易彼此碰撞，就像玩抓人游戏时操场挤满了人。第二，被碰到的蚂蚁要容易被带动；如果它们很难被激起，最初那点动静就会熄灭。第三，整个蚁群要先彻底安静下来，进入休息状态，下一次活动才容易形成。安静得太慢，蚁群一直松松散散；安静得太快，最初的动静又可能在传开前就消失。",
-      "三个条件都满足的蚁群，在模型里出现了突然爆发；缺少任何一个，爆发就没有发生。研究者把这种从‘不会爆发’到‘会爆发’的转变叫作相变，类似液态水结成固态冰。模型使用的部分数据来自真实的橡果蚁（_Temnothorax rugatulus_）：它们走得多快、走多久会停；但休息时长等特征，只能根据整个蚁群的行为来估算。这项研究尚未经过真实蚁群实验验证。",
-      "没有参与这项研究的生物学家柯尔斯滕·普赖尔（宾汉姆顿大学）说：‘Instead, this study suggests bursts come down to simply speed and contact rate.’——这项研究提示，爆发可能只取决于速度和接触频率。生态学家埃尔娃·罗宾逊（英国约克大学）则关心：这种爆发对蚁群到底有什么用？模型打开了‘如何发生’的黑箱，却没有探索‘什么目的’。研究团队还猜测，同样的条件可能适用于其他会互相触发的群体。2015年一项关于放牧羊群的研究就发现，一只羊靠近邻居，可能引发连锁反应，让整群羊挤得更紧。蚂蚁的突然忙碌，也许并不是谁叫醒了谁，而是它们相遇的方式，刚好让动静传遍了整个巢。"
-    ],
-    "topics": [
-      "生命与演化"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "Science News Explores",
-      "region": "international",
-      "url": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
-      "originalTitle": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
-      "publishedAt": "Fri, 06 Nov 2026 11:30:00 +0000",
-      "retrievedAt": "2026-11-08T00:41:51.941Z",
-      "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:41:42.928Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "How One Ant Wakes a Whole Colony",
-      "intro": "Some acorn ant colonies snap from stillness to action with no leader. A new computer model shows how one ant can start it all.",
-      "paragraphs": [
-        "Some ant colonies spend long stretches resting quietly — like everyone is asleep. Then, suddenly, a massive spike of activity sweeps through the nest. Scientists have puzzled over this leaderless burst for more than 30 years. A biologist and two engineers built a computer model to test what triggers it.",
-        "Their model confirms that a single ant is all it takes to get things moving. Its motion kick-starts activity in the ants it meets, who in turn do the same to every ant they meet. But once an ant stops moving, it must rest before it can become active again. The initial ant sparks activity throughout the colony only when three conditions line up.",
-        "First, activity must travel fast enough. That happens when ants move fast enough to keep bumping into nestmates or when the nest is crowded. Second, ants must respond easily to being bumped — if they are hard to stir, the spark fizzles. Third, the whole colony must switch off and go into rest mode before the next spark. If ants settle down too slowly, the colony never fully settles. If they settle too quickly, early motions die out before spreading.",
-        "The team built the model using measurements from real acorn ants — including how fast they walk and how long they walk before stopping. Some features, such as the resting period, had to be estimated from the behavior of whole colonies. The model shows a sudden switch — from a colony that never bursts to one that does. Scientists call this a phase transition, like liquid water freezing into solid ice.",
-        "Kirsten Prior, an ant biologist at Binghamton University, expected a chemical signal or decision-making. She says the study suggests bursts come down to speed and contact rate. Grant Navid Doering, a biologist at Bilkent University, says experiments with real colonies will be necessary to test the model. Elva Robinson, an ecologist at the University of York, asks what purpose the bursts serve for the colony.",
-        "The researchers suspect the same conditions could apply beyond ants. A 2015 study of grazing sheep found that one animal moving close to its neighbor started a chain reaction. Soon the whole herd packed tightly together — with no order from a leader."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-08T00:51:12.005Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-08/2026-11-08-mystery-solved-why-sleeping-ants-suddenly-explod.webp",
-      "alt": "冷灰色纸纹背景上一只线条构成的抽象蚂蚁与几粒圆点",
-      "caption": "一只蚂蚁，或许就是群体行动的开关。",
       "kind": "editorial"
     }
   }
