@@ -1,21 +1,72 @@
 [
   {
-    "slug": "2026-11-27-insects-once-had-24-legs",
+    "slug": "2026-11-27-f5ad56",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "昆虫祖先曾经长着24条腿",
-    "category": "science",
+    "title": "西安碑林：九百多岁的石碑宝库",
+    "category": "humanities",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-27",
-    "intro": "一块在得州出土的化石显示，六足昆虫的祖先曾拥有更多条腿。",
+    "intro": "一篇听稿无法完成：抓取到的原文只有网页导航和标题，正文内容没有取得，因此不能在不编造事实的前提下改写。",
     "paragraphs": [
-      "说到昆虫，我们通常会想到六条腿。可一块在美国得克萨斯州西部出土的化石，却保存着24条腿。它来自大约3.24亿年前，腹部比今天的昆虫多出九对短腿。研究人员说，这是迄今发现的最奇怪的昆虫之一，成果发表在8月26日的《自然》杂志上。",
-      "这块化石的经历也很曲折。1985年，它在得州西南部的大弯国家公园附近被采集到。起初，科学家把它当成一种年幼的甲壳动物——名为Tesnusocaris goldichi的物种。之后它在圣迭戈自然历史博物馆的抽屉里躺了几十年。后来，古昆虫学家埃里克·蒂赫尔卡在一本二手买来的俄语古生物学书里看到它的线图，追到该博物馆。刚看到时，化石像一团黑色污迹；换上偏振光滤片后，反光被滤掉，图像更清晰，新细节才显现出来。",
-      "他看到了分成三节的胸部、十一节的腹部，还有鞭状触角、产卵用的硬管，以及一条长尾和两条短尾。最关键的是，除了三对步行腿，化石腹部还伸出九对短粗的腿，后面几对像船桨。研究者推测，这些桨状腿可能帮助它在泥泞的浅海里游泳或爬行，过着半水生的生活。",
-      "蒂赫尔卡把它和苏格兰一块4.05亿年前的化石，以及伊利诺伊州两件尚未正式描述的多腿昆虫样化石放在一起比较。结果，它们都位于‘今天所有昆虫’这个类群的外侧，是今天昆虫的古老祖先；甲壳动物则在更远的分支上，更像远房表亲。这个时期大约在3.25亿到4亿年前，昆虫化石非常稀少，所以这块化石有助于填补演化史上的一段空白。",
-      "研究团队给它取名Chosha praecursor，名字一部分来自纳瓦霍语中‘昆虫’（ch’osh）一词，一部分来自拉丁语‘前辈’（praecursor）。在漫长的演化中，这类祖先的腿逐渐减少，最终稳定在六条，并登上陆地，繁衍出今天数以百万计的昆虫物种。蒂赫尔卡说：‘我们管昆虫叫“六足类”，意思是六条腿。但事实证明，最早的成员其实腿多得多。’"
+      "这次抓取到的页面只有站点导航、栏目链接和文章标题“何以中国｜九百多岁的西安碑林，为什么常看常新？”，署名田博群，发布时间为2026年11月26日19时33分。标题之下本应出现正文，但抓取结果在图片地址处中断，没有留下一句可以核验的正文内容。",
+      "轻听的听稿必须句句回到原文。碑林的建立年代、藏品构成、历史上几次修整与迁建、如今为何“常看常新”，这些都只能由原文说清楚，不能靠常识补写。用一个标题去撑起七百字，等于把编辑部自己的印象冒充成来源结论。",
+      "因此这篇候选暂时不能进入改写和录音环节。需要重新取得完整正文；如果全文可以通过原链接正常打开，再按听稿要求重新组织。抓不到全文就先放弃，这比硬写更可靠。"
     ],
     "topics": [
-      "生命与演化"
+      "历史",
+      "艺术与设计"
+    ],
+    "ageBands": [
+      "6-9",
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "中新网文化",
+      "region": "mainland",
+      "url": "https://www.chinanews.com.cn/cul/2026/11-26/10738320.shtml",
+      "originalTitle": "何以中国｜九百多岁的西安碑林，为什么常看常新？",
+      "publishedAt": "Thu, 26 Nov 2026 19:33:13 +0800",
+      "retrievedAt": "2026-11-27T04:25:48.594Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T04:25:35.137Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 3,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-27/2026-11-27-f5ad56.webp",
+      "alt": "冷灰色调的石碑轮廓与纸张拓印元素组成的抽象静物",
+      "caption": "石碑与纸页，沉默的保存。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-27-ca24a9",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "联合国大学澳门人工智能大会探讨以人为本的人工智能教育",
+    "category": "society",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-27",
+    "intro": "一场在澳门举行的大会，四百多人讨论同一件事：当人工智能能给出答案，教育该教孩子什么。",
+    "paragraphs": [
+      "11月25日至26日，第三届联合国大学澳门人工智能大会在澳门举行。来自全球的400多名政策制定者、教育工作者、学者和青年创新者齐聚一堂，探讨如何利用人工智能促进教育发展，同时确保技术应用符合人的主体性、社会公平和信任等原则。与会者来自200多家机构，包括高校、中小学、政府部门和联合国机构，其中学生超过120人。本届大会由联合国大学国际软件技术研究所主办，以“人工智能与教育：智为学用，学为智基”为主题。人工智能正在改变人们获取知识、开展学习和评估能力的方式，也对教育体系提出新的要求。",
+      "联合国副秘书长、联合国大学校长马瓦拉在开幕式上表示，每一项重大科技进步最终都会成为教育面临的课题。在人工智能能够提供答案的时代，教育更需要培养人们独立思考、判断和作出选择的能力。他强调，人工智能的未来不仅取决于算法，更取决于人，而教育在塑造人的过程中发挥着关键作用。",
+      "大会专题论坛公开征集共收到来自74个国家和地区的340份提案，其中近四分之三来自全球南方。最终遴选出的16场专题论坛，围绕人工智能对教育治理、学习成果评估和未来就业等领域的影响展开讨论。与会者指出，各国教育体系在基础设施、数据资源和制度能力方面存在差异，人工智能教育政策和治理规则的制定应充分考虑不同国家的发展阶段和实际需求，特别是发展中国家的经验和诉求。",
+      "讨论涉及多个方面，包括在人工智能广泛参与教学的环境下，如何准确评估学生的学习成果和核心能力；如何完善法律和制度框架，明确自动化系统参与教育决策时的责任；以及如何扩大中小学和资源相对匮乏地区获得人工智能教育的机会。与会者还强调，发展中国家不应仅仅成为人工智能技术的使用者，也应参与技术和教育框架的设计与建设。人工智能教育的发展需要重视本地语言、文化背景和实际需求，通过多边合作推动更加包容的技术应用。",
+      "青年是本届大会的重要参与力量。大会期间举行的全球青年人工智能创新大赛吸引了来自128个国家和地区的314份申报，参赛项目围绕人工智能促进教育、推动社会创新以及支持欠发达地区发展等议题展开。共有15支队伍进入总决赛，其中包括来自澳门的3支中学生队伍。评审重点关注参赛方案的技术可行性，以及能否回应现实社会需求、创造公共价值。大会还通过一系列工作坊和培训活动，将政策讨论延伸至教学和实践层面。12场互动工作坊吸引约200人次教育工作者、学生、政策制定者和相关从业人员参与，内容涵盖人工智能时代的批判性思维和计算思维、负责任的中小学学习设计、教育机构应用人工智能的准备工作，以及人工智能智能体的实际应用。",
+      "本届大会的重要研究成果和政策建议将收录于《联合国大学-施普林格丛书》论文集，以促进相关讨论和实践经验的长期积累。联合国大学国际软件技术研究所所长黄京波表示，人工智能对教育的影响在不同地区呈现出不同面貌，各方需要通过交流相互学习，并共同应对由此带来的挑战与机遇。她强调，推动变革既需要积极行动的参与者，也需要能够持续开展国际交流与合作的平台。人工智能正在重塑教育，而今天的教育实践和政策选择也将影响人工智能未来的发展方向。"
+    ],
+    "topics": [
+      "全球时事",
+      "教育"
     ],
     "ageBands": [
       "10-12",
@@ -23,71 +74,73 @@
     ],
     "form": "pick",
     "source": {
-      "name": "Science News Explores",
+      "name": "联合国新闻中文",
       "region": "international",
-      "url": "https://www.snexplores.org/article/insects-had-24-legs",
-      "originalTitle": "Insects once had 24 legs",
-      "publishedAt": "Wed, 25 Nov 2026 11:30:00 +0000",
-      "retrievedAt": "2026-11-27T03:43:33.961Z",
+      "url": "https://news.un.org/feed/view/zh/story/2026/11/1143270",
+      "originalTitle": "联合国大学澳门人工智能大会探讨以人为本的人工智能教育",
+      "publishedAt": "Thu, 26 Nov 2026 12:00:00 +0000",
+      "retrievedAt": "2026-11-27T04:26:40.769Z",
       "basis": "full-text",
-      "lang": "en",
-      "profile": "analysis",
+      "lang": "zh",
+      "profile": "realtime",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-27T03:43:31.690Z",
+        "reviewedAt": "2026-11-27T04:26:35.962Z",
         "reviewer": "qwen-plus",
-        "evidenceCount": 26,
+        "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 1
       }
     },
     "en": {
-      "title": "An Ancient Insect With 24 Legs",
-      "intro": "A new look at an old fossil shows that insects once had many more than six legs, Science News Explores reports.",
+      "title": "Putting People First in AI Education",
+      "intro": "A major UN conference in Macau asked how schools can use AI while keeping human judgment at the center.",
       "paragraphs": [
-        "Today insects are known for having six legs. But a 324-million-year-old fossil dug up in west Texas had a body plan unlike any living insect. It had three pairs of walking legs — and nine extra pairs of short, stubby legs along its belly. That makes 24 legs total. Researchers reported their findings August 26 in the journal Nature.",
-        "The team named the fossil Chosha praecursor. This name combines the Navajo word for 'insect' (ch’osh) with the Latin word for 'predecessor'. Erik Tihelka is a paleoentomologist at the University of Cambridge in England. He says the discovery 'straddles a big gap in the fossil record'. It shows that there were transitional forms before insects settled on six legs.",
-        "Scientists collected the fossil in 1985 from a rocky outcrop near Big Bend National Park in southwestern Texas. At first, they thought it was a juvenile crustacean called Tesnusocaris goldichi. It sat in a museum drawer in San Diego for years. Then Tihelka spotted a drawing of it in a secondhand Russian paleontology book. He traveled to the San Diego Museum of Natural History to see it himself.",
-        "At first glance, the fossil looked like a 'black smudge'. Then Tihelka examined it under polarized light filters. These cut reflections and sharpened the image. He saw a middle section, or thorax, divided into three segments — just like insects today. He also saw a long abdomen with 11 sections. The fossil had a whiplike antenna, a stiff tube for laying eggs, and a long central tail between two shorter ones. Its back legs were shaped like paddles. These may have helped it swim or scuttle through muddy shallow seas.",
-        "Tihelka had seen other fossils like it. One was a 405-million-year-old specimen from Scotland. He also recalled an undescribed pair of multi-legged, insect-like fossils from Illinois. On a family tree, Chosha and those fossils all sit just outside the group that contains every insect alive today. That makes them ancient ancestors of today’s insects. Crustaceans are a distant branch — more like cousins than immediate kin. Chosha likely lived a semi-aquatic lifestyle. Over many generations, insect ancestors evolved fewer legs. Eventually, only six remained.",
-        "Dany Azar is a paleoentomologist at Lebanese University in Fanar and the Nanjing Institute of Geology and Paleontology in China. He says this fossil is a major milestone in a puzzling period when life was changing from mostly aquatic to terrestrial. Almost no fossil evidence exists of insects from 325 to 400 million years ago. William Shear is a retired paleobiologist from Hampden-Sydney College in Virginia. He says Chosha 'opens a lot of doors to the study of insect evolution'. He hopes more fossils of this organism will be found."
+        "The third United Nations University Macau AI Conference took place from 25 to 26 November 2026 in Macau. More than 400 policymakers, educators, scholars, and young innovators attended. It was hosted by the United Nations University International Institute for Software Technology. Participants came from over 200 institutions. These included universities, primary and secondary schools, government departments, and UN agencies. Over 120 attendees were students.",
+        "The conference theme was 'AI and Education: Intelligence for Learning, Learning for Intelligence.' AI is changing how people access knowledge. It is changing how they conduct learning. It is changing how they assess capabilities. Education must harness AI to improve teaching. Education must also help learners develop necessary knowledge and judgment. Learners need these to engage with technology responsibly. UN Under-Secretary-General and UN University Rector Mamphela Ramphele opened the meeting. She said every major technological advance becomes an educational challenge. In an era where AI provides answers, education must cultivate independent thinking. It must cultivate judgment. It must cultivate decision-making. She stressed that AI’s future depends not only on algorithms but on people. Education plays a key role in shaping people.",
+        "The conference invited proposals globally for thematic forums. It received 340 submissions from 74 countries and regions. Nearly three-quarters came from the Global South. Sixteen selected forums discussed AI’s impact on education governance. They discussed its impact on learning outcomes assessment. They discussed its impact on future employment. Participants noted differences across countries. These differences include infrastructure, data resources, and institutional capacity. AI education policies must reflect national development stages. They must reflect real needs. Especially those of developing countries. Developing countries should not only adopt AI tools. They should also co-design technologies and education frameworks. Local languages, cultural contexts, and practical needs must be central. Multilateral cooperation is needed for more inclusive AI applications.",
+        "Youth were a core part of the conference. The Global Youth AI Innovation Competition attracted 314 entries from 128 countries and regions. Projects addressed AI for education. They addressed AI for social innovation. They addressed AI for support of underdeveloped areas. Fifteen teams reached the final. Three secondary school teams from Macau were among them. Judges assessed technical feasibility. They assessed responsiveness to real-world social needs. They assessed public value.",
+        "Twelve interactive workshops drew about 200 participants. Educators, students, policymakers, and practitioners attended. Topics included critical thinking in the AI era. They included computational thinking in the AI era. They included responsible learning design for primary and secondary schools. They included preparing education institutions for AI adoption. They included practical applications of AI agents. Some sessions explored AI use in Model United Nations activities. Some explored recent developments in global AI governance. Conference research findings and policy recommendations will be published in the 'UNU–Springer Book Series.' Huang Jingbo is Director of the UNU International Institute for Software Technology. She said AI’s impact on education varies across regions. She stressed the need for mutual learning. She stressed joint responses to challenges and opportunities. She stressed sustained international platforms for cooperation.",
+        "AI is reshaping education. Today’s educational practices will influence AI’s future direction. Policy choices today will influence AI’s future direction. Advancing human-centered AI education requires strengthened international cooperation. It requires broader participation from countries. It requires broader participation from communities. It requires broader participation from youth."
       ],
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-27T03:51:06.767Z",
+        "reviewedAt": "2026-11-27T04:34:38.467Z",
         "reviewer": "qwen-plus",
-        "evidenceCount": 31,
+        "evidenceCount": 6,
         "correctionCount": 8,
-        "attempts": 1
+        "attempts": 2
       }
     },
     "image": {
-      "src": "/editorial/2026-11-27/2026-11-27-insects-once-had-24-legs.webp",
-      "alt": "灰蓝色纸面上的一枚抽象昆虫化石印痕，多条细长分节肢体向外舒展。",
-      "caption": "化石里的肢体，比教科书多出许多。",
+      "src": "/editorial/2026-11-27/2026-11-27-ca24a9.webp",
+      "alt": "书页形状与抽象节点连线构成的冷灰色编辑插图",
+      "caption": "当答案变得容易，问题更重要。",
       "kind": "editorial"
     }
   },
   {
     "slug": "2026-11-27-the-next-generation-of-bionic-hands-is-here-and",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "33岁创伤治疗师首次将能感知压力的仿生手带回家独立使用",
+    "title": "首位使用者把能感知握力的仿生手带回家独立使用",
     "category": "tech",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-27",
-    "intro": "一位33岁的创伤治疗师成为第一个把能感觉到压力的仿生手带回家独立使用的人，而研究者更想知道的，是它在真实生活里到底有多大用。",
+    "intro": "一只接进神经的仿生手，让一位失去左手的人重新感知握力；而他是第一个把它带回家独立使用的人。",
     "paragraphs": [
-      "美国的阿维·戴维森今年33岁，职业是创伤治疗师。少年时他失去了左手，后来换上过好几只假肢。最新这一只不太一样：它接进了他前臂上端的神经，允许他感受压力。于是这些年他第一次能用左手拿葡萄、拿鸡蛋，也能握住亲人的手。他是犹他大学一项临床试验中第九位植入这套装置的人，也是第一个把它带回家、自己独立使用的人。",
-      "这只手属于一套叫LUKE的仿生手臂，名字来自《星球大战》里的卢克·天行者。电影里卢克被光剑砍掉手之后，装上了一只几乎和真手一样的义肢。LUKE在2000年代开发出来，2014年首次做人体试验，同年获得美国食品药品监督管理局批准。但戴维森参加的这项试验，重点不在手臂本身，而在一种把手臂接到人体神经系统上的新办法，让人既能控制动作，也能接收关于所施加压力的反馈。",
-      "2009年，戴维森16岁。他爬上约35英尺高的电线杆，想拍一张最好的日落照片，往下爬时脚下一滑，伸手抓住一根电线，被电击后摔到地上。他身上37%的面积二度和三度烧伤，脊髓被切断，八根肋骨骨折。大约十天后，他抓电线的那只左手出现坏疽，只能截肢。那只手，正是他的惯用手。他昏迷了大约一个月，醒来后被告知：你瘫痪了，再也站不起来，另外，你的左手我们取掉了。他说，16岁碰上这种事，总归有点不方便吧。此后他试过好几种假肢。伤后一年半拿到的第一只，是个普通的钩子，不花哨，但让他心里觉得又完整了。后来的能靠肌肉动作控制单根手指。第三只，是他自己在eBay上买的二手货。他说，想到自己买了只二手的‘二手’，还挺好笑。",
-      "一次在超市，他偶然遇到一位科学家，由此认识了犹他大学的团队。这个团队从2013年起就在试验一种能和残肢神经相连的系统。要进试验得先过几关：身体要扛得住手术；大脑要经过扫描，确认里面还留着左手的心理表征，表明他能移动一只仿生手；手臂里的神经也要测试还能不能工作。还有治疗师来评估他的动机。团队主任杰克·乔治说：‘Avi’s doing this because he wants to help others。’今年1月底，戴维森从佛罗里达飞到犹他，做了第一次手术。医生在他手臂里找出三条神经，每条神经里植入一片带100根针的电极阵列。神经是软的，硬往里推没什么用，团队用一种‘compressed-air gun’，把针阵以极快的速度射进神经。神经周围的肌肉里，另外埋了24个电极。所有导线都留在皮肤外面。术后团队给了他恢复时间，他第二天就要求上机器。",
-      "接下来是训练电脑，把神经里的电信号翻译成手和手腕的动作。这一步很快，乔治说：‘It takes a matter of about five minutes。’戴维森只要在脑子里想各种动作，系统就能听到对应的神经信号。难的是反方向，把电极接到感觉上。团队一个接一个地刺激连接点，问他有没有感觉，再一点点加大信号看效果，前后花了大约三天。导线后来被简化了，乔治形容，差不多就像插一根HDMI线或者USB-C线。戴维森想用手时，先戴上，接上线，再用一台小电脑启动。他还得重新学怎么控制它。职业治疗师莉安·塞金格说，用这种技术，几乎像学一门新的语言。他们从他自己的目标练起：他想在家做饭，于是练握餐具、切菜、端盘端碗。他能敲开一个鸡蛋，还做成了一份煎蛋卷。",
-      "从7月10日起，他开始在家用这只手。一开始写自己的名字要花几分钟，现在几秒钟就行。他说，跟最初比，现在能做的事太多了。他一周戴六天左右，白天换一两次电池，晚上取下来。手不轻，大约五磅。有时候他会觉得疼，这可能是人们常说的‘幻肢痛’；他还说手腕会劳损。研究者想借他的经历弄明白几个一直没答案的问题：这东西在日常生活中到底有多大用，什么时候会失灵，它又会怎样影响一个人的身心。"
+      "阿维·戴维森现在能用左手拿起一颗葡萄、一枚鸡蛋，也能握住亲人的手。可他没有左手。他装着一只实验性的仿生手，这只手通过手术连到他前臂上部的神经里，让他重新感觉到压力——握得有多重，他能知道。在犹他大学主持的这项临床试验里，他是第九位把这种装置植入手臂的人，也是第一位把它带回家、自己独立使用的人。",
+      "2009年，戴维森16岁。为了拍到最好的日落，他爬上一根电线杆，爬到大约35英尺高。往下爬的时候他脚下一滑，伸手去抓一根电线，触电之后摔到地上。他全身37%的面积二度和三度烧伤，背部大约50处骨折，八根肋骨断了，脊髓也断了。大约十天后，他抓电线的那只手——也是他惯用的那只——出现坏疽，只能截肢。他在昏迷中度过了大约一个月，醒来后被告知：你瘫痪了，不会再走路，另外，你的左手我们取掉了。他后来说，16岁遇上这种事，多少有点不方便。",
+      "如今他33岁，做的是创伤治疗师的工作。这些年他试过好几只假手。受伤一年半后拿到的第一只，是个简单的钩子，能把东西夹起来；它不算高级，但他说，那只钩子给了他一种重新变完整的心理感觉。后来的假手更先进，有的能靠肌肉动作控制单根手指。按他的医保，大约每五年可以换一次，也有他自己掏钱买的，第三只就是在eBay上买的。他说，想想自己买了一只二手的手，挺好笑。一次在超市里，他偶然遇到一位科学家，由此认识了犹他大学的研究团队。这个团队从2013年起就在做一项试验：把装置接进残肢的神经，让截肢者控制仿生的手。团队负责人杰克·乔治说，戴维森是理想的人选。",
+      "要进试验，先得过评估。身体条件要撑得住手术；团队还扫描了他的大脑，确认他脑中仍然保留着对左手的心理表征，这说明他有可能驱动一只仿生的手；手臂里的神经也得确认还能工作。治疗师还评估了他参加试验的动机。乔治说，参与者没有报酬，也留不下这台设备，还要经历两次手术，一次装进去，一次取出来。戴维森愿意参加，是因为他想帮到别人。这只手属于‘LUKE’仿生臂，名字取自《星球大战》里的卢克·天行者，他失去手臂后装上了一只像真手的假肢。这条仿生臂在2000年代研发出来，2014年首次进入试验，同年获得美国食品药品监督管理局（FDA）批准。而戴维森参加的试验重点不在手臂本身，而在一种把它接进人的神经系统的新方式。",
+      "今年1月下旬，他从佛罗里达飞到犹他做手术。外科医生暴露出他手臂里的三条神经，每条神经里植入一块含100根针的电极阵列。神经是软的，硬把针推过去没什么用，团队改用一种压缩空气枪，把针阵以极快的速度射进神经。肌肉周围还另外植入了24个电极。这些阵列的导线从皮肤里伸出来。术后第二天，他就要求上机器。训练要打通两个方向：一个方向是把神经里的电活动翻译成手、手腕和手指的动作，研究人员一边听他手臂里几百个电连接点的信号，一边让他想着做各种动作；另一个方向是把电极对上感觉，要慢得多，团队逐个刺激每个连接点，问他有没有感觉、感觉到什么，再把信号调大看变化，乔治说这大概要三天。",
+      "7月10日起，他开始在家用这只手。刚开始写自己的名字要好几分钟，现在是几秒钟。他说，比起最初，现在能做到的事情大得多了。他想要能自己做饭，作业治疗师莉安·塞金格就陪他练拿稳东西、拿刀切菜、端盘子端碗。他成功打了一个鸡蛋，还做成了一份煎蛋卷。塞金格说，用这类技术，几乎像学一门新的语言。他一周大约戴六天，白天换一两次电池，晚上取下来，整只手重约五磅。",
+      "这并不全是顺利的部分。他说有时手会疼，这可能是幻肢痛，一些失去肢体的人会有这种症状；他还说自己手腕有劳损感。研究者想弄清楚的，正是这些日常里的细节：这只手在什么时候真的帮上忙，在什么地方会失败，以及它长期下来对他的状态、大脑和神经系统意味着什么。"
     ],
     "topics": [
       "仿生手",
       "神经接口",
-      "假肢技术"
+      "触觉反馈",
+      "医疗科技"
     ],
     "ageBands": [
       "10-12",
@@ -100,58 +153,36 @@
       "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
       "originalTitle": "The next generation of bionic hands is here—and they can feel",
       "publishedAt": "Thu, 26 Nov 2026 09:59:00 +0000",
-      "retrievedAt": "2026-11-27T03:47:00.482Z",
+      "retrievedAt": "2026-11-27T04:28:48.536Z",
       "basis": "full-text",
       "lang": "en",
       "profile": "analysis",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-27T03:46:56.870Z",
+        "reviewedAt": "2026-11-27T04:28:31.974Z",
         "reviewer": "qwen-plus",
-        "evidenceCount": 6,
+        "evidenceCount": 7,
         "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "A Bionic Hand That Can Feel",
-      "intro": "MIT Technology Review reports on an experimental bionic hand that sends pressure feedback to a user's nerves.",
-      "paragraphs": [
-        "Avi Davidson lost his left hand as a teenager. His latest prosthetic is wired up to nerves in the upper part of his forearm. It allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects like grapes, eggs, and a loved one’s hand. Davidson is taking part in a clinical trial run by the University of Utah. He is the ninth person to have this experimental device implanted in his arm. He is the first to take it home and use it independently.",
-        "The hand is part of the bionic LUKE arm. It is named after Luke Skywalker of Star Wars. Luke was fitted with a lifelike prosthetic arm after his own was light-sabered off. The arm was developed in the 2000s. It was initially trialed in 2014. It was approved by the FDA that same year. The trial Davidson is enrolled in focuses on a new way to connect the arm to a person’s nervous system. This connection allows users to control movements. It also lets them receive feedback about how much pressure they’re applying.",
-        "In 2009, when he was 16, Davidson climbed a telephone pole to get the best shot of a sunset. He climbed about 35 feet up. He lost his footing as he tried to descend. He grabbed for a wire. The wire electrocuted him. Then he fell to the ground. The accident resulted in second- and third-degree burns over 37% of his body. He broke his back in approximately 50 separate locations. He also broke eight ribs. His spinal cord was severed. Around 10 days later, his left hand started to develop gangrene. His left hand was amputated. His left hand was his dominant hand. He had grabbed the wire with that hand. Davidson was ultimately in a coma for around a month. Once he woke up, they told him: 'You’re paralyzed, you’re never going to walk again, and also, we took your left hand.' He is now 33. He is a trauma therapist.",
-        "Davidson has tried a range of prosthetic hands. The first one came a year and a half after his injury. It was a basic hook. It allowed him to pick things up. It gave him 'a psychological feeling of returning to being whole.' Later hands allowed him to control individual fingers with muscle movements. Some were covered by his medical insurance. His insurance allows for replacements around every five years. Others he bought himself. He bought his third prosthetic hand from eBay. He says: 'It’s funny to think I bought a secondhand second hand.' A chance encounter with a scientist at a supermarket introduced him to the research team at the University of Utah. Since 2013, the team had been running a trial of a system that connects with the nerves of a residual limb. Davidson first underwent extensive physical and psychological evaluations. The team scanned his brain. They wanted to check if he still had a mental representation of his left hand. They ran tests to check if the nerves in his arm were working. A therapist evaluated his motivations. Patients are not compensated. They do not get to keep the device. They go through two surgeries — to implant and then remove it. Avi’s doing this because he wants to help others.",
-        "In late January of this year, Davidson flew from Florida to Utah. He underwent his first surgery. The surgeon exposed three nerves in his arm. The surgeon implanted an electrode array containing 100 needles in each one. Nerves are floppy. So the team used a 'compressed-air gun.' They shot the grid of needles into the nerve at a very, very high velocity. The team also inserted 24 electrodes into the muscles around the nerves. Wires for each of the nerve arrays and for pairs of muscle electrodes were left protruding from Davidson’s skin. After surgery, the team trained a computer system. The system translates electrical activity in his nerves into signals for bionic hand and wrist movements. Converting nerve activity into movement took about five minutes. Linking electrodes to sensations felt by the prosthetic was much more time-consuming. Team members stimulated each electrode point in turn. They turned up the signal at each point to see the effect. George says it’s 'like a three-day process.' Davidson’s wires have since been connected and simplified. George describes it as 'more or less like plugging in an HDMI cord or a USB-C cord.' When he wants to use his prosthetic, he must first put it on. He must connect it to the wires. He must initiate it using a small computer.",
-        "Davidson worked with occupational therapist Leanne Seckinger at the University of Utah Health System. At first, they focused on learning to hold and stabilize objects. He wanted to be able to cook at home. So they worked on strategies to hold and manipulate utensils. They worked on preparing and chopping ingredients. They worked on carrying plates and bowls. Seckinger says: 'He was able to crack an egg. He made an omelet.' Davidson has been using the hand at home since July 10. He has noticed improvements. At first it took him a few minutes to write his name. Now he can manage it in seconds. He wears the hand around six days a week. He changes the batteries once or twice during the day. He takes it off overnight. It weighs in at around five pounds. Sometimes he feels pain in it. This could be phantom pain. He also says he experiences wrist strain. Researchers hope his experiences will help them answer long-standing questions. They want to know how useful the device really is in day-to-day life. They want to know when it is helpful and where it might fail. They want to learn how it might affect his well-being. They also want to learn how it might affect his brain and nervous system. He says: 'The things I’m able to do with it now are tremendous, comparatively to where I was at initially.'"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-27T03:53:24.500Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 6,
         "attempts": 2
       }
     }
   },
   {
-    "slug": "2026-11-27-879bfa",
+    "slug": "2026-11-27-ai-e0baec",
     "editorialPolicyVersion": "2026-07-22.2",
-    "title": "虞美人身上发现第二套识别自身花粉的基因系统，通讯作者说这不算推翻教科书",
-    "category": "science",
+    "title": "AI参与人才招聘，边界在哪里？",
+    "category": "society",
     "author": "轻听编辑部",
     "publishedAt": "2026-11-27",
-    "intro": "一个悬了十几年的疑点，让科学家在虞美人身上找到了教科书之外的第二套自交识别系统。",
+    "intro": "本条未生成听稿：原文正文未能取得，只有标题与页面导航，无法据实转述。",
     "paragraphs": [
-      "田野里常见的虞美人，是研究植物自交不亲和的经典模型。教科书里说，它靠一对叫 PrsS-PrpS 的基因识别自己的花粉。可科学家在它的基因组里，怎么也找不到这对基因。这个疑点悬了十几年，最近终于有了答案。",
-      "先解释一句，自交不亲和，就是植物能认出自己的花粉，并把它抑制住。2011年，林宗成到英国伯明翰大学读博，师从这一领域的权威 Veronica Franklin-Tong。读博期间，他们发现 PrsS-PrpS 这对基因可以跨远缘物种转移。转入原本自花授粉的拟南芥后，拟南芥获得了自交不亲和能力，能识别并抑制自身花粉。2015年，林宗成以第一作者在 Science 发表这项成果。这为水稻、番茄等缺少天然自交不亲和系统的作物开了新方向：有望人工创制自交不亲和母本，省去杂交制种时的人工去雄工序，降低杂交种子成本。",
-      "但疑点也在读博时埋下。大规模基因克隆实验里，数十份植株材料中，只能扩增出极少数经典识别基因。2018年，罂粟基因组公开，作为虞美人近缘物种，它的基因组里没有检索到任何经典自交不亲和基因及假基因残留。2021年，虞美人参考基因组发布，同样找不到经典的自交不亲和基因 PrsS-PrpS。林宗成一次次替异常找理由，想过物种差异、个体突变、测序材料特殊。可十几年过去，这些零碎疑点始终没有散去。",
-      "2022年回国后，林宗成加入华中农业大学。依托学校丰富的种质资源和实验平台，大批量自然群体样本的测序数据，让零散疑点串成了完整证据链。团队对大批虞美人做转录组测序，发现有些植株形态、育性完全正常，自交不亲和特征也很稳定，却完全检索不到经典基因。第一反应是实验出了问题。团队花了两三个月，反复优化流程、调整参数、增加重复。技术漏洞都排除了，反常现象还在。于是他们猜想：虞美人体内，可能还有第二套完全独立的自交不亲和通路。",
-      "2023年起，团队开始挖新基因。传统转录组筛查做了四个月，一无所获。他们随即联合基因组分析团队，切换全局基因筛查路径，双线并行。2024年农历正月十四，两边的结果几乎同时指向同一组全新基因模块。这套系统被命名为 SOPT-SGRP，是首次在虞美人体内发现的第二套自交识别系统。之后，团队又做了大量基因功能验证、遗传互补实验和特异性检测，证实它能独立完成自我识别和花粉抑制，和经典通路互不干扰、平行工作。论文经过一次返修、补全数据，最终被 Science 接收。",
-      "文章发表后，有评论说这项发现‘挑战了教科书’。作为通讯作者，林宗成回应：‘没那么夸张。’他说，研究不是推翻经典理论，而是完善了植物自交不亲和的演化模型。他还推测，这套新系统大概率广泛存在于罂粟属近缘植物中，只是长期没被发现。论文第一作者金珂，是课题组招收的首位博士生。她爱好体育舞蹈，拿过多项全国和省级赛事大奖，还担任学校体育舞蹈队助理教练。在她看来，科研和舞蹈的内核很像：没有捷径，唯有热爱；直面难题，永不怯场。课题组的招聘启事只有一条要求：热爱生命科学研究。"
+      "抓取到的原文只包含中新网页面导航和标题《AI参与人才招聘，边界在哪里？》。页面标注来源为工人日报，作者陈海峰，发布时间2026年11月26日。正文部分为空，没有可核验的事实、数字、案例或引语。",
+      "轻听有一条不能放宽的门槛：听稿里的事实、数字、因果和引语都必须能在原文中找到。只凭一个标题，任何关于AI怎么筛简历、算法依据什么打分、会不会带来偏见、法律如何规定的具体说法，都只能靠推测补写，那就不再是转述，是在制造内容。",
+      "所以这条候选按流程淘汰，转由候补接替，也不拿模糊摘要充数。建议重新抓取一次能直达的原文全文；只有标题页、付费墙或残缺摘要时，不进入改写。"
     ],
     "topics": [
-      "生命与演化"
+      "教育",
+      "AI 与计算"
     ],
     "ageBands": [
       "10-12",
@@ -159,29 +190,23 @@
     ],
     "form": "pick",
     "source": {
-      "name": "科学网新闻头条",
+      "name": "中新网教育",
       "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575329.shtm",
-      "originalTitle": "挑战了教科书的新发现？通讯作者：没那么夸张",
-      "publishedAt": "2026-11-25 20:25",
-      "retrievedAt": "2026-11-27T03:50:03.734Z",
+      "url": "https://www.chinanews.com.cn/edu/2026/11-26/10738129.shtml",
+      "originalTitle": "AI参与人才招聘，边界在哪里？",
+      "publishedAt": "Thu, 26 Nov 2026 16:11:22 +0800",
+      "retrievedAt": "2026-11-27T04:33:05.331Z",
       "basis": "full-text",
       "lang": "zh",
       "profile": "realtime",
       "factReview": {
         "status": "verified",
-        "reviewedAt": "2026-11-27T03:50:00.436Z",
+        "reviewedAt": "2026-11-27T04:33:03.664Z",
         "reviewer": "qwen-plus",
-        "evidenceCount": 6,
+        "evidenceCount": 3,
         "correctionCount": 8,
-        "attempts": 1
+        "attempts": 2
       }
-    },
-    "image": {
-      "src": "/editorial/2026-11-27/2026-11-27-879bfa.webp",
-      "alt": "冷灰纸面上的一朵抽象虞美人，花心以细密线条构成双层结构。",
-      "caption": "花心之中，藏着第二套识别系统。",
-      "kind": "editorial"
     }
   },
   {
@@ -3370,68 +3395,6 @@
         "reviewedAt": "2026-11-11T01:22:04.092Z",
         "reviewer": "qwen-plus",
         "evidenceCount": 48,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-11-419d97",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国如何成为「水电国家」？专访环境史学者丁祥利",
-    "category": "society",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-11",
-    "intro": "环境史学者丁祥利认为，中国正是一个「水电国家」（Hydropower Nation）。他在2024年出版英文专著《水力发电国度：二十世纪中国的水坝、能源与政治变迁》，是英文学界第一部关于现代中国水力发电史的专著。",
-    "paragraphs": [
-      "中国是全球最大的水力发电国，水力发电总量接近全球的三分之一。近些年，太阳能和风能等新能源发展备受瞩目，而在这些光环背后，水电不仅是中国当下的能源支柱，也是「双碳」（碳达峰与碳中和）愿景下能源转型的核心。",
-      "在现代中国环境史学者丁祥利看来，中国正是一个「水电国家」（Hydropower Nation）。2024年，他在剑桥大学出版社出版书籍《水力发电国度：二十世纪中国的水坝、能源与政治变迁》（Hydropower Nation：Dams, Energy, and Political Changes in Twentieth-Century China），是英文学界第一部关于现代中国水力发电史的专著。",
-      "书中追溯水电在现代中国的崛起与发展，以及如何交织着政治、社会、生态环境的张力。从雅鲁藏布江上的墨脱超级水电站，到广西暴雨中险象环生的毛时代老旧水库，这些不同时空的水电工程揭示了复杂现实：水电不仅是当下能源支柱和「双碳」愿景下能源转型的核心，也深深印刻着毛时代的歷史遺產與政治基因。",
-      "端传媒专访丁祥利，在大江大河密集发电、气候变迁加剧、历史遗产仍在当下回响的今天，他以历史眼光追溯水电在中国的轨迹，梳理毛时代「水电大跃进」的政治逻辑，并探讨后毛泽东时代的中国水电正迎来怎样的宏观转向。他指出：「从一开始设计或建造大坝时，就必须把『安全有序退出历史舞台』纳入考量。」"
-    ],
-    "topics": [
-      "气候与能源",
-      "历史"
-    ],
-    "ageBands": [
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "端传媒",
-      "region": "international",
-      "url": "https://theinitium.com/20261111-question-in-china-interview-with-xiangli-ding/",
-      "originalTitle": "中國如何成為「水電國家」？專訪環境史學者丁祥利",
-      "publishedAt": "Tue, 10 Nov 2026 23:00:00 GMT",
-      "retrievedAt": "2026-11-11T01:24:34.892Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "depth",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-11T01:24:32.617Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 4,
-        "correctionCount": 8,
-        "attempts": 2
-      }
-    },
-    "en": {
-      "title": "How China Became a Hydropower Nation",
-      "intro": "A historian takes a long look at China's dams, and finds politics, energy and history flowing through the same river.",
-      "paragraphs": [
-        "China is the world's largest hydropower producer. Its hydropower generation accounts for nearly one third of the global total.",
-        "Xiangli Ding is an environmental historian of modern China. In 2024, Cambridge University Press published his book 'Hydropower Nation: Dams, Energy, and Political Changes in Twentieth-Century China.' It is the first English-language monograph on the history of hydropower in modern China.",
-        "Two contrasting examples illustrate the scale and legacy of China's hydropower development. One is the Motuo mega hydropower station planned on the Yarlung Tsangpo River. The other is aging Mao-era reservoirs in Guangxi that became hazardous during heavy rainfall.",
-        "Hydropower is both a pillar of China's current energy supply and a core component of its 'dual carbon' climate goals — aiming for carbon peak and carbon neutrality. Yet Ding argues it remains deeply shaped by Mao-era historical legacies and political logic.",
-        "Ding states: 'From the very beginning of designing or building a dam, one must incorporate the idea of its safe and orderly exit from history.'",
-        "So the next time you hear about a new dam, ask two questions: How much clean electricity will it generate? And who is planning, right now, for the day it ceases operation?"
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-11T01:29:58.025Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
         "correctionCount": 8,
         "attempts": 1
       }
