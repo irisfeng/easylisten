@@ -1,5 +1,190 @@
 [
   {
+    "slug": "2026-11-27-insects-once-had-24-legs",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "昆虫祖先曾经长着24条腿",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-27",
+    "intro": "一块在得州出土的化石显示，六足昆虫的祖先曾拥有更多条腿。",
+    "paragraphs": [
+      "说到昆虫，我们通常会想到六条腿。可一块在美国得克萨斯州西部出土的化石，却保存着24条腿。它来自大约3.24亿年前，腹部比今天的昆虫多出九对短腿。研究人员说，这是迄今发现的最奇怪的昆虫之一，成果发表在8月26日的《自然》杂志上。",
+      "这块化石的经历也很曲折。1985年，它在得州西南部的大弯国家公园附近被采集到。起初，科学家把它当成一种年幼的甲壳动物——名为Tesnusocaris goldichi的物种。之后它在圣迭戈自然历史博物馆的抽屉里躺了几十年。后来，古昆虫学家埃里克·蒂赫尔卡在一本二手买来的俄语古生物学书里看到它的线图，追到该博物馆。刚看到时，化石像一团黑色污迹；换上偏振光滤片后，反光被滤掉，图像更清晰，新细节才显现出来。",
+      "他看到了分成三节的胸部、十一节的腹部，还有鞭状触角、产卵用的硬管，以及一条长尾和两条短尾。最关键的是，除了三对步行腿，化石腹部还伸出九对短粗的腿，后面几对像船桨。研究者推测，这些桨状腿可能帮助它在泥泞的浅海里游泳或爬行，过着半水生的生活。",
+      "蒂赫尔卡把它和苏格兰一块4.05亿年前的化石，以及伊利诺伊州两件尚未正式描述的多腿昆虫样化石放在一起比较。结果，它们都位于‘今天所有昆虫’这个类群的外侧，是今天昆虫的古老祖先；甲壳动物则在更远的分支上，更像远房表亲。这个时期大约在3.25亿到4亿年前，昆虫化石非常稀少，所以这块化石有助于填补演化史上的一段空白。",
+      "研究团队给它取名Chosha praecursor，名字一部分来自纳瓦霍语中‘昆虫’（ch’osh）一词，一部分来自拉丁语‘前辈’（praecursor）。在漫长的演化中，这类祖先的腿逐渐减少，最终稳定在六条，并登上陆地，繁衍出今天数以百万计的昆虫物种。蒂赫尔卡说：‘我们管昆虫叫“六足类”，意思是六条腿。但事实证明，最早的成员其实腿多得多。’"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "Science News Explores",
+      "region": "international",
+      "url": "https://www.snexplores.org/article/insects-had-24-legs",
+      "originalTitle": "Insects once had 24 legs",
+      "publishedAt": "Wed, 25 Nov 2026 11:30:00 +0000",
+      "retrievedAt": "2026-11-27T03:43:33.961Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T03:43:31.690Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 26,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "en": {
+      "title": "An Ancient Insect With 24 Legs",
+      "intro": "A new look at an old fossil shows that insects once had many more than six legs, Science News Explores reports.",
+      "paragraphs": [
+        "Today insects are known for having six legs. But a 324-million-year-old fossil dug up in west Texas had a body plan unlike any living insect. It had three pairs of walking legs — and nine extra pairs of short, stubby legs along its belly. That makes 24 legs total. Researchers reported their findings August 26 in the journal Nature.",
+        "The team named the fossil Chosha praecursor. This name combines the Navajo word for 'insect' (ch’osh) with the Latin word for 'predecessor'. Erik Tihelka is a paleoentomologist at the University of Cambridge in England. He says the discovery 'straddles a big gap in the fossil record'. It shows that there were transitional forms before insects settled on six legs.",
+        "Scientists collected the fossil in 1985 from a rocky outcrop near Big Bend National Park in southwestern Texas. At first, they thought it was a juvenile crustacean called Tesnusocaris goldichi. It sat in a museum drawer in San Diego for years. Then Tihelka spotted a drawing of it in a secondhand Russian paleontology book. He traveled to the San Diego Museum of Natural History to see it himself.",
+        "At first glance, the fossil looked like a 'black smudge'. Then Tihelka examined it under polarized light filters. These cut reflections and sharpened the image. He saw a middle section, or thorax, divided into three segments — just like insects today. He also saw a long abdomen with 11 sections. The fossil had a whiplike antenna, a stiff tube for laying eggs, and a long central tail between two shorter ones. Its back legs were shaped like paddles. These may have helped it swim or scuttle through muddy shallow seas.",
+        "Tihelka had seen other fossils like it. One was a 405-million-year-old specimen from Scotland. He also recalled an undescribed pair of multi-legged, insect-like fossils from Illinois. On a family tree, Chosha and those fossils all sit just outside the group that contains every insect alive today. That makes them ancient ancestors of today’s insects. Crustaceans are a distant branch — more like cousins than immediate kin. Chosha likely lived a semi-aquatic lifestyle. Over many generations, insect ancestors evolved fewer legs. Eventually, only six remained.",
+        "Dany Azar is a paleoentomologist at Lebanese University in Fanar and the Nanjing Institute of Geology and Paleontology in China. He says this fossil is a major milestone in a puzzling period when life was changing from mostly aquatic to terrestrial. Almost no fossil evidence exists of insects from 325 to 400 million years ago. William Shear is a retired paleobiologist from Hampden-Sydney College in Virginia. He says Chosha 'opens a lot of doors to the study of insect evolution'. He hopes more fossils of this organism will be found."
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T03:51:06.767Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 31,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-27/2026-11-27-insects-once-had-24-legs.webp",
+      "alt": "灰蓝色纸面上的一枚抽象昆虫化石印痕，多条细长分节肢体向外舒展。",
+      "caption": "化石里的肢体，比教科书多出许多。",
+      "kind": "editorial"
+    }
+  },
+  {
+    "slug": "2026-11-27-the-next-generation-of-bionic-hands-is-here-and",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "33岁创伤治疗师首次将能感知压力的仿生手带回家独立使用",
+    "category": "tech",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-27",
+    "intro": "一位33岁的创伤治疗师成为第一个把能感觉到压力的仿生手带回家独立使用的人，而研究者更想知道的，是它在真实生活里到底有多大用。",
+    "paragraphs": [
+      "美国的阿维·戴维森今年33岁，职业是创伤治疗师。少年时他失去了左手，后来换上过好几只假肢。最新这一只不太一样：它接进了他前臂上端的神经，允许他感受压力。于是这些年他第一次能用左手拿葡萄、拿鸡蛋，也能握住亲人的手。他是犹他大学一项临床试验中第九位植入这套装置的人，也是第一个把它带回家、自己独立使用的人。",
+      "这只手属于一套叫LUKE的仿生手臂，名字来自《星球大战》里的卢克·天行者。电影里卢克被光剑砍掉手之后，装上了一只几乎和真手一样的义肢。LUKE在2000年代开发出来，2014年首次做人体试验，同年获得美国食品药品监督管理局批准。但戴维森参加的这项试验，重点不在手臂本身，而在一种把手臂接到人体神经系统上的新办法，让人既能控制动作，也能接收关于所施加压力的反馈。",
+      "2009年，戴维森16岁。他爬上约35英尺高的电线杆，想拍一张最好的日落照片，往下爬时脚下一滑，伸手抓住一根电线，被电击后摔到地上。他身上37%的面积二度和三度烧伤，脊髓被切断，八根肋骨骨折。大约十天后，他抓电线的那只左手出现坏疽，只能截肢。那只手，正是他的惯用手。他昏迷了大约一个月，醒来后被告知：你瘫痪了，再也站不起来，另外，你的左手我们取掉了。他说，16岁碰上这种事，总归有点不方便吧。此后他试过好几种假肢。伤后一年半拿到的第一只，是个普通的钩子，不花哨，但让他心里觉得又完整了。后来的能靠肌肉动作控制单根手指。第三只，是他自己在eBay上买的二手货。他说，想到自己买了只二手的‘二手’，还挺好笑。",
+      "一次在超市，他偶然遇到一位科学家，由此认识了犹他大学的团队。这个团队从2013年起就在试验一种能和残肢神经相连的系统。要进试验得先过几关：身体要扛得住手术；大脑要经过扫描，确认里面还留着左手的心理表征，表明他能移动一只仿生手；手臂里的神经也要测试还能不能工作。还有治疗师来评估他的动机。团队主任杰克·乔治说：‘Avi’s doing this because he wants to help others。’今年1月底，戴维森从佛罗里达飞到犹他，做了第一次手术。医生在他手臂里找出三条神经，每条神经里植入一片带100根针的电极阵列。神经是软的，硬往里推没什么用，团队用一种‘compressed-air gun’，把针阵以极快的速度射进神经。神经周围的肌肉里，另外埋了24个电极。所有导线都留在皮肤外面。术后团队给了他恢复时间，他第二天就要求上机器。",
+      "接下来是训练电脑，把神经里的电信号翻译成手和手腕的动作。这一步很快，乔治说：‘It takes a matter of about five minutes。’戴维森只要在脑子里想各种动作，系统就能听到对应的神经信号。难的是反方向，把电极接到感觉上。团队一个接一个地刺激连接点，问他有没有感觉，再一点点加大信号看效果，前后花了大约三天。导线后来被简化了，乔治形容，差不多就像插一根HDMI线或者USB-C线。戴维森想用手时，先戴上，接上线，再用一台小电脑启动。他还得重新学怎么控制它。职业治疗师莉安·塞金格说，用这种技术，几乎像学一门新的语言。他们从他自己的目标练起：他想在家做饭，于是练握餐具、切菜、端盘端碗。他能敲开一个鸡蛋，还做成了一份煎蛋卷。",
+      "从7月10日起，他开始在家用这只手。一开始写自己的名字要花几分钟，现在几秒钟就行。他说，跟最初比，现在能做的事太多了。他一周戴六天左右，白天换一两次电池，晚上取下来。手不轻，大约五磅。有时候他会觉得疼，这可能是人们常说的‘幻肢痛’；他还说手腕会劳损。研究者想借他的经历弄明白几个一直没答案的问题：这东西在日常生活中到底有多大用，什么时候会失灵，它又会怎样影响一个人的身心。"
+    ],
+    "topics": [
+      "仿生手",
+      "神经接口",
+      "假肢技术"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "MIT Technology Review",
+      "region": "international",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+      "originalTitle": "The next generation of bionic hands is here—and they can feel",
+      "publishedAt": "Thu, 26 Nov 2026 09:59:00 +0000",
+      "retrievedAt": "2026-11-27T03:47:00.482Z",
+      "basis": "full-text",
+      "lang": "en",
+      "profile": "analysis",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T03:46:56.870Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 2
+      }
+    },
+    "en": {
+      "title": "A Bionic Hand That Can Feel",
+      "intro": "MIT Technology Review reports on an experimental bionic hand that sends pressure feedback to a user's nerves.",
+      "paragraphs": [
+        "Avi Davidson lost his left hand as a teenager. His latest prosthetic is wired up to nerves in the upper part of his forearm. It allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects like grapes, eggs, and a loved one’s hand. Davidson is taking part in a clinical trial run by the University of Utah. He is the ninth person to have this experimental device implanted in his arm. He is the first to take it home and use it independently.",
+        "The hand is part of the bionic LUKE arm. It is named after Luke Skywalker of Star Wars. Luke was fitted with a lifelike prosthetic arm after his own was light-sabered off. The arm was developed in the 2000s. It was initially trialed in 2014. It was approved by the FDA that same year. The trial Davidson is enrolled in focuses on a new way to connect the arm to a person’s nervous system. This connection allows users to control movements. It also lets them receive feedback about how much pressure they’re applying.",
+        "In 2009, when he was 16, Davidson climbed a telephone pole to get the best shot of a sunset. He climbed about 35 feet up. He lost his footing as he tried to descend. He grabbed for a wire. The wire electrocuted him. Then he fell to the ground. The accident resulted in second- and third-degree burns over 37% of his body. He broke his back in approximately 50 separate locations. He also broke eight ribs. His spinal cord was severed. Around 10 days later, his left hand started to develop gangrene. His left hand was amputated. His left hand was his dominant hand. He had grabbed the wire with that hand. Davidson was ultimately in a coma for around a month. Once he woke up, they told him: 'You’re paralyzed, you’re never going to walk again, and also, we took your left hand.' He is now 33. He is a trauma therapist.",
+        "Davidson has tried a range of prosthetic hands. The first one came a year and a half after his injury. It was a basic hook. It allowed him to pick things up. It gave him 'a psychological feeling of returning to being whole.' Later hands allowed him to control individual fingers with muscle movements. Some were covered by his medical insurance. His insurance allows for replacements around every five years. Others he bought himself. He bought his third prosthetic hand from eBay. He says: 'It’s funny to think I bought a secondhand second hand.' A chance encounter with a scientist at a supermarket introduced him to the research team at the University of Utah. Since 2013, the team had been running a trial of a system that connects with the nerves of a residual limb. Davidson first underwent extensive physical and psychological evaluations. The team scanned his brain. They wanted to check if he still had a mental representation of his left hand. They ran tests to check if the nerves in his arm were working. A therapist evaluated his motivations. Patients are not compensated. They do not get to keep the device. They go through two surgeries — to implant and then remove it. Avi’s doing this because he wants to help others.",
+        "In late January of this year, Davidson flew from Florida to Utah. He underwent his first surgery. The surgeon exposed three nerves in his arm. The surgeon implanted an electrode array containing 100 needles in each one. Nerves are floppy. So the team used a 'compressed-air gun.' They shot the grid of needles into the nerve at a very, very high velocity. The team also inserted 24 electrodes into the muscles around the nerves. Wires for each of the nerve arrays and for pairs of muscle electrodes were left protruding from Davidson’s skin. After surgery, the team trained a computer system. The system translates electrical activity in his nerves into signals for bionic hand and wrist movements. Converting nerve activity into movement took about five minutes. Linking electrodes to sensations felt by the prosthetic was much more time-consuming. Team members stimulated each electrode point in turn. They turned up the signal at each point to see the effect. George says it’s 'like a three-day process.' Davidson’s wires have since been connected and simplified. George describes it as 'more or less like plugging in an HDMI cord or a USB-C cord.' When he wants to use his prosthetic, he must first put it on. He must connect it to the wires. He must initiate it using a small computer.",
+        "Davidson worked with occupational therapist Leanne Seckinger at the University of Utah Health System. At first, they focused on learning to hold and stabilize objects. He wanted to be able to cook at home. So they worked on strategies to hold and manipulate utensils. They worked on preparing and chopping ingredients. They worked on carrying plates and bowls. Seckinger says: 'He was able to crack an egg. He made an omelet.' Davidson has been using the hand at home since July 10. He has noticed improvements. At first it took him a few minutes to write his name. Now he can manage it in seconds. He wears the hand around six days a week. He changes the batteries once or twice during the day. He takes it off overnight. It weighs in at around five pounds. Sometimes he feels pain in it. This could be phantom pain. He also says he experiences wrist strain. Researchers hope his experiences will help them answer long-standing questions. They want to know how useful the device really is in day-to-day life. They want to know when it is helpful and where it might fail. They want to learn how it might affect his well-being. They also want to learn how it might affect his brain and nervous system. He says: 'The things I’m able to do with it now are tremendous, comparatively to where I was at initially.'"
+      ],
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T03:53:24.500Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 6,
+        "attempts": 2
+      }
+    }
+  },
+  {
+    "slug": "2026-11-27-879bfa",
+    "editorialPolicyVersion": "2026-07-22.2",
+    "title": "虞美人身上发现第二套识别自身花粉的基因系统，通讯作者说这不算推翻教科书",
+    "category": "science",
+    "author": "轻听编辑部",
+    "publishedAt": "2026-11-27",
+    "intro": "一个悬了十几年的疑点，让科学家在虞美人身上找到了教科书之外的第二套自交识别系统。",
+    "paragraphs": [
+      "田野里常见的虞美人，是研究植物自交不亲和的经典模型。教科书里说，它靠一对叫 PrsS-PrpS 的基因识别自己的花粉。可科学家在它的基因组里，怎么也找不到这对基因。这个疑点悬了十几年，最近终于有了答案。",
+      "先解释一句，自交不亲和，就是植物能认出自己的花粉，并把它抑制住。2011年，林宗成到英国伯明翰大学读博，师从这一领域的权威 Veronica Franklin-Tong。读博期间，他们发现 PrsS-PrpS 这对基因可以跨远缘物种转移。转入原本自花授粉的拟南芥后，拟南芥获得了自交不亲和能力，能识别并抑制自身花粉。2015年，林宗成以第一作者在 Science 发表这项成果。这为水稻、番茄等缺少天然自交不亲和系统的作物开了新方向：有望人工创制自交不亲和母本，省去杂交制种时的人工去雄工序，降低杂交种子成本。",
+      "但疑点也在读博时埋下。大规模基因克隆实验里，数十份植株材料中，只能扩增出极少数经典识别基因。2018年，罂粟基因组公开，作为虞美人近缘物种，它的基因组里没有检索到任何经典自交不亲和基因及假基因残留。2021年，虞美人参考基因组发布，同样找不到经典的自交不亲和基因 PrsS-PrpS。林宗成一次次替异常找理由，想过物种差异、个体突变、测序材料特殊。可十几年过去，这些零碎疑点始终没有散去。",
+      "2022年回国后，林宗成加入华中农业大学。依托学校丰富的种质资源和实验平台，大批量自然群体样本的测序数据，让零散疑点串成了完整证据链。团队对大批虞美人做转录组测序，发现有些植株形态、育性完全正常，自交不亲和特征也很稳定，却完全检索不到经典基因。第一反应是实验出了问题。团队花了两三个月，反复优化流程、调整参数、增加重复。技术漏洞都排除了，反常现象还在。于是他们猜想：虞美人体内，可能还有第二套完全独立的自交不亲和通路。",
+      "2023年起，团队开始挖新基因。传统转录组筛查做了四个月，一无所获。他们随即联合基因组分析团队，切换全局基因筛查路径，双线并行。2024年农历正月十四，两边的结果几乎同时指向同一组全新基因模块。这套系统被命名为 SOPT-SGRP，是首次在虞美人体内发现的第二套自交识别系统。之后，团队又做了大量基因功能验证、遗传互补实验和特异性检测，证实它能独立完成自我识别和花粉抑制，和经典通路互不干扰、平行工作。论文经过一次返修、补全数据，最终被 Science 接收。",
+      "文章发表后，有评论说这项发现‘挑战了教科书’。作为通讯作者，林宗成回应：‘没那么夸张。’他说，研究不是推翻经典理论，而是完善了植物自交不亲和的演化模型。他还推测，这套新系统大概率广泛存在于罂粟属近缘植物中，只是长期没被发现。论文第一作者金珂，是课题组招收的首位博士生。她爱好体育舞蹈，拿过多项全国和省级赛事大奖，还担任学校体育舞蹈队助理教练。在她看来，科研和舞蹈的内核很像：没有捷径，唯有热爱；直面难题，永不怯场。课题组的招聘启事只有一条要求：热爱生命科学研究。"
+    ],
+    "topics": [
+      "生命与演化"
+    ],
+    "ageBands": [
+      "10-12",
+      "13-16"
+    ],
+    "form": "pick",
+    "source": {
+      "name": "科学网新闻头条",
+      "region": "mainland",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/11/575329.shtm",
+      "originalTitle": "挑战了教科书的新发现？通讯作者：没那么夸张",
+      "publishedAt": "2026-11-25 20:25",
+      "retrievedAt": "2026-11-27T03:50:03.734Z",
+      "basis": "full-text",
+      "lang": "zh",
+      "profile": "realtime",
+      "factReview": {
+        "status": "verified",
+        "reviewedAt": "2026-11-27T03:50:00.436Z",
+        "reviewer": "qwen-plus",
+        "evidenceCount": 6,
+        "correctionCount": 8,
+        "attempts": 1
+      }
+    },
+    "image": {
+      "src": "/editorial/2026-11-27/2026-11-27-879bfa.webp",
+      "alt": "冷灰纸面上的一朵抽象虞美人，花心以细密线条构成双层结构。",
+      "caption": "花心之中，藏着第二套识别系统。",
+      "kind": "editorial"
+    }
+  },
+  {
     "slug": "2026-11-26-e56dbd",
     "editorialPolicyVersion": "2026-07-22.2",
     "title": "十万年前的华南，同时生活着两支不同的古人类",
@@ -3250,173 +3435,6 @@
         "correctionCount": 8,
         "attempts": 1
       }
-    }
-  },
-  {
-    "slug": "2026-11-11-c85c09",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国队获得青奥会历史首枚体操女子团体金牌",
-    "category": "culture",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-11",
-    "intro": "陈紫嫣、谢谷英和钟圻组成的中国队以总分107.798分，斩获青奥会历史首枚竞技体操女子团体金牌。",
-    "paragraphs": [
-      "北京时间11月10日凌晨，2026年达喀尔青奥会竞技体操女子团体决赛结束。由陈紫嫣、谢谷英和钟圻组成的中国队，以总分107.798分，斩获青奥会历史首枚竞技体操女子团体金牌，日本队获得银牌，法国队获得铜牌。",
-      "这是青奥会历史上的首枚竞技体操女子团体金牌。",
-      "本届青奥会，中国队包揽了男、女体操团体金牌。",
-      "目前，中国队以13金7银3铜，共计23枚奖牌的战绩，领跑奖牌榜。",
-      "青奥会面向年轻运动员，陈紫嫣、谢谷英和钟圻在达喀尔青奥会上首次登上国际综合性运动会最高领奖台。"
-    ],
-    "topics": [
-      "体育",
-      "成长"
-    ],
-    "ageBands": [
-      "6-9",
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "中新网体育",
-      "region": "mainland",
-      "url": "https://www.chinanews.com.cn/ty/2026/11-10/10729336.shtml",
-      "originalTitle": "中国队获得青奥会历史首枚体操女子团体金牌",
-      "publishedAt": "Tue, 10 Nov 2026 11:57:13 +0800",
-      "retrievedAt": "2026-11-11T01:26:56.046Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-11T01:26:54.521Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    }
-  },
-  {
-    "slug": "2026-11-10-480656",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "1.3亿光年外两颗中子星合并，人类2017年接住其引力波与电磁信号",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-10",
-    "intro": "两颗中子星在1.3亿光年外合并，发出的引力波与电磁信号穿越漫长时空，2017年被人类接住，全球约70台观测设备随即接力观测。",
-    "paragraphs": [
-      "先想象这样一件事：一封信在路上走了1.3亿年，而收信的人只用了不到11个小时，就把它找了出来。2026年11月9日晚，在2026文化科技产业发展论坛之2026年科普之夜暨全国优秀科普微视频作品展演活动现场，中国科学院国家天文台研究员、中国科学院大学教授苟利军，讲述了一场浪漫的宇宙邂逅。",
-      "故事的开头在2017年。那一年，人类捕捉到来自1.3亿光年外两颗中子星合并发出的引力波与电磁信号。信号“启程”之时，地球尚处在恐龙时代；抵达地球后，科学家就向全球发出通报，不到11小时便锁定目标。",
-      "随后，全球约70台观测设备接力观测。同一件事在宇宙深处发生，人类在一天之内完成了告知、定位和联合观测。",
-      "苟利军把它称作一场浪漫的宇宙邂逅——一边是1.3亿年的漫长旅途，一边是不到11小时的迅速反应。两个时间尺度摆在一起，这个故事才有了它的形状。",
-      "信号出发时，地球上还是恐龙；信号抵达时，抬头看天的人已经能接住它。1.3亿年，和11个小时，写在同一封信上。"
-    ],
-    "topics": [
-      "航天与宇宙",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科技日报",
-      "region": "mainland",
-      "url": "https://www.stdaily.com/web/gdxw/2026-11/10/content_611081.html",
-      "originalTitle": "苟利军：一亿年的宇宙来信，人类一天“签收”",
-      "publishedAt": "2026-11-10",
-      "retrievedAt": "2026-11-10T03:40:17.613Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-10T03:40:10.033Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 5,
-        "correctionCount": 8,
-        "attempts": 1
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-10/2026-11-10-480656.webp",
-      "alt": "两枚暗银色球体在灰色虚空中旋近，周围有同心弧线扩散。",
-      "caption": "两颗致密星体旋近时，时空泛起涟漪。",
-      "kind": "editorial"
-    }
-  },
-  {
-    "slug": "2026-11-10-74cd1d",
-    "editorialPolicyVersion": "2026-07-22.2",
-    "title": "中国空间站造出已知最冷人造物质，温度约比绝对零度高千亿分之一开尔文",
-    "category": "science",
-    "author": "轻听编辑部",
-    "publishedAt": "2026-11-10",
-    "intro": "中国空间站里的铷原子云被冷却到9.7皮开尔文，成为人类已知最冷人造物质，也为更精密的时钟和传感器打下基础。",
-    "paragraphs": [
-      "7秒，只挪了约500微米，比一根头发丝的直径多不了多少。这不是慢动作回放，而是中国空间站里一团铷原子云的真实状态。它的温度只有9.7皮开尔文，比室温低了整整14个数量级，成为目前人类已知最冷人造物质。成果发布后，这团最冷人造物质迅速引发关注：它到底有多冷？为什么非要到太空去做？造出的最冷物质和普通人的生活究竟有什么关系？",
-      "先看9.7皮开尔文有多冷。物理学里有一个绝对零度，是零下273.15摄氏度，也就是0开尔文，理论上原子在这一刻才会完全静止。9.7皮开尔文，就是9.7×10⁻¹²开尔文，写成小数是0.0000000000097开尔文，约等于千亿分之一开尔文。换句话说，这团原子云只比绝对零度高约千亿分之一开尔文，已经极端接近绝对零度。北京大学电子学院教授周小计解释：“9.7皮开尔文比我们的室温下降了14个数量级，这是人类获得的最低温度，是一个新的世界纪录，也是宇宙中已知最低温度。”",
-      "温度的本质是原子跑动的剧烈程度，常温下，原子像一群乱窜的人。温度越低，它们跑得越慢。冷到9.7皮开尔文，这团铷原子云几乎“静止”了。一个更形象的说法是：如果普通原子在一场赛跑里已经冲出去两公里，这团冷原子在同样的7秒里只挪动了大约500微米，比一根头发丝的直径多不了多少。它不只是“冷”，而是冷到原子几乎被“冻” in原地，日常世界里任何东西都达不到这种状态。",
-      "那为什么非要把实验搬到太空？不是地面完全做不了超冷原子，而是地面做不到这么冷、看不了这么久。核心障碍是重力。北京大学电子学院教授陈徐宗解释：“地面上，重力会拉扯原子云向下坠落，想要深度冷却，就要施加更强束缚，反过来带入多余能量，限制温度继续下探，地面观测仅能维持0.05秒。在空间站微重力环境下，原子云自在漂浮，只需极弱约束，就能实现深度冷却。”打个比方：你想让一团原子安静下来，地面重力总把它们往下拽，你不得不使劲“兜住”它们；可你用的“兜子”越紧，本身就会给原子带入额外能量，温度就很难降到底。在空间站的微重力环境里，原子几乎可以自由漂浮，只需要很弱的束缚就能继续冷却，温度因此能压到地面达不到的皮开尔文量级。同时，没有重力“催着”原子往下掉，观测窗口从地面的约0.05秒一下子拉长到7秒，原子有足够的时间“待着不动”，让科学家从容捕捉那些转瞬即逝的量子现象。",
-      "造出的最冷物质会用于日常生活吗？现阶段，这团最冷物质不会直接变成消费品，但它支撑的是下一代精密测量技术，而这类技术恰恰藏在很多日常系统的底层。超冷原子可以被做成灵敏度极高的原子钟、原子干涉仪和量子传感器，用来测量时间、重力和惯性。“手机里的导航，依赖卫星上原子钟提供的精确时间；金融交易的时间戳、电网的同步控制，底层同样是高精度授时。原子钟越稳，定位和同步就越可靠。”中国科学院上海光学精密机械研究所研究员李唐说，在重力测量上，冷原子重力仪可以察觉极微小的重力变化，未来可用于资源勘探、地质灾害监测，甚至在没有GPS信号的环境下做惯性导航。",
-      "往更远处看，9.7皮开尔文带来的超长自由演化时间，还能帮助科学家检验基本物理规律以及寻找暗物质、暗能量的蛛丝马迹。周小计提到，基于这一成果，原子干涉仪的精度有望进一步提升。所以，最冷物质眼下是科学纪录，长远看，它是在给更准的时钟、更灵敏的传感器和更可靠的位置服务打地基。"
-    ],
-    "topics": [
-      "航天与宇宙",
-      "物质与数学"
-    ],
-    "ageBands": [
-      "10-12",
-      "13-16"
-    ],
-    "form": "pick",
-    "source": {
-      "name": "科学网新闻头条",
-      "region": "mainland",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/11/574423.shtm",
-      "originalTitle": "中国空间站造出的已知最冷物质有什么用",
-      "publishedAt": "2026-11-09 08:57",
-      "retrievedAt": "2026-11-10T03:42:00.791Z",
-      "basis": "full-text",
-      "lang": "zh",
-      "profile": "realtime",
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-10T03:41:57.907Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 6,
-        "correctionCount": 0,
-        "attempts": 1
-      }
-    },
-    "en": {
-      "title": "Why China's Space Station Made the Coldest Matter Ever",
-      "intro": "A cloud of rubidium atoms on China's space station reached 9.7 picokelvin. This is the coldest human-made matter ever recorded.",
-      "paragraphs": [
-        "On China's space station, a cloud of rubidium atoms moved only about 500 micrometers in 7 seconds. That is barely wider than a human hair. Its temperature was 9.7 picokelvin. This is the coldest known human-made matter.",
-        "Absolute zero is minus 273.15 degrees Celsius. That equals zero kelvin. At absolute zero, atoms would theoretically stop moving completely. 9.7 picokelvin equals 9.7 × 10⁻¹² kelvin. It is about one trillionth of a kelvin above absolute zero.",
-        "Temperature reflects how fast atoms move. At room temperature, atoms move rapidly. At 9.7 picokelvin, they are nearly motionless. Zhou Xiaoji said this temperature is 14 orders of magnitude lower than room temperature. He called it a new world record. He also called it the lowest temperature known in the universe.",
-        "Gravity prevents such extreme cooling on Earth. On the ground, gravity pulls the atom cloud down. Stronger traps are needed to hold it. Those traps add extra energy. That limits how cold the atoms can get. Ground observation lasts only about 0.05 seconds. In microgravity, atoms float freely. Weak confinement allows deeper cooling. Observation time extends to 7 seconds.",
-        "This ultracold matter will not become a consumer product. But it supports next-generation precision measurement technology. Ultracold atoms can be used to build highly sensitive atomic clocks. They can also be used in atom interferometers and quantum sensors. These tools measure time, gravity, and inertia.",
-        "Phone navigation depends on satellite atomic clocks. Financial transaction timestamps depend on precise timing. Power grid synchronization also depends on precise timing. Cold atom gravimeters can detect tiny gravity changes. They may help with resource exploration. They may help monitor geological hazards. They may enable inertial navigation where GPS is unavailable.",
-        "For now, 9.7 picokelvin is a scientific record. Long-term, it lays the foundation for more accurate clocks. It also supports more sensitive sensors. And it improves positioning reliability. The long free-evolution time helps test fundamental physics. It may help search for dark matter and dark energy."
-      ],
-      "factReview": {
-        "status": "verified",
-        "reviewedAt": "2026-11-10T03:46:52.153Z",
-        "reviewer": "qwen-plus",
-        "evidenceCount": 7,
-        "correctionCount": 0,
-        "attempts": 2
-      }
-    },
-    "image": {
-      "src": "/editorial/2026-11-10/2026-11-10-74cd1d.webp",
-      "alt": "灰色实验腔体内悬浮一团淡蓝灰雾状原子云，周围有同心圆环。",
-      "caption": "被冷却的原子云，逼近绝对零度。",
-      "kind": "editorial"
     }
   }
 ]
